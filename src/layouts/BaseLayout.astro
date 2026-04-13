@@ -1,0 +1,49 @@
+---
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+export interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+}
+
+const { title, description = "Missional Product Design — Evidence-based principles for building technology that serves human flourishing", ogImage } = Astro.props;
+const siteUrl = "https://missional.design";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} — Missional Product Design</title>
+    <meta name="description" content={description} />
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={siteUrl} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    {ogImage && <meta property="og:image" content={`${siteUrl}${ogImage}`} />}
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={siteUrl} />
+    <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={description} />
+    {ogImage && <meta property="twitter:image" content={`${siteUrl}${ogImage}`} />}
+
+    <link rel="canonical" href={siteUrl} />
+    <meta name="theme-color" content="#1A1A2E" />
+  </head>
+
+  <body>
+    <Nav />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

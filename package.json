@@ -1,0 +1,13 @@
+{
+  "name": "missional-design",
+  "version": "1.0.0",
+  "description": "A thought leadership site about missional product design by Tobias Treppmann",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^4.0.0"
+  }
+}

@@ -1,0 +1,86 @@
+---
+---
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-content">
+      <p>Developed by Tobias Treppmann</p>
+      <p>Published alongside <em>Digital Spiritual Formation: The Aperto Vision</em> (2026)</p>
+      <p>
+        <a href="mailto:hello@treppmann.design">hello@treppmann.design</a>
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <a href="https://oratio.co" target="_blank" rel="noopener noreferrer">Oratio.co</a>
+      <a href="https://aperto.bible" target="_blank" rel="noopener noreferrer">Aperto.bible</a>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+    padding: var(--spacing-2xl) 0;
+    margin-top: var(--spacing-2xl);
+    border-top: 1px solid rgba(212, 165, 116, 0.2);
+  }
+
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-lg);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-2xl);
+    align-items: start;
+  }
+
+  .footer-content p {
+    color: rgba(245, 240, 235, 0.8);
+    margin-bottom: var(--spacing-sm);
+    max-width: none;
+  }
+
+  .footer-content em {
+    color: var(--color-accent);
+    font-style: italic;
+  }
+
+  .footer-content a {
+    color: var(--color-accent);
+  }
+
+  .footer-content a:hover {
+    color: var(--color-accent-light);
+  }
+
+  .footer-links {
+    display: flex;
+    gap: var(--spacing-lg);
+    justify-content: flex-end;
+  }
+
+  .footer-links a {
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color var(--transition);
+  }
+
+  .footer-links a:hover {
+    color: var(--color-accent-light);
+  }
+
+  @media (max-width: 768px) {
+    .footer-container {
+      grid-template-columns: 1fr;
+      gap: var(--spacing-lg);
+    }
+
+    .footer-links {
+      justify-content: flex-start;
+    }
+  }
+</style>

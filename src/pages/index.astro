@@ -1,0 +1,184 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Missional Product Design">
+  <div class="container">
+    <section class="hero section">
+      <h1>Missional Product Design</h1>
+      <p class="hero-subtitle">Evidence-based principles for building technology that serves human flourishing</p>
+      <p class="hero-intro">
+        This is a framework developed by Tobias Treppmann in his research paper
+        <em>Digital Spiritual Formation: The Aperto Vision</em> (2026). It provides nine principles and six diagnostic
+        questions for anyone building digital tools for spiritual formation.
+      </p>
+    </section>
+  </div>
+
+  <!-- Manifesto Section -->
+  <section class="section-alt section">
+    <div class="container">
+      <h2>The Manifesto</h2>
+      <p class="text-center" style="max-width: none; margin-bottom: 2rem;">
+        We build digital tools for spiritual formation — and we have learned that what serves formation also produces
+        better products. Through this work, we have come to value <strong>the four values below</strong>. That is, while
+        the items on the right sustain businesses and serve users, we choose the items on the left first when the two
+        conflict.
+      </p>
+
+      <div class="manifesto-values">
+        <div class="manifesto-value">
+          <div class="manifesto-value-left">Formation over</div>
+        </div>
+        <div class="manifesto-value">
+          <div class="manifesto-value-right">Engagement</div>
+        </div>
+
+        <div class="manifesto-value">
+          <div class="manifesto-value-left">Partnership over</div>
+        </div>
+        <div class="manifesto-value">
+          <div class="manifesto-value-right">Persuasion</div>
+        </div>
+
+        <div class="manifesto-value">
+          <div class="manifesto-value-left">Challenge over</div>
+        </div>
+        <div class="manifesto-value">
+          <div class="manifesto-value-right">Comfort</div>
+        </div>
+
+        <div class="manifesto-value">
+          <div class="manifesto-value-left">Community over</div>
+        </div>
+        <div class="manifesto-value">
+          <div class="manifesto-value-right">Platform</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nine Principles Section -->
+  <section class="section">
+    <div class="container">
+      <h2>Nine Principles</h2>
+      <p>
+        A framework for building technology that serves human flourishing through spiritual formation:
+      </p>
+
+      <div class="grid grid-3 mt-lg">
+        <div class="card">
+          <h4>Design for actual engagement patterns</h4>
+          <p>Ambient and receptive modes first, not assumed deep study.</p>
+        </div>
+
+        <div class="card">
+          <h4>Multimodal formation</h4>
+          <p>Audio, music, and guided practice as primary formats, not supplements.</p>
+        </div>
+
+        <div class="card">
+          <h4>Resist spiritual commodification</h4>
+          <p>Transparent tradition sourcing, depth over browsing.</p>
+        </div>
+
+        <div class="card">
+          <h4>Serve communal as well as individual formation</h4>
+          <p>Design for shared engagement and social context.</p>
+        </div>
+
+        <div class="card">
+          <h4>Scaffold toward community without requiring it</h4>
+          <p>Build bridges for liminal users, don't create prerequisites.</p>
+        </div>
+
+        <div class="card">
+          <h4>Grace-based mechanics throughout</h4>
+          <p>No streaks, shame triggers, or social comparison by default.</p>
+        </div>
+
+        <div class="card">
+          <h4>European-specific defaults</h4>
+          <p>Privacy-first, post-Christian assumptions, GDPR as dignity.</p>
+        </div>
+
+        <div class="card">
+          <h4>Serve the spiritually liminal</h4>
+          <p>Guide through personalized companionship, not overwhelming libraries.</p>
+        </div>
+
+        <div class="card">
+          <h4>Formation metrics over engagement metrics</h4>
+          <p>Measure depth and freedom, not daily active users.</p>
+        </div>
+      </div>
+
+      <div class="text-center mt-xl">
+        <a href="/framework" class="btn">Read the Full Framework</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Diagnostic Questions Section -->
+  <section class="section-alt section">
+    <div class="container">
+      <h2>Six Diagnostic Questions</h2>
+      <p>Use these questions to evaluate your own digital tools for spiritual formation:</p>
+
+      <ol class="questions-list mt-lg">
+        <li>
+          <strong>Does this serve formation or engagement metrics?</strong>
+          <p>Is the feature designed to deepen spiritual growth, or to maximize user activity and retention?</p>
+        </li>
+
+        <li>
+          <strong>Freedom or anxiety?</strong>
+          <p>Does this feature increase user autonomy and peace, or does it trigger fear, obligation, or anxiety?</p>
+        </li>
+
+        <li>
+          <strong>Will the user's motivation survive removing the feature?</strong>
+          <p>Is the practice sustainable once the feature is gone, or does it depend entirely on mechanics?</p>
+        </li>
+
+        <li>
+          <strong>Does this honor human dignity and agency?</strong>
+          <p>Are users treated as full humans with wisdom and choice, or as data points to be optimized?</p>
+        </li>
+
+        <li>
+          <strong>If users developed deep communion with God and no longer needed the app, would we celebrate or mourn?</strong>
+          <p>Is success measured by the ultimate goal (spiritual formation), or by the app's role in that journey?</p>
+        </li>
+
+        <li>
+          <strong>If a user had a spiritually dry year, would they feel welcomed back or judged?</strong>
+          <p>Does the system extend grace to struggling users, or shame them for their absence?</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .manifesto-value {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  @media (max-width: 768px) {
+    .manifesto-values {
+      grid-template-columns: 1fr;
+    }
+
+    .manifesto-values > div:nth-child(odd) .manifesto-value-left {
+      text-align: left;
+      margin-bottom: 0.5rem;
+    }
+
+    .manifesto-values > div:nth-child(even) .manifesto-value-right {
+      text-align: left;
+      margin-bottom: 1.5rem;
+    }
+  }
+</style>
