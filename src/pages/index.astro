@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import EmailLink from '../components/EmailLink.astro';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
@@ -175,7 +176,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       </div>
 
       <div style="margin-top: 3rem;">
-        <a href="mailto:hello@treppmann.design" class="button">Get in touch</a>
+        <EmailLink label="Get in touch" class="button" />
       </div>
     </div>
   </section>

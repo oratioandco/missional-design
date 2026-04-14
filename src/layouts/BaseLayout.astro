@@ -40,8 +40,9 @@ const siteUrl = "https://missional.design";
   </head>
 
   <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
     <Nav />
-    <main>
+    <main id="main" tabindex="-1">
       <slot />
     </main>
     <Footer />

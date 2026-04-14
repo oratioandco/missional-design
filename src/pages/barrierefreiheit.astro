@@ -1,0 +1,131 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import EmailLink from '../components/EmailLink.astro';
+import { legal } from '../data/legal';
+---
+
+<BaseLayout title="Barrierefreiheitserklärung" description="Accessibility Statement / Barrierefreiheitserklärung">
+  <section class="hero" style="min-height: 40vh;">
+    <div class="hero-label">Barrierefreiheitserklärung / Accessibility</div>
+    <h1>Barriere-<br/>freiheit.</h1>
+  </section>
+
+  <section class="section">
+    <div class="container-narrow">
+      <h2>Erklärung zur Barrierefreiheit</h2>
+      <p>
+        {legal.operator.name} ist bemüht, diese Website im Einklang mit den nationalen Rechtsvorschriften zur Umsetzung
+        der Richtlinie (EU) 2016/2102 des Europäischen Parlaments und des Rates sowie den Anforderungen des
+        Barrierefreiheitsstärkungsgesetzes (BFSG) und der Barrierefreie-Informationstechnik-Verordnung (BITV 2.0)
+        barrierefrei zugänglich zu machen.
+      </p>
+
+      <h3>Stand der Vereinbarkeit mit den Anforderungen</h3>
+      <p>
+        Diese Website ist <strong>vollständig konform</strong> mit den Web Content Accessibility Guidelines (WCAG) 2.1
+        Level AA.
+      </p>
+
+      <h3>Umgesetzte Maßnahmen</h3>
+      <ul>
+        <li>Semantische HTML-Struktur mit Landmark-Rollen (<code>nav</code>, <code>main</code>, <code>footer</code>)</li>
+        <li>„Skip to main content"-Link für Tastaturnavigation</li>
+        <li>Sichtbare Fokusindikatoren für alle interaktiven Elemente</li>
+        <li>Farbkontraste erfüllen oder überschreiten WCAG AA (4,5:1 für normalen Text, 3:1 für großen Text)</li>
+        <li>Eine einzige <code>h1</code> pro Seite und logische Überschriftshierarchie</li>
+        <li>Dekorative Grafiken (z. B. Venn-Diagramm) sind mit <code>aria-hidden</code> bzw. <code>role="img"</code> und <code>aria-label</code> korrekt ausgezeichnet</li>
+        <li>Alle Animationen und Übergänge werden bei aktiviertem <code>prefers-reduced-motion</code> deaktiviert</li>
+        <li>Vollständig responsives Layout ab 320px Viewport-Breite</li>
+        <li>Keine Tastaturfallen; Formularloser Betrieb (reine Content-Website)</li>
+      </ul>
+
+      <h3>Bekannte Einschränkungen</h3>
+      <p>
+        Nach dem aktuellen Stand sind uns keine Barrieren bekannt. Sollten Sie dennoch auf Hindernisse stoßen, bitten
+        wir um eine kurze Rückmeldung — siehe unten.
+      </p>
+
+      <h3>Zusätzliche Ressource</h3>
+      <p>
+        Der Ministry Model Canvas steht sowohl als <a href="/ministry-model-canvas">strukturierte HTML-Seite</a>
+        (vollständig barrierefrei) als auch als PDF-Download zur Verfügung. Die HTML-Version ist die primäre,
+        barrierefreie Variante.
+      </p>
+
+      <h3>Erstellung der Erklärung</h3>
+      <p>
+        Diese Erklärung wurde am {legal.lastUpdated} erstellt. Die Bewertung basiert auf einer Selbstbewertung.
+      </p>
+
+      <h3>Feedback und Kontaktangaben</h3>
+      <p>
+        Sind Ihnen Mängel beim barrierefreien Zugang zu Inhalten dieser Website aufgefallen? Bitte kontaktieren Sie uns:
+      </p>
+      <p>
+        <strong>{legal.operator.name}</strong><br />
+        E-Mail: <EmailLink user={legal.operator.email.user} domain={legal.operator.email.domain} tld={legal.operator.email.tld} />
+      </p>
+
+      <h3>Durchsetzungsverfahren</h3>
+      <p>
+        Wenn auch nach Ihrem Feedback an die oben genannte Kontaktstelle keine zufriedenstellende Lösung gefunden wurde,
+        können Sie sich an die zuständige Durchsetzungsstelle bzw. Schlichtungsstelle für Barrierefreiheit wenden:
+      </p>
+      <p>
+        <strong>Schlichtungsstelle nach dem Behindertengleichstellungsgesetz (BGG)</strong><br />
+        bei dem Beauftragten der Bundesregierung für die Belange von Menschen mit Behinderungen<br />
+        Mauerstraße 53, 10117 Berlin<br />
+        <a href="https://www.schlichtungsstelle-bgg.de" target="_blank" rel="noopener noreferrer">www.schlichtungsstelle-bgg.de</a>
+      </p>
+
+      <hr/>
+
+      <h2 style="margin-top: 3rem;">Accessibility Statement (English)</h2>
+      <p>
+        {legal.operator.name} is committed to making this website accessible in line with national legislation
+        implementing Directive (EU) 2016/2102 and the German Accessibility Strengthening Act (BFSG).
+      </p>
+      <p>
+        This website is <strong>fully compliant</strong> with the Web Content Accessibility Guidelines (WCAG) 2.1
+        Level AA. Implemented measures include: semantic HTML landmarks, a skip-to-main-content link, visible focus
+        indicators, WCAG-AA color contrast, one <code>h1</code> per page, properly marked decorative graphics,
+        reduced-motion fallbacks for all animations, and responsive layout down to 320px.
+      </p>
+      <p>
+        If you notice accessibility issues on this website, please contact us:
+        <EmailLink user={legal.operator.email.user} domain={legal.operator.email.domain} tld={legal.operator.email.tld} />.
+      </p>
+
+      <p style="margin-top: 3rem; opacity: 0.6; font-size: 0.85rem;">
+        Zuletzt aktualisiert / Last updated: {legal.lastUpdated}
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  h2, h3 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  ul {
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
+    line-height: 1.8;
+  }
+  code {
+    background: rgba(0,0,0,0.05);
+    padding: 0.1em 0.4em;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+  hr {
+    margin: 3rem 0 2rem;
+    border: 0;
+    border-top: 1px solid var(--color-black);
+  }
+</style>

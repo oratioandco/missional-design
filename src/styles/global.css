@@ -31,6 +31,61 @@
   box-sizing: border-box;
 }
 
+/* Accessibility: skip link */
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--color-black);
+  color: var(--color-white);
+  padding: 0.75rem 1.25rem;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  transform: translateY(-120%);
+  transition: transform 150ms ease;
+  z-index: 1000;
+}
+.skip-link:focus,
+.skip-link:focus-visible {
+  transform: translateY(0);
+  outline: 3px solid #ffd400;
+  outline-offset: 2px;
+}
+
+/* Accessibility: visible keyboard focus */
+:focus {
+  outline: none;
+}
+:focus-visible {
+  outline: 3px solid #ffd400;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+.section-dark :focus-visible,
+.section-ink :focus-visible,
+.hero :focus-visible {
+  outline-color: #ffd400;
+}
+
+/* Remove tabindex outline on main wrapper */
+main[tabindex]:focus {
+  outline: none;
+}
+
+/* Accessibility: respect reduced-motion globally */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -195,7 +250,7 @@ em {
   font-weight: 900;
   font-size: 0.9rem;
   letter-spacing: 0.15em;
-  opacity: 0.5;
+  opacity: 0.65;
   margin-bottom: var(--spacing-xs);
   display: block;
 }
@@ -229,19 +284,19 @@ em {
 }
 
 .manifesto-values > .sep {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 0.9rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  opacity: 0.6;
+  opacity: 0.8;
   font-family: var(--font-body);
 }
 
 .manifesto-values > .right {
-  font-weight: 300;
+  font-weight: 400;
   font-size: clamp(1.5rem, 3vw, 2.5rem);
   letter-spacing: -0.02em;
-  opacity: 0.5;
+  opacity: 0.65;
 }
 
 /* Value translations grid (beneath manifesto) */

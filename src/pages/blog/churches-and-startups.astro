@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import EmailLink from '../../components/EmailLink.astro';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
@@ -27,8 +28,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         </p>
 
         <p>
-          I've spent the last decade working in both worlds. I was a product designer at a fast-growing startup, and
-          I've consulted with churches trying to figure out how to stay faithful in communities that no longer speak
+          I've spent the last decade working in both worlds. I was a product designer at a startup, and I've
+          consulted with churches trying to figure out how to stay faithful in communities that no longer speak
           their language. The surface differences are obvious — one sells software, the other proclaims a gospel. But
           the deeper I've gone in each, the more I've been struck by how much of the <em>work</em> is the same.
         </p>
@@ -67,31 +68,39 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
           <em>follow the Spirit</em> versus <em>follow the money</em>:
         </p>
 
-        <figure class="venn">
-          <div class="venn-left">
-            <div class="venn-label">Follow the Spirit</div>
-            <ul>
-              <li>Join what God is doing</li>
-              <li>Faith and obedience</li>
-            </ul>
-          </div>
-          <div class="venn-center">
-            <div class="venn-label">In common</div>
-            <ul>
-              <li>Grand vision</li>
-              <li>Limited resources</li>
-              <li>Stewardship</li>
-              <li>Human-centered perspective</li>
-              <li>Fluid context</li>
-            </ul>
-          </div>
-          <div class="venn-right">
-            <div class="venn-label">Follow the money</div>
-            <ul>
-              <li>Self-determined</li>
-              <li>Profit and success</li>
-            </ul>
-          </div>
+        <figure class="venn" aria-labelledby="venn-title">
+          <p id="venn-title" class="venn-caption">Churches &amp; startups — commonalities and differences</p>
+
+          <svg viewBox="0 0 900 520" role="img" aria-label="Venn diagram showing the overlap between churches and startups">
+            <!-- Left circle: Follow the Spirit (church) -->
+            <ellipse cx="300" cy="260" rx="300" ry="240" fill="rgba(196, 232, 216, 0.85)" stroke="#052e16" stroke-width="1.5" />
+            <!-- Right circle: Follow the money (startup) -->
+            <ellipse cx="600" cy="260" rx="300" ry="240" fill="rgba(245, 215, 225, 0.85)" stroke="#4c1d95" stroke-width="1.5" />
+
+            <!-- Left-only labels -->
+            <text x="140" y="90" class="venn-heading">Follow the Spirit</text>
+            <text x="140" y="220" class="venn-item">Join what God</text>
+            <text x="140" y="245" class="venn-item">is doing</text>
+            <text x="140" y="300" class="venn-item">Faith and</text>
+            <text x="140" y="325" class="venn-item">obedience</text>
+
+            <!-- Right-only labels -->
+            <text x="760" y="90" class="venn-heading" text-anchor="end">Follow the money</text>
+            <text x="760" y="220" class="venn-item" text-anchor="end">Self-determined</text>
+            <text x="760" y="300" class="venn-item" text-anchor="end">Profit and success</text>
+
+            <!-- Overlap (middle) labels -->
+            <text x="450" y="155" class="venn-overlap-item" text-anchor="middle">Grand vision</text>
+            <text x="450" y="200" class="venn-overlap-item" text-anchor="middle">Limited resources</text>
+            <text x="450" y="255" class="venn-overlap-heading" text-anchor="middle">Stewardship</text>
+            <text x="450" y="310" class="venn-overlap-item" text-anchor="middle">Human-centered</text>
+            <text x="450" y="335" class="venn-overlap-item" text-anchor="middle">perspective</text>
+            <text x="450" y="385" class="venn-overlap-item" text-anchor="middle">Fluid context</text>
+          </svg>
+
+          <figcaption class="venn-figcaption">
+            In the middle: the ground both worlds stand on. On the sides: where they diverge.
+          </figcaption>
         </figure>
 
         <p>
@@ -181,7 +190,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <p class="post-footer-note">
           <em>This essay draws on work published as "Missional by Design" (2023) and presented at ICCM Europe. If you're
           building at the intersection of faith, design, and technology, I'd love to hear from you —
-          <a href="mailto:hello@treppmann.design">hello@treppmann.design</a>.</em>
+          <EmailLink />.</em>
         </p>
       </div>
     </div>
@@ -273,48 +282,72 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     opacity: 0.75;
   }
 
-  /* Venn diagram (responsive with flex) */
+  /* Venn diagram — true overlapping ellipses in SVG */
   .venn {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
     margin: 3rem 0;
     padding: 0;
+    max-width: 100%;
   }
-  .venn > div {
-    flex: 1 1 240px;
-    padding: 2rem;
-    border: 1px solid var(--color-black);
+  .venn svg {
+    width: 100%;
+    height: auto;
+    max-width: 900px;
+    display: block;
+    margin: 0 auto;
   }
-  .venn-left {
-    background: var(--color-cream);
-  }
-  .venn-center {
-    background: var(--color-black);
-    color: var(--color-white);
-  }
-  .venn-right {
-    background: var(--color-cream);
-  }
-  .venn-label {
+  .venn-caption {
     font-family: var(--font-display);
     font-weight: 900;
-    font-size: 0.8rem;
+    font-size: 0.75rem !important;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    margin-bottom: 1rem;
-    opacity: 0.8;
+    opacity: 0.6;
+    margin-bottom: 1.5rem !important;
+    text-align: center;
   }
-  .venn ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-family: var(--font-display);
+  .venn-figcaption {
+    font-size: 0.95rem;
+    opacity: 0.65;
+    text-align: center;
+    margin-top: 1rem;
+    font-style: italic;
+    max-width: 60ch;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* SVG text styles */
+  .venn-heading {
+    font-family: var(--font-display), 'Archivo Black', system-ui;
+    font-weight: 900;
+    font-size: 22px;
+    letter-spacing: -0.01em;
+    fill: #1a1a1a;
+  }
+  .venn-item {
+    font-family: var(--font-body), 'Archivo', system-ui;
     font-weight: 400;
-    font-size: 1.1rem;
-    line-height: 1.5;
+    font-size: 18px;
+    fill: #1a1a1a;
   }
-  .venn ul li {
-    margin-bottom: 0.5rem;
+  .venn-overlap-heading {
+    font-family: var(--font-display), 'Archivo Black', system-ui;
+    font-weight: 900;
+    font-size: 20px;
+    fill: #000;
+    letter-spacing: -0.01em;
+  }
+  .venn-overlap-item {
+    font-family: var(--font-body), 'Archivo', system-ui;
+    font-weight: 500;
+    font-size: 17px;
+    fill: #0a0a0a;
+  }
+
+  @media (max-width: 600px) {
+    .venn-heading { font-size: 26px; }
+    .venn-item { font-size: 22px; }
+    .venn-overlap-heading { font-size: 24px; }
+    .venn-overlap-item { font-size: 20px; }
   }
 </style>

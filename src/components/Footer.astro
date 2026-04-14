@@ -1,4 +1,5 @@
 ---
+import EmailLink from './EmailLink.astro';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
@@ -25,11 +26,16 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       <ul style="list-style: none; padding: 0; line-height: 2;">
         <li><a href="https://oratio.co">oratio.co</a></li>
         <li><a href="https://aperto.bible">aperto.bible</a></li>
-        <li><a href="mailto:hello@treppmann.design">hello@treppmann.design</a></li>
+        <li><EmailLink /></li>
       </ul>
     </div>
   </div>
-  <div style="opacity: 0.5; font-size: 0.75rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1);">
-    © 2026 Tobias Treppmann
+  <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; opacity: 0.5; font-size: 0.75rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1);">
+    <div>© 2026 Tobias Treppmann</div>
+    <ul style="list-style: none; padding: 0; margin: 0; display: flex; gap: 1.5rem;">
+      <li><a href={`${base}/impressum`}>Impressum</a></li>
+      <li><a href={`${base}/datenschutz`}>Datenschutz</a></li>
+      <li><a href={`${base}/barrierefreiheit`}>Barrierefreiheit</a></li>
+    </ul>
   </div>
 </footer>
