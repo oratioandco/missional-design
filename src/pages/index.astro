@@ -3,28 +3,95 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
-<BaseLayout title="Missional Design">
+<BaseLayout title="Missional by Design">
   <!-- Hero -->
   <section class="hero">
-    <div class="hero-label">A framework by Tobias Treppmann · 2026</div>
-    <h1>Missional<br/>Design.</h1>
+    <div class="hero-label">Tobias Treppmann · Oratio&Co</div>
+    <h1>Missional<br/>by Design.</h1>
     <p class="hero-subtitle">
-      Evidence-based principles for building technology that serves human flourishing — through spiritual formation,
-      ministry innovation, and product decisions that honor the people who use them.
+      Strategic design, theological reflection, and ministry innovation — for churches, startups, and the teams
+      building technology that serves human flourishing.
     </p>
     <div style="margin-top: 2.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
-      <a href={`${base}/framework`} class="button">Read the Framework</a>
+      <a href={`${base}/ministry-model-canvas`} class="button">Ministry Model Canvas</a>
+      <a href={`${base}/framework`} class="button" style="background: transparent; color: var(--color-white); border: 1px solid var(--color-white);">Product Design Framework</a>
     </div>
   </section>
 
-  <!-- Manifesto -->
+  <!-- The Thesis -->
   <section class="section section-cream">
     <div class="container">
+      <div style="max-width: 70ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">The Thesis</div>
+        <h2>All ministry<br/>is designed.</h2>
+        <p class="lead" style="margin-top: 2rem;">
+          "All ministry is designed — whether you know it or not." — <em>Tyler Prieb, Missional Labs</em>
+        </p>
+        <p class="lead">
+          In rapidly changing contexts, faithful witness requires continual re-contextualization. Churches and ministry
+          teams need the same strategic muscles that startups have developed over the last two decades: cultural
+          exegesis, rapid iteration, user-centered thinking, honest measurement.
+        </p>
+        <p class="lead">
+          <strong>Missional by Design</strong> is a body of work that adapts these tools — rigorously and theologically — for ministry.
+          It includes strategic frameworks for churches, principles for building digital tools that serve formation, and
+          consulting for teams working at the intersection of faith, design, and technology.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Three Pillars -->
+  <section class="section section-dark">
+    <div class="container">
+      <div style="margin-bottom: 4rem; max-width: 60ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">The Work</div>
+        <h2>Three tools.<br/>One approach.</h2>
+      </div>
+
+      <div class="grid grid-3">
+        <a href={`${base}/ministry-model-canvas`} class="pillar-card">
+          <div class="pillar-card-num">01</div>
+          <h3>Ministry Model Canvas</h3>
+          <p>
+            A nine-block strategic planning framework for churches and ministries — adapted from the Business Model
+            Canvas to help teams clarify their target, name their good news, and design toward missional effectiveness.
+          </p>
+          <div class="pillar-card-link">Explore the canvas →</div>
+        </a>
+
+        <a href={`${base}/framework`} class="pillar-card">
+          <div class="pillar-card-num">02</div>
+          <h3>Missional Product Design</h3>
+          <p>
+            Nine principles and six diagnostic questions for building digital tools that serve spiritual formation —
+            resisting engagement optimization in favor of human flourishing. Drawn from 195+ sources across theology,
+            behavioral science, and product design.
+          </p>
+          <div class="pillar-card-link">Read the framework →</div>
+        </a>
+
+        <a href={`${base}/blog`} class="pillar-card">
+          <div class="pillar-card-num">03</div>
+          <h3>Writing</h3>
+          <p>
+            Essays on missional design, digital formation, ministry innovation, and the surprising overlap between
+            churches and startups. Thought leadership from the field, not the seminar room.
+          </p>
+          <div class="pillar-card-link">Read the essays →</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Manifesto - specifically scoped to product design now -->
+  <section class="section">
+    <div class="container">
       <div style="margin-bottom: 3rem; max-width: 70ch;">
-        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">The Manifesto</div>
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">The Manifesto · Product Design</div>
         <h2>Four values<br/>we choose first.</h2>
         <p class="lead" style="margin-top: 2rem;">
-          We build digital tools for spiritual formation — and have learned that what serves formation also produces
+          When building technology for spiritual formation, we have learned that what serves formation also produces
           better products. While the items on the right sustain businesses and serve users, we choose the items on
           the left first when the two conflict.
         </p>
@@ -47,162 +114,37 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <div class="sep">over</div>
         <div class="right">Platform</div>
       </div>
-    </div>
-  </section>
 
-  <!-- Nine Principles -->
-  <section class="section section-dark">
-    <div class="container">
-      <div style="margin-bottom: 4rem; max-width: 60ch;">
-        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Nine Principles</div>
-        <h2>How we build<br/>for formation.</h2>
-      </div>
-
-      <div class="grid grid-3">
-        <div class="principle">
-          <span class="principle-number">01</span>
-          <h4>Design for actual engagement patterns</h4>
-          <p>Ambient and receptive modes first, not assumed deep study.</p>
-        </div>
-        <div class="principle">
-          <span class="principle-number">02</span>
-          <h4>Multimodal formation</h4>
-          <p>Audio, music, and guided practice as primary formats, not supplements.</p>
-        </div>
-        <div class="principle">
-          <span class="principle-number">03</span>
-          <h4>Resist spiritual commodification</h4>
-          <p>Transparent tradition sourcing, depth over browsing, communal accountability.</p>
-        </div>
-        <div class="principle">
-          <span class="principle-number">04</span>
-          <h4>Serve communal as well as individual formation</h4>
-          <p>Design for shared engagement and social context.</p>
-        </div>
-        <div class="principle">
-          <span class="principle-number">05</span>
-          <h4>Scaffold toward community without requiring it</h4>
-          <p>Build bridges for the liminal, don't create prerequisites.</p>
-        </div>
-        <div class="principle">
-          <span class="principle-number">06</span>
-          <h4>Grace-based mechanics throughout</h4>
-          <p>No default streaks, shame triggers, or social comparison. Opt-in accountability only.</p>
-        </div>
-        <div class="principle">
-          <span class="principle-number">07</span>
-          <h4>European-specific defaults</h4>
-          <p>Privacy-first architecture, multi-tradition hospitality, post-Christian assumptions.</p>
-        </div>
-        <div class="principle">
-          <span class="principle-number">08</span>
-          <h4>Serve the spiritually liminal</h4>
-          <p>Personalized companionship, not overwhelming libraries.</p>
-        </div>
-        <div class="principle">
-          <span class="principle-number">09</span>
-          <h4>Formation metrics over engagement metrics</h4>
-          <p>Measure depth and freedom — not daily active users.</p>
-        </div>
-      </div>
-
-      <div style="margin-top: 4rem;">
-        <a href={`${base}/framework`} class="button">Read each principle in full</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Six Questions -->
-  <section class="section section-ink">
-    <div class="container">
-      <div style="margin-bottom: 4rem; max-width: 60ch;">
-        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Six Questions</div>
-        <h2>Ask these<br/>before you ship.</h2>
-        <p class="lead" style="margin-top: 2rem; opacity: 0.85;">
-          Diagnostic questions to help teams evaluate whether their features serve formation or engagement.
-        </p>
-      </div>
-
-      <div>
-        <div class="question">
-          <div class="question-number">01</div>
-          <div class="question-text">Does this serve formation or engagement metrics?</div>
-        </div>
-        <div class="question">
-          <div class="question-number">02</div>
-          <div class="question-text">Freedom or anxiety?</div>
-        </div>
-        <div class="question">
-          <div class="question-number">03</div>
-          <div class="question-text">Will the user's motivation survive removing the feature?</div>
-        </div>
-        <div class="question">
-          <div class="question-number">04</div>
-          <div class="question-text">Does this honor human dignity and agency?</div>
-        </div>
-        <div class="question">
-          <div class="question-number">05</div>
-          <div class="question-text">If users developed deep communion with God and no longer needed the app, would we celebrate or mourn?</div>
-        </div>
-        <div class="question">
-          <div class="question-number">06</div>
-          <div class="question-text">If a user had a spiritually dry year, would they feel welcomed back or judged?</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Ministry Model Canvas -->
-  <section class="section section-cream">
-    <div class="container">
-      <div class="grid grid-2" style="align-items: center; gap: 4rem;">
-        <div>
-          <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Also: The Canvas</div>
-          <h2>Ministry<br/>Model Canvas.</h2>
-          <p class="lead" style="margin-top: 2rem;">
-            A nine-block strategic planning framework for churches — adapted from the Business Model Canvas to help teams clarify
-            their mission, name their target audience, and design toward missional effectiveness.
-          </p>
-          <div style="margin-top: 2rem;">
-            <a href={`${base}/ministry-model-canvas`} class="button">Explore the canvas</a>
-          </div>
-        </div>
-        <div style="border: 1px solid var(--color-black); padding: 0; background: var(--color-white); display: grid; grid-template-columns: repeat(5, 1fr); aspect-ratio: 5/3; font-family: var(--font-display); font-weight: 900; font-size: 0.65rem; letter-spacing: -0.01em;">
-          <div style="grid-column: 1; grid-row: 1/3; padding: 0.75rem; border-right: 1px solid var(--color-black); display: flex; align-items: flex-start;">Connecting<br/>Factor</div>
-          <div style="grid-column: 2; grid-row: 1; padding: 0.75rem; border-right: 1px solid var(--color-black); border-bottom: 1px solid var(--color-black);">Key<br/>Activities</div>
-          <div style="grid-column: 2; grid-row: 2; padding: 0.75rem; border-right: 1px solid var(--color-black);">Resources</div>
-          <div style="grid-column: 3; grid-row: 1/3; padding: 0.75rem; border-right: 1px solid var(--color-black); display: flex; align-items: flex-start;">Missional<br/>Identity</div>
-          <div style="grid-column: 4; grid-row: 1; padding: 0.75rem; border-right: 1px solid var(--color-black); border-bottom: 1px solid var(--color-black);">Relation-<br/>ships</div>
-          <div style="grid-column: 4; grid-row: 2; padding: 0.75rem; border-right: 1px solid var(--color-black);">Channels</div>
-          <div style="grid-column: 5; grid-row: 1/3; padding: 0.75rem; display: flex; align-items: flex-start;">Target<br/>Audience</div>
-          <div style="grid-column: 1/3; grid-row: 3; padding: 0.75rem; border-top: 1px solid var(--color-black); border-right: 1px solid var(--color-black);">Budget</div>
-          <div style="grid-column: 3/6; grid-row: 3; padding: 0.75rem; border-top: 1px solid var(--color-black);">Assessing Missional Effectiveness</div>
-        </div>
+      <div style="margin-top: 3rem;">
+        <a href={`${base}/framework`} class="button">Read the full framework</a>
       </div>
     </div>
   </section>
 
   <!-- Work with us / services -->
-  <section class="section">
+  <section class="section section-ink">
     <div class="container">
       <div style="margin-bottom: 3rem; max-width: 60ch;">
         <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Work With Us</div>
-        <h2>Put the framework<br/>to work.</h2>
+        <h2>For teams<br/>putting it into practice.</h2>
+        <p class="lead" style="margin-top: 2rem; opacity: 0.9;">
+          Consulting, facilitation, and training for churches, ministries, and faith-driven teams building new things.
+        </p>
       </div>
 
       <div class="grid grid-3">
-        <div style="padding: 2rem; background: var(--color-cream); border: 1px solid var(--color-black);">
-          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">01 · Consultation</div>
+        <div style="padding: 2rem; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; opacity: 0.7;">01 · Consultation</div>
           <h4>Ministry Consultation</h4>
-          <p>Personalized consultation to help your ministry navigate the challenges of building effective, faithful technology in the 21st century.</p>
+          <p>Personalized consultation to help your ministry navigate the challenges of building effective, faithful technology and ministry models in the 21st century.</p>
         </div>
-        <div style="padding: 2rem; background: var(--color-cream); border: 1px solid var(--color-black);">
-          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">02 · Training</div>
+        <div style="padding: 2rem; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; opacity: 0.7;">02 · Training</div>
           <h4>Innovation Training</h4>
-          <p>Equipping your team with the skills and frameworks to implement innovative, formation-centered strategies in your ministry or product.</p>
+          <p>Equipping your team with the skills and frameworks to implement formation-centered strategies — workshops on the canvas, the framework, and applied design thinking for ministry.</p>
         </div>
-        <div style="padding: 2rem; background: var(--color-cream); border: 1px solid var(--color-black);">
-          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">03 · Cohort</div>
+        <div style="padding: 2rem; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; opacity: 0.7;">03 · Cohort</div>
           <h4>Online Ministry Innovation Cohort</h4>
           <p>Join a community of practitioners working at the intersection of faith, design, and technology — sharing experience and learning together.</p>
         </div>
@@ -214,3 +156,51 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     </div>
   </section>
 </BaseLayout>
+
+<style>
+  .pillar-card {
+    display: block;
+    padding: 2.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: var(--color-white);
+    text-decoration: none;
+    transition: all var(--transition);
+    position: relative;
+  }
+
+  .pillar-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.3);
+    opacity: 1;
+  }
+
+  .pillar-card-num {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 0.8rem;
+    letter-spacing: 0.2em;
+    margin-bottom: 1.5rem;
+    opacity: 0.5;
+  }
+
+  .pillar-card h3 {
+    margin-bottom: 1rem;
+  }
+
+  .pillar-card p {
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .pillar-card-link {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+</style>

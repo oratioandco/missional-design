@@ -9,7 +9,7 @@ export interface Props {
   ogImage?: string;
 }
 
-const { title, description = "Missional Product Design — Evidence-based principles for building technology that serves human flourishing", ogImage } = Astro.props;
+const { title, description = "Missional by Design — Strategic design, theological reflection, and ministry innovation for churches, startups, and the teams building technology for human flourishing.", ogImage } = Astro.props;
 const siteUrl = "https://missional.design";
 ---
 
@@ -18,7 +18,7 @@ const siteUrl = "https://missional.design";
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title === 'Missional Design' ? 'Missional Design' : `${title} — Missional Design`}</title>
+    <title>{title === 'Missional by Design' ? 'Missional by Design' : `${title} — Missional by Design`}</title>
     <meta name="description" content={description} />
 
     <!-- Open Graph / Social Media -->
