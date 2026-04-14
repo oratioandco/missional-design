@@ -1,0 +1,441 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const blocks = [
+  {
+    num: '01',
+    title: 'Target Audience',
+    questions: [
+      'Who is our most important target audience?',
+      'Which sub-groups exist? (e.g. families contain parents, kids, youth)',
+      "What role do faith and spirituality play in the target audience's lives?",
+    ],
+    area: 'target',
+  },
+  {
+    num: '02',
+    title: 'Connecting Factor',
+    questions: [
+      'Top 3 connecting factors (e.g. problems, needs, interests).',
+      "What unique, interest-based activities can we offer that align with our ministry's values and the interests of our target audience?",
+    ],
+    area: 'connecting',
+  },
+  {
+    num: '03',
+    title: 'Missional Identity',
+    questions: [
+      'What really is the good news in our context?',
+      "How does our church reflect God's mission in the world?",
+      'What aspects of our ministry are particularly compelling in our particular context?',
+    ],
+    area: 'identity',
+  },
+  {
+    num: '04',
+    title: 'Relationships',
+    questions: [
+      'What type of relationship do they expect from us? (community, co-creation, accountability, self-service, automation)',
+      'In what ways can we ensure our relational offerings are accessible and appealing to those new to faith?',
+    ],
+    area: 'relationships',
+  },
+  {
+    num: '05',
+    title: 'Key Activities',
+    questions: [
+      'What are the primary activities required to connect with and serve our target audience effectively?',
+      'Which activities do we need to sustain this model long-term? (worship services, communication, events, training)',
+    ],
+    area: 'activities',
+  },
+  {
+    num: '06',
+    title: 'Channels',
+    questions: [
+      'Where and how will we reach the target audience?',
+      'What relationships do we already have, what relationships do we need to establish? (target audience, city, partner organizations)',
+    ],
+    area: 'channels',
+  },
+  {
+    num: '07',
+    title: 'Resources',
+    questions: [
+      'What resources do we need? (Financial, Volunteers, Staff, Partnerships, Equipment/Technology, Location)',
+      'What existing relationships or networks can we leverage to connect with our target audience?',
+    ],
+    area: 'resources',
+  },
+  {
+    num: '08',
+    title: 'Budget',
+    questions: [
+      'What are the costs? (rent, salaries, utilities, communication, technology, materials)',
+    ],
+    area: 'budget',
+  },
+  {
+    num: '09',
+    title: 'Assessing Missional Effectiveness',
+    questions: [
+      "How can we cultivate a posture of prayerful discernment and openness to the Holy Spirit as we assess our church's missional effectiveness?",
+      "How can we design SMART criteria that align with our church's God-given mission?",
+    ],
+    area: 'assessment',
+  },
+];
+---
+
+<BaseLayout title="Ministry Model Canvas">
+  <!-- Hero -->
+  <section class="hero" style="min-height: 60vh;">
+    <div class="hero-label">A strategic planning framework</div>
+    <h1>Ministry<br/>Model Canvas.</h1>
+    <p class="hero-subtitle">
+      A nine-block strategic planning framework for churches and ministries — adapted from the Business Model Canvas to help
+      teams clarify their mission, name their target, and design toward missional effectiveness.
+    </p>
+    <div style="margin-top: 2.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href={`${base}/ministry-model-canvas.pdf`} class="button" download>Download the PDF</a>
+    </div>
+  </section>
+
+  <!-- Background -->
+  <section class="section section-cream">
+    <div class="container">
+      <div style="max-width: 70ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Background</div>
+        <h2>Why churches<br/>need a canvas.</h2>
+        <p class="lead" style="margin-top: 2rem;">
+          In today's rapidly changing world, an effective witness requires continual re-contextualization of the gospel.
+          That demands cultural exegesis, strategic reflection, and organizational agility — work most church teams aren't
+          equipped to do with the tools they have.
+        </p>
+        <p class="lead">
+          The <strong>Business Model Canvas</strong> by Alexander Osterwalder and Strategyzer gave the startup world a shared
+          artifact for strategic thinking — one page, nine blocks, a whole strategy visible at a glance. It transformed how
+          teams talk about what they do and who they serve.
+        </p>
+        <p class="lead">
+          The <strong>Ministry Model Canvas</strong> adapts that same shape for churches and ministries. It keeps the nine-block
+          logic but replaces product-market language with ministry-mission language: target audience instead of customer
+          segments, missional identity instead of value proposition, connecting factor instead of customer problem. The result
+          is a tool that translates — without losing the theological weight of what churches actually do.
+        </p>
+        <p class="lead">
+          It was developed by <a href="https://oratio.co">Tobias Treppmann / Oratio&Co</a> and has been used with churches and
+          ministry teams across Europe.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Canvas -->
+  <section class="section">
+    <div class="container">
+      <div style="margin-bottom: 3rem; max-width: 60ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">The Canvas</div>
+        <h2>Nine blocks.<br/>One page.</h2>
+      </div>
+
+      <div class="canvas">
+        {blocks.map((b) => (
+          <div class={`canvas-block canvas-${b.area}`}>
+            <div class="canvas-block-num">{b.num}</div>
+            <div class="canvas-block-title">{b.title}</div>
+            <ul class="canvas-block-questions">
+              {b.questions.map((q) => <li>{q}</li>)}
+            </ul>
+          </div>
+        ))}
+      </div>
+
+      <div style="margin-top: 2rem;">
+        <a href={`${base}/ministry-model-canvas.pdf`} class="button" download>Download printable PDF</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instructions -->
+  <section class="section section-dark">
+    <div class="container">
+      <div style="margin-bottom: 4rem; max-width: 60ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">How To Run A Session</div>
+        <h2>A workshop,<br/>not a worksheet.</h2>
+        <p class="lead" style="margin-top: 2rem; opacity: 0.9;">
+          The canvas is most useful as a shared conversation tool. Here's how we run canvas sessions with ministry teams.
+        </p>
+      </div>
+
+      <div class="grid grid-2" style="gap: 4rem;">
+        <div>
+          <div class="step">
+            <span class="principle-number">Step 01 · Prepare</span>
+            <h4>Who's in the room?</h4>
+            <p style="font-weight: 300; line-height: 1.5;">
+              Invite 4–8 people who actually shape the ministry — staff, key volunteers, and one or two people from the target
+              audience if possible. Block 2–3 hours. Print the canvas at A1 or tape it out on a wall. Grab sticky notes.
+            </p>
+          </div>
+
+          <div class="step">
+            <span class="principle-number">Step 02 · Start with the target</span>
+            <h4>Block 01 first. Always.</h4>
+            <p style="font-weight: 300; line-height: 1.5;">
+              Who is this ministry for? Be specific. "The community" is not a target audience — "parents of young children in
+              the two neighborhoods south of the church" is. Everything downstream depends on this.
+            </p>
+          </div>
+
+          <div class="step">
+            <span class="principle-number">Step 03 · Connecting factor</span>
+            <h4>Block 02 · What draws them?</h4>
+            <p style="font-weight: 300; line-height: 1.5;">
+              Not what <em>you</em> want to offer — what <em>they</em> are already looking for. Problems, needs, interests,
+              longings. If you can't name three, you haven't spent enough time with them.
+            </p>
+          </div>
+
+          <div class="step">
+            <span class="principle-number">Step 04 · Missional identity</span>
+            <h4>Block 03 · What's the good news here?</h4>
+            <p style="font-weight: 300; line-height: 1.5;">
+              The theological core. Not a statement cribbed from another church — your specific articulation of the gospel in
+              this context, for these people. This is where theological reflection meets strategic clarity.
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <div class="step">
+            <span class="principle-number">Step 05 · Right side first</span>
+            <h4>Blocks 04, 05, 06 · How will you connect?</h4>
+            <p style="font-weight: 300; line-height: 1.5;">
+              Relationships, Key Activities, Channels. What kind of relational posture will you have? What activities sustain
+              that posture? Where and how do you reach people? These three define the experience side of your ministry.
+            </p>
+          </div>
+
+          <div class="step">
+            <span class="principle-number">Step 06 · Left side</span>
+            <h4>Blocks 07, 08 · What will it cost?</h4>
+            <p style="font-weight: 300; line-height: 1.5;">
+              Resources and Budget. Be honest. What do you actually need — people, space, money, partnerships? This is where
+              vision meets reality. If Blocks 01–06 are bigger than Blocks 07–08 can sustain, something has to change.
+            </p>
+          </div>
+
+          <div class="step">
+            <span class="principle-number">Step 07 · Effectiveness</span>
+            <h4>Block 09 · How will you know?</h4>
+            <p style="font-weight: 300; line-height: 1.5;">
+              Design measurable, mission-aligned indicators — but hold them with prayerful discernment, not just spreadsheet
+              logic. The Holy Spirit's work doesn't always show up in a dashboard. Still, ask: how will we know if we're
+              faithful and fruitful?
+            </p>
+          </div>
+
+          <div class="step">
+            <span class="principle-number">Step 08 · Revisit</span>
+            <h4>Every quarter.</h4>
+            <p style="font-weight: 300; line-height: 1.5;">
+              A canvas is a living document. Date it. Version it. Revisit it every quarter. When context shifts — and it will —
+              you have a shared baseline to reason from instead of starting the conversation over.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tips -->
+  <section class="section section-cream">
+    <div class="container">
+      <div style="margin-bottom: 3rem; max-width: 60ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Tips From The Field</div>
+        <h2>What to watch for.</h2>
+      </div>
+
+      <div class="grid grid-3">
+        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">Tip 01</div>
+          <h4>Keep it on one page.</h4>
+          <p>The discipline is the page. If a block sprawls across three pages of strategy docs, you've lost the point of the canvas.</p>
+        </div>
+        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">Tip 02</div>
+          <h4>Use sticky notes.</h4>
+          <p>Drafting directly on the canvas makes revision feel permanent. Stickies let you move, reword, and throw away without precious commitments.</p>
+        </div>
+        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">Tip 03</div>
+          <h4>Name the target narrowly.</h4>
+          <p>The instinct is to write "everyone." Resist it. A focused target audience is the difference between a generic ministry and one that actually connects.</p>
+        </div>
+        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">Tip 04</div>
+          <h4>Separate current from aspirational.</h4>
+          <p>Run two canvases: where you are today, and where you're heading. The gap between them is your strategy.</p>
+        </div>
+        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">Tip 05</div>
+          <h4>Theology in Block 03.</h4>
+          <p>Missional identity is not a marketing slogan. Take the time to work through theological reflection — it's the load-bearing block.</p>
+        </div>
+        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">Tip 06</div>
+          <h4>Pray before, during, after.</h4>
+          <p>Strategic planning for the church is spiritual work. Bookend the session with prayer. Pause to listen when a block feels stuck.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- License & Attribution -->
+  <section class="section">
+    <div class="container">
+      <div style="max-width: 70ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">License &amp; Attribution</div>
+        <h3>Free to use. Attribute when shared.</h3>
+        <p class="lead" style="margin-top: 1.5rem;">
+          The Ministry Model Canvas is adapted from <a href="https://www.businessmodelgeneration.com">The Business Model Canvas</a> by Strategyzer,
+          and is licensed under the <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share Alike 3.0 Unported License</a>.
+          You're welcome to use it, adapt it, and share it — please credit the source and keep the license intact.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section-ink">
+    <div class="container">
+      <div style="max-width: 60ch;">
+        <h2>Want help running<br/>a canvas session?</h2>
+        <p class="lead" style="margin-top: 2rem; opacity: 0.9;">
+          We facilitate strategic planning workshops with churches and ministries — in person or remote. Get in touch and
+          we'll send a sample session plan.
+        </p>
+        <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+          <a href="mailto:hello@treppmann.design" class="button">Get in touch</a>
+          <a href={`${base}/ministry-model-canvas.pdf`} class="button" style="background: transparent; color: var(--color-white); border: 1px solid var(--color-white);" download>Download the PDF</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .canvas {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      'connecting activities identity  relationships target'
+      'connecting resources  identity  channels      target'
+      'budget     budget     assessment assessment   assessment';
+    gap: 0;
+    border: 1px solid var(--color-black);
+    background: var(--color-black);
+  }
+
+  .canvas-block {
+    background: var(--color-white);
+    padding: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    border: 0.5px solid var(--color-black);
+    min-height: 180px;
+  }
+
+  .canvas-target      { grid-area: target; }
+  .canvas-connecting  { grid-area: connecting; }
+  .canvas-identity    { grid-area: identity; }
+  .canvas-relationships { grid-area: relationships; }
+  .canvas-activities  { grid-area: activities; }
+  .canvas-channels    { grid-area: channels; }
+  .canvas-resources   { grid-area: resources; }
+  .canvas-budget      { grid-area: budget; }
+  .canvas-assessment  { grid-area: assessment; }
+
+  .canvas-block-num {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1;
+    color: var(--color-black);
+    opacity: 0.08;
+  }
+
+  .canvas-block-title {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 0.95rem;
+    letter-spacing: -0.01em;
+    margin-bottom: 0.75rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .canvas-block-questions {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: var(--color-muted);
+  }
+
+  .canvas-block-questions li {
+    margin-bottom: 0.5rem;
+  }
+
+  .step {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+  }
+  .step:last-child {
+    border-bottom: 0;
+  }
+  .step h4 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  @media (max-width: 900px) {
+    .canvas {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        'target       target'
+        'connecting   identity'
+        'relationships activities'
+        'channels     resources'
+        'budget       budget'
+        'assessment   assessment';
+    }
+    .canvas-block-num {
+      font-size: 2.5rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .canvas {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        'target'
+        'connecting'
+        'identity'
+        'relationships'
+        'activities'
+        'channels'
+        'resources'
+        'budget'
+        'assessment';
+    }
+  }
+</style>
