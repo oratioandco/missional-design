@@ -1,278 +1,164 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const principles = [
+  {
+    num: '01',
+    title: 'Design for actual engagement patterns',
+    body: 'Ambient and receptive modes first, not assumed deep study. The dominant mode is reactive, situational, and brief. Audio is the fastest-growing format. Reading plans fail at 50% dropout. A next-generation app must make ambient and receptive engagement first-class citizens.',
+  },
+  {
+    num: '02',
+    title: 'Multimodal formation',
+    body: 'Audio, music, contemplative silence, and guided practice as primary formats, not supplements to reading. The Christian tradition has always formed through multiple modes; digital tools should recover that breadth.',
+  },
+  {
+    num: '03',
+    title: 'Resist spiritual commodification',
+    body: 'Transparent tradition sourcing, depth over browsing, communal accountability. Name traditions (Ignatian, Benedictine, Franciscan, Orthodox). Encourage commitment to a single practice for sustained periods rather than daily sampling.',
+  },
+  {
+    num: '04',
+    title: 'Serve communal as well as individual formation',
+    body: 'Design for shared engagement and social context. Individual practice disconnected from community risks consumerism. Structural prompts toward communal engagement counter the privatization tendency.',
+  },
+  {
+    num: '05',
+    title: 'Scaffold toward community without requiring it',
+    body: 'Liminal users cannot be told to "find a church"; build bridges, don\'t create prerequisites. Begin alone, develop spiritual rhythm, then grow toward embodied community.',
+  },
+  {
+    num: '06',
+    title: 'Grace-based mechanics throughout',
+    body: 'No default streaks, shame triggers, or social comparison. Opt-in accountability. The ethical line is consent: the user choosing tools for their own formation, not the platform deploying mechanics for its retention. The animating question: does this serve freedom or fear? Grace or guilt? Formation or metrics?',
+  },
+  {
+    num: '07',
+    title: 'European-specific defaults',
+    body: 'Privacy-first architecture, multi-tradition hospitality, post-Christian assumptions, GDPR as dignity commitment. A European spiritual app cannot localize an American product wholesale.',
+  },
+  {
+    num: '08',
+    title: 'Serve the spiritually liminal',
+    body: 'Guide through personalized companionship, not overwhelming libraries. The liminal user asking "where do I start?" needs a companion who listens, not a catalog that searches.',
+  },
+  {
+    num: '09',
+    title: 'Formation metrics over engagement metrics',
+    body: "Measure depth and freedom, not daily active users and streak completions. If the app doesn't serve growth, users cancel — and that's the point.",
+  },
+];
+
+const questions = [
+  'Does this serve formation or engagement metrics?',
+  'Freedom or anxiety?',
+  "Will the user's motivation survive removing the feature?",
+  'Does this honor human dignity and agency?',
+  'If users developed deep communion with God and no longer needed the app, would we celebrate or mourn?',
+  'If a user had a spiritually dry year, would they feel welcomed back or judged?',
+];
+
+const tensions = [
+  {
+    title: 'Brief engagement vs. commodification',
+    body: 'Ambient modes serve real engagement patterns, but risk reducing formation to a feed. The resolution: ambient features that name the tradition, depth of source, and commitment to practice.',
+  },
+  {
+    title: 'Community requirement vs. liminal reality',
+    body: 'Formation is communal, but many users are not connected to embodied community and cannot be coerced into it. The resolution: scaffold bridges that invite rather than gate.',
+  },
+  {
+    title: 'Regular practice vs. anti-streak design',
+    body: 'Formation requires habit, but streak mechanics weaponize habit against the user. The resolution: invitations to rhythm without punishment for rupture.',
+  },
+];
 ---
 
-<BaseLayout
-  title="Framework"
-  description="The complete missional product design framework — nine principles for building technology that serves spiritual formation."
->
-  <div class="container">
-    <section class="section">
-      <h1>The Missional Product Design Framework</h1>
-      <p class="text-muted" style="max-width: none; font-size: 1.1rem;">
-        A comprehensive guide to building digital tools that serve spiritual formation and human flourishing.
-      </p>
-    </section>
-  </div>
+<BaseLayout title="The Framework">
+  <!-- Hero -->
+  <section class="hero" style="min-height: 60vh;">
+    <div class="hero-label">Missional Design · The Framework</div>
+    <h1>Nine<br/>Principles.</h1>
+    <p class="hero-subtitle">
+      A framework for building technology that serves human flourishing through spiritual formation.
+      Each principle emerged from 195+ sources across theology, behavioral science, and product design.
+    </p>
+  </section>
 
-  <!-- Nine Principles In Depth -->
+  <!-- Principles -->
   <section class="section">
     <div class="container">
-      <h2>The Nine Principles</h2>
-
-      <article class="principle mt-xl">
-        <h4>1. Design for actual engagement patterns</h4>
-        <p>
-          Ambient and receptive modes first, not assumed deep study. The dominant mode is reactive, situational, and
-          brief. Audio is the fastest-growing format. Reading plans fail at 50% dropout. A next-generation app must make
-          ambient and receptive engagement first-class citizens.
-        </p>
-      </article>
-
-      <article class="principle">
-        <h4>2. Multimodal formation</h4>
-        <p>
-          Audio, music, contemplative silence, and guided practice as primary formats, not supplements to reading. The
-          Christian tradition has always formed through multiple modes; digital tools should recover that breadth.
-        </p>
-      </article>
-
-      <article class="principle">
-        <h4>3. Resist spiritual commodification</h4>
-        <p>
-          Transparent tradition sourcing, depth over browsing, communal accountability. Name traditions (Ignatian,
-          Benedictine, Franciscan, Orthodox). Encourage commitment to a single practice for sustained periods rather than
-          daily sampling.
-        </p>
-      </article>
-
-      <article class="principle">
-        <h4>4. Serve communal as well as individual formation</h4>
-        <p>
-          Design for shared engagement and social context. Individual practice disconnected from community risks
-          consumerism. Structural prompts toward communal engagement counter the privatization tendency.
-        </p>
-      </article>
-
-      <article class="principle">
-        <h4>5. Scaffold toward community without requiring it</h4>
-        <p>
-          Liminal users cannot be told to "find a church"; build bridges, don't create prerequisites. Begin alone, develop
-          spiritual rhythm, then grow toward embodied community.
-        </p>
-      </article>
-
-      <article class="principle">
-        <h4>6. Grace-based mechanics throughout</h4>
-        <p>
-          No default streaks, shame triggers, or social comparison. Opt-in accountability. The ethical line is consent:
-          the user choosing tools for their own formation, not the platform deploying mechanics for its retention. The
-          animating question: does this serve freedom or fear? Grace or guilt? Formation or metrics?
-        </p>
-      </article>
-
-      <article class="principle">
-        <h4>7. European-specific defaults</h4>
-        <p>
-          Privacy-first architecture, multi-tradition hospitality, post-Christian assumptions, GDPR as dignity commitment.
-          A European spiritual app cannot localize an American product wholesale.
-        </p>
-      </article>
-
-      <article class="principle">
-        <h4>8. Serve the spiritually liminal</h4>
-        <p>
-          Guide through personalized companionship, not overwhelming libraries. The liminal user asking "where do I start?"
-          needs a companion who listens, not a catalog that searches.
-        </p>
-      </article>
-
-      <article class="principle">
-        <h4>9. Formation metrics over engagement metrics</h4>
-        <p>
-          Measure depth and freedom, not daily active users and streak completions. If the app doesn't serve growth, users
-          cancel — and that's the point.
-        </p>
-      </article>
+      <div style="max-width: 70ch;">
+        {principles.map((p) => (
+          <article class="principle">
+            <span class="principle-number">{p.num}</span>
+            <h3>{p.title}</h3>
+            <p class="lead">{p.body}</p>
+          </article>
+        ))}
+      </div>
     </div>
   </section>
 
-  <!-- Tensions Section -->
-  <section class="section-alt section">
+  <!-- Tensions -->
+  <section class="section section-cream">
     <div class="container">
-      <h2>Core Tensions</h2>
-      <p>These principles live in productive tension. Understanding these tensions helps navigate design decisions:</p>
-
-      <article class="principle mt-xl">
-        <h4>Brief Engagement vs. Commodification</h4>
-        <p>
-          Supporting ambient, brief engagement (Principle 1) risks encouraging spiritual window-shopping without depth.
-          Counter this by honoring tradition sources (Principle 3) and encouraging sustained commitment to single practices
-          rather than daily sampling.
+      <div style="margin-bottom: 3rem; max-width: 60ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Tensions</div>
+        <h2>Three things<br/>worth holding.</h2>
+        <p class="lead" style="margin-top: 2rem;">
+          The framework does not resolve every tension — some must be held, not solved.
         </p>
-      </article>
+      </div>
 
-      <article class="principle">
-        <h4>Community Requirement vs. Liminal Reality</h4>
-        <p>
-          Deep Christian formation happens in community (Principle 4), but many users start alone and outside traditional
-          church (Principle 8). The solution: scaffold toward community without requiring it (Principle 5). Build bridges
-          for liminal users who may eventually find embodied community.
-        </p>
-      </article>
-
-      <article class="principle">
-        <h4>Regular Practice vs. Anti-Streak Design</h4>
-        <p>
-          Spiritual formation requires consistency (implicit in Principle 9), but streaks and gamified consistency trigger
-          guilt and shame (Principle 6). The answer lies in grace-based alternatives: opt-in encouragement, celebration of
-          return rather than punishment for absence, and user-initiated accountability structures.
-        </p>
-      </article>
+      <div class="grid grid-3">
+        {tensions.map((t) => (
+          <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
+            <h4 style="margin-bottom: 1rem;">{t.title}</h4>
+            <p style="font-size: 0.95rem; line-height: 1.5;">{t.body}</p>
+          </div>
+        ))}
+      </div>
     </div>
   </section>
 
-  <!-- Diagnostic Questions In Depth -->
-  <section class="section">
+  <!-- Questions -->
+  <section class="section section-ink">
     <div class="container">
-      <h2>Six Diagnostic Questions — In Depth</h2>
-      <p>
-        These questions help you evaluate features, interactions, and design decisions in your own digital tools for
-        spiritual formation:
-      </p>
-
-      <article class="principle mt-xl">
-        <h4>1. Does this serve formation or engagement metrics?</h4>
-        <p>
-          The first question separates missional design from engagement-driven design. Ask: Is this feature built to deepen
-          spiritual growth, or to maximize daily active users, session length, and retention? Formation and metrics often
-          diverge. A feature that maximizes engagement may prevent actual formation. The question forces honesty about
-          intent.
+      <div style="margin-bottom: 4rem; max-width: 60ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Six Questions</div>
+        <h2>Diagnostic<br/>questions.</h2>
+        <p class="lead" style="margin-top: 2rem; opacity: 0.85;">
+          Use these to evaluate any feature, campaign, or design decision before it ships.
         </p>
-      </article>
+      </div>
 
-      <article class="principle">
-        <h4>2. Freedom or anxiety?</h4>
-        <p>
-          Spiritual formation should increase freedom. Ask: Does this feature expand the user's sense of autonomy, peace,
-          and trust in God? Or does it trigger fear, obligation, or low-grade anxiety? Grace-based design (Principle 6)
-          prioritizes freedom. If a feature relies on guilt or FOMO to sustain engagement, it fails this test.
-        </p>
-      </article>
-
-      <article class="principle">
-        <h4>3. Will the user's motivation survive removing the feature?</h4>
-        <p>
-          This tests sustainability and intrinsic motivation. Ask: If you removed the notification, the streak counter, or
-          the social feature, would the user continue the practice because it serves their formation? Or would engagement
-          collapse? Features that serve true formation strengthen intrinsic motivation; features that rely on mechanics
-          often don't. This is the test of depth.
-        </p>
-      </article>
-
-      <article class="principle">
-        <h4>4. Does this honor human dignity and agency?</h4>
-        <p>
-          Missional design treats users as full humans with wisdom, discernment, and choice—not as optimization targets.
-          Ask: Are users treated as agents of their own formation, or as subjects to be manipulated? Does the design extend
-          trust, or deploy behavioral nudges? Does it honor the user's capacity to make decisions about their own spiritual
-          journey?
-        </p>
-      </article>
-
-      <article class="principle">
-        <h4>5. If users developed deep communion with God and no longer needed the app, would we celebrate or mourn?</h4>
-        <p>
-          This inverts the typical product question. Normally, losing users is failure. In missional design, success is when
-          users outgrow the app—when they've been formed so deeply that they no longer need your tools. Ask: Is the goal to
-          serve the user's formation (even if it means eventual departure), or to create permanent dependency? The answer
-          reveals whether the app truly serves formation or just its own sustainability.
-        </p>
-      </article>
-
-      <article class="principle">
-        <h4>6. If a user had a spiritually dry year, would they feel welcomed back or judged?</h4>
-        <p>
-          This tests grace. Ask: Does the system communicate that return is welcomed, or that absence is failure? Dry
-          seasons are part of spiritual formation. A grace-based system honors this and creates low-friction re-entry. One
-          that judges through streaks, reminders, and social comparison pushes struggling users away. This question asks
-          whether the design reflects the gospel's posture toward failure and return.
-        </p>
-      </article>
-    </div>
-  </section>
-
-  <!-- How to Use the Framework -->
-  <section class="section-alt section">
-    <div class="container">
-      <h2>How to Use This Framework</h2>
-
-      <div class="grid grid-2 mt-lg">
-        <div class="card">
-          <h4>For Founders & Product Leaders</h4>
-          <p>
-            Use these nine principles to guide feature decisions, design choices, and product strategy. Let them shape
-            your philosophy before you build. Use the six diagnostic questions as a design review ritual.
-          </p>
-        </div>
-
-        <div class="card">
-          <h4>For Designers & Engineers</h4>
-          <p>
-            Apply these principles in interface design, data architecture, and interaction design. They're not constraints—they're
-            liberating. They clarify what you're optimizing for beyond engagement metrics.
-          </p>
-        </div>
-
-        <div class="card">
-          <h4>For Churches & Ministry Leaders</h4>
-          <p>
-            Use this framework to evaluate digital tools you recommend to your congregation. These principles can help you
-            ask better questions about whether tools serve formation or just engagement.
-          </p>
-        </div>
-
-        <div class="card">
-          <h4>For Researchers & Academics</h4>
-          <p>
-            This framework bridges theology, behavioral science, and product design. Use it to research digital formation,
-            to challenge product assumptions, or to develop new tools grounded in missional design.
-          </p>
-        </div>
+      <div>
+        {questions.map((q, i) => (
+          <div class="question">
+            <div class="question-number">{String(i + 1).padStart(2, '0')}</div>
+            <div class="question-text">{q}</div>
+          </div>
+        ))}
       </div>
     </div>
   </section>
 
   <!-- CTA -->
   <section class="section">
-    <div class="container text-center">
-      <h2>Building Missional Digital Tools?</h2>
-      <p class="text-muted">
-        This framework is published openly as a resource for the field. If you're building technology for spiritual
-        formation, I'd love to hear from you.
-      </p>
-      <a href="mailto:hello@treppmann.design" class="btn">Get in Touch</a>
+    <div class="container">
+      <div style="max-width: 60ch;">
+        <h2>Want to apply<br/>the framework?</h2>
+        <p class="lead" style="margin-top: 2rem;">
+          The framework is published openly as a resource for the field. If you're building technology for spiritual
+          formation — or human flourishing more broadly — I'd love to hear from you.
+        </p>
+        <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+          <a href="mailto:hello@treppmann.design" class="button">Get in touch</a>
+          <a href={`${base}/about`} class="button" style="background: transparent; color: var(--color-black); border: 1px solid var(--color-black);">About the author</a>
+        </div>
+      </div>
     </div>
   </section>
 </BaseLayout>
-
-<style>
-  .principle {
-    padding: var(--spacing-lg);
-    background-color: var(--color-bg-secondary);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius);
-    margin-bottom: var(--spacing-lg);
-  }
-
-  .principle h4 {
-    color: var(--color-primary);
-    margin-bottom: var(--spacing-md);
-    margin-top: 0;
-  }
-
-  .principle p {
-    margin-bottom: 0;
-    color: var(--color-text-light);
-  }
-</style>

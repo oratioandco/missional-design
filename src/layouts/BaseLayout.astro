@@ -18,7 +18,7 @@ const siteUrl = "https://missional.design";
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title} — Missional Product Design</title>
+    <title>{title === 'Missional Design' ? 'Missional Design' : `${title} — Missional Design`}</title>
     <meta name="description" content={description} />
 
     <!-- Open Graph / Social Media -->
@@ -36,7 +36,7 @@ const siteUrl = "https://missional.design";
     {ogImage && <meta property="twitter:image" content={`${siteUrl}${ogImage}`} />}
 
     <link rel="canonical" href={siteUrl} />
-    <meta name="theme-color" content="#1A1A2E" />
+    <meta name="theme-color" content="#000000" />
   </head>
 
   <body>

@@ -1,184 +1,186 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
-<BaseLayout title="Missional Product Design">
-  <div class="container">
-    <section class="hero section">
-      <h1>Missional Product Design</h1>
-      <p class="hero-subtitle">Evidence-based principles for building technology that serves human flourishing</p>
-      <p class="hero-intro">
-        This is a framework developed by Tobias Treppmann in his research paper
-        <em>Digital Spiritual Formation: The Aperto Vision</em> (2026). It provides nine principles and six diagnostic
-        questions for anyone building digital tools for spiritual formation.
-      </p>
-    </section>
-  </div>
+<BaseLayout title="Missional Design">
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-label">A framework by Tobias Treppmann · 2026</div>
+    <h1>Missional<br/>Design.</h1>
+    <p class="hero-subtitle">
+      Evidence-based principles for building technology that serves human flourishing — through spiritual formation,
+      ministry innovation, and product decisions that honor the people who use them.
+    </p>
+    <div style="margin-top: 2.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href={`${base}/framework`} class="button">Read the Framework</a>
+    </div>
+  </section>
 
-  <!-- Manifesto Section -->
-  <section class="section-alt section">
+  <!-- Manifesto -->
+  <section class="section section-cream">
     <div class="container">
-      <h2>The Manifesto</h2>
-      <p class="text-center" style="max-width: none; margin-bottom: 2rem;">
-        We build digital tools for spiritual formation — and we have learned that what serves formation also produces
-        better products. Through this work, we have come to value <strong>the four values below</strong>. That is, while
-        the items on the right sustain businesses and serve users, we choose the items on the left first when the two
-        conflict.
-      </p>
+      <div style="margin-bottom: 3rem; max-width: 70ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">The Manifesto</div>
+        <h2>Four values<br/>we choose first.</h2>
+        <p class="lead" style="margin-top: 2rem;">
+          We build digital tools for spiritual formation — and have learned that what serves formation also produces
+          better products. While the items on the right sustain businesses and serve users, we choose the items on
+          the left first when the two conflict.
+        </p>
+      </div>
 
       <div class="manifesto-values">
-        <div class="manifesto-value">
-          <div class="manifesto-value-left">Formation over</div>
-        </div>
-        <div class="manifesto-value">
-          <div class="manifesto-value-right">Engagement</div>
-        </div>
+        <div class="left">Formation</div>
+        <div class="sep">over</div>
+        <div class="right">Engagement</div>
 
-        <div class="manifesto-value">
-          <div class="manifesto-value-left">Partnership over</div>
-        </div>
-        <div class="manifesto-value">
-          <div class="manifesto-value-right">Persuasion</div>
-        </div>
+        <div class="left">Partnership</div>
+        <div class="sep">over</div>
+        <div class="right">Persuasion</div>
 
-        <div class="manifesto-value">
-          <div class="manifesto-value-left">Challenge over</div>
-        </div>
-        <div class="manifesto-value">
-          <div class="manifesto-value-right">Comfort</div>
-        </div>
+        <div class="left">Challenge</div>
+        <div class="sep">over</div>
+        <div class="right">Comfort</div>
 
-        <div class="manifesto-value">
-          <div class="manifesto-value-left">Community over</div>
-        </div>
-        <div class="manifesto-value">
-          <div class="manifesto-value-right">Platform</div>
-        </div>
+        <div class="left">Community</div>
+        <div class="sep">over</div>
+        <div class="right">Platform</div>
       </div>
     </div>
   </section>
 
-  <!-- Nine Principles Section -->
-  <section class="section">
+  <!-- Nine Principles -->
+  <section class="section section-dark">
     <div class="container">
-      <h2>Nine Principles</h2>
-      <p>
-        A framework for building technology that serves human flourishing through spiritual formation:
-      </p>
+      <div style="margin-bottom: 4rem; max-width: 60ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Nine Principles</div>
+        <h2>How we build<br/>for formation.</h2>
+      </div>
 
-      <div class="grid grid-3 mt-lg">
-        <div class="card">
+      <div class="grid grid-3">
+        <div class="principle">
+          <span class="principle-number">01</span>
           <h4>Design for actual engagement patterns</h4>
           <p>Ambient and receptive modes first, not assumed deep study.</p>
         </div>
-
-        <div class="card">
+        <div class="principle">
+          <span class="principle-number">02</span>
           <h4>Multimodal formation</h4>
           <p>Audio, music, and guided practice as primary formats, not supplements.</p>
         </div>
-
-        <div class="card">
+        <div class="principle">
+          <span class="principle-number">03</span>
           <h4>Resist spiritual commodification</h4>
-          <p>Transparent tradition sourcing, depth over browsing.</p>
+          <p>Transparent tradition sourcing, depth over browsing, communal accountability.</p>
         </div>
-
-        <div class="card">
+        <div class="principle">
+          <span class="principle-number">04</span>
           <h4>Serve communal as well as individual formation</h4>
           <p>Design for shared engagement and social context.</p>
         </div>
-
-        <div class="card">
+        <div class="principle">
+          <span class="principle-number">05</span>
           <h4>Scaffold toward community without requiring it</h4>
-          <p>Build bridges for liminal users, don't create prerequisites.</p>
+          <p>Build bridges for the liminal, don't create prerequisites.</p>
         </div>
-
-        <div class="card">
+        <div class="principle">
+          <span class="principle-number">06</span>
           <h4>Grace-based mechanics throughout</h4>
-          <p>No streaks, shame triggers, or social comparison by default.</p>
+          <p>No default streaks, shame triggers, or social comparison. Opt-in accountability only.</p>
         </div>
-
-        <div class="card">
+        <div class="principle">
+          <span class="principle-number">07</span>
           <h4>European-specific defaults</h4>
-          <p>Privacy-first, post-Christian assumptions, GDPR as dignity.</p>
+          <p>Privacy-first architecture, multi-tradition hospitality, post-Christian assumptions.</p>
         </div>
-
-        <div class="card">
+        <div class="principle">
+          <span class="principle-number">08</span>
           <h4>Serve the spiritually liminal</h4>
-          <p>Guide through personalized companionship, not overwhelming libraries.</p>
+          <p>Personalized companionship, not overwhelming libraries.</p>
         </div>
-
-        <div class="card">
+        <div class="principle">
+          <span class="principle-number">09</span>
           <h4>Formation metrics over engagement metrics</h4>
-          <p>Measure depth and freedom, not daily active users.</p>
+          <p>Measure depth and freedom — not daily active users.</p>
         </div>
       </div>
 
-      <div class="text-center mt-xl">
-        <a href="/framework" class="btn">Read the Full Framework</a>
+      <div style="margin-top: 4rem;">
+        <a href={`${base}/framework`} class="button">Read each principle in full</a>
       </div>
     </div>
   </section>
 
-  <!-- Diagnostic Questions Section -->
-  <section class="section-alt section">
+  <!-- Six Questions -->
+  <section class="section section-ink">
     <div class="container">
-      <h2>Six Diagnostic Questions</h2>
-      <p>Use these questions to evaluate your own digital tools for spiritual formation:</p>
+      <div style="margin-bottom: 4rem; max-width: 60ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Six Questions</div>
+        <h2>Ask these<br/>before you ship.</h2>
+        <p class="lead" style="margin-top: 2rem; opacity: 0.85;">
+          Diagnostic questions to help teams evaluate whether their features serve formation or engagement.
+        </p>
+      </div>
 
-      <ol class="questions-list mt-lg">
-        <li>
-          <strong>Does this serve formation or engagement metrics?</strong>
-          <p>Is the feature designed to deepen spiritual growth, or to maximize user activity and retention?</p>
-        </li>
+      <div>
+        <div class="question">
+          <div class="question-number">01</div>
+          <div class="question-text">Does this serve formation or engagement metrics?</div>
+        </div>
+        <div class="question">
+          <div class="question-number">02</div>
+          <div class="question-text">Freedom or anxiety?</div>
+        </div>
+        <div class="question">
+          <div class="question-number">03</div>
+          <div class="question-text">Will the user's motivation survive removing the feature?</div>
+        </div>
+        <div class="question">
+          <div class="question-number">04</div>
+          <div class="question-text">Does this honor human dignity and agency?</div>
+        </div>
+        <div class="question">
+          <div class="question-number">05</div>
+          <div class="question-text">If users developed deep communion with God and no longer needed the app, would we celebrate or mourn?</div>
+        </div>
+        <div class="question">
+          <div class="question-number">06</div>
+          <div class="question-text">If a user had a spiritually dry year, would they feel welcomed back or judged?</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <li>
-          <strong>Freedom or anxiety?</strong>
-          <p>Does this feature increase user autonomy and peace, or does it trigger fear, obligation, or anxiety?</p>
-        </li>
+  <!-- Work with us / services -->
+  <section class="section">
+    <div class="container">
+      <div style="margin-bottom: 3rem; max-width: 60ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Work With Us</div>
+        <h2>Put the framework<br/>to work.</h2>
+      </div>
 
-        <li>
-          <strong>Will the user's motivation survive removing the feature?</strong>
-          <p>Is the practice sustainable once the feature is gone, or does it depend entirely on mechanics?</p>
-        </li>
+      <div class="grid grid-3">
+        <div style="padding: 2rem; background: var(--color-cream); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">01 · Consultation</div>
+          <h4>Ministry Consultation</h4>
+          <p>Personalized consultation to help your ministry navigate the challenges of building effective, faithful technology in the 21st century.</p>
+        </div>
+        <div style="padding: 2rem; background: var(--color-cream); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">02 · Training</div>
+          <h4>Innovation Training</h4>
+          <p>Equipping your team with the skills and frameworks to implement innovative, formation-centered strategies in your ministry or product.</p>
+        </div>
+        <div style="padding: 2rem; background: var(--color-cream); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">03 · Cohort</div>
+          <h4>Online Ministry Innovation Cohort</h4>
+          <p>Join a community of practitioners working at the intersection of faith, design, and technology — sharing experience and learning together.</p>
+        </div>
+      </div>
 
-        <li>
-          <strong>Does this honor human dignity and agency?</strong>
-          <p>Are users treated as full humans with wisdom and choice, or as data points to be optimized?</p>
-        </li>
-
-        <li>
-          <strong>If users developed deep communion with God and no longer needed the app, would we celebrate or mourn?</strong>
-          <p>Is success measured by the ultimate goal (spiritual formation), or by the app's role in that journey?</p>
-        </li>
-
-        <li>
-          <strong>If a user had a spiritually dry year, would they feel welcomed back or judged?</strong>
-          <p>Does the system extend grace to struggling users, or shame them for their absence?</p>
-        </li>
-      </ol>
+      <div style="margin-top: 3rem;">
+        <a href="mailto:hello@treppmann.design" class="button">Get in touch</a>
+      </div>
     </div>
   </section>
 </BaseLayout>
-
-<style>
-  .manifesto-value {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  @media (max-width: 768px) {
-    .manifesto-values {
-      grid-template-columns: 1fr;
-    }
-
-    .manifesto-values > div:nth-child(odd) .manifesto-value-left {
-      text-align: left;
-      margin-bottom: 0.5rem;
-    }
-
-    .manifesto-values > div:nth-child(even) .manifesto-value-right {
-      text-align: left;
-      margin-bottom: 1.5rem;
-    }
-  }
-</style>
