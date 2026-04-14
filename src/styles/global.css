@@ -244,6 +244,46 @@ em {
   opacity: 0.5;
 }
 
+/* Value translations grid (beneath manifesto) */
+.value-translations {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-lg);
+  margin-top: var(--spacing-2xl);
+  padding-top: var(--spacing-xl);
+  border-top: 1px solid var(--color-black);
+}
+
+.value-translation {
+  padding-right: 0;
+}
+
+.value-translation-title {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.75rem;
+}
+
+.value-translation p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+.value-translation p strong {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  opacity: 0.6;
+  display: inline-block;
+  margin-right: 0.25rem;
+}
+
 @media (max-width: 640px) {
   .manifesto-values {
     grid-template-columns: 1fr;
