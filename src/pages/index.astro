@@ -1,6 +1,5 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import EmailLink from '../components/EmailLink.astro';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
@@ -146,37 +145,32 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     </div>
   </section>
 
-  <!-- Work with us / services -->
+  <!-- Need help applying it? → oratio.co -->
   <section class="section section-ink">
     <div class="container">
-      <div style="margin-bottom: 3rem; max-width: 60ch;">
-        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Work With Us</div>
-        <h2>For teams<br/>putting it into practice.</h2>
-        <p class="lead" style="margin-top: 2rem; opacity: 0.9;">
-          Consulting, facilitation, and training for churches, ministries, and faith-driven teams building new things.
-        </p>
-      </div>
-
-      <div class="grid grid-3">
-        <div style="padding: 2rem; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2);">
-          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; opacity: 0.7;">01 · Consultation</div>
-          <h4>Ministry Consultation</h4>
-          <p>Personalized consultation to help your ministry navigate the challenges of building effective, faithful technology and ministry models in the 21st century.</p>
+      <div class="grid grid-2" style="align-items: center; gap: 4rem;">
+        <div>
+          <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.75;">Need Help Applying It?</div>
+          <h2>Bring in<br/>Oratio&amp;Co.</h2>
+          <p class="lead" style="margin-top: 2rem; opacity: 0.9;">
+            These frameworks were developed inside <strong>Oratio&amp;Co</strong> — a strategic design consultancy for
+            churches, ministries, and faith-driven teams. If you want help applying them to your context, that's what
+            Oratio&amp;Co does.
+          </p>
+          <div style="margin-top: 2.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="https://oratio.co" target="_blank" rel="noopener noreferrer" class="button" style="background: var(--color-white); color: var(--color-ink);">Visit oratio.co</a>
+          </div>
         </div>
-        <div style="padding: 2rem; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2);">
-          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; opacity: 0.7;">02 · Training</div>
-          <h4>Innovation Training</h4>
-          <p>Equipping your team with the skills and frameworks to implement formation-centered strategies — workshops on the canvas, the framework, and applied design thinking for ministry.</p>
+        <div style="padding: 2.5rem; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.2);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.75; margin-bottom: 1.5rem;">What Oratio&amp;Co does</div>
+          <ul style="list-style: none; padding: 0; margin: 0; line-height: 2.2; font-weight: 400;">
+            <li>→ Ministry consultation &amp; strategic design</li>
+            <li>→ Canvas workshop facilitation</li>
+            <li>→ Innovation training for ministry teams</li>
+            <li>→ Online cohorts for practitioners</li>
+            <li>→ Product design for faith-tech teams</li>
+          </ul>
         </div>
-        <div style="padding: 2rem; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2);">
-          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; opacity: 0.7;">03 · Cohort</div>
-          <h4>Online Ministry Innovation Cohort</h4>
-          <p>Join a community of practitioners working at the intersection of faith, design, and technology — sharing experience and learning together.</p>
-        </div>
-      </div>
-
-      <div style="margin-top: 3rem;">
-        <EmailLink label="Get in touch" class="button" />
       </div>
     </div>
   </section>
