@@ -1,28 +1,41 @@
 ---
 import EmailLink from './EmailLink.astro';
+import { t, type Locale } from '../i18n/ui';
+
+interface Props {
+  lang?: Locale;
+}
+const { lang = 'en' } = Astro.props;
+
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const prefix = lang === 'de' ? `${base}/de` : base;
+// Legal pages are bilingual already (German first, English section below) — same URL for both locales
+const impressumHref = `${base}/impressum`;
+const datenschutzHref = `${base}/datenschutz`;
+const barrierefreiheitHref = `${base}/barrierefreiheit`;
 ---
 
 <footer class="footer">
   <div class="footer-grid">
     <div>
-      <div class="footer-title">Missional by Design</div>
+      <div class="footer-title">{t(lang, 'footer.tagline')}</div>
       <p style="max-width: 40ch; font-weight: 300; opacity: 0.7;">
-        A framework for building technology that serves human flourishing through spiritual formation.
-        Developed by Tobias Treppmann and published alongside <em>Digital Spiritual Formation: The Aperto Vision</em> (2026).
+        {lang === 'de'
+          ? 'Ein Framework für die Entwicklung von Technologie, die menschliches Gedeihen durch geistliche Formation dient. Entwickelt von Tobias Treppmann und veröffentlicht neben Digital Spiritual Formation: The Aperto Vision (2026).'
+          : 'A framework for building technology that serves human flourishing through spiritual formation. Developed by Tobias Treppmann and published alongside Digital Spiritual Formation: The Aperto Vision (2026).'}
       </p>
     </div>
     <div>
-      <div class="footer-title">Explore</div>
+      <div class="footer-title">{lang === 'de' ? 'Erkunden' : 'Explore'}</div>
       <ul style="list-style: none; padding: 0; line-height: 2;">
-        <li><a href={`${base}/framework`}>Framework</a></li>
-        <li><a href={`${base}/ministry-model-canvas`}>Ministry Model Canvas</a></li>
-        <li><a href={`${base}/blog`}>Writing</a></li>
-        <li><a href={`${base}/about`}>About</a></li>
+        <li><a href={`${prefix}/framework`}>{t(lang, 'nav.framework')}</a></li>
+        <li><a href={`${prefix}/ministry-model-canvas`}>{t(lang, 'nav.canvas')}</a></li>
+        <li><a href={`${prefix}/blog`}>{t(lang, 'nav.writing')}</a></li>
+        <li><a href={`${prefix}/about`}>{t(lang, 'nav.about')}</a></li>
       </ul>
     </div>
     <div>
-      <div class="footer-title">Related</div>
+      <div class="footer-title">{lang === 'de' ? 'Verwandt' : 'Related'}</div>
       <ul style="list-style: none; padding: 0; line-height: 2;">
         <li><a href="https://oratio.co">oratio.co</a></li>
         <li><a href="https://aperto.bible">aperto.bible</a></li>
@@ -31,11 +44,11 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     </div>
   </div>
   <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; opacity: 0.5; font-size: 0.75rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1);">
-    <div>© 2026 Tobias Treppmann</div>
+    <div>{t(lang, 'footer.credit')}</div>
     <ul style="list-style: none; padding: 0; margin: 0; display: flex; gap: 1.5rem;">
-      <li><a href={`${base}/impressum`}>Impressum</a></li>
-      <li><a href={`${base}/datenschutz`}>Datenschutz</a></li>
-      <li><a href={`${base}/barrierefreiheit`}>Barrierefreiheit</a></li>
+      <li><a href={impressumHref}>{t(lang, 'footer.links.imprint')}</a></li>
+      <li><a href={datenschutzHref}>{t(lang, 'footer.links.privacy')}</a></li>
+      <li><a href={barrierefreiheitHref}>{t(lang, 'footer.links.accessibility')}</a></li>
     </ul>
   </div>
 </footer>

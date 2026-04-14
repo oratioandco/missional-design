@@ -1,0 +1,229 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+// NOTE: Draft German copy — please review before going live.
+---
+
+<BaseLayout
+  lang="de"
+  title="Missional by Design — Strategisches Design für Dienst"
+  description="Strategisches Design, theologische Reflexion und Dienst-Innovation — für Gemeinden, Startups und die Teams, die Technologie für menschliches Gedeihen bauen."
+>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-label">Tobias Treppmann · Oratio&Co</div>
+    <h1>Missional<br/>by Design.</h1>
+    <p class="hero-subtitle">
+      Strategisches Design, theologische Reflexion und Dienst-Innovation — für Gemeinden, Startups und die Teams,
+      die Technologie für menschliches Gedeihen bauen.
+    </p>
+    <div style="margin-top: 2.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href={`${base}/de/ministry-model-canvas`} class="button">Ministry Model Canvas</a>
+      <a href={`${base}/de/framework`} class="button" style="background: transparent; color: var(--color-white); border: 1px solid var(--color-white);">Framework für Missionale Produkte</a>
+    </div>
+  </section>
+
+  <!-- The Thesis -->
+  <section class="section section-cream">
+    <div class="container">
+      <div style="max-width: 70ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Die These</div>
+        <h2>Jeder Dienst<br/>ist gestaltet.</h2>
+        <p class="lead" style="margin-top: 2rem;">
+          „Jeder Dienst ist gestaltet — ob du es weißt oder nicht." — <em>Tyler Prieb, Missional Labs</em>
+        </p>
+        <p class="lead">
+          In sich schnell ändernden Kontexten erfordert treues Zeugnis kontinuierliche Reinkontextualisierung. Gemeinden und Dienst-Teams brauchen die gleichen strategischen Fähigkeiten, die Startups in den letzten zwei Jahrzehnten entwickelt haben: kulturelle Exegese, schnelle Iteration, benutzergerichtetes Denken, ehrliche Messung.
+        </p>
+        <p class="lead">
+          <strong>Missional by Design</strong> ist ein Werk, das diese Werkzeuge — rigoros und theologisch — für den Dienst anpasst.
+          Es umfasst strategische Frameworks für Gemeinden, Prinzipien für die Entwicklung von digitalen Werkzeugen, die Formation dienen, und
+          Beratung für Teams, die an der Schnittstelle von Glaube, Design und Technologie arbeiten.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Three Pillars -->
+  <section class="section section-dark">
+    <div class="container">
+      <div style="margin-bottom: 4rem; max-width: 60ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Die Arbeit</div>
+        <h2>Drei Werkzeuge.<br/>Ein Ansatz.</h2>
+      </div>
+
+      <div class="grid grid-3">
+        <a href={`${base}/de/ministry-model-canvas`} class="pillar-card">
+          <div class="pillar-card-num">01</div>
+          <h3>Ministry Model Canvas</h3>
+          <p>
+            Ein strategisches Planungsframework mit neun Blöcken für Gemeinden und Dienste — adaptiert vom Business Model
+            Canvas, um Teams zu helfen, ihre Zielgruppe zu klären, ihre gute Nachricht zu benennen und auf missionalen Erfolg hinzuarbeiten.
+          </p>
+          <div class="pillar-card-link">Canvas erkunden →</div>
+        </a>
+
+        <a href={`${base}/de/framework`} class="pillar-card">
+          <div class="pillar-card-num">02</div>
+          <h3>Missionales Produktdesign</h3>
+          <p>
+            Neun Prinzipien und sechs diagnostische Fragen für die Entwicklung von digitalen Werkzeugen, die geistliche Formation dienen —
+            Widerstand gegen Engagement-Optimierung zugunsten menschlichen Gedeihs. Gezogen aus 195+ Quellen über Theologie,
+            Verhaltensforschung und Produktdesign.
+          </p>
+          <div class="pillar-card-link">Framework lesen →</div>
+        </a>
+
+        <a href={`${base}/de/blog`} class="pillar-card">
+          <div class="pillar-card-num">03</div>
+          <h3>Schreiben</h3>
+          <p>
+            Essays über missionales Design, digitale Formation, Dienst-Innovation und die überraschende Überschneidung zwischen
+            Gemeinden und Startups. Gedankenführerschaft aus dem Feld, nicht aus dem Seminarraum.
+          </p>
+          <div class="pillar-card-link">Essays lesen →</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Manifesto -->
+  <section class="section">
+    <div class="container">
+      <div style="margin-bottom: 3rem; max-width: 70ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Das Manifest</div>
+        <h2>Vier Werte,<br/>die wir zuerst wählen.</h2>
+        <p class="lead" style="margin-top: 2rem;">
+          Ob du eine Gemeinde, einen Dienst oder ein digitales Werkzeug für geistliche Formation baust — wir haben gelernt, die
+          Punkte auf der linken Seite zu schätzen. Während die Punkte auf der rechten Seite Institutionen aufrechterhalten und Benutzer bedienen, wählen wir die Punkte
+          auf der linken Seite zuerst, wenn die zwei miteinander in Konflikt geraten.
+        </p>
+      </div>
+
+      <div class="manifesto-values">
+        <div class="left">Formation</div>
+        <div class="sep">statt</div>
+        <div class="right">Engagement</div>
+
+        <div class="left">Partnerschaft</div>
+        <div class="sep">statt</div>
+        <div class="right">Überzeugung</div>
+
+        <div class="left">Herausforderung</div>
+        <div class="sep">statt</div>
+        <div class="right">Komfort</div>
+
+        <div class="left">Gemeinschaft</div>
+        <div class="sep">statt</div>
+        <div class="right">Plattform</div>
+      </div>
+
+      <!-- How the values translate -->
+      <div class="value-translations">
+        <div class="value-translation">
+          <div class="value-translation-title">Formation statt Engagement</div>
+          <p><strong>Im Dienst:</strong> Ein voller Gottesdienst ist nicht das Ziel, wenn niemand geformt wird. Besucherzahlen sind ein hinkendes Indikator; Jüngerschaft ist der Punkt.</p>
+          <p><strong>Im Produkt:</strong> Täglich aktive Nutzer sind das falsche Ziel. Miss, ob Menschen in Freiheit, Tiefe und Liebe zum Nächsten wachsen.</p>
+        </div>
+        <div class="value-translation">
+          <div class="value-translation-title">Partnerschaft statt Überzeugung</div>
+          <p><strong>Im Dienst:</strong> Begleitung statt Bekehrungsdruck. Kollaborative Leitung statt charismatische Kontrolle.</p>
+          <p><strong>Im Produkt:</strong> Nutzer als Co-Schöpfer ihrer eigenen Formation — nicht Ziele von Growth-Hacking-Funneln.</p>
+        </div>
+        <div class="value-translation">
+          <div class="value-translation-title">Herausforderung statt Komfort</div>
+          <p><strong>Im Dienst:</strong> Prophetische Ehrlichkeit statt therapeutischer Deismus. Jüngerschaft kostet etwas; wir beschönigen das nicht für Spendensammlung.</p>
+          <p><strong>Im Produkt:</strong> Design für Wachstum, nicht Gratifikation. Die beste Erfahrung widersteht manchmal den unmittelbaren Vorlieben des Nutzers.</p>
+        </div>
+        <div class="value-translation">
+          <div class="value-translation-title">Gemeinschaft statt Plattform</div>
+          <p><strong>Im Dienst:</strong> Gegenseitige Teilhabe statt performative Produktion. Der Leib Christi, nicht der prominente Pastor.</p>
+          <p><strong>Im Produkt:</strong> Echte Gemeinschaftsbande, nicht parasoziale Feeds. Infrastruktur, die verbindet, nicht extrahiert.</p>
+        </div>
+      </div>
+
+      <div style="margin-top: 3rem;">
+        <a href={`${base}/de/framework`} class="button">Lies das komplette Framework</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Need help applying it? → oratio.co -->
+  <section class="section section-ink">
+    <div class="container">
+      <div class="grid grid-2" style="align-items: center; gap: 4rem;">
+        <div>
+          <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.75;">Brauchst du Hilfe?</div>
+          <h2>Hol dir<br/>Oratio&amp;Co an den Tisch.</h2>
+          <p class="lead" style="margin-top: 2rem; opacity: 0.9;">
+            Diese Frameworks wurden bei <strong>Oratio&amp;Co</strong> entwickelt — eine strategische Design-Agentur für
+            Gemeinden, Dienste und glaubensbasierte Teams. Wenn du Hilfe bei der Anwendung brauchst, das ist das, was
+            Oratio&amp;Co macht.
+          </p>
+          <div style="margin-top: 2.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="https://oratio.co" target="_blank" rel="noopener noreferrer" class="button" style="background: var(--color-white); color: var(--color-ink);">Besuche oratio.co</a>
+          </div>
+        </div>
+        <div style="padding: 2.5rem; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.2);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.75; margin-bottom: 1.5rem;">Was Oratio&amp;Co macht</div>
+          <ul style="list-style: none; padding: 0; margin: 0; line-height: 2.2; font-weight: 400;">
+            <li>→ Dienst-Beratung &amp; strategisches Design</li>
+            <li>→ Canvas-Workshop-Moderation</li>
+            <li>→ Innovations-Training für Dienst-Teams</li>
+            <li>→ Online-Cohorts für Praktiker</li>
+            <li>→ Produktdesign für glaubensbasierte Tech-Teams</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .pillar-card {
+    display: block;
+    padding: 2.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: var(--color-white);
+    text-decoration: none;
+    transition: all var(--transition);
+    position: relative;
+  }
+
+  .pillar-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.3);
+    opacity: 1;
+  }
+
+  .pillar-card-num {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 0.8rem;
+    letter-spacing: 0.2em;
+    margin-bottom: 1.5rem;
+    opacity: 0.5;
+  }
+
+  .pillar-card h3 {
+    margin-bottom: 1rem;
+  }
+
+  .pillar-card p {
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .pillar-card-link {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+</style>

@@ -1,38 +1,55 @@
 ---
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
+import { getLocaleFromPath, type Locale } from '../i18n/ui';
 import '../styles/global.css';
 
 export interface Props {
   title: string;
   description?: string;
   ogImage?: string;
+  /**
+   * Optional override. When omitted, locale is derived from the URL path
+   * (`/de/...` → 'de', otherwise 'en').
+   */
+  lang?: Locale;
 }
 
-const { title, description = "Missional by Design — Strategic design, theological reflection, and ministry innovation for churches, startups, and the teams building technology for human flourishing.", ogImage } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const pathname = new URL(Astro.request.url).pathname;
+const detectedLocale = getLocaleFromPath(pathname, base);
+const {
+  title,
+  description,
+  ogImage,
+  lang = detectedLocale,
+} = Astro.props;
 const siteUrl = "https://missional.design";
+const finalDescription = description ?? (lang === 'de'
+  ? "Missional by Design — Strategisches Design, theologische Reflexion und Dienst-Innovation für Gemeinden, Startups und die Teams, die Technologie für menschliches Gedeihen bauen."
+  : "Missional by Design — Strategic design, theological reflection, and ministry innovation for churches, startups, and the teams building technology for human flourishing.");
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title === 'Missional by Design' ? 'Missional by Design' : `${title} — Missional by Design`}</title>
-    <meta name="description" content={description} />
+    <meta name="description" content={finalDescription} />
 
     <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content={siteUrl} />
     <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
+    <meta property="og:description" content={finalDescription} />
     {ogImage && <meta property="og:image" content={`${siteUrl}${ogImage}`} />}
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content={siteUrl} />
     <meta property="twitter:title" content={title} />
-    <meta property="twitter:description" content={description} />
+    <meta property="twitter:description" content={finalDescription} />
     {ogImage && <meta property="twitter:image" content={`${siteUrl}${ogImage}`} />}
 
     <link rel="canonical" href={siteUrl} />
@@ -40,11 +57,13 @@ const siteUrl = "https://missional.design";
   </head>
 
   <body>
-    <a class="skip-link" href="#main">Skip to main content</a>
-    <Nav />
+    <a class="skip-link" href="#main">
+      {lang === 'de' ? 'Zum Hauptinhalt springen' : 'Skip to main content'}
+    </a>
+    <Nav lang={lang} />
     <main id="main" tabindex="-1">
       <slot />
     </main>
-    <Footer />
+    <Footer lang={lang} />
   </body>
 </html>

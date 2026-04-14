@@ -1,13 +1,49 @@
 ---
+import LangSwitch from './LangSwitch.astro';
+import { t, type Locale } from '../i18n/ui';
+
+interface Props {
+  lang?: Locale;
+}
+const { lang = 'en' } = Astro.props;
+
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const prefix = lang === 'de' ? `${base}/de` : base;
+const currentPath = new URL(Astro.request.url).pathname;
+
+// Helper to compute active state that also works with `/de` prefix
+function isActive(href: string): boolean {
+  const p = currentPath.replace(/\/$/, '');
+  const h = href.replace(/\/$/, '');
+  if (h === (base || '') && (p === '' || p === base)) return true;
+  if (h === `${base}/de` && (p === `${base}/de` || p === `${base}/de/`)) return true;
+  return p === h;
+}
 ---
 
 <nav class="nav">
-  <a href={`${base}/`} style="text-decoration: none;">Missional by Design</a>
+  <a href={`${prefix}/`} style="text-decoration: none;">Missional by Design</a>
   <ul class="nav-links">
-    <li><a href={`${base}/framework`}>Framework</a></li>
-    <li><a href={`${base}/ministry-model-canvas`}>Canvas</a></li>
-    <li><a href={`${base}/blog`}>Writing</a></li>
-    <li><a href={`${base}/about`}>About</a></li>
+    <li>
+      <a href={`${prefix}/framework`} class={isActive(`${prefix}/framework`) ? 'active' : ''}>
+        {t(lang, 'nav.framework')}
+      </a>
+    </li>
+    <li>
+      <a href={`${prefix}/ministry-model-canvas`} class={isActive(`${prefix}/ministry-model-canvas`) ? 'active' : ''}>
+        {t(lang, 'nav.canvas')}
+      </a>
+    </li>
+    <li>
+      <a href={`${prefix}/blog`} class={isActive(`${prefix}/blog`) ? 'active' : ''}>
+        {t(lang, 'nav.writing')}
+      </a>
+    </li>
+    <li>
+      <a href={`${prefix}/about`} class={isActive(`${prefix}/about`) ? 'active' : ''}>
+        {t(lang, 'nav.about')}
+      </a>
+    </li>
   </ul>
+  <LangSwitch currentLocale={lang} />
 </nav>

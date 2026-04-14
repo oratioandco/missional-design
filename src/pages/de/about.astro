@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EmailLink from '../../components/EmailLink.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+// NOTE: Draft German copy — please review before going live.
+---
+
+<BaseLayout
+  lang="de"
+  title="Über mich"
+  description="Tobias Treppmann — Produktdesigner, Theologe und Gründer von Oratio&Co"
+>
+  <section class="hero" style="min-height: 50vh;">
+    <div class="hero-label">Über mich</div>
+    <h1>Über mich.</h1>
+  </section>
+
+  <section class="section">
+    <div class="container-narrow">
+      <p class="lead">
+        <strong>Tobias Treppmann</strong> ist ein Produktdesigner, Theologe und Gründer von Oratio&Co.
+        Er verfolgt derzeit einen M.A. in Leitung an der Kairos University während er
+        <a href="https://aperto.bible">Aperto</a> entwickelt, eine Plattform für digitale geistliche Formation.
+      </p>
+      <p class="lead">
+        Das Framework für missionales Produktdesign entstand aus seiner Forschungsarbeit 2026
+        <em>Digital Spiritual Formation: The Aperto Vision</em>, die auf 195+ Quellen über Theologie,
+        Verhaltensforschung und Produktdesign aufbaut.
+      </p>
+      <p class="lead">
+        Dieses Framework wird offen als Ressource für das Feld veröffentlicht. Wenn du Technologie für
+        geistliche Formation baust — oder allgemeiner für menschliches Gedeihen — würde ich gerne von dir hören.
+      </p>
+
+      <div style="margin-top: 3rem; padding-top: 3rem; border-top: 1px solid var(--color-black);">
+        <h3 style="margin-bottom: 1.5rem;">Nimm Kontakt auf</h3>
+        <ul style="list-style: none; padding: 0; line-height: 2.5;">
+          <li><strong>Email:</strong> <EmailLink /></li>
+          <li><strong>Beratung:</strong> <a href="https://oratio.co">oratio.co</a></li>
+          <li><strong>Derzeit in Entwicklung:</strong> <a href="https://aperto.bible">aperto.bible</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
