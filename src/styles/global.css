@@ -197,6 +197,7 @@ em {
 /* Hero */
 .hero {
   min-height: 100vh;
+  min-height: 100svh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -204,6 +205,13 @@ em {
   background: var(--color-black);
   color: var(--color-white);
   position: relative;
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding: var(--spacing-xl) 6vw;
+    min-height: auto;
+  }
 }
 
 .hero-label {
@@ -388,6 +396,8 @@ em {
   text-transform: uppercase;
   background: var(--color-black);
   color: var(--color-white);
+  position: relative;  /* anchor for mobile menu panel */
+  z-index: 20;
 }
 
 .nav-links {
@@ -398,13 +408,6 @@ em {
 
 .nav a {
   text-decoration: none;
-}
-
-@media (max-width: 640px) {
-  .nav-links {
-    gap: var(--spacing-md);
-    font-size: 0.75rem;
-  }
 }
 
 /* CTA button */
