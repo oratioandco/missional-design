@@ -63,7 +63,7 @@ import { legal } from '../data/legal';
       </p>
       <p>
         <strong>{legal.operator.name}</strong><br />
-        E-Mail: <EmailLink user={legal.operator.email.user} domain={legal.operator.email.domain} tld={legal.operator.email.tld} />
+        <EmailLink label="E-Mail schreiben" user={legal.operator.email.user} domain={legal.operator.email.domain} tld={legal.operator.email.tld} />
       </p>
 
       <h3>Durchsetzungsverfahren</h3>
@@ -92,8 +92,7 @@ import { legal } from '../data/legal';
         reduced-motion fallbacks for all animations, and responsive layout down to 320px.
       </p>
       <p>
-        If you notice accessibility issues on this website, please contact us:
-        <EmailLink user={legal.operator.email.user} domain={legal.operator.email.domain} tld={legal.operator.email.tld} />.
+        If you notice accessibility issues on this website, please <EmailLink label="Contact" user={legal.operator.email.user} domain={legal.operator.email.domain} tld={legal.operator.email.tld} />.
       </p>
 
       <p style="margin-top: 3rem; opacity: 0.6; font-size: 0.85rem;">
