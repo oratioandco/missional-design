@@ -1,8 +1,7 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://oratioandco.github.io',
-  base: '/missional-design',
+  site: 'https://missional.design',
   output: 'static',
   integrations: [],
 });
