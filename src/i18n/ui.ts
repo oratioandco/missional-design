@@ -4,6 +4,8 @@
  * Short UI strings used across Nav, Footer, and shared components.
  * Long-form page content lives in the pages themselves (one .astro per locale).
  *
+ * German terminology follows the project glossary in ./glossary.md.
+ *
  * DRAFT TRANSLATIONS: German copy here is Claude's first draft — Tobias, please review
  * and refine to your preferred register before going live.
  */
