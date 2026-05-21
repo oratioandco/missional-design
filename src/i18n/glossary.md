@@ -4,9 +4,8 @@ Verbindliche deutsche Terminologie für die gesamte Seite. Ziel: eine
 einheitliche, **anglizismusfreie** Sprache für eine kirchlich-christliche
 Zielgruppe.
 
-**Status: ENTWURF — bitte von Tobias prüfen und korrigieren, bevor die
-Fließtext-Übersetzung beginnt.** Wo zwei Optionen stehen (`A / B`), bitte eine
-auswählen. Spalte „Hinweis" markiert Zweifelsfälle.
+**Status: Von Tobias geprüft und bestätigt (2026-05-21).** Spalte „Hinweis"
+markiert Register und Kontextabhängigkeiten.
 
 ## So liest du die Tabelle
 
@@ -41,8 +40,8 @@ Diese Werktitel und Marken werden **nicht** übersetzt (lizenz-/markenrechtlich)
 | good news / gospel | gute Nachricht / Evangelium | |
 | witness | Zeugnis | |
 | discipleship | Jüngerschaft / Nachfolge | |
-| spiritual formation | geistliche Formation / geistliche Prägung | Register-Entscheidung von Tobias |
-| formation | Formation / Prägung | konsequent zur Wahl oben |
+| spiritual formation | geistliche Prägung | „geistliches Wachstum" nur, wo der Text Wachstum betont; **nicht** „Jüngerschaft" (= discipleship) |
+| formation | Prägung | |
 | human flourishing | menschliches Aufblühen / Gedeihen | „Gedeihen" bisher auf der Seite verwendet |
 | prayerful discernment | gebetsvolle Unterscheidung | |
 | stewardship | Haushalterschaft | |
@@ -78,7 +77,7 @@ Diese Werktitel und Marken werden **nicht** übersetzt (lizenz-/markenrechtlich)
 
 | Englisch | Deutsch (Vorschlag) | Hinweis |
 |---|---|---|
-| (product) design | (Produkt-)Gestaltung | „Design" ist eingedeutscht (Duden); Tobias entscheidet, ob „Gestaltung" durchgängig |
+| (product) design | (Produkt-)Gestaltung | durchgängig „Gestaltung"; einzige Ausnahme: Markenname „Missional by Design" |
 | to design | gestalten | |
 | tool(s) | Werkzeug(e) | |
 | digital tools | digitale Werkzeuge | |
@@ -127,13 +126,20 @@ Diese Werktitel und Marken werden **nicht** übersetzt (lizenz-/markenrechtlich)
 
 ---
 
-## Offene Punkte für Tobias
+## Geklärte Entscheidungen (2026-05-21)
 
-1. **Register „Formation":** durchgängig „geistliche Formation" oder „geistliche
-   Prägung"?
-2. **„Design" vs. „Gestaltung":** überall eindeutschen, oder „Design" als
-   eingedeutschtes Wort zulassen (auch wegen des Markennamens „Missional by
-   Design")?
-3. Begriffe, die hier noch fehlen oder anders lauten sollen — bitte ergänzen.
-4. Der unklare Teil deiner ursprünglichen Anfrage („das minus mit Dienste
-   wird …") — falls das eine konkrete Begriffsvorgabe war, bitte hier eintragen.
+- **„spiritual formation"** → „geistliche Prägung". Nicht „Jüngerschaft" (das
+  bleibt „discipleship"); „geistliches Wachstum" nur, wo Wachstum gemeint ist.
+- **„design"** → durchgängig „Gestaltung"; Ausnahme nur der Markenname.
+- **Eingedeutschte Begriffe behalten:** Plattform, Budget, Ressourcen, Essay,
+  SMART-Kriterien, missional.
+
+## Noch offen
+
+- **Navigation:** „Framework" → „Rahmenwerk", „Writing" → „Texte" vorgeschlagen;
+  „Canvas" vorerst belassen (kürzt den Werktitel „Ministry Model Canvas" ab) —
+  bitte bestätigen oder ändern.
+- **„Team":** als eingedeutschtes Wort (Duden) verwendet — bitte bestätigen.
+- Begriffe, die hier fehlen oder anders lauten sollen — jederzeit ergänzen.
+- Der unklare Teil der ursprünglichen Anfrage („das minus mit Dienste wird …") —
+  falls eine konkrete Begriffsvorgabe gemeint war, bitte hier eintragen.

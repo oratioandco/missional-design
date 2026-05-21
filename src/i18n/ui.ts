@@ -26,6 +26,9 @@ export const ui = {
 
     // Footer
     'footer.tagline': 'Missional by Design',
+    'footer.blurb': 'A framework for building technology that serves human flourishing through spiritual formation. Developed by Tobias Treppmann and published alongside Digital Spiritual Formation: The Aperto Vision (2026).',
+    'footer.explore': 'Explore',
+    'footer.related': 'Related',
     'footer.links.imprint': 'Impressum',
     'footer.links.privacy': 'Datenschutz',
     'footer.links.accessibility': 'Barrierefreiheit',
@@ -42,13 +45,16 @@ export const ui = {
   de: {
     // Nav
     'nav.home': 'Start',
-    'nav.framework': 'Framework',
+    'nav.framework': 'Rahmenwerk',
     'nav.canvas': 'Canvas',
-    'nav.writing': 'Schreiben',
+    'nav.writing': 'Texte',
     'nav.about': 'Über mich',
 
     // Footer
     'footer.tagline': 'Missional by Design',
+    'footer.blurb': 'Ein Rahmenwerk für die Entwicklung von Technologie, die dem menschlichen Gedeihen durch geistliche Prägung dient. Entwickelt von Tobias Treppmann und veröffentlicht begleitend zu „Digital Spiritual Formation: The Aperto Vision" (2026).',
+    'footer.explore': 'Erkunden',
+    'footer.related': 'Verwandt',
     'footer.links.imprint': 'Impressum',
     'footer.links.privacy': 'Datenschutz',
     'footer.links.accessibility': 'Barrierefreiheit',
