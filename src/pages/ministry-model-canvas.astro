@@ -6,53 +6,43 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const blocks = [
   {
     num: '01',
-    title: 'Target Audience',
-    questions: [
-      'Who is our most important target audience?',
-      'Which sub-groups exist? (e.g. families contain parents, kids, youth)',
-      "What role do faith and spirituality play in the target audience's lives?",
-    ],
-    area: 'target',
-  },
-  {
-    num: '02',
     title: 'Connecting Factor',
     questions: [
-      'Top 3 connecting factors (e.g. problems, needs, interests).',
-      "What unique, interest-based activities can we offer that align with our ministry's values and the interests of our target audience?",
+      'Top 3 connecting factors (e.g. problems, values, needs, interests of the target audience).',
+      'What type of relationship does the target audience expect? (e.g. community, co-creation, receiving help or services, self-service, entertainment)',
     ],
     area: 'connecting',
   },
   {
-    num: '03',
-    title: 'Missional Identity',
+    num: '02',
+    title: 'Target Audience',
     questions: [
-      'What really is the good news in our context?',
-      "How does our church reflect God's mission in the world?",
-      'What aspects of our ministry are particularly compelling in our particular context?',
+      'Who is our most important target audience? (demographics, location, time, characteristics)',
+      'Which sub-groups exist? (e.g. families contain parents, kids, youth)',
+      'What alternatives exist and are used by our target audience regarding connecting factors?',
     ],
-    area: 'identity',
+    area: 'target',
+  },
+  {
+    num: '03',
+    title: 'Unique Value Proposition',
+    questions: [
+      'A single, clear, compelling message that states why you are different and worth engaging with.',
+      'How do you address each sub-group through their connecting factors?',
+    ],
+    area: 'value',
   },
   {
     num: '04',
-    title: 'Relationships',
-    questions: [
-      'What type of relationship do they expect from us? (community, co-creation, accountability, self-service, automation)',
-      'In what ways can we ensure our relational offerings are accessible and appealing to those new to faith?',
-    ],
-    area: 'relationships',
-  },
-  {
-    num: '05',
     title: 'Key Activities',
     questions: [
-      'What are the primary activities required to connect with and serve our target audience effectively?',
-      'Which activities do we need to sustain this model long-term? (worship services, communication, events, training)',
+      'Which activities do we need to offer for our unique value proposition? Which ones correspond to the target audience\'s needs?',
+      'Which activities do we need to sustain this model long-term? (e.g. worship services, communication, events, training)',
     ],
     area: 'activities',
   },
   {
-    num: '06',
+    num: '05',
     title: 'Channels',
     questions: [
       'Where and how will we reach the target audience?',
@@ -61,30 +51,37 @@ const blocks = [
     area: 'channels',
   },
   {
-    num: '07',
+    num: '06',
     title: 'Resources',
     questions: [
-      'What resources do we need? (Financial, Volunteers, Staff, Partnerships, Equipment/Technology, Location)',
-      'What existing relationships or networks can we leverage to connect with our target audience?',
+      'What resources do we need? (financial, volunteers, staff, partnerships, equipment, technology, materials, location)',
     ],
     area: 'resources',
   },
   {
-    num: '08',
+    num: '07',
     title: 'Budget',
     questions: [
-      'What are the costs? (rent, salaries, utilities, communication, technology, materials)',
+      'What are the costs? (e.g. rent, salaries, utilities, communication, technology, materials)',
     ],
     area: 'budget',
   },
   {
-    num: '09',
-    title: 'Assessing Missional Effectiveness',
+    num: '08',
+    title: 'Mission Achievement',
     questions: [
-      "How can we cultivate a posture of prayerful discernment and openness to the Holy Spirit as we assess our church's missional effectiveness?",
-      "How can we design SMART criteria that align with our church's God-given mission?",
+      'How can we measure mission achievement?',
+      'Define SMART criteria: Specific, Measurable, Actionable, Realistic, Time-bound.',
     ],
-    area: 'assessment',
+    area: 'mission',
+  },
+  {
+    num: '09',
+    title: 'Unfair Advantage',
+    questions: [
+      'Why are we the ideal group to reach this target audience? How are we different from the alternatives?',
+    ],
+    area: 'advantage',
   },
 ];
 ---
@@ -121,9 +118,10 @@ const blocks = [
         </p>
         <p class="lead">
           The <strong>Ministry Model Canvas</strong> adapts that same shape for churches and ministries. It keeps the nine-block
-          logic but replaces product-market language with ministry-mission language: target audience instead of customer
-          segments, missional identity instead of value proposition, connecting factor instead of customer problem. The result
-          is a tool that translates — without losing the theological weight of what churches actually do.
+          logic but reframes the language for the work of mission: connecting factor instead of customer problem, target
+          audience reframed around discernment rather than market, an explicit unfair advantage block (why this team, in
+          this place, for these people), and mission achievement instead of revenue streams. The result is a tool that
+          translates — without losing the theological weight of what churches actually do.
         </p>
         <p class="lead">
           It was developed by <a href="https://oratio.co">Tobias Treppmann / Oratio&Co</a> and has been used with churches and
@@ -183,7 +181,7 @@ const blocks = [
 
           <div class="step">
             <span class="principle-number">Step 02 · Start with the target</span>
-            <h4>Block 01 first. Always.</h4>
+            <h4>Block 02 first. Always.</h4>
             <p style="font-weight: 300; line-height: 1.5;">
               Who is this ministry for? Be specific. "The community" is not a target audience — "parents of young children in
               the two neighborhoods south of the church" is. Everything downstream depends on this.
@@ -192,7 +190,7 @@ const blocks = [
 
           <div class="step">
             <span class="principle-number">Step 03 · Connecting factor</span>
-            <h4>Block 02 · What draws them?</h4>
+            <h4>Block 01 · What draws them?</h4>
             <p style="font-weight: 300; line-height: 1.5;">
               Not what <em>you</em> want to offer — what <em>they</em> are already looking for. Problems, needs, interests,
               longings. If you can't name three, you haven't spent enough time with them.
@@ -200,50 +198,55 @@ const blocks = [
           </div>
 
           <div class="step">
-            <span class="principle-number">Step 04 · Missional identity</span>
-            <h4>Block 03 · What's the good news here?</h4>
+            <span class="principle-number">Step 04 · Unique value proposition</span>
+            <h4>Block 03 · What's the compelling offer?</h4>
             <p style="font-weight: 300; line-height: 1.5;">
-              The theological core. Not a statement cribbed from another church — your specific articulation of the gospel in
-              this context, for these people. This is where theological reflection meets strategic clarity.
+              The single, clear reason these people should engage with this ministry rather than the alternatives. Not a
+              marketing slogan — your honest articulation of what is on offer and why it matters here, for these people. The
+              strategic-theological hinge of the canvas.
             </p>
           </div>
         </div>
 
         <div>
           <div class="step">
-            <span class="principle-number">Step 05 · Right side first</span>
-            <h4>Blocks 04, 05, 06 · How will you connect?</h4>
+            <span class="principle-number">Step 05 · How will you reach them?</span>
+            <h4>Blocks 04, 05 · Activities &amp; Channels</h4>
             <p style="font-weight: 300; line-height: 1.5;">
-              Relationships, Key Activities, Channels. What kind of relational posture will you have? What activities sustain
-              that posture? Where and how do you reach people? These three define the experience side of your ministry.
+              Which activities does the offer actually require — both to make it real and to sustain it? And where do you meet
+              the people you're trying to reach? What relationships do you already have, and which do you still need to build?
+              These two blocks define the experience side of your ministry.
             </p>
           </div>
 
           <div class="step">
-            <span class="principle-number">Step 06 · Left side</span>
-            <h4>Blocks 07, 08 · What will it cost?</h4>
+            <span class="principle-number">Step 06 · What will it cost?</span>
+            <h4>Blocks 06, 07 · Resources &amp; Budget</h4>
             <p style="font-weight: 300; line-height: 1.5;">
-              Resources and Budget. Be honest. What do you actually need — people, space, money, partnerships? This is where
-              vision meets reality. If Blocks 01–06 are bigger than Blocks 07–08 can sustain, something has to change.
+              Be honest. What do you actually need — people, space, money, partnerships? And what does it actually cost —
+              rent, salaries, communication, technology? This is where vision meets reality. If blocks 01–05 are bigger than
+              blocks 06–07 can sustain, something has to change.
             </p>
           </div>
 
           <div class="step">
-            <span class="principle-number">Step 07 · Effectiveness</span>
-            <h4>Block 09 · How will you know?</h4>
+            <span class="principle-number">Step 07 · Unfair advantage</span>
+            <h4>Block 09 · Why you?</h4>
             <p style="font-weight: 300; line-height: 1.5;">
-              Design measurable, mission-aligned indicators — but hold them with prayerful discernment, not just spreadsheet
-              logic. The Holy Spirit's work doesn't always show up in a dashboard. Still, ask: how will we know if we're
-              faithful and fruitful?
+              What positions this team, in this place, to reach this audience — that another team would struggle to replicate?
+              Not arrogance, but honest naming of gift, history, and posture. If you can't name it, you may not yet have the
+              clarity the ministry needs.
             </p>
           </div>
 
           <div class="step">
-            <span class="principle-number">Step 08 · Revisit</span>
-            <h4>Every quarter.</h4>
+            <span class="principle-number">Step 08 · Mission achievement &amp; revisit</span>
+            <h4>Block 08 · How will you know?</h4>
             <p style="font-weight: 300; line-height: 1.5;">
-              A canvas is a living document. Date it. Version it. Revisit it every quarter. When context shifts — and it will —
-              you have a shared baseline to reason from instead of starting the conversation over.
+              Design measurable, mission-aligned indicators — SMART, but held with prayerful discernment, not just spreadsheet
+              logic. The Holy Spirit's work doesn't always show up in a dashboard. Date the canvas. Version it. Revisit it
+              every quarter. When context shifts — and it will — you have a shared baseline to reason from instead of starting
+              the conversation over.
             </p>
           </div>
         </div>
@@ -283,7 +286,7 @@ const blocks = [
         <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
           <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">Tip 05</div>
           <h4>Theology in Block 03.</h4>
-          <p>Missional identity is not a marketing slogan. Take the time to work through theological reflection — it's the load-bearing block.</p>
+          <p>The unique value proposition is not a marketing slogan. Take the time to work through theological reflection — it is the load-bearing block, where mission becomes specific.</p>
         </div>
         <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
           <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">Tip 06</div>
@@ -333,9 +336,9 @@ const blocks = [
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto auto auto;
     grid-template-areas:
-      'connecting activities identity  relationships target'
-      'connecting resources  identity  channels      target'
-      'budget     budget     assessment assessment   assessment';
+      'connecting activities value advantage target'
+      'connecting resources  value channels  target'
+      'budget     budget     mission mission mission';
     gap: 0;
     border: 1px solid var(--color-black);
     background: var(--color-black);
@@ -350,15 +353,15 @@ const blocks = [
     min-height: 180px;
   }
 
-  .canvas-target      { grid-area: target; }
-  .canvas-connecting  { grid-area: connecting; }
-  .canvas-identity    { grid-area: identity; }
-  .canvas-relationships { grid-area: relationships; }
-  .canvas-activities  { grid-area: activities; }
-  .canvas-channels    { grid-area: channels; }
-  .canvas-resources   { grid-area: resources; }
-  .canvas-budget      { grid-area: budget; }
-  .canvas-assessment  { grid-area: assessment; }
+  .canvas-connecting { grid-area: connecting; }
+  .canvas-target     { grid-area: target; }
+  .canvas-value      { grid-area: value; }
+  .canvas-activities { grid-area: activities; }
+  .canvas-channels   { grid-area: channels; }
+  .canvas-resources  { grid-area: resources; }
+  .canvas-budget     { grid-area: budget; }
+  .canvas-mission    { grid-area: mission; }
+  .canvas-advantage  { grid-area: advantage; }
 
   .canvas-block-num {
     position: absolute;
@@ -412,12 +415,11 @@ const blocks = [
     .canvas {
       grid-template-columns: 1fr 1fr;
       grid-template-areas:
-        'target       target'
-        'connecting   identity'
-        'relationships activities'
-        'channels     resources'
-        'budget       budget'
-        'assessment   assessment';
+        'connecting  target'
+        'value       advantage'
+        'activities  channels'
+        'resources   budget'
+        'mission     mission';
     }
     .canvas-block-num {
       font-size: 2.5rem;
@@ -428,15 +430,15 @@ const blocks = [
     .canvas {
       grid-template-columns: 1fr;
       grid-template-areas:
-        'target'
         'connecting'
-        'identity'
-        'relationships'
+        'target'
+        'value'
         'activities'
         'channels'
         'resources'
         'budget'
-        'assessment';
+        'mission'
+        'advantage';
     }
   }
 </style>
