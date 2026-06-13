@@ -1,85 +1,365 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import EmailLink from '../../../components/EmailLink.astro';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <BaseLayout
   lang="de"
-  title="Churches and Startups"
-  description="Churches and Startups Essay — Deutsche Übersetzung in Vorbereitung"
+  title="Warum Gemeinden und junge Unternehmen mehr gemeinsam haben, als man denkt"
+  description="Große Vision, knappe Mittel, fließender Kontext. Die überraschende Überschneidung zweier scheinbar gegensätzlicher Welten — und was beide voneinander lernen können."
 >
-  <article class="translation-stub">
-    <p class="eyebrow">Essay</p>
-    <h1>Deutsche Übersetzung<br/>in Vorbereitung.</h1>
-    <p class="lead">
-      Dieser Essay liegt derzeit nur auf Englisch vor. Die deutsche Übersetzung folgt bald.
-    </p>
-    <div class="actions">
-      <a class="cta-button" href={`${base}/blog/churches-and-startups`}>Read in English →</a>
-      <a class="cta-button-outline" href={`${base}/de/blog`}>Zurück zu Essays</a>
+  <!-- Hero -->
+  <article class="post">
+    <header class="post-hero">
+      <div class="hero-label post-meta">Essay · Missional by Design</div>
+      <h1>Warum Gemeinden und junge Unternehmen mehr gemeinsam haben, als man denkt.</h1>
+      <p class="hero-subtitle">
+        Große Vision, knappe Mittel, fließender Kontext. Die überraschende Überschneidung zweier scheinbar
+        gegensätzlicher Welten — und was beide voneinander lernen können.
+      </p>
+    </header>
+
+    <div class="post-body">
+      <div class="container-narrow">
+        <p class="lead">
+          Ein Pastor und eine Gründerin gehen in ein Café. Man würde erwarten, dass sie aneinander vorbeireden — der eine
+          verwaltet eine jahrhundertealte Institution, die andere versucht, ein Produkt fertig zu bekommen, bevor das
+          Geld ausgeht. Doch nach zehn Minuten am Tisch passiert etwas Merkwürdiges: Sie beenden einander die Sätze.
+        </p>
+
+        <p>
+          Ich habe das letzte Jahrzehnt in beiden Welten gearbeitet. Ich war Produktgestalter in einem jungen Unternehmen
+          und habe Gemeinden beraten, die herausfinden wollten, wie sie treu bleiben können in einer Umgebung, die ihre
+          Sprache nicht mehr spricht. Die oberflächlichen Unterschiede sind offensichtlich — die eine Welt verkauft
+          Software, die andere verkündet ein Evangelium. Doch je tiefer ich mich in beide hineingearbeitet habe, desto
+          mehr ist mir aufgefallen, wie sehr sich die eigentliche <em>Arbeit</em> gleicht.
+        </p>
+
+        <h2>Was sie teilen</h2>
+
+        <p>
+          Sowohl Gemeinden als auch junge Unternehmen tragen eine große Vision. Ein junges Unternehmen will verändern,
+          wie Menschen arbeiten, reisen, essen oder einander begegnen. Eine Gemeinde will ein anderes Menschsein in der
+          Welt ausrufen. Keine der beiden Visionen kommt mit ausreichenden Mitteln — beide sind chronisch unterfinanziert,
+          gemessen an dem, was sie zu tun versuchen. Dieses Missverhältnis prägt alles: die Dringlichkeit, das
+          Improvisieren, die ständige Notwendigkeit, Prioritäten zu setzen.
+        </p>
+
+        <p>
+          Beide bewegen sich in dem, was ich einen <strong>fließenden Kontext</strong> nenne. Für junge Unternehmen
+          verschiebt sich der Markt — neue Technik kommt, das Kaufverhalten verändert sich, eine Konkurrentin schnappt
+          ihnen das Geschäft weg. Für Gemeinden verschiebt sich das Viertel — Gentrifizierung verändert, wer noch kommt,
+          kulturelle Werte verschieben sich, die Sprache des Glaubens trägt nicht mehr. In beiden Fällen ist das Team,
+          das die Sache aufgebaut hat, nicht notwendigerweise dasjenige, das die nächste Etappe bewältigen kann.
+        </p>
+
+        <p>
+          Beide brauchen eine starke Leitung mit klarer Vision, die Fähigkeit, sie verständlich zu machen, und die Kraft,
+          ein Team um sie herum zu sammeln. Beide leben von Unterstützung aus der Gemeinschaft — junge Unternehmen suchen
+          Geldgeber, die an die These glauben, Gemeinden sind auf Mitglieder und Spender angewiesen, die großzügig geben.
+          Beide müssen die Treue der Menschen, denen sie dienen, immer wieder neu gewinnen. Beide stehen vor echten
+          Hindernissen: junge Unternehmen vor Scheitern und Konkurrenz, Gemeinden vor schwindendem Besuch und inneren
+          Konflikten. Beide brauchen Ausdauer.
+        </p>
+
+        <h2>Wo sie sich unterscheiden</h2>
+
+        <p>
+          Die Unterschiede sind real, und sie haben Gewicht. Junge Unternehmen orientieren sich letztlich an Wachstum
+          und finanzieller Tragfähigkeit — sie existieren, um einen Markt zu erobern. Gemeinden orientieren sich an
+          etwas anderem: an einem höheren Sinn, an Treue, an einem Zeugnis. Die meisten Gemeinden haben lange Geschichten
+          und überlieferte Traditionen; die meisten jungen Unternehmen sind jung und bewusst gegen Tradition gebaut. Und
+          der tiefste Unterschied ist das, was eine Freundin von mir <em>dem Geist folgen</em> gegenüber
+          <em>dem Geld folgen</em> nennt:
+        </p>
+
+        <figure class="venn" aria-labelledby="venn-title">
+          <p id="venn-title" class="venn-caption">Gemeinden &amp; junge Unternehmen — Gemeinsames und Unterschiedliches</p>
+
+          <svg viewBox="0 0 900 520" role="img" aria-label="Venn-Diagramm: Überschneidung zwischen Gemeinden und jungen Unternehmen">
+            <!-- Linker Kreis: Dem Geist folgen (Gemeinde) -->
+            <ellipse cx="300" cy="260" rx="300" ry="240" fill="rgba(196, 232, 216, 0.85)" stroke="#052e16" stroke-width="1.5" />
+            <!-- Rechter Kreis: Dem Geld folgen (junges Unternehmen) -->
+            <ellipse cx="600" cy="260" rx="300" ry="240" fill="rgba(245, 215, 225, 0.85)" stroke="#4c1d95" stroke-width="1.5" />
+
+            <!-- Labels links -->
+            <text x="140" y="90" class="venn-heading">Dem Geist folgen</text>
+            <text x="140" y="220" class="venn-item">Mitwirken an dem,</text>
+            <text x="140" y="245" class="venn-item">was Gott tut</text>
+            <text x="140" y="300" class="venn-item">Glaube und</text>
+            <text x="140" y="325" class="venn-item">Gehorsam</text>
+
+            <!-- Labels rechts -->
+            <text x="760" y="90" class="venn-heading" text-anchor="end">Dem Geld folgen</text>
+            <text x="760" y="220" class="venn-item" text-anchor="end">Selbstbestimmt</text>
+            <text x="760" y="300" class="venn-item" text-anchor="end">Gewinn und Erfolg</text>
+
+            <!-- Labels in der Überschneidung -->
+            <text x="450" y="155" class="venn-overlap-item" text-anchor="middle">Große Vision</text>
+            <text x="450" y="200" class="venn-overlap-item" text-anchor="middle">Knappe Mittel</text>
+            <text x="450" y="255" class="venn-overlap-heading" text-anchor="middle">Haushalterschaft</text>
+            <text x="450" y="310" class="venn-overlap-item" text-anchor="middle">Am Menschen</text>
+            <text x="450" y="335" class="venn-overlap-item" text-anchor="middle">ausgerichtet</text>
+            <text x="450" y="385" class="venn-overlap-item" text-anchor="middle">Fließender Kontext</text>
+          </svg>
+
+          <figcaption class="venn-figcaption">
+            In der Mitte: der Boden, auf dem beide Welten stehen. An den Seiten: wo sie sich unterscheiden.
+          </figcaption>
+        </figure>
+
+        <p>
+          Eine Gemeinde kann ihre Richtung nicht einfach selbst bestimmen, wie ein junges Unternehmen das kann; sie
+          versucht zu unterscheiden und zu folgen. Ein junges Unternehmen kann nicht einfach auf den Geist warten; es
+          muss verteidigbare Entscheidungen mit unvollständigen Informationen treffen und liefern. Das sind keine kleinen
+          Unterschiede. Sie prägen, was Strategie in jedem Kontext überhaupt <em>heißt</em>.
+        </p>
+
+        <h2>Der existenzielle Druck ist verschieden — und das ist ein Problem für die Gemeinde</h2>
+
+        <p>
+          Hier kommt etwas Unbequemes. Ein junges Unternehmen, das nicht mehr wirksam ist, verschwindet vom Markt. Die
+          Rückkopplung ist brutal und schnell: Kommen die Nutzer nicht wieder, versiegt der Umsatz, und nach wenigen
+          Quartalen gehen die Lichter aus. Der Markt bestraft Wirkungslosigkeit zügig.
+        </p>
+
+        <p>
+          Eine Gemeinde, die nach außen nicht mehr wirksam ist, schließt in den meisten Fällen nicht. Solange es
+          Mitglieder gibt, die spenden, bleibt das Licht an. Die Rückkopplung ist langsam, gedämpft und schwer zu lesen.
+          Viele Gemeinden zehren seit einer Generation von ihrer Mitgliederbasis; ihr Zeugnis nach außen ist in einer
+          Weise wirkungslos, die jedes junge Unternehmen längst in den Konkurs getrieben hätte.
+        </p>
+
+        <p>
+          Ich sage das nicht, um jemanden zu beschämen. Ich sage es, weil das <em>Fehlen unmittelbarer Folgen</em> ein
+          echtes Risiko ist. Es verleitet Gemeinden dazu, Überleben mit Treue zu verwechseln. Es erlaubt uns, der
+          ehrlichen Selbsteinschätzung auszuweichen, die Teams in jungen Unternehmen wöchentlich vornehmen, weil sie
+          müssen. Gemeinden haben den Luxus eines langsamen Niedergangs — und dieser Luxus bringt viele von ihnen leise
+          um.
+        </p>
+
+        <h2>Was Gemeinden übernehmen können</h2>
+
+        <p>
+          In den letzten zwei Jahrzehnten haben junge Unternehmen einen reichen Werkzeugkasten für fließende Kontexte
+          entwickelt: schlankes Vorgehen, gestalterisches Denken, Nutzerforschung, schrittweise Weiterentwicklung,
+          ehrliche Messung, die kleinste tragfähige Version eines Produkts. Diese Werkzeuge sind nicht neutral — sie
+          tragen Annahmen darüber, was zählt und wie zu entscheiden ist. Aber sie lassen sich mit Unterscheidung
+          übernehmen, und sie sind außerordentlich nützlich.
+        </p>
+
+        <p>
+          Eine Gemeinde, die mit den Menschen spricht, die sie erreichen will — sie tatsächlich befragt, tatsächlich
+          zuhört, tatsächlich ihre Antworten das Dienstmodell verändern lässt —, betreibt Nutzerforschung. Eine
+          Gemeinde, die ein neues Treffen erprobt, bevor sie ein Fünf-Jahres-Budget dafür festlegt, führt ein schlankes
+          Experiment durch. Eine Gemeinde, die nicht nur den Besuch misst, sondern die Tiefe der entstandenen
+          Beziehungen, die geistliche Prägung, die Wahrnehmung im Viertel — diese Gemeinde tut das Gegenstück zu einer
+          durchdachten Kennzahlen-Übersicht.
+        </p>
+
+        <p>
+          Nichts davon ersetzt Gebet, Verkündigung, die Sakramente oder das Wirken des Geistes. Es ergänzt sie um eine
+          strategische Demut — das Eingeständnis, dass der Kontext zählt, dass wir uns irren können, dass das, was wir
+          letztes Jahr getan haben, vielleicht nicht das ist, was das nächste Jahr braucht.
+        </p>
+
+        <h2>Was junge Unternehmen übernehmen können</h2>
+
+        <p>
+          Seltener wird darüber gesprochen, aber genauso wahr: Junge Unternehmen haben auch etwas von Gemeinden zu
+          lernen. Die meisten Teams brennen aus, weil sie Kennzahlen hinterherlaufen ohne ein klares <em>Warum</em>. Sie
+          optimieren auf Wachstum, weil Wachstum messbar ist, und verlieren das Gefühl für den größeren Sinn, der die
+          Gründer durch die ersten Jahre getragen hat. Gemeinden wissen etwas über lange Zeithorizonte, über Berufung,
+          über die Disziplin der Haushalterschaft anstelle des Besitzens. Gemeinden wissen, dass ein Teil der wichtigsten
+          Arbeit unsichtbar ist und sich nicht messen lässt.
+        </p>
+
+        <p>
+          Die besten Produktteams, mit denen ich gearbeitet habe, verhalten sich ein wenig wie kleine, gesunde Gemeinden:
+          klar in ihrer Sendung, geduldig miteinander, bereit, das Richtige zu messen statt nur das Einfache, in die
+          Prägung ihrer Menschen investiert und nicht bloß in das, was sie hervorbringen.
+        </p>
+
+        <h2>Ein Ansatz, zwei Kontexte</h2>
+
+        <p>
+          Genau darum geht es bei „Missional by Design". Es ist nicht die Behauptung, Gemeinden sollten zu jungen
+          Unternehmen werden oder junge Unternehmen seien insgeheim Gemeinden. Es ist die Beobachtung, dass die
+          <em>Gestaltungsarbeit</em> in beiden Kontexten ähnlicher ist, als wir gewöhnlich zugeben — und dass wir, wenn
+          wir ehrlich mit dieser Überschneidung umgehen, die besten Werkzeuge aus jeder Tradition für die tiefsten Fragen
+          der jeweils anderen einsetzen können.
+        </p>
+
+        <p>
+          Große Vision. Knappe Mittel. Fließender Kontext. Haushalterschaft. Eine am Menschen ausgerichtete Haltung.
+          Diese fünf Dinge stehen in der Mitte beider Kreise. Wer in einer dieser Welten baut — und besonders, wer an
+          der Schnittstelle baut —, steht auf diesem Boden.
+        </p>
+
+        <hr/>
+
+        <p class="post-footer-note">
+          <em>Dieser Essay greift auf Arbeit zurück, die als „Missional by Design" (2023) veröffentlicht und auf der
+          ICCM Europe vorgestellt wurde. Wenn du an der Schnittstelle von Glaube, Gestaltung und Technologie baust,
+          würde ich gern von dir hören — <EmailLink />.</em>
+        </p>
+      </div>
     </div>
   </article>
+
+  <!-- Verwandt -->
+  <section class="section section-cream">
+    <div class="container">
+      <div style="margin-bottom: 2rem; max-width: 60ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Verwandt</div>
+        <h3>Weiterlesen.</h3>
+      </div>
+
+      <div class="grid grid-3">
+        <a href={`${base}/de/ministry-model-canvas`} style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black); text-decoration: none; color: var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.6; margin-bottom: 1rem;">Rahmenwerk</div>
+          <h4>Ministry Model Canvas</h4>
+          <p style="font-size: 0.95rem;">Ein strategisches Planungswerkzeug mit neun Blöcken für Gemeinden und Dienste, vom Business Model Canvas übernommen.</p>
+        </a>
+        <a href={`${base}/de/framework`} style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black); text-decoration: none; color: var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.6; margin-bottom: 1rem;">Rahmenwerk</div>
+          <h4>Missionale Produktgestaltung</h4>
+          <p style="font-size: 0.95rem;">Acht Prinzipien für redemptive Gestaltung — digitale Werkzeuge bauen, die das Heiligste der Menschen achten, statt ihre Aufmerksamkeit abzuschöpfen.</p>
+        </a>
+        <a href={`${base}/de/blog`} style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black); text-decoration: none; color: var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.6; margin-bottom: 1rem;">Texte</div>
+          <h4>Alle Essays</h4>
+          <p style="font-size: 0.95rem;">Mehr Texte zu missionaler Gestaltung, digitaler Prägung und Innovation im Dienst.</p>
+        </a>
+      </div>
+    </div>
+  </section>
 </BaseLayout>
 
 <style>
-  .translation-stub {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 6rem 2rem 4rem;
+  .post-hero {
+    padding: 6rem 6vw 4rem;
+    background: var(--color-black);
+    color: var(--color-white);
   }
-  .translation-stub .eyebrow {
-    font-family: 'Roboto Flex', 'Inter', sans-serif;
-    font-variation-settings: 'wdth' 125, 'opsz' 14;
-    font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 0.28em;
+  .post-hero h1 {
+    font-size: clamp(2.5rem, 7vw, 6rem);
+    line-height: 0.95;
+    max-width: 22ch;
+  }
+  .post-hero .hero-subtitle {
+    max-width: 60ch;
+    margin-top: 2rem;
+  }
+  .post-meta {
+    opacity: 0.7;
+  }
+
+  .post-body {
+    padding: 6rem 0 4rem;
+  }
+
+  .post-body h2 {
+    font-size: clamp(1.75rem, 4vw, 3rem);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    max-width: 22ch;
+  }
+
+  .post-body p {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    max-width: 65ch;
+    font-weight: 400;
+  }
+
+  .post-body p.lead {
+    font-size: 1.35rem;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 2.5rem;
+  }
+
+  .post-body hr {
+    border: 0;
+    border-top: 1px solid var(--color-black);
+    margin: 3rem 0 2rem;
+    max-width: 8rem;
+  }
+
+  .post-footer-note {
+    font-size: 1rem !important;
+    opacity: 0.75;
+  }
+
+  /* Venn-Diagramm — überlappende Ellipsen in SVG */
+  .venn {
+    margin: 3rem 0;
+    padding: 0;
+    max-width: 100%;
+  }
+  .venn svg {
+    width: 100%;
+    height: auto;
+    max-width: 900px;
+    display: block;
+    margin: 0 auto;
+  }
+  .venn-caption {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 0.75rem !important;
+    letter-spacing: 0.2em;
     text-transform: uppercase;
     opacity: 0.6;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem !important;
+    text-align: center;
   }
-  .translation-stub h1 {
-    font-family: 'Roboto Flex', 'Inter', sans-serif;
-    font-variation-settings: 'wdth' 145, 'opsz' 72;
-    font-size: clamp(2.25rem, 5vw, 4rem);
-    font-weight: 800;
-    line-height: 0.95;
-    letter-spacing: -0.03em;
-    margin-bottom: 2rem;
-  }
-  .translation-stub .lead {
-    font-family: 'Roboto Flex', 'Inter', sans-serif;
-    font-variation-settings: 'wdth' 110, 'opsz' 18;
-    font-size: 1.2rem;
-    line-height: 1.5;
-    max-width: 55ch;
-    margin-bottom: 2.5rem;
-    opacity: 0.85;
-  }
-  .actions {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-  }
-  .actions a {
-    display: inline-block;
-    padding: 1rem 1.75rem;
-    font-family: 'Roboto Flex', 'Inter', sans-serif;
-    font-variation-settings: 'wdth' 125, 'opsz' 14;
-    font-weight: 700;
+  .venn-figcaption {
     font-size: 0.95rem;
-    text-decoration: none;
-    border-radius: 2px;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    opacity: 0.65;
+    text-align: center;
+    margin-top: 1rem;
+    font-style: italic;
+    max-width: 60ch;
+    margin-left: auto;
+    margin-right: auto;
   }
-  .cta-button {
-    background: #0a1a2a;
-    color: #f6f1e7;
+
+  /* SVG-Text-Stile */
+  .venn-heading {
+    font-family: var(--font-display), 'Archivo Black', system-ui;
+    font-weight: 900;
+    font-size: 22px;
+    letter-spacing: -0.01em;
+    fill: #1a1a1a;
   }
-  .cta-button-outline {
-    background: transparent;
-    color: #0a1a2a;
-    border: 1px solid #0a1a2a;
+  .venn-item {
+    font-family: var(--font-body), 'Archivo', system-ui;
+    font-weight: 400;
+    font-size: 18px;
+    fill: #1a1a1a;
   }
-  .cta-button:hover { transform: translateY(-1px); box-shadow: 0 8px 24px rgba(10, 26, 42, 0.15); }
-  .cta-button-outline:hover { background: #0a1a2a; color: #f6f1e7; }
+  .venn-overlap-heading {
+    font-family: var(--font-display), 'Archivo Black', system-ui;
+    font-weight: 900;
+    font-size: 20px;
+    fill: #000;
+    letter-spacing: -0.01em;
+  }
+  .venn-overlap-item {
+    font-family: var(--font-body), 'Archivo', system-ui;
+    font-weight: 500;
+    font-size: 17px;
+    fill: #0a0a0a;
+  }
+
+  @media (max-width: 600px) {
+    .venn-heading { font-size: 26px; }
+    .venn-item { font-size: 22px; }
+    .venn-overlap-heading { font-size: 24px; }
+    .venn-overlap-item { font-size: 20px; }
+  }
 </style>
