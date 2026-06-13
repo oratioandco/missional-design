@@ -1,85 +1,453 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import EmailLink from '../../components/EmailLink.astro';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const blocks = [
+  {
+    num: '01',
+    title: 'Zielgruppe',
+    questions: [
+      'Wer ist unsere wichtigste Zielgruppe?',
+      'Welche Untergruppen gibt es? (z. B. Familien bestehen aus Eltern, Kindern, Jugendlichen)',
+      'Welche Rolle spielen Glaube und Spiritualität im Leben dieser Zielgruppe?',
+    ],
+    area: 'target',
+  },
+  {
+    num: '02',
+    title: 'Anknüpfungspunkt',
+    questions: [
+      'Top 3 Anknüpfungspunkte (z. B. Probleme, Bedürfnisse, Interessen).',
+      'Welche besonderen, interessengeleiteten Angebote können wir machen, die zu den Werten unseres Dienstes und den Interessen unserer Zielgruppe passen?',
+    ],
+    area: 'connecting',
+  },
+  {
+    num: '03',
+    title: 'Missionale Identität',
+    questions: [
+      'Was ist die gute Nachricht in unserem Kontext wirklich?',
+      'Wie spiegelt unsere Gemeinde Gottes Sendung in der Welt wider?',
+      'Welche Aspekte unseres Dienstes sind in unserem besonderen Kontext besonders überzeugend?',
+    ],
+    area: 'identity',
+  },
+  {
+    num: '04',
+    title: 'Beziehungen',
+    questions: [
+      'Welche Art von Beziehung erwarten sie von uns? (Gemeinschaft, gemeinsames Gestalten, Verbindlichkeit, Selbstbedienung, Automatisierung)',
+      'Wie können wir sicherstellen, dass unsere Beziehungsangebote zugänglich und einladend sind für Menschen, die neu im Glauben sind?',
+    ],
+    area: 'relationships',
+  },
+  {
+    num: '05',
+    title: 'Zentrale Tätigkeiten',
+    questions: [
+      'Welche Tätigkeiten brauchen wir, um unsere Zielgruppe wirklich zu erreichen und ihr zu dienen?',
+      'Welche Tätigkeiten tragen dieses Modell langfristig? (Gottesdienste, Kommunikation, Veranstaltungen, Schulung)',
+    ],
+    area: 'activities',
+  },
+  {
+    num: '06',
+    title: 'Wege',
+    questions: [
+      'Wo und wie erreichen wir die Zielgruppe?',
+      'Welche Beziehungen haben wir bereits, welche müssen wir aufbauen? (Zielgruppe, Stadt, Partnerorganisationen)',
+    ],
+    area: 'channels',
+  },
+  {
+    num: '07',
+    title: 'Ressourcen',
+    questions: [
+      'Welche Ressourcen brauchen wir? (Finanzen, Ehrenamtliche, Mitarbeitende, Partnerschaften, Ausstattung und Technik, Ort)',
+      'Welche bestehenden Beziehungen oder Netzwerke können wir nutzen, um unsere Zielgruppe zu erreichen?',
+    ],
+    area: 'resources',
+  },
+  {
+    num: '08',
+    title: 'Budget',
+    questions: [
+      'Welche Kosten entstehen? (Miete, Gehälter, Nebenkosten, Kommunikation, Technik, Material)',
+    ],
+    area: 'budget',
+  },
+  {
+    num: '09',
+    title: 'Missionale Wirksamkeit beurteilen',
+    questions: [
+      'Wie pflegen wir eine Haltung gebetsvoller Unterscheidung und Offenheit für den Heiligen Geist, während wir die missionale Wirksamkeit unserer Gemeinde beurteilen?',
+      'Wie gestalten wir SMART-Kriterien, die mit der von Gott gegebenen Sendung unserer Gemeinde übereinstimmen?',
+    ],
+    area: 'assessment',
+  },
+];
 ---
 
-<BaseLayout
-  lang="de"
-  title="Ministry Model Canvas"
-  description="Ministry Model Canvas — Deutsche Übersetzung in Vorbereitung"
->
-  <article class="translation-stub">
-    <p class="eyebrow">Ministry Model Canvas</p>
-    <h1>Deutsche Übersetzung<br/>in Vorbereitung.</h1>
-    <p class="lead">
-      Diese Seite liegt derzeit nur auf Englisch vor. Die deutsche Übersetzung folgt bald.
+<BaseLayout lang="de" title="Ministry Model Canvas">
+  <!-- Hero -->
+  <section class="hero" style="min-height: 60vh;">
+    <div class="hero-label">Ein strategisches Planungswerkzeug</div>
+    <h1>Ministry<br/>Model Canvas.</h1>
+    <p class="hero-subtitle">
+      Ein strategisches Planungswerkzeug mit neun Blöcken für Gemeinden und Dienste — vom Business Model Canvas
+      übernommen, um Teams zu helfen, ihre Sendung zu klären, ihre Zielgruppe zu benennen und auf missionale
+      Wirksamkeit hinzuarbeiten.
     </p>
-    <div class="actions">
-      <a class="cta-button" href={`${base}/ministry-model-canvas`}>Read in English →</a>
-      <a class="cta-button-outline" href={`${base}/de`}>Zurück zur Startseite</a>
+    <div style="margin-top: 2.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href={`${base}/ministry-model-canvas.pdf`} class="button" download>PDF herunterladen</a>
     </div>
-  </article>
+  </section>
+
+  <!-- Hintergrund -->
+  <section class="section section-cream">
+    <div class="container">
+      <div style="max-width: 70ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Hintergrund</div>
+        <h2>Warum Gemeinden<br/>ein Canvas brauchen.</h2>
+        <p class="lead" style="margin-top: 2rem;">
+          In einer Welt, die sich rasant verändert, muss treues Zeugnis immer wieder neu in seinem Kontext verortet
+          werden. Das verlangt kulturelle Deutung des Umfelds, strategische Reflexion und organisatorische Beweglichkeit
+          — eine Arbeit, die die meisten Gemeindeteams mit den Werkzeugen, die sie haben, kaum leisten können.
+        </p>
+        <p class="lead">
+          Das <strong>Business Model Canvas</strong> von Alexander Osterwalder und Strategyzer gab der Welt der jungen
+          Unternehmen ein gemeinsames Werkzeug für strategisches Denken — eine Seite, neun Blöcke, eine ganze Strategie
+          auf einen Blick. Es hat verändert, wie Teams darüber sprechen, was sie tun und wem sie dienen.
+        </p>
+        <p class="lead">
+          Das <strong>Ministry Model Canvas</strong> überträgt dieselbe Form auf Gemeinden und Dienste. Es behält die
+          Neun-Block-Logik bei, ersetzt aber die Produkt-Markt-Sprache durch eine Sprache von Dienst und Sendung:
+          Zielgruppe statt Kundensegment, missionale Identität statt Nutzenversprechen, Anknüpfungspunkt statt
+          Kundenproblem. So entsteht ein Werkzeug, das übersetzt — ohne das theologische Gewicht dessen zu verlieren,
+          was Gemeinden wirklich tun.
+        </p>
+        <p class="lead">
+          Entwickelt wurde es von <a href="https://oratio.co">Tobias Treppmann / Oratio&Co</a> und wird seither mit
+          Gemeinden und Dienstteams in ganz Europa verwendet.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Das Canvas -->
+  <section class="section">
+    <div class="container">
+      <div style="margin-bottom: 3rem; max-width: 60ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Das Canvas</div>
+        <h2>Neun Blöcke.<br/>Eine Seite.</h2>
+      </div>
+
+      <div class="canvas">
+        {blocks.map((b) => (
+          <div class={`canvas-block canvas-${b.area}`}>
+            <div class="canvas-block-num">{b.num}</div>
+            <div class="canvas-block-title">{b.title}</div>
+            <ul class="canvas-block-questions">
+              {b.questions.map((q) => <li>{q}</li>)}
+            </ul>
+          </div>
+        ))}
+      </div>
+
+      <div style="margin-top: 2rem;">
+        <a href={`${base}/ministry-model-canvas.pdf`} class="button" download>Druckfähiges PDF herunterladen</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Eine Sitzung leiten -->
+  <section class="section section-dark">
+    <div class="container">
+      <div style="margin-bottom: 4rem; max-width: 60ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Eine Sitzung leiten</div>
+        <h2>Ein Arbeitstreffen,<br/>kein Arbeitsblatt.</h2>
+        <p class="lead" style="margin-top: 2rem; opacity: 0.9;">
+          Das Canvas entfaltet seine Kraft als gemeinsames Gesprächswerkzeug. So leiten wir Canvas-Sitzungen mit
+          Dienstteams.
+        </p>
+      </div>
+
+      <div class="grid grid-2" style="gap: 4rem;">
+        <div>
+          <div class="step">
+            <span class="principle-number">Schritt 01 · Vorbereiten</span>
+            <h4>Wer ist im Raum?</h4>
+            <p style="font-weight: 300; line-height: 1.5;">
+              Lade 4–8 Menschen ein, die den Dienst tatsächlich prägen — Mitarbeitende, wichtige Ehrenamtliche und nach
+              Möglichkeit ein oder zwei Personen aus der Zielgruppe. Blocke 2–3 Stunden. Drucke das Canvas auf A1 oder
+              klebe es auf eine Wand. Lege Haftnotizen bereit.
+            </p>
+          </div>
+
+          <div class="step">
+            <span class="principle-number">Schritt 02 · Mit der Zielgruppe beginnen</span>
+            <h4>Block 01 zuerst. Immer.</h4>
+            <p style="font-weight: 300; line-height: 1.5;">
+              Für wen ist dieser Dienst da? Werde konkret. „Alle" ist keine Zielgruppe — „Eltern junger Kinder in den
+              beiden Stadtteilen südlich der Gemeinde" schon. Alles, was danach kommt, hängt davon ab.
+            </p>
+          </div>
+
+          <div class="step">
+            <span class="principle-number">Schritt 03 · Anknüpfungspunkt</span>
+            <h4>Block 02 · Was zieht sie an?</h4>
+            <p style="font-weight: 300; line-height: 1.5;">
+              Nicht das, was <em>du</em> anbieten möchtest — das, wonach <em>sie</em> ohnehin suchen. Probleme,
+              Bedürfnisse, Interessen, Sehnsüchte. Wenn du drei nicht benennen kannst, hast du zu wenig Zeit mit ihnen
+              verbracht.
+            </p>
+          </div>
+
+          <div class="step">
+            <span class="principle-number">Schritt 04 · Missionale Identität</span>
+            <h4>Block 03 · Was ist hier die gute Nachricht?</h4>
+            <p style="font-weight: 300; line-height: 1.5;">
+              Der theologische Kern. Nicht ein Satz, der bei einer anderen Gemeinde abgeschrieben ist — eure eigene
+              Formulierung des Evangeliums in diesem Kontext, für diese Menschen. Hier trifft theologische Reflexion auf
+              strategische Klarheit.
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <div class="step">
+            <span class="principle-number">Schritt 05 · Erst die rechte Seite</span>
+            <h4>Blöcke 04, 05, 06 · Wie werdet ihr verbinden?</h4>
+            <p style="font-weight: 300; line-height: 1.5;">
+              Beziehungen, zentrale Tätigkeiten, Wege. Welche Beziehungshaltung wollt ihr einnehmen? Welche Tätigkeiten
+              tragen diese Haltung? Wo und wie erreicht ihr Menschen? Diese drei beschreiben, wie der Dienst sich für
+              die Menschen anfühlt.
+            </p>
+          </div>
+
+          <div class="step">
+            <span class="principle-number">Schritt 06 · Die linke Seite</span>
+            <h4>Blöcke 07, 08 · Was kostet es?</h4>
+            <p style="font-weight: 300; line-height: 1.5;">
+              Ressourcen und Budget. Seid ehrlich. Was braucht ihr wirklich — Menschen, Räume, Geld, Partnerschaften?
+              Hier trifft die Vision auf die Wirklichkeit. Wenn die Blöcke 01–06 mehr verlangen, als die Blöcke 07–08
+              tragen können, muss sich etwas ändern.
+            </p>
+          </div>
+
+          <div class="step">
+            <span class="principle-number">Schritt 07 · Wirksamkeit</span>
+            <h4>Block 09 · Woran werdet ihr es merken?</h4>
+            <p style="font-weight: 300; line-height: 1.5;">
+              Gestaltet messbare, an der Sendung ausgerichtete Indikatoren — aber haltet sie mit gebetsvoller
+              Unterscheidung, nicht nur mit Tabellen-Logik. Das Wirken des Heiligen Geistes zeigt sich nicht immer in
+              einer Kennzahlen-Übersicht. Fragt dennoch: Woran werden wir merken, dass wir treu und fruchtbar sind?
+            </p>
+          </div>
+
+          <div class="step">
+            <span class="principle-number">Schritt 08 · Wiederaufnehmen</span>
+            <h4>Jedes Quartal.</h4>
+            <p style="font-weight: 300; line-height: 1.5;">
+              Ein Canvas ist ein lebendiges Dokument. Datiert es. Versioniert es. Schaut jedes Quartal wieder darauf.
+              Wenn der Kontext sich verändert — und das wird er —, habt ihr eine gemeinsame Grundlage, statt das Gespräch
+              jedes Mal neu beginnen zu müssen.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tipps -->
+  <section class="section section-cream">
+    <div class="container">
+      <div style="margin-bottom: 3rem; max-width: 60ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Tipps aus der Praxis</div>
+        <h2>Worauf zu achten ist.</h2>
+      </div>
+
+      <div class="grid grid-3">
+        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">Tipp 01</div>
+          <h4>Bleibt auf einer Seite.</h4>
+          <p>Die Seite ist die Disziplin. Wenn ein Block sich über drei Seiten Strategiepapier ausdehnt, habt ihr den Sinn des Canvas verloren.</p>
+        </div>
+        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">Tipp 02</div>
+          <h4>Nutzt Haftnotizen.</h4>
+          <p>Wenn ihr direkt auf das Canvas schreibt, fühlt sich jede Änderung endgültig an. Haftnotizen erlauben es, zu verschieben, umzuformulieren und wegzuwerfen, ohne sich an Zwischenstände zu binden.</p>
+        </div>
+        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">Tipp 03</div>
+          <h4>Benennt die Zielgruppe eng.</h4>
+          <p>Der Reflex ist, „alle" zu schreiben. Widersteht ihm. Eine fokussierte Zielgruppe ist der Unterschied zwischen einem allgemeinen Dienst und einem, der wirklich verbindet.</p>
+        </div>
+        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">Tipp 04</div>
+          <h4>Trennt Ist von Soll.</h4>
+          <p>Macht zwei Canvas: wo ihr heute steht und wohin ihr geht. Der Abstand dazwischen ist eure Strategie.</p>
+        </div>
+        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">Tipp 05</div>
+          <h4>Theologie in Block 03.</h4>
+          <p>Missionale Identität ist kein Werbespruch. Nehmt euch die Zeit für theologische Reflexion — das ist der tragende Block.</p>
+        </div>
+        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">Tipp 06</div>
+          <h4>Betet vorher, währenddessen, danach.</h4>
+          <p>Strategische Planung für die Gemeinde ist geistliche Arbeit. Rahmt die Sitzung mit Gebet. Haltet inne und hört zu, wenn ein Block sich festfährt.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lizenz & Quellenangabe -->
+  <section class="section">
+    <div class="container">
+      <div style="max-width: 70ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Lizenz &amp; Quellenangabe</div>
+        <h3>Frei zu nutzen. Quelle nennen beim Teilen.</h3>
+        <p class="lead" style="margin-top: 1.5rem;">
+          Das Ministry Model Canvas ist vom <a href="https://www.businessmodelgeneration.com">Business Model Canvas</a>
+          von Strategyzer abgeleitet und steht unter der
+          <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Namensnennung – Weitergabe unter
+          gleichen Bedingungen 3.0 Unported-Lizenz</a>. Du darfst es gern nutzen, anpassen und teilen — bitte nenne die
+          Quelle und behalte die Lizenz bei.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section-ink">
+    <div class="container">
+      <div style="max-width: 60ch;">
+        <h2>Brauchst du Hilfe<br/>für eine Canvas-Sitzung?</h2>
+        <p class="lead" style="margin-top: 2rem; opacity: 0.9;">
+          Wir moderieren Arbeitstreffen zur strategischen Planung mit Gemeinden und Diensten — in Präsenz oder online.
+          Nimm Kontakt auf, und wir schicken dir einen Beispiel-Sitzungsplan.
+        </p>
+        <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+          <EmailLink label="Kontakt aufnehmen" class="button" />
+          <a href={`${base}/ministry-model-canvas.pdf`} class="button" style="background: transparent; color: var(--color-white); border: 1px solid var(--color-white);" download>PDF herunterladen</a>
+        </div>
+      </div>
+    </div>
+  </section>
 </BaseLayout>
 
 <style>
-  .translation-stub {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 6rem 2rem 4rem;
+  .canvas {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      'connecting activities identity  relationships target'
+      'connecting resources  identity  channels      target'
+      'budget     budget     assessment assessment   assessment';
+    gap: 0;
+    border: 1px solid var(--color-black);
+    background: var(--color-black);
   }
-  .translation-stub .eyebrow {
-    font-family: 'Roboto Flex', 'Inter', sans-serif;
-    font-variation-settings: 'wdth' 125, 'opsz' 14;
-    font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 0.28em;
-    text-transform: uppercase;
-    opacity: 0.6;
-    margin-bottom: 1.5rem;
+
+  .canvas-block {
+    background: var(--color-white);
+    padding: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    border: 0.5px solid var(--color-black);
+    min-height: 180px;
   }
-  .translation-stub h1 {
-    font-family: 'Roboto Flex', 'Inter', sans-serif;
-    font-variation-settings: 'wdth' 145, 'opsz' 72;
-    font-size: clamp(2.25rem, 5vw, 4rem);
-    font-weight: 800;
-    line-height: 0.95;
-    letter-spacing: -0.03em;
-    margin-bottom: 2rem;
+
+  .canvas-target      { grid-area: target; }
+  .canvas-connecting  { grid-area: connecting; }
+  .canvas-identity    { grid-area: identity; }
+  .canvas-relationships { grid-area: relationships; }
+  .canvas-activities  { grid-area: activities; }
+  .canvas-channels    { grid-area: channels; }
+  .canvas-resources   { grid-area: resources; }
+  .canvas-budget      { grid-area: budget; }
+  .canvas-assessment  { grid-area: assessment; }
+
+  .canvas-block-num {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1;
+    color: var(--color-black);
+    opacity: 0.08;
   }
-  .translation-stub .lead {
-    font-family: 'Roboto Flex', 'Inter', sans-serif;
-    font-variation-settings: 'wdth' 110, 'opsz' 18;
-    font-size: 1.2rem;
-    line-height: 1.5;
-    max-width: 55ch;
-    margin-bottom: 2.5rem;
-    opacity: 0.85;
-  }
-  .actions {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-  }
-  .actions a {
-    display: inline-block;
-    padding: 1rem 1.75rem;
-    font-family: 'Roboto Flex', 'Inter', sans-serif;
-    font-variation-settings: 'wdth' 125, 'opsz' 14;
-    font-weight: 700;
+
+  .canvas-block-title {
+    font-family: var(--font-display);
+    font-weight: 900;
     font-size: 0.95rem;
-    text-decoration: none;
-    border-radius: 2px;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    letter-spacing: -0.01em;
+    margin-bottom: 0.75rem;
+    position: relative;
+    z-index: 1;
   }
-  .cta-button {
-    background: #0a1a2a;
-    color: #f6f1e7;
+
+  .canvas-block-questions {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: var(--color-muted);
   }
-  .cta-button-outline {
-    background: transparent;
-    color: #0a1a2a;
-    border: 1px solid #0a1a2a;
+
+  .canvas-block-questions li {
+    margin-bottom: 0.5rem;
   }
-  .cta-button:hover { transform: translateY(-1px); box-shadow: 0 8px 24px rgba(10, 26, 42, 0.15); }
-  .cta-button-outline:hover { background: #0a1a2a; color: #f6f1e7; }
+
+  .step {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+  }
+  .step:last-child {
+    border-bottom: 0;
+  }
+  .step h4 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  @media (max-width: 900px) {
+    .canvas {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        'target       target'
+        'connecting   identity'
+        'relationships activities'
+        'channels     resources'
+        'budget       budget'
+        'assessment   assessment';
+    }
+    .canvas-block-num {
+      font-size: 2.5rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .canvas {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        'target'
+        'connecting'
+        'identity'
+        'relationships'
+        'activities'
+        'channels'
+        'resources'
+        'budget'
+        'assessment';
+    }
+  }
 </style>

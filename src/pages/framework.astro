@@ -6,53 +6,56 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const principles = [
   {
     num: '01',
-    title: 'Design for actual engagement patterns',
-    body: 'Ambient and receptive modes first, not assumed deep study. The dominant mode is reactive, situational, and brief. Audio is the fastest-growing format. Reading plans fail at 50% dropout. A next-generation app must make ambient and receptive engagement first-class citizens.',
+    title: 'Reverence',
+    lead: 'What stands before you is a person, not a user.',
+    body: "To build a tool for the spiritual life is to step onto holy ground. Behind every screen sits a person made in the image of God — with a story, a longing, perhaps a wound. Begin not with what you wish that person would do, but with what they actually do, who they actually are, and the context they actually live in. An app that opens with five permission prompts has already lost reverence — so has one that asks who you are before it shows you what it is. Reverence takes the shape of two humilities at once: toward the person as they really are, and toward the context in which you work — neither of which is what Silicon Valley has handed you.",
   },
   {
     num: '02',
-    title: 'Multimodal formation',
-    body: 'Audio, music, contemplative silence, and guided practice as primary formats, not supplements to reading. The Christian tradition has always formed through multiple modes; digital tools should recover that breadth.',
+    title: 'Hospitality',
+    lead: 'There is more than one door to faith.',
+    body: "People come to faith through genuinely different doors — through the Word, through music, through silence, through a guided practice, through a question, through a wound. A seven-year-old, a doubting student, an aging widow, a Muslim friend with a quiet curiosity — they do not all need the same door. A good spiritual tool recognizes that reading the Bible is not the single highest form, and refuses to relegate other forms to the role of supplement. It welcomes people where they actually stand — not where we wish they were. This is not a mandate of ecumenism; it is the refusal to assume there is only one valid way in.",
   },
   {
     num: '03',
-    title: 'Resist spiritual commodification',
-    body: 'Transparent tradition sourcing, depth over browsing, communal accountability. Name traditions (Ignatian, Benedictine, Franciscan, Orthodox). Encourage commitment to a single practice for sustained periods rather than daily sampling.',
+    title: 'Rootedness',
+    lead: 'Innovate in the form; remain rooted in the substance.',
+    body: "For two thousand years, the church has been formed by tested practices: lectio divina, the daily office, the Christian calendar, the examen, the sacraments. A spiritual tool does not have to reinvent every function from scratch — it stands in a long tradition it is free to draw from. The form may be contemporary, even surprising; the substance should stay rooted. It is precisely this rootedness that protects against faith becoming a kit from which each user assembles their own feel-good spirituality. To stand in a tradition is not to extract from it; it is to live from it.",
   },
   {
     num: '04',
-    title: 'Serve communal as well as individual formation',
-    body: 'Design for shared engagement and social context. Individual practice disconnected from community risks consumerism. Structural prompts toward communal engagement counter the privatization tendency.',
+    title: 'Bridge',
+    lead: 'The tool is the bridge, never the destination — a means, not the mediator.',
+    body: "A spiritual tool must never become a substitute — not for the church, not for prayer without a device, not for the encounter with Christ himself. It is a means, not the mediator. This does not mean it has to add 'community features' — it means it must not pull people into filter bubbles and self-isolation, whether that community is in the end a local congregation or an online one. Its task is to point beyond itself: to Scripture, to tradition, to community, to life beyond the screen. When someone decides one Sunday to put down the device and walk to a real congregation, the right response is to celebrate — not to show them three reasons to come back. A mature tool rejoices when people need it less.",
   },
   {
     num: '05',
-    title: 'Scaffold toward community without requiring it',
-    body: 'Liminal users cannot be told to "find a church"; build bridges, don\'t create prerequisites. Begin alone, develop spiritual rhythm, then grow toward embodied community.',
+    title: 'Grace',
+    lead: 'Grace and freedom, not pressure and guilt.',
+    body: "Christ promises freedom, and no spiritual tool may become the opposite of that. Yet streaks, shame triggers, and social comparison produce exactly that: pressure and guilt. Even a reading plan that expects daily reading and then tells someone they have 'fallen behind' works against what it claims to serve. Hold one line: the person chooses tools for their own growth; the platform never deploys mechanics for its own retention. And trust two things — the content itself, and the care with which it is offered: what is genuinely relevant and well-given needs no artificial reinforcement to keep people coming back.",
   },
   {
     num: '06',
-    title: 'Grace-based mechanics throughout',
-    body: 'No default streaks, shame triggers, or social comparison. Opt-in accountability. The ethical line is consent: the user choosing tools for their own formation, not the platform deploying mechanics for its retention. The animating question: does this serve freedom or fear? Grace or guilt? Formation or metrics?',
+    title: 'Honesty',
+    lead: 'Know whom you serve — and be honest about what you cannot know.',
+    body: "Honesty is a twofold discipline. First, about the audience: which people, at which point on their journey, do you actually help? You do not serve everyone — name whom. A spiritual tool that pretends to speak to all ends up speaking to none. Second, about what is measurable: the spiritual life resists full measurement. With passive content especially; with interactive tools, only in part. Data captures only what can be captured — and that is never the whole. Say so plainly, both to yourself and to those you intend to reach.",
   },
   {
     num: '07',
-    title: 'European-specific defaults',
-    body: 'Privacy-first architecture, multi-tradition hospitality, post-Christian assumptions, GDPR as dignity commitment. A European spiritual app cannot localize an American product wholesale.',
+    title: 'Costliness',
+    lead: "Pay the price the people you serve shouldn't have to pay.",
+    body: "A redemptive design bears costs that others refuse to bear. It declines viral growth mechanics even though they work. It measures fruit instead of attention, even though attention is easier to show. It points beyond itself and rejoices when people leave. It takes time for theological depth where fast content would be easier. It does something well where a quick fix would satisfy the investor. This is not romantic — it is the hardest decision in any project, made again and again. But it is precisely what distinguishes a spiritual tool worth the name from one that merely wears the costume.",
   },
   {
     num: '08',
-    title: 'Serve the spiritually liminal',
-    body: 'Guide through personalized companionship, not overwhelming libraries. The liminal user asking "where do I start?" needs a companion who listens, not a catalog that searches.',
-  },
-  {
-    num: '09',
-    title: 'Formation metrics over engagement metrics',
-    body: "Measure depth and freedom, not daily active users and streak completions. If the app doesn't serve growth, users cancel — and that's the point.",
+    title: 'Fruit',
+    lead: 'Look for fruit, not numbers.',
+    body: "The true goal of any spiritual tool is that people become more like Christ — in love, in freedom, in peace, in faithfulness. That is fruit, not reach. Fruit most often shows itself beyond the screen: in how someone treats a neighbor, in their capacity to be still, in their finding their way back after a fall. Yes — fruit barely fits in a chart, and growth in faith resists measurement. But that is no reason to ask the wrong question. Success is not how many people open the app each day; success is whether the people who are there are growing in what matters.",
   },
 ];
 
 const questions = [
-  'Does this serve formation or engagement metrics?',
+  'Does this serve growth in faith — or only the usage numbers?',
   'Freedom or anxiety?',
   "Will the user's motivation survive removing the feature?",
   'Does this honor human dignity and agency?',
@@ -62,16 +65,16 @@ const questions = [
 
 const tensions = [
   {
-    title: 'Brief engagement vs. commodification',
-    body: 'Ambient modes serve real engagement patterns, but risk reducing formation to a feed. The resolution: ambient features that name the tradition, depth of source, and commitment to practice.',
+    title: 'Accessibility vs. consumer spirituality',
+    body: 'Content and features should be genuinely accessible and low-barrier — and that very ease carries the risk of consumer spirituality, where faith becomes a product to be sampled on demand. The answer is not to raise the barriers again, but to keep accessible offerings anchored in the tradition, in the depth of the sources, and in an honest call to discipleship.',
   },
   {
-    title: 'Community requirement vs. liminal reality',
-    body: 'Formation is communal, but many users are not connected to embodied community and cannot be coerced into it. The resolution: scaffold bridges that invite rather than gate.',
+    title: 'Community vs. starting individually',
+    body: 'Faith lives in community, and an app must never replace the church. At the same time, many people begin the journey alone — not yet part of any community, and impossible to force into one. What is needed are bridges that invite toward community rather than making it the price of entry.',
   },
   {
-    title: 'Regular practice vs. anti-streak design',
-    body: 'Formation requires habit, but streak mechanics weaponize habit against the user. The resolution: invitations to rhythm without punishment for rupture.',
+    title: 'Rhythm vs. pressure',
+    body: 'A spiritual life needs rhythm and regular practice. But the moment that rhythm becomes an enforced expectation, it turns into pressure and guilt. The way through is to invite people into rhythm without punishing them for an interruption.',
   },
 ];
 ---
@@ -80,11 +83,47 @@ const tensions = [
   <!-- Hero -->
   <section class="hero" style="min-height: 60vh;">
     <div class="hero-label">Missional by Design · The Framework</div>
-    <h1>Nine<br/>Principles.</h1>
+    <h1>Eight<br/>Principles.</h1>
     <p class="hero-subtitle">
-      A framework for building technology that serves human flourishing through spiritual formation.
-      Each principle emerged from 195+ sources across theology, behavioral science, and product design.
+      A spiritual tool never designs only a function. It designs an encounter between a person and what they hold most sacred.
+      Every feature you build asks something of a person: their time, their attention, their trust — and a spiritual tool asks for more, for the most fragile rooms of the inner life.
+      These eight principles are the posture with which we test what we build.
     </p>
+  </section>
+
+  <!-- Three Horizons -->
+  <section class="section section-cream">
+    <div class="container">
+      <div style="margin-bottom: 3rem; max-width: 60ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Three Horizons</div>
+        <h2>What is<br/>redemptive design?</h2>
+        <p class="lead" style="margin-top: 2rem;">
+          Behind every spiritual tool sits a posture. Beyond the common one — extractive design that treats people as resources to mine — three real horizons remain. Each is an option. Each is a choice.
+        </p>
+      </div>
+
+      <div class="grid grid-3">
+        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; opacity: 0.6;">Horizon 01</div>
+          <h4 style="margin-bottom: 1rem;">Ethical</h4>
+          <p style="font-size: 0.95rem; line-height: 1.5;">Do no harm. Build something honest, lawful, and fair. Respect privacy. Refuse to manipulate. This is the floor — not the goal.</p>
+        </div>
+        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; opacity: 0.6;">Horizon 02</div>
+          <h4 style="margin-bottom: 1rem;">Generous</h4>
+          <p style="font-size: 0.95rem; line-height: 1.5;">Give more than law or market require. Open access. Share knowledge. Be hospitable to people, traditions, and forms that will not pay back. Closer — but still not the heart.</p>
+        </div>
+        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; opacity: 0.6;">Horizon 03</div>
+          <h4 style="margin-bottom: 1rem;">Redemptive</h4>
+          <p style="font-size: 0.95rem; line-height: 1.5;">Bear costs that exploitative design refuses, and that ethical design would not be asked to bear. Refuse the easy growth mechanic. Point beyond yourself. Hold out for fruit that cannot be counted. The cross-shape: a tool that pays so the person it serves does not have to.</p>
+        </div>
+      </div>
+
+      <p style="margin-top: 3rem; max-width: 65ch; font-style: italic;">
+        These eight principles trace that arc. Reverence and Honesty are the ethical floor. Hospitality, Rootedness, and Grace lean generous. Bridge, Costliness, and Fruit are the redemptive turns — refusing to be the destination, paying the costs others will not, and holding out for what cannot be measured.
+      </p>
+    </div>
   </section>
 
   <!-- Principles -->
@@ -95,6 +134,7 @@ const tensions = [
           <article class="principle">
             <span class="principle-number">{p.num}</span>
             <h3>{p.title}</h3>
+            <p style="font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; line-height: 1.4; margin: 0.5rem 0 1.5rem 0; letter-spacing: -0.01em;">{p.lead}</p>
             <p class="lead">{p.body}</p>
           </article>
         ))}
@@ -109,7 +149,7 @@ const tensions = [
         <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Tensions</div>
         <h2>Three things<br/>worth holding.</h2>
         <p class="lead" style="margin-top: 2rem;">
-          The framework does not resolve every tension — some must be held, not solved.
+          These eight principles cannot all be fulfilled at once. Some pull against each other — and must be held, not resolved.
         </p>
       </div>
 

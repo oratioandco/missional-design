@@ -3,83 +3,113 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
-<BaseLayout
-  lang="de"
-  title="Schreiben"
-  description="Essays über missionales Design — Deutsche Übersetzung in Vorbereitung"
->
-  <article class="translation-stub">
-    <p class="eyebrow">Schreiben</p>
-    <h1>Deutsche Übersetzung<br/>in Vorbereitung.</h1>
-    <p class="lead">
-      Diese Seite liegt derzeit nur auf Englisch vor. Die deutsche Übersetzung folgt bald.
+<BaseLayout lang="de" title="Texte">
+  <section class="hero" style="min-height: 50vh;">
+    <div class="hero-label">Missional by Design · Texte</div>
+    <h1>Texte.</h1>
+    <p class="hero-subtitle">
+      Essays über missionale Gestaltung, digitale Prägung, Innovation im Dienst und die überraschende Überschneidung
+      zwischen Gemeinden und Gründungen. Impulse aus der Praxis, nicht aus dem Seminarraum.
     </p>
-    <div class="actions">
-      <a class="cta-button" href={`${base}/blog`}>Read in English →</a>
-      <a class="cta-button-outline" href={`${base}/de`}>Zurück zur Startseite</a>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div style="max-width: 900px;">
+        <!-- Veröffentlichter Beitrag -->
+        <a href={`${base}/de/blog/churches-and-startups`} class="post-card">
+          <div class="post-card-meta">
+            <span class="post-card-tag">Essay</span>
+            <span class="post-card-date">2026</span>
+          </div>
+          <h2 class="post-card-title">Warum Gemeinden und junge Unternehmen mehr gemeinsam haben, als man denkt.</h2>
+          <p class="post-card-excerpt">
+            Große Vision, knappe Mittel, fließender Kontext. Die überraschende Überschneidung zweier scheinbar
+            gegensätzlicher Welten — und was beide voneinander lernen können.
+          </p>
+          <div class="post-card-read">Essay lesen →</div>
+        </a>
+
+        <!-- Demnächst-Platzhalter -->
+        <div class="post-card post-card-placeholder">
+          <div class="post-card-meta">
+            <span class="post-card-tag">Essay · Demnächst</span>
+          </div>
+          <h3 class="post-card-title">Jeder Dienst ist gestaltet — ob du es weißt oder nicht.</h3>
+          <p class="post-card-excerpt">
+            Was Tyler Priebs Provokation für Gemeinden bedeutet, die mit kulturellem Wandel umgehen — und warum
+            unbewusste Gestaltung meist schlechter ist als bewusste.
+          </p>
+        </div>
+
+        <div class="post-card post-card-placeholder">
+          <div class="post-card-meta">
+            <span class="post-card-tag">Essay · Demnächst</span>
+          </div>
+          <h3 class="post-card-title">Aufmerksamkeits-Kennzahlen sind die falsche Frage.</h3>
+          <p class="post-card-excerpt">
+            Was wir beim Bau von Aperto gelernt haben: täglich aktive Nutzer sind das falsche Ziel für ein Werkzeug
+            der geistlichen Prägung. Worauf es stattdessen ankommt.
+          </p>
+        </div>
+      </div>
     </div>
-  </article>
+  </section>
 </BaseLayout>
 
 <style>
-  .translation-stub {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 6rem 2rem 4rem;
+  .post-card {
+    display: block;
+    padding: 3rem 0;
+    border-top: 1px solid var(--color-black);
+    text-decoration: none;
+    color: var(--color-black);
+    transition: opacity var(--transition);
   }
-  .translation-stub .eyebrow {
-    font-family: 'Roboto Flex', 'Inter', sans-serif;
-    font-variation-settings: 'wdth' 125, 'opsz' 14;
-    font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 0.28em;
-    text-transform: uppercase;
-    opacity: 0.6;
-    margin-bottom: 1.5rem;
+  .post-card:last-of-type {
+    border-bottom: 1px solid var(--color-black);
   }
-  .translation-stub h1 {
-    font-family: 'Roboto Flex', 'Inter', sans-serif;
-    font-variation-settings: 'wdth' 145, 'opsz' 72;
-    font-size: clamp(2.25rem, 5vw, 4rem);
-    font-weight: 800;
-    line-height: 0.95;
-    letter-spacing: -0.03em;
-    margin-bottom: 2rem;
+  .post-card:hover {
+    opacity: 0.7;
   }
-  .translation-stub .lead {
-    font-family: 'Roboto Flex', 'Inter', sans-serif;
-    font-variation-settings: 'wdth' 110, 'opsz' 18;
-    font-size: 1.2rem;
-    line-height: 1.5;
-    max-width: 55ch;
-    margin-bottom: 2.5rem;
-    opacity: 0.85;
+  .post-card-placeholder {
+    opacity: 0.45;
+    pointer-events: none;
   }
-  .actions {
+  .post-card-meta {
     display: flex;
     gap: 1rem;
-    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
   }
-  .actions a {
-    display: inline-block;
-    padding: 1rem 1.75rem;
-    font-family: 'Roboto Flex', 'Inter', sans-serif;
-    font-variation-settings: 'wdth' 125, 'opsz' 14;
-    font-weight: 700;
-    font-size: 0.95rem;
-    text-decoration: none;
-    border-radius: 2px;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  .post-card-tag {
+    opacity: 0.6;
   }
-  .cta-button {
-    background: #0a1a2a;
-    color: #f6f1e7;
+  .post-card-date {
+    opacity: 0.4;
   }
-  .cta-button-outline {
-    background: transparent;
-    color: #0a1a2a;
-    border: 1px solid #0a1a2a;
+  .post-card-title {
+    font-size: clamp(1.75rem, 4vw, 3rem);
+    line-height: 1;
+    margin-bottom: 1.5rem;
+    max-width: 22ch;
   }
-  .cta-button:hover { transform: translateY(-1px); box-shadow: 0 8px 24px rgba(10, 26, 42, 0.15); }
-  .cta-button-outline:hover { background: #0a1a2a; color: #f6f1e7; }
+  .post-card-excerpt {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    max-width: 60ch;
+    margin-bottom: 1.25rem;
+  }
+  .post-card-read {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
 </style>
