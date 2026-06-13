@@ -5,9 +5,6 @@
  * Long-form page content lives in the pages themselves (one .astro per locale).
  *
  * German terminology follows the project glossary in ./glossary.md.
- *
- * DRAFT TRANSLATIONS: German copy here is Claude's first draft — Tobias, please review
- * and refine to your preferred register before going live.
  */
 
 export type Locale = 'en' | 'de';
@@ -36,11 +33,6 @@ export const ui = {
 
     // Common
     'cta.getInTouch': 'Get in touch',
-    'cta.readMore': 'Read more',
-    'common.external': '(external)',
-    'common.readInEnglish': 'This page is only available in English right now.',
-    'common.readInEnglishLink': 'Read in English',
-    'common.translationComing': 'Deutsche Übersetzung in Vorbereitung.',
   },
   de: {
     // Nav
@@ -62,11 +54,6 @@ export const ui = {
 
     // Common
     'cta.getInTouch': 'Kontakt aufnehmen',
-    'cta.readMore': 'Weiterlesen',
-    'common.external': '(extern)',
-    'common.readInEnglish': 'Diese Seite ist derzeit nur auf Englisch verfügbar.',
-    'common.readInEnglishLink': 'Auf Englisch lesen',
-    'common.translationComing': 'Deutsche Übersetzung in Vorbereitung.',
   },
 } as const;
 
