@@ -1,0 +1,490 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EmailLink from '../../components/EmailLink.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const steps = [
+  {
+    num: '01',
+    title: 'Vorbereiten',
+    block: null,
+    timings: { compact: '5 Min.', standard: '15 Min.' },
+    intro: 'Der Auftakt setzt den Ton. Lasst ihn nicht aus.',
+    body: [
+      'Beginnt mit einem kurzen Gebet oder einer Stille. Dann ein Satz dazu, warum ihr hier seid: nicht, um einen Plan festzuzurren, sondern um das implizite Modell eures Teams sichtbar zu machen, damit ihr darüber sprechen könnt.',
+      'Wenn jemand neu ist, drei Minuten Vorstellung. Dann das Canvas durchgehen: neun Blöcke, in dieser Reihenfolge, in dieser Zeit. Das Team soll die Landkarte kennen, bevor es ins Gelände geht.',
+      'Für Teams beim Erstdurchgang (längeres Format): Verbringt fünf der fünfzehn Minuten damit, ehrlich zu benennen, was Erfolg bei euch bisher bedeutet hat — ohne zu bewerten. Diese ehrliche Grundlinie bringt oft den Konflikt zum Vorschein, den das Canvas später besprechbar macht.',
+    ],
+    ask: [],
+    watch: [],
+  },
+  {
+    num: '02',
+    title: 'Mit der Zielgruppe beginnen',
+    block: 'Block 02',
+    timings: { compact: '15 Min.', standard: '25 Min.' },
+    intro: 'Block 02 zuerst. Immer.',
+    body: [
+      'Für wen ist dieser Dienst da? Zwei Wege führen hierher, beide legitim. Der eine ist berufungsorientiert: Wen hat Gott diesem Team aufs Herz gelegt? Wohin spürt ihr euch gesandt? Der andere ist analytisch: eine Kontextanalyse, Milieu-Arbeit, ehrliche Recherche, wer von eurem Standort aus tatsächlich erreichbar ist. Echte Unterscheidung nutzt oft beides.',
+      'Wie auch immer — werdet konkret. „Alle" ist keine Zielgruppe; „Eltern junger Kinder in den beiden Stadtteilen südlich der Gemeinde" schon. Je präziser ihr seid, desto nützlicher wird jeder folgende Block.',
+    ],
+    ask: [
+      'Welcher einen Gruppe dient ihr heute am klarsten?',
+      'Wen erreicht ihr nicht, von dem ihr meint, dass Gott ihn euch aufs Herz gelegt hat?',
+      'Benennt ihr eine Berufung, einen Kontext oder beides?',
+    ],
+    watch: [
+      '„Alle" auf der Haftnotiz. Widersteht. Eine fokussierte Zielgruppe ist der Unterschied zwischen einem allgemeinen Dienst und einem, der wirklich verbindet.',
+      'Eine Zielgruppe, die nach den Menschen benannt wird, die schon kommen, statt nach denen, zu denen ihr gesandt seid. Beides zählt; beides muss unterschieden werden.',
+    ],
+  },
+  {
+    num: '03',
+    title: 'Anknüpfungspunkte',
+    block: 'Block 01',
+    timings: { compact: '10 Min.', standard: '20 Min.' },
+    intro: 'Was zieht sie an?',
+    body: [
+      'Nicht das, was ihr anbieten möchtet — das, wonach sie ohnehin suchen. Probleme, Bedürfnisse, Interessen, Sehnsüchte.',
+      'Wenn das Team weniger als drei konkrete Anknüpfungspunkte benennen kann, hat es zu wenig Zeit mit der Zielgruppe verbracht. Das Canvas wird auf diese Lücke immer wieder zurückkommen; geht sie jetzt an, wenn ihr könnt.',
+    ],
+    ask: [
+      'Welche drei Dinge beschäftigen diese Menschen heute, worüber sprechen sie, wonach suchen sie?',
+      'Was wird ihnen bereits angeboten, das funktioniert — und was nicht?',
+      'Welche Art von Beziehung erwarten sie von einem Dienst: Gemeinschaft, Dienstleistung, Hilfe, Lernen, Gastfreundschaft?',
+    ],
+    watch: [
+      'Anknüpfungspunkte in Gemeinde-Sprache benannt („sie brauchen Rettung") statt in Menschen-Sprache („sie sind erschöpft vom Alleinerziehen"). Das erste ist das Ziel; das zweite ist der Eingang.',
+    ],
+  },
+  {
+    num: '04',
+    title: 'Angebot',
+    block: 'Block 03',
+    timings: { compact: '15 Min.', standard: '30 Min.' },
+    intro: 'Das ist der tragende Block. Nehmt euch Zeit.',
+    body: [
+      'Das Angebot ist eine klare Antwort auf die Frage: Warum gerade dieser Dienst, hier, jetzt, für diese Menschen? Kein Werbespruch — eure eigene Formulierung dessen, was ihr anbietet und warum es in diesem Kontext zählt.',
+      'Hier trifft theologische Reflexion auf strategische Klarheit. Ein Team, das sein Angebot nicht benennen kann, hat noch nicht die theologische Arbeit getan, die der Dienst braucht. Bleibt hier, bis ihr eine echte Antwort habt, auch wenn es den größten Teil der Sitzung beansprucht.',
+    ],
+    ask: [
+      'In einem Satz: Warum gerade dieser Dienst und nicht die Alternativen, die diese Menschen schon kennen?',
+      'Wo berührt das Evangelium, wie wir es verstehen, die Anknüpfungspunkte, die wir benannt haben?',
+      'Ist das, was wir anbieten, etwas Spezifisches für uns — oder könnte jede Gemeinde in dieser Straße dasselbe anbieten?',
+    ],
+    watch: [
+      'Allgemeine Aussagen, die zu jeder Gemeinde passen würden („wir lieben Jesus und wollen seine Liebe weitergeben"). Wahr, aber nicht tragend.',
+      'Ein Angebot, das von einer anderen Gemeinde abgeschrieben ist. Widersteht. Die Arbeit ist, eures zu finden.',
+    ],
+  },
+  {
+    num: '05',
+    title: 'Wie werdet ihr sie erreichen',
+    block: 'Blöcke 04 & 05',
+    timings: { compact: '10 Min.', standard: '20 Min.' },
+    intro: 'Arbeitsschwerpunkte und Kontaktpunkte. Die Erlebnisseite des Dienstes.',
+    body: [
+      'Welche Aktivitäten verlangt das Angebot tatsächlich — sowohl um es zu verwirklichen als auch um es zu tragen? Und wo trefft ihr die Menschen, die ihr erreichen wollt? Bestehende Beziehungen zuerst; dann, wo ihr neue aufbauen müsst.',
+    ],
+    ask: [
+      'Welche Aktivitäten sind für das Angebot wesentlich? Welche wären zwar nett, aber nicht entscheidend?',
+      'Wo sind die Menschen, die ihr erreichen wollt, bereits versammelt — physisch, digital, sozial?',
+      'Welche Beziehungen haben wir bereits, welche müssen wir noch aufbauen?',
+    ],
+    watch: [
+      'Aktivitäten, die es gibt, weil es sie immer gegeben hat, nicht weil das Angebot sie verlangt. Benennt sie; manche müssen vielleicht gehen.',
+    ],
+  },
+  {
+    num: '06',
+    title: 'Was kostet es',
+    block: 'Blöcke 06 & 07',
+    timings: { compact: '10 Min.', standard: '20 Min.' },
+    intro: 'Ressourcen und Budget. Ehrlichkeit darüber, was das Modell tatsächlich kostet.',
+    body: [
+      'Was braucht ihr — Menschen, Räume, Geld, Partnerschaften, Technik? Was kostet es tatsächlich in Geld? Und: wer zahlt? Wenn die Blöcke 01–05 mehr verlangen, als die Blöcke 06–07 tragen können, muss sich etwas ändern — entweder die Ressourcen wachsen oder der Umfang schrumpft.',
+    ],
+    ask: [
+      'Was brauchen wir wirklich, was wir nicht haben?',
+      'Welche Partnerschaften könnten die Lücke schließen?',
+      'Ist unser Budget ehrlich, was das verlangt, oder hoffen wir?',
+    ],
+    watch: [
+      'Eine Ressourcenzeile, die annimmt, dass jemand Ungenannter spenden, sich ehrenamtlich engagieren oder einspringen wird. Benennt die Annahme.',
+    ],
+  },
+  {
+    num: '07',
+    title: 'Alleinstellungsmerkmal',
+    block: 'Block 09',
+    timings: { compact: '10 Min.', standard: '15 Min.' },
+    intro: 'Warum sind wir die ideale Gruppe, um diese Menschen zu erreichen?',
+    body: [
+      'Keine Selbstüberschätzung — ehrliches Benennen von Gabe, Geschichte, Haltung, Ort, Beziehungen. Was macht dieses Team, an diesem Ort, besonders geeignet, diese Arbeit zu tun, sodass ein anderes Team es kaum genauso könnte?',
+      'Wenn das Team kein Alleinstellungsmerkmal benennen kann, fehlt dem Dienst vielleicht noch die nötige Klarheit. Entweder gibt es eines und es muss benannt werden, oder die Arbeit sucht noch ihre Form.',
+    ],
+    ask: [
+      'Welche Gaben, welche Geschichte, welche Beziehungen hat dieses Team, die niemand anderes in der Nähe hat?',
+      'Wenn ein Team aus einer anderen Stadt dieselbe Arbeit versuchen würde, womit hätte es Schwierigkeiten, womit wir nicht?',
+    ],
+    watch: [
+      '„Wir lieben Menschen einfach." Das sagen die meisten Dienste; es ist kein Alleinstellungsmerkmal.',
+    ],
+  },
+  {
+    num: '08',
+    title: 'Zielerreichung & Wiederaufnehmen',
+    block: 'Block 08',
+    timings: { compact: '15 Min.', standard: '25 Min. (inkl. Abschluss)' },
+    intro: 'Woran werden wir merken, dass wir treu und fruchtbar sind?',
+    body: [
+      'Gestaltet messbare, an der Sendung ausgerichtete Indikatoren — SMARTe Kriterien: Spezifisch, Messbar, Ausführbar, Realistisch, Terminiert. Doch haltet sie mit gebetsvoller Unterscheidung, nicht nur mit Tabellen-Logik. Das Wirken des Heiligen Geistes zeigt sich nicht immer in einer Kennzahlen-Übersicht.',
+      'Dann datiert das Canvas. Versioniert es. Schaut jedes Quartal wieder darauf. Wenn der Kontext sich verändert — und das wird er —, habt ihr eine gemeinsame Grundlage, statt das Gespräch jedes Mal neu beginnen zu müssen.',
+      'Schließt mit Gebet.',
+    ],
+    ask: [
+      'Welche drei bis fünf Dinge müssten in einem Jahr wahr sein, damit wir sagen können: Das wirkt?',
+      'Welche davon können wir messen, welche nur spüren?',
+      'Wie ist unser Überprüfungs-Rhythmus?',
+    ],
+    watch: [
+      'Reine Aktivitäts-Kennzahlen („mehr Veranstaltungen"). Aktivität ist nicht Erreichung.',
+    ],
+  },
+];
+---
+
+<BaseLayout
+  lang="de"
+  title="Canvas-Anleitung"
+  description="So leitet ihr eine Ministry-Model-Canvas-Sitzung — Vorbereitung, die acht Schritte mit Zeitangaben und worauf zu achten ist."
+>
+  <!-- Hero -->
+  <section class="hero" style="min-height: 50vh;">
+    <div class="hero-label">Ministry Model Canvas · Anleitung</div>
+    <h1>So leitet ihr<br/>eine Canvas-Sitzung.</h1>
+    <p class="hero-subtitle">
+      Eine Schritt-für-Schritt-Anleitung, um eine Ministry-Model-Canvas-Sitzung mit einem Dienstteam zu moderieren.
+      Vorbereitung, die acht Schritte mit konkreten Zeitangaben, worauf in jedem Block zu achten ist, und was in den
+      Tagen danach zu tun ist.
+    </p>
+    <div style="margin-top: 2.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href={`${base}/de/ministry-model-canvas`} class="button">Zurück zum Canvas</a>
+      <a href={`${base}/ministry-model-canvas-de.pdf`} class="button" style="background: transparent; color: var(--color-white); border: 1px solid var(--color-white);" download>Canvas-PDF herunterladen</a>
+    </div>
+  </section>
+
+  <!-- Wann das Canvas hilft -->
+  <section class="section">
+    <div class="container">
+      <div style="max-width: 65ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Wann das Canvas hilft</div>
+        <h2>Fünf wiederkehrende<br/>Situationen.</h2>
+        <p class="lead" style="margin-top: 2rem;">
+          Das Canvas ist dem Lean Canvas im Geist eng verwandt: eine Seite, die Klarheit erzwingt, bevor etwas
+          festgelegt wird. Es lohnt sich in fünf wiederkehrenden Momenten — aber überall, wo ein Team sich um ein
+          echtes Modell ausrichten will, ist es vermutlich das richtige Werkzeug.
+        </p>
+      </div>
+
+      <div class="grid grid-2" style="margin-top: 3rem; gap: 2rem;">
+        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 0.75rem; opacity: 0.6;">Anwendungsfall 01</div>
+          <h4 style="margin-bottom: 1rem;">Etwas Neues beginnen.</h4>
+          <p style="font-size: 0.95rem; line-height: 1.55;">Eine Neugründung, ein neues Dienstvorhaben oder ein frischer Aufbruch. Das Canvas hilft einem Gründungsteam, konkret zu werden — wem es gesandt ist, was es anbietet, was es kosten wird —, bevor Zeit, Geld und Menschen festgelegt sind.</p>
+        </div>
+        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 0.75rem; opacity: 0.6;">Anwendungsfall 02</div>
+          <h4 style="margin-bottom: 1rem;">Eine neue Zielgruppe erreichen.</h4>
+          <p style="font-size: 0.95rem; line-height: 1.55;">Eine bestehende Gemeinde möchte einer Gruppe dienen, der sie bisher nicht gedient hat — jungen Familien, älteren Menschen, einem neuen Stadtteil, einem unerreichten Milieu. Das Canvas erzwingt Klarheit darüber, was sich am Modell ändert und was bleibt.</p>
+        </div>
+        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 0.75rem; opacity: 0.6;">Anwendungsfall 03</div>
+          <h4 style="margin-bottom: 1rem;">Bestand sichtbar machen.</h4>
+          <p style="font-size: 0.95rem; line-height: 1.55;">Viele Dienste arbeiten mit Annahmen, die nie schriftlich festgehalten wurden — darüber, für wen der Sonntagsgottesdienst eigentlich da ist, darüber, wie Erfolg aussieht. Das Canvas macht das ererbte Modell sichtbar, damit das Team entscheiden kann, ob es noch passt.</p>
+        </div>
+        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 0.75rem; opacity: 0.6;">Anwendungsfall 04</div>
+          <h4 style="margin-bottom: 1rem;">Eine Leitungsübergabe.</h4>
+          <p style="font-size: 0.95rem; line-height: 1.55;">Ein neuer Pastor oder eine neue Leitung tritt ihren Dienst an. Ohne gemeinsame Landkarte verbringen sie das erste Jahr damit, das Modell von Grund auf zu rekonstruieren. Das Canvas gibt dem einsteigenden Team ein klares Bild davon, was es übernimmt — und wo die eigentliche Arbeit liegt.</p>
+        </div>
+        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black); grid-column: 1 / -1;">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 0.75rem; opacity: 0.6;">Anwendungsfall 05</div>
+          <h4 style="margin-bottom: 1rem;">Strategische Quartalsdurchsicht.</h4>
+          <p style="font-size: 0.95rem; line-height: 1.55;">Ein Team, das das Canvas bereits nutzt, schaut wieder darauf. Wo hat sich der Kontext verändert? Welche Blöcke verlangen Aufmerksamkeit? Wo klafft die Lücke zwischen Anspruch und Wirklichkeit? Hier reicht oft das kompakte 90-Minuten-Format.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Zwei Formate -->
+  <section class="section section-cream">
+    <div class="container">
+      <div style="max-width: 65ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Zwei Formate</div>
+        <h2>Wählt die richtige<br/>Länge für das Team.</h2>
+        <p class="lead" style="margin-top: 2rem;">
+          Dieselben acht Schritte passen in zwei realistische Workshop-Längen. Ein Team beim Erstdurchgang braucht die
+          längere Variante; ein eingespieltes Team kann schneller arbeiten.
+        </p>
+      </div>
+
+      <div class="grid grid-2" style="margin-top: 3rem; gap: 3rem;">
+        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">90 Minuten · kompakt</div>
+          <h4 style="margin-bottom: 1rem;">Für ein eingespieltes Team oder eine fokussierte Auffrischung.</h4>
+          <p style="font-size: 0.95rem; line-height: 1.5;">
+            Geeignet für ein erfahrenes Team, eine Quartalsdurchsicht oder eine Auftakt-Sitzung innerhalb eines längeren
+            Retreats. Eng getaktet; Entscheidungen werden ausführlichen Diskussionen vorgezogen. Nicht das richtige
+            Format für einen echten Erstdurchgang — das Gespräch, das jeder Block erzwingt, passt schlicht nicht in eine
+            Viertelstunde.
+          </p>
+        </div>
+        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
+          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">2½ – 3 Stunden · Erstdurchgang</div>
+          <h4 style="margin-bottom: 1rem;">Für ein Team, das das Canvas zum ersten Mal durcharbeitet.</h4>
+          <p style="font-size: 0.95rem; line-height: 1.5;">
+            Echter Raum für die Gespräche, die jeder Block erzwingt, mit Gebet und kurzer Pause eingerechnet. Plant
+            180 Minuten ein, wenn ihr das zum ersten Mal gemeinsam tut; allein die strategisch-theologische Drehscheibe
+            in Block 03 verlangt eine halbe Stunde.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vor der Sitzung -->
+  <section class="section">
+    <div class="container">
+      <div style="max-width: 70ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Vor der Sitzung</div>
+        <h2>Richtet den Raum,<br/>bevor die Menschen kommen.</h2>
+
+        <h3 style="margin-top: 3rem;">Wer ist im Raum.</h3>
+        <p class="lead">
+          Vier bis acht Menschen, die den Dienst tatsächlich prägen — Mitarbeitende, wichtige Ehrenamtliche und, wenn
+          möglich, ein bis zwei Personen aus der Zielgruppe oder dem weiteren Kontext. Entscheidende und Menschen nah
+          an der Arbeit; beide Perspektiven werden gebraucht. Ein Canvas, das ohne eine dieser Stimmen entsteht,
+          verfehlt das, was die andere nicht sehen kann.
+        </p>
+
+        <h3>Material.</h3>
+        <p class="lead">
+          Das Canvas auf A1 drucken oder an die Wand kleben. Haftnotizen (mehrere Farben helfen, Ist und Soll zu
+          trennen). Stifte. Eine Uhr für die Moderation. Ein Glas Wasser für jede der drei Minuten stillen Nachdenkens
+          pro Block.
+        </p>
+
+        <h3>Haltung.</h3>
+        <p class="lead">
+          Rahmt die Sitzung mit Gebet. Sagt früh: Dies ist ein Werkzeug, um Annahmen sichtbar zu machen, nicht, um
+          Argumente zu gewinnen. Wenn Spannungen entstehen — und das werden sie —, haltet inne und benennt sie,
+          anstatt darüber hinwegzugehen. In genau diesen Momenten tut das Canvas seine Arbeit.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Die acht Schritte -->
+  <section class="section section-dark">
+    <div class="container">
+      <div style="margin-bottom: 4rem; max-width: 60ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Die acht Schritte</div>
+        <h2>Ein Block nach dem<br/>anderen, in dieser Reihenfolge.</h2>
+        <p class="lead" style="margin-top: 2rem; opacity: 0.9;">
+          Jeder Schritt nennt den Block, zwei Zeitangaben (kompakt / Standard), einen kurzen Einstieg, was das Team
+          konkret tut, Fragen für die Moderation und worauf zu achten ist.
+        </p>
+      </div>
+
+      <div style="max-width: 75ch;">
+        {steps.map((s) => (
+          <article class="guide-step">
+            <div class="guide-step-head">
+              <span class="guide-step-num">Schritt {s.num}</span>
+              <span class="guide-step-title">{s.title}</span>
+              {s.block && <span class="guide-step-block">· {s.block}</span>}
+            </div>
+            <div class="guide-step-timing">
+              <span>90 Min.: <strong>{s.timings.compact}</strong></span>
+              <span>·</span>
+              <span>Standard: <strong>{s.timings.standard}</strong></span>
+            </div>
+            <p class="guide-step-intro"><em>{s.intro}</em></p>
+            {s.body.map((p) => <p class="guide-step-body">{p}</p>)}
+            {s.ask.length > 0 && (
+              <div class="guide-step-sub">
+                <h5>Fragen, die die Moderation stellt</h5>
+                <ul>
+                  {s.ask.map((q) => <li>{q}</li>)}
+                </ul>
+              </div>
+            )}
+            {s.watch.length > 0 && (
+              <div class="guide-step-sub">
+                <h5>Worauf zu achten</h5>
+                <ul>
+                  {s.watch.map((w) => <li>{w}</li>)}
+                </ul>
+              </div>
+            )}
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Moderationstipps -->
+  <section class="section section-cream">
+    <div class="container">
+      <div style="margin-bottom: 3rem; max-width: 60ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Moderation</div>
+        <h2>Fünf Dinge,<br/>die die Moderation tut.</h2>
+      </div>
+
+      <div style="max-width: 70ch;">
+        <h4 style="margin-top: 1.5rem;">Bleibt auf der Seite.</h4>
+        <p>Wenn die Diskussion in ein Strategiepapier auswuchert, habt ihr das Canvas verloren. Zieht das Team zurück auf die Haftnotiz.</p>
+
+        <h4>Haftnotizen, keine Stifte.</h4>
+        <p>Direkt auf das Canvas zu schreiben fühlt sich endgültig an. Haftnotizen erlauben es dem Team, zu verschieben, umzuformulieren, wegzuwerfen — ohne sich an Zwischenstände zu binden.</p>
+
+        <h4>Benennt Konflikt, wenn er erscheint.</h4>
+        <p>Wenn zwei Teammitglieder bei Block 02 (wem ihr dient) oder Block 03 (was ihr anbietet) wirklich unterschiedlich sehen, ist dieser Konflikt die eigentliche Arbeit — bringt ihn ans Licht, weicht ihm nicht aus. Genau für solche Momente gibt es das Canvas.</p>
+
+        <h4>Zwei Canvas, nicht eines.</h4>
+        <p>Eines für den Ist-Zustand (wo wir heute stehen) und eines für den Soll-Zustand (wohin wir gehen). Der Abstand dazwischen ist eure Strategie.</p>
+
+        <h4>Verankert Gebet an den Nahtstellen.</h4>
+        <p>Beginnt mit Gebet. Schließt mit Gebet. Haltet inne und hört zu, wenn ein Block sich festfährt. Strategische Planung für eine Gemeinde ist geistliche Arbeit.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nach der Sitzung -->
+  <section class="section">
+    <div class="container">
+      <div style="max-width: 70ch;">
+        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Nach der Sitzung</div>
+        <h2>Die Arbeit beginnt<br/>in den Tagen danach.</h2>
+        <p class="lead" style="margin-top: 2rem;">
+          Ein Canvas, das in einer Sitzung fertig wird, ist ein Entwurf, kein Endprodukt. Behandelt es als lebendiges
+          Dokument.
+        </p>
+
+        <ul style="font-size: 1.15rem; line-height: 1.7; margin-top: 1.5rem; max-width: 65ch; padding-left: 1.5rem;">
+          <li>Innerhalb einer Woche: das Canvas sauber abtippen und an alle weitergeben, die im Raum waren.</li>
+          <li>Ladet zu schriftlichen Rückmeldungen ein — was hat sich verschoben, was passt noch nicht, was blieb ungesagt.</li>
+          <li>Entscheidet, an welchen ein bis zwei Blöcken im kommenden Quartal gezielt gearbeitet wird.</li>
+          <li>Schaut das ganze Canvas jedes Quartal an, oder wann immer der Kontext sich so verändert, dass ihr spürt: Das Modell passt nicht mehr.</li>
+        </ul>
+
+        <p class="lead" style="margin-top: 2rem;">
+          Ein Canvas ist ein lebendiges Dokument; behandelt es so.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section-ink">
+    <div class="container">
+      <div style="max-width: 60ch;">
+        <h2>Brauchst du Hilfe<br/>für deine erste Sitzung?</h2>
+        <p class="lead" style="margin-top: 2rem; opacity: 0.9;">
+          Wir moderieren Arbeitstreffen zur strategischen Planung mit Gemeinden und Diensten — in Präsenz oder online.
+          Nimm Kontakt auf, und wir schicken dir einen Beispiel-Sitzungsplan.
+        </p>
+        <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+          <EmailLink label="Kontakt aufnehmen" class="button" />
+          <a href={`${base}/de/ministry-model-canvas`} class="button" style="background: transparent; color: var(--color-white); border: 1px solid var(--color-white);">Zurück zum Canvas</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .guide-step {
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+  }
+  .guide-step:last-child {
+    border-bottom: 0;
+  }
+  .guide-step-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .guide-step-num {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 0.8rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    opacity: 0.6;
+  }
+  .guide-step-title {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 1.6rem;
+    letter-spacing: -0.01em;
+  }
+  .guide-step-block {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.95rem;
+    opacity: 0.6;
+  }
+  .guide-step-timing {
+    font-size: 0.85rem;
+    opacity: 0.65;
+    margin-bottom: 1.25rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .guide-step-intro {
+    font-size: 1.15rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    opacity: 0.9;
+  }
+  .guide-step-body {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    font-weight: 300;
+  }
+  .guide-step-sub {
+    margin-top: 1.5rem;
+    padding: 1.25rem 1.5rem;
+    background: rgba(255,255,255,0.06);
+    border-left: 2px solid rgba(255,255,255,0.3);
+  }
+  .guide-step-sub h5 {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin: 0 0 0.75rem 0;
+    opacity: 0.7;
+  }
+  .guide-step-sub ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .guide-step-sub li {
+    font-size: 0.95rem;
+    line-height: 1.55;
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+  }
+  .guide-step-sub li:last-child { margin-bottom: 0; }
+</style>
