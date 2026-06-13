@@ -6,85 +6,82 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const blocks = [
   {
     num: '01',
-    title: 'Zielgruppe',
+    title: 'Anknüpfungspunkte',
     questions: [
-      'Wer ist unsere wichtigste Zielgruppe?',
-      'Welche Untergruppen gibt es? (z. B. Familien bestehen aus Eltern, Kindern, Jugendlichen)',
-      'Welche Rolle spielen Glaube und Spiritualität im Leben dieser Zielgruppe?',
-    ],
-    area: 'target',
-  },
-  {
-    num: '02',
-    title: 'Anknüpfungspunkt',
-    questions: [
-      'Top 3 Anknüpfungspunkte (z. B. Probleme, Bedürfnisse, Interessen).',
-      'Welche besonderen, interessengeleiteten Angebote können wir machen, die zu den Werten unseres Dienstes und den Interessen unserer Zielgruppe passen?',
+      'Top 3 Anknüpfungspunkte (z. B. Probleme, Werte, Bedürfnisse, Interessen der Zielgruppe).',
+      'Welche Art Beziehung wird von der Zielgruppe erwartet? (z. B. Gemeinschaft, Mitgestaltung, Hilfe empfangen, Selbstbedienung, Dienstleistung)',
     ],
     area: 'connecting',
   },
   {
-    num: '03',
-    title: 'Missionale Identität',
+    num: '02',
+    title: 'Zielgruppe',
     questions: [
-      'Was ist die gute Nachricht in unserem Kontext wirklich?',
-      'Wie spiegelt unsere Gemeinde Gottes Sendung in der Welt wider?',
-      'Welche Aspekte unseres Dienstes sind in unserem besonderen Kontext besonders überzeugend?',
+      'Wer ist unsere wichtigste Zielgruppe? (Demographie, Milieu, Ort, Zeit, Charakteristika)',
+      'Welche Untergruppen gibt es? (z. B. Familien bestehen aus Eltern, Kindern, evtl. Jugendlichen)',
+      'Welche Alternativen zu unserem Angebot nehmen sie heute hinsichtlich ihrer Anknüpfungspunkte wahr?',
     ],
-    area: 'identity',
+    area: 'target',
+  },
+  {
+    num: '03',
+    title: 'Angebot',
+    questions: [
+      'Wie sprechen wir jede der Zielgruppen mit ihren Anknüpfungspunkten an?',
+      'Was für Angebote entsprechen ihren Bedürfnissen?',
+    ],
+    area: 'value',
   },
   {
     num: '04',
-    title: 'Beziehungen',
+    title: 'Arbeitsschwerpunkte',
     questions: [
-      'Welche Art von Beziehung erwarten sie von uns? (Gemeinschaft, gemeinsames Gestalten, Verbindlichkeit, Selbstbedienung, Automatisierung)',
-      'Wie können wir sicherstellen, dass unsere Beziehungsangebote zugänglich und einladend sind für Menschen, die neu im Glauben sind?',
-    ],
-    area: 'relationships',
-  },
-  {
-    num: '05',
-    title: 'Zentrale Tätigkeiten',
-    questions: [
-      'Welche Tätigkeiten brauchen wir, um unsere Zielgruppe wirklich zu erreichen und ihr zu dienen?',
-      'Welche Tätigkeiten tragen dieses Modell langfristig? (Gottesdienste, Kommunikation, Veranstaltungen, Schulung)',
+      'Welche Aktivitäten benötigen wir für unser Alleinstellungsmerkmal?',
+      'Welche Aktivitäten brauchen wir, um langfristig mit diesem Modell Gemeinde zu bauen? (z. B. Gottesdienste, Kommunikation, Veranstaltungen, Schulung)',
     ],
     area: 'activities',
   },
   {
-    num: '06',
-    title: 'Wege',
+    num: '05',
+    title: 'Kontaktpunkte',
     questions: [
-      'Wo und wie erreichen wir die Zielgruppe?',
+      'Wo und wie werden wir die Zielgruppe erreichen?',
       'Welche Beziehungen haben wir bereits, welche müssen wir aufbauen? (Zielgruppe, Stadt, Partnerorganisationen)',
     ],
     area: 'channels',
   },
   {
-    num: '07',
+    num: '06',
     title: 'Ressourcen',
     questions: [
-      'Welche Ressourcen brauchen wir? (Finanzen, Ehrenamtliche, Mitarbeitende, Partnerschaften, Ausstattung und Technik, Ort)',
-      'Welche bestehenden Beziehungen oder Netzwerke können wir nutzen, um unsere Zielgruppe zu erreichen?',
+      'Welche Ressourcen brauchen wir? (Finanzen, Mitarbeitende, Kooperationen, Ausrüstung/Technik/Material, Gebäude)',
     ],
     area: 'resources',
   },
   {
-    num: '08',
+    num: '07',
     title: 'Budget',
     questions: [
-      'Welche Kosten entstehen? (Miete, Gehälter, Nebenkosten, Kommunikation, Technik, Material)',
+      'Welche Kosten entstehen? (Mieten, Gehälter/Honorare, Nebenkosten, Werbekosten, Technik, Material)',
     ],
     area: 'budget',
   },
   {
-    num: '09',
-    title: 'Missionale Wirksamkeit beurteilen',
+    num: '08',
+    title: 'Zielerreichung',
     questions: [
-      'Wie pflegen wir eine Haltung gebetsvoller Unterscheidung und Offenheit für den Heiligen Geist, während wir die missionale Wirksamkeit unserer Gemeinde beurteilen?',
-      'Wie gestalten wir SMART-Kriterien, die mit der von Gott gegebenen Sendung unserer Gemeinde übereinstimmen?',
+      'Woran können wir festmachen, dass wir unsere Ziele erreichen?',
+      'SMARTe Kriterien: Spezifisch, Messbar, Ausführbar, Realistisch, Terminiert.',
     ],
-    area: 'assessment',
+    area: 'mission',
+  },
+  {
+    num: '09',
+    title: 'Alleinstellungsmerkmal',
+    questions: [
+      'Warum sind wir prädestiniert, diese Zielgruppe zu erreichen? Wie unterscheiden wir uns von den Alternativen?',
+    ],
+    area: 'advantage',
   },
 ];
 ---
@@ -122,10 +119,11 @@ const blocks = [
         </p>
         <p class="lead">
           Das <strong>Ministry Model Canvas</strong> überträgt dieselbe Form auf Gemeinden und Dienste. Es behält die
-          Neun-Block-Logik bei, ersetzt aber die Produkt-Markt-Sprache durch eine Sprache von Dienst und Sendung:
-          Zielgruppe statt Kundensegment, missionale Identität statt Nutzenversprechen, Anknüpfungspunkt statt
-          Kundenproblem. So entsteht ein Werkzeug, das übersetzt — ohne das theologische Gewicht dessen zu verlieren,
-          was Gemeinden wirklich tun.
+          Neun-Block-Logik bei, fasst die Sprache aber für den Dienst neu: Anknüpfungspunkt statt Kundenproblem,
+          Zielgruppe als Frage der Unterscheidung statt des Marktes, ein eigener Block für das Alleinstellungsmerkmal
+          (warum gerade dieses Team, an diesem Ort, für diese Menschen), und Zielerreichung statt Umsatzströmen. So
+          entsteht ein Werkzeug, das übersetzt — ohne das theologische Gewicht dessen zu verlieren, was Gemeinden
+          wirklich tun.
         </p>
         <p class="lead">
           Entwickelt wurde es von <a href="https://oratio.co">Tobias Treppmann / Oratio&Co</a> und wird seither mit
@@ -187,7 +185,7 @@ const blocks = [
 
           <div class="step">
             <span class="principle-number">Schritt 02 · Mit der Zielgruppe beginnen</span>
-            <h4>Block 01 zuerst. Immer.</h4>
+            <h4>Block 02 zuerst. Immer.</h4>
             <p style="font-weight: 300; line-height: 1.5;">
               Für wen ist dieser Dienst da? Werde konkret. „Alle" ist keine Zielgruppe — „Eltern junger Kinder in den
               beiden Stadtteilen südlich der Gemeinde" schon. Alles, was danach kommt, hängt davon ab.
@@ -195,8 +193,8 @@ const blocks = [
           </div>
 
           <div class="step">
-            <span class="principle-number">Schritt 03 · Anknüpfungspunkt</span>
-            <h4>Block 02 · Was zieht sie an?</h4>
+            <span class="principle-number">Schritt 03 · Anknüpfungspunkte</span>
+            <h4>Block 01 · Was zieht sie an?</h4>
             <p style="font-weight: 300; line-height: 1.5;">
               Nicht das, was <em>du</em> anbieten möchtest — das, wonach <em>sie</em> ohnehin suchen. Probleme,
               Bedürfnisse, Interessen, Sehnsüchte. Wenn du drei nicht benennen kannst, hast du zu wenig Zeit mit ihnen
@@ -205,53 +203,56 @@ const blocks = [
           </div>
 
           <div class="step">
-            <span class="principle-number">Schritt 04 · Missionale Identität</span>
-            <h4>Block 03 · Was ist hier die gute Nachricht?</h4>
+            <span class="principle-number">Schritt 04 · Angebot</span>
+            <h4>Block 03 · Was ist das überzeugende Angebot?</h4>
             <p style="font-weight: 300; line-height: 1.5;">
-              Der theologische Kern. Nicht ein Satz, der bei einer anderen Gemeinde abgeschrieben ist — eure eigene
-              Formulierung des Evangeliums in diesem Kontext, für diese Menschen. Hier trifft theologische Reflexion auf
-              strategische Klarheit.
+              Der eine, klare Grund, warum genau diese Menschen mit diesem Dienst etwas zu tun haben wollen — und nicht
+              mit einer Alternative. Kein Werbespruch — sondern eure ehrliche Antwort darauf, was ihr anbietet und warum
+              es hier, für diese Menschen, zählt. Die strategisch-theologische Drehscheibe des Canvas.
             </p>
           </div>
         </div>
 
         <div>
           <div class="step">
-            <span class="principle-number">Schritt 05 · Erst die rechte Seite</span>
-            <h4>Blöcke 04, 05, 06 · Wie werdet ihr verbinden?</h4>
+            <span class="principle-number">Schritt 05 · Wie werdet ihr sie erreichen?</span>
+            <h4>Blöcke 04, 05 · Arbeitsschwerpunkte &amp; Kontaktpunkte</h4>
             <p style="font-weight: 300; line-height: 1.5;">
-              Beziehungen, zentrale Tätigkeiten, Wege. Welche Beziehungshaltung wollt ihr einnehmen? Welche Tätigkeiten
-              tragen diese Haltung? Wo und wie erreicht ihr Menschen? Diese drei beschreiben, wie der Dienst sich für
-              die Menschen anfühlt.
+              Welche Aktivitäten verlangt das Angebot tatsächlich — sowohl um es zu verwirklichen als auch um es zu
+              tragen? Und wo trefft ihr die Menschen, die ihr erreichen wollt? Welche Beziehungen habt ihr schon, welche
+              müsst ihr noch aufbauen? Diese beiden Blöcke beschreiben, wie der Dienst sich für die Menschen anfühlt.
             </p>
           </div>
 
           <div class="step">
-            <span class="principle-number">Schritt 06 · Die linke Seite</span>
-            <h4>Blöcke 07, 08 · Was kostet es?</h4>
+            <span class="principle-number">Schritt 06 · Was kostet es?</span>
+            <h4>Blöcke 06, 07 · Ressourcen &amp; Budget</h4>
             <p style="font-weight: 300; line-height: 1.5;">
-              Ressourcen und Budget. Seid ehrlich. Was braucht ihr wirklich — Menschen, Räume, Geld, Partnerschaften?
-              Hier trifft die Vision auf die Wirklichkeit. Wenn die Blöcke 01–06 mehr verlangen, als die Blöcke 07–08
-              tragen können, muss sich etwas ändern.
+              Seid ehrlich. Was braucht ihr wirklich — Menschen, Räume, Geld, Partnerschaften? Und was kostet es
+              tatsächlich — Miete, Gehälter, Kommunikation, Technik? Hier trifft die Vision auf die Wirklichkeit. Wenn
+              die Blöcke 01–05 mehr verlangen, als die Blöcke 06–07 tragen können, muss sich etwas ändern.
             </p>
           </div>
 
           <div class="step">
-            <span class="principle-number">Schritt 07 · Wirksamkeit</span>
-            <h4>Block 09 · Woran werdet ihr es merken?</h4>
+            <span class="principle-number">Schritt 07 · Alleinstellungsmerkmal</span>
+            <h4>Block 09 · Warum gerade ihr?</h4>
             <p style="font-weight: 300; line-height: 1.5;">
-              Gestaltet messbare, an der Sendung ausgerichtete Indikatoren — aber haltet sie mit gebetsvoller
+              Was macht euch — dieses Team, an diesem Ort — besonders geeignet, diese Zielgruppe zu erreichen, sodass es
+              ein anderes Team kaum genauso könnte? Keine Selbstüberschätzung, sondern ehrliches Benennen von Gabe,
+              Geschichte und Haltung. Wenn ihr es nicht benennen könnt, fehlt der Sendung vielleicht noch die nötige
+              Klarheit.
+            </p>
+          </div>
+
+          <div class="step">
+            <span class="principle-number">Schritt 08 · Zielerreichung &amp; Wiederaufnehmen</span>
+            <h4>Block 08 · Woran werdet ihr es merken?</h4>
+            <p style="font-weight: 300; line-height: 1.5;">
+              Gestaltet messbare, an der Sendung ausgerichtete Indikatoren — SMART, aber gehalten mit gebetsvoller
               Unterscheidung, nicht nur mit Tabellen-Logik. Das Wirken des Heiligen Geistes zeigt sich nicht immer in
-              einer Kennzahlen-Übersicht. Fragt dennoch: Woran werden wir merken, dass wir treu und fruchtbar sind?
-            </p>
-          </div>
-
-          <div class="step">
-            <span class="principle-number">Schritt 08 · Wiederaufnehmen</span>
-            <h4>Jedes Quartal.</h4>
-            <p style="font-weight: 300; line-height: 1.5;">
-              Ein Canvas ist ein lebendiges Dokument. Datiert es. Versioniert es. Schaut jedes Quartal wieder darauf.
-              Wenn der Kontext sich verändert — und das wird er —, habt ihr eine gemeinsame Grundlage, statt das Gespräch
+              einer Kennzahlen-Übersicht. Datiert das Canvas. Versioniert es. Schaut jedes Quartal wieder darauf. Wenn
+              der Kontext sich verändert — und das wird er —, habt ihr eine gemeinsame Grundlage, statt das Gespräch
               jedes Mal neu beginnen zu müssen.
             </p>
           </div>
@@ -292,7 +293,7 @@ const blocks = [
         <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
           <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">Tipp 05</div>
           <h4>Theologie in Block 03.</h4>
-          <p>Missionale Identität ist kein Werbespruch. Nehmt euch die Zeit für theologische Reflexion — das ist der tragende Block.</p>
+          <p>Das Angebot ist kein Werbespruch. Nehmt euch die Zeit für theologische Reflexion — das ist der tragende Block, wo die Sendung konkret wird.</p>
         </div>
         <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
           <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">Tipp 06</div>
@@ -344,9 +345,9 @@ const blocks = [
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto auto auto;
     grid-template-areas:
-      'connecting activities identity  relationships target'
-      'connecting resources  identity  channels      target'
-      'budget     budget     assessment assessment   assessment';
+      'connecting activities value advantage target'
+      'connecting resources  value channels  target'
+      'budget     budget     mission mission mission';
     gap: 0;
     border: 1px solid var(--color-black);
     background: var(--color-black);
@@ -361,15 +362,15 @@ const blocks = [
     min-height: 180px;
   }
 
-  .canvas-target      { grid-area: target; }
-  .canvas-connecting  { grid-area: connecting; }
-  .canvas-identity    { grid-area: identity; }
-  .canvas-relationships { grid-area: relationships; }
-  .canvas-activities  { grid-area: activities; }
-  .canvas-channels    { grid-area: channels; }
-  .canvas-resources   { grid-area: resources; }
-  .canvas-budget      { grid-area: budget; }
-  .canvas-assessment  { grid-area: assessment; }
+  .canvas-connecting { grid-area: connecting; }
+  .canvas-target     { grid-area: target; }
+  .canvas-value      { grid-area: value; }
+  .canvas-activities { grid-area: activities; }
+  .canvas-channels   { grid-area: channels; }
+  .canvas-resources  { grid-area: resources; }
+  .canvas-budget     { grid-area: budget; }
+  .canvas-mission    { grid-area: mission; }
+  .canvas-advantage  { grid-area: advantage; }
 
   .canvas-block-num {
     position: absolute;
@@ -423,12 +424,11 @@ const blocks = [
     .canvas {
       grid-template-columns: 1fr 1fr;
       grid-template-areas:
-        'target       target'
-        'connecting   identity'
-        'relationships activities'
-        'channels     resources'
-        'budget       budget'
-        'assessment   assessment';
+        'connecting  target'
+        'value       advantage'
+        'activities  channels'
+        'resources   budget'
+        'mission     mission';
     }
     .canvas-block-num {
       font-size: 2.5rem;
@@ -439,15 +439,15 @@ const blocks = [
     .canvas {
       grid-template-columns: 1fr;
       grid-template-areas:
-        'target'
         'connecting'
-        'identity'
-        'relationships'
+        'target'
+        'value'
         'activities'
         'channels'
         'resources'
         'budget'
-        'assessment';
+        'mission'
+        'advantage';
     }
   }
 </style>
