@@ -44,3 +44,28 @@ blockquote,.editorial-passage{font-family:var(--mbd-editorial);font-weight:400;f
 .hero-copy{min-width:0}.hero h1{font-size:clamp(48px,6vw,88px);max-width:13ch}.hero .hero-subtitle{font-size:18px;max-width:48ch}
 .hero-documentary{margin:0;min-width:0}.hero-documentary img{display:block;width:100%;height:auto;border-radius:4px}.hero-documentary figcaption{font:400 11px/1.5 var(--font-body);color:#b1aa9e;margin-top:8px}
 @media(max-width:900px){.hero{grid-template-columns:1fr;gap:32px;padding:48px 6vw;min-height:0!important}.hero h1{font-size:clamp(48px,9vw,72px)}.hero-documentary{max-width:680px}}
+
+/* Identity · sculptural monochrome and editorial colour meetup photographs. */
+:root{--color-black:#121512;--color-white:#eeefec;--color-cream:#e4e6e2;--color-ink:#262b24;--color-muted:#4e554d;--color-border:#cbd0c8}
+.nav{background:#080908}.hero{background:#000;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:3vw;min-height:710px;padding:64px 5vw}
+.hero h1{font-size:clamp(50px,6.6vw,98px);font-weight:630;font-variation-settings:"wdth" 105;letter-spacing:-.045em;line-height:1.02;max-width:13ch}
+.hero .hero-subtitle{max-width:44ch;font-size:18px;line-height:1.65}.hero .hero-label{font-size:11px;letter-spacing:.17em}
+.identity-hero-art{min-width:0}.identity-hero-art img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;background:#000}
+.identity-person-section{padding:76px 0;background:#eeefec;color:#121512}.identity-person-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.identity-person-grid h2{font-family:var(--font-display);font-size:clamp(40px,5vw,72px);font-weight:620;font-variation-settings:"wdth" 105;line-height:1.02;max-width:13ch}
+.identity-label{font:550 11px/1.5 var(--font-body);letter-spacing:.17em;margin-bottom:28px}
+.identity-person-grid .editorial-passage{font-size:clamp(32px,3.6vw,48px);margin:30px 0 20px}.identity-text-link{font-size:14px;font-weight:600;text-underline-offset:5px}
+.identity-art{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;background:#fff}
+.identity-human-grid{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:48px;align-items:center;margin-top:64px;padding-top:40px;border-top:1px solid var(--color-border)}
+.identity-meetup{margin:0;min-width:0}.identity-meetup img{display:block;width:100%;height:auto}.identity-meetup figcaption{font:400 11px/1.5 var(--font-body);color:var(--color-muted);margin-top:8px}
+.identity-human-grid>.editorial-passage{font-size:clamp(30px,3.2vw,48px);line-height:1.15}
+.identity-photo-section{padding:64px 0}.identity-places{max-width:none}.identity-place{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;align-items:center;padding:40px 0;border-top:1px solid var(--color-border)}
+.identity-place-copy{min-width:0}.identity-place h3{font-family:var(--font-display);font-size:clamp(34px,4vw,50px);line-height:1.05}.identity-place .principle-number{font-size:11px;margin-bottom:12px}.identity-place h4{font-size:22px}
+.section-dark,.section-ink{background:#080908}.editorial-heading{font-size:clamp(46px,6vw,78px)}
+@media(max-width:900px){.hero{grid-template-columns:1fr;min-height:0;padding:48px 6vw 28px;gap:24px}.hero h1{font-size:clamp(48px,9vw,76px)}.identity-hero-art{max-width:760px}.identity-person-grid,.identity-place{grid-template-columns:1fr;gap:28px}.identity-human-grid{grid-template-columns:1fr;gap:28px}.identity-person-section{padding:48px 0}.identity-person-grid h2{font-size:clamp(42px,8vw,64px)}.identity-human-grid>.editorial-passage{max-width:20ch}.identity-photo-section{padding:40px 0}.identity-place{padding:32px 0}}
+/* QA refinement: match the study's display scale and seamless white icon surface. */
+.hero h1{font-size:clamp(54px,8.2vw,120px)}
+.identity-person-section{background:#fff}.identity-person-grid h2{font-size:clamp(42px,6.1vw,88px)}
+.identity-human-grid>.editorial-passage{font-size:clamp(36px,4.2vw,64px);max-width:12ch}
+html[lang=de] .hero h1{font-size:clamp(48px,6.5vw,96px)}
+@media(max-width:900px){.hero h1,html[lang=de] .hero h1{font-size:clamp(46px,9.3vw,78px)}.identity-person-grid h2{font-size:clamp(42px,8vw,64px)}.identity-human-grid>.editorial-passage{font-size:clamp(36px,6vw,48px);max-width:20ch}}

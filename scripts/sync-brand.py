@@ -14,7 +14,7 @@ args = parser.parse_args()
 target = ROOT / 'public/assets/brand'
 target.mkdir(parents=True, exist_ok=True)
 for p in (args.source / 'assets').iterdir():
-    if p.is_file():
+    if p.is_file() and (p.suffix.lower() != ".png" or p.name.startswith("rock-mark-")):
         shutil.copy2(p, target / p.name)
 shutil.copy2(args.source / 'tokens.css', target / 'tokens.css')
 shutil.copy2(args.source / 'selection.json', target / 'selection.json')

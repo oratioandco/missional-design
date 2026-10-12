@@ -22,7 +22,7 @@ const detectedLocale = getLocaleFromPath(pathname, base);
 const {
   title,
   description,
-  ogImage,
+  ogImage = pathname.includes("framework") ? "/assets/og/missional-framework.jpg" : "/assets/og/missional-home.jpg",
   lang = detectedLocale,
 } = Astro.props;
 const siteUrl = "https://missional.design";
@@ -39,19 +39,21 @@ const finalDescription = description ?? (lang === 'de'
     <title>{title === 'Missional by Design' ? 'Missional by Design' : `${title} — Missional by Design`}</title>
     <meta name="description" content={finalDescription} />
 
-    <link rel="stylesheet" href={`${base}/assets/brand/tokens.css`} />
+    <link rel="stylesheet" href={`${base}/assets/brand/tokens.css?v=identity-1`} />
     <link rel="icon" type="image/svg+xml" href={`${base}/assets/brand/rock-mark-light.svg`} />
+
+    <link rel="apple-touch-icon" href={`${base}/assets/brand/rock-mark-180.png?v=identity-1`} />
 
     <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content={siteUrl} />
+    <meta property="og:url" content={`${siteUrl}${pathname}`} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={finalDescription} />
     {ogImage && <meta property="og:image" content={`${siteUrl}${ogImage}`} />}
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content={siteUrl} />
+    <meta property="twitter:url" content={`${siteUrl}${pathname}`} />
     <meta property="twitter:title" content={title} />
     <meta property="twitter:description" content={finalDescription} />
     {ogImage && <meta property="twitter:image" content={`${siteUrl}${ogImage}`} />}

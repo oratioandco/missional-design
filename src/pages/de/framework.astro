@@ -6,7 +6,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import EmailLink from '../../components/EmailLink.astro';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const full = 'https://patterns.missional.design/principles/';
+const full = `${base}/principles/`;
 
 const places = [
   {
@@ -161,8 +161,10 @@ const questions = [
       dem, was ihm am heiligsten ist. Diese Prinzipien kommen aus einer Berufung: der Freude und dem Gewicht, die Werkzeuge
       zu bauen, mit denen Menschen heute beten, lesen und fragen. Jedes nennt, was es von den Machenden verlangt aufzugeben.
     </p>
-    </div><figure class="hero-documentary"><img src={`${base}/assets/brand/startup-life-conversation.webp`} alt="Zwei Menschen im Gespräch bei einem Startup-Life-Event" width="1600" height="1066" fetchpriority="high" /><figcaption>Foto: Startup Life</figcaption></figure>
+    </div><div class="identity-hero-art"><img src={`${base}/assets/brand/identity-folio-dark-v2.webp`} alt="" aria-hidden="true" width="1536" height="1024" fetchpriority="high" /></div>
   </section>
+  <section class="identity-photo-section container"><figure class="identity-meetup"><img src={`${base}/assets/brand/identity-meetup-workshop-v1.webp`} alt="Illustrative Workshop-Szene bei einem Tech-Meetup" width="1536" height="1024" loading="lazy" /><figcaption>Generierte Illustration · nach Startup-Life-Fotografie</figcaption></figure></section>
+
 
   <!-- Three layers -->
   <section class="section">
@@ -209,9 +211,9 @@ const questions = [
   <!-- Places and commitments -->
   <section class="section">
     <div class="container">
-      <div style="max-width: 70ch;">
+      <div class="identity-places">
         {places.map((p) => (
-          <article class="principle">
+          <article class="principle identity-place"><img class="identity-art" src={`${base}/assets/brand/identity-${({'01':'word','02':'person','03':'practice','04':'people','05':'makers'}[p.num])}-light-v1.webp`} alt="" width="1536" height="1024" loading="lazy" /><div class="identity-place-copy">
             <span class="principle-number">{p.num}</span>
             <h3>{p.name}</h3>
             <p class="lead" style="opacity: 0.75;">{p.ask}</p>
@@ -221,7 +223,7 @@ const questions = [
                 <p>{c.body}</p>
               </div>
             ))}
-          </article>
+          </div></article>
         ))}
         <p class="lead" style="margin-top: 3rem;">
           Jedes Prinzip mit seiner Schrift, seiner Tradition, dem, was es ein- und ausschließt, und Fragen zur Prüfung
