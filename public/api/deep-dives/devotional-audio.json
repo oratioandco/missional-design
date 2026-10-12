@@ -1,0 +1,452 @@
+{
+ "slug": "devotional-audio",
+ "url": "https://missional.design/patterns/devotional-audio/",
+ "title": "Devotional audio",
+ "question": "Guided prayer, a podcast, a talk or a sleep story?",
+ "lede": "Devotional audio comes in many shapes: guided prayer, teaching podcasts, morning talks, sleep stories, and now generated daily episodes. Each decides how much Scripture is heard, who speaks around it, whether there is silence, and whether the session ever ends. Choose the shape for the listener’s moment, not for listening time. Done well, it gives people Scripture and stillness in the middle of ordinary days.",
+ "calling": "Judge a session by what the listener carries into the day, not by how long they stayed.",
+ "spectrum": {
+  "title": "Four ways to hear a passage, and one that never ends",
+  "from": "",
+  "to": ""
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/devotional-audio/",
+  "situation": "It is a Wednesday. Each format is built around the same passage, Mark 4:35–41, where Jesus calms the storm. Play each one (playback is simulated and speeded up), jump between segments, and notice what you hear of Scripture, who speaks, and what happens at the end. Then put the script on screen, and let the silence wait for you."
+ },
+ "options": [
+  {
+   "key": "guided",
+   "name": "Guided prayer",
+   "provenance": "Observed",
+   "origin": "Observed in Pray As You Go, whose daily sessions move from music to a reading, reflection questions, a second reading and a closing prayer, with the script and music credits in the player; see the screenshots below.",
+   "gain": "Scripture whole, with silence",
+   "cost": "Silence is easy to cut",
+   "makes_easier": "A way of praying with Scripture, read whole and twice, with room for silence.",
+   "costs": "Needs a steady pace and careful writing; silence is easy to cut.",
+   "ask_your_team": "Is the reading heard whole, and does the silence belong to the listener?",
+   "still": "https://missional.design/assets/stills/try-devotion-guided.jpg"
+  },
+  {
+   "key": "teaching",
+   "name": "Teaching conversation",
+   "provenance": "Familiar convention",
+   "origin": "A familiar podcast format: two hosts discuss a passage and its background, as in Bible-teaching podcasts across languages.",
+   "gain": "Background and echoes",
+   "cost": "Hosts can sound like the text",
+   "makes_easier": "Understanding: background, echoes in other Scripture, the questions a text leaves open.",
+   "costs": "Hosts can overshadow the text, and confident talk can sound like Scripture.",
+   "ask_your_team": "Can the listener tell the passage from the hosts’ interpretation, and find the sources?",
+   "still": "https://missional.design/assets/stills/try-devotion-teaching.jpg"
+  },
+  {
+   "key": "talk",
+   "name": "Devotional talk",
+   "provenance": "Observed",
+   "origin": "Observed in morning devotionals and in apps such as Abide, which offer sessions by length, from “2 min · Pause & Pray” to “15 min · Meditate & Deepen”; see the screenshots below.",
+   "gain": "A word for today",
+   "cost": "The story can take over",
+   "makes_easier": "A short word for the day, in a voice people come to trust.",
+   "costs": "The host’s story can take over the passage.",
+   "ask_your_team": "Is the passage at the centre, and is the host named as a person with a view?",
+   "still": "https://missional.design/assets/stills/try-devotion-talk.jpg"
+  },
+  {
+   "key": "sleep",
+   "name": "Sleep story",
+   "provenance": "Observed",
+   "origin": "Observed in Dwell’s “Sleep to Scripture” and Abide’s sleep shelf with named narrators; see the screenshots below.",
+   "gain": "Rest with Scripture in mind",
+   "cost": "Plays to someone asleep",
+   "makes_easier": "Rest at night with Scripture in mind.",
+   "costs": "The listener may not hear the end; anything that plays next plays to a sleeping person.",
+   "ask_your_team": "Does it fade to silence, with nothing queued after it?",
+   "still": "https://missional.design/assets/stills/try-devotion-sleep.jpg"
+  },
+  {
+   "key": "stream",
+   "name": "Endless stream",
+   "provenance": "Leave it out",
+   "origin": "A composite of patterns from podcast and video apps (“Next from:” auto-queues, autoplay countdowns) and from generated daily devotionals.",
+   "gain": "Always something new",
+   "cost": "Never ends, no author",
+   "makes_easier": "There is always something new to hear.",
+   "costs": "Listening never ends; no one is accountable for the words.",
+   "ask_your_team": "Who wrote this, and when does it stop?",
+   "still": "https://missional.design/assets/stills/try-devotion-stream.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Let Scripture be heard whole, and distinctly",
+   "text": "Pray As You Go reads the passage in full, often twice, in a different voice from the reflection. Ezra’s Levites read “distinctly, and gave the sense”. Keep reading and commentary audibly apart, and set Scripture apart on screen when a script is shown."
+  },
+  {
+   "heading": "Silence belongs to the listener",
+   "text": "Guided prayer needs silence, and silence is the first thing cut to hold attention. Dwell offers a “Reflect” pause setting. In prayer, let silence wait until the listener continues."
+  },
+  {
+   "heading": "Hosts become trusted voices",
+   "text": "Listeners form friend-like bonds with podcast hosts and feel it when hosts change. Name hosts as people with a perspective and a tradition, and never let a familiar voice stand in for Scripture or for a pastor."
+  },
+  {
+   "heading": "Every session should end",
+   "text": "Autoplay and recommendations undermine people’s sense of agency; search and playlists support it. A devotional that rolls into the next episode, or a sleep story followed by more content, plays to someone who did not choose it."
+  },
+  {
+   "heading": "Credit every voice and every note",
+   "text": "Pray As You Go’s Music Info names the monks of Pluscarden Abbey; Abide names author and narrator. Generated episodes often name no one. Credit authors, readers and musicians, and label synthetic voices."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "Praying each morning",
+   "needs": "A way into prayer with Scripture",
+   "fit": {
+    "Guided prayer": "good fit",
+    "Teaching conversation": "poor fit",
+    "Devotional talk": "possible",
+    "Sleep story": "poor fit",
+    "Endless stream": "poor fit"
+   }
+  },
+  {
+   "situation": "Studying a book",
+   "needs": "Background and connections",
+   "fit": {
+    "Guided prayer": "poor fit",
+    "Teaching conversation": "good fit",
+    "Devotional talk": "poor fit",
+    "Sleep story": "poor fit",
+    "Endless stream": "poor fit"
+   }
+  },
+  {
+   "situation": "Commuting",
+   "needs": "A short word, eyes free",
+   "fit": {
+    "Guided prayer": "possible",
+    "Teaching conversation": "possible",
+    "Devotional talk": "good fit",
+    "Sleep story": "poor fit",
+    "Endless stream": "poor fit"
+   }
+  },
+  {
+   "situation": "Not sleeping",
+   "needs": "Rest with Scripture in mind",
+   "fit": {
+    "Guided prayer": "poor fit",
+    "Teaching conversation": "poor fit",
+    "Devotional talk": "poor fit",
+    "Sleep story": "good fit",
+    "Endless stream": "poor fit"
+   }
+  },
+  {
+   "situation": "Unable to read",
+   "needs": "Scripture heard whole",
+   "fit": {
+    "Guided prayer": "good fit",
+    "Teaching conversation": "possible",
+    "Devotional talk": "possible",
+    "Sleep story": "possible",
+    "Endless stream": "poor fit"
+   }
+  },
+  {
+   "situation": "Leading a group",
+   "needs": "Something to listen to together",
+   "fit": {
+    "Guided prayer": "good fit",
+    "Teaching conversation": "good fit",
+    "Devotional talk": "possible",
+    "Sleep story": "poor fit",
+    "Endless stream": "poor fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "Reading, praying and resting with the word",
+   "findings": [
+    {
+     "heading": "A daily shape for prayer",
+     "text": "Pray As You Go’s sessions: music, Scripture, reflection, prayer.",
+     "sources": [
+      "pray-as-you-go"
+     ]
+    },
+    {
+     "heading": "Slow, repeated reading",
+     "text": "Lectio divina reads a short passage more than once.",
+     "sources": [
+      "lectio"
+     ]
+    },
+    {
+     "heading": "Attention to the day",
+     "text": "The Examen’s steps behind many guided sessions.",
+     "sources": [
+      "examen-steps"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Psychology",
+   "subtitle": "Hosts, sleep and agency",
+   "findings": [
+    {
+     "heading": "Hosts as trusted friends",
+     "text": "Listeners’ bonds with podcast hosts, and their loss when hosts change.",
+     "sources": [
+      "podcast-parasocial"
+     ]
+    },
+    {
+     "heading": "Sound can help sleep",
+     "text": "Relaxing music may improve sleep quality.",
+     "sources": [
+      "music-insomnia"
+     ]
+    },
+    {
+     "heading": "Autoplay takes agency",
+     "text": "Autoplay and recommendations undermine sense of agency.",
+     "sources": [
+      "youtube-agency"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Voices and disclosure",
+   "subtitle": "Who is speaking",
+   "findings": [
+    {
+     "heading": "Synthetic voices",
+     "text": "How synthetic voices affect trust, and EU disclosure duties for generated audio.",
+     "sources": [
+      "synthetic-trust",
+      "ai-act-50"
+     ]
+    },
+    {
+     "heading": "Audio for people who cannot read",
+     "text": "Scripture recordings for oral cultures.",
+     "sources": [
+      "fcbh"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "People want to pray with Scripture",
+   "start_with": "Guided prayer: the passage whole, read twice, with silence that waits"
+  },
+  {
+   "if": "People want to understand a passage",
+   "start_with": "A teaching conversation with named hosts and sources"
+  },
+  {
+   "if": "People listen on the way to work",
+   "start_with": "A short talk with the passage at its centre"
+  },
+  {
+   "if": "People listen to fall asleep",
+   "start_with": "A sleep story that fades out, with nothing after it"
+  },
+  {
+   "if": "You are tempted to fill every minute",
+   "start_with": "Don’t: no autoplay, no endless generated episodes, no listening streaks"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What hearing devotionally is for",
+   "text": "The Levites read the Law, “explaining it and giving insight” (Nehemiah 8:8): the reading and the explanation were both heard, and heard as different things. Christians have prayed with Scripture aloud in the office, in lectio and in song, and “about midnight Paul and Silas were praying and singing hymns to God, and the other prisoners were listening to them” (Acts 16:25). The voice that carries Scripture serves it."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Liturgical traditions pray set words and readings, often sung; evangelical traditions value teaching and testimony from a trusted voice; contemplative traditions give silence the central place. Christians also differ on music in worship, from unaccompanied psalm singing to full bands. Each shapes what devotional audio should sound like."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "“I will lie down and sleep in peace, for You alone, O LORD, make me dwell in safety” (Psalm 4:8). Rest is a gift, not a gap to fill. Read Scripture whole, keep commentary audibly distinct, let silence wait, and end every session. “Why spend … your labor on that which does not satisfy?” (Isaiah 55:2)."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Henri Nouwen, The Way of the Heart (1981)",
+   "url": "https://henrinouwen.org/books/the-way-of-the-heart/",
+   "note": "commends silence as a discipline that tends the inner life; a devotional that leaves no silence leaves no room for it."
+  },
+  {
+   "source": "Albert Borgmann, Technology and the Character of Contemporary Life (1984)",
+   "url": "https://iep.utm.edu/borgmann/",
+   "note": "warned that devices deliver experiences effortlessly while focal practices ask for attention; an endless stream is the device paradigm applied to prayer."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Autoplay into the next episode, generated sessions without end, silence cut to hold attention, listening streaks.",
+  "ethical": "Name authors, readers and musicians, label synthetic voices, and end the session.",
+  "redemptive": "Pay for real readers and musicians, keep the silences even when listeners skip them, and let sleep audio fade to nothing.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "After the session, could the listener say what Scripture said, who spoke, and why it ended?",
+  "exercise": "Listen to your own devotional audio with a stopwatch: how many seconds of Scripture, of commentary, of music and of silence? Then ask three listeners to retell the passage and the host’s point separately, and check what plays when the session ends.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [],
+ "examples": [
+  {
+   "app": "Pray As You Go",
+   "title": "Music Info names the monks and the composer",
+   "url": "https://missional.design/examples/payg-music-info/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "Over the player, a Music Info sheet lists “Ecce Quam Bonum · By The Monks of Pluscarden Abbey · A liturgy for St Columba The Monks of Pluscarden Abbey” and “Devotion · By Dear Gravity · The Pilgrimage Series: Wayfaring Dear Gravity”, each with Spotify, Artist Website and Apple Music links.",
+   "decision": "Crediting music inside the prayer session honours the people whose work carries it, and lets listeners find more. Credit authors and readers the same way.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Abide",
+   "title": "“Pick an audio length”",
+   "url": "https://missional.design/examples/abide-audio-length/",
+   "observed": "Captured 17 October 2025 · from embedded image metadata",
+   "observation": "A sheet over a session titled “Take Courage” offers four lengths: “2 min · Pause & Pray”, “5 min · Pause & Renew”, “10 min · Meditate & Reflect” and “15 min · Meditate & Deepen”. Behind it, Exodus 3:11–12 is shown.",
+   "decision": "Offering lengths respects the listener’s day. Check that the short versions still read the passage whole, and say what is left out.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Abide",
+   "title": "A sleep shelf with narrators named",
+   "url": "https://missional.design/examples/abide-sleep-shelf/",
+   "observed": "Captured 17 October 2025 · from embedded image metadata",
+   "observation": "The Sleep tab shows locked cards such as “calm devotion”, “God is Eternal”, “Through the Streets of Jerusalem”, “Generalized Anxiety”, “My Peace I Give You” and “Jesus Above Everything”, each with the narrator’s name under the artwork.",
+   "decision": "Naming the narrator on each card makes the voice accountable. Say also what each session contains, how it ends, and whether anything plays after it.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Dwell",
+   "title": "“Sleep to Scripture”: Psalms for the night",
+   "url": "https://missional.design/examples/dwell-sleep-scripture/",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "Dwell Favorites shows “His Love Endures Forever · Sleep to Scripture”, Psalm 113–118 and Psalm 136, 42 minutes, above Daily Essentials with Psalms Daily and Proverbs Daily.",
+   "decision": "Long, unhurried Psalms are an old way to end the day. Let the reading fade to silence and stop.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Wondery+",
+   "title": "“Next from”: a podcast player’s auto-queue",
+   "url": "https://missional.design/examples/wondery-next-from/",
+   "observed": "Captured 28 September 2025 · from embedded image metadata",
+   "observation": "A general podcast player shows the current episode, speed, skip and a sleep timer, then “Next from:” the same show with a list of further episodes queued to play.",
+   "decision": "A control example from a mainstream podcast app: the queue keeps listening going by default. A devotional session should end instead, and let the listener choose what comes next.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "pray-as-you-go",
+   "title": "Pray As You Go: about us",
+   "url": "https://prayasyougo.org/about-us",
+   "author": "Jesuits in Britain",
+   "kind": "Practice",
+   "shows": "Daily ten-minute audio prayer since 2006 combining music, Scripture and Ignatian questions, used tens of millions of times a year.",
+   "application": "A produced devotional can be formation-first: fixed, shared and ending in silence.",
+   "limits": "Usage figures from the organisation."
+  },
+  {
+   "key": "lectio",
+   "title": "Introduction to lectio divina",
+   "url": "https://theology.wp.st-andrews.ac.uk/2018/03/07/introduction-to-lectio-divina/",
+   "author": "University of St Andrews, School of Divinity",
+   "kind": "Theology",
+   "shows": "Lectio divina reads a short passage slowly and repeatedly, moving from reading to meditation, prayer and contemplation.",
+   "application": "Small units have a long devotional use; support repetition and pause rather than speed.",
+   "limits": "A description of practice, not a study."
+  },
+  {
+   "key": "examen-steps",
+   "title": "How can I pray? The Daily Examen",
+   "url": "https://www.ignatianspirituality.com/ignatian-prayer/the-examen/how-can-i-pray/",
+   "author": "IgnatianSpirituality.com · Loyola Press",
+   "kind": "Practice",
+   "shows": "Five steps proposed after Ignatius of Loyola: become aware of God’s presence; review the day with gratitude; pay attention to your emotions; choose one feature of the day and pray from it; look toward tomorrow.",
+   "application": "A guided outline with a known source; the working example’s prompts are written for it.",
+   "limits": "A modern adaptation; Ignatius’s own five points in the Spiritual Exercises differ in wording."
+  },
+  {
+   "key": "podcast-parasocial",
+   "title": "Parasocial intimacy, change, and nostalgia in podcast listener reviews",
+   "url": "https://doi.org/10.17645/mac.9059",
+   "author": "M. Olguta Vilceanu · Media and Communication 13, 2025",
+   "kind": "Research",
+   "shows": "A semantic network analysis of over 12,000 podcast reviews found hosts and content central to the trust-based connections listeners form, with nostalgia and attachment showing when hosts or formats change.",
+   "application": "Hosts become trusted, friend-like voices; name them honestly, and do not let a host’s voice stand in for Scripture or for a pastor.",
+   "limits": "Reviews of general podcasts, not faith audio."
+  },
+  {
+   "key": "music-insomnia",
+   "title": "Listening to music for insomnia in adults",
+   "url": "https://doi.org/10.1002/14651858.CD010459.pub3",
+   "author": "Jespersen et al. · Cochrane Database of Systematic Reviews, 2022",
+   "kind": "Research",
+   "shows": "13 trials, 1,007 participants: listening to sedative or relaxing music may improve sleep quality (moderate-certainty evidence); evidence on insomnia severity is very uncertain.",
+   "application": "Sleep audio can genuinely help; design it to fade into silence rather than to keep someone listening.",
+   "limits": "Music, not spoken or Scripture content."
+  },
+  {
+   "key": "youtube-agency",
+   "title": "How the design of YouTube influences user sense of agency",
+   "url": "https://arxiv.org/abs/2101.11778",
+   "author": "Kai Lukoff et al. · CHI 2021",
+   "kind": "Research",
+   "shows": "In a survey of 120 users, autoplay and recommendations mainly undermined people’s sense of agency, while search and playlists supported it; co-design participants with a specific intention preferred designs that gave them more agency.",
+   "application": "End sessions and let listeners choose what comes next; do not autoplay.",
+   "limits": "Video, not devotional audio."
+  },
+  {
+   "key": "synthetic-trust",
+   "title": "Human vs synthetic voices and listener trust",
+   "url": "https://par.nsf.gov/servlets/purl/10536688",
+   "author": "NSF public access repository",
+   "kind": "Research",
+   "shows": "Listeners told a voice was human showed more trust than those told the same clip was AI; labelled AI voices were rated less credible.",
+   "application": "Label synthetic voices honestly, and expect a trust cost rather than hiding it.",
+   "limits": "Lab studies with short clips; not Scripture."
+  },
+  {
+   "key": "ai-act-50",
+   "title": "EU AI Act Article 50: transparency obligations",
+   "url": "https://www.potterclarkson.com/news/eu-ai-act-article-50-new-ai-transparency-rules",
+   "author": "Potter Clarkson (law firm summary)",
+   "kind": "Law",
+   "shows": "From 2 August 2026, providers must mark generated audio as artificial in a machine-readable way, and deployers must disclose deepfakes.",
+   "application": "Disclose synthetic narration, and never imitate a real person’s voice without consent.",
+   "limits": "Secondary legal summary; applicability depends on role and use."
+  },
+  {
+   "key": "fcbh",
+   "title": "Faith Comes By Hearing: our story",
+   "url": "https://faithcomesbyhearing.com/about/our-story",
+   "author": "Faith Comes By Hearing",
+   "kind": "Practice",
+   "shows": "Began as a tape-lending library in 1972, took its name from Romans 10:17, and launched Bible.is in 2010; it reports recordings in more than 1,580 languages.",
+   "application": "Audio is a primary form of Scripture for many communities, not an add-on.",
+   "limits": "Figures are the ministry’s own."
+  }
+ ],
+ "review": null,
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

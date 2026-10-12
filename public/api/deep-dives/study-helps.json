@@ -1,0 +1,522 @@
+{
+ "slug": "study-helps",
+ "url": "https://missional.design/patterns/study-helps/",
+ "title": "Study helps",
+ "question": "Where should commentary and notes open?",
+ "lede": "Commentaries, cross-references, study notes and sermon clips can answer a question at the verse where it arises, or pull the reader away from the text for good. Where the help opens decides which. Decide how readers find help, where it opens, whose voice it carries, and how they get back to the verse. Help should serve the reader’s encounter with the text, never replace it.",
+ "calling": "Good help sends the reader back to the verse with more than they came with.",
+ "spectrum": {
+  "title": "From a glance to a page of its own",
+  "from": "The passage stays in view",
+  "to": "The help takes over"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/beside/",
+  "situation": "Psalm 23 in the BSB. Verse 4, “the valley of the shadow of death”, has two public-domain commentaries that read it differently, a sermon clip and a cross-reference. Each option opens the same help in a different place, from a small card under the verse to a page of its own. Open it, read, then go back to the psalm and notice whether you are still on verse 4."
+ },
+ "options": [
+  {
+   "key": "preview",
+   "name": "Preview card",
+   "provenance": "Observed",
+   "origin": "Observed in Bible Gateway, where a lettered footnote opens a small card while the passage stays visible, and in Spark Bible’s footnote tooltips; see the screenshots below. Wikipedia’s page previews work the same way.",
+   "gain": "A glance without leaving",
+   "cost": "Room for a sentence",
+   "makes_easier": "A glance without leaving the verse; the reader decides whether to go further.",
+   "costs": "Room for a sentence or two; a long note or a video needs somewhere else to go.",
+   "ask_your_team": "Is a short preview enough for most help, with the full resource one tap away?",
+   "still": "https://missional.design/assets/stills/try-beside-preview.jpg"
+  },
+  {
+   "key": "sheet",
+   "name": "Sheet over the text",
+   "provenance": "Observed",
+   "origin": "Observed in Spark Bible, where a video docks over the reader with the verse still showing, and in the VSB prototype’s verse sheet; see the screenshots below.",
+   "gain": "The whole resource, verse in sight",
+   "cost": "Covers half the passage",
+   "makes_easier": "Room for the whole resource while the verse stays in sight above it.",
+   "costs": "Covers half the passage; easy to lose track of which verse the sheet belongs to.",
+   "ask_your_team": "When the sheet is open, can the reader still see the verse it is about?",
+   "still": "https://missional.design/assets/stills/try-beside-sheet.jpg"
+  },
+  {
+   "key": "panel",
+   "name": "Study panel",
+   "provenance": "Observed",
+   "origin": "Observed in Olive Tree’s Study Center, whose Resource Guide follows the passage in a panel below the text; see the screenshot below.",
+   "gain": "Reading and study together",
+   "cost": "Half a screen each",
+   "makes_easier": "Reading and study side by side; resources keep up with the reader.",
+   "costs": "Half a screen each on a phone; a following panel changes under you, a pinned one goes stale.",
+   "ask_your_team": "Does the reader always know which verse the panel is showing, and why it changed?",
+   "still": "https://missional.design/assets/stills/try-beside-panel.jpg"
+  },
+  {
+   "key": "page",
+   "name": "Full page",
+   "provenance": "Familiar convention",
+   "origin": "A familiar convention: the resource opens on its own page, and Back returns to the verse.",
+   "gain": "Full attention",
+   "cost": "The passage disappears",
+   "makes_easier": "Full attention and room for long commentary and video.",
+   "costs": "The passage disappears; the reader must find their way back and pick up the thread.",
+   "ask_your_team": "Does Back return the reader to the same verse, and show them where they were?",
+   "still": "https://missional.design/assets/stills/try-beside-page.jpg"
+  },
+  {
+   "key": "quiet",
+   "name": "On request",
+   "provenance": "Observed",
+   "origin": "Observed in Spark Bible’s and Mere Bible’s reading settings, which let readers switch resource markers off. Here nothing marks the text; a Study button lists everything on the psalm.",
+   "gain": "An undisturbed text",
+   "cost": "Help may go unfound",
+   "makes_easier": "An undisturbed text; help is there when someone asks for it.",
+   "costs": "People may never discover what is available; help is no longer tied to a verse at a glance.",
+   "ask_your_team": "Can someone who wants help find it, without the help interrupting everyone else?",
+   "still": "https://missional.design/assets/stills/try-beside-quiet.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Keep the verse in sight, or bring the reader back to it",
+   "text": "People learn more when related material is placed together, and interruptions are paid for in stress and lost threads. A preview under the verse or a sheet that leaves it visible keeps the two together. When help takes the whole screen, Back should land on the same verse and show it."
+  },
+  {
+   "heading": "A panel must say what it is following",
+   "text": "Olive Tree’s Resource Guide follows the passage; a pinned panel stays on its verse. Both are useful, and both confuse when the reader cannot tell which is happening. Say “Following your reading” or “Pinned · Go to verse”."
+  },
+  {
+   "heading": "Markers are an invitation, not a menu",
+   "text": "Every link is a decision, and a review of 38 hypertext experiments found that the extra load falls hardest on readers with less background knowledge. Mark verses with help quietly, as Spark Bible does on Psalm 23:4, and let people switch markers off, as Spark and Mere Bible do."
+  },
+  {
+   "heading": "Whose voice is beside the text?",
+   "text": "Medieval glossed Bibles set the commentary around the text in a smaller hand; the King James translators kept interpretive notes out of the margin altogether. On screen, name the kind of resource, its author and date, and where readings differ, as Matthew Henry and the Cambridge Bible do on verse 4, show more than one."
+  },
+  {
+   "heading": "A clip is part of a whole",
+   "text": "A minute of a sermon can mean something different from the sermon. Show where the clip sits, offer what came before, and caption it. Spark Bible’s timestamped transcripts are useful, but its automatic transcription is visibly wrong in places (“Full Or Theological Seminary”); correct a transcript before anyone quotes it."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "Daily devotional reading",
+   "needs": "Help only when wanted",
+   "fit": {
+    "Preview card": "possible",
+    "Sheet over the text": "possible",
+    "Study panel": "poor fit",
+    "Full page": "poor fit",
+    "On request": "good fit"
+   }
+  },
+  {
+   "situation": "A quick question on a verse",
+   "needs": "Glance and carry on",
+   "fit": {
+    "Preview card": "good fit",
+    "Sheet over the text": "good fit",
+    "Study panel": "possible",
+    "Full page": "poor fit",
+    "On request": "poor fit"
+   }
+  },
+  {
+   "situation": "Group or sermon preparation",
+   "needs": "Several voices, read in full",
+   "fit": {
+    "Preview card": "poor fit",
+    "Sheet over the text": "good fit",
+    "Study panel": "good fit",
+    "Full page": "possible",
+    "On request": "possible"
+   }
+  },
+  {
+   "situation": "Study on a tablet or desktop",
+   "needs": "Text and help side by side",
+   "fit": {
+    "Preview card": "poor fit",
+    "Sheet over the text": "possible",
+    "Study panel": "good fit",
+    "Full page": "poor fit",
+    "On request": "poor fit"
+   }
+  },
+  {
+   "situation": "Watching teaching on a verse",
+   "needs": "Media with its context",
+   "fit": {
+    "Preview card": "poor fit",
+    "Sheet over the text": "good fit",
+    "Study panel": "possible",
+    "Full page": "good fit",
+    "On request": "possible"
+   }
+  },
+  {
+   "situation": "200% text or a screen reader",
+   "needs": "Clear focus and a way back",
+   "fit": {
+    "Preview card": "possible",
+    "Sheet over the text": "possible",
+    "Study panel": "poor fit",
+    "Full page": "good fit",
+    "On request": "good fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and history",
+   "subtitle": "Help beside the text",
+   "findings": [
+    {
+     "heading": "Giving the sense",
+     "text": "Nehemiah 8:8; Acts 8:30–31. Scripture shows readers helped to understand as they read.",
+     "sources": []
+    },
+    {
+     "heading": "Text in the centre, help around it",
+     "text": "Glossed Bibles separated Scripture and commentary by place and script; the King James translators allowed no interpretive notes in the margin.",
+     "sources": [
+      "glossa-ordinaria",
+      "kjv-rules",
+      "geneva-notes"
+     ]
+    },
+    {
+     "heading": "Two voices on one verse",
+     "text": "The commentaries quoted in the example read “the shadow of death” differently.",
+     "sources": [
+      "mh-concise",
+      "cambridge-psalms"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Reading and attention",
+   "subtitle": "What research says",
+   "findings": [
+    {
+     "heading": "Links add load",
+     "text": "Hypertext decisions add cognitive load, most for less experienced readers.",
+     "sources": [
+      "hypertext-load"
+     ]
+    },
+    {
+     "heading": "Together, not apart",
+     "text": "Related material placed together is learned better.",
+     "sources": [
+      "spatial-contiguity"
+     ]
+    },
+    {
+     "heading": "Interruptions cost",
+     "text": "People compensate for interruptions with speed, stress and effort.",
+     "sources": [
+      "interrupted-work"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Practice and access",
+   "subtitle": "Products and standards",
+   "findings": [
+    {
+     "heading": "Preview before leaving",
+     "text": "Wikipedia’s page previews let readers check a link without leaving the article.",
+     "sources": [
+      "page-previews"
+     ]
+    },
+    {
+     "heading": "Sheets that coexist with content",
+     "text": "Standard and modal sheets, and study panels that follow the passage.",
+     "sources": [
+      "m3-bottom-sheets",
+      "olive-study-current",
+      "gospelpartner-study"
+     ]
+    },
+    {
+     "heading": "Captions and reflow",
+     "text": "Captions for prerecorded media; layouts that work at 200% text.",
+     "sources": [
+      "wcag-captions",
+      "wcag-reflow"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "Most help is short: footnotes, cross-references, a first look",
+   "start_with": "A preview card under the verse, with the full resource one tap away"
+  },
+  {
+   "if": "People read commentary or watch teaching on a phone",
+   "start_with": "A sheet that leaves the verse in sight and expands on request"
+  },
+  {
+   "if": "People study for long stretches on larger screens",
+   "start_with": "A study panel that says whether it follows the reading or is pinned"
+  },
+  {
+   "if": "Resources are long or need full attention",
+   "start_with": "A full page whose Back returns to the same verse and shows it"
+  },
+  {
+   "if": "The app is mainly for devotional reading",
+   "start_with": "No markers by default; help on request, from one clear place"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What help is for",
+   "text": "The Levites read the Law, “explaining it and giving insight, so that the people could understand what was being read” (Nehemiah 8:8). The Ethiopian asked, “How can I … unless someone guides me?” (Acts 8:31). The risen Jesus “explained to them what was written in all the Scriptures about Himself” (Luke 24:27). Help is part of how Scripture is received, and the Bereans still “examined the Scriptures every day to see if these teachings were true” (Acts 17:11)."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Catholic canon law allows translations prepared with other Christians to be published “provided with appropriate annotations”. The King James translators allowed no interpretive notes at all, after the Geneva Bible’s notes were judged partisan. Protestant traditions affirm that Scripture is clear enough to read without an interpreter, while valuing teachers; Catholic and Orthodox traditions read Scripture within the church’s teaching."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "Every note carries a voice and a tradition. Name the author, date and tradition, keep the help visibly beside the text and not inside it, and always return the reader to the verse. Offering more than one voice respects readers as Bereans who can weigh what they hear."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Augustine, On Christian Doctrine I.36.40",
+   "url": "https://www.newadvent.org/fathers/12021.htm",
+   "note": "held that whoever interprets Scripture in a way that does not “build up this twofold love of God and our neighbor, does not yet understand them as he ought.”"
+  },
+  {
+   "source": "Second Vatican Council, Dei Verbum (1965)",
+   "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_en.html",
+   "note": "asks for editions “provided with suitable footnotes”, even for readers outside the church: help is part of access."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Sponsored or in-house commentary appears without an author and crowds out the text.",
+  "ethical": "Name author, date and tradition, and always return to the verse.",
+  "redemptive": "Include trusted voices from other traditions and the global church, not only the publisher’s own.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "Does the reader know who is speaking, which verse the help is about, and how to get back to it?",
+  "exercise": "Give three readers Psalm 23:4 with your app’s help on it. Ask each to open it, say who wrote it and when, and return to reading. Note who lands on the same verse. Then play a sermon clip and the minute before it, and ask whether the meaning changed.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [
+  {
+   "slug": "contextual-study-panel",
+   "title": "Preview before deep study",
+   "summary": "Reveal relevant information from a passage without replacing the reader.",
+   "url": "https://missional.design/patterns/study-helps/#family-contextual-study-panel"
+  },
+  {
+   "slug": "resource-discovery",
+   "title": "How visible should extra resources be?",
+   "summary": "Compare inline cards, small markers and resources revealed on demand.",
+   "url": "https://missional.design/patterns/study-helps/#family-resource-discovery"
+  },
+  {
+   "slug": "media-evidence",
+   "title": "Original media before synthesis",
+   "summary": "Let readers inspect the source behind an explanation.",
+   "url": "https://missional.design/patterns/study-helps/#family-media-evidence"
+  }
+ ],
+ "examples": [
+  {
+   "app": "Spark Bible",
+   "title": "A small media marker on Psalm 23:4",
+   "url": "https://missional.design/examples/sparkbible-psalm23-marker/",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "In Psalm 23 (NIV, dark theme), a small media icon sits at the end of “through the darkest valley,” in verse 4, and another at the end of the visible text. There is no other decoration on the verse; a sparkle button floats at the bottom right.",
+   "decision": "A quiet marker says that help exists without turning the verse into a link. Give the marker an accessible name that says what kind of help it opens and how many, and let readers switch markers off.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Spark Bible",
+   "title": "A video docked over the passage",
+   "url": "https://missional.design/examples/sparkbible-video-sheet/",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "A BibleProject video, “We Studied the ‘Day of the Lord’ in the Bible (Here’s What We Found)”, plays in a sheet over Matthew 1, while the reader above still shows Malachi 4:5 marked with its media icon. Share, Save and Details sit under the player.",
+   "decision": "A sheet that leaves the verse visible keeps the teaching tied to the text it is about. Name the publisher on the sheet, as here, and keep the marked verse in view while the media plays.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Spark Bible",
+   "title": "A timestamped transcript, with recognition errors",
+   "url": "https://missional.design/examples/sparkbible-transcript/",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "The Transcript tab under a video lists lines with timestamps (00:00, 00:05, 00:10…), with a switch between timestamped and paragraph layouts. Several lines contain speech-recognition errors, such as “Full Or Theological Seminary” for Fuller Theological Seminary.",
+   "decision": "Timestamped transcripts let people check what a speaker said and jump to it. Automatic transcripts need correcting before they are shown as a record of what was said, and especially before anyone quotes them.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Olive Tree Bible",
+   "title": "A Resource Guide panel below the text",
+   "url": "https://missional.design/examples/olivetree-resource-guide/",
+   "observed": "Captured 22 September 2025 · from embedded image metadata",
+   "observation": "The reader shows Matthew 1:1 in the NGÜ at the top, with a panel below headed “Mat 1:1-6”. The panel shows a Commentary Select promotion and “Related Verses” in five Bibles with counts (ESV 5, NKJV 5, NASB 3, NLT 1). Tabs at the bottom read Resource Guide, Parallel, Notes and Lookup.",
+   "decision": "A panel that follows the passage keeps resources current as the reader moves. Say which verses the panel is showing, as the “Mat 1:1-6” header does, and separate promotions from the resources themselves.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "hypertext-load",
+   "title": "Cognitive load in hypertext reading: a review",
+   "url": "https://www.datalearner.com/academic/journal-papers/0747-5632/volumes-and-issues/100/paper-detail/71863",
+   "author": "DeStefano and LeFevre · Computers in Human Behavior 23(3), 2007",
+   "kind": "Research",
+   "shows": "Links add decisions and visual processing that can impair reading, most for readers with less prior knowledge or working memory.",
+   "application": "Fewer, clearly typed markers; notes that return to the same place.",
+   "limits": "Hypertext research, not Bible apps."
+  },
+  {
+   "key": "spatial-contiguity",
+   "title": "Spatial contiguity and spatial split-attention effects in multimedia learning environments: a meta-analysis",
+   "url": "https://doi.org/10.1007/s10648-018-9435-9",
+   "author": "Noah L. Schroeder and Ada T. Cenkci · Educational Psychology Review 30(3), 2018",
+   "kind": "Research",
+   "shows": "Learners who had related information placed close together outperformed those who had it separated, on both retention and transfer tests.",
+   "application": "Keep help near the verse it explains, or keep the verse visible while the help is open.",
+   "limits": "Learning studies with diagrams and text, not Scripture."
+  },
+  {
+   "key": "page-previews",
+   "title": "Page Previews",
+   "url": "https://www.mediawiki.org/wiki/Page_Previews",
+   "author": "Wikimedia Foundation · MediaWiki",
+   "kind": "Practice",
+   "shows": "A/B tests on several Wikipedias found that hover previews let readers check a link without leaving the article: full page views fell, while deliberate interactions with linked pages rose.",
+   "application": "A short preview anchored to the text lets readers glance at help without losing their place.",
+   "limits": "Desktop hover previews on an encyclopaedia; touch behaviour differs."
+  },
+  {
+   "key": "interrupted-work",
+   "title": "The cost of interrupted work: more speed and stress",
+   "url": "https://doi.org/10.1145/1357054.1357072",
+   "author": "Gloria Mark, Daniela Gudith and Ulrich Klocke · CHI 2008",
+   "kind": "Research",
+   "shows": "People interrupted during a task compensated by working faster, at the cost of more stress, frustration, time pressure and effort.",
+   "application": "Help that takes over the screen is an interruption; make the way back immediate and show where the reader was.",
+   "limits": "Office email tasks with external interruptions, not self-chosen study."
+  },
+  {
+   "key": "m3-bottom-sheets",
+   "title": "Bottom sheets",
+   "url": "https://m3.material.io/components/bottom-sheets/guidelines",
+   "author": "Google · Material Design 3",
+   "kind": "Practice",
+   "shows": "Standard bottom sheets sit alongside the main content and let people use both; modal sheets block the content behind a scrim until dismissed.",
+   "application": "Use a standard sheet when readers should keep reading beside the help, and a modal one only for a focused task.",
+   "limits": "Platform guidance; does not address Scripture."
+  },
+  {
+   "key": "olive-study-current",
+   "title": "Android Study Center",
+   "url": "https://help.olivetree.com/hc/en-us/articles/360000264506-Android-Study-Center",
+   "author": "Olive Tree Support",
+   "kind": "Product documentation",
+   "shows": "Documents a split study surface, resources following a passage and linked-window states.",
+   "application": "Make following, independent exploration and rejoining explicit.",
+   "limits": "Documented Android behaviour; not a live capture or an endorsement of every default."
+  },
+  {
+   "key": "gospelpartner-study",
+   "title": "Joseph Prince Study Bible: multimedia resources",
+   "url": "https://support.josephprince.com/article/213-what-is-the-joseph-prince-study-bible",
+   "author": "JosephPrince.com Support",
+   "kind": "Product documentation",
+   "shows": "Documents passage-related video clips, book excerpts and audio recordings.",
+   "application": "Compare supplementary interpretation with the Scripture reading surface.",
+   "limits": "Provider description, not outcome evidence. Exact current card placement was not verified."
+  },
+  {
+   "key": "glossa-ordinaria",
+   "title": "Bible, glossed: Mark",
+   "url": "https://libwww.freelibrary.org/digital/item/4089",
+   "author": "Free Library of Philadelphia · Rare Book Department",
+   "kind": "History",
+   "shows": "Glossed Bibles set Scripture in a central block in a large hand, with short glosses between the lines and longer commentary in the margins in a smaller script; the Glossa Ordinaria became the standard medieval commentary.",
+   "application": "A long tradition separates Scripture from help by place and type; keep that distinction visible on screen.",
+   "limits": "One manuscript description; layouts varied."
+  },
+  {
+   "key": "kjv-rules",
+   "title": "A few of King James’s approved rules for the new translation",
+   "url": "https://christianhistoryinstitute.org/magazine/article/approved-rules-for-the-new-translation",
+   "author": "Christian History Institute",
+   "kind": "History",
+   "shows": "Rule 6 of the 1604 translation rules allowed no marginal notes except to explain Hebrew or Greek words.",
+   "application": "Even the KJV’s makers saw notes as powerful enough to restrict.",
+   "limits": "A popular history magazine summary of the rules."
+  },
+  {
+   "key": "geneva-notes",
+   "title": "The Geneva Bible, banned by King James",
+   "url": "https://brewminate.com/the-geneva-bible-banned-by-king-james-in-late-medieval-england/",
+   "author": "Brewminate",
+   "kind": "History",
+   "shows": "The 1560 Geneva Bible was the first English Bible with verse numbers and carried extensive marginal notes; James called some “seditious”.",
+   "application": "Apparatus has always carried theology and politics with it.",
+   "limits": "Secondary popular history."
+  },
+  {
+   "key": "mh-concise",
+   "title": "Matthew Henry’s Concise Commentary on Psalm 23",
+   "url": "https://biblehub.com/commentaries/mhc/psalms/23.htm",
+   "author": "Matthew Henry (1706) · public-domain text on Bible Hub",
+   "kind": "Commentary",
+   "shows": "A devotional reading of verse 4: “It is but the shadow of death: the shadow of a serpent will not sting, nor the shadow of a sword kill.”",
+   "application": "Quoted in the working example with author and date.",
+   "limits": "One devotional voice from 1706."
+  },
+  {
+   "key": "cambridge-psalms",
+   "title": "Cambridge Bible for Schools and Colleges on Psalm 23:4",
+   "url": "https://biblehub.com/commentaries/psalms/23-4.htm",
+   "author": "A. F. Kirkpatrick (1891) · public-domain text on Bible Hub",
+   "kind": "Commentary",
+   "shows": "A philological reading: the Hebrew may be read tsalmûth, “deep gloom”, rather than “shadow of death”.",
+   "application": "Shows two voices reading one verse differently; quoted in the working example.",
+   "limits": "Nineteenth-century scholarship; later scholars differ."
+  },
+  {
+   "key": "wcag-captions",
+   "title": "Understanding Captions (Prerecorded)",
+   "url": "https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html",
+   "author": "W3C WAI · WCAG 2.2 success criterion 1.2.2",
+   "kind": "Accessibility",
+   "shows": "Prerecorded audio in synchronised media needs captions.",
+   "application": "Caption every sermon clip and video, and correct automatic transcripts before quoting them.",
+   "limits": "Accessibility guidance."
+  },
+  {
+   "key": "wcag-reflow",
+   "title": "Understanding Reflow",
+   "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+   "author": "W3C WAI",
+   "kind": "Design reference",
+   "shows": "Content should remain usable as available width changes.",
+   "application": "Reading anchors, passage cards and translation reflow.",
+   "limits": "Semantic scroll restoration is an original design proposal, not a requirement stated by this criterion."
+  }
+ ],
+ "review": null,
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

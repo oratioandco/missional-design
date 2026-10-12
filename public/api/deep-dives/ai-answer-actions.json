@@ -1,0 +1,388 @@
+{
+ "slug": "ai-answer-actions",
+ "url": "https://missional.design/patterns/ai-answer-actions/",
+ "title": "Actions on AI answers",
+ "question": "Copy, share, try again, report: which belong?",
+ "lede": "Under every answer, AI apps now offer a row of icons: copy, share, save, read aloud, try again, make it simpler, branch, double-check, thumbs up and down, report a legal issue. Each one makes a promise about where the answer goes, who sees the feedback and what the model did. In a Bible app, a shared answer can also be mistaken for Scripture. Each action is a chance to send people back to the text, or away from it.",
+ "calling": "Make the text easier to keep and share than the answer about it.",
+ "spectrum": {
+  "title": "Four action bars, side by side",
+  "from": "",
+  "to": ""
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/ai-answer/?m=act",
+  "situation": "One answer about rest, four ways of offering actions on it. Try copying, sharing, rating and asking what the assistant did, and watch what each action says it will do."
+ },
+ "options": [
+  {
+   "key": "row",
+   "name": "Every action in a row",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from general AI apps: Gemini (good/bad, share and export, double-check, modify, report legal issue), ChatGPT (copy, read aloud, branch in new chat, try again) and Claude (copy, try again, thumbs with an issue type).",
+   "gain": "Everything one tap away",
+   "cost": "Fourteen unlabelled icons",
+   "makes_easier": "Everything is one tap away for people who use it often.",
+   "costs": "Fourteen unlabelled icons scroll off the side of a phone, and the ones that matter most look the same as the rest.",
+   "ask_your_team": "Which three of these would your readers miss?",
+   "still": "https://missional.design/assets/stills/try-actions-row.jpg"
+  },
+  {
+   "key": "more",
+   "name": "Three, then More",
+   "provenance": "Borrowed",
+   "origin": "Common in chat and content apps: the main actions visible, the rest in a menu with labels.",
+   "gain": "The common three, clearly",
+   "cost": "Rating is one tap further",
+   "makes_easier": "Copy, share and sources are easy to find, and the rest are labelled in words.",
+   "costs": "Rating, branching and reporting take one more tap, so they are used less.",
+   "ask_your_team": "What do you lose if fewer people rate or report answers?",
+   "still": "https://missional.design/assets/stills/try-actions-more.jpg"
+  },
+  {
+   "key": "passage",
+   "name": "Actions on the passages",
+   "provenance": "Observed",
+   "origin": "Observed in BibleAI, where each passage card has its own Bookmark and Share (see the citations page); generalized here.",
+   "gain": "Scripture is what travels",
+   "cost": "Harder to keep the answer",
+   "makes_easier": "What people save and pass on is Scripture with its reference, not generated interpretation.",
+   "costs": "The answer itself can’t be copied, rated or reported from here, so the team learns less about where it fails.",
+   "ask_your_team": "Should your app make the answer or the passage the thing that travels?",
+   "still": "https://missional.design/assets/stills/try-actions-passage.jpg"
+  },
+  {
+   "key": "none",
+   "name": "No action bar",
+   "provenance": "Leave it out",
+   "origin": "Leave the bar out: the answer is just text, and people select it to copy.",
+   "gain": "A quiet, reflective screen",
+   "cost": "No way to report problems",
+   "makes_easier": "A quieter screen with nothing to tap, which can suit reflective use.",
+   "costs": "Copying loses the AI label and references, nobody can report a problem, and the team hears nothing.",
+   "ask_your_team": "Where else would people go to tell you an answer was wrong?",
+   "still": "https://missional.design/assets/stills/try-actions-none.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Two or three actions, the rest behind More",
+   "text": "Ten unlabelled icons are a puzzle on a phone. Most people need two or three actions; the rest are easier to understand as labelled rows behind “More”."
+  },
+  {
+   "heading": "What travels matters most",
+   "text": "A copy or share should carry the label and the references, so whoever receives it can tell generated interpretation from Scripture or a pastor’s words. Making the passage, not the answer, the thing people save and share is stronger still."
+  },
+  {
+   "heading": "Changing the answer needs care",
+   "text": "Try again can become shopping for the doctrinal answer someone hoped for, so keep every version visible and the original first. Simpler and shorter versions help readers at different levels. Checking quotations against the edition catches misquoted verses but cannot judge the interpretation."
+  },
+  {
+   "heading": "Feedback and “thinking” need honesty",
+   "text": "Thumbs should say who reads them and whether they train models. A list of steps should describe what the service actually did, such as searching and checking quotations, not present the model’s reasoning as proof. A report button needs a named owner and a response time."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "Reading an answer once",
+   "needs": "Nothing in the way of the text",
+   "fit": {
+    "Every action in a row": "poor fit",
+    "Three, then More": "possible",
+    "Actions on the passages": "possible",
+    "No action bar": "good fit"
+   }
+  },
+  {
+   "situation": "Sending it to a friend or group",
+   "needs": "The label and references travel with it",
+   "fit": {
+    "Every action in a row": "possible",
+    "Three, then More": "good fit",
+    "Actions on the passages": "good fit",
+    "No action bar": "poor fit"
+   }
+  },
+  {
+   "situation": "Keeping it for later study",
+   "needs": "Saved apart from their own notes",
+   "fit": {
+    "Every action in a row": "possible",
+    "Three, then More": "good fit",
+    "Actions on the passages": "good fit",
+    "No action bar": "poor fit"
+   }
+  },
+  {
+   "situation": "The answer looks wrong",
+   "needs": "A way to check or report, with a named owner",
+   "fit": {
+    "Every action in a row": "good fit",
+    "Three, then More": "good fit",
+    "Actions on the passages": "possible",
+    "No action bar": "possible"
+   }
+  },
+  {
+   "situation": "Wanting it simpler or shorter",
+   "needs": "A new version that keeps the original",
+   "fit": {
+    "Every action in a row": "good fit",
+    "Three, then More": "possible",
+    "Actions on the passages": "poor fit",
+    "No action bar": "poor fit"
+   }
+  },
+  {
+   "situation": "Screen readers or large text",
+   "needs": "Few, labelled actions",
+   "fit": {
+    "Every action in a row": "poor fit",
+    "Three, then More": "good fit",
+    "Actions on the passages": "possible",
+    "No action bar": "good fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "Holding answers lightly",
+   "findings": [
+    {
+     "heading": "Test, then keep what is good",
+     "text": "“Test all things. Hold fast to what is good” (1 Thessalonians 5:21). Checking a quotation, comparing versions and reporting a problem are ways of testing; saving and sharing are ways of holding fast, and should carry what was tested.",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Research and guidance",
+   "subtitle": "What each action promises",
+   "findings": [
+    {
+     "heading": "Icons need words",
+     "text": "Few icons are recognised by everyone, and labels revealed on hover do not work on touch screens. Label the actions people need, and put the rest in a labelled menu.",
+     "sources": [
+      "nng-icons"
+     ]
+    },
+    {
+     "heading": "Say what feedback does",
+     "text": "Human–AI interaction guidelines ask products to make clear what the system can do, how well, and what happens when people correct it. Thumbs that train a model and thumbs read by a pastor are different promises.",
+     "sources": [
+      "hax-guidelines",
+      "gemini-feedback"
+     ]
+    },
+    {
+     "heading": "Regenerating can become shopping",
+     "text": "Assistants sometimes favour agreeing over accuracy; trying again until the answer agrees compounds it. Keep the original first and every version visible.",
+     "sources": [
+      "sycophancy",
+      "chatgpt-branch"
+     ]
+    },
+    {
+     "heading": "Checking changes trust",
+     "text": "People trust cited answers more, even with random citations, and less once they check. A check action that opens the verses builds the right kind of trust.",
+     "sources": [
+      "ding-citation-trust"
+     ]
+    },
+    {
+     "heading": "Overreliance is a known risk",
+     "text": "NIST lists overreliance among the risks of human–AI configuration. Actions that make an answer easier to keep and spread than to question add to it.",
+     "sources": [
+      "nist-human-config"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "Answers are mostly read and occasionally kept",
+   "start_with": "Copy, share and sources visible, everything else behind More"
+  },
+  {
+   "if": "The team depends on feedback to improve answers",
+   "start_with": "Keep rating visible, and say clearly what happens to it"
+  },
+  {
+   "if": "The product exists to lead people into the text",
+   "start_with": "Put bookmark and share on the passages instead of the answer"
+  },
+  {
+   "if": "Reflective use, with little to do afterwards",
+   "start_with": "No bar, but keep a way to report problems"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What doing is for",
+   "text": "“Be doers of the word, and not hearers only” (James 1:22). Reading Scripture leads outward: to prayer, to obedience, to other people. The disciples on the road to Emmaus, their hearts burning, went straight back to Jerusalem to tell the others (Luke 24:32–33)."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Christians share Scripture in many ways: verse cards, tracts, social media, a text to a friend. Some traditions encourage personal sharing; others prefer that teaching come through the church. All would distinguish the word of God from commentary on it."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "“Let him who has My word speak it truthfully. For what is straw compared to grain?” (Jeremiah 23:28). Let the passage, not the generated text, be what people save and share, and label everything else. The best actions lead out of the app: read the whole passage, pray, talk to someone."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Albert Borgmann, Technology and the Character of Contemporary Life (1984)",
+   "url": "https://iep.utm.edu/borgmann/",
+   "note": "urged using technology to support focal practices rather than supplant them; the best action ends the session and begins the practice."
+  },
+  {
+   "source": "Dietrich Bonhoeffer, Life Together (1939)",
+   "url": "https://www.9marks.org/review/book-review-life-together-by-dietrich-bonhoeffer",
+   "note": "saw Scripture as received in community; sharing a passage with a friend is closer to that than sharing generated text."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Generated text shared as if it were Scripture; prompts to keep chatting.",
+  "ethical": "Label generated text and keep Scripture distinct from it.",
+  "redemptive": "Offer actions that lead away from the app: read the passage, pray, talk to someone.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "Which actions does this product need, and what does each one carry with it?",
+  "exercise": "Ask three people to name every icon before tapping it. Then copy and share an answer and look at what arrives on the other end, and ask each person who they think reads their thumbs down.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [],
+ "examples": [
+  {
+   "app": "BibleAI",
+   "title": "Bookmark and Share on each passage card",
+   "url": "https://missional.design/examples/bibleai-passage-actions/",
+   "observed": "Captured 1 October 2025 · from embedded image metadata",
+   "observation": "Search results appear as passage cards (Job 12:7, Job 38:41, Psalm 104:25-26, Isaiah 34:14), each with its own Bookmark and Share actions.",
+   "decision": "Putting actions on the Scripture card means the passage, not generated text, is what people save and pass on.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Spark Bible",
+   "title": "An AI label and thumbs at the end of the results",
+   "url": "https://missional.design/examples/sparkbible-ai-feedback/",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "A numbered list of results for “Talking animals” (Revelation 5:13, Psalm 104:25-26, Matthew 7:6…) ends with “These results are generated with the assistance of a specially-tuned AI model. Your feedback helps us improve these results:” and thumbs-up and thumbs-down buttons. A “Plus” upsell banner sits above.",
+   "decision": "Labelling AI help where the results end is honest; say what happens to the feedback, and keep upsells apart from the label so one is not read as the other.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "gemini-feedback",
+   "title": "Send feedback or report a problem with Gemini Apps",
+   "url": "https://support.google.com/gemini/answer/13275746",
+   "author": "Google",
+   "kind": "Product documentation",
+   "shows": "Responses offer good/bad feedback, and a More menu includes “Report legal issue” with a reason and on-screen steps.",
+   "application": "A precedent for separating rating an answer from reporting a legal or safety problem.",
+   "limits": "Google help documentation; current interface and options may differ by platform and region."
+  },
+  {
+   "key": "gemini-responses",
+   "title": "Learn about responses from Gemini Apps",
+   "url": "https://support.google.com/gemini/answer/16279220",
+   "author": "Google",
+   "kind": "Product documentation",
+   "shows": "Describes response features including double-checking against Google Search, modifying a response, and sharing or exporting it.",
+   "application": "Precedents for verifying claims, adjusting a response and exporting it with care.",
+   "limits": "Google help documentation; double-checking against web search is not the same as checking quotations against a Bible edition."
+  },
+  {
+   "key": "chatgpt-branch",
+   "title": "ChatGPT now allows you to branch conversations",
+   "url": "https://itdaily.com/news/software/chatgpt-branch-conversations",
+   "author": "ITdaily",
+   "kind": "News report",
+   "shows": "Reports a “Branch in new chat” option that copies the conversation up to a message into a new chat; read aloud sits in the same menu.",
+   "application": "A precedent for continuing from an answer without changing the original conversation.",
+   "limits": "Secondary news report, not OpenAI documentation; interface details may have changed."
+  },
+  {
+   "key": "claude-feedback",
+   "title": "Claude is providing incorrect or misleading responses",
+   "url": "https://support.anthropic.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on",
+   "author": "Anthropic",
+   "kind": "Product documentation",
+   "shows": "Explains that responses can be incorrect and points to the thumbs-down button for reporting unhelpful answers.",
+   "application": "A precedent for pairing an honest limitation with a way to flag a specific answer.",
+   "limits": "Anthropic help documentation; does not describe every response action."
+  },
+  {
+   "key": "pair-human-cues",
+   "title": "Mental models: expectations of human-like interaction",
+   "url": "https://pair.withgoogle.com/chapter/mental-models/",
+   "author": "Google PAIR",
+   "kind": "Industry guidance",
+   "shows": "Human-like cues can aid familiarity but create unrealistic expectations when limits are unclear.",
+   "application": "Evaluate the combined persona, language and interface cues.",
+   "limits": "Industry framework; not a controlled comparison of faith-app typing indicators."
+  },
+  {
+   "key": "nist-human-config",
+   "title": "Generative AI Profile: Human–AI Configuration",
+   "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+   "author": "NIST",
+   "kind": "Risk framework",
+   "shows": "Identifies risks around human–AI configuration, overreliance and emotional entanglement.",
+   "application": "Review mistaken identity and dependency risks alongside usability.",
+   "limits": "Risk framework, not evidence that one visual cue causes an outcome."
+  },
+  {
+   "key": "nng-icons",
+   "title": "Icon usability",
+   "url": "https://www.nngroup.com/articles/icon-usability/",
+   "author": "Aurora Harley · Nielsen Norman Group · 2014",
+   "kind": "Design reference",
+   "shows": "Few icons are universally recognised; “Icon labels should be visible at all times”, and hover-only labels fail on touch screens.",
+   "application": "A row of unlabelled icons under an answer asks people to guess; label them, or keep two or three and put the rest in a labelled menu.",
+   "limits": "Practitioner guidance from usability testing, not a controlled study."
+  },
+  {
+   "key": "hax-guidelines",
+   "title": "Guidelines for Human-AI Interaction",
+   "url": "https://www.microsoft.com/en-us/haxtoolkit/ai-guidelines/",
+   "author": "Microsoft HAX Toolkit",
+   "kind": "Industry guidance",
+   "shows": "Addresses capability and performance expectations, explanations, correction and change over time.",
+   "application": "State actual capability and keep AI identity understandable throughout an interaction.",
+   "limits": "General guidelines; disclosure alone does not establish accuracy, safety or spiritual benefit."
+  },
+  {
+   "key": "sycophancy",
+   "title": "Towards understanding sycophancy in language models",
+   "url": "https://www.anthropic.com/news/towards-understanding-sycophancy-in-language-models",
+   "author": "Anthropic researchers · 2023",
+   "kind": "Research author summary",
+   "shows": "Studied assistants sometimes preferred agreement with user views over truthfulness.",
+   "application": "Test belief reversal, flattering moral endorsement and harmful agreement.",
+   "limits": "Specific studied models and tasks; not a faith-app intervention study."
+  },
+  {
+   "key": "ding-citation-trust",
+   "title": "Citations and trust in LLM generated responses",
+   "url": "https://arxiv.org/abs/2501.01303",
+   "author": "Yifan Ding et al. · AAAI 2025",
+   "kind": "Research",
+   "shows": "Trust rose when answers carried citations, and this “held true even when the citations were random”; trust fell when participants checked the citations.",
+   "application": "Citations persuade whether or not they support the claim. Make checking easy, and make sure what is cited says what the answer says.",
+   "limits": "An online experiment with general questions; effects in religious study may differ."
+  }
+ ],
+ "review": null,
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

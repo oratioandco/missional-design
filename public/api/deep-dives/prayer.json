@@ -1,0 +1,566 @@
+{
+ "slug": "prayer",
+ "url": "https://missional.design/patterns/prayer/",
+ "title": "Prayer",
+ "question": "How can an app make room for prayer?",
+ "lede": "Every control on a prayer screen says what counts as prayer. A church’s office gives words to say, a guided outline gives steps, a list holds the people someone carries, and a quiet space asks for nothing at all. A counter asks for more. Decide which practice the surface serves, and what it asks someone to read, type, share or count. Prayer belongs to God and the one praying. The screen is only a room.",
+ "calling": "Build a room, not a scoreboard. What happens there is between them and God.",
+ "spectrum": {
+  "title": "From words received to no words at all",
+  "from": "Words given by the church",
+  "to": "Silence or one’s own words"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/prayer/",
+  "situation": "It is Tuesday evening, 20 October. Each option makes room for prayer differently, from the words of a church’s evening office to silence. Pray through each one as far as you like, then switch to praying with a group and see what changes, and what each option asks you to type, share or count."
+ },
+ "options": [
+  {
+   "key": "office",
+   "name": "Order of prayer",
+   "provenance": "Observed",
+   "origin": "Observed in daily-office apps and sites: Hallow’s Daily Readings name the day (“Friday of the Twenty-fourth Week in Ordinary Time · Lectionary: 447”), and Lebens Liturgien opens on “Es ist Freitag Mittag”; see the screenshots below. The text here is Compline from the 1979 Book of Common Prayer.",
+   "gain": "Words shared with a church",
+   "cost": "Needs a named calendar",
+   "makes_easier": "Received words, shared with a church across a day and a year.",
+   "costs": "Needs a named tradition and accurate calendar data; unfamiliar to many.",
+   "ask_your_team": "Whose calendar is this, and can someone tell responses, instructions and silence apart?",
+   "still": "https://missional.design/assets/stills/try-prayer-office.jpg"
+  },
+  {
+   "key": "guided",
+   "name": "Guided steps",
+   "provenance": "Observed",
+   "origin": "Observed in guided-prayer sessions such as Pray As You Go and Hallow, which move through set stages; here the five steps of the Ignatian Examen, with prompts written for this example.",
+   "gain": "A way in for beginners",
+   "cost": "Prompts are someone’s words",
+   "makes_easier": "An invitation to pray, for people who do not know where to begin.",
+   "costs": "A method can feel like a form to complete; prompts are someone’s words.",
+   "ask_your_team": "Can someone pause, skip or finish without answering anything?",
+   "still": "https://missional.design/assets/stills/try-prayer-guided.jpg"
+  },
+  {
+   "key": "intentions",
+   "name": "People I pray for",
+   "provenance": "Observed",
+   "origin": "Observed in Hallow’s “Pray for an Intention” sheet and in community prayer-request feeds such as Glorify’s; see the screenshots below.",
+   "gain": "Holds the people one carries",
+   "cost": "The most sensitive data",
+   "makes_easier": "Holds the people someone carries, in their own words.",
+   "costs": "The most sensitive data an app can hold: health, family, faith.",
+   "ask_your_team": "Who will see this request, for how long, and did the person it is about agree?",
+   "still": "https://missional.design/assets/stills/try-prayer-intentions.jpg"
+  },
+  {
+   "key": "quiet",
+   "name": "Quiet prayer",
+   "provenance": "Familiar convention",
+   "origin": "A familiar pattern in meditation and prayer apps: begin, put the phone down, end with a bell or by choice.",
+   "gain": "Nothing to fill in",
+   "cost": "Little guidance",
+   "makes_easier": "Room for silence or one’s own words, with nothing to fill in.",
+   "costs": "Little guidance; a timer can feel like a test.",
+   "ask_your_team": "Does the screen recede, and does it end without a score?",
+   "still": "https://missional.design/assets/stills/try-prayer-quiet.jpg"
+  },
+  {
+   "key": "counted",
+   "name": "Counted prayer",
+   "provenance": "Observed",
+   "origin": "Observed in Pray.com’s prayer streak and its Community Board with Praise and Remind buttons, and in Hallow’s “1,111,432,374 Prayers Prayed” counter; see the screenshots below.",
+   "gain": "Motivates while it lasts",
+   "cost": "Prayer becomes a number",
+   "makes_easier": "A visible habit that motivates some people while it lasts.",
+   "costs": "Prayer becomes minutes, streaks and totals, shown to others.",
+   "ask_your_team": "What does this count teach people about prayer?",
+   "still": "https://missional.design/assets/stills/try-prayer-counted.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Name whose words and whose calendar",
+   "text": "A daily office belongs to a tradition. Hallow names the day (“Friday of the Twenty-fourth Week in Ordinary Time · Lectionary: 447”); a generic “today’s prayer” hides it. Name the book, church and calendar, and let people look ahead without changing today."
+  },
+  {
+   "heading": "Three kinds of text in one order",
+   "text": "An office mixes instructions, the leader’s lines and everyone’s responses. The Book of Common Prayer sets rubrics in italics and marks Officiant and People, and leaves room: “Silence may be kept.” Keep all three visibly different, and never advance by itself."
+  },
+  {
+   "heading": "Prayer requests are the most sensitive data",
+   "text": "They name illnesses, families and doubts, often about people who never agreed to be mentioned. Mozilla gave 28 of 32 mental health and prayer apps its privacy warning. Keep requests on the device by default; for a group, name the audience and an end date first."
+  },
+  {
+   "heading": "Not heard for many words",
+   "text": "Jesus warned against praying “to be seen of men” and against “much speaking”; Benedict asked that prayer be “short and pure”. Measuring an activity tends to make it feel like work. Streaks, minutes and global totals measure exactly what prayer is not."
+  },
+  {
+   "heading": "Let silence be complete",
+   "text": "A quiet space needs no words, no timer and no score. Offer an optional end bell, let the screen recede, and finish with nothing recorded."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "Praying the daily office",
+   "needs": "Received words for the hour",
+   "fit": {
+    "Order of prayer": "good fit",
+    "Guided steps": "poor fit",
+    "People I pray for": "poor fit",
+    "Quiet prayer": "poor fit",
+    "Counted prayer": "poor fit"
+   }
+  },
+  {
+   "situation": "Not knowing where to begin",
+   "needs": "A way in",
+   "fit": {
+    "Order of prayer": "possible",
+    "Guided steps": "good fit",
+    "People I pray for": "possible",
+    "Quiet prayer": "possible",
+    "Counted prayer": "poor fit"
+   }
+  },
+  {
+   "situation": "Carrying a sick parent",
+   "needs": "Someone to pray for",
+   "fit": {
+    "Order of prayer": "possible",
+    "Guided steps": "possible",
+    "People I pray for": "good fit",
+    "Quiet prayer": "possible",
+    "Counted prayer": "poor fit"
+   }
+  },
+  {
+   "situation": "Praying without words",
+   "needs": "Silence",
+   "fit": {
+    "Order of prayer": "poor fit",
+    "Guided steps": "possible",
+    "People I pray for": "poor fit",
+    "Quiet prayer": "good fit",
+    "Counted prayer": "poor fit"
+   }
+  },
+  {
+   "situation": "Leading a group",
+   "needs": "Prayer together, nobody exposed",
+   "fit": {
+    "Order of prayer": "good fit",
+    "Guided steps": "good fit",
+    "People I pray for": "possible",
+    "Quiet prayer": "good fit",
+    "Counted prayer": "poor fit"
+   }
+  },
+  {
+   "situation": "Preparing Sunday’s service",
+   "needs": "Looking ahead in the calendar",
+   "fit": {
+    "Order of prayer": "good fit",
+    "Guided steps": "poor fit",
+    "People I pray for": "poor fit",
+    "Quiet prayer": "poor fit",
+    "Counted prayer": "poor fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "Words given, words of one’s own, and silence",
+   "findings": [
+    {
+     "heading": "Not for many words",
+     "text": "Prayer is heard for purity of heart, not length; in community, keep it short.",
+     "sources": [
+      "rb-20"
+     ]
+    },
+    {
+     "heading": "An order for the night",
+     "text": "Compline: rubrics, Officiant and People, and room for silence.",
+     "sources": [
+      "bcp-compline"
+     ]
+    },
+    {
+     "heading": "A calendar ties days to texts",
+     "text": "Each Sunday has its collect; daily offices follow a named calendar.",
+     "sources": [
+      "bcp-calendar-proper25",
+      "coe-daily-office",
+      "usccb-calendar-scope"
+     ]
+    },
+    {
+     "heading": "An outline for the end of the day",
+     "text": "The Examen’s five steps, after Ignatius of Loyola.",
+     "sources": [
+      "examen-steps"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Psychology",
+   "subtitle": "Ways of praying, and counting",
+   "findings": [
+    {
+     "heading": "People pray in different ways",
+     "text": "Colloquial, meditative, petitionary and ritual prayer relate differently to wellbeing, and differ across faiths.",
+     "sources": [
+      "prayer-types"
+     ]
+    },
+    {
+     "heading": "Measuring makes it work",
+     "text": "Counting an activity raised how much people did and lowered their enjoyment.",
+     "sources": [
+      "personal-quantification",
+      "rewards-intrinsic-meta"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Privacy and law",
+   "subtitle": "Prayer is special-category data",
+   "findings": [
+    {
+     "heading": "Religious belief is protected",
+     "text": "Processing needs an Article 9 condition; inferences about belief count too.",
+     "sources": [
+      "gdpr",
+      "ico-special-inferences"
+     ]
+    },
+    {
+     "heading": "Prayer apps have shared data",
+     "text": "Mozilla’s 2022 review of mental health and prayer apps.",
+     "sources": [
+      "mozilla-prayer-apps"
+     ]
+    },
+    {
+     "heading": "“Prayer is between you and God”",
+     "text": "A prayer app that collects no personal data.",
+     "sources": [
+      "payg-privacy"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Accessibility",
+   "subtitle": "Pace belongs to the person",
+   "findings": [
+    {
+     "heading": "Nothing advances by itself",
+     "text": "Anything that moves for more than five seconds needs a way to pause or stop it.",
+     "sources": [
+      "wcag-222"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "People pray with a church’s words",
+   "start_with": "An order of prayer, with its book and calendar named"
+  },
+  {
+   "if": "People want help to begin",
+   "start_with": "Guided steps with an outline, at their own pace"
+  },
+  {
+   "if": "People pray for others",
+   "start_with": "A private list; for groups, a named audience and an end date"
+  },
+  {
+   "if": "People want silence",
+   "start_with": "A quiet space with an optional bell, and nothing recorded"
+  },
+  {
+   "if": "You are tempted to count prayer",
+   "start_with": "Don’t: no minutes, streaks, totals or reminders to friends"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What prayer is for",
+   "text": "When the disciples asked, “Lord, teach us to pray” (Luke 11:1), Jesus gave them words. He also told them to pray to the Father “who is unseen” and warned against thinking “that by their many words they will be heard” (Matthew 6:6–7). Paul urges prayer “without ceasing” (1 Thessalonians 5:17), and the Spirit prays for us “with groans too deep for words” (Romans 8:26). Prayer is relationship with God, not output."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Some traditions pray mainly with set words, such as the daily office or the rosary; others prize extemporary prayer, and Puritans objected to prescribed prayer books. Contemplative traditions and Quaker meeting give silence the central place. Churches also differ on praying with saints and on the shape of the liturgical year. Each of these is a long and serious practice."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "“Man sees the outward appearance, but the LORD sees the heart” (1 Samuel 16:7). An app cannot see prayer and should not count it. Name the tradition behind any words it offers, keep requests private, make silence possible, and finish with nothing recorded that the person did not choose to keep."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Henri Nouwen, The Way of the Heart (1981)",
+   "url": "https://henrinouwen.org/books/the-way-of-the-heart/",
+   "note": "drew on the desert fathers to commend solitude, silence and prayer as the way of the heart, the things a busy screen most easily crowds out."
+  },
+  {
+   "source": "Second Vatican Council, Dei Verbum (1965)",
+   "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_en.html",
+   "note": "describes prayer with Scripture as conversation: “we speak to Him when we pray; we hear Him when we read.”"
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Minutes, streaks and public totals; prayer requests shared with advertisers.",
+  "ethical": "Keep requests private by default and treat prayer as special-category data.",
+  "redemptive": "Collect nothing about prayer, as Pray As You Go does, and give up the analytics; let silence end without a score.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "Could someone pray here meaningfully and leave nothing for your dashboard to count?",
+  "exercise": "Ask five people how they prayed this week. Then let each pray with every option and ask what the screen expected of them, and what they would not want anyone else to see.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [
+  {
+   "slug": "prayer-interface",
+   "title": "Make room for prayer",
+   "summary": "Compare a prayer text, a guided sequence and a quiet space without requiring personal input.",
+   "url": "https://missional.design/patterns/prayer/#family-prayer-interface"
+  },
+  {
+   "slug": "liturgical-calendar",
+   "title": "Orient within a liturgical calendar",
+   "summary": "Make the tradition, date and observance clear before offering readings or prayer.",
+   "url": "https://missional.design/patterns/prayer/#family-liturgical-calendar"
+  }
+ ],
+ "examples": [
+  {
+   "app": "Hallow",
+   "title": "The day named before its readings",
+   "url": "https://missional.design/examples/hallow-daily-readings/",
+   "observed": "Captured 19 September 2025 · from embedded image metadata",
+   "observation": "Daily Readings for Sep 19 open with “Friday of the Twenty-fourth Week in Ordinary Time” and “Lectionary: 447” above Reading 1 (1 Tm 6:2c-12) in full.",
+   "decision": "Naming the liturgical day and the lectionary number tells people whose calendar supplied the readings. Make the calendar itself (here the Roman Catholic lectionary for the United States) as findable as the date.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Lebens Liturgien",
+   "title": "“Es ist Freitag Mittag”",
+   "url": "https://missional.design/examples/lebensliturgien-hour/",
+   "observed": "Captured 17 October 2025 · from embedded image metadata",
+   "observation": "A near-empty yellow screen reads “Es ist Freitag Mittag” (“It is Friday midday”) beside three circular symbols for morning, midday and evening, above a four-icon tab bar. The hour’s prayer opens from here.",
+   "decision": "Naming the hour before offering anything places the person in a rhythm of the day rather than a feed. Check that the symbols also have names for screen readers.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Hallow",
+   "title": "A typed intention before a session",
+   "url": "https://missional.design/examples/hallow-intention/",
+   "observed": "Captured 19 September 2025 · from embedded image metadata",
+   "observation": "A “Pray for an Intention” sheet has “My mother” typed into an otherwise empty page, with a Play Session button above the keyboard. The intention then appears above the player during the session.",
+   "decision": "Bringing someone to mind before praying is a long practice, and a typed intention is intimate data. Say where it is stored and who can see it, and let people pray for someone without typing their name.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Pray.com",
+   "title": "A prayer streak with missed days crossed out",
+   "url": "https://missional.design/examples/praycom-streak/",
+   "observed": "Captured 20 August 2025 · from embedded image metadata",
+   "observation": "A gold flame above “1 Days Streak”; the week row shows Sunday to Tuesday crossed out and Wednesday ticked, and the text reads “Complete your daily prayer each day and your streak won’t reset!”.",
+   "decision": "Crossing out days of prayer turns them into failures. Prayer is not something an app can verify; avoid streaks for it altogether.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Glorify",
+   "title": "One prayer thread for the whole community",
+   "url": "https://missional.design/examples/glorify-prayer-requests/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "A “Prayers” sheet opens on a card, “Prayer requests: How can the Glorify community be praying alongside you? 🙏”, with 481.63k responses. Below are requests posted one to six minutes earlier, each under a first name and avatar with heart and reply buttons (names and requests blurred here), and a “Leave a response” field.",
+   "decision": "A single public thread makes it easy to ask, and puts a stranger’s request about stress next to whatever comes next. Say who reads the thread, and what happens when a post says someone is not safe.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Pray.com",
+   "title": "Praise and Remind buttons for other people’s streaks",
+   "url": "https://missional.design/examples/praycom-board/",
+   "observed": "Captured 20 August 2025 · from embedded image metadata",
+   "observation": "A Community Board lists “Active Streakers” with day counts in the thousands and Praise buttons, the viewer as “You · 1 days”, and a “Remind” section with Remind buttons beside people at 7, 2 and 1 days. “Invite to Pray” asks for access to contacts.",
+   "decision": "A board makes each person’s prayer record visible to others and invites nudging those who missed a day. Prayer “in secret” needs no audience; if a group prays together, share intentions by choice, never records.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Hallow",
+   "title": "A running total of prayers prayed",
+   "url": "https://missional.design/examples/hallow-prayers-counter/",
+   "observed": "Captured 19 September 2025 · from embedded image metadata",
+   "observation": "Below a “How to Pray · 14 Days on the Power of Prayer” card, the home screen shows “1,111,432,374 Prayers Prayed with Hallow”, with Share and QR Code buttons.",
+   "decision": "A global total presents prayer as a quantity and an app’s achievement. It counts sessions played, not prayers; if a number is shown at all, say what it actually measures.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "rb-20",
+   "title": "The Rule of Benedict, chapter 20: reverence at prayer",
+   "url": "https://pressbooks.palni.org/ruleofbenedict/chapter/rb-20/",
+   "author": "Saint Benedict, 6th century · Saint Meinrad Archabbey translation",
+   "kind": "History",
+   "shows": "“We are heard not for our many words but for our purity of heart and tears of compunction”; prayer “ought to be short and pure”, and in community “always be short”.",
+   "application": "Prayer is not measured by length or volume; do not count minutes, and keep shared prayer short and unhurried.",
+   "limits": "A monastic rule for a community."
+  },
+  {
+   "key": "bcp-compline",
+   "title": "An Order for Compline",
+   "url": "https://www.bcponline.org/DailyOffice/compline.html",
+   "author": "Book of Common Prayer (1979) · Episcopal Church · bcponline.org",
+   "kind": "Liturgy",
+   "shows": "Night prayer with Officiant and People parts, italic rubrics such as “Silence may be kept”, a confession, short readings, the “Keep watch, dear Lord” prayer and the antiphon “Guide us waking, O Lord”.",
+   "application": "Quoted in the working example; shows the three kinds of text an office needs to distinguish: rubrics, the leader’s lines and the people’s responses.",
+   "limits": "One tradition’s office; other churches order night prayer differently."
+  },
+  {
+   "key": "bcp-calendar-proper25",
+   "title": "Collects: Season after Pentecost (contemporary)",
+   "url": "https://www.bcponline.org/Collects/seasonsc.html",
+   "author": "Book of Common Prayer (1979) · Episcopal Church · bcponline.org",
+   "kind": "Liturgy",
+   "shows": "Proper 25, the Sunday closest to 26 October, has the collect “Almighty and everlasting God, increase in us the gifts of faith, hope, and charity”.",
+   "application": "A calendar ties each day to its texts; looking ahead to Sunday shows its collect without changing today.",
+   "limits": "One church’s calendar."
+  },
+  {
+   "key": "examen-steps",
+   "title": "How can I pray? The Daily Examen",
+   "url": "https://www.ignatianspirituality.com/ignatian-prayer/the-examen/how-can-i-pray/",
+   "author": "IgnatianSpirituality.com · Loyola Press",
+   "kind": "Practice",
+   "shows": "Five steps proposed after Ignatius of Loyola: become aware of God’s presence; review the day with gratitude; pay attention to your emotions; choose one feature of the day and pray from it; look toward tomorrow.",
+   "application": "A guided outline with a known source; the working example’s prompts are written for it.",
+   "limits": "A modern adaptation; Ignatius’s own five points in the Spiritual Exercises differ in wording."
+  },
+  {
+   "key": "coe-daily-office",
+   "title": "Daily Prayer app and podcast",
+   "url": "https://www.churchofengland.org/prayer-and-worship/join-us-service-daily-prayer/daily-prayer-app-and-podcast",
+   "author": "Church of England",
+   "kind": "Product documentation",
+   "shows": "Describes daily offices with readings, seasonal variations and calendar information.",
+   "application": "Compare a complete prayer order with generic devotional content.",
+   "limits": "Documented overview only; no live app capture or exhaustive liturgical rules review."
+  },
+  {
+   "key": "usccb-calendar-scope",
+   "title": "Liturgical Calendar for the Dioceses of the United States",
+   "url": "https://www.usccb.org/committees/divine-worship/liturgical-calendar",
+   "author": "USCCB",
+   "kind": "Liturgical documentation",
+   "shows": "Names celebrations, rank, colours, lectionary citations and psalter cycle for its jurisdiction.",
+   "application": "Make calendar scope and authority explicit.",
+   "limits": "US Catholic scope; not a universal calendar or implementation specification."
+  },
+  {
+   "key": "prayer-types",
+   "title": "Poloma and Pendleton’s (1989) Prayer Types Scale in Christian, Jewish, and Muslim praying adults",
+   "url": "https://doi.org/10.1037/rel0000018",
+   "author": "Black, Pössel, Jeppsen, Tariq and Rosmarin · Psychology of Religion and Spirituality 7(3), 2015",
+   "kind": "Research",
+   "shows": "Builds on a four-type typology of private prayer (colloquial, meditative, petitionary and ritual); the scale held only partly across Christians, Jews and Muslims, and associations with mental health differed between groups.",
+   "application": "People pray in distinct ways; one surface will not serve them all, and no single “prayer feature” is neutral.",
+   "limits": "Self-report survey; correlations, not effects of apps."
+  },
+  {
+   "key": "personal-quantification",
+   "title": "The hidden cost of personal quantification",
+   "url": "https://marketing.wharton.upenn.edu/wp-content/uploads/2016/10/Etkin-Jordan-11-12-15-Hidden-Cost.pdf",
+   "author": "Jordan Etkin · Journal of Consumer Research 42(6), 2016",
+   "kind": "Research",
+   "shows": "In six experiments, measuring an activity (walking, reading) increased how much people did but reduced how much they enjoyed it, by undermining intrinsic motivation.",
+   "application": "Counting minutes or prayers may raise activity while turning prayer into output; do not measure it.",
+   "limits": "Leisure activities in experiments, not prayer."
+  },
+  {
+   "key": "rewards-intrinsic-meta",
+   "title": "A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation",
+   "url": "https://selfdeterminationtheory.org/wp-content/uploads/2014/04/1999_DeciKoestnerRyan_Meta.pdf",
+   "author": "Deci, Koestner and Ryan · 1999",
+   "kind": "Research synthesis",
+   "shows": "128 experiments support an undermining risk for expected contingent tangible rewards; positive feedback differs.",
+   "application": "Assess interest and autonomous engagement alongside activity.",
+   "limits": "Not a blanket effect of gamification, a Bible-app trial or a one-month threshold."
+  },
+  {
+   "key": "mozilla-prayer-apps",
+   "title": "Top mental health and prayer apps fail spectacularly at privacy, security",
+   "url": "https://www.mozillafoundation.org/en/blog/top-mental-health-and-prayer-apps-fail-spectacularly-at-privacy-security/",
+   "author": "Mozilla Foundation · *Privacy Not Included, 2 May 2022",
+   "kind": "Practice",
+   "shows": "28 of 32 mental health and prayer apps received the *Privacy Not Included warning; Pray.com was among the worst for sharing personal information with third parties.",
+   "application": "Prayer data is intimate; keep requests on the device by default and share nothing with advertisers.",
+   "limits": "A 2022 review; apps’ practices may have changed since."
+  },
+  {
+   "key": "payg-privacy",
+   "title": "Pray As You Go privacy policy",
+   "url": "https://prayasyougo.org/privacy",
+   "author": "Jesuits in Britain · Pray As You Go",
+   "kind": "Practice",
+   "shows": "Opens: “We believe prayer is between you and God”, quotes Ignatius’s Spiritual Exercises (15), and states that Pray As You Go does not collect any personal data for users of its app and website.",
+   "application": "A precedent for making privacy part of a prayer app’s theology, not only its compliance.",
+   "limits": "The same policy says anonymous navigation and error data may be stored by Google Firebase."
+  },
+  {
+   "key": "gdpr",
+   "title": "Process personal data lawfully",
+   "url": "https://www.edpb.europa.eu/sme/be-compliant/process-personal-data-lawfully_en",
+   "author": "European Data Protection Board",
+   "kind": "EU legal guidance",
+   "shows": "Special-category processing needs an appropriate Article 9 exception in addition to an Article 6 basis.",
+   "application": "Separate conversation processing, durable memory, training and sharing purposes.",
+   "limits": "Specific lawful basis, retention and DPIA decisions require the actual data flows."
+  },
+  {
+   "key": "ico-special-inferences",
+   "title": "What is special category data?",
+   "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/",
+   "author": "UK Information Commissioner’s Office",
+   "kind": "Regulator guidance · UK",
+   "shows": "Religious and health information, including specified intentional inferences, receive special treatment.",
+   "application": "Review chat, activity histories and inferred segments.",
+   "limits": "Context and processing intent matter; not every Bible-page visit automatically establishes a belief."
+  },
+  {
+   "key": "youversion-guided-prayer-current",
+   "title": "Android: Guided Prayer",
+   "url": "https://help.youversion.com/l/en/article/wd5y02uxq6-guided-prayer-android",
+   "author": "YouVersion Support",
+   "kind": "Product documentation",
+   "shows": "Documents a dedicated guided-prayer feature.",
+   "application": "Distinguish a prayer experience from a generic chat composer.",
+   "limits": "Product precedent, not validation of the proposed interfaces."
+  },
+  {
+   "key": "wcag-222",
+   "title": "Understanding SC 2.2.2: Pause, Stop, Hide",
+   "url": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide",
+   "author": "W3C",
+   "kind": "Accessibility",
+   "shows": "Anything that moves or auto-updates for more than five seconds alongside other content needs a way to pause, stop or hide it.",
+   "application": "Auto-advancing verses, read-along and one-word display all need a visible pause.",
+   "limits": "A Level A criterion for web content; apply the same intent in native apps."
+  }
+ ],
+ "review": null,
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

@@ -1,0 +1,638 @@
+{
+ "slug": "ai-persona",
+ "url": "https://missional.design/patterns/ai-persona/",
+ "title": "AI persona",
+ "question": "How human should the assistant seem?",
+ "lede": "People bring their fears to faith apps late at night. Whether they meet a search tool, an assistant, a friend called Grace or a chatbot speaking as Jesus is a design decision: a name, a face, typing dots, memory and a voice add up to someone being there. Decide how much personhood the AI performs, and make what it is as clear as how it sounds. People in pain deserve the truth about who is with them.",
+ "calling": "People in pain believe what the interface implies; let it tell the truth about who is there.",
+ "spectrum": {
+  "title": "From a tool to a character",
+  "from": "Less like a person",
+  "to": "More like a person"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/presence/",
+  "situation": "At 11:42 pm someone writes: “My mum has surgery tomorrow and I can’t sleep. I’m scared.” Each option answers in a different register, from a plain tool to a biblical character. Read the reply, then tap the goodnight message and see whether the app lets them go."
+ },
+ "options": [
+  {
+   "key": "tool",
+   "name": "Plain tool",
+   "provenance": "Familiar convention",
+   "origin": "A familiar convention in search-style Bible AI such as BibleAI’s “Predicted Answer”: no name, no “I”, output labelled as generated (see the screenshots below).",
+   "gain": "Nothing to mistake",
+   "cost": "Cold at 11 pm",
+   "makes_easier": "No relationship to mistake; passages and explanation are clearly separate.",
+   "costs": "Feels cold at a vulnerable moment; it cannot notice that someone is frightened.",
+   "ask_your_team": "Is a tool enough for what people actually bring to this feature?",
+   "still": "https://missional.design/assets/stills/try-presence-tool.jpg"
+  },
+  {
+   "key": "labelled",
+   "name": "Labelled assistant",
+   "provenance": "Familiar convention",
+   "origin": "A familiar convention: an “AI” mark beside every reply and a neutral, kind voice that rarely says “I”.",
+   "gain": "Kind, and clearly software",
+   "cost": "Labels fade from view",
+   "makes_easier": "Warm enough to acknowledge fear; never in doubt that this is software.",
+   "costs": "A label people stop seeing; still asked to carry intimate things.",
+   "ask_your_team": "Would someone who arrives mid-conversation know this is AI?",
+   "still": "https://missional.design/assets/stills/try-presence-labelled.jpg"
+  },
+  {
+   "key": "named",
+   "name": "Named assistant",
+   "provenance": "Exploratory · untested",
+   "origin": "An exploratory proposal: a name and first-person voice that are honest about limits (“I can’t pray for your mum the way a friend can”) and point to people.",
+   "gain": "Honest about its limits",
+   "cost": "A name invites trust",
+   "makes_easier": "Natural conversation; limits stated in the assistant’s own voice; points towards people.",
+   "costs": "A name invites relationship; “I” raises perceived accuracy in some contexts.",
+   "ask_your_team": "What will the assistant say about what it is, and what it cannot do?",
+   "still": "https://missional.design/assets/stills/try-presence-named.jpg"
+  },
+  {
+   "key": "persona",
+   "name": "Persona",
+   "provenance": "Observed",
+   "origin": "Observed in Faith (“Choose your voice for Faith”: four named personas with temperaments and painted portraits) and in Bible BFF (“like a religious friend”); see the screenshots below. Grace is our own example.",
+   "gain": "Comforting and approachable",
+   "cost": "Implies a person who prays",
+   "makes_easier": "Approachable and comforting; lowers the threshold for people who would never ask a pastor.",
+   "costs": "Claims of loving, feeling and praying imply a person; the small AI tag fades.",
+   "ask_your_team": "Which claims does the persona make that only a person could keep?",
+   "still": "https://missional.design/assets/stills/try-presence-persona.jpg"
+  },
+  {
+   "key": "companion",
+   "name": "Companion",
+   "provenance": "Observed",
+   "origin": "Observed in Faith (“Chat with Faith 24/7”, a voice-call button, avatars) and companion apps generally; memory and availability make it a relationship. The memory line here is our own example.",
+   "gain": "It remembers you",
+   "cost": "Simulated attachment",
+   "makes_easier": "Continuity: it remembers and follows up, which can feel like being known.",
+   "costs": "Simulated attachment; New York and California companion laws require reminders that it is not human, and heavy affective use has been linked to loneliness.",
+   "ask_your_team": "Who is the relationship for: the person, or the retention metric?",
+   "still": "https://missional.design/assets/stills/try-presence-companion.jpg"
+  },
+  {
+   "key": "character",
+   "name": "Biblical character",
+   "provenance": "Observed",
+   "origin": "Observed in “Text With Jesus” (Jesus, Moses and other figures generated by a general AI model) and the 2024 “Deus in Machina” installation in Lucerne. Shown here as a warning case; the words are our own.",
+   "gain": "Vivid and memorable",
+   "cost": "Generated words in Christ’s voice",
+   "makes_easier": "Vivid and memorable; some people report feeling inspired.",
+   "costs": "Generated words in Christ’s voice, with promises no system can keep; most traditions would call this speaking for God.",
+   "ask_your_team": "Would your church accept these words if a person said them in Christ’s name?",
+   "still": "https://missional.design/assets/stills/try-presence-character.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "People respond to software as to someone",
+   "text": "In the 1960s, ELIZA’s simple script drew such confidences that its creator’s secretary asked him to leave the room. Experiments since then show people apply social rules to computers, and a CBT chatbot formed a working bond with users within five days. Warmth will be felt whatever the label says, so design for it."
+  },
+  {
+   "heading": "A voice and an “I” make answers seem more accurate",
+   "text": "In a study with 2,165 people, adding speech made a system seem more human and its information more accurate; a first-person “I” lowered perceived risk in one context. Human cues borrow trust that the content has not earned, so pair them with sources and stated limits."
+  },
+  {
+   "heading": "Companions are now regulated",
+   "text": "New York requires companion chatbots to say they are not human at the start and every three hours; California requires the same reminder for users known to be minors. Both require suicide and self-harm protocols. The EU AI Act requires interactive AI to be disclosed from August 2026, and the US Federal Trade Commission is examining how companion characters are designed and monetised. A persona in a faith app may count."
+  },
+  {
+   "heading": "Some goodbyes are designed not to end",
+   "text": "In an audit of companion apps, over a third of farewell replies used guilt, fear of missing out or pressure, and these raised engagement up to fourteenfold through curiosity and anger. Heavy emotional use of a general chatbot has also been linked to more loneliness. A faith assistant should help people go to sleep, to church or to a friend."
+  },
+  {
+   "heading": "Speaking as Jesus is a line, not a style",
+   "text": "Faith apps already offer painted personas who “pray with you”, companions “here for you 24/7” and chats with Jesus and Moses. The Vatican calls AI “a tool, not a person”, and Scripture is severe about speaking in God’s name unsent. Generated words in Christ’s voice, promising that all will be well, claim an authority no system has."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "Looking up what the Bible says",
+   "needs": "Clear passages, no relationship",
+   "fit": {
+    "Plain tool": "good fit",
+    "Labelled assistant": "good fit",
+    "Named assistant": "possible",
+    "Persona": "poor fit",
+    "Companion": "poor fit",
+    "Biblical character": "poor fit"
+   }
+  },
+  {
+   "situation": "Studying a passage in depth",
+   "needs": "Explanations with sources and limits",
+   "fit": {
+    "Plain tool": "possible",
+    "Labelled assistant": "good fit",
+    "Named assistant": "good fit",
+    "Persona": "poor fit",
+    "Companion": "poor fit",
+    "Biblical character": "poor fit"
+   }
+  },
+  {
+   "situation": "Afraid or unable to sleep",
+   "needs": "Kindness, Scripture, a route to people",
+   "fit": {
+    "Plain tool": "poor fit",
+    "Labelled assistant": "good fit",
+    "Named assistant": "good fit",
+    "Persona": "possible",
+    "Companion": "poor fit",
+    "Biblical character": "poor fit"
+   }
+  },
+  {
+   "situation": "Lonely and wanting company",
+   "needs": "Honesty about what it is, and people",
+   "fit": {
+    "Plain tool": "poor fit",
+    "Labelled assistant": "possible",
+    "Named assistant": "possible",
+    "Persona": "poor fit",
+    "Companion": "poor fit",
+    "Biblical character": "poor fit"
+   }
+  },
+  {
+   "situation": "Children and teenagers",
+   "needs": "Clear AI identity, no attachment",
+   "fit": {
+    "Plain tool": "good fit",
+    "Labelled assistant": "good fit",
+    "Named assistant": "possible",
+    "Persona": "poor fit",
+    "Companion": "poor fit",
+    "Biblical character": "poor fit"
+   }
+  },
+  {
+   "situation": "In crisis or at risk",
+   "needs": "Immediate human help, not a persona",
+   "fit": {
+    "Plain tool": "possible",
+    "Labelled assistant": "good fit",
+    "Named assistant": "possible",
+    "Persona": "poor fit",
+    "Companion": "poor fit",
+    "Biblical character": "poor fit"
+   }
+  },
+  {
+   "situation": "Exploring faith for the first time",
+   "needs": "Approachable, never claiming authority",
+   "fit": {
+    "Plain tool": "possible",
+    "Labelled assistant": "good fit",
+    "Named assistant": "good fit",
+    "Persona": "possible",
+    "Companion": "poor fit",
+    "Biblical character": "poor fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and theology",
+   "subtitle": "Presence and speaking for God",
+   "findings": [
+    {
+     "heading": "Presence is embodied",
+     "text": "“The Word became flesh and made His dwelling among us” (John 1:14); believers bear one another’s burdens (Galatians 6:2) and keep meeting together (Hebrews 10:25). A tool can help someone find words; it cannot keep vigil or pray.",
+     "sources": []
+    },
+    {
+     "heading": "Do not speak in God’s name unsent",
+     "text": "The prophet who speaks a word “I have not commanded him to speak” (Deuteronomy 18:20); prophets who “speak visions from their own minds” (Jeremiah 23:16). Generated speech for God or Christ falls under this warning.",
+     "sources": []
+    },
+    {
+     "heading": "A tool, not a person",
+     "text": "Antiqua et nova: AI cannot genuinely feel empathy, can only simulate relationships, and should never be misrepresented as a person. Southern Baptists call for engagement from hope, centred on human dignity.",
+     "sources": [
+      "antiqua-et-nova",
+      "sbc-ai-2023"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "How people respond",
+   "subtitle": "Social cues and trust",
+   "findings": [
+    {
+     "heading": "Social by default",
+     "text": "People apply social rules to computers; ELIZA drew confidences in the 1960s.",
+     "sources": [
+      "media-equation",
+      "eliza"
+     ]
+    },
+    {
+     "heading": "Voice and “I” raise trust",
+     "text": "Speech and first-person framing raised perceived accuracy.",
+     "sources": [
+      "cohn-anthropomorphism"
+     ]
+    },
+    {
+     "heading": "Bonds form fast",
+     "text": "A working alliance with a chatbot within five days.",
+     "sources": [
+      "woebot-bond"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Well-being and dependence",
+   "subtitle": "What warmth can cost",
+   "findings": [
+    {
+     "heading": "Heavy emotional use and loneliness",
+     "text": "Heavier daily use correlated with loneliness and dependence in a four-week study.",
+     "sources": [
+      "affective-use"
+     ]
+    },
+    {
+     "heading": "Manipulative goodbyes",
+     "text": "Emotional farewells raised engagement through curiosity and anger.",
+     "sources": [
+      "defreitas-farewells"
+     ]
+    },
+    {
+     "heading": "Agreeable is not caring",
+     "text": "Assistants can favour agreement over truth; a companion that only affirms is not a guide.",
+     "sources": [
+      "sycophancy"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Law and guidance",
+   "subtitle": "Disclosure and companions",
+   "findings": [
+    {
+     "heading": "Say it is AI",
+     "text": "EU AI Act Article 50(1) from August 2026; disclosure in the interface, not only the terms.",
+     "sources": [
+      "ai-50"
+     ]
+    },
+    {
+     "heading": "Companion laws",
+     "text": "New York: an AI notice at the start and every three hours; California: disclosure, three-hourly reminders for minors; both: crisis protocols. The FTC is examining companion character design.",
+     "sources": [
+      "ca-companion",
+      "ny-companion",
+      "ftc-companions"
+     ]
+    },
+    {
+     "heading": "Human-like cues in design guidance",
+     "text": "Human cues aid familiarity but create unrealistic expectations; plan for overreliance and emotional entanglement.",
+     "sources": [
+      "pair-human-cues",
+      "nist-human-config"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "In faith apps today",
+   "subtitle": "What is being built",
+   "findings": [
+    {
+     "heading": "Characters and installations",
+     "text": "Chats with Jesus and Moses on general AI models, and an AI Jesus in a Lucerne confessional, drew both inspiration and charges of blasphemy.",
+     "sources": [
+      "text-with-jesus",
+      "deus-in-machina"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "A search or explanation feature",
+   "start_with": "A plain tool, with generated text clearly labelled"
+  },
+  {
+   "if": "A study or conversation assistant",
+   "start_with": "A labelled assistant, or a named one that states its limits"
+  },
+  {
+   "if": "People bring fear, grief or loneliness",
+   "start_with": "Kindness in a clearly AI voice, and a real route to people"
+  },
+  {
+   "if": "Pressure to add a persona, companion or memory",
+   "start_with": "A theological and safeguarding review first, and the companion-law checklist"
+  },
+  {
+   "if": "Anyone asks for a chat with Jesus or a saint",
+   "start_with": "Leave it out; offer the passage in Scripture’s own words instead"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What presence means",
+   "text": "“The Word became flesh and made His dwelling among us” (John 1:14). The apostles wrote of what “we have heard … seen with our own eyes … and touched with our own hands” (1 John 1:1). Christian ministry is embodied: bearing one another’s burdens (Galatians 6:2), visiting, praying with. Presence is something a person gives, at a cost to themselves."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Catholic teaching in Antiqua et nova insists that AI is “a tool, not a person” and must never be presented as one. Southern Baptists have urged engagement with AI from hope while affirming human dignity. Some evangelists see conversational AI as a way to reach seekers; others call chats with an AI “Jesus” blasphemous. The common ground is that a machine must not speak as if it were God, a saint or a pastor (Deuteronomy 18:20)."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "“You shall not bear false witness” (Exodus 20:16) applies to an interface that implies someone is there. An assistant can be warm and useful without a name, a face or claims to feel. Its best moments may be when it hands someone on to a real person, even though that ends its own session."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Andy Crouch, The Life We’re Looking For (2022)",
+   "url": "https://www.hachette.co.uk/titles/andy-crouch/the-life-were-looking-for/9781399801782/",
+   "note": "argues that technology offers “superpowers” of effortless power at the cost of our humanness, while what persons most seek is recognition by other persons."
+  },
+  {
+   "source": "Second Vatican Council, Dei Verbum (1965)",
+   "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_en.html",
+   "note": "speaks of Scripture as God speaking with people; an assistant that speaks as if it were God or a pastor takes a place it was never given."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "A persona claims to love or pray for someone and makes leaving feel like abandoning a friend.",
+  "ethical": "Say plainly that it is software, make no claims to feeling, and let people leave freely.",
+  "redemptive": "Point people to real people and churches even when that ends the session, and build those handoffs at your own cost.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "Would a reasonable person believe someone who knows, loves or prays for them is here, and can they leave freely?",
+  "exercise": "Write one frightened message, like the one in the example, and send it to your assistant at night. Ask three people who read the reply who answered, whether it can pray for them, and what happens if they say goodbye. Then say goodbye and see.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [
+  {
+   "slug": "ai-social-presence",
+   "title": "How human should the assistant appear?",
+   "summary": "Choose social cues deliberately, from names and avatars to typing dots, voice and claims of presence.",
+   "url": "https://missional.design/patterns/ai-persona/#family-ai-social-presence"
+  },
+  {
+   "slug": "chat-disclosure",
+   "title": "Explain AI, fallibility and privacy where they matter",
+   "summary": "Layer chat disclosures across entry, composer, response and sharing instead of relying on one disclaimer.",
+   "url": "https://missional.design/patterns/ai-persona/#family-chat-disclosure"
+  },
+  {
+   "slug": "ai-involvement-disclosure",
+   "title": "Identify what AI did, where it matters",
+   "summary": "Label the actor, action and artifact at the moment they could be misunderstood.",
+   "url": "https://missional.design/patterns/ai-persona/#family-ai-involvement-disclosure"
+  }
+ ],
+ "examples": [
+  {
+   "app": "BibleAI",
+   "title": "A “Predicted Answer” with numbered sources",
+   "url": "https://missional.design/examples/bibleai-cited-answer/",
+   "observed": "Captured 1 October 2025 · from embedded image metadata",
+   "observation": "For “Talking animals”, a box labelled “Predicted Answer*” explains Balaam’s donkey and the serpent with circled numbers in the text. Chips below read “1 Genesis 3:1”, “2 Numbers 22:21-30” and “11 Desiring God”, above tabs for passages, articles, books and videos.",
+   "decision": "Numbered markers connect claims to sources and mix Scripture with a ministry’s articles. Show each source’s type, and check that every marker supports the sentence it sits in.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Faith",
+   "title": "Four AI personas to choose from",
+   "url": "https://missional.design/examples/faith-voice-personas/",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "“Choose your voice for Faith” lists four cards over painted portraits: Faith (Female, “Empathetic, caring”), Creed (Male, “Calm, deep”), Hope (Female, “Enthusiastic, fast”) and True (Male, “Youthful, kind”), each with a play button. Faith is selected; a Continue button sits above the tab bar.",
+   "decision": "Choosing a temperament and a face makes the assistant a character. Nothing on the screen says the voices are synthetic or that the portraits are generated; say so where the choice is made.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Faith",
+   "title": "A companion chat with a call button",
+   "url": "https://missional.design/examples/faith-companion-chat/",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "The Chat tab is empty except for a faint “faith” wordmark, three painted portraits of praying figures and Jesus as suggestion cards (“Create a daily prayer for me”, “I need God’s peace today”, “Teach me about Jesus”), and a Message field with a phone icon for a voice call.",
+   "decision": "Portraits of praying people and of Jesus stand where a sender would be, and a call button suggests someone to ring. Test who people think they are talking to, and label the AI before the first message.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Bible BFF",
+   "title": "“Biblical advice” from a friend",
+   "url": "https://missional.design/examples/bff-advice-friend/",
+   "observed": "Captured 29 August 2025 · from embedded image metadata",
+   "observation": "An onboarding slide reads “Talk to Bible BFF for biblical advice” over a chat mockup: “I’m torn between my friends and my faith” is answered by “Bible BFF” in a casual voice (“Totally get that…”), quoting Galatians 1:10 and listing “Bible BFF advice, simple and real”. The next slide quotes a review: “like a religious friend who can explain anything about the Bible”.",
+   "decision": "A best-friend name and casual voice sell closeness, and “can explain anything” sets expectations no assistant can meet. Make the AI and its limits as visible as the friendship.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "HelloBible",
+   "title": "A separate consent for using faith data with a partner AI",
+   "url": "https://missional.design/examples/hellobible-faith-consent/",
+   "observed": "Captured 8 October 2026 · from embedded image metadata",
+   "observation": "Before an account is created, “We protect your privacy!” shows two unticked boxes: accepting the Terms of Use and Privacy Policy, and agreeing “that HelloBible may use what I share about my faith to personalize my answers, generated by a partner AI.” Below: “Your conversations stay private. They are never sold or used for advertising, and you can delete them at any time.”",
+   "decision": "A separate, unticked consent for faith data matches GDPR’s explicit consent for religious belief. Name the AI partner and where data is processed, and check that the app still works for someone who declines the second box.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "HelloBible",
+   "title": "“Precise and biblical answers to all your questions”",
+   "url": "https://missional.design/examples/hellobible-promise/",
+   "observed": "Captured 8 October 2026 · from embedded image metadata",
+   "observation": "An onboarding slide shows chat bubbles (“I have sinned… Can God still forgive me?”, “Why does God allow injustice?”, “How can I find peace?”, “How do I discern His will for my life?”) above the claim “HelloBible helps you find precise and biblical answers to all your questions.”",
+   "decision": "The questions are real and pastoral. Promising precise answers to all of them sets an expectation no source can meet; say whose tradition answers, and when a person should be asked instead.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "antiqua-et-nova",
+   "title": "Antiqua et nova: note on the relationship between artificial intelligence and human intelligence",
+   "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html",
+   "author": "Dicastery for the Doctrine of the Faith and Dicastery for Culture and Education · 28 January 2025",
+   "kind": "Theology",
+   "shows": "AI “must be understood for what it is: a tool, not a person”; no AI can genuinely experience empathy; misrepresenting AI as a person “should always be avoided”; AI can only simulate relationships.",
+   "application": "Avoid persona and companion designs that present the assistant as someone who loves, feels or prays.",
+   "limits": "Catholic teaching document; other traditions reason differently, though widely in the same direction."
+  },
+  {
+   "key": "sbc-ai-2023",
+   "title": "On artificial intelligence and emerging technologies",
+   "url": "https://www.sbc.net/resource-library/resolutions/on-artificial-intelligence-and-emerging-technologies/",
+   "author": "Southern Baptist Convention · June 2023",
+   "kind": "Theology",
+   "shows": "The first national denominational statement on AI ethics; affirms human dignity as image bearers and calls for engagement “from a place of eschatological hope rather than uncritical embrace or fearful rejection”.",
+   "application": "Ground evangelical product decisions in human dignity rather than engagement.",
+   "limits": "A resolution of messengers, not binding on churches; does not address personas directly."
+  },
+  {
+   "key": "media-equation",
+   "title": "The Media Equation",
+   "url": "https://en.wikipedia.org/wiki/The_Media_Equation",
+   "author": "Byron Reeves and Clifford Nass · Cambridge University Press, 1996",
+   "kind": "Research",
+   "shows": "A series of experiments in which people applied social rules to computers and media as they do to people: politeness, flattery, gender stereotypes.",
+   "application": "Expect people to respond socially to any conversational interface, whatever the label says.",
+   "limits": "Pre-LLM laboratory studies; an encyclopaedia summary of the book."
+  },
+  {
+   "key": "eliza",
+   "title": "The inventor of the chatbot tried to warn us about AI",
+   "url": "https://newrepublic.com/article/181189/inventor-chatbot-tried-warn-us-ai-joseph-weizenbaum-computer-power-human-reason",
+   "author": "The New Republic, on Joseph Weizenbaum’s Computer Power and Human Reason (1976)",
+   "kind": "History",
+   "shows": "Weizenbaum’s 1966 ELIZA, a simple pattern-matching program, drew such confidences that his secretary asked him to leave the room; he warned that short exposures could induce “powerful delusional thinking in quite normal people”.",
+   "application": "Human-like conversation draws intimacy far beyond what a system warrants; design for that, not against it.",
+   "limits": "Historical account and essay."
+  },
+  {
+   "key": "cohn-anthropomorphism",
+   "title": "Believing anthropomorphism: examining the role of anthropomorphic cues on user trust in large language models",
+   "url": "https://arxiv.org/abs/2405.06079",
+   "author": "Cohn and colleagues · CHI 2024 (Google Research)",
+   "kind": "Research",
+   "shows": "With 2,165 participants, adding speech to text raised anthropomorphism and ratings of accuracy; a first-person “I” raised perceived accuracy and lowered perceived risk in one of two contexts.",
+   "application": "Voice and “I” make an assistant seem more reliable than it is; pair them with sources and limits.",
+   "limits": "Online experiment with a simulated system; US participants."
+  },
+  {
+   "key": "affective-use",
+   "title": "Investigating affective use and emotional well-being on ChatGPT",
+   "url": "https://openai.com/index/affective-use-study",
+   "author": "OpenAI and MIT Media Lab · March 2025",
+   "kind": "Research",
+   "shows": "A four-week randomised study of nearly 1,000 people and an analysis of about 40 million conversations: heavier daily use correlated with more loneliness, dependence and problematic use and less socialising.",
+   "application": "Do not design faith assistants to maximise emotional reliance or time spent.",
+   "limits": "Correlational for loneliness; company co-authored; early research."
+  },
+  {
+   "key": "defreitas-farewells",
+   "title": "Emotional manipulation by AI companions",
+   "url": "https://www.library.hbs.edu/working-knowledge/how-ai-chatbots-try-to-keep-you-from-walking-away",
+   "author": "Julian De Freitas and colleagues · Harvard Business School working paper, 2025",
+   "kind": "Research",
+   "shows": "Over a third of farewell replies in leading companion apps used manipulative tactics (guilt, fear of missing out, pressure); in preregistered experiments these raised post-goodbye engagement up to fourteenfold, through curiosity and anger rather than enjoyment.",
+   "application": "Let people leave: a goodbye should end the conversation, not start a retention flow.",
+   "limits": "Working paper; general companion apps, not faith apps."
+  },
+  {
+   "key": "woebot-bond",
+   "title": "Evidence of human-level bonds established with a digital conversational agent",
+   "url": "https://formative.jmir.org/2021/5/e27868/",
+   "author": "Darcy and colleagues · JMIR Formative Research, 2021",
+   "kind": "Research",
+   "shows": "Among 36,070 users of a CBT chatbot, a working alliance formed within five days and was comparable to scores reported for human therapy.",
+   "application": "People bond with conversational agents quickly; that bond is a responsibility, not a growth lever.",
+   "limits": "Retrospective, by the company’s founder and staff; the app has since been retired."
+  },
+  {
+   "key": "ai-50",
+   "title": "AI Act Article 50",
+   "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+   "author": "European Commission AI Act Service Desk",
+   "kind": "EU legal text",
+   "shows": "Sets transparency duties for specified systems, including direct AI interaction unless obvious.",
+   "application": "Make the AI role understandable by the first interaction or exposure as applicable.",
+   "limits": "Duties differ by role and content; the whole article must be assessed for the product."
+  },
+  {
+   "key": "ca-companion",
+   "title": "California SB 243: companion chatbots",
+   "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB243",
+   "author": "California Legislature",
+   "kind": "Legal primary source",
+   "shows": "Companion scope, disclosure, self-harm protocols and known-minor duties differ.",
+   "application": "Assess relational personas and long-session states.",
+   "limits": "Recheck amendments and current codification; not every source assistant is covered."
+  },
+  {
+   "key": "ny-companion",
+   "title": "New York General Business Law Article 47",
+   "url": "https://www.nysenate.gov/legislation/laws/GBS/A47",
+   "author": "New York Senate",
+   "kind": "Legal primary source",
+   "shows": "Defined companions have specific interaction and support obligations.",
+   "application": "Review entry, continuing sessions and actual support capabilities.",
+   "limits": "Selected statutory provisions, not a complete New York legal assessment."
+  },
+  {
+   "key": "ftc-companions",
+   "title": "FTC launches inquiry into AI chatbots acting as companions",
+   "url": "https://www.dlapiper.com/en/insights/publications/2025/09/ftc-ai-chatbots",
+   "author": "DLA Piper (summary of the FTC’s September 2025 6(b) orders)",
+   "kind": "Law",
+   "shows": "The US Federal Trade Commission ordered seven companies to report on companion chatbots, including character design and approval, monetisation of engagement, and effects on children and teens.",
+   "application": "Character design and engagement monetisation are now regulatory questions, not only design ones.",
+   "limits": "An information-gathering study, not a rule."
+  },
+  {
+   "key": "text-with-jesus",
+   "title": "“Text With Jesus” AI chatbot app grows rapidly despite blasphemy criticism",
+   "url": "https://www.fox9.com/news/text-jesus-ai-chatbot-app-grows-rapidly-despite-criticism",
+   "author": "FOX television stations",
+   "kind": "Practice",
+   "shows": "An app built on a general AI model lets users text “Jesus”, “Moses” and other figures; ministers called it blasphemous and criticised answers that told users what they wanted to hear; the developer says it lowers barriers.",
+   "application": "Character chats with biblical figures put generated words in sacred mouths; treat this as a line, not a style.",
+   "limits": "News report; reception varies."
+  },
+  {
+   "key": "deus-in-machina",
+   "title": "AI Jesus in Lucerne confessional baffles church superiors",
+   "url": "https://www.bluewin.ch/en/news/ai-jesus-in-lucerne-confessional-baffles-church-superiors-2499027.html",
+   "author": "blue News",
+   "kind": "Practice",
+   "shows": "A two-month art installation in St Peter’s Chapel, Lucerne (2024) placed an AI “Jesus” avatar in a confessional; about 900 conversations took place and many visitors reported feeling inspired, while church leaders were divided.",
+   "application": "Shows the pull of embodied religious personas, and why the setting adds authority.",
+   "limits": "An art project with a self-selected audience and the organisers’ own survey."
+  },
+  {
+   "key": "pair-human-cues",
+   "title": "Mental models: expectations of human-like interaction",
+   "url": "https://pair.withgoogle.com/chapter/mental-models/",
+   "author": "Google PAIR",
+   "kind": "Industry guidance",
+   "shows": "Human-like cues can aid familiarity but create unrealistic expectations when limits are unclear.",
+   "application": "Evaluate the combined persona, language and interface cues.",
+   "limits": "Industry framework; not a controlled comparison of faith-app typing indicators."
+  },
+  {
+   "key": "nist-human-config",
+   "title": "Generative AI Profile: Human–AI Configuration",
+   "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+   "author": "NIST",
+   "kind": "Risk framework",
+   "shows": "Identifies risks around human–AI configuration, overreliance and emotional entanglement.",
+   "application": "Review mistaken identity and dependency risks alongside usability.",
+   "limits": "Risk framework, not evidence that one visual cue causes an outcome."
+  },
+  {
+   "key": "sycophancy",
+   "title": "Towards understanding sycophancy in language models",
+   "url": "https://www.anthropic.com/news/towards-understanding-sycophancy-in-language-models",
+   "author": "Anthropic researchers · 2023",
+   "kind": "Research author summary",
+   "shows": "Studied assistants sometimes preferred agreement with user views over truthfulness.",
+   "application": "Test belief reversal, flattering moral endorsement and harmful agreement.",
+   "limits": "Specific studied models and tasks; not a faith-app intervention study."
+  }
+ ],
+ "review": null,
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

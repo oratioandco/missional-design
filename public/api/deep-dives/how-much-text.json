@@ -1,0 +1,677 @@
+{
+ "slug": "how-much-text",
+ "url": "https://missional.design/patterns/how-much-text/",
+ "title": "How much text at once",
+ "question": "One word, a verse, a passage or a whole chapter?",
+ "lede": "People increasingly read Scripture on phones, in short and frequent sessions. Apps answer with verse cards, focus modes, read-along highlighting and even speed readers. Each decides how much of the Bible someone holds in mind at once, from a single word to a whole chapter. The church has read in many measures. An app should help people hear the word, not just get through it.",
+ "calling": "Choose the unit that helps someone hear the word, not the one that helps them finish.",
+ "spectrum": {
+  "title": "From one word to a whole chapter",
+  "from": "Less text at once",
+  "to": "More text at once"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/reading-focus/",
+  "situation": "Someone has a few minutes before work and opens Mark 4 at the storm on the sea (4:35–41). Every option starts there, in the Berean Standard Bible. Read to the end of the passage, then try to find what Jesus was doing just before."
+ },
+ "options": [
+  {
+   "key": "word",
+   "name": "One word at a time",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from speed-reading tools such as Spritz and Kindle Word Runner, which flash one word at a time at a chosen speed.",
+   "gain": "Total focus, no lost place",
+   "cost": "No looking back",
+   "makes_easier": "No eye movement and no lost place; it can feel fast and very focused for short, familiar text.",
+   "costs": "You cannot glance back, and readers reread 10–15% of the time; comprehension tends to drop. It also turns Scripture into a speed.",
+   "ask_your_team": "Is there any reading in your product that should be faster rather than slower?",
+   "still": "https://missional.design/assets/stills/try-focus-word.jpg"
+  },
+  {
+   "key": "verse",
+   "name": "One verse at a time",
+   "provenance": "Observed",
+   "origin": "Observed in Glorify, which steps through a short passage one verse per screen with a segmented bar (see the screenshots below).",
+   "gain": "Slow, meditative, memorable",
+   "cost": "Context out of sight",
+   "makes_easier": "An easy start and a slow pace that suits meditation and memory. Each verse gets the whole screen.",
+   "costs": "The chapter is out of sight, and a lone verse is easy to read or share apart from its setting.",
+   "ask_your_team": "How far is every verse from its context, and how does someone get there?",
+   "still": "https://missional.design/assets/stills/try-focus-verse.jpg"
+  },
+  {
+   "key": "focus",
+   "name": "One verse in focus",
+   "provenance": "Observed",
+   "origin": "Observed in Dwell and Soultime during listening (current verse bright, the rest dimmed or hidden); borrowed from iA Writer’s focus mode and karaoke captions.",
+   "gain": "Attention with context",
+   "cost": "Moving text needs control",
+   "makes_easier": "Attention on one verse with the passage still in view; with audio it keeps reader and narrator together.",
+   "costs": "Dimmed text must stay readable and reachable for screen readers, and moving text needs a pause.",
+   "ask_your_team": "Will the focus follow the reader, the narrator, or both?",
+   "still": "https://missional.design/assets/stills/try-focus-focus.jpg"
+  },
+  {
+   "key": "passage",
+   "name": "One passage",
+   "provenance": "Observed",
+   "origin": "Observed in Glorify’s passage readings (Judges 6:11–16 with its own audio); lectionaries, plans and sermons also assign passages. Titles here are our own.",
+   "gain": "A natural beginning and end",
+   "cost": "Boundaries are editorial",
+   "makes_easier": "A clear beginning and end, the unit sermons and study guides use, and the neighbouring passages one tap away.",
+   "costs": "Where a passage begins and ends, and what it is called, are editorial decisions. Some readers will want the whole chapter.",
+   "ask_your_team": "Who sets the passage boundaries and titles, and how will readers know?",
+   "still": "https://missional.design/assets/stills/try-focus-passage.jpg"
+  },
+  {
+   "key": "chapter",
+   "name": "Whole chapter",
+   "provenance": "Familiar convention",
+   "origin": "A familiar convention in Bible apps and e-books; reader’s editions such as the ESV Reader’s Bible remove numbers and headings for longer reading.",
+   "gain": "The story stays whole",
+   "cost": "Long on a phone",
+   "makes_easier": "The argument and story stay whole; the best fit for reading a book through.",
+   "costs": "Long on a phone, and one verse is harder to hold in mind. Headings and numbers shape the reading as much as they help.",
+   "ask_your_team": "Do your readers mostly read through, or dip in?",
+   "still": "https://missional.design/assets/stills/try-focus-chapter.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Phones invite shorter, more selective reading",
+   "text": "Screen reading involves more scanning, keyword spotting and selective reading, and less sustained reading (Liu). Comprehension on screens falls behind paper mainly under time pressure, not when people read at their own pace (Delgado et al.). Dyer found app readers completed more days of a plan, while men understood less than in print. Smaller units fit the sessions; they do not guarantee understanding."
+  },
+  {
+   "heading": "One word at a time removes looking back",
+   "text": "Readers look back at earlier words 10–15% of the time, and taking that away tends to reduce comprehension (Rayner et al.). For Scripture, which rewards rereading, it is the weakest fit; it also invites reading as a speed. If you offer it, keep it for short, familiar text, with a rewind."
+  },
+  {
+   "heading": "A smaller unit has a long devotional history",
+   "text": "Lectio divina reads a few verses slowly and repeatedly. A verse at a time, or a verse in focus, can support that kind of attention and memorisation, as long as the passage is one tap away. Verse numbers date from 1551; a verse was never meant to stand alone."
+  },
+  {
+   "heading": "Focus with context is the middle path",
+   "text": "A highlighted verse with the passage dimmed around it keeps attention and context together, and works best with audio: read-along highlighting helped children with dyslexia follow, and karaoke-style subtitles have supported literacy at scale. Let readers choose the window, as Immersive Reader does with one, three or five lines."
+  },
+  {
+   "heading": "Passage and chapter carry the argument",
+   "text": "A passage gives a reading its natural shape, the unit preachers and plans use, but its boundaries and titles are editorial. Reader’s editions such as the ESV Reader’s Bible remove numbers and headings so people read longer and follow the story. Make the longer mode calm and easy to enter, and keep the reader’s place across modes."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "Finding or checking a verse",
+   "needs": "The verse, in its passage",
+   "fit": {
+    "One word at a time": "poor fit",
+    "One verse at a time": "possible",
+    "One verse in focus": "possible",
+    "One passage": "good fit",
+    "Whole chapter": "good fit"
+   }
+  },
+  {
+   "situation": "Skimming for a theme",
+   "needs": "Headings and boundaries to jump between",
+   "fit": {
+    "One word at a time": "poor fit",
+    "One verse at a time": "poor fit",
+    "One verse in focus": "poor fit",
+    "One passage": "possible",
+    "Whole chapter": "good fit"
+   }
+  },
+  {
+   "situation": "A daily reading or devotional",
+   "needs": "A clear beginning and end",
+   "fit": {
+    "One word at a time": "poor fit",
+    "One verse at a time": "possible",
+    "One verse in focus": "possible",
+    "One passage": "good fit",
+    "Whole chapter": "possible"
+   }
+  },
+  {
+   "situation": "Meditation and lectio divina",
+   "needs": "Slowness, repetition, room to pause",
+   "fit": {
+    "One word at a time": "poor fit",
+    "One verse at a time": "good fit",
+    "One verse in focus": "good fit",
+    "One passage": "possible",
+    "Whole chapter": "poor fit"
+   }
+  },
+  {
+   "situation": "Memorising a verse",
+   "needs": "Recall, not rereading",
+   "fit": {
+    "One word at a time": "possible",
+    "One verse at a time": "good fit",
+    "One verse in focus": "possible",
+    "One passage": "poor fit",
+    "Whole chapter": "poor fit"
+   }
+  },
+  {
+   "situation": "Listening along",
+   "needs": "Text that follows the voice, with pause",
+   "fit": {
+    "One word at a time": "poor fit",
+    "One verse at a time": "possible",
+    "One verse in focus": "good fit",
+    "One passage": "good fit",
+    "Whole chapter": "possible"
+   }
+  },
+  {
+   "situation": "Study or preparing to teach",
+   "needs": "Context, cross-reference, notes",
+   "fit": {
+    "One word at a time": "poor fit",
+    "One verse at a time": "poor fit",
+    "One verse in focus": "possible",
+    "One passage": "good fit",
+    "Whole chapter": "good fit"
+   }
+  },
+  {
+   "situation": "Reading a book through",
+   "needs": "Continuity and a kept place",
+   "fit": {
+    "One word at a time": "poor fit",
+    "One verse at a time": "poor fit",
+    "One verse in focus": "poor fit",
+    "One passage": "possible",
+    "Whole chapter": "good fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "How the church has read",
+   "findings": [
+    {
+     "heading": "Read aloud, together, and whole",
+     "text": "Israel heard the law read publicly: “they read from the Book of the Law of God, explaining it and giving insight” (Nehemiah 8:8). Paul’s letters were read aloud to whole congregations, “after this letter has been read among you” (Colossians 4:16), and Timothy is told, “devote yourself to the public reading of Scripture” (1 Timothy 4:13). For most of Christian history, Scripture was heard in continuous portions.",
+     "sources": []
+    },
+    {
+     "heading": "Silent, private reading came later",
+     "text": "Augustine was struck that Ambrose read with his eyes on the page and his voice silent. Personal reading spread with literacy, printing and vernacular Bibles. A phone continues that private line, and can also reconnect people with reading aloud and together.",
+     "sources": [
+      "augustine-ambrose"
+     ]
+    },
+    {
+     "heading": "Small units for prayer and memory",
+     "text": "“I have hidden Your word in my heart” (Psalm 119:11). Lectio divina dwells on a few verses read slowly and repeatedly; memorisation works verse by verse. Small units are not a modern shortcut; they have their own devotional history.",
+     "sources": [
+      "lectio"
+     ]
+    },
+    {
+     "heading": "Context guards meaning",
+     "text": "Chapter divisions date from the thirteenth century and verse numbers from 1551. Fee and Stuart’s principle, that a text cannot mean what it could never have meant for its first readers, depends on reading a verse within its passage, book and genre.",
+     "sources": [
+      "fee-stuart"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Digital reading today",
+   "subtitle": "What people actually do",
+   "findings": [
+    {
+     "heading": "Most Bible reading is now on screens",
+     "text": "Two-thirds of US Bible users access the Bible digitally. YouVersion reports over a billion installs and named Isaiah 41:10 its most engaged-with verse of 2025, the fourth time in six years: much digital engagement happens one verse at a time.",
+     "sources": [
+      "sotb-digital",
+      "youversion-2025"
+     ]
+    },
+    {
+     "heading": "Screen reading is more selective",
+     "text": "People report more browsing, scanning, keyword spotting and one-time reading on screens, and less concentrated reading (Liu). Hutchings shows Bible apps are designed to train particular reading habits.",
+     "sources": [
+      "liu-2005",
+      "hutchings"
+     ]
+    },
+    {
+     "heading": "Completion is not comprehension",
+     "text": "In Dyer’s church study, app readers finished about two more days of a ten-day plan than print readers, while men understood less on screen. A unit that is easy to finish may not be the one that is understood.",
+     "sources": [
+      "dyer-2019"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Reading science",
+   "subtitle": "Different readings, different needs",
+   "findings": [
+    {
+     "heading": "Normal reading is about 240 words a minute",
+     "text": "Adults read non-fiction at about 238 words a minute, most between 175 and 300. The storm on the sea takes about a minute to read: short enough for any morning.",
+     "sources": [
+      "brysbaert-2019"
+     ]
+    },
+    {
+     "heading": "Skimming finds, deep reading understands",
+     "text": "Skimmers jump ahead once a section stops paying off; they catch the main points but understand less. Speed-reading displays remove the looking back that comprehension relies on.",
+     "sources": [
+      "duggan-payne",
+      "rayner-2016"
+     ]
+    },
+    {
+     "heading": "Listening is reading too",
+     "text": "One study found no difference in comprehension between reading, listening, and doing both. Read-along modes serve people who listen as much as people who read.",
+     "sources": [
+      "rogowsky-2016",
+      "read-along-dyslexia"
+     ]
+    },
+    {
+     "heading": "Memory grows by recall",
+     "text": "Students who practised recalling a passage remembered 61% a week later; those who reread it remembered 40%. A verse-at-a-time mode for memorisation should ask, not just show.",
+     "sources": [
+      "roediger-2006"
+     ]
+    },
+    {
+     "heading": "Pace matters more than medium",
+     "text": "Screens fall behind paper mainly when people read under time pressure. Let readers set the pace.",
+     "sources": [
+      "delgado-2018"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Accessible reading",
+   "subtitle": "Best practice",
+   "findings": [
+    {
+     "heading": "Anything that moves needs a pause",
+     "text": "Content that moves or updates for more than five seconds needs a way to pause, stop or hide it: auto-advancing verses, read-along and word-by-word display all qualify.",
+     "sources": [
+      "wcag-222"
+     ]
+    },
+    {
+     "heading": "Measure, spacing and size",
+     "text": "Aim for lines under 80 characters, line spacing of at least 1.5, unjustified text and resizing to 200% without sideways scrolling.",
+     "sources": [
+      "wcag-148"
+     ]
+    },
+    {
+     "heading": "Let readers choose the window",
+     "text": "Immersive Reader lets people focus on one, three or five lines. Offer the size of the focus as a setting, and respect reduced motion.",
+     "sources": [
+      "immersive-reader"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "Meditation, prayer or memorising a short passage",
+   "start_with": "One verse at a time, or a verse in focus, with the passage one tap away"
+  },
+  {
+   "if": "Listening while reading, or readers who lose their place",
+   "start_with": "A verse in focus that follows the audio, with pause and rewind"
+  },
+  {
+   "if": "A daily reading, devotional or group study",
+   "start_with": "One passage with its reference, neighbours and a way into the chapter"
+  },
+  {
+   "if": "Reading a book through, narrative or argument",
+   "start_with": "The whole chapter, with an option to hide numbers and headings"
+  },
+  {
+   "if": "Speed, skimming or “getting through it”",
+   "start_with": "Leave single-word display out for Scripture study"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What attention is for",
+   "text": "Mary “sat at the Lord’s feet listening to His message” (Luke 10:39), and Jesus said she had chosen the good part. Lectio divina dwells on a few verses slowly; reading a whole letter at once shows its argument. Both are forms of attention, and attention is a form of love."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Devotional traditions favour short passages for meditation and memory. Biblical scholars and many teachers urge reading whole books, warning that verse numbers invite reading sentences apart from their context. Silent private reading, which Augustine found remarkable in Ambrose, is itself a later development beside public reading aloud."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "The question is not which unit is more spiritual, but whether the screen keeps a verse connected to its passage and leaves the reader’s attention free. Design for the reader to finish, put the phone down and live what they read (James 1:22)."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Albert Borgmann, Technology and the Character of Contemporary Life (1984)",
+   "url": "https://iep.utm.edu/borgmann/",
+   "note": "contrasted “focal practices” that ask for attention and skill with devices that deliver commodities effortlessly; reading Scripture is a focal practice a device can support or displace."
+  },
+  {
+   "source": "Eugene Peterson, Eat This Book (2006)",
+   "url": "https://www.publishersweekly.com/9780802829481",
+   "note": "calls for slow, attentive reading in which the text is taken in, not skimmed."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "A feed, badges and notifications compete with the passage for attention.",
+  "ethical": "Offer focus settings and respect the system’s accessibility preferences.",
+  "redemptive": "Design for the reader to finish and close the app, and measure success by that.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "What unit of Scripture does this screen ask someone to hold in mind, and how do they reach the rest?",
+  "exercise": "Ask two people to read Mark 4:35–41 in different modes, then retell it and say what Jesus was doing just before. Time how long it takes each to find the verse before 4:35. Repeat with a screen reader and with reduced motion switched on.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [
+  {
+   "slug": "passage-focused-reading",
+   "title": "A bounded passage with a route to wider context",
+   "summary": "Choose the reading unit by the task while keeping its boundaries and context visible.",
+   "url": "https://missional.design/patterns/how-much-text/#family-passage-focused-reading"
+  }
+ ],
+ "examples": [
+  {
+   "app": "Glorify",
+   "title": "One verse per screen, with a step bar",
+   "url": "https://missional.design/examples/glorify-verse-stepper/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "Jeremiah 17:5–8 (NIV) is shown one verse at a time: verse 6 sits alone mid-screen under a four-part progress bar, with the reference and an information button above, “Bible version: NIV” below, and text-size and notes buttons at the bottom.",
+   "decision": "A verse at a time slows reading down and suits meditation on a short passage. The step bar keeps the passage boundary in view; the rest of the chapter is out of sight.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Soultime",
+   "title": "A single verse isolated during playback",
+   "url": "https://missional.design/examples/soultime-focus-verse/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "While audio plays, a focus mode shows only Genesis 1:2 in white over a blurred sunset, under “Genesis · Chapter 1”, with a pause button in the corner.",
+   "decision": "Isolating the verse being read aloud makes listening and reading one act. Nothing on screen shows what came before or comes next.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Dwell",
+   "title": "The current verse bright, the rest dimmed",
+   "url": "https://missional.design/examples/dwell-listen-focus/",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "In Dwell’s Listen view, Genesis 1:2 is in full white while verses 1, 3 and 4 above and below are dimmed, each with its reference underneath. A Listen and Read switch sits at the top and a player shows “Genesis 1 · 31 Verses”.",
+   "decision": "Focus with the context still visible keeps the place during audio without hiding the passage. Check that dimmed text is still readable and announced by screen readers.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Glorify",
+   "title": "One passage with its own audio",
+   "url": "https://missional.design/examples/glorify-passage-audio/",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "The header reads “Judges 6:11-16” with a thin progress line beneath it; the passage scrolls in verse paragraphs above a player at 00:59 of 01:44, with speed and volume controls.",
+   "decision": "A passage-sized unit gives a daily reading a clear beginning and end. Make the way into the rest of Judges 6 as visible as the close button.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "YouVersion",
+   "title": "A chapter with section headings and verse ranges",
+   "url": "https://missional.design/examples/youversion-section-headings/",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "Numbers 1 (Hoffnung für Alle, German) opens with “Vorbereitungen zum Aufbruch nach Kanaan”, a range “(Kapitel 1,1–10,10)” and a section heading, then continuous text with small verse numbers and indented name lists, over a play button and chapter arrows.",
+   "decision": "Long-form reading with headings keeps the chapter’s structure visible. The headings come from the translation’s editors and could be marked as such.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "liu-2005",
+   "title": "Reading behavior in the digital environment",
+   "url": "https://www.emeraldinsight.com/doi/10.1108/00220410510632040",
+   "author": "Ziming Liu · Journal of Documentation 61(6), 2005",
+   "kind": "Research",
+   "shows": "Screen reading involves more browsing, scanning, keyword spotting, one-time and selective reading, and less in-depth, concentrated reading.",
+   "application": "Expect short, selective sessions; design so a short session can still reach context.",
+   "limits": "A 2005 survey of readers about their own habits; describes reported behaviour, not comprehension."
+  },
+  {
+   "key": "delgado-2018",
+   "title": "Don’t throw away your printed books: a meta-analysis on the effects of reading media on reading comprehension",
+   "url": "https://www.uv.es/lasalgon/papers/Delgado%202018%20dont%20throw%20away%20your%20printed%20books.pdf",
+   "author": "Delgado, Vargas, Ackerman and Salmerón · Educational Research Review 25, 2018",
+   "kind": "Research",
+   "shows": "Paper outperformed screens for comprehension (g = −0.21), mainly for informational texts and under time pressure; the gap was not significant for self-paced reading.",
+   "application": "Let people read at their own pace; avoid timers and auto-advance for study.",
+   "limits": "Studies of general texts, mostly before current phone reading apps; not Scripture."
+  },
+  {
+   "key": "rayner-2016",
+   "title": "So much to read, so little time: how do we read, and can speed reading help?",
+   "url": "https://profiles.wustl.edu/en/publications/so-much-to-read-so-little-time-how-do-we-read-and-can-speed-readi/",
+   "author": "Rayner, Schotter, Masson, Potter and Treiman · Psychological Science in the Public Interest, 2016",
+   "kind": "Research",
+   "shows": "Readers look back at earlier words 10–15% of the time; removing that ability, as one-word-at-a-time display does, tends to reduce comprehension.",
+   "application": "Do not use single-word display for study; if offered at all, keep it for short, familiar text with a rewind.",
+   "limits": "Review of reading research; not specific to devotional reading."
+  },
+  {
+   "key": "dyer-2019",
+   "title": "The habits and hermeneutics of digital Bible readers",
+   "url": "https://aleteia.org/2019/11/11/study-finds-men-more-likely-to-read-bible-apps-than-women/",
+   "author": "John Dyer · Journal of Religion, Media and Digital Culture, 2019 (news summary)",
+   "kind": "Research",
+   "shows": "Church members read Jude in print or in an app, then followed a 10-day plan in John: app users completed about two more days of reading; men comprehended less on screen than in print, women about the same.",
+   "application": "Completion and comprehension can move in different directions; measure both.",
+   "limits": "Small sample from three Dallas churches; reported through a news summary."
+  },
+  {
+   "key": "brysbaert-2019",
+   "title": "How many words do we read per minute? A review and meta-analysis of reading rate",
+   "url": "https://www.bps.org.uk/research-digest/most-comprehensive-review-date-finds-average-persons-reading-speed-slower",
+   "author": "Marc Brysbaert · Journal of Memory and Language, 2019 (BPS summary)",
+   "kind": "Research",
+   "shows": "Across 190 studies, adults read English non-fiction silently at about 238 words a minute (most between 175 and 300).",
+   "application": "Estimate reading time honestly; a seven-verse passage takes about a minute, not a commitment.",
+   "limits": "English readers; slower for children, older adults and second-language readers."
+  },
+  {
+   "key": "rogowsky-2016",
+   "title": "Does modality matter? The effects of reading, listening, and dual modality on comprehension",
+   "url": "https://www.psychologicalscience.org/news/are-audiobooks-as-good-for-you-as-reading-heres-what-experts-say.html",
+   "author": "Rogowsky, Calhoun and Tallal · SAGE Open, 2016 (as reported by APS)",
+   "kind": "Research",
+   "shows": "Found no significant difference in comprehension between reading, listening, and reading while listening.",
+   "application": "Treat listening as real reading, and let people combine it with text.",
+   "limits": "One nonfiction text with adult readers; other studies find differences for harder texts."
+  },
+  {
+   "key": "duggan-payne",
+   "title": "Skim reading by satisficing: evidence from eye tracking",
+   "url": "https://researchportal.bath.ac.uk/en/publications/skim-reading-by-satisficing-evidence-from-eye-tracking/",
+   "author": "Duggan and Payne · University of Bath",
+   "kind": "Research",
+   "shows": "Skimmers read until a section stops paying off, then jump ahead; they find important points but understand less overall.",
+   "application": "Support skimming with headings and clear passage boundaries, and offer a slower mode for understanding.",
+   "limits": "Expository texts in a lab under time pressure."
+  },
+  {
+   "key": "roediger-2006",
+   "title": "Test-enhanced learning: taking memory tests improves long-term retention",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3983480/",
+   "author": "Roediger and Karpicke · Psychological Science, 2006, as discussed in a later review",
+   "kind": "Research",
+   "shows": "Students who practised recalling a passage remembered 61% a week later, against 40% for those who reread it.",
+   "application": "For memorisation, prompt recall of a verse rather than showing it again.",
+   "limits": "Prose passages with students; not Scripture memorisation specifically."
+  },
+  {
+   "key": "sotb-digital",
+   "title": "State of the Bible USA 2025",
+   "url": "https://scripture-engagement.org/content/state-of-the-bible-usa-2025/",
+   "author": "American Bible Society",
+   "kind": "Research",
+   "shows": "Two-thirds of US Bible users access the Bible digitally; Bible use rose in 2025.",
+   "application": "Design for phone reading as the norm, not the exception.",
+   "limits": "US survey by a Bible society; self-reported."
+  },
+  {
+   "key": "youversion-2025",
+   "title": "YouVersion announces 2025 Verse of the Year",
+   "url": "https://churchleaders.com/news/2209898-youversion-2025-verse-of-the-year-bobby-gruenewald.html",
+   "author": "ChurchLeaders, reporting YouVersion",
+   "kind": "Industry data",
+   "shows": "Isaiah 41:10 was the most engaged-with verse of 2025 in an app with over a billion installs; the fourth time in six years.",
+   "application": "Verse-level engagement dominates large apps; design the route from a verse back into its passage.",
+   "limits": "Company-reported figures; “engaged with” is YouVersion’s own measure."
+  },
+  {
+   "key": "augustine-ambrose",
+   "title": "Augustine, Confessions 6.3, on Ambrose reading silently",
+   "url": "https://sententiaeantiquae.com/2016/12/27/dont-bother-me-im-reading/",
+   "author": "Translation and commentary at Sententiae Antiquae",
+   "kind": "History",
+   "shows": "Augustine was struck that Ambrose read with his eyes on the page while his voice and tongue were silent.",
+   "application": "A reminder that private, silent reading is one way of reading Scripture among several; public and aloud is the older.",
+   "limits": "How unusual silent reading was in antiquity is debated by historians."
+  },
+  {
+   "key": "fee-stuart",
+   "title": "Gordon Fee and Douglas Stuart, How to Read the Bible for All Its Worth",
+   "url": "https://www.goodreads.com/work/quotes/420678",
+   "author": "Zondervan, 4th edition 2014 (quotations listing)",
+   "kind": "Theology",
+   "shows": "Argues that context and genre govern meaning: a text cannot mean what it could never have meant for its first readers.",
+   "application": "Never strand a verse without a route to its passage and book.",
+   "limits": "A widely used evangelical introduction to interpretation; one approach among several."
+  },
+  {
+   "key": "esv-readers",
+   "title": "ESV Reader’s Bible",
+   "url": "https://www.crossway.org/bibles/esv-readers-bible-tru-4/",
+   "author": "Crossway",
+   "kind": "Design reference",
+   "shows": "Removes verse numbers, section headings and footnotes so people read books as continuous text and in longer portions.",
+   "application": "A long-form mode without numbers is an established print choice; keep a way to find references.",
+   "limits": "Publisher’s rationale, not a study of its effects."
+  },
+  {
+   "key": "lectio",
+   "title": "Introduction to lectio divina",
+   "url": "https://theology.wp.st-andrews.ac.uk/2018/03/07/introduction-to-lectio-divina/",
+   "author": "University of St Andrews, School of Divinity",
+   "kind": "Theology",
+   "shows": "Lectio divina reads a short passage slowly and repeatedly, moving from reading to meditation, prayer and contemplation.",
+   "application": "Small units have a long devotional use; support repetition and pause rather than speed.",
+   "limits": "A description of practice, not a study."
+  },
+  {
+   "key": "wcag-222",
+   "title": "Understanding SC 2.2.2: Pause, Stop, Hide",
+   "url": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide",
+   "author": "W3C",
+   "kind": "Accessibility",
+   "shows": "Anything that moves or auto-updates for more than five seconds alongside other content needs a way to pause, stop or hide it.",
+   "application": "Auto-advancing verses, read-along and one-word display all need a visible pause.",
+   "limits": "A Level A criterion for web content; apply the same intent in native apps."
+  },
+  {
+   "key": "wcag-148",
+   "title": "Understanding SC 1.4.8: Visual Presentation",
+   "url": "https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation",
+   "author": "W3C",
+   "kind": "Accessibility",
+   "shows": "Readers should be able to get lines of no more than 80 characters, at least 1.5 line spacing, unjustified text and resizing to 200% without horizontal scrolling.",
+   "application": "Set reading measure, spacing and size as defaults or reader settings.",
+   "limits": "Level AAA; a strong target rather than a minimum."
+  },
+  {
+   "key": "iawriter-focus",
+   "title": "Focus Mode",
+   "url": "https://ia.net/writer/support/editor/focus-mode",
+   "author": "iA Writer",
+   "kind": "Design reference",
+   "shows": "Sentence and paragraph focus highlight the active text and dim the rest.",
+   "application": "A borrowed model for focus with context visible.",
+   "limits": "A writing tool; the reader’s situation differs."
+  },
+  {
+   "key": "immersive-reader",
+   "title": "Use Line focus in Immersive Reader",
+   "url": "https://support.microsoft.com/en-gb/topic/use-line-focus-in-immersive-reader-for-office-for-the-web-and-onenote-815d5ae2-9291-4d57-b6d5-780280da27c7",
+   "author": "Microsoft",
+   "kind": "Design reference",
+   "shows": "Highlights one, three or five lines at a time; presented as helping readers with dyslexia, attention difficulties or visual stress.",
+   "application": "Offer the size of the focus window as a reader setting.",
+   "limits": "Vendor documentation, not an outcome study."
+  },
+  {
+   "key": "read-along-dyslexia",
+   "title": "Effects of highlighting text on the reading ability of children with developmental dyslexia: a pilot study",
+   "url": "https://online-journals.org/index.php/i-jet/article/view/8736",
+   "author": "International Journal of Emerging Technologies in Learning",
+   "kind": "Research",
+   "shows": "Children with dyslexia found it easier to read along when audio was synchronised with highlighting, especially with whole-sentence highlighting.",
+   "application": "Move the focus with audio, at the level of a verse or sentence.",
+   "limits": "Small pilot study."
+  },
+  {
+   "key": "sls",
+   "title": "Same language subtitling",
+   "url": "https://blogs.worldbank.org/edutech/bollywood-karaoke",
+   "author": "World Bank blog on Brij Kothari’s work",
+   "kind": "Research",
+   "shows": "Karaoke-style same-language subtitles on song programmes in India were associated with gains in reading among early readers.",
+   "application": "Synchronised text and audio can build reading as a by-product of listening.",
+   "limits": "Reported programme results; a literacy setting, not Scripture reading."
+  },
+  {
+   "key": "kindle-word-runner",
+   "title": "Amazon’s tool for reading, one word at a time",
+   "url": "https://learningenglish.voanews.com/a/amazons-tool-for-reading-one-word-at-a-time/2974264.html",
+   "author": "VOA Learning English",
+   "kind": "Design reference",
+   "shows": "Kindle Word Runner showed one word at a time at 100–900 words per minute and reported speed at the end of each chapter.",
+   "application": "A mainstream example of single-word display, and of turning reading into a speed score.",
+   "limits": "Feature report from 2015; availability may have changed."
+  },
+  {
+   "key": "wolf-deep-reading",
+   "title": "Maryanne Wolf: building deep reading skills in a digital world",
+   "url": "https://www.centerfordyslexia.ucla.edu/?p=8197",
+   "author": "UCLA Center for Dyslexia, Diverse Learners, and Social Justice",
+   "kind": "Research",
+   "shows": "Wolf argues skimming habits weaken the slower processes of deep reading, and that readers can learn to switch deliberately between modes.",
+   "application": "Make the slower mode easy to enter and protect it from interruption.",
+   "limits": "An argument drawing on neuroscience, not a controlled trial of interfaces."
+  },
+  {
+   "key": "hutchings",
+   "title": "Design and the digital Bible: persuasive technology and religious reading",
+   "url": "https://doi.org/10.1080/13537903.2017.1298903",
+   "author": "Tim Hutchings · Journal of Contemporary Religion 32(2), 2017",
+   "kind": "Research",
+   "shows": "Analyses YouVersion and GloBible as persuasive technologies designed to train evangelical reading habits.",
+   "application": "Ask what reading habit each mode trains, not only whether it is used.",
+   "limits": "Design analysis of two apps; not a study of readers."
+  }
+ ],
+ "review": null,
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

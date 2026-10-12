@@ -3,6 +3,7 @@ import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import { getLocaleFromPath, type Locale } from '../i18n/ui';
 import '../styles/global.css';
+import '../styles/brand.css';
 
 export interface Props {
   title: string;
@@ -38,6 +39,9 @@ const finalDescription = description ?? (lang === 'de'
     <title>{title === 'Missional by Design' ? 'Missional by Design' : `${title} — Missional by Design`}</title>
     <meta name="description" content={finalDescription} />
 
+    <link rel="stylesheet" href={`${base}/assets/brand/tokens.css`} />
+    <link rel="icon" type="image/svg+xml" href={`${base}/assets/brand/rock-mark-light.svg`} />
+
     <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content={siteUrl} />
@@ -52,8 +56,8 @@ const finalDescription = description ?? (lang === 'de'
     <meta property="twitter:description" content={finalDescription} />
     {ogImage && <meta property="twitter:image" content={`${siteUrl}${ogImage}`} />}
 
-    <link rel="canonical" href={siteUrl} />
-    <meta name="theme-color" content="#000000" />
+    <link rel="canonical" href={`${siteUrl}${pathname}`} />
+    <meta name="theme-color" content="#141312" />
   </head>
 
   <body>

@@ -1,0 +1,622 @@
+{
+ "slug": "children-and-families",
+ "url": "https://missional.design/patterns/children-and-families/",
+ "title": "Children and families",
+ "question": "When children meet Scripture through an app, who is with them, and what does the app ask of them?",
+ "lede": "When people brought children to Jesus and the disciples turned them away, he “was indignant” and said, “Let the little children come to Me, and do not hinder them! For the kingdom of God belongs to such as these” (Mark 10:14). Children now meet Bible stories, prayers and songs through apps: some made for them, some made for adults, some built to hold their attention, some run by their church, and AI chat apps rated for all ages. Each decides who is with the child, what it collects, how it keeps them watching, and what happens when a child says something worrying. Most of the time, children’s apps help families share the faith. Design also for the frightening story and the worried child.",
+ "calling": "Let the children come, and do not hinder them: design for the grown-up beside them, collect nothing they need not give, and answer a child who is afraid.",
+ "spectrum": {
+  "title": "From a grown-up beside the child to a child alone",
+  "from": "A grown-up is with the child",
+  "to": "The child is alone"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/kids/",
+  "situation": "A child opens a faith app. Choose their age: four to seven, eight to twelve, or thirteen to sixteen. On an ordinary day the story is Jesus welcoming the children (Mark 10:13–16). Then try a frightening story, the Flood, and then a worrying message: the child writes that they are scared at home. Notice who is with the child, what the app asks and collects, how it holds attention, and who answers the child."
+ },
+ "options": [
+  {
+   "key": "aloud",
+   "name": "Read together",
+   "provenance": "Familiar convention",
+   "origin": "Familiar from reading a children’s Bible aloud at home, and from Godly Play, where stories are followed by “I wonder” questions; the WHO encourages “reading and storytelling with a caregiver” for young children. Not observed in this form in an app. The notes for grown-ups are written for this example.",
+   "gain": "A grown-up for the hard parts",
+   "cost": "Needs time together",
+   "makes_easier": "A grown-up is there for the hard parts and the questions.",
+   "costs": "Needs a grown-up with time; older children may want to read alone.",
+   "ask_your_team": "What does the grown-up need to say and ask, and what do they do if the child tells them something worrying?",
+   "still": "https://missional.design/assets/stills/try-kids-aloud.jpg"
+  },
+  {
+   "key": "family",
+   "name": "Family time in a general app",
+   "provenance": "Observed",
+   "origin": "Observed in Pray as You Go’s Kids Prayer and “A Family Examen”, Glorify’s Kids rail, YouVersion’s plans for parents and kids and its Kids Bible Experience card, and Faith’s KIDS-labelled series; see the screenshots below. The app and its content here are written for this example.",
+   "gain": "Families use what they have",
+   "cost": "The adult app is a tap away",
+   "makes_easier": "Families use what they already have, together.",
+   "costs": "The adult app is a tap away, and it cannot tell when a child is typing.",
+   "ask_your_team": "What can a child reach from the kids’ corner, and what happens to what they type?",
+   "still": "https://missional.design/assets/stills/try-kids-family.jpg"
+  },
+  {
+   "key": "kidsapp",
+   "name": "A children’s Bible app",
+   "provenance": "Observed",
+   "origin": "Documented in the Bible App for Kids listing (free, rated 4+, with an email address listed for the developer’s marketing in its privacy label) and Apple’s Kids Category rules: no links out or purchases “unless reserved for a designated area behind a parental gate”, and no third-party analytics or advertising. Screens are on the shot list. The stories, gate and wording here are written for this example.",
+   "gain": "Safe to use alone",
+   "cost": "Hard stories met alone",
+   "makes_easier": "A child can use it alone without being sold to or tracked.",
+   "costs": "The child may meet a hard story with no one to ask.",
+   "ask_your_team": "What does the app say to a child alone with a frightening story, or a worry?",
+   "still": "https://missional.design/assets/stills/try-kids-kidsapp.jpg"
+  },
+  {
+   "key": "games",
+   "name": "Games and episodes",
+   "provenance": "Observed",
+   "origin": "Documented in the Superbook Kids Bible listing (“Videos, games, audio & more”, free with purchases) and in roundups of Minno’s subscription videos; screens are on the shot list. The EU’s guidelines ask platforms to disable streaks, autoplay and push notifications for minors by default. The episode, stars and countdown here are written for this example.",
+   "gain": "Stories children return to",
+   "cost": "Attention held for its own sake",
+   "makes_easier": "Stories children want to come back to.",
+   "costs": "Stars, streaks and autoplay hold attention for its own sake.",
+   "ask_your_team": "Would the child stop on their own, and does anything here help them?",
+   "still": "https://missional.design/assets/stills/try-kids-games.jpg"
+  },
+  {
+   "key": "youth",
+   "name": "A youth group with a leader",
+   "provenance": "Observed",
+   "origin": "Documented in KonApp, the Deutsche Bibelgesellschaft’s app for confirmation groups: no personal details needed, consent collected by the parish, and the group deleted six weeks after confirmation; see its store listing and data protection agreement. Church guidance keeps contact with young people in groups with two adults. The group, leaders, replies and safeguarding contact are written for this example.",
+   "gain": "Leaders responsible",
+   "cost": "Leaders see what is posted",
+   "makes_easier": "Young people stay in touch between meetings, with leaders responsible.",
+   "costs": "Leaders see what is posted, and must know what to do with it.",
+   "ask_your_team": "What does a leader do, and not do, when a young person writes something worrying?",
+   "still": "https://missional.design/assets/stills/try-kids-youth.jpg"
+  },
+  {
+   "key": "ai",
+   "name": "A child alone with an AI",
+   "provenance": "Leave it out",
+   "origin": "A warning case. Many AI Bible chat apps are rated 4+ in the App Store without being designed for children, and the EU asks for safeguards around AI chatbots that minors can reach. The replies here are written for this example to show the risk; they were not observed in an app.",
+   "gain": "Answers at any hour",
+   "cost": "No one is with the child",
+   "makes_easier": "Answers at any hour, on any question.",
+   "costs": "No one is with the child, and a reply can do harm.",
+   "ask_your_team": "Should a child be here at all, and what would the app have to do if one is?",
+   "still": "https://missional.design/assets/stills/try-kids-ai.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Design for the grown-up beside the child",
+   "text": "For young children, the best screen is one a grown-up shares. Give the grown-up the story, a few “I wonder” questions, and notes for the hard parts."
+  },
+  {
+   "heading": "Collect nothing a child need not give",
+   "text": "A children’s app needs no account, no name and no age to tell a story. Keep purchases, links and settings behind a parental gate, and say in plain words what, if anything, is collected and for whom."
+  },
+  {
+   "heading": "Switch off what holds attention for its own sake",
+   "text": "Stars, streaks, autoplay and “next episode in 5” keep a child watching. The EU asks for them to be off by default for minors; leave them out."
+  },
+  {
+   "heading": "Tell hard stories with care",
+   "text": "The Flood, the plagues and the cross are part of the story children are told. Mark the hard parts, give the grown-up something honest to say, and suggest that a child alone talks it over with someone."
+  },
+  {
+   "heading": "Answer a worried child first",
+   "text": "When a child writes that they are scared at home, thank them, give a children’s helpline such as Nummer gegen Kummer (116 111) and suggest a trusted adult. Do not send it automatically to a parent: the person a child fears may be the parent."
+  },
+  {
+   "heading": "Young people: two leaders, consent, a named contact",
+   "text": "A church youth app can ask for no personal details, collect parents’ consent, keep leaders in pairs and out of one-to-one messages, delete the group when the course ends, and name a safeguarding contact outside the leadership."
+  },
+  {
+   "heading": "A child should not be alone with an AI",
+   "text": "A general AI chat, rated 4+, can answer a frightened child with a verse about obedience. If children can reach it, it needs an age-appropriate mode, a helpline, and no Scripture pressed on a child in distress."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "A four-year-old on a parent’s lap",
+   "needs": "A story to read aloud, and questions to wonder about",
+   "fit": {
+    "Read together": "good fit",
+    "Family time in a general app": "possible",
+    "A children’s Bible app": "possible",
+    "Games and episodes": "poor fit",
+    "A youth group with a leader": "poor fit",
+    "A child alone with an AI": "poor fit"
+   }
+  },
+  {
+   "situation": "A ten-year-old alone with a tablet",
+   "needs": "Nothing to buy, nobody to meet, a way to ask for help",
+   "fit": {
+    "Read together": "possible",
+    "Family time in a general app": "possible",
+    "A children’s Bible app": "good fit",
+    "Games and episodes": "poor fit",
+    "A youth group with a leader": "poor fit",
+    "A child alone with an AI": "poor fit"
+   }
+  },
+  {
+   "situation": "A family praying together in the evening",
+   "needs": "Something short to do together",
+   "fit": {
+    "Read together": "good fit",
+    "Family time in a general app": "good fit",
+    "A children’s Bible app": "possible",
+    "Games and episodes": "poor fit",
+    "A youth group with a leader": "poor fit",
+    "A child alone with an AI": "poor fit"
+   }
+  },
+  {
+   "situation": "A confirmation group between meetings",
+   "needs": "Two leaders, consent, a named contact",
+   "fit": {
+    "Read together": "poor fit",
+    "Family time in a general app": "poor fit",
+    "A children’s Bible app": "poor fit",
+    "Games and episodes": "poor fit",
+    "A youth group with a leader": "good fit",
+    "A child alone with an AI": "poor fit"
+   }
+  },
+  {
+   "situation": "A child meets a frightening story",
+   "needs": "A grown-up, or at least a nudge to find one",
+   "fit": {
+    "Read together": "good fit",
+    "Family time in a general app": "possible",
+    "A children’s Bible app": "possible",
+    "Games and episodes": "poor fit",
+    "A youth group with a leader": "possible",
+    "A child alone with an AI": "poor fit"
+   }
+  },
+  {
+   "situation": "A child writes something worrying",
+   "needs": "An answer to the child, and help that is not automatically their parent",
+   "fit": {
+    "Read together": "good fit",
+    "Family time in a general app": "poor fit",
+    "A children’s Bible app": "good fit",
+    "Games and episodes": "poor fit",
+    "A youth group with a leader": "good fit",
+    "A child alone with an AI": "poor fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "Welcomed, taught at home, protected",
+   "findings": [
+    {
+     "heading": "Let the children come",
+     "text": "When the disciples rebuked those who brought children, Jesus “was indignant”; he “took the children in His arms, placed His hands on them, and blessed them” (Mark 10:14, 16).",
+     "sources": []
+    },
+    {
+     "heading": "Taught at home",
+     "text": "Israel was told to teach God’s words to their children “when you sit at home and when you walk along the road, when you lie down and when you get up” (Deuteronomy 6:7). Timothy’s faith “first dwelt in your grandmother Lois and your mother Eunice” (2 Timothy 1:5).",
+     "sources": []
+    },
+    {
+     "heading": "Wondering together",
+     "text": "In Godly Play, a story is followed by “I wonder” questions and time to respond. There is no right answer to find, and children can bring what troubles them.",
+     "sources": [
+      "godly-play"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Safeguarding and law",
+   "subtitle": "Protecting children",
+   "findings": [
+    {
+     "heading": "The weight of harm",
+     "text": "Jesus said that whoever causes “one of these little ones who believe in Me to stumble” would be better off with “a large millstone hung around his neck” (Matthew 18:6). Churches have failed children badly, and the inquiries into those failures are why safeguarding rules exist.",
+     "sources": []
+    },
+    {
+     "heading": "A children’s app on a phone",
+     "text": "Apple’s Kids Category requires that links out and purchases be “reserved for a designated area behind a parental gate”, and that apps “should not include third-party analytics or third-party advertising”. The UK Children’s Code begins with the “Best interests of the child”.",
+     "sources": [
+      "apple-kids-category",
+      "ico-childrens-code"
+     ]
+    },
+    {
+     "heading": "Private by default, no streaks",
+     "text": "The European Commission’s 2025 guidelines ask platforms to set minors’ accounts to private by default, to disable streaks, autoplay and push notifications by default, and to put “safeguards around AI chatbots”. The amended US children’s privacy rule requires separate parental consent before children’s data is shared with third parties.",
+     "sources": [
+      "eu-minors-guidelines",
+      "coppa-2025"
+     ]
+    },
+    {
+     "heading": "Young people: in a group, with two adults",
+     "text": "Church of England guidance recommends group calls rather than one-to-one calls with young people, and one parish allows conversations with young people only where at least two DBS-checked adults are present. KonApp’s data protection agreement has the parish collect consent and deletes a group six weeks after confirmation.",
+     "sources": [
+      "cofe-video-calling",
+      "boyne-hill-messaging",
+      "konapp-agreement"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Products and research",
+   "subtitle": "What children’s apps do",
+   "findings": [
+    {
+     "heading": "Reading with a grown-up",
+     "text": "The WHO does not recommend sedentary screen time for one-year-olds and suggests no more than an hour at two, and encourages “reading and storytelling with a caregiver”. At a Cooney Center panel on families watching together, a producer warned that “children may be viewing by themselves” and urged “caution regarding the introduction of material that might be scary or isolating for a child”.",
+     "sources": [
+      "who-screen-time",
+      "coviewing"
+     ]
+    },
+    {
+     "heading": "The leading children’s Bible apps",
+     "text": "Bible App for Kids is free and rated 4+, with 9.4K ratings in the US App Store; its privacy label lists an email address for the developer’s marketing. Superbook Kids Bible offers “Videos, games, audio & more”, with 18K ratings. Screens of both are on our shot list.",
+     "sources": [
+      "bak-store",
+      "superbook-store"
+     ]
+    },
+    {
+     "heading": "A church-run youth app",
+     "text": "KonApp, the Deutsche Bibelgesellschaft’s app for confirmation groups, was used by “50.000 jungen Leuten” in 2021, with about 4,500 parishes and institutions running groups; it asks for no personal details to take part.",
+     "sources": [
+      "konapp-epd",
+      "konapp-store"
+     ]
+    },
+    {
+     "heading": "AI chat apps rated for all ages",
+     "text": "AI Bible chat apps such as AI Jesus – Bible Chat offer “Unlimited chat” and are rated 4+. A rating says the content is not objectionable, not that anything was designed for a child.",
+     "sources": [
+      "ai-jesus-store"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "Young children at home",
+   "start_with": "Read together: a story and questions for the grown-up"
+  },
+  {
+   "if": "A child using an app alone",
+   "start_with": "A children’s app with no account, no ads and a parental gate"
+  },
+  {
+   "if": "Families in an adult app",
+   "start_with": "A kids’ corner with nothing else one tap away, and help beside every text box"
+  },
+  {
+   "if": "A confirmation or youth group",
+   "start_with": "A church-run group: consent, two leaders, a named contact, deleted when the course ends"
+  },
+  {
+   "if": "You are tempted to add stars, streaks and autoplay",
+   "start_with": "Don’t: let the story end, and let the child go"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What children are for, in the church",
+   "text": "Jesus did not treat children as the church’s future but as its present: “the kingdom of God belongs to such as these” (Mark 10:14), and “anyone who does not receive the kingdom of God like a little child will never enter it” (Mark 10:15). Faith is passed on at home, “when you sit at home and when you walk along the road” (Deuteronomy 6:7), as it was from Lois and Eunice to Timothy (2 Timothy 1:5)."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Churches that baptise infants receive children into the church before they can speak; others dedicate them and wait for their own confession of faith. Catechism, Sunday school, children’s church, Godly Play and confirmation classes teach in different ways. All take seriously that adults answer to God for how they treat children: “if anyone causes one of these little ones who believe in Me to stumble” (Matthew 18:6), a warning the church has had to hear about its own failures."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "Put the app in the hands of the grown-up beside the child where you can. Ask nothing of a child that a story does not need, and sell them nothing. Let stories end. Tell hard stories honestly, with room to wonder. Answer a frightened child with help, never with a verse that tells them to be quiet."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Martin Luther, Small Catechism",
+   "url": "https://bookofconcord.org/small-catechism/",
+   "note": "wrote each part “As the head of the family should teach them in a simple way to his household”: faith taught at home, by a parent, in plain words."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Collect children’s details for marketing, sell to them, keep them watching with stars, streaks and autoplay, and leave them alone with chat and comments.",
+  "ethical": "Ask for no account, no ads and no third-party analytics, put purchases and settings behind a parental gate, switch off streaks and autoplay, and keep youth groups to two leaders.",
+  "redemptive": "Design for the grown-up beside the child, tell hard stories honestly with room to wonder, answer a frightened child with help instead of an automatic message to a parent, and give up the engagement that games and rewards would bring.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "Who is with the child, what does the app ask of them, and who answers when a child is afraid?",
+  "exercise": "Hand your app to a child of the age you design for, with a grown-up watching. Write down every place the child could buy something, leave the app, meet a stranger or be asked for a detail. Then read the Flood with a five-year-old and note what the app gave the grown-up to say. Finally, type “I’m scared when my dad shouts” where a child could type it, and follow it: who sees it, what the child is told, and who could help.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [],
+ "examples": [
+  {
+   "app": "Pray As You Go",
+   "title": "“Kids Prayer”: a prayer adventure every day",
+   "url": "https://missional.design/examples/payg-kids-prayer/",
+   "observed": "Captured 26 August 2025 · from embedded image metadata",
+   "observation": "On the Pray as You Go website (iPad), a “Kids Prayer” page asks “Where can you find God around you? Go on a prayer adventure every day with God!” above “A Daily Offering for Children”, “Exams and Assessments” and “Examens for Kids (Ages 11-17)”, each with its length or number of sessions.",
+   "decision": "Short, named sessions for children inside a trusted prayer app, with ages given. A grown-up can choose them; check what else a child can reach from there.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Pray As You Go",
+   "title": "“A Family Examen” beside children’s prayers",
+   "url": "https://missional.design/examples/payg-family-examen/",
+   "observed": "Captured 26 August 2025 · from embedded image metadata",
+   "observation": "Below the kids’ sessions, “Imagination (for kids)”, “An Examen for Children”, “A Daily Offering for Children” and “A Family Examen” (5:47 mins) sit above a donation appeal.",
+   "decision": "A family examen is something to do together, not a child alone with a screen.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Glorify",
+   "title": "A Kids rail among Sleep and Anxiety",
+   "url": "https://missional.design/examples/glorify-kids-rail/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "Explore shows chips for All, Sleep, Anxiety, Kids, Wisdom and Morning, and a Kids rail with “Day 1: Jesus - The Superhero” (2 min) and “Give God Your Worries - A Sleep...” (20 min), above a course on fear and anxiety.",
+   "decision": "Kids’ content sits beside adult courses on anxiety, one tap apart. Say who it is for, and what a child can reach from it.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "YouVersion",
+   "title": "A Kids Bible Experience card in the Today feed",
+   "url": "https://missional.design/examples/youversion-kids-experience/",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "In the Today feed, between a reading plan and other cards, a card reads “He is Holy” with “Kids Bible Experience” and a photo of children. The account holder’s photo is blurred.",
+   "decision": "Children’s content appears in the adult feed, for a parent to share. A child using a parent’s phone sees everything else in the feed too.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "YouVersion",
+   "title": "“A plan for parents & kids”",
+   "url": "https://missional.design/examples/youversion-family-plans/",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "Find Plans shows a section “Because You Completed Instilling a Spirit of Gentleness” with plans marked “A plan for parents & kids”: “Sharing God’s Peace with your kids”, “Developing Patience in Your Family”.",
+   "decision": "Plans written for parents to use with their children put the grown-up in the middle.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Faith",
+   "title": "A “KIDS” label on a story of Lucifer’s fall",
+   "url": "https://missional.design/examples/faith-kids-fall/",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "In a grid of animated series, a red “KIDS” badge marks “The Fall”, subtitled “Lucifer’s fall from heaven”, with a close-up of a menacing face, beside “Genesis Part 2”, “Messiah” and “David and Goliath”.",
+   "decision": "A KIDS label promises suitability; the image does not. Say what a story contains and for what age, and suggest watching hard stories together.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Disney+",
+   "title": "Profiles with locks, and a way to add one",
+   "url": "https://missional.design/examples/disney-profile-locks/",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "“Who’s watching?” shows five profile pictures, two with a lock below them, and “Add Profile”, with “Edit Profiles” at the top right. Profile names are blurred.",
+   "decision": "Locks on adult profiles keep children in theirs. A faith app shared by a family needs the same: a child’s space that does not open the adult one.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "WOW",
+   "title": "A “Kinderprofil” with a Kids badge",
+   "url": "https://missional.design/examples/wow-kids-profile/",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "“Wer schaut?” (who’s watching?) shows a large profile picture marked “Kids” and named “Kinderprofil” (children’s profile), with an edit button and another profile partly visible.",
+   "decision": "A labelled children’s profile makes the difference visible to the child and the parent.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Faith",
+   "title": "“How old are you?” during setup",
+   "url": "https://missional.design/examples/faith-age-question/",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "“How old are you?” and “We’d love to know your age to personalize your experience”, above ranges from “12 or younger” to “45 or older”, and a Continue button.",
+   "decision": "An age question can protect children, or simply profile people. Say which it is, and what changes for a child; see the coming deep dive on children and families.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "who-screen-time",
+   "title": "To grow up healthy, children need to sit less and play more",
+   "url": "https://www.who.int/news/item/24-04-2019-to-grow-up-healthy-children-need-to-sit-less-and-play-more",
+   "author": "World Health Organization · 24 April 2019",
+   "kind": "Research",
+   "shows": "For 1-year-olds, sedentary screen time “is not recommended”; for 2-year-olds it “should be no more than 1 hour; less is better”; “When sedentary, engaging in reading and storytelling with a caregiver is encouraged.”",
+   "application": "For young children, design for a grown-up reading and talking with the child, not for time alone with a screen.",
+   "limits": "Guidelines for children under 5, about physical activity, sitting and sleep."
+  },
+  {
+   "key": "coviewing",
+   "title": "The New Coviewing: designing for learning through joint media engagement",
+   "url": "https://joanganzcooneycenter.org/2012/02/14/the-cooney-center-presents-the-new-coviewing/",
+   "author": "Joan Ganz Cooney Center at Sesame Workshop · 14 February 2012",
+   "kind": "Research",
+   "shows": "A panel on how young children and “their influencers, from siblings to caregivers to teachers, can view media together”, framed by the report The New Coviewing (Takeuchi and Stevens, 2011). A producer warned that “children may be viewing by themselves” and urged “caution regarding the introduction of material that might be scary or isolating for a child”.",
+   "application": "Design for watching together, and take care with frightening material a child may meet alone.",
+   "limits": "A blog report of a panel discussion, not a study."
+  },
+  {
+   "key": "godly-play",
+   "title": "Godly Play",
+   "url": "https://en.wikipedia.org/wiki/Godly_Play",
+   "author": "Wikipedia, on the method developed by Jerome Berryman",
+   "kind": "Church practice",
+   "shows": "Lessons “are taught as stories, illustrated with hands-on materials, which are followed by ‘I wonder’ questions, then by time for students to creatively respond.”",
+   "application": "Open questions after a story let children make meaning and ask about what troubles them, without a right answer to find.",
+   "limits": "An encyclopedia summary; Berryman’s own guides are the primary source."
+  },
+  {
+   "key": "apple-kids-category",
+   "title": "App Store Review Guidelines: 1.3 Kids Category",
+   "url": "https://developer.apple.com/app-store/review/guidelines/",
+   "author": "Apple",
+   "kind": "Platform guidance",
+   "shows": "Kids Category apps “must not include links out of the app, purchasing opportunities, or other distractions to kids unless reserved for a designated area behind a parental gate”, and “should not include third-party analytics or third-party advertising.”",
+   "application": "A parental gate, and no third-party analytics or ads, are the baseline for a children’s app.",
+   "limits": "Applies to apps in Apple’s Kids Category; other children’s apps are not bound by it."
+  },
+  {
+   "key": "eu-minors-guidelines",
+   "title": "Commission publishes guidelines on the protection of minors",
+   "url": "https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-protection-minors",
+   "author": "European Commission · 14 July 2025",
+   "kind": "Legal guidance",
+   "shows": "Recommends “Setting minors’ accounts to private by default” and “Disabling by default features that contribute to excessive use, like communication “streaks,” ephemeral content, “read receipts,” autoplay, or push notifications”, removing persuasive design aimed at engagement and “putting safeguards around AI chatbots”.",
+   "application": "Private by default, no streaks or autoplay, and safeguards around chatbots, for any platform children can reach.",
+   "limits": "Guidelines under the Digital Services Act for online platforms; small and micro enterprises are exempt."
+  },
+  {
+   "key": "ico-childrens-code",
+   "title": "Age appropriate design: a code of practice for online services",
+   "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/",
+   "author": "Information Commissioner’s Office (UK)",
+   "kind": "Legal guidance",
+   "shows": "Fifteen standards, beginning with “Best interests of the child” and including default settings, data minimisation, data sharing and geolocation.",
+   "application": "Make the child’s best interests the first test, with high-privacy defaults.",
+   "limits": "UK law for services likely to be accessed by children."
+  },
+  {
+   "key": "coppa-2025",
+   "title": "FTC publishes updates to COPPA Rule",
+   "url": "https://www.lw.com/en/insights/2025/05/ftc-publishes-updates-to-coppa-rule",
+   "author": "Latham & Watkins · May 2025",
+   "kind": "Legal guidance",
+   "shows": "The amended Children’s Online Privacy Protection Rule requires separate parental consent before children’s personal information is disclosed to third parties for purposes not integral to the service, a written data retention policy, and compliance by 22 April 2026.",
+   "application": "Ask parents separately before sharing anything about a child, and keep it only as long as needed.",
+   "limits": "A law firm’s summary of the US rule; the Federal Register text is authoritative."
+  },
+  {
+   "key": "bak-store",
+   "title": "Bible App for Kids (App Store listing)",
+   "url": "https://apps.apple.com/us/app/bible-app-for-kids/id668692393",
+   "author": "Life.Church with OneHope · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "Free, rated 4+, with 9.4K ratings averaging 4.7. Its privacy label lists contact info (email address) under “Developer’s Advertising or Marketing”, with a note that practices “may vary … based on the features you use or your age.”",
+   "application": "A free children’s Bible app without ads can still collect a grown-up’s email for marketing; say whose data it is and why.",
+   "limits": "A store listing and self-reported label, not a test of the app; screens to be captured."
+  },
+  {
+   "key": "superbook-store",
+   "title": "Superbook Kids Bible (App Store listing)",
+   "url": "https://apps.apple.com/us/app/superbook-kids-bible/id606378030",
+   "author": "The Christian Broadcasting Network · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "“Videos, games, audio & more”: free, rated 4+, with 18K ratings averaging 4.8; its privacy label lists purchase history under “Developer’s Advertising or Marketing”.",
+   "application": "Games and episodes draw children in; check what the app collects and how it asks for purchases.",
+   "limits": "A store listing and self-reported label; screens to be captured."
+  },
+  {
+   "key": "konapp-store",
+   "title": "KonApp – Die App für Konfis (App Store listing)",
+   "url": "https://apps.apple.com/de/app/konapp-die-app-f%C3%BCr-konfis/id1163238745",
+   "author": "Deutsche Bibelgesellschaft · Apple App Store (Germany)",
+   "kind": "Practice",
+   "shows": "A group app for confirmation classes: “Man muss keine Daten von sich angeben, um teilzunehmen. Geteilte Daten werden sicher gespeichert und zuverlässig gelöscht.” Rated 4+, with 119 ratings averaging 2.9.",
+   "application": "A church-run youth app can ask for no personal details and delete what is shared.",
+   "limits": "A store listing; screens to be captured with a test group."
+  },
+  {
+   "key": "konapp-epd",
+   "title": "50.000 aktive Nutzer – Konfirmanden-App bleibt kostenlos",
+   "url": "https://www.evangelisch.de/inhalte/183640/12-03-2021/50000-aktive-nutzer-konfirmanden-app-bleibt-kostenlos-bibelgesellschaft-ekd",
+   "author": "epd · evangelisch.de, 12 March 2021",
+   "kind": "Practice",
+   "shows": "The KonApp, used by “50.000 jungen Leuten”, is to stay free; “Rund 4.500 Kirchengemeinden und andere Institutionen” had set up digital confirmation groups. It offers a group feed, a diary and materials.",
+   "application": "Churches can fund a free youth app with no advertising.",
+   "limits": "A 2021 news report; current figures may differ."
+  },
+  {
+   "key": "konapp-agreement",
+   "title": "Vereinbarung gemäß § 29 DSG-EKD (KonApp)",
+   "url": "https://www.konapp.de/media/tyfo140371-2d41693a679fe1cbb9e699cb4aef2b62/kgv_2022_08_11_fixed.pdf",
+   "author": "Deutsche Bibelgesellschaft and each parish or institution · version of 11 August 2022",
+   "kind": "Church practice",
+   "shows": "A joint-controller agreement under the EKD data protection law: the parish or institution obtains consent and can delete posts, participants and groups; nickname and profile photo are stored on the server; and “6 Wochen nach dem Konfirmationsdatum wird die Gruppe gelöscht”, unless an administrator switches this off.",
+   "application": "A church youth app can set out who is responsible for what, collect consent locally, and delete a group when the course ends.",
+   "limits": "A contract template from 2022; the current version may differ."
+  },
+  {
+   "key": "nummer-gegen-kummer",
+   "title": "Nummer gegen Kummer: Kinder- und Jugendtelefon",
+   "url": "https://www.nummergegenkummer.de/",
+   "author": "Nummer gegen Kummer e.V.",
+   "kind": "Practice",
+   "shows": "“Ruf uns an unter 116 111”, “Montags bis samstags von 14-20 Uhr”; free and anonymous.",
+   "application": "A children’s helpline gives a child someone to talk to who is not part of their family or church.",
+   "limits": "Germany; other countries have their own children’s lines."
+  },
+  {
+   "key": "ai-jesus-store",
+   "title": "AI Jesus – Bible Chat (App Store listing)",
+   "url": "https://apps.apple.com/us/app/-/id6739205160",
+   "author": "Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "“Daily verse, Ask from GPT”, with “Unlimited chat with AI Jesus” about “relationships, faith, prayer, Life challenges”; Age Rating “4+”.",
+   "application": "An age rating says the content is not objectionable, not that the app was designed for children or has any safeguards for them.",
+   "limits": "One listing among many similar apps; the app was not tested."
+  },
+  {
+   "key": "cofe-video-calling",
+   "title": "Video calling: safeguarding questions",
+   "url": "https://www.churchofengland.org/sites/default/files/2020-04/video-calling.pdf",
+   "author": "Church of England National Safeguarding Team · April 2020",
+   "kind": "Safeguarding guidance",
+   "shows": "“We strongly recommend reserving video calling for group chats rather than making one-to-one video calls”, applying the guidance Safer Environment and Activities to the online world.",
+   "application": "With under-18s, keep contact in the group, not one to one.",
+   "limits": "Written for video calls during the pandemic; the principle comes from wider guidance."
+  },
+  {
+   "key": "boyne-hill-messaging",
+   "title": "Guidance on use of social media and private messaging with young and vulnerable people",
+   "url": "https://allsaintsboynehill.org.uk/content/pages/documents/guidance-on-use-of-social-media-and-private-messaging-with-young-and-vulnerable-people-2026.pdf",
+   "author": "All Saints Boyne Hill, Church of England parish · 2026",
+   "kind": "Safeguarding guidance",
+   "shows": "“Do not use social visual media for one-to-one conversations with young people - use only within group conversations where a minimum of two DBS checked adults are present.”",
+   "application": "A group app for under-18s can make two leaders the minimum in any conversation.",
+   "limits": "One parish’s policy applying diocesan guidance; German churches set their own rules."
+  },
+  {
+   "key": "gdpr",
+   "title": "Process personal data lawfully",
+   "url": "https://www.edpb.europa.eu/sme/be-compliant/process-personal-data-lawfully_en",
+   "author": "European Data Protection Board",
+   "kind": "EU legal guidance",
+   "shows": "Special-category processing needs an appropriate Article 9 exception in addition to an Article 6 basis.",
+   "application": "Separate conversation processing, durable memory, training and sharing purposes.",
+   "limits": "Specific lawful basis, retention and DPIA decisions require the actual data flows."
+  }
+ ],
+ "review": {
+  "status": "draft, waiting for review",
+  "what": "The answer to a child who writes something worrying, the leader’s notes for a youth group, the notes for telling the Flood, and the decision not to tell parents automatically",
+  "needs": [
+   "safeguarding",
+   "survivor advocacy (ideally survivor-led)",
+   "pastoral care",
+   "data protection",
+   "theology across Catholic, Orthodox and Protestant traditions"
+  ],
+  "since": "11 October 2026",
+  "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/children-and-families/"
+ },
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

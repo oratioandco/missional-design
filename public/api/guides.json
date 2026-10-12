@@ -1,0 +1,73 @@
+{
+ "guides": [
+  {
+   "slug": "reading",
+   "title": "Context around the passage",
+   "question": "What does this person need to understand or find?",
+   "summary": "How much context does a reader need around the passage? Choosing the reading unit, landing in the right place, and keeping Scripture, notes and explanations distinct.",
+   "url": "https://missional.design/guides/reading/"
+  },
+  {
+   "slug": "listening",
+   "title": "Listening",
+   "question": "Can the practice continue when the screen is off?",
+   "summary": "Can the practice continue when the screen goes dark? Screen-off listening, read-along, chosen silence and an ending that lets the phone disappear.",
+   "url": "https://missional.design/guides/listening/"
+  },
+  {
+   "slug": "ai-trust",
+   "title": "Trust in AI answers",
+   "question": "What authority might a fluent answer appear to have?",
+   "summary": "What authority does a fluent answer seem to have? Giving AI a bounded job, showing what it did, letting people check its sources, and keeping care in human hands.",
+   "url": "https://missional.design/guides/ai-trust/"
+  },
+  {
+   "slug": "attention",
+   "title": "Attention and time",
+   "question": "What would “enough for now” look like?",
+   "summary": "What would “enough for now” look like? Reminders, emails, feeds and endings: asking for attention across every channel without taking more than was offered.",
+   "url": "https://missional.design/guides/attention/"
+  },
+  {
+   "slug": "sustainable-access",
+   "title": "Pricing and access",
+   "question": "What is being paid for, by whom, and what happens when the money stops?",
+   "summary": "Who pays for a faith app, and for what? What a Bible or faith app really costs, how ministries and businesses pay for it, and where the money can strain trust.",
+   "url": "https://missional.design/guides/sustainable-access/"
+  },
+  {
+   "slug": "analytics",
+   "title": "Analytics",
+   "question": "What is the least sensitive evidence that could answer the question?",
+   "summary": "What is the least you need to know? Choosing metrics and research methods that answer product questions while protecting chats, prayers and reading histories.",
+   "url": "https://missional.design/guides/analytics/"
+  },
+  {
+   "slug": "community",
+   "title": "Community and visibility",
+   "question": "Who can see this, respond to it and exercise authority?",
+   "summary": "Who can see this, respond to it, and hold authority? Choosing the audience, accountability and moderation for shared plans, prayer requests, discussion and mentoring before adding a feed.",
+   "url": "https://missional.design/guides/community/"
+  },
+  {
+   "slug": "passage-navigation",
+   "title": "Finding passages",
+   "question": "What does this person know already—and where should this action take them?",
+   "summary": "How does someone find the passage they are looking for? Reader controls, browsing, typed references, combined search fields and book order, as one journey into Scripture.",
+   "url": "https://missional.design/guides/passage-navigation/"
+  },
+  {
+   "slug": "ai-presence",
+   "title": "How AI comes across",
+   "question": "What kind of presence does this interface lead someone to believe is here?",
+   "summary": "What kind of presence does the interface suggest is here? Names, avatars, typing dots, memory and disclosure in AI chat: warmth without mistaken identity.",
+   "url": "https://missional.design/guides/ai-presence/"
+  }
+ ],
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

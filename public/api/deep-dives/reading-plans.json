@@ -1,0 +1,529 @@
+{
+ "slug": "reading-plans",
+ "url": "https://missional.design/patterns/reading-plans/",
+ "title": "Reading plans",
+ "question": "What happens when someone misses days?",
+ "lede": "A reading plan decides what time means: a date to keep, a next step whenever the reader is ready, a number for the week, or the readings that belong to today. Life always interrupts, and the plan then decides whether coming back feels like a welcome or a bill. Decide what the plan asks of time, and what it says after days away. A plan is a gift to someone who wants to keep a rhythm; it should never become a debt.",
+ "calling": "A plan should welcome someone back after a hard week, never send them a bill.",
+ "spectrum": {
+  "title": "From shared dates to a day of its own",
+  "from": "Time set by the plan",
+  "to": "Time set by the reader"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/rhythm/",
+  "situation": "A plan through Exodus in 40 days, a chapter at a time. It is Tuesday 20 October, day 20. Each option holds time differently, from a dated plan to readings that belong to each day. Read today’s chapter, then switch the situation to “Back after nine days” and see what each plan says."
+ },
+ "options": [
+  {
+   "key": "dated",
+   "name": "Dated plan",
+   "provenance": "Observed",
+   "origin": "Observed in most Bible apps, where each plan day has a date. Bible.is offers “Change Start Date” and ESV “Read at My Own Pace”, and YouVersion documents “Catch Me Up”; see the screenshots below.",
+   "gain": "Reading together on one day",
+   "cost": "Days away become visible",
+   "makes_easier": "A shared day, so a church or group can read together.",
+   "costs": "Days away become visible, and a plan can turn into a debt.",
+   "ask_your_team": "When someone returns, does the plan offer a place to start, or a list of what they missed?",
+   "still": "https://missional.design/assets/stills/try-rhythm-dated.jpg"
+  },
+  {
+   "key": "sequence",
+   "name": "Sequence",
+   "provenance": "Observed",
+   "origin": "Observed in Olive Tree’s “1 of 3 Complete | Next” bar, which moves to the next reading whenever the reader is ready; see the screenshot below.",
+   "gain": "Nothing is ever late",
+   "cost": "No shared day",
+   "makes_easier": "The plan waits; nothing is ever late.",
+   "costs": "No shared day: a group may be several chapters ahead.",
+   "ask_your_team": "If people read together, how will they stay close without dates?",
+   "still": "https://missional.design/assets/stills/try-rhythm-sequence.jpg"
+  },
+  {
+   "key": "weekly",
+   "name": "Weekly rhythm",
+   "provenance": "Familiar convention",
+   "origin": "A familiar convention in five-day plans, which leave weekends for catching up. Here the week starts fresh each Monday.",
+   "gain": "A fresh start every week",
+   "cost": "Needs a sense of the week",
+   "makes_easier": "Fits irregular lives; every Monday is a fresh start.",
+   "costs": "Readers need a sense of the week; a group still needs a meeting point.",
+   "ask_your_team": "Does a new week truly start fresh, or does last week follow it?",
+   "still": "https://missional.design/assets/stills/try-rhythm-weekly.jpg"
+  },
+  {
+   "key": "daily",
+   "name": "Daily readings",
+   "provenance": "Familiar convention",
+   "origin": "A familiar practice in daily offices, lectionaries and the Moravian daily texts, where each date has its own readings. The readings here were chosen for this example.",
+   "gain": "Nothing piles up",
+   "cost": "No book to finish",
+   "makes_easier": "Nothing piles up; everyone reading today reads the same passages.",
+   "costs": "No book to finish; passages arrive out of their context.",
+   "ask_your_team": "Is today’s reading enough on its own, and can someone find their way into the whole book?",
+   "still": "https://missional.design/assets/stills/try-rhythm-daily.jpg"
+  },
+  {
+   "key": "streak",
+   "name": "Streak",
+   "provenance": "Observed",
+   "origin": "Observed in Abide, which shows a streak but lets people switch it off, and in many learning apps that sell streak repairs; see the screenshot below.",
+   "gain": "Motivates while it lasts",
+   "cost": "A missed day becomes a loss",
+   "makes_easier": "A visible record that motivates some people while it lasts.",
+   "costs": "A missed day becomes a loss; people who feel they have failed often stop.",
+   "ask_your_team": "What does this count teach people about reading Scripture?",
+   "still": "https://missional.design/assets/stills/try-rhythm-streak.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "The plan’s author wanted readers free",
+   "text": "Robert Murray M’Cheyne warned that his own calendar could become “a yoke too heavy to bear”, and told readers to “throw aside the fetter”. Benedict told anyone who found his weekly psalter unsatisfactory to arrange it better. Build that freedom in: pause, own pace and moving dates."
+  },
+  {
+   "heading": "A missed day does not undo a habit",
+   "text": "In a study of people forming new daily habits, missing one opportunity did not materially affect how automatic the habit became. A plan that treats a missed day as failure misreads how habits work."
+  },
+  {
+   "heading": "Broken streaks drive people away",
+   "text": "Across seven studies, showing people a broken streak reduced their later engagement, most when they blamed themselves. Shame tends to make people hide and withdraw, guilt to repair. Avoid counts and copy that make a reader feel they have failed."
+  },
+  {
+   "heading": "Dates are for reading together",
+   "text": "Shared dates let a church or group read the same passage on the same day. That is worth keeping for group plans, with open days left unmarked and a choice on return. For personal reading, a sequence or a weekly number that starts fresh each Monday removes the debt altogether, as ESV’s “Read at My Own Pace” begins to do."
+  },
+  {
+   "heading": "Begin again on a landmark",
+   "text": "People start goals after temporal landmarks: a new week, a new month. A plan can offer a fresh start on Monday, or simply today’s reading, without first listing what was missed."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "A group reading together",
+   "needs": "Same passage, same day",
+   "fit": {
+    "Dated plan": "good fit",
+    "Sequence": "poor fit",
+    "Weekly rhythm": "possible",
+    "Daily readings": "good fit",
+    "Streak": "poor fit"
+   }
+  },
+  {
+   "situation": "Personal reading at any pace",
+   "needs": "Never late",
+   "fit": {
+    "Dated plan": "poor fit",
+    "Sequence": "good fit",
+    "Weekly rhythm": "possible",
+    "Daily readings": "possible",
+    "Streak": "poor fit"
+   }
+  },
+  {
+   "situation": "Shift work, small children, illness",
+   "needs": "Irregular days",
+   "fit": {
+    "Dated plan": "poor fit",
+    "Sequence": "good fit",
+    "Weekly rhythm": "good fit",
+    "Daily readings": "possible",
+    "Streak": "poor fit"
+   }
+  },
+  {
+   "situation": "Coming back after weeks away",
+   "needs": "A good place to start",
+   "fit": {
+    "Dated plan": "possible",
+    "Sequence": "good fit",
+    "Weekly rhythm": "good fit",
+    "Daily readings": "good fit",
+    "Streak": "poor fit"
+   }
+  },
+  {
+   "situation": "Finishing a book or the Bible",
+   "needs": "A whole to complete",
+   "fit": {
+    "Dated plan": "good fit",
+    "Sequence": "good fit",
+    "Weekly rhythm": "good fit",
+    "Daily readings": "poor fit",
+    "Streak": "possible"
+   }
+  },
+  {
+   "situation": "Daily prayer with the church",
+   "needs": "Today’s readings",
+   "fit": {
+    "Dated plan": "possible",
+    "Sequence": "poor fit",
+    "Weekly rhythm": "poor fit",
+    "Daily readings": "good fit",
+    "Streak": "poor fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Tradition",
+   "subtitle": "Rules that served the reader",
+   "findings": [
+    {
+     "heading": "“Throw aside the fetter”",
+     "text": "M’Cheyne’s four dangers of his own reading calendar.",
+     "sources": [
+      "mcheyne-preface"
+     ]
+    },
+    {
+     "heading": "Arrange whatever is better",
+     "text": "Benedict’s weekly psalter, with freedom to rearrange it.",
+     "sources": [
+      "benedict-18"
+     ]
+    },
+    {
+     "heading": "Readings that belong to the day",
+     "text": "Daily texts and the daily office.",
+     "sources": [
+      "moravian-daily-texts",
+      "coe-daily-office"
+     ]
+    },
+    {
+     "heading": "Discipline and grace",
+     "text": "A chosen rhythm is not spiritual merit.",
+     "sources": [
+      "willard-disciplines-grace"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Psychology",
+   "subtitle": "Habits, streaks and shame",
+   "findings": [
+    {
+     "heading": "A missed day is not fatal",
+     "text": "Habit automaticity grew despite a missed opportunity, on very different timelines for different people.",
+     "sources": [
+      "habit-automaticity"
+     ]
+    },
+    {
+     "heading": "Broken streaks reduce engagement",
+     "text": "Most when people blame themselves; less when the streak can be repaired.",
+     "sources": [
+      "broken-streaks",
+      "duolingo-streak-experiment"
+     ]
+    },
+    {
+     "heading": "Shame withdraws, guilt repairs",
+     "text": "Moral emotions and what they lead people to do.",
+     "sources": [
+      "shame-guilt"
+     ]
+    },
+    {
+     "heading": "Fresh starts",
+     "text": "Temporal landmarks prompt new beginnings.",
+     "sources": [
+      "fresh-start"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Practice",
+   "subtitle": "How Bible apps handle it",
+   "findings": [
+    {
+     "heading": "Catch up without pretending",
+     "text": "YouVersion’s “Catch Me Up” reschedules without marking readings complete, and is not available for plans with friends.",
+     "sources": [
+      "youversion-catch-up"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "A church or group reads together",
+   "start_with": "A dated plan with open days unmarked and a choice on return"
+  },
+  {
+   "if": "People read on their own, at their own pace",
+   "start_with": "A sequence that waits"
+  },
+  {
+   "if": "Lives are irregular",
+   "start_with": "A weekly number that starts fresh each Monday"
+  },
+  {
+   "if": "The practice is daily prayer",
+   "start_with": "Readings that belong to each day, with nothing to catch up"
+  },
+  {
+   "if": "You are tempted to add a streak",
+   "start_with": "Ask what it teaches; if you keep it, let people switch it off and never sell repairs"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What a rhythm is for",
+   "text": "“The Sabbath was made for man, not man for the Sabbath” (Mark 2:27). Daily offices, lectionaries and the Moravian daily texts give each day its words so that no one has to choose alone. God’s mercies are “new every morning” (Lamentations 3:22–23): a rule of reading exists to bring people back to that newness, not to measure them."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Liturgical churches read by a shared calendar, so a congregation hears the same texts on the same day. Many evangelicals favour personal plans, often reading through the whole Bible in a year. Some value discipline as a means of grace; others warn that a plan can become a law. Dallas Willard distinguished effort from earning: a chosen discipline is not merit."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "M’Cheyne warned that his own calendar could become “a yoke too heavy to bear”. Design the plan so that coming back is grace, not debt: no streaks to lose, no reminders that escalate, and a welcome that offers today’s reading without a bill for the days missed."
+  }
+ ],
+ "voices": [
+  {
+   "source": "James K. A. Smith, You Are What You Love (2016)",
+   "url": "https://www.publishersweekly.com/9781587433801",
+   "note": "argues that habits are “liturgies” that train what we love; a streak is a small liturgy, and it teaches something about God and ourselves."
+  },
+  {
+   "source": "Dallas Willard, “Spiritual Disciplines and Means of Grace” (2002)",
+   "url": "https://dwillard.org/resources/articles/spiritual-disciplines-and-means-of-grace-contrast-or-continuum",
+   "note": "insisted that “grace is not opposed to effort, but to earning”: a plan is effort, never merit."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Streaks, paid streak repair and reminders that escalate after silence.",
+  "ethical": "No shame in the copy; let people pause, move dates and change pace.",
+  "redemptive": "Let the plan wait and welcome people back owing nothing, giving up the retention a streak buys.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "After nine days away, does the plan offer a good place to start, or a bill?",
+  "exercise": "Ask three people who abandoned a reading plan what the app said when they last opened it. Then show them each option after nine days away, and ask which one they would open tomorrow.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [
+  {
+   "slug": "flexible-rhythm",
+   "title": "A flexible reading rhythm",
+   "summary": "Help someone choose a reading rhythm—and adjust it when life changes.",
+   "url": "https://missional.design/patterns/reading-plans/#family-flexible-rhythm"
+  },
+  {
+   "slug": "return-without-shame",
+   "title": "Return without shame",
+   "summary": "Make it easy to pick up a reading practice after time away.",
+   "url": "https://missional.design/patterns/reading-plans/#family-return-without-shame"
+  }
+ ],
+ "examples": [
+  {
+   "app": "Olive Tree Bible",
+   "title": "“1 of 3 Complete” and the next reading, inside the text",
+   "url": "https://missional.design/examples/olivetree-plan-bar/",
+   "observed": "Captured 22 September 2025 · from embedded image metadata",
+   "observation": "While reading Luke 1:75–2:1 (NGÜ, German), a thin progress line sits under the passage label, and a green bar in the text reads “1 of 3 Complete” and “Next – Mat 1:18-25”.",
+   "decision": "Progress tied to today’s assignment, with the next step one tap away, answers “what’s left?” without a dashboard. Check whether reading counts as complete automatically or by choice.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Abide",
+   "title": "A streak you can switch off, with history behind Premium",
+   "url": "https://missional.design/examples/abide-streaks/",
+   "observed": "Captured 17 October 2025 · from embedded image metadata",
+   "observation": "The Streaks screen shows a current streak of 1 day beside a sprouting-plant illustration and “0 Total tracks completed”. A “Use streaks” switch is on. Past streak activity is covered by “Upgrade to view past streak activity · Unlock with Premium”.",
+   "decision": "Letting people turn streaks off is a meaningful choice. Putting their own history behind a paywall turns the record into an upsell; consider what people should be able to see about their own activity for free.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "ESV Bible",
+   "title": "Plan settings with “Read at My Own Pace”",
+   "url": "https://missional.design/examples/esv-plan-settings/",
+   "observed": "Captured 26 September 2025 · from embedded image metadata",
+   "observation": "The Plan Settings screen for “A Proverb a Day” has a Reset Plan button, switches for Read at My Own Pace, Subscribe via Email and Read Bible in Context, and rows for Reminders, All Days and About.",
+   "decision": "A pace switch turns a dated plan into a sequence that waits. Say what each change will do before it happens, and make sure Reset Plan keeps notes and history unless the reader chooses otherwise.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Bible.is",
+   "title": "Change the start date of a plan",
+   "url": "https://missional.design/examples/bibleis-change-start/",
+   "observed": "Captured 4 September 2025 · from embedded image metadata",
+   "observation": "On the “ONE - 2025” plan by GAST Team (4,776 followers), a Continue Plan button sits above a sheet offering Share, Change Start Date and Stop Plan.",
+   "decision": "Moving the start date shifts every reading without marking any as missed. Show the new end date before confirming, and keep the plan’s shared dates for people who follow it together.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "YouVersion",
+   "title": "Progress and participants on each plan",
+   "url": "https://missional.design/examples/youversion-plan-participants/",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "My Plans lists three plans. “Bible on Business” shows a short progress bar and “1 Participant” with a small avatar (blurred here); the others show a cover and a title.",
+   "decision": "Progress and people sit together on the plan itself. In a plan with friends everyone sees each other’s completed days; say so before people join, and keep the bar for the reader alone unless they choose to show it.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "YouVersion",
+   "title": "“A plan for parents & kids”",
+   "url": "https://missional.design/examples/youversion-family-plans/",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "Find Plans shows a section “Because You Completed Instilling a Spirit of Gentleness” with plans marked “A plan for parents & kids”: “Sharing God’s Peace with your kids”, “Developing Patience in Your Family”.",
+   "decision": "Plans written for parents to use with their children put the grown-up in the middle.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Spark Bible",
+   "title": "A notification prompt before the first verse",
+   "url": "https://missional.design/examples/sparkbible-notification-ask/",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "During onboarding, behind the system dialog, a slide reads “Get the full experience.”; the dialog offers Allow, “Allow in Scheduled Summary” and Don’t Allow, with “Skip for now.” below.",
+   "decision": "Asking for notifications before someone has read anything gives them no reason to say yes. Ask when someone sets a reminder.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "ESV Bible",
+   "title": "Permission asked when a reminder is set",
+   "url": "https://missional.design/examples/esv-reminder-days/",
+   "observed": "Captured 26 September 2025 · from embedded image metadata",
+   "observation": "“Add a reminder” with “Remind me on these days.” and every weekday ticked; the system dialog asks whether the ESV Bible may send notifications, with Allow, “Allow in Scheduled Summary” and Don’t Allow.",
+   "decision": "Asking at the moment someone sets a reminder gives them a reason to allow it, and the phone offers a quieter option.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Glorify",
+   "title": "“Wake up” and “Wind down” reminders",
+   "url": "https://missional.design/examples/glorify-wake-wind-down/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "Two reminders, “WAKE UP” at 8:00 AM and “WIND DOWN” at 10:00 PM, each listing the days and with its own switch (both off), above the line “Set different times for your Daily Worship on weekdays and weekends to create good habits fast.” and an “ADD NEW REMINDER” button.",
+   "decision": "Reminders the person times to their own morning and evening. “Good habits fast” frames prayer as habit-building; say instead what the time is for.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "mcheyne-preface",
+   "title": "Daily Bread: M’Cheyne’s calendar for daily readings, with his preface",
+   "url": "https://vernalpc.org/resources/mcheyne-daily-bread",
+   "author": "Robert Murray M’Cheyne, 1842 · Vernal Presbyterian Church",
+   "kind": "History",
+   "shows": "M’Cheyne named four dangers of his own calendar: formality (“let the calendar perish rather than this rust eat up your souls”), self-righteousness, careless reading and “a yoke too heavy to bear”: “throw aside the fetter, and feed at liberty in the sweet garden of God.”",
+   "application": "A plan’s own author put the reader’s freedom above the schedule; build that freedom into the plan.",
+   "limits": "A pastor’s preface, not a study."
+  },
+  {
+   "key": "benedict-18",
+   "title": "The Rule of Benedict, chapter 18: the order for reciting the psalms",
+   "url": "https://pressbooks.palni.org/ruleofbenedict/?p=107",
+   "author": "Saint Benedict, 6th century · Saint Meinrad Archabbey translation",
+   "kind": "History",
+   "shows": "After setting out the weekly psalter in detail, Benedict counsels anyone who finds the distribution unsatisfactory “to arrange whatever he judges better”, provided the whole psalter is sung each week.",
+   "application": "Keep the purpose of a rhythm fixed and let its arrangement change.",
+   "limits": "A monastic rule for a community, not individual readers."
+  },
+  {
+   "key": "habit-automaticity",
+   "title": "How are habits formed: Modelling habit formation in the real world",
+   "url": "https://onlinelibrary.wiley.com/doi/10.1002/ejsp.674",
+   "author": "Lally et al. · 2010",
+   "kind": "Habit formation study",
+   "shows": "Modelled automaticity timelines varied substantially between participants.",
+   "application": "Avoid universal habit-formation deadlines.",
+   "limits": "Not a gamification study or a test of intrinsic motivation replacing incentives."
+  },
+  {
+   "key": "broken-streaks",
+   "title": "On or off track: how (broken) streaks affect consumer decisions",
+   "url": "https://udspace.udel.edu/handle/19716/34160",
+   "author": "Jackie Silverman and Alixandra Barasch · Journal of Consumer Research 49(6), 2023",
+   "kind": "Research",
+   "shows": "In seven studies, highlighting a broken streak reduced later engagement compared with an intact one, regardless of actual behaviour; the effect was stronger when people blamed themselves for the break, and weaker when the streak could be repaired.",
+   "application": "Counting consecutive days makes a missed day look like a loss; do not make the count the point.",
+   "limits": "Consumer and lab studies; not Scripture reading."
+  },
+  {
+   "key": "fresh-start",
+   "title": "The fresh start effect: temporal landmarks motivate aspirational behavior",
+   "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2014/06/Dai_Fresh_Start_2014_Mgmt_Sci.pdf",
+   "author": "Hengchen Dai, Katherine L. Milkman and Jason Riis · Management Science, 2014",
+   "kind": "Research",
+   "shows": "Goal-directed behaviour (gym visits, “diet” searches, commitments) rises after temporal landmarks such as a new week, month or birthday.",
+   "application": "A new week or a new day is a natural place to begin again; offer it.",
+   "limits": "Archival field data on health and goals."
+  },
+  {
+   "key": "shame-guilt",
+   "title": "Moral emotions and moral behavior",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16953797/",
+   "author": "June Price Tangney, Jeff Stuewig and Debra J. Mashek · Annual Review of Psychology 58, 2007",
+   "kind": "Research",
+   "shows": "Shame, a painful focus on the self, tends to prompt hiding, denial and withdrawal; guilt about a specific act tends to prompt repair.",
+   "application": "Copy that makes people feel they have failed as readers invites them to stay away.",
+   "limits": "General moral-emotion research, not app design."
+  },
+  {
+   "key": "duolingo-streak-experiment",
+   "title": "Improving the streak",
+   "url": "https://blog.duolingo.com/improving-the-streak/",
+   "author": "Duolingo",
+   "kind": "Provider experiment report",
+   "shows": "Separating streak and daily-goal requirements increased reported retention while fewer learners reached daily goals.",
+   "application": "Evaluate competing outcomes of an incentive.",
+   "limits": "Company-reported results; not independent learning or formation evidence."
+  },
+  {
+   "key": "youversion-catch-up",
+   "title": "Android: Catch Me Up",
+   "url": "https://help.youversion.com/l/en/article/7de8qv7xuc-catch-me-up-on-android",
+   "author": "YouVersion Support",
+   "kind": "Product documentation",
+   "shows": "Documents rescheduling without marking sections complete; not available for Plans with Friends.",
+   "application": "Compare recovery options with the reader’s experience of progress.",
+   "limits": "Documented behaviour; exact interface and discovery were not tested."
+  },
+  {
+   "key": "moravian-daily-texts",
+   "title": "Losungen: the Moravian Daily Texts",
+   "url": "https://www.herrnhuter.ch/losungen.html",
+   "author": "Herrnhuter Brüdergemeine in der Schweiz",
+   "kind": "Practice documentation",
+   "shows": "Describes an Old Testament watchword, New Testament text and accompanying song or prayer.",
+   "application": "Distinguish daily received content from enrolment in a finite plan.",
+   "limits": "Format documentation, not comparative popularity or outcome evidence."
+  },
+  {
+   "key": "coe-daily-office",
+   "title": "Daily Prayer app and podcast",
+   "url": "https://www.churchofengland.org/prayer-and-worship/join-us-service-daily-prayer/daily-prayer-app-and-podcast",
+   "author": "Church of England",
+   "kind": "Product documentation",
+   "shows": "Describes daily offices with readings, seasonal variations and calendar information.",
+   "application": "Compare a complete prayer order with generic devotional content.",
+   "limits": "Documented overview only; no live app capture or exhaustive liturgical rules review."
+  },
+  {
+   "key": "willard-disciplines-grace",
+   "title": "Spiritual Disciplines and Means of Grace: Contrast or Continuum?",
+   "url": "https://dwillard.org/resources/articles/spiritual-disciplines-and-means-of-grace-contrast-or-continuum",
+   "author": "Dallas Willard / Modern Reformation · 2002",
+   "kind": "Theological interview",
+   "shows": "Discusses practices in relation to grace; the interviewer raises concerns about individualism and corporate worship.",
+   "application": "Ask whether a chosen rhythm is being confused with spiritual merit.",
+   "limits": "A theological conversation containing disagreement, not empirical evidence of reading-plan effects."
+  }
+ ],
+ "review": null,
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

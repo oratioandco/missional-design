@@ -1,0 +1,637 @@
+{
+ "slug": "progress-and-streaks",
+ "url": "https://missional.design/patterns/progress-and-streaks/",
+ "title": "Progress and streaks",
+ "question": "What should a reading history show?",
+ "lede": "Twelve chapters into a plan, someone misses nine days. When they open the app again, the progress screen speaks first. It can tell them they broke a streak, that they have read most of Mark, what they noticed along the way, or nothing at all. What it says can encourage a weary reader back to God, or send them away ashamed.",
+ "calling": "Decide what this screen says to someone in the worst week of their year.",
+ "spectrum": {
+  "title": "Nine ways to reflect reading back, side by side",
+  "from": "",
+  "to": ""
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/reading-progress/",
+  "situation": "The same synthetic reader appears in three situations: in their first week with the app, reading steadily since July, and back after nine days away. Switch between them and watch which views celebrate, which stay the same, and which make the gap the headline."
+ },
+ "options": [
+  {
+   "key": "activity",
+   "name": "Activity chart",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from GitHub’s contribution graph. This version starts at the reader’s first week rather than showing an empty year.",
+   "gain": "Starts when the reader started",
+   "cost": "A chart to keep filled",
+   "makes_easier": "Accumulation is visible at a glance, and a single missed week barely registers against a summer of reading.",
+   "costs": "Gaps are still visible, and a dense chart can become something to keep filled. It counts days in the app, not attention.",
+   "ask_your_team": "Should the chart begin when the person began, or on a calendar you chose?",
+   "still": "https://missional.design/assets/stills/try-progress-activity.jpg"
+  },
+  {
+   "key": "levels",
+   "name": "Levels and badges",
+   "provenance": "Familiar convention",
+   "origin": "Popularised by language-learning apps such as Duolingo. Related mechanics appear in faith apps: Abide’s switchable streak, BeBlessed’s seventh-day gift and Glorify’s growing tree (see the screenshots below). Generalized here.",
+   "gain": "Quick early rewards",
+   "cost": "The app’s idea of progress",
+   "makes_easier": "Early levels come fast, so a beginner sees movement on day three. Badges can name milestones that matter, such as finishing a first book.",
+   "costs": "Points turn reading into a score, and losing a streak is built in. The incentive is the app’s, not the reader’s, unless they chose it.",
+   "ask_your_team": "Would this reader still open the Bible if the points disappeared tomorrow?",
+   "still": "https://missional.design/assets/stills/try-progress-levels.jpg"
+  },
+  {
+   "key": "coverage",
+   "name": "Book map",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from completion views such as maps of visited places; Olive Tree’s “1 of 3 Complete · Next” bar is a plan-scoped relative (see below). Switch inside the example between this plan and the whole Bible.",
+   "gain": "A finite plan you can finish",
+   "cost": "The whole Bible looks unreachable",
+   "makes_easier": "Measured against a chosen plan, twelve of sixteen chapters feels like real progress, and a break changes nothing.",
+   "costs": "Measured against all 1,189 chapters, the same reading becomes a scatter of dots, about 2%. The denominator decides whether progress feels meaningful.",
+   "ask_your_team": "What scope is this person measuring themselves against, and who chose it?",
+   "still": "https://missional.design/assets/stills/try-progress-coverage.jpg"
+  },
+  {
+   "key": "none",
+   "name": "No progress view",
+   "provenance": "Leave it out",
+   "origin": "The app opens on the next passage and counts nothing. Dwell’s “Resume Genesis 1:3” works this way: a way back in, with no score (see below).",
+   "gain": "No score to protect",
+   "cost": "No sense of a journey",
+   "makes_easier": "Nothing to fall behind on. Day three and a return after nine days look the same.",
+   "costs": "No overview of what has been read, no help finishing a chosen plan, and no encouragement for someone who wanted to see it.",
+   "ask_your_team": "What would a reader lose if this screen never existed, and who would miss it?",
+   "still": "https://missional.design/assets/stills/try-progress-none.jpg"
+  },
+  {
+   "key": "today",
+   "name": "Today’s step",
+   "provenance": "Observed",
+   "origin": "Observed in Olive Tree’s in-text “1 of 3 Complete · Next” bar (see below); also borrowed from meditation apps whose home card advances to the next day. Generalized here.",
+   "gain": "Only the next step",
+   "cost": "Little sense of the whole",
+   "makes_easier": "The home screen is the progress indicator: one next step, sized to the plan, with nothing to catch up on. A break simply waits.",
+   "costs": "It shows little of the bigger picture, and someone who wants to see their history or skip ahead needs another route. The plan still sets the pace.",
+   "ask_your_team": "Is “what’s next” all this person needs to see?",
+   "still": "https://missional.design/assets/stills/try-progress-today.jpg"
+  },
+  {
+   "key": "calendar",
+   "name": "Month calendar with a streak",
+   "provenance": "Familiar convention",
+   "origin": "Common in habit and reading apps. Generalized here, not copied from one product.",
+   "gain": "A clear daily rhythm",
+   "cost": "Gaps become the headline",
+   "makes_easier": "Makes consistency visible for someone who has chosen a daily habit and wants feedback on it.",
+   "costs": "After a break the streak drops to zero and the gap becomes the most visible thing on the screen.",
+   "ask_your_team": "Is consistency what this person asked you to track?",
+   "still": "https://missional.design/assets/stills/try-progress-calendar.jpg"
+  },
+  {
+   "key": "time",
+   "name": "Time with Scripture",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from meditation and fitness apps that total minutes.",
+   "gain": "No finish line",
+   "cost": "Minutes are not attention",
+   "makes_easier": "Minutes add up from the first session and have no finish line, so there is nothing to feel small against.",
+   "costs": "Time in the app is not attention, and a bigger number is not a better reader. It can reward leaving the app open.",
+   "ask_your_team": "Does more time mean anything good for the person you are designing for?",
+   "still": "https://missional.design/assets/stills/try-progress-time.jpg"
+  },
+  {
+   "key": "returning",
+   "name": "Where you keep returning",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from “most played” lists in music apps: frequency and recency without a total to complete.",
+   "gain": "Shows what someone loves",
+   "cost": "Counts opens, not reading",
+   "makes_easier": "Shows a person their own habits of attention: the Psalms they come back to and the book they are in now. No denominator at all.",
+   "costs": "Repeated reading can look like a lack of progress to someone who expects coverage. Recency labels can still imply neglect.",
+   "ask_your_team": "Is returning to a familiar passage something your app treats as progress?",
+   "still": "https://missional.design/assets/stills/try-progress-returning.jpg"
+  },
+  {
+   "key": "journal",
+   "name": "Reflection notes",
+   "provenance": "Exploratory · untested",
+   "origin": "A proposal: progress made of the reader’s own words. Not observed in a specific app.",
+   "gain": "The reader’s own words",
+   "cost": "Asks for effort and trust",
+   "makes_easier": "Puts what stayed with someone ahead of how often they opened the app. A break leaves no mark.",
+   "costs": "Writing takes effort and many people will not do it; an empty journal can feel like failure too. Private reflections need deliberate decisions about storage, sync and sharing.",
+   "ask_your_team": "Would people write here, and who could ever read it?",
+   "still": "https://missional.design/assets/stills/try-progress-journal.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Against the whole Bible, any start looks tiny",
+   "text": "The Bible has 1,189 chapters. Open “Whole Bible” in the book map: the reader since July has read about 2%. Someone who has just started can easily conclude they have barely begun and never will finish."
+  },
+  {
+   "heading": "Smaller frames encourage, and bring their own pressure",
+   "text": "Today’s step shows only the next reading. The activity chart starts when the person did. Levels come quickly at first. Minutes and returns have no finish line, and a chosen plan is small enough to complete. Each adds its own pull: a chart to fill, a streak to protect, a score that is the app’s idea of progress rather than the reader’s."
+  },
+  {
+   "heading": "The return after a gap tells them apart",
+   "text": "After nine days away, the calendar and levels make the gap the headline; the chart, map, minutes and returns barely move; notes and the plain reader say nothing. None of them knows about the chapter read aloud at church. Say what each view counts, let people choose the frame, and let them hide it."
+  },
+  {
+   "heading": "Support the practice; don’t keep score of the person",
+   "text": "Daily Scripture and prayer are long-valued disciplines, and helping someone keep a rhythm they chose is worth building. Habit research adds that missing a day doesn’t undo a habit, while seeing a broken streak makes people likelier to stop. Let people choose what is counted, who sees it and whether it is shown at all."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "Just starting out",
+   "needs": "Encouragement that starts with them",
+   "fit": {
+    "Activity chart": "good fit",
+    "Levels and badges": "possible",
+    "Book map": "poor fit",
+    "No progress view": "possible",
+    "Today’s step": "good fit",
+    "Month calendar with a streak": "poor fit",
+    "Time with Scripture": "possible",
+    "Where you keep returning": "possible",
+    "Reflection notes": "possible"
+   }
+  },
+  {
+   "situation": "Keeping a chosen daily rhythm",
+   "needs": "Gentle feedback on the habit",
+   "fit": {
+    "Activity chart": "good fit",
+    "Levels and badges": "poor fit",
+    "Book map": "poor fit",
+    "No progress view": "poor fit",
+    "Today’s step": "possible",
+    "Month calendar with a streak": "possible",
+    "Time with Scripture": "possible",
+    "Where you keep returning": "poor fit",
+    "Reflection notes": "poor fit"
+   }
+  },
+  {
+   "situation": "Reading a book through",
+   "needs": "Where they are in it",
+   "fit": {
+    "Activity chart": "poor fit",
+    "Levels and badges": "poor fit",
+    "Book map": "good fit",
+    "No progress view": "poor fit",
+    "Today’s step": "possible",
+    "Month calendar with a streak": "poor fit",
+    "Time with Scripture": "poor fit",
+    "Where you keep returning": "poor fit",
+    "Reflection notes": "poor fit"
+   }
+  },
+  {
+   "situation": "Coming back after weeks away",
+   "needs": "No headline about the gap",
+   "fit": {
+    "Activity chart": "possible",
+    "Levels and badges": "poor fit",
+    "Book map": "possible",
+    "No progress view": "good fit",
+    "Today’s step": "good fit",
+    "Month calendar with a streak": "poor fit",
+    "Time with Scripture": "possible",
+    "Where you keep returning": "possible",
+    "Reflection notes": "possible"
+   }
+  },
+  {
+   "situation": "Looking back on a season",
+   "needs": "What changed, not how much",
+   "fit": {
+    "Activity chart": "poor fit",
+    "Levels and badges": "poor fit",
+    "Book map": "poor fit",
+    "No progress view": "poor fit",
+    "Today’s step": "poor fit",
+    "Month calendar with a streak": "poor fit",
+    "Time with Scripture": "possible",
+    "Where you keep returning": "good fit",
+    "Reflection notes": "good fit"
+   }
+  },
+  {
+   "situation": "Perfectionism or a competitive streak",
+   "needs": "Nothing to win or lose",
+   "fit": {
+    "Activity chart": "possible",
+    "Levels and badges": "poor fit",
+    "Book map": "poor fit",
+    "No progress view": "good fit",
+    "Today’s step": "good fit",
+    "Month calendar with a streak": "poor fit",
+    "Time with Scripture": "possible",
+    "Where you keep returning": "possible",
+    "Reflection notes": "possible"
+   }
+  },
+  {
+   "situation": "Reading together as a group",
+   "needs": "A shared place, a private record",
+   "fit": {
+    "Activity chart": "poor fit",
+    "Levels and badges": "poor fit",
+    "Book map": "possible",
+    "No progress view": "possible",
+    "Today’s step": "good fit",
+    "Month calendar with a streak": "poor fit",
+    "Time with Scripture": "poor fit",
+    "Where you keep returning": "poor fit",
+    "Reflection notes": "poor fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "Rhythm without a scoreboard",
+   "findings": [
+    {
+     "heading": "Small beginnings count",
+     "text": "“Who has despised the day of small things?” (Zechariah 4:10). Against 1,189 chapters, every start looks small; a view that makes it look like failure works against the one reading.",
+     "sources": []
+    },
+    {
+     "heading": "The plan’s author warned against his plan",
+     "text": "M’Cheyne, whose calendar still shapes reading plans, named its dangers: formality, self-righteousness, careless reading and “a yoke too heavy to bear”, and told readers to “throw aside the fetter” when it became one.",
+     "sources": [
+      "mcheyne-preface"
+     ]
+    },
+    {
+     "heading": "Rules served the rhythm",
+     "text": "Benedict set out the weekly psalter in detail, then told anyone who found it unsatisfactory to arrange it better, as long as the whole psalter was prayed each week.",
+     "sources": [
+      "benedict-18"
+     ]
+    },
+    {
+     "heading": "Report truthfully",
+     "text": "The Cape Town Commitment calls for truthful reporting and questions demands for visible results. A progress screen is a report; it should not inflate or shame.",
+     "sources": [
+      "lausanne-success"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Motivation research",
+   "subtitle": "What counting does",
+   "findings": [
+    {
+     "heading": "Expected rewards can undermine interest",
+     "text": "Across 128 experiments, expected tangible rewards tied to doing a task reduced intrinsic interest; informational positive feedback did not.",
+     "sources": [
+      "rewards-intrinsic-meta"
+     ]
+    },
+    {
+     "heading": "Measuring can drain enjoyment",
+     "text": "In six experiments, measuring walking or reading made people do more but enjoy it less.",
+     "sources": [
+      "personal-quantification"
+     ]
+    },
+    {
+     "heading": "Gamification depends on design",
+     "text": "A meta-analysis of educational gamification finds effects that vary with design and context; points and badges are not a reliable lever on their own.",
+     "sources": [
+      "gamification-meta"
+     ]
+    },
+    {
+     "heading": "Autonomy matters",
+     "text": "Self-determination theory distinguishes doing something because one values it from doing it under pressure; support for autonomy, competence and relatedness sustains the first.",
+     "sources": [
+      "autonomous-motivation",
+      "sdt"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Habits and returning",
+   "subtitle": "Missing a day, starting again",
+   "findings": [
+    {
+     "heading": "Habits form at different speeds",
+     "text": "In a study of everyday habits, the time to automaticity varied widely between people, and missing a single opportunity did not materially set it back.",
+     "sources": [
+      "habit-automaticity"
+     ]
+    },
+    {
+     "heading": "A broken streak makes stopping likelier",
+     "text": "Across seven studies, highlighting a broken streak reduced later engagement, most when people blamed themselves, and less when the streak could be repaired.",
+     "sources": [
+      "broken-streaks"
+     ]
+    },
+    {
+     "heading": "New beginnings help",
+     "text": "Goal-directed behaviour rises after temporal landmarks such as a new week or month: a natural moment to invite someone back.",
+     "sources": [
+      "fresh-start"
+     ]
+    },
+    {
+     "heading": "Shame drives people away",
+     "text": "Shame focuses on the self and tends to prompt hiding and withdrawal; guilt about a specific act tends to prompt repair. A return screen should never be a verdict on the person.",
+     "sources": [
+      "shame-guilt"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "Someone is new to the app or to the Bible",
+   "start_with": "A frame that starts with them: an activity chart from their first week, a short plan, or returns"
+  },
+  {
+   "if": "Someone chose a daily habit and wants feedback on it",
+   "start_with": "A calendar or activity chart, with any streak optional and easy to hide"
+  },
+  {
+   "if": "Someone is working through a book or a finite plan",
+   "start_with": "Coverage of that plan, not of the whole Bible"
+  },
+  {
+   "if": "Your product leans on points and badges",
+   "start_with": "Make them opt-in, and test what happens when someone loses a streak"
+  },
+  {
+   "if": "You don’t know yet",
+   "start_with": "Start with no progress view and a saved place. Add a record when people ask for one"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What growth is",
+   "text": "“I planted the seed and Apollos watered it, but God made it grow” (1 Corinthians 3:6). The seed grows, “though he knows not how” (Mark 4:27), and “the kingdom of God will not come with observable signs” (Luke 17:20). Paul pressed on, “forgetting what is behind” (Philippians 3:13–14). Spiritual growth is real, but it is mostly hidden, even from the person growing."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Some traditions value keeping a record: spiritual journals, Puritan diaries, Wesley’s accountability. Others warn that measuring piety breeds pride or despair. Willard argued that grace is opposed to earning, not to effort, and many readers find a simple record helpful for a chosen discipline."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "A record of reading is not a measure of faith. Show what was read, not a score, let people turn tracking off, and never compare them with others. Leave room for the seasons when the best thing a person did was not open the app."
+  }
+ ],
+ "voices": [
+  {
+   "source": "James K. A. Smith, You Are What You Love (2016)",
+   "url": "https://www.publishersweekly.com/9781587433801",
+   "note": "warns that “secular liturgies” carry a story about who we are; badges and leaderboards tell a story of competition."
+  },
+  {
+   "source": "Dallas Willard, “Spiritual Disciplines and Means of Grace” (2002)",
+   "url": "https://dwillard.org/resources/articles/spiritual-disciplines-and-means-of-grace-contrast-or-continuum",
+   "note": "distinguished effort from earning: a record of reading must never become a record of merit."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Levels, leaderboards and badges turn reading into a contest.",
+  "ethical": "Make any tracking optional and describe it honestly.",
+  "redemptive": "Show what was read rather than how much, and give up the engagement numbers a contest produces.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "What will this screen say to someone on the day they come back?",
+  "exercise": "Complete this sentence as a team: when someone returns, we will show ___ because they are trying to ___. Then ask two people who use your app what they would want to see after a week away.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [],
+ "examples": [
+  {
+   "app": "HelloBible",
+   "title": "A daily verse card alongside practice entry points",
+   "url": "https://missional.design/examples/hellobible-home/",
+   "observed": "Undated · reviewed 5 October 2026",
+   "observation": "The mockup combines a daily verse with reference and actions, service cards, a prominent central action, and a numerical flame indicator.",
+   "decision": "A home screen can connect a short Scripture encounter with further practices. Explain progress indicators without implying that a number measures faith or wellbeing.",
+   "limits": "This is a promotional mockup, not a live app capture. The flame’s precise meaning, central action, chat output, storage behaviour and safeguarding responses were not tested."
+  },
+  {
+   "app": "Olive Tree Bible",
+   "title": "“1 of 3 Complete” and the next reading, inside the text",
+   "url": "https://missional.design/examples/olivetree-plan-bar/",
+   "observed": "Captured 22 September 2025 · from embedded image metadata",
+   "observation": "While reading Luke 1:75–2:1 (NGÜ, German), a thin progress line sits under the passage label, and a green bar in the text reads “1 of 3 Complete” and “Next – Mat 1:18-25”.",
+   "decision": "Progress tied to today’s assignment, with the next step one tap away, answers “what’s left?” without a dashboard. Check whether reading counts as complete automatically or by choice.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Abide",
+   "title": "A streak you can switch off, with history behind Premium",
+   "url": "https://missional.design/examples/abide-streaks/",
+   "observed": "Captured 17 October 2025 · from embedded image metadata",
+   "observation": "The Streaks screen shows a current streak of 1 day beside a sprouting-plant illustration and “0 Total tracks completed”. A “Use streaks” switch is on. Past streak activity is covered by “Upgrade to view past streak activity · Unlock with Premium”.",
+   "decision": "Letting people turn streaks off is a meaningful choice. Putting their own history behind a paywall turns the record into an upsell; consider what people should be able to see about their own activity for free.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "BeBlessed",
+   "title": "A seventh-day gift for daily listening",
+   "url": "https://missional.design/examples/beblessed-gift-streak/",
+   "observed": "Captured 26 September 2025 · from embedded image metadata",
+   "observation": "“Story for You” reads “Daily listens earn a 7th-day gift!” above seven numbered circles ending in a gift icon and “Get a Gift!”. Below, a premium collection shows a 23:59:56 countdown.",
+   "decision": "A reward for consecutive days creates a reason to return that is about the reward. Combined with a countdown, it adds urgency. Test how people feel when they miss day six.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Glorify",
+   "title": "Progress as a growing tree",
+   "url": "https://missional.design/examples/glorify-tree/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "“My Journey” shows a sapling with roots, “Tree progress 3/10” as a segmented bar, “Trees grown 1”, and current and longest streaks of 0 and 2.",
+   "decision": "A metaphor can make small progress feel alive, and starts small enough for beginners. Here it sits beside a streak of 0, which still makes the gap visible.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Dwell",
+   "title": "A saved place, with no personal progress",
+   "url": "https://missional.design/examples/dwell-bible-resume/",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "The Bible tab offers “Resume Genesis 1:3” for “The Bible, 84h 39m”. Books list their chapter count and audio length (Genesis, 50 chapters, 3h 58m). A mini-player shows Philippians 1.",
+   "decision": "The durations describe the recordings, not the listener: there is a way back in without any score. People who want to see what they have covered would need something more.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "YouVersion",
+   "title": "A profile that lists badges and verse images as activity",
+   "url": "https://missional.design/examples/youversion-profile-activity/",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "The profile (the account holder’s name and photo blurred here) has tiles for Saved, Friends, Badges and Prayer List, above a stream of activity: “You earned the Daily Refresh Badge” with a heart and a comment button, then “You created a verse image for Lukas 8:5-8 NGU2011”.",
+   "decision": "A stream of activity makes reading into entries others can like. Say who sees each entry, and let people keep their reading off it.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "HelloBible",
+   "title": "A profile of series, time in the app and conversations",
+   "url": "https://missional.design/examples/hellobible-profile-stats/",
+   "observed": "Captured 8 October 2026 · from embedded image metadata",
+   "observation": "The profile shows a week strip under “Series” with days 5 to 8 marked, then six tiles: Current series 1 day, Daily verses 0, Record series 1 day, Time in the app 5 min, Conversations 32, Time Today 0 min. Settings follow; none of them lists or edits the answers given during onboarding.",
+   "decision": "Counting time in the app and conversations measures the product’s engagement, not the person’s life with God. If onboarding answers personalise the app, let people see and change them here.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Pray.com",
+   "title": "“Active Streakers” to praise, and friends to “Remind”",
+   "url": "https://missional.design/examples/praycom-remind-friends/",
+   "observed": "Captured 20 August 2025 · from embedded image metadata",
+   "observation": "A “Community Board” lists “Active Streakers” with the number of days each has kept a streak and a Praise button, then a “Remind” list of friends who stopped one to seven days ago, each with a Remind button, and “Invite to Pray” with access to contacts. Names and photos are blurred here.",
+   "decision": "A button to remind a friend who stopped turns one person’s silence into another’s notification. If friends are part of the app, let them pray for each other, not prompt each other back.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "youversion-catch-up",
+   "title": "Android: Catch Me Up",
+   "url": "https://help.youversion.com/l/en/article/7de8qv7xuc-catch-me-up-on-android",
+   "author": "YouVersion Support",
+   "kind": "Product documentation",
+   "shows": "Documents rescheduling without marking sections complete; not available for Plans with Friends.",
+   "application": "Compare recovery options with the reader’s experience of progress.",
+   "limits": "Documented behaviour; exact interface and discovery were not tested."
+  },
+  {
+   "key": "rewards-intrinsic-meta",
+   "title": "A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation",
+   "url": "https://selfdeterminationtheory.org/wp-content/uploads/2014/04/1999_DeciKoestnerRyan_Meta.pdf",
+   "author": "Deci, Koestner and Ryan · 1999",
+   "kind": "Research synthesis",
+   "shows": "128 experiments support an undermining risk for expected contingent tangible rewards; positive feedback differs.",
+   "application": "Assess interest and autonomous engagement alongside activity.",
+   "limits": "Not a blanket effect of gamification, a Bible-app trial or a one-month threshold."
+  },
+  {
+   "key": "autonomous-motivation",
+   "title": "Intrinsic and extrinsic motivation from a self-determination theory perspective",
+   "url": "https://selfdeterminationtheory.org/wp-content/uploads/2020/06/2020_RyanDeci_IntrinsicandExtrinsic.pdf",
+   "author": "Ryan and Deci · 2020",
+   "kind": "Motivation framework",
+   "shows": "Distinguishes enjoyment from acting for personally endorsed values.",
+   "application": "Support chosen practices without assuming every session must be enjoyable.",
+   "limits": "Theoretical research review; application to faith-app features remains a design judgment."
+  },
+  {
+   "key": "lausanne-success",
+   "title": "The Cape Town Commitment: integrity and success",
+   "url": "https://lausanne.org/statement/ctcommitment",
+   "author": "Lausanne Movement · 2010",
+   "kind": "Missional commitment",
+   "shows": "Calls for truthful reporting and questions unrealistic demands for visible results while retaining accountability.",
+   "application": "Keep product activity and funding reports distinct from claims of spiritual transformation.",
+   "limits": "Evangelical missional commitment, not a comparison of interface or funding-model effectiveness."
+  },
+  {
+   "key": "mcheyne-preface",
+   "title": "Daily Bread: M’Cheyne’s calendar for daily readings, with his preface",
+   "url": "https://vernalpc.org/resources/mcheyne-daily-bread",
+   "author": "Robert Murray M’Cheyne, 1842 · Vernal Presbyterian Church",
+   "kind": "History",
+   "shows": "M’Cheyne named four dangers of his own calendar: formality (“let the calendar perish rather than this rust eat up your souls”), self-righteousness, careless reading and “a yoke too heavy to bear”: “throw aside the fetter, and feed at liberty in the sweet garden of God.”",
+   "application": "A plan’s own author put the reader’s freedom above the schedule; build that freedom into the plan.",
+   "limits": "A pastor’s preface, not a study."
+  },
+  {
+   "key": "benedict-18",
+   "title": "The Rule of Benedict, chapter 18: the order for reciting the psalms",
+   "url": "https://pressbooks.palni.org/ruleofbenedict/?p=107",
+   "author": "Saint Benedict, 6th century · Saint Meinrad Archabbey translation",
+   "kind": "History",
+   "shows": "After setting out the weekly psalter in detail, Benedict counsels anyone who finds the distribution unsatisfactory “to arrange whatever he judges better”, provided the whole psalter is sung each week.",
+   "application": "Keep the purpose of a rhythm fixed and let its arrangement change.",
+   "limits": "A monastic rule for a community, not individual readers."
+  },
+  {
+   "key": "personal-quantification",
+   "title": "The hidden cost of personal quantification",
+   "url": "https://marketing.wharton.upenn.edu/wp-content/uploads/2016/10/Etkin-Jordan-11-12-15-Hidden-Cost.pdf",
+   "author": "Jordan Etkin · Journal of Consumer Research 42(6), 2016",
+   "kind": "Research",
+   "shows": "In six experiments, measuring an activity (walking, reading) increased how much people did but reduced how much they enjoyed it, by undermining intrinsic motivation.",
+   "application": "Counting minutes or prayers may raise activity while turning prayer into output; do not measure it.",
+   "limits": "Leisure activities in experiments, not prayer."
+  },
+  {
+   "key": "gamification-meta",
+   "title": "The Gamification of Learning: a Meta-analysis",
+   "url": "https://link.springer.com/article/10.1007/s10648-019-09498-w",
+   "author": "Michael Sailer and Lisa Homner · 2020",
+   "kind": "Research publication",
+   "shows": "Synthesises educational learning outcomes; effects depend on design and context.",
+   "application": "Separate learning outcomes, motivation and behaviour from spiritual-formation claims.",
+   "limits": "Education evidence does not establish spiritual growth or effects for every faith-app population."
+  },
+  {
+   "key": "sdt",
+   "title": "Self-Determination Theory: the theory",
+   "url": "https://selfdeterminationtheory.org/the-theory/",
+   "author": "Center for Self-Determination Theory",
+   "kind": "Motivation framework",
+   "shows": "Distinguishes motivational quality and support for autonomy, competence and relatedness.",
+   "application": "Review whether a mechanism supports a chosen practice or pressures participation.",
+   "limits": "A broad framework, not a validation of specific Bible-app interventions."
+  },
+  {
+   "key": "habit-automaticity",
+   "title": "How are habits formed: Modelling habit formation in the real world",
+   "url": "https://onlinelibrary.wiley.com/doi/10.1002/ejsp.674",
+   "author": "Lally et al. · 2010",
+   "kind": "Habit formation study",
+   "shows": "Modelled automaticity timelines varied substantially between participants.",
+   "application": "Avoid universal habit-formation deadlines.",
+   "limits": "Not a gamification study or a test of intrinsic motivation replacing incentives."
+  },
+  {
+   "key": "broken-streaks",
+   "title": "On or off track: how (broken) streaks affect consumer decisions",
+   "url": "https://udspace.udel.edu/handle/19716/34160",
+   "author": "Jackie Silverman and Alixandra Barasch · Journal of Consumer Research 49(6), 2023",
+   "kind": "Research",
+   "shows": "In seven studies, highlighting a broken streak reduced later engagement compared with an intact one, regardless of actual behaviour; the effect was stronger when people blamed themselves for the break, and weaker when the streak could be repaired.",
+   "application": "Counting consecutive days makes a missed day look like a loss; do not make the count the point.",
+   "limits": "Consumer and lab studies; not Scripture reading."
+  },
+  {
+   "key": "fresh-start",
+   "title": "The fresh start effect: temporal landmarks motivate aspirational behavior",
+   "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2014/06/Dai_Fresh_Start_2014_Mgmt_Sci.pdf",
+   "author": "Hengchen Dai, Katherine L. Milkman and Jason Riis · Management Science, 2014",
+   "kind": "Research",
+   "shows": "Goal-directed behaviour (gym visits, “diet” searches, commitments) rises after temporal landmarks such as a new week, month or birthday.",
+   "application": "A new week or a new day is a natural place to begin again; offer it.",
+   "limits": "Archival field data on health and goals."
+  },
+  {
+   "key": "shame-guilt",
+   "title": "Moral emotions and moral behavior",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16953797/",
+   "author": "June Price Tangney, Jeff Stuewig and Debra J. Mashek · Annual Review of Psychology 58, 2007",
+   "kind": "Research",
+   "shows": "Shame, a painful focus on the self, tends to prompt hiding, denial and withdrawal; guilt about a specific act tends to prompt repair.",
+   "application": "Copy that makes people feel they have failed as readers invites them to stay away.",
+   "limits": "General moral-emotion research, not app design."
+  }
+ ],
+ "review": null,
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

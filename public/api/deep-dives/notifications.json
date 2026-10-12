@@ -1,0 +1,634 @@
+{
+ "slug": "notifications",
+ "url": "https://missional.design/patterns/notifications/",
+ "title": "Notifications and reminders",
+ "question": "When may a faith app interrupt someone, in whose voice, and who decides?",
+ "lede": "“Morning, noon, and night, I cry out in distress, and He hears my voice” (Psalm 55:17). For centuries a bell has called Christians to prayer at shared hours. Now a phone beside the bed can call them at any hour, about anything, in any voice: a reminder they set, a verse of the day, a friend who prayed for them, a countdown on a streak, or an AI companion that says it has been thinking about them. Notifications are the strongest tool an app has to bring people back, and the most intimate. Most of the time a reminder helps someone keep a practice they want to keep. Design also for the person who has been away for weeks, and for the one who is awake at 2 am.",
+ "calling": "Call people as the church’s bell does, at hours they chose, in a still, small voice; never with urgency, guilt or a voice that is not a person’s.",
+ "spectrum": {
+  "title": "From the person’s choice to the app’s",
+  "from": "The person decides",
+  "to": "The app decides"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/notify/",
+  "situation": "The same faith app, seven ways of sending notifications. Choose who is holding the phone: someone who installed it yesterday, someone who opens it most days, someone who has been away for three weeks, or someone awake at 2 am. Then choose what their phone does: show everything on the lock screen, collect it in a Scheduled Summary at 8:00, or keep Sleep Focus until 7:45. Look at the lock screen now, what the app sent this week, and the settings it offers."
+ },
+ "options": [
+  {
+   "key": "quiet",
+   "name": "The app waits",
+   "provenance": "Familiar convention",
+   "origin": "Familiar from Bibles on the web and from widgets: Bible Widgets (118K ratings) puts verses on the lock and home screens, “turning every phone unlock into a moment of connection with God”, and Bible Chat and Universalis offer widgets too; see their store listings. The widget here is written for this example.",
+   "gain": "Nothing interrupts",
+   "cost": "Nothing calls them back",
+   "makes_easier": "Nothing interrupts; Scripture is there when someone looks.",
+   "costs": "Nothing calls anyone back, and some people want to be called.",
+   "ask_your_team": "Who would miss a reminder, and could they set one themselves?",
+   "still": "https://missional.design/assets/stills/try-notify-quiet.jpg"
+  },
+  {
+   "key": "own",
+   "name": "Their own bell",
+   "provenance": "Observed",
+   "origin": "Observed in ESV’s “Remind me on these days.”, Glorify’s wake-up and wind-down times and Joseph Prince’s “Set a schedule”, each asking for permission when the reminder is set; see the screenshots below. The question after seven unopened reminders is a proposal.",
+   "gain": "Their days, time and words",
+   "cost": "Needs setting up",
+   "makes_easier": "The person chooses the days, the time and the words.",
+   "costs": "It needs setting up, and a reminder still interrupts.",
+   "ask_your_team": "What happens when the reminders stop being opened?",
+   "still": "https://missional.design/assets/stills/try-notify-own.jpg"
+  },
+  {
+   "key": "hours",
+   "name": "The church’s hours",
+   "provenance": "Familiar convention",
+   "origin": "Familiar from church bells and the Angelus, prayed “three times each day, morning, noon, and evening, at the sound of the bell”, and from the Liturgy of the Hours; documented in Hallow’s Angelus and Universalis’s “reminders and alarms”. Sending the hours as shared notifications is a proposal; the wording here is written for this example.",
+   "gain": "A rhythm shared with others",
+   "cost": "A fixed time may not fit",
+   "makes_easier": "A shared rhythm, kept by others at the same hour.",
+   "costs": "A fixed time may not fit someone’s day.",
+   "ask_your_team": "Which hours would your community actually keep together?",
+   "still": "https://missional.design/assets/stills/try-notify-hours.jpg"
+  },
+  {
+   "key": "word",
+   "name": "A daily word",
+   "provenance": "Observed",
+   "origin": "Observed in daily verse notifications such as YouVersion’s Verse of the Day, and documented in Blessed’s “evening Scripture and prayer prompt … even in the dark”; see the store listing. The verse and times here are written for this example.",
+   "gain": "A small daily start",
+   "cost": "Piles up when unwanted",
+   "makes_easier": "A small, predictable start to the day.",
+   "costs": "It arrives whether or not it is wanted, and piles up.",
+   "ask_your_team": "Is it still a gift on the twenty-first unopened day?",
+   "still": "https://missional.design/assets/stills/try-notify-word.jpg"
+  },
+  {
+   "key": "people",
+   "name": "People, not the app",
+   "provenance": "Observed",
+   "origin": "Observed in YouVersion’s notifications list and documented in Echo Prayer, which lets someone “send out a notification to let them know you’ve prayed”; see the screenshot and store listing below. Holding messages at night is a proposal; the names and messages are written for this example.",
+   "gain": "Carries what someone did",
+   "cost": "Quiet without friends",
+   "makes_easier": "Every notification carries something a person did.",
+   "costs": "Quiet for someone with no friends in the app.",
+   "ask_your_team": "Does the person sharing know their prayer becomes someone’s notification?",
+   "still": "https://missional.design/assets/stills/try-notify-people.jpg"
+  },
+  {
+   "key": "engaged",
+   "name": "Engagement-driven",
+   "provenance": "Observed",
+   "origin": "Observed in Pray.com’s Community Board, which lists “Active Streakers” to praise and friends to “Remind”; see the screenshot below. Duolingo tuned the wording of “millions of daily reminders” for return. The streak warnings, offers and Time Sensitive marking here are written for this example to show the pattern.",
+   "gain": "More people come back",
+   "cost": "Urgency as a tool",
+   "makes_easier": "More people come back, at least for a while.",
+   "costs": "Prayer becomes a habit to sell, and urgency a tool.",
+   "ask_your_team": "Who is this notification for: the person, or the app’s numbers?",
+   "still": "https://missional.design/assets/stills/try-notify-engaged.jpg"
+  },
+  {
+   "key": "ai",
+   "name": "Messages about the person",
+   "provenance": "Leave it out",
+   "origin": "A warning case. Soultime with Friends “discreetly nudges your friends automatically when we think you might need a call”; see the screenshot below. Companion apps answer goodbyes with guilt and fear-of-missing-out hooks in 37% of farewells, researchers found. The AI messages here are written for this example; they were not observed in a faith app.",
+   "gain": "Feels personal",
+   "cost": "A persona pleads and guesses",
+   "makes_easier": "It feels personal, and it brings people back.",
+   "costs": "A persona pleads and guesses, and friends are told without asking.",
+   "ask_your_team": "Would you send this in your own name, as a person, to someone you know?",
+   "still": "https://missional.design/assets/stills/try-notify-ai.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Ask when someone sets a reminder",
+   "text": "Spark Bible asks for notifications before the first verse; ESV and Joseph Prince ask when someone sets a reminder. The second gives people a reason to say yes."
+  },
+  {
+   "heading": "Let the person choose the days, the time and the words",
+   "text": "A reminder in someone’s own words, on their days, is their bell, not the app’s."
+  },
+  {
+   "heading": "Offer the church’s hours",
+   "text": "Morning, midday and night prayer, shared with others who pray at those hours, are an old answer to the question of when to call people. Three predictable moments are also what the research on batching found easiest to live with."
+  },
+  {
+   "heading": "Mark nothing urgent that is not",
+   "text": "A reading, a verse or an offer is never Time Sensitive. Let Scheduled Summary and Focus do their work; a streak warning that breaks through Sleep Focus at 23:50 breaks trust."
+  },
+  {
+   "heading": "After silence, ask once, then stop",
+   "text": "When reminders go unopened, ask whether to keep them, change the time or pause them, and then be quiet. Never count what was missed, and never write “we miss you”."
+  },
+  {
+   "heading": "Keep quiet hours",
+   "text": "Send nothing from late evening to morning unless the person chose it, and when someone opens the app at night, put help within reach."
+  },
+  {
+   "heading": "No persona writes first",
+   "text": "An AI that says it has been thinking about someone, asks “Did I say something wrong?” or tells their friends they might need a call is using a voice that is not a person’s to bring them back. Leave it out."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "Someone who wants to read each morning",
+   "needs": "A reminder at their time, in their words",
+   "fit": {
+    "The app waits": "poor fit",
+    "Their own bell": "good fit",
+    "The church’s hours": "possible",
+    "A daily word": "possible",
+    "People, not the app": "poor fit",
+    "Engagement-driven": "poor fit",
+    "Messages about the person": "poor fit"
+   }
+  },
+  {
+   "situation": "A parish that prays the hours",
+   "needs": "The same bell for everyone who chose it",
+   "fit": {
+    "The app waits": "poor fit",
+    "Their own bell": "possible",
+    "The church’s hours": "good fit",
+    "A daily word": "poor fit",
+    "People, not the app": "possible",
+    "Engagement-driven": "poor fit",
+    "Messages about the person": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone who comes when they choose",
+   "needs": "Nothing that interrupts",
+   "fit": {
+    "The app waits": "good fit",
+    "Their own bell": "possible",
+    "The church’s hours": "poor fit",
+    "A daily word": "poor fit",
+    "People, not the app": "possible",
+    "Engagement-driven": "poor fit",
+    "Messages about the person": "poor fit"
+   }
+  },
+  {
+   "situation": "A small group praying for each other",
+   "needs": "Word when someone prayed for them",
+   "fit": {
+    "The app waits": "poor fit",
+    "Their own bell": "poor fit",
+    "The church’s hours": "poor fit",
+    "A daily word": "poor fit",
+    "People, not the app": "good fit",
+    "Engagement-driven": "poor fit",
+    "Messages about the person": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone away for three weeks",
+   "needs": "One question, then quiet; nothing about what they missed",
+   "fit": {
+    "The app waits": "good fit",
+    "Their own bell": "good fit",
+    "The church’s hours": "possible",
+    "A daily word": "poor fit",
+    "People, not the app": "possible",
+    "Engagement-driven": "poor fit",
+    "Messages about the person": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone awake at 2 am",
+   "needs": "Silence at night, and help when they open the app",
+   "fit": {
+    "The app waits": "good fit",
+    "Their own bell": "good fit",
+    "The church’s hours": "good fit",
+    "A daily word": "possible",
+    "People, not the app": "possible",
+    "Engagement-driven": "poor fit",
+    "Messages about the person": "poor fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "Called at the hours, and left alone at night",
+   "findings": [
+    {
+     "heading": "Morning, noon and night",
+     "text": "“Morning, noon, and night, I cry out in distress, and He hears my voice” (Psalm 55:17); Daniel prayed “three times a day” (Daniel 6:10). The Angelus is prayed “three times each day, morning, noon, and evening, at the sound of the bell”, and began with the evening bell.",
+     "sources": [
+      "angelus-encyclopedia"
+     ]
+    },
+    {
+     "heading": "The signal is a responsibility",
+     "text": "In Benedict’s Rule, “as soon as the signal is heard, let them abandon whatever they may have in hand”; so the signal “by day and by night shall devolve upon the Abbot”. Whoever rings the bell answers for it. The same Rule asks for silence “especially during the hours of the night”.",
+     "sources": [
+      "benedict-hours"
+     ]
+    },
+    {
+     "heading": "A still, small voice",
+     "text": "God was not in the wind, the earthquake or the fire, but in “a still, small voice” (1 Kings 19:12). When the disciples found Jesus praying alone and said, “Everyone is looking for You!”, he went on instead of going back (Mark 1:37–38). Not every call needs answering.",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Platforms and research",
+   "subtitle": "What the phone allows, and what notifications do",
+   "findings": [
+    {
+     "heading": "Urgency is a promise",
+     "text": "Apple’s guidelines define four interruption levels and ask apps to “Build trust by accurately representing the urgency of each notification”: “Never use the Time Sensitive interruption level to send a marketing notification.” Apple’s review rules allow marketing by push only if “customers have explicitly opted in to receive them via consent language displayed in your app’s UI”.",
+     "sources": [
+      "apple-hig-notifications",
+      "apple-review-push"
+     ]
+    },
+    {
+     "heading": "Ask when they set a reminder",
+     "text": "Android’s guidance: “Before you ask users to grant any permissions, let them familiarize themselves with your app”; a good moment is when “The user taps an \"alert bell\" button.”",
+     "sources": [
+      "android-notification-permission"
+     ]
+    },
+    {
+     "heading": "Three times a day",
+     "text": "In a field experiment with 237 people, those whose notifications were “batched three-times-a-day felt more attentive, productive, in a better mood, and in greater control of their phones”. Those with no notifications at all “experienced higher levels of anxiety and “fear of missing out” (FoMO)”.",
+     "sources": [
+      "fitz-batching"
+     ]
+    },
+    {
+     "heading": "Tuned for return",
+     "text": "Duolingo used an algorithm to “optimize millions of daily reminders”, which led “to a 0.5 % increase in total daily active users (DAUs) and a 2 % increase in new user retention”. The measure is use.",
+     "sources": [
+      "duolingo-bandit"
+     ]
+    },
+    {
+     "heading": "A persona that will not let go",
+     "text": "Companion apps answered goodbyes with guilt, fear-of-missing-out hooks and similar tactics in 37% of 1,200 real farewells; in experiments, such replies raised engagement “by up to 14×”, driven by “reactance-based anger and curiosity—rather than enjoyment”. The EU asks platforms to switch off push notifications for minors by default.",
+     "sources": [
+      "defreitas-paper",
+      "eu-minors-guidelines"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Products",
+   "subtitle": "What faith apps send",
+   "findings": [
+    {
+     "heading": "Widgets instead of interruptions",
+     "text": "Bible Widgets (118K ratings, #8 in Reference) puts verses on the lock screen, “turning every phone unlock into a moment of connection with God”; Bible Chat, #1 in Reference, offers a verse widget and a “Send a Blessing Widget”.",
+     "sources": [
+      "bible-widgets-store",
+      "bible-chat-store"
+     ]
+    },
+    {
+     "heading": "Reminders shaped by a practice",
+     "text": "Intercede sends “timely, gentle reminders that ensure you never miss a day of your novena prayers”; Universalis offers “reminders and alarms” for the hours; Hallow includes the “Angelus” and the “Ability to set prayer reminders”.",
+     "sources": [
+      "intercede-store",
+      "universalis-store",
+      "hallow-store"
+     ]
+    },
+    {
+     "heading": "A word in the evening",
+     "text": "Blessed sends “a fresh evening Scripture and prayer prompt to quiet your mind, restore your heart, and remind you of God’s presence — even in the dark”, and also offers to “track your prayer streak”.",
+     "sources": [
+      "blessed-store"
+     ]
+    },
+    {
+     "heading": "What people did",
+     "text": "Echo Prayer lets someone “send out a notification to let them know you’ve prayed for their shared prayer”.",
+     "sources": [
+      "echo-store"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "A reading or prayer habit",
+   "start_with": "Their own bell: a reminder they set, asked for when they set it"
+  },
+  {
+   "if": "A parish or a liturgical app",
+   "start_with": "The church’s hours, chosen at setup, with silence at night"
+  },
+  {
+   "if": "A group praying for each other",
+   "start_with": "People, not the app: word when someone prayed or invited"
+  },
+  {
+   "if": "A Bible reader with no reminders",
+   "start_with": "The app waits, with a widget for those who want one"
+  },
+  {
+   "if": "You are tempted to add streak warnings, “we miss you” or AI messages",
+   "start_with": "Don’t: ask once whether to keep reminding, then stop"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What a call to prayer is for",
+   "text": "“Morning, noon, and night, I cry out in distress, and He hears my voice” (Psalm 55:17). Daniel kept his hours “three times a day”, “just as he had done before” (Daniel 6:10), and the church has rung bells for morning, noon and evening prayer for centuries. A call to prayer is an invitation into something others are doing too; it is answered freely, and whoever rings the bell answers for it."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Catholic, Orthodox and Anglican Christians keep set hours, the Angelus and the Daily Office; many evangelicals keep a personal quiet time at an hour they choose; Reformed and Pietist traditions warn against mistaking regular habits for faith. Some find a daily reminder a help to a practice they love; others find that any reminder turns prayer into a task. Scripture holds both: Daniel’s fixed hours, and Jesus going out “while it was still dark” (Mark 1:35) and not going back when he was told, “Everyone is looking for You!”"
+  },
+  {
+   "heading": "What follows for design",
+   "text": "Let the person, or the church’s shared hours, decide when the phone calls. Speak in “a still, small voice” (1 Kings 19:12): no urgency that is not real, no counting of what was missed, no persona writing first. Keep the night quiet, and when someone stops answering, ask once and let them go."
+  }
+ ],
+ "voices": [
+  {
+   "source": "James K. A. Smith, You Are What You Love (2016)",
+   "url": "https://www.publishersweekly.com/9781587433801",
+   "note": "argues that habits are “liturgies” that train what we love; a daily notification is a small liturgy, and it teaches whether prayer is a gift or a task."
+  },
+  {
+   "source": "Albert Borgmann, Technology and the Character of Contemporary Life (1984)",
+   "url": "https://iep.utm.edu/borgmann/",
+   "note": "urged that technology support focal practices rather than replace them with commodities; a reminder should lead into the practice and then get out of the way."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Ask for notifications before the first verse, count down streaks marked Time Sensitive, send more the longer someone is away, put offers in the reminder’s place, and let an AI persona write first.",
+  "ethical": "Ask when someone sets a reminder, let them choose days, time and words, keep marketing out unless they opted in, mark nothing urgent that is not, and keep quiet hours.",
+  "redemptive": "Call people at the church’s hours or their own, in a still, small voice; after silence ask once and then stop; and give up the returning users that urgency, guilt and a persona’s voice would bring.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "Who chose this interruption, how urgent does it claim to be, and what does it say to someone who has stopped coming?",
+  "exercise": "Install your app on a test phone, allow notifications, use it once and leave it for two weeks. Log every notification: time, words, interruption level and who chose it. Turn on Sleep Focus and a Scheduled Summary and see what breaks through. Then read every notification aloud as someone who is grieving, depressed or awake at 2 am, and ask whether you would send it in your own name to a friend.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [],
+ "examples": [
+  {
+   "app": "YouVersion",
+   "title": "A friend’s new prayer among badges and friendships",
+   "url": "https://missional.design/examples/youversion-notifications/",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "The Notifications list, newest first, mixes “You earned the Daily Refresh Badge”, new friendships and likes, invitations to read a plan together, “New Prayer from [a friend]: ‘Ukraine’” and “New Prayer from YouVersion: ‘A Prayer for Our World’”. Names and photos of friends are blurred here.",
+   "decision": "A shared prayer arrives in the same stream as badges and friendship likes. A request from a friend may deserve a quieter, separate place, and the person sharing should know it will appear in friends’ notifications.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Spark Bible",
+   "title": "A notification prompt before the first verse",
+   "url": "https://missional.design/examples/sparkbible-notification-ask/",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "During onboarding, behind the system dialog, a slide reads “Get the full experience.”; the dialog offers Allow, “Allow in Scheduled Summary” and Don’t Allow, with “Skip for now.” below.",
+   "decision": "Asking for notifications before someone has read anything gives them no reason to say yes. Ask when someone sets a reminder.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Pray.com",
+   "title": "“Active Streakers” to praise, and friends to “Remind”",
+   "url": "https://missional.design/examples/praycom-remind-friends/",
+   "observed": "Captured 20 August 2025 · from embedded image metadata",
+   "observation": "A “Community Board” lists “Active Streakers” with the number of days each has kept a streak and a Praise button, then a “Remind” list of friends who stopped one to seven days ago, each with a Remind button, and “Invite to Pray” with access to contacts. Names and photos are blurred here.",
+   "decision": "A button to remind a friend who stopped turns one person’s silence into another’s notification. If friends are part of the app, let them pray for each other, not prompt each other back.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Soultime",
+   "title": "Friends notified automatically “when we think you might need a call”",
+   "url": "https://missional.design/examples/soultime-auto-nudge/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "“Soultime with Friends Settings”: “For many of us reaching out is one of the hardest parts. Soultime with Friends discreetly nudges your friends automatically when we think you might need a call.” “Automatic notifications” is switched on; switching it off means the app asks first.",
+   "decision": "The intention is care, and the mechanism is an inference about someone’s state sent to others by default. Ask every time, and let the person write the words.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "ESV Bible",
+   "title": "Permission asked when a reminder is set",
+   "url": "https://missional.design/examples/esv-reminder-days/",
+   "observed": "Captured 26 September 2025 · from embedded image metadata",
+   "observation": "“Add a reminder” with “Remind me on these days.” and every weekday ticked; the system dialog asks whether the ESV Bible may send notifications, with Allow, “Allow in Scheduled Summary” and Don’t Allow.",
+   "decision": "Asking at the moment someone sets a reminder gives them a reason to allow it, and the phone offers a quieter option.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Glorify",
+   "title": "“Wake up” and “Wind down” reminders",
+   "url": "https://missional.design/examples/glorify-wake-wind-down/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "Two reminders, “WAKE UP” at 8:00 AM and “WIND DOWN” at 10:00 PM, each listing the days and with its own switch (both off), above the line “Set different times for your Daily Worship on weekdays and weekends to create good habits fast.” and an “ADD NEW REMINDER” button.",
+   "decision": "Reminders the person times to their own morning and evening. “Good habits fast” frames prayer as habit-building; say instead what the time is for.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Joseph Prince",
+   "title": "A notification request over “Set a schedule”",
+   "url": "https://missional.design/examples/jp-schedule-permission/",
+   "observed": "Captured 22 October 2025 · from embedded image metadata",
+   "observation": "The Today screen with a calendar, and below it a “Set a schedule” card: “Good habits start with a tiny action! Create a schedule to build healthy habits.” The system dialog asks whether “Joseph Prince” may send notifications, with “Allow in Scheduled Summary” as an option.",
+   "decision": "The request comes with a schedule the person is setting, which is the right moment.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "apple-hig-notifications",
+   "title": "Human Interface Guidelines: Managing notifications",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/managing-notifications",
+   "author": "Apple",
+   "kind": "Platform guidance",
+   "shows": "Four interruption levels (Passive, Active, Time Sensitive, Critical); “Build trust by accurately representing the urgency of each notification.” “Never use the Time Sensitive interruption level to send a marketing notification.” “Make sure people can manage their notification settings within your app.”",
+   "application": "Mark reminders and daily content as ordinary or passive, never Time Sensitive, and give people their settings inside the app.",
+   "limits": "Platform guidance for Apple devices."
+  },
+  {
+   "key": "apple-review-push",
+   "title": "App Store Review Guidelines: 4.5.4 Push Notifications",
+   "url": "https://developer.apple.com/app-store/review/guidelines/",
+   "author": "Apple",
+   "kind": "Platform guidance",
+   "shows": "“Push Notifications must not be required for the app to function”; promotions and direct marketing only if “customers have explicitly opted in to receive them via consent language displayed in your app’s UI”, with a way to opt out.",
+   "application": "Keep marketing out of reminders unless people asked for it separately.",
+   "limits": "Applies to apps on Apple’s App Store."
+  },
+  {
+   "key": "android-notification-permission",
+   "title": "Notification runtime permission",
+   "url": "https://developer.android.com/develop/ui/views/notifications/notification-permission",
+   "author": "Android Developers",
+   "kind": "Platform guidance",
+   "shows": "“Before you ask users to grant any permissions, let them familiarize themselves with your app.” Good moments include when “The user taps an \"alert bell\" button.”",
+   "application": "Ask for notifications when someone sets a reminder.",
+   "limits": "Platform guidance for Android 13 and later."
+  },
+  {
+   "key": "fitz-batching",
+   "title": "Batching smartphone notifications can improve well-being",
+   "url": "https://scholars.duke.edu/publication/1402953",
+   "author": "Nicholas Fitz, Kostadin Kushlev, Ranjan Jagannathan, Terrel Lewis, Devang Paliwal and Dan Ariely · Computers in Human Behavior, 2019",
+   "kind": "Research",
+   "shows": "In a randomized field experiment (n = 237), participants whose notifications were “batched three-times-a-day felt more attentive, productive, in a better mood, and in greater control of their phones”; those with no notifications “experienced higher levels of anxiety and “fear of missing out” (FoMO)”.",
+   "application": "Fewer, predictable interruptions may serve people better than either constant alerts or none at all.",
+   "limits": "One study, self-reported outcomes over a short period; general phone notifications, not faith apps."
+  },
+  {
+   "key": "duolingo-bandit",
+   "title": "A Sleeping, Recovering Bandit Algorithm for Optimizing Recurring Notifications",
+   "url": "https://research.duolingo.com/papers/yancey.kdd20.pdf",
+   "author": "Kevin P. Yancey and Burr Settles, Duolingo · KDD 2020",
+   "kind": "Research",
+   "shows": "An algorithm to “optimize millions of daily reminders” led “to a 0.5 % increase in total daily active users (DAUs) and a 2 % increase in new user retention over a strong baseline.”",
+   "application": "Reminder wording and timing can be tuned for return; decide what a faith app should optimise, if anything.",
+   "limits": "A language-learning app; the measure is use, not benefit to the person."
+  },
+  {
+   "key": "defreitas-paper",
+   "title": "Emotional Manipulation by AI Companions",
+   "url": "https://arxiv.org/pdf/2508.19258v3",
+   "author": "Julian De Freitas, Zeliha Oğuz-Uğuralp and Ahmet Kaan-Uğuralp · Harvard Business School working paper, 2025",
+   "kind": "Research",
+   "shows": "Analysing “1,200 real farewells”, companion apps “deploy one of six recurring tactics in 37% of farewells (e.g., guilt appeals, fear-of-missing-out hooks, metaphorical restraint)”; in experiments with 3,300 US adults, “manipulative farewells boost post-goodbye engagement by up to 14×”, driven by “reactance-based anger and curiosity—rather than enjoyment”.",
+   "application": "A persona that pleads, guilts or teases to keep someone is manipulating them; leave it out.",
+   "limits": "Replies to goodbyes in chat, not push notifications; general companion apps, not faith apps."
+  },
+  {
+   "key": "eu-minors-guidelines",
+   "title": "Commission publishes guidelines on the protection of minors",
+   "url": "https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-protection-minors",
+   "author": "European Commission · 14 July 2025",
+   "kind": "Legal guidance",
+   "shows": "Recommends “Setting minors’ accounts to private by default” and “Disabling by default features that contribute to excessive use, like communication “streaks,” ephemeral content, “read receipts,” autoplay, or push notifications”, removing persuasive design aimed at engagement and “putting safeguards around AI chatbots”.",
+   "application": "Private by default, no streaks or autoplay, and safeguards around chatbots, for any platform children can reach.",
+   "limits": "Guidelines under the Digital Services Act for online platforms; small and micro enterprises are exempt."
+  },
+  {
+   "key": "angelus-encyclopedia",
+   "title": "Angelus",
+   "url": "https://www.catholic.com/encyclopedia/angelus",
+   "author": "Herbert Thurston · Catholic Encyclopedia (1907), Catholic Answers edition",
+   "kind": "Church practice",
+   "shows": "The Angelus is “repeated three times each day, morning, noon, and evening, at the sound of the bell.” Its “history … is by no means easy to trace with confidence”, but “it is certain that the Angelus at midday and in the morning were of later introduction than the evening Angelus.”",
+   "application": "The church has long called people to prayer at shared hours with a bell.",
+   "limits": "A 1907 encyclopedia article; later scholarship refines its dates."
+  },
+  {
+   "key": "benedict-hours",
+   "title": "St. Benedict’s Rule for Monasteries, chapters 16, 42, 43 and 47",
+   "url": "https://www.gutenberg.org/cache/epub/50040/pg50040.txt",
+   "author": "Benedict of Nursia, sixth century · Project Gutenberg edition",
+   "kind": "Church practice",
+   "shows": "“Seven times in the day” (chapter 16); “Monks ought to be zealous for silence at all times, but especially during the hours of the night” (42); “as soon as the signal is heard, let them abandon whatever they may have in hand” (43); the signal “by day and by night shall devolve upon the Abbot” (47).",
+   "application": "The call to prayer is a responsibility of whoever gives it, kept to the hours, with silence at night.",
+   "limits": "A monastic rule; an app is not a monastery, and the analogy is ours."
+  },
+  {
+   "key": "bible-widgets-store",
+   "title": "Bible Widgets: Verses & Prayer (App Store listing)",
+   "url": "https://apps.apple.com/us/app/bible-widgets-verses-prayer/id6745089450",
+   "author": "Monkey Taps · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "Verses on the home and lock screens, “turning every phone unlock into a moment of connection with God”, with “Daily Reminders and Notifications”; 118K ratings, chart position #8 in Reference.",
+   "application": "A widget offers Scripture without interrupting; a reminder layer can still be added on top.",
+   "limits": "A store listing, not a test of the app."
+  },
+  {
+   "key": "blessed-store",
+   "title": "Blessed – Daily Verse & Prayer (App Store listing)",
+   "url": "https://apps.apple.com/us/app/blessed-daily-verse-prayer/id1634567736",
+   "author": "Everblessed Technology · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "“a fresh evening Scripture and prayer prompt to quiet your mind, restore your heart, and remind you of God’s presence — even in the dark”, and “Get daily reminders, track your prayer streak”; 104K ratings.",
+   "application": "A daily word can be gentle, and the same app can count a streak.",
+   "limits": "A store listing, not a test of the app."
+  },
+  {
+   "key": "echo-store",
+   "title": "Echo Prayer (App Store listing)",
+   "url": "https://apps.apple.com/us/app/echo-prayer/id880759027",
+   "author": "The Parable Group · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "“After praying for someone, send out a notification to let them know you’ve prayed for their shared prayer”; reminders by push or email; 22K ratings.",
+   "application": "A notification can carry something a person did for someone else.",
+   "limits": "A store listing, not a test of the app."
+  },
+  {
+   "key": "intercede-store",
+   "title": "Intercede – Catholic Novenas (App Store listing)",
+   "url": "https://apps.apple.com/us/app/intercede-catholic-novenas/id1088485587",
+   "author": "Devoted Coders · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "“timely, gentle reminders that ensure you never miss a day of your novena prayers”; 36K ratings.",
+   "application": "Reminders can follow the shape of a practice, such as the nine days of a novena, and end with it.",
+   "limits": "A store listing, not a test of the app."
+  },
+  {
+   "key": "universalis-store",
+   "title": "Universalis (App Store listing)",
+   "url": "https://apps.apple.com/us/app/universalis/id284942719",
+   "author": "Universalis Publishing · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "The Liturgy of the Hours and the Mass for every day, with “Home Screen widgets; liturgical events for your iOS calendar; daily email service … reminders and alarms”; 9.6K ratings, $9.99.",
+   "application": "An app for the hours offers reminders and alarms as tools, not as a strategy.",
+   "limits": "A store listing, not a test of the app."
+  },
+  {
+   "key": "hallow-store",
+   "title": "Hallow: Prayer & Meditation (App Store listing)",
+   "url": "https://apps.apple.com/us/app/hallow-prayer-meditation/id1405323394",
+   "author": "Hallow · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "Minute meditations including the “Angelus”, and the “Ability to set prayer reminders”; 379K ratings.",
+   "application": "The largest Catholic prayer app offers the Angelus as content and reminders as a setting.",
+   "limits": "A store listing, not a test of the app."
+  },
+  {
+   "key": "bible-chat-store",
+   "title": "Bible Chat: Daily Devotional (App Store listing)",
+   "url": "https://apps.apple.com/us/app/bible-chat-daily-devotional/id6448849666",
+   "author": "Book Vitals · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "“spiritual prompts, Christian calendar reminders”, a lock-screen verse widget and a “Send a Blessing Widget”; 365K ratings, chart position #1 in Reference.",
+   "application": "The leading AI Bible app reaches people through reminders and widgets as well as chat.",
+   "limits": "A store listing; its notifications are on the diary list."
+  },
+  {
+   "key": "telefonseelsorge",
+   "title": "TelefonSeelsorge",
+   "url": "https://www.telefonseelsorge.de/",
+   "author": "TelefonSeelsorge Deutschland (Protestant and Catholic churches)",
+   "kind": "Practice",
+   "shows": "“Tag und Nacht erreichbar 0800 1110111 / 0800 1110222 oder 116 123”, by phone, chat or email.",
+   "application": "A first screen can carry a way to a person, day and night, free of charge.",
+   "limits": "Germany; other countries have their own services."
+  }
+ ],
+ "review": {
+  "status": "draft, waiting for review",
+  "what": "What reaches someone awake at night, the help offered when they open the app, the warning case of an AI persona and an app that tells friends, and the use of the church’s hours",
+  "needs": [
+   "crisis support and suicide prevention",
+   "pastoral care",
+   "theology across Catholic, Orthodox and Protestant traditions"
+  ],
+  "since": "11 October 2026",
+  "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/notifications/"
+ },
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

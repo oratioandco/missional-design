@@ -153,6 +153,7 @@ const questions = [
 <BaseLayout lang="de" title="Das Rahmenwerk">
   <!-- Hero -->
   <section class="hero" style="min-height: 60vh;">
+    <img class="brand-hero-media" src={`${base}/assets/brand/hero-dark.webp`} alt="" aria-hidden="true" width="2400" height="1500" fetchpriority="high" />
     <div class="hero-label">Missional by Design · Prinzipien für geistliche Apps</div>
     <h1>Fünf Orte.<br/>Zehn Zusagen.</h1>
     <p class="hero-subtitle">
@@ -210,6 +211,7 @@ const questions = [
       <div style="max-width: 70ch;">
         {places.map((p) => (
           <article class="principle">
+            <img class="brand-place-art" src={`${base}/assets/brand/${({'01':'word','02':'person','03':'practice','04':'people','05':'makers'}[p.num])}-light.webp`} alt="" loading="lazy" width="2000" height="1250" />
             <span class="principle-number">{p.num}</span>
             <h3>{p.name}</h3>
             <p class="lead" style="opacity: 0.75;">{p.ask}</p>

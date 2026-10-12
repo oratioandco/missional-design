@@ -8,12 +8,14 @@ interface Props {
 const { currentLocale } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const pathname = new URL(Astro.request.url).pathname;
+const bilingual = ['/impressum', '/datenschutz', '/barrierefreiheit'].includes(pathname.replace(/\/$/, ''));
 
 const enHref = altLocalePath(pathname, 'en', base);
 const deHref = altLocalePath(pathname, 'de', base);
 ---
 
 <div class="lang-switch" role="group" aria-label="Language">
+  {bilingual ? <span aria-label="This page contains both languages">EN / DE</span> : <>
   <a
     href={enHref}
     lang="en"
@@ -27,6 +29,7 @@ const deHref = altLocalePath(pathname, 'de', base);
     aria-current={currentLocale === 'de' ? 'true' : undefined}
     class={currentLocale === 'de' ? 'active' : ''}
   >DE</a>
+  </>}
 </div>
 
 <style>

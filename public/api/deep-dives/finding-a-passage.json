@@ -1,0 +1,530 @@
+{
+ "slug": "finding-a-passage",
+ "url": "https://missional.design/patterns/finding-a-passage/",
+ "title": "Finding a passage",
+ "question": "Browse, type a reference, or start from a need?",
+ "lede": "Someone hears “John 3” in a sermon. Someone else wants Isaiah but isn’t sure where it sits. A third person only wants today’s reading. One picker rarely serves all three, and sometimes the best picker is none at all. Opening the right page for someone is a small hospitality, and the first step of every reading.",
+ "calling": "Getting someone to the right page is the first hospitality of every reading.",
+ "spectrum": {
+  "title": "Five routes to a passage, side by side",
+  "from": "",
+  "to": ""
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/passage-picker/",
+  "situation": "Someone is reading Mark 3. A friend mentions John 3 and they want to look it up. Every example starts at Mark 3 in the Berean Standard Bible. Try reaching John 3, then change your mind and cancel."
+ },
+ "options": [
+  {
+   "key": "steps",
+   "name": "Step by step",
+   "provenance": "Familiar convention",
+   "origin": "A widely used structure, generalized here. Not a copy of a particular app.",
+   "gain": "One question per screen",
+   "cost": "Many taps for a known reference",
+   "makes_easier": "Each screen asks one question, with large targets. Readers who recognise a book name but do not remember a reference can always get there.",
+   "costs": "Several screens for a destination the person already knows. Sixty-six books make a long list; a grid is shorter but relies on abbreviations.",
+   "ask_your_team": "Do most of your readers know where they are going, or are they finding out?",
+   "still": "https://missional.design/assets/stills/try-picker-steps.jpg"
+  },
+  {
+   "key": "accordion",
+   "name": "Expandable book list",
+   "provenance": "Observed",
+   "origin": "Observed in Mere Bible and YouVersion: chapters open inside the book list (see the screenshots below). Stills do not show gesture or commit timing, so opening follows the switches below, as in option 1.",
+   "gain": "Book context stays in view",
+   "cost": "Long books push the list down",
+   "makes_easier": "Book context stays visible while choosing a chapter, and the reader’s current book opens ready.",
+   "costs": "Long books push the rest of the list down. Psalms puts 150 cells inside the list, and the scroll position has to survive a book collapsing.",
+   "ask_your_team": "Will your longest books still be manageable inside a list?",
+   "still": "https://missional.design/assets/stills/try-picker-accordion.jpg"
+  },
+  {
+   "key": "reference",
+   "name": "Type a reference",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from address bars and command palettes, where people type a known destination. In a Bible app, the parser decides what counts as a reference.",
+   "gain": "Fastest for a known reference",
+   "cost": "Needs the reference and spelling",
+   "makes_easier": "The quickest route to a known reference, such as a sermon slide or a citation in a book.",
+   "costs": "It assumes the person knows the reference and can spell it. Ambiguous abbreviations and mistakes need clear help. It looks up references only; it does not search words or use AI.",
+   "ask_your_team": "What should happen when someone types something that is not a reference?",
+   "still": "https://missional.design/assets/stills/try-picker-reference.jpg"
+  },
+  {
+   "key": "feeling",
+   "name": "Start from a feeling",
+   "provenance": "Observed",
+   "origin": "Observed in ESV (“When I’m Feeling” audio playlists) and Glorify (search for “chapters, verses or emotions” with chips such as Anxiety and Doubt); see the screenshots below. The passages in this example are our own illustrative choice.",
+   "gain": "A way in without a reference",
+   "cost": "Someone else chose the verses",
+   "makes_easier": "Someone who does not know where to look can still find a way in, starting from where they are rather than from a reference.",
+   "costs": "Someone else has decided which verses answer which feeling. Short lists can turn Scripture into remedies, lift verses out of their context and imply how the reader ought to feel. Acute distress needs more than a verse.",
+   "ask_your_team": "Who chooses the passages for each feeling, and how will readers know?",
+   "still": "https://missional.design/assets/stills/try-picker-feeling.jpg"
+  },
+  {
+   "key": "bounded",
+   "name": "No passage picker",
+   "provenance": "Leave it out",
+   "origin": "An exploratory proposal for plan- or session-focused readers. Not attributed to a specific app and untested.",
+   "gain": "Nothing to decide before reading",
+   "cost": "Other passages are out of reach",
+   "makes_easier": "Nothing to decide before reading. The plan supplies the passage and the back arrow returns to the plan, which can suit a guided session, a devotional or a group reading.",
+   "costs": "John 3 is out of reach. Someone who wants to follow a reference, check context or wander has to leave for another app or mode.",
+   "ask_your_team": "Is open-ended lookup part of this product’s job, or does it belong somewhere else?",
+   "still": "https://missional.design/assets/stills/try-picker-bounded.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "It depends on what the reader already knows",
+   "text": "Typing is fastest when the reference is in front of someone, and a wall when it isn’t. Browsing takes more taps but never asks anyone to remember. The expandable list sits between the two: the shape of the book stays in view while you choose."
+  },
+  {
+   "heading": "Leaving it out is a real option",
+   "text": "If your product guides people through a plan, a full picker is an exit as much as a feature. Leaving it out keeps the session calm and the scope honest. It also sends someone following a sermon to another app."
+  },
+  {
+   "heading": "A feeling asks a different question",
+   "text": "Not “where is it?” but “where should I begin?”. ESV and Glorify both offer it. It welcomes someone with no reference in mind, and hands quiet authority to whoever wrote the lists. Name the curators, open passages in their chapter, and keep acute distress out of a verse menu."
+  },
+  {
+   "heading": "Open on tap; review only when it costs something",
+   "text": "Opening on tap is what most people expect. A review step earns its place when a wrong destination is costly, such as changing a group’s shared reading. Going down to the verse helps someone following a sermon and slows down someone reading whole chapters."
+  },
+  {
+   "heading": "Offer both routes, and keep each one plain",
+   "text": "Most general Bible readers end up with browsing and typed entry. That works while each route says what it does. A reference field that quietly becomes text search or an AI answer box changes what people expect from it."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "Following a sermon or talk",
+   "needs": "A spoken reference, found before the speaker moves on",
+   "fit": {
+    "Step by step": "possible",
+    "Expandable book list": "possible",
+    "Type a reference": "good fit",
+    "Start from a feeling": "poor fit",
+    "No passage picker": "poor fit"
+   }
+  },
+  {
+   "situation": "New to the Bible",
+   "needs": "Seeing which books exist and where, without typing",
+   "fit": {
+    "Step by step": "good fit",
+    "Expandable book list": "good fit",
+    "Type a reference": "poor fit",
+    "Start from a feeling": "possible",
+    "No passage picker": "poor fit"
+   }
+  },
+  {
+   "situation": "Studying across books",
+   "needs": "Jumping between references quickly",
+   "fit": {
+    "Step by step": "poor fit",
+    "Expandable book list": "possible",
+    "Type a reference": "good fit",
+    "Start from a feeling": "poor fit",
+    "No passage picker": "poor fit"
+   }
+  },
+  {
+   "situation": "Carrying on with a book",
+   "needs": "The saved place, then the next chapter",
+   "fit": {
+    "Step by step": "possible",
+    "Expandable book list": "possible",
+    "Type a reference": "possible",
+    "Start from a feeling": "poor fit",
+    "No passage picker": "good fit"
+   }
+  },
+  {
+   "situation": "Looking for comfort, with no reference in mind",
+   "needs": "A place to begin, with its chapter around it",
+   "fit": {
+    "Step by step": "poor fit",
+    "Expandable book list": "poor fit",
+    "Type a reference": "poor fit",
+    "Start from a feeling": "good fit",
+    "No passage picker": "poor fit"
+   }
+  },
+  {
+   "situation": "A guided plan or group session",
+   "needs": "Today’s passage without detours",
+   "fit": {
+    "Step by step": "poor fit",
+    "Expandable book list": "poor fit",
+    "Type a reference": "poor fit",
+    "Start from a feeling": "poor fit",
+    "No passage picker": "good fit"
+   }
+  },
+  {
+   "situation": "Screen readers, large text or limited dexterity",
+   "needs": "Few, large targets and one decision at a time",
+   "fit": {
+    "Step by step": "good fit",
+    "Expandable book list": "possible",
+    "Type a reference": "good fit",
+    "Start from a feeling": "possible",
+    "No passage picker": "good fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "Finding the place",
+   "findings": [
+    {
+     "heading": "Finding the place is an old practice",
+     "text": "In Nazareth, “the scroll of the prophet Isaiah was handed to Him. Unrolling it, He found the place where it was written” (Luke 4:17). Before chapters and verses, passages were named by what happened in them: “have you not read about the burning bush in the Book of Moses?” (Mark 12:26). Chapters date from the thirteenth century and verse numbers from 1551.",
+     "sources": []
+    },
+    {
+     "heading": "Easy access is a stated commitment",
+     "text": "The Second Vatican Council asked that “easy access to Sacred Scripture should be provided for all the Christian faithful”. Protestant Bible societies have pursued the same goal through translation and distribution. A picker is where that access succeeds or fails on a phone.",
+     "sources": [
+      "dei-verbum"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "How people arrive",
+   "subtitle": "Lookup, suggestion and habit",
+   "findings": [
+    {
+     "heading": "People reach Scripture in several ways",
+     "text": "Lifeway’s 2024 survey finds looking up passages, reading ones suggested by others, rereading favourites and reading systematically overlap in the same people. One route will not serve all of them.",
+     "sources": [
+      "lifeway-reading-2024"
+     ]
+    },
+    {
+     "heading": "Apps teach a way of reading",
+     "text": "Hutchings shows Bible apps are designed as persuasive technologies that train reading habits. By the same logic, a picker that always opens at a verse teaches verse reading, and one that opens at a chapter teaches passages.",
+     "sources": [
+      "hutchings"
+     ]
+    },
+    {
+     "heading": "Reading on needs no picker",
+     "text": "YouVersion documents continuous chapter scrolling and an optional verse picker: for people reading on, the next chapter matters more than a destination.",
+     "sources": [
+      "youversion-reader-navigation"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Interface research",
+   "subtitle": "What helps people find",
+   "findings": [
+    {
+     "heading": "Recognition is easier than recall",
+     "text": "Interfaces that show the options ask less of memory than fields that need someone to remember and type. Browsing books and chapters asks people to recognise; a reference field asks them to recall. Offer both.",
+     "sources": [
+      "nng-recall"
+     ]
+    },
+    {
+     "heading": "Forgive the way people type",
+     "text": "When input is wrong and a correction is known, suggest it. Accept abbreviations, other languages’ book names and “Psalm” for “Psalms”, and say “Did you mean John 3?” instead of “Not found”.",
+     "sources": [
+      "wcag-error-suggestion",
+      "usfm"
+     ]
+    },
+    {
+     "heading": "Many small targets",
+     "text": "A grid of 150 Psalms or 176 verses packs many targets into a phone screen. Keep each at least 24 pixels with space between, and let the grid reflow when text is enlarged.",
+     "sources": [
+      "wcag-target-size",
+      "wcag-reflow"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "People follow references from a speaker, a book or a study guide",
+   "start_with": "A typed reference, with browsing as the fallback"
+  },
+  {
+   "if": "People are new to the Bible, or think in books rather than references",
+   "start_with": "Step by step, or the expandable list"
+  },
+  {
+   "if": "People arrive with a need rather than a reference",
+   "start_with": "Start from a feeling, with named curators and the whole chapter one step away"
+  },
+  {
+   "if": "Your product is a guided plan, devotional or group session",
+   "start_with": "Consider no picker, with a clear route to a full Bible elsewhere"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What finding the place is for",
+   "text": "In Nazareth, Jesus unrolled the scroll and “found the place where it was written” (Luke 4:17). Knowing where a passage sits, in which book and among which neighbours, is part of understanding it. Finding the place is a small act of attention before reading."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "The Bible itself is not the same book everywhere. Catholic and Orthodox Bibles include books that most Protestant Bibles omit or place in a separate Apocrypha, and the Hebrew Bible orders its books differently from Christian Old Testaments. Many readers know no references at all and come with a feeling or a story."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "Use the canon and book order of the edition being read, and do not impose one tradition’s list on everyone. Serve the reader who knows no references as carefully as the expert, without steering either toward what the publisher wants them to read."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Second Vatican Council, Dei Verbum (1965)",
+   "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_en.html",
+   "note": "“Easy access to Sacred Scripture should be provided for all the Christian faithful”: finding the passage is the first step of access."
+  },
+  {
+   "source": "Martin Luther, Sendbrief vom Dolmetschen (1530)",
+   "url": "https://www.die-bibel.de/luthers-uebersetzungsmethode",
+   "note": "designed his Bible for ordinary people; a picker should serve the reader who knows no references as well as the scholar."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Promoted content stands between the reader and the passage they asked for.",
+  "ethical": "Make lookup fast and accessible for people who know a reference.",
+  "redemptive": "Invest as much in people who know no references, without steering them to what you want them to read.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "Do most of the people you serve know where they are going, or are they finding out?",
+  "exercise": "Watch three people find a chapter you name aloud, then one they choose themselves. Note where each one hesitates, and whether they ever needed a route you didn’t offer.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [
+  {
+   "slug": "verse-entry",
+   "title": "A reference opens at a deliberate destination",
+   "summary": "Choose the content scope, landing position and temporary cue separately.",
+   "url": "https://missional.design/patterns/finding-a-passage/#family-verse-entry"
+  },
+  {
+   "slug": "book-chapter-layouts",
+   "title": "Book and chapter pickers: list, grid or drill-down?",
+   "summary": "Choose the browsing shape independently from the search field.",
+   "url": "https://missional.design/patterns/finding-a-passage/#family-book-chapter-layouts"
+  },
+  {
+   "slug": "chapter-navigation",
+   "title": "How do readers move to the next chapter?",
+   "summary": "Compare continuous reading, explicit buttons and a persistent navigation bar.",
+   "url": "https://missional.design/patterns/finding-a-passage/#family-chapter-navigation"
+  },
+  {
+   "slug": "smart-passage-search",
+   "title": "One field for browsing, references and AI discovery",
+   "summary": "Let one input filter books, recognise a reference and suggest passages, while making each result’s origin clear.",
+   "url": "https://missional.design/patterns/finding-a-passage/#family-smart-passage-search"
+  }
+ ],
+ "examples": [
+  {
+   "app": "Mere Bible (formerly NeuBible)",
+   "title": "Chapter navigation beside the reading text",
+   "url": "https://missional.design/examples/mere-chapter-rail/",
+   "observed": "Supplied 6 October 2026 · capture date not provided",
+   "observation": "A vertical numbered chapter rail appears at the right of Deuteronomy while the reading text and separate passage, WEB and Aa controls remain visible. Another supplied frame shows a large 25 indicator while the reader still names chapter 17.",
+   "decision": "Distinguish the current chapter from a candidate destination during scrubbing. Preserve a deliberate way to dismiss the rail and a larger-target alternative. Do not assume a still image establishes when navigation commits.",
+   "limits": "Still images show interface states. Reveal gestures, drag timing, touch targets, screen-reader support and preference persistence were not independently tested. App build is not recorded."
+  },
+  {
+   "app": "Mere Bible (formerly NeuBible)",
+   "title": "Book list with an inline chapter grid",
+   "url": "https://missional.design/examples/mere-expandable-picker/",
+   "observed": "Supplied 6 October 2026 · capture date not provided",
+   "observation": "Deuteronomy is expanded within the Books list. Its 34 chapters appear as a grid, chapter 25 is coloured, and neighbouring book rows remain in the same list.",
+   "decision": "An accordion preserves book-list context while revealing chapters. Plan for long grids, keeping the selected chapter visible, and restoring position when a book collapses.",
+   "limits": "Still images show interface states. Reveal gestures, drag timing, touch targets, screen-reader support and preference persistence were not independently tested. App build is not recorded."
+  },
+  {
+   "app": "NeuBible (now Mere Bible)",
+   "title": "Chapters as a strip inside the book list",
+   "url": "https://missional.design/examples/neubible-chapter-strip/",
+   "observed": "Captured 4 September 2025 · from embedded image metadata",
+   "observation": "In the serif book list, each book shows its chapter count. Psalms is open, and its chapters appear as a single horizontal row of numbers (13 to 18 visible) inside the list, between Psalms and Ecclesiastes.",
+   "decision": "A horizontal strip keeps the book list on one screen, but only a few chapters are visible at once. For books with many chapters, test how people find a distant chapter and know there are more.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "YouVersion",
+   "title": "Book list with history, audio markers and two orders",
+   "url": "https://missional.design/examples/youversion-book-list/",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "The Books list (German interface) has Cancel and History at the top, a speaker icon and an expand arrow on every book row, and a Traditional or Alphabetical switch at the bottom.",
+   "decision": "Offering both orders helps people who know a book’s name but not its place. Label what the speaker icon means in text, not only as an icon, and keep History distinct from browsing.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "YouVersion",
+   "title": "A chapter grid that opens inside the book list",
+   "url": "https://missional.design/examples/youversion-chapter-grid/",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "Psalm is expanded inside the same Books list. Its chapters appear as a grid of square tiles, starting with an information tile before chapter 1, while Esther and Hiob (Job) stay visible above.",
+   "decision": "This is the same accordion structure observed in Mere Bible: book context stays visible while choosing. An introduction tile gives a book overview without leaving the picker; make sure it is clearly not chapter 0.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Olive Tree Bible",
+   "title": "All 66 books in one view, as three-letter codes",
+   "url": "https://missional.design/examples/olivetree-book-codes/",
+   "observed": "Captured 22 September 2025 · from embedded image metadata",
+   "observation": "A sheet shows Matthew selected, with Chapter and Verse fields above an Old Testament and a New Testament grid. Every book appears as a short code (Gen, Exo, 1Sa, 1Ch, SS, Jn) in nine columns, with no scrolling.",
+   "decision": "Seeing everything at once is fast for people who already know the books, and opaque for those who don’t. Codes need accessible full names, and the scheme must keep numbered books distinct.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "ESV Bible",
+   "title": "Audio playlists by feeling",
+   "url": "https://missional.design/examples/esv-when-feeling/",
+   "observed": "Captured 26 September 2025 · from embedded image metadata",
+   "observation": "The Explore sheet’s Playlists tab shows a “When I’m Feeling” shelf with “When I’m Feeling Lonely” (17 tracks), “Anxious” (24) and “Overwhelmed” (22), between Joy, Peace and Confidence above and Holidays & Special Occasions below. Some covers carry a lock icon.",
+   "decision": "Feeling-based entry gives someone without a reference a way in. Say who curated each playlist and keep the passages connected to their context.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Glorify",
+   "title": "Search for chapters, verses or emotions",
+   "url": "https://missional.design/examples/glorify-emotion-search/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "An empty search screen reads “Chapters, verses or emotions…” with chips for Anxiety, Doubt, Faith, Hope, Stress and Worry, and the prompt “Search for chapters, verses or emotions…”.",
+   "decision": "One field accepts both references and feelings. Make clear which kind of result each answer is, and who decided which passages match an emotion.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "usfm",
+   "title": "Scripture structure documentation",
+   "url": "https://docs.usfm.bible/usfm/3.1/index.html",
+   "author": "USFM documentation",
+   "kind": "Design reference",
+   "shows": "Preserves distinctions in Scripture, paragraphs, notes and editorial content.",
+   "application": "Derive user scenarios from content meaning, not marker names.",
+   "limits": "A format is not a complete model of app behaviour, annotations or formation."
+  },
+  {
+   "key": "wcag-reflow",
+   "title": "Understanding Reflow",
+   "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+   "author": "W3C WAI",
+   "kind": "Design reference",
+   "shows": "Content should remain usable as available width changes.",
+   "application": "Reading anchors, passage cards and translation reflow.",
+   "limits": "Semantic scroll restoration is an original design proposal, not a requirement stated by this criterion."
+  },
+  {
+   "key": "mere-captures",
+   "title": "Mere Bible: contributed reader and picker screenshots",
+   "url": "https://missional.design/examples/mere-chapter-rail/",
+   "author": "Mere Bible / screenshots contributed by Tobias Treppmann",
+   "kind": "Contributed app screenshots",
+   "shows": "Shows an in-context chapter rail, expandable book list with inline chapter grid, reading-settings drawer and translation sheet.",
+   "application": "Compare these observed arrangements with original pattern proposals.",
+   "limits": "Still images establish visible states, not gesture timing, accessibility, persistence or exact interaction behaviour."
+  },
+  {
+   "key": "mere-current",
+   "title": "Mere Bible: publisher listing and rename",
+   "url": "https://apps.apple.com/ca/app/mere-bible/id961857426",
+   "author": "Dwell App, LLC / App Store",
+   "kind": "Product documentation",
+   "shows": "The publisher release history confirms the change from Neu Bible to Mere Bible.",
+   "application": "Use the current name while retaining historical source context.",
+   "limits": "Does not identify the build shown in the contributed screenshots."
+  },
+  {
+   "key": "dei-verbum",
+   "title": "Dogmatic Constitution on Divine Revelation, Dei Verbum",
+   "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_en.html",
+   "author": "Second Vatican Council · 18 November 1965",
+   "kind": "Theology",
+   "shows": "§22: “Easy access to Sacred Scripture should be provided for all the Christian faithful.” §25: prayer should accompany reading “so that God and man may talk together”; editions “provided with suitable footnotes” should be prepared also for non-Christians.",
+   "application": "Access, help and prayer belong together in Catholic teaching on Scripture.",
+   "limits": "Catholic magisterial teaching."
+  },
+  {
+   "key": "lifeway-reading-2024",
+   "title": "Americans’ Bible reading · August 2024 survey, published 2025",
+   "url": "https://research.lifeway.com/wp-content/uploads/2025/05/Lifeway-Americans-Aug-2024-Bible-Reading-Report.pdf",
+   "author": "Lifeway Research",
+   "kind": "Research · survey report",
+   "shows": "Lookup, suggested passages, rereading and systematic reading overlap.",
+   "application": "Support multiple entry routes rather than fixed reader personas.",
+   "limits": "US online self-report, weighted sample of 1,200; approach question limited to 1,137 who had read any Bible. Multiple selections permitted."
+  },
+  {
+   "key": "hutchings",
+   "title": "Design and the digital Bible: persuasive technology and religious reading",
+   "url": "https://doi.org/10.1080/13537903.2017.1298903",
+   "author": "Tim Hutchings · Journal of Contemporary Religion 32(2), 2017",
+   "kind": "Research",
+   "shows": "Analyses YouVersion and GloBible as persuasive technologies designed to train evangelical reading habits.",
+   "application": "Ask what reading habit each mode trains, not only whether it is used.",
+   "limits": "Design analysis of two apps; not a study of readers."
+  },
+  {
+   "key": "youversion-reader-navigation",
+   "title": "Android reader: chapter navigation and verse picker",
+   "url": "https://help.youversion.com/l/en/article/mya0fknmzo-bible-settings-android",
+   "author": "YouVersion Support",
+   "kind": "Product documentation",
+   "shows": "Documents continuous chapter scrolling as an alternative to bottom navigation buttons and an optional verse picker.",
+   "application": "Compare continuous reading with explicit chapter controls.",
+   "limits": "Documentation evidence, not a current screenshot or verification of exact toolbar geometry."
+  },
+  {
+   "key": "nng-recall",
+   "title": "Memory recognition and recall in user interfaces",
+   "url": "https://www.nngroup.com/articles/recognition-and-recall/",
+   "author": "Raluca Budiu · Nielsen Norman Group · 2024",
+   "kind": "Design reference",
+   "shows": "“Recognition is easier than recall because it involves more cues”: interfaces that show options ask less of memory than ones that require people to remember and type.",
+   "application": "Browsing books and chapters asks people to recognise; a reference field asks them to recall. Offer both.",
+   "limits": "Practitioner guidance drawing on memory research."
+  },
+  {
+   "key": "wcag-error-suggestion",
+   "title": "Understanding SC 3.3.3: Error Suggestion",
+   "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion.html",
+   "author": "W3C · WCAG 2.2",
+   "kind": "Accessibility",
+   "shows": "When an input error is detected and suggestions are known, suggest a correction to the user.",
+   "application": "A reference field should say “Did you mean John 3?” rather than “Not found”, and accept common abbreviations.",
+   "limits": "A conformance criterion, not a usability study."
+  },
+  {
+   "key": "wcag-target-size",
+   "title": "Understanding SC 2.5.8: Target Size (Minimum)",
+   "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+   "author": "W3C · WCAG 2.2",
+   "kind": "Accessibility",
+   "shows": "Pointer targets should be at least 24 by 24 CSS pixels, or spaced so that a 24-pixel circle around each does not overlap another.",
+   "application": "Chapter grids with 150 Psalms and verse grids pack many small targets; size and space them for thumbs.",
+   "limits": "A minimum, not a recommendation; larger targets help more people."
+  }
+ ],
+ "review": null,
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

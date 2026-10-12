@@ -1,0 +1,712 @@
+{
+ "slug": "first-use",
+ "url": "https://missional.design/patterns/first-use/",
+ "title": "First use",
+ "question": "What does someone have to give before they reach what they came for?",
+ "lede": "When two disciples began to follow Jesus, he asked, “What do you want?”, and when they asked where he was staying, he said, “Come and see” (John 1:38–39). The first minutes in a faith app ask the same question from the other side. Many apps put a tour, an account, questions, a rating, permission prompts and a subscription offer in front of the first verse, prayer or answer. Some people arrive curious, some in a hard night, some coming back after years away or after being hurt in a church. Apps also cost money to build and run, and every AI answer has a price, so how and when to ask for support is a real question, not a trick. Welcome people first, and ask honestly.",
+ "calling": "Welcome people as guests: let them reach what they came for first, keep help within reach, and ask for support honestly.",
+ "spectrum": {
+  "title": "From nothing asked to everything asked",
+  "from": "Less is asked first",
+  "to": "More is asked first"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/first/",
+  "situation": "Someone has just installed a faith app. Choose what kind of app it is: a Bible reader, a prayer app or an AI companion. Then choose who is arriving: someone curious, someone in a hard night, or someone coming back after years away or after being hurt in a church. Count what each option asks before they reach what they came for, and see where help is. For the last option, compare asking for payment up front with asking after a first use."
+ },
+ "options": [
+  {
+   "key": "open",
+   "name": "Open on what they came for",
+   "provenance": "Familiar convention",
+   "origin": "Familiar from church practice: the Diocese of York tells someone who has picked up a Bible to start with Mark, “Start with chapter 1 and read as much as feels manageable”; a pew Bible or a prayer book asks nothing first. The app, its passage, prayer and question box are written for this example.",
+   "gain": "What they came for, at once",
+   "cost": "Nothing saved yet",
+   "makes_easier": "Nothing stands between the person and what they came for.",
+   "costs": "Nothing is saved until they choose to save it.",
+   "ask_your_team": "What is the one thing a new person should be able to do in the first ten seconds?",
+   "still": "https://missional.design/assets/stills/try-first-open.jpg"
+  },
+  {
+   "key": "start",
+   "name": "A first page of places to start",
+   "provenance": "Familiar convention",
+   "origin": "Familiar from the Gideon Bible, whose front pages carry “topical indexes to point the reader to what the Bible says about various topics, problems and life situations”. Not observed in this form in an app. The situations, passages and help line are chosen for this example; the TelefonSeelsorge numbers are from its own website, checked 11 October 2026.",
+   "gain": "A way in without a reference",
+   "cost": "Someone chose the passages",
+   "makes_easier": "A way in for someone without a reference, with help at the top.",
+   "costs": "Someone chose the passages, and the list can feel like a diagnosis.",
+   "ask_your_team": "Who chose these situations and passages, and what comes first for someone in danger?",
+   "still": "https://missional.design/assets/stills/try-first-start.jpg"
+  },
+  {
+   "key": "guest",
+   "name": "Guest first, an account when there is something to keep",
+   "provenance": "Observed",
+   "origin": "Observed in Startblock (“Ohne Anmeldung fortfahren”, continue without signing in), Bible.is (“Create account later”) and Joseph Prince, where a guest can read and copy but is asked to sign up “to begin highlighting”; see the screenshots below. Apple’s review guidelines ask apps without significant account-based features to “let people use it without a login”. The wording here is written for this example.",
+   "gain": "Use first, decide later",
+   "cost": "The later ask can feel like a wall",
+   "makes_easier": "People use the app first and decide later whether to stay.",
+   "costs": "The later ask can still feel like a wall, if it comes at the wrong moment.",
+   "ask_your_team": "What is the first thing worth keeping, and is that the right moment to ask?",
+   "still": "https://missional.design/assets/stills/try-first-guest.jpg"
+  },
+  {
+   "key": "tour",
+   "name": "A short tour first",
+   "provenance": "Observed",
+   "origin": "Observed in Startblock’s five skippable intro slides, whose fourth reads “Das brauchst du: Eine Bibel aus Papier, ein Notizheft, einen Stift und etwas Zeit” (you need a paper Bible, a notebook, a pen and some time), in ESV’s welcome carousel, which ends in an offer to create a free account, and in Joseph Prince’s intro video and feature tour; see the screenshots below. The slides here are written for this example.",
+   "gain": "Expectations set",
+   "cost": "Often skipped, soon forgotten",
+   "makes_easier": "Sets expectations, as Startblock’s paper Bible and pen do.",
+   "costs": "Often skipped and soon forgotten; it delays the first use.",
+   "ask_your_team": "What would a person miss if they skipped every slide?",
+   "still": "https://missional.design/assets/stills/try-first-tour.jpg"
+  },
+  {
+   "key": "quiz",
+   "name": "Questions first",
+   "provenance": "Observed",
+   "origin": "Observed in Abide’s “What brings you here today?” photo grid, Bible BFF’s “How much of the Bible have you read?” and Faith’s questions for a name, an age range and a profile picture; see the screenshots below and the check-ins deep dive. The questions here are written for this example.",
+   "gain": "A first suggestion that fits",
+   "cost": "Questions before content",
+   "makes_easier": "A first suggestion that fits.",
+   "costs": "Every question delays the first use, and some ask what is not needed.",
+   "ask_your_team": "What does each answer change, and can someone skip it?",
+   "still": "https://missional.design/assets/stills/try-first-quiz.jpg"
+  },
+  {
+   "key": "pay",
+   "name": "Asking for payment",
+   "provenance": "Observed",
+   "origin": "Observed in Bible BFF, which asks people to rate the app before using it and then offers a weekly plan; Spark Bible, which asks for notifications before the first verse and later says “You just used your last free study”; Abide, whose trial screen gives the reminder day and charge date; and Pray.com, which asks for a mobile number at sign-up; see the screenshots below. The second setting, asking after a first use and saying what things cost, is a proposal; its costs are our estimate from published AI prices.",
+   "gain": "Pays for the work",
+   "cost": "Up front, it asks before giving",
+   "makes_easier": "Asked after a first use, honestly, it keeps the work going.",
+   "costs": "Asked before anything is given, it turns people away and puts help behind a wall.",
+   "ask_your_team": "What is free, what costs you money, and does the person know before they pay?",
+   "still": "https://missional.design/assets/stills/try-first-pay.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Let people reach what they came for first",
+   "text": "Startblock offers “Ohne Anmeldung fortfahren” (continue without signing in), and Bible.is “Create account later”. Open on today’s passage, a prayer to play or a question box, and count everything asked before it."
+  },
+  {
+   "heading": "Ask for an account when there is something to keep",
+   "text": "Joseph Prince lets a guest read and copy, and asks for an account “to begin highlighting”. A highlight, a plan or a conversation worth keeping is the honest moment to ask; say what the account holds, and how to delete it."
+  },
+  {
+   "heading": "Ask for permissions when a feature needs them",
+   "text": "Spark Bible asks for notifications before the first verse; Android’s guidance is to ask “in context, when the user starts to interact with the feature that requires it”. Ask when someone sets a reminder."
+  },
+  {
+   "heading": "Help in a crisis comes before everything",
+   "text": "Someone may open a faith app in a hard night. Keep a way to a person on the first screen, and never put it behind an account, a question, a free-answer limit or a paywall. Offer help, not verses, unless the person asks for Scripture."
+  },
+  {
+   "heading": "“No church right now” is an ordinary answer",
+   "text": "Someone coming back after years away, or after being hurt in a church, may meet questions about their church on the first screen. Ask only if the answer changes something, let it be skipped, and don’t praise or correct any answer."
+  },
+  {
+   "heading": "Ask for payment after a first use, and say what costs money",
+   "text": "Abide’s trial screen gives the reminder day and the charge date; Spark Bible tells people when they have used their “last free study”. Say what is free, what costs money and roughly why: licensed notes, recordings, AI answers. A free allowance that explains itself is fairer than a wall."
+  },
+  {
+   "heading": "Neither free nor paid is the only faithful way",
+   "text": "The church has long supported those who serve the word, and has long distrusted those who sell it. A subscription can be honest and a free app can be manipulative. The test is what is asked before anything is given, and whether the person knows what they are paying for."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "Someone curious, with no reference",
+   "needs": "A way in without a quiz",
+   "fit": {
+    "Open on what they came for": "good fit",
+    "A first page of places to start": "good fit",
+    "Guest first, an account when there is something to keep": "good fit",
+    "A short tour first": "possible",
+    "Questions first": "possible",
+    "Asking for payment": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone in a hard night",
+   "needs": "A person to talk to, before anything else",
+   "fit": {
+    "Open on what they came for": "good fit",
+    "A first page of places to start": "good fit",
+    "Guest first, an account when there is something to keep": "possible",
+    "A short tour first": "poor fit",
+    "Questions first": "possible",
+    "Asking for payment": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone coming back after years away, or after harm",
+   "needs": "Nothing that asks where they have been",
+   "fit": {
+    "Open on what they came for": "good fit",
+    "A first page of places to start": "good fit",
+    "Guest first, an account when there is something to keep": "good fit",
+    "A short tour first": "possible",
+    "Questions first": "poor fit",
+    "Asking for payment": "poor fit"
+   }
+  },
+  {
+   "situation": "A church member sent a link",
+   "needs": "Today’s reading, and their church’s plan",
+   "fit": {
+    "Open on what they came for": "good fit",
+    "A first page of places to start": "possible",
+    "Guest first, an account when there is something to keep": "good fit",
+    "A short tour first": "possible",
+    "Questions first": "possible",
+    "Asking for payment": "poor fit"
+   }
+  },
+  {
+   "situation": "An AI companion that costs money per answer",
+   "needs": "A free allowance that says why",
+   "fit": {
+    "Open on what they came for": "possible",
+    "A first page of places to start": "possible",
+    "Guest first, an account when there is something to keep": "good fit",
+    "A short tour first": "poor fit",
+    "Questions first": "poor fit",
+    "Asking for payment": "good fit"
+   }
+  },
+  {
+   "situation": "Licensed study notes or recordings",
+   "needs": "A fair price, after a first use",
+   "fit": {
+    "Open on what they came for": "possible",
+    "A first page of places to start": "poor fit",
+    "Guest first, an account when there is something to keep": "good fit",
+    "A short tour first": "poor fit",
+    "Questions first": "poor fit",
+    "Asking for payment": "good fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "Welcome first, commitment later",
+   "findings": [
+    {
+     "heading": "Come and see",
+     "text": "Jesus asked two would-be followers, “What do you want?”, and answered their question with an invitation: “Come and see” (John 1:38–39). They spent the rest of the day with him.",
+     "sources": []
+    },
+    {
+     "heading": "Guests received like Christ",
+     "text": "The Rule of Benedict asks that “all guests who arrive be received like Christ”, and, for someone asking to join the community, that they “not be granted an easy entrance”. Welcome is free; commitment is asked for later, of those who want to stay.",
+     "sources": [
+      "benedict-rule"
+     ]
+    },
+    {
+     "heading": "A place to start, and permission to read a little",
+     "text": "The Diocese of York tells someone who has picked up a Bible to try Mark: “Start with chapter 1 and read as much as feels manageable. You could also listen to it.” The Gideons put “topical indexes” for “topics, problems and life situations” at the front of their Bibles.",
+     "sources": [
+      "york-start-bible",
+      "gideons-help"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Scripture and church practice",
+   "subtitle": "Paying those who serve the word",
+   "findings": [
+    {
+     "heading": "The worker is worthy of his wages",
+     "text": "The Levites received the tithes of Israel “in return for the work they do” (Numbers 18:21). Paul wrote that “those who preach the gospel should receive their living from the gospel” (1 Corinthians 9:14) and that “the one who receives instruction in the word must share in all good things with his instructor” (Galatians 6:6). He also chose, for himself, to “offer it free of charge” (1 Corinthians 9:18).",
+     "sources": []
+    },
+    {
+     "heading": "Offerings, and a line against trading",
+     "text": "Catholic church law permits a priest “to receive an offering to apply the Mass for a specific intention”, by which the faithful “support its ministers and works”, and requires that “Any appearance of … trading is to be excluded entirely”. Protestant churches pay their ministers through offerings, tithes or, in Germany, church tax.",
+     "sources": [
+      "canon-mass-offering"
+     ]
+    },
+    {
+     "heading": "Support, and suspicion of those who ask",
+     "text": "The Didache, an early church manual, says a true teacher “is himself worthy, as the workman, of his support”, and that a travelling apostle who asks for money “is a false prophet”. Peter told Simon, who offered money for the Spirit, “you thought you could buy the gift of God with money!” (Acts 8:20), and Paul refused to “peddle the word of God for profit” (2 Corinthians 2:17).",
+     "sources": [
+      "didache-support"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Products and research",
+   "subtitle": "What a first use asks, and what it costs",
+   "findings": [
+    {
+     "heading": "Use first, then decide",
+     "text": "Apple’s review guidelines say that an app without significant account-based features should “let people use it without a login”, and that an app with accounts must let people delete them. Its design guidance asks for onboarding that is “fast, fun, and optional”, and for letting people experience an app “before prompting them for ratings or purchases”.",
+     "sources": [
+      "apple-review-account",
+      "apple-hig-onboarding"
+     ]
+    },
+    {
+     "heading": "Tutorials are skipped",
+     "text": "Nielsen Norman Group found that deck-of-cards tutorials “didn’t improve task performance”, and that users “frequently skip them”.",
+     "sources": [
+      "nng-onboarding-components",
+      "nng-onboarding-tutorials"
+     ]
+    },
+    {
+     "heading": "A required account turns people away",
+     "text": "In Baymard’s survey of US online shoppers, 18% of those who abandoned a checkout for reasons other than browsing said “The site wanted me to create an account”. That is shopping, not faith apps, but the moment is the same: someone ready to begin is asked for something first.",
+     "sources": [
+      "baymard-account"
+     ]
+    },
+    {
+     "heading": "Asking again and again",
+     "text": "European data protection authorities name “continuous prompting” a deceptive design pattern: users “repeatedly asked” for more data or consent tend to give in.",
+     "sources": [
+      "edpb-deceptive-design"
+     ]
+    },
+    {
+     "heading": "What it costs to serve someone",
+     "text": "An AI answer that reads about 6,000 tokens (instructions, passages and the conversation so far) and writes about 600 costs about 1.8 cents on Claude Sonnet 5.5 and about a tenth of a cent on Claude Haiku 5.5, at published prices. At 20 answers a day, that is about $10.80 or $0.54 a person each month, before hosting and staff. Translations cost too: Crossway’s free ESV terms exclude apps that sell, take donations or carry advertising, while the Berean Standard Bible is in the public domain. And free apps are paid for by someone: in 2018 YouVersion’s $8.3 million budget came from a church’s tithes and donations.",
+     "sources": [
+      "claude-pricing",
+      "esv-api-terms",
+      "bsb-pd",
+      "youversion-funding"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "A Bible reader",
+   "start_with": "Open on today’s passage; ask for an account when someone wants to keep something"
+  },
+  {
+   "if": "A prayer or audio app",
+   "start_with": "Play first; ask for notifications when someone sets a reminder"
+  },
+  {
+   "if": "An AI companion",
+   "start_with": "A free allowance that says why, with crisis help never counted"
+  },
+  {
+   "if": "Licensed notes or recordings",
+   "start_with": "A price after a first use, with the trial’s reminder and charge dates"
+  },
+  {
+   "if": "You are tempted to put the paywall first",
+   "start_with": "Don’t: let people meet what you made, then ask, honestly"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What a welcome is for",
+   "text": "Jesus asked two would-be followers, “What do you want?”, and answered with an invitation: “Come and see” (John 1:38–39). Isaiah’s call is to “come, buy wine and milk without money and without cost!” (Isaiah 55:1), and the last page of the Bible invites “the one who desires the water of life” to “drink freely” (Revelation 22:17). Grace is not for sale, and a first welcome should feel like it."
+  },
+  {
+   "heading": "Where Christians differ, and agree",
+   "text": "The same Scriptures pay those who serve: the Levites lived from the tithe (Numbers 18:21), and “the worker is worthy of his wages” (Luke 10:7). Catholics give an offering for a Mass, under canon law that excludes “any appearance of … trading”; Protestant churches pay ministers from offerings, tithes or church tax; Paul took support from some churches and chose to preach to others “free of charge” (1 Corinthians 9:18). Both traditions warn against those who “peddle the word of God for profit” (2 Corinthians 2:17). An app that charges is in a long line of honest support, and of temptation."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "Let people come and see before anything is asked of them. Keep help within reach from the first screen. Then ask for support as the church at its best has done: openly, for real costs, never for access to grace, and never from someone in a crisis. Say what is free, what costs money and why, and let people pay what they can."
+  }
+ ],
+ "voices": [
+  {
+   "source": "John Wesley, “The Use of Money” (sermon 50)",
+   "url": "https://wesley.nnu.edu/john-wesley/the-sermons-of-john-wesley-1872-edition/sermon-50-the-use-of-money/",
+   "note": "told Methodists to “gain all you can” by honest work, but called gain made “by hurting our neighbour in his soul” “dear-bought”; then to save all you can and “give all you can”."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Put a quiz, a rating, permission prompts and a weekly trial before the first verse; make the free tier feel like a punishment; keep crisis help behind the paywall.",
+  "ethical": "Open on what people came for, ask for an account when there is something to keep, ask for payment after a first use, and give the trial’s reminder and charge dates.",
+  "redemptive": "Keep Scripture and crisis help free, say plainly what things cost you, let people pay what they can, and give up the conversions that a gate before the first use would bring.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "What must someone give before they reach what they came for, and what does it honestly cost you to serve them?",
+  "exercise": "Install your app on a fresh phone and write down every screen, field, prompt and offer before the first verse, prayer or answer. Do it again as someone who types, in the first box they see, that they don’t want to be here anymore. Then write one paragraph, in plain words, telling a new user what is free, what costs money, roughly what it costs you, and why. Would you be glad for them to read it on the first day?",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [],
+ "examples": [
+  {
+   "app": "Hallow",
+   "title": "“Pray for others, be prayed for”",
+   "url": "https://missional.design/examples/hallow-community/",
+   "observed": "Captured 19 September 2025 · from embedded image metadata",
+   "observation": "The Community tab, signed out, shows a small church on a purple background and “Sign in or create an account to pray alongside your community”, with three ticks: “Connect with your parish community and stay connected with fellow members”, “Pray for others, be prayed for” and “Strengthen your faith together through community challenges and discussions”.",
+   "decision": "The pitch makes the parish the audience. Hallow’s help centre adds the details that matter: requests of up to 240 characters, never anonymous, active for seven days, answered with a heart.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Abide",
+   "title": "“What brings you here today?” as a photo grid",
+   "url": "https://missional.design/examples/abide-goal-grid/",
+   "observed": "Captured 17 October 2025 · from embedded image metadata",
+   "observation": "A multi-select grid of twelve photo tiles (Reduce Anxiety, Grow Spiritually, Feel Peace, Sleep Better, Strengthen Relationships, Connect With God, Trust God, Experience Freedom, Increase Hope, Receive Healing, Improve Character, Love Well) under “Select one or more to continue.” Earlier steps ask for content types; between steps, interstitials show listener counts and five-star testimonials before a subscription offer.",
+   "decision": "Goals can shape a first suggestion. Say what each choice changes, let people skip, and keep social proof and sales out of the questions themselves.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Startblock",
+   "title": "A way to continue without signing in, on the first screen",
+   "url": "https://missional.design/examples/startblock-guest/",
+   "observed": "Captured 26 September 2025 · from embedded image metadata",
+   "observation": "The Startblock logo above two buttons, Anmelden (sign in) and Registrieren (register), and at the foot of the screen the link “Ohne Anmeldung fortfahren” (continue without signing in).",
+   "decision": "A guest route on the first screen lets people try the courses before deciding. Make it as easy to find as the buttons, and ask for an account when there is something worth keeping.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Startblock",
+   "title": "“What you need”: a paper Bible, a notebook, a pen and some time",
+   "url": "https://missional.design/examples/startblock-what-you-need/",
+   "observed": "Captured 26 September 2025 · from embedded image metadata",
+   "observation": "Slide 4 of 5 of the intro, on red: a pencil-and-page icon, “Das brauchst du” (what you need) and “Eine Bibel aus Papier, ein Notizheft, einen Stift und etwas Zeit” (a paper Bible, a notebook, a pen and some time). “Intro überspringen” (skip intro) sits at the bottom left.",
+   "decision": "A tour that sets expectations about practice, not features, and points beyond the app. It is skippable on every slide.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Bible.is",
+   "title": "“Create account later” beneath the mission",
+   "url": "https://missional.design/examples/bibleis-account-later/",
+   "observed": "Captured 4 September 2025 · from embedded image metadata",
+   "observation": "A welcome screen over a photo: “Our mission is to provide people everywhere with free access to God’s Word through Audio Bibles.”, then Sign up and Sign in buttons, and at the bottom “CREATE ACCOUNT LATER”.",
+   "decision": "Stating the mission and offering to create an account later lets people listen first. The deferral link is small and at the bottom; it could be the main path.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Joseph Prince",
+   "title": "A second ask when continuing as a guest",
+   "url": "https://missional.design/examples/jp-guest-sheet/",
+   "observed": "Captured 22 October 2025 · from embedded image metadata",
+   "observation": "Over an email sign-in screen, a sheet reads “Are you sure?” and “Sign up or log in to an account to save your progress and also receive complimentary sermons from us.”, with a “Sign up or log in” button and a “Continue with guest” link.",
+   "decision": "A guest route exists, but choosing it is met with a second ask. Saying what an account keeps is helpful; asking twice adds pressure.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Joseph Prince",
+   "title": "An account asked for at the moment of highlighting",
+   "url": "https://missional.design/examples/jp-highlight-account/",
+   "observed": "Captured 22 October 2025 · from embedded image metadata",
+   "observation": "A guest reading Genesis 1 (NKJV) selects verse 26. The sheet below reads “Genesis 1:26 selected” and “Create a free account or log in to begin highlighting.”, with a sign-up button; Copy and Share remain available.",
+   "decision": "Asking for an account when someone wants to keep something is the honest moment: reading, copying and sharing stay open.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Bible BFF",
+   "title": "“Rate the app” before the app has been used",
+   "url": "https://missional.design/examples/bff-rate-first/",
+   "observed": "Captured 29 August 2025 · from embedded image metadata",
+   "observation": "During onboarding, before any content, a screen over a painted landscape reads “Rate the app” with five stars, two avatars and a testimonial: “We love Bible BFF! It’s like a religious friend who can explain anything about the Bible” (-Emma & Rose), with a Continue button.",
+   "decision": "Asking for a rating before the first use asks people to vouch for something they have not tried. Apple’s guidance is to let people experience an app before prompting for ratings.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Bible BFF",
+   "title": "A weekly plan as the first offer",
+   "url": "https://missional.design/examples/bff-weekly-trial/",
+   "observed": "Captured 29 August 2025 · from embedded image metadata",
+   "observation": "“Unlock Bible BFF”, “3-day free trial.” and “No Payment Due Now” above two plans: Weekly Access, “3 days free then $6.99/week” (highlighted), and Monthly Access, “3 days free then 12.99/mo” with “50% off”. A “Try for FREE” button follows.",
+   "decision": "A weekly price makes the cost look small and adds up to far more over a year. Show the yearly cost of each plan, and the date of the first charge.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Abide",
+   "title": "A trial screen with the reminder and charge dates",
+   "url": "https://missional.design/examples/abide-trial-timeline/",
+   "observed": "Captured 17 October 2025 · from embedded image metadata",
+   "observation": "“How your free trial works”: “Get 7 days free, then only $39.99 per year”. A timeline shows “Today: Start Your Free Trial”, “Day 5: Trial Reminder” and “Day 7: Trial Ends”, “You’ll be charged on Oct 24, 2025, cancel anytime before.” Below: “On the next page you can choose a plan, or continue with the free version.”",
+   "decision": "Giving the reminder day and the charge date, and saying a free version exists, is honest. It still comes before the first use.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Abide",
+   "title": "“Your subscription fuels a greater purpose”",
+   "url": "https://missional.design/examples/abide-greater-purpose/",
+   "observed": "Captured 17 October 2025 · from embedded image metadata",
+   "observation": "A paywall headed “A Movement of Faith and Hope 100,000 Strong” lists “Bring Comfort to Others” (“While helping us offer free support to those facing loneliness, grief, or uncertainty”), “Better sleep is yours to share” and “Expand Our Reach”, above Annual ($39.99 a year) and Monthly ($9.99 a month) plans with 7 days free.",
+   "decision": "Saying what a subscription pays for is a fair ask. Say also what stays free for everyone, and keep the mission language from pressing people who cannot pay.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Spark Bible",
+   "title": "“You just used your last free study”",
+   "url": "https://missional.design/examples/sparkbible-last-free-study/",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "Over an AI-generated “Themes - Psalm 23” sheet, a dialog reads “Get Unlimited AI-Enhanced Study Tools!” and “You just used your last free study, but you can unlock more by starting your free trial of Spark Bible Plus!”, with Learn More and Maybe later.",
+   "decision": "A free allowance for AI tools reflects a real cost per answer. Say what each study costs to make, show the allowance before it runs out, and keep crisis help outside any limit.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Pray.com",
+   "title": "A mobile number at sign-up",
+   "url": "https://missional.design/examples/praycom-mobile-number/",
+   "observed": "Captured 20 August 2025 · from embedded image metadata",
+   "observation": "“What’s your mobile number?” with a country selector and phone field (the number entered is blurred), a line on agreeing to the Terms of Service and Privacy Policy and confirming “you are at least 16 years old”, a Continue button and the phone keypad.",
+   "decision": "A phone number is more than most apps need to begin. Ask only for what the first use requires, and say why.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Faith",
+   "title": "“How old are you?” during setup",
+   "url": "https://missional.design/examples/faith-age-question/",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "“How old are you?” and “We’d love to know your age to personalize your experience”, above ranges from “12 or younger” to “45 or older”, and a Continue button.",
+   "decision": "An age question can protect children, or simply profile people. Say which it is, and what changes for a child; see the coming deep dive on children and families.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Spark Bible",
+   "title": "A notification prompt before the first verse",
+   "url": "https://missional.design/examples/sparkbible-notification-ask/",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "During onboarding, behind the system dialog, a slide reads “Get the full experience.”; the dialog offers Allow, “Allow in Scheduled Summary” and Don’t Allow, with “Skip for now.” below.",
+   "decision": "Asking for notifications before someone has read anything gives them no reason to say yes. Ask when someone sets a reminder.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Hallow",
+   "title": "A tracking request that says what it is for",
+   "url": "https://missional.design/examples/hallow-tracking-ask/",
+   "observed": "Captured 19 September 2025 · from embedded image metadata",
+   "observation": "Over the Home screen, the system dialog asks to allow Hallow to track activity across other companies’ apps and websites, with Hallow’s text: “Your data will be used to help optimize new outreach and marketing efforts. We do not sell your data to third parties.”",
+   "decision": "Saying plainly what tracking is for helps people decide. It is still asked on the home screen, before anything requires it.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Bible BFF",
+   "title": "“How much of the Bible have you read?”",
+   "url": "https://missional.design/examples/biblebff-quiz/",
+   "observed": "Captured 29 August 2025 · from embedded image metadata",
+   "observation": "“Question 1 of 2” offers four answers (None of it, I know some stories, Most of it, Every page!) with “Most of it” selected. The next screen echoes the answer: “Wow, that’s incredible. We can’t wait for you to experience it in a new way!”",
+   "decision": "A familiarity question can set the right depth. Echoing every answer with praise turns a setting into flattery; say instead what the answer will change.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Joseph Prince",
+   "title": "A notification request over “Set a schedule”",
+   "url": "https://missional.design/examples/jp-schedule-permission/",
+   "observed": "Captured 22 October 2025 · from embedded image metadata",
+   "observation": "The Today screen with a calendar, and below it a “Set a schedule” card: “Good habits start with a tiny action! Create a schedule to build healthy habits.” The system dialog asks whether “Joseph Prince” may send notifications, with “Allow in Scheduled Summary” as an option.",
+   "decision": "The request comes with a schedule the person is setting, which is the right moment.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Pray.com",
+   "title": "A ministry donation that brings an ad-free subscription",
+   "url": "https://missional.design/examples/praycom-support-ad-free/",
+   "observed": "Captured 20 August 2025 · from embedded image metadata",
+   "observation": "“Support & Go Ad Free” over a painted portrait of Jesus: a named ministry, “By supporting … you give to a ministry to spread the love of Jesus. As a gift to you, you get an Ad Free Subscription to Pray Premium.” Monthly or Yearly, then a “Most Popular” option, “Super donor $29.99/mo · 1 Ads Free Subscription”, a custom amount and Continue.",
+   "decision": "A gift that buys something is a purchase: Apple asks for in-app purchase when a gift is tied to content, and tax rules treat it as goods received. Keep the price and the gift apart.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "apple-review-account",
+   "title": "App Store Review Guidelines",
+   "url": "https://developer.apple.com/app-store/review/guidelines/",
+   "author": "Apple",
+   "kind": "Platform guidance",
+   "shows": "“If your app doesn’t include significant account-based features, let people use it without a login. If your app supports account creation, you must also offer account deletion within the app.” Apps “may not require users to enter personal information to function, except when directly relevant to the core functionality of the app or required by law.”",
+   "application": "Let people read, pray or ask before they sign up, and let them delete the account they make.",
+   "limits": "Platform rules for the App Store; enforcement varies, and Google Play has its own rules."
+  },
+  {
+   "key": "apple-hig-onboarding",
+   "title": "Human Interface Guidelines: Onboarding",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/onboarding",
+   "author": "Apple",
+   "kind": "Platform guidance",
+   "shows": "Onboarding should be “fast, fun, and optional”; “Postpone nonessential setup flows or customization steps”; “Prefer letting people experience your app or game before prompting them for ratings or purchases.”",
+   "application": "Open on the content; ask for ratings and payment after people have used the app.",
+   "limits": "Design guidance, not research."
+  },
+  {
+   "key": "android-permissions",
+   "title": "Request runtime permissions",
+   "url": "https://developer.android.com/training/permissions/requesting",
+   "author": "Android Developers",
+   "kind": "Platform guidance",
+   "shows": "“Ask for a permission in context, when the user starts to interact with the feature that requires it. Don’t block the user.”",
+   "application": "Ask for notifications when someone sets a reminder, not at launch.",
+   "limits": "Platform guidance for Android; Apple’s is similar."
+  },
+  {
+   "key": "nng-onboarding-components",
+   "title": "Mobile-App Onboarding: An Analysis of Components and Techniques",
+   "url": "https://www.nngroup.com/articles/mobile-app-onboarding/",
+   "author": "Alita Kendrick · Nielsen Norman Group · 21 June 2020",
+   "kind": "Design reference",
+   "shows": "“Skip Onboarding Whenever Possible”; their research on deck-of-cards tutorials “showed that tutorials didn’t improve task performance”; “lengthy promotional onboarding will likely be skipped.”",
+   "application": "Spend the effort on a clear first screen rather than slides about it.",
+   "limits": "An expert article drawing on the group’s own studies; details of those studies are in separate reports."
+  },
+  {
+   "key": "nng-onboarding-tutorials",
+   "title": "Onboarding Tutorials vs. Contextual Help",
+   "url": "https://www.nngroup.com/articles/onboarding-tutorials/",
+   "author": "Nielsen Norman Group",
+   "kind": "Design reference",
+   "shows": "Tutorials are “dramatically overused”, and “we find that users frequently skip them”; “Users want to start using the product right away.”",
+   "application": "Teach a feature when someone reaches it, not before the first use.",
+   "limits": "An expert article; the group notes tutorials can help with genuinely new interactions."
+  },
+  {
+   "key": "edpb-deceptive-design",
+   "title": "Guidelines 03/2022 on deceptive design patterns in social media platform interfaces",
+   "url": "https://www.edpb.europa.eu/system/files/2023-02/edpb_03-2022_guidelines_on_deceptive_design_patterns_in_social_media_platform_interfaces_v2_en_0.pdf",
+   "author": "European Data Protection Board · version 2.0, 14 February 2023",
+   "kind": "Legal guidance",
+   "shows": "“Continuous prompting” occurs “when users are pushed to provide more personal data than necessary for the purposes of processing or to agree with another use of their data, by being repeatedly asked”; at sign-up, users “should understand what exactly they sign up for”.",
+   "application": "Ask once, for what is needed, and say plainly what someone is signing up for.",
+   "limits": "Written for social media platforms; it applies the GDPR, which binds other apps too."
+  },
+  {
+   "key": "baymard-account",
+   "title": "Cart abandonment rate statistics",
+   "url": "https://baymard.com/lists/cart-abandonment-rate",
+   "author": "Baymard Institute",
+   "kind": "Research",
+   "shows": "Among US online shoppers who abandoned a checkout for reasons other than “just browsing”, 18% gave the reason “The site wanted me to create an account”.",
+   "application": "A required account turns some people away at the moment they were ready.",
+   "limits": "Online shopping, not faith apps; a survey of stated reasons."
+  },
+  {
+   "key": "york-start-bible",
+   "title": "Start with the Bible",
+   "url": "https://dioceseofyork.org.uk/faith-life/start-with-the-bible/",
+   "author": "Diocese of York (Church of England)",
+   "kind": "Church practice",
+   "shows": "For someone who has “Picked up a Bible and wondering where to begin”: try Mark; “Start with chapter 1 and read as much as feels manageable. You could also listen to it.” It suggests a short prayer before beginning.",
+   "application": "A church’s first step asks nothing of the reader: a place to start, and permission to read only a little.",
+   "limits": "One diocese’s page for newcomers."
+  },
+  {
+   "key": "gideons-help",
+   "title": "Help from the Bible",
+   "url": "https://www.gideons.org.au/?p=7637",
+   "author": "The Gideons International in Australia",
+   "kind": "Church practice",
+   "shows": "“The front section of all Gideon Bibles and Testaments contains Helps to read the Bible. There are a number of topical indexes to point the reader to what the Bible says about various topics, problems and life situations.”",
+   "application": "A first page of situations is an old way into Scripture for someone without a reference.",
+   "limits": "One national association’s description; editions differ."
+  },
+  {
+   "key": "benedict-rule",
+   "title": "St. Benedict’s Rule for Monasteries",
+   "url": "https://www.gutenberg.org/cache/epub/50040/pg50040.txt",
+   "author": "Benedict of Nursia, sixth century · Project Gutenberg edition",
+   "kind": "Church practice",
+   "shows": "Chapter 53: “Let all guests who arrive be received like Christ.” Chapter 58, on someone asking to join the community: “let him not be granted an easy entrance”.",
+   "application": "Welcome guests freely; ask for commitment later, from those who want to stay.",
+   "limits": "A monastic rule; an app is not a monastery, and the analogy is ours."
+  },
+  {
+   "key": "canon-mass-offering",
+   "title": "Code of Canon Law, canons 879–958: the Most Holy Eucharist",
+   "url": "https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib4-cann879-958_en.html",
+   "author": "Holy See",
+   "kind": "Church practice",
+   "shows": "A priest “is permitted to receive an offering to apply the Mass for a specific intention” (can. 945); those who give it “share its concern to support its ministers and works” (can. 946); and “Any appearance of … trading is to be excluded entirely from the offering for Masses” (can. 947).",
+   "application": "The church has long let people give for the ministry of the word and sacrament, and drawn a line against trading in it.",
+   "limits": "Catholic church law; Protestant churches support ministry through offerings, church tax or tithes."
+  },
+  {
+   "key": "didache-support",
+   "title": "The Didache (Teaching of the Twelve Apostles)",
+   "url": "https://www.newadvent.org/fathers/0714.htm",
+   "author": "Early Christian text, late first or early second century · New Advent edition",
+   "kind": "Church practice",
+   "shows": "A travelling apostle should “take nothing but bread … but if he ask money, he is a false prophet”; yet “every true prophet that wills to abide among you is worthy of his support. So also a true teacher is himself worthy, as the workman, of his support.”",
+   "application": "The early church supported its teachers and distrusted those who asked for money: both at once.",
+   "limits": "An early church manual; its dating and setting are debated."
+  },
+  {
+   "key": "claude-pricing",
+   "title": "Pricing",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing",
+   "author": "Anthropic",
+   "kind": "Practice",
+   "shows": "Claude Sonnet 5.5 costs $2 per million input tokens and $10 per million output tokens; Claude Haiku 5.5 costs $0.10 and $0.50 for prompts up to 100,000 tokens.",
+   "application": "Every AI answer has a cost; the choice of model changes it many times over.",
+   "limits": "One provider’s list prices in US dollars; prices change, and other providers differ."
+  },
+  {
+   "key": "esv-api-terms",
+   "title": "ESV API: introduction",
+   "url": "https://api.esv.org/",
+   "author": "Crossway",
+   "kind": "Practice",
+   "shows": "The text is free “for non-commercial use”; a commercial site “is primarily designed to motivate visitors to buy something, to pay for a service, or to give a donation, or it accepts advertising or sponsorships”. Other uses need permission.",
+   "application": "The translation an app uses can decide whether it may charge or ask for donations at all.",
+   "limits": "One publisher’s terms; others differ, and the Berean Standard Bible is in the public domain."
+  },
+  {
+   "key": "bsb-pd",
+   "title": "Berean Bible terms and conditions",
+   "url": "https://berean.bible/terms.htm",
+   "author": "Berean Bible",
+   "kind": "Licensing",
+   "shows": "The Berean Standard Bible was dedicated to the public domain on 30 April 2023.",
+   "application": "Public-domain modern translations can be compared, quoted and shared without licence limits.",
+   "limits": "Publisher statement."
+  },
+  {
+   "key": "youversion-funding",
+   "title": "With 330 million downloads, top Bible app celebrates 10 years",
+   "url": "https://wordandway.org/2018/07/27/with-330-million-downloads-top-bible-app-celebrates-10-years/",
+   "author": "Religion News Service · Word&Way, 27 July 2018",
+   "kind": "Practice",
+   "shows": "“An $8.3 million annual budget, funded by Life Church members’ tithes and outside donations, pays for YouVersion”; the app is “free with no commercial advertisements”.",
+   "application": "A free app is still paid for, here by a church and its donors.",
+   "limits": "A 2018 report; the current budget is not public in this source."
+  },
+  {
+   "key": "telefonseelsorge",
+   "title": "TelefonSeelsorge",
+   "url": "https://www.telefonseelsorge.de/",
+   "author": "TelefonSeelsorge Deutschland (Protestant and Catholic churches)",
+   "kind": "Practice",
+   "shows": "“Tag und Nacht erreichbar 0800 1110111 / 0800 1110222 oder 116 123”, by phone, chat or email.",
+   "application": "A first screen can carry a way to a person, day and night, free of charge.",
+   "limits": "Germany; other countries have their own services."
+  }
+ ],
+ "review": {
+  "status": "draft, waiting for review",
+  "what": "Help for someone arriving in a hard night, the wording for someone coming back after being hurt in a church, and the reflection on paying for Scripture, teaching and AI",
+  "needs": [
+   "crisis support and suicide prevention",
+   "pastoral care",
+   "survivor advocacy (ideally survivor-led)",
+   "theology across Catholic, Orthodox and Protestant traditions"
+  ],
+  "since": "11 October 2026",
+  "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/first-use/"
+ },
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

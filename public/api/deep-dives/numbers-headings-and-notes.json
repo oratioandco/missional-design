@@ -1,0 +1,570 @@
+{
+ "slug": "numbers-headings-and-notes",
+ "url": "https://missional.design/patterns/numbers-headings-and-notes/",
+ "title": "Numbers, headings and notes",
+ "question": "How much should surround the text?",
+ "lede": "Almost nothing around the words of the Bible is part of them. Verse numbers, chapter breaks, section titles, red letters, footnotes, study notes and now teaching videos were added by printers, translators and editors over centuries. Each helps someone find, follow or understand, and each quietly teaches them how to read. Whoever adds to the page today joins a long line of printers and editors, and shares their responsibility.",
+ "calling": "Everything you add is a voice beside God’s word; let readers always tell which is which.",
+ "spectrum": {
+  "title": "From the bare text to inline media",
+  "from": "Less around the text",
+  "to": "More around the text"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/around-the-text/",
+  "situation": "The same passage, Mark 4:30–41 in the Berean Standard Bible, with more or less around it. Read the storm on the sea in each option, open a note and come back, then try the reading settings in the last option."
+ },
+ "options": [
+  {
+   "key": "reader",
+   "name": "Reader’s edition",
+   "provenance": "Familiar convention",
+   "origin": "Familiar from print reader’s editions such as the ESV Reader’s Bible and Biblica’s The Books of the Bible, which remove numbers, headings and notes.",
+   "gain": "Reads as continuous writing",
+   "cost": "Hard to find or cite",
+   "makes_easier": "The text reads as continuous writing; nothing interrupts, and nothing suggests reading sentence by sentence.",
+   "costs": "Harder to find or cite a verse, or to follow a preacher who says “verse 39”.",
+   "ask_your_team": "Is reading through, or finding and citing, the main job here?",
+   "still": "https://missional.design/assets/stills/try-around-reader.jpg"
+  },
+  {
+   "key": "numbers",
+   "name": "Verse numbers",
+   "provenance": "Familiar convention",
+   "origin": "The default in almost every Bible app; verse numbers date from Estienne’s 1551 Greek New Testament.",
+   "gain": "Easy to find and follow",
+   "cost": "Small breaks everywhere",
+   "makes_easier": "Easy to find, cite and follow along in church or a group.",
+   "costs": "Each number is a small break; text can start to read as a list of separate sayings.",
+   "ask_your_team": "How light can the numbers be while still easy to find?",
+   "still": "https://missional.design/assets/stills/try-around-numbers.jpg"
+  },
+  {
+   "key": "headings",
+   "name": "Section titles",
+   "provenance": "Observed",
+   "origin": "Observed in YouVersion and Bible.is, where translation editors’ titles and verse ranges head each section (see the screenshots below). Titles here are our own.",
+   "gain": "Orientation at a glance",
+   "cost": "Titles interpret",
+   "makes_easier": "Orientation at a glance, and better memory for how a chapter is organised.",
+   "costs": "Titles interpret. “The storm on the sea” or “Jesus calms the storm” steer attention differently, and can be mistaken for Scripture.",
+   "ask_your_team": "Who writes the titles, and does the styling make clear they are added?",
+   "still": "https://missional.design/assets/stills/try-around-headings.jpg"
+  },
+  {
+   "key": "notes",
+   "name": "Note markers",
+   "provenance": "Observed",
+   "origin": "Observed as a “Note Indicators” switch in Mere Bible’s reading settings (see the screenshots below). Notes here are examples written for this demo.",
+   "gain": "Help one tap away",
+   "cost": "Invites detours",
+   "makes_easier": "Translation choices and cross-references are one tap away, without leaving the passage.",
+   "costs": "Every marker invites a detour; more markers mean more decisions while reading.",
+   "ask_your_team": "Which notes earn a marker in the main reading view?",
+   "still": "https://missional.design/assets/stills/try-around-notes.jpg"
+  },
+  {
+   "key": "study",
+   "name": "Study layout",
+   "provenance": "Familiar convention",
+   "origin": "Familiar from study Bibles in print and in apps, where notes sit alongside the text. Notes here are examples written for this demo.",
+   "gain": "Context where questions arise",
+   "cost": "Borrowed authority",
+   "makes_easier": "Context and background right where questions arise; useful for study and preparing to teach.",
+   "costs": "Notes speak with borrowed authority. The Scofield notes shaped how millions read prophecy for a century.",
+   "ask_your_team": "Whose interpretation do the notes carry, and does the reader know?",
+   "still": "https://missional.design/assets/stills/try-around-study.jpg"
+  },
+  {
+   "key": "media",
+   "name": "Inline media",
+   "provenance": "Observed",
+   "origin": "Observed in the Joseph Prince app’s study Bible: a swipeable row of video, image, audio and book-excerpt cards pinned to exact verses, some locked for subscribers (see the screenshots below). Cards here are examples written for this demo.",
+   "gain": "Teaching at the verse",
+   "cost": "Extras crowd the text",
+   "makes_easier": "Teaching arrives exactly where the question arises, in the format someone prefers to learn in.",
+   "costs": "Interesting extras can crowd out the text: in learning research, vivid but non-essential media reduced recall and understanding. It also puts a ministry’s voice, and sometimes a paywall, inside Scripture.",
+   "ask_your_team": "Whose voice is pinned to the verse, and does it serve the reading or compete with it?",
+   "still": "https://missional.design/assets/stills/try-around-media.jpg"
+  },
+  {
+   "key": "choose",
+   "name": "Reader decides",
+   "provenance": "Observed",
+   "origin": "Observed in Mere Bible’s reading-settings drawer, with switches for red letters, verse numbers, note indicators and section headings.",
+   "gain": "Each reader sets it",
+   "cost": "Defaults still decide",
+   "makes_easier": "Each reader sets what they need, and can change it for a different kind of reading.",
+   "costs": "Most people never change defaults, so the default still decides what most people see.",
+   "ask_your_team": "What should the default be, and how will people find the switches?",
+   "still": "https://missional.design/assets/stills/try-around-choose.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Everything around the text is someone’s addition",
+   "text": "Chapters date from the thirteenth century, verse numbers from 1551, red letters from 1899. Section titles and notes come from translators and editors. Genette calls this a threshold of interpretation: it shapes how the text is received before anyone reads a word."
+  },
+  {
+   "heading": "Notes have always carried theology",
+   "text": "The Geneva Bible’s marginal notes were partisan enough that the 1604 rules for the King James Version banned notes except for Hebrew and Greek words. Three centuries later, the Scofield notes carried dispensationalism to millions. A study layout is a voice beside the text, and readers should know whose."
+  },
+  {
+   "heading": "Headings help structure, and steer meaning",
+   "text": "Headings improve memory for how a text is organised, and titles bias comprehension towards what they name. “The storm on the sea” and “Jesus calms the storm” point a reader at different things. Style titles so they cannot be mistaken for Scripture, and say who wrote them."
+  },
+  {
+   "heading": "Every marker is a decision",
+   "text": "In hypertext research, links add decisions and visual processing that can impair reading, most for less experienced readers. Keep markers few and typed, open notes in a sheet over the passage, and return to the same verse."
+  },
+  {
+   "heading": "Media inside the text is a voice and a cost",
+   "text": "The Joseph Prince app pins video, image, audio and book-excerpt cards to exact verses, some locked for subscribers, and hides the layer in paragraph mode. Teaching at the verse can help, but learning research finds vivid, non-essential extras reduce recall and understanding. Say whose teaching it is, keep it switchable, and think hard before putting a paywall inside Scripture."
+  },
+  {
+   "heading": "Defaults decide for most people",
+   "text": "Mere Bible lets readers switch numbers, headings, note markers and red letters. That serves people who look for it; most never change a default. Choose the default for your main reading, and make the switches easy to find."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "Reading a book through",
+   "needs": "Nothing between sentences",
+   "fit": {
+    "Reader’s edition": "good fit",
+    "Verse numbers": "possible",
+    "Section titles": "possible",
+    "Note markers": "poor fit",
+    "Study layout": "poor fit",
+    "Inline media": "poor fit",
+    "Reader decides": "possible"
+   }
+  },
+  {
+   "situation": "Following a sermon or group",
+   "needs": "Numbers to find the verse",
+   "fit": {
+    "Reader’s edition": "poor fit",
+    "Verse numbers": "good fit",
+    "Section titles": "good fit",
+    "Note markers": "possible",
+    "Study layout": "poor fit",
+    "Inline media": "poor fit",
+    "Reader decides": "possible"
+   }
+  },
+  {
+   "situation": "A first read of a passage",
+   "needs": "Orientation without interruptions",
+   "fit": {
+    "Reader’s edition": "possible",
+    "Verse numbers": "possible",
+    "Section titles": "good fit",
+    "Note markers": "poor fit",
+    "Study layout": "poor fit",
+    "Inline media": "poor fit",
+    "Reader decides": "possible"
+   }
+  },
+  {
+   "situation": "Careful study",
+   "needs": "Translation notes and cross-references",
+   "fit": {
+    "Reader’s edition": "poor fit",
+    "Verse numbers": "possible",
+    "Section titles": "possible",
+    "Note markers": "good fit",
+    "Study layout": "good fit",
+    "Inline media": "possible",
+    "Reader decides": "possible"
+   }
+  },
+  {
+   "situation": "Preparing to teach",
+   "needs": "Context, background, other views",
+   "fit": {
+    "Reader’s edition": "poor fit",
+    "Verse numbers": "poor fit",
+    "Section titles": "possible",
+    "Note markers": "good fit",
+    "Study layout": "good fit",
+    "Inline media": "good fit",
+    "Reader decides": "possible"
+   }
+  },
+  {
+   "situation": "Reading aloud in church",
+   "needs": "Clean text, clear sense breaks",
+   "fit": {
+    "Reader’s edition": "good fit",
+    "Verse numbers": "possible",
+    "Section titles": "possible",
+    "Note markers": "poor fit",
+    "Study layout": "poor fit",
+    "Inline media": "poor fit",
+    "Reader decides": "possible"
+   }
+  },
+  {
+   "situation": "Readers with dyslexia or low vision",
+   "needs": "Size, spacing, fewer marks",
+   "fit": {
+    "Reader’s edition": "good fit",
+    "Verse numbers": "possible",
+    "Section titles": "possible",
+    "Note markers": "poor fit",
+    "Study layout": "poor fit",
+    "Inline media": "poor fit",
+    "Reader decides": "good fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "History and tradition",
+   "subtitle": "How the apparatus arrived",
+   "findings": [
+    {
+     "heading": "Numbers and chapters are late arrivals",
+     "text": "Stephen Langton’s chapters date from the thirteenth century; Robert Estienne numbered New Testament verses in 1551, and the Geneva Bible of 1560 was the first English Bible to use them.",
+     "sources": [
+      "geneva-notes"
+     ]
+    },
+    {
+     "heading": "Notes were contested from the start",
+     "text": "The 1604 rules for the King James translators allowed no marginal notes except for Hebrew or Greek words, partly in reaction to the Geneva notes. The Scofield Reference Bible of 1909 shows the opposite: notes that taught a framework to millions.",
+     "sources": [
+      "kjv-rules",
+      "scofield"
+     ]
+    },
+    {
+     "heading": "Red letters and reader’s editions",
+     "text": "Red letters began with Louis Klopsch in 1899. Reader’s editions, such as Biblica’s The Books of the Bible and the ESV Reader’s Bible, remove numbers, titles and notes so the books can be read whole, and churches have read them together.",
+     "sources": [
+      "red-letter",
+      "books-of-the-bible",
+      "esv-readers"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Interpretation",
+   "subtitle": "Why apparatus is never neutral",
+   "findings": [
+    {
+     "heading": "A threshold, not a border",
+     "text": "Genette describes titles and notes as a threshold that influences how a text is received. For Scripture, that means headings and notes are interpretation, however modest.",
+     "sources": [
+      "genette"
+     ]
+    },
+    {
+     "heading": "Context guards meaning",
+     "text": "Reading a verse within its passage and genre is the first rule of interpretation in widely used evangelical guides. Numbers make it easy to lift a verse out; headings and paragraphs keep the passage visible.",
+     "sources": [
+      "fee-stuart"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Reading science",
+   "subtitle": "What helps and what costs",
+   "findings": [
+    {
+     "heading": "Headings help memory for structure",
+     "text": "Signals such as headings improve memory for a text’s organisation, and titles bias comprehension towards their topic.",
+     "sources": [
+      "lorch-signals"
+     ]
+    },
+    {
+     "heading": "Extras can crowd out the essential",
+     "text": "In a meta-analysis of learning studies, interesting but non-essential details, especially visual ones, reduced both recall and transfer.",
+     "sources": [
+      "seductive-details"
+     ]
+    },
+    {
+     "heading": "Markers cost attention",
+     "text": "Links and markers add decisions that can impair reading, especially for readers with less prior knowledge or working memory; clearly typed and restricted links help.",
+     "sources": [
+      "hypertext-load"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Accessible reading",
+   "subtitle": "Best practice",
+   "findings": [
+    {
+     "heading": "Size, spacing and emphasis",
+     "text": "Aim for 16–19 px text, 1.5 line spacing and left alignment, and mark additions with weight or colour rather than italics.",
+     "sources": [
+      "bda-style",
+      "wcag-148"
+     ]
+    },
+    {
+     "heading": "Notes that return to the place",
+     "text": "Open notes over the passage, move focus into the note and back to the marker when it closes, and keep markers large enough to tap without crowding the line.",
+     "sources": []
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "People read whole books or long passages",
+   "start_with": "A reader’s edition, with numbers available on request"
+  },
+  {
+   "if": "People follow sermons, groups or plans",
+   "start_with": "Light verse numbers and clearly styled section titles"
+  },
+  {
+   "if": "People study or prepare to teach",
+   "start_with": "Note markers with typed notes; study notes clearly attributed"
+  },
+  {
+   "if": "Your ministry’s teaching is the point of the app",
+   "start_with": "Inline media that names its teacher, can be switched off and keeps the text first"
+  },
+  {
+   "if": "Your audience is mixed",
+   "start_with": "A sensible default with a settings drawer that keeps the place"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What the page around Scripture is for",
+   "text": "“Do not add to His words, lest He rebuke you and prove you a liar” (Proverbs 30:6). Chapter and verse numbers, headings and notes are all additions, made over centuries to help readers find and follow the text. They serve the words; they are not the words."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "The King James translators banned interpretive notes; the Scofield Reference Bible carried a whole interpretive system in its notes; reader’s editions remove almost everything. Red letters for the words of Jesus are loved by some and questioned by others, since all Scripture is “God-breathed” (2 Timothy 3:16). No choice is neutral."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "Make every addition look like an addition and name who added it. Default to the least apparatus your readers need, and let them add more. Never place promotion inside the text, where it borrows Scripture’s authority."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Second Vatican Council, Dei Verbum (1965)",
+   "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_en.html",
+   "note": "asks for “suitable footnotes”: apparatus is welcomed, and judged by whether it suits the reader."
+  },
+  {
+   "source": "Augustine, On Christian Doctrine I.36.40",
+   "url": "https://www.newadvent.org/fathers/12021.htm",
+   "note": "gives the test for any note: does it build up love of God and neighbour?"
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Promotions and media placed inside the text, where they borrow its authority.",
+  "ethical": "Label every addition and name who wrote it.",
+  "redemptive": "Default to the clean text even where study content would earn more.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "What surrounds the text by default, who wrote it, and can a reader tell it apart and turn it off?",
+  "exercise": "Show three people your reading screen and ask them to point to everything that is not Scripture. Then open a note and close it, and switch a setting mid-chapter: does each person land on the same verse?",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [
+  {
+   "slug": "verse-numbers",
+   "title": "Verse numbers that help without taking over",
+   "summary": "Separate locating a verse from the precision needed to select it.",
+   "url": "https://missional.design/patterns/numbers-headings-and-notes/#family-verse-numbers"
+  },
+  {
+   "slug": "reading-layout",
+   "title": "Paragraphs or one verse per line?",
+   "summary": "Compare paragraph reading with a separate line for each verse, while preserving the edition’s poetry and structure.",
+   "url": "https://missional.design/patterns/numbers-headings-and-notes/#family-reading-layout"
+  },
+  {
+   "slug": "text-structure",
+   "title": "Editorial distinctions survive reflow",
+   "summary": "Preserve poetry, headings and translation additions without forcing a rigid layout.",
+   "url": "https://missional.design/patterns/numbers-headings-and-notes/#family-text-structure"
+  },
+  {
+   "slug": "footnotes",
+   "title": "Footnotes without losing place",
+   "summary": "Inspect a note and return to the exact reading anchor.",
+   "url": "https://missional.design/patterns/numbers-headings-and-notes/#family-footnotes"
+  },
+  {
+   "slug": "reading-settings",
+   "title": "Adjust reading settings without losing the passage",
+   "summary": "Keep typography, appearance and text-layer preferences close to the reading experience.",
+   "url": "https://missional.design/patterns/numbers-headings-and-notes/#family-reading-settings"
+  }
+ ],
+ "examples": [
+  {
+   "app": "Joseph Prince",
+   "title": "Teaching cards pinned to a verse",
+   "url": "https://missional.design/examples/jp-verse-media/",
+   "observed": "Captured 22 October 2025 · from embedded image metadata",
+   "observation": "In Genesis 1 (NKJV, verse mode), a swipeable row of cards sits between verses 1 and 2. The first, marked “Genesis 1:1”, reads “See Jesus’ signature revealed from the very beginning of creation · Video · 2 Mins” beside a photo of the preacher and a lock badge; the next card, “A picture of the menorah hidden in Genesis 1:1 · Image”, peeks from the right, with three dots below.",
+   "decision": "Media anchored to the exact verse puts teaching where the question arises. It also places one teacher’s voice, and a subscription lock, inside the reading of Scripture.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Joseph Prince",
+   "title": "A study layer you can switch off",
+   "url": "https://missional.design/examples/jp-study-toggle/",
+   "observed": "Captured 22 October 2025 · from embedded image metadata",
+   "observation": "The reader’s Settings sheet shows Font and text size, “Show JP Study Bible” switched off and “View in Paragraph Mode” switched on, with the caption “The JP Study Bible is best experienced in Verse Mode and will be hidden in Paragraph Mode.”",
+   "decision": "Making the study layer switchable keeps the plain text available. Coupling it to verse mode is a design choice worth stating, as here.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "seductive-details",
+   "title": "Seductive details: what the research says",
+   "url": "https://theelearningcoach.com/learning/seductive-details/",
+   "author": "The eLearning Coach, summarising Rey (2012) and Mayer’s coherence principle",
+   "kind": "Research",
+   "shows": "Rey’s meta-analysis found that interesting but irrelevant details reduce retention and transfer, especially when they are visual.",
+   "application": "Inline media should serve the passage, be switchable, and stay out of the main reading by default.",
+   "limits": "Learning studies with instructional texts; a secondary summary of the meta-analysis."
+  },
+  {
+   "key": "kjv-rules",
+   "title": "A few of King James’s approved rules for the new translation",
+   "url": "https://christianhistoryinstitute.org/magazine/article/approved-rules-for-the-new-translation",
+   "author": "Christian History Institute",
+   "kind": "History",
+   "shows": "Rule 6 of the 1604 translation rules allowed no marginal notes except to explain Hebrew or Greek words.",
+   "application": "Even the KJV’s makers saw notes as powerful enough to restrict.",
+   "limits": "A popular history magazine summary of the rules."
+  },
+  {
+   "key": "geneva-notes",
+   "title": "The Geneva Bible, banned by King James",
+   "url": "https://brewminate.com/the-geneva-bible-banned-by-king-james-in-late-medieval-england/",
+   "author": "Brewminate",
+   "kind": "History",
+   "shows": "The 1560 Geneva Bible was the first English Bible with verse numbers and carried extensive marginal notes; James called some “seditious”.",
+   "application": "Apparatus has always carried theology and politics with it.",
+   "limits": "Secondary popular history."
+  },
+  {
+   "key": "scofield",
+   "title": "Scofield Reference Bible, first edition",
+   "url": "https://collections.museumofthebible.org/artifacts/57905-scofield-reference-bible-first-edition",
+   "author": "Museum of the Bible",
+   "kind": "History",
+   "shows": "Published in 1909 by Oxford University Press; its notes spread dispensational premillennialism widely, with over two million copies sold by the 1940s.",
+   "application": "Study notes can shape a generation’s reading as much as the text.",
+   "limits": "Influence figures come from secondary accounts."
+  },
+  {
+   "key": "red-letter",
+   "title": "The origins of the red-letter Bible",
+   "url": "https://www.crossway.org/articles/red-letter-origin/",
+   "author": "Crossway",
+   "kind": "History",
+   "shows": "Louis Klopsch, editor of The Christian Herald, printed the first modern red-letter New Testament in 1899.",
+   "application": "Red letters are a nineteenth-century editorial choice; offer them as a setting.",
+   "limits": "Publisher’s history article."
+  },
+  {
+   "key": "books-of-the-bible",
+   "title": "Community Bible Experience",
+   "url": "https://scripture-engagement.org/content/community-bible-experience/",
+   "author": "Scripture Engagement (Taylor University)",
+   "kind": "Practice",
+   "shows": "Biblica’s The Books of the Bible removes chapter and verse numbers, notes and cross-references; churches read large portions together in eight weeks.",
+   "application": "A tested reader’s-edition format used in congregations.",
+   "limits": "Programme description; outcome claims are the ministry’s own."
+  },
+  {
+   "key": "esv-readers",
+   "title": "ESV Reader’s Bible",
+   "url": "https://www.crossway.org/bibles/esv-readers-bible-tru-4/",
+   "author": "Crossway",
+   "kind": "Design reference",
+   "shows": "Removes verse numbers, section headings and footnotes so people read books as continuous text and in longer portions.",
+   "application": "A long-form mode without numbers is an established print choice; keep a way to find references.",
+   "limits": "Publisher’s rationale, not a study of its effects."
+  },
+  {
+   "key": "genette",
+   "title": "Paratexts: Thresholds of Interpretation",
+   "url": "https://www.goodreads.com/book/show/3099188",
+   "author": "Gérard Genette · Cambridge University Press, 1997",
+   "kind": "Theory",
+   "shows": "Titles, notes and prefaces are a threshold between text and reader that influences how the text is received.",
+   "application": "Treat headings and notes as interpretation, not decoration.",
+   "limits": "Literary theory, not an empirical study."
+  },
+  {
+   "key": "lorch-signals",
+   "title": "Signaling topic structure via headings or preview sentences",
+   "url": "https://scholars.uky.edu/en/publications/signaling-topic-structure-via-headings-or-preview-sentences/",
+   "author": "Lorch and colleagues · University of Kentucky",
+   "kind": "Research",
+   "shows": "Headings and other signals improve memory for a text’s organisation, and titles can bias comprehension towards the topic they name.",
+   "application": "Headings help structure; their wording steers interpretation.",
+   "limits": "Expository texts in lab settings."
+  },
+  {
+   "key": "hypertext-load",
+   "title": "Cognitive load in hypertext reading: a review",
+   "url": "https://www.datalearner.com/academic/journal-papers/0747-5632/volumes-and-issues/100/paper-detail/71863",
+   "author": "DeStefano and LeFevre · Computers in Human Behavior 23(3), 2007",
+   "kind": "Research",
+   "shows": "Links add decisions and visual processing that can impair reading, most for readers with less prior knowledge or working memory.",
+   "application": "Fewer, clearly typed markers; notes that return to the same place.",
+   "limits": "Hypertext research, not Bible apps."
+  },
+  {
+   "key": "bda-style",
+   "title": "Dyslexia Friendly Style Guide",
+   "url": "https://ako.ac.nz/assets/Knowledge-centre/ALNACC-Resources/Dyslexia-resources/230907-Dyslexia-Friendly-Style-Guide.pdf",
+   "author": "British Dyslexia Association, 2023",
+   "kind": "Accessibility",
+   "shows": "Recommends 16–19 px text, 1.5 line spacing, left alignment, and bold rather than italics or underlining for emphasis.",
+   "application": "Mark additions with weight and colour, not italics; keep text size adjustable.",
+   "limits": "Guidance for general documents."
+  },
+  {
+   "key": "wcag-148",
+   "title": "Understanding SC 1.4.8: Visual Presentation",
+   "url": "https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation",
+   "author": "W3C",
+   "kind": "Accessibility",
+   "shows": "Readers should be able to get lines of no more than 80 characters, at least 1.5 line spacing, unjustified text and resizing to 200% without horizontal scrolling.",
+   "application": "Set reading measure, spacing and size as defaults or reader settings.",
+   "limits": "Level AAA; a strong target rather than a minimum."
+  },
+  {
+   "key": "fee-stuart",
+   "title": "Gordon Fee and Douglas Stuart, How to Read the Bible for All Its Worth",
+   "url": "https://www.goodreads.com/work/quotes/420678",
+   "author": "Zondervan, 4th edition 2014 (quotations listing)",
+   "kind": "Theology",
+   "shows": "Argues that context and genre govern meaning: a text cannot mean what it could never have meant for its first readers.",
+   "application": "Never strand a verse without a route to its passage and book.",
+   "limits": "A widely used evangelical introduction to interpretation; one approach among several."
+  }
+ ],
+ "review": null,
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

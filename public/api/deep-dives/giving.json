@@ -1,0 +1,664 @@
+{
+ "slug": "giving",
+ "url": "https://missional.design/patterns/giving/",
+ "title": "Giving and offerings",
+ "question": "How should a faith app ask for gifts, and what should it never promise?",
+ "lede": "“Each one should give what he has decided in his heart to give, not out of regret or compulsion. For God loves a cheerful giver” (2 Corinthians 9:7). Giving is worship, and it pays for churches, missions and the apps people pray with. More of it now happens on a phone: in a church’s app, through a QR code during the service, or with a Give button in a Bible app. The design decides what is chosen for the giver, where the ask appears and what a gift is said to do. Most people who give through an app want it to be simple and safe. Design also for the person who is short of money this month, and for the one who has just told the app about their grief.",
+ "calling": "Make room for cheerful giving: let people give what they decided in their heart, tell them truly what it does, and say when it is enough.",
+ "spectrum": {
+  "title": "From the giver’s choice to the app’s",
+  "from": "The giver decides",
+  "to": "The app decides"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/give/",
+  "situation": "The same faith app, made by a small ministry and used by members of St Luke’s church, handles giving in seven ways. Choose who is giving: someone who gives every month, someone who installed the app this week, someone short of money this month, or someone who has just shared a prayer request. Then look at where the ask appears, the screen where they give, and what happens afterwards. Nothing is paid."
+ },
+ "options": [
+  {
+   "key": "church",
+   "name": "Giving stays with the church",
+   "provenance": "Familiar convention",
+   "origin": "Familiar from churches where the offering, a bank transfer or church tax carries giving, and from Startblock’s support page, which asks first for prayer and help, then gives a bank account and a receipt on request; see the screenshot below. The church and wording here are written for this example.",
+   "gain": "Nothing asked in the app",
+   "cost": "Nothing pays for the app",
+   "makes_easier": "Nothing in the app asks for money.",
+   "costs": "Nothing pays for the app, and some people want to give there.",
+   "ask_your_team": "Who pays for this app, and do its users know?",
+   "still": "https://missional.design/assets/stills/try-give-church.jpg"
+  },
+  {
+   "key": "quiet",
+   "name": "A quiet way to give",
+   "provenance": "Observed",
+   "origin": "Observed in YouVersion, captured 11 October 2026: Give from the profile, an amount that starts at zero, a regular gift switched off, and a choice between YouVersion and Bible translation; see the screenshots below. The ministry, funds and wording here are written for this example.",
+   "gain": "There when wanted",
+   "cost": "Easy to miss",
+   "makes_easier": "Easy to find when someone wants it, and silent otherwise.",
+   "costs": "Easy to miss, and it raises less than an ask.",
+   "ask_your_team": "Where would someone look for this, and is it there?",
+   "still": "https://missional.design/assets/stills/try-give-quiet.jpg"
+  },
+  {
+   "key": "offering",
+   "name": "The church’s offering",
+   "provenance": "Observed",
+   "origin": "Observed in Churchome, captured 11 October 2026: Give in the menu, named funds, Pushpay, Apple Pay or PayPal, and a recurring gift changed in the person’s Pushpay account; see the screenshots below. Church giving apps such as Givelify (101K ratings), Church Center and Tithe.ly work the same way. In Germany congregations show a QR code during the service that leads to their own donation form. The church, funds and fee here are written for this example.",
+   "gain": "To their own church, by fund",
+   "cost": "Fees and records",
+   "makes_easier": "The gift goes to the person’s own church, by fund, with a receipt.",
+   "costs": "Card fees, and the church’s giving records held by a platform.",
+   "ask_your_team": "Does the giver see the fee, and who keeps their giving history?",
+   "still": "https://missional.design/assets/stills/try-give-offering.jpg"
+  },
+  {
+   "key": "regular",
+   "name": "A regular gift",
+   "provenance": "Observed",
+   "origin": "Observed in YouVersion’s “Become a Sower”, a monthly gift switched off until the person turns it on, and in Abide’s donate sheet with “Make it a monthly donation” unticked; see the screenshots below. Recurring giving is 35% of digital church giving in one vendor’s data. The reminder before a change is a proposal.",
+   "gain": "Steady, chosen support",
+   "cost": "Easy to forget",
+   "makes_easier": "Steady support the person chose, on a day they chose.",
+   "costs": "Easy to forget that it is running.",
+   "ask_your_team": "Is stopping as easy as starting, and when does the giver hear about it?",
+   "still": "https://missional.design/assets/stills/try-give-regular.jpg"
+  },
+  {
+   "key": "impact",
+   "name": "What a gift does",
+   "provenance": "Observed",
+   "origin": "Observed in YouVersion’s Sowers page, a slider from $10 to $100 a month with Bibles per year beside it, and Pray as you go’s “80%” of a donation going to content; see the screenshots below. The figures here are written for this example.",
+   "gain": "Shows where it goes",
+   "cost": "Figures age and overpromise",
+   "makes_easier": "People see where the money goes and what it makes possible.",
+   "costs": "Figures age, and a number per dollar can promise too much.",
+   "ask_your_team": "Could you show the source and the date of every figure?",
+   "still": "https://missional.design/assets/stills/try-give-impact.jpg"
+  },
+  {
+   "key": "benefit",
+   "name": "A gift tied to a benefit",
+   "provenance": "Observed",
+   "origin": "Observed in Pray.com’s “Support & Go Ad Free”, where a ministry donation brings “an Ad Free Subscription”, and Glorify’s “Pay it Forward” tiers with “Most popular” ticked; see the screenshots below. Apple treats a gift tied to content as a purchase. The tiers here are written for this example.",
+   "gain": "Supports others too",
+   "cost": "A price dressed as a gift",
+   "makes_easier": "People who would pay anyway support others too.",
+   "costs": "A purchase dressed as a gift, with a tier chosen for the giver.",
+   "ask_your_team": "Is this a gift or a price, and would the receipt say which?",
+   "still": "https://missional.design/assets/stills/try-give-benefit.jpg"
+  },
+  {
+   "key": "pressure",
+   "name": "Pressure and promises",
+   "provenance": "Leave it out",
+   "origin": "A warning case. Evangelical theologians at Lausanne described prosperity teaching that promises health and wealth through the “sowing of seeds” in tithes and offerings; regulators objected to a default “tip” added to gifts. The seed, the countdown, the tip and the ask after a prayer request here are written for this example to show the pattern; no app is named.",
+   "gain": "Raises money fast",
+   "cost": "Trades on faith and fear",
+   "makes_easier": "It raises money quickly.",
+   "costs": "Trades on faith, fear and need, and promises what God has not.",
+   "ask_your_team": "Would you say this to the person’s face, in your own name?",
+   "still": "https://missional.design/assets/stills/try-give-pressure.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Start with no amount, and a one-off gift",
+   "text": "YouVersion’s give screen starts at zero with its monthly gift switched off; Churchome’s opens with $100.00 already filled in, and Abide’s donate sheet offers six amounts with $50 already chosen and a monthly box left unticked. An empty amount leaves the decision to the giver; if you suggest amounts, choose none in advance."
+  },
+  {
+   "heading": "Name who receives the gift, and what it pays for",
+   "text": "YouVersion asks whether a gift goes to the app or to Bible translation; Bible.is asks people to “Donate online” for recordings in oral cultures. Say which organisation receives the money, what it pays for, and whether a receipt follows."
+  },
+  {
+   "heading": "Keep the ask out of prayer, grief and crisis",
+   "text": "Giving belongs in a menu, after a service or on its own page, not between a prayer request and the next screen. Someone who has just written about their grief, or is in danger, should see help and nothing else."
+  },
+  {
+   "heading": "Keep gifts and purchases apart",
+   "text": "Pray.com’s “Support & Go Ad Free” gives donors “an Ad Free Subscription”, and Glorify’s “Pay it Forward” ticks “Most popular” in advance. If a payment unlocks something, call it a price; if it is a gift, let it unlock nothing."
+  },
+  {
+   "heading": "Stopping is as easy as starting",
+   "text": "Keep every regular gift in one place, with its next date, and let it be changed or stopped there in one step. Churchome sends people to “your Pushpay account” to change one: say where, and link to it. Remind the giver before a yearly gift or a change in amount."
+  },
+  {
+   "heading": "Say what a gift does, truly, and when enough is enough",
+   "text": "YouVersion’s Sowers page sets Bibles per year beside a monthly amount; Pray as you go says 80% of a donation goes to its content. Give each figure a source and a date, and when a need is met, say so, as Moses did."
+  },
+  {
+   "heading": "Never promise a return",
+   "text": "A gift is not a seed that obliges God to send a harvest. Leave out anything that ties a gift to healing, prosperity, answered prayer or a blessing, and anything that ranks givers or shows who gave what."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "A church that wants its offering in its own app",
+   "needs": "Funds, a receipt, a QR code at the service",
+   "fit": {
+    "Giving stays with the church": "possible",
+    "A quiet way to give": "possible",
+    "The church’s offering": "good fit",
+    "A regular gift": "good fit",
+    "What a gift does": "possible",
+    "A gift tied to a benefit": "poor fit",
+    "Pressure and promises": "poor fit"
+   }
+  },
+  {
+   "situation": "A Bible app run by a ministry",
+   "needs": "A quiet way to give, and honest figures",
+   "fit": {
+    "Giving stays with the church": "possible",
+    "A quiet way to give": "good fit",
+    "The church’s offering": "poor fit",
+    "A regular gift": "good fit",
+    "What a gift does": "good fit",
+    "A gift tied to a benefit": "poor fit",
+    "Pressure and promises": "poor fit"
+   }
+  },
+  {
+   "situation": "A mission or translation project",
+   "needs": "What a gift does, with source and date",
+   "fit": {
+    "Giving stays with the church": "poor fit",
+    "A quiet way to give": "possible",
+    "The church’s offering": "possible",
+    "A regular gift": "good fit",
+    "What a gift does": "good fit",
+    "A gift tied to a benefit": "poor fit",
+    "Pressure and promises": "poor fit"
+   }
+  },
+  {
+   "situation": "An app that also sells a subscription",
+   "needs": "Keep gifts and purchases apart",
+   "fit": {
+    "Giving stays with the church": "possible",
+    "A quiet way to give": "good fit",
+    "The church’s offering": "poor fit",
+    "A regular gift": "possible",
+    "What a gift does": "possible",
+    "A gift tied to a benefit": "possible",
+    "Pressure and promises": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone short of money this month",
+   "needs": "Nothing chosen for them, no ask they didn’t look for",
+   "fit": {
+    "Giving stays with the church": "good fit",
+    "A quiet way to give": "good fit",
+    "The church’s offering": "possible",
+    "A regular gift": "possible",
+    "What a gift does": "poor fit",
+    "A gift tied to a benefit": "poor fit",
+    "Pressure and promises": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone who has just shared a prayer request",
+   "needs": "No ask at all in that moment",
+   "fit": {
+    "Giving stays with the church": "good fit",
+    "A quiet way to give": "good fit",
+    "The church’s offering": "possible",
+    "A regular gift": "possible",
+    "What a gift does": "possible",
+    "A gift tied to a benefit": "poor fit",
+    "Pressure and promises": "poor fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "Given freely, in secret, as one is able",
+   "findings": [
+    {
+     "heading": "Decided in the heart",
+     "text": "“Each one should give what he has decided in his heart to give, not out of regret or compulsion” (2 Corinthians 9:7); “the gift is acceptable according to what one has, not according to what he does not have” (2 Corinthians 8:12). The poor widow’s two coins were “more than all the others” (Mark 12:43).",
+     "sources": []
+    },
+    {
+     "heading": "In secret, and set aside",
+     "text": "“When you give to the needy, do not let your left hand know what your right hand is doing, so that your giving may be in secret” (Matthew 6:3–4). Paul asked each to “set aside a portion of his income” “on the first day of every week” (1 Corinthians 16:2): a regular gift, planned, not pressed out at the moment of asking.",
+     "sources": []
+    },
+    {
+     "heading": "Handled openly, and enough is enough",
+     "text": "Paul took “great care to do what is right, not only in the eyes of the Lord but also in the eyes of men” in handling a gift (2 Corinthians 8:21). When the people brought more than was needed for the tabernacle, which Bezalel built, Moses “sent a proclamation throughout the camp” and “the people were restrained from bringing more” (Exodus 36:6).",
+     "sources": []
+    },
+    {
+     "heading": "Tithe, offering and church tax",
+     "text": "Christians give in different ways: a tenth, as Israel brought “the full tithe into the storehouse” (Malachi 3:10); a proportion “as he is able” (Deuteronomy 16:17); weekly offerings; or, in Germany, church tax collected with income tax. Jesus did not set the tithe aside but named “justice, mercy and faithfulness” as weightier (Matthew 23:23).",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Platforms and rules",
+   "subtitle": "What the stores, regulators and tax offices ask",
+   "findings": [
+    {
+     "heading": "A gift, or a purchase",
+     "text": "On iPhone, “Approved nonprofits may fundraise directly within their own apps”, with Apple Pay, and “must disclose how the funds will be used”; others “may only collect funds outside of the app”. A gift “connected to or associated at any point in time with receiving digital content or services must use in-app purchase”. Google Play exempts “tax exempt donations” from its billing.",
+     "sources": [
+      "apple-review-donations",
+      "google-play-donations"
+     ]
+    },
+    {
+     "heading": "Pressure has a name",
+     "text": "The UK Code of Fundraising Practice requires “not putting undue pressure on a person to donate, not using unreasonably persistent approaches and accepting a request to end an interaction”. In 2026 US state regulators objected to “the application of a default “tip” that went directly to GoFundMe”.",
+     "sources": [
+      "fundraising-code",
+      "gofundme-tip-letter"
+     ]
+    },
+    {
+     "heading": "Receipts belong to the gift",
+     "text": "In the US, organisations give a written acknowledgment for “contributions of $250 or more”, which may say that “the organization only provided intangible religious benefits”. A UK Gift Aid declaration must explain that “the donor is responsible to pay any difference”.",
+     "sources": [
+      "irs-1771",
+      "hmrc-gift-aid"
+     ]
+    },
+    {
+     "heading": "Current, complete and accurate",
+     "text": "Christian ministries in the ECFA agreed that what they tell donors “must be current, complete and accurate”, that past events “must be appropriately dated”, and that appeals “must not create unrealistic donor expectations of what a donor’s gift will actually accomplish”.",
+     "sources": [
+      "ecfa-standards"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Research and practice",
+   "subtitle": "What defaults, recognition and promises do",
+   "findings": [
+    {
+     "heading": "A suggested amount moves people",
+     "text": "Goswami and Urminsky found “a scale-back effect, in which low defaults reduce average donation amounts”, and “a lower-bar effect, in which defaulting a low amount increases donation rate”. Any default also weakened “other cues such as positive charity information”.",
+     "sources": [
+      "goswami-defaults"
+     ]
+    },
+    {
+     "heading": "Being seen raises gifts",
+     "text": "In a field experiment, “charitable gifts increase in response to the promise of public recognition primarily because of individuals’ desire to improve their social image”: the motive Jesus warned against in Matthew 6.",
+     "sources": [
+      "karlan-recognition"
+     ]
+    },
+    {
+     "heading": "Much church giving is now digital",
+     "text": "Churches that offer digital giving “reported that 41% of their giving came from digital methods”, and “Recurring giving accounted for 35% of the digital giving in 2025”, in one vendor’s US data. Givelify, the giving app with the most ratings (101K), says it “has processed $6 billion in donations”. In Württemberg almost 400 congregations take the collection through a QR code and a web form.",
+     "sources": [
+      "ministry-brands-2026",
+      "givelify-store",
+      "givelify-total",
+      "wochenblatt-kollekte"
+     ]
+    },
+    {
+     "heading": "Seeds and harvests",
+     "text": "Evangelical theologians at Lausanne described prosperity teaching that promises health and wealth through “the “sowing of seeds” through the faithful payments of tithes and offerings”, and warned against “Replacing the traditional call to repentance and faith with a call to give money”.",
+     "sources": [
+      "lausanne-prosperity"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "A church app",
+   "start_with": "The church’s offering: funds, a receipt, a QR code at the service, fees shown"
+  },
+  {
+   "if": "A Bible or prayer app run by a ministry",
+   "start_with": "A quiet way to give, a regular gift if chosen, honest figures"
+  },
+  {
+   "if": "A mission or translation project",
+   "start_with": "What a gift does, with every figure sourced and dated"
+  },
+  {
+   "if": "An app that also sells a subscription",
+   "start_with": "Keep the price and the gift apart; let a gift unlock nothing"
+  },
+  {
+   "if": "You are tempted to add a seed, a countdown or an ask after a prayer request",
+   "start_with": "Don’t: let people give what they decided in their heart"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What giving is for",
+   "text": "“Who am I, and who are my people, that we should be able to give as generously as this? For everything comes from You, and from Your own hand we have given to You” (1 Chronicles 29:14). Giving returns to God what was already his, supports those who serve the word, and cares for those in need. Jesus said that “It is more blessed to give than to receive” (Acts 20:35), and looked not at the size of a gift but at what it cost the giver."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Some churches teach the tithe as the measure of faithful giving; others teach proportional giving “as he is able” (Deuteronomy 16:17) and see the tithe as a starting point or as Israel’s law. Catholics give through the offertory, Mass offerings and parish appeals; in Germany church tax carries most church income and the collection is for a named cause. Pentecostal and charismatic churches range from careful teaching on stewardship to the prosperity teaching that the Lausanne statement rejected. All agree that a gift is free, and that those who receive it must handle it honestly."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "Let people give what they decided in their heart: nothing chosen for them, nothing asked in a moment of need. Say who receives the gift and what it truly does, keep it in secret unless the giver chooses otherwise, and make a regular gift easy to stop. Never promise a return, and when the need is met, say so."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Henri Nouwen, A Spirituality of Fundraising (2010)",
+   "url": "https://upperroombooks.com/a-spirituality-of-fundraising",
+   "note": "wrote that “Fundraising is first and foremost a ministry”, “a way of announcing our vision and inviting other people into our mission”, and “precisely the opposite of begging”."
+  },
+  {
+   "source": "John Wesley, “The Use of Money” (sermon 50)",
+   "url": "https://wesley.nnu.edu/john-wesley/the-sermons-of-john-wesley-1872-edition/sermon-50-the-use-of-money/",
+   "note": "told Methodists to “gain all you can”, “save all you can” and “give all you can”: giving is the end that earning and saving serve."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Choose the amount and the tier for the giver, switch on monthly by default, add a tip unless it is removed, ask after a prayer request, and promise a harvest for a seed.",
+  "ethical": "Start with no amount and a one-off gift, name who receives it and what it pays for, show fees, send receipts, and let a regular gift be stopped in one step.",
+  "redemptive": "Ask only where people look for it, never in prayer, grief or need; give every figure a source and a date, say when enough has been given, and give up the gifts that pressure would bring.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "What is chosen for the giver, where does the ask appear, and what does the app say a gift will do?",
+  "exercise": "Give the smallest gift your app allows, three times: as someone new, as someone who has just lost their job, and as someone who has just shared a prayer request. Write down every amount, tick and toggle chosen for you, and every place the ask appeared. Set up a regular gift and time how long it takes to stop it. Then read every sentence about what a gift will do aloud to a member of your church who gives faithfully and has little, and ask whether you would say it to their face.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [],
+ "examples": [
+  {
+   "app": "Abide",
+   "title": "“Your subscription fuels a greater purpose”",
+   "url": "https://missional.design/examples/abide-greater-purpose/",
+   "observed": "Captured 17 October 2025 · from embedded image metadata",
+   "observation": "A paywall headed “A Movement of Faith and Hope 100,000 Strong” lists “Bring Comfort to Others” (“While helping us offer free support to those facing loneliness, grief, or uncertainty”), “Better sleep is yours to share” and “Expand Our Reach”, above Annual ($39.99 a year) and Monthly ($9.99 a month) plans with 7 days free.",
+   "decision": "Saying what a subscription pays for is a fair ask. Say also what stays free for everyone, and keep the mission language from pressing people who cannot pay.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Pray.com",
+   "title": "A ministry donation that brings an ad-free subscription",
+   "url": "https://missional.design/examples/praycom-support-ad-free/",
+   "observed": "Captured 20 August 2025 · from embedded image metadata",
+   "observation": "“Support & Go Ad Free” over a painted portrait of Jesus: a named ministry, “By supporting … you give to a ministry to spread the love of Jesus. As a gift to you, you get an Ad Free Subscription to Pray Premium.” Monthly or Yearly, then a “Most Popular” option, “Super donor $29.99/mo · 1 Ads Free Subscription”, a custom amount and Continue.",
+   "decision": "A gift that buys something is a purchase: Apple asks for in-app purchase when a gift is tied to content, and tax rules treat it as goods received. Keep the price and the gift apart.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Glorify",
+   "title": "“Pay it Forward”: tiers with “Most popular” ticked",
+   "url": "https://missional.design/examples/glorify-pay-it-forward/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "“Pay it Forward · Help keep Glorify free by supporting fellow community members.” Under “How many lives will you touch today?”: Kindness starter, support 1 member, $4.99 a month; Community builder, support 3 members, $14.99 a month, marked “MOST POPULAR” and already ticked; Impact maker, support 5 members, $24.99 a month; then “SUPPORT THE COMMUNITY”.",
+   "decision": "Sponsoring others is generous, and the middle tier is chosen for the giver before they decide. Leave every tier unticked, and say whether this is a gift or a subscription.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Abide",
+   "title": "A donate sheet with $50 chosen and monthly left unticked",
+   "url": "https://missional.design/examples/abide-donate-sheet/",
+   "observed": "Captured 17 October 2025 · from embedded image metadata",
+   "observation": "“Give the gift of peace with your donation to Abide”: six amounts from $25 to $500 with $50 selected, “Or, your best gift”, a “Make it a monthly donation” box unticked, an email field “to thank you for your generosity and send a receipt” (the address is blurred here) and “Donate $50”.",
+   "decision": "A monthly gift left off is the honest default, and the receipt is named. A preselected amount still decides for the giver; start with none.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Startblock",
+   "title": "Prayer first, then help, then a bank account",
+   "url": "https://missional.design/examples/startblock-support/",
+   "observed": "Captured 26 September 2025 · from embedded image metadata",
+   "observation": "“Unterstützen” opens with John 15:5, “Ohne mich (Gott) könnt ihr nichts tun.”, asks first for support through prayer (“Gebet”), then for help in the team (“Mitarbeit”), and then for donations (“Spenden”): the project is funded only by gifts, to a named association, by PayPal or bank transfer, with a donation receipt for those who give their name and address.",
+   "decision": "A support page that puts prayer and help before money, names the receiving association and offers a receipt asks nothing inside the app’s use.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Pray As You Go",
+   "title": "“The fruit of your gratitude”, with 80% to content",
+   "url": "https://missional.design/examples/payg-gratitude/",
+   "observed": "Captured 26 August 2025 · from embedded image metadata",
+   "observation": "On the Pray as You Go website, listener testimonials sit above “The fruit of your gratitude makes a difference.”, a ring chart of “80% of your donation” and the sentence that every penny goes to content, the app and the team.",
+   "decision": "Saying where a gift goes is honest; a percentage needs its year and what the rest pays for.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Bible.is",
+   "title": "A donation appeal for oral cultures",
+   "url": "https://missional.design/examples/bibleis-oral-cultures/",
+   "observed": "Captured 4 September 2025 · from embedded image metadata",
+   "observation": "In Discover, a photo of people listening to an audio player, the sentence “70% of the world’s population lives and learns in an oral culture while 50% cannot read well enough to understand the Bible.”, and a “DONATE ONLINE” button.",
+   "decision": "An appeal tied to the app’s mission, with giving outside the app. Figures about the world need a source and a date in the app as well.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "YouVersion",
+   "title": "A give screen that starts at zero, with monthly switched off",
+   "url": "https://missional.design/examples/youversion-give/",
+   "observed": "Captured 11 October 2026 · on the editor’s phone with WebDriverAgent",
+   "observation": "Give opens on “$0” with the keypad open, “YouVersion” as the recipient, “Become a Sower · Make this a recurring gift” switched off, Process Date Today, Apple Pay, and “Enter Gift Amount” as the button.",
+   "decision": "Nothing is chosen for the giver: no amount, no regular gift. The recipient is named and can be changed.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "YouVersion",
+   "title": "“Give to”: the app, or Bible translation",
+   "url": "https://missional.design/examples/youversion-give-to/",
+   "observed": "Captured 11 October 2026 · on the editor’s phone with WebDriverAgent",
+   "observation": "A sheet titled “Give to” offers YouVersion (“When you support YouVersion, you get to help others experience God’s generous love”) and Bible Translation (“Help us get the Bible translated into every language by the year 2033.”).",
+   "decision": "Naming two purposes lets people choose what their gift pays for. Each still needs to say who receives the money and what it covers.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "YouVersion",
+   "title": "Monthly gifts as Bibles per year",
+   "url": "https://missional.design/examples/youversion-sowers/",
+   "observed": "Captured 11 October 2026 · on the editor’s phone with WebDriverAgent",
+   "observation": "“Become a Sower and take the Bible to the world.” (the account holder’s first name before it is blurred here), a video, and a slider of monthly amounts from $10 to $100: at $25, “600 Bibles Per Year”. A green “Give a Monthly Gift” button stays on screen.",
+   "decision": "Translating money into outcomes helps people see what they give to. Say what “a Bible” means here and where the figure comes from.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Churchome",
+   "title": "A church’s give screen with $100.00 filled in",
+   "url": "https://missional.design/examples/churchome-give-preset/",
+   "observed": "Captured 11 October 2026 · on the editor’s phone with WebDriverAgent, as a guest",
+   "observation": "“THE CHURCHOME APP IS FREE TO ALL THANKS TO THE GENEROSITY OF PEOPLE LIKE YOU.” Below, “Gift Amount $100.00” is already filled in, above “Give with PushPay”, “Give with Apple Pay”, “Give with PayPal” and “Recurring Giving”. A guest banner reads “You are currently logged in as a guest.”",
+   "decision": "Saying that gifts keep the app free is honest. A filled-in amount decides for the giver, and $100 is a large first suggestion for someone new; start with none.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Churchome",
+   "title": "A recurring gift changed in another service",
+   "url": "https://missional.design/examples/churchome-recurring-pushpay/",
+   "observed": "Captured 11 October 2026 · on the editor’s phone with WebDriverAgent, as a guest",
+   "observation": "In the giving FAQs, “How do I make changes to my recurring donation?” opens to “To make changes to your recurring donation, you can login in directly to your Pushpay account.” Other questions cover where a donation goes, tax deductibility, giving statements and an annual audit.",
+   "decision": "The FAQ answers the question, but the change happens elsewhere. Put a regular gift’s Change and Stop where the gift is shown, or link straight to them.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "apple-review-donations",
+   "title": "App Store Review Guidelines: 3.2.1 (vi) and (vii), 3.2.2 (iv)",
+   "url": "https://developer.apple.com/app-store/review/guidelines/",
+   "author": "Apple",
+   "kind": "Platform",
+   "shows": "“Approved nonprofits may fundraise directly within their own apps or third-party apps, provided those fundraising campaigns … offer Apple Pay support”; they “must disclose how the funds will be used” and “ensure appropriate tax receipts are available to donors”. Others “may only collect funds outside of the app, such as via Safari or SMS”. A gift “connected to or associated at any point in time with receiving digital content or services must use in-app purchase”.",
+   "application": "On iPhone, a gift is either a gift to an approved nonprofit, with Apple Pay, or collected outside the app; a gift that unlocks content is a purchase.",
+   "limits": "Rules for one platform; they change, and approval as a nonprofit is a separate process."
+  },
+  {
+   "key": "google-play-donations",
+   "title": "Payments policy (Google Play)",
+   "url": "https://support.google.com/googleplay/android-developer/answer/9858738",
+   "author": "Google Play Console Help",
+   "kind": "Platform",
+   "shows": "Google Play’s billing is not required where “payments include peer-to-peer payments, online auctions, and tax exempt donations”.",
+   "application": "On Android, donations to tax-exempt organisations can use the organisation’s own payment provider.",
+   "limits": "A summary page of a longer policy; the exemption depends on the organisation’s status."
+  },
+  {
+   "key": "goswami-defaults",
+   "title": "When Should the Ask Be a Nudge? The Effect of Default Amounts on Charitable Donations",
+   "url": "https://www.chicagobooth.edu/research/rustandy/social-impact-research/research-papers/2016/when-should-the-ask-be-a-nudge-the-effect-of-default-amounts-on-charitable-donations",
+   "author": "Indranil Goswami and Oleg Urminsky · Journal of Marketing Research, 2016",
+   "kind": "Research",
+   "shows": "Finds “a scale-back effect, in which low defaults reduce average donation amounts”, “a lower-bar effect, in which defaulting a low amount increases donation rate”, and “a default-distraction effect, in which introducing any defaults reduces the effect of other cues such as positive charity information”.",
+   "application": "A suggested amount changes who gives and how much; an empty field leaves the decision to the giver.",
+   "limits": "Charity appeals, not church giving; effects vary with the amounts tested."
+  },
+  {
+   "key": "karlan-recognition",
+   "title": "Hey Look at Me: The Effect of Giving Circles on Giving",
+   "url": "https://www.nber.org/papers/w17737.pdf",
+   "author": "Dean Karlan and Margaret A. McConnell · NBER working paper 17737, 2012",
+   "kind": "Research",
+   "shows": "A field experiment with donors to a Yale University service club: “charitable gifts increase in response to the promise of public recognition primarily because of individuals’ desire to improve their social image”.",
+   "application": "Showing givers to others raises giving, and does so through the motive Jesus warned against.",
+   "limits": "One university club in the United States."
+  },
+  {
+   "key": "ministry-brands-2026",
+   "title": "2026 Protestant Annual Church Giving Report",
+   "url": "https://outbound.ministrybrands.com/hubfs/Ministry%20Brands%20Files/Annual%20Church%20Giving%20Report%202026/2026_Protestant_Annual_Church_Giving_Report.pdf",
+   "author": "Ministry Brands, 2026",
+   "kind": "Practice",
+   "shows": "Churches that offer digital giving “reported that 41% of their giving came from digital methods”; “Recurring giving accounted for 35% of the digital giving in 2025”.",
+   "application": "Much church giving is now digital, and a third of it is regular.",
+   "limits": "A survey of church leaders and data from one vendor’s customers in the United States; the vendor sells giving software."
+  },
+  {
+   "key": "ecfa-standards",
+   "title": "ECFA Standards for Fund Raising",
+   "url": "https://christianitytoday.com/1987/05/ecfa-standards-for-fund-raising",
+   "author": "Evangelical Council for Financial Accountability · Christianity Today, May 1987",
+   "kind": "Practice",
+   "shows": "Representations “must be current, complete and accurate. References to past activities or events must be appropriately dated”; “Fund raising appeals must not create unrealistic donor expectations of what a donor’s gift will actually accomplish”.",
+   "application": "A figure about what a gift does needs a date, a source and an honest scope.",
+   "limits": "The 1987 published standards; ECFA’s current wording is longer, with the same principle."
+  },
+  {
+   "key": "lausanne-prosperity",
+   "title": "A Statement on the Prosperity Gospel",
+   "url": "https://lausanne.org/akropong",
+   "author": "Lausanne Theology Working Group, Africa chapter · 2008–2009, published January 2010",
+   "kind": "Theology",
+   "shows": "Defines prosperity teaching as obtaining health and wealth “through positive confessions of faith and the “sowing of seeds” through the faithful payments of tithes and offerings”, and lists among its effects “Replacing the traditional call to repentance and faith with a call to give money”.",
+   "application": "An ask that promises return for a gift has been named and rejected by evangelical churches worldwide.",
+   "limits": "A statement from evangelical theologians; it also affirms a biblical vision of human flourishing."
+  },
+  {
+   "key": "fundraising-code",
+   "title": "Code of Fundraising Practice 2025: table of changes",
+   "url": "https://www.fundraisingregulator.org.uk/code-2025-table-of-changes",
+   "author": "Fundraising Regulator (UK)",
+   "kind": "Platform",
+   "shows": "Fundraising must include “not putting undue pressure on a person to donate, not using unreasonably persistent approaches and accepting a request to end an interaction”.",
+   "application": "Pressure and persistence are named limits in UK fundraising, and churches that are charities are within its scope.",
+   "limits": "A UK self-regulatory code; wording is from the 2025 revision."
+  },
+  {
+   "key": "gofundme-tip-letter",
+   "title": "Bipartisan group of state attorneys general and state charity regulators send letter to GoFundMe",
+   "url": "https://www.crowell.com/en/insights/client-alerts/bipartisan-group-of-state-attorneys-general-and-state-charity-regulators-send-letter-to-gofundme-implications-for-charities-and-companies",
+   "author": "Crowell & Moring client alert, March 2026",
+   "kind": "Platform",
+   "shows": "Among the concerns in the regulators’ letter: “the application of a default “tip” that went directly to GoFundMe”.",
+   "application": "A tip added by default to a gift is a regulatory concern, not only a design choice.",
+   "limits": "A law firm’s summary of the letter; GoFundMe disputed some of the regulators’ points."
+  },
+  {
+   "key": "irs-1771",
+   "title": "Publication 1771: Charitable Contributions, Substantiation and Disclosure Requirements",
+   "url": "https://www.irs.gov/pub/irs-pdf/p1771.pdf",
+   "author": "Internal Revenue Service (US)",
+   "kind": "Platform",
+   "shows": "Organisations that receive “contributions of $250 or more” give a written acknowledgment, which can state that “the organization only provided intangible religious benefits”.",
+   "application": "A receipt is part of giving; a gift that buys something, such as an ad-free app, is acknowledged differently.",
+   "limits": "US tax rules; other countries differ."
+  },
+  {
+   "key": "hmrc-gift-aid",
+   "title": "Gift Aid declarations: claiming tax back on donations",
+   "url": "https://www.gov.uk/guidance/gift-aid-declarations-claiming-tax-back-on-donations",
+   "author": "HM Revenue & Customs (UK)",
+   "kind": "Platform",
+   "shows": "A declaration must tell donors that they need to pay enough UK tax to cover what charities claim, and that “the donor is responsible to pay any difference”.",
+   "application": "A tick box for Gift Aid needs its explanation, not only a pre-ticked box.",
+   "limits": "UK rules only."
+  },
+  {
+   "key": "wochenblatt-kollekte",
+   "title": "Mehr Spenden in Baden-Württemberg: Kirchen testen digitale Kollekte",
+   "url": "https://www.wochenblatt-reporter.de/c-ratgeber/mehr-spenden-in-baden-wuerttemberg-kirchen-testen-digitale-kollekte_a792158",
+   "author": "Wochenblatt-Reporter",
+   "kind": "Practice",
+   "shows": "Congregations show QR codes on hymn sheets, posters or during the service, leading to the congregation’s online donation form; in Württemberg “knapp 400 Gemeinden und kirchliche Einrichtungen” have set up such forms.",
+   "application": "In German churches the digital collection is mostly a QR code to a web form, not an app.",
+   "limits": "A regional news report; church tax still carries most church income in Germany."
+  },
+  {
+   "key": "givelify-store",
+   "title": "Givelify Mobile Giving App (App Store listing)",
+   "url": "https://apps.apple.com/us/app/givelify-mobile-giving-app/id725815127",
+   "author": "Givelify · Apple App Store (US)",
+   "kind": "Product",
+   "shows": "“#1 App to Donate, Tithe & Give”, with 101K ratings, 4.9.",
+   "application": "The one giving app with reach of its own; most church giving apps are white-label apps in each church’s name.",
+   "limits": "Ratings show reach, not quality."
+  },
+  {
+   "key": "givelify-total",
+   "title": "Led by Dallas entrepreneur, Givelify reports $300 million in North Texas giving, $6 billion globally",
+   "url": "https://dallasinnovates.com/led-by-dallas-entrepreneur-givelify-reports-300-million-in-north-texas-giving-6-billion-globally/",
+   "author": "David Seeley · Dallas Innovates, 1 October 2025",
+   "kind": "Practice",
+   "shows": "The company says it “has processed $6 billion in donations from 2 million donors supporting 75,000 nonprofits and places of worship”.",
+   "application": "Giving through apps is no longer marginal.",
+   "limits": "Company figures, not independently audited."
+  },
+  {
+   "key": "nouwen-fundraising",
+   "title": "A Spirituality of Fundraising",
+   "url": "https://upperroombooks.com/a-spirituality-of-fundraising",
+   "author": "Henri J. M. Nouwen · Upper Room Books, 2010",
+   "kind": "Theology",
+   "shows": "“Fundraising is first and foremost a ministry”: “a way of announcing our vision and inviting other people into our mission”, and “precisely the opposite of begging”.",
+   "application": "An ask can be an invitation into shared work, not a transaction or a plea.",
+   "limits": "A short book drawn from a talk; the publisher’s summary is quoted here."
+  },
+  {
+   "key": "telefonseelsorge",
+   "title": "TelefonSeelsorge",
+   "url": "https://www.telefonseelsorge.de/",
+   "author": "TelefonSeelsorge Deutschland (Protestant and Catholic churches)",
+   "kind": "Practice",
+   "shows": "“Tag und Nacht erreichbar 0800 1110111 / 0800 1110222 oder 116 123”, by phone, chat or email.",
+   "application": "A first screen can carry a way to a person, day and night, free of charge.",
+   "limits": "Germany; other countries have their own services."
+  }
+ ],
+ "review": {
+  "status": "draft, waiting for review",
+  "what": "What is shown to someone short of money or who has just shared a prayer request, the description of seed-faith appeals, the treatment of tithing and church tax, and the use of YouVersion screens from the owner’s own account",
+  "needs": [
+   "pastoral care",
+   "theology across Catholic, Orthodox and Protestant traditions",
+   "charity and consumer law"
+  ],
+  "since": "11 October 2026",
+  "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/giving/"
+ },
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

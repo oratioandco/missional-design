@@ -1,0 +1,631 @@
+{
+ "slug": "check-ins-and-assessments",
+ "url": "https://missional.design/patterns/check-ins-and-assessments/",
+ "title": "Check-ins and assessments",
+ "question": "What may an app ask about someone, and what may it conclude?",
+ "lede": "Christians have asked themselves questions for centuries, in the evening Examen, in Wesley’s band meetings and in church gift inventories. Apps now ask too: setup quizzes, daily mood check-ins, long personality tests. Asking can serve personalisation, self-knowledge or a church listening to its members. Decide what each question is for, what is kept, who sees the result, and how much the result claims to know. Being asked about one’s soul is an act of trust, and the answers deserve the care of a pastor, not the appetite of a funnel.",
+ "calling": "Every answer is entrusted to you. Ask only what you are ready to carry with care.",
+ "spectrum": {
+  "title": "From a hint for the app to a verdict on a person",
+  "from": "Shapes what the app offers",
+  "to": "Claims to know the person"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/assessments/",
+  "situation": "It is a Wednesday in October. Each option asks something about a person or a church, and each concludes something different from the answers. Answer as far as you like, then change whether answers are kept and whether a mentor may see a result, and notice what each one claims to know about you."
+ },
+ "options": [
+  {
+   "key": "setup",
+   "name": "A few setup questions",
+   "provenance": "Observed",
+   "origin": "Observed in onboarding quizzes: Abide’s “What brings you here today?” photo grid and Bible BFF’s “How much of the Bible have you read?”; HelloBible asks “What is your gender?” with “I prefer not to answer”, then asks for a name, before a separate consent for using faith data with a partner AI. See the screenshots below.",
+   "gain": "A sensible first suggestion",
+   "cost": "Can turn into a sales funnel",
+   "makes_easier": "A sensible first suggestion without browsing a catalogue.",
+   "costs": "Easily becomes a sales funnel, or asks more than it needs.",
+   "ask_your_team": "Does each question say what it changes, and can it be skipped?",
+   "still": "https://missional.design/assets/stills/try-assess-setup.jpg"
+  },
+  {
+   "key": "checkin",
+   "name": "A daily check-in",
+   "provenance": "Observed",
+   "origin": "Observed in Soultime’s mood check-in, which asks how you are “With Myself”, “With Others” and “With God” and charts the answers over weeks; see the screenshots below.",
+   "gain": "Naming a feeling in a minute",
+   "cost": "A mood record is health data",
+   "makes_easier": "Naming a feeling, an old practice of self-examination, takes a minute.",
+   "costs": "A record of moods is health data; a chart invites self-monitoring.",
+   "ask_your_team": "What happens to the word someone chose, and who could ever see it?",
+   "still": "https://missional.design/assets/stills/try-assess-checkin.jpg"
+  },
+  {
+   "key": "inventory",
+   "name": "A gifts inventory",
+   "provenance": "Familiar convention",
+   "origin": "A familiar church practice since the 1970s: spiritual gifts inventories, Willow Creek’s Network course (1994) and similar tools ask people to rate statements and then suggest where to serve. Statements here are written for this example.",
+   "gain": "Words for how someone serves",
+   "cost": "A result can feel like a label",
+   "makes_easier": "A way into serving, and words for what someone already enjoys.",
+   "costs": "A result can feel like a verdict; scores overlap with personality.",
+   "ask_your_team": "Does the result point to trying and to other people, or hand out a label?",
+   "still": "https://missional.design/assets/stills/try-assess-inventory.jpg"
+  },
+  {
+   "key": "church",
+   "name": "A church survey",
+   "provenance": "Familiar convention",
+   "origin": "A familiar tool in congregations: Natural Church Development asks 30 members to rate statements and reports eight “quality characteristics”; Willow Creek’s Reveal survey (2007) measured spiritual growth across churches. Statements here are written for this example.",
+   "gain": "A church hears its members",
+   "cost": "Numbers can become targets",
+   "makes_easier": "A church hears how its members see it, anonymously.",
+   "costs": "Numbers can become targets; the lowest area can feel like blame.",
+   "ask_your_team": "Can anyone see a single person’s answers, and does the result start a conversation?",
+   "still": "https://missional.design/assets/stills/try-assess-church.jpg"
+  },
+  {
+   "key": "score",
+   "name": "A spiritual score",
+   "provenance": "Leave it out",
+   "origin": "A composite of patterns observed in assessment and mood apps: a score out of 100, a stage, a ranking against others and a prompt to retake. Soultime’s “Emotional and Spiritual Health Report” sits nearby; see the screenshots below.",
+   "gain": "A clear number",
+   "cost": "Faith becomes a grade and a rank",
+   "makes_easier": "A clear number that motivates some people for a while.",
+   "costs": "Turns a life with God into a grade, a rank and a trend.",
+   "ask_your_team": "What would it mean to be 4 points closer to God?",
+   "still": "https://missional.design/assets/stills/try-assess-score.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Say what each answer changes",
+   "text": "Abide asks “What brings you here today?” with twelve goals, and Bible BFF asks “How much of the Bible have you read?”, with testimonials and a paywall between the steps. A setup question earns its place when it changes what the app offers, says so, and can be skipped."
+  },
+  {
+   "heading": "Naming a feeling is enough",
+   "text": "Soultime’s check-in asks how you are “With Myself”, “With Others” and “With God”, an echo of the Examen’s attention to feelings. Labelling an emotion can itself ease it. Respond with a passage or a next step, not a chart to keep improving."
+  },
+  {
+   "heading": "Moods and faith are protected data",
+   "text": "Answers about anxiety, shame or God are health and religious data under GDPR Article 9, and inferences count too. Keep them on the device by default, let people delete them, and never send anything to friends or leaders automatically, even on a hard day."
+  },
+  {
+   "heading": "A result is a starting point, not a verdict",
+   "text": "Gift inventories overlap heavily with personality, and generic reports feel accurate to almost everyone. Willow Creek’s Network paired the inventory with a consultant and a place to serve. Say how a result was made, and point to trying things and to people who know the person."
+  },
+  {
+   "heading": "Churches have measured for decades",
+   "text": "Natural Church Development surveys 30 members and reports eight areas; Reveal surveyed whole congregations about spiritual growth, and taught its own church something uncomfortable. Anonymous, aggregated surveys can help a church listen. Scores, stages and ranks for individuals measure what only God sees."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "Opening the app for the first time",
+   "needs": "A sensible first step",
+   "fit": {
+    "A few setup questions": "good fit",
+    "A daily check-in": "poor fit",
+    "A gifts inventory": "poor fit",
+    "A church survey": "poor fit",
+    "A spiritual score": "poor fit"
+   }
+  },
+  {
+   "situation": "A hard week",
+   "needs": "Words for how they are",
+   "fit": {
+    "A few setup questions": "poor fit",
+    "A daily check-in": "good fit",
+    "A gifts inventory": "poor fit",
+    "A church survey": "poor fit",
+    "A spiritual score": "poor fit"
+   }
+  },
+  {
+   "situation": "Looking for a place to serve",
+   "needs": "Where to start",
+   "fit": {
+    "A few setup questions": "poor fit",
+    "A daily check-in": "poor fit",
+    "A gifts inventory": "good fit",
+    "A church survey": "possible",
+    "A spiritual score": "poor fit"
+   }
+  },
+  {
+   "situation": "Leading a church",
+   "needs": "Hearing the members",
+   "fit": {
+    "A few setup questions": "poor fit",
+    "A daily check-in": "poor fit",
+    "A gifts inventory": "possible",
+    "A church survey": "good fit",
+    "A spiritual score": "poor fit"
+   }
+  },
+  {
+   "situation": "Meeting a mentor",
+   "needs": "Something to talk about",
+   "fit": {
+    "A few setup questions": "poor fit",
+    "A daily check-in": "good fit",
+    "A gifts inventory": "good fit",
+    "A church survey": "poor fit",
+    "A spiritual score": "poor fit"
+   }
+  },
+  {
+   "situation": "Wary of being measured",
+   "needs": "Nothing kept, nothing scored",
+   "fit": {
+    "A few setup questions": "possible",
+    "A daily check-in": "possible",
+    "A gifts inventory": "poor fit",
+    "A church survey": "possible",
+    "A spiritual score": "poor fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "Self-examination among people who pray for each other",
+   "findings": [
+    {
+     "heading": "Notice your feelings",
+     "text": "The Examen’s third step is to pay attention to your emotions.",
+     "sources": [
+      "examen-steps"
+     ]
+    },
+    {
+     "heading": "Questions asked every week",
+     "text": "Wesley’s bands asked four questions, among friends who prayed together.",
+     "sources": [
+      "wesley-bands"
+     ]
+    },
+    {
+     "heading": "Gifts are found in serving",
+     "text": "Network paired the inventory with consultation and a place to serve.",
+     "sources": [
+      "network-gifts"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Church assessment",
+   "subtitle": "What congregations have learned",
+   "findings": [
+    {
+     "heading": "Thirty members, eight areas",
+     "text": "NCD’s anonymous survey, used to choose a focus and track trends.",
+     "sources": [
+      "ncd-survey"
+     ]
+    },
+    {
+     "heading": "Be modest about the research",
+     "text": "Reviewers questioned the science behind NCD’s claims.",
+     "sources": [
+      "ncd-review"
+     ]
+    },
+    {
+     "heading": "Measuring growth raises questions",
+     "text": "Reveal’s findings, and whether self-monitoring serves discipleship.",
+     "sources": [
+      "reveal-galli"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Psychology",
+   "subtitle": "What questions and results can do",
+   "findings": [
+    {
+     "heading": "Naming eases",
+     "text": "Labelling an emotion reduced the brain’s response to negative images.",
+     "sources": [
+      "affect-labeling"
+     ]
+    },
+    {
+     "heading": "Daily sampling is a method",
+     "text": "Momentary assessment reduces recall bias in research and care.",
+     "sources": [
+      "ema"
+     ]
+    },
+    {
+     "heading": "Generic reports feel personal",
+     "text": "People rate the same sketch as accurate about themselves.",
+     "sources": [
+      "barnum"
+     ]
+    },
+    {
+     "heading": "Gifts overlap with personality",
+     "text": "About half the shared variance in one study.",
+     "sources": [
+      "gifts-personality"
+     ]
+    },
+    {
+     "heading": "Measuring makes it work",
+     "text": "Counting an activity lowered enjoyment of it.",
+     "sources": [
+      "personal-quantification"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Privacy and law",
+   "subtitle": "Moods and faith are special-category data",
+   "findings": [
+    {
+     "heading": "Health and belief are protected",
+     "text": "Processing needs an Article 9 condition; inferences count too.",
+     "sources": [
+      "gdpr",
+      "ico-special-inferences"
+     ]
+    },
+    {
+     "heading": "Such apps have shared data",
+     "text": "Mozilla’s 2022 review of mental health and prayer apps.",
+     "sources": [
+      "mozilla-prayer-apps"
+     ]
+    },
+    {
+     "heading": "Aggregate, not individual",
+     "text": "Soultime described trends without tracking people individually.",
+     "sources": [
+      "soultime-aggregate"
+     ]
+    },
+    {
+     "heading": "Personalised by life situation",
+     "text": "HelloBible’s listing and privacy label.",
+     "sources": [
+      "hellobible-store"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "You want a sensible first suggestion",
+   "start_with": "A few optional setup questions, each saying what it changes"
+  },
+  {
+   "if": "People want to notice how they are",
+   "start_with": "A check-in that ends with a passage, kept on the phone"
+  },
+  {
+   "if": "People look for a place to serve",
+   "start_with": "An inventory whose result points to trying and to a mentor"
+  },
+  {
+   "if": "A church wants to listen",
+   "start_with": "An anonymous survey with results shared by area"
+  },
+  {
+   "if": "You are tempted to score faith",
+   "start_with": "Don’t: no scores, stages, ranks or retakes for a better number"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What self-examination is for",
+   "text": "“Examine yourselves to see whether you are in the faith” (2 Corinthians 13:5); “Search me, O God, and know my heart” (Psalm 139:23). Self-examination in Scripture is done before God, often with others, and it leads to confession and change, not to a profile. The Examen and Wesley’s band questions kept that shape."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Evangelical churches have embraced gifts inventories and church health surveys as tools for service and mission. Others are wary of importing management measurement into the church, as Mark Galli asked of Willow Creek’s Reveal. Traditions also differ on the gifts themselves: some expect every gift listed in the New Testament today, others hold that some have ceased."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "Paul wrote, “I do not even judge myself … It is the Lord who judges me” (1 Corinthians 4:3–4). Asking can serve discernment, but only God knows a heart. Make results starting points for conversation and service, keep answers private, and never turn a life with God into a score."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Dietrich Bonhoeffer, Life Together (1939)",
+   "url": "https://www.9marks.org/review/book-review-life-together-by-dietrich-bonhoeffer",
+   "note": "placed confession within a community of real people who bear one another’s burdens, not in self-assessment alone."
+  },
+  {
+   "source": "Mark Galli, “Am I Growing Yet?” (2007)",
+   "url": "https://christianitytoday.com/ct/2007/octoberweb-only/143-43.0.html",
+   "note": "asked whether constant monitoring of one’s own growth serves discipleship or turns the disciple inward."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Quizzes that feed a paywall, mood records sent to others, spiritual scores and ranks.",
+  "ethical": "Say what each answer changes, let it be skipped, and protect health and belief data.",
+  "redemptive": "Keep answers on the phone and point results toward serving and toward people who know the person, though the app learns less.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "For each question: what does the answer change, who could ever see it, and what does the result claim to know?",
+  "exercise": "Take your own app’s questions and, beside each, write what it changes and where the answer is stored. Then show five people their results and ask what the app now thinks of them, and whether they agree.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [],
+ "examples": [
+  {
+   "app": "Abide",
+   "title": "“What brings you here today?” as a photo grid",
+   "url": "https://missional.design/examples/abide-goal-grid/",
+   "observed": "Captured 17 October 2025 · from embedded image metadata",
+   "observation": "A multi-select grid of twelve photo tiles (Reduce Anxiety, Grow Spiritually, Feel Peace, Sleep Better, Strengthen Relationships, Connect With God, Trust God, Experience Freedom, Increase Hope, Receive Healing, Improve Character, Love Well) under “Select one or more to continue.” Earlier steps ask for content types; between steps, interstitials show listener counts and five-star testimonials before a subscription offer.",
+   "decision": "Goals can shape a first suggestion. Say what each choice changes, let people skip, and keep social proof and sales out of the questions themselves.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Faith",
+   "title": "“How old are you?” during setup",
+   "url": "https://missional.design/examples/faith-age-question/",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "“How old are you?” and “We’d love to know your age to personalize your experience”, above ranges from “12 or younger” to “45 or older”, and a Continue button.",
+   "decision": "An age question can protect children, or simply profile people. Say which it is, and what changes for a child; see the coming deep dive on children and families.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Bible BFF",
+   "title": "“How much of the Bible have you read?”",
+   "url": "https://missional.design/examples/biblebff-quiz/",
+   "observed": "Captured 29 August 2025 · from embedded image metadata",
+   "observation": "“Question 1 of 2” offers four answers (None of it, I know some stories, Most of it, Every page!) with “Most of it” selected. The next screen echoes the answer: “Wow, that’s incredible. We can’t wait for you to experience it in a new way!”",
+   "decision": "A familiarity question can set the right depth. Echoing every answer with praise turns a setting into flattery; say instead what the answer will change.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Soultime",
+   "title": "“With God I’m feeling”",
+   "url": "https://missional.design/examples/soultime-mood-checkin/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "The third step of a mood check-in shows three glowing orbs for Myself, Others and God, and a grid of 24 feeling words for God (Forgotten, Remembered, Forgiven, Distant, Content, Chosen, Victorious and others). “Forgiven” is selected; words that don’t fit with it are dimmed. A Finish button sits below.",
+   "decision": "Naming how one is with God echoes the Examen. Words like Forgiven or Chosen are theological claims as well as feelings; say who chose them, and keep the answers private.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Soultime",
+   "title": "Moods over a week, by dimension",
+   "url": "https://missional.design/examples/soultime-mood-stats/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "“My Stats” shows a line chart from Disconnected to Connected over a week, filters for All, With Myself, With Others, With God and Total, Share and “Soultime with friends” buttons, a grid of moods, and “Get Your Suggestions”.",
+   "decision": "A chart turns feelings into a trend to watch. Consider whether a list in the person’s own words is enough, and make any sharing a deliberate act.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Soultime",
+   "title": "A 61-statement personality test",
+   "url": "https://missional.design/examples/soultime-personality-test/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "“Personality Test · 0 / 61” shows four sentence completions on a seven-point Never to Always scale: “I ___ find it difficult to be vulnerable with God”, “I ___ experience God’s love”, “I ___ find giving God control in my life scary”, “When I do something wrong I ___ punish myself”.",
+   "decision": "These questions touch shame and images of God. Say before the first one why they are asked, who will read the answers, and how to stop and delete them.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Soultime",
+   "title": "An “Emotional and Spiritual Health Report”",
+   "url": "https://missional.design/examples/soultime-health-report/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "A web report headed with the user’s name (blurred here) and “Your Soultime Emotional and Spiritual Health Report · Full report · 31 Oct, 2022”, with “See how you’ve changed · Retake the Test”. The text invites the reader to read slowly and ponder each section, and says the results built “a tailored course of audio meditations”.",
+   "decision": "Inviting slow, reflective reading is careful. Calling it a health report and inviting retakes to see change frames the soul as something measured; say how the report was produced and what it cannot know.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "HelloBible",
+   "title": "A profile of series, time in the app and conversations",
+   "url": "https://missional.design/examples/hellobible-profile-stats/",
+   "observed": "Captured 8 October 2026 · from embedded image metadata",
+   "observation": "The profile shows a week strip under “Series” with days 5 to 8 marked, then six tiles: Current series 1 day, Daily verses 0, Record series 1 day, Time in the app 5 min, Conversations 32, Time Today 0 min. Settings follow; none of them lists or edits the answers given during onboarding.",
+   "decision": "Counting time in the app and conversations measures the product’s engagement, not the person’s life with God. If onboarding answers personalise the app, let people see and change them here.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "HelloBible",
+   "title": "“What is your gender?” with a reason and an opt-out",
+   "url": "https://missional.design/examples/hellobible-gender/",
+   "observed": "Captured 8 October 2026 · from embedded image metadata",
+   "observation": "The first onboarding question, under a progress bar, asks “What is your gender?” and explains: “We need this information to interact with you better.” Options are Man, Woman and “I prefer not to answer”. The next question asks “What would you like me to call you?”.",
+   "decision": "Giving a reason and an opt-out is good practice. Say more precisely what the answer changes; “to interact with you better” could mean almost anything.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "HelloBible",
+   "title": "A separate consent for using faith data with a partner AI",
+   "url": "https://missional.design/examples/hellobible-faith-consent/",
+   "observed": "Captured 8 October 2026 · from embedded image metadata",
+   "observation": "Before an account is created, “We protect your privacy!” shows two unticked boxes: accepting the Terms of Use and Privacy Policy, and agreeing “that HelloBible may use what I share about my faith to personalize my answers, generated by a partner AI.” Below: “Your conversations stay private. They are never sold or used for advertising, and you can delete them at any time.”",
+   "decision": "A separate, unticked consent for faith data matches GDPR’s explicit consent for religious belief. Name the AI partner and where data is processed, and check that the app still works for someone who declines the second box.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Soultime",
+   "title": "Friends notified automatically “when we think you might need a call”",
+   "url": "https://missional.design/examples/soultime-auto-nudge/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "“Soultime with Friends Settings”: “For many of us reaching out is one of the hardest parts. Soultime with Friends discreetly nudges your friends automatically when we think you might need a call.” “Automatic notifications” is switched on; switching it off means the app asks first.",
+   "decision": "The intention is care, and the mechanism is an inference about someone’s state sent to others by default. Ask every time, and let the person write the words.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "examen-steps",
+   "title": "How can I pray? The Daily Examen",
+   "url": "https://www.ignatianspirituality.com/ignatian-prayer/the-examen/how-can-i-pray/",
+   "author": "IgnatianSpirituality.com · Loyola Press",
+   "kind": "Practice",
+   "shows": "Five steps proposed after Ignatius of Loyola: become aware of God’s presence; review the day with gratitude; pay attention to your emotions; choose one feature of the day and pray from it; look toward tomorrow.",
+   "application": "A guided outline with a known source; the working example’s prompts are written for it.",
+   "limits": "A modern adaptation; Ignatius’s own five points in the Spiritual Exercises differ in wording."
+  },
+  {
+   "key": "wesley-bands",
+   "title": "Rules of the Band-Societies",
+   "url": "https://holyjoys.org/rules-band-societies/",
+   "author": "John Wesley, 25 December 1738 · Holy Joys transcription",
+   "kind": "History",
+   "shows": "The design of the meetings is “to obey that command of God, ‘Confess your faults one to another, and pray one for another, that ye may be healed’”; four questions are asked at every meeting, beginning “What known sins have you committed since our last meeting?”",
+   "application": "Regular self-examination with set questions is an old Christian practice, and it happened among people who knew and prayed for each other, not on a chart.",
+   "limits": "A small-group discipline for committed members, not a public survey."
+  },
+  {
+   "key": "ncd-survey",
+   "title": "Natural Church Development Survey",
+   "url": "https://fmcic.ca/ncd-canada/",
+   "author": "Free Methodist Church in Canada · NCD Canada",
+   "kind": "Practice",
+   "shows": "The survey is “completed by 30 people from the congregation chosen according to specific criteria”, measures eight “Quality Characteristics” of church life, and lets leaders “identify the church’s most critical health issues” and track trends over repeated surveys.",
+   "application": "A church assessment can be anonymous and aggregated, and its result can start a conversation about where to focus.",
+   "limits": "A denomination’s description of the tool, not an evaluation of it."
+  },
+  {
+   "key": "ncd-review",
+   "title": "Book review: Natural Church Development by Christian Schwarz",
+   "url": "https://place.asburyseminary.edu/jascg/vol10/iss2/6",
+   "author": "John Ellas and Flavil Yeakley · Journal of the American Society for Church Growth 10(2), 1999",
+   "kind": "Research",
+   "shows": "Two church-growth researchers welcome the book’s pastoral reach but criticise the research behind its claims, which they call “pseudo-science”.",
+   "application": "Be modest about what a church score shows; a survey of perceptions is not a measure of health or faithfulness.",
+   "limits": "A review, from within the church-growth movement."
+  },
+  {
+   "key": "network-gifts",
+   "title": "Network: discover your spiritual gifts, personal style and passion",
+   "url": "https://zondervanacademic.com/products/network-kit",
+   "author": "Bruce L. Bugbee and Don Cousins · Zondervan, developed with the Willow Creek Association",
+   "kind": "Practice",
+   "shows": "Invites participants to “discover your spiritual gifts, personal style, and God-given passion for serving in the body of Christ”; the course pairs self-assessment with consultants who help people find a place to serve.",
+   "application": "Gifts assessment has long been tied to serving and to a conversation with another person, not just a result screen.",
+   "limits": "A publisher’s description."
+  },
+  {
+   "key": "gifts-personality",
+   "title": "Relationships between personality and spiritual gifts",
+   "url": "https://digitalcommons.georgefox.edu/psyd/267",
+   "author": "Kenneth J. Stone · Doctor of Psychology dissertation, George Fox University, 1991",
+   "kind": "Research",
+   "shows": "Compared a spiritual gifts inventory with a five-factor personality measure among church members: personality accounted for about 50% of the shared variance, and Openness and Extraversion correlated with two of three gift factors; the author recommends reconsidering reliance on gift inventories.",
+   "application": "Present inventory results as what someone enjoys and how they see themselves, and point to serving and to other people for confirmation.",
+   "limits": "One inventory and one sample."
+  },
+  {
+   "key": "reveal-galli",
+   "title": "Am I growing yet?",
+   "url": "https://christianitytoday.com/ct/2007/octoberweb-only/143-43.0.html",
+   "author": "Mark Galli · Christianity Today, 25 October 2007",
+   "kind": "Theology",
+   "shows": "Reports on Willow Creek’s Reveal survey, which found that mature believers felt they were “not being fed”, and on the church’s plan to coach “self-feeders” with personal growth plans; Galli asks whether constant self-monitoring of growth serves discipleship.",
+   "application": "Even careful spiritual measurement raises a theological question: what does tracking one’s own growth do to a person who is meant to look outward?",
+   "limits": "Commentary on a church’s survey, not a study of apps."
+  },
+  {
+   "key": "affect-labeling",
+   "title": "Putting feelings into words: affect labeling disrupts amygdala activity in response to affective stimuli",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17576282/",
+   "author": "Matthew D. Lieberman et al. · Psychological Science 18(5), 2007",
+   "kind": "Research",
+   "shows": "Labelling the emotion in a picture reduced amygdala response to negative images compared with other ways of processing them, with increased right ventrolateral prefrontal activity.",
+   "application": "Naming a feeling may help in itself; a check-in can end at the naming, without a score or a chart.",
+   "limits": "Laboratory study with images, not mood apps."
+  },
+  {
+   "key": "ema",
+   "title": "Ecological momentary assessment",
+   "url": "https://doi.org/10.1146/annurev.clinpsy.3.022806.091415",
+   "author": "Saul Shiffman, Arthur A. Stone and Michael R. Hufford · Annual Review of Clinical Psychology 4, 2008",
+   "kind": "Research",
+   "shows": "Repeatedly sampling people’s current experience in daily life reduces recall bias and reveals patterns, and is used in research and clinical care.",
+   "application": "Daily check-ins are a recognised method; outside research and care, decide who benefits from the record and how long it should exist.",
+   "limits": "A method review for researchers and clinicians."
+  },
+  {
+   "key": "barnum",
+   "title": "The fallacy of personal validation: a classroom demonstration of gullibility",
+   "url": "https://doi.org/10.1037/h0059240",
+   "author": "Bertram R. Forer · Journal of Abnormal and Social Psychology 44(1), 1949",
+   "kind": "Research",
+   "shows": "Students rated an identical, generic personality sketch as highly accurate for themselves.",
+   "application": "Personal-sounding reports feel true whatever their basis; say how a result was produced and what it cannot claim.",
+   "limits": "A classroom demonstration; later studies refined it."
+  },
+  {
+   "key": "personal-quantification",
+   "title": "The hidden cost of personal quantification",
+   "url": "https://marketing.wharton.upenn.edu/wp-content/uploads/2016/10/Etkin-Jordan-11-12-15-Hidden-Cost.pdf",
+   "author": "Jordan Etkin · Journal of Consumer Research 42(6), 2016",
+   "kind": "Research",
+   "shows": "In six experiments, measuring an activity (walking, reading) increased how much people did but reduced how much they enjoyed it, by undermining intrinsic motivation.",
+   "application": "Counting minutes or prayers may raise activity while turning prayer into output; do not measure it.",
+   "limits": "Leisure activities in experiments, not prayer."
+  },
+  {
+   "key": "gdpr",
+   "title": "Process personal data lawfully",
+   "url": "https://www.edpb.europa.eu/sme/be-compliant/process-personal-data-lawfully_en",
+   "author": "European Data Protection Board",
+   "kind": "EU legal guidance",
+   "shows": "Special-category processing needs an appropriate Article 9 exception in addition to an Article 6 basis.",
+   "application": "Separate conversation processing, durable memory, training and sharing purposes.",
+   "limits": "Specific lawful basis, retention and DPIA decisions require the actual data flows."
+  },
+  {
+   "key": "ico-special-inferences",
+   "title": "What is special category data?",
+   "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/",
+   "author": "UK Information Commissioner’s Office",
+   "kind": "Regulator guidance · UK",
+   "shows": "Religious and health information, including specified intentional inferences, receive special treatment.",
+   "application": "Review chat, activity histories and inferred segments.",
+   "limits": "Context and processing intent matter; not every Bible-page visit automatically establishes a belief."
+  },
+  {
+   "key": "mozilla-prayer-apps",
+   "title": "Top mental health and prayer apps fail spectacularly at privacy, security",
+   "url": "https://www.mozillafoundation.org/en/blog/top-mental-health-and-prayer-apps-fail-spectacularly-at-privacy-security/",
+   "author": "Mozilla Foundation · *Privacy Not Included, 2 May 2022",
+   "kind": "Practice",
+   "shows": "28 of 32 mental health and prayer apps received the *Privacy Not Included warning; Pray.com was among the worst for sharing personal information with third parties.",
+   "application": "Prayer data is intimate; keep requests on the device by default and share nothing with advertisers.",
+   "limits": "A 2022 review; apps’ practices may have changed since."
+  },
+  {
+   "key": "soultime-aggregate",
+   "title": "What the Christian app Soultime has discovered with its mood tracker",
+   "url": "https://hope1032.com.au/news/ups-and-downs-the-fascinating-mood-tracking-findings-of-christian-meditation-app-soultime/",
+   "author": "Hope 103.2 · 12 May 2020",
+   "kind": "Practice",
+   "shows": "Soultime described lockdown mood trends across its users and said: “We don’t track people individually, as privacy is very important”.",
+   "application": "A precedent for using check-ins only in aggregate; say so in the app, and show where individual records are kept.",
+   "limits": "A news interview; data practices were not independently verified."
+  },
+  {
+   "key": "hellobible-store",
+   "title": "HelloBible: interactive Bible (App Store listing)",
+   "url": "https://apps.apple.com/app/id6502768944",
+   "author": "HelloBox · Apple App Store",
+   "kind": "Practice",
+   "shows": "Describes an experience “tailored to your reality and pace” for students, young adults, parents, people in doubt, Catholics, Protestants, Evangelicals and people without religious affiliation; the privacy label lists contact information and identifiers linked to the user for analytics and personalisation.",
+   "application": "Personalisation by life situation and church is common; say what each answer changes and what is linked to the person.",
+   "limits": "A store listing; the onboarding itself was not tested here."
+  }
+ ],
+ "review": null,
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}
