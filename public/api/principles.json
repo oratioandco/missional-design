@@ -1,0 +1,254 @@
+{
+ "principles": [
+  {
+   "id": "word-distinct",
+   "place": "word",
+   "name": "Keep the Word distinct, and teach it truly",
+   "intent": "Every screen teaches. Let readers always tell Scripture from our words, and our words from a machine’s.",
+   "question": "Can a reader always tell Scripture from our words, and our words from a machine’s?",
+   "questions": [
+    "Where do we present one tradition’s view as simply “what the Bible says”?",
+    "Who in our team can say “that isn’t what the text says”, and are they in the room early?"
+   ],
+   "rules_in": [
+    "Headings, notes, media and AI answers labelled and styled so they cannot be taken for Scripture",
+    "Sources at the claim, not at the end",
+    "The traditions named, each with its strongest passages, where Christians differ",
+    "A verse shown with its passage, and a translation with its character"
+   ],
+   "rules_out": [
+    "Generated text that looks like a verse",
+    "One tradition’s reading presented as simply what the Bible says",
+    "Verses cut from their passage to fit a mood",
+    "Theology checked at the end, if at all"
+   ],
+   "tradeoff": "A cleaner, more confident answer, and the shortcut of a house view presented as neutral.",
+   "qualification": "Every product holds a tradition. Say which openly; fairness across traditions does not mean having no confession.",
+   "url": "https://missional.design/principles/word-distinct/"
+  },
+  {
+   "id": "speak-for-god",
+   "place": "word",
+   "name": "Never speak for God",
+   "intent": "An app may quote, explain, pray the church’s prayers and point. It must never pronounce, promise or plead in God’s name, nor let a persona or a machine take the place of a person or of God.",
+   "question": "Would we put our own name under this sentence, or are we borrowing God’s?",
+   "questions": [
+    "Could someone mistake this voice for a pastor, a saint, Jesus or God?",
+    "What does this assistant do when someone asks it to pray for them?"
+   ],
+   "rules_in": [
+    "An assistant that says what it is, what it keeps and what it cannot do",
+    "Answers that point to Scripture, a pastor, a church",
+    "The church’s written prayers, blessings, creeds and liturgy, offered as the church’s words",
+    "Help before any verse when someone is in danger"
+   ],
+   "rules_out": [
+    "An AI that forgives sins or tells someone what God wants for their life",
+    "A persona that says it is praying for someone, or writes first to bring them back",
+    "Notifications in God’s voice, and spiritual language used as urgency",
+    "Promises that God will repay a gift, heal or bless in return for a purchase"
+   ],
+   "tradeoff": "The engagement a warm persona brings, and the lift of spiritual urgency.",
+   "qualification": "This does not forbid devotion. The Lord’s Prayer, a psalm, a collect, a blessing or a written liturgy are the church’s words, offered as such; what is forbidden is the persona that claims a relationship and the promise that claims God’s answer.",
+   "url": "https://missional.design/principles/speak-for-god/"
+  },
+  {
+   "id": "most-vulnerable",
+   "place": "person",
+   "name": "Design for the most vulnerable first",
+   "intent": "Design first for the person most likely to be hurt: in crisis, grieving, abused, scrupulous, new to faith, hurt by a church, or, where an app serves them, a child. Help comes before features, verses or answers.",
+   "question": "Who is the most vulnerable person likely to use this today, and what will they see?",
+   "questions": [
+    "Where could this cause someone vulnerable to stumble?",
+    "Would someone who was hurt in a church feel safe on this screen?"
+   ],
+   "rules_in": [
+    "A way to a person on the first screen, never behind an account, a limit or a paywall",
+    "Testing with the most vulnerable people you serve, not only the most engaged",
+    "Accessibility as love: low vision, dyslexia, other languages",
+    "Where an app serves children, their best interests ahead of growth"
+   ],
+   "rules_out": [
+    "A verse in place of a helpline",
+    "Automatic messages to a parent or a group about someone’s disclosure",
+    "Designing for the confident majority and patching the edges"
+   ],
+   "tradeoff": "Speed, and the simplicity of designing for the confident.",
+   "qualification": "Protection must not become control. A child, a survivor or a doubter keeps a voice in what happens next, and specialist safeguarding review decides the hard cases.",
+   "url": "https://missional.design/principles/most-vulnerable/"
+  },
+  {
+   "id": "welcome",
+   "place": "person",
+   "name": "Welcome before you ask, and guard what is told in confidence",
+   "intent": "Let people reach what they came for before asking anything; ask only for what serves them, when it does; and treat what they tell you as holy ground.",
+   "question": "If a friend read everything we keep about this person, would the person be glad?",
+   "questions": [
+    "What must someone give before they reach what they came for?"
+   ],
+   "rules_in": [
+    "Guest use; an account when there is something to keep",
+    "Permissions when a feature needs them",
+    "Payment after a first use, saying what costs money and why",
+    "Memory a person can see and delete; prayer requests that go only where they chose"
+   ],
+   "rules_out": [
+    "A quiz, a phone number or a paywall before the first verse",
+    "Faith inferred from use and sold or used for advertising",
+    "Prayer requests read for marketing insight",
+    "Confessions stored by default"
+   ],
+   "tradeoff": "Conversion at the front door, and the data that would make the product cleverer or the marketing sharper.",
+   "qualification": "Welcome is not the same as asking for nothing. A justified, well-timed question can protect a person; the test is whether it serves them, now.",
+   "url": "https://missional.design/principles/welcome/"
+  },
+  {
+   "id": "feed-the-flock",
+   "place": "practice",
+   "name": "Feed the flock, not on it",
+   "intent": "Attention, time, devotion and money are entrusted, not harvested. Ask for them honestly, never through guilt, fear, urgency or a promise.",
+   "question": "Does this serve growth in faith, or only the usage numbers?",
+   "questions": [
+    "Freedom or anxiety?",
+    "Would someone who was short of money, or grieving, feel pressed by this screen?"
+   ],
+   "rules_in": [
+    "Reminders the person sets; streaks that can be switched off; a return without shame",
+    "Gifts that start at no amount; prices that say what they pay for",
+    "An honest free allowance, and a subscription that is easy to end"
+   ],
+   "rules_out": [
+    "Broken-streak warnings marked urgent",
+    "“We miss you” in a persona’s voice",
+    "Preselected tiers and added tips; asks after a prayer request",
+    "Weekly plans, hidden renewals and hard cancellation"
+   ],
+   "tradeoff": "The daily users, conversions and revenue that pressure would bring.",
+   "qualification": "Asking is not wrong: the church has always supported those who serve the word, and a chosen rhythm can help. The line is crossed when the ask uses guilt, fear, a moment of need or God’s name.",
+   "url": "https://missional.design/principles/feed-the-flock/"
+  },
+  {
+   "id": "enough",
+   "place": "practice",
+   "name": "Make room for rest, and say when it is enough",
+   "intent": "A faithful product sometimes asks for less: it ends a session, keeps the night quiet, stops asking when the need is met, and lets itself end when its work is done.",
+   "question": "Where does our product stop, and does it ever tell someone they have done enough?",
+   "questions": [
+    "What would we stop sending if we believed rest is a gift?"
+   ],
+   "rules_in": [
+    "Sessions that end in silence instead of autoplay",
+    "Quiet hours; after silence, ask once and stop",
+    "An appeal that says when the need is met",
+    "A regular gift or subscription as easy to stop as to start"
+   ],
+   "rules_out": [
+    "An endless feed of devotional content",
+    "Reminders that multiply when someone stops answering",
+    "Asking again and again"
+   ],
+   "tradeoff": "Time in the app, and the comfort of a product that never has to end.",
+   "qualification": "Some people want more: a long listen, a full plan. Enough is the person’s to choose; the product’s part is to offer an end and keep it.",
+   "url": "https://missional.design/principles/enough/"
+  },
+  {
+   "id": "send",
+   "place": "people",
+   "name": "Send people to God and to one another",
+   "intent": "The app is a means, never the destination. Judge it by where people go when they close it.",
+   "question": "When someone closes what we built, are they closer to God and to other people?",
+   "questions": [
+    "If people developed deep communion with God and no longer needed the app, would we celebrate or mourn?"
+   ],
+   "rules_in": [
+    "Readings and groups with a shape for listening",
+    "A way to a pastor, a church, a friend",
+    "Endings that suggest a person, not the next session"
+   ],
+   "rules_out": [
+    "A companion that wants to be the only one someone talks to",
+    "Community features that compete with the local church",
+    "Success defined as daily sessions"
+   ],
+   "tradeoff": "The stickiness of being someone’s only place.",
+   "qualification": "Leaving the app or joining a congregation is not a universal measure. For someone isolated, disabled or hurt by a church, an online community may be the safe place, and a referral back may not be safe.",
+   "url": "https://missional.design/principles/send/"
+  },
+  {
+   "id": "growth",
+   "place": "people",
+   "name": "Plant and water; leave the growth to God",
+   "intent": "Measure what serves the person and the task. Never score a soul, and never claim the fruit as yours.",
+   "question": "What would we stop measuring if we believed growth is God’s?",
+   "questions": [
+    "Will the person’s motivation survive removing the feature?"
+   ],
+   "rules_in": [
+    "Honest evaluation of usability, understanding, burden and harm",
+    "Accounts people choose to give",
+    "Saying what the product does not know"
+   ],
+   "rules_out": [
+    "Faith scores and maturity levels inferred from use",
+    "Global prayer counters as achievements",
+    "Usage presented as spiritual fruit",
+    "“Life-changing” claims without evidence"
+   ],
+   "tradeoff": "The impressive number for the pitch.",
+   "qualification": "Humility is not a reason to avoid evaluation. Measure usability, safety and understanding carefully; it is spiritual maturity that no telemetry can show.",
+   "url": "https://missional.design/principles/growth/"
+  },
+  {
+   "id": "offering",
+   "place": "makers",
+   "name": "Make it well, as an offering",
+   "intent": "Craft is worship. Excellence, accessibility, beauty and care are how we love God and the person on the other side of the screen.",
+   "question": "Would we offer this to God as it is, and could the person with the least sight, time or reading ease use it?",
+   "questions": [
+    "What did we leave unfinished that someone else will have to carry?"
+   ],
+   "rules_in": [
+    "A reader that is a joy to read in, and typography that honours the text",
+    "Accessibility as standard: screen readers, contrast, dyslexia, other languages",
+    "Stillness, beauty and reliability",
+    "Translations cited and licensed"
+   ],
+   "rules_out": [
+    "“It’s for ministry” as an excuse for careless work",
+    "Beauty used as bait"
+   ],
+   "tradeoff": "Shipping fast at the cost of the people who cannot use what was shipped.",
+   "qualification": "Excellence is not luxury. A small team can make a simple thing well; what matters is care for the person, not polish for the portfolio.",
+   "url": "https://missional.design/principles/offering/"
+  },
+  {
+   "id": "trembling",
+   "place": "makers",
+   "name": "Hold it with joy and trembling, before God and others",
+   "intent": "Rejoice in the work and take its weight: pray for the people who use it, invite those who can say no, confess mistakes plainly, and tend what you release.",
+   "question": "Who outside the team holds us to account, and who prays for the people who use this?",
+   "questions": [
+    "What would we give up for the sake of the people who use it?"
+   ],
+   "rules_in": [
+    "Scripture read together before planning",
+    "A pastor, a safeguarding lead and someone from the community in reviews, early",
+    "Plain apologies and fixes",
+    "Tending a product after launch"
+   ],
+   "rules_out": [
+    "Theology and safeguarding as a sign-off at the end",
+    "Success stories that make the team the hero"
+   ],
+   "tradeoff": "Speed, control and the credit.",
+   "qualification": "Practices are not a performance. A small team will keep them simply; what matters is that someone outside can say no, and is heard.",
+   "url": "https://missional.design/principles/trembling/"
+  }
+ ],
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

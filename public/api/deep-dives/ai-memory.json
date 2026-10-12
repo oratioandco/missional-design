@@ -1,0 +1,541 @@
+{
+ "slug": "ai-memory",
+ "url": "https://missional.design/patterns/ai-memory/",
+ "title": "AI memory",
+ "question": "What should the assistant know and keep?",
+ "lede": "People tell Bible assistants what they are reading, and also what they are going through: a lost job, a diagnosis, a doubt, a friend’s secret. An assistant can use that to answer better, keep it to continue tomorrow, remember it for months, or turn it into a profile. Decide what the assistant may use, what it keeps, and whether the person can see and change all of it. What people confide is holy ground.",
+ "calling": "Keep only what you would be glad for the person to read back, and let them make you forget.",
+ "spectrum": {
+  "title": "From nothing kept to a profile nobody asked for",
+  "from": "Knows only what is shown",
+  "to": "Knows more than it shows"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/assistant-knows/",
+  "situation": "It is a Wednesday evening. Someone has been reading Mark 4, where Jesus calms the storm, and asks the assistant about verse 40: “Why are you so afraid?” Send the question, then come back the next morning and ask to pick up where you left off. Notice what the assistant used, what it kept, and whether you could see it. Then switch to a personal question."
+ },
+ "options": [
+  {
+   "key": "fresh",
+   "name": "Nothing kept",
+   "provenance": "Familiar convention",
+   "origin": "A familiar choice: anonymous or “temporary” chats that use no history and keep nothing, as in ChatGPT’s Temporary Chat, and in Bible apps whose AI answers each question on its own.",
+   "gain": "Nothing to leak or resurface",
+   "cost": "No continuity",
+   "makes_easier": "Nothing to leak, resurface or delete; safe for a hard moment.",
+   "costs": "No continuity; people repeat themselves and context.",
+   "ask_your_team": "Is anything kept anyway, in logs or for safety, and does the person know?",
+   "still": "https://missional.design/assets/stills/try-knows-fresh.jpg"
+  },
+  {
+   "key": "context",
+   "name": "Context you add",
+   "provenance": "Observed",
+   "origin": "Observed in chat products that attach a page, file or selection as a chip beside the question, and in Bible assistants that ask about the open passage; Aperto’s prototype asks for an intention before a practice. See the screenshots below.",
+   "gain": "The person decides what is sent",
+   "cost": "Context added each time",
+   "makes_easier": "Answers are specific to what someone is reading, and the person decides what is sent.",
+   "costs": "People must add context each time; files can carry hidden instructions.",
+   "ask_your_team": "Can the person see and remove everything that will be sent, before sending?",
+   "still": "https://missional.design/assets/stills/try-knows-context.jpg"
+  },
+  {
+   "key": "thread",
+   "name": "This conversation",
+   "provenance": "Familiar convention",
+   "origin": "The familiar chat history: conversations listed and resumable, as in most assistants, including HelloBible, whose profile counts conversations; see the screenshots below.",
+   "gain": "Continuity you can see",
+   "cost": "Everything said is kept",
+   "makes_easier": "Continuity people can see, scroll and delete.",
+   "costs": "Everything said is kept, including what was confided in a hard moment.",
+   "ask_your_team": "Where is the conversation kept, for how long, and can the person delete it in one step?",
+   "still": "https://missional.design/assets/stills/try-knows-thread.jpg"
+  },
+  {
+   "key": "memory",
+   "name": "Memory you can see",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from assistants with memory people switch on once and then see, edit and delete: ChatGPT’s memory (2024), which says it steers away from remembering health details unless asked, and Gyroscope’s AI coach (observed 2026), whose check-ins open with a “Quick chat / Save to history” switch and whose “About You” profile, internal notes included, can be read in full. Item-by-item Edit and Delete goes further than either.",
+   "gain": "Remembers what helps, in view",
+   "cost": "Needs honest deletion",
+   "makes_easier": "A study companion that remembers what helps, without a prompt after every answer.",
+   "costs": "Needs an honest memory page, real deletion and a line around personal things.",
+   "ask_your_team": "Would the person be comfortable if a friend read the memory page aloud?",
+   "still": "https://missional.design/assets/stills/try-knows-memory.jpg"
+  },
+  {
+   "key": "profile",
+   "name": "A profile it builds",
+   "provenance": "Leave it out",
+   "origin": "A composite of personalisation patterns: interests, life events and “stage” inferred from activity, used for plans, offers and advertising partners. HelloBible’s store listing shows identifiers linked to the user for personalisation; see the screenshots below.",
+   "gain": "Uncannily personal",
+   "cost": "Confidences become categories",
+   "makes_easier": "Recommendations that feel uncannily personal.",
+   "costs": "Confidences become categories, offers and data shared with others.",
+   "ask_your_team": "Did the person ever agree to be described this way, and could they see it?",
+   "still": "https://missional.design/assets/stills/try-knows-profile.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "People tell assistants more than they mean to",
+   "text": "In interviews about real ChatGPT conversations, users kept trading privacy for usefulness, misunderstood what was kept, and disclosed more when the system felt human. In a faith app the disclosures are prayers, confessions and other people’s stories. Assume people will say more than they intend, and show them what is kept."
+  },
+  {
+   "heading": "Context works best when it is visible",
+   "text": "A passage chip beside the question makes answers specific and lets the person remove it. A note, a journal entry or a file should be added only on request, and named in the answer (“Using: Mark 4:35–41 and your note”). Hidden context is the source of most surprises."
+  },
+  {
+   "heading": "Attachments are material, not instructions",
+   "text": "Security guidance warns that text inside files and web pages can redirect a model or leak data. Read what someone attaches; never obey it, and say so where people attach things."
+  },
+  {
+   "heading": "Memory needs a switch, exact words and a way back",
+   "text": "General assistants now let people see, delete and switch off memory, and steer away from remembering health details unless asked. Asking after every answer is tiring; a single switch, with each saved item shown in the chat with Edit and Delete, keeps memory visible without friction. Draw a line around personal things: a loss, a diagnosis or a doubt is kept only when the person asks. And keep a memory page a person could show a friend."
+  },
+  {
+   "heading": "Inferred profiles break the context of a confidence",
+   "text": "Contextual integrity asks whether information flows as the context it was shared in would expect. A worry told to an assistant at night does not expect to become “Life events: job loss” in a marketing profile. Faith, health and sexual life are special-category data in Europe, and so are reliable inferences about them."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "A quick question about a verse",
+   "needs": "An answer, nothing kept",
+   "fit": {
+    "Nothing kept": "good fit",
+    "Context you add": "good fit",
+    "This conversation": "possible",
+    "Memory you can see": "possible",
+    "A profile it builds": "poor fit"
+   }
+  },
+  {
+   "situation": "Preparing a talk or study",
+   "needs": "The passage and my notes",
+   "fit": {
+    "Nothing kept": "poor fit",
+    "Context you add": "good fit",
+    "This conversation": "good fit",
+    "Memory you can see": "possible",
+    "A profile it builds": "poor fit"
+   }
+  },
+  {
+   "situation": "Reading through a book for weeks",
+   "needs": "Picking up where I left off",
+   "fit": {
+    "Nothing kept": "poor fit",
+    "Context you add": "possible",
+    "This conversation": "good fit",
+    "Memory you can see": "good fit",
+    "A profile it builds": "poor fit"
+   }
+  },
+  {
+   "situation": "Grief, illness or a hard night",
+   "needs": "Kindness without a record",
+   "fit": {
+    "Nothing kept": "good fit",
+    "Context you add": "possible",
+    "This conversation": "possible",
+    "Memory you can see": "poor fit",
+    "A profile it builds": "poor fit"
+   }
+  },
+  {
+   "situation": "A shared or family phone",
+   "needs": "Nothing others could find",
+   "fit": {
+    "Nothing kept": "good fit",
+    "Context you add": "good fit",
+    "This conversation": "poor fit",
+    "Memory you can see": "poor fit",
+    "A profile it builds": "poor fit"
+   }
+  },
+  {
+   "situation": "Teenagers",
+   "needs": "No profile, clear limits",
+   "fit": {
+    "Nothing kept": "good fit",
+    "Context you add": "good fit",
+    "This conversation": "possible",
+    "Memory you can see": "poor fit",
+    "A profile it builds": "poor fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "Knowing, keeping and forgetting",
+   "findings": [
+    {
+     "heading": "Known by God",
+     "text": "“O LORD, You have searched me and known me” (Psalm 139:1). Augustine: there is something in a person their own spirit does not know, but God knows them wholly.",
+     "sources": [
+      "augustine-confessions-x"
+     ]
+    },
+    {
+     "heading": "Confidences kept",
+     "text": "“A trustworthy person keeps a confidence” (Proverbs 11:13); the seal of confession is “inviolable”.",
+     "sources": [
+      "canon-983"
+     ]
+    },
+    {
+     "heading": "Remembering rightly",
+     "text": "“I will forgive their iniquities and will remember their sins no more” (Hebrews 8:12); Volf on non-remembrance as the end of right memory.",
+     "sources": [
+      "volf-memory"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "How people disclose",
+   "subtitle": "Mental models and trust",
+   "findings": [
+    {
+     "heading": "Disclosure and misunderstanding",
+     "text": "Users trade privacy for usefulness and misjudge what is kept; human-like chat invites more disclosure.",
+     "sources": [
+      "fair-game"
+     ]
+    },
+    {
+     "heading": "Remember, but show why",
+     "text": "Human–AI guidelines: remember recent interactions, learn from behaviour cautiously, explain why, and give global controls.",
+     "sources": [
+      "hax-guidelines"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Privacy and security",
+   "subtitle": "Flows, categories and attachments",
+   "findings": [
+    {
+     "heading": "Contextual integrity",
+     "text": "Information should flow according to the norms of the context it was shared in.",
+     "sources": [
+      "contextual-integrity"
+     ]
+    },
+    {
+     "heading": "Special-category data",
+     "text": "Religious belief and health need explicit consent; inferences count too.",
+     "sources": [
+      "gdpr",
+      "ico-special-inferences"
+     ]
+    },
+    {
+     "heading": "Prayer apps have shared data",
+     "text": "Mozilla’s 2022 review of mental health and prayer apps.",
+     "sources": [
+      "mozilla-prayer-apps"
+     ]
+    },
+    {
+     "heading": "Hidden instructions",
+     "text": "Indirect prompt injection through files and pages.",
+     "sources": [
+      "owasp-injection"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "In products today",
+   "subtitle": "What is being built",
+   "findings": [
+    {
+     "heading": "Memory with controls",
+     "text": "ChatGPT memory: view, delete, switch off; steer away from health details unless asked.",
+     "sources": [
+      "openai-memory"
+     ]
+    },
+    {
+     "heading": "Personalisation in faith apps",
+     "text": "HelloBible links identifiers to users for personalisation and asks separately to use faith data with a partner AI.",
+     "sources": [
+      "hellobible-store"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "Your assistant answers quick questions",
+   "start_with": "Nothing kept, or a conversation the person can delete"
+  },
+  {
+   "if": "People study with the assistant",
+   "start_with": "Visible context chips: the passage by default, notes only when added"
+  },
+  {
+   "if": "People return for weeks",
+   "start_with": "Memory switched on once, each item shown as it is saved, with a memory page"
+  },
+  {
+   "if": "Conversations may be personal",
+   "start_with": "Personal things kept only when the person asks, and storage on the phone by default"
+  },
+  {
+   "if": "You are tempted to personalise from chats",
+   "start_with": "Don’t: no inferred profiles, no offers drawn from confidences"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What being known is for",
+   "text": "“O LORD, You have searched me and known me … You understand my thoughts from afar” (Psalm 139:1–2). To be fully known is safe only with God, who knows in love; Paul longs for the day “then I shall know fully, even as I am fully known” (1 Corinthians 13:12). Among people, knowledge of another is given in trust and grows in relationship."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Catholic and Orthodox churches guard confession with a seal that may never be broken; Protestant traditions practise confession to one another (James 5:16) in small groups and pastoral care, with confidentiality as a matter of faithfulness rather than law. Traditions differ on how much of one’s spiritual life should be shared at all, from accountability groups to the counsel to pray to the Father “who is unseen” (Matthew 6:6). All agree that confidences are entrusted, not owned."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "“A gossip reveals a secret, but a trustworthy person keeps a confidence” (Proverbs 11:13). An assistant cannot keep a seal, so it should hold as little as it can: what the person shows it, for as long as they choose, in words they have seen. God’s promise to “remember their sins no more” (Hebrews 8:12) suggests that forgetting can be a mercy, and deletion a feature to be proud of."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Augustine, Confessions X.5 and X.8",
+   "url": "https://www.newadvent.org/fathers/110110.htm",
+   "note": "confessed that “there is something of man which the spirit of man which is in him itself knows not”, but God knows him wholly: no record of conversations amounts to knowing a person."
+  },
+  {
+   "source": "Miroslav Volf, The End of Memory (2006)",
+   "url": "https://www.thegospelcoalition.org/themelios/review/the-end-of-memory-remembering-rightly-in-a-violent-world/",
+   "note": "argues that remembering rightly ends, after justice and reconciliation, in a kind of non-remembrance; an assistant should be able to forget."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Remember everything, infer life events and faith stage from chats, and use confidences for offers and partners.",
+  "ethical": "Show what is used and kept, ask before remembering, exclude sensitive categories, and let people delete everything.",
+  "redemptive": "Keep conversations on the phone and forget by default, and give up the personalisation and data that a profile would earn.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "Could the person list everything the assistant knows about them, and would they be comfortable if a friend read it?",
+  "exercise": "Have three people use your assistant for a week, including one personal conversation. Then ask each to write down what they think it knows about them, and compare that list with your storage, logs, analytics and any derived data. Every difference is a design task.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [
+  {
+   "slug": "intent-controls",
+   "title": "Intent controls support the prompt",
+   "summary": "Help people express scope through selections and task choices.",
+   "url": "https://missional.design/patterns/ai-memory/#family-intent-controls"
+  },
+  {
+   "slug": "chat-attachments",
+   "title": "Show what the chat will use before sending",
+   "summary": "A passage, file, image or link becomes visible, removable context.",
+   "url": "https://missional.design/patterns/ai-memory/#family-chat-attachments"
+  },
+  {
+   "slug": "sensitive-memory",
+   "title": "Sensitive memory by permission",
+   "summary": "Make persistent memory specific, inspectable and reversible.",
+   "url": "https://missional.design/patterns/ai-memory/#family-sensitive-memory"
+  }
+ ],
+ "examples": [
+  {
+   "app": "HelloBible",
+   "title": "A profile of series, time in the app and conversations",
+   "url": "https://missional.design/examples/hellobible-profile-stats/",
+   "observed": "Captured 8 October 2026 · from embedded image metadata",
+   "observation": "The profile shows a week strip under “Series” with days 5 to 8 marked, then six tiles: Current series 1 day, Daily verses 0, Record series 1 day, Time in the app 5 min, Conversations 32, Time Today 0 min. Settings follow; none of them lists or edits the answers given during onboarding.",
+   "decision": "Counting time in the app and conversations measures the product’s engagement, not the person’s life with God. If onboarding answers personalise the app, let people see and change them here.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "HelloBible",
+   "title": "A separate consent for using faith data with a partner AI",
+   "url": "https://missional.design/examples/hellobible-faith-consent/",
+   "observed": "Captured 8 October 2026 · from embedded image metadata",
+   "observation": "Before an account is created, “We protect your privacy!” shows two unticked boxes: accepting the Terms of Use and Privacy Policy, and agreeing “that HelloBible may use what I share about my faith to personalize my answers, generated by a partner AI.” Below: “Your conversations stay private. They are never sold or used for advertising, and you can delete them at any time.”",
+   "decision": "A separate, unticked consent for faith data matches GDPR’s explicit consent for religious belief. Name the AI partner and where data is processed, and check that the app still works for someone who declines the second box.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "contextual-integrity",
+   "title": "Privacy as contextual integrity",
+   "url": "https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/",
+   "author": "Helen Nissenbaum · Washington Law Review 79(1), 2004",
+   "kind": "Research",
+   "shows": "Proposes contextual integrity as a benchmark that ties adequate privacy protection “to norms of specific contexts”: what is appropriate depends on the context in which information was shared and where it flows.",
+   "application": "A prayer or confession told to an assistant for one purpose should not flow into recommendations, marketing or another conversation.",
+   "limits": "A legal and philosophical framework, not a design study."
+  },
+  {
+   "key": "fair-game",
+   "title": "“It’s a fair game”, or is it? Examining how users navigate disclosure risks and benefits when using LLM-based conversational agents",
+   "url": "https://doi.org/10.1145/3613904.3642385",
+   "author": "Zhiping Zhang et al. · CHI 2024",
+   "kind": "Research",
+   "shows": "Analysed sensitive disclosures in real ChatGPT conversations and interviewed 19 users: users constantly trade privacy against usefulness; “erroneous mental models and the dark patterns in system design limited their awareness and comprehension”; human-like interaction encouraged more sensitive disclosure.",
+   "application": "People will tell an assistant more than they intend and misjudge what is kept; show it to them.",
+   "limits": "General chatbot use; small interview sample."
+  },
+  {
+   "key": "openai-memory",
+   "title": "Memory and new controls for ChatGPT",
+   "url": "https://openai.com/index/memory-and-new-controls-for-chatgpt/",
+   "author": "OpenAI · 13 February 2024, updated 2025",
+   "kind": "Practice",
+   "shows": "Introduced memory that people can ask to remember or forget, view and switch off, and Temporary Chat without memory; said it would “steer ChatGPT away from proactively remembering sensitive information, like your health details—unless you explicitly ask it to.” Later updates let people switch off reference to saved memories and to chat history separately.",
+   "application": "The largest chat product treats memory as something to see, delete and switch off, and holds back sensitive categories; a faith app should do no less.",
+   "limits": "A company’s description of its own product; behaviour was not tested here."
+  },
+  {
+   "key": "gyroscope-coach",
+   "title": "Gyroscope: AI coach check-ins and the “About You” consultation",
+   "url": "https://gyrosco.pe/",
+   "author": "Gyroscope · iOS app 11.1, observed 8 October 2026",
+   "kind": "Practice",
+   "shows": "Each check-in starts with a switch between “Quick chat” and “Save to history”. What the coach knows is kept as a written profile, “About You”, from an onboarding interview: summary, daily rhythm, food and stress, and a section titled “Internal notes” that the member can read. Corrections go through “Discuss with your coach” prompts rather than item-by-item editing. Asked in chat, the coach recited remembered goals, routines and a health condition, but could not say which screen lists them. The profile also noted church attendance, gathered by a fitness app.",
+   "application": "A per-conversation “keep or don’t keep” switch is simple and clear, and showing even the internal notes is honest. But a prose profile can’t be edited line by line, and a health coach noting church attendance shows how faith details drift into profiles that were never about faith.",
+   "limits": "One app, one account; behaviour may differ for other members and versions."
+  },
+  {
+   "key": "hax-guidelines",
+   "title": "Guidelines for Human-AI Interaction",
+   "url": "https://www.microsoft.com/en-us/haxtoolkit/ai-guidelines/",
+   "author": "Microsoft HAX Toolkit",
+   "kind": "Industry guidance",
+   "shows": "Addresses capability and performance expectations, explanations, correction and change over time.",
+   "application": "State actual capability and keep AI identity understandable throughout an interaction.",
+   "limits": "General guidelines; disclosure alone does not establish accuracy, safety or spiritual benefit."
+  },
+  {
+   "key": "owasp-injection",
+   "title": "LLM01:2025 Prompt Injection",
+   "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+   "author": "OWASP GenAI Security Project · 2025",
+   "kind": "Practice",
+   "shows": "“Indirect prompt injections occur when an LLM accepts input from external sources, such as websites or files”; hidden text can change the model’s behaviour or leak data.",
+   "application": "Treat attached notes, pages and files as material to read, never as instructions, and say so.",
+   "limits": "A security catalogue, not a user study."
+  },
+  {
+   "key": "gdpr",
+   "title": "Process personal data lawfully",
+   "url": "https://www.edpb.europa.eu/sme/be-compliant/process-personal-data-lawfully_en",
+   "author": "European Data Protection Board",
+   "kind": "EU legal guidance",
+   "shows": "Special-category processing needs an appropriate Article 9 exception in addition to an Article 6 basis.",
+   "application": "Separate conversation processing, durable memory, training and sharing purposes.",
+   "limits": "Specific lawful basis, retention and DPIA decisions require the actual data flows."
+  },
+  {
+   "key": "ico-special-inferences",
+   "title": "What is special category data?",
+   "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/",
+   "author": "UK Information Commissioner’s Office",
+   "kind": "Regulator guidance · UK",
+   "shows": "Religious and health information, including specified intentional inferences, receive special treatment.",
+   "application": "Review chat, activity histories and inferred segments.",
+   "limits": "Context and processing intent matter; not every Bible-page visit automatically establishes a belief."
+  },
+  {
+   "key": "mozilla-prayer-apps",
+   "title": "Top mental health and prayer apps fail spectacularly at privacy, security",
+   "url": "https://www.mozillafoundation.org/en/blog/top-mental-health-and-prayer-apps-fail-spectacularly-at-privacy-security/",
+   "author": "Mozilla Foundation · *Privacy Not Included, 2 May 2022",
+   "kind": "Practice",
+   "shows": "28 of 32 mental health and prayer apps received the *Privacy Not Included warning; Pray.com was among the worst for sharing personal information with third parties.",
+   "application": "Prayer data is intimate; keep requests on the device by default and share nothing with advertisers.",
+   "limits": "A 2022 review; apps’ practices may have changed since."
+  },
+  {
+   "key": "hellobible-store",
+   "title": "HelloBible: interactive Bible (App Store listing)",
+   "url": "https://apps.apple.com/app/id6502768944",
+   "author": "HelloBox · Apple App Store",
+   "kind": "Practice",
+   "shows": "Describes an experience “tailored to your reality and pace” for students, young adults, parents, people in doubt, Catholics, Protestants, Evangelicals and people without religious affiliation; the privacy label lists contact information and identifiers linked to the user for analytics and personalisation.",
+   "application": "Personalisation by life situation and church is common; say what each answer changes and what is linked to the person.",
+   "limits": "A store listing; the onboarding itself was not tested here."
+  },
+  {
+   "key": "canon-983",
+   "title": "Code of Canon Law, canons 959–997: the sacrament of penance",
+   "url": "https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib4-cann959-997_en.html",
+   "author": "Holy See · Code of Canon Law (1983)",
+   "kind": "Theology",
+   "shows": "Canon 983 §1: “The sacramental seal is inviolable”; a confessor may not betray a penitent “in words or in any manner and for any reason.”",
+   "application": "The church’s strongest form of confidentiality; an assistant is not a confessor, which is why it should keep confidences it cannot protect as little as possible.",
+   "limits": "Catholic canon law; other traditions practise confidentiality differently."
+  },
+  {
+   "key": "augustine-confessions-x",
+   "title": "Confessions, Book X",
+   "url": "https://www.newadvent.org/fathers/110110.htm",
+   "author": "Augustine of Hippo · c. 400 · New Advent translation",
+   "kind": "Theology",
+   "shows": "“There is something of man which the spirit of man which is in him itself knows not. But You, Lord, who hast made him, know him wholly” (X.5); “Great is this power of memory, exceeding great, O my God” (X.8).",
+   "application": "Only God knows a person wholly; a record of conversations is not knowledge of a person.",
+   "limits": "A classical theological reflection on memory and self-knowledge."
+  },
+  {
+   "key": "volf-memory",
+   "title": "The End of Memory: Remembering Rightly in a Violent World (review)",
+   "url": "https://www.thegospelcoalition.org/themelios/review/the-end-of-memory-remembering-rightly-in-a-violent-world/",
+   "author": "Miroslav Volf · Eerdmans, 2006 · Themelios review",
+   "kind": "Theology",
+   "shows": "Argues that memory of wrongs must be truthful and that its proper end, after justice and reconciliation, is a kind of non-remembrance, drawing on God’s promise not to remember sins.",
+   "application": "Remembering rightly includes letting go; an assistant should be able to forget, and let people make it forget.",
+   "limits": "Read through reviews; no quotation from the book used."
+  },
+  {
+   "key": "playground-memory",
+   "title": "Memory Scope Toggle",
+   "url": "https://aiuxplayground.com/pattern/memory-scope-toggle/",
+   "author": "AI UX Playground",
+   "kind": "Design reference",
+   "shows": "Gives memory persistence an explicit scope.",
+   "application": "Reviewable optional memory with clear purpose.",
+   "limits": "A faith app still needs data governance and lawful processing."
+  },
+  {
+   "key": "intent",
+   "title": "How can AI UI capture intent",
+   "url": "https://uxdesign.cc/how-can-ai-ui-capture-intent-d7a6d0393ded",
+   "author": "Sharang Sharma",
+   "kind": "Curated AI design reference",
+   "shows": "Explores contextual controls for search, uploaded material and content creation.",
+   "application": "Adapt editable passage context, source scope and concrete task choices.",
+   "limits": "Avoid turning contextual assistance into hidden inference about belief, health or emotional state."
+  },
+  {
+   "key": "shape",
+   "title": "The Shape of AI",
+   "url": "https://www.shapeof.ai/",
+   "author": "Emily Campbell",
+   "kind": "Curated AI design reference",
+   "shows": "Connects wayfinding, contextual inputs, human oversight and trust cues.",
+   "application": "Adapt citations, memory control, disclosure and contextual actions to Scripture and personal practice.",
+   "limits": "The site states CC BY NC SA. This reference uses original text and original wireframes; it does not reproduce the source illustrations."
+  }
+ ],
+ "review": null,
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

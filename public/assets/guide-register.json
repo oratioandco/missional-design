@@ -1,0 +1,168 @@
+[
+  {
+    "slug": "reading",
+    "title": "Context around the passage",
+    "summary": "How much context does a reader need around the passage? Choosing the reading unit, landing in the right place, and keeping Scripture, notes and explanations distinct.",
+    "question": "What does this person need to understand or find?",
+    "time": "5-minute route",
+    "patterns": [
+      "passage-focused-reading",
+      "verse-entry",
+      "reading-settings",
+      "footnotes",
+      "parallel-reading-layout"
+    ],
+    "sources": [
+      "dyer-reading",
+      "lifeway-reading-2024"
+    ]
+  },
+  {
+    "slug": "listening",
+    "title": "Listening",
+    "summary": "Can the practice continue when the screen goes dark? Screen-off listening, read-along, chosen silence and an ending that lets the phone disappear.",
+    "question": "Can the practice continue when the screen is off?",
+    "time": "5-minute route",
+    "patterns": [
+      "audio-first",
+      "read-along",
+      "contemplative-pause",
+      "silence-and-ending"
+    ],
+    "sources": [
+      "kairos-draft"
+    ]
+  },
+  {
+    "slug": "ai-trust",
+    "title": "Trust in AI answers",
+    "summary": "What authority does a fluent answer seem to have? Giving AI a bounded job, showing what it did, letting people check its sources, and keeping care in human hands.",
+    "question": "What authority might a fluent answer appear to have?",
+    "time": "5-minute route",
+    "patterns": [
+      "ai-involvement-disclosure",
+      "ai-citations",
+      "honest-support",
+      "generated-practice"
+    ],
+    "sources": [
+      "kairos-draft"
+    ]
+  },
+  {
+    "slug": "attention",
+    "title": "Attention and time",
+    "summary": "What would “enough for now” look like? Reminders, emails, feeds and endings: asking for attention across every channel without taking more than was offered.",
+    "question": "What would “enough for now” look like?",
+    "time": "8-minute guide",
+    "patterns": [
+      "flexible-rhythm",
+      "audio-first",
+      "return-without-shame"
+    ],
+    "sources": [
+      "kairos-draft",
+      "nng-infinite",
+      "apple-subscription-design",
+      "ico-mail-2026",
+      "ico-mail-tracking"
+    ]
+  },
+  {
+    "slug": "sustainable-access",
+    "title": "Pricing and access",
+    "summary": "Who pays for a faith app, and for what? What a Bible or faith app really costs, how ministries and businesses pay for it, and where the money can strain trust.",
+    "question": "What is being paid for, by whom, and what happens when the money stops?",
+    "time": "8-minute guide",
+    "patterns": [
+      "confirm-actions",
+      "visible-work",
+      "safe-support-access",
+      "reading-artifacts"
+    ],
+    "sources": [
+      "apple-subscription-design",
+      "ftc-dark-patterns",
+      "kairos-draft"
+    ]
+  },
+  {
+    "slug": "analytics",
+    "title": "Analytics",
+    "summary": "What is the least you need to know? Choosing metrics and research methods that answer product questions while protecting chats, prayers and reading histories.",
+    "question": "What is the least sensitive evidence that could answer the question?",
+    "time": "8-minute guide",
+    "patterns": [
+      "sensitive-memory",
+      "private-sharing",
+      "voice-and-recording",
+      "progress-and-streaks"
+    ],
+    "sources": [
+      "ico-special-inferences",
+      "cnil-replay-draft",
+      "ico-mail-tracking",
+      "kairos-draft"
+    ]
+  },
+  {
+    "slug": "community",
+    "title": "Community and visibility",
+    "summary": "Who can see this, respond to it, and hold authority? Choosing the audience, accountability and moderation for shared plans, prayer requests, discussion and mentoring before adding a feed.",
+    "question": "Who can see this, respond to it and exercise authority?",
+    "time": "5-minute starting framework",
+    "patterns": [
+      "shared-practice",
+      "private-sharing",
+      "human-connections",
+      "safeguarding-handoff"
+    ],
+    "sources": [
+      "kairos-draft",
+      "youversion-plan-privacy",
+      "esafety-design"
+    ]
+  },
+  {
+    "slug": "passage-navigation",
+    "title": "Finding passages",
+    "summary": "How does someone find the passage they are looking for? Reader controls, browsing, typed references, combined search fields and book order, as one journey into Scripture.",
+    "question": "What does this person know already—and where should this action take them?",
+    "time": "7-minute guide",
+    "patterns": [
+      "finding-a-passage",
+      "book-chapter-layouts",
+      "translation-picker",
+      "smart-passage-search",
+      "verse-entry",
+      "chapter-navigation"
+    ],
+    "sources": [
+      "mere-current",
+      "mere-captures",
+      "vsb-picker-review",
+      "neubible-navigation",
+      "dwell-picker-release",
+      "usfm-book-identifiers"
+    ]
+  },
+  {
+    "slug": "ai-presence",
+    "title": "How AI comes across",
+    "summary": "What kind of presence does the interface suggest is here? Names, avatars, typing dots, memory and disclosure in AI chat: warmth without mistaken identity.",
+    "question": "What kind of presence does this interface lead someone to believe is here?",
+    "time": "7-minute guide",
+    "patterns": [
+      "ai-social-presence",
+      "chat-disclosure",
+      "ai-involvement-disclosure",
+      "ai-citations"
+    ],
+    "sources": [
+      "pair-human-cues",
+      "nist-human-config",
+      "hax-guidelines",
+      "ico-layered-chat"
+    ]
+  }
+]

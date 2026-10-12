@@ -1,0 +1,487 @@
+{
+ "slug": "translations",
+ "url": "https://missional.design/patterns/translations/",
+ "title": "Translations",
+ "question": "One at a time, side by side or verse by verse?",
+ "lede": "In John 1:5 the KJV says the darkness “comprehended it not”; most recent translations say it “has not overcome it”. Both are faithful to one Greek word. Apps decide whether readers ever see that, how they choose a translation, and whether they stay on the same verse while they compare. Bringing God’s word into people’s own language is one of the church’s oldest callings; an interface can honour the translators’ care or hide it.",
+ "calling": "Behind every translation are people who gave years so others could hear God in their own language. Let readers see that care.",
+ "spectrum": {
+  "title": "From one translation to the Greek",
+  "from": "One translation at a time",
+  "to": "Closer to the original"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/translations/",
+  "situation": "John 1:5 in the KJV says the darkness “comprehended it not”; most recent translations say it “has not overcome it”. Each option shows John 1:1–5 in public-domain translations, from one translation chosen well to the Greek with a gloss under every word. Find out why verse 5 differs."
+ },
+ "options": [
+  {
+   "key": "one",
+   "name": "One translation",
+   "provenance": "Observed",
+   "origin": "Observed in Hallow (suggested Bibles with notes on each) and Mere Bible (a sheet of full names); see the screenshots below. The scale of approaches is our addition.",
+   "gain": "One clear text, chosen well",
+   "cost": "The alternatives stay hidden",
+   "makes_easier": "One clear text, chosen with enough context to choose well; nothing to compare or reconcile.",
+   "costs": "Readers never see that verse 5 can be read two ways.",
+   "ask_your_team": "What does a reader need to know to choose a translation, and when?",
+   "still": "https://missional.design/assets/stills/try-translations-one.jpg"
+  },
+  {
+   "key": "switch",
+   "name": "Switch in place",
+   "provenance": "Familiar convention",
+   "origin": "A familiar convention in most Bible apps: a translation switch above the text. Keeping the selected verse in place follows the earlier “change translation without losing the passage” pattern.",
+   "gain": "Check a verse without leaving",
+   "cost": "One wording at a time",
+   "makes_easier": "Quick to check one verse in another wording without leaving the reading.",
+   "costs": "Only one wording is visible at a time; readers must remember the other.",
+   "ask_your_team": "When someone switches, which verse is the anchor: the one they selected, or the one at the top?",
+   "still": "https://missional.design/assets/stills/try-translations-switch.jpg"
+  },
+  {
+   "key": "verse",
+   "name": "Verse by verse",
+   "provenance": "Observed",
+   "origin": "Observed in Lumen Bible, which groups translations under each verse (see the screenshot below).",
+   "gain": "Differences at a glance",
+   "cost": "Reading becomes comparing",
+   "makes_easier": "Both wordings side by side, verse by verse; differences are easy to spot.",
+   "costs": "Breaks the flow of the passage; reading becomes comparing.",
+   "ask_your_team": "Is the reader comparing wording, or trying to follow the passage?",
+   "still": "https://missional.design/assets/stills/try-translations-verse.jpg"
+  },
+  {
+   "key": "parallel",
+   "name": "Parallel panes",
+   "provenance": "Observed",
+   "origin": "Observed in YouVersion’s web parallel view and Olive Tree’s split screen (an ASV pane synced under a German text); see the screenshots below. On a phone, panes stack so lines stay readable.",
+   "gain": "Two continuous texts",
+   "cost": "Half a screen each",
+   "makes_easier": "Each translation reads as continuous text; linked panes keep them on the same verse.",
+   "costs": "Half the screen for each; panes drift apart unless linked by verse, not by pixels.",
+   "ask_your_team": "Do the panes follow each other, and how does a reader get them back together?",
+   "still": "https://missional.design/assets/stills/try-translations-parallel.jpg"
+  },
+  {
+   "key": "interlinear",
+   "name": "Interlinear",
+   "provenance": "Familiar convention",
+   "origin": "A familiar convention in study tools such as Bible Hub, STEP Bible and Logos. The Greek here is Scrivener’s Textus Receptus; the glosses are our own.",
+   "gain": "Shows why they differ",
+   "cost": "Glosses pose as meaning",
+   "makes_easier": "Shows why translations differ: one Greek word, κατέλαβεν, can mean grasp or overcome.",
+   "costs": "Glosses look like a translation and invite word-by-word meanings that the language does not support.",
+   "ask_your_team": "Who is this for, and what stops a gloss from being read as the meaning?",
+   "still": "https://missional.design/assets/stills/try-translations-interlinear.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Comparing translations is an old discipline",
+   "text": "The 1611 KJV translators, quoting Augustine, held that variety of translations helps find the sense of Scripture, and printed alternatives in the margin. Lamin Sanneh argued that translatability is at the heart of Christian mission. Showing that translations differ is not a threat to trust."
+  },
+  {
+   "heading": "Choosing needs more than abbreviations",
+   "text": "Readers choose between approaches without knowing it: Nida’s formal and dynamic equivalence still describe the range. Show full name, date and approach when people choose, as Hallow does with short notes. The full Bible exists in 776 languages, so pickers must handle many languages and partial Bibles."
+  },
+  {
+   "heading": "Keep the verse, not the scroll position",
+   "text": "Different wording changes text height, so switching or scrolling by pixels lands on a different verse. Anchor on the selected or visible verse; in parallel panes, link by verse and offer a way to realign, as Olive Tree’s linked split screen does."
+  },
+  {
+   "heading": "Two columns on a phone are too narrow",
+   "text": "Very short lines are read more slowly. On a phone, stack panes so each keeps a readable line, and group translations under each verse when the task is comparing wording."
+  },
+  {
+   "heading": "A gloss is not the meaning",
+   "text": "Barr and Carson warn against reading meaning from a single gloss or a word’s root. Label interlinear rows, call glosses word aids, and show how translations actually render a word, as κατέλαβεν shows in John 1:5."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "Choosing a first Bible",
+   "needs": "Understand the options",
+   "fit": {
+    "One translation": "good fit",
+    "Switch in place": "possible",
+    "Verse by verse": "poor fit",
+    "Parallel panes": "poor fit",
+    "Interlinear": "poor fit"
+   }
+  },
+  {
+   "situation": "Checking one verse",
+   "needs": "Another wording, quickly",
+   "fit": {
+    "One translation": "poor fit",
+    "Switch in place": "good fit",
+    "Verse by verse": "good fit",
+    "Parallel panes": "possible",
+    "Interlinear": "poor fit"
+   }
+  },
+  {
+   "situation": "Small group comparing wordings",
+   "needs": "Differences side by side",
+   "fit": {
+    "One translation": "poor fit",
+    "Switch in place": "possible",
+    "Verse by verse": "good fit",
+    "Parallel panes": "possible",
+    "Interlinear": "poor fit"
+   }
+  },
+  {
+   "situation": "Reading two translations through",
+   "needs": "Continuous text in each",
+   "fit": {
+    "One translation": "poor fit",
+    "Switch in place": "possible",
+    "Verse by verse": "poor fit",
+    "Parallel panes": "good fit",
+    "Interlinear": "poor fit"
+   }
+  },
+  {
+   "situation": "Preparing to teach or preach",
+   "needs": "Why translations differ",
+   "fit": {
+    "One translation": "poor fit",
+    "Switch in place": "possible",
+    "Verse by verse": "good fit",
+    "Parallel panes": "possible",
+    "Interlinear": "good fit"
+   }
+  },
+  {
+   "situation": "Learning Greek or Hebrew",
+   "needs": "Source words and grammar",
+   "fit": {
+    "One translation": "poor fit",
+    "Switch in place": "poor fit",
+    "Verse by verse": "possible",
+    "Parallel panes": "possible",
+    "Interlinear": "good fit"
+   }
+  },
+  {
+   "situation": "Reading with large text",
+   "needs": "Readable line length",
+   "fit": {
+    "One translation": "good fit",
+    "Switch in place": "good fit",
+    "Verse by verse": "good fit",
+    "Parallel panes": "possible",
+    "Interlinear": "possible"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and history",
+   "subtitle": "Read in translation from the start",
+   "findings": [
+    {
+     "heading": "Translation is the Christian norm",
+     "text": "Pentecost was heard in every hearer’s own language (Acts 2:6); the KJV preface defends variety of translations; Sanneh calls translatability intrinsic to mission.",
+     "sources": [
+      "kjv-preface",
+      "sanneh"
+     ]
+    },
+    {
+     "heading": "How translations are made",
+     "text": "Formal and dynamic equivalence describe a range most translations sit within.",
+     "sources": [
+      "nida"
+     ]
+    },
+    {
+     "heading": "Many languages, partial Bibles",
+     "text": "The full Bible in 776 languages, the New Testament in 1,798 more.",
+     "sources": [
+      "wycliffe-2025"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Reading and comparing",
+   "subtitle": "What the research says",
+   "findings": [
+    {
+     "heading": "Comparing is demanding",
+     "text": "Building one understanding from several texts is a distinct skill; help readers connect them.",
+     "sources": [
+      "multiple-texts"
+     ]
+    },
+    {
+     "heading": "Line length",
+     "text": "Very short lines slow reading; avoid narrow columns on phones.",
+     "sources": [
+      "dyson-kipping"
+     ]
+    },
+    {
+     "heading": "Words mean in context",
+     "text": "Root and gloss fallacies: meaning comes from usage, not etymology.",
+     "sources": [
+      "barr-carson"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Licensing and access",
+   "subtitle": "Best practice",
+   "findings": [
+    {
+     "heading": "Licences limit comparison",
+     "text": "The BSB is public domain; the ESV allows up to 500 verses without a licence.",
+     "sources": [
+      "bsb-pd",
+      "esv-permissions"
+     ]
+    },
+    {
+     "heading": "Language and layout",
+     "text": "Tag Greek and Hebrew with their language; content must reflow at 200%; keep versification mappings.",
+     "sources": [
+      "wcag-language-parts",
+      "wcag-reflow",
+      "usfm"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "Most reading products",
+   "start_with": "One translation, chosen with name, approach and date in view"
+  },
+  {
+   "if": "Readers check a verse in another wording",
+   "start_with": "Switch in place, keeping the selected verse as the anchor"
+  },
+  {
+   "if": "Groups and preachers compare wording",
+   "start_with": "Verse by verse, with differences marked"
+  },
+  {
+   "if": "People read two translations through",
+   "start_with": "Stacked panes linked by verse, with realign"
+  },
+  {
+   "if": "Study and teaching preparation",
+   "start_with": "Interlinear with named rows and word detail; glosses labelled as aids"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What translation is for",
+   "text": "At Pentecost the crowd asked, “How is it then that each of us hears them in his own native language?” (Acts 2:8). The vision of Revelation includes “every nation and tribe and people and tongue” (Revelation 7:9). Christianity has no sacred original language for worship: the New Testament itself quotes the Greek translation of the Hebrew Scriptures. Lamin Sanneh argued that this translatability is part of the gospel’s character."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Churches differ on which translations may be used in worship: Catholic canon law requires that editions of Scripture be approved by the Apostolic See or the bishops’ conference, while most Protestant churches leave the choice to congregations. Some hold to a single historic translation; the Orthodox read the Old Testament from the Septuagint. Translators differ on how closely to follow the form of the original. The 1611 translators defended variety as a help to understanding."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "Comparing translations is an old discipline, not a sign of doubt. Show what kind of translation each is and who approved it, keep the reader on the same verse, and show where translations disagree rather than hiding it. Treat languages that do not pay for themselves as part of the mission, not a market decision."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Martin Luther, Sendbrief vom Dolmetschen (1530)",
+   "url": "https://www.die-bibel.de/luthers-uebersetzungsmethode",
+   "note": "told translators to ask “die Mutter im Hause, die Kinder auf der Gasse, den gemeinen Mann auf dem Markt” and listen to how they speak: translation serves the hearer."
+  },
+  {
+   "source": "Second Vatican Council, Dei Verbum (1965)",
+   "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_en.html",
+   "note": "opens its chapter on Scripture in the life of the church: “Easy access to Sacred Scripture should be provided for all the Christian faithful.”"
+  }
+ ],
+ "three_ways": {
+  "exploitative": "One translation is sold as “the real meaning”; others sit behind a paywall to upsell.",
+  "ethical": "Name each translation and its approach, and keep the verse in place while comparing.",
+  "redemptive": "License heart-language translations that will never pay for themselves, and show readers where translations disagree even when it complicates the product.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "Does the reader know what kind of translation this is, and stay on the same verse while comparing?",
+  "exercise": "Pick a verse your translations disagree on. Ask three people to find out why, using your app. Note where they lose the verse, and whether anyone reads a gloss as the real meaning.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [
+  {
+   "slug": "translation-picker",
+   "title": "Choose a translation with enough context",
+   "summary": "Make language, edition and availability understandable before switching.",
+   "url": "https://missional.design/patterns/translations/#family-translation-picker"
+  },
+  {
+   "slug": "translation-position",
+   "title": "Change translation without losing the passage",
+   "summary": "Preserve a semantic reading anchor rather than a pixel offset.",
+   "url": "https://missional.design/patterns/translations/#family-translation-position"
+  },
+  {
+   "slug": "parallel-reading-layout",
+   "title": "Parallel reading chooses a useful arrangement",
+   "summary": "Compare translations without forcing a desktop layout onto a small screen.",
+   "url": "https://missional.design/patterns/translations/#family-parallel-reading-layout"
+  },
+  {
+   "slug": "parallel-scroll",
+   "title": "Linked scrolling follows passage identity",
+   "summary": "Let parallel panes move together or independently, with an explicit way to rejoin.",
+   "url": "https://missional.design/patterns/translations/#family-parallel-scroll"
+  },
+  {
+   "slug": "verse-by-verse-comparison",
+   "title": "Group editions around a shared verse",
+   "summary": "Use repeated verse groups when matching corresponding passages matters more than continuous reading.",
+   "url": "https://missional.design/patterns/translations/#family-verse-by-verse-comparison"
+  },
+  {
+   "slug": "interlinear-reading",
+   "title": "Interlinear rows expose their alignment",
+   "summary": "Distinguish source-language tokens, glosses and translation wording.",
+   "url": "https://missional.design/patterns/translations/#family-interlinear-reading"
+  }
+ ],
+ "examples": [],
+ "sources": [
+  {
+   "key": "kjv-preface",
+   "title": "The Translators to the Reader (preface to the 1611 King James Version)",
+   "url": "https://www.ccel.org/bible/kjv/preface/pref10.htm",
+   "author": "Miles Smith for the KJV translators, 1611 · Christian Classics Ethereal Library",
+   "kind": "History",
+   "shows": "The translators defended marginal alternatives, quoting Augustine that “variety of Translations is profitable for the finding out of the sense of the Scriptures”.",
+   "application": "Offer comparison as a faithful practice, and show where translators themselves weighed alternatives.",
+   "limits": "A historical preface defending one translation."
+  },
+  {
+   "key": "sanneh",
+   "title": "Translating the Message: The Missionary Impact on Culture",
+   "url": "https://missiodeijournal.com/?p=2488",
+   "author": "Lamin Sanneh · Orbis, 1989 (review)",
+   "kind": "Theology",
+   "shows": "Argues that translatability is intrinsic to Christianity: entering every vernacular gives each language and culture standing to carry the word of God.",
+   "application": "Treat translation and language choice as central, not as a settings detail.",
+   "limits": "A review of a historical and missiological argument."
+  },
+  {
+   "key": "nida",
+   "title": "Toward a Science of Translating: formal and dynamic equivalence",
+   "url": "https://bible-researcher.com/nida1.html",
+   "author": "Eugene Nida, 1964 · excerpt on bible-researcher.com",
+   "kind": "Theory",
+   "shows": "Nida distinguished formal equivalence (attention to the source form) from dynamic equivalence (attention to the receptor’s response); the latter became the most widely used approach in Bible translation after the Second World War.",
+   "application": "Explain a translation’s approach in plain words when people choose.",
+   "limits": "Translation theory; most translations mix both approaches."
+  },
+  {
+   "key": "barr-carson",
+   "title": "Review of D. A. Carson, Exegetical Fallacies",
+   "url": "https://www.wisluthsem.org/review-exegetical-fallacies/",
+   "author": "Wisconsin Lutheran Seminary, reviewing Carson (1984) and James Barr’s The Semantics of Biblical Language (1961)",
+   "kind": "Scholarship",
+   "shows": "Barr and Carson warn against word-study fallacies such as the root fallacy: meaning is set by usage in context, not by a word’s etymology or a single gloss.",
+   "application": "Label interlinear glosses as word aids and show how translations render a word in context.",
+   "limits": "Scholarly argument summarised in a review."
+  },
+  {
+   "key": "wycliffe-2025",
+   "title": "2025 global Scripture access",
+   "url": "https://wycliffe.net/2025/08/25/2025-scripture-access-statistics/",
+   "author": "Wycliffe Global Alliance",
+   "kind": "Practice",
+   "shows": "As of August 2025 the full Bible is available in 776 languages, the New Testament in 1,798 more, and portions in 1,433 more, of 7,396 languages.",
+   "application": "Design translation pickers for many languages and partial Bibles, not only English editions.",
+   "limits": "Organisation’s own statistics."
+  },
+  {
+   "key": "multiple-texts",
+   "title": "Multiple text integration: a review",
+   "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.02294/full",
+   "author": "Liron Primor and Tami Katzir · Frontiers in Psychology, 2018",
+   "kind": "Research",
+   "shows": "Building one coherent understanding from several texts on the same subject is a distinct, demanding skill that draws on both word-level and higher-level processes.",
+   "application": "Comparison is work: help readers connect the texts, for example by marking what differs.",
+   "limits": "Research on expository texts, not translations of one source."
+  },
+  {
+   "key": "dyson-kipping",
+   "title": "The effects of line length and method of movement on patterns of reading from screen",
+   "url": "https://journals.uc.edu/index.php/vl/article/view/5671",
+   "author": "Mary Dyson and Gary Kipping · Visible Language 32(2), 1998",
+   "kind": "Research",
+   "shows": "Very short lines (25 characters) were read more slowly than long lines (100 characters), with comprehension unchanged; readers preferred about 55 characters.",
+   "application": "Side-by-side columns on a phone make very short lines; stack panes instead.",
+   "limits": "Desktop screens and English prose."
+  },
+  {
+   "key": "bsb-pd",
+   "title": "Berean Bible terms and conditions",
+   "url": "https://berean.bible/terms.htm",
+   "author": "Berean Bible",
+   "kind": "Licensing",
+   "shows": "The Berean Standard Bible was dedicated to the public domain on 30 April 2023.",
+   "application": "Public-domain modern translations can be compared, quoted and shared without licence limits.",
+   "limits": "Publisher statement."
+  },
+  {
+   "key": "esv-permissions",
+   "title": "ESV permissions guide",
+   "url": "https://www.crossway.org/support/esv-bible-permissions/",
+   "author": "Crossway",
+   "kind": "Licensing",
+   "shows": "Up to 500 verses may be quoted without a licence, within limits on proportion of a book and of the work, and not in commentaries or reference works.",
+   "application": "Licensed translations need agreements for full-text comparison; show only what you are allowed to.",
+   "limits": "One publisher’s terms; others differ."
+  },
+  {
+   "key": "wcag-language-parts",
+   "title": "Understanding Language of Parts",
+   "url": "https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts.html",
+   "author": "W3C WAI · WCAG 2.2 success criterion 3.1.2",
+   "kind": "Accessibility",
+   "shows": "Passages in a different language need their language identified so assistive technology can pronounce them.",
+   "application": "Tag Greek and Hebrew text with its language, and test right-to-left layout.",
+   "limits": "Accessibility guidance; screen reader support for ancient Greek and Hebrew varies."
+  },
+  {
+   "key": "wcag-reflow",
+   "title": "Understanding Reflow",
+   "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+   "author": "W3C WAI",
+   "kind": "Design reference",
+   "shows": "Content should remain usable as available width changes.",
+   "application": "Reading anchors, passage cards and translation reflow.",
+   "limits": "Semantic scroll restoration is an original design proposal, not a requirement stated by this criterion."
+  },
+  {
+   "key": "usfm",
+   "title": "Scripture structure documentation",
+   "url": "https://docs.usfm.bible/usfm/3.1/index.html",
+   "author": "USFM documentation",
+   "kind": "Design reference",
+   "shows": "Preserves distinctions in Scripture, paragraphs, notes and editorial content.",
+   "application": "Derive user scenarios from content meaning, not marker names.",
+   "limits": "A format is not a complete model of app behaviour, annotations or formation."
+  }
+ ],
+ "review": null,
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

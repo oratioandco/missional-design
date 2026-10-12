@@ -1,0 +1,18 @@
+{
+  "selected_on": "2026-10-12",
+  "rendering_route": "Blender Cycles family",
+  "surface_finish": "A slightly softer reflection",
+  "silicon_roughness_minimum": 0.08,
+  "transmission": 0,
+  "rule_lockup": "Two segments around by",
+  "editorial_serif": "Instrument Serif for larger passages",
+  "body_and_interface": "Mona Sans",
+  "expressive_display": "Roboto Flex",
+  "backgrounds": [
+    "bright white studio",
+    "deep black studio"
+  ],
+  "material_character": "Fractured, uneven silicon facets with fine rocky surface texture",
+  "imagery": "Silicon fragments, layered planes, wafers and open connections; no figurines or literal Bible props",
+  "photography": "Approved Startup Life documentary photographs, natural grade, attributed"
+}

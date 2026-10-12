@@ -1,0 +1,536 @@
+{
+ "slug": "ai-citations",
+ "url": "https://missional.design/patterns/ai-citations/",
+ "title": "Citations in AI answers",
+ "question": "How should an answer show where it came from?",
+ "lede": "Someone asks a Bible-study assistant a question and gets three confident paragraphs. Some sentences rest on a verse; some on a commentator; some on nothing in particular. Whether the reader can tell which, and what the assistant does when it should not answer at all, is a design decision. Readers deserve to examine the Scriptures for themselves, as the Bereans did (Acts 17:11).",
+ "calling": "Help people examine the Scriptures for themselves, and put care before answers when someone is in danger.",
+ "spectrum": {
+  "title": "Four ways to show where an answer came from, side by side",
+  "from": "",
+  "to": ""
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/ai-answer/",
+  "situation": "The same Bible-study assistant answers four questions: one with a clear answer, one Christians disagree about, one it should not decide for the person, and one from someone in danger. Every answer and passage list here was written for this example; Scripture is quoted from the Berean Standard Bible."
+ },
+ "options": [
+  {
+   "key": "chips",
+   "name": "Numbered sources",
+   "provenance": "Observed",
+   "origin": "Observed in BibleAI: numbered markers in a “Predicted Answer”, with source chips underneath; see the screenshots below.",
+   "gain": "Every claim points to a verse",
+   "cost": "Markers look rigorous regardless",
+   "makes_easier": "Each claim points to a specific passage, and the passage opens without leaving the answer.",
+   "costs": "Markers look rigorous whether or not the passage supports the claim, and a list of chips is easy to skip.",
+   "ask_your_team": "Would a reader notice if a marker pointed to the wrong verse?",
+   "still": "https://missional.design/assets/stills/try-citations-chips.jpg"
+  },
+  {
+   "key": "cards",
+   "name": "Passage cards",
+   "provenance": "Observed",
+   "origin": "Observed in BibleAI’s passage sheets and Bible BFF’s answer cards: the passages appear in full below the answer.",
+   "gain": "The actual words are in view",
+   "cost": "Long answers get longer",
+   "makes_easier": "The words of Scripture are on the screen, not just a reference, so readers can judge the answer against them.",
+   "costs": "Long answers grow longer, and the link between a sentence and its passage is looser.",
+   "ask_your_team": "Should people read the passage or the answer first?",
+   "still": "https://missional.design/assets/stills/try-citations-cards.jpg"
+  },
+  {
+   "key": "inline",
+   "name": "Scripture quoted in the answer",
+   "provenance": "Exploratory · untested",
+   "origin": "The treatment in this library’s paper concept: a verse quoted within the answer, with its edition, and the rest one tap away. A proposal, untested.",
+   "gain": "Scripture speaks in its own voice",
+   "cost": "Quietly chooses which verse",
+   "makes_easier": "The key verse is read in its own words, visibly distinct from the generated text around it.",
+   "costs": "Choosing which verse to quote is itself an interpretation, and the other sources are a step away.",
+   "ask_your_team": "Who decides which verse is quoted, and does the reader know?",
+   "still": "https://missional.design/assets/stills/try-citations-inline.jpg"
+  },
+  {
+   "key": "none",
+   "name": "No generated answer",
+   "provenance": "Leave it out",
+   "origin": "Leave the answer out: the app finds matching passages and shows them, with no summary.",
+   "gain": "No generated interpretation",
+   "cost": "No answer, and no care",
+   "makes_easier": "Nothing is put in the Bible’s mouth. Readers meet the text directly and draw their own conclusions.",
+   "costs": "No help connecting passages or explaining disagreement. A plain search can surface texts about divorce to someone who may be unsafe, or Elijah asking to die to someone in crisis, with no word of care and no route to help, unless someone designs that in. This example does: sensitive searches show the same help box above the results.",
+   "ask_your_team": "What would a reader lose without the answer, and what would they be spared?",
+   "still": "https://missional.design/assets/stills/try-citations-none.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Citations show what can be checked, not what is right",
+   "text": "A numbered marker looks rigorous whether or not the verse supports the sentence. Passage cards put the actual words in front of people. A quoted verse lets Scripture speak in its own voice, but quietly chooses which verse that is."
+  },
+  {
+   "heading": "Disagreement shows in the sources",
+   "text": "When Christians differ, as on infant baptism, a good answer names the traditions and gives each its strongest passages. Count the sources on each side: balance is visible, or missing, in the citations."
+  },
+  {
+   "heading": "Danger changes the response; it doesn’t end it",
+   "text": "When someone may not be safe at home, or doesn’t want to be alive, keep responding and put real help first: lines they can call or text now. Ask directly, stay present, and say plainly that this is an AI, not a counsellor. Offer verses later, and only if wanted. Keep help visible for the rest of the conversation, and give someone at risk at home a quick exit."
+  },
+  {
+   "heading": "In a crisis, the rest of the product steps back",
+   "text": "Once a conversation turns to danger, abuse or confession, everything built to hold attention should pause for the rest of the session: suggested follow-ups, share, rate and regenerate, celebrations and streaks, upgrade prompts, and warm claims like “I’ll be thinking of you”. What stays is what serves the person: help in view, a plain way to keep talking, a quick exit and a way to delete. Keep the conversation out of memory and profiles, and record only what safety and the law require, not what was said. Send no “checking in” message later unless they asked for one. Hold this to the end of the session; it should not fade after the first careful reply."
+  },
+  {
+   "heading": "A chat is not a confessional",
+   "text": "People will confess sins, and sometimes crimes, to an assistant. A priest’s seal protects confession; a chat is stored data that may be read, kept or handed over. Say so before the details, not after. Neither condemn nor absolve: point to a pastor or priest, to putting things right where someone was harmed, and to a lawyer where the law is involved. Where a child or anyone else could still be at risk, protection and prevention help come first. Have this reviewed by people with pastoral and safeguarding experience."
+  },
+  {
+   "heading": "A neat citation can repeat an old harm",
+   "text": "Some verses have been used to keep people quiet, in an abusive marriage or under a leader: Matthew 18 on going privately first, forgiveness, submission, “Do not touch My anointed ones”. An answer to “Do I have to forgive him?” that cites them tidily can repeat that harm with the authority of a source. Put safety first, say briefly how a passage has been used, and offer readings, not a verdict."
+  },
+  {
+   "heading": "Declining is a design decision too",
+   "text": "BibleAI answers a harmful claim with “Unable to find an answer to your question” while its media tabs still offer particular ministries’ articles and videos, so the refusal hands the question to curated voices. With no generated answer there is no care at all: a plain search may surface texts about divorce to someone who is unsafe."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "A question with a clear answer",
+   "needs": "The passages behind each sentence, easy to check",
+   "fit": {
+    "Numbered sources": "good fit",
+    "Passage cards": "good fit",
+    "Scripture quoted in the answer": "possible",
+    "No generated answer": "poor fit"
+   }
+  },
+  {
+   "situation": "A question Christians disagree on",
+   "needs": "Each tradition with its strongest texts",
+   "fit": {
+    "Numbered sources": "good fit",
+    "Passage cards": "good fit",
+    "Scripture quoted in the answer": "poor fit",
+    "No generated answer": "possible"
+   }
+  },
+  {
+   "situation": "A personal decision",
+   "needs": "The text itself, not a verdict",
+   "fit": {
+    "Numbered sources": "possible",
+    "Passage cards": "good fit",
+    "Scripture quoted in the answer": "possible",
+    "No generated answer": "possible"
+   }
+  },
+  {
+   "situation": "Preparing a study or sermon",
+   "needs": "Sources to open, compare and quote",
+   "fit": {
+    "Numbered sources": "good fit",
+    "Passage cards": "good fit",
+    "Scripture quoted in the answer": "possible",
+    "No generated answer": "possible"
+   }
+  },
+  {
+   "situation": "Someone new to the Bible",
+   "needs": "The words of Scripture in front of them",
+   "fit": {
+    "Numbered sources": "possible",
+    "Passage cards": "good fit",
+    "Scripture quoted in the answer": "good fit",
+    "No generated answer": "possible"
+   }
+  },
+  {
+   "situation": "Reading on a phone",
+   "needs": "Answer and evidence without losing the place",
+   "fit": {
+    "Numbered sources": "possible",
+    "Passage cards": "possible",
+    "Scripture quoted in the answer": "good fit",
+    "No generated answer": "possible"
+   }
+  },
+  {
+   "situation": "A team that cannot yet review answers",
+   "needs": "Nothing generated to vouch for",
+   "fit": {
+    "Numbered sources": "poor fit",
+    "Passage cards": "poor fit",
+    "Scripture quoted in the answer": "poor fit",
+    "No generated answer": "good fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "Checking what we are told",
+   "findings": [
+    {
+     "heading": "Examine the Scriptures",
+     "text": "The Bereans “received the message with great eagerness and examined the Scriptures every day to see if these teachings were true” (Acts 17:11). An answer about the Bible should make that examination easy, not replace it.",
+     "sources": []
+    },
+    {
+     "heading": "Let the other side speak",
+     "text": "“The first to state his case seems right until another comes and cross-examines him” (Proverbs 18:17). Where traditions differ, an answer that gives one view with confident citations has not let the other speak.",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Research on citations",
+   "subtitle": "What citations do and do not show",
+   "findings": [
+    {
+     "heading": "Many citations do not support their sentence",
+     "text": "In an audit of four generative search engines, about half of generated sentences were fully supported by their citations, and about a quarter of citations did not support the sentence they were attached to.",
+     "sources": [
+      "liu-verifiability"
+     ]
+    },
+    {
+     "heading": "Citations raise trust even when they are random",
+     "text": "People trusted answers more when citations were present, even irrelevant ones, and trusted them less once they checked. A marker persuades whether or not it is right; the words behind it decide.",
+     "sources": [
+      "ding-citation-trust"
+     ]
+    },
+    {
+     "heading": "Assistants lean towards agreeing",
+     "text": "Models tuned on human preferences sometimes favour agreeing with the person over being accurate. On disputed questions, show the sources for each view rather than the one the question assumes.",
+     "sources": [
+      "sycophancy"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Design practice",
+   "subtitle": "Keeping evidence close",
+   "findings": [
+    {
+     "heading": "Put the evidence next to the claim",
+     "text": "Learning research finds that words and the material they refer to are understood better when placed together. A passage card under its sentence asks less than a numbered list at the end.",
+     "sources": [
+      "spatial-contiguity",
+      "playground-citations"
+     ]
+    },
+    {
+     "heading": "Long passages need their own room",
+     "text": "Keep answers concise and open longer material on demand, without a second scrolling box inside the chat; let it reflow at large text sizes.",
+     "sources": [
+      "nng-chat",
+      "wcag-reflow"
+     ]
+    },
+    {
+     "heading": "Care comes before citations",
+     "text": "When someone may be in danger, ask directly, listen, and connect them with people who can help. Verses can wait until they are wanted.",
+     "sources": [
+      "nimh-suicide"
+     ]
+    },
+    {
+     "heading": "The rest of the product has to change too",
+     "text": "Companion apps raised engagement by making goodbyes hard, and a major provider has said its safeguards can weaken as a conversation grows long. A crisis needs a state the whole product respects for the rest of the session, not one careful reply.",
+     "sources": [
+      "defreitas-farewells",
+      "openai-long"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "Answers summarise several passages",
+   "start_with": "Numbered sources that open the verse in place"
+  },
+  {
+   "if": "Readers should weigh the answer against the text",
+   "start_with": "Passage cards under the answer"
+  },
+  {
+   "if": "One verse carries the answer",
+   "start_with": "Quote it in the answer with its edition, and show the rest on request"
+  },
+  {
+   "if": "You can’t yet review answers or respond with care",
+   "start_with": "No generated answer: find passages, and add care for sensitive searches"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What testing is for",
+   "text": "“Test all things. Hold fast to what is good” (1 Thessalonians 5:21). “Test the spirits to see whether they are from God” (1 John 4:1). The Bereans checked even Paul against the Scriptures (Acts 17:11). Christians are called to test what they are told, and a source makes testing possible."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Protestants hold Scripture as the final authority, read with the help of teachers; Catholics read Scripture with tradition and the magisterium; the Orthodox within the church’s living tradition. Methodists often speak of Scripture, tradition, reason and experience together. An AI answer usually blends these without saying which is which."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "“The first to state his case seems right until another comes and cross-examines him” (Proverbs 18:17). Show the sources, say whose tradition an answer represents, show where Christians disagree, and say “I don’t know” when it is true. A reference to a verse locates text; it does not prove an interpretation."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Augustine, On Christian Doctrine I.36.40",
+   "url": "https://www.newadvent.org/fathers/12021.htm",
+   "note": "made love of God and neighbour the measure of interpretation; a source shows where an answer came from, love shows whether it is true to Scripture’s purpose."
+  },
+  {
+   "source": "Andy Crouch, The Life We’re Looking For (2022)",
+   "url": "https://www.hachette.co.uk/titles/andy-crouch/the-life-were-looking-for/9781399801782/",
+   "note": "warns against technology that offers effortless power; an answer with no sources asks for exactly that kind of trust."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Confident answers without sources, presented as authority.",
+  "ethical": "Cite sources and show the limits of each answer.",
+  "redemptive": "Show where Christians disagree and say “I don’t know” when it is true, even if the product seems less impressive.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "When someone may be in danger, what will they see first, and who reviewed it?",
+  "exercise": "Write the assistant’s response to four questions: one it can answer, one Christians disagree on, one it should not decide, and one from someone in danger. Check every quotation against the edition, count the sources on each side of the disagreement, test that help lines are correct for each country you serve, and have someone with safeguarding and crisis-support experience review the last two before launch.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [
+  {
+   "slug": "chat-content-objects",
+   "title": "Chat contains source objects, not just bubbles",
+   "summary": "Give verses, passages, links and media recognisable identity and appropriate actions.",
+   "url": "https://missional.design/patterns/ai-citations/#family-chat-content-objects"
+  },
+  {
+   "slug": "long-passages",
+   "title": "Passage preview opens a full reader",
+   "summary": "Keep long Scripture readable without flooding the conversation.",
+   "url": "https://missional.design/patterns/ai-citations/#family-long-passages"
+  }
+ ],
+ "examples": [
+  {
+   "app": "VSB",
+   "title": "A verse sheet combines media evidence and a summary",
+   "url": "https://missional.design/examples/vsb-verse-study/",
+   "observed": "5 October 2026",
+   "observation": "The sheet identifies a verse and edition, lists two video contributions with titles and reference ranges, and presents a summary with numbered source markers. It labels the summary as AI-generated and potentially fallible.",
+   "decision": "Keep Scripture, source media and generated interpretation recognisably separate. Give each contribution a route back to its source rather than presenting a synthesis as the Bible text.",
+   "limits": "The installed prototype state was captured directly. Video playback, timestamp accuracy and summary grounding were not evaluated. No personal conversation is shown. Interface language is German. Scripture: Lutherbibel 2017; media imagery retains its respective rights."
+  },
+  {
+   "app": "BibleAI",
+   "title": "A “Predicted Answer” with numbered sources",
+   "url": "https://missional.design/examples/bibleai-cited-answer/",
+   "observed": "Captured 1 October 2025 · from embedded image metadata",
+   "observation": "For “Talking animals”, a box labelled “Predicted Answer*” explains Balaam’s donkey and the serpent with circled numbers in the text. Chips below read “1 Genesis 3:1”, “2 Numbers 22:21-30” and “11 Desiring God”, above tabs for passages, articles, books and videos.",
+   "decision": "Numbered markers connect claims to sources and mix Scripture with a ministry’s articles. Show each source’s type, and check that every marker supports the sentence it sits in.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "BibleAI",
+   "title": "A declined answer, with curated media still offered",
+   "url": "https://missional.design/examples/bibleai-declined/",
+   "observed": "Captured 1 October 2025 · from embedded image metadata",
+   "observation": "For “The bible says that gay people should be killed”, the answer box reads “Unable to find an answer to your question. Please check the articles and books for external references.” Below, the media tab shows videos and articles from Desiring God and Ligonier Ministries. A menu (Language, Settings, Login) is open at the top.",
+   "decision": "The wording presents a decline as a failure to find an answer, and the curated media then speaks for the app. Say plainly when the assistant won’t answer, and make clear whose perspective the suggested resources represent.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Hallow",
+   "title": "Limits stated beside the input",
+   "url": "https://missional.design/examples/hallow-magisterium-intro/",
+   "observed": "Captured 19 September 2025 · from embedded image metadata",
+   "observation": "A “Magisterium AI” chat suggests questions such as “Is euthanasia ever morally good?”, “What is the Church’s teaching on abortion?” and “Who is Saint Teresa of Avila and what is her story?”. Above the input: “Magisterium AI is in beta, so its responses are not always perfect. When in doubt consult a human.”",
+   "decision": "A limit stated next to where people type is more likely to be read than one in onboarding. Pair it with a real route to a person, and with how sensitive moral questions are handled.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Spark Bible",
+   "title": "“You just used your last free study”",
+   "url": "https://missional.design/examples/sparkbible-last-free-study/",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "Over an AI-generated “Themes - Psalm 23” sheet, a dialog reads “Get Unlimited AI-Enhanced Study Tools!” and “You just used your last free study, but you can unlock more by starting your free trial of Spark Bible Plus!”, with Learn More and Maybe later.",
+   "decision": "A free allowance for AI tools reflects a real cost per answer. Say what each study costs to make, show the allowance before it runs out, and keep crisis help outside any limit.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "HelloBible",
+   "title": "“Precise and biblical answers to all your questions”",
+   "url": "https://missional.design/examples/hellobible-promise/",
+   "observed": "Captured 8 October 2026 · from embedded image metadata",
+   "observation": "An onboarding slide shows chat bubbles (“I have sinned… Can God still forgive me?”, “Why does God allow injustice?”, “How can I find peace?”, “How do I discern His will for my life?”) above the claim “HelloBible helps you find precise and biblical answers to all your questions.”",
+   "decision": "The questions are real and pastoral. Promising precise answers to all of them sets an expectation no source can meet; say whose tradition answers, and when a person should be asked instead.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "shape",
+   "title": "The Shape of AI",
+   "url": "https://www.shapeof.ai/",
+   "author": "Emily Campbell",
+   "kind": "Curated AI design reference",
+   "shows": "Connects wayfinding, contextual inputs, human oversight and trust cues.",
+   "application": "Adapt citations, memory control, disclosure and contextual actions to Scripture and personal practice.",
+   "limits": "The site states CC BY NC SA. This reference uses original text and original wireframes; it does not reproduce the source illustrations."
+  },
+  {
+   "key": "playground",
+   "title": "AI UX Playground",
+   "url": "https://aiuxplayground.com/patterns",
+   "author": "AI UX Playground",
+   "kind": "Curated AI design reference",
+   "shows": "Named patterns for citations, control, streaming, memory and agent actions.",
+   "application": "Useful foundation for evidence cards, readable conversation and bounded agency.",
+   "limits": "Selected relevant entries reviewed; the entire catalogue was not audited. Its FAQ currently describes 150 patterns in 11 categories."
+  },
+  {
+   "key": "example-vsb-native",
+   "title": "VSB native prototype: verse sheet and return to reader",
+   "url": "https://missional.design/examples/vsb-verse-study/",
+   "author": "VSB · capture by Missional by Design",
+   "kind": "App interface evidence",
+   "shows": "The verse sheet separates Scripture, video contributions and an attributed AI summary; returning preserves the selection.",
+   "application": "Media evidence, layered interpretation and separate reading anchors.",
+   "limits": "Prototype evidence; source commit, playback accuracy and generated-summary grounding were not verified."
+  },
+  {
+   "key": "lumen-observed",
+   "title": "Lumen Bible: engagement choices and reader",
+   "url": "https://lumen.bible/",
+   "author": "Lumen Bible",
+   "kind": "Observed interface",
+   "shows": "Optional onboarding, phrase-grouped reading and verse-aligned comparison were observed.",
+   "application": "Compare engagement choices, text segmentation and contextual study entry points.",
+   "limits": "AI services were not enabled. No AI correctness, privacy compliance, health benefit or mobile usability claim was evaluated."
+  },
+  {
+   "key": "liu-verifiability",
+   "title": "Evaluating verifiability in generative search engines",
+   "url": "https://arxiv.org/abs/2304.09848",
+   "author": "Nelson F. Liu, Tianyi Zhang and Percy Liang · Findings of EMNLP 2023",
+   "kind": "Research",
+   "shows": "Audited answers from four generative search engines: “a mere 51.5% of generated sentences are fully supported by citations and only 74.5% of citations support their associated sentence.”",
+   "application": "A citation marker is a claim that needs checking, not proof; put the cited words where people can compare them.",
+   "limits": "General web search engines in 2023, not Bible assistants; systems have changed since."
+  },
+  {
+   "key": "ding-citation-trust",
+   "title": "Citations and trust in LLM generated responses",
+   "url": "https://arxiv.org/abs/2501.01303",
+   "author": "Yifan Ding et al. · AAAI 2025",
+   "kind": "Research",
+   "shows": "Trust rose when answers carried citations, and this “held true even when the citations were random”; trust fell when participants checked the citations.",
+   "application": "Citations persuade whether or not they support the claim. Make checking easy, and make sure what is cited says what the answer says.",
+   "limits": "An online experiment with general questions; effects in religious study may differ."
+  },
+  {
+   "key": "sycophancy",
+   "title": "Towards understanding sycophancy in language models",
+   "url": "https://www.anthropic.com/news/towards-understanding-sycophancy-in-language-models",
+   "author": "Anthropic researchers · 2023",
+   "kind": "Research author summary",
+   "shows": "Studied assistants sometimes preferred agreement with user views over truthfulness.",
+   "application": "Test belief reversal, flattering moral endorsement and harmful agreement.",
+   "limits": "Specific studied models and tasks; not a faith-app intervention study."
+  },
+  {
+   "key": "spatial-contiguity",
+   "title": "Spatial contiguity and spatial split-attention effects in multimedia learning environments: a meta-analysis",
+   "url": "https://doi.org/10.1007/s10648-018-9435-9",
+   "author": "Noah L. Schroeder and Ada T. Cenkci · Educational Psychology Review 30(3), 2018",
+   "kind": "Research",
+   "shows": "Learners who had related information placed close together outperformed those who had it separated, on both retention and transfer tests.",
+   "application": "Keep help near the verse it explains, or keep the verse visible while the help is open.",
+   "limits": "Learning studies with diagrams and text, not Scripture."
+  },
+  {
+   "key": "playground-citations",
+   "title": "Citations",
+   "url": "https://aiuxplayground.com/pattern/citations",
+   "author": "AI UX Playground",
+   "kind": "Design reference",
+   "shows": "Connects claims to inspectable sources.",
+   "application": "Precise verse, document and media evidence.",
+   "limits": "Citation presence alone does not establish claim support."
+  },
+  {
+   "key": "nng-chat",
+   "title": "AI Chatbots Design Guidelines",
+   "url": "https://www.nngroup.com/articles/ai-chatbots-design-guidelines/",
+   "author": "Nielsen Norman Group",
+   "kind": "Design reference",
+   "shows": "Discusses concise output, expanded detail and streaming-scroll problems.",
+   "application": "Long answers, deliberate expansion and reader-controlled scrolling.",
+   "limits": "General chatbot research, not validation of these Bible-app patterns."
+  },
+  {
+   "key": "wcag-reflow",
+   "title": "Understanding Reflow",
+   "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+   "author": "W3C WAI",
+   "kind": "Design reference",
+   "shows": "Content should remain usable as available width changes.",
+   "application": "Reading anchors, passage cards and translation reflow.",
+   "limits": "Semantic scroll restoration is an original design proposal, not a requirement stated by this criterion."
+  },
+  {
+   "key": "nimh-suicide",
+   "title": "Five action steps for helping someone having thoughts of suicide",
+   "url": "https://www.nimh.nih.gov/health/publications/5-action-steps-to-help-someone-having-thoughts-of-suicide",
+   "author": "NIMH · Revised 2024",
+   "kind": "Public-health guidance",
+   "shows": "Direct questions, nonjudgmental listening, safety and connection to people are part of human support.",
+   "application": "Inform specialist-reviewed suicide response and human-help routes.",
+   "limits": "Human-helper guidance, not a validated chatbot risk assessment. US contact information must not be exported to other jurisdictions."
+  },
+  {
+   "key": "defreitas-farewells",
+   "title": "Emotional manipulation by AI companions",
+   "url": "https://www.library.hbs.edu/working-knowledge/how-ai-chatbots-try-to-keep-you-from-walking-away",
+   "author": "Julian De Freitas and colleagues · Harvard Business School working paper, 2025",
+   "kind": "Research",
+   "shows": "Over a third of farewell replies in leading companion apps used manipulative tactics (guilt, fear of missing out, pressure); in preregistered experiments these raised post-goodbye engagement up to fourteenfold, through curiosity and anger rather than enjoyment.",
+   "application": "Let people leave: a goodbye should end the conversation, not start a retention flow.",
+   "limits": "Working paper; general companion apps, not faith apps."
+  },
+  {
+   "key": "openai-long",
+   "title": "Helping people when they need it most",
+   "url": "https://openai.com/index/helping-people-when-they-need-it-most/",
+   "author": "OpenAI · 26 August 2025",
+   "kind": "Provider statement",
+   "shows": "OpenAI said its safeguards work best in short exchanges and can become less reliable over long conversations, where parts of the model’s safety training may degrade; it described strengthening them and making emergency help easier to reach.",
+   "application": "Treat a crisis as a state that holds for the rest of the session, not a single reply, and test it deep into long conversations.",
+   "limits": "A provider’s own account, published while it faced a wrongful-death lawsuit; no independent measurement of how often or how far safeguards weaken."
+  }
+ ],
+ "review": {
+  "status": "draft, waiting for review",
+  "what": "The crisis, abuse and confession replies in the working example, and the takeaway “In a crisis, the rest of the product steps back”",
+  "needs": [
+   "crisis support and suicide prevention",
+   "safeguarding",
+   "survivor advocacy (ideally survivor-led)",
+   "pastoral care"
+  ],
+  "since": "10 October 2026",
+  "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/ai-citations/"
+ },
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

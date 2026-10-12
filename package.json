@@ -4,7 +4,7 @@
   "description": "A thought leadership site about missional product design by Tobias Treppmann",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && python3 scripts/finalize-reference.py",
     "preview": "astro preview"
   },
   "dependencies": {

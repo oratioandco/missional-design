@@ -1,0 +1,524 @@
+{
+ "deep_dives": [
+  {
+   "slug": "bible-audio",
+   "url": "https://missional.design/patterns/bible-audio/",
+   "api": "https://missional.design/api/deep-dives/bible-audio.json",
+   "title": "Bible audio",
+   "question": "How should Scripture be heard: as text, voice or read-along?",
+   "options": [
+    "Text only (Leave it out)",
+    "Listen button (Familiar convention)",
+    "Read-along (Observed)",
+    "Audio first (Observed)",
+    "Produced devotional (Observed)"
+   ],
+   "decide": "Whose voice reads Scripture here, and what happens when it ends?",
+   "review": null,
+   "earlier_patterns": [
+    "audio-first",
+    "read-along",
+    "guided-sequence"
+   ]
+  },
+  {
+   "slug": "ai-persona",
+   "url": "https://missional.design/patterns/ai-persona/",
+   "api": "https://missional.design/api/deep-dives/ai-persona.json",
+   "title": "AI persona",
+   "question": "How human should the assistant seem?",
+   "options": [
+    "Plain tool (Familiar convention)",
+    "Labelled assistant (Familiar convention)",
+    "Named assistant (Exploratory · untested)",
+    "Persona (Observed)",
+    "Companion (Observed)",
+    "Biblical character (Observed)"
+   ],
+   "decide": "Would a reasonable person believe someone who knows, loves or prays for them is here, and can they leave freely?",
+   "review": null,
+   "earlier_patterns": [
+    "ai-social-presence",
+    "chat-disclosure",
+    "ai-involvement-disclosure"
+   ]
+  },
+  {
+   "slug": "translations",
+   "url": "https://missional.design/patterns/translations/",
+   "api": "https://missional.design/api/deep-dives/translations.json",
+   "title": "Translations",
+   "question": "One at a time, side by side or verse by verse?",
+   "options": [
+    "One translation (Observed)",
+    "Switch in place (Familiar convention)",
+    "Verse by verse (Observed)",
+    "Parallel panes (Observed)",
+    "Interlinear (Familiar convention)"
+   ],
+   "decide": "Does the reader know what kind of translation this is, and stay on the same verse while comparing?",
+   "review": null,
+   "earlier_patterns": [
+    "translation-picker",
+    "translation-position",
+    "parallel-reading-layout",
+    "parallel-scroll",
+    "verse-by-verse-comparison",
+    "interlinear-reading"
+   ]
+  },
+  {
+   "slug": "highlights-and-notes",
+   "url": "https://missional.design/patterns/highlights-and-notes/",
+   "api": "https://missional.design/api/deep-dives/highlights-and-notes.json",
+   "title": "Highlights and notes",
+   "question": "How should readers mark a passage?",
+   "options": [
+    "Bookmark (Familiar convention)",
+    "Highlight (Observed)",
+    "Labelled marks (Familiar convention)",
+    "Private note (Familiar convention)",
+    "Shared note (Observed)"
+   ],
+   "decide": "Can someone mark in one tap and undo, tell every mark apart without colour, and say exactly who can see each note?",
+   "review": null,
+   "earlier_patterns": [
+    "annotation-anchors",
+    "highlight-overlap",
+    "highlight-actions",
+    "verse-comments"
+   ]
+  },
+  {
+   "slug": "study-helps",
+   "url": "https://missional.design/patterns/study-helps/",
+   "api": "https://missional.design/api/deep-dives/study-helps.json",
+   "title": "Study helps",
+   "question": "Where should commentary and notes open?",
+   "options": [
+    "Preview card (Observed)",
+    "Sheet over the text (Observed)",
+    "Study panel (Observed)",
+    "Full page (Familiar convention)",
+    "On request (Observed)"
+   ],
+   "decide": "Does the reader know who is speaking, which verse the help is about, and how to get back to it?",
+   "review": null,
+   "earlier_patterns": [
+    "contextual-study-panel",
+    "resource-discovery",
+    "media-evidence"
+   ]
+  },
+  {
+   "slug": "reading-plans",
+   "url": "https://missional.design/patterns/reading-plans/",
+   "api": "https://missional.design/api/deep-dives/reading-plans.json",
+   "title": "Reading plans",
+   "question": "What happens when someone misses days?",
+   "options": [
+    "Dated plan (Observed)",
+    "Sequence (Observed)",
+    "Weekly rhythm (Familiar convention)",
+    "Daily readings (Familiar convention)",
+    "Streak (Observed)"
+   ],
+   "decide": "After nine days away, does the plan offer a good place to start, or a bill?",
+   "review": null,
+   "earlier_patterns": [
+    "flexible-rhythm",
+    "return-without-shame"
+   ]
+  },
+  {
+   "slug": "prayer",
+   "url": "https://missional.design/patterns/prayer/",
+   "api": "https://missional.design/api/deep-dives/prayer.json",
+   "title": "Prayer",
+   "question": "How can an app make room for prayer?",
+   "options": [
+    "Order of prayer (Observed)",
+    "Guided steps (Observed)",
+    "People I pray for (Observed)",
+    "Quiet prayer (Familiar convention)",
+    "Counted prayer (Observed)"
+   ],
+   "decide": "Could someone pray here meaningfully and leave nothing for your dashboard to count?",
+   "review": null,
+   "earlier_patterns": [
+    "prayer-interface",
+    "liturgical-calendar"
+   ]
+  },
+  {
+   "slug": "check-ins-and-assessments",
+   "url": "https://missional.design/patterns/check-ins-and-assessments/",
+   "api": "https://missional.design/api/deep-dives/check-ins-and-assessments.json",
+   "title": "Check-ins and assessments",
+   "question": "What may an app ask about someone, and what may it conclude?",
+   "options": [
+    "A few setup questions (Observed)",
+    "A daily check-in (Observed)",
+    "A gifts inventory (Familiar convention)",
+    "A church survey (Familiar convention)",
+    "A spiritual score (Leave it out)"
+   ],
+   "decide": "For each question: what does the answer change, who could ever see it, and what does the result claim to know?",
+   "review": null,
+   "earlier_patterns": []
+  },
+  {
+   "slug": "ai-memory",
+   "url": "https://missional.design/patterns/ai-memory/",
+   "api": "https://missional.design/api/deep-dives/ai-memory.json",
+   "title": "AI memory",
+   "question": "What should the assistant know and keep?",
+   "options": [
+    "Nothing kept (Familiar convention)",
+    "Context you add (Observed)",
+    "This conversation (Familiar convention)",
+    "Memory you can see (Borrowed)",
+    "A profile it builds (Leave it out)"
+   ],
+   "decide": "Could the person list everything the assistant knows about them, and would they be comfortable if a friend read it?",
+   "review": null,
+   "earlier_patterns": [
+    "intent-controls",
+    "chat-attachments",
+    "sensitive-memory"
+   ]
+  },
+  {
+   "slug": "devotional-audio",
+   "url": "https://missional.design/patterns/devotional-audio/",
+   "api": "https://missional.design/api/deep-dives/devotional-audio.json",
+   "title": "Devotional audio",
+   "question": "Guided prayer, a podcast, a talk or a sleep story?",
+   "options": [
+    "Guided prayer (Observed)",
+    "Teaching conversation (Familiar convention)",
+    "Devotional talk (Observed)",
+    "Sleep story (Observed)",
+    "Endless stream (Leave it out)"
+   ],
+   "decide": "After the session, could the listener say what Scripture said, who spoke, and why it ended?",
+   "review": null,
+   "earlier_patterns": []
+  },
+  {
+   "slug": "numbers-headings-and-notes",
+   "url": "https://missional.design/patterns/numbers-headings-and-notes/",
+   "api": "https://missional.design/api/deep-dives/numbers-headings-and-notes.json",
+   "title": "Numbers, headings and notes",
+   "question": "How much should surround the text?",
+   "options": [
+    "Reader’s edition (Familiar convention)",
+    "Verse numbers (Familiar convention)",
+    "Section titles (Observed)",
+    "Note markers (Observed)",
+    "Study layout (Familiar convention)",
+    "Inline media (Observed)",
+    "Reader decides (Observed)"
+   ],
+   "decide": "What surrounds the text by default, who wrote it, and can a reader tell it apart and turn it off?",
+   "review": null,
+   "earlier_patterns": [
+    "verse-numbers",
+    "reading-layout",
+    "text-structure",
+    "footnotes",
+    "reading-settings"
+   ]
+  },
+  {
+   "slug": "how-much-text",
+   "url": "https://missional.design/patterns/how-much-text/",
+   "api": "https://missional.design/api/deep-dives/how-much-text.json",
+   "title": "How much text at once",
+   "question": "One word, a verse, a passage or a whole chapter?",
+   "options": [
+    "One word at a time (Borrowed)",
+    "One verse at a time (Observed)",
+    "One verse in focus (Observed)",
+    "One passage (Observed)",
+    "Whole chapter (Familiar convention)"
+   ],
+   "decide": "What unit of Scripture does this screen ask someone to hold in mind, and how do they reach the rest?",
+   "review": null,
+   "earlier_patterns": [
+    "passage-focused-reading"
+   ]
+  },
+  {
+   "slug": "finding-a-passage",
+   "url": "https://missional.design/patterns/finding-a-passage/",
+   "api": "https://missional.design/api/deep-dives/finding-a-passage.json",
+   "title": "Finding a passage",
+   "question": "Browse, type a reference, or start from a need?",
+   "options": [
+    "Step by step (Familiar convention)",
+    "Expandable book list (Observed)",
+    "Type a reference (Borrowed)",
+    "Start from a feeling (Observed)",
+    "No passage picker (Leave it out)"
+   ],
+   "decide": "Do most of the people you serve know where they are going, or are they finding out?",
+   "review": null,
+   "earlier_patterns": [
+    "verse-entry",
+    "book-chapter-layouts",
+    "chapter-navigation",
+    "smart-passage-search"
+   ]
+  },
+  {
+   "slug": "progress-and-streaks",
+   "url": "https://missional.design/patterns/progress-and-streaks/",
+   "api": "https://missional.design/api/deep-dives/progress-and-streaks.json",
+   "title": "Progress and streaks",
+   "question": "What should a reading history show?",
+   "options": [
+    "Activity chart (Borrowed)",
+    "Levels and badges (Familiar convention)",
+    "Book map (Borrowed)",
+    "No progress view (Leave it out)",
+    "Today’s step (Observed)",
+    "Month calendar with a streak (Familiar convention)",
+    "Time with Scripture (Borrowed)",
+    "Where you keep returning (Borrowed)",
+    "Reflection notes (Exploratory · untested)"
+   ],
+   "decide": "What will this screen say to someone on the day they come back?",
+   "review": null,
+   "earlier_patterns": []
+  },
+  {
+   "slug": "ai-citations",
+   "url": "https://missional.design/patterns/ai-citations/",
+   "api": "https://missional.design/api/deep-dives/ai-citations.json",
+   "title": "Citations in AI answers",
+   "question": "How should an answer show where it came from?",
+   "options": [
+    "Numbered sources (Observed)",
+    "Passage cards (Observed)",
+    "Scripture quoted in the answer (Exploratory · untested)",
+    "No generated answer (Leave it out)"
+   ],
+   "decide": "When someone may be in danger, what will they see first, and who reviewed it?",
+   "review": {
+    "status": "draft, waiting for review",
+    "what": "The crisis, abuse and confession replies in the working example, and the takeaway “In a crisis, the rest of the product steps back”",
+    "needs": [
+     "crisis support and suicide prevention",
+     "safeguarding",
+     "survivor advocacy (ideally survivor-led)",
+     "pastoral care"
+    ],
+    "since": "10 October 2026",
+    "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/ai-citations/"
+   },
+   "earlier_patterns": [
+    "chat-content-objects",
+    "long-passages"
+   ]
+  },
+  {
+   "slug": "sharing-with-a-group",
+   "url": "https://missional.design/patterns/sharing-with-a-group/",
+   "api": "https://missional.design/api/deep-dives/sharing-with-a-group.json",
+   "title": "Sharing with a group",
+   "question": "When someone shares a prayer request, who hears it, and who looks after it?",
+   "options": [
+    "Between you and God (Leave it out)",
+    "Through a person you choose (Borrowed)",
+    "A few people you choose (Observed)",
+    "A group with a leader (Observed)",
+    "The whole church (Observed)",
+    "A public wall (Observed)",
+    "Ranked by prayer streaks (Leave it out)"
+   ],
+   "decide": "When someone shares something hard here, who hears it first, and what are they able, and obliged, to do?",
+   "review": {
+    "status": "draft, waiting for review",
+    "what": "Who hears a prayer request, the duty-to-report and safeguarding-contact wording, the independent routes, and the hard situation in the working example",
+    "needs": [
+     "safeguarding",
+     "survivor advocacy (ideally survivor-led)",
+     "pastoral care",
+     "data protection"
+    ],
+    "since": "10 October 2026",
+    "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/sharing-with-a-group/"
+   },
+   "earlier_patterns": []
+  },
+  {
+   "slug": "reading-together",
+   "url": "https://missional.design/patterns/reading-together/",
+   "api": "https://missional.design/api/deep-dives/reading-together.json",
+   "title": "Reading together",
+   "question": "When people read Scripture together through an app, what do the others see, and who looks after the conversation?",
+   "options": [
+    "The same passage, nothing shown (Familiar convention)",
+    "A guide for meeting in person (Borrowed)",
+    "A group with a leader (Observed)",
+    "A plan with friends (Observed)",
+    "A feed of friends’ activity (Observed)",
+    "A public thread on the verse (Observed)"
+   ],
+   "decide": "What will each person see of the others’ reading, and who looks after the conversation when it goes wrong?",
+   "review": {
+    "status": "draft, waiting for review",
+    "what": "The verse turned against someone who shared, the leader’s notes and replies, the youth-group rules and the safeguarding contact in the working example",
+    "needs": [
+     "safeguarding",
+     "pastoral care",
+     "survivor advocacy (ideally survivor-led)",
+     "data protection"
+    ],
+    "since": "10 October 2026",
+    "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/reading-together/"
+   },
+   "earlier_patterns": []
+  },
+  {
+   "slug": "first-use",
+   "url": "https://missional.design/patterns/first-use/",
+   "api": "https://missional.design/api/deep-dives/first-use.json",
+   "title": "First use",
+   "question": "What does someone have to give before they reach what they came for?",
+   "options": [
+    "Open on what they came for (Familiar convention)",
+    "A first page of places to start (Familiar convention)",
+    "Guest first, an account when there is something to keep (Observed)",
+    "A short tour first (Observed)",
+    "Questions first (Observed)",
+    "Asking for payment (Observed)"
+   ],
+   "decide": "What must someone give before they reach what they came for, and what does it honestly cost you to serve them?",
+   "review": {
+    "status": "draft, waiting for review",
+    "what": "Help for someone arriving in a hard night, the wording for someone coming back after being hurt in a church, and the reflection on paying for Scripture, teaching and AI",
+    "needs": [
+     "crisis support and suicide prevention",
+     "pastoral care",
+     "survivor advocacy (ideally survivor-led)",
+     "theology across Catholic, Orthodox and Protestant traditions"
+    ],
+    "since": "11 October 2026",
+    "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/first-use/"
+   },
+   "earlier_patterns": []
+  },
+  {
+   "slug": "children-and-families",
+   "url": "https://missional.design/patterns/children-and-families/",
+   "api": "https://missional.design/api/deep-dives/children-and-families.json",
+   "title": "Children and families",
+   "question": "When children meet Scripture through an app, who is with them, and what does the app ask of them?",
+   "options": [
+    "Read together (Familiar convention)",
+    "Family time in a general app (Observed)",
+    "A children’s Bible app (Observed)",
+    "Games and episodes (Observed)",
+    "A youth group with a leader (Observed)",
+    "A child alone with an AI (Leave it out)"
+   ],
+   "decide": "Who is with the child, what does the app ask of them, and who answers when a child is afraid?",
+   "review": {
+    "status": "draft, waiting for review",
+    "what": "The answer to a child who writes something worrying, the leader’s notes for a youth group, the notes for telling the Flood, and the decision not to tell parents automatically",
+    "needs": [
+     "safeguarding",
+     "survivor advocacy (ideally survivor-led)",
+     "pastoral care",
+     "data protection",
+     "theology across Catholic, Orthodox and Protestant traditions"
+    ],
+    "since": "11 October 2026",
+    "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/children-and-families/"
+   },
+   "earlier_patterns": []
+  },
+  {
+   "slug": "giving",
+   "url": "https://missional.design/patterns/giving/",
+   "api": "https://missional.design/api/deep-dives/giving.json",
+   "title": "Giving and offerings",
+   "question": "How should a faith app ask for gifts, and what should it never promise?",
+   "options": [
+    "Giving stays with the church (Familiar convention)",
+    "A quiet way to give (Observed)",
+    "The church’s offering (Observed)",
+    "A regular gift (Observed)",
+    "What a gift does (Observed)",
+    "A gift tied to a benefit (Observed)",
+    "Pressure and promises (Leave it out)"
+   ],
+   "decide": "What is chosen for the giver, where does the ask appear, and what does the app say a gift will do?",
+   "review": {
+    "status": "draft, waiting for review",
+    "what": "What is shown to someone short of money or who has just shared a prayer request, the description of seed-faith appeals, the treatment of tithing and church tax, and the use of YouVersion screens from the owner’s own account",
+    "needs": [
+     "pastoral care",
+     "theology across Catholic, Orthodox and Protestant traditions",
+     "charity and consumer law"
+    ],
+    "since": "11 October 2026",
+    "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/giving/"
+   },
+   "earlier_patterns": []
+  },
+  {
+   "slug": "notifications",
+   "url": "https://missional.design/patterns/notifications/",
+   "api": "https://missional.design/api/deep-dives/notifications.json",
+   "title": "Notifications and reminders",
+   "question": "When may a faith app interrupt someone, in whose voice, and who decides?",
+   "options": [
+    "The app waits (Familiar convention)",
+    "Their own bell (Observed)",
+    "The church’s hours (Familiar convention)",
+    "A daily word (Observed)",
+    "People, not the app (Observed)",
+    "Engagement-driven (Observed)",
+    "Messages about the person (Leave it out)"
+   ],
+   "decide": "Who chose this interruption, how urgent does it claim to be, and what does it say to someone who has stopped coming?",
+   "review": {
+    "status": "draft, waiting for review",
+    "what": "What reaches someone awake at night, the help offered when they open the app, the warning case of an AI persona and an app that tells friends, and the use of the church’s hours",
+    "needs": [
+     "crisis support and suicide prevention",
+     "pastoral care",
+     "theology across Catholic, Orthodox and Protestant traditions"
+    ],
+    "since": "11 October 2026",
+    "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/notifications/"
+   },
+   "earlier_patterns": []
+  },
+  {
+   "slug": "ai-answer-actions",
+   "url": "https://missional.design/patterns/ai-answer-actions/",
+   "api": "https://missional.design/api/deep-dives/ai-answer-actions.json",
+   "title": "Actions on AI answers",
+   "question": "Copy, share, try again, report: which belong?",
+   "options": [
+    "Every action in a row (Borrowed)",
+    "Three, then More (Borrowed)",
+    "Actions on the passages (Observed)",
+    "No action bar (Leave it out)"
+   ],
+   "decide": "Which actions does this product need, and what does each one carry with it?",
+   "review": null,
+   "earlier_patterns": []
+  }
+ ],
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

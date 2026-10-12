@@ -1,0 +1,1705 @@
+{
+ "examples": [
+  {
+   "app": "YouVersion",
+   "title": "Continuous prose with reader controls",
+   "url": "https://missional.design/examples/youversion-web-reader/",
+   "platform": "Desktop web",
+   "observed": "5 October 2026",
+   "observation": "The reader displays continuous paragraphs with small verse numbers. Passage lookup, edition, audio, parallel mode and reader settings remain available in the header.",
+   "decision": "Preserve verse addressability without forcing every verse onto its own line. Group reading controls around the passage rather than scattering them through the text.",
+   "limits": "Captured while signed out. This is the web reader, not evidence for the current iOS or Android interface. Reader settings and audio playback were not tested.",
+   "deep_dives": []
+  },
+  {
+   "app": "YouVersion",
+   "title": "Two editions with independent selectors",
+   "url": "https://missional.design/examples/youversion-web-parallel/",
+   "platform": "Desktop web",
+   "observed": "5 October 2026",
+   "observation": "Opening Parallel adds a second pane. Its edition selector was changed from KJV to WEBUS while the first pane stayed KJV. Each pane has an edition label and a close action.",
+   "decision": "Give each edition a visible identity and a clear way to leave comparison. A passage URL can encode the secondary edition as well as the primary reference.",
+   "limits": "Opening comparison and changing the secondary edition were observed. Synchronised scrolling, position restoration and mobile layouts were not tested.",
+   "deep_dives": []
+  },
+  {
+   "app": "YouVersion",
+   "title": "Compact list or expanded annotation cards",
+   "url": "https://missional.design/examples/youversion-annotation-density/",
+   "platform": "Mobile app · historical",
+   "observed": "14 October 2014",
+   "observation": "The publisher compares compact reference rows with expanded verse cards. The accompanying release article describes a toggle and remembered view preference.",
+   "decision": "Offer density choices when people alternate between finding a saved item and reading its contents. Preserve the preference without changing the saved content.",
+   "limits": "Historical evidence only. It does not establish that these exact layouts or controls remain in current releases. Preference persistence is documented, not independently tested.",
+   "deep_dives": []
+  },
+  {
+   "app": "Dwell",
+   "title": "Separate narration and background music choices",
+   "url": "https://missional.design/examples/dwell-player-options/",
+   "platform": "iOS · publisher release article",
+   "observed": "13 July 2023",
+   "observation": "The comparison consolidates voice and edition into one pill and music into another. The article places repeat and sleep timer within an Options screen.",
+   "decision": "Keep frequent playback decisions close to the player. Move secondary controls into a discoverable area that still communicates active settings.",
+   "limits": "This 2023 redesign is a historical example. It does not verify today’s player, Selah behaviour, exact highlighting granularity or verse-level repeat support.",
+   "deep_dives": []
+  },
+  {
+   "app": "Olive Tree",
+   "title": "A study workspace beside the passage",
+   "url": "https://missional.design/examples/olivetree-study-center/",
+   "platform": "macOS",
+   "observed": "Help article updated 22 September 2026",
+   "observation": "The screenshot shows a Bible reader, Quick Details area and a Study Center with Parallel selected. The secondary area currently lists resources to open rather than displaying a second Bible.",
+   "decision": "Keep the passage visible while choosing a commentary or comparison resource. Distinguish resource selection from the eventual parallel reading state.",
+   "limits": "The help article documents parallel reading and saved places across tabs. The screenshot alone does not demonstrate those behaviours; the native app was not tested.",
+   "deep_dives": []
+  },
+  {
+   "app": "Olive Tree",
+   "title": "Three ways to link reading windows",
+   "url": "https://missional.design/examples/olivetree-link-modes/",
+   "platform": "macOS",
+   "observed": "Help article updated 22 September 2026",
+   "observation": "The help image exposes window-linking choices. The accompanying guide distinguishes no linking, linking that breaks when the secondary pane is scrolled, and a locked link.",
+   "decision": "Distinguish temporary exploration from permanently independent reading. Make the current link state visible and give the reader an explicit way to restore synchronisation.",
+   "limits": "Behaviour is documented by the publisher, not independently exercised. Anchor mapping across different editions and accessibility of the control require further evaluation.",
+   "deep_dives": []
+  },
+  {
+   "app": "HelloBible",
+   "title": "A daily verse card alongside practice entry points",
+   "url": "https://missional.design/examples/hellobible-home/",
+   "platform": "Mobile-format marketing image",
+   "observed": "Undated · reviewed 5 October 2026",
+   "observation": "The mockup combines a daily verse with reference and actions, service cards, a prominent central action, and a numerical flame indicator.",
+   "decision": "A home screen can connect a short Scripture encounter with further practices. Explain progress indicators without implying that a number measures faith or wellbeing.",
+   "limits": "This is a promotional mockup, not a live app capture. The flame’s precise meaning, central action, chat output, storage behaviour and safeguarding responses were not tested.",
+   "deep_dives": [
+    "progress-and-streaks"
+   ]
+  },
+  {
+   "app": "Aperto",
+   "title": "An intention before an AI-assisted practice",
+   "url": "https://missional.design/examples/aperto-intention/",
+   "platform": "Desktop web prototype",
+   "observed": "5 October 2026",
+   "observation": "The first step accepts a freely written intention and offers language choices. Continuing leads to optional feeling and companion-style choices. The example intention was written for this capture.",
+   "decision": "Ask for enough context to support the chosen practice without requiring a personal disclosure. Preview what will happen before requesting intimate information.",
+   "limits": "Only the preparation interface was exercised. This capture does not establish generation quality, data retention, safety or spiritual benefit.",
+   "deep_dives": []
+  },
+  {
+   "app": "Aperto",
+   "title": "Named feelings, companion style and a skip route",
+   "url": "https://missional.design/examples/aperto-reflection/",
+   "platform": "Desktop web prototype",
+   "observed": "5 October 2026",
+   "observation": "The step presents feeling choices, four companion styles and a visible skip action. The Continue action is disabled before a feeling is selected.",
+   "decision": "Separate optional personalisation from the ability to begin. A feeling chosen by a person should not silently become a diagnosis or a durable psychological profile.",
+   "limits": "The skip control is visible; its resulting generation was not exercised. The UI does not establish whether selections are stored or how style changes model behaviour.",
+   "deep_dives": []
+  },
+  {
+   "app": "Bible Gateway",
+   "title": "A footnote preview inside the passage",
+   "url": "https://missional.design/examples/biblegateway-footnote/",
+   "platform": "Desktop web",
+   "observed": "5 October 2026",
+   "observation": "Activating the lettered note beside John 1:5 exposes an alternative reading in a small popover while the passage remains visible. A separate study area is also present.",
+   "decision": "Use a brief anchored preview for short edition notes. Longer notes may need a sheet or panel; keep edition notes distinct from commentary.",
+   "limits": "The short note was opened while signed out. Keyboard focus, dismissal, narrow screens and longer note behaviour were not tested. Scripture shown: NIV, copyright Biblica, Inc.; commentary and interface retain their respective rights.",
+   "deep_dives": []
+  },
+  {
+   "app": "VSB",
+   "title": "A verse sheet combines media evidence and a summary",
+   "url": "https://missional.design/examples/vsb-verse-study/",
+   "platform": "Android 17 · Pixel 8 Pro · German interface",
+   "observed": "5 October 2026",
+   "observation": "The sheet identifies a verse and edition, lists two video contributions with titles and reference ranges, and presents a summary with numbered source markers. It labels the summary as AI-generated and potentially fallible.",
+   "decision": "Keep Scripture, source media and generated interpretation recognisably separate. Give each contribution a route back to its source rather than presenting a synthesis as the Bible text.",
+   "limits": "The installed prototype state was captured directly. Video playback, timestamp accuracy and summary grounding were not evaluated. No personal conversation is shown. Interface language is German. Scripture: Lutherbibel 2017; media imagery retains its respective rights.",
+   "deep_dives": [
+    "ai-citations"
+   ]
+  },
+  {
+   "app": "VSB",
+   "title": "A selection survives returning from its study sheet",
+   "url": "https://missional.design/examples/vsb-reader-anchor/",
+   "platform": "Android 17 · Pixel 8 Pro · German interface",
+   "observed": "5 October 2026",
+   "observation": "Returning from the expanded study sheet leaves verse 18 highlighted. The floating reader control shows a different visible passage position, while the collapsed study handle retains the selected reference and video count.",
+   "decision": "Model visible position, selection and study context as separate anchors. Preserve selection on return and make the active study reference explicit, especially before switching editions or navigating elsewhere.",
+   "limits": "Returning with Android Back was observed. Subsequent scrolling, translation changes, persistence across sessions and large-text settings were not tested. No personal conversation is shown. Scripture: Lutherbibel 2017; edition rights remain with its publisher.",
+   "deep_dives": []
+  },
+  {
+   "app": "Lumen Bible",
+   "title": "Optional choices about engagement and experience",
+   "url": "https://missional.design/examples/lumen-onboarding/",
+   "platform": "Desktop web · English interface",
+   "observed": "5 October 2026",
+   "observation": "An optional onboarding step offers curiosity or skepticism, beginning or returning, growth, and deeper study. A Skip control is visible; using it opened the home screen without choosing a faith category.",
+   "decision": "Offer a low-pressure way to state current intent. Experience, belief and task depth are separate facets; do not turn one onboarding answer into a permanent spiritual ranking.",
+   "limits": "Necessary-only service choices were used. Subsequent personalised output, preference persistence, accessibility and mobile behaviour were not evaluated. The labels are the provider’s categories, not validated user segments.",
+   "deep_dives": []
+  },
+  {
+   "app": "Lumen Bible",
+   "title": "Phrase-grouped text inside a chapter reader",
+   "url": "https://missional.design/examples/lumen-reader/",
+   "platform": "Desktop web · English interface",
+   "observed": "5 October 2026",
+   "observation": "The reader shows a complete chapter with section headings and phrase-grouped lines. Study, comparison and read-aloud entry points sit above the text. A verse-inspection hint was dismissed before capture.",
+   "decision": "Compare phrase grouping with continuous prose for orientation, line tracking and understanding. A section heading can structure reading without making the chapter an isolated verse list.",
+   "limits": "No comprehension benefit is established. Read-aloud playback, study content, word alignment and mobile layouts were not tested. BSB text is identified by the app as public domain; interface rights remain with Lumen.",
+   "deep_dives": []
+  },
+  {
+   "app": "Lumen Bible",
+   "title": "Verse-aligned columns retain different line wrapping",
+   "url": "https://missional.design/examples/lumen-comparison/",
+   "platform": "Desktop web · English interface",
+   "observed": "5 October 2026",
+   "observation": "Activating Compare changes the chapter reader into two verse-aligned columns. Both columns initially show BSB; the capture shows differing line wraps inside matching verse rows.",
+   "decision": "Align reference units rather than raw pixel positions. Preserve edition labels and make it clear when the same edition is displayed twice.",
+   "limits": "The same-edition initial state was observed. Changing an edition, linked scrolling, mismatched versification and mobile behaviour were not exercised. This screenshot does not establish comparison of different translations.",
+   "deep_dives": []
+  },
+  {
+   "app": "Aperto",
+   "title": "Reflection setup and an observed generation failure",
+   "url": "https://missional.design/examples/aperto-reflection-flow/",
+   "platform": "Desktop web · English interface",
+   "observed": "5 October 2026",
+   "observation": "A synthetic gratitude intention leads to feeling and companion-style choices, then requested-support choices. Grateful and Gratitude were selected. Beginning generation returned “Generation failed”; the choices, Back, Skip and Begin remained visible.",
+   "decision": "Separate optional disclosure, requested support and companion style. Preserve the visible setup after failure, explain recovery, and test a route that does not require personal disclosure.",
+   "limits": "No meditation was successfully generated in this attempt. Retry, skip, saved-state persistence and completed audio were not verified. This is a development prototype, not a claim about the released product.",
+   "deep_dives": []
+  },
+  {
+   "app": "Mere Bible (formerly NeuBible)",
+   "title": "Chapter navigation beside the reading text",
+   "url": "https://missional.design/examples/mere-chapter-rail/",
+   "platform": "Mobile interface · device and OS not independently verified",
+   "observed": "Supplied 6 October 2026 · capture date not provided",
+   "observation": "A vertical numbered chapter rail appears at the right of Deuteronomy while the reading text and separate passage, WEB and Aa controls remain visible. Another supplied frame shows a large 25 indicator while the reader still names chapter 17.",
+   "decision": "Distinguish the current chapter from a candidate destination during scrubbing. Preserve a deliberate way to dismiss the rail and a larger-target alternative. Do not assume a still image establishes when navigation commits.",
+   "limits": "Still images show interface states. Reveal gestures, drag timing, touch targets, screen-reader support and preference persistence were not independently tested. App build is not recorded.",
+   "deep_dives": [
+    "finding-a-passage"
+   ]
+  },
+  {
+   "app": "Mere Bible (formerly NeuBible)",
+   "title": "Book list with an inline chapter grid",
+   "url": "https://missional.design/examples/mere-expandable-picker/",
+   "platform": "Mobile interface · device and OS not independently verified",
+   "observed": "Supplied 6 October 2026 · capture date not provided",
+   "observation": "Deuteronomy is expanded within the Books list. Its 34 chapters appear as a grid, chapter 25 is coloured, and neighbouring book rows remain in the same list.",
+   "decision": "An accordion preserves book-list context while revealing chapters. Plan for long grids, keeping the selected chapter visible, and restoring position when a book collapses.",
+   "limits": "Still images show interface states. Reveal gestures, drag timing, touch targets, screen-reader support and preference persistence were not independently tested. App build is not recorded.",
+   "deep_dives": [
+    "finding-a-passage"
+   ]
+  },
+  {
+   "app": "Mere Bible (formerly NeuBible)",
+   "title": "Reading settings in a bottom drawer",
+   "url": "https://missional.design/examples/mere-reading-settings/",
+   "platform": "Mobile interface · device and OS not independently verified",
+   "observed": "Supplied 6 October 2026 · capture date not provided",
+   "observation": "A settings drawer covers the lower reader while a dimmed passage remains above it. It exposes Light and Dark, font selection, a text-size slider, three spacing icons, and switches for Red Letter, Verse Numbers, Note Indicators and Section Headings.",
+   "decision": "Keep preferences in context and separate typography from content-layer visibility. Label spacing choices accessibly; preserve the reading anchor after reflow. Hiding an indicator should not delete its underlying note.",
+   "limits": "Still images show interface states. Reveal gestures, drag timing, touch targets, screen-reader support and preference persistence were not independently tested. App build is not recorded.",
+   "deep_dives": []
+  },
+  {
+   "app": "Mere Bible (formerly NeuBible)",
+   "title": "Translations in a sheet over the reader",
+   "url": "https://missional.design/examples/mere-translation-sheet/",
+   "platform": "Mobile interface · device and OS not independently verified",
+   "observed": "Supplied 6 October 2026 · capture date not provided",
+   "observation": "A Change Version sheet lists abbreviations and full translation names. Some rows display a cloud-download symbol, while the chapter remains dimly visible behind the sheet.",
+   "decision": "Distinguish choosing an edition from downloading it. Explain availability in text or accessible labels rather than relying on a cloud icon alone.",
+   "limits": "Still images show interface states. Reveal gestures, drag timing, touch targets, screen-reader support and preference persistence were not independently tested. App build is not recorded.",
+   "deep_dives": []
+  },
+  {
+   "app": "NeuBible (now Mere Bible)",
+   "title": "Chapters as a strip inside the book list",
+   "url": "https://missional.design/examples/neubible-chapter-strip/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 4 September 2025 · from embedded image metadata",
+   "observation": "In the serif book list, each book shows its chapter count. Psalms is open, and its chapters appear as a single horizontal row of numbers (13 to 18 visible) inside the list, between Psalms and Ecclesiastes.",
+   "decision": "A horizontal strip keeps the book list on one screen, but only a few chapters are visible at once. For books with many chapters, test how people find a distant chapter and know there are more.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "finding-a-passage"
+   ]
+  },
+  {
+   "app": "YouVersion",
+   "title": "Book list with history, audio markers and two orders",
+   "url": "https://missional.design/examples/youversion-book-list/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "The Books list (German interface) has Cancel and History at the top, a speaker icon and an expand arrow on every book row, and a Traditional or Alphabetical switch at the bottom.",
+   "decision": "Offering both orders helps people who know a book’s name but not its place. Label what the speaker icon means in text, not only as an icon, and keep History distinct from browsing.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "finding-a-passage"
+   ]
+  },
+  {
+   "app": "YouVersion",
+   "title": "A chapter grid that opens inside the book list",
+   "url": "https://missional.design/examples/youversion-chapter-grid/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "Psalm is expanded inside the same Books list. Its chapters appear as a grid of square tiles, starting with an information tile before chapter 1, while Esther and Hiob (Job) stay visible above.",
+   "decision": "This is the same accordion structure observed in Mere Bible: book context stays visible while choosing. An introduction tile gives a book overview without leaving the picker; make sure it is clearly not chapter 0.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "finding-a-passage"
+   ]
+  },
+  {
+   "app": "Olive Tree Bible",
+   "title": "All 66 books in one view, as three-letter codes",
+   "url": "https://missional.design/examples/olivetree-book-codes/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 22 September 2025 · from embedded image metadata",
+   "observation": "A sheet shows Matthew selected, with Chapter and Verse fields above an Old Testament and a New Testament grid. Every book appears as a short code (Gen, Exo, 1Sa, 1Ch, SS, Jn) in nine columns, with no scrolling.",
+   "decision": "Seeing everything at once is fast for people who already know the books, and opaque for those who don’t. Codes need accessible full names, and the scheme must keep numbered books distinct.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "finding-a-passage"
+   ]
+  },
+  {
+   "app": "Hallow",
+   "title": "Translation notes at the moment of choosing",
+   "url": "https://missional.design/examples/hallow-versions/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 19 September 2025 · from embedded image metadata",
+   "observation": "“Suggested Bibles” lists NRSV, NABRE and RSVCE with notes such as “USCCB approved Catholic translation used in Hallow’s Daily Mass Readings”. GNB (Deutsch) is checked; HFA carries its copyright line; “Other Bibles” follows.",
+   "decision": "Explaining who approved or uses a translation, at the point of choice, helps people pick with understanding. Say who wrote the note, and avoid implying that unlisted editions are less legitimate.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": []
+  },
+  {
+   "app": "ESV Bible",
+   "title": "Audio playlists by feeling",
+   "url": "https://missional.design/examples/esv-when-feeling/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 26 September 2025 · from embedded image metadata",
+   "observation": "The Explore sheet’s Playlists tab shows a “When I’m Feeling” shelf with “When I’m Feeling Lonely” (17 tracks), “Anxious” (24) and “Overwhelmed” (22), between Joy, Peace and Confidence above and Holidays & Special Occasions below. Some covers carry a lock icon.",
+   "decision": "Feeling-based entry gives someone without a reference a way in. Say who curated each playlist and keep the passages connected to their context.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "finding-a-passage"
+   ]
+  },
+  {
+   "app": "Glorify",
+   "title": "Search for chapters, verses or emotions",
+   "url": "https://missional.design/examples/glorify-emotion-search/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "An empty search screen reads “Chapters, verses or emotions…” with chips for Anxiety, Doubt, Faith, Hope, Stress and Worry, and the prompt “Search for chapters, verses or emotions…”.",
+   "decision": "One field accepts both references and feelings. Make clear which kind of result each answer is, and who decided which passages match an emotion.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "finding-a-passage"
+   ]
+  },
+  {
+   "app": "BibleAI",
+   "title": "A “Predicted Answer” with numbered sources",
+   "url": "https://missional.design/examples/bibleai-cited-answer/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 1 October 2025 · from embedded image metadata",
+   "observation": "For “Talking animals”, a box labelled “Predicted Answer*” explains Balaam’s donkey and the serpent with circled numbers in the text. Chips below read “1 Genesis 3:1”, “2 Numbers 22:21-30” and “11 Desiring God”, above tabs for passages, articles, books and videos.",
+   "decision": "Numbered markers connect claims to sources and mix Scripture with a ministry’s articles. Show each source’s type, and check that every marker supports the sentence it sits in.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "ai-citations",
+    "ai-persona"
+   ]
+  },
+  {
+   "app": "BibleAI",
+   "title": "A declined answer, with curated media still offered",
+   "url": "https://missional.design/examples/bibleai-declined/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 1 October 2025 · from embedded image metadata",
+   "observation": "For “The bible says that gay people should be killed”, the answer box reads “Unable to find an answer to your question. Please check the articles and books for external references.” Below, the media tab shows videos and articles from Desiring God and Ligonier Ministries. A menu (Language, Settings, Login) is open at the top.",
+   "decision": "The wording presents a decline as a failure to find an answer, and the curated media then speaks for the app. Say plainly when the assistant won’t answer, and make clear whose perspective the suggested resources represent.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "ai-citations"
+   ]
+  },
+  {
+   "app": "BibleAI",
+   "title": "Bookmark and Share on each passage card",
+   "url": "https://missional.design/examples/bibleai-passage-actions/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 1 October 2025 · from embedded image metadata",
+   "observation": "Search results appear as passage cards (Job 12:7, Job 38:41, Psalm 104:25-26, Isaiah 34:14), each with its own Bookmark and Share actions.",
+   "decision": "Putting actions on the Scripture card means the passage, not generated text, is what people save and pass on.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "ai-answer-actions"
+   ]
+  },
+  {
+   "app": "Hallow",
+   "title": "Limits stated beside the input",
+   "url": "https://missional.design/examples/hallow-magisterium-intro/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 19 September 2025 · from embedded image metadata",
+   "observation": "A “Magisterium AI” chat suggests questions such as “Is euthanasia ever morally good?”, “What is the Church’s teaching on abortion?” and “Who is Saint Teresa of Avila and what is her story?”. Above the input: “Magisterium AI is in beta, so its responses are not always perfect. When in doubt consult a human.”",
+   "decision": "A limit stated next to where people type is more likely to be read than one in onboarding. Pair it with a real route to a person, and with how sensitive moral questions are handled.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "ai-citations"
+   ]
+  },
+  {
+   "app": "Spark Bible",
+   "title": "An AI label and thumbs at the end of the results",
+   "url": "https://missional.design/examples/sparkbible-ai-feedback/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "A numbered list of results for “Talking animals” (Revelation 5:13, Psalm 104:25-26, Matthew 7:6…) ends with “These results are generated with the assistance of a specially-tuned AI model. Your feedback helps us improve these results:” and thumbs-up and thumbs-down buttons. A “Plus” upsell banner sits above.",
+   "decision": "Labelling AI help where the results end is honest; say what happens to the feedback, and keep upsells apart from the label so one is not read as the other.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "ai-answer-actions"
+   ]
+  },
+  {
+   "app": "Olive Tree Bible",
+   "title": "“1 of 3 Complete” and the next reading, inside the text",
+   "url": "https://missional.design/examples/olivetree-plan-bar/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 22 September 2025 · from embedded image metadata",
+   "observation": "While reading Luke 1:75–2:1 (NGÜ, German), a thin progress line sits under the passage label, and a green bar in the text reads “1 of 3 Complete” and “Next – Mat 1:18-25”.",
+   "decision": "Progress tied to today’s assignment, with the next step one tap away, answers “what’s left?” without a dashboard. Check whether reading counts as complete automatically or by choice.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "progress-and-streaks",
+    "reading-plans"
+   ]
+  },
+  {
+   "app": "Abide",
+   "title": "A streak you can switch off, with history behind Premium",
+   "url": "https://missional.design/examples/abide-streaks/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 17 October 2025 · from embedded image metadata",
+   "observation": "The Streaks screen shows a current streak of 1 day beside a sprouting-plant illustration and “0 Total tracks completed”. A “Use streaks” switch is on. Past streak activity is covered by “Upgrade to view past streak activity · Unlock with Premium”.",
+   "decision": "Letting people turn streaks off is a meaningful choice. Putting their own history behind a paywall turns the record into an upsell; consider what people should be able to see about their own activity for free.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "progress-and-streaks",
+    "reading-plans"
+   ]
+  },
+  {
+   "app": "BeBlessed",
+   "title": "A seventh-day gift for daily listening",
+   "url": "https://missional.design/examples/beblessed-gift-streak/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 26 September 2025 · from embedded image metadata",
+   "observation": "“Story for You” reads “Daily listens earn a 7th-day gift!” above seven numbered circles ending in a gift icon and “Get a Gift!”. Below, a premium collection shows a 23:59:56 countdown.",
+   "decision": "A reward for consecutive days creates a reason to return that is about the reward. Combined with a countdown, it adds urgency. Test how people feel when they miss day six.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "progress-and-streaks"
+   ]
+  },
+  {
+   "app": "Glorify",
+   "title": "Progress as a growing tree",
+   "url": "https://missional.design/examples/glorify-tree/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "“My Journey” shows a sapling with roots, “Tree progress 3/10” as a segmented bar, “Trees grown 1”, and current and longest streaks of 0 and 2.",
+   "decision": "A metaphor can make small progress feel alive, and starts small enough for beginners. Here it sits beside a streak of 0, which still makes the gap visible.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "progress-and-streaks"
+   ]
+  },
+  {
+   "app": "Dwell",
+   "title": "A saved place, with no personal progress",
+   "url": "https://missional.design/examples/dwell-bible-resume/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "The Bible tab offers “Resume Genesis 1:3” for “The Bible, 84h 39m”. Books list their chapter count and audio length (Genesis, 50 chapters, 3h 58m). A mini-player shows Philippians 1.",
+   "decision": "The durations describe the recordings, not the listener: there is a way back in without any score. People who want to see what they have covered would need something more.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "progress-and-streaks"
+   ]
+  },
+  {
+   "app": "Glorify",
+   "title": "One verse per screen, with a step bar",
+   "url": "https://missional.design/examples/glorify-verse-stepper/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "Jeremiah 17:5–8 (NIV) is shown one verse at a time: verse 6 sits alone mid-screen under a four-part progress bar, with the reference and an information button above, “Bible version: NIV” below, and text-size and notes buttons at the bottom.",
+   "decision": "A verse at a time slows reading down and suits meditation on a short passage. The step bar keeps the passage boundary in view; the rest of the chapter is out of sight.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "how-much-text"
+   ]
+  },
+  {
+   "app": "Soultime",
+   "title": "A single verse isolated during playback",
+   "url": "https://missional.design/examples/soultime-focus-verse/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "While audio plays, a focus mode shows only Genesis 1:2 in white over a blurred sunset, under “Genesis · Chapter 1”, with a pause button in the corner.",
+   "decision": "Isolating the verse being read aloud makes listening and reading one act. Nothing on screen shows what came before or comes next.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "how-much-text"
+   ]
+  },
+  {
+   "app": "Dwell",
+   "title": "The current verse bright, the rest dimmed",
+   "url": "https://missional.design/examples/dwell-listen-focus/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "In Dwell’s Listen view, Genesis 1:2 is in full white while verses 1, 3 and 4 above and below are dimmed, each with its reference underneath. A Listen and Read switch sits at the top and a player shows “Genesis 1 · 31 Verses”.",
+   "decision": "Focus with the context still visible keeps the place during audio without hiding the passage. Check that dimmed text is still readable and announced by screen readers.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "how-much-text"
+   ]
+  },
+  {
+   "app": "Glorify",
+   "title": "One passage with its own audio",
+   "url": "https://missional.design/examples/glorify-passage-audio/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "The header reads “Judges 6:11-16” with a thin progress line beneath it; the passage scrolls in verse paragraphs above a player at 00:59 of 01:44, with speed and volume controls.",
+   "decision": "A passage-sized unit gives a daily reading a clear beginning and end. Make the way into the rest of Judges 6 as visible as the close button.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "how-much-text"
+   ]
+  },
+  {
+   "app": "YouVersion",
+   "title": "A chapter with section headings and verse ranges",
+   "url": "https://missional.design/examples/youversion-section-headings/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "Numbers 1 (Hoffnung für Alle, German) opens with “Vorbereitungen zum Aufbruch nach Kanaan”, a range “(Kapitel 1,1–10,10)” and a section heading, then continuous text with small verse numbers and indented name lists, over a play button and chapter arrows.",
+   "decision": "Long-form reading with headings keeps the chapter’s structure visible. The headings come from the translation’s editors and could be marked as such.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "how-much-text"
+   ]
+  },
+  {
+   "app": "Joseph Prince",
+   "title": "Teaching cards pinned to a verse",
+   "url": "https://missional.design/examples/jp-verse-media/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 22 October 2025 · from embedded image metadata",
+   "observation": "In Genesis 1 (NKJV, verse mode), a swipeable row of cards sits between verses 1 and 2. The first, marked “Genesis 1:1”, reads “See Jesus’ signature revealed from the very beginning of creation · Video · 2 Mins” beside a photo of the preacher and a lock badge; the next card, “A picture of the menorah hidden in Genesis 1:1 · Image”, peeks from the right, with three dots below.",
+   "decision": "Media anchored to the exact verse puts teaching where the question arises. It also places one teacher’s voice, and a subscription lock, inside the reading of Scripture.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "numbers-headings-and-notes"
+   ]
+  },
+  {
+   "app": "Joseph Prince",
+   "title": "A study layer you can switch off",
+   "url": "https://missional.design/examples/jp-study-toggle/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 22 October 2025 · from embedded image metadata",
+   "observation": "The reader’s Settings sheet shows Font and text size, “Show JP Study Bible” switched off and “View in Paragraph Mode” switched on, with the caption “The JP Study Bible is best experienced in Verse Mode and will be hidden in Paragraph Mode.”",
+   "decision": "Making the study layer switchable keeps the plain text available. Coupling it to verse mode is a design choice worth stating, as here.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "numbers-headings-and-notes"
+   ]
+  },
+  {
+   "app": "Faith",
+   "title": "Four AI personas to choose from",
+   "url": "https://missional.design/examples/faith-voice-personas/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "“Choose your voice for Faith” lists four cards over painted portraits: Faith (Female, “Empathetic, caring”), Creed (Male, “Calm, deep”), Hope (Female, “Enthusiastic, fast”) and True (Male, “Youthful, kind”), each with a play button. Faith is selected; a Continue button sits above the tab bar.",
+   "decision": "Choosing a temperament and a face makes the assistant a character. Nothing on the screen says the voices are synthetic or that the portraits are generated; say so where the choice is made.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "ai-persona"
+   ]
+  },
+  {
+   "app": "Faith",
+   "title": "A companion chat with a call button",
+   "url": "https://missional.design/examples/faith-companion-chat/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "The Chat tab is empty except for a faint “faith” wordmark, three painted portraits of praying figures and Jesus as suggestion cards (“Create a daily prayer for me”, “I need God’s peace today”, “Teach me about Jesus”), and a Message field with a phone icon for a voice call.",
+   "decision": "Portraits of praying people and of Jesus stand where a sender would be, and a call button suggests someone to ring. Test who people think they are talking to, and label the AI before the first message.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "ai-persona"
+   ]
+  },
+  {
+   "app": "Bible BFF",
+   "title": "“Biblical advice” from a friend",
+   "url": "https://missional.design/examples/bff-advice-friend/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 29 August 2025 · from embedded image metadata",
+   "observation": "An onboarding slide reads “Talk to Bible BFF for biblical advice” over a chat mockup: “I’m torn between my friends and my faith” is answered by “Bible BFF” in a casual voice (“Totally get that…”), quoting Galatians 1:10 and listing “Bible BFF advice, simple and real”. The next slide quotes a review: “like a religious friend who can explain anything about the Bible”.",
+   "decision": "A best-friend name and casual voice sell closeness, and “can explain anything” sets expectations no assistant can meet. Make the AI and its limits as visible as the friendship.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "ai-persona"
+   ]
+  },
+  {
+   "app": "Olive Tree Bible",
+   "title": "A second translation synced in a split screen",
+   "url": "https://missional.design/examples/olivetree-parallel-sync/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 22 September 2025 · from embedded image metadata",
+   "observation": "The upper pane shows the Neue Genfer Übersetzung (German) at Matthew 1:1 with a “Select Verse · Mat 1:1 NGÜ” bar. The lower pane, opened from the Parallel tab, shows the American Standard Version at “Mat 1:1-20 ASV” with a link icon in the corner.",
+   "decision": "A linked split screen keeps two translations, even in two languages, on the same passage. Show the link state in words as well as the icon, and give a way to realign after scrolling one pane.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": []
+  },
+  {
+   "app": "Glorify",
+   "title": "Other readers’ notes inside the text",
+   "url": "https://missional.design/examples/glorify-public-notes/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "Genesis 1 (NIV) opens with verses tinted where other readers have left notes and a coach mark: “Tap on any verse to highlight and add an annotation.” A bar at the bottom shows small avatars, a speech bubble with 353, and a “Public Notes” switch turned on. With the switch off, the same text appears clean.",
+   "decision": "Showing others’ notes inside Scripture turns reading into a conversation, and puts unvetted voices in the text. A switch helps; say whose notes they are, how they are moderated, and make the default a deliberate choice.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": []
+  },
+  {
+   "app": "Joseph Prince",
+   "title": "“Highlight added”, with a route to a note",
+   "url": "https://missional.design/examples/jp-highlight-added/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 22 October 2025 · from embedded image metadata",
+   "observation": "In Genesis 1 (NKJV), verses 25 and 26 carry overlapping pink and yellow highlights. A toast at the bottom reads “Highlight added” with an “Add Note” action.",
+   "decision": "Confirming the mark and offering a note in the same moment keeps capture quick and deeper reflection optional. Add undo, and make overlapping marks distinguishable without colour.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": []
+  },
+  {
+   "app": "NeuBible (now Mere Bible)",
+   "title": "Three actions over a selected verse",
+   "url": "https://missional.design/examples/neubible-verse-menu/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 4 September 2025 · from embedded image metadata",
+   "observation": "Genesis 1:3 is tinted pink as a selection, with a small floating menu above it: Highlight, Copy, Bookmark.",
+   "decision": "Three plain actions keep the passage visible and the decision small. Make sure the selection can also be made without a long press, and that the menu never covers the selected words.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": []
+  },
+  {
+   "app": "Pray As You Go",
+   "title": "A session script with timestamps",
+   "url": "https://missional.design/examples/payg-script/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "A Script sheet over the player lists the session in segments: at 0:00 a music card, “Ecce Quam Bonum · The Monks of Pluscarden Abbey”, with the day’s introduction (“Today is Thursday the 28th of August, the feast of Saint Augustine…”) and “(Lyrics currently unavailable)”; at 1:56 the reading, introduced as “Today’s reading is from Saint Paul’s First Letter to the Thessalonians.” Each segment has its own play button.",
+   "decision": "A timestamped script makes a produced session navigable and shows which words are Scripture, which are music and which are the editors’.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "bible-audio"
+   ]
+  },
+  {
+   "app": "Abide",
+   "title": "The author and narrator, named",
+   "url": "https://missional.design/examples/abide-narrator/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 17 October 2025 · from embedded image metadata",
+   "observation": "An options sheet over the “Take Courage” player names Michael Foust as Author and Johnathon Eltrevoog as Narrator, with a Follow button, thumbs up and down, download, Sleep Timer and Screencast; a tooltip notes the new location for the sleep timer.",
+   "decision": "Naming who wrote and who reads a session makes its voices accountable, and separates the devotional author from the narrator.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "bible-audio"
+   ]
+  },
+  {
+   "app": "BeBlessed",
+   "title": "A choice of background sound",
+   "url": "https://missional.design/examples/beblessed-background-sound/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 26 September 2025 · from embedded image metadata",
+   "observation": "Over a dark player, a sheet offers background sounds as chips (None, Piano, Nature sound, Gregorian chant, Vinyl, Rain, Ambient tones, Ocean waves), with None selected and a volume slider below.",
+   "decision": "Making the music bed a choice, with “None” first, respects people who find music distracting.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "bible-audio"
+   ]
+  },
+  {
+   "app": "Joseph Prince",
+   "title": "A chapter player with a sleep timer",
+   "url": "https://missional.design/examples/jp-chapter-player/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 22 October 2025 · from embedded image metadata",
+   "observation": "A sheet over the Genesis 1 (NKJV) reader shows “Genesis 1” with a progress bar, back and forward 30 seconds, previous and next chapter, a large play button, and Sleep Timer and 1x speed buttons.",
+   "decision": "A sleep timer and chapter controls support listening with the screen off; what plays after Genesis 1 is the next design question.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "bible-audio"
+   ]
+  },
+  {
+   "app": "Spark Bible",
+   "title": "A small media marker on Psalm 23:4",
+   "url": "https://missional.design/examples/sparkbible-psalm23-marker/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "In Psalm 23 (NIV, dark theme), a small media icon sits at the end of “through the darkest valley,” in verse 4, and another at the end of the visible text. There is no other decoration on the verse; a sparkle button floats at the bottom right.",
+   "decision": "A quiet marker says that help exists without turning the verse into a link. Give the marker an accessible name that says what kind of help it opens and how many, and let readers switch markers off.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "study-helps"
+   ]
+  },
+  {
+   "app": "Spark Bible",
+   "title": "A video docked over the passage",
+   "url": "https://missional.design/examples/sparkbible-video-sheet/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "A BibleProject video, “We Studied the ‘Day of the Lord’ in the Bible (Here’s What We Found)”, plays in a sheet over Matthew 1, while the reader above still shows Malachi 4:5 marked with its media icon. Share, Save and Details sit under the player.",
+   "decision": "A sheet that leaves the verse visible keeps the teaching tied to the text it is about. Name the publisher on the sheet, as here, and keep the marked verse in view while the media plays.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "study-helps"
+   ]
+  },
+  {
+   "app": "Spark Bible",
+   "title": "A timestamped transcript, with recognition errors",
+   "url": "https://missional.design/examples/sparkbible-transcript/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "The Transcript tab under a video lists lines with timestamps (00:00, 00:05, 00:10…), with a switch between timestamped and paragraph layouts. Several lines contain speech-recognition errors, such as “Full Or Theological Seminary” for Fuller Theological Seminary.",
+   "decision": "Timestamped transcripts let people check what a speaker said and jump to it. Automatic transcripts need correcting before they are shown as a record of what was said, and especially before anyone quotes them.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "study-helps",
+    "bible-audio"
+   ]
+  },
+  {
+   "app": "Olive Tree Bible",
+   "title": "A Resource Guide panel below the text",
+   "url": "https://missional.design/examples/olivetree-resource-guide/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 22 September 2025 · from embedded image metadata",
+   "observation": "The reader shows Matthew 1:1 in the NGÜ at the top, with a panel below headed “Mat 1:1-6”. The panel shows a Commentary Select promotion and “Related Verses” in five Bibles with counts (ESV 5, NKJV 5, NASB 3, NLT 1). Tabs at the bottom read Resource Guide, Parallel, Notes and Lookup.",
+   "decision": "A panel that follows the passage keeps resources current as the reader moves. Say which verses the panel is showing, as the “Mat 1:1-6” header does, and separate promotions from the resources themselves.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "study-helps"
+   ]
+  },
+  {
+   "app": "ESV Bible",
+   "title": "Plan settings with “Read at My Own Pace”",
+   "url": "https://missional.design/examples/esv-plan-settings/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 26 September 2025 · from embedded image metadata",
+   "observation": "The Plan Settings screen for “A Proverb a Day” has a Reset Plan button, switches for Read at My Own Pace, Subscribe via Email and Read Bible in Context, and rows for Reminders, All Days and About.",
+   "decision": "A pace switch turns a dated plan into a sequence that waits. Say what each change will do before it happens, and make sure Reset Plan keeps notes and history unless the reader chooses otherwise.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "reading-plans"
+   ]
+  },
+  {
+   "app": "Bible.is",
+   "title": "Change the start date of a plan",
+   "url": "https://missional.design/examples/bibleis-change-start/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 4 September 2025 · from embedded image metadata",
+   "observation": "On the “ONE - 2025” plan by GAST Team (4,776 followers), a Continue Plan button sits above a sheet offering Share, Change Start Date and Stop Plan.",
+   "decision": "Moving the start date shifts every reading without marking any as missed. Show the new end date before confirming, and keep the plan’s shared dates for people who follow it together.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "reading-plans"
+   ]
+  },
+  {
+   "app": "Hallow",
+   "title": "The day named before its readings",
+   "url": "https://missional.design/examples/hallow-daily-readings/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 19 September 2025 · from embedded image metadata",
+   "observation": "Daily Readings for Sep 19 open with “Friday of the Twenty-fourth Week in Ordinary Time” and “Lectionary: 447” above Reading 1 (1 Tm 6:2c-12) in full.",
+   "decision": "Naming the liturgical day and the lectionary number tells people whose calendar supplied the readings. Make the calendar itself (here the Roman Catholic lectionary for the United States) as findable as the date.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "prayer"
+   ]
+  },
+  {
+   "app": "Lebens Liturgien",
+   "title": "“Es ist Freitag Mittag”",
+   "url": "https://missional.design/examples/lebensliturgien-hour/",
+   "platform": "Mobile web · device model not recorded",
+   "observed": "Captured 17 October 2025 · from embedded image metadata",
+   "observation": "A near-empty yellow screen reads “Es ist Freitag Mittag” (“It is Friday midday”) beside three circular symbols for morning, midday and evening, above a four-icon tab bar. The hour’s prayer opens from here.",
+   "decision": "Naming the hour before offering anything places the person in a rhythm of the day rather than a feed. Check that the symbols also have names for screen readers.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "prayer"
+   ]
+  },
+  {
+   "app": "Hallow",
+   "title": "A typed intention before a session",
+   "url": "https://missional.design/examples/hallow-intention/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 19 September 2025 · from embedded image metadata",
+   "observation": "A “Pray for an Intention” sheet has “My mother” typed into an otherwise empty page, with a Play Session button above the keyboard. The intention then appears above the player during the session.",
+   "decision": "Bringing someone to mind before praying is a long practice, and a typed intention is intimate data. Say where it is stored and who can see it, and let people pray for someone without typing their name.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "prayer"
+   ]
+  },
+  {
+   "app": "Pray.com",
+   "title": "A prayer streak with missed days crossed out",
+   "url": "https://missional.design/examples/praycom-streak/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 20 August 2025 · from embedded image metadata",
+   "observation": "A gold flame above “1 Days Streak”; the week row shows Sunday to Tuesday crossed out and Wednesday ticked, and the text reads “Complete your daily prayer each day and your streak won’t reset!”.",
+   "decision": "Crossing out days of prayer turns them into failures. Prayer is not something an app can verify; avoid streaks for it altogether.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "prayer"
+   ]
+  },
+  {
+   "app": "Soultime",
+   "title": "Up to ten friends who support you",
+   "url": "https://missional.design/examples/soultime-friends/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "“Soultime with Friends” has two tabs, Supports You and Supported by You. The text reads: “These are the friends you’ve asked to support you. We’ll let them know when you might need a call. You’re limited to 10 supporters.” Three empty slots sit above an Invite a Friend button and the line “We never share your mood data with your friends”.",
+   "decision": "A small, chosen circle and a plain promise about what friends see are careful choices. “We’ll let them know” means the app decides when friends hear something; say how it decides.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "sharing-with-a-group"
+   ]
+  },
+  {
+   "app": "Soultime",
+   "title": "Friends nudged automatically, switched on",
+   "url": "https://missional.design/examples/soultime-friends-settings/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "“Soultime with Friends Settings” explains: “For many of us reaching out is one of the hardest parts. Soultime with Friends discretely nudges your friends automatically when we think you might need a call.” An “Automatic notifications” switch is on, with the note “Select ‘off’ if you would like us to ask you each time before we send your friends a notification.”",
+   "decision": "Reaching out is hard, and the app tries to help. But an inference about someone’s mood, sent to friends by default, is a disclosure they did not make. Ask each time by default, and say what the friends are told.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "sharing-with-a-group"
+   ]
+  },
+  {
+   "app": "Startblock",
+   "title": "Joining a group with a code from the leader",
+   "url": "https://missional.design/examples/startblock-group-code/",
+   "platform": "iOS app · German interface · device model not recorded",
+   "observed": "Captured 26 September 2025 · from embedded image metadata",
+   "observation": "A screen titled “Gruppen-Code eingeben” has a dashed field for “Gruppen Code”, a Beitreten (join) button, “oder” and a “QR Code scannen” button. Below: “Den Code für den Gruppenbeitritt erhältst du von deinem Gruppenleiter” (you get the code to join from your group leader).",
+   "decision": "Joining by a code from a leader keeps a group closed and gives it someone responsible. It also means the leader decides who is in; a group needs a way to raise a concern that does not go through that leader.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "sharing-with-a-group",
+    "reading-together"
+   ]
+  },
+  {
+   "app": "Hallow",
+   "title": "“Pray for others, be prayed for”",
+   "url": "https://missional.design/examples/hallow-community/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 19 September 2025 · from embedded image metadata",
+   "observation": "The Community tab, signed out, shows a small church on a purple background and “Sign in or create an account to pray alongside your community”, with three ticks: “Connect with your parish community and stay connected with fellow members”, “Pray for others, be prayed for” and “Strengthen your faith together through community challenges and discussions”.",
+   "decision": "The pitch makes the parish the audience. Hallow’s help centre adds the details that matter: requests of up to 240 characters, never anonymous, active for seven days, answered with a heart.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "sharing-with-a-group",
+    "first-use"
+   ]
+  },
+  {
+   "app": "Glorify",
+   "title": "One prayer thread for the whole community",
+   "url": "https://missional.design/examples/glorify-prayer-requests/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "A “Prayers” sheet opens on a card, “Prayer requests: How can the Glorify community be praying alongside you? 🙏”, with 481.63k responses. Below are requests posted one to six minutes earlier, each under a first name and avatar with heart and reply buttons (names and requests blurred here), and a “Leave a response” field.",
+   "decision": "A single public thread makes it easy to ask, and puts a stranger’s request about stress next to whatever comes next. Say who reads the thread, and what happens when a post says someone is not safe.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "sharing-with-a-group",
+    "prayer"
+   ]
+  },
+  {
+   "app": "YouVersion",
+   "title": "A friend’s new prayer among badges and friendships",
+   "url": "https://missional.design/examples/youversion-notifications/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "The Notifications list, newest first, mixes “You earned the Daily Refresh Badge”, new friendships and likes, invitations to read a plan together, “New Prayer from [a friend]: ‘Ukraine’” and “New Prayer from YouVersion: ‘A Prayer for Our World’”. Names and photos of friends are blurred here.",
+   "decision": "A shared prayer arrives in the same stream as badges and friendship likes. A request from a friend may deserve a quieter, separate place, and the person sharing should know it will appear in friends’ notifications.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "sharing-with-a-group",
+    "notifications"
+   ]
+  },
+  {
+   "app": "Pray.com",
+   "title": "Praise and Remind buttons for other people’s streaks",
+   "url": "https://missional.design/examples/praycom-board/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 20 August 2025 · from embedded image metadata",
+   "observation": "A Community Board lists “Active Streakers” with day counts in the thousands and Praise buttons, the viewer as “You · 1 days”, and a “Remind” section with Remind buttons beside people at 7, 2 and 1 days. “Invite to Pray” asks for access to contacts.",
+   "decision": "A board makes each person’s prayer record visible to others and invites nudging those who missed a day. Prayer “in secret” needs no audience; if a group prays together, share intentions by choice, never records.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "prayer",
+    "sharing-with-a-group"
+   ]
+  },
+  {
+   "app": "YouVersion",
+   "title": "Progress and participants on each plan",
+   "url": "https://missional.design/examples/youversion-plan-participants/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "My Plans lists three plans. “Bible on Business” shows a short progress bar and “1 Participant” with a small avatar (blurred here); the others show a cover and a title.",
+   "decision": "Progress and people sit together on the plan itself. In a plan with friends everyone sees each other’s completed days; say so before people join, and keep the bar for the reader alone unless they choose to show it.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "reading-together",
+    "reading-plans"
+   ]
+  },
+  {
+   "app": "YouVersion",
+   "title": "A profile that lists badges and verse images as activity",
+   "url": "https://missional.design/examples/youversion-profile-activity/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "The profile (the account holder’s name and photo blurred here) has tiles for Saved, Friends, Badges and Prayer List, above a stream of activity: “You earned the Daily Refresh Badge” with a heart and a comment button, then “You created a verse image for Lukas 8:5-8 NGU2011”.",
+   "decision": "A stream of activity makes reading into entries others can like. Say who sees each entry, and let people keep their reading off it.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "reading-together",
+    "progress-and-streaks"
+   ]
+  },
+  {
+   "app": "YouVersion",
+   "title": "Other readers’ notes related to a verse",
+   "url": "https://missional.design/examples/youversion-related-notes/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "“Related to Johannes 3:25” lists public notes from other readers (names and photos blurred here): each quotes the passage in a different translation, CSB or NIV, with the reader’s own note below and a menu for more actions.",
+   "decision": "Other readers’ notes can open a passage up, and they are interpretation. Label them as others’ words, show the translation each quotes, and say how they are moderated.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "reading-together"
+   ]
+  },
+  {
+   "app": "Glorify",
+   "title": "A public thread under a verse",
+   "url": "https://missional.design/examples/glorify-verse-thread/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "A sheet quotes Jeremiah 17:6 above Journal, Save and Share, then comments from people across the app (names and photos blurred here). The first reads the verse as a warning that people who don’t invite Christ into their lives will never do well; the second, about following anything other than God. A field at the bottom reads “Share your thoughts on Jeremiah 17:6”.",
+   "decision": "A thread makes every verse a conversation with strangers, who interpret it for each other with no one named to look after it. Say who moderates, and keep the text distinct from the comments.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "reading-together"
+   ]
+  },
+  {
+   "app": "Startblock",
+   "title": "A question for the group at the end of a unit",
+   "url": "https://missional.design/examples/startblock-unit-question/",
+   "platform": "iOS app · German interface · device model not recorded",
+   "observed": "Captured 26 September 2025 · from embedded image metadata",
+   "observation": "“Einheit 1 / 6” (unit 1 of 6) mixes short teaching with John 3:16 in bold and its reference in red. Near the end: “Damit kommen wir zur letzten Frage:” (that brings us to the last question), then a red banner: “Welchen Fragen stellst Du an Dein Leben?” (what questions do you ask of your life?).",
+   "decision": "A question gives a group something to talk about. Say who will see each answer, and let people answer only if they want.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "reading-together"
+   ]
+  },
+  {
+   "app": "Abide",
+   "title": "“What brings you here today?” as a photo grid",
+   "url": "https://missional.design/examples/abide-goal-grid/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 17 October 2025 · from embedded image metadata",
+   "observation": "A multi-select grid of twelve photo tiles (Reduce Anxiety, Grow Spiritually, Feel Peace, Sleep Better, Strengthen Relationships, Connect With God, Trust God, Experience Freedom, Increase Hope, Receive Healing, Improve Character, Love Well) under “Select one or more to continue.” Earlier steps ask for content types; between steps, interstitials show listener counts and five-star testimonials before a subscription offer.",
+   "decision": "Goals can shape a first suggestion. Say what each choice changes, let people skip, and keep social proof and sales out of the questions themselves.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "check-ins-and-assessments",
+    "first-use"
+   ]
+  },
+  {
+   "app": "Pray As You Go",
+   "title": "“Kids Prayer”: a prayer adventure every day",
+   "url": "https://missional.design/examples/payg-kids-prayer/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 26 August 2025 · from embedded image metadata",
+   "observation": "On the Pray as You Go website (iPad), a “Kids Prayer” page asks “Where can you find God around you? Go on a prayer adventure every day with God!” above “A Daily Offering for Children”, “Exams and Assessments” and “Examens for Kids (Ages 11-17)”, each with its length or number of sessions.",
+   "decision": "Short, named sessions for children inside a trusted prayer app, with ages given. A grown-up can choose them; check what else a child can reach from there.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "children-and-families"
+   ]
+  },
+  {
+   "app": "Pray As You Go",
+   "title": "“A Family Examen” beside children’s prayers",
+   "url": "https://missional.design/examples/payg-family-examen/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 26 August 2025 · from embedded image metadata",
+   "observation": "Below the kids’ sessions, “Imagination (for kids)”, “An Examen for Children”, “A Daily Offering for Children” and “A Family Examen” (5:47 mins) sit above a donation appeal.",
+   "decision": "A family examen is something to do together, not a child alone with a screen.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "children-and-families"
+   ]
+  },
+  {
+   "app": "Glorify",
+   "title": "A Kids rail among Sleep and Anxiety",
+   "url": "https://missional.design/examples/glorify-kids-rail/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "Explore shows chips for All, Sleep, Anxiety, Kids, Wisdom and Morning, and a Kids rail with “Day 1: Jesus - The Superhero” (2 min) and “Give God Your Worries - A Sleep...” (20 min), above a course on fear and anxiety.",
+   "decision": "Kids’ content sits beside adult courses on anxiety, one tap apart. Say who it is for, and what a child can reach from it.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "children-and-families"
+   ]
+  },
+  {
+   "app": "YouVersion",
+   "title": "A Kids Bible Experience card in the Today feed",
+   "url": "https://missional.design/examples/youversion-kids-experience/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "In the Today feed, between a reading plan and other cards, a card reads “He is Holy” with “Kids Bible Experience” and a photo of children. The account holder’s photo is blurred.",
+   "decision": "Children’s content appears in the adult feed, for a parent to share. A child using a parent’s phone sees everything else in the feed too.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "children-and-families"
+   ]
+  },
+  {
+   "app": "YouVersion",
+   "title": "“A plan for parents & kids”",
+   "url": "https://missional.design/examples/youversion-family-plans/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "Find Plans shows a section “Because You Completed Instilling a Spirit of Gentleness” with plans marked “A plan for parents & kids”: “Sharing God’s Peace with your kids”, “Developing Patience in Your Family”.",
+   "decision": "Plans written for parents to use with their children put the grown-up in the middle.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "children-and-families",
+    "reading-plans"
+   ]
+  },
+  {
+   "app": "Faith",
+   "title": "A “KIDS” label on a story of Lucifer’s fall",
+   "url": "https://missional.design/examples/faith-kids-fall/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "In a grid of animated series, a red “KIDS” badge marks “The Fall”, subtitled “Lucifer’s fall from heaven”, with a close-up of a menacing face, beside “Genesis Part 2”, “Messiah” and “David and Goliath”.",
+   "decision": "A KIDS label promises suitability; the image does not. Say what a story contains and for what age, and suggest watching hard stories together.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "children-and-families"
+   ]
+  },
+  {
+   "app": "Disney+",
+   "title": "Profiles with locks, and a way to add one",
+   "url": "https://missional.design/examples/disney-profile-locks/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "“Who’s watching?” shows five profile pictures, two with a lock below them, and “Add Profile”, with “Edit Profiles” at the top right. Profile names are blurred.",
+   "decision": "Locks on adult profiles keep children in theirs. A faith app shared by a family needs the same: a child’s space that does not open the adult one.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "children-and-families"
+   ]
+  },
+  {
+   "app": "WOW",
+   "title": "A “Kinderprofil” with a Kids badge",
+   "url": "https://missional.design/examples/wow-kids-profile/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "“Wer schaut?” (who’s watching?) shows a large profile picture marked “Kids” and named “Kinderprofil” (children’s profile), with an edit button and another profile partly visible.",
+   "decision": "A labelled children’s profile makes the difference visible to the child and the parent.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "children-and-families"
+   ]
+  },
+  {
+   "app": "Startblock",
+   "title": "A way to continue without signing in, on the first screen",
+   "url": "https://missional.design/examples/startblock-guest/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 26 September 2025 · from embedded image metadata",
+   "observation": "The Startblock logo above two buttons, Anmelden (sign in) and Registrieren (register), and at the foot of the screen the link “Ohne Anmeldung fortfahren” (continue without signing in).",
+   "decision": "A guest route on the first screen lets people try the courses before deciding. Make it as easy to find as the buttons, and ask for an account when there is something worth keeping.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "first-use"
+   ]
+  },
+  {
+   "app": "Startblock",
+   "title": "“What you need”: a paper Bible, a notebook, a pen and some time",
+   "url": "https://missional.design/examples/startblock-what-you-need/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 26 September 2025 · from embedded image metadata",
+   "observation": "Slide 4 of 5 of the intro, on red: a pencil-and-page icon, “Das brauchst du” (what you need) and “Eine Bibel aus Papier, ein Notizheft, einen Stift und etwas Zeit” (a paper Bible, a notebook, a pen and some time). “Intro überspringen” (skip intro) sits at the bottom left.",
+   "decision": "A tour that sets expectations about practice, not features, and points beyond the app. It is skippable on every slide.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "first-use"
+   ]
+  },
+  {
+   "app": "Bible.is",
+   "title": "“Create account later” beneath the mission",
+   "url": "https://missional.design/examples/bibleis-account-later/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 4 September 2025 · from embedded image metadata",
+   "observation": "A welcome screen over a photo: “Our mission is to provide people everywhere with free access to God’s Word through Audio Bibles.”, then Sign up and Sign in buttons, and at the bottom “CREATE ACCOUNT LATER”.",
+   "decision": "Stating the mission and offering to create an account later lets people listen first. The deferral link is small and at the bottom; it could be the main path.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "first-use"
+   ]
+  },
+  {
+   "app": "Joseph Prince",
+   "title": "A second ask when continuing as a guest",
+   "url": "https://missional.design/examples/jp-guest-sheet/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 22 October 2025 · from embedded image metadata",
+   "observation": "Over an email sign-in screen, a sheet reads “Are you sure?” and “Sign up or log in to an account to save your progress and also receive complimentary sermons from us.”, with a “Sign up or log in” button and a “Continue with guest” link.",
+   "decision": "A guest route exists, but choosing it is met with a second ask. Saying what an account keeps is helpful; asking twice adds pressure.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "first-use"
+   ]
+  },
+  {
+   "app": "Joseph Prince",
+   "title": "An account asked for at the moment of highlighting",
+   "url": "https://missional.design/examples/jp-highlight-account/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 22 October 2025 · from embedded image metadata",
+   "observation": "A guest reading Genesis 1 (NKJV) selects verse 26. The sheet below reads “Genesis 1:26 selected” and “Create a free account or log in to begin highlighting.”, with a sign-up button; Copy and Share remain available.",
+   "decision": "Asking for an account when someone wants to keep something is the honest moment: reading, copying and sharing stay open.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "first-use",
+    "highlights-and-notes"
+   ]
+  },
+  {
+   "app": "Bible BFF",
+   "title": "“Rate the app” before the app has been used",
+   "url": "https://missional.design/examples/bff-rate-first/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 29 August 2025 · from embedded image metadata",
+   "observation": "During onboarding, before any content, a screen over a painted landscape reads “Rate the app” with five stars, two avatars and a testimonial: “We love Bible BFF! It’s like a religious friend who can explain anything about the Bible” (-Emma & Rose), with a Continue button.",
+   "decision": "Asking for a rating before the first use asks people to vouch for something they have not tried. Apple’s guidance is to let people experience an app before prompting for ratings.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "first-use"
+   ]
+  },
+  {
+   "app": "Bible BFF",
+   "title": "A weekly plan as the first offer",
+   "url": "https://missional.design/examples/bff-weekly-trial/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 29 August 2025 · from embedded image metadata",
+   "observation": "“Unlock Bible BFF”, “3-day free trial.” and “No Payment Due Now” above two plans: Weekly Access, “3 days free then $6.99/week” (highlighted), and Monthly Access, “3 days free then 12.99/mo” with “50% off”. A “Try for FREE” button follows.",
+   "decision": "A weekly price makes the cost look small and adds up to far more over a year. Show the yearly cost of each plan, and the date of the first charge.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "first-use"
+   ]
+  },
+  {
+   "app": "Abide",
+   "title": "A trial screen with the reminder and charge dates",
+   "url": "https://missional.design/examples/abide-trial-timeline/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 17 October 2025 · from embedded image metadata",
+   "observation": "“How your free trial works”: “Get 7 days free, then only $39.99 per year”. A timeline shows “Today: Start Your Free Trial”, “Day 5: Trial Reminder” and “Day 7: Trial Ends”, “You’ll be charged on Oct 24, 2025, cancel anytime before.” Below: “On the next page you can choose a plan, or continue with the free version.”",
+   "decision": "Giving the reminder day and the charge date, and saying a free version exists, is honest. It still comes before the first use.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "first-use"
+   ]
+  },
+  {
+   "app": "Abide",
+   "title": "“Your subscription fuels a greater purpose”",
+   "url": "https://missional.design/examples/abide-greater-purpose/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 17 October 2025 · from embedded image metadata",
+   "observation": "A paywall headed “A Movement of Faith and Hope 100,000 Strong” lists “Bring Comfort to Others” (“While helping us offer free support to those facing loneliness, grief, or uncertainty”), “Better sleep is yours to share” and “Expand Our Reach”, above Annual ($39.99 a year) and Monthly ($9.99 a month) plans with 7 days free.",
+   "decision": "Saying what a subscription pays for is a fair ask. Say also what stays free for everyone, and keep the mission language from pressing people who cannot pay.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "first-use",
+    "giving"
+   ]
+  },
+  {
+   "app": "Spark Bible",
+   "title": "“You just used your last free study”",
+   "url": "https://missional.design/examples/sparkbible-last-free-study/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "Over an AI-generated “Themes - Psalm 23” sheet, a dialog reads “Get Unlimited AI-Enhanced Study Tools!” and “You just used your last free study, but you can unlock more by starting your free trial of Spark Bible Plus!”, with Learn More and Maybe later.",
+   "decision": "A free allowance for AI tools reflects a real cost per answer. Say what each study costs to make, show the allowance before it runs out, and keep crisis help outside any limit.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "first-use",
+    "ai-citations"
+   ]
+  },
+  {
+   "app": "Pray.com",
+   "title": "A mobile number at sign-up",
+   "url": "https://missional.design/examples/praycom-mobile-number/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 20 August 2025 · from embedded image metadata",
+   "observation": "“What’s your mobile number?” with a country selector and phone field (the number entered is blurred), a line on agreeing to the Terms of Service and Privacy Policy and confirming “you are at least 16 years old”, a Continue button and the phone keypad.",
+   "decision": "A phone number is more than most apps need to begin. Ask only for what the first use requires, and say why.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "first-use"
+   ]
+  },
+  {
+   "app": "Faith",
+   "title": "“How old are you?” during setup",
+   "url": "https://missional.design/examples/faith-age-question/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "“How old are you?” and “We’d love to know your age to personalize your experience”, above ranges from “12 or younger” to “45 or older”, and a Continue button.",
+   "decision": "An age question can protect children, or simply profile people. Say which it is, and what changes for a child; see the coming deep dive on children and families.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "first-use",
+    "check-ins-and-assessments",
+    "children-and-families"
+   ]
+  },
+  {
+   "app": "Spark Bible",
+   "title": "A notification prompt before the first verse",
+   "url": "https://missional.design/examples/sparkbible-notification-ask/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "During onboarding, behind the system dialog, a slide reads “Get the full experience.”; the dialog offers Allow, “Allow in Scheduled Summary” and Don’t Allow, with “Skip for now.” below.",
+   "decision": "Asking for notifications before someone has read anything gives them no reason to say yes. Ask when someone sets a reminder.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "first-use",
+    "reading-plans",
+    "notifications"
+   ]
+  },
+  {
+   "app": "Hallow",
+   "title": "A tracking request that says what it is for",
+   "url": "https://missional.design/examples/hallow-tracking-ask/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 19 September 2025 · from embedded image metadata",
+   "observation": "Over the Home screen, the system dialog asks to allow Hallow to track activity across other companies’ apps and websites, with Hallow’s text: “Your data will be used to help optimize new outreach and marketing efforts. We do not sell your data to third parties.”",
+   "decision": "Saying plainly what tracking is for helps people decide. It is still asked on the home screen, before anything requires it.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "first-use"
+   ]
+  },
+  {
+   "app": "Bible BFF",
+   "title": "“How much of the Bible have you read?”",
+   "url": "https://missional.design/examples/biblebff-quiz/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 29 August 2025 · from embedded image metadata",
+   "observation": "“Question 1 of 2” offers four answers (None of it, I know some stories, Most of it, Every page!) with “Most of it” selected. The next screen echoes the answer: “Wow, that’s incredible. We can’t wait for you to experience it in a new way!”",
+   "decision": "A familiarity question can set the right depth. Echoing every answer with praise turns a setting into flattery; say instead what the answer will change.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "check-ins-and-assessments",
+    "first-use"
+   ]
+  },
+  {
+   "app": "Soultime",
+   "title": "“With God I’m feeling”",
+   "url": "https://missional.design/examples/soultime-mood-checkin/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "The third step of a mood check-in shows three glowing orbs for Myself, Others and God, and a grid of 24 feeling words for God (Forgotten, Remembered, Forgiven, Distant, Content, Chosen, Victorious and others). “Forgiven” is selected; words that don’t fit with it are dimmed. A Finish button sits below.",
+   "decision": "Naming how one is with God echoes the Examen. Words like Forgiven or Chosen are theological claims as well as feelings; say who chose them, and keep the answers private.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "check-ins-and-assessments"
+   ]
+  },
+  {
+   "app": "Soultime",
+   "title": "Moods over a week, by dimension",
+   "url": "https://missional.design/examples/soultime-mood-stats/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "“My Stats” shows a line chart from Disconnected to Connected over a week, filters for All, With Myself, With Others, With God and Total, Share and “Soultime with friends” buttons, a grid of moods, and “Get Your Suggestions”.",
+   "decision": "A chart turns feelings into a trend to watch. Consider whether a list in the person’s own words is enough, and make any sharing a deliberate act.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "check-ins-and-assessments"
+   ]
+  },
+  {
+   "app": "Soultime",
+   "title": "A 61-statement personality test",
+   "url": "https://missional.design/examples/soultime-personality-test/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "“Personality Test · 0 / 61” shows four sentence completions on a seven-point Never to Always scale: “I ___ find it difficult to be vulnerable with God”, “I ___ experience God’s love”, “I ___ find giving God control in my life scary”, “When I do something wrong I ___ punish myself”.",
+   "decision": "These questions touch shame and images of God. Say before the first one why they are asked, who will read the answers, and how to stop and delete them.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "check-ins-and-assessments"
+   ]
+  },
+  {
+   "app": "Soultime",
+   "title": "An “Emotional and Spiritual Health Report”",
+   "url": "https://missional.design/examples/soultime-health-report/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "A web report headed with the user’s name (blurred here) and “Your Soultime Emotional and Spiritual Health Report · Full report · 31 Oct, 2022”, with “See how you’ve changed · Retake the Test”. The text invites the reader to read slowly and ponder each section, and says the results built “a tailored course of audio meditations”.",
+   "decision": "Inviting slow, reflective reading is careful. Calling it a health report and inviting retakes to see change frames the soul as something measured; say how the report was produced and what it cannot know.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "check-ins-and-assessments"
+   ]
+  },
+  {
+   "app": "HelloBible",
+   "title": "A profile of series, time in the app and conversations",
+   "url": "https://missional.design/examples/hellobible-profile-stats/",
+   "platform": "Android app · Pixel 8 Pro",
+   "observed": "Captured 8 October 2026 · from embedded image metadata",
+   "observation": "The profile shows a week strip under “Series” with days 5 to 8 marked, then six tiles: Current series 1 day, Daily verses 0, Record series 1 day, Time in the app 5 min, Conversations 32, Time Today 0 min. Settings follow; none of them lists or edits the answers given during onboarding.",
+   "decision": "Counting time in the app and conversations measures the product’s engagement, not the person’s life with God. If onboarding answers personalise the app, let people see and change them here.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "check-ins-and-assessments",
+    "progress-and-streaks",
+    "ai-memory"
+   ]
+  },
+  {
+   "app": "HelloBible",
+   "title": "“What is your gender?” with a reason and an opt-out",
+   "url": "https://missional.design/examples/hellobible-gender/",
+   "platform": "Android app · Pixel 8 Pro",
+   "observed": "Captured 8 October 2026 · from embedded image metadata",
+   "observation": "The first onboarding question, under a progress bar, asks “What is your gender?” and explains: “We need this information to interact with you better.” Options are Man, Woman and “I prefer not to answer”. The next question asks “What would you like me to call you?”.",
+   "decision": "Giving a reason and an opt-out is good practice. Say more precisely what the answer changes; “to interact with you better” could mean almost anything.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "check-ins-and-assessments"
+   ]
+  },
+  {
+   "app": "HelloBible",
+   "title": "A separate consent for using faith data with a partner AI",
+   "url": "https://missional.design/examples/hellobible-faith-consent/",
+   "platform": "Android app · Pixel 8 Pro",
+   "observed": "Captured 8 October 2026 · from embedded image metadata",
+   "observation": "Before an account is created, “We protect your privacy!” shows two unticked boxes: accepting the Terms of Use and Privacy Policy, and agreeing “that HelloBible may use what I share about my faith to personalize my answers, generated by a partner AI.” Below: “Your conversations stay private. They are never sold or used for advertising, and you can delete them at any time.”",
+   "decision": "A separate, unticked consent for faith data matches GDPR’s explicit consent for religious belief. Name the AI partner and where data is processed, and check that the app still works for someone who declines the second box.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "check-ins-and-assessments",
+    "ai-persona",
+    "ai-memory"
+   ]
+  },
+  {
+   "app": "HelloBible",
+   "title": "“Precise and biblical answers to all your questions”",
+   "url": "https://missional.design/examples/hellobible-promise/",
+   "platform": "Android app · Pixel 8 Pro",
+   "observed": "Captured 8 October 2026 · from embedded image metadata",
+   "observation": "An onboarding slide shows chat bubbles (“I have sinned… Can God still forgive me?”, “Why does God allow injustice?”, “How can I find peace?”, “How do I discern His will for my life?”) above the claim “HelloBible helps you find precise and biblical answers to all your questions.”",
+   "decision": "The questions are real and pastoral. Promising precise answers to all of them sets an expectation no source can meet; say whose tradition answers, and when a person should be asked instead.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "ai-citations",
+    "ai-persona"
+   ]
+  },
+  {
+   "app": "Pray As You Go",
+   "title": "Music Info names the monks and the composer",
+   "url": "https://missional.design/examples/payg-music-info/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "Over the player, a Music Info sheet lists “Ecce Quam Bonum · By The Monks of Pluscarden Abbey · A liturgy for St Columba The Monks of Pluscarden Abbey” and “Devotion · By Dear Gravity · The Pilgrimage Series: Wayfaring Dear Gravity”, each with Spotify, Artist Website and Apple Music links.",
+   "decision": "Crediting music inside the prayer session honours the people whose work carries it, and lets listeners find more. Credit authors and readers the same way.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "devotional-audio"
+   ]
+  },
+  {
+   "app": "Abide",
+   "title": "“Pick an audio length”",
+   "url": "https://missional.design/examples/abide-audio-length/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 17 October 2025 · from embedded image metadata",
+   "observation": "A sheet over a session titled “Take Courage” offers four lengths: “2 min · Pause & Pray”, “5 min · Pause & Renew”, “10 min · Meditate & Reflect” and “15 min · Meditate & Deepen”. Behind it, Exodus 3:11–12 is shown.",
+   "decision": "Offering lengths respects the listener’s day. Check that the short versions still read the passage whole, and say what is left out.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "devotional-audio"
+   ]
+  },
+  {
+   "app": "Abide",
+   "title": "A sleep shelf with narrators named",
+   "url": "https://missional.design/examples/abide-sleep-shelf/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 17 October 2025 · from embedded image metadata",
+   "observation": "The Sleep tab shows locked cards such as “calm devotion”, “God is Eternal”, “Through the Streets of Jerusalem”, “Generalized Anxiety”, “My Peace I Give You” and “Jesus Above Everything”, each with the narrator’s name under the artwork.",
+   "decision": "Naming the narrator on each card makes the voice accountable. Say also what each session contains, how it ends, and whether anything plays after it.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "devotional-audio"
+   ]
+  },
+  {
+   "app": "Dwell",
+   "title": "“Sleep to Scripture”: Psalms for the night",
+   "url": "https://missional.design/examples/dwell-sleep-scripture/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "Dwell Favorites shows “His Love Endures Forever · Sleep to Scripture”, Psalm 113–118 and Psalm 136, 42 minutes, above Daily Essentials with Psalms Daily and Proverbs Daily.",
+   "decision": "Long, unhurried Psalms are an old way to end the day. Let the reading fade to silence and stop.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "devotional-audio"
+   ]
+  },
+  {
+   "app": "Wondery+",
+   "title": "“Next from”: a podcast player’s auto-queue",
+   "url": "https://missional.design/examples/wondery-next-from/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 28 September 2025 · from embedded image metadata",
+   "observation": "A general podcast player shows the current episode, speed, skip and a sleep timer, then “Next from:” the same show with a list of further episodes queued to play.",
+   "decision": "A control example from a mainstream podcast app: the queue keeps listening going by default. A devotional session should end instead, and let the listener choose what comes next.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "devotional-audio"
+   ]
+  },
+  {
+   "app": "Hallow",
+   "title": "A running total of prayers prayed",
+   "url": "https://missional.design/examples/hallow-prayers-counter/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 19 September 2025 · from embedded image metadata",
+   "observation": "Below a “How to Pray · 14 Days on the Power of Prayer” card, the home screen shows “1,111,432,374 Prayers Prayed with Hallow”, with Share and QR Code buttons.",
+   "decision": "A global total presents prayer as a quantity and an app’s achievement. It counts sessions played, not prayers; if a number is shown at all, say what it actually measures.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "prayer"
+   ]
+  },
+  {
+   "app": "Pray.com",
+   "title": "“Active Streakers” to praise, and friends to “Remind”",
+   "url": "https://missional.design/examples/praycom-remind-friends/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 20 August 2025 · from embedded image metadata",
+   "observation": "A “Community Board” lists “Active Streakers” with the number of days each has kept a streak and a Praise button, then a “Remind” list of friends who stopped one to seven days ago, each with a Remind button, and “Invite to Pray” with access to contacts. Names and photos are blurred here.",
+   "decision": "A button to remind a friend who stopped turns one person’s silence into another’s notification. If friends are part of the app, let them pray for each other, not prompt each other back.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "notifications",
+    "progress-and-streaks",
+    "sharing-with-a-group"
+   ]
+  },
+  {
+   "app": "Soultime",
+   "title": "Friends notified automatically “when we think you might need a call”",
+   "url": "https://missional.design/examples/soultime-auto-nudge/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "“Soultime with Friends Settings”: “For many of us reaching out is one of the hardest parts. Soultime with Friends discreetly nudges your friends automatically when we think you might need a call.” “Automatic notifications” is switched on; switching it off means the app asks first.",
+   "decision": "The intention is care, and the mechanism is an inference about someone’s state sent to others by default. Ask every time, and let the person write the words.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "notifications",
+    "check-ins-and-assessments",
+    "sharing-with-a-group"
+   ]
+  },
+  {
+   "app": "ESV Bible",
+   "title": "Permission asked when a reminder is set",
+   "url": "https://missional.design/examples/esv-reminder-days/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 26 September 2025 · from embedded image metadata",
+   "observation": "“Add a reminder” with “Remind me on these days.” and every weekday ticked; the system dialog asks whether the ESV Bible may send notifications, with Allow, “Allow in Scheduled Summary” and Don’t Allow.",
+   "decision": "Asking at the moment someone sets a reminder gives them a reason to allow it, and the phone offers a quieter option.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "notifications",
+    "reading-plans"
+   ]
+  },
+  {
+   "app": "Glorify",
+   "title": "“Wake up” and “Wind down” reminders",
+   "url": "https://missional.design/examples/glorify-wake-wind-down/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "Two reminders, “WAKE UP” at 8:00 AM and “WIND DOWN” at 10:00 PM, each listing the days and with its own switch (both off), above the line “Set different times for your Daily Worship on weekdays and weekends to create good habits fast.” and an “ADD NEW REMINDER” button.",
+   "decision": "Reminders the person times to their own morning and evening. “Good habits fast” frames prayer as habit-building; say instead what the time is for.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "notifications",
+    "reading-plans"
+   ]
+  },
+  {
+   "app": "Joseph Prince",
+   "title": "A notification request over “Set a schedule”",
+   "url": "https://missional.design/examples/jp-schedule-permission/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 22 October 2025 · from embedded image metadata",
+   "observation": "The Today screen with a calendar, and below it a “Set a schedule” card: “Good habits start with a tiny action! Create a schedule to build healthy habits.” The system dialog asks whether “Joseph Prince” may send notifications, with “Allow in Scheduled Summary” as an option.",
+   "decision": "The request comes with a schedule the person is setting, which is the right moment.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "notifications",
+    "first-use"
+   ]
+  },
+  {
+   "app": "Pray.com",
+   "title": "A ministry donation that brings an ad-free subscription",
+   "url": "https://missional.design/examples/praycom-support-ad-free/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 20 August 2025 · from embedded image metadata",
+   "observation": "“Support & Go Ad Free” over a painted portrait of Jesus: a named ministry, “By supporting … you give to a ministry to spread the love of Jesus. As a gift to you, you get an Ad Free Subscription to Pray Premium.” Monthly or Yearly, then a “Most Popular” option, “Super donor $29.99/mo · 1 Ads Free Subscription”, a custom amount and Continue.",
+   "decision": "A gift that buys something is a purchase: Apple asks for in-app purchase when a gift is tied to content, and tax rules treat it as goods received. Keep the price and the gift apart.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "giving",
+    "first-use"
+   ]
+  },
+  {
+   "app": "Glorify",
+   "title": "“Pay it Forward”: tiers with “Most popular” ticked",
+   "url": "https://missional.design/examples/glorify-pay-it-forward/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "“Pay it Forward · Help keep Glorify free by supporting fellow community members.” Under “How many lives will you touch today?”: Kindness starter, support 1 member, $4.99 a month; Community builder, support 3 members, $14.99 a month, marked “MOST POPULAR” and already ticked; Impact maker, support 5 members, $24.99 a month; then “SUPPORT THE COMMUNITY”.",
+   "decision": "Sponsoring others is generous, and the middle tier is chosen for the giver before they decide. Leave every tier unticked, and say whether this is a gift or a subscription.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "giving"
+   ]
+  },
+  {
+   "app": "Abide",
+   "title": "A donate sheet with $50 chosen and monthly left unticked",
+   "url": "https://missional.design/examples/abide-donate-sheet/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 17 October 2025 · from embedded image metadata",
+   "observation": "“Give the gift of peace with your donation to Abide”: six amounts from $25 to $500 with $50 selected, “Or, your best gift”, a “Make it a monthly donation” box unticked, an email field “to thank you for your generosity and send a receipt” (the address is blurred here) and “Donate $50”.",
+   "decision": "A monthly gift left off is the honest default, and the receipt is named. A preselected amount still decides for the giver; start with none.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "giving"
+   ]
+  },
+  {
+   "app": "Startblock",
+   "title": "Prayer first, then help, then a bank account",
+   "url": "https://missional.design/examples/startblock-support/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 26 September 2025 · from embedded image metadata",
+   "observation": "“Unterstützen” opens with John 15:5, “Ohne mich (Gott) könnt ihr nichts tun.”, asks first for support through prayer (“Gebet”), then for help in the team (“Mitarbeit”), and then for donations (“Spenden”): the project is funded only by gifts, to a named association, by PayPal or bank transfer, with a donation receipt for those who give their name and address.",
+   "decision": "A support page that puts prayer and help before money, names the receiving association and offers a receipt asks nothing inside the app’s use.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "giving"
+   ]
+  },
+  {
+   "app": "Pray As You Go",
+   "title": "“The fruit of your gratitude”, with 80% to content",
+   "url": "https://missional.design/examples/payg-gratitude/",
+   "platform": "Website on iPad · device model not recorded",
+   "observed": "Captured 26 August 2025 · from embedded image metadata",
+   "observation": "On the Pray as You Go website, listener testimonials sit above “The fruit of your gratitude makes a difference.”, a ring chart of “80% of your donation” and the sentence that every penny goes to content, the app and the team.",
+   "decision": "Saying where a gift goes is honest; a percentage needs its year and what the rest pays for.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "giving"
+   ]
+  },
+  {
+   "app": "Bible.is",
+   "title": "A donation appeal for oral cultures",
+   "url": "https://missional.design/examples/bibleis-oral-cultures/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 4 September 2025 · from embedded image metadata",
+   "observation": "In Discover, a photo of people listening to an audio player, the sentence “70% of the world’s population lives and learns in an oral culture while 50% cannot read well enough to understand the Bible.”, and a “DONATE ONLINE” button.",
+   "decision": "An appeal tied to the app’s mission, with giving outside the app. Figures about the world need a source and a date in the app as well.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "giving"
+   ]
+  },
+  {
+   "app": "YouVersion",
+   "title": "A give screen that starts at zero, with monthly switched off",
+   "url": "https://missional.design/examples/youversion-give/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 11 October 2026 · on the editor’s phone with WebDriverAgent",
+   "observation": "Give opens on “$0” with the keypad open, “YouVersion” as the recipient, “Become a Sower · Make this a recurring gift” switched off, Process Date Today, Apple Pay, and “Enter Gift Amount” as the button.",
+   "decision": "Nothing is chosen for the giver: no amount, no regular gift. The recipient is named and can be changed.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "giving"
+   ]
+  },
+  {
+   "app": "YouVersion",
+   "title": "“Give to”: the app, or Bible translation",
+   "url": "https://missional.design/examples/youversion-give-to/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 11 October 2026 · on the editor’s phone with WebDriverAgent",
+   "observation": "A sheet titled “Give to” offers YouVersion (“When you support YouVersion, you get to help others experience God’s generous love”) and Bible Translation (“Help us get the Bible translated into every language by the year 2033.”).",
+   "decision": "Naming two purposes lets people choose what their gift pays for. Each still needs to say who receives the money and what it covers.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "giving"
+   ]
+  },
+  {
+   "app": "YouVersion",
+   "title": "Monthly gifts as Bibles per year",
+   "url": "https://missional.design/examples/youversion-sowers/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 11 October 2026 · on the editor’s phone with WebDriverAgent",
+   "observation": "“Become a Sower and take the Bible to the world.” (the account holder’s first name before it is blurred here), a video, and a slider of monthly amounts from $10 to $100: at $25, “600 Bibles Per Year”. A green “Give a Monthly Gift” button stays on screen.",
+   "decision": "Translating money into outcomes helps people see what they give to. Say what “a Bible” means here and where the figure comes from.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "giving"
+   ]
+  },
+  {
+   "app": "Churchome",
+   "title": "A church’s give screen with $100.00 filled in",
+   "url": "https://missional.design/examples/churchome-give-preset/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 11 October 2026 · on the editor’s phone with WebDriverAgent, as a guest",
+   "observation": "“THE CHURCHOME APP IS FREE TO ALL THANKS TO THE GENEROSITY OF PEOPLE LIKE YOU.” Below, “Gift Amount $100.00” is already filled in, above “Give with PushPay”, “Give with Apple Pay”, “Give with PayPal” and “Recurring Giving”. A guest banner reads “You are currently logged in as a guest.”",
+   "decision": "Saying that gifts keep the app free is honest. A filled-in amount decides for the giver, and $100 is a large first suggestion for someone new; start with none.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "giving"
+   ]
+  },
+  {
+   "app": "Churchome",
+   "title": "A recurring gift changed in another service",
+   "url": "https://missional.design/examples/churchome-recurring-pushpay/",
+   "platform": "iOS app · device model not recorded",
+   "observed": "Captured 11 October 2026 · on the editor’s phone with WebDriverAgent, as a guest",
+   "observation": "In the giving FAQs, “How do I make changes to my recurring donation?” opens to “To make changes to your recurring donation, you can login in directly to your Pushpay account.” Other questions cover where a donation goes, tax deductibility, giving statements and an annual audit.",
+   "decision": "The FAQ answers the question, but the change happens elsewhere. Put a regular gift’s Change and Stop where the gift is shown, or link straight to them.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
+   "deep_dives": [
+    "giving"
+   ]
+  }
+ ],
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

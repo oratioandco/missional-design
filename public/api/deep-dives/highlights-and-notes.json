@@ -1,0 +1,434 @@
+{
+ "slug": "highlights-and-notes",
+ "url": "https://missional.design/patterns/highlights-and-notes/",
+ "title": "Highlights and notes",
+ "question": "How should readers mark a passage?",
+ "lede": "Readers mark Scripture to come back, to remember, to ask a question or to talk with others. Every mark says something and is kept somewhere: a ribbon says only “return here”, a highlight says “this”, a note says what the reader thinks, and a shared note says it to others. Decide how much a mark asks, how it looks, and who can see it. A mark is a small act of attention, sometimes of prayer. Treat what people mark as theirs.",
+ "calling": "A mark is a reader’s answer to the text; keep it as carefully as they made it.",
+ "spectrum": {
+  "title": "From a silent mark to a shared note",
+  "from": "Just for me, little said",
+  "to": "More said, to others"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/marking/",
+  "situation": "Mark 4:35–41 in the Berean Standard Bible, with the words “Be still!” in verse 39 already selected. Each option offers a different kind of mark, from a silent bookmark to a note others can read. Make a mark, then switch the translation to the BSB and see what happens to it."
+ },
+ "options": [
+  {
+   "key": "bookmark",
+   "name": "Bookmark",
+   "provenance": "Familiar convention",
+   "origin": "A familiar convention: a ribbon that means only “return here”, as in NeuBible’s three-item menu (Highlight, Copy, Bookmark); see the screenshot below.",
+   "gain": "A place to return to",
+   "cost": "Records no thought",
+   "makes_easier": "Says nothing and asks nothing: a place to come back to.",
+   "costs": "Records no thought; many bookmarks become a list nobody returns to.",
+   "ask_your_team": "Is a place to return to enough for what readers are trying to keep?",
+   "still": "https://missional.design/assets/stills/try-marking-bookmark.jpg"
+  },
+  {
+   "key": "highlight",
+   "name": "Highlight",
+   "provenance": "Observed",
+   "origin": "Observed in the Joseph Prince app (“Highlight added · Add Note”) and most Bible apps; see the screenshot below.",
+   "gain": "One tap, the exact words",
+   "cost": "Stays with one translation",
+   "makes_easier": "One tap, with undo; marks the exact words that stood out.",
+   "costs": "Highlighting alone does little for learning; a mark on exact words cannot follow a different translation.",
+   "ask_your_team": "What happens to a highlight on exact words when the reader switches translation?",
+   "still": "https://missional.design/assets/stills/try-marking-highlight.jpg"
+  },
+  {
+   "key": "labelled",
+   "name": "Labelled marks",
+   "provenance": "Familiar convention",
+   "origin": "A familiar convention in study tools, which offer named highlighter styles. Here each label has its own shape, not only a colour.",
+   "gain": "Readable without colour",
+   "cost": "A scheme to maintain",
+   "makes_easier": "A personal shorthand that is readable without colour and easy to find later.",
+   "costs": "Asks for a decision before saving; labels can drift into a scheme to maintain.",
+   "ask_your_team": "Are labels optional, readable without colour, and owned by the reader?",
+   "still": "https://missional.design/assets/stills/try-marking-labelled.jpg"
+  },
+  {
+   "key": "note",
+   "name": "Private note",
+   "provenance": "Familiar convention",
+   "origin": "A familiar convention: a note attached to the verse, private by default. Here it follows the verse into any translation.",
+   "gain": "Your own words, remembered",
+   "cost": "Sensitive, so must stay private",
+   "makes_easier": "The reader’s own words, which are remembered better than words they only read.",
+   "costs": "Takes effort; notes on Scripture reveal faith and struggles, so privacy is not optional.",
+   "ask_your_team": "Where are notes stored, who can see them, and do people know?",
+   "still": "https://missional.design/assets/stills/try-marking-note.jpg"
+  },
+  {
+   "key": "shared",
+   "name": "Shared note",
+   "provenance": "Observed",
+   "origin": "Observed in Glorify, where a “Public Notes” toggle shows other readers’ notes in the text (353 on Genesis 1); see the screenshot below. Community notes here were written for this example.",
+   "gain": "Reading with others",
+   "cost": "Others’ words inside Scripture",
+   "makes_easier": "Reading with others: their questions and comfort beside the text.",
+   "costs": "Others’ words sit inside Scripture; private struggles can be shared too widely; moderation is needed.",
+   "ask_your_team": "Before someone shares a note, do they know exactly who will see it?",
+   "still": "https://missional.design/assets/stills/try-marking-shared.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Reading with a pen is old",
+   "text": "Readers have marked Bibles for centuries; Jonathan Edwards filled an interleaved Bible with over five thousand notes. A study of used textbooks found placemarks, signals, interpretation and problem working, and students sought out well-annotated copies. Support several kinds of mark, not one palette."
+  },
+  {
+   "heading": "Highlighting is for returning, notes are for remembering",
+   "text": "A review of study techniques rated highlighting low for learning, and decades of studies show people remember what they put in their own words. That does not make highlights pointless: they say “come back here”. Offer a note one tap away, never as a requirement."
+  },
+  {
+   "heading": "Colour cannot carry the meaning alone",
+   "text": "Marks, selection, search and read-along highlighting often share the same tint. Give each label a shape (underline, outline, wavy line) and show playback with a different cue, so the reader can tell a saved mark from a moving one without relying on colour."
+  },
+  {
+   "heading": "A mark belongs to a translation, a note to the verse",
+   "text": "A highlight on the BSB’s “Be still!” has no exact match in the KJV’s “Peace, be still.” Keep exact-word marks with their translation and say so when the reader is elsewhere; let bookmarks and notes follow the verse."
+  },
+  {
+   "heading": "Notes on Scripture are sensitive",
+   "text": "Notes record faith, doubt, grief and sin. Under European data law, religious belief is special-category data. Keep notes private by default, make sharing a separate step that names the audience, and label other readers’ notes as theirs, as Glorify’s Public Notes switch begins to do."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "Keeping a place",
+   "needs": "Come back later",
+   "fit": {
+    "Bookmark": "good fit",
+    "Highlight": "possible",
+    "Labelled marks": "possible",
+    "Private note": "poor fit",
+    "Shared note": "poor fit"
+   }
+  },
+  {
+   "situation": "Marking what stood out",
+   "needs": "Quick, the exact words",
+   "fit": {
+    "Bookmark": "poor fit",
+    "Highlight": "good fit",
+    "Labelled marks": "good fit",
+    "Private note": "possible",
+    "Shared note": "poor fit"
+   }
+  },
+  {
+   "situation": "Study and teaching",
+   "needs": "Find marks by kind",
+   "fit": {
+    "Bookmark": "poor fit",
+    "Highlight": "possible",
+    "Labelled marks": "good fit",
+    "Private note": "good fit",
+    "Shared note": "possible"
+   }
+  },
+  {
+   "situation": "Prayer and reflection",
+   "needs": "Private, in my own words",
+   "fit": {
+    "Bookmark": "possible",
+    "Highlight": "possible",
+    "Labelled marks": "possible",
+    "Private note": "good fit",
+    "Shared note": "poor fit"
+   }
+  },
+  {
+   "situation": "Small group",
+   "needs": "Share with known people",
+   "fit": {
+    "Bookmark": "poor fit",
+    "Highlight": "poor fit",
+    "Labelled marks": "poor fit",
+    "Private note": "possible",
+    "Shared note": "good fit"
+   }
+  },
+  {
+   "situation": "Reading in greyscale or with a screen reader",
+   "needs": "Marks that are not only colour",
+   "fit": {
+    "Bookmark": "good fit",
+    "Highlight": "poor fit",
+    "Labelled marks": "good fit",
+    "Private note": "good fit",
+    "Shared note": "possible"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and practice",
+   "subtitle": "Keeping the word",
+   "findings": [
+    {
+     "heading": "Write it, hide it, ponder it",
+     "text": "Deuteronomy 6:9; Psalm 119:11; Luke 2:19. Marking and noting are ways of keeping Scripture, not only of studying it.",
+     "sources": []
+    },
+    {
+     "heading": "Reading with a pen",
+     "text": "Edwards’s Blank Bible; annotated textbooks valued by later readers.",
+     "sources": [
+      "edwards-blank-bible",
+      "marshall-annotation"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Learning science",
+   "subtitle": "What marks do for memory",
+   "findings": [
+    {
+     "heading": "Highlighting is low utility for learning",
+     "text": "Rated low in a review of ten study techniques.",
+     "sources": [
+      "dunlosky-2013"
+     ]
+    },
+    {
+     "heading": "Own words are remembered",
+     "text": "Information people generate is remembered better than information they read.",
+     "sources": [
+      "generation-effect"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Privacy and access",
+   "subtitle": "Best practice",
+   "findings": [
+    {
+     "heading": "Religious belief is special-category data",
+     "text": "Processing needs an Article 9 condition; inferences about belief from behaviour count too.",
+     "sources": [
+      "gdpr",
+      "ico-special-inferences"
+     ]
+    },
+    {
+     "heading": "How Bible apps handle it",
+     "text": "Current annotation and plan privacy settings in Olive Tree and YouVersion.",
+     "sources": [
+      "olive-annotations-current",
+      "youversion-plan-privacy"
+     ]
+    },
+    {
+     "heading": "Not colour alone",
+     "text": "Colour must not be the only way to tell marks apart.",
+     "sources": [
+      "wcag-use-of-color"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "People mainly want to keep their place",
+   "start_with": "A bookmark, one tap, following the verse"
+  },
+  {
+   "if": "People mark what stands out as they read",
+   "start_with": "One-tap highlight with undo, attached to the translation"
+  },
+  {
+   "if": "People study and want to find marks again",
+   "start_with": "A few labelled marks, each with its own shape"
+  },
+  {
+   "if": "People pray and reflect",
+   "start_with": "Private notes on the verse, stored and exported carefully"
+  },
+  {
+   "if": "Groups read together",
+   "start_with": "Sharing as a separate step that names the group; others’ notes switchable"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What keeping the word is for",
+   "text": "Scripture asks to be kept: written “on the doorposts of your houses” (Deuteronomy 6:9), hidden in the heart (Psalm 119:11), pondered as Mary “treasured up all these things” (Luke 2:19). The blessed person meditates on the law “day and night” (Psalm 1:2). A mark is often a prayer, a question or a promise held onto in a hard week."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Some traditions treat the physical book with great reverence: the Gospel book is carried in procession and kissed, and some believers would not write in a Bible. Others have read with a pen for centuries: Jonathan Edwards filled an interleaved Bible with thousands of notes. Traditions also differ on how personal interpretation relates to the church’s reading (2 Peter 1:20)."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "A mark belongs to the reader. Keep it private unless they choose otherwise, let it travel with them if they leave, and never mine it for advertising. Make marks distinguishable from the text itself, so a reader’s note is never mistaken for Scripture."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Eugene Peterson, Eat This Book (2006)",
+   "url": "https://www.publishersweekly.com/9780802829481",
+   "note": "commends lectio divina, dwelling on a short passage until it is taken in; a mark is often the trace of that dwelling."
+  },
+  {
+   "source": "Dietrich Bonhoeffer, Life Together (1939)",
+   "url": "https://www.9marks.org/review/book-review-life-together-by-dietrich-bonhoeffer",
+   "note": "pairs life together with time alone with Scripture: what a reader keeps privately belongs to that time alone."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Notes are public by default to grow a feed, and locked into the app.",
+  "ethical": "Keep notes private by default, allow undo, and make every mark readable without colour.",
+  "redemptive": "Let people export all their notes in an open format and take them elsewhere, giving up lock-in.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "Can someone mark in one tap and undo, tell every mark apart without colour, and say exactly who can see each note?",
+  "exercise": "Ask three readers to mark Mark 4:39 as they would at home, then switch translation and explain where their mark went. Turn the screen to greyscale and repeat. Finally, ask who can see the note they wrote, and check.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [
+  {
+   "slug": "annotation-anchors",
+   "title": "The annotation anchor is explicit",
+   "summary": "Make exact wording and reference-based notes different personal objects.",
+   "url": "https://missional.design/patterns/highlights-and-notes/#family-annotation-anchors"
+  },
+  {
+   "slug": "highlight-overlap",
+   "title": "Overlaps remain legible",
+   "summary": "Distinguish playback, selection, search and saved highlights.",
+   "url": "https://missional.design/patterns/highlights-and-notes/#family-highlight-overlap"
+  },
+  {
+   "slug": "highlight-actions",
+   "title": "Mark a passage without interrupting the thought",
+   "summary": "Quick highlighting and deeper organisation can happen at different moments.",
+   "url": "https://missional.design/patterns/highlights-and-notes/#family-highlight-actions"
+  },
+  {
+   "slug": "verse-comments",
+   "title": "Keep my note distinct from a shared comment",
+   "summary": "Origin, audience and anchor belong to the note—not just its screen.",
+   "url": "https://missional.design/patterns/highlights-and-notes/#family-verse-comments"
+  }
+ ],
+ "examples": [
+  {
+   "app": "Joseph Prince",
+   "title": "An account asked for at the moment of highlighting",
+   "url": "https://missional.design/examples/jp-highlight-account/",
+   "observed": "Captured 22 October 2025 · from embedded image metadata",
+   "observation": "A guest reading Genesis 1 (NKJV) selects verse 26. The sheet below reads “Genesis 1:26 selected” and “Create a free account or log in to begin highlighting.”, with a sign-up button; Copy and Share remain available.",
+   "decision": "Asking for an account when someone wants to keep something is the honest moment: reading, copying and sharing stay open.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "marshall-annotation",
+   "title": "Annotation: from paper books to the digital library",
+   "url": "https://www.readkong.com/page/annotation-from-paper-books-to-the-digital-library-2865025",
+   "author": "Catherine C. Marshall · ACM Digital Libraries, 1997",
+   "kind": "Research",
+   "shows": "A study of annotations in some 410 used university textbooks found placemarks, procedural signals, interpretation and problem working; students sought out well-annotated copies.",
+   "application": "Support several kinds of mark, from a place to return to a written interpretation, and value others’ notes cautiously.",
+   "limits": "Textbooks in one university setting; paper, not apps."
+  },
+  {
+   "key": "edwards-blank-bible",
+   "title": "The Works of Jonathan Edwards, vol. 24: The “Blank Bible”",
+   "url": "https://yalebooks.yale.edu/9780300109313/the-works-of-jonathan-edwards-vol-24",
+   "author": "Yale University Press",
+   "kind": "History",
+   "shows": "From 1730 Edwards wrote over five thousand notes in a Bible interleaved with blank pages, over three decades.",
+   "application": "Reading with a pen is a long devotional and scholarly practice; notes deserve durability and export.",
+   "limits": "One exceptional reader."
+  },
+  {
+   "key": "dunlosky-2013",
+   "title": "Improving students’ learning with effective learning techniques",
+   "url": "https://www.sciencedaily.com/releases/2013/01/130110111734.htm",
+   "author": "Dunlosky and colleagues · Psychological Science in the Public Interest, 2013 (press summary)",
+   "kind": "Research",
+   "shows": "Of ten study techniques, highlighting and underlining were rated low utility; practice testing and distributed practice were rated high.",
+   "application": "Treat highlighting as a way to return, not as learning; offer notes and recall for those who want to remember.",
+   "limits": "Educational learning outcomes, not devotional reading."
+  },
+  {
+   "key": "generation-effect",
+   "title": "The generation effect: a meta-analytic review",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17645161/",
+   "author": "Bertsch, Pesta, Wiscott and McDaniel · Memory & Cognition, 2007",
+   "kind": "Research",
+   "shows": "Across 86 studies, information people generate themselves is remembered better than information they only read (effect size about 0.40).",
+   "application": "A note in the reader’s own words does more for memory than a highlight.",
+   "limits": "Laboratory memory tasks, mostly word lists."
+  },
+  {
+   "key": "gdpr",
+   "title": "Process personal data lawfully",
+   "url": "https://www.edpb.europa.eu/sme/be-compliant/process-personal-data-lawfully_en",
+   "author": "European Data Protection Board",
+   "kind": "EU legal guidance",
+   "shows": "Special-category processing needs an appropriate Article 9 exception in addition to an Article 6 basis.",
+   "application": "Separate conversation processing, durable memory, training and sharing purposes.",
+   "limits": "Specific lawful basis, retention and DPIA decisions require the actual data flows."
+  },
+  {
+   "key": "ico-special-inferences",
+   "title": "What is special category data?",
+   "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/",
+   "author": "UK Information Commissioner’s Office",
+   "kind": "Regulator guidance · UK",
+   "shows": "Religious and health information, including specified intentional inferences, receive special treatment.",
+   "application": "Review chat, activity histories and inferred segments.",
+   "limits": "Context and processing intent matter; not every Bible-page visit automatically establishes a belief."
+  },
+  {
+   "key": "olive-annotations-current",
+   "title": "Android Annotation Overview",
+   "url": "https://help.olivetree.com/hc/en-us/articles/360000264306-Android-Annotation-Overview",
+   "author": "Olive Tree Support",
+   "kind": "Product documentation",
+   "shows": "Distinguishes word-based and verse-based annotations.",
+   "application": "Explain the difference between exact-text and reference anchors.",
+   "limits": "Provider documentation; edition mapping and actual accessibility need separate testing."
+  },
+  {
+   "key": "youversion-plan-privacy",
+   "title": "Android: Plan Privacy",
+   "url": "https://help.youversion.com/l/en/article/8cmc1jj49w-plan-privacy-android",
+   "author": "YouVersion Support",
+   "kind": "Product documentation",
+   "shows": "Distinguishes private activity, friends-only activity and Plan with Friends participation.",
+   "application": "Make audience and activity visibility explicit.",
+   "limits": "Documented Android behaviour, not a captured or tested flow. Help text may change."
+  },
+  {
+   "key": "wcag-use-of-color",
+   "title": "Understanding Use of Color",
+   "url": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html",
+   "author": "W3C WAI · WCAG 2.2 success criterion 1.4.1",
+   "kind": "Accessibility",
+   "shows": "Colour must not be the only visual means of conveying information or distinguishing an element.",
+   "application": "Give each kind of mark a shape or label, and distinguish saved marks from selection and playback without colour.",
+   "limits": "Accessibility guidance."
+  }
+ ],
+ "review": null,
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

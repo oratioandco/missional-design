@@ -1,0 +1,555 @@
+{
+ "slug": "reading-together",
+ "url": "https://missional.design/patterns/reading-together/",
+ "title": "Reading together",
+ "question": "When people read Scripture together through an app, what do the others see, and who looks after the conversation?",
+ "lede": "Reading Scripture with others is one of the oldest ways of reading it. Two disciples on the road to Emmaus asked each other afterwards, “Were not our hearts burning within us as He spoke with us on the road and opened the Scriptures to us?” (Luke 24:32). Apps now offer the same passage on the same day, guides for a group, plans with friends, comments on every verse and feeds of what friends have read. Each decides what the others see of your reading, and who looks after the conversation. Most days, reading together is a gift. Some days someone falls behind, or a verse is turned against the person who has just shared. Design for both.",
+ "calling": "Share the passage and the conversation, not the record, and make sure someone looks after what is said.",
+ "spectrum": {
+  "title": "From the same passage to everything shown",
+  "from": "Less of your reading is seen",
+  "to": "More of your reading is seen"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/together/",
+  "situation": "A small group is reading Matthew 18:21–22, where Peter asks how many times he must forgive. First try an ordinary day. Then fall four days behind and see what you, and the others, can see. Then read on as Lena shares that she is finding it hard to forgive someone who hurt her badly, and another member answers her with a verse. Notice what each person sees of the others, and who looks after the conversation."
+ },
+ "options": [
+  {
+   "key": "same",
+   "name": "The same passage, nothing shown",
+   "provenance": "Familiar convention",
+   "origin": "Familiar from shared daily texts: the Moravian Daily Texts, printed since 1731, lectionaries and a church’s own reading plan. Everyone reads the same words on the same day; nothing in the app shows who read. The church and its Thursday group are written for this example.",
+   "gain": "Nothing to compare or answer",
+   "cost": "No one to talk it over with",
+   "makes_easier": "Nobody is compared, and nobody can answer badly.",
+   "costs": "No one to talk it over with, unless the group meets.",
+   "ask_your_team": "Where will people talk about what they read, if not here?",
+   "still": "https://missional.design/assets/stills/try-together-same.jpg"
+  },
+  {
+   "key": "gathered",
+   "name": "A guide for meeting in person",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from group practice outside apps: the seven steps of Bible sharing (the Lumko method), whose rule for sharing is “Keine Diskussion, kein Vortrag” (no discussion, no lecture), and the Västerås method’s marks for questions, insights and experiences. Not observed in an app. The steps are shortened, and the leader’s notes are written for this example.",
+   "gain": "Words stay in the room",
+   "cost": "Needs people in one place",
+   "makes_easier": "What is said stays in the room, and the steps start with listening.",
+   "costs": "Needs people in one place, and a leader who follows the guide.",
+   "ask_your_team": "What does the guide tell a leader to do when a share goes wrong?",
+   "still": "https://missional.design/assets/stills/try-together-gathered.jpg"
+  },
+  {
+   "key": "led",
+   "name": "A group with a leader",
+   "provenance": "Observed",
+   "origin": "Observed in Startblock, where people join a group with a code from their leader and work through units with a question banner; see the screenshots below. The leader’s replies, the group’s agreement and the safeguarding contact are proposals.",
+   "gain": "Someone looks after the talk",
+   "cost": "The leader sees who answers",
+   "makes_easier": "Someone looks after the conversation, and the group is closed.",
+   "costs": "The leader sees who answers, and may be close to a concern.",
+   "ask_your_team": "Who looks after the group when the leader is part of the problem?",
+   "still": "https://missional.design/assets/stills/try-together-led.jpg"
+  },
+  {
+   "key": "plan",
+   "name": "A plan with friends",
+   "provenance": "Observed",
+   "origin": "Observed in YouVersion’s Plans with Friends: participants “see each other’s progress as you finish days” and talk in a “private discussion area”; only the host can invite people, and anyone who leaves cannot rejoin. See the screenshots below and YouVersion’s help centre. Names and comments are written for this example.",
+   "gain": "Friends reading the same day",
+   "cost": "Everyone sees who is behind",
+   "makes_easier": "Friends far apart reading the same day, with somewhere to talk.",
+   "costs": "Everyone sees who is behind, and no one is asked to look after the talk.",
+   "ask_your_team": "What does the friend who fell behind see when they open the plan?",
+   "still": "https://missional.design/assets/stills/try-together-plan.jpg"
+  },
+  {
+   "key": "feed",
+   "name": "A feed of friends’ activity",
+   "provenance": "Observed",
+   "origin": "Observed in YouVersion, where a plan set to Friends Only puts each completed day in friends’ Community Feed and “Plan activities on the Community Feed or your timeline cannot be deleted”, and in YouVersion’s profile, where badges and verse images are listed as activity; see the screenshots below. Names and entries are written for this example.",
+   "gain": "Friends’ reading in view",
+   "cost": "Every completion is a signal",
+   "makes_easier": "Friends’ reading in view, as encouragement.",
+   "costs": "Every completed day becomes a signal, and absence shows too.",
+   "ask_your_team": "Would each friend choose to have this entry shown, today?",
+   "still": "https://missional.design/assets/stills/try-together-feed.jpg"
+  },
+  {
+   "key": "thread",
+   "name": "A public thread on the verse",
+   "provenance": "Observed",
+   "origin": "Observed in Glorify, where a thread on a verse fills with comments from people across the app, and in YouVersion’s public notes from other readers on the same passage; see the screenshots below. Names and comments here are written for this example.",
+   "gain": "Many voices on a verse",
+   "cost": "Strangers interpret for you",
+   "makes_easier": "Many voices on a verse, at any hour.",
+   "costs": "Strangers interpret the text, and answer people they don’t know.",
+   "ask_your_team": "Who reads these comments, and what happens when one is turned on someone?",
+   "still": "https://missional.design/assets/stills/try-together-thread.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Share the passage, not the record",
+   "text": "A church can read the same words on the same day without anyone seeing who read; the Moravian Daily Texts have done it since 1731. Share the passage and the day, and keep each person’s completed days to themselves unless they choose to show them."
+  },
+  {
+   "heading": "Say what others will see before the plan starts",
+   "text": "In YouVersion, people in a plan with friends see each other’s completed days, and with Friends Only each day appears in friends’ feeds, where it “cannot be deleted”. Before anyone joins, show what participants and friends will see, and where. Let people delete it."
+  },
+  {
+   "heading": "Falling behind should be a way back, not a signal",
+   "text": "Ticks show the group who is behind, and YouVersion’s Catch Me Up isn’t available for plans with friends. Let someone rejoin where the group is today, mark nothing as missed, and remember that comparison motivates some people and discourages others."
+  },
+  {
+   "heading": "Give the conversation a shape",
+   "text": "Bible sharing asks each person to speak about themselves: “Keine Diskussion, kein Vortrag”. A prompt such as “Which word spoke to you?” invites a share; “What should we all learn from this?” invites a lecture. Carry the shapes groups already trust into the app, and let people answer only if they want."
+  },
+  {
+   "heading": "A verse can be turned on the person who shared",
+   "text": "When someone says they are struggling to forgive, a reply of “seventy-seven times” and Matthew 6:15 can press them to forgive quickly, keep quiet or go back. Groups can agree how they answer, and someone responsible needs to see the reply, step in and reach the person who shared."
+  },
+  {
+   "heading": "Young people: two leaders, no one-to-one, a named contact",
+   "text": "Church safeguarding guidance keeps conversations with young people in the group, with two adults present. A youth group in an app can make that the rule, and name a safeguarding contact outside the group’s leadership, as the prayer request deep dive does."
+  },
+  {
+   "heading": "Strangers’ notes are interpretation",
+   "text": "Glorify’s thread on Jeremiah 17:6 and YouVersion’s related notes put other readers’ interpretations beside the verse. Label them as other people’s words, say who moderates them, and keep them a deliberate step away from the text."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "A house group that meets each week",
+   "needs": "Something to read before, and a shape for the evening",
+   "fit": {
+    "The same passage, nothing shown": "possible",
+    "A guide for meeting in person": "good fit",
+    "A group with a leader": "possible",
+    "A plan with friends": "possible",
+    "A feed of friends’ activity": "poor fit",
+    "A public thread on the verse": "poor fit"
+   }
+  },
+  {
+   "situation": "Friends who live far apart",
+   "needs": "The same day, and somewhere to talk",
+   "fit": {
+    "The same passage, nothing shown": "possible",
+    "A guide for meeting in person": "poor fit",
+    "A group with a leader": "possible",
+    "A plan with friends": "good fit",
+    "A feed of friends’ activity": "possible",
+    "A public thread on the verse": "poor fit"
+   }
+  },
+  {
+   "situation": "A youth or confirmation group",
+   "needs": "Two leaders, no one-to-one messages, a named contact",
+   "fit": {
+    "The same passage, nothing shown": "possible",
+    "A guide for meeting in person": "good fit",
+    "A group with a leader": "good fit",
+    "A plan with friends": "poor fit",
+    "A feed of friends’ activity": "poor fit",
+    "A public thread on the verse": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone who has fallen behind",
+   "needs": "A way back without being watched",
+   "fit": {
+    "The same passage, nothing shown": "good fit",
+    "A guide for meeting in person": "good fit",
+    "A group with a leader": "possible",
+    "A plan with friends": "poor fit",
+    "A feed of friends’ activity": "poor fit",
+    "A public thread on the verse": "possible"
+   }
+  },
+  {
+   "situation": "A hard passage, or a hard week",
+   "needs": "People who listen before they answer",
+   "fit": {
+    "The same passage, nothing shown": "poor fit",
+    "A guide for meeting in person": "good fit",
+    "A group with a leader": "possible",
+    "A plan with friends": "poor fit",
+    "A feed of friends’ activity": "poor fit",
+    "A public thread on the verse": "poor fit"
+   }
+  },
+  {
+   "situation": "Reading alone, with questions",
+   "needs": "Other voices, clearly not the text",
+   "fit": {
+    "The same passage, nothing shown": "poor fit",
+    "A guide for meeting in person": "poor fit",
+    "A group with a leader": "possible",
+    "A plan with friends": "poor fit",
+    "A feed of friends’ activity": "poor fit",
+    "A public thread on the verse": "possible"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "Reading in company",
+   "findings": [
+    {
+     "heading": "Hearts burning on the road",
+     "text": "As two disciples “talked and deliberated, Jesus Himself came up and walked along with them” (Luke 24:15); afterwards they asked, “Were not our hearts burning within us as He spoke with us on the road and opened the Scriptures to us?” (Luke 24:32). The conversation was part of the reading.",
+     "sources": []
+    },
+    {
+     "heading": "Teaching and fellowship together",
+     "text": "The first church “devoted themselves to the apostles’ teaching and to the fellowship, to the breaking of bread and to prayer” (Acts 2:42).",
+     "sources": []
+    },
+    {
+     "heading": "The same words on the same day",
+     "text": "The Moravian Daily Texts were first printed in Herrnhut in 1731; since 1788 each day’s watchword has been drawn by lot from around 2,000 Old Testament texts. Christians across the world read the same words each day, and nobody counts who read them.",
+     "sources": [
+      "moravian-texts-history"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Church practice",
+   "subtitle": "Giving the conversation a shape",
+   "findings": [
+    {
+     "heading": "Share, don’t discuss",
+     "text": "In the seven steps of Bible sharing, each person speaks about themselves in the first person: “Keine Diskussion, kein Vortrag”, no discussion and no lecture.",
+     "sources": [
+      "bibelteilen-koeln"
+     ]
+    },
+    {
+     "heading": "Questions, insights and experiences",
+     "text": "The Västerås method invites everyone to mark verses with a question, an insight or an experience, and to share experiences without pressure. Its guide names the risks: some verses stay unclear, and some people talk too much.",
+     "sources": [
+      "vasteras-linz"
+     ]
+    },
+    {
+     "heading": "Young people: in the group, not one to one",
+     "text": "Church of England guidance recommends group calls rather than one-to-one calls with young people; one parish’s policy allows conversations with young people only in groups where at least two DBS-checked adults are present.",
+     "sources": [
+      "cofe-video-calling",
+      "boyne-hill-messaging"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Products and research",
+   "subtitle": "What reading together shows",
+   "findings": [
+    {
+     "heading": "Plans with friends show progress",
+     "text": "In YouVersion’s Plans with Friends, participants see each other’s completed days and talk in a private discussion area; up to 300 friends can be invited, only the host can invite, and anyone who leaves cannot rejoin.",
+     "sources": [
+      "youversion-pwf",
+      "youversion-pwf-comments"
+     ]
+    },
+    {
+     "heading": "Feeds keep what they show",
+     "text": "With a plan set to Friends Only, each completed day appears in friends’ Community Feed, and YouVersion says these activities “cannot be deleted”.",
+     "sources": [
+      "youversion-plan-privacy-ios"
+     ]
+    },
+    {
+     "heading": "Comparison helps some, not all",
+     "text": "A review of physical activity apps found that comparison features give inconsistent results: they “may motivate PA for some people under some circumstances”. No figure we found shows that reading with friends helps people finish plans.",
+     "sources": [
+      "arigo-social-comparison",
+      "youversion-pwf-2017"
+     ]
+    },
+    {
+     "heading": "Groups matter to many people",
+     "text": "In Lifeway Research’s survey of US Protestant churchgoers, those in a small group five or more times a month scored higher on a discipleship assessment than those in none. A correlation, not proof that groups cause growth.",
+     "sources": [
+      "lifeway-small-groups-2026"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "A church or house group",
+   "start_with": "The same passage, and a guide for meeting in person"
+  },
+  {
+   "if": "Friends far apart",
+   "start_with": "A plan with friends: progress private by default, and a way to rejoin"
+  },
+  {
+   "if": "A youth group",
+   "start_with": "Two leaders, no one-to-one messages and a named safeguarding contact"
+  },
+  {
+   "if": "Comments on verses",
+   "start_with": "Others’ words labelled, a step away from the text, with someone moderating"
+  },
+  {
+   "if": "You are tempted to show everyone’s progress",
+   "start_with": "Don’t: show the passage and the conversation, not the record"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What reading together is for",
+   "text": "The disciples on the road to Emmaus “talked and deliberated” until Jesus walked with them and “opened the Scriptures” (Luke 24:15, 32). The first church devoted itself “to the apostles’ teaching and to the fellowship” (Acts 2:42). Others help us hear what we would miss, and a passage read together becomes something a community shares."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Liturgical churches read appointed texts on the same day, and Moravians have shared daily texts since 1731. Bible sharing, which began at the Lumko Pastoral Institute in South Africa and is used in German dioceses today, asks members not to discuss or correct each other; many evangelical small groups study a passage with a leader and questions. Traditions differ on who may interpret for others, and on how much a group should hear of each person’s life."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "Share the passage and the conversation, not the record. Give the conversation a shape that starts with listening, name who looks after it, and prepare for a verse turned against someone. A completed day is between the reader and God unless they choose to show it."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Dietrich Bonhoeffer, Life Together (1939)",
+   "url": "https://www.9marks.org/review/book-review-life-together-by-dietrich-bonhoeffer",
+   "note": "balanced “The Day with Others” and “The Day Alone”: “Only in the fellowship do we learn to be rightly alone and only in aloneness do we learn to live rightly in the fellowship.”"
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Show every friend’s ticks and streaks, fill feeds with each completed day, and nudge whoever falls behind.",
+  "ethical": "Say what others will see before a plan starts, let people delete their activity, and give a way back to anyone who fell behind.",
+  "redemptive": "Keep each person’s record private and give up the engagement that visible progress brings; pay for someone to look after the conversation, and give groups shapes for listening instead of feeds.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "What will each person see of the others’ reading, and who looks after the conversation when it goes wrong?",
+  "exercise": "Take one week of a group plan. For each person, list what the others will see: that they started, which days they finished, what they wrote, and what appears in anyone’s feed. Then write a reply that turns a verse against someone who shared something hard, and walk through your design: who sees it, who can step in, and how the person who shared is looked after.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [],
+ "examples": [
+  {
+   "app": "Startblock",
+   "title": "Joining a group with a code from the leader",
+   "url": "https://missional.design/examples/startblock-group-code/",
+   "observed": "Captured 26 September 2025 · from embedded image metadata",
+   "observation": "A screen titled “Gruppen-Code eingeben” has a dashed field for “Gruppen Code”, a Beitreten (join) button, “oder” and a “QR Code scannen” button. Below: “Den Code für den Gruppenbeitritt erhältst du von deinem Gruppenleiter” (you get the code to join from your group leader).",
+   "decision": "Joining by a code from a leader keeps a group closed and gives it someone responsible. It also means the leader decides who is in; a group needs a way to raise a concern that does not go through that leader.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "YouVersion",
+   "title": "Progress and participants on each plan",
+   "url": "https://missional.design/examples/youversion-plan-participants/",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "My Plans lists three plans. “Bible on Business” shows a short progress bar and “1 Participant” with a small avatar (blurred here); the others show a cover and a title.",
+   "decision": "Progress and people sit together on the plan itself. In a plan with friends everyone sees each other’s completed days; say so before people join, and keep the bar for the reader alone unless they choose to show it.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "YouVersion",
+   "title": "A profile that lists badges and verse images as activity",
+   "url": "https://missional.design/examples/youversion-profile-activity/",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "The profile (the account holder’s name and photo blurred here) has tiles for Saved, Friends, Badges and Prayer List, above a stream of activity: “You earned the Daily Refresh Badge” with a heart and a comment button, then “You created a verse image for Lukas 8:5-8 NGU2011”.",
+   "decision": "A stream of activity makes reading into entries others can like. Say who sees each entry, and let people keep their reading off it.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "YouVersion",
+   "title": "Other readers’ notes related to a verse",
+   "url": "https://missional.design/examples/youversion-related-notes/",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "“Related to Johannes 3:25” lists public notes from other readers (names and photos blurred here): each quotes the passage in a different translation, CSB or NIV, with the reader’s own note below and a menu for more actions.",
+   "decision": "Other readers’ notes can open a passage up, and they are interpretation. Label them as others’ words, show the translation each quotes, and say how they are moderated.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Glorify",
+   "title": "A public thread under a verse",
+   "url": "https://missional.design/examples/glorify-verse-thread/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "A sheet quotes Jeremiah 17:6 above Journal, Save and Share, then comments from people across the app (names and photos blurred here). The first reads the verse as a warning that people who don’t invite Christ into their lives will never do well; the second, about following anything other than God. A field at the bottom reads “Share your thoughts on Jeremiah 17:6”.",
+   "decision": "A thread makes every verse a conversation with strangers, who interpret it for each other with no one named to look after it. Say who moderates, and keep the text distinct from the comments.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Startblock",
+   "title": "A question for the group at the end of a unit",
+   "url": "https://missional.design/examples/startblock-unit-question/",
+   "observed": "Captured 26 September 2025 · from embedded image metadata",
+   "observation": "“Einheit 1 / 6” (unit 1 of 6) mixes short teaching with John 3:16 in bold and its reference in red. Near the end: “Damit kommen wir zur letzten Frage:” (that brings us to the last question), then a red banner: “Welchen Fragen stellst Du an Dein Leben?” (what questions do you ask of your life?).",
+   "decision": "A question gives a group something to talk about. Say who will see each answer, and let people answer only if they want.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "youversion-pwf",
+   "title": "iOS: Plan with Friends",
+   "url": "https://help.youversion.com/l/en/article/at3uptn298-plan-with-friends",
+   "author": "YouVersion Support",
+   "kind": "Practice",
+   "shows": "“When friends join you in a Plan, you see each other’s progress as you finish days. You can talk about each day’s content in a private discussion area.” Up to 300 friends can be invited; “Only the host of the plan can invite others”; the start date can’t be changed once the plan has started; and “if someone leaves a Plan, they cannot rejoin it.”",
+   "application": "Show participants what the others will see, and give a way back to someone who left or fell behind.",
+   "limits": "Publisher documentation for iOS; the interface was not tested end to end."
+  },
+  {
+   "key": "youversion-plan-privacy-ios",
+   "title": "iOS: Plan Privacy",
+   "url": "https://help.youversion.com/l/en/article/865d29xbs3-plan-privacy-ios",
+   "author": "YouVersion Support",
+   "kind": "Practice",
+   "shows": "With Friends Only, “your Plan activity (such as completing Plan Days) will be visible to your friends in their Community Feed”; Plan with Friends activity is visible only to participants; “Plan activities on the Community Feed or your timeline cannot be deleted.”",
+   "application": "Say where each kind of activity appears before it does, and let people delete it.",
+   "limits": "Publisher documentation; the default setting is not stated."
+  },
+  {
+   "key": "youversion-pwf-comments",
+   "title": "iOS: Plan with Friends – Comments",
+   "url": "https://help.youversion.com/l/en/article/ceaeiu9wax-pwf-comments-ios",
+   "author": "YouVersion Support",
+   "kind": "Practice",
+   "shows": "Each day’s comments sit under “Talk It Over”; others can like a comment with a heart, and a reply to an email notification “becomes part of the day’s comment”. Options on a comment “may include Copy, Edit, and Delete”.",
+   "application": "A discussion per day gives friends somewhere to talk; say who can step in when a comment hurts someone.",
+   "limits": "The article does not describe reporting or moderation; it may exist elsewhere in the app."
+  },
+  {
+   "key": "youversion-pwf-2017",
+   "title": "Announcing Plans with Friends",
+   "url": "https://blog.youversion.com/2017/11/youversion-bible-app-announcing-plans-with-friends-2017/",
+   "author": "YouVersion blog · November 2017",
+   "kind": "Practice",
+   "shows": "“Plans with Friends brings together the best of both”: friends’ perspective “often helps us see things in God’s Word that we might not have noticed on our own”, and “You’ll see one another’s progress as you complete days”.",
+   "application": "The reason to read together is the conversation; the progress view came with it.",
+   "limits": "A launch announcement; it gives reasons, not completion figures."
+  },
+  {
+   "key": "youversion-catch-up",
+   "title": "Android: Catch Me Up",
+   "url": "https://help.youversion.com/l/en/article/7de8qv7xuc-catch-me-up-on-android",
+   "author": "YouVersion Support",
+   "kind": "Product documentation",
+   "shows": "Documents rescheduling without marking sections complete; not available for Plans with Friends.",
+   "application": "Compare recovery options with the reader’s experience of progress.",
+   "limits": "Documented behaviour; exact interface and discovery were not tested."
+  },
+  {
+   "key": "moravian-texts-history",
+   "title": "A brief history of the Moravian Daily Texts",
+   "url": "https://www.moravian.org/2018/07/a-brief-history-of-the-moravian-daily-texts/",
+   "author": "Moravian Church in North America · July 2018",
+   "kind": "Practice",
+   "shows": "“The first printed edition of the Daily Texts (Losungen) was published in Herrnhut, Saxony, in 1731”; since 1788 the watchwords “have been drawn by lot from a collection of around 2,000 suitable Old Testament texts”, while the doctrinal texts are selected.",
+   "application": "Christians have read the same words on the same day for centuries without anyone counting who read.",
+   "limits": "A church’s own history of its publication."
+  },
+  {
+   "key": "bibelteilen-koeln",
+   "title": "Anleitung Bibelteilen",
+   "url": "https://www.erzbistum-koeln.de/export/sites/ebkportal/.content/.galleries/news/2020/2020_downloads/anleitung-bibelteilen.pdf",
+   "author": "Erzbistum Köln · 2020",
+   "kind": "Church practice",
+   "shows": "The seven steps of Bible sharing (the Lumko method); in step 5, “Jede/r spricht von sich in der ersten Person. Keine Diskussion, kein Vortrag.”",
+   "application": "Give the conversation a shape: each person says what touched them, and nobody corrects anyone.",
+   "limits": "One diocese’s leaflet; other versions have six steps or name them differently."
+  },
+  {
+   "key": "vasteras-linz",
+   "title": "Methoden praktischer Bibelarbeit",
+   "url": "https://www.dioezese-linz.at/dl/OsLoJLJLoLlJqx4KJK/Methoden_praktischer_Bibelarbeit_pdf",
+   "author": "Diözese Linz · Bibelwerk",
+   "kind": "Church practice",
+   "shows": "Readers mark verses with a question mark, an exclamation mark (or candle) and an arrow; everyone is invited to bring questions, insights and experiences, and experiences “Ohne Zwang”. Its risks: some verses stay unclear, and “das Problem der ‚Dauerredner‘”.",
+   "application": "Prompts that invite rather than demand, and a leader who keeps space for quieter voices.",
+   "limits": "A practical guide, not a study of outcomes."
+  },
+  {
+   "key": "cofe-video-calling",
+   "title": "Video calling: safeguarding questions",
+   "url": "https://www.churchofengland.org/sites/default/files/2020-04/video-calling.pdf",
+   "author": "Church of England National Safeguarding Team · April 2020",
+   "kind": "Safeguarding guidance",
+   "shows": "“We strongly recommend reserving video calling for group chats rather than making one-to-one video calls”, applying the guidance Safer Environment and Activities to the online world.",
+   "application": "With under-18s, keep contact in the group, not one to one.",
+   "limits": "Written for video calls during the pandemic; the principle comes from wider guidance."
+  },
+  {
+   "key": "boyne-hill-messaging",
+   "title": "Guidance on use of social media and private messaging with young and vulnerable people",
+   "url": "https://allsaintsboynehill.org.uk/content/pages/documents/guidance-on-use-of-social-media-and-private-messaging-with-young-and-vulnerable-people-2026.pdf",
+   "author": "All Saints Boyne Hill, Church of England parish · 2026",
+   "kind": "Safeguarding guidance",
+   "shows": "“Do not use social visual media for one-to-one conversations with young people - use only within group conversations where a minimum of two DBS checked adults are present.”",
+   "application": "A group app for under-18s can make two leaders the minimum in any conversation.",
+   "limits": "One parish’s policy applying diocesan guidance; German churches set their own rules."
+  },
+  {
+   "key": "arigo-social-comparison",
+   "title": "Social comparison features in physical activity promotion apps: scoping meta-review",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7148546/",
+   "author": "Danielle Arigo, Megan M. Brown, Kristen Pasko and Jerry Suls · Journal of Medical Internet Research, 2020",
+   "kind": "Research",
+   "shows": "Improvements from comparison features are “inconsistent”; social comparison “may motivate PA for some people under some circumstances”, and no evidence was found that apps account for people’s “differing preferences for and responses to social comparison information”.",
+   "application": "Showing everyone’s progress helps some readers and discourages others; let people choose what they see and show.",
+   "limits": "A review of reviews about physical activity apps, not Bible reading."
+  },
+  {
+   "key": "lifeway-small-groups-2026",
+   "title": "Small group participation linked to higher discipleship scores",
+   "url": "https://news.lifeway.com/2026/08/04/small-group-participation-linked-to-higher-discipleship-scores-lifeway-research-finds/",
+   "author": "Aaron Earls · Lifeway Research · 4 August 2026",
+   "kind": "Research",
+   "shows": "US Protestant churchgoers attending a small group five times or more a month scored 74.1 on a discipleship assessment, against 60.4 for those who do not attend one.",
+   "application": "Groups matter to many people’s faith; design them with care rather than avoid them.",
+   "limits": "A correlation from self-report; it does not show that groups cause growth. US Protestants only."
+  },
+  {
+   "key": "spiritual-abuse-guidance",
+   "title": "Section 4.2: Spiritual Abuse",
+   "url": "https://www.churchofengland.org/safeguarding/safeguarding-e-manual/safeguarding-children-young-people-and-vulnerable-adults/section-42-spiritual-abuse",
+   "author": "Church of England safeguarding e-manual",
+   "kind": "Safeguarding guidance · Access limited",
+   "shows": "Addresses coercive control using spiritual authority and warns against minimisation or directing victims to confront an abuser.",
+   "application": "Independent support and a response that does not defend the institution.",
+   "limits": "Institutional safeguarding guidance, not universal law or an automated abuse classifier; full-page review remains outstanding."
+  },
+  {
+   "key": "gdpr",
+   "title": "Process personal data lawfully",
+   "url": "https://www.edpb.europa.eu/sme/be-compliant/process-personal-data-lawfully_en",
+   "author": "European Data Protection Board",
+   "kind": "EU legal guidance",
+   "shows": "Special-category processing needs an appropriate Article 9 exception in addition to an Article 6 basis.",
+   "application": "Separate conversation processing, durable memory, training and sharing purposes.",
+   "limits": "Specific lawful basis, retention and DPIA decisions require the actual data flows."
+  }
+ ],
+ "review": {
+  "status": "draft, waiting for review",
+  "what": "The verse turned against someone who shared, the leader’s notes and replies, the youth-group rules and the safeguarding contact in the working example",
+  "needs": [
+   "safeguarding",
+   "pastoral care",
+   "survivor advocacy (ideally survivor-led)",
+   "data protection"
+  ],
+  "since": "10 October 2026",
+  "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/reading-together/"
+ },
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

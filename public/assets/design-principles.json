@@ -1,0 +1,775 @@
+[
+  {
+    "id": "word-distinct",
+    "heading": "word",
+    "name": "Keep the Word distinct, and teach it truly",
+    "line": "Every screen teaches. Let readers always tell Scripture from our words, and our words from a machine’s.",
+    "calling": [
+      [
+        "The burden: teachers are judged more strictly",
+        "/calling/#burden"
+      ],
+      [
+        "Theological responsibility",
+        "/calling/#theological"
+      ]
+    ],
+    "scripture": "“Not many of you should become teachers, my brothers, because you know that we who teach will be judged more strictly” (James 3:1). “Make every effort to present yourself approved to God, an unashamed workman who accurately handles the word of truth” (2 Timothy 2:15).",
+    "tradition": "The Second Vatican Council asked for editions of Scripture with suitable notes, and Augustine tested every interpretation by whether it builds up love of God and neighbour. faith.tools asks of every app it lists whether it aligns “with the teachings in the Bible”, because “A lot of apps for Christians are seen as an authority figure by the users”.",
+    "tradition_sources": [
+      "dei-verbum",
+      "augustine-doctrina",
+      "faithtools-criteria"
+    ],
+    "rules_in": [
+      "Headings, notes, media and AI answers labelled and styled so they cannot be taken for Scripture",
+      "Sources at the claim, not at the end",
+      "The traditions named, each with its strongest passages, where Christians differ",
+      "A verse shown with its passage, and a translation with its character"
+    ],
+    "rules_out": [
+      "Generated text that looks like a verse",
+      "One tradition’s reading presented as simply what the Bible says",
+      "Verses cut from their passage to fit a mood",
+      "Theology checked at the end, if at all"
+    ],
+    "gives_up": "A cleaner, more confident answer, and the shortcut of a house view presented as neutral.",
+    "question": "Can a reader always tell Scripture from our words, and our words from a machine’s?",
+    "questions": [
+      "Where do we present one tradition’s view as simply “what the Bible says”?",
+      "Who in our team can say “that isn’t what the text says”, and are they in the room early?"
+    ],
+    "qualification": "Every product holds a tradition. Say which openly; fairness across traditions does not mean having no confession.",
+    "examples": [
+      "ai-citations",
+      "translations",
+      "study-helps",
+      "numbers-headings-and-notes"
+    ],
+    "old": [
+      "rootedness",
+      "honesty"
+    ],
+    "patterns": [
+      "honest-support",
+      "ai-answer-actions",
+      "how-much-text",
+      "numbers-headings-and-notes",
+      "bible-audio",
+      "highlights-and-notes",
+      "study-helps",
+      "reading-together",
+      "reading-context",
+      "read-along",
+      "honest-synchronisation",
+      "long-passages",
+      "adaptive-reading-workspace",
+      "parallel-reading-layout",
+      "verse-entry",
+      "reference-resolution",
+      "partial-and-missing-context",
+      "generated-practice",
+      "reading-layout",
+      "verse-numbers",
+      "translation-picker",
+      "reading-settings",
+      "verse-comments",
+      "book-chapter-layouts",
+      "chapter-navigation",
+      "smart-passage-search",
+      "scripture-and-interpretation",
+      "footnotes",
+      "cross-references",
+      "text-structure",
+      "content-layers",
+      "translation-comparison",
+      "contextual-study-panel",
+      "word-study",
+      "annotation-anchors",
+      "highlight-overlap",
+      "interlinear-reading",
+      "verse-by-verse-comparison",
+      "bounded-interpretation",
+      "passage-focused-reading",
+      "interactive-reflection",
+      "prayer-coauthorship",
+      "guided-sequence",
+      "passage-repetition",
+      "memorisation-practice",
+      "reading-artifacts",
+      "media-evidence",
+      "narration-provenance",
+      "annotation-library",
+      "visible-work",
+      "source-grounded-audio",
+      "ai-citations",
+      "ai-involvement-disclosure",
+      "portable-ai-provenance",
+      "translation-position",
+      "parallel-scroll",
+      "ai-placement",
+      "translations"
+    ]
+  },
+  {
+    "id": "speak-for-god",
+    "heading": "word",
+    "name": "Never speak for God",
+    "line": "An app may quote, explain, pray the church’s prayers and point. It must never pronounce, promise or plead in God’s name, nor let a persona or a machine take the place of a person or of God.",
+    "calling": [
+      [
+        "Never speak for God",
+        "/calling/#theological"
+      ],
+      [
+        "Tell the truth about the machine",
+        "/calling/#ethical"
+      ],
+      [
+        "The rock and the light: a rock has no light of its own",
+        "/calling/#light"
+      ]
+    ],
+    "scripture": "“I did not send these prophets, yet they have run with their message; I did not speak to them, yet they have prophesied” (Jeremiah 23:21). When the crowd at Lystra wanted to worship them, Paul and Barnabas cried out, “We too are only men, human like you” (Acts 14:15).",
+    "tradition": "Antiqua et nova insists that AI is “a tool, not a person”. FaithTech names the Magic Machine Myth, “what happens when technological wonder turns into worship”, and asks of every product, “What kind of worship does this form?” faith.tools’ guardrails for AI apps say that AI “must clearly identify as AI, not human”, “should not masquerade as a being from the Bible”, and “must not replace human relationships or spiritual practices”: “Can AI truly pray for you? No, it’s artificial.”",
+    "tradition_sources": [
+      "antiqua-et-nova",
+      "faithtech-playbook",
+      "faithtools-ai"
+    ],
+    "rules_in": [
+      "An assistant that says what it is, what it keeps and what it cannot do",
+      "Answers that point to Scripture, a pastor, a church",
+      "The church’s written prayers, blessings, creeds and liturgy, offered as the church’s words",
+      "Help before any verse when someone is in danger"
+    ],
+    "rules_out": [
+      "An AI that forgives sins or tells someone what God wants for their life",
+      "A persona that says it is praying for someone, or writes first to bring them back",
+      "Notifications in God’s voice, and spiritual language used as urgency",
+      "Promises that God will repay a gift, heal or bless in return for a purchase"
+    ],
+    "gives_up": "The engagement a warm persona brings, and the lift of spiritual urgency.",
+    "question": "Would we put our own name under this sentence, or are we borrowing God’s?",
+    "questions": [
+      "Could someone mistake this voice for a pastor, a saint, Jesus or God?",
+      "What does this assistant do when someone asks it to pray for them?"
+    ],
+    "qualification": "This does not forbid devotion. The Lord’s Prayer, a psalm, a collect, a blessing or a written liturgy are the church’s words, offered as such; what is forbidden is the persona that claims a relationship and the promise that claims God’s answer.",
+    "examples": [
+      "ai-persona",
+      "notifications",
+      "giving",
+      "ai-citations"
+    ],
+    "old": [
+      "honesty"
+    ],
+    "patterns": [
+      "confirm-actions",
+      "intent-controls",
+      "sensitive-topics",
+      "health-and-spiritual-practice",
+      "doubt-and-uncertainty",
+      "reassurance-loops",
+      "ai-social-presence",
+      "chat-disclosure",
+      "ai-answer-actions",
+      "ai-persona",
+      "study-helps",
+      "prayer",
+      "devotional-audio",
+      "notifications",
+      "generated-practice",
+      "ai-memory",
+      "bounded-interpretation",
+      "giving",
+      "media-evidence",
+      "visible-work",
+      "ai-citations",
+      "ai-involvement-disclosure",
+      "portable-ai-provenance",
+      "ai-placement"
+    ]
+  },
+  {
+    "id": "most-vulnerable",
+    "heading": "person",
+    "name": "Design for the most vulnerable first",
+    "line": "Design first for the person most likely to be hurt: in crisis, grieving, abused, scrupulous, new to faith, hurt by a church, or, where an app serves them, a child. Help comes before features, verses or answers.",
+    "calling": [
+      [
+        "The burden: the little ones",
+        "/calling/#burden"
+      ],
+      [
+        "Speak up for those who cannot",
+        "/calling/#ethical"
+      ]
+    ],
+    "scripture": "“If anyone causes one of these little ones who believe in Me to stumble, it would be better for him to have a large millstone hung around his neck” (Matthew 18:6). “Open your mouth for those with no voice, for the cause of all the dispossessed” (Proverbs 31:8).",
+    "tradition": "FaithTech reminds builders that the shepherd leaves the ninety-nine for the one, and that faithfulness is not measured by scale. faith.tools asks whether an app is safe-guarded from content that could harm. Where an app serves children, the UK Children’s code makes a child’s best interests the primary consideration in design.",
+    "tradition_sources": [
+      "ico-childrens-code",
+      "faithtech-playbook",
+      "faithtools-criteria"
+    ],
+    "rules_in": [
+      "A way to a person on the first screen, never behind an account, a limit or a paywall",
+      "Testing with the most vulnerable people you serve, not only the most engaged",
+      "Accessibility as love: low vision, dyslexia, other languages",
+      "Where an app serves children, their best interests ahead of growth"
+    ],
+    "rules_out": [
+      "A verse in place of a helpline",
+      "Automatic messages to a parent or a group about someone’s disclosure",
+      "Designing for the confident majority and patching the edges"
+    ],
+    "gives_up": "Speed, and the simplicity of designing for the confident.",
+    "question": "Who is the most vulnerable person likely to use this today, and what will they see?",
+    "questions": [
+      "Where could this cause someone vulnerable to stumble?",
+      "Would someone who was hurt in a church feel safe on this screen?"
+    ],
+    "qualification": "Protection must not become control. A child, a survivor or a doubter keeps a voice in what happens next, and specialist safeguarding review decides the hard cases.",
+    "examples": [
+      "children-and-families",
+      "sharing-with-a-group",
+      "first-use",
+      "check-ins-and-assessments"
+    ],
+    "old": [
+      "reverence"
+    ],
+    "patterns": [
+      "choose-help",
+      "sensitive-memory",
+      "private-sharing",
+      "voice-and-recording",
+      "contextual-safety",
+      "sensitive-topics",
+      "suicide-concerns",
+      "possible-abuse",
+      "spiritual-abuse",
+      "safe-support-access",
+      "safeguarding-handoff",
+      "health-and-spiritual-practice",
+      "honest-support",
+      "doubt-and-uncertainty",
+      "reassurance-loops",
+      "ai-persona",
+      "reading-together",
+      "check-ins-and-assessments",
+      "ai-memory",
+      "sharing-with-a-group",
+      "first-use",
+      "children-and-families",
+      "ai-citations"
+    ]
+  },
+  {
+    "id": "welcome",
+    "heading": "person",
+    "name": "Welcome before you ask, and guard what is told in confidence",
+    "line": "Let people reach what they came for before asking anything; ask only for what serves them, when it does; and treat what they tell you as holy ground.",
+    "calling": [
+      [
+        "How will they hear?",
+        "/calling/#calling"
+      ],
+      [
+        "Confidences are holy ground",
+        "/calling/#ethical"
+      ],
+      [
+        "Religious belief is special-category data",
+        "/calling/#legal"
+      ]
+    ],
+    "scripture": "“Come and see,” Jesus replied, and the two disciples “spent that day with Him” before anything was asked of them (John 1:39). “Practice hospitality” (Romans 12:13). “A gossip reveals a secret, but a trustworthy person keeps a confidence” (Proverbs 11:13).",
+    "tradition": "The Rule of Benedict asks that “all guests who arrive be received like Christ”. The church guards confession with a seal. Data protection law treats religious belief as a special category, and contextual integrity holds that what was shared to pray should not flow into marketing.",
+    "tradition_sources": [
+      "benedict-rule",
+      "canon-983"
+    ],
+    "rules_in": [
+      "Guest use; an account when there is something to keep",
+      "Permissions when a feature needs them",
+      "Payment after a first use, saying what costs money and why",
+      "Memory a person can see and delete; prayer requests that go only where they chose"
+    ],
+    "rules_out": [
+      "A quiz, a phone number or a paywall before the first verse",
+      "Faith inferred from use and sold or used for advertising",
+      "Prayer requests read for marketing insight",
+      "Confessions stored by default"
+    ],
+    "gives_up": "Conversion at the front door, and the data that would make the product cleverer or the marketing sharper.",
+    "question": "If a friend read everything we keep about this person, would the person be glad?",
+    "questions": [
+      "What must someone give before they reach what they came for?"
+    ],
+    "qualification": "Welcome is not the same as asking for nothing. A justified, well-timed question can protect a person; the test is whether it serves them, now.",
+    "examples": [
+      "first-use",
+      "ai-memory",
+      "sharing-with-a-group",
+      "prayer"
+    ],
+    "old": [
+      "reverence",
+      "hospitality"
+    ],
+    "patterns": [
+      "permission-and-repair",
+      "sensitive-memory",
+      "private-sharing",
+      "voice-and-recording",
+      "confirm-actions",
+      "intent-controls",
+      "bounded-autonomy",
+      "ai-social-presence",
+      "chat-disclosure",
+      "highlights-and-notes",
+      "prayer",
+      "audio-first",
+      "playback-highlight-style",
+      "readable-overflow",
+      "answer-depth",
+      "chat-content-objects",
+      "many-results",
+      "finding-a-passage",
+      "chat-attachments",
+      "resource-discovery",
+      "highlight-actions",
+      "liturgical-calendar",
+      "prayer-interface",
+      "check-ins-and-assessments",
+      "ai-memory",
+      "sharing-with-a-group",
+      "first-use",
+      "children-and-families"
+    ]
+  },
+  {
+    "id": "feed-the-flock",
+    "heading": "practice",
+    "name": "Feed the flock, not on it",
+    "line": "Attention, time, devotion and money are entrusted, not harvested. Ask for them honestly, never through guilt, fear, urgency or a promise.",
+    "calling": [
+      [
+        "The burden: shepherds who feed themselves",
+        "/calling/#burden"
+      ],
+      [
+        "Attention is entrusted, not harvested",
+        "/calling/#ethical"
+      ]
+    ],
+    "scripture": "“Woe to the shepherds of Israel, who only feed themselves! Should not the shepherds feed their flock?” (Ezekiel 34:2). “Feed My sheep” (John 21:17). “Each one should give what he has decided in his heart to give, not out of regret or compulsion” (2 Corinthians 9:7).",
+    "tradition": "Praxis asks builders to make “what people want to want”, instead of products that appeal to “our most self-centered, lonely, addictive tendencies”. FaithTech names the tools of the reckless posture: “Dopamine loops, infinite scrolling, doomscrolling, echo-chamber, and engineered dependencies”. faith.tools asks that any cost be “very clear”.",
+    "tradition_sources": [
+      "praxis-products",
+      "faithtech-playbook",
+      "faithtools-criteria"
+    ],
+    "rules_in": [
+      "Reminders the person sets; streaks that can be switched off; a return without shame",
+      "Gifts that start at no amount; prices that say what they pay for",
+      "An honest free allowance, and a subscription that is easy to end"
+    ],
+    "rules_out": [
+      "Broken-streak warnings marked urgent",
+      "“We miss you” in a persona’s voice",
+      "Preselected tiers and added tips; asks after a prayer request",
+      "Weekly plans, hidden renewals and hard cancellation"
+    ],
+    "gives_up": "The daily users, conversions and revenue that pressure would bring.",
+    "question": "Does this serve growth in faith, or only the usage numbers?",
+    "questions": [
+      "Freedom or anxiety?",
+      "Would someone who was short of money, or grieving, feel pressed by this screen?"
+    ],
+    "qualification": "Asking is not wrong: the church has always supported those who serve the word, and a chosen rhythm can help. The line is crossed when the ask uses guilt, fear, a moment of need or God’s name.",
+    "examples": [
+      "progress-and-streaks",
+      "notifications",
+      "giving",
+      "reading-plans"
+    ],
+    "old": [
+      "grace",
+      "costliness"
+    ],
+    "patterns": [
+      "reading-plans",
+      "notifications",
+      "first-use",
+      "memorisation-practice",
+      "progress-and-streaks",
+      "flexible-rhythm",
+      "return-without-shame",
+      "reflection-beyond-completion",
+      "reminder-autonomy",
+      "optional-game-elements",
+      "graceful-return",
+      "audio-mix",
+      "giving"
+    ]
+  },
+  {
+    "id": "enough",
+    "heading": "practice",
+    "name": "Make room for rest, and say when it is enough",
+    "line": "A faithful product sometimes asks for less: it ends a session, keeps the night quiet, stops asking when the need is met, and lets itself end when its work is done.",
+    "calling": [
+      [
+        "Leave room for rest",
+        "/calling/#spiritual"
+      ],
+      [
+        "Keep a sabbath from shipping",
+        "/calling/#holding"
+      ]
+    ],
+    "scripture": "“The Sabbath was made for man, not man for the Sabbath” (Mark 2:27). When the people kept bringing offerings for the tabernacle Bezalel built, Moses “sent a proclamation throughout the camp”, and “the people were restrained from bringing more, since what they already had was more than enough to perform all the work” (Exodus 36:6–7).",
+    "tradition": "The Rule of Benedict keeps silence especially at night. FaithTech’s practice of stewardship includes “choosing not to release a product or allowing one to end”.",
+    "tradition_sources": [
+      "benedict-rule",
+      "faithtech-playbook"
+    ],
+    "rules_in": [
+      "Sessions that end in silence instead of autoplay",
+      "Quiet hours; after silence, ask once and stop",
+      "An appeal that says when the need is met",
+      "A regular gift or subscription as easy to stop as to start"
+    ],
+    "rules_out": [
+      "An endless feed of devotional content",
+      "Reminders that multiply when someone stops answering",
+      "Asking again and again"
+    ],
+    "gives_up": "Time in the app, and the comfort of a product that never has to end.",
+    "question": "Where does our product stop, and does it ever tell someone they have done enough?",
+    "questions": [
+      "What would we stop sending if we believed rest is a gift?"
+    ],
+    "qualification": "Some people want more: a long listen, a full plan. Enough is the person’s to choose; the product’s part is to offer an end and keep it.",
+    "examples": [
+      "devotional-audio",
+      "notifications",
+      "giving",
+      "how-much-text"
+    ],
+    "old": [
+      "grace"
+    ],
+    "patterns": [
+      "how-much-text",
+      "bible-audio",
+      "reading-plans",
+      "devotional-audio",
+      "notifications",
+      "passage-repetition",
+      "progress-and-streaks",
+      "flexible-rhythm",
+      "return-without-shame",
+      "reminder-autonomy",
+      "graceful-return",
+      "giving"
+    ]
+  },
+  {
+    "id": "send",
+    "heading": "people",
+    "name": "Send people to God and to one another",
+    "line": "The app is a means, never the destination. Judge it by where people go when they close it.",
+    "calling": [
+      [
+        "Point beyond the screen",
+        "/calling/#spiritual"
+      ],
+      [
+        "Living stones",
+        "/calling/#light"
+      ]
+    ],
+    "scripture": "Andrew “first found his brother Simon”, and “Andrew brought him to Jesus” (John 1:41–42). “Let us not neglect meeting together, as some have made a habit, but let us encourage one another” (Hebrews 10:25). “You also, like living stones, are being built into a spiritual house” (1 Peter 2:5).",
+    "tradition": "Bonhoeffer held the day alone and the day with others together. Andy Crouch, in a book published by Praxis, argues that persons are made for recognition and love that effortless technology cannot give. faith.tools’ AI guardrails ask that output “must not replace human relationships or spiritual practices”.",
+    "tradition_sources": [
+      "bonhoeffer-life-together",
+      "crouch-life",
+      "faithtools-ai"
+    ],
+    "rules_in": [
+      "Readings and groups with a shape for listening",
+      "A way to a pastor, a church, a friend",
+      "Endings that suggest a person, not the next session"
+    ],
+    "rules_out": [
+      "A companion that wants to be the only one someone talks to",
+      "Community features that compete with the local church",
+      "Success defined as daily sessions"
+    ],
+    "gives_up": "The stickiness of being someone’s only place.",
+    "question": "When someone closes what we built, are they closer to God and to other people?",
+    "questions": [
+      "If people developed deep communion with God and no longer needed the app, would we celebrate or mourn?"
+    ],
+    "qualification": "Leaving the app or joining a congregation is not a universal measure. For someone isolated, disabled or hurt by a church, an online community may be the safe place, and a referral back may not be safe.",
+    "examples": [
+      "reading-together",
+      "sharing-with-a-group",
+      "ai-persona",
+      "prayer"
+    ],
+    "old": [
+      "bridge"
+    ],
+    "patterns": [
+      "choose-help",
+      "contextual-safety",
+      "suicide-concerns",
+      "possible-abuse",
+      "spiritual-abuse",
+      "safe-support-access",
+      "safeguarding-handoff",
+      "ai-persona",
+      "prayer",
+      "reading-together",
+      "silence-and-ending",
+      "contemplative-pause",
+      "sharing-with-a-group",
+      "children-and-families",
+      "prayer-coauthorship",
+      "human-connections",
+      "reflection-to-life",
+      "shared-practice",
+      "reading-artifacts"
+    ]
+  },
+  {
+    "id": "growth",
+    "heading": "people",
+    "name": "Plant and water; leave the growth to God",
+    "line": "Measure what serves the person and the task. Never score a soul, and never claim the fruit as yours.",
+    "calling": [
+      [
+        "We plant and water; God gives the growth",
+        "/calling/#calling"
+      ],
+      [
+        "The app is a means, not the destination",
+        "/calling/#spiritual"
+      ]
+    ],
+    "scripture": "“Neither he who plants nor he who waters is anything, but only God, who makes things grow” (1 Corinthians 3:7). The seed “sprouts and grows, though he knows not how” (Mark 4:27). “So My word that proceeds from My mouth will not return to Me empty” (Isaiah 55:11).",
+    "tradition": "Dallas Willard distinguished effort from earning. FaithTech warns of the Killer App Trap, “the belief that technology will solve our deepest problems”.",
+    "tradition_sources": [
+      "willard-disciplines-grace",
+      "faithtech-playbook"
+    ],
+    "rules_in": [
+      "Honest evaluation of usability, understanding, burden and harm",
+      "Accounts people choose to give",
+      "Saying what the product does not know"
+    ],
+    "rules_out": [
+      "Faith scores and maturity levels inferred from use",
+      "Global prayer counters as achievements",
+      "Usage presented as spiritual fruit",
+      "“Life-changing” claims without evidence"
+    ],
+    "gives_up": "The impressive number for the pitch.",
+    "question": "What would we stop measuring if we believed growth is God’s?",
+    "questions": [
+      "Will the person’s motivation survive removing the feature?"
+    ],
+    "qualification": "Humility is not a reason to avoid evaluation. Measure usability, safety and understanding carefully; it is spiritual maturity that no telemetry can show.",
+    "examples": [
+      "progress-and-streaks",
+      "check-ins-and-assessments",
+      "reading-plans",
+      "prayer"
+    ],
+    "old": [
+      "fruit"
+    ],
+    "patterns": [
+      "reading-plans",
+      "generated-practice",
+      "check-ins-and-assessments",
+      "passage-focused-reading",
+      "interactive-reflection",
+      "reflection-to-life",
+      "shared-practice",
+      "progress-and-streaks",
+      "reflection-beyond-completion",
+      "optional-game-elements",
+      "translation-position",
+      "parallel-scroll",
+      "reading-position"
+    ]
+  },
+  {
+    "id": "offering",
+    "heading": "makers",
+    "name": "Make it well, as an offering",
+    "line": "Craft is worship. Excellence, accessibility, beauty and care are how we love God and the person on the other side of the screen.",
+    "calling": [
+      [
+        "God fills craftspeople with his Spirit",
+        "/calling/#calling"
+      ],
+      [
+        "Craft turns the facets towards the light",
+        "/calling/#light"
+      ]
+    ],
+    "scripture": "“I have filled him with the Spirit of God, with skill, ability, and knowledge in all kinds of craftsmanship” (Exodus 31:3). “Whatever you do, work at it with your whole being, as for the Lord and not for men” (Colossians 3:23). The same skill can serve an idol: Aaron fashioned the calf “with an engraving tool” (Exodus 32:4).",
+    "tradition": "Praxis calls the redemptive way “creative restoration through sacrifice”: making new things that “create possibility and opportunity for others”. faith.tools asks whether an app is “maintained and regularly updated”, and asks of every app: does it “properly cite and license the Bible translations it uses”?",
+    "tradition_sources": [
+      "praxis-three-ways",
+      "faithtools-criteria"
+    ],
+    "rules_in": [
+      "A reader that is a joy to read in, and typography that honours the text",
+      "Accessibility as standard: screen readers, contrast, dyslexia, other languages",
+      "Stillness, beauty and reliability",
+      "Translations cited and licensed"
+    ],
+    "rules_out": [
+      "“It’s for ministry” as an excuse for careless work",
+      "Beauty used as bait"
+    ],
+    "gives_up": "Shipping fast at the cost of the people who cannot use what was shipped.",
+    "question": "Would we offer this to God as it is, and could the person with the least sight, time or reading ease use it?",
+    "questions": [
+      "What did we leave unfinished that someone else will have to carry?"
+    ],
+    "qualification": "Excellence is not luxury. A small team can make a simple thing well; what matters is care for the person, not polish for the portfolio.",
+    "examples": [
+      "how-much-text",
+      "bible-audio",
+      "translations",
+      "finding-a-passage"
+    ],
+    "old": [
+      "hospitality",
+      "costliness"
+    ],
+    "patterns": [
+      "how-much-text",
+      "numbers-headings-and-notes",
+      "bible-audio",
+      "devotional-audio",
+      "reading-context",
+      "audio-first",
+      "read-along",
+      "playback-highlight-style",
+      "honest-synchronisation",
+      "long-passages",
+      "readable-overflow",
+      "answer-depth",
+      "chat-content-objects",
+      "adaptive-reading-workspace",
+      "parallel-reading-layout",
+      "many-results",
+      "verse-entry",
+      "reference-resolution",
+      "partial-and-missing-context",
+      "silence-and-ending",
+      "contemplative-pause",
+      "reading-layout",
+      "verse-numbers",
+      "finding-a-passage",
+      "translation-picker",
+      "reading-settings",
+      "chat-attachments",
+      "resource-discovery",
+      "verse-comments",
+      "highlight-actions",
+      "book-chapter-layouts",
+      "chapter-navigation",
+      "smart-passage-search",
+      "liturgical-calendar",
+      "prayer-interface",
+      "scripture-and-interpretation",
+      "footnotes",
+      "cross-references",
+      "text-structure",
+      "translation-comparison",
+      "contextual-study-panel",
+      "word-study",
+      "annotation-anchors",
+      "highlight-overlap",
+      "interlinear-reading",
+      "verse-by-verse-comparison",
+      "guided-sequence",
+      "audio-mix",
+      "narration-provenance",
+      "translations",
+      "reading-position"
+    ]
+  },
+  {
+    "id": "trembling",
+    "heading": "makers",
+    "name": "Hold it with joy and trembling, before God and others",
+    "line": "Rejoice in the work and take its weight: pray for the people who use it, invite those who can say no, confess mistakes plainly, and tend what you release.",
+    "calling": [
+      [
+        "Rejoice with trembling",
+        "/calling/#holding"
+      ],
+      [
+        "Do it prayerfully",
+        "/calling/#spiritual"
+      ],
+      [
+        "For your team",
+        "/calling/#team"
+      ]
+    ],
+    "scripture": "“Serve the LORD with fear, and rejoice with trembling” (Psalm 2:11). “We have this treasure in jars of clay to show that this surpassingly great power is from God and not from us” (2 Corinthians 4:7). “The one who leads like the one who serves” (Luke 22:26).",
+    "tradition": "Praxis’s Redemptive Frame asks why we build, and answers: not “Live for Self”, nor only “Improve Yourself”, but “Die to Self”. FaithTech’s four practices, Lament, Discern, Build and Steward, ask before anything is made “whether building is wise at all”, and replace “ship it and walk away” with tending what was released.",
+    "tradition_sources": [
+      "praxis-three-ways",
+      "faithtech-playbook"
+    ],
+    "rules_in": [
+      "Scripture read together before planning",
+      "A pastor, a safeguarding lead and someone from the community in reviews, early",
+      "Plain apologies and fixes",
+      "Tending a product after launch"
+    ],
+    "rules_out": [
+      "Theology and safeguarding as a sign-off at the end",
+      "Success stories that make the team the hero"
+    ],
+    "gives_up": "Speed, control and the credit.",
+    "question": "Who outside the team holds us to account, and who prays for the people who use this?",
+    "questions": [
+      "What would we give up for the sake of the people who use it?"
+    ],
+    "qualification": "Practices are not a performance. A small team will keep them simply; what matters is that someone outside can say no, and is heard.",
+    "examples": [
+      "ai-citations",
+      "children-and-families",
+      "giving",
+      "ai-answer-actions"
+    ],
+    "old": [
+      "costliness"
+    ],
+    "patterns": [
+      "permission-and-repair",
+      "bounded-autonomy",
+      "ai-answer-actions",
+      "content-layers",
+      "human-connections",
+      "annotation-library",
+      "source-grounded-audio"
+    ]
+  }
+]

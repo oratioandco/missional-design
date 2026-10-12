@@ -42,5 +42,5 @@ export const legal = {
   },
 
   // Last update of the legal pages themselves
-  lastUpdated: '2026-04-14',
+  lastUpdated: '2026-10-12',
 };

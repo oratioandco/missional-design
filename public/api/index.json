@@ -1,0 +1,27 @@
+{
+ "name": "Bible & Faith Patterns content API",
+ "site": "https://missional.design",
+ "updated": "2026-10-12",
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ },
+ "about": "A design reference for the people who build Bible, prayer and AI products: the real options side by side, with the Scripture, practice and research behind every choice.",
+ "endpoints": {
+  "deep_dives": "https://missional.design/api/deep-dives.json",
+  "deep_dive": "https://missional.design/api/deep-dives/{slug}.json",
+  "principles": "https://missional.design/api/principles.json",
+  "sources": "https://missional.design/api/sources.json",
+  "examples": "https://missional.design/api/examples.json",
+  "guides": "https://missional.design/api/guides.json",
+  "pages": "https://missional.design/api/pages.json"
+ },
+ "counts": {
+  "deep_dives": 22,
+  "sources": 385,
+  "examples": 131,
+  "pages": 229
+ }
+}

@@ -1,0 +1,510 @@
+{
+ "slug": "bible-audio",
+ "url": "https://missional.design/patterns/bible-audio/",
+ "title": "Bible audio",
+ "question": "How should Scripture be heard: as text, voice or read-along?",
+ "lede": "Scripture was heard long before it was read silently, and for many people today listening is the main way in: on the way to work, before sleep, or because reading is hard. Apps decide how much the voice leads, whose voice it is, and what happens when the reading ends. Giving Scripture a voice is an old ministry, and a serious one: whoever shapes the voice shapes how people hear the word.",
+ "calling": "Someone will hear Scripture for the first time in the voice you choose.",
+ "spectrum": {
+  "title": "From the page to the ear",
+  "from": "The text leads",
+  "to": "The voice leads"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/listening/",
+  "situation": "Psalm 23 in the Berean Standard Bible, from text alone to a produced daily prayer. Press play in each option and watch what the text does; then try a synthetic voice and music. Playback is simulated: nothing sounds."
+ },
+ "options": [
+  {
+   "key": "text",
+   "name": "Text only",
+   "provenance": "Leave it out",
+   "origin": "Leaving audio out, as many study-focused apps do.",
+   "gain": "Nothing to produce",
+   "cost": "Leaves listeners out",
+   "makes_easier": "Nothing to produce, license or moderate; the text is the whole experience.",
+   "costs": "Leaves out commuters, people with low vision or dyslexia, and anyone who receives Scripture by ear.",
+   "ask_your_team": "Who cannot use your product without audio?",
+   "still": "https://missional.design/assets/stills/try-listen-text.jpg"
+  },
+  {
+   "key": "listen",
+   "name": "Listen button",
+   "provenance": "Familiar convention",
+   "origin": "A familiar convention: most Bible apps offer narration with a play button above or below the text.",
+   "gain": "Audio wherever the text is",
+   "cost": "Voice and text drift apart",
+   "makes_easier": "Audio is available wherever the text is, with no change to reading.",
+   "costs": "Voice and text drift apart; the listener has to keep their own place.",
+   "ask_your_team": "Is the audio for listening alone, or for reading along?",
+   "still": "https://missional.design/assets/stills/try-listen-listen.jpg"
+  },
+  {
+   "key": "readalong",
+   "name": "Read-along",
+   "provenance": "Observed",
+   "origin": "Observed in Dwell and Soultime, where the verse being read is highlighted or isolated (see the screenshots in the related deep dives).",
+   "gain": "Text follows the voice",
+   "cost": "Moving text needs control",
+   "makes_easier": "Text and voice stay together; helpful for learning to read, for dyslexia and for following closely.",
+   "costs": "A moving highlight needs a pause, and timing must be accurate to the verse or sentence.",
+   "ask_your_team": "At what level should the text follow the voice: verse, sentence or word?",
+   "still": "https://missional.design/assets/stills/try-listen-readalong.jpg"
+  },
+  {
+   "key": "audiofirst",
+   "name": "Audio first",
+   "provenance": "Observed",
+   "origin": "Observed in Dwell, the Joseph Prince app and Abide: full players with skip, speed and a sleep timer (see the screenshots below).",
+   "gain": "Works with the screen dark",
+   "cost": "Autoplay runs on",
+   "makes_easier": "Works with the screen dark: walking, driving, falling asleep.",
+   "costs": "The text is out of sight; autoplay can run on into the next chapter, or into something else entirely.",
+   "ask_your_team": "What happens when the passage ends?",
+   "still": "https://missional.design/assets/stills/try-listen-audiofirst.jpg"
+  },
+  {
+   "key": "produced",
+   "name": "Produced devotional",
+   "provenance": "Observed",
+   "origin": "Observed in Pray As You Go, whose sessions combine music, Scripture read twice and reflection questions, with a timestamped script (see the screenshots below). The reflection here is our own.",
+   "gain": "A whole practice in minutes",
+   "cost": "Editors’ voices beside Scripture",
+   "makes_easier": "A whole practice in a few minutes: Scripture, silence and prayer held together.",
+   "costs": "Editors’ reflections sit beside Scripture; music can comfort or distract.",
+   "ask_your_team": "Who wrote the words around the Scripture, and how will listeners know?",
+   "still": "https://missional.design/assets/stills/try-listen-produced.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Hearing is the older way of receiving Scripture",
+   "text": "Letters were written to be read aloud to whole churches, and Revelation blesses “they that hear”. Faith Comes By Hearing began as a tape library in 1972 and now records Scripture in over 1,580 languages; a Bible-in-a-year podcast reached No. 1 in the US. Audio is not an accessory to reading."
+  },
+  {
+   "heading": "Listening can be understood as well as reading",
+   "text": "In one study, comprehension was the same whether people read, listened, or did both. Read-along highlighting helped children with dyslexia follow, and karaoke-style subtitles have built literacy at scale. Let the text follow the voice when the screen is on."
+  },
+  {
+   "heading": "The ending is a design decision",
+   "text": "Audio-first players work with the screen dark, which makes the ending matter: autoplay can run on into the next chapter, or something else entirely. A sleep timer that stops at the end of the passage, or a moment of silence, keeps the listener in charge. Pray As You Go ends every session without a next track."
+  },
+  {
+   "heading": "Whose voice it is matters",
+   "text": "Listeners told a voice is AI trust it less, and from August 2026 the EU AI Act requires generated audio to be marked. Label synthetic voices plainly, name human narrators, and never imitate a known pastor’s voice without consent. A voice interprets, as a reader in church does."
+  },
+  {
+   "heading": "Music and reflections add other voices",
+   "text": "Background music mildly disturbs reading but many people value it emotionally, so make it optional. In produced devotionals, say who wrote the reflections and keep them audibly distinct from Scripture."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "Commuting or walking",
+   "needs": "Screen off, skip and pause",
+   "fit": {
+    "Text only": "poor fit",
+    "Listen button": "possible",
+    "Read-along": "poor fit",
+    "Audio first": "good fit",
+    "Produced devotional": "good fit"
+   }
+  },
+  {
+   "situation": "Falling asleep",
+   "needs": "A gentle end, no autoplay",
+   "fit": {
+    "Text only": "poor fit",
+    "Listen button": "possible",
+    "Read-along": "poor fit",
+    "Audio first": "good fit",
+    "Produced devotional": "possible"
+   }
+  },
+  {
+   "situation": "Learning to read, or dyslexia",
+   "needs": "Text that follows the voice",
+   "fit": {
+    "Text only": "poor fit",
+    "Listen button": "possible",
+    "Read-along": "good fit",
+    "Audio first": "poor fit",
+    "Produced devotional": "poor fit"
+   }
+  },
+  {
+   "situation": "Close study",
+   "needs": "The text, at your own pace",
+   "fit": {
+    "Text only": "good fit",
+    "Listen button": "possible",
+    "Read-along": "possible",
+    "Audio first": "poor fit",
+    "Produced devotional": "poor fit"
+   }
+  },
+  {
+   "situation": "Daily prayer",
+   "needs": "Scripture, silence and prayer together",
+   "fit": {
+    "Text only": "poor fit",
+    "Listen button": "poor fit",
+    "Read-along": "possible",
+    "Audio first": "possible",
+    "Produced devotional": "good fit"
+   }
+  },
+  {
+   "situation": "Low vision",
+   "needs": "Audio with large controls",
+   "fit": {
+    "Text only": "poor fit",
+    "Listen button": "possible",
+    "Read-along": "possible",
+    "Audio first": "good fit",
+    "Produced devotional": "possible"
+   }
+  },
+  {
+   "situation": "Oral cultures and low literacy",
+   "needs": "Audio as the main way in",
+   "fit": {
+    "Text only": "poor fit",
+    "Listen button": "possible",
+    "Read-along": "possible",
+    "Audio first": "good fit",
+    "Produced devotional": "good fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "Heard before read",
+   "findings": [
+    {
+     "heading": "Written to be read aloud",
+     "text": "“Faith comes by hearing” (Romans 10:17). “Blessed is the one who reads aloud the words of this prophecy, and blessed are those who hear” (Revelation 1:3). Paul’s letters were read to whole congregations, and Israel heard the law read publicly (Nehemiah 8:8).",
+     "sources": []
+    },
+    {
+     "heading": "A voice interprets",
+     "text": "A reader’s pace and emphasis shape meaning, which is why churches train readers. In an app, the narrator, the music and any reflection are all part of how the passage is received.",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Listening today",
+   "subtitle": "What people actually do",
+   "findings": [
+    {
+     "heading": "Audio as a first language",
+     "text": "Faith Comes By Hearing reports recordings in over 1,580 languages and launched Bible.is in 2010. Advocacy networks estimate most of the world are oral learners; the figures are contested, but the need is real.",
+     "sources": [
+      "fcbh",
+      "orality-claim"
+     ]
+    },
+    {
+     "heading": "Mass listening and daily practice",
+     "text": "Bible in a Year reached No. 1 among US podcasts, with 170 million downloads reported in 2021. Pray As You Go has offered a daily ten-minute prayer since 2006.",
+     "sources": [
+      "bible-in-a-year",
+      "pray-as-you-go"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Listening science",
+   "subtitle": "What helps, what distracts",
+   "findings": [
+    {
+     "heading": "Listening matches reading",
+     "text": "No significant comprehension difference between reading, listening and both in one study.",
+     "sources": [
+      "rogowsky-2016"
+     ]
+    },
+    {
+     "heading": "Text that follows the voice",
+     "text": "Synchronised highlighting helped children with dyslexia read along; same-language subtitles have supported literacy.",
+     "sources": [
+      "read-along-dyslexia",
+      "sls"
+     ]
+    },
+    {
+     "heading": "Music is a trade-off",
+     "text": "Background music slightly disturbs reading but supports emotional response.",
+     "sources": [
+      "music-reading"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Voices, law and access",
+   "subtitle": "Best practice",
+   "findings": [
+    {
+     "heading": "Label synthetic voices",
+     "text": "Listeners trust voices less when told they are AI; the EU AI Act requires generated audio to be marked from August 2026.",
+     "sources": [
+      "synthetic-trust",
+      "ai-act-50"
+     ]
+    },
+    {
+     "heading": "Pause, stop and end",
+     "text": "Anything that moves for more than five seconds needs a pause; for audio, also skip back, speed and a sleep timer that stops at the end.",
+     "sources": [
+      "wcag-222"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "People listen on the move or before sleep",
+   "start_with": "Audio first, with a sleep timer that stops at the end of the passage"
+  },
+  {
+   "if": "People read and listen together, or are learning to read",
+   "start_with": "Read-along at verse or sentence level, with pause"
+  },
+  {
+   "if": "Your product is a daily prayer practice",
+   "start_with": "A produced devotional with named authors and optional music"
+  },
+  {
+   "if": "You use synthetic narration",
+   "start_with": "A visible label wherever the voice plays, and a human-recorded option if you can"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What hearing is for",
+   "text": "For most of Christian history, Scripture reached people through the ear. Jesus “stood up to read” in the synagogue at Nazareth (Luke 4:16), Paul told Timothy, “devote yourself to the public reading of Scripture” (1 Timothy 4:13), and “faith comes by hearing” (Romans 10:17). Public reading is not a delivery format but an act of the community: one voice reads, and everyone hears the same words at the same time."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Liturgical churches treat the reading of Scripture as worship in its own right: the Gospel is often read by a deacon or priest, with the people standing. Many Protestant churches centre the sermon, with the reading as its text. Traditions also differ on who may read publicly. All agree that a reader interprets by tone and pace; that is why churches choose and train readers."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "An app chooses a reader for millions of people. Name that voice, and say whether it is a person. Let the passage end as a reading ends, in silence, rather than rolling into whatever comes next. Treat listening together, in a family or a church, as a first-class case, not an afterthought to solitary listening."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Second Vatican Council, Dei Verbum (1965)",
+   "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_en.html",
+   "note": "asks that prayer accompany reading “so that God and man may talk together”, quoting Ambrose: “we hear Him when we read the divine saying.”"
+  },
+  {
+   "source": "Dietrich Bonhoeffer, Life Together (1939)",
+   "url": "https://www.9marks.org/review/book-review-life-together-by-dietrich-bonhoeffer",
+   "note": "describes a community beginning the day by reading Scripture aloud together, as something received in common before anyone reads alone."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Autoplay rolls into the next episode or an upsell; a synthetic voice is presented as a person.",
+  "ethical": "Name the reader and edition, stop when the passage ends, offer text alongside.",
+  "redemptive": "Pay for human readers in the languages and dialects a market overlooks, and give audio free and offline to people who cannot read.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "Whose voice reads Scripture here, and what happens when it ends?",
+  "exercise": "Listen to your own audio on a commute with the screen off. Note every moment you have to look at the phone, and what plays when the passage ends. Then ask three listeners whether the voice is a person, and how they know.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [
+  {
+   "slug": "audio-first",
+   "title": "The player works without the screen",
+   "summary": "Support listening as a complete mode of use.",
+   "url": "https://missional.design/patterns/bible-audio/#family-audio-first"
+  },
+  {
+   "slug": "read-along",
+   "title": "Playback and reading positions can differ",
+   "summary": "Follow the narration without forcing the reader to follow every movement.",
+   "url": "https://missional.design/patterns/bible-audio/#family-read-along"
+  },
+  {
+   "slug": "guided-sequence",
+   "title": "Choose a devotional format",
+   "summary": "Compare a continuous reading, a sequence of cards and a chaptered audio session.",
+   "url": "https://missional.design/patterns/bible-audio/#family-guided-sequence"
+  }
+ ],
+ "examples": [
+  {
+   "app": "Pray As You Go",
+   "title": "A session script with timestamps",
+   "url": "https://missional.design/examples/payg-script/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "A Script sheet over the player lists the session in segments: at 0:00 a music card, “Ecce Quam Bonum · The Monks of Pluscarden Abbey”, with the day’s introduction (“Today is Thursday the 28th of August, the feast of Saint Augustine…”) and “(Lyrics currently unavailable)”; at 1:56 the reading, introduced as “Today’s reading is from Saint Paul’s First Letter to the Thessalonians.” Each segment has its own play button.",
+   "decision": "A timestamped script makes a produced session navigable and shows which words are Scripture, which are music and which are the editors’.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Abide",
+   "title": "The author and narrator, named",
+   "url": "https://missional.design/examples/abide-narrator/",
+   "observed": "Captured 17 October 2025 · from embedded image metadata",
+   "observation": "An options sheet over the “Take Courage” player names Michael Foust as Author and Johnathon Eltrevoog as Narrator, with a Follow button, thumbs up and down, download, Sleep Timer and Screencast; a tooltip notes the new location for the sleep timer.",
+   "decision": "Naming who wrote and who reads a session makes its voices accountable, and separates the devotional author from the narrator.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "BeBlessed",
+   "title": "A choice of background sound",
+   "url": "https://missional.design/examples/beblessed-background-sound/",
+   "observed": "Captured 26 September 2025 · from embedded image metadata",
+   "observation": "Over a dark player, a sheet offers background sounds as chips (None, Piano, Nature sound, Gregorian chant, Vinyl, Rain, Ambient tones, Ocean waves), with None selected and a volume slider below.",
+   "decision": "Making the music bed a choice, with “None” first, respects people who find music distracting.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Joseph Prince",
+   "title": "A chapter player with a sleep timer",
+   "url": "https://missional.design/examples/jp-chapter-player/",
+   "observed": "Captured 22 October 2025 · from embedded image metadata",
+   "observation": "A sheet over the Genesis 1 (NKJV) reader shows “Genesis 1” with a progress bar, back and forward 30 seconds, previous and next chapter, a large play button, and Sleep Timer and 1x speed buttons.",
+   "decision": "A sleep timer and chapter controls support listening with the screen off; what plays after Genesis 1 is the next design question.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Spark Bible",
+   "title": "A timestamped transcript, with recognition errors",
+   "url": "https://missional.design/examples/sparkbible-transcript/",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "The Transcript tab under a video lists lines with timestamps (00:00, 00:05, 00:10…), with a switch between timestamped and paragraph layouts. Several lines contain speech-recognition errors, such as “Full Or Theological Seminary” for Fuller Theological Seminary.",
+   "decision": "Timestamped transcripts let people check what a speaker said and jump to it. Automatic transcripts need correcting before they are shown as a record of what was said, and especially before anyone quotes them.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "rogowsky-2016",
+   "title": "Does modality matter? The effects of reading, listening, and dual modality on comprehension",
+   "url": "https://www.psychologicalscience.org/news/are-audiobooks-as-good-for-you-as-reading-heres-what-experts-say.html",
+   "author": "Rogowsky, Calhoun and Tallal · SAGE Open, 2016 (as reported by APS)",
+   "kind": "Research",
+   "shows": "Found no significant difference in comprehension between reading, listening, and reading while listening.",
+   "application": "Treat listening as real reading, and let people combine it with text.",
+   "limits": "One nonfiction text with adult readers; other studies find differences for harder texts."
+  },
+  {
+   "key": "read-along-dyslexia",
+   "title": "Effects of highlighting text on the reading ability of children with developmental dyslexia: a pilot study",
+   "url": "https://online-journals.org/index.php/i-jet/article/view/8736",
+   "author": "International Journal of Emerging Technologies in Learning",
+   "kind": "Research",
+   "shows": "Children with dyslexia found it easier to read along when audio was synchronised with highlighting, especially with whole-sentence highlighting.",
+   "application": "Move the focus with audio, at the level of a verse or sentence.",
+   "limits": "Small pilot study."
+  },
+  {
+   "key": "sls",
+   "title": "Same language subtitling",
+   "url": "https://blogs.worldbank.org/edutech/bollywood-karaoke",
+   "author": "World Bank blog on Brij Kothari’s work",
+   "kind": "Research",
+   "shows": "Karaoke-style same-language subtitles on song programmes in India were associated with gains in reading among early readers.",
+   "application": "Synchronised text and audio can build reading as a by-product of listening.",
+   "limits": "Reported programme results; a literacy setting, not Scripture reading."
+  },
+  {
+   "key": "fcbh",
+   "title": "Faith Comes By Hearing: our story",
+   "url": "https://faithcomesbyhearing.com/about/our-story",
+   "author": "Faith Comes By Hearing",
+   "kind": "Practice",
+   "shows": "Began as a tape-lending library in 1972, took its name from Romans 10:17, and launched Bible.is in 2010; it reports recordings in more than 1,580 languages.",
+   "application": "Audio is a primary form of Scripture for many communities, not an add-on.",
+   "limits": "Figures are the ministry’s own."
+  },
+  {
+   "key": "bible-in-a-year",
+   "title": "St Thomas alumnus hosts No. 1 podcast in US",
+   "url": "https://news.stthomas.edu/st-thomas-alumnus-hosts-no-1-podcast-in-us/",
+   "author": "University of St Thomas news",
+   "kind": "Practice",
+   "shows": "Fr Mike Schmitz’s Bible in a Year reached No. 1 among all US podcasts; Ascension reported 170 million downloads in 2021.",
+   "application": "Long-form listening to Scripture can reach mass audiences.",
+   "limits": "Download figures from the publisher."
+  },
+  {
+   "key": "pray-as-you-go",
+   "title": "Pray As You Go: about us",
+   "url": "https://prayasyougo.org/about-us",
+   "author": "Jesuits in Britain",
+   "kind": "Practice",
+   "shows": "Daily ten-minute audio prayer since 2006 combining music, Scripture and Ignatian questions, used tens of millions of times a year.",
+   "application": "A produced devotional can be formation-first: fixed, shared and ending in silence.",
+   "limits": "Usage figures from the organisation."
+  },
+  {
+   "key": "music-reading",
+   "title": "The impact of background music on adult listeners: a meta-analysis",
+   "url": "https://Www.Gwern.net/doc/music/music-distraction/2011-kampfe.pdf",
+   "author": "Kämpfe, Sedlmeier and Renkewitz · Psychology of Music, 2011",
+   "kind": "Research",
+   "shows": "Background music had a small disturbing effect on reading (d ≈ −0.22 across eight studies) and positive effects on emotional responses.",
+   "application": "Offer music as an option, off for study, and let people turn it off.",
+   "limits": "Mixed study designs; reading rather than listening tasks."
+  },
+  {
+   "key": "synthetic-trust",
+   "title": "Human vs synthetic voices and listener trust",
+   "url": "https://par.nsf.gov/servlets/purl/10536688",
+   "author": "NSF public access repository",
+   "kind": "Research",
+   "shows": "Listeners told a voice was human showed more trust than those told the same clip was AI; labelled AI voices were rated less credible.",
+   "application": "Label synthetic voices honestly, and expect a trust cost rather than hiding it.",
+   "limits": "Lab studies with short clips; not Scripture."
+  },
+  {
+   "key": "ai-act-50",
+   "title": "EU AI Act Article 50: transparency obligations",
+   "url": "https://www.potterclarkson.com/news/eu-ai-act-article-50-new-ai-transparency-rules",
+   "author": "Potter Clarkson (law firm summary)",
+   "kind": "Law",
+   "shows": "From 2 August 2026, providers must mark generated audio as artificial in a machine-readable way, and deployers must disclose deepfakes.",
+   "application": "Disclose synthetic narration, and never imitate a real person’s voice without consent.",
+   "limits": "Secondary legal summary; applicability depends on role and use."
+  },
+  {
+   "key": "orality-claim",
+   "title": "International Orality Network",
+   "url": "https://scripture-engagement.org/content/international-orality-network/",
+   "author": "Scripture Engagement (Taylor University)",
+   "kind": "Practice",
+   "shows": "The network estimates that most of the world’s population are oral learners by necessity or preference.",
+   "application": "Design audio as a first-class way in for oral cultures and low-literacy readers.",
+   "limits": "An advocacy estimate; definitions and figures vary and are contested."
+  },
+  {
+   "key": "wcag-222",
+   "title": "Understanding SC 2.2.2: Pause, Stop, Hide",
+   "url": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide",
+   "author": "W3C",
+   "kind": "Accessibility",
+   "shows": "Anything that moves or auto-updates for more than five seconds alongside other content needs a way to pause, stop or hide it.",
+   "application": "Auto-advancing verses, read-along and one-word display all need a visible pause.",
+   "limits": "A Level A criterion for web content; apply the same intent in native apps."
+  }
+ ],
+ "review": null,
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

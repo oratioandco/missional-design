@@ -1,0 +1,644 @@
+{
+ "slug": "sharing-with-a-group",
+ "url": "https://missional.design/patterns/sharing-with-a-group/",
+ "title": "Sharing with a group",
+ "question": "When someone shares a prayer request, who hears it, and who looks after it?",
+ "lede": "Someone asks others to pray: for a mother’s surgery, for a new job, for something they have never said aloud. A prayer app decides who hears it, from one friend to everyone in the app, and what comes back: a heart, a verse, a stranger’s reply, or a person who knows what to do. Most requests are ordinary, and being prayed for by people who know you is a gift. Some are not, and the people closest to a worry are not always the right ones to hear it first. Paul asks the church to “rejoice with those who rejoice; weep with those who weep” (Romans 12:15). Design for both.",
+ "calling": "Let people choose who hears them, and make sure whoever hears something hard knows what to do with it.",
+ "spectrum": {
+  "title": "From between you and God to everyone in the app",
+  "from": "Fewer people hear it",
+  "to": "More people hear it"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/sharing/",
+  "situation": "Someone wants others to pray with them. First share an ordinary request: their mother’s surgery on Thursday. Then switch to something hard: a worry about how a youth helper messages their daughter, from someone who doesn’t know who to tell. Notice who hears it, what each listener can or must do with it, and what comes back."
+ },
+ "options": [
+  {
+   "key": "private",
+   "name": "Between you and God",
+   "provenance": "Leave it out",
+   "origin": "Leaving sharing out. Hallow’s help centre describes the private setting: an intention “will only be saved to your journal and not shared with others”. Here the whole app works that way and points people to those they know and to their own church.",
+   "gain": "Nothing to leak or misread",
+   "cost": "No one prays with them",
+   "makes_easier": "Nothing to leak, misread or answer badly.",
+   "costs": "No one prays with them, and no one hears what is hard.",
+   "ask_your_team": "Where does this app send someone who needs a person, not a journal?",
+   "still": "https://missional.design/assets/stills/try-sharing-private.jpg"
+  },
+  {
+   "key": "person",
+   "name": "Through a person you choose",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from careful church practice outside apps: one person receives a request, agrees what is passed on and names no one without consent; and from safeguarding roles that sit apart from leadership, such as a Church of England parish’s lay safeguarding officer. Not observed in an app. Names, replies and the church are written for this example.",
+   "gain": "The listener is chosen and named",
+   "cost": "A church must name someone",
+   "makes_easier": "The listener is chosen, and what they must do is said before anything is shared.",
+   "costs": "Asks the church to name and train someone, and keep the details current.",
+   "ask_your_team": "Who is named here, and are they outside the leadership a concern might be about?",
+   "still": "https://missional.design/assets/stills/try-sharing-person.jpg"
+  },
+  {
+   "key": "friends",
+   "name": "A few people you choose",
+   "provenance": "Observed",
+   "origin": "Observed in Soultime with Friends (up to 10 supporters, with automatic notifications switched on) and in YouVersion Prayer (“Keep your prayers private, or invite friends to pray with you”); see the screenshots below.",
+   "gain": "People who know them",
+   "cost": "Replies are unguided",
+   "makes_easier": "Prayer with people who know them, at a size they chose.",
+   "costs": "Friends reply as they like, and may quote a verse back.",
+   "ask_your_team": "What do friends see before they reply, and who decided when they are notified?",
+   "still": "https://missional.design/assets/stills/try-sharing-friends.jpg"
+  },
+  {
+   "key": "group",
+   "name": "A group with a leader",
+   "provenance": "Observed",
+   "origin": "Observed in Startblock, where people join with a code from their group leader, and in Planning Center’s confidential member groups, where only leaders see who is in the group; see the screenshots below. The group’s ways of praying together and the note before sharing are proposals.",
+   "gain": "Someone looks after it",
+   "cost": "Leaders may be too close",
+   "makes_easier": "A known circle with someone looking after it.",
+   "costs": "Leaders may be close to the person a concern is about.",
+   "ask_your_team": "Does the group know who to tell if the leader is part of the problem?",
+   "still": "https://missional.design/assets/stills/try-sharing-group.jpg"
+  },
+  {
+   "key": "church",
+   "name": "The whole church",
+   "provenance": "Observed",
+   "origin": "Observed in Hallow’s Church tab: requests go to friends, a church or a group, are limited to 240 characters, can’t be anonymous or edited, stay active for 7 days, and are answered with a heart; see the screenshots below.",
+   "gain": "A parish prays together",
+   "cost": "Hundreds see a name and a need",
+   "makes_easier": "A whole parish praying, in a few taps.",
+   "costs": "Hundreds of people see a name and a need; hearts become a count.",
+   "ask_your_team": "Would the person still share this if they could see every member’s face?",
+   "still": "https://missional.design/assets/stills/try-sharing-church.jpg"
+  },
+  {
+   "key": "wall",
+   "name": "A public wall",
+   "provenance": "Observed",
+   "origin": "Observed in Glorify’s community prayer requests, a single thread with hundreds of thousands of responses under first names; see the screenshots below. Names and requests here are written for this example.",
+   "gain": "Someone prays at any hour",
+   "cost": "Strangers answer",
+   "makes_easier": "Someone, somewhere, prays, at any hour.",
+   "costs": "Strangers answer; requests from people in crisis sit beside exam worries.",
+   "ask_your_team": "Who reads this wall, and what happens when someone posts that they are not safe?",
+   "still": "https://missional.design/assets/stills/try-sharing-wall.jpg"
+  },
+  {
+   "key": "ranked",
+   "name": "Ranked by prayer streaks",
+   "provenance": "Leave it out",
+   "origin": "Observed in Pray.com’s Community Board, which lists “Active Streakers” with Praise and Remind buttons; see the screenshots below and the prayer deep dive. Shown here as something to leave out.",
+   "gain": "Motivates while it lasts",
+   "cost": "Prayer becomes a ranking",
+   "makes_easier": "Visible habit that motivates some people while it lasts.",
+   "costs": "Prayer becomes a ranking, and requests become content for it.",
+   "ask_your_team": "What does this board teach people about prayer, and about each other?",
+   "still": "https://missional.design/assets/stills/try-sharing-ranked.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Say who will hear it, before it is written",
+   "text": "Hallow’s requests go to friends, a church or a group, can’t be anonymous or edited, and stay active for 7 days; its help centre suggests writing “For a special intention” to keep details private. Show the audience, how long a request stays and whether it can be changed before someone starts typing, and ask before naming anyone else."
+  },
+  {
+   "heading": "Some listeners have to pass things on",
+   "text": "In Germany’s Protestant churches, church workers, volunteers included, must report a justified suspicion of sexualised violence to the church’s reporting office; pastoral confidentiality and the seal of confession are left untouched. A group leader may not be able to keep a secret, and shouldn’t promise to. Say so before someone shares, and say what happens next."
+  },
+  {
+   "heading": "Name the safeguarding contact",
+   "text": "When a church sets an app up, show its safeguarding contact with a way to reach them from inside the app, as a parish shows it on the noticeboard. Choose someone outside the leadership a concern might be about. German Catholic institutions must have a person trained in prevention; a Church of England parish must appoint a safeguarding officer, who should be a lay person."
+  },
+  {
+   "heading": "Keep an independent route beside the church’s",
+   "text": "Some people will not tell anyone at their church first, and sometimes they are right. Offer an independent service next to the church’s contact and say what each does with what it hears. The church route is often the right one; it should never be the only one."
+  },
+  {
+   "heading": "A verse quoted back can wound",
+   "text": "A reply such as “go and confront him privately” (Matthew 18:15) can send someone alone to the person they are afraid of. Groups can agree how they answer: listen first, pray, and offer verses only when asked."
+  },
+  {
+   "heading": "Friends are not always the safest listeners",
+   "text": "A circle of friends is a gift for ordinary requests. For something hard, reactions from people close to us can be the most negative, so offer a trained listener beside them. Soultime nudges friends automatically “when we think you might need a call”, switched on; ask each time instead."
+  },
+  {
+   "heading": "Leave out what ranks prayer",
+   "text": "Hearts, counts and streak boards turn requests into content. A board with Praise and Remind buttons ranks people by how often they pray, and puts someone’s need underneath."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "A parent’s surgery this week",
+   "needs": "People who know them, praying",
+   "fit": {
+    "Between you and God": "possible",
+    "Through a person you choose": "good fit",
+    "A few people you choose": "good fit",
+    "A group with a leader": "good fit",
+    "The whole church": "good fit",
+    "A public wall": "possible",
+    "Ranked by prayer streaks": "poor fit"
+   }
+  },
+  {
+   "situation": "Something never said aloud",
+   "needs": "One trusted listener",
+   "fit": {
+    "Between you and God": "possible",
+    "Through a person you choose": "good fit",
+    "A few people you choose": "possible",
+    "A group with a leader": "poor fit",
+    "The whole church": "poor fit",
+    "A public wall": "poor fit",
+    "Ranked by prayer streaks": "poor fit"
+   }
+  },
+  {
+   "situation": "A worry about someone’s safety",
+   "needs": "A person who knows what to do",
+   "fit": {
+    "Between you and God": "poor fit",
+    "Through a person you choose": "good fit",
+    "A few people you choose": "poor fit",
+    "A group with a leader": "possible",
+    "The whole church": "poor fit",
+    "A public wall": "poor fit",
+    "Ranked by prayer streaks": "poor fit"
+   }
+  },
+  {
+   "situation": "A grief or recovery group",
+   "needs": "Privacy from other members",
+   "fit": {
+    "Between you and God": "poor fit",
+    "Through a person you choose": "possible",
+    "A few people you choose": "poor fit",
+    "A group with a leader": "good fit",
+    "The whole church": "poor fit",
+    "A public wall": "poor fit",
+    "Ranked by prayer streaks": "poor fit"
+   }
+  },
+  {
+   "situation": "A request about someone else",
+   "needs": "Their agreement first",
+   "fit": {
+    "Between you and God": "good fit",
+    "Through a person you choose": "good fit",
+    "A few people you choose": "possible",
+    "A group with a leader": "possible",
+    "The whole church": "poor fit",
+    "A public wall": "poor fit",
+    "Ranked by prayer streaks": "poor fit"
+   }
+  },
+  {
+   "situation": "A joy to share",
+   "needs": "A community rejoicing",
+   "fit": {
+    "Between you and God": "poor fit",
+    "Through a person you choose": "possible",
+    "A few people you choose": "good fit",
+    "A group with a leader": "good fit",
+    "The whole church": "good fit",
+    "A public wall": "possible",
+    "Ranked by prayer streaks": "poor fit"
+   }
+  },
+  {
+   "situation": "Late at night, no one to call",
+   "needs": "Someone, somewhere",
+   "fit": {
+    "Between you and God": "possible",
+    "Through a person you choose": "possible",
+    "A few people you choose": "possible",
+    "A group with a leader": "poor fit",
+    "The whole church": "poor fit",
+    "A public wall": "possible",
+    "Ranked by prayer streaks": "poor fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "Being with someone",
+   "findings": [
+    {
+     "heading": "Weep with those who weep",
+     "text": "“Rejoice with those who rejoice; weep with those who weep” (Romans 12:15). Being with someone comes before fixing them, and a reply box can make room for that.",
+     "sources": []
+    },
+    {
+     "heading": "Silence before answers",
+     "text": "Job’s friends “sat on the ground with him for seven days and seven nights, but no one spoke a word to him because they saw how intense his suffering was” (Job 2:13). Their trouble began when they started to explain.",
+     "sources": []
+    },
+    {
+     "heading": "In secret and together",
+     "text": "Jesus taught his disciples to pray behind a shut door (Matthew 6:6), and the first church prayed together (Acts 2:42). Both are prayer, so neither should be the only setting an app offers.",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Church practice and church law",
+   "subtitle": "Who hears, and who must act",
+   "findings": [
+    {
+     "heading": "Ask before naming someone",
+     "text": "A United Methodist church suspended printed prayer requests after complaints about what they disclosed, then asked for written approval before praying for someone other than the person asking.",
+     "sources": [
+      "umc-prayer-privacy"
+     ]
+    },
+    {
+     "heading": "Some listeners must report",
+     "text": "The EKD’s guideline against sexualised violence (2019) obliges church workers, volunteers included, to report a justified suspicion to a reporting office, protecting their identity; pastoral confidentiality and the seal of confession stay untouched.",
+     "sources": [
+      "ekd-gewaltschutz"
+     ]
+    },
+    {
+     "heading": "A trained person, and routes made known",
+     "text": "The German Catholic bishops’ framework for prevention, in force since January 2020, requires a person trained in prevention for every institution, and that advice and reporting routes be made known.",
+     "sources": [
+      "dbk-rahmenordnung"
+     ]
+    },
+    {
+     "heading": "A safeguarding officer apart from leadership",
+     "text": "In the Church of England, a parish must appoint at least one safeguarding officer, who should be a lay person, with contact details displayed in all church premises.",
+     "sources": [
+      "cofe-pso-durham"
+     ]
+    },
+    {
+     "heading": "Members hidden from each other",
+     "text": "Planning Center’s confidential groups let support groups protect their members: “only group leaders will have access to the complete member list”.",
+     "sources": [
+      "planning-center-confidential"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Research and law",
+   "subtitle": "What sharing costs",
+   "findings": [
+    {
+     "heading": "Requests are special-category data",
+     "text": "A request names faith and often health, about the person and others. Under European data law both need an Article 9 condition, and inferences count too.",
+     "sources": [
+      "gdpr",
+      "ico-special-inferences"
+     ]
+    },
+    {
+     "heading": "How a listener reacts matters",
+     "text": "In a study of 228 women disclosing sexual assault, reactions from friends and family were more negative than those from police or service providers, and gave less practical help.",
+     "sources": [
+      "nij-disclosure-reactions"
+     ]
+    },
+    {
+     "heading": "Groups help many people",
+     "text": "In Lifeway Research’s survey of US Protestant churchgoers, those in a small group five or more times a month scored 74.1 on a discipleship assessment, against 60.4 for those in none. A correlation, not proof that groups cause growth.",
+     "sources": [
+      "lifeway-small-groups-2026"
+     ]
+    },
+    {
+     "heading": "Independent help has limits too",
+     "text": "thirtyone:eight shares information without consent only in exceptional cases, such as serious and immediate risk; Anlaufstelle.help is anonymous and passes people on to church offices only if they want.",
+     "sources": [
+      "thirtyoneeight-confidentiality",
+      "anlaufstelle-help"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "Most requests are ordinary",
+   "start_with": "A few people or a group they chose, with audience and end date shown first"
+  },
+  {
+   "if": "A church sets the app up",
+   "start_with": "Name its safeguarding contact, and say before sharing who may have to pass things on"
+  },
+  {
+   "if": "Someone may not be safe",
+   "start_with": "One person they choose, a trained contact or an independent service, not the group"
+  },
+  {
+   "if": "Support and recovery groups",
+   "start_with": "Confidential members, a named leader, and a route around the leader"
+  },
+  {
+   "if": "You are tempted to rank or count",
+   "start_with": "Don’t: no streaks, boards or public totals"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What sharing a burden is for",
+   "text": "Paul asks the church to “carry one another’s burdens” (Galatians 6:2) and to “weep with those who weep” (Romans 12:15); James to “pray for each other so that you may be healed” (James 5:16). Sharing a need is an act of trust, and hearing it is a charge: whoever listens becomes responsible for what they heard."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Catholic and Orthodox Christians confess sins to a priest, under a seal; many Protestant churches share requests openly in a prayer chain or a small group; Methodist class meetings and accountability groups ask members to tell each other how they are really doing. The same passages that call for bearing burdens have also been used to press people to disclose more than they chose, or to keep concerns about a leader inside the church."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "Let people choose who hears them, and tell them before they share what each listener can and must do. Name a trained contact apart from the leadership, and keep an independent route beside it. Help groups listen before they answer, offer verses only when asked, and count nothing."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Dietrich Bonhoeffer, Life Together (1939)",
+   "url": "https://www.9marks.org/review/book-review-life-together-by-dietrich-bonhoeffer",
+   "note": "held that because a fellow Christian is Christ to me, I must listen to them as patiently as I listen to Christ, and bear their burdens as I share in his cross."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Make every request public and countable, notify friends automatically, and rank who prays most.",
+  "ethical": "Show the audience before sharing, ask before naming others, let requests expire, and let people delete them.",
+  "redemptive": "Send something hard to one trained person instead of the feed, keep an independent route even when it takes people away from your community, and give up the engagement a public wall would bring.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "When someone shares something hard here, who hears it first, and what are they able, and obliged, to do?",
+  "exercise": "Write three requests: an ordinary one, one about someone else, and a worry about someone’s safety. For each option you plan to build, list everyone who will see each request, for how long, and what each of them can or must do with it. Find your church’s safeguarding contact and an independent service, and ask both to read your wording before launch.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [],
+ "examples": [
+  {
+   "app": "Soultime",
+   "title": "Up to ten friends who support you",
+   "url": "https://missional.design/examples/soultime-friends/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "“Soultime with Friends” has two tabs, Supports You and Supported by You. The text reads: “These are the friends you’ve asked to support you. We’ll let them know when you might need a call. You’re limited to 10 supporters.” Three empty slots sit above an Invite a Friend button and the line “We never share your mood data with your friends”.",
+   "decision": "A small, chosen circle and a plain promise about what friends see are careful choices. “We’ll let them know” means the app decides when friends hear something; say how it decides.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Soultime",
+   "title": "Friends nudged automatically, switched on",
+   "url": "https://missional.design/examples/soultime-friends-settings/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "“Soultime with Friends Settings” explains: “For many of us reaching out is one of the hardest parts. Soultime with Friends discretely nudges your friends automatically when we think you might need a call.” An “Automatic notifications” switch is on, with the note “Select ‘off’ if you would like us to ask you each time before we send your friends a notification.”",
+   "decision": "Reaching out is hard, and the app tries to help. But an inference about someone’s mood, sent to friends by default, is a disclosure they did not make. Ask each time by default, and say what the friends are told.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Startblock",
+   "title": "Joining a group with a code from the leader",
+   "url": "https://missional.design/examples/startblock-group-code/",
+   "observed": "Captured 26 September 2025 · from embedded image metadata",
+   "observation": "A screen titled “Gruppen-Code eingeben” has a dashed field for “Gruppen Code”, a Beitreten (join) button, “oder” and a “QR Code scannen” button. Below: “Den Code für den Gruppenbeitritt erhältst du von deinem Gruppenleiter” (you get the code to join from your group leader).",
+   "decision": "Joining by a code from a leader keeps a group closed and gives it someone responsible. It also means the leader decides who is in; a group needs a way to raise a concern that does not go through that leader.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Hallow",
+   "title": "“Pray for others, be prayed for”",
+   "url": "https://missional.design/examples/hallow-community/",
+   "observed": "Captured 19 September 2025 · from embedded image metadata",
+   "observation": "The Community tab, signed out, shows a small church on a purple background and “Sign in or create an account to pray alongside your community”, with three ticks: “Connect with your parish community and stay connected with fellow members”, “Pray for others, be prayed for” and “Strengthen your faith together through community challenges and discussions”.",
+   "decision": "The pitch makes the parish the audience. Hallow’s help centre adds the details that matter: requests of up to 240 characters, never anonymous, active for seven days, answered with a heart.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Glorify",
+   "title": "One prayer thread for the whole community",
+   "url": "https://missional.design/examples/glorify-prayer-requests/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "A “Prayers” sheet opens on a card, “Prayer requests: How can the Glorify community be praying alongside you? 🙏”, with 481.63k responses. Below are requests posted one to six minutes earlier, each under a first name and avatar with heart and reply buttons (names and requests blurred here), and a “Leave a response” field.",
+   "decision": "A single public thread makes it easy to ask, and puts a stranger’s request about stress next to whatever comes next. Say who reads the thread, and what happens when a post says someone is not safe.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "YouVersion",
+   "title": "A friend’s new prayer among badges and friendships",
+   "url": "https://missional.design/examples/youversion-notifications/",
+   "observed": "Captured 18 September 2025 · from embedded image metadata",
+   "observation": "The Notifications list, newest first, mixes “You earned the Daily Refresh Badge”, new friendships and likes, invitations to read a plan together, “New Prayer from [a friend]: ‘Ukraine’” and “New Prayer from YouVersion: ‘A Prayer for Our World’”. Names and photos of friends are blurred here.",
+   "decision": "A shared prayer arrives in the same stream as badges and friendship likes. A request from a friend may deserve a quieter, separate place, and the person sharing should know it will appear in friends’ notifications.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Pray.com",
+   "title": "Praise and Remind buttons for other people’s streaks",
+   "url": "https://missional.design/examples/praycom-board/",
+   "observed": "Captured 20 August 2025 · from embedded image metadata",
+   "observation": "A Community Board lists “Active Streakers” with day counts in the thousands and Praise buttons, the viewer as “You · 1 days”, and a “Remind” section with Remind buttons beside people at 7, 2 and 1 days. “Invite to Pray” asks for access to contacts.",
+   "decision": "A board makes each person’s prayer record visible to others and invites nudging those who missed a day. Prayer “in secret” needs no audience; if a group prays together, share intentions by choice, never records.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Pray.com",
+   "title": "“Active Streakers” to praise, and friends to “Remind”",
+   "url": "https://missional.design/examples/praycom-remind-friends/",
+   "observed": "Captured 20 August 2025 · from embedded image metadata",
+   "observation": "A “Community Board” lists “Active Streakers” with the number of days each has kept a streak and a Praise button, then a “Remind” list of friends who stopped one to seven days ago, each with a Remind button, and “Invite to Pray” with access to contacts. Names and photos are blurred here.",
+   "decision": "A button to remind a friend who stopped turns one person’s silence into another’s notification. If friends are part of the app, let them pray for each other, not prompt each other back.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Soultime",
+   "title": "Friends notified automatically “when we think you might need a call”",
+   "url": "https://missional.design/examples/soultime-auto-nudge/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "“Soultime with Friends Settings”: “For many of us reaching out is one of the hardest parts. Soultime with Friends discreetly nudges your friends automatically when we think you might need a call.” “Automatic notifications” is switched on; switching it off means the app asks first.",
+   "decision": "The intention is care, and the mechanism is an inference about someone’s state sent to others by default. Ask every time, and let the person write the words.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "hallow-intentions",
+   "title": "How to pray for intentions on Hallow",
+   "url": "https://help.hallow.com/en/articles/10618520-how-to-pray-for-intentions-on-hallow",
+   "author": "Hallow help centre",
+   "kind": "Practice",
+   "shows": "Requests are limited to 240 characters, go to friends, a church or groups, can’t be submitted anonymously or edited, and can be kept private, when they are “only saved to your journal and not shared with others”; others respond with a heart.",
+   "application": "Show the audience, length limit, anonymity and editing rules before someone writes.",
+   "limits": "The publisher describing its own feature; it does not say whether parish administrators can read requests."
+  },
+  {
+   "key": "hallow-church-tab",
+   "title": "Overview of the Church tab",
+   "url": "https://help.hallow.com/en/articles/3949390-overview-of-hallow-groups",
+   "author": "Hallow help centre",
+   "kind": "Practice",
+   "shows": "Requests can be posted to friends or a church; “Intentions will remain active for 7 days.”",
+   "application": "An end date by default keeps old needs from lingering in a feed.",
+   "limits": "Publisher documentation."
+  },
+  {
+   "key": "planning-center-confidential",
+   "title": "Expand your care through confidential member groups",
+   "url": "https://www.planningcenter.com/blog/2025/02/expand-your-care-through-confidential-member-groups",
+   "author": "Jon Aleixo · Planning Center blog · 28 February 2025",
+   "kind": "Practice",
+   "shows": "Confidential groups hide members from each other, so that “only group leaders will have access to the complete member list”; chat is turned off. The reason given: “Recovery and support groups thrive when participants feel safe enough to attend before eventually opening up.”",
+   "application": "Support groups can protect members from each other while a named leader stays reachable.",
+   "limits": "A vendor announcing its own feature; administrators can still see members."
+  },
+  {
+   "key": "youversion-prayer",
+   "title": "YouVersion Prayer",
+   "url": "https://www.bible.com/prayer",
+   "author": "YouVersion · bible.com",
+   "kind": "Practice",
+   "shows": "“Keep your prayers private, or invite friends to pray with you.”",
+   "application": "Private by default, friends by invitation, is the familiar shape for personal requests.",
+   "limits": "Marketing copy; no help article found on who sees a shared prayer."
+  },
+  {
+   "key": "umc-prayer-privacy",
+   "title": "Clergy juggle prayer requests with privacy rights",
+   "url": "https://bwcumc.org/online-archives/clergy-juggle-prayer-requests-with-privacy-rights",
+   "author": "Amy Green · United Methodist News Service, 2004 · Baltimore-Washington Conference archive",
+   "kind": "Practice",
+   "shows": "After complaints about disclosed information, a church suspended printed prayer requests and then asked for “written approval if the prayer is for someone other than themselves”; a lawyer quoted: “There’s really nothing wrong with getting consent for these kinds of disclosures even when you aren’t legally required to do so.”",
+   "application": "Ask before naming anyone else, even where the law does not require it.",
+   "limits": "US practice from 2004, before apps; HIPAA does not bind most congregations."
+  },
+  {
+   "key": "ekd-gewaltschutz",
+   "title": "Richtlinie der EKD zum Schutz vor sexualisierter Gewalt (Gewaltschutzrichtlinie)",
+   "url": "https://kirchenrecht-ekwue.de/pdf/44830.pdf",
+   "author": "Evangelische Kirche in Deutschland · 18 October 2019, amended 24 June 2022 · as published by the Evangelische Landeskirche in Württemberg",
+   "kind": "Church law",
+   "shows": "Church workers, including volunteers, must report a justified suspicion of sexualised violence without delay to the Melde- und Ansprechstelle (§8), with the confidentiality of their identity protected; pastoral confidentiality and the seal of confession remain untouched. The Melde- und Ansprechstelle is “dem Schutz Betroffener verpflichtet” (§7).",
+   "application": "A volunteer group leader may not be able to keep a disclosure to themselves; say so before someone shares.",
+   "limits": "Each Landeskirche implements the guideline in its own law, with different numbering; the EKD planned a revision in 2024. Not a statement of state law."
+  },
+  {
+   "key": "dbk-rahmenordnung",
+   "title": "Rahmenordnung Prävention gegen sexualisierte Gewalt",
+   "url": "https://www.bistum-hildesheim.de/fileadmin/dateien/PDFs/Recht/Praevention/Rahmenordnung_ab_01.01.2020.pdf",
+   "author": "Deutsche Bischofskonferenz · in force from 1 January 2020 · as published by the Diocese of Hildesheim",
+   "kind": "Church law",
+   "shows": "Each institution describes how suspicions and complaints are handled, including internal and external advice and reporting routes, which “müssen in geeigneter Weise bekannt gemacht werden”; for every institution “muss eine für Präventionsfragen geschulte Person zur Verfügung stehen”.",
+   "application": "An app set up for a Catholic parish or institution can show its trained contact and its reporting routes.",
+   "limits": "A framework; dioceses set the details in their own Präventionsordnungen, and names for the role differ."
+  },
+  {
+   "key": "cofe-pso-durham",
+   "title": "Parish Safeguarding Officer toolkit",
+   "url": "https://www.durhamdiocese.org/content/pages/documents/parish-safeguarding-officer-toolkit-2023.pdf",
+   "author": "Diocese of Durham, Church of England · November 2023",
+   "kind": "Church law",
+   "shows": "With the incumbent, the PCC must appoint at least one Parish Safeguarding Officer, who should be a lay person, and make sure the officer’s contact details are displayed in all church premises.",
+   "application": "Name the safeguarding officer in an app as a church would on its noticeboard.",
+   "limits": "One diocese’s toolkit applying national Church of England guidance."
+  },
+  {
+   "key": "anlaufstelle-help",
+   "title": "Zentrale Anlaufstelle.help",
+   "url": "https://www.anlaufstelle.help/",
+   "author": "Run for the EKD and Diakonie by the independent specialist service of Pfiffigunde Heilbronn e.V.",
+   "kind": "Practice",
+   "shows": "Free advice that is “unabhängig, anonym und unterliegt der Schweigepflicht”; on request it connects people with church and Diakonie contact points, and also informs them about independent alternatives. Phone 0800 5040112.",
+   "application": "An independent route beside a church’s own contact, for people who will not or cannot go to the church first.",
+   "limits": "For abuse in Protestant churches and Diakonie in Germany; phone appointments are arranged at set hours."
+  },
+  {
+   "key": "thirtyoneeight-confidentiality",
+   "title": "Confidentiality policy",
+   "url": "https://thirtyoneeight.org/terms-and-conditions/confidentiality-policy",
+   "author": "thirtyone:eight",
+   "kind": "Practice",
+   "shows": "Personal information “will not be shared outside Thirtyone:eight without explicit and informed consent”, except where someone is at serious and immediate risk, discloses involvement in abuse, or the law requires it.",
+   "application": "Say what an independent service does with what it hears, including its limits.",
+   "limits": "A UK charity’s policy; other services set different limits."
+  },
+  {
+   "key": "nij-disclosure-reactions",
+   "title": "Study finds agencies can react more supportively than family and friends to victims’ disclosures of sexual assault",
+   "url": "https://nij.ojp.gov/topics/articles/study-finds-agencies-can-react-more-supportively-family-and-friends-victims",
+   "author": "National Institute of Justice · 30 October 2018 · on research led by Anne P. DePrince",
+   "kind": "Research",
+   "shows": "Among 228 women, “victims reported receiving more negative reactions from informal supports (e.g., peers, family members) than they experienced when disclosing sexual assault to police or community-based service providers”, and informal supports gave less tangible aid and helpful information.",
+   "application": "Friends and groups are not automatically the safest listeners for something hard; offer someone trained beside them.",
+   "limits": "A US study of women disclosing sexual assault; not about churches or apps."
+  },
+  {
+   "key": "lifeway-small-groups-2026",
+   "title": "Small group participation linked to higher discipleship scores",
+   "url": "https://news.lifeway.com/2026/08/04/small-group-participation-linked-to-higher-discipleship-scores-lifeway-research-finds/",
+   "author": "Aaron Earls · Lifeway Research · 4 August 2026",
+   "kind": "Research",
+   "shows": "US Protestant churchgoers attending a small group five times or more a month scored 74.1 on a discipleship assessment, against 60.4 for those who do not attend one.",
+   "application": "Groups matter to many people’s faith; design them with care rather than avoid them.",
+   "limits": "A correlation from self-report; it does not show that groups cause growth. US Protestants only."
+  },
+  {
+   "key": "spiritual-abuse-guidance",
+   "title": "Section 4.2: Spiritual Abuse",
+   "url": "https://www.churchofengland.org/safeguarding/safeguarding-e-manual/safeguarding-children-young-people-and-vulnerable-adults/section-42-spiritual-abuse",
+   "author": "Church of England safeguarding e-manual",
+   "kind": "Safeguarding guidance · Access limited",
+   "shows": "Addresses coercive control using spiritual authority and warns against minimisation or directing victims to confront an abuser.",
+   "application": "Independent support and a response that does not defend the institution.",
+   "limits": "Institutional safeguarding guidance, not universal law or an automated abuse classifier; full-page review remains outstanding."
+  },
+  {
+   "key": "gdpr",
+   "title": "Process personal data lawfully",
+   "url": "https://www.edpb.europa.eu/sme/be-compliant/process-personal-data-lawfully_en",
+   "author": "European Data Protection Board",
+   "kind": "EU legal guidance",
+   "shows": "Special-category processing needs an appropriate Article 9 exception in addition to an Article 6 basis.",
+   "application": "Separate conversation processing, durable memory, training and sharing purposes.",
+   "limits": "Specific lawful basis, retention and DPIA decisions require the actual data flows."
+  },
+  {
+   "key": "ico-special-inferences",
+   "title": "What is special category data?",
+   "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/",
+   "author": "UK Information Commissioner’s Office",
+   "kind": "Regulator guidance · UK",
+   "shows": "Religious and health information, including specified intentional inferences, receive special treatment.",
+   "application": "Review chat, activity histories and inferred segments.",
+   "limits": "Context and processing intent matter; not every Bible-page visit automatically establishes a belief."
+  },
+  {
+   "key": "mozilla-prayer-apps",
+   "title": "Top mental health and prayer apps fail spectacularly at privacy, security",
+   "url": "https://www.mozillafoundation.org/en/blog/top-mental-health-and-prayer-apps-fail-spectacularly-at-privacy-security/",
+   "author": "Mozilla Foundation · *Privacy Not Included, 2 May 2022",
+   "kind": "Practice",
+   "shows": "28 of 32 mental health and prayer apps received the *Privacy Not Included warning; Pray.com was among the worst for sharing personal information with third parties.",
+   "application": "Prayer data is intimate; keep requests on the device by default and share nothing with advertisers.",
+   "limits": "A 2022 review; apps’ practices may have changed since."
+  }
+ ],
+ "review": {
+  "status": "draft, waiting for review",
+  "what": "Who hears a prayer request, the duty-to-report and safeguarding-contact wording, the independent routes, and the hard situation in the working example",
+  "needs": [
+   "safeguarding",
+   "survivor advocacy (ideally survivor-led)",
+   "pastoral care",
+   "data protection"
+  ],
+  "since": "10 October 2026",
+  "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/sharing-with-a-group/"
+ },
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}
