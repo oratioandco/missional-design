@@ -12,17 +12,20 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <section class="hero">
     <div class="hero-copy">
     <div class="hero-label">Tobias Treppmann · Oratio&Co</div>
-    <h1>Missional<br/>by Design.</h1>
+    <h1>Wir arbeiten in<br/>Gottes Feld.</h1>
     <p class="hero-subtitle">
       Strategische Gestaltung, theologische Reflexion und missionale Produktgestaltung — für Gemeinden, kirchliche
       Initiativen und alle, die Technologie entwickeln, die das berührt, was Menschen am heiligsten ist.
     </p>
     <div style="margin-top: 2.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
-      <a href={`${base}/de/ministry-model-canvas`} class="button">Ministry Model Canvas</a>
-      <a href={`${base}/de/framework`} class="button" style="background: transparent; color: var(--color-white); border: 1px solid var(--color-white);">Zehn Prinzipien</a>
+      <a href={`${base}/reference/`} class="button">Die Muster entdecken →</a>
+      <a href={`${base}/calling/`} class="button" style="background: transparent; color: var(--color-white); border: 1px solid var(--color-white);">Die Berufung lesen</a>
     </div>
-    </div><figure class="hero-documentary"><img src={`${base}/assets/brand/startup-life-panel.webp`} alt="Ein Podiumsgespräch bei einem Startup-Life-Event" width="1600" height="1066" fetchpriority="high" /><figcaption>Foto: Startup Life</figcaption></figure>
+    </div><div class="identity-hero-art"><img src={`${base}/assets/brand/identity-folio-dark-v2.webp`} alt="" aria-hidden="true" width="1536" height="1024" fetchpriority="high" /></div>
   </section>
+  <section class="identity-person-section"><div class="container identity-person-grid"><div><p class="identity-label">01 / DER MENSCH</p><h2>Willkommen, bevor du fragst.</h2><p class="editorial-passage">Es geht um die Menschen.</p><a class="identity-text-link" href={`${base}/principles/welcome/`}>Das Prinzip lesen →</a></div><img class="identity-art" src={`${base}/assets/brand/identity-person-light-v1.webp`} alt="" width="1536" height="1024" loading="lazy" /></div>
+  <div class="container identity-human-grid"><figure class="identity-meetup"><img src={`${base}/assets/brand/identity-meetup-conversation-v2.webp`} alt="Illustrative Gesprächsszene bei einem Tech-Meetup" width="1536" height="1024" loading="lazy" /><figcaption>Generierte Illustration · nach Startup-Life-Fotografie</figcaption></figure><p class="editorial-passage">Menschen zu Gott und zueinander führen.</p></div></section>
+
 
   <!-- The Thesis -->
   <section class="section section-cream">
