@@ -38,3 +38,9 @@ blockquote,.editorial-passage{font-family:var(--mbd-editorial);font-weight:400;f
 .section:not(.section-dark):not(.section-ink) [style*="text-transform: uppercase"]{opacity:1!important;color:var(--color-muted)}
 
 .post-card-placeholder{opacity:1!important;color:var(--color-muted)}.post-card-date,.post-card-tag{opacity:1!important;color:var(--color-muted)}.post-card:hover{opacity:1!important;background:#e7e3d9}
+
+/* Documentary photographs sit beside copy without overlays. */
+.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:5vw;align-items:center;min-height:650px;padding:72px 6vw}
+.hero-copy{min-width:0}.hero h1{font-size:clamp(48px,6vw,88px);max-width:13ch}.hero .hero-subtitle{font-size:18px;max-width:48ch}
+.hero-documentary{margin:0;min-width:0}.hero-documentary img{display:block;width:100%;height:auto;border-radius:4px}.hero-documentary figcaption{font:400 11px/1.5 var(--font-body);color:#b1aa9e;margin-top:8px}
+@media(max-width:900px){.hero{grid-template-columns:1fr;gap:32px;padding:48px 6vw;min-height:0!important}.hero h1{font-size:clamp(48px,9vw,72px)}.hero-documentary{max-width:680px}}

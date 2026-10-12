@@ -153,7 +153,7 @@ const questions = [
 <BaseLayout lang="de" title="Das Rahmenwerk">
   <!-- Hero -->
   <section class="hero" style="min-height: 60vh;">
-    <img class="brand-hero-media" src={`${base}/assets/brand/hero-dark.webp?v=fractures-2`} alt="" aria-hidden="true" width="2400" height="1500" fetchpriority="high" />
+    <div class="hero-copy">
     <div class="hero-label">Missional by Design · Prinzipien für geistliche Apps</div>
     <h1>Fünf Orte.<br/>Zehn Zusagen.</h1>
     <p class="hero-subtitle">
@@ -161,6 +161,7 @@ const questions = [
       dem, was ihm am heiligsten ist. Diese Prinzipien kommen aus einer Berufung: der Freude und dem Gewicht, die Werkzeuge
       zu bauen, mit denen Menschen heute beten, lesen und fragen. Jedes nennt, was es von den Machenden verlangt aufzugeben.
     </p>
+    </div><figure class="hero-documentary"><img src={`${base}/assets/brand/startup-life-conversation.webp`} alt="Zwei Menschen im Gespräch bei einem Startup-Life-Event" width="1600" height="1066" fetchpriority="high" /><figcaption>Foto: Startup Life</figcaption></figure>
   </section>
 
   <!-- Three layers -->
@@ -211,7 +212,6 @@ const questions = [
       <div style="max-width: 70ch;">
         {places.map((p) => (
           <article class="principle">
-            <img class="brand-place-art" src={`${base}/assets/brand/${({'01':'word','02':'person','03':'practice','04':'people','05':'makers'}[p.num])}-light.webp?v=fractures-2`} alt="" loading="lazy" width="2000" height="1250" />
             <span class="principle-number">{p.num}</span>
             <h3>{p.name}</h3>
             <p class="lead" style="opacity: 0.75;">{p.ask}</p>
