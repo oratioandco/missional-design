@@ -9,7 +9,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   description="Strategische Gestaltung, theologische Reflexion und missionale Produktgestaltung — für Gemeinden, kirchliche Initiativen und alle, die Technologie entwickeln, die das berührt, was Menschen am heiligsten ist."
 >
   <!-- Hero -->
-  <section class="hero">
+  <section class="hero contextual-home">
     <div class="hero-copy">
     <div class="hero-label">Tobias Treppmann · Oratio&Co</div>
     <h1>Wir arbeiten in<br/>Gottes Feld.</h1>
@@ -21,11 +21,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       <a href={`${base}/reference/`} class="button">Die Muster entdecken →</a>
       <a href={`${base}/calling/`} class="button" style="background: transparent; color: var(--color-white); border: 1px solid var(--color-white);">Die Berufung lesen</a>
     </div>
-    </div><div class="identity-hero-art"><img src={`${base}/assets/brand/identity-folio-dark-v2.webp`} alt="" aria-hidden="true" width="1536" height="1024" fetchpriority="high" /></div>
+    </div><figure class="identity-hero-art contextual-photo"><img src={`${base}/assets/brand/silicon-window-v3.webp`} alt="Ein urbanes Gemeinschaftsbüro hinter einem Fenster mit blau-silbernen Siliziumreflexionen" width="1536" height="1024" fetchpriority="high" /><figcaption>Generierte redaktionelle Illustration · fiktive Menschen und Orte</figcaption></figure>
   </section>
-  <section class="identity-person-section"><div class="container identity-person-grid"><div><p class="identity-label">01 / DER MENSCH</p><h2>Willkommen, bevor du fragst.</h2><p class="editorial-passage">Es geht um die Menschen.</p><a class="identity-text-link" href={`${base}/principles/welcome/`}>Das Prinzip lesen →</a></div><img class="identity-art" src={`${base}/assets/brand/identity-person-light-v1.webp`} alt="" width="1536" height="1024" loading="lazy" /></div>
-  <div class="container identity-human-grid"><figure class="identity-meetup"><img src={`${base}/assets/brand/identity-meetup-conversation-v2.webp`} alt="Illustrative Gesprächsszene bei einem Tech-Meetup" width="1536" height="1024" loading="lazy" /><figcaption>Generierte Illustration · nach Startup-Life-Fotografie</figcaption></figure><p class="editorial-passage">Menschen zu Gott und zueinander führen.</p></div></section>
-
+  <section class="identity-person-section contextual-home"><div class="container contextual-question"><p class="identity-label">01 / KONTEXT &amp; BERUFUNG</p><h2>Was ist wirklich die gute Nachricht in unserem Kontext?</h2><p>Unsere Nachbarschaften, Organisationen und unser Alltag verändern sich laufend. Zu erkennen, wie das Evangelium hier spricht und Gestalt gewinnt, bleibt eine kontinuierliche Aufgabe—auch ohne eine Grenze zu überschreiten.</p><a class="identity-text-link" href={`${base}/de/ministry-model-canvas/`}>Den Ministry Model Canvas entdecken →</a></div><div class="container identity-human-grid"><figure class="identity-meetup"><img src={`${base}/assets/brand/identity-meetup-conversation-v2.webp`} alt="Illustrative Gesprächsszene bei einem Tech-Meetup" width="1536" height="1024" loading="lazy" /><figcaption>Generierte Illustration · nach Startup-Life-Fotografie</figcaption></figure><p class="editorial-passage">Es geht um die Menschen.</p></div></section>
 
   <!-- The Thesis -->
   <section class="section section-cream">

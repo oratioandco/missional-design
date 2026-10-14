@@ -5,7 +5,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 <BaseLayout lang="en" title="Missional by Design">
   <!-- Hero -->
-  <section class="hero">
+  <section class="hero contextual-home">
     <div class="hero-copy">
     <div class="hero-label">Tobias Treppmann · Oratio&Co</div>
     <h1>Workers in<br/>God’s field.</h1>
@@ -17,11 +17,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       <a href={`${base}/reference/`} class="button">Explore the patterns →</a>
       <a href={`${base}/calling/`} class="button" style="background: transparent; color: var(--color-white); border: 1px solid var(--color-white);">Read the calling</a>
     </div>
-    </div><div class="identity-hero-art"><img src={`${base}/assets/brand/identity-folio-dark-v2.webp`} alt="" aria-hidden="true" width="1536" height="1024" fetchpriority="high" /></div>
+    </div><figure class="identity-hero-art contextual-photo"><img src={`${base}/assets/brand/silicon-window-v3.webp`} alt="An urban shared office seen through a window, with blue-silver silicon reflections" width="1536" height="1024" fetchpriority="high" /><figcaption>Generated editorial illustration · fictional people and place</figcaption></figure>
   </section>
-  <section class="identity-person-section"><div class="container identity-person-grid"><div><p class="identity-label">01 / THE PERSON</p><h2>Welcome before you ask.</h2><p class="editorial-passage">The people are the point.</p><a class="identity-text-link" href={`${base}/principles/welcome/`}>Read the principle →</a></div><img class="identity-art" src={`${base}/assets/brand/identity-person-light-v1.webp`} alt="" width="1536" height="1024" loading="lazy" /></div>
-  <div class="container identity-human-grid"><figure class="identity-meetup"><img src={`${base}/assets/brand/identity-meetup-conversation-v2.webp`} alt="Illustrative conversation at a tech-office meetup" width="1536" height="1024" loading="lazy" /><figcaption>Generated illustration · based on Startup Life photography</figcaption></figure><p class="editorial-passage">Send people to God and to one another.</p></div></section>
-
+  <section class="identity-person-section contextual-home"><div class="container contextual-question"><p class="identity-label">01 / CONTEXT &amp; CALLING</p><h2>What really is the good news in our context?</h2><p>Our neighborhoods, organizations and everyday lives keep changing. Discerning how the gospel speaks and takes shape here is a continuing task—even when we never cross a border.</p><a class="identity-text-link" href={`${base}/ministry-model-canvas/`}>Explore the Ministry Model Canvas →</a></div><div class="container identity-human-grid"><figure class="identity-meetup"><img src={`${base}/assets/brand/identity-meetup-conversation-v2.webp`} alt="Illustrative conversation at a tech-office meetup" width="1536" height="1024" loading="lazy" /><figcaption>Generated illustration · based on Startup Life photography</figcaption></figure><p class="editorial-passage">The people are the point.</p></div></section>
 
   <!-- The Thesis -->
   <section class="section section-cream">

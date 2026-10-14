@@ -2,7 +2,7 @@
 @font-face{font-family:"Roboto Flex";src:url("./roboto-flex.woff2") format("woff2");font-weight:100 1000;font-stretch:25% 151%;font-display:swap}
 @font-face{font-family:"Instrument Serif";src:url("./instrument-serif.woff2") format("woff2");font-weight:400;font-display:swap}
 @font-face{font-family:"Instrument Serif";src:url("./instrument-serif-italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
-:root{--mbd-paper:#eeefec;--mbd-card:#fafbf8;--mbd-ink:#121512;--mbd-muted:#4e554d;--mbd-rule:#cbd0c8;--mbd-accent:#8a5a00;--mbd-amber:#f0a43a;--mbd-body:"Mona Sans",system-ui,sans-serif;--mbd-display:"Roboto Flex",system-ui,sans-serif;--mbd-editorial:"Instrument Serif",Georgia,serif}
+:root{--mbd-paper:#fbfaf7;--mbd-card:#fff;--mbd-ink:#151412;--mbd-muted:#55524b;--mbd-rule:#d6d2c8;--mbd-accent:#8a5a00;--mbd-amber:#f0a43a;--mbd-body:"Mona Sans",system-ui,sans-serif;--mbd-display:"Roboto Flex",system-ui,sans-serif;--mbd-editorial:"Instrument Serif",Georgia,serif}
 .mbd-wordmark{display:inline-flex;align-items:center;white-space:nowrap;font-family:var(--mbd-display);font-size:23px;font-weight:560;font-variation-settings:"wdth" 96;letter-spacing:-.012em;line-height:1;text-transform:none}
 .mbd-wordmark .mbd-rule{display:inline-flex;align-items:center;gap:.15em;margin-inline:.16em;flex:none}
 .mbd-wordmark .mbd-rule::before,.mbd-wordmark .mbd-rule::after{content:"";display:block;width:var(--mbd-rule-length,.7em);height:.065em;background:currentColor}
@@ -130,3 +130,6 @@ body.paper .fg-place{grid-template-columns:1fr;max-width:760px}
 @media print{:root body.paper .identity-opener{display:block;background:none;color:#151412;padding:0;margin:0 0 8mm;min-height:0}:root body.paper .identity-opener .identity-hero-art{display:none}:root body.paper .identity-opener h1{font-size:26pt;max-width:none}.identity-meetup{break-inside:avoid}.identity-art{background:#fff}.identity-meetup figcaption{color:#55524b}}
 
 :root body.paper .identity-opener-dark{background:#000}:root body.paper .identity-opener-dark .identity-art{background:#000}
+
+/* Contextual silicon scenes share the editorial, human scale. */
+.identity-context{margin:0;min-width:0}.identity-context img{object-fit:cover;background:transparent}.identity-context figcaption{font:400 11px/1.5 var(--mbd-body);color:#55524b;margin-top:8px}.identity-opener-dark .identity-context figcaption{color:#d9d2c7}

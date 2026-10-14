@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-14",
+  "assumption": "Fictional Berlin-like square; specific-place question pending",
+  "items": [
+    {
+      "file": "assets/neighborhood-sequence.png",
+      "original": "/Users/ttreppmann/.codex/generated_images/01a12f6b-ac5e-7c60-abd8-87930df83270/exec-2c9f9f8e-054d-44a2-b300-225717822275.png",
+      "sha256": "ce78c93dec0db06cd936408d46b255fa17c30581323c183136f74ffae04e1591",
+      "tool": "image_gen.imagegen",
+      "references": [
+        "brand/assets/rock-mark-512.png",
+        "research/design-directions/editorial-refinement/material-study/glow-more/hero-dark.png"
+      ],
+      "prompt_summary": "Fictional Berlin-like square in three locked-view stages, shops and public space changing through renovation, same small hovering extruded mark; no documentary or historical claim; avoid decay-to-utopia interpretation.",
+      "status": "Generated concept; visually inspected; not documentary; no production or publication clearance implied"
+    },
+    {
+      "file": "assets/recognizable-icons.png",
+      "original": "/Users/ttreppmann/.codex/generated_images/01a12f6b-ac5e-7c60-abd8-87930df83270/exec-34706d13-c941-4e74-9a0f-7176469b76b9.png",
+      "sha256": "d3f2aaca0a2d5d2e724fe19fb90c3f05a81455f918848b5aac428ef97f7210b8",
+      "tool": "image_gen.imagegen",
+      "references": [
+        "brand/assets/rock-mark-512.png",
+        "research/design-directions/editorial-refinement/material-study/glow-more/hero-dark.png"
+      ],
+      "prompt_summary": "Bright-white studio sheet of dialogue bubbles, magnifying lens and wayfinding signpost; familiar silhouettes in approved light-blue silicon material, no biblical icon clich\u00e9s.",
+      "status": "Generated concept; visually inspected; not documentary; no production or publication clearance implied"
+    },
+    {
+      "file": "assets/icons-in-context.png",
+      "original": "/Users/ttreppmann/.codex/generated_images/01a12f6b-ac5e-7c60-abd8-87930df83270/exec-8721b15e-7a63-4e4d-a020-b43087cbaea3.png",
+      "sha256": "43743f1784afa3df316b658d054ae525489692177913c016b5b212f9aeea1a75",
+      "tool": "image_gen.imagegen",
+      "references": [
+        "brand/assets/rock-mark-512.png",
+        "research/design-directions/editorial-refinement/material-study/glow-more/hero-dark.png"
+      ],
+      "prompt_summary": "Fictional residents talking in Berlin-like square, two blue-silver dialogue sculptures beside bench; realistic editorial color and environmental reflections, people remain subject.",
+      "status": "Generated concept; visually inspected; not documentary; no production or publication clearance implied"
+    },
+    {
+      "file": "assets/neighborhood-sequence-v2.png",
+      "original": "/Users/ttreppmann/.codex/generated_images/01a12f6b-ac5e-7c60-abd8-87930df83270/exec-453d4815-6e00-4823-b237-8b21251a759b.png",
+      "sha256": "cca66b2bd26271145b2775bd70da0da19343961d41e2545559d262b72c6c107b",
+      "tool": "image_gen.imagegen",
+      "status": "Generated editorial concept; solid objects; sun-star glints; analog/depth/motion treatment. Exact four-ray geometry under refinement."
+    },
+    {
+      "file": "assets/icons-in-context-v2.png",
+      "original": "/Users/ttreppmann/.codex/generated_images/01a12f6b-ac5e-7c60-abd8-87930df83270/exec-a17bc21c-bce1-4b3e-afd3-8649f8afb60a.png",
+      "sha256": "6a10156667dd3e407eae3bd3c80f31a1cb09bd19ce29f5a0c473c50c6a300995",
+      "tool": "image_gen.imagegen",
+      "status": "Generated editorial concept; solid objects; sun-star glints; analog/depth/motion treatment. Exact four-ray geometry under refinement."
+    },
+    {
+      "file": "assets/window-reflection-v1.png",
+      "original": "/Users/ttreppmann/.codex/generated_images/01a12f6b-ac5e-7c60-abd8-87930df83270/exec-924cd019-d4ec-4cce-9c31-45b6e6cc1a12.png",
+      "sha256": "95cf31756880f9155e81dbf2f90ecb1ca05f2646648792b3ebf040fcf4925d9b",
+      "tool": "image_gen.imagegen",
+      "status": "Generated editorial concept; solid objects; sun-star glints; analog/depth/motion treatment. Exact four-ray geometry under refinement."
+    },
+    {
+      "file": "assets/neighborhood-sequence-v3.png",
+      "original": "/Users/ttreppmann/.codex/generated_images/01a12f6b-ac5e-7c60-abd8-87930df83270/exec-9aaf4830-9de9-455f-a896-4ed45c9ecfa1.png",
+      "sha256": "9b461dc627b672c39340a8ac1bf49815f2a5a5cd1ba54ab6d706a52703ac2a3a",
+      "tool": "image_gen.imagegen",
+      "refinement": "Edit only ray geometry to four rays using proofs-sharp400/frame-0140.png as optical reference. Preserve editorial style, scene, solid form and reflections.",
+      "status": "Generated concept; visually inspected; sharper four-point optical signature; no publication"
+    },
+    {
+      "file": "assets/icons-in-context-v3.png",
+      "original": "/Users/ttreppmann/.codex/generated_images/01a12f6b-ac5e-7c60-abd8-87930df83270/exec-a0ce1792-c92f-4548-905f-f6357aad4bed.png",
+      "sha256": "61563e39233bdd41027e574c32b8eac7aeb1320268ab589cbdba9e85a12cc9fc",
+      "tool": "image_gen.imagegen",
+      "refinement": "Edit only ray geometry to four rays using proofs-sharp400/frame-0140.png as optical reference. Preserve editorial style, scene, solid form and reflections.",
+      "status": "Generated concept; visually inspected; sharper four-point optical signature; no publication"
+    },
+    {
+      "file": "assets/window-reflection-v2.png",
+      "original": "/Users/ttreppmann/.codex/generated_images/01a12f6b-ac5e-7c60-abd8-87930df83270/exec-aef33188-aaf6-4ad8-9ebf-20c5a021fce9.png",
+      "sha256": "3b7929a0e2b31d935352fada4344a30629125d9f8c7c697c542e29c424a37233",
+      "tool": "image_gen.imagegen",
+      "refinement": "Edit only ray geometry to four rays using proofs-sharp400/frame-0140.png as optical reference. Preserve editorial style, scene, solid form and reflections.",
+      "status": "Generated concept; visually inspected; sharper four-point optical signature; no publication"
+    },
+    {
+      "file": "assets/neighborhood-sequence-v4.png",
+      "original": "/Users/ttreppmann/.codex/generated_images/01a12f6b-ac5e-7c60-abd8-87930df83270/exec-ab88204f-020d-4496-ad0c-3eb7fabad77e.png",
+      "sha256": "755967d9d538267dd7723d92b3092d03b77bccb94b096b1147dc5fdde064b03b",
+      "tool": "image_gen.imagegen",
+      "references": [
+        "assets/neighborhood-sequence-v3.png"
+      ],
+      "refinement": "Slightly enlarge existing cross-shaped glints; prompt requested approximately 25% longer rays, with compact core, sharp four horizontal/vertical rays and restrained local halation. Generative edit, not measured geometry.",
+      "status": "Generated concept; visually inspected; larger four-point optical signature; private review"
+    },
+    {
+      "file": "assets/icons-in-context-v4.png",
+      "original": "/Users/ttreppmann/.codex/generated_images/01a12f6b-ac5e-7c60-abd8-87930df83270/exec-9529ce87-897d-4fe0-a1ca-795ef226c872.png",
+      "sha256": "9d5cdc0a37f570501fd0d183e86455e6fdd6580e6c4acc0ebe521fecb8efc1fb",
+      "tool": "image_gen.imagegen",
+      "references": [
+        "assets/icons-in-context-v3.png"
+      ],
+      "refinement": "Slightly enlarge existing cross-shaped glints; prompt requested approximately 25% longer rays, with compact core, sharp four horizontal/vertical rays and restrained local halation. Generative edit, not measured geometry.",
+      "status": "Generated concept; visually inspected; larger four-point optical signature; private review"
+    },
+    {
+      "file": "assets/window-reflection-v3.png",
+      "original": "/Users/ttreppmann/.codex/generated_images/01a12f6b-ac5e-7c60-abd8-87930df83270/exec-05055fd7-a3fd-4cc4-9a58-ccdf96a0597b.png",
+      "sha256": "c53e93e0024dab057db66a11807fc8e0075104c3743e08075f9772b4fe1c1c08",
+      "tool": "image_gen.imagegen",
+      "references": [
+        "assets/window-reflection-v2.png"
+      ],
+      "refinement": "Slightly enlarge existing cross-shaped glints; prompt requested approximately 25% longer rays, with compact core, sharp four horizontal/vertical rays and restrained local halation. Generative edit, not measured geometry.",
+      "status": "Generated concept; visually inspected; larger four-point optical signature; private review"
+    }
+  ]
+}
