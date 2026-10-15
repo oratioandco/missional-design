@@ -1,0 +1,258 @@
+{
+  "central_question": "What really is the good news in our context?",
+  "variants": [
+    {
+      "id": "church",
+      "title": "Church",
+      "status": "Recovered baseline; wording lightly edited for clarity",
+      "blocks": [
+        {
+          "number": "01",
+          "title": "Target Audience",
+          "questions": [
+            "Who is our most important target audience? Which sub-groups exist?",
+            "What role do faith and spirituality play in their lives?",
+            "What alternatives do people already use for the needs, values and interests that connect us?"
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Connecting Factor",
+          "questions": [
+            "What are the three most important connecting factors: problems, values, needs or interests?",
+            "Which interest-based activities align with our ministry’s values and people’s interests?",
+            "Which existing relationships or networks can help us connect?"
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Missional Identity",
+          "questions": [
+            "What really is the good news in our context?",
+            "How does our church reflect God’s mission in the world?",
+            "What aspects of our ministry are particularly compelling to people in this context?"
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Relationships",
+          "questions": [
+            "What type of relationship do people expect from us: community, co-creation, accountability, self-service or another form?",
+            "How can our relational offerings be accessible and welcoming to people new to faith?"
+          ]
+        },
+        {
+          "number": "05",
+          "title": "Key Activities",
+          "questions": [
+            "Which activities are required to connect with and serve people effectively?",
+            "Which activities sustain this work over time: worship, communication, events or training?"
+          ]
+        },
+        {
+          "number": "06",
+          "title": "Channels",
+          "questions": [
+            "Where and how will we meet the people we are called to serve?",
+            "Which relationships already exist, and which need to be established with people, the city and partner organizations?"
+          ]
+        },
+        {
+          "number": "07",
+          "title": "Resources",
+          "questions": [
+            "What do we need: finances, volunteers, staff, partnerships, equipment, technology, materials and space?"
+          ]
+        },
+        {
+          "number": "08",
+          "title": "Budget",
+          "questions": [
+            "What are the costs: rent, salaries, utilities, communication, technology and materials?"
+          ]
+        },
+        {
+          "number": "09",
+          "title": "Assessing Missional Effectiveness",
+          "questions": [
+            "How will we cultivate prayerful discernment and openness to the Holy Spirit as we assess our church’s missional effectiveness?",
+            "Which SMART criteria align with our God-given mission and help us understand impact and areas for growth?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nonprofit",
+      "title": "Christian nonprofit",
+      "status": "Draft adaptation for review",
+      "blocks": [
+        {
+          "number": "01",
+          "title": "Target Audience",
+          "questions": [
+            "Whom are we called to serve, and who is affected by our work?",
+            "How do people describe their own hopes, needs, faith and context?",
+            "Who is absent from our current understanding?"
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Connecting Factor",
+          "questions": [
+            "Where do our calling and people’s lived needs meet?",
+            "Which local strengths, interests and trusted relationships can we build on?",
+            "What support already exists, and where should we partner?"
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Missional Identity",
+          "questions": [
+            "What really is the good news in our context?",
+            "How does our work participate in God’s mission through the hope of Jesus Christ, service, justice and reconciliation?",
+            "How will this take a concrete form that people recognize as good—not merely our intention?"
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Relationships",
+          "questions": [
+            "How will people shape the work, exercise agency and hold us accountable?",
+            "What support can someone receive without joining, donating, or participating in religious activity?",
+            "How do we build trust across differences of belief and power?"
+          ]
+        },
+        {
+          "number": "05",
+          "title": "Key Activities",
+          "questions": [
+            "Which services, advocacy or community practices make our missional identity tangible?",
+            "What must we sustain, change, partner on or stop?"
+          ]
+        },
+        {
+          "number": "06",
+          "title": "Channels",
+          "questions": [
+            "Where do people already seek help or gather?",
+            "How will trusted partners, physical presence and digital access work together?",
+            "Which barriers must we remove?"
+          ]
+        },
+        {
+          "number": "07",
+          "title": "Resources",
+          "questions": [
+            "Which people, skills, partnerships, safeguarding, space and technology does the work require?",
+            "What strengths do the communities we serve bring, and how will their contribution be recognized?"
+          ]
+        },
+        {
+          "number": "08",
+          "title": "Budget",
+          "questions": [
+            "What does this work cost, and how will grants, gifts or earned income sustain it?",
+            "What conditions do funders attach, and could they distort our mission?",
+            "How will we account transparently for resources and protect access to help?"
+          ]
+        },
+        {
+          "number": "09",
+          "title": "Assessing Missional Effectiveness",
+          "questions": [
+            "What do prayer, Scripture and the people we serve reveal about our faithfulness?",
+            "What evidence of improved lives and unintended harm will we examine alongside financial sustainability?",
+            "Who can challenge our interpretation, and what would lead us to change or stop?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "title": "Christian business",
+      "status": "Draft adaptation for review",
+      "blocks": [
+        {
+          "number": "01",
+          "title": "Target Audience",
+          "questions": [
+            "Who uses, pays for, produces and is affected by our product or service?",
+            "What are their lived needs and contexts, including employees, suppliers and neighbors?",
+            "Who bears costs without being represented in purchasing decisions?"
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Connecting Factor",
+          "questions": [
+            "Which real needs, hopes or shared concerns connect our calling to this work?",
+            "What do people already do, and what would serve them better?",
+            "Which relationships and capabilities give us a responsible place to contribute?"
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Missional Identity",
+          "questions": [
+            "What really is the good news in our context?",
+            "How does our vocation participate in God’s mission through the hope of Jesus Christ and the goods of honest work, justice, service and reconciliation?",
+            "What does that calling require of our product, employment and ownership decisions? A commercial offer cannot stand in for the gospel."
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Relationships",
+          "questions": [
+            "What should customers, employees and partners be able to expect from us?",
+            "How will we protect freedom, privacy, fair treatment and honest relationships across beliefs?",
+            "How can people question, decline or leave without pressure or penalty disguised as spiritual obligation?"
+          ]
+        },
+        {
+          "number": "05",
+          "title": "Key Activities",
+          "questions": [
+            "What must we design, make, deliver and maintain to embody this calling?",
+            "How will sourcing, employment and the product’s use express the same commitments?",
+            "Which profitable activities would we refuse or stop?"
+          ]
+        },
+        {
+          "number": "06",
+          "title": "Channels",
+          "questions": [
+            "Where and how will people encounter, obtain and receive support for our work?",
+            "How will sales and marketing tell the truth without exploiting vulnerability?",
+            "Which distribution partners reinforce or undermine our commitments?"
+          ]
+        },
+        {
+          "number": "07",
+          "title": "Resources",
+          "questions": [
+            "Which people, skills, capital, partnerships, materials and technology are entrusted to us?",
+            "How will ownership, governance and incentives protect the mission as we grow?"
+          ]
+        },
+        {
+          "number": "08",
+          "title": "Budget",
+          "questions": [
+            "What costs, wages, prices and revenue model can sustain useful work fairly?",
+            "Who carries financial risk and receives the value created?",
+            "Which revenue opportunities conflict with our calling, and how will we fund the cost of refusing them?"
+          ]
+        },
+        {
+          "number": "09",
+          "title": "Assessing Missional Effectiveness",
+          "questions": [
+            "What does faithful participation in God’s mission look like here, alongside a sustainable business?",
+            "What evidence will we examine about usefulness, work, justice, relationships and unintended harm—not only growth or profit?",
+            "How will prayerful discernment, independent challenge and changed context inform what we continue, revise or end?"
+          ]
+        }
+      ]
+    }
+  ]
+}

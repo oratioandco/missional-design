@@ -13,6 +13,7 @@ const prefix = lang === 'de' ? `${base}/de` : base;
 const impressumHref = `${base}/impressum`;
 const datenschutzHref = `${base}/datenschutz`;
 const barrierefreiheitHref = `${base}/barrierefreiheit`;
+const canvasPath = lang === 'de' ? `${prefix}/ministry-model-canvas` : `${base}/missional-canvas`;
 ---
 
 <footer class="footer">
@@ -27,7 +28,7 @@ const barrierefreiheitHref = `${base}/barrierefreiheit`;
       <div class="footer-title">{t(lang, 'footer.explore')}</div>
       <ul style="list-style: none; padding: 0; line-height: 2;">
         <li><a href={`${prefix}/framework`}>{t(lang, 'nav.framework')}</a></li>
-        <li><a href={`${prefix}/ministry-model-canvas`}>{t(lang, 'nav.canvas')}</a></li>
+        <li><a href={canvasPath}>{t(lang, 'nav.canvas')}</a></li>
         <li><a href={`${prefix}/blog`}>{t(lang, 'nav.writing')}</a></li>
         <li><a href={`${prefix}/about`}>{t(lang, 'nav.about')}</a></li>
       </ul>
