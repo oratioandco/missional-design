@@ -48,3 +48,10 @@ Validated20Astro pages/250sitemap routes; EN/DEdesktop/mobile screenshots and li
 V6 is owner-approved, exported and integrated locally at http://127.0.0.1:8794/missional-canvas/. Finished16s1280x720/30fps silent film: worn corner → cafe beneath worn house → restoration/French balconies → upmarket store → offices. Native controls, poster, preloadnone, no autoplay; hidden in print. Master and8.1MBwebcopy in videos/neighborhood-context/assets; full provenance in v6-delivery-provenance.json. Full HyperFrames check passed; final frames inspected; desktop/mobile playback/seek/reduced-motion/print checks passed. CLI2.3.0; HyperFrames upgraded0.8.160→0.8.161. No further generation needed. No public deployment.
 
 Astropreview (npmrunpreview-- --host127.0.0.1--port8794) replaces Pythonhttpserver for correct byte-range video seeking. Source project and original media remain in adjacent reference checkout. Public webMP4+poster copied only to public/assets/video; private research was not exported. No canvas answer/PDF logic changed.
+
+
+##15October2026 — final camera correction and preferred rock imagery
+
+V7 supersedes V6 delivery: first-two-shot camera zoom compensated locally using static architectural tracking; one fixed small crop across all five shots. Same16s approved action/rock, no new video generation. Export and canvas use updated at http://127.0.0.1:8794/missional-canvas/. Native review http://127.0.0.1:8840/review-v7.html. Approved film-specimen appearance applied to new window-v7/conversation-v7 contextual website images; EN/DEhome, reference openers and rocks article updated. Checks pass; see videos/neighborhood-context/V7-ADJUSTMENT.md in reference checkout. No public deployment.
+
+The existing footage was stabilized rather than regenerated. Website images edited with built-in ImageGen from the approved video specimen reference; prior versions retained. Desktop/mobile visual, playback, seeking and print checks passed; no canvas/PDFlogic change. PDFs still use prior approved cover imagery pending the broader coherence review.
