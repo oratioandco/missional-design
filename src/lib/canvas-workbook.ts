@@ -1,3 +1,5 @@
+import {CanvasFitError} from './canvas-layout';
+import {fillCanvasPrint} from './canvas-print';
 import data from '../data/missional-canvases.json';
 import {blankDraft,validateDraft,hasContent,answeredBlocks,fileStem,STORAGE_KEY,VARIANTS,type Draft,type VariantId} from './canvas-draft';
 const root=document.querySelector<HTMLElement>('#canvas-workbook');
@@ -25,15 +27,14 @@ function init(root:HTMLElement){
   for(const key of ['project','team','context','reviewDate'] as const)$<HTMLInputElement|HTMLTextAreaElement>(`[name="${key}"]`).value=draft[key];
   const panel=$(`[data-writing-variant="${selected}"]`);
   panel.querySelectorAll<HTMLTextAreaElement>('[data-question]').forEach(el=>el.value=draft.answers[el.dataset.block!]?.[Number(el.dataset.question)]||'');
-  panel.querySelectorAll<HTMLTextAreaElement>('[data-summary]').forEach(el=>el.value=draft.summaries[el.dataset.summary!]||'');
  }
  function progress(){const draft=drafts[selected];$('#writing-progress').textContent=`${answeredBlocks(draft)} of 9 sections started`;
   root.querySelectorAll<HTMLElement>('[data-writing-step]').forEach(el=>{const n=Number(el.dataset.writingStep);const block=variant().blocks[n];const started=!!block&&!!draft.answers[block.number]?.some(a=>a.trim());const marker=el.querySelector<HTMLElement>('.section-state');if(marker)marker.dataset.started=String(started);if(block)el.setAttribute('aria-label',`${block.number} ${block.title}${started?', started':''}`);});
  }
- function review(){const draft=drafts[selected];const target=$('#review-answers');target.replaceChildren();$('#review-count').textContent=`${answeredBlocks(draft)} of 9 sections started. Unanswered questions are kept in the PDF as invitations to return.`;
+ function review(){const draft=drafts[selected];const target=$('#review-answers');target.replaceChildren();$('#review-count').textContent=`${answeredBlocks(draft)} of 9 sections started. The PDF places the answers you have written inside the nine canvas blocks.`;
   for(const [i,block] of variant().blocks.entries()){
    const section=document.createElement('section');section.className='review-block';const h=document.createElement('h4');h.textContent=`${block.number} / ${block.title}`;section.append(h);
-   if(draft.summaries[block.number]?.trim()){const summary=document.createElement('p');summary.className='review-summary';summary.textContent=draft.summaries[block.number];section.append(summary);}
+
    const dl=document.createElement('dl');block.questions.forEach((q,j)=>{const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=q;dd.textContent=draft.answers[block.number]?.[j]||'Not yet explored.';dl.append(dt,dd);});section.append(dl);
    const edit=document.createElement('a');edit.href='#canvas-workbook';edit.textContent=`Edit ${block.title}`;edit.addEventListener('click',event=>{event.preventDefault();showStep(i,true);});section.append(edit);target.append(section);
   }
@@ -52,7 +53,7 @@ function init(root:HTMLElement){
  root.addEventListener('input',event=>{const el=event.target as HTMLInputElement|HTMLTextAreaElement;const draft=drafts[selected];
   if(['project','team','context','reviewDate'].includes(el.name))(draft as any)[el.name]=el.value;
   else if(el.dataset.question!==undefined){const number=el.dataset.block!;draft.answers[number]??=Array(variant().blocks.find(b=>b.number===number)!.questions.length).fill('');draft.answers[number][Number(el.dataset.question)]=el.value;}
-  else if(el.dataset.summary)draft.summaries[el.dataset.summary]=el.value;else return;
+  else return;
   save();progress();
  });
  root.querySelectorAll<HTMLButtonElement>('[data-writing-step]').forEach(el=>el.addEventListener('click',()=>showStep(Number(el.dataset.writingStep),true)));
@@ -69,16 +70,15 @@ function init(root:HTMLElement){
  $('#clear-canvas').addEventListener('click',()=>{if(!confirm('Clear this version’s draft? Download an editable copy first if you want to keep it.'))return;drafts[selected]=blankDraft(selected);fill();showStep(0,true);save();});
  $('#replace-local').addEventListener('click',()=>{if(!confirm('Replace the unreadable local drafts? They cannot be recovered from this browser afterwards.'))return;storageSafe=true;$('#replace-local').hidden=true;save();});
  $('#download-canvas-pdf').addEventListener('click',async()=>{const button=$<HTMLButtonElement>('#download-canvas-pdf');button.disabled=true;button.textContent='Preparing PDF…';
+  $('#fit-actions').replaceChildren();
   try{const snapshot=JSON.parse(JSON.stringify(drafts[selected])) as Draft;const selectedVariant=data.variants.find(v=>v.id===snapshot.variant)!;const {createCanvasPdf}=await import('./canvas-pdf');const base=import.meta.env.BASE_URL.replace(/\/$/,'');const doc=await createCanvasPdf(snapshot,selectedVariant,base);download(doc.output('blob'),fileStem(snapshot)+'.pdf');message('PDF downloaded. Keep an editable copy too, so you can return to this work.');}
-  catch(error){message((error as Error).message||'The PDF could not be created. Your answers are safe; download an editable copy and try again.',true);}finally{button.disabled=false;button.textContent='Download filled PDF';}
+  catch(error){message((error as Error).message||'The PDF could not be created. Your answers are safe; download an editable copy and try again.',true);
+   if(error instanceof CanvasFitError){for(const number of Array.from(new Set(error.blocks))){const button=document.createElement('button');button.type='button';const index=variant().blocks.findIndex(b=>b.number===number);button.textContent=index>=0?'Edit '+variant().blocks[index].title:'Edit project details';button.addEventListener('click',()=>{if(index>=0)showStep(index,true);else{$<HTMLInputElement>('[name=project]').focus();$('[name=project]').scrollIntoView({block:'center'});}});$('#fit-actions').append(button);}}
+  }finally{button.disabled=false;button.textContent='Download filled PDF';}
  });
  $('#print-canvas').addEventListener('click',()=>{
   const win=window.open('','_blank');if(!win){message('Allow the print window to open, then try again.',true);return;}
-  const doc=win.document;doc.title='Missional canvas - full answers';const style=doc.createElement('style');style.textContent='@page{size:A4;margin:20mm}body{font:11pt/1.65 system-ui,sans-serif;color:#151412;max-width:180mm;margin:auto;padding:12mm}h1,h2{font-family:Georgia,serif;font-weight:400;line-height:1.2}h1{font-size:30pt}h2{font-size:22pt;break-after:avoid}dt{font-weight:600;break-after:avoid;margin-top:20px}dd,p{white-space:pre-wrap;overflow-wrap:anywhere}dd{margin:8px 0 24px}section{margin-top:32px}button{padding:12px 20px}@media print{body{padding:0}button{display:none}}';doc.head.append(style);
-  const add=(tag:string,text:string,parent:HTMLElement=doc.body)=>{const el=doc.createElement(tag);el.textContent=text;parent.append(el);return el;};
-  const d=drafts[selected];add('p','MISSIONAL BY DESIGN / '+variant().title);add('h1',d.project||'Our working canvas');add('h2','What really is the good news in our context?');add('p',`Team: ${d.team||'Not specified'}\nReview: ${d.reviewDate||'Not set'}\n\n${d.context}`);
-  for(const block of variant().blocks){const section=add('section','');add('h2',block.number+' / '+block.title,section);if(d.summaries[block.number])add('p','On the canvas: '+d.summaries[block.number],section);const dl=add('dl','',section);block.questions.forEach((q,i)=>{add('dt',q,dl);add('dd',d.answers[block.number]?.[i]||'Not yet explored.',dl);});}
-  add('p','Adapted from Tobias Treppmann / Oratio&Co, Ministry Model Canvas for churches (2024). Nonprofit/business adaptations: Missional by Design, 2026. CC BY-SA 3.0.');const print=add('button','Print / Save as PDF');print.addEventListener('click',()=>win.print());win.focus();
+  fillCanvasPrint(win,drafts[selected],variant());
  });
  addEventListener('beforeunload',event=>{if(writing&&hasContent(drafts[selected])&&(!storageSafe||!storageAvailable)){event.preventDefault();event.returnValue='';}});
  if(storageSafe)message(hasContent(drafts[selected])?'Your local draft is ready to continue.':'Ready when you are. Progress saves in this browser as you write.');
