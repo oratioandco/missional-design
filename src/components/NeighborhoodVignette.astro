@@ -1,0 +1,11 @@
+---
+interface Props { videoSrc: string; posterSrc: string; }
+const {videoSrc,posterSrc}=Astro.props;
+---
+<section class="canvas-context container" aria-labelledby="context-vignette-title">
+ <div class="context-copy"><p class="eyebrow">The same place, a changing context</p><h2 id="context-vignette-title">Keep listening to the place around us.</h2><p>A café opens in a worn corner building. The house is restored, then retail and offices change its use. The church stays in place while its neighborhood changes.</p><p>What really is good news here—for longstanding neighbors and newer arrivals? The canvas gives us a reason to listen again.</p></div>
+ <figure><video controls muted playsinline preload="none" poster={posterSrc} width="1280" height="720" aria-label="Silent fictional neighborhood transformation: worn building, new café, restored house, upmarket store and offices"><source src={videoSrc} type="video/mp4" /><p><a href={videoSrc}>Open the neighborhood video</a></p></video><figcaption>Generated illustration · fictional neighborhood · 16 seconds · silent.</figcaption></figure>
+</section>
+<style>
+.canvas-context{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);align-items:center;gap:38px;margin-top:0;margin-bottom:36px;padding-top:32px;padding-bottom:32px;border-top:1px solid #d6d2c8;border-bottom:1px solid #d6d2c8}.context-copy .eyebrow{font-size:11px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:15px}.context-copy h2{font:400 clamp(32px,3vw,42px)/1.12 var(--mbd-editorial);margin:0 0 18px}.context-copy p{font-size:16px;line-height:1.65;margin:0 0 14px;max-width:45ch}figure{margin:0;min-width:0}video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#e8e3da}figcaption{font-size:12px;line-height:1.5;color:#55524b;margin-top:9px}video:focus-visible{outline:3px solid #8a5a00;outline-offset:4px}@media(max-width:760px){.canvas-context{grid-template-columns:1fr;gap:16px;padding-top:26px;padding-bottom:26px}.context-copy h2{font-size:36px}.context-copy p{max-width:none}}@media print{.canvas-context{display:none!important}}
+</style>

@@ -19,6 +19,7 @@ function isActive(href: string): boolean {
   if (h === `${base}/de` && (p === `${base}/de` || p === `${base}/de/`)) return true;
   return p === h;
 }
+const canvasPath = lang === 'de' ? `${prefix}/ministry-model-canvas` : `${base}/missional-canvas`;
 ---
 
 <nav class="nav" aria-label={lang === 'de' ? 'Hauptnavigation' : 'Primary'} data-nav-open="false">
@@ -38,7 +39,7 @@ function isActive(href: string): boolean {
         </a>
       </li>
       <li>
-        <a href={`${prefix}/ministry-model-canvas`} class={isActive(`${prefix}/ministry-model-canvas`) ? 'active' : ''}>
+        <a href={canvasPath} class={isActive(canvasPath) ? 'active' : ''}>
           {t(lang, 'nav.canvas')}
         </a>
       </li>

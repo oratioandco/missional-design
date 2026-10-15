@@ -1,56 +1,25 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import HomeDecisions from '../../components/HomeDecisions.astro';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <BaseLayout
   lang="de"
   title="Missional by Design"
-  description="Strategische Gestaltung, theologische Reflexion und missionale Produktgestaltung — für Gemeinden, kirchliche Initiativen und alle, die Technologie entwickeln, die das berührt, was Menschen am heiligsten ist."
+  description="Gestaltung, die dem Leben mit Gott und miteinander dient. Praktische Werkzeuge, Gestaltungsmuster und theologische Reflexion für Gemeinden, christliche Organisationen und Produktteams."
 >
   <!-- Hero -->
-  <section class="hero">
+  <section class="hero contextual-home">
     <div class="hero-copy">
     <div class="hero-label">Tobias Treppmann · Oratio&Co</div>
-    <h1>Wir arbeiten in<br/>Gottes Feld.</h1>
-    <p class="hero-subtitle">
-      Strategische Gestaltung, theologische Reflexion und missionale Produktgestaltung — für Gemeinden, kirchliche
-      Initiativen und alle, die Technologie entwickeln, die das berührt, was Menschen am heiligsten ist.
-    </p>
-    <div style="margin-top: 2.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
-      <a href={`${base}/reference/`} class="button">Die Muster entdecken →</a>
-      <a href={`${base}/calling/`} class="button" style="background: transparent; color: var(--color-white); border: 1px solid var(--color-white);">Die Berufung lesen</a>
-    </div>
-    </div><div class="identity-hero-art"><img src={`${base}/assets/brand/identity-folio-dark-v2.webp`} alt="" aria-hidden="true" width="1536" height="1024" fetchpriority="high" /></div>
+    <h1>Gestaltung, die dem Leben mit Gott und miteinander dient.</h1>
+    <p class="hero-subtitle">Unsere Kontexte verändern sich laufend. Gemeinden, Initiativen und Technologien brauchen deshalb immer wieder neue Aufmerksamkeit: Was ist hier wirklich die gute Nachricht – und wie kann unsere Arbeit ihr Gestalt geben?</p>
+    <p class="home-offer">Praktische Werkzeuge, Gestaltungsmuster und theologische Reflexion für Gemeinden, christliche Organisationen und Produktteams.</p>
+    <div class="home-actions"><a href="#in-practice" class="button">Den Ansatz kennenlernen →</a><a href={`${base}/missional-canvas/`} class="button home-secondary">Mit dem Canvas arbeiten</a></div>
+    </div><figure class="identity-hero-art contextual-photo"><img src={`${base}/assets/brand/silicon-window-v7.webp`} alt="Ein urbanes Gemeinschaftsbüro hinter einem Fenster mit blau-silbernen Siliziumreflexionen" width="1536" height="1024" fetchpriority="high" /><figcaption>Generierte redaktionelle Illustration · fiktive Menschen und Orte</figcaption></figure>
   </section>
-  <section class="identity-person-section"><div class="container identity-person-grid"><div><p class="identity-label">01 / DER MENSCH</p><h2>Willkommen, bevor du fragst.</h2><p class="editorial-passage">Es geht um die Menschen.</p><a class="identity-text-link" href={`${base}/principles/welcome/`}>Das Prinzip lesen →</a></div><img class="identity-art" src={`${base}/assets/brand/identity-person-light-v1.webp`} alt="" width="1536" height="1024" loading="lazy" /></div>
-  <div class="container identity-human-grid"><figure class="identity-meetup"><img src={`${base}/assets/brand/identity-meetup-conversation-v2.webp`} alt="Illustrative Gesprächsszene bei einem Tech-Meetup" width="1536" height="1024" loading="lazy" /><figcaption>Generierte Illustration · nach Startup-Life-Fotografie</figcaption></figure><p class="editorial-passage">Menschen zu Gott und zueinander führen.</p></div></section>
-
-
-  <!-- The Thesis -->
-  <section class="section section-cream">
-    <div class="container">
-      <div style="max-width: 70ch;">
-        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Die These</div>
-        <h2 class="editorial-heading">Jede Gemeinde<br/>hat ein Design.</h2>
-        <p class="lead" style="margin-top: 2rem;">
-          Design heißt: die bewusste, reflektierte Gestaltung von etwas — mit konkreten Zielen in einem konkreten Kontext. Doch auch ohne bewussten Entwurf — durch Tradition, Gewohnheit oder vergessene Entscheidungen — entsteht ein Design. Es ist immer da. <strong>Es gibt keine Gemeinde, die kein Design hat.</strong>
-        </p>
-        <p class="lead">
-          In Kontexten, die sich rasch verändern, geraten Design und Wirklichkeit zunehmend aus dem Tritt. Spannung entsteht — und sie zeigt sich verschieden. Bei einer Gemeinde verliert sich die missionale Wirksamkeit, während die innere Gruppe noch zufrieden ist. Bei einer anderen zerbröselt die Gemeinschaft, während die Programme nach außen weiterlaufen. Bei einer dritten brennen die Engagierten aus. Wo die Spannung zuerst sichtbar wird, sagt etwas darüber, an welcher Stelle das Design nicht mehr trägt.
-        </p>
-        <p class="lead">
-          Eine missional gestaltete Gemeinde sieht anders aus. Sie kennt ihre eigene Mission — ihr Selbstverständnis, ihre Geschichte, ihre besonderen Gaben — und lebt aus ihnen. Zeit, Mittel und Gaben setzt sie gezielt darauf ein, Gottes Segen in die Welt zu tragen: in die Nachbarschaft, in das Leben des Nächsten, in Räume, die sonst niemand betritt. Und sie führt Menschen in Gemeinschaft — mit Gott und miteinander.
-        </p>
-        <p class="lead">
-          <strong>Missional by Design</strong> ist die Disziplin, das Design der eigenen Arbeit immer wieder ehrlich anzuschauen, es aus missionaler Perspektive zu prüfen — und es dort neu zu gestalten, wo es nicht mehr passt. Wenn wir die Berufung ernst nehmen, Gott und den Nächsten wie uns selbst zu lieben, dann gehört zu unserer Verantwortung genau diese fortlaufende, bewusste Reflexion und Anpassung — nicht aus Mode, sondern aus Treue.
-        </p>
-        <p class="lead" style="font-style: italic; opacity: 0.85; margin-top: 2rem;">
-          Einfach: <strong>Kirche bewusst gestalten.</strong>
-        </p>
-      </div>
-    </div>
-  </section>
+  <HomeDecisions lang="de" />
 
   <!-- The Three Pillars -->
   <section class="section section-dark">
@@ -61,13 +30,11 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       </div>
 
       <div class="grid grid-3">
-        <a href={`${base}/de/ministry-model-canvas`} class="pillar-card">
+        <a href={`${base}/missional-canvas/`} class="pillar-card">
           <div class="pillar-card-num">01</div>
           <h3>Ministry Model Canvas</h3>
           <p>
-            Ein strategisches Planungswerkzeug mit neun Blöcken für Gemeinden und kirchliche Initiativen — vom Lean Canvas
-            übernommen, um Teams zu helfen, ihre Zielgruppe zu klären, ihre gute Nachricht zu benennen und auf missionale
-            Wirksamkeit hinzuarbeiten.
+            Ein Canvas mit neun Feldern: den Kontext verstehen, die missionale Identität klären und nächste Schritte gestalten. Mit einer Gemeindeversion und Entwürfen für gemeinnützige Organisationen und Unternehmen.
           </p>
           <div class="pillar-card-link">Canvas erkunden →</div>
         </a>
@@ -87,7 +54,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
           <h3>Texte</h3>
           <p>
             Essays über missionale Gestaltung, digitale Prägung, Innovation in der Gemeindearbeit und die überraschende
-            Überschneidung zwischen Gemeinden und Gründungen. Impulse aus der Praxis, nicht aus dem Seminarraum.
+            Überschneidung zwischen Gemeinden und Gründungen. Fragen und praktische Konsequenzen für unsere gemeinsame Arbeit.
           </p>
           <div class="pillar-card-link">Essays lesen →</div>
         </a>
