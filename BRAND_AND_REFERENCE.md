@@ -35,3 +35,9 @@ Verification: `npm run build`; focused TypeScript check for `src/lib/canvas-*.ts
 Question export verification: all three variants were exported and checked with `scripts/check-canvas-pdf.py` (pdfplumber). Every original guiding question is present inside its own block on exactly one A3 landscape page; the filled church example and native print fallback were also checked and visually inspected.
 
 15 October follow-on: the imported `/calling/rocks/` essay is now “When Silicon Catches the Light”, using approved contextual window imagery and an Instrument Serif editorial headline. The existing route is retained. A practical return-to-reading example and continuously changing context connect the metaphor to design decisions. No public deployment or field-guide PDF rewrite.
+
+
+##15October2026: purpose and practical positioning
+
+Homepage positioning and complementary essay implemented locally in EN/DE: purpose first, three concrete situations, formation/faithfulness posture, selective silicon imagery. New /blog/which-rock/ and /de/blog/which-rock/ link to the reflected-light essay. Read research/editorial/2026-10-15-foundation-and-positioning.md in the reference checkout. No public deployment; PDFs/canvas unchanged.
+Validated20Astro pages/250sitemap routes; EN/DEdesktop/mobile screenshots and link checks in the adjacent reference checkout. Article figures checked against the primary Barna report; no spiritual outcome promises.

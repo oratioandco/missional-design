@@ -1,0 +1,36 @@
+---
+interface Props { lang: 'en' | 'de' }
+const { lang } = Astro.props;
+const de = lang === 'de';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const items = de ? [
+ { title: 'Eine Nachbarschaft verändert sich.', body: 'Die Gemeinde bleibt am selben Ort. Die Menschen, Fragen und Lebensbedingungen verändern sich. Wieder zuhören, Annahmen prüfen und gemeinsam überlegen, wie die Gemeinde hier dienen kann.', href: '/missional-canvas/', link: 'Den Kontext mit dem Canvas erkunden' },
+ { title: 'Jemand kehrt zum Bibelleseplan zurück.', body: 'Nach einer schwierigen Pause kann ein versäumter Streak beschämen. Ein anderer Einstieg heißt willkommen und bietet einen überschaubaren Neustart. Mit den Menschen prüfen, was ihre Praxis wirklich unterstützt.', href: '/patterns/progress-and-streaks/', link: 'Gestaltungsoptionen für Fortschritt vergleichen' },
+ { title: 'Jemand sucht geistlichen Rat bei einer KI.', body: 'Quellen zugänglich machen, zur eigenen Prüfung einladen und erkennen, wann ein Gespräch mit einem Menschen gebraucht wird. Die nächste KI-Antwort ist nicht immer der beste nächste Schritt.', href: '/de/framework/', link: 'Die Prinzipien für Produktteams lesen' }
+] : [
+ { title: 'A neighborhood changes around a church.', body: 'The church stays in place. The people, questions and circumstances change. Listen again, question assumptions and discern together how the church can serve here.', href: '/missional-canvas/', link: 'Explore your context with the canvas' },
+ { title: 'Someone returns to a Bible reading plan.', body: 'After a difficult break, a missed streak can bring shame. Another opening welcomes them and offers a manageable restart. Try the alternatives with people to learn what supports their practice.', href: '/patterns/progress-and-streaks/', link: 'Compare approaches to progress' },
+ { title: 'Someone asks AI for spiritual guidance.', body: 'Make sources accessible, invite discernment and recognize when a conversation with a person matters. Another AI answer is not always the best next step.', href: '/framework/', link: 'Read the principles for product teams' }
+];
+---
+<section class="section home-decisions" id="in-practice" aria-labelledby="practice-title">
+ <div class="container">
+  <p class="identity-label">{de ? '01 / DER ANSATZ IN DER PRAXIS' : '01 / THE APPROACH IN PRACTICE'}</p>
+  <h2 id="practice-title">{de ? 'Was ist wirklich die gute Nachricht in unserem Kontext?' : 'What really is the good news in our context?'}</h2>
+  <p class="lead home-intro">{de ? 'Diese Frage verbindet Gemeindeentwicklung und Produktgestaltung. Sie verändert, wem wir zuhören, was wir gestalten und woran wir gelungene Arbeit erkennen.' : 'This question connects ministry and product design. It changes whom we listen to, what we shape and how we recognize good work.'}</p>
+  <div class="decision-grid">{items.map(item => <article><h3>{item.title}</h3><p>{item.body}</p><a href={`${base}${item.href}`}>{item.link} →</a></article>)}</div>
+ </div>
+</section>
+<section class="section section-cream home-posture" aria-labelledby="posture-title">
+ <div class="container">
+  <p class="identity-label">{de ? '02 / KONTEXT · PRÄGUNG · TREUE' : '02 / CONTEXT · FORMATION · FAITHFULNESS'}</p>
+  <h2 id="posture-title">{de ? 'Unsere Gestaltung prägt, wie Menschen glauben und leben.' : 'What we design shapes how people practise faith.'}</h2>
+  <p class="lead">{de ? 'Auch Gewohnheiten, Traditionen und vergessene Entscheidungen gestalten unsere Arbeit. Missional by Design heißt, diese Gestaltung immer wieder an unserer Berufung zu prüfen: Hilft sie Menschen, in der Beziehung zu Gott und miteinander zu wachsen?' : 'Habits, traditions and forgotten decisions shape our work too. Missional by Design means continually examining that design in light of our calling: does it help people grow in relationship with God and one another?'}</p>
+  <p class="lead">{de ? 'Technologie kann dabei viel ermöglichen. Gute Arbeit stärkt auch die Freiheit, ein Werkzeug weniger zu brauchen. Regelmäßige Nutzung kann eine hilfreiche Praxis tragen; sie allein belegt kein geistliches Wachstum.' : 'Technology can make remarkable things possible. Good work also strengthens the freedom to need a tool less. Continued use can support a meaningful practice; it is not, by itself, evidence of spiritual growth.'}</p>
+  <p><a class="identity-text-link" href={`${base}${de ? '/de/blog/which-rock/' : '/blog/which-rock/'}`}>{de ? 'Essay: Auf welchen Fels bauen wir? →' : 'Essay: On Which Rock Are We Building? →'}</a></p>
+  <div class="identity-human-grid"><figure class="identity-meetup"><img src={`${base}/assets/brand/identity-meetup-conversation-v2.webp`} alt={de ? 'Illustratives Gespräch in einem urbanen Tech-Büro' : 'Illustrative conversation in an urban tech office'} width="1536" height="1024" loading="lazy"/><figcaption>{de ? 'Generierte Illustration · nach Startup-Life-Fotografie' : 'Generated illustration · based on Startup Life photography'}</figcaption></figure><p class="editorial-passage">{de ? 'Es geht um die Menschen.' : 'The people are the point.'}</p></div>
+ </div>
+</section>
+<style>
+.home-decisions,.home-posture{scroll-margin-top:100px}.home-decisions h2,.home-posture h2{font:400 clamp(36px,4.5vw,64px)/1.08 var(--mbd-editorial);max-width:24ch;letter-spacing:-.015em;margin-bottom:24px}.home-intro{max-width:65ch}.decision-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px;margin-top:44px}.decision-grid article{border-top:1px solid var(--color-border);padding-top:24px;min-width:0}.decision-grid h3{font:400 30px/1.15 var(--mbd-editorial);margin-bottom:18px}.decision-grid p{font-size:17px;line-height:1.65;margin-bottom:20px}.decision-grid a{font-size:15px;text-decoration:underline;text-underline-offset:4px}.home-posture .lead{max-width:65ch;margin-bottom:24px}.identity-meetup figcaption{font-size:12px;line-height:1.5;margin-top:10px;color:var(--color-muted)}@media(max-width:800px){.decision-grid{grid-template-columns:1fr;gap:28px}.home-decisions h2,.home-posture h2{font-size:40px}}
+</style>
