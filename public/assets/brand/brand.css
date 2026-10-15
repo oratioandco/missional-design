@@ -133,3 +133,23 @@ body.paper .fg-place{grid-template-columns:1fr;max-width:760px}
 
 /* Contextual silicon scenes share the editorial, human scale. */
 .identity-context{margin:0;min-width:0}.identity-context img{object-fit:cover;background:transparent}.identity-context figcaption{font:400 11px/1.5 var(--mbd-body);color:#55524b;margin-top:8px}.identity-opener-dark .identity-context figcaption{color:#d9d2c7}
+
+/* Photographic scenes have a full-section canvas, distinct from object studies. */
+@media screen{
+:root body.paper .identity-photographic{position:relative;isolation:isolate;overflow:hidden;display:block;padding:48px 40px 68px;min-height:600px;background:#151412;color:#fbfaf7;--p-link:#f0b54a;--p-muted:#d9d2c7}
+.identity-photographic .identity-copy{position:relative;z-index:2;max-width:48%}
+.identity-photographic .identity-hero-art{position:absolute;inset:0;max-width:none;z-index:-2}
+.identity-photographic .identity-context{height:100%}
+.identity-photographic .identity-context img{width:100%;height:100%;aspect-ratio:auto;object-fit:cover;object-position:center}
+.identity-photographic:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(15,14,12,.97),rgba(15,14,12,.93) 32%,rgba(15,14,12,.72) 48%,rgba(15,14,12,.08) 73%)}
+.identity-photographic .identity-context figcaption{position:absolute;bottom:12px;right:16px;margin:0;padding:4px 8px;background:rgba(15,14,12,.8);color:#fff}
+:root body.paper .identity-photographic .cta-quiet{color:#fbfaf7}
+@media(max-width:760px){
+:root body.paper .identity-photographic{padding:28px 24px 0;min-height:0;display:flex;flex-direction:column;gap:28px}
+.identity-photographic .identity-copy{max-width:none}
+.identity-photographic:before{display:none}
+.identity-photographic .identity-hero-art{position:relative;inset:auto;z-index:auto;width:calc(100% + 48px);margin:0 -24px}
+.identity-photographic .identity-context img{height:auto;aspect-ratio:3/2}
+.identity-photographic .identity-context figcaption{font-size:9px;right:8px;bottom:8px}
+}
+}

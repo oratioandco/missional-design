@@ -87,3 +87,19 @@ html[lang=de] .hero h1{font-size:clamp(48px,6.5vw,96px)}
 .home-offer{color:#d9d2c7;max-width:48ch;font-size:15px;line-height:1.6;margin-top:20px}
 .home-actions{margin-top:28px;display:flex;gap:16px;flex-wrap:wrap}.home-actions .home-secondary{background:transparent;color:#fbfaf7;border:1px solid #fbfaf7}
 @media(max-width:900px){.contextual-home.hero h1,html[lang=de] .contextual-home.hero h1{font-size:clamp(43px,8.5vw,68px)}.contextual-home.hero{padding-top:40px;padding-bottom:40px}}
+
+/* Photographic openers fill their section; the image remains an uninterrupted scene. */
+.contextual-home.hero{position:relative;isolation:isolate;display:block;overflow:hidden;padding:72px 6vw 88px;min-height:740px}
+.contextual-home.hero .hero-copy{position:relative;z-index:2;max-width:590px}
+.contextual-home.hero .contextual-photo{position:absolute;inset:0;max-width:none;z-index:-2}
+.contextual-home.hero .contextual-photo img{width:100%;height:100%;aspect-ratio:auto;object-fit:cover;object-position:center}
+.contextual-home.hero:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(15,14,12,.96) 0%,rgba(15,14,12,.91) 32%,rgba(15,14,12,.65) 47%,rgba(15,14,12,.08) 70%)}
+.contextual-home.hero .contextual-photo figcaption{position:absolute;right:24px;bottom:14px;margin:0;padding:4px 8px;background:rgba(15,14,12,.8);color:#fff}
+@media(max-width:900px){
+.contextual-home.hero{padding:40px 6vw 0;min-height:0;display:flex;flex-direction:column;gap:32px}
+.contextual-home.hero:before{display:none}
+.contextual-home.hero .hero-copy{max-width:640px}
+.contextual-home.hero .contextual-photo{position:relative;inset:auto;z-index:auto;width:calc(100% + 12vw);margin:0 -6vw}
+.contextual-home.hero .contextual-photo img{height:auto;aspect-ratio:3/2;object-fit:cover}
+.contextual-home.hero .contextual-photo figcaption{right:12px;bottom:10px;font-size:10px}
+}
