@@ -1,6 +1,6 @@
 import { jsPDF } from 'jspdf';
 import type { Draft } from './canvas-draft';
-import {CANVAS_BOXES,MIN_CANVAS_FONT,canvasAnswer,CanvasFitError,type CanvasVariant} from './canvas-layout';
+import {CANVAS_BOXES,MIN_CANVAS_FONT,canvasEntries,CanvasFitError,type CanvasVariant} from './canvas-layout';
 const INK = '#151412', MUTED='#625c51';
 const clean = (text:string) => text.replace(/[\x00-\x08\x0b\x0c\x0e-\x1f]/g,'').replace(/\t/g,'    ');
 async function fontData(path:string) {
@@ -45,9 +45,19 @@ export async function createCanvasPdf(draft:Draft, variant:CanvasVariant, base:s
   set(8);doc.setTextColor(MUTED);doc.text(block.number,x+5,y+7);
   set(12,true);const title=lines(block.title,width-10);doc.text(title,x+5,y+14,{lineHeightFactor:1.2});
   const textY=y+16+title.length*5;
-  const fitted=fit(canvasAnswer(draft,block.number),width-10,y+height-5-textY);
+  let fitted:null|{size:number;questionSize:number;entries:{question:string[];answer:string[]}[]}=null;
+  for(let size=10.5;size>=MIN_CANVAS_FONT;size-=.25){
+   const questionSize=Math.max(8,size-1.5),questionLeading=questionSize*25.4/72*1.2,answerLeading=size*25.4/72*1.25;
+   const entries=canvasEntries(draft,block).map(entry=>{set(questionSize,true);const question=lines(entry.question,width-10);set(size);return {question,answer:lines(entry.answer,width-10)};});
+   const needed=entries.reduce((total,entry)=>total+entry.question.length*questionLeading+.8+entry.answer.length*answerLeading+1.8,0);
+   if(needed<=y+height-5-textY){fitted={size,questionSize,entries};break;}
+  }
   if(!fitted){overflow.push(block.number);labels.push(block.title);continue;}
-  set(fitted.size);doc.text(fitted.wrapped,x+5,textY,{lineHeightFactor:1.3});
+  let cursor=textY;
+  for(const entry of fitted.entries){
+   set(fitted.questionSize,true);doc.setTextColor(MUTED);doc.text(entry.question,x+5,cursor,{lineHeightFactor:1.2});cursor+=entry.question.length*fitted.questionSize*25.4/72*1.2+.8;
+   set(fitted.size);doc.text(entry.answer,x+5,cursor,{lineHeightFactor:1.25});cursor+=entry.answer.length*fitted.size*25.4/72*1.25+1.8;
+  }
  }
  if(overflow.length)throw new CanvasFitError(overflow,labels);
  set(7);doc.setTextColor(MUTED);
