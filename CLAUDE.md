@@ -1,3 +1,5 @@
+> **Current video review:** V5 variation edit is assembled for review: cafe retains the only bench departure/cyclist; store has shoppers and an empty bench; gallery has a seated sketcher (source trimmed2–5s to remove an unwanted background cyclist); office has arrivals and a stroller, empty bench. Total15s: cafe0–5,store4–9,gallery8–11,office10–15;1s cross-dissolves. All three Bailian replacement jobs succeeded/downloaded. Studio http://localhost:8803/#project/neighborhood-context. No final export or website integration yet; preserve v4 history.
+
 > **Current video review:** V4 is preview-ready: all four 5s scene jobs succeeded and are downloaded. The 17s HyperFrames assembly uses 1s cross-dissolves at4–5,8–9,12–13s. Bench/church actions visibly improve in all four scenes. Full check:0errors/0warnings; assembly snapshots inspected. Review http://localhost:8803/#project/neighborhood-context before final export; website component remains unconnected. Do not regenerate accepted jobs.
 
 # Missional by Design — session entry point
