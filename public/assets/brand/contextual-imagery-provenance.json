@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "assumption": "Fictional Berlin-like square; specific-place question pending",
   "items": [
     {
@@ -137,6 +137,32 @@
       "prompt_file": "brand/rock-v7-prompts.json",
       "fictional": true,
       "usage": "Website contextual image; replace smooth logo forms with approved film specimen; identity mark unchanged"
+    },
+    {
+      "file": "silicon-seeking-v8.webp",
+      "tool": "built-in image_gen; WebP encoding only via Pillow",
+      "fictional": true,
+      "source_study": "research/design-directions/editorial-refinement/startup-context-v8/assets/seeking-v8.png",
+      "prompt_file": "research/design-directions/editorial-refinement/startup-context-v8/prompts.json",
+      "references": [
+        "brand/assets/startup-life-panel.webp",
+        "brand/assets/startup-life-conversation.webp",
+        "videos/neighborhood-context/assets/neighborhood-vignette-v7-poster.jpg"
+      ],
+      "usage": "Owner approved 15 October; seeking for Patterns landing only, connection for EN/DE main home"
+    },
+    {
+      "file": "silicon-connection-v8.webp",
+      "tool": "built-in image_gen; WebP encoding only via Pillow",
+      "fictional": true,
+      "source_study": "research/design-directions/editorial-refinement/startup-context-v8/assets/connection-v8.png",
+      "prompt_file": "research/design-directions/editorial-refinement/startup-context-v8/prompts.json",
+      "references": [
+        "brand/assets/startup-life-panel.webp",
+        "brand/assets/startup-life-conversation.webp",
+        "videos/neighborhood-context/assets/neighborhood-vignette-v7-poster.jpg"
+      ],
+      "usage": "Owner approved 15 October; seeking for Patterns landing only, connection for EN/DE main home"
     }
   ]
 }
