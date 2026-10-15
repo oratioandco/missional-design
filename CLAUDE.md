@@ -1,3 +1,5 @@
+> **Current video review:** V4 is preview-ready: all four 5s scene jobs succeeded and are downloaded. The 17s HyperFrames assembly uses 1s cross-dissolves at4–5,8–9,12–13s. Bench/church actions visibly improve in all four scenes. Full check:0errors/0warnings; assembly snapshots inspected. Review http://localhost:8803/#project/neighborhood-context before final export; website component remains unconnected. Do not regenerate accepted jobs.
+
 # Missional by Design — session entry point
 
 Read [HANDOFF.md](HANDOFF.md), then its linked canonical cross-project handoff and
@@ -17,3 +19,5 @@ Current visual decisions are in the canonical handoff; avoid reopening rejected
 corny biblical props, smooth/dented rocks, random photos or teal-dominant styling.
 
 Keep the current branch for review/continuation. No public deployment occurred.
+
+Latest video plan: owner rejects remaining static bench/church groups in v3 and explicitly permits cross-blends between years. V4 has four independent5s scene jobs accepted from empty architectural plates. Inspect the adjacent generation-jobs.json and v4-scene-plan.json. Cross-dissolve assembly is prepared in the adjacent index.html (~17s); do not integrate v3 or claim v4 accepted before bench/church motion is reviewed.
