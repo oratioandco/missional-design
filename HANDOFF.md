@@ -36,8 +36,9 @@ for checks, font provenance and import workflow. Latest feature commit956a4a6.
 
 1. Fix whole-scene pedestrian motion in the neighborhood film (source project is
    in the adjacent reference checkout). Architecture/colors are accepted; frozen
-   people, walking in place and storefront-only motion are not. V3 is prepared,
-   NOT submitted. Provider auth works; precise CLI version choice is pending.
+   people, walking in place and storefront-only motion are not. V3 was submitted once and accepted as
+   task7ae489f0-ade6-4fc2-9aa6-0a5cf4bf33a0; inspect the adjacent generation ledger
+   and poll/download that job. Owner approved upgrade; CLI2.3.0 is installed.
 2. Integrate accepted silent, controlled footage beside the canvas, with poster,
    reduced-motion behavior and fictional-scene disclosure.
 3. Review the actual website/reference and A4/A5 field guide together for coherent
