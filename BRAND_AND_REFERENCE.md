@@ -1,5 +1,7 @@
 # Shared brand and unified reference
 
+**Continuation:** read [HANDOFF.md](HANDOFF.md) and its canonical cross-project vision/task/runbook before older notes. Latest work is local, not deployed.
+
 The owner-selected brand uses the two-segment “by” rule, Mona Sans for reading/interface, Roboto Flex for short display moments and Instrument Serif for larger editorial passages. The current local homepage uses approved urban editorial photography with blue-silver silicon reflections, sharp four-point sun-star glints and restrained halation. Older object families remain exploratory. Naturally graded Startup Life event photos provide the human presence and are attributed on the page.
 
 The public pattern reference is part of this website. Its landing page is `/reference/`; its editorial about pages are under `/reference/about/`, preserving this site's existing `/about/`. Other reference routes keep their established paths. English/German framework pages and existing canvas resources remain available. The optional Bezalel MCP endpoint remains at its existing service host.
