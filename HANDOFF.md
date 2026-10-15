@@ -43,8 +43,10 @@ for checks, font provenance and import workflow. Latest feature commit956a4a6.
 3. Review the actual website/reference and A4/A5 field guide together for coherent
    typography, color urban/tech photography, pale blue-silver silicon, sharp
    four-point glints and page pacing. Older object studies remain provisional.
-4. Refine the proposed “When Silicon Catches the Light” article; text is not yet
-   rewritten. Keep reflection/calling intent, evidence and Scripture attribution.
+4. Review the locally refined “When Silicon Catches the Light” article at
+   `/calling/rocks/`. It now uses the approved contextual image, editorial serif
+   headline and a design/context bridge. Preserve source/Scripture notices.
+   Details: adjacent research/editorial/2026-10-15-silicon-article.md.
 
 ## Work and check
 
