@@ -1,12 +1,6 @@
-> **V6 storyboard ready:** V6 five-frame architectural storyboard is ready: http://127.0.0.1:8840/storyboard-v6.html. Built-in ImageGen plates show worn corner → cafe below worn upper house → restored apricot facade/French balconies → green upmarket store → offices. Preferred video rock appearance retained approximately; no pixel-identical claim. Prompts/provenance/QA saved. Review architecture before motion generation; V5 composition remains intact.
+> **Current video delivery (15October2026):** V6 is owner-approved, exported and integrated locally at http://127.0.0.1:8794/missional-canvas/. Finished16s1280x720/30fps silent film: worn corner → cafe beneath worn house → restoration/French balconies → upmarket store → offices. Native controls, poster, preloadnone, no autoplay; hidden in print. Master and8.1MBwebcopy in videos/neighborhood-context/assets; full provenance in v6-delivery-provenance.json. Full HyperFrames check passed; final frames inspected; desktop/mobile playback/seek/reduced-motion/print checks passed. CLI2.3.0; HyperFrames upgraded0.8.160→0.8.161. No further generation needed. No public deployment.
 
-> **Latest visual/story direction:** Owner now prefers the neighborhood film’s rock above previous renders. Next video story proposal is gentrification: worn corner building → cafe → whole-house restoration/paint/French balconies → upmarket store → offices. Read videos/neighborhood-context/V6-STORY-PLAN.md in the reference checkout; prepare matched storyboard before new motion generation. V5 remains preserved/current preview; no V6 generation submitted.
-
-> **Latest content implementation:** Homepage positioning and complementary essay implemented locally in EN/DE: purpose first, three concrete situations, formation/faithfulness posture, selective silicon imagery. New /blog/which-rock/ and /de/blog/which-rock/ link to the reflected-light essay. Read research/editorial/2026-10-15-foundation-and-positioning.md in the reference checkout. No public deployment; PDFs/canvas unchanged.
-
-> **Current video review:** V5 variation edit is assembled for review: cafe retains the only bench departure/cyclist; store has shoppers and an empty bench; gallery has a seated sketcher (source trimmed2–5s to remove an unwanted background cyclist); office has arrivals and a stroller, empty bench. Total15s: cafe0–5,store4–9,gallery8–11,office10–15;1s cross-dissolves. All three Bailian replacement jobs succeeded/downloaded. Studio http://localhost:8803/#project/neighborhood-context. No final export or website integration yet; preserve v4 history.
-
-> **Current video review:** V4 is preview-ready: all four 5s scene jobs succeeded and are downloaded. The 17s HyperFrames assembly uses 1s cross-dissolves at4–5,8–9,12–13s. Bench/church actions visibly improve in all four scenes. Full check:0errors/0warnings; assembly snapshots inspected. Review http://localhost:8803/#project/neighborhood-context before final export; website component remains unconnected. Do not regenerate accepted jobs.
+> **Current editorial delivery:** EN/DE homepages now lead with practical missional purpose and three concrete examples. New EN/DE essay /blog/which-rock/ and /de/blog/which-rock/ complements /calling/rocks/. See research/editorial/2026-10-15-foundation-and-positioning.md in the reference checkout.
 
 # Missional by Design — continue here (15 October 2026)
 
@@ -44,20 +38,7 @@ for checks, font provenance and import workflow. Latest feature commit956a4a6.
 
 ## Next authorized work
 
-1. Fix whole-scene pedestrian motion in the neighborhood film (source project is
-   in the adjacent reference checkout). Architecture/colors are accepted; frozen
-   people, walking in place and storefront-only motion are not. V3 was submitted once and accepted as
-   task7ae489f0-ade6-4fc2-9aa6-0a5cf4bf33a0; inspect the adjacent generation ledger
-   and poll/download that job. Owner approved upgrade; CLI2.3.0 is installed.
-2. Integrate accepted silent, controlled footage beside the canvas, with poster,
-   reduced-motion behavior and fictional-scene disclosure.
-3. Review the actual website/reference and A4/A5 field guide together for coherent
-   typography, color urban/tech photography, pale blue-silver silicon, sharp
-   four-point glints and page pacing. Older object studies remain provisional.
-4. Review the locally refined “When Silicon Catches the Light” article at
-   `/calling/rocks/`. It now uses the approved contextual image, editorial serif
-   headline and a design/context bridge. Preserve source/Scripture notices.
-   Details: adjacent research/editorial/2026-10-15-silicon-article.md.
+The video and editorial work in the current status above is complete locally. Review the whole website/reference/A4/A5 for coherent typography, photography, selective silicon use and pacing. Preserve the approved canvas/PDF behavior. Public deployment remains separate. Earlier appended video notes below are historical, not current polling instructions.
 
 ## Work and check
 

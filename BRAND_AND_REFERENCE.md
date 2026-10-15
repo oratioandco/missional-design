@@ -41,3 +41,10 @@ Question export verification: all three variants were exported and checked with 
 
 Homepage positioning and complementary essay implemented locally in EN/DE: purpose first, three concrete situations, formation/faithfulness posture, selective silicon imagery. New /blog/which-rock/ and /de/blog/which-rock/ link to the reflected-light essay. Read research/editorial/2026-10-15-foundation-and-positioning.md in the reference checkout. No public deployment; PDFs/canvas unchanged.
 Validated20Astro pages/250sitemap routes; EN/DEdesktop/mobile screenshots and link checks in the adjacent reference checkout. Article figures checked against the primary Barna report; no spiritual outcome promises.
+
+
+##15October2026: approved neighborhood film integrated
+
+V6 is owner-approved, exported and integrated locally at http://127.0.0.1:8794/missional-canvas/. Finished16s1280x720/30fps silent film: worn corner → cafe beneath worn house → restoration/French balconies → upmarket store → offices. Native controls, poster, preloadnone, no autoplay; hidden in print. Master and8.1MBwebcopy in videos/neighborhood-context/assets; full provenance in v6-delivery-provenance.json. Full HyperFrames check passed; final frames inspected; desktop/mobile playback/seek/reduced-motion/print checks passed. CLI2.3.0; HyperFrames upgraded0.8.160→0.8.161. No further generation needed. No public deployment.
+
+Astropreview (npmrunpreview-- --host127.0.0.1--port8794) replaces Pythonhttpserver for correct byte-range video seeking. Source project and original media remain in adjacent reference checkout. Public webMP4+poster copied only to public/assets/video; private research was not exported. No canvas answer/PDF logic changed.
