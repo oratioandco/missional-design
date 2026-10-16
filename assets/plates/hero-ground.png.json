@@ -1,0 +1,21 @@
+{
+  "region": "hero-ground",
+  "tool": "image_gen.imagegen",
+  "intent": "single-source object composite correction",
+  "requestedDimensions": [
+    1882,
+    836
+  ],
+  "actualDimensions": [
+    1881,
+    836
+  ],
+  "references": [
+    "/Users/ttreppmann/Developer/StudioProjects/bible-faith-patterns/brand/assets/silicon-context-v7.webp"
+  ],
+  "promptFile": "assets/plates/hero-ground-source-faithful.prompt.txt",
+  "source": "/Users/ttreppmann/.codex/generated_images/01a1443b-ad9b-77f1-905a-01e7fdb46008/exec-901193b1-cdab-4e58-bd29-c1e3b4e5d73d.png",
+  "status": "needs_parent_review",
+  "score": "unscored",
+  "comparison": "Substantially closer to actual specimen than prior plate: retained sloping broad top plane, large irregular blue-gray front-right plane, dark broken left edge, pointed lower silhouette and near-identical orientation. Not a pixel extraction: some fine fracture details and reflections are reinterpreted. Left ground calmer; window rectangles subtler than comp. Candidate only; existing hero-ground.png untouched."
+}
