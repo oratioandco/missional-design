@@ -172,6 +172,34 @@
       "fictional": true,
       "usage": "Replace flawed cafe cyclist scene in context/category openers and silicon essay; A4 scope illustration",
       "new_generation": false
+    },
+    {
+      "file": "silicon-reading-v13.webp",
+      "source_png": "research/design-directions/editorial-refinement/icon-rollout-v13/reading-refined-v13.png",
+      "tool": "built-in image_gen; WebP encoding only via Pillow",
+      "sha256": "779c16d484d4c67a0f9744f6413611a2d2a12ec9abf86a1c1790a25900308a95",
+      "fictional": true,
+      "prompt_file": "research/design-directions/editorial-refinement/icon-rollout-v13/prompts.json",
+      "usage": "Topic-specific decision guide illustration; recognisable icon silhouettes with subtle surface character",
+      "refinement": "Reduced wrinkled/hammered appearance to slight broad reflection irregularity; preserved recognisable open-book silhouette."
+    },
+    {
+      "file": "silicon-practice-v13.webp",
+      "source_png": "research/design-directions/editorial-refinement/icon-rollout-v13/practice-v13.png",
+      "tool": "built-in image_gen; WebP encoding only via Pillow",
+      "sha256": "f266279d291f888b7884b25bcb895764e7d41f911a87c6d2f780715a2a118d3f",
+      "fictional": true,
+      "prompt_file": "research/design-directions/editorial-refinement/icon-rollout-v13/prompts.json",
+      "usage": "Topic-specific decision guide illustration; recognisable icon silhouettes with subtle surface character"
+    },
+    {
+      "file": "silicon-dialogue-v13.webp",
+      "source_png": "research/design-directions/editorial-refinement/icon-rollout-v13/dialogue-v13.png",
+      "tool": "built-in image_gen; WebP encoding only via Pillow",
+      "sha256": "85e27275ddc4a2f3de37d9a8ab31259d9bcb08d97ac1a23bb3e3f06554b1f279",
+      "fictional": true,
+      "prompt_file": "research/design-directions/editorial-refinement/icon-surface-v12/prompts.json",
+      "usage": "Topic-specific decision guide illustration; recognisable icon silhouettes with subtle surface character"
     }
   ]
 }
