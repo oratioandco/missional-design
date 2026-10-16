@@ -4,6 +4,7 @@ import Footer from '../components/Footer.astro';
 import { getLocaleFromPath, type Locale } from '../i18n/ui';
 import '../styles/global.css';
 import '../styles/brand.css';
+import '../styles/reflected-light.css';
 
 export interface Props {
   title: string;
@@ -59,10 +60,10 @@ const finalDescription = description ?? (lang === 'de'
     {ogImage && <meta property="twitter:image" content={`${siteUrl}${ogImage}`} />}
 
     <link rel="canonical" href={`${siteUrl}${pathname}`} />
-    <meta name="theme-color" content="#141312" />
+    <meta name="theme-color" content="#edf4f8" />
   </head>
 
-  <body>
+  <body class:list={['reflected-site', {'reflected-home': pathname === `${base}/` || pathname === `${base}/de/` || pathname === `${base}/de`, 'reflected-framework': pathname.includes('/framework')} ]}>
     <a class="skip-link" href="#main">
       {lang === 'de' ? 'Zum Hauptinhalt springen' : 'Skip to main content'}
     </a>

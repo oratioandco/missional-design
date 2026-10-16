@@ -1,27 +1,5 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import StartRoutes from '../components/StartRoutes.astro';
-import HomeDecisions from '../components/HomeDecisions.astro';
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+import ReflectedHome from '../components/ReflectedHome.astro';
 ---
-
-<BaseLayout lang="en" title="Missional by Design" description="Design that serves life with God and one another. Practical frameworks, design patterns and theological reflection for churches, Christian organizations and product teams.">
-  <!-- Hero -->
-  <section class="hero contextual-home">
-    <div class="hero-copy">
-    <div class="hero-label">Christian mission · Context · Design</div>
-    <h1>What really is good news here?</h1>
-    <p class="hero-subtitle">Our neighborhoods, cultures and technologies keep changing. Christian mission calls us to keep asking how the good news of Jesus can be heard and lived in this place, with these people.</p>
-    <p class="home-offer">Practical tools for churches, Christian organizations and product teams, connecting theological reflection with decisions about what we build and how we serve.</p>
-    <div class="home-actions"><a href="#start" class="button">Find your starting point →</a><a href="#approach" class="button home-secondary">Why missional design?</a></div>
-    </div><figure class="identity-hero-art contextual-photo"><img src={`${base}/assets/brand/silicon-connection-v8.webp`} alt="A generated startup-community conversation with linked fractured blue-silver silicon forms" width="1536" height="1024" fetchpriority="high" /><figcaption>Generated editorial illustration · fictional people and place</figcaption></figure>
-  </section>
-  <StartRoutes lang="en" />
-  <HomeDecisions lang="en" />
-
-  <section class="section home-conversation"><div class="container"><p class="identity-label">Keep exploring</p><h2>Bring the questions to your own work.</h2><p class="lead">Read <a href={`${base}/blog/which-rock/`}>On Which Rock Are We Building?</a> for the argument about trust, formation and responsibility. <a href={`${base}/calling/rocks/`}>When Silicon Catches the Light</a> explores the reflected-light metaphor behind the visual identity.</p><p class="lead">Missional by Design is an open resource by Tobias Treppmann, developed through Oratio&amp;Co. The principles and research welcome theological, pastoral and practitioner feedback.</p><p><a href={`${base}/about/`}>About the work and how to contribute →</a></p><p>For help applying the approach with your team: <a href="https://oratio.co">Oratio&amp;Co</a>.</p></div></section>
-</BaseLayout>
-
-<style>
-.home-conversation h2{font:400 clamp(36px,4.5vw,60px)/1.08 var(--mbd-editorial);max-width:24ch;margin-bottom:28px}.home-conversation .lead{max-width:65ch;margin-bottom:24px}.home-conversation p{margin-bottom:20px}.home-conversation a{text-decoration:underline;text-underline-offset:4px}
-</style>
+<BaseLayout lang="en" title="Missional by Design" description="Christian reflection and practical tools for a changing context. Principles, a missional canvas and design options for Bible and faith products."><ReflectedHome lang="en" /></BaseLayout>

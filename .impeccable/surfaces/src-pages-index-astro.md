@@ -22,3 +22,7 @@ FIRST VIEWPORT: Stacked wordmark and slim navigation over a large left question 
 FORM: Owner-selected Reflected Light, original option2, refined image04. seed:2f3a47216d1f84b3. Actual approved rock overrides mock interpretation. Screens are proposals, never observed evidence.
 
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+
+## Owner continuation and asset approval
+
+After the asset-review link and explicit checkpoint explanation, owner replied “ok keep going” on16October2026. Accepted as direct chat approval to proceed with prepared production assets and plan under owner-instruction precedence. No review UI receipt was submitted on their behalf. Runtime phase machinery still reports plates open; that is recorded honestly rather than synthesized as a pass. Manual screenshot comparison, functional checks and fresh reviewer remain required. The neighborhood source remains the approved original over the generated comp interpretation.

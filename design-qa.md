@@ -1,40 +1,39 @@
-# Identity implementation QA · 12 October 2026
+# Reflected Light — design QA
 
-## Findings and fixes
+**Final result: passed** (manual visual and functional QA, not automatic workflow phase closure).
 
-- [P1, resolved] Hero object lacked the approved study's monumental presence. First native capture showed a low horizontal folio with excessive empty space. Re-rendered it upright, filling roughly 92% width / 77% height of the raster; increased desktop display type from 98px cap to 120px cap. The second native capture restores a bold image/text pairing without text colliding with the object.
-- [P2, resolved] White-ground Person illustration appeared as a rectangular card against grey. Changed that editorial section to white so the material study sits on a continuous surface.
-- [P2, resolved] A5 draft notice split across pages. Tightened opening typography and notice spacing, keeping the notice together. Final rendered page 2 contains the complete notice.
-- [P2, resolved] A4 fifth-place row was stranded on a separate page. Applied compact A4-specific row spacing; all five places and ten commitment links now fit on page 11.
+## Source and state
 
-## Evidence
+Approved source: `.impeccable/mocks/04-reflected-light-refined.png`,971×1619 actualpixels (requested generation1440×2400 was not returned). Owner selected Reflected Light, approved refined study with “yes”, and authorized prepared assets/plan with “ok keep going”. Source fixed; never edited or stretched.
 
-Selected visual target: `bible-faith-patterns/research/design-directions/recovery-study/study-v1.png`, with the owner's explicit refinements: clearer less-smooth forms, colour imagery, then tech-office meetup context. New sculptural subjects and generated meetup images deliberately replace the rejected smooth shapes and monochrome photo.
+Implementation: `/Users/ttreppmann/Developer/StudioProjects/bible-faith-patterns/research/design-directions/editorial-world-v16/implementation/home-comp.png`, 971×1773, CSS width971, device density1. Matched viewport screenshot `home-comp-first.png`971×1619. Desktop fullpage1440×1000 viewport; mobile390×844 and320×740; common desktop1280/1600; English/German. Screenshots captured after fonts ready, scroll-loading content, instant return to document top. Local Astro preview8795.
 
-Native Chrome captures, using CUA and Chrome's responsive toolbar:
-- Desktop: 1440 × 1920 CSS px, DPR 2. Source and captures normalized together in `bible-faith-patterns/brand/proof/identity/desktop-comparison.png` and `desktop-comparison-v2.png`.
-- Focused hero comparison: `hero-comparison.png`; full second capture `homepage-desktop-v2.png`.
-- Mobile: 390 × 900 CSS px. Main homepage capture `homepage-mobile.png`; reference dark-theme capture `reference-mobile-dark.png`. Native Framework phone view inspected too.
-- All A4/A5 pages rendered and inspected as contact sheets; cover, opening notice and commitments checked at larger size in `/tmp/identity-pdf-qa/`.
+## Comparison evidence
+
+Fullview and focused paired comparisons: `.impeccable/review/diff/final/side-by-side.png`, `heatmap.png`, `regions/` and report.json. Whole-page home desktop/mobile and focused first viewports in adjacent reference checkout's implementation folder. Raw diff about75% overall,51%structure,86%colour,83%detail: not a numerical hero-gate pass. Independent reviewer inspected screenshots and paired crops; multiple automated missing/contradicted labels are positional crop drift, while full renders show content intact. Approved intentional adaptations: narrower Instrument Serif owner preference, semantic app previews, standard Phosphor icons, original neighborhood source, required legal footer, omission of redundant decorative labels.
 
 ## Required fidelity surfaces
 
-- Typography: self-hosted Roboto Flex display, Mona Sans body/navigation, Instrument Serif editorial passages. Expressive display hierarchy retained; small UI and body text remain crisp. Long original content stays readable on phone; no headline clipping observed.
-- Layout rhythm: black hero, white large-icon editorial section, colour conversation/photo passage and cool-paper long-form content. Larger folio and headline corrected the first comparison's weak scale. Navigation and continuing original sections remain functional.
-- Colours/tokens: black #080908, cool paper #eeefec, ink #121512, restrained amber actions. Reference's light/dark variables inherit the shared palette; no return to legacy teal background. White icon surfaces intentionally stay white in dark reference pages.
-- Image quality: supplied/generated raster assets are used directly, not code approximations. New rendered forms have meaningful silhouettes, visible thickness, cut planes and restrained surface variation. Source PNGs are retained locally; optimized WebPs alone publish. Human imagery is colour, candid, tech-meetup oriented and visibly identified as generated.
-- Copy/content: headline and key editorial passages follow the accepted study; original explanatory content, tools, draft states and sources retained. Extra slogans invented in the generated study were not adopted. German hero/CTA text localized. Existing reference content remains English.
+- Typography: existing self-hosted Instrument Serif and Mona Sans loaded. Serif editorial proposition/section headings, legible sans body/UI. Instrument width differs from painted mock; owner preference preserved. English/German wrapping and mobile layouts checked.
+- Layout: same sequence and alternating composition as chosen source. Full bleed hero/workshop, adjacent listening copy, worked example, three resources, neighborhood close. Mobile stacks content;320px specimen now fully visible and small example actions fit. No horizontal overflow across18 captures.
+- Colour: clean white, ice-blue and navy; reference dark mode retained. New sampled text contrasts minimum6.01:1; footer6.52:1 after fixing opacity. These are scoped checks, not a full-site WCAG certification.
+- Assets: new studio hero source-faithful adaptation retains reflective rugged material; it is not pixel-exact extraction. Actual approved neighborhood and existing fictional makers photo preserved.16 unique image sources on reading-plans page decode successfully, including2 collapsed lazy wireframes when opened. No fake replacements for observed app evidence.
+- Copy: first-time audience, Christian purpose, open resource by Tobias. No invented membership/global-community claims. Reading panels clearly illustrative, never presented as observed apps. Main routes and theological commitments preserved.
 
-## Interaction and integrity checks
+## Interaction and verification
 
-Native primary CTA enters the pattern reference; reference theme control toggles; mobile menu opens and navigates to Framework. Static build passes. Reference validation, unified local links/assets, Scripture and quotation checks pass. PDFs retain all five place headings, four practices and source section; A4 20 pages / A5 30 pages.
+Primary action reaches resources; all7 unique home destinations and fragments resolve. Mobile menu opens, Escape closes and restores focus. Reference theme switch works; related decisions expand and load.18 capture matrix has no overflow, broken decoded assets or browser page errors. Reference generator validation:360pages/12,710internal links/0errors. Existing canvas regression passed local draft, editable roundtrip, filled one-page PDF, overflow refusal, mobile, glyph warning, safe printing and storage recovery; no errors. Canvas export/data code and PDFs unchanged.
 
-Browser Console showed no runtime error messages in the inspected framework view. DevTools Issues reported CSP blocking string evaluation without a source location; main source contains no eval/new Function. Security policy was preserved. Native Chrome was used because the browser connector was unavailable; no unapproved headless browser QA was performed.
+## Comparison history and fixes
 
-## Accepted deviations / P3 follow-up
+First build: navigation sat too low beside specimen; aligned near wordmark top. Example/resource spacing tightened toward source. Framework commitments moved ahead of borrowed framing; all attribution retained. New scan links expose five areas early. Automated lazy-image flags were false positives; independently verified all16 sources by browser decoding, rather than deleting or regenerating evidence.
 
-The study was a visual direction, not replacement editorial content. Existing site navigation and longer explanatory copy remain. The new objects are intentionally more recognizable and materially varied than the generated study; colour meetup imagery is the owner's selected replacement. Material rendering remains an artistic silicon approximation. A future commissioned photo shoot could replace illustrative scenes while keeping this art direction.
+Fresh reviewer initial disposition fix: specimen clipped at320/390, faint footer styling, redundant JourneyNext eyebrow, and undocumented open runtime phases. One fixbatch: object-position rightbottom; remove inline opacity; remove redundant label; explicitly record direct chat approval and actual open phase state. Same screenshots recaptured. Reviewer verdict: all4 scored fixes resolved; no visible regressions; disposition ship at scope of scored fixes, not a new universal review.
 
-Implementation checklist: assets placed; responsive navigation checked; source/content checks passed; PDFs rendered; generated-image provenance saved.
+## Limits and continuation
 
-final result: passed
+Impeccable runtime remains phase plates, later phases pending. `build-phase finish --disposition ship` refused those open phases; no form receipt or numerical pass was invented. Direct chat approval is documented separately from tool bookkeeping. This report's passed verdict concerns actual manual visual/functional evidence. Do not claim automatic phase completion. Current work is a local preview, not a new production deployment. Current public site remainsV15. PDF visual rollout and specialist theological review remain separate next work.
+
+## Implementation checklist
+
+Completed: responsive home EN/DE; light family across principles, essays and reference; source-aware content and working tools; visual/functional checks; independent fix review. Persist DESIGN.md/sidecar, commits and handoff before ending. Keep branches/worktrees and local runtime evidence during migration.

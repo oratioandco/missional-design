@@ -1,4 +1,4 @@
-> Latest: Impeccable installed; three V16 visual directions displayed, owner selection pending. Read the newest handoff and editorial-world-v16 README for exact image order and production corrections. No new visual system is approved yet.
+> Latest: Reflected Light approved and implemented as a verified local preview at127.0.0.1:8795. See newest handoff and design-qa.md. Production remainsV15; automatic Impeccable phases remain open, documented honestly. Astro DESIGN.md and design sidecar now describe actual built system. Both branches/worktrees retained.
 
 # Continue Missional by Design
 
