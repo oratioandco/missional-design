@@ -2160,6 +2160,18 @@
     "original": null
   },
   {
+    "key": "dewfall",
+    "title": "dewfall: Bible study and prayer journal",
+    "url": "https://apps.apple.com/us/app/dewfall/id6787696480",
+    "author": "Tejas Kumar · App Store listing, version 1.2.0",
+    "scope": "Listing reviewed; checklist reading observed by the site author in the app, not yet captured",
+    "takeaway": "The listing describes a progress map of all 66 books with “verses read”, streaks and a reading rhythm; in the app each verse can be ticked off as read.",
+    "application": "Counting by the verse makes the verse the unit of record and splits the text into rows; keep the tick deliberate and separate from opening.",
+    "limit": "A small, recent app with few ratings; one example of a pattern, not evidence of its effects.",
+    "kind": "Design reference",
+    "original": null
+  },
+  {
     "key": "hutchings",
     "title": "Design and the digital Bible: persuasive technology and religious reading",
     "url": "https://doi.org/10.1080/13537903.2017.1298903",
