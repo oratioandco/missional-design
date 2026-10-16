@@ -335,7 +335,7 @@
    "kind": "Risk framework",
    "shows": "Identifies risks around human–AI configuration, overreliance and emotional entanglement.",
    "application": "Review mistaken identity and dependency risks alongside usability.",
-   "limits": "Risk framework, not evidence that one visual cue causes an outcome."
+   "limits": "Assess individual interface cues through product-specific research."
   },
   {
    "key": "nng-icons",

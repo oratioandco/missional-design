@@ -418,7 +418,7 @@
    "kind": "Design reference",
    "shows": "Provides a model for synchronised text and audio.",
    "application": "Honest timing granularity and playback anchors.",
-   "limits": "Not proof of a particular Bible app implementation."
+   "limits": "Verify support in the app and edition you intend to use."
   },
   {
    "key": "logos-notes",
@@ -3748,7 +3748,7 @@
    "kind": "Scripture sample",
    "shows": "Provides the wording used in chat, resource and parallel-reading illustrations.",
    "application": "Separate quoted Scripture from illustrative commentary and UI annotations.",
-   "limits": "A text source, not evidence of the proposed interface’s effectiveness."
+   "limits": "Provides the Scripture wording; evaluate the interface through separate usability research."
   },
   {
    "key": "diagram-psalm-web",
@@ -3838,7 +3838,7 @@
    "kind": "Risk framework",
    "shows": "Identifies risks around human–AI configuration, overreliance and emotional entanglement.",
    "application": "Review mistaken identity and dependency risks alongside usability.",
-   "limits": "Risk framework, not evidence that one visual cue causes an outcome."
+   "limits": "Assess individual interface cues through product-specific research."
   },
   {
    "key": "ico-layered-chat",

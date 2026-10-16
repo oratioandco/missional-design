@@ -42,7 +42,7 @@
   {
    "key": "inline",
    "name": "Scripture quoted in the answer",
-   "provenance": "Exploratory · untested",
+   "provenance": "Exploratory",
    "origin": "The treatment in this library’s paper concept: a verse quoted within the answer, with its edition, and the rest one tap away. A proposal, untested.",
    "gain": "Scripture speaks in its own voice",
    "cost": "Quietly chooses which verse",
