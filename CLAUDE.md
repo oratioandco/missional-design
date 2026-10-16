@@ -1,3 +1,5 @@
+> Latest owner feedback: V15 editorial presentation is not yet approved; see the newest handoff notice and editorial-density-review-2026-10-16 comparison before further design work.
+
 # Continue Missional by Design
 
 Read [HANDOFF.md](HANDOFF.md), its linked canonical cross-project handoff/task ledger, parent AGENTS.md and [first-time visitor writing standard](../bible-faith-patterns/research/editorial/visitor-voice-2026-10-16/EDITORIAL_VOICE.md).
