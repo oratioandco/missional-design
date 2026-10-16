@@ -201,3 +201,10 @@ body.paper .fg-place{grid-template-columns:1fr;max-width:760px}
 :root body.paper .deep-body{padding-top:16px}
 :root body.paper .prose{font-size:17px;line-height:1.7}
 }
+
+/* Human topic scenes keep their complete composition beside the practical guide content. */
+.identity-topic-photo{margin:32px 0 48px;width:100%}
+.identity-topic-photo img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain}
+.identity-topic-photo figcaption{font:400 11px/1.5 var(--mbd-body);color:var(--p-muted);margin-top:10px}
+@media(max-width:760px){.identity-topic-photo{margin:24px 0 32px}}
+@media print{.identity-topic-photo{display:none}}
