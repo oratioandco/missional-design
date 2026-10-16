@@ -19,7 +19,7 @@ function isActive(href: string): boolean {
   if (h === `${base}/de` && (p === `${base}/de` || p === `${base}/de/`)) return true;
   return p === h;
 }
-const canvasPath = lang === 'de' ? `${prefix}/ministry-model-canvas` : `${base}/missional-canvas`;
+const canvasPath = `${base}/missional-canvas/`;
 ---
 
 <nav class="nav" aria-label={lang === 'de' ? 'Hauptnavigation' : 'Primary'} data-nav-open="false">
@@ -32,7 +32,6 @@ const canvasPath = lang === 'de' ? `${prefix}/ministry-model-canvas` : `${base}/
 
   <div class="nav-menu" id="nav-menu">
     <ul class="nav-links">
-      <li><a href={`${base}/reference/`}>{lang === 'de' ? 'Patternreferenz' : 'Patterns'}</a></li>
       <li>
         <a href={`${prefix}/framework`} class={isActive(`${prefix}/framework`) ? 'active' : ''}>
           {t(lang, 'nav.framework')}
@@ -40,9 +39,10 @@ const canvasPath = lang === 'de' ? `${prefix}/ministry-model-canvas` : `${base}/
       </li>
       <li>
         <a href={canvasPath} class={isActive(canvasPath) ? 'active' : ''}>
-          {t(lang, 'nav.canvas')}
+          {lang === 'de' ? 'Canvas (EN)' : t(lang, 'nav.canvas')}
         </a>
       </li>
+      <li><a href={`${base}/reference/`}>{lang === 'de' ? 'Patterns (EN)' : 'Patterns'}</a></li>
       <li>
         <a href={`${prefix}/blog`} class={isActive(`${prefix}/blog`) ? 'active' : ''}>
           {t(lang, 'nav.writing')}

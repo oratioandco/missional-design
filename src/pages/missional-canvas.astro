@@ -1,4 +1,5 @@
 ---
+import JourneyNext from '../components/JourneyNext.astro';
 import CanvasWorkbook from '../components/CanvasWorkbook.astro';
 import NeighborhoodVignette from '../components/NeighborhoodVignette.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
@@ -11,8 +12,9 @@ const short = ['Audience','Connection','Identity','Relationships','Activities','
  <p class="eyebrow">Context · calling · practice</p>
  <h1>What really is the good news<br/>in our context?</h1>
  <p class="lead">A missional identity canvas for work that keeps listening, discerning and adapting as the world around it changes.</p>
- <p class="version-note">The church version follows the recovered 2024 canvas. The Christian nonprofit and business versions are draft adaptations for review.</p>
- <p><a href={`${base}/resources/missional-canvas-family-a3.pdf`}>Print all three canvases · A3 landscape PDF</a> · <a href={`${base}/resources/ministry-model-canvas-church-2024.pdf`}>Recovered original church canvas</a></p>
+ <p class="version-note">Start with the church canvas. Christian nonprofit and business versions are draft adaptations for review.</p>
+ <p><a href={`${base}/resources/missional-canvas-family-a3.pdf`}>Print all three canvases · A3 landscape PDF</a> · <a href={`${base}/resources/ministry-model-canvas-church-2024.pdf`}>Original church canvas · 2024</a></p>
+<p class="canvas-start">Choose a version below. Explore its nine areas, then select <strong>Fill your canvas</strong> to write your answers and export them in the one-page canvas layout. Your draft stays in this browser; save a copy to keep it.</p>
 </section>
 <NeighborhoodVignette videoSrc={`${base}/assets/video/neighborhood-vignette-v7.mp4`} posterSrc={`${base}/assets/video/neighborhood-vignette-v7-poster.jpg`} />
 <section class="family-body container">
@@ -28,6 +30,7 @@ const short = ['Audience','Connection','Identity','Relationships','Activities','
  <section class="review-rhythm"><h2>Listen. Discern. Act. Revisit.</h2><p>Our context can change without us crossing a border. Invite the people affected by our work to correct our assumptions; read Scripture and pray together; make one concrete change; then review its faithfulness, effects and unintended costs. Set a review date—and return sooner when the context changes.</p><p>A commercial offer cannot stand in for the gospel. Neither impact metrics nor financial success can replace prayerful discernment and accountable relationships.</p></section>
  <p class="version-note">Adapted from Tobias Treppmann / Oratio&amp;Co, Ministry Model Canvas for churches (2024), in turn adapted from the Business Model Canvas. Draft nonprofit/business wording and review rhythm: Missional by Design, 2026. Shared under <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>. <a href={`${base}/ministry-model-canvas/`}>Earlier canvas and workshop background</a>.</p>
 </section>
+<JourneyNext from="canvas" />
 </BaseLayout>
 <script>
 import '../lib/canvas-workbook';

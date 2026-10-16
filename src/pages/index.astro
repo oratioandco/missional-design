@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import StartRoutes from '../components/StartRoutes.astro';
 import HomeDecisions from '../components/HomeDecisions.astro';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
@@ -8,131 +9,19 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <!-- Hero -->
   <section class="hero contextual-home">
     <div class="hero-copy">
-    <div class="hero-label">Tobias Treppmann · Oratio&Co</div>
-    <h1>Design that serves life with God and one another.</h1>
-    <p class="hero-subtitle">Our contexts keep changing. The churches, ministries and technologies we shape need continuing discernment: what really is good news here—and how can our work help people encounter and live it?</p>
-    <p class="home-offer">Practical frameworks, design patterns and theological reflection for churches, Christian organizations and product teams.</p>
-    <div class="home-actions"><a href="#in-practice" class="button">See the approach in practice →</a><a href={`${base}/missional-canvas/`} class="button home-secondary">Work with the canvas</a></div>
+    <div class="hero-label">Christian mission · Context · Design</div>
+    <h1>What really is good news here?</h1>
+    <p class="hero-subtitle">Our neighborhoods, cultures and technologies keep changing. Christian mission calls us to keep asking how the good news of Jesus can be heard and lived in this place, with these people.</p>
+    <p class="home-offer">Practical tools for churches, Christian organizations and product teams, connecting theological reflection with decisions about what we build and how we serve.</p>
+    <div class="home-actions"><a href="#start" class="button">Find your starting point →</a><a href="#approach" class="button home-secondary">Why missional design?</a></div>
     </div><figure class="identity-hero-art contextual-photo"><img src={`${base}/assets/brand/silicon-connection-v8.webp`} alt="A generated startup-community conversation with linked fractured blue-silver silicon forms" width="1536" height="1024" fetchpriority="high" /><figcaption>Generated editorial illustration · fictional people and place</figcaption></figure>
   </section>
+  <StartRoutes lang="en" />
   <HomeDecisions lang="en" />
 
-  <!-- The Three Pillars -->
-  <section class="section section-dark">
-    <div class="container">
-      <div style="margin-bottom: 4rem; max-width: 60ch;">
-        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">The Work</div>
-        <h2>Three tools.<br/>One approach.</h2>
-      </div>
-
-      <div class="grid grid-3">
-        <a href={`${base}/missional-canvas/`} class="pillar-card">
-          <div class="pillar-card-num">01</div>
-          <h3>Ministry Model Canvas</h3>
-          <p>
-            A nine-block canvas for listening to your context, naming your missional identity and shaping your next steps. Start with the church version, or explore the nonprofit and business adaptations.
-          </p>
-          <div class="pillar-card-link">Explore the canvas →</div>
-        </a>
-
-        <a href={`${base}/framework`} class="pillar-card">
-          <div class="pillar-card-num">02</div>
-          <h3>Missional Product Design</h3>
-          <p>
-            Ten principles in five places and six diagnostic questions for redemptive design — a posture for building digital tools
-            that honor what is most sacred in the people they serve, not extract their attention.
-          </p>
-          <div class="pillar-card-link">Read the framework →</div>
-        </a>
-
-        <a href={`${base}/blog`} class="pillar-card">
-          <div class="pillar-card-num">03</div>
-          <h3>Writing</h3>
-          <p>
-            Essays on missional design, digital formation, ministry innovation, and the surprising overlap between
-            churches and startups. Questions and practical implications for the work we share.
-          </p>
-          <div class="pillar-card-link">Read the essays →</div>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Need help applying it? → oratio.co -->
-  <section class="section section-ink">
-    <div class="container">
-      <div class="grid grid-2" style="align-items: center; gap: 4rem;">
-        <div>
-          <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.75;">Need Help Applying It?</div>
-          <h2>Bring in<br/>Oratio&amp;Co.</h2>
-          <p class="lead" style="margin-top: 2rem; opacity: 0.9;">
-            These frameworks were developed inside <strong>Oratio&amp;Co</strong> — a strategic design consultancy for
-            churches, ministries, and faith-driven teams. If you want help applying them to your context, that's what
-            Oratio&amp;Co does.
-          </p>
-          <div style="margin-top: 2.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
-            <a href="https://oratio.co" target="_blank" rel="noopener noreferrer" class="button" style="background: var(--color-white); color: var(--color-ink);">Visit oratio.co</a>
-          </div>
-        </div>
-        <div style="padding: 2.5rem; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.2);">
-          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.75; margin-bottom: 1.5rem;">What Oratio&amp;Co does</div>
-          <ul style="list-style: none; padding: 0; margin: 0; line-height: 2.2; font-weight: 400;">
-            <li>→ Ministry consultation &amp; strategic design</li>
-            <li>→ Canvas workshop facilitation</li>
-            <li>→ Innovation training for ministry teams</li>
-            <li>→ Online cohorts for practitioners</li>
-            <li>→ Product design for faith-tech teams</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
+  <section class="section home-conversation"><div class="container"><p class="identity-label">Keep exploring</p><h2>Bring the questions to your own work.</h2><p class="lead">Read <a href={`${base}/blog/which-rock/`}>On Which Rock Are We Building?</a> for the argument about trust, formation and responsibility. <a href={`${base}/calling/rocks/`}>When Silicon Catches the Light</a> explores the reflected-light metaphor behind the visual identity.</p><p class="lead">Missional by Design is an open resource by Tobias Treppmann, developed through Oratio&amp;Co. The principles and research welcome theological, pastoral and practitioner feedback.</p><p><a href={`${base}/about/`}>About the work and how to contribute →</a></p><p>For help applying the approach with your team: <a href="https://oratio.co">Oratio&amp;Co</a>.</p></div></section>
 </BaseLayout>
 
 <style>
-  .pillar-card {
-    display: block;
-    padding: 2.5rem;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    color: var(--color-white);
-    text-decoration: none;
-    transition: all var(--transition);
-    position: relative;
-  }
-
-  .pillar-card:hover {
-    background: rgba(255, 255, 255, 0.08);
-    border-color: rgba(255, 255, 255, 0.3);
-    opacity: 1;
-  }
-
-  .pillar-card-num {
-    font-family: var(--font-display);
-    font-weight: 900;
-    font-size: 0.8rem;
-    letter-spacing: 0.2em;
-    margin-bottom: 1.5rem;
-    opacity: 0.5;
-  }
-
-  .pillar-card h3 {
-    margin-bottom: 1rem;
-  }
-
-  .pillar-card p {
-    font-weight: 300;
-    line-height: 1.5;
-    font-size: 0.95rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .pillar-card-link {
-    font-family: var(--font-display);
-    font-weight: 900;
-    font-size: 0.8rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    opacity: 0.7;
-  }
+.home-conversation h2{font:400 clamp(36px,4.5vw,60px)/1.08 var(--mbd-editorial);max-width:24ch;margin-bottom:28px}.home-conversation .lead{max-width:65ch;margin-bottom:24px}.home-conversation p{margin-bottom:20px}.home-conversation a{text-decoration:underline;text-underline-offset:4px}
 </style>

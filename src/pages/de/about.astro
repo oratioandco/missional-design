@@ -6,16 +6,18 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 <BaseLayout
   lang="de"
-  title="Über mich"
+  title="Über diese Arbeit"
   description="Tobias Treppmann — Produktgestalter, Theologe und Gründer von Oratio&Co"
 >
-  <section class="hero" style="min-height: 50vh;">
-    <div class="hero-label">Über mich</div>
-    <h1>Über mich.</h1>
+  <section class="hero text-hero">
+    <div class="hero-label">Missional by Design</div>
+    <h1>Über diese Arbeit.</h1>
   </section>
 
   <section class="section">
     <div class="container-narrow">
+      <h2>Christlicher Auftrag, konkrete Entscheidungen.</h2><p class="lead">Missional by Design verbindet christliche Mission mit den Entscheidungen in Gemeinden, Organisationen und digitalen Produkten. Die Ausgangsfrage lautet: Was ist wirklich die gute Nachricht in unserem Kontext?</p><p class="lead">Der Canvas hilft Teams zuzuhören und nächste Schritte zu prüfen. Die Prinzipien benennen Verantwortung bei der Gestaltung von Technologie für den Glauben. Die Patternreferenz macht diese Verantwortung mit Beispielen, Alternativen und Forschung konkret.</p><p class="lead">Die Prinzipien und mehrere Forschungsbeiträge sind Entwürfe, deren fachliche Prüfung noch aussteht. Beobachtungen aus Apps, Quellenbefunde und Gestaltungsvorschläge sind gekennzeichnet, damit ihr sie für euren Kontext beurteilen könnt.</p><h2>Über Tobias</h2>
+
       <p class="lead">
         <strong>Tobias Treppmann</strong> ist Produktgestalter, Theologe und Gründer von Oratio&Co.
         Er verfolgt derzeit einen M.A. in Leitung an der Kairos University, während er
@@ -23,14 +25,15 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       </p>
       <p class="lead">
         Das Rahmenwerk für missionale Produktgestaltung entstand aus seiner Forschungsarbeit von 2026,
-        <em>Digital Spiritual Formation: The Aperto Vision</em>, die auf über 195 Quellen aus Theologie,
-        Verhaltenswissenschaft und Produktgestaltung aufbaut.
+        <em>Digital Spiritual Formation: The Aperto Vision</em>, die Theologie,
+        Verhaltenswissenschaft und Produktgestaltung miteinander ins Gespräch bringt.
       </p>
       <p class="lead">
         Dieses Rahmenwerk ist offen veröffentlicht — als Ressource für die Fachwelt. Wenn du Technologie für
         geistliche Prägung entwickelst — oder allgemeiner für menschliches Gedeihen —, würde ich gern von dir hören.
       </p>
 
+      <section class="review-invitation"><h2>Die Arbeit weiterentwickeln.</h2><p>Theologische Kritik, seelsorgliche Erfahrung und Produktforschung können diese Ressource verbessern. Welche Aussagen brauchen mehr Differenzierung? Wo würden die Werkzeuge eurem Team helfen? Welche Erfahrungen oder Befunde würden eine Empfehlung verändern?</p><p><EmailLink label="Rückmeldung geben oder eine Prüfung besprechen" /></p><p>Unterstützung bei der Anwendung im Team oder Workshop: <a href="https://oratio.co">Oratio&amp;Co</a>.</p></section>
       <div style="margin-top: 3rem; padding-top: 3rem; border-top: 1px solid var(--color-black);">
         <h3 style="margin-bottom: 1.5rem;">Nimm Kontakt auf</h3>
         <ul style="list-style: none; padding: 0; line-height: 2.5;">
@@ -42,3 +45,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     </div>
   </section>
 </BaseLayout>
+
+<style>
+.container-narrow h2{font:400 clamp(32px,4vw,44px)/1.12 var(--mbd-editorial);margin:32px 0 24px}.container-narrow .lead{font-size:18px;line-height:1.75;margin-bottom:24px}.review-invitation{border-top:1px solid var(--color-border);margin-top:40px;padding-top:12px}.review-invitation p{margin-bottom:20px;line-height:1.75}.container-narrow a{text-decoration:underline;text-underline-offset:4px}
+</style>

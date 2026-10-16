@@ -3,6 +3,7 @@
 // Five places, two commitments in each, derived from the calling (patterns.missional.design/calling/) and read through
 // Praxis's Redemptive Frame. The full derivations, sources and test questions live on
 // patterns.missional.design/principles/; this page is the short form.
+import JourneyNext from '../components/JourneyNext.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import EmailLink from '../components/EmailLink.astro';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
@@ -114,17 +115,6 @@ const ways = [
   },
 ];
 
-const became = [
-  ['Reverence', 'Design for the most vulnerable first · Welcome before you ask'],
-  ['Hospitality', 'Welcome before you ask · Make it well, as an offering'],
-  ['Rootedness', 'Keep the Word distinct, and teach it truly'],
-  ['Bridge', 'Send people to God and to one another'],
-  ['Grace', 'Feed the flock, not on it · Make room for rest'],
-  ['Honesty', 'Never speak for God · Keep the Word distinct'],
-  ['Costliness', 'The thread through all ten: what each asks the maker to give up'],
-  ['Fruit', 'Plant and water; leave the growth to God'],
-];
-
 const tensions = [
   {
     title: 'Rhythm vs. pressure',
@@ -150,17 +140,16 @@ const questions = [
 ];
 ---
 
-<BaseLayout lang="en" title="The Framework">
+<BaseLayout lang="en" title="Principles for Christian product design" description="Ten principles connecting Christian calling with practical decisions about Scripture, people, practice, community and the work of building.">
   <!-- Hero -->
   <section class="hero framework-hero">
     <div class="hero-copy">
-    <div class="hero-label">Missional by Design · Principles for spiritual apps</div>
-    <h1>Five places.<br/>Ten commitments.</h1>
+    <div class="hero-label">Missional by Design · Ten principles for product teams</div>
+    <h1>Build tools that serve faith and relationships.</h1>
     <p class="hero-subtitle">
-      A spiritual tool never designs only a function. It designs an encounter between a person and what they hold most
-      sacred. These principles come from a calling: the joy and the weight of building the tools people now pray, read and
-      ask with. Each names what it asks the maker to give up.
+      A Bible reader, prayer app or AI assistant shapes more than a task. It can influence whom people trust, how they practise faith and where they turn for help. These ten principles connect Christian calling with the decisions a team makes before shipping.
     </p>
+    <p class="framework-start"><a href="#principles">Explore the ten principles ↓</a></p>
     </div><figure class="framework-hero-photo"><img src={`${base}/assets/brand/identity-meetup-workshop-v1.webp`} alt="A fictional workshop at an urban tech-office meetup" width="1536" height="1024" fetchpriority="high" /><figcaption>Generated illustration · based on Startup Life photography</figcaption></figure>
   </section>
 
@@ -170,9 +159,8 @@ const questions = [
     <div class="container">
       <div style="max-width: 70ch;">
         <p class="lead">
-          <a href="https://patterns.missional.design/calling/">The calling</a> explores the Christian purpose and responsibilities of this work.
-          The ten principles turn that calling into questions for product decisions.
-          <a href="https://patterns.missional.design/patterns/">The deep dives</a> show how, option by option.
+          Start with a decision your team is making. Ask what good it should serve, who could be burdened by it and what you need to learn from the people affected. The five areas below help you examine Scripture, the person, their practice, their relationships and your responsibilities as makers.
+          <a href={`${base}/calling/`}>Read the theological grounding</a> or <a href={`${base}/reference/`}>compare design options</a>.
         </p>
       </div>
     </div>
@@ -205,8 +193,9 @@ const questions = [
   </section>
 
   <!-- Places and commitments -->
-  <section class="section">
+  <section class="section" id="principles">
     <div class="container">
+      <h2 class="principles-heading">Five areas of responsibility.</h2>
       <div class="identity-places">
         {places.map((p) => (
           <article class="principle identity-place"><figure class="identity-context"><img class="identity-art" src={`${base}/assets/brand/${({'01':'silicon-reading-v13.webp','02':'silicon-dialogue-v13.webp','03':'silicon-practice-v13.webp','04':'silicon-people-v14.webp','05':'silicon-makers-v14.webp'}[p.num])}`} alt="" width="1536" height="1024" loading="lazy" /><figcaption>Generated editorial illustration · fictional people and place</figcaption></figure><div class="identity-place-copy">
@@ -225,29 +214,6 @@ const questions = [
           Each principle, with its Scripture, tradition, what it rules in and out, and questions to test a design:
           <a href={full}>patterns.missional.design/principles</a>.
         </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- How the eight became the ten -->
-  <section class="section section-cream">
-    <div class="container">
-      <div style="margin-bottom: 3rem; max-width: 60ch;">
-        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">From eight to ten</div>
-        <h2>How the eight<br/>became the ten.</h2>
-        <p class="lead" style="margin-top: 2rem;">
-          Until October 2026 this framework had eight principles. Read against the calling and the deep dives, they lacked joy
-          and craft, said nothing about speaking for God, treated the most vulnerable as a qualification rather than a
-          starting point, and kept sacrifice as one item among eight. Here is where each went.
-        </p>
-      </div>
-      <div class="grid grid-3">
-        {became.map(([o, n]) => (
-          <div style="padding: 1.5rem; background: var(--color-white); border: 1px solid var(--color-black);">
-            <h4 style="margin-bottom: 0.5rem;">{o}</h4>
-            <p style="font-size: 0.95rem; line-height: 1.5;">{n}</p>
-          </div>
-        ))}
       </div>
     </div>
   </section>
@@ -304,11 +270,12 @@ const questions = [
           pattern library. Theological and pastoral review of this draft is pending; contributions from reviewers are welcome.
         </p>
         <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
-          <a href={full} class="button">The ten in full</a>
+          <a href={full} class="button">Read the principles with sources</a>
           <EmailLink label="Get in touch" class="button" />
           <a href={`${base}/about`} class="button" style="background: transparent; color: var(--color-black); border: 1px solid var(--color-black);">About the author</a>
         </div>
       </div>
     </div>
   </section>
+  <JourneyNext lang="en" from="principles" />
 </BaseLayout>

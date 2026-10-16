@@ -1,0 +1,25 @@
+---
+interface Props { lang: 'en' | 'de' }
+const { lang } = Astro.props;
+const de = lang === 'de';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const routes = de ? [
+ { title: 'Den Ansatz verstehen', body: 'Wie christliche Berufung, Kontext und Verantwortung unsere Gestaltung prägen. Zehn Prinzipien machen die Konsequenzen für digitale Produkte konkret.', href: '/de/framework/', link: 'Die Prinzipien lesen' },
+ { title: 'Mit dem Canvas arbeiten', body: 'Mit eurem Team zuhören, die missionale Identität klären und einen nächsten Schritt gestalten. Für Gemeinden, mit Entwürfen für Nonprofits und Unternehmen.', href: '/missional-canvas/', link: 'Canvas öffnen (Englisch)' },
+ { title: 'Produktentscheidungen durchdenken', body: 'Optionen für Bibellesen, Gebet, Gemeinschaft und KI vergleichen. Beispiele ausprobieren und ihre Folgen anhand von Theologie, Forschung und Nutzungspraxis abwägen.', href: '/reference/', link: 'Patterns erkunden (Englisch)' }
+] : [
+ { title: 'Understand the perspective', body: 'How Christian calling, context and responsibility shape design. Ten principles make the implications concrete for digital products.', href: '/framework/', link: 'Read the principles' },
+ { title: 'Work with the canvas', body: 'Listen with your team, clarify your missional identity and shape a next step. Start with the church canvas, or explore the nonprofit and business drafts.', href: '/missional-canvas/', link: 'Open the canvas' },
+ { title: 'Explore product decisions', body: 'Compare approaches to Bible reading, prayer, community and AI. Try examples and weigh their implications through theology, research and everyday use.', href: '/reference/', link: 'Explore the patterns' }
+];
+---
+<section class="section start-routes" id="start" aria-labelledby="start-title">
+ <div class="container">
+  <p class="identity-label">{de ? 'Ein gemeinsamer Ansatz · Drei Einstiege' : 'One approach · Three starting points'}</p>
+  <h2 id="start-title">{de ? 'Woran arbeitet ihr gerade?' : 'What are you working on?'}</h2>
+  <div class="route-grid">{routes.map((r,i)=><a class="route" href={`${base}${r.href}`}><span class="route-number" aria-hidden="true">0{i+1}</span><h3>{r.title}</h3><p>{r.body}</p><span class="route-link">{r.link} →</span></a>)}</div>
+ </div>
+</section>
+<style>
+.start-routes{scroll-margin-top:100px}.start-routes h2{font:400 clamp(36px,4.5vw,60px)/1.08 var(--mbd-editorial);letter-spacing:-.015em;margin-bottom:36px}.route-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px}.route{display:flex;flex-direction:column;align-items:flex-start;border-top:1px solid var(--color-border);padding:24px 0 0;color:var(--color-black);text-decoration:none;min-width:0}.route-number{font-size:12px;color:var(--color-muted);margin-bottom:20px}.route h3{font:400 32px/1.12 var(--mbd-editorial);margin-bottom:18px}.route p{font:400 17px/1.65 var(--font-body);margin-bottom:24px}.route-link{font-size:15px;text-decoration:underline;text-underline-offset:4px;margin-top:auto}.route:focus-visible{outline:3px solid #8a5a00;outline-offset:8px}.route:hover .route-link{text-decoration-thickness:2px}@media(max-width:800px){.route-grid{grid-template-columns:1fr;gap:32px}.route h3{font-size:30px}.route-number{margin-bottom:12px}}
+</style>
