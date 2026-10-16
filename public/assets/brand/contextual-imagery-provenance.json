@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "assumption": "Fictional Berlin-like square; specific-place question pending",
   "items": [
     {
@@ -163,6 +163,15 @@
         "videos/neighborhood-context/assets/neighborhood-vignette-v7-poster.jpg"
       ],
       "usage": "Owner approved 15 October; seeking for Patterns landing only, connection for EN/DE main home"
+    },
+    {
+      "file": "silicon-context-v7.webp",
+      "source": "videos/neighborhood-context/assets/neighborhood-vignette-v7-poster.jpg",
+      "tool": "WebP encoding only via Pillow; existing approved generated film still",
+      "sha256": "b4424d25713aa0d2d5f19c4f704566e7f4c27b3c6d0953a8a3efbfca9e349ead",
+      "fictional": true,
+      "usage": "Replace flawed cafe cyclist scene in context/category openers and silicon essay; A4 scope illustration",
+      "new_generation": false
     }
   ]
 }
