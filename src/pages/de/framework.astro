@@ -1,8 +1,9 @@
 ---
-// Missional by Design: Prinzipien für geistliche Apps (ersetzt die acht Prinzipien, Oktober 2026; Entwurf zur Prüfung). Deutsche Fassung.
+// Missional by Design: Zehn Prinzipien für Produktteams (ersetzt die acht Prinzipien, Oktober 2026; Entwurf zur Prüfung). Deutsche Fassung.
 // Five places, two commitments in each, derived from the calling (patterns.missional.design/calling/) and read through
 // Praxis's Redemptive Frame. The full derivations, sources and test questions live on
 // patterns.missional.design/principles/; this page is the short form.
+import JourneyNext from '../../components/JourneyNext.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import EmailLink from '../../components/EmailLink.astro';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
@@ -114,17 +115,6 @@ const ways = [
   },
 ];
 
-const became = [
-  ['Ehrfurcht', 'Gestalte zuerst für die Verletzlichsten · Heiße willkommen, bevor du fragst'],
-  ['Gastfreundschaft', 'Heiße willkommen, bevor du fragst · Mach es gut, als Gabe'],
-  ['Verwurzelung', 'Halte das Wort unterscheidbar, und lehre es wahrhaftig'],
-  ['Brücke', 'Schicke Menschen zu Gott und zueinander'],
-  ['Gnade', 'Weide die Herde · Schaffe Raum für Ruhe'],
-  ['Ehrlichkeit', 'Sprich nie an Gottes Stelle · Halte das Wort unterscheidbar'],
-  ['Kostbarkeit', 'Der Faden durch alle zehn: was jedes von den Machenden verlangt aufzugeben'],
-  ['Frucht', 'Pflanze und begieße; das Wachstum überlass Gott'],
-];
-
 const tensions = [
   {
     title: 'Rhythmus und Druck',
@@ -150,17 +140,15 @@ const questions = [
 ];
 ---
 
-<BaseLayout lang="de" title="Das Rahmenwerk">
+<BaseLayout lang="de" title="Prinzipien für christliche Produktgestaltung" description="Zehn Prinzipien verbinden christliche Berufung mit konkreten Entscheidungen über Bibel, Menschen, Glaubenspraxis, Gemeinschaft und die Arbeit der Gestaltenden.">
   <!-- Hero -->
   <section class="hero framework-hero">
     <div class="hero-copy">
-    <div class="hero-label">Missional by Design · Prinzipien für geistliche Apps</div>
-    <h1>Fünf Orte.<br/>Zehn Zusagen.</h1>
-    <p class="hero-subtitle">
-      Eine geistliche Anwendung gestaltet nie nur eine Funktion. Sie gestaltet eine Begegnung zwischen einem Menschen und
-      dem, was ihm am heiligsten ist. Diese Prinzipien kommen aus einer Berufung: der Freude und dem Gewicht, die Werkzeuge
-      zu bauen, mit denen Menschen heute beten, lesen und fragen. Jedes nennt, was es von den Machenden verlangt aufzugeben.
+    <div class="hero-label">Missional by Design · Zehn Prinzipien für Produktteams</div>
+    <h1>Werkzeuge gestalten, die Glauben und Beziehungen dienen.</h1>
+    <p class="hero-subtitle">Eine Bibel-App, Gebets-App oder KI gestaltet mehr als eine Aufgabe. Sie kann beeinflussen, wem Menschen vertrauen, wie sie ihren Glauben leben und wo sie Hilfe suchen. Diese zehn Prinzipien verbinden christliche Berufung mit den Entscheidungen eines Produktteams.
     </p>
+    <p class="framework-start"><a href="#principles">Die zehn Prinzipien erkunden ↓</a></p>
     </div><figure class="framework-hero-photo"><img src={`${base}/assets/brand/identity-meetup-workshop-v1.webp`} alt="Ein fiktiver Workshop bei einem Tech-Meetup" width="1536" height="1024" fetchpriority="high" /><figcaption>Generierte Illustration · auf Grundlage von Startup-Life-Fotografie</figcaption></figure>
   </section>
 
@@ -169,11 +157,7 @@ const questions = [
   <section class="section">
     <div class="container">
       <div style="max-width: 70ch;">
-        <p class="lead">
-          <a href="https://patterns.missional.design/calling/">Die Berufung</a> sagt, warum diese Arbeit zählt und wie schwer
-          sie wiegt. Die Prinzipien unten sagen, woran wir festhalten, mit Fragen, um einen Entwurf zu prüfen.
-          <a href="https://patterns.missional.design/patterns/">Die Vertiefungen</a> zeigen, wie, Option für Option
-          (auf Englisch).
+        <p class="lead">Beginnt mit einer konkreten Entscheidung im Team: Welchem Guten soll sie dienen? Wen könnte sie belasten? Was müsst ihr von den betroffenen Menschen lernen? Die fünf Bereiche unten helfen euch, Bibel, einzelne Menschen, Glaubenspraxis, Beziehungen und eure Verantwortung als Gestaltende zu betrachten. <a href={`${base}/calling/`}>Theologische Grundlagen (Englisch)</a> · <a href={`${base}/reference/`}>Gestaltungsoptionen vergleichen (Englisch)</a>.
         </p>
       </div>
     </div>
@@ -207,8 +191,9 @@ const questions = [
   </section>
 
   <!-- Places and commitments -->
-  <section class="section">
+  <section class="section" id="principles">
     <div class="container">
+      <h2 class="principles-heading">Fünf Bereiche der Verantwortung.</h2>
       <div class="identity-places">
         {places.map((p) => (
           <article class="principle identity-place"><figure class="identity-context"><img class="identity-art" src={`${base}/assets/brand/${({'01':'silicon-reading-v13.webp','02':'silicon-dialogue-v13.webp','03':'silicon-practice-v13.webp','04':'silicon-people-v14.webp','05':'silicon-makers-v14.webp'}[p.num])}`} alt="" width="1536" height="1024" loading="lazy" /><figcaption>Generierte redaktionelle Illustration · fiktive Menschen und Orte</figcaption></figure><div class="identity-place-copy">
@@ -228,30 +213,6 @@ const questions = [
           (auf Englisch):
           <a href={full}>patterns.missional.design/principles</a>.
         </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- How the eight became the ten -->
-  <section class="section section-cream">
-    <div class="container">
-      <div style="margin-bottom: 3rem; max-width: 60ch;">
-        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Von acht zu zehn</div>
-        <h2>Wie aus acht<br/>zehn wurden.</h2>
-        <p class="lead" style="margin-top: 2rem;">
-          Bis Oktober 2026 hatte dieses Rahmenwerk acht Prinzipien. Neben der Berufung und den Vertiefungen gelesen, fehlten
-          ihnen Freude und Handwerk; sie sagten nichts dazu, an Gottes Stelle zu sprechen, behandelten die Verletzlichsten als
-          Einschränkung statt als Ausgangspunkt und führten das Opfer als einen Punkt unter acht. Hier steht, wohin jedes
-          gegangen ist.
-        </p>
-      </div>
-      <div class="grid grid-3">
-        {became.map(([o, n]) => (
-          <div style="padding: 1.5rem; background: var(--color-white); border: 1px solid var(--color-black);">
-            <h4 style="margin-bottom: 0.5rem;">{o}</h4>
-            <p style="font-size: 0.95rem; line-height: 1.5;">{n}</p>
-          </div>
-        ))}
       </div>
     </div>
   </section>
@@ -316,4 +277,5 @@ const questions = [
       </div>
     </div>
   </section>
+  <JourneyNext lang="de" from="principles" />
 </BaseLayout>

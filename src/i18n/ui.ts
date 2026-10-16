@@ -16,7 +16,7 @@ export const ui = {
   en: {
     // Nav
     'nav.home': 'Home',
-    'nav.framework': 'Framework',
+    'nav.framework': 'Principles',
     'nav.canvas': 'Canvas',
     'nav.writing': 'Writing',
     'nav.about': 'About',
@@ -37,7 +37,7 @@ export const ui = {
   de: {
     // Nav
     'nav.home': 'Start',
-    'nav.framework': 'Rahmenwerk',
+    'nav.framework': 'Prinzipien',
     'nav.canvas': 'Canvas',
     'nav.writing': 'Texte',
     'nav.about': 'Über mich',

@@ -15,17 +15,17 @@ const items = de ? [
 ---
 <section class="section home-decisions" id="in-practice" aria-labelledby="practice-title">
  <div class="container">
-  <p class="identity-label">{de ? '01 / DER ANSATZ IN DER PRAXIS' : '01 / THE APPROACH IN PRACTICE'}</p>
+  <p class="identity-label">{de ? 'DER ANSATZ IN DER PRAXIS' : 'THE APPROACH IN PRACTICE'}</p>
   <h2 id="practice-title">{de ? 'Was ist wirklich die gute Nachricht in unserem Kontext?' : 'What really is the good news in our context?'}</h2>
-  <p class="lead home-intro">{de ? 'Diese Frage verbindet Gemeindeentwicklung und Produktgestaltung. Sie verändert, wem wir zuhören, was wir gestalten und woran wir gelungene Arbeit erkennen.' : 'This question connects ministry and product design. It changes whom we listen to, what we shape and how we recognize good work.'}</p>
+  <p class="lead home-intro">{de ? 'Ein veränderter Kontext braucht erneutes Zuhören, Gebet und Handeln. Dieselbe Frage verbindet das Leben einer Gemeinde in ihrer Nachbarschaft mit den Entscheidungen eines Produktteams auf einem Bildschirm.' : 'A changing context calls for renewed listening, prayer and action. The same question connects a church’s life in its neighborhood with the choices a product team makes on a screen.'}</p>
   <div class="decision-grid">{items.map(item => <article><h3>{item.title}</h3><p>{item.body}</p><a href={`${base}${item.href}`}>{item.link} →</a></article>)}</div>
  </div>
 </section>
-<section class="section section-cream home-posture" aria-labelledby="posture-title">
+<section class="section section-cream home-posture" id="approach" aria-labelledby="posture-title">
  <div class="container">
-  <p class="identity-label">{de ? '02 / KONTEXT · PRÄGUNG · TREUE' : '02 / CONTEXT · FORMATION · FAITHFULNESS'}</p>
+  <p class="identity-label">{de ? 'KONTEXT · PRÄGUNG · TREUE' : 'CONTEXT · FORMATION · FAITHFULNESS'}</p>
   <h2 id="posture-title">{de ? 'Unsere Gestaltung prägt, wie Menschen glauben und leben.' : 'What we design shapes how people practise faith.'}</h2>
-  <p class="lead">{de ? 'Auch Gewohnheiten, Traditionen und vergessene Entscheidungen gestalten unsere Arbeit. Missional by Design heißt, diese Gestaltung immer wieder an unserer Berufung zu prüfen: Hilft sie Menschen, in der Beziehung zu Gott und miteinander zu wachsen?' : 'Habits, traditions and forgotten decisions shape our work too. Missional by Design means continually examining that design in light of our calling: does it help people grow in relationship with God and one another?'}</p>
+  <p class="lead">{de ? 'Die gute Nachricht von Jesus gibt dieser Arbeit ihr Ziel. Bibel, Gebet, die Weisheit der Kirche und die von unserer Arbeit betroffenen Menschen gehören in den Gestaltungsprozess. Wenn sich die Umstände ändern, kehren wir zu ihnen zurück: Wem dienen wir, und was verlangt treuer Dienst hier von uns?' : 'The good news of Jesus gives this work its purpose. Scripture, prayer, the church’s wisdom and the people affected by our work belong in the design process. As circumstances change, we return to them: whom are we serving, and what does faithful service ask of us here?'}</p>
   <p class="lead">{de ? 'Technologie kann dabei viel ermöglichen. Gute Arbeit stärkt auch die Freiheit, ein Werkzeug weniger zu brauchen. Regelmäßige Nutzung kann eine hilfreiche Praxis tragen; sie allein belegt kein geistliches Wachstum.' : 'Technology can make remarkable things possible. Good work also strengthens the freedom to need a tool less. Continued use can support a meaningful practice; it is not, by itself, evidence of spiritual growth.'}</p>
   <p><a class="identity-text-link" href={`${base}${de ? '/de/blog/which-rock/' : '/blog/which-rock/'}`}>{de ? 'Essay: Auf welchen Fels bauen wir? →' : 'Essay: On Which Rock Are We Building? →'}</a></p>
   <div class="identity-human-grid"><figure class="identity-meetup"><img src={`${base}/assets/brand/identity-meetup-conversation-v2.webp`} alt={de ? 'Illustratives Gespräch in einem urbanen Tech-Büro' : 'Illustrative conversation in an urban tech office'} width="1536" height="1024" loading="lazy"/><figcaption>{de ? 'Generierte Illustration · nach Startup-Life-Fotografie' : 'Generated illustration · based on Startup Life photography'}</figcaption></figure><p class="editorial-passage">{de ? 'Es geht um die Menschen.' : 'The people are the point.'}</p></div>

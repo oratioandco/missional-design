@@ -5,13 +5,15 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <BaseLayout title="About" lang="en">
-  <section class="hero" style="min-height: 50vh;">
+  <section class="hero text-hero">
     <div class="hero-label">About</div>
-    <h1>About.</h1>
+    <h1>About the work.</h1>
   </section>
 
   <section class="section">
     <div class="container-narrow">
+      <h2>Christian purpose, practical decisions.</h2><p class="lead">Missional by Design connects Christian mission with the choices we make in churches, organizations and digital products. Its starting question is: what really is the good news in our context?</p><p class="lead">The canvas helps a team listen and discern its next steps. The principles name responsibilities for people building technology for faith. The pattern reference makes those responsibilities tangible through examples, alternatives and research.</p><p class="lead">The principles and several research guides are drafts awaiting specialist review. App observations, source findings and design proposals are labelled so you can assess and use them in your own context.</p><h2>About Tobias</h2>
+
       <p class="lead">
         <strong>Tobias Treppmann</strong> is a product designer, theologian, and founder of Oratio&Co.
         He is currently pursuing an M.A. in Leadership at Kairos University while building
@@ -19,18 +21,19 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       </p>
       <p class="lead">
         The missional product design framework emerged from his 2026 research paper
-        <em>Digital Spiritual Formation: The Aperto Vision</em>, which draws on 195+ sources across theology,
-        behavioral science, and product design.
+        <em>Digital Spiritual Formation: The Aperto Vision</em>, which brings theology,
+        behavioral science and product design into conversation.
       </p>
       <p class="lead">
         This framework is published openly as a resource for the field. If you're building technology for
         spiritual formation — or human flourishing more broadly — I'd love to hear from you.
       </p>
 
+      <section class="review-invitation"><h2>Help develop the work.</h2><p>Theological critique, pastoral experience and product research can all improve this resource. Which claims need more nuance? Where would the tools help your team? What evidence or experience would change a recommendation?</p><p><EmailLink label="Share feedback or discuss a review" /></p><p>For help applying the approach in a team or workshop, visit <a href="https://oratio.co">Oratio&amp;Co</a>.</p></section>
       <div style="margin-top: 3rem; padding-top: 3rem; border-top: 1px solid var(--color-black);">
         <h3 style="margin-bottom: 1.5rem;">Get in touch</h3>
         <ul style="list-style: none; padding: 0; line-height: 2.5;">
-          <li><strong>Kontakt:</strong> <EmailLink label="Email me" /></li>
+          <li><strong>Contact:</strong> <EmailLink label="Email me" /></li>
           <li><strong>Consulting:</strong> <a href="https://oratio.co">oratio.co</a></li>
           <li><strong>Currently building:</strong> <a href="https://aperto.bible">aperto.bible</a></li>
         </ul>
@@ -38,3 +41,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     </div>
   </section>
 </BaseLayout>
+
+<style>
+.container-narrow h2{font:400 clamp(32px,4vw,44px)/1.12 var(--mbd-editorial);margin:32px 0 24px}.container-narrow .lead{font-size:18px;line-height:1.75;margin-bottom:24px}.review-invitation{border-top:1px solid var(--color-border);margin-top:40px;padding-top:12px}.review-invitation p{margin-bottom:20px;line-height:1.75}.container-narrow a{text-decoration:underline;text-underline-offset:4px}
+</style>
