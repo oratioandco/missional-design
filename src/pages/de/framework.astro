@@ -192,8 +192,7 @@ const questions = [
           Wiederherstellung durch Opfer. Wir lesen ihn für Apps, deren Gegenstand Gott ist und bei denen die erste
           Versuchung nicht nur ist, Menschen zu benutzen, sondern Gottes Namen.
           <a href="https://www.faithtech.com/digital-playbook/a-way-of-building-redemptively">Das Playbook von FaithTech</a>
-          vollzieht dieselbe Wendung mit rücksichtsloser, verantwortlicher und erlösender Technologie. Die Lesart ist unsere;
-          wir sind beiden dankbar.
+          vollzieht dieselbe Wendung mit rücksichtsloser, verantwortlicher und erlösender Technologie. Dieser Leitfaden wendet beide Ansätze auf die theologischen und seelsorglichen Aufgaben geistlicher Apps an.
         </p>
       </div>
       <div class="grid grid-3">
@@ -213,7 +212,7 @@ const questions = [
     <div class="container">
       <div class="identity-places">
         {places.map((p) => (
-          <article class="principle identity-place"><img class="identity-art" src={`${base}/assets/brand/identity-${({'01':'word','02':'person','03':'practice','04':'people','05':'makers'}[p.num])}-light-v1.webp`} alt="" width="1536" height="1024" loading="lazy" /><div class="identity-place-copy">
+          <article class="principle identity-place"><figure class="identity-context"><img class="identity-art" src={`${base}/assets/brand/${({'01':'silicon-reading-v13.webp','02':'silicon-dialogue-v13.webp','03':'silicon-practice-v13.webp','04':'identity-people-light-v1.webp','05':'identity-makers-light-v1.webp'}[p.num])}`} alt="" width="1536" height="1024" loading="lazy" />{['01','02','03'].includes(p.num) && <figcaption>Generierte redaktionelle Illustration · fiktive Menschen und Orte</figcaption>}</figure><div class="identity-place-copy">
             <span class="principle-number">{p.num}</span>
             <h3>{p.name}</h3>
             <p class="lead" style="opacity: 0.75;">{p.ask}</p>
@@ -306,9 +305,9 @@ const questions = [
       <div style="max-width: 60ch;">
         <h2>Das Rahmenwerk<br/>anwenden?</h2>
         <p class="lead" style="margin-top: 2rem;">
-          Das Rahmenwerk ist offen veröffentlicht, als Ressource für alle, die in diesem Feld arbeiten. Diese Fassung ist ein
-          Entwurf, der auf theologische und seelsorgliche Prüfung wartet. Wenn du Bibel-, Gebets-, Gemeinde- oder KI-Werkzeuge
-          baust oder bei der Prüfung helfen kannst, freue ich mich, von dir zu hören.
+          Prüft mit den Prinzipien eine konkrete Produktentscheidung im Team und vergleicht anschließend die
+          Gestaltungsoptionen in der Musterbibliothek. Die theologische und seelsorgliche Prüfung dieses Entwurfs
+          steht noch aus; Beiträge von Fachleuten sind willkommen.
         </p>
         <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
           <a href={full} class="button">Die zehn ausführlich (Englisch)</a>

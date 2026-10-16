@@ -1,3 +1,5 @@
+Editorial writing: read [first-time visitor voice](../bible-faith-patterns/research/editorial/visitor-voice-2026-10-16/EDITORIAL_VOICE.md) before authoring public copy.
+
 > **Current video/brand delivery (15October2026):** V7 supersedes V6 delivery: first-two-shot camera zoom compensated locally using static architectural tracking; one fixed small crop across all five shots. Same16s approved action/rock, no new video generation. Export and canvas use updated at http://127.0.0.1:8794/missional-canvas/. Native review http://127.0.0.1:8840/review-v7.html. Approved film-specimen appearance applied to new window-v7/conversation-v7 contextual website images; EN/DEhome, reference openers and rocks article updated. Checks pass; see videos/neighborhood-context/V7-ADJUSTMENT.md in reference checkout. No public deployment.
 
 > **Current editorial delivery:** EN/DE homepages now lead with practical missional purpose and three concrete examples. New EN/DE essay /blog/which-rock/ and /de/blog/which-rock/ complements /calling/rocks/. See research/editorial/2026-10-15-foundation-and-positioning.md in the reference checkout.

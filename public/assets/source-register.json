@@ -499,7 +499,7 @@
     "scope": "Relevant specification section reviewed",
     "takeaway": "Provides a model for synchronised text and audio.",
     "application": "Honest timing granularity and playback anchors.",
-    "limit": "Not proof of a particular Bible app implementation.",
+    "limit": "Verify support in the app and edition you intend to use.",
     "kind": "Design reference",
     "original": null
   },
@@ -4495,7 +4495,7 @@
     "scope": "Passage text taken from API.Bible, 9 October 2026",
     "takeaway": "Provides the wording used in chat, resource and parallel-reading illustrations.",
     "application": "Separate quoted Scripture from illustrative commentary and UI annotations.",
-    "limit": "A text source, not evidence of the proposed interface’s effectiveness.",
+    "limit": "Provides the Scripture wording; evaluate the interface through separate usability research.",
     "kind": "Scripture sample",
     "original": null
   },
@@ -4603,7 +4603,7 @@
     "scope": "Section 2.7 reviewed 6 October 2026",
     "takeaway": "Identifies risks around human–AI configuration, overreliance and emotional entanglement.",
     "application": "Review mistaken identity and dependency risks alongside usability.",
-    "limit": "Risk framework, not evidence that one visual cue causes an outcome.",
+    "limit": "Assess individual interface cues through product-specific research.",
     "kind": "Risk framework",
     "original": null
   },

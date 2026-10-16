@@ -171,8 +171,8 @@ const questions = [
     <div class="container">
       <div style="max-width: 70ch;">
         <p class="lead">
-          <a href="https://patterns.missional.design/calling/">The calling</a> says why this work matters and how heavy it
-          is. The principles below say what we hold, with questions to test a design.
+          <a href="https://patterns.missional.design/calling/">The calling</a> explores the Christian purpose and responsibilities of this work.
+          The ten principles turn that calling into questions for product decisions.
           <a href="https://patterns.missional.design/patterns/">The deep dives</a> show how, option by option.
         </p>
       </div>
@@ -190,7 +190,7 @@ const questions = [
           Redemptive Frame calls the redemptive way “creative restoration through sacrifice”. We read it for apps whose
           subject is God, where the first temptation is not only to use people but to use God’s name.
           <a href="https://www.faithtech.com/digital-playbook/a-way-of-building-redemptively">FaithTech’s Playbook</a> makes the same turn with reckless,
-          responsible and redemptive technology. The reading is ours; we are grateful to both.
+          responsible and redemptive technology. This guide applies both frameworks to the theological and pastoral responsibilities of spiritual apps.
         </p>
       </div>
       <div class="grid grid-3">
@@ -210,7 +210,7 @@ const questions = [
     <div class="container">
       <div class="identity-places">
         {places.map((p) => (
-          <article class="principle identity-place"><img class="identity-art" src={`${base}/assets/brand/identity-${({'01':'word','02':'person','03':'practice','04':'people','05':'makers'}[p.num])}-light-v1.webp`} alt="" width="1536" height="1024" loading="lazy" /><div class="identity-place-copy">
+          <article class="principle identity-place"><figure class="identity-context"><img class="identity-art" src={`${base}/assets/brand/${({'01':'silicon-reading-v13.webp','02':'silicon-dialogue-v13.webp','03':'silicon-practice-v13.webp','04':'identity-people-light-v1.webp','05':'identity-makers-light-v1.webp'}[p.num])}`} alt="" width="1536" height="1024" loading="lazy" />{['01','02','03'].includes(p.num) && <figcaption>Generated editorial illustration · fictional people and place</figcaption>}</figure><div class="identity-place-copy">
             <span class="principle-number">{p.num}</span>
             <h3>{p.name}</h3>
             <p class="lead" style="opacity: 0.75;">{p.ask}</p>
@@ -301,9 +301,8 @@ const questions = [
       <div style="max-width: 60ch;">
         <h2>Want to apply<br/>the framework?</h2>
         <p class="lead" style="margin-top: 2rem;">
-          The framework is published openly as a resource for the field, and this version is a draft waiting for
-          theological and pastoral review. If you build Bible, prayer, church or AI tools, or can help review it, I’d love
-          to hear from you.
+          Use the principles to examine a product decision with your team, then explore the practical options in the
+          pattern library. Theological and pastoral review of this draft is pending; contributions from reviewers are welcome.
         </p>
         <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
           <a href={full} class="button">The ten in full</a>

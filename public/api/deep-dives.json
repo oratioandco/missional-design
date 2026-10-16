@@ -30,7 +30,7 @@
    "options": [
     "Plain tool (Familiar convention)",
     "Labelled assistant (Familiar convention)",
-    "Named assistant (Exploratory · untested)",
+    "Named assistant (Exploratory)",
     "Persona (Observed)",
     "Companion (Observed)",
     "Biblical character (Observed)"
@@ -286,7 +286,7 @@
     "Month calendar with a streak (Familiar convention)",
     "Time with Scripture (Borrowed)",
     "Where you keep returning (Borrowed)",
-    "Reflection notes (Exploratory · untested)"
+    "Reflection notes (Exploratory)"
    ],
    "decide": "What will this screen say to someone on the day they come back?",
    "review": null,
@@ -301,7 +301,7 @@
    "options": [
     "Numbered sources (Observed)",
     "Passage cards (Observed)",
-    "Scripture quoted in the answer (Exploratory · untested)",
+    "Scripture quoted in the answer (Exploratory)",
     "No generated answer (Leave it out)"
    ],
    "decide": "When someone may be in danger, what will they see first, and who reviewed it?",
@@ -458,7 +458,7 @@
    "decide": "What is chosen for the giver, where does the ask appear, and what does the app say a gift will do?",
    "review": {
     "status": "draft, waiting for review",
-    "what": "What is shown to someone short of money or who has just shared a prayer request, the description of seed-faith appeals, the treatment of tithing and church tax, and the use of YouVersion screens from the owner’s own account",
+    "what": "What is shown to someone short of money or who has just shared a prayer request, the description of seed-faith appeals, the treatment of tithing and church tax, and the use of YouVersion screens from a personal account",
     "needs": [
      "pastoral care",
      "theology across Catholic, Orthodox and Protestant traditions",

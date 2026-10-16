@@ -42,7 +42,7 @@
   {
    "key": "named",
    "name": "Named assistant",
-   "provenance": "Exploratory · untested",
+   "provenance": "Exploratory",
    "origin": "An exploratory proposal: a name and first-person voice that are honest about limits (“I can’t pray for your mum the way a friend can”) and point to people.",
    "gain": "Honest about its limits",
    "cost": "A name invites trust",
@@ -615,7 +615,7 @@
    "kind": "Risk framework",
    "shows": "Identifies risks around human–AI configuration, overreliance and emotional entanglement.",
    "application": "Review mistaken identity and dependency risks alongside usability.",
-   "limits": "Risk framework, not evidence that one visual cue causes an outcome."
+   "limits": "Assess individual interface cues through product-specific research."
   },
   {
    "key": "sycophancy",
