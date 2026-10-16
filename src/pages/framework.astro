@@ -152,7 +152,7 @@ const questions = [
 
 <BaseLayout lang="en" title="The Framework">
   <!-- Hero -->
-  <section class="hero" style="min-height: 60vh;">
+  <section class="hero framework-hero">
     <div class="hero-copy">
     <div class="hero-label">Missional by Design · Principles for spiritual apps</div>
     <h1>Five places.<br/>Ten commitments.</h1>
@@ -161,9 +161,8 @@ const questions = [
       sacred. These principles come from a calling: the joy and the weight of building the tools people now pray, read and
       ask with. Each names what it asks the maker to give up.
     </p>
-    </div><div class="identity-hero-art"><img src={`${base}/assets/brand/identity-folio-dark-v2.webp`} alt="" aria-hidden="true" width="1536" height="1024" fetchpriority="high" /></div>
+    </div><figure class="framework-hero-photo"><img src={`${base}/assets/brand/identity-meetup-workshop-v1.webp`} alt="A fictional workshop at an urban tech-office meetup" width="1536" height="1024" fetchpriority="high" /><figcaption>Generated illustration · based on Startup Life photography</figcaption></figure>
   </section>
-  <section class="identity-photo-section container"><figure class="identity-meetup"><img src={`${base}/assets/brand/identity-meetup-workshop-v1.webp`} alt="Illustrative workshop at a tech-office meetup" width="1536" height="1024" loading="lazy" /><figcaption>Generated illustration · based on Startup Life photography</figcaption></figure></section>
 
 
   <!-- Three layers -->
@@ -210,7 +209,7 @@ const questions = [
     <div class="container">
       <div class="identity-places">
         {places.map((p) => (
-          <article class="principle identity-place"><figure class="identity-context"><img class="identity-art" src={`${base}/assets/brand/${({'01':'silicon-reading-v13.webp','02':'silicon-dialogue-v13.webp','03':'silicon-practice-v13.webp','04':'identity-people-light-v1.webp','05':'identity-makers-light-v1.webp'}[p.num])}`} alt="" width="1536" height="1024" loading="lazy" />{['01','02','03'].includes(p.num) && <figcaption>Generated editorial illustration · fictional people and place</figcaption>}</figure><div class="identity-place-copy">
+          <article class="principle identity-place"><figure class="identity-context"><img class="identity-art" src={`${base}/assets/brand/${({'01':'silicon-reading-v13.webp','02':'silicon-dialogue-v13.webp','03':'silicon-practice-v13.webp','04':'silicon-people-v14.webp','05':'silicon-makers-v14.webp'}[p.num])}`} alt="" width="1536" height="1024" loading="lazy" /><figcaption>Generated editorial illustration · fictional people and place</figcaption></figure><div class="identity-place-copy">
             <span class="principle-number">{p.num}</span>
             <h3>{p.name}</h3>
             <p class="lead" style="opacity: 0.75;">{p.ask}</p>
