@@ -1,0 +1,24 @@
+{
+  "id": "reflected-light",
+  "displayedOption": 2,
+  "conceptName": "Reflected light",
+  "prompt": "Create a realistic production-quality editorial WEBSITE design for Missional by Design, edge to edge, 1440 pixels wide by 2000 pixels tall, showing a continuous homepage and several sections. Crisp readable UI text, no browser or device frame, no concept labels. Audience: Christian technologists and ministry/product leaders. The offer connects Christian purpose, changing context and practical design. Preserve the approved rock specimen from reference image 1: the same broad fractured outline and reflective pale icy blue-silver faces. No new rock silhouette, dents, tiny gravel texture, glass crystal, physical cross cutout or biblical props. A sharp four-point optical reflection with slight local glow is part of this identity. Reference images 2 and 3 are quality benchmarks for confident hierarchy, human photography and editorial rhythm, not brands/layouts to copy. Reference image 4 provides an approved fictional startup working scene. Use no fabricated testimonials, endorsements or performance statistics. Small captions identify generated editorial imagery. At most two type families; readable body type, restrained structural devices, no repetitive cards, excessive labels or large black slabs. One primary action. Navigation reads Principles, Canvas, Patterns, Writing, About, EN / DE. Wordmark: missional \u2014 by \u2014 design, with two short rules around by. Show real text in every visible section. Current date is 16 October 2026; no dates are needed.\nArt direction: a luminous contemporary identity centred on reflected light, with a pale ice-blue atmosphere, dark blue ink, restrained optical highlights and a beautiful large serif used as an active editorial voice. The approved rock is the one memorable object in the opening: isolate that same specimen from reference 1 on the page surface, preserving its physical silhouette, pale-blue fractured mirror faces and glint. A spatial, gallery-like composition integrates the large headline around generous negative space; avoid a standard split hero or a centred headline above three cards. Headline: \u201cWhat really is good news here?\u201d Deck: \u201cChristian reflection and practical tools for a changing context.\u201d Primary action: \u201cFind your starting point\u201d. Include a short human startup-photo band from reference 4 early in the flow so this is a human resource, not a luxury metal brand. Below, present an inviting worked design question: \u201cA missed day. A welcoming return.\u201d One sentence: \u201cExplore how a reading app can help someone begin again.\u201d Show a modest clearly labelled design-example preview, no fake data, linked to \u201cCompare the options\u201d. Follow with an editorial set of clear routes \u201cPrinciples\u201d, \u201cCanvas\u201d, \u201cPatterns\u201d, each with a short purposeful description. The continuous page should show varied scale and density while retaining a calm, highly readable system. No physical cross motif; the optical glint remains subtle.\nUse people and photographs ONLY from reference 4 or new fictional people; never copy faces or photographs from the two comparator screenshots. They are craft references only.",
+  "tool": "built-in image_gen",
+  "requestedDimensions": [
+    1440,
+    2000
+  ],
+  "actualDimensions": [
+    897,
+    1752
+  ],
+  "approved": false,
+  "source": "/Users/ttreppmann/.codex/generated_images/01a12f6b-ac5e-7c60-abd8-87930df83270/exec-d42582ab-af00-4e91-8e14-efb00c6c677a.png",
+  "references": [
+    "../bible-faith-patterns/brand/assets/silicon-context-v7.webp",
+    "../bible-faith-patterns/research/design-directions/editorial-density-review-2026-10-16/02-praxis-home-1440-first.png",
+    "../bible-faith-patterns/research/design-directions/editorial-density-review-2026-10-16/03-faithtech-home-1440-first.png",
+    "../bible-faith-patterns/research/design-directions/editorial-refinement/remaining-images-v14/makers-v14.png"
+  ],
+  "sha256": "151a6deb21e9a4ba13157c6595c3296c9c6a11800be94b34aa2cfdea504ba1c0"
+}

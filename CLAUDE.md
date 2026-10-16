@@ -1,4 +1,4 @@
-> Latest owner feedback: V15 editorial presentation is not yet approved; see the newest handoff notice and editorial-density-review-2026-10-16 comparison before further design work.
+> Latest: Impeccable installed; three V16 visual directions displayed, owner selection pending. Read the newest handoff and editorial-world-v16 README for exact image order and production corrections. No new visual system is approved yet.
 
 # Continue Missional by Design
 

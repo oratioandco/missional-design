@@ -1,0 +1,24 @@
+{
+  "id": "community-fieldwork",
+  "displayedOption": 3,
+  "conceptName": "Community fieldwork",
+  "prompt": "Create a realistic production-quality editorial WEBSITE design for Missional by Design, edge to edge, 1440 pixels wide by 2000 pixels tall, showing a continuous homepage and several sections. Crisp readable UI text, no browser or device frame, no concept labels. Audience: Christian technologists and ministry/product leaders. The offer connects Christian purpose, changing context and practical design. Preserve the approved rock specimen from reference image 1: the same broad fractured outline and reflective pale icy blue-silver faces. No new rock silhouette, dents, tiny gravel texture, glass crystal, physical cross cutout or biblical props. A sharp four-point optical reflection with slight local glow is part of this identity. Reference images 2 and 3 are quality benchmarks for confident hierarchy, human photography and editorial rhythm, not brands/layouts to copy. Reference image 4 provides an approved fictional startup working scene. Use no fabricated testimonials, endorsements or performance statistics. Small captions identify generated editorial imagery. At most two type families; readable body type, restrained structural devices, no repetitive cards, excessive labels or large black slabs. One primary action. Navigation reads Principles, Canvas, Patterns, Writing, About, EN / DE. Wordmark: missional \u2014 by \u2014 design, with two short rules around by. Show real text in every visible section. Current date is 16 October 2026; no dates are needed.\nArt direction: a lively, exceptionally crafted independent publication at the intersection of Christian practice, urban culture and technology. Human-first, bright white, confident modern sans-serif display, occasional elegant serif for a reflective question, deep blue and restrained warm colour drawn from the photographs. Lead with a large candid colour startup-workshop photograph from reference 4, integrated with a clear headline and one primary action as a unified editorial opening. Keep the text in clean readable space; image and text should feel art-directed together, never a stock photo card beside a text column. Headline: \u201cFaithful design starts with people.\u201d Deck: \u201cTools for Christian teams discerning what to build and how to serve.\u201d Primary action: \u201cExplore the approach\u201d. Immediately follow with \u201cOur context changes. Our listening continues.\u201d and the exact question \u201cWhat really is the good news in our context?\u201d Bring the approved neighborhood/rock image from reference 1 into this section, large enough to recognise the exact specimen and its optical reflection. Then make the resource tangible with a compact editorial feature \u201cFrom conviction to a design decision\u201d and three distinct readable entry links: \u201cTen principles\u201d, \u201cThe missional canvas\u201d, \u201cBible & faith patterns\u201d. Use varying composition and strong spatial rhythm, short genuine descriptions and a human invitation to read further. Preserve a clear quiet reading layer. No glossy SaaS cards, no grid of identical sculptures, no dense manifesto or gratuitous icon badges.\nUse photographs and faces ONLY from reference 4 or new fictional people, never copy people from comparator screenshots 2 and 3. Missional by Design is an open RESOURCE by Tobias Treppmann, not an established membership community; do not invent community size, offices, locations, events, affiliations or group claims. Render only the supplied short copy and truthful resource descriptions.",
+  "tool": "built-in image_gen",
+  "requestedDimensions": [
+    1440,
+    2000
+  ],
+  "actualDimensions": [
+    897,
+    1752
+  ],
+  "approved": false,
+  "source": "/Users/ttreppmann/.codex/generated_images/01a12f6b-ac5e-7c60-abd8-87930df83270/exec-d1cc20e4-7bba-4bd1-9464-6ae582efa190.png",
+  "references": [
+    "../bible-faith-patterns/brand/assets/silicon-context-v7.webp",
+    "../bible-faith-patterns/research/design-directions/editorial-density-review-2026-10-16/02-praxis-home-1440-first.png",
+    "../bible-faith-patterns/research/design-directions/editorial-density-review-2026-10-16/03-faithtech-home-1440-first.png",
+    "../bible-faith-patterns/research/design-directions/editorial-refinement/remaining-images-v14/makers-v14.png"
+  ],
+  "sha256": "0a7fa514a43f4186967d5184b5700a78c3807f802930f035cd7790273840d300"
+}
