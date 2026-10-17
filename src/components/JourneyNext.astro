@@ -10,7 +10,7 @@ const items = [
  { href: '/reference/', title: de ? 'Bereit für die konkreten Optionen?' : 'Ready to compare concrete options?', body: de ? 'Die Patternreferenz zeigt Beispiele und Abwägungen für Bibellesen, Gebet, Gemeinschaft und KI.' : 'Explore examples and trade-offs for Bible reading, prayer, community and AI.', link: de ? 'Patterns erkunden (Englisch)' : 'Explore the patterns' }
 ];
 ---
-<section class="section journey-next" aria-labelledby="next-title"><div class="container"><p class="identity-label">{de ? 'Weiterarbeiten' : 'Continue with your work'}</p><h2 id="next-title">{de ? 'Vom Nachdenken zum nächsten Schritt.' : 'Take the next step.'}</h2><div class="next-grid">{items.map(i=><article><h3>{i.title}</h3><p>{i.body}</p><a href={`${base}${i.href}`}>{i.link} →</a></article>)}</div></div></section>
+<section class="section journey-next" aria-labelledby="next-title"><div class="container"><h2 id="next-title">{de ? 'Vom Nachdenken zum nächsten Schritt.' : 'Take the next step.'}</h2><div class="next-grid">{items.map(i=><article><h3>{i.title}</h3><p>{i.body}</p><a href={`${base}${i.href}`}>{i.link} →</a></article>)}</div></div></section>
 <style>
 .journey-next{background:var(--color-cream)}.journey-next h2{font:400 clamp(36px,4.5vw,56px)/1.1 var(--mbd-editorial);margin-bottom:32px}.next-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px}.next-grid article{border-top:1px solid var(--color-border);padding-top:24px}.next-grid h3{font:400 30px/1.15 var(--mbd-editorial);margin-bottom:18px}.next-grid p{font-size:17px;line-height:1.65;max-width:55ch;margin-bottom:18px}.next-grid a{font-size:15px;text-decoration:underline;text-underline-offset:4px}@media(max-width:760px){.next-grid{grid-template-columns:1fr;gap:32px}}
 </style>

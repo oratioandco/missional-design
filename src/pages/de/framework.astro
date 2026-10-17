@@ -149,6 +149,7 @@ const questions = [
     <p class="hero-subtitle">Eine Bibel-App, Gebets-App oder KI gestaltet mehr als eine Aufgabe. Sie kann beeinflussen, wem Menschen vertrauen, wie sie ihren Glauben leben und wo sie Hilfe suchen. Diese zehn Prinzipien verbinden christliche Berufung mit den Entscheidungen eines Produktteams.
     </p>
     <p class="framework-start"><a href="#principles">Die zehn Prinzipien erkunden ↓</a></p>
+<nav class="principles-scan" aria-label="Die fünf Verantwortungsbereiche">{places.map(p=><a href={`#area-${p.num}`}>{p.name}</a>)}</nav>
     </div><figure class="framework-hero-photo"><img src={`${base}/assets/brand/identity-meetup-workshop-v1.webp`} alt="Ein fiktiver Workshop bei einem Tech-Meetup" width="1536" height="1024" fetchpriority="high" /><figcaption>Generierte Illustration · auf Grundlage von Startup-Life-Fotografie</figcaption></figure>
   </section>
 
@@ -163,11 +164,37 @@ const questions = [
     </div>
   </section>
 
+  <!-- Places and commitments -->
+  <section class="section" id="principles">
+    <div class="container">
+      <h2 class="principles-heading">Fünf Bereiche der Verantwortung.</h2>
+      <div class="identity-places">
+        {places.map((p) => (
+          <article class="principle identity-place" id={`area-${p.num}`}><figure class="identity-context"><img class="identity-art" src={`${base}/assets/brand/${({'01':'silicon-reading-v13.webp','02':'silicon-dialogue-v13.webp','03':'silicon-practice-v13.webp','04':'silicon-people-v14.webp','05':'silicon-makers-v14.webp'}[p.num])}`} alt="" width="1536" height="1024" loading="lazy" /><figcaption>Generierte redaktionelle Illustration · fiktive Menschen und Orte</figcaption></figure><div class="identity-place-copy">
+            <span class="principle-number">{p.num}</span>
+            <h3>{p.name}</h3>
+            <p class="lead" style="opacity: 0.75;">{p.ask}</p>
+            {p.commitments.map((c) => (
+              <div style="margin-top: 1.5rem;">
+                <h4><a href={`${full}${c.id}/`}>{c.title}</a></h4>
+                <p>{c.body}</p>
+              </div>
+            ))}
+          </div></article>
+        ))}
+        <p class="lead" style="margin-top: 3rem;">
+          Jedes Prinzip mit seiner Schrift, seiner Tradition, dem, was es ein- und ausschließt, und Fragen zur Prüfung
+          (auf Englisch):
+          <a href={full}>patterns.missional.design/principles</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
   <!-- Three ways -->
   <section class="section section-cream">
     <div class="container">
       <div style="margin-bottom: 3rem; max-width: 60ch;">
-        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Drei Arten zu bauen</div>
         <h2>Ausbeuterisch, ethisch,<br/>erlösend.</h2>
         <p class="lead" style="margin-top: 2rem;">
           Die drei Arten stammen von <a href="https://www.praxis.co/redemptive-entrepreneurship">Praxis</a>, deren
@@ -190,38 +217,10 @@ const questions = [
     </div>
   </section>
 
-  <!-- Places and commitments -->
-  <section class="section" id="principles">
-    <div class="container">
-      <h2 class="principles-heading">Fünf Bereiche der Verantwortung.</h2>
-      <div class="identity-places">
-        {places.map((p) => (
-          <article class="principle identity-place"><figure class="identity-context"><img class="identity-art" src={`${base}/assets/brand/${({'01':'silicon-reading-v13.webp','02':'silicon-dialogue-v13.webp','03':'silicon-practice-v13.webp','04':'silicon-people-v14.webp','05':'silicon-makers-v14.webp'}[p.num])}`} alt="" width="1536" height="1024" loading="lazy" /><figcaption>Generierte redaktionelle Illustration · fiktive Menschen und Orte</figcaption></figure><div class="identity-place-copy">
-            <span class="principle-number">{p.num}</span>
-            <h3>{p.name}</h3>
-            <p class="lead" style="opacity: 0.75;">{p.ask}</p>
-            {p.commitments.map((c) => (
-              <div style="margin-top: 1.5rem;">
-                <h4><a href={`${full}${c.id}/`}>{c.title}</a></h4>
-                <p>{c.body}</p>
-              </div>
-            ))}
-          </div></article>
-        ))}
-        <p class="lead" style="margin-top: 3rem;">
-          Jedes Prinzip mit seiner Schrift, seiner Tradition, dem, was es ein- und ausschließt, und Fragen zur Prüfung
-          (auf Englisch):
-          <a href={full}>patterns.missional.design/principles</a>.
-        </p>
-      </div>
-    </div>
-  </section>
-
   <!-- Tensions -->
   <section class="section">
     <div class="container">
       <div style="margin-bottom: 3rem; max-width: 60ch;">
-        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Spannungen</div>
         <h2>Drei Dinge,<br/>die man aushalten muss.</h2>
         <p class="lead" style="margin-top: 2rem;">
           Die zehn überschneiden sich und ziehen manchmal auseinander. Manche Spannungen muss man aushalten, nicht lösen.
@@ -242,7 +241,6 @@ const questions = [
   <section class="section section-ink">
     <div class="container">
       <div style="margin-bottom: 4rem; max-width: 60ch;">
-        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Sechs Fragen</div>
         <h2>Prüffragen.</h2>
         <p class="lead" style="margin-top: 2rem; opacity: 0.85;">
           Nutze sie, um jede Funktion, Kampagne oder Gestaltungsentscheidung zu prüfen, bevor sie veröffentlicht wird.

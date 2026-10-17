@@ -5575,7 +5575,7 @@
     "takeaway": "Match the unit to the reading: smaller for meditation, memory and read-along, a passage for daily reading and study, longer for narrative and argument. Keep context one step away and the reader’s place across modes.",
     "problem": "People read on phones in shorter, more selective sessions, and many Bible apps now offer verse cards, focus modes, read-along highlighting or speed readers. Each sets how much text someone sees at once. A single verse is easy to start and easy to lift out of context; a whole chapter keeps the argument but can feel like a wall on a small screen.",
     "solution": "Decide which reading this screen serves. For meditation or memory, show a verse at a time or a verse in focus with the passage dimmed around it. For listening, move the focus with the audio. For a daily reading, show one passage with its reference, what comes before and after, and a way into the chapter. For a book read through, offer calm long-form text. Keep the same place when someone changes mode, and never strand a verse without a route to its context.",
-    "failure": "A verse shown alone with no way to its chapter; editorial headings presented as Scripture; word-by-word display used for study; auto-advancing text with no pause or rewind; focus modes that hide the text from screen readers; losing the reader’s place when switching modes.",
+    "failure": "A verse shown alone with no way to its chapter; a box to tick on every verse that turns a passage into a to-do list, or ticks verses merely opened; editorial headings presented as Scripture; word-by-word display used for study; auto-advancing text with no pause or rewind; focus modes that hide the text from screen readers; losing the reader’s place when switching modes.",
     "test": "Ask people to read the same passage in two modes, then retell it and answer a question that depends on the verse before. Time how long it takes to find the context of a single verse. Test focus and read-along with screen readers, reduced motion and people with dyslexia or attention difficulties.",
     "sources": [
       "liu-2005",
@@ -5600,6 +5600,7 @@
       "sls",
       "kindle-word-runner",
       "wolf-deep-reading",
+      "dewfall",
       "hutchings"
     ],
     "faith": "Verse numbers date from the sixteenth century and chapter divisions from the thirteenth; neither is part of the inspired text, and both make it easy to read a sentence apart from its argument. Smaller units also have a long devotional history: lectio divina dwells on a few verses read slowly and repeatedly. The question is not which unit is more spiritual, but whether the screen keeps the verse connected to the passage it belongs to.",
@@ -5608,7 +5609,8 @@
       "reading-layout",
       "verse-numbers",
       "reading-settings",
-      "scripture-and-interpretation"
+      "scripture-and-interpretation",
+      "progress-and-streaks"
     ],
     "variants": [
       {

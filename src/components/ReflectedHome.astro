@@ -1,0 +1,54 @@
+---
+import intersect from '@phosphor-icons/core/assets/regular/intersect.svg?raw';
+import squares from '@phosphor-icons/core/assets/regular/squares-four.svg?raw';
+import stack from '@phosphor-icons/core/assets/regular/stack.svg?raw';
+import plant from '@phosphor-icons/core/assets/regular/plant.svg?raw';
+import arrow from '@phosphor-icons/core/assets/regular/arrow-right.svg?raw';
+import house from '@phosphor-icons/core/assets/regular/house.svg?raw';
+import book from '@phosphor-icons/core/assets/regular/book-open.svg?raw';
+import compass from '@phosphor-icons/core/assets/regular/compass.svg?raw';
+import dots from '@phosphor-icons/core/assets/regular/dots-three.svg?raw';
+const { lang = 'en' } = Astro.props;
+const de = lang === 'de';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const prefix = de ? '/de' : '';
+const pattern = `${base}/patterns/reading-plans/#family-return-without-shame`;
+const routes = [
+ {icon:intersect,title:de?'Prinzipien':'Principles',body:de?'Christliche Berufung mit konkreten Gestaltungsentscheidungen verbinden.':'Connect Christian purpose with everyday design decisions.',link:de?'Prinzipien erkunden':'Explore principles',href:`${prefix}/framework/`},
+ {icon:squares,title:'Canvas',body:de?'Erkunden, was die gute Nachricht in eurem Kontext bedeutet.':'Explore what good news means in your context.',link:de?'Canvas öffnen (EN)':'Open the canvas',href:'/missional-canvas/'},
+ {icon:stack,title:'Patterns',body:de?'Gestaltungsoptionen für Bibel- und Glaubensprodukte vergleichen.':'Compare design options for Bible and faith products.',link:de?'Patterns entdecken (EN)':'Browse patterns',href:'/reference/'}
+];
+---
+<section class="light-hero" aria-labelledby="home-title">
+ <img class="light-hero-plate" src={`${base}/assets/reflected-light/hero-ground.webp`} width="1881" height="836" alt="" fetchpriority="high" />
+ <div class="light-hero-copy">
+  <h1 id="home-title">{de ? <>Was ist hier wirklich<br/><em>die gute Nachricht?</em></> : <>What really is<br/><em>good news here?</em></>}</h1>
+  <p class="light-deck">{de?'Christliche Reflexion und praktische Werkzeuge für einen sich wandelnden Kontext.':'Christian reflection and practical tools for a changing context.'}</p>
+  <p class="light-audience">{de?'Eine offene Ressource für christliche Technologie- und Gemeindeverantwortliche.':'An open resource for Christian technologists and ministry leaders.'}</p>
+  <a class="light-button" href="#start">{de?'Einen Einstieg finden':'Find your starting point'}<span class="light-arrow" aria-hidden="true" set:html={arrow}/></a>
+ </div>
+</section>
+<section class="light-listening" aria-labelledby="listening-title">
+ <img src={`${base}/assets/brand/silicon-makers-v14.webp`} alt={de?'Fiktives Team bei der gemeinsamen Arbeit an Papierprototypen in einem urbanen Büro':'Fictional team working together on paper prototypes in an urban office'} width="1536" height="1024" />
+ <div class="light-listening-copy"><h2 id="listening-title">{de?'Gute Gestaltung beginnt mit Zuhören.':'Faithful design starts with listening.'}</h2><p>{de?'Den Menschen. Unserem sich wandelnden Kontext. Der guten Nachricht von Jesus.':'To people. To our changing context. To the good news of Jesus.'}</p><p class="light-caption">{de?'Generiertes redaktionelles Bild':'Generated editorial image'}</p></div>
+</section>
+<section class="light-example" aria-labelledby="return-title">
+ <div class="light-example-copy"><h2 id="return-title">{de?<>Ein Tag verpasst.<br/>Ein offener Empfang.</>:<>A missed day.<br/>A welcoming return.</>}</h2><p>{de?'Wie könnte eine Bibel-App helfen, wieder anzufangen?':'How might a reading app help someone begin again?'}</p><a class="light-link" href={pattern}>{de?'Optionen vergleichen (EN)':'Compare the options'}<span class="light-arrow" aria-hidden="true" set:html={arrow}/></a></div>
+ <figure class="light-example-preview">
+  <div class="light-screens" lang="en">
+   <div class="reading-screen reading-screen-first" aria-label="Illustrative return option: continue or start fresh">
+    <img src={`${base}/assets/reflected-light/phone-landscape.webp`} width="1580" height="996" alt="" loading="lazy" />
+    <div class="reading-screen-content"><h3>Welcome back.</h3><p>It’s good to see you again.</p><a class="reading-action" href={pattern}>Continue where you left off</a><a class="reading-secondary" href={pattern}>Start fresh</a></div>
+    <div class="reading-tabs" aria-hidden="true">{[[house,'Home'],[book,'Read'],[compass,'Explore'],[dots,'More']].map(([icon,label])=><span><i set:html={icon}/>{label}</span>)}</div>
+   </div>
+   <div class="reading-screen reading-screen-second" aria-label="Illustrative return option: resume or choose a new plan"><span class="reading-plant" aria-hidden="true" set:html={plant}/><h3>Pick up again?</h3><p>You left off a few days ago.<br/>Whenever you’re ready,<br/>we’re here.</p><a class="reading-action" href={pattern}>Resume</a><a class="reading-secondary" href={pattern}>Choose a new plan</a></div>
+  </div><figcaption class="light-caption">{de?'Illustrative Gestaltungsoptionen · Beispiele auf Englisch':'Illustrative design options'}</figcaption>
+ </figure>
+</section>
+<section class="light-resources" id="start" aria-label={de?'Einen Einstieg wählen':'Choose your starting point'}>
+ {routes.map(r=><article><span class="resource-icon" aria-hidden="true" set:html={r.icon}/><h2>{r.title}</h2><p>{r.body}</p><a class="light-link" href={`${base}${r.href}`}>{r.link}<span class="light-arrow" aria-hidden="true" set:html={arrow}/></a></article>)}
+</section>
+<section class="light-context" aria-labelledby="context-title">
+ <div class="light-context-copy"><h2 id="context-title">{de?<>Unser Kontext<br/>verändert sich.</>:<>Our context<br/>keeps changing.</>}</h2><p>{de?'Treue Antworten beginnen damit, neu hinzusehen.':'Faithful responses begin with renewed attention.'}</p><a class="light-link" href={`${base}${prefix}/blog/which-rock/`}>{de?'Den Ansatz vertiefen':'Explore the perspective'}<span class="light-arrow" aria-hidden="true" set:html={arrow}/></a></div>
+ <figure><img src={`${base}/assets/brand/silicon-context-v7.webp`} width="1280" height="720" alt={de?'Generierte Berliner Nachbarschaft mit schwebendem, lichtreflektierendem Siliziumstein':'Generated Berlin neighborhood with a floating silicon specimen reflecting the light'} loading="lazy"/><figcaption class="light-caption">{de?'Generierte Nachbarschaftsszene · ':'Generated neighborhood vignette · '}<a href={`${base}/calling/rocks/`}>{de?'Die Metapher (EN)':'The metaphor'}</a></figcaption></figure>
+</section>

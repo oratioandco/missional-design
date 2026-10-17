@@ -1,0 +1,24 @@
+{
+  "id": "neighborhood-editorial",
+  "displayedOption": 1,
+  "conceptName": "Neighborhood editorial",
+  "prompt": "Create a realistic production-quality editorial WEBSITE design for Missional by Design, edge to edge, 1440 pixels wide by 2000 pixels tall, showing a continuous homepage and several sections. Crisp readable UI text, no browser or device frame, no concept labels. Audience: Christian technologists and ministry/product leaders. The offer connects Christian purpose, changing context and practical design. Preserve the approved rock specimen from reference image 1: the same broad fractured outline and reflective pale icy blue-silver faces. No new rock silhouette, dents, tiny gravel texture, glass crystal, physical cross cutout or biblical props. A sharp four-point optical reflection with slight local glow is part of this identity. Reference images 2 and 3 are quality benchmarks for confident hierarchy, human photography and editorial rhythm, not brands/layouts to copy. Reference image 4 provides an approved fictional startup working scene. Use no fabricated testimonials, endorsements or performance statistics. Small captions identify generated editorial imagery. At most two type families; readable body type, restrained structural devices, no repetitive cards, excessive labels or large black slabs. One primary action. Navigation reads Principles, Canvas, Patterns, Writing, About, EN / DE. Wordmark: missional \u2014 by \u2014 design, with two short rules around by. Show real text in every visible section. Current date is 16 October 2026; no dates are needed.\nArt direction: a contemporary Berlin cultural journal, generous light surfaces, expressive editorial serif headlines and disciplined sans-serif reading text. Lead with context and place. Build an asymmetric magazine opening: a confident short headline and deck above a wide panoramic photograph, never the familiar copy-left/image-right hero. Use the approved Berlin-neighborhood image with its rock as the main photograph; preserve the rock and plausible light. Headline: \u201cFaithful design for a changing world.\u201d Deck: \u201cChristian purpose. Changing contexts. Practical tools for what comes next.\u201d Primary action: \u201cExplore the approach\u201d. The photograph enters the first screen. Below it, a markedly different quiet pale-blue passage asks \u201cWhat really is the good news in our context?\u201d with one sentence: \u201cKeep listening to the people and places you serve.\u201d Then a tangible example, \u201cA neighborhood changes. The church stays.\u201d and short copy about listening again, linked to \u201cWork with the canvas\u201d. End the visible portion with elegantly typeset index links \u201cUnderstand the principles\u201d, \u201cCompare product decisions\u201d, \u201cRead the essays\u201d, with brief descriptions. Let imagery, type scale and breathing space create the hierarchy; generous colour from the photo, no dark section.",
+  "tool": "built-in image_gen",
+  "requestedDimensions": [
+    1440,
+    2000
+  ],
+  "actualDimensions": [
+    897,
+    1752
+  ],
+  "approved": false,
+  "source": "/Users/ttreppmann/.codex/generated_images/01a12f6b-ac5e-7c60-abd8-87930df83270/exec-1b936ad1-1cae-4e54-8ccb-4edeca6a1c54.png",
+  "references": [
+    "../bible-faith-patterns/brand/assets/silicon-context-v7.webp",
+    "../bible-faith-patterns/research/design-directions/editorial-density-review-2026-10-16/02-praxis-home-1440-first.png",
+    "../bible-faith-patterns/research/design-directions/editorial-density-review-2026-10-16/03-faithtech-home-1440-first.png",
+    "../bible-faith-patterns/research/design-directions/editorial-refinement/remaining-images-v14/makers-v14.png"
+  ],
+  "sha256": "0a99aa78cd779a08c15f16b605d0b171cc7001c3484250e4fc51aaa0c77a9795"
+}

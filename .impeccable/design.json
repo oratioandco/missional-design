@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-16T11:03:09.395137+00:00",
+  "title": "Design System: Missional by Design \u2014 Reflected Light",
+  "extensions": {
+    "colorMeta": {
+      "navy-ink": {
+        "role": "primary",
+        "displayName": "Navy Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0602 250.01)",
+          "oklch(26% 0.0602 250.01)",
+          "oklch(38% 0.0602 250.01)",
+          "oklch(49% 0.0602 250.01)",
+          "oklch(61% 0.0602 250.01)",
+          "oklch(72% 0.0602 250.01)",
+          "oklch(84% 0.0602 250.01)",
+          "oklch(95% 0.0602 250.01)"
+        ]
+      },
+      "ice-field": {
+        "role": "neutral",
+        "displayName": "Ice Field",
+        "tonalRamp": [
+          "oklch(15% 0.0101 228.89)",
+          "oklch(26% 0.0101 228.89)",
+          "oklch(38% 0.0101 228.89)",
+          "oklch(49% 0.0101 228.89)",
+          "oklch(61% 0.0101 228.89)",
+          "oklch(72% 0.0101 228.89)",
+          "oklch(84% 0.0101 228.89)",
+          "oklch(95% 0.0101 228.89)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(49% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(72% 0.0000 89.88)",
+          "oklch(84% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "muted-ink": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0485 248.87)",
+          "oklch(26% 0.0485 248.87)",
+          "oklch(38% 0.0485 248.87)",
+          "oklch(49% 0.0485 248.87)",
+          "oklch(61% 0.0485 248.87)",
+          "oklch(72% 0.0485 248.87)",
+          "oklch(84% 0.0485 248.87)",
+          "oklch(95% 0.0485 248.87)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "tonalRamp": [
+          "oklch(15% 0.0196 235.76)",
+          "oklch(26% 0.0196 235.76)",
+          "oklch(38% 0.0196 235.76)",
+          "oklch(49% 0.0196 235.76)",
+          "oklch(61% 0.0196 235.76)",
+          "oklch(72% 0.0196 235.76)",
+          "oklch(84% 0.0196 235.76)",
+          "oklch(95% 0.0196 235.76)"
+        ]
+      },
+      "action": {
+        "role": "primary",
+        "displayName": "Action",
+        "tonalRamp": [
+          "oklch(15% 0.0653 247.68)",
+          "oklch(26% 0.0653 247.68)",
+          "oklch(38% 0.0653 247.68)",
+          "oklch(49% 0.0653 247.68)",
+          "oklch(61% 0.0653 247.68)",
+          "oklch(72% 0.0653 247.68)",
+          "oklch(84% 0.0653 247.68)",
+          "oklch(95% 0.0653 247.68)"
+        ]
+      },
+      "action-hover": {
+        "role": "primary",
+        "displayName": "Action Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0772 246.43)",
+          "oklch(26% 0.0772 246.43)",
+          "oklch(38% 0.0772 246.43)",
+          "oklch(49% 0.0772 246.43)",
+          "oklch(61% 0.0772 246.43)",
+          "oklch(72% 0.0772 246.43)",
+          "oklch(84% 0.0772 246.43)",
+          "oklch(95% 0.0772 246.43)"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Focus",
+        "tonalRamp": [
+          "oklch(15% 0.0993 245.88)",
+          "oklch(26% 0.0993 245.88)",
+          "oklch(38% 0.0993 245.88)",
+          "oklch(49% 0.0993 245.88)",
+          "oklch(61% 0.0993 245.88)",
+          "oklch(72% 0.0993 245.88)",
+          "oklch(84% 0.0993 245.88)",
+          "oklch(95% 0.0993 245.88)"
+        ]
+      },
+      "selection": {
+        "role": "primary",
+        "displayName": "Selection",
+        "tonalRamp": [
+          "oklch(15% 0.0400 240.06)",
+          "oklch(26% 0.0400 240.06)",
+          "oklch(38% 0.0400 240.06)",
+          "oklch(49% 0.0400 240.06)",
+          "oklch(61% 0.0400 240.06)",
+          "oklch(72% 0.0400 240.06)",
+          "oklch(84% 0.0400 240.06)",
+          "oklch(95% 0.0400 240.06)"
+        ]
+      },
+      "resource-rule": {
+        "role": "neutral",
+        "displayName": "Resource Rule",
+        "tonalRamp": [
+          "oklch(15% 0.0178 234.52)",
+          "oklch(26% 0.0178 234.52)",
+          "oklch(38% 0.0178 234.52)",
+          "oklch(49% 0.0178 234.52)",
+          "oklch(61% 0.0178 234.52)",
+          "oklch(72% 0.0178 234.52)",
+          "oklch(84% 0.0178 234.52)",
+          "oklch(95% 0.0178 234.52)"
+        ]
+      },
+      "reference-link": {
+        "role": "neutral",
+        "displayName": "Reference Link",
+        "tonalRamp": [
+          "oklch(15% 0.0843 242.65)",
+          "oklch(26% 0.0843 242.65)",
+          "oklch(38% 0.0843 242.65)",
+          "oklch(49% 0.0843 242.65)",
+          "oklch(61% 0.0843 242.65)",
+          "oklch(72% 0.0843 242.65)",
+          "oklch(84% 0.0843 242.65)",
+          "oklch(95% 0.0843 242.65)"
+        ]
+      },
+      "reference-dark-paper": {
+        "role": "neutral",
+        "displayName": "Reference Dark Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0395 245.71)",
+          "oklch(26% 0.0395 245.71)",
+          "oklch(38% 0.0395 245.71)",
+          "oklch(49% 0.0395 245.71)",
+          "oklch(61% 0.0395 245.71)",
+          "oklch(72% 0.0395 245.71)",
+          "oklch(84% 0.0395 245.71)",
+          "oklch(95% 0.0395 245.71)"
+        ]
+      },
+      "reference-dark-card": {
+        "role": "neutral",
+        "displayName": "Reference Dark Card",
+        "tonalRamp": [
+          "oklch(15% 0.0447 242.79)",
+          "oklch(26% 0.0447 242.79)",
+          "oklch(38% 0.0447 242.79)",
+          "oklch(49% 0.0447 242.79)",
+          "oklch(61% 0.0447 242.79)",
+          "oklch(72% 0.0447 242.79)",
+          "oklch(84% 0.0447 242.79)",
+          "oklch(95% 0.0447 242.79)"
+        ]
+      },
+      "reference-dark-ink": {
+        "role": "neutral",
+        "displayName": "Reference Dark Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0126 236.63)",
+          "oklch(26% 0.0126 236.63)",
+          "oklch(38% 0.0126 236.63)",
+          "oklch(49% 0.0126 236.63)",
+          "oklch(61% 0.0126 236.63)",
+          "oklch(72% 0.0126 236.63)",
+          "oklch(84% 0.0126 236.63)",
+          "oklch(95% 0.0126 236.63)"
+        ]
+      },
+      "reference-dark-muted": {
+        "role": "neutral",
+        "displayName": "Reference Dark Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0312 242.07)",
+          "oklch(26% 0.0312 242.07)",
+          "oklch(38% 0.0312 242.07)",
+          "oklch(49% 0.0312 242.07)",
+          "oklch(61% 0.0312 242.07)",
+          "oklch(72% 0.0312 242.07)",
+          "oklch(84% 0.0312 242.07)",
+          "oklch(95% 0.0312 242.07)"
+        ]
+      },
+      "reference-dark-rule": {
+        "role": "neutral",
+        "displayName": "Reference Dark Rule",
+        "tonalRamp": [
+          "oklch(15% 0.0456 242.13)",
+          "oklch(26% 0.0456 242.13)",
+          "oklch(38% 0.0456 242.13)",
+          "oklch(49% 0.0456 242.13)",
+          "oklch(61% 0.0456 242.13)",
+          "oklch(72% 0.0456 242.13)",
+          "oklch(84% 0.0456 242.13)",
+          "oklch(95% 0.0456 242.13)"
+        ]
+      },
+      "reference-dark-link": {
+        "role": "neutral",
+        "displayName": "Reference Dark Link",
+        "tonalRamp": [
+          "oklch(15% 0.0618 238.89)",
+          "oklch(26% 0.0618 238.89)",
+          "oklch(38% 0.0618 238.89)",
+          "oklch(49% 0.0618 238.89)",
+          "oklch(61% 0.0618 238.89)",
+          "oklch(72% 0.0618 238.89)",
+          "oklch(84% 0.0618 238.89)",
+          "oklch(95% 0.0618 238.89)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Editorial display",
+        "purpose": "Main questions and expressive titles."
+      },
+      "body": {
+        "displayName": "Reading and UI",
+        "purpose": "Sustained reading, navigation and controls."
+      }
+    },
+    "shadows": [
+      {
+        "name": "action",
+        "value": "0 4px 10px #10324f15",
+        "purpose": "Subtle action lift."
+      },
+      {
+        "name": "reading-frame",
+        "value": "0 7px 14px #1b3c5021",
+        "purpose": "Illustrative device frames only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "arrow",
+        "value": "transform 180ms ease-out",
+        "purpose": "4px arrow movement, reduced-motion gated."
+      },
+      {
+        "name": "menu",
+        "value": "opacity 160ms ease, transform 160ms ease, visibility 160ms",
+        "purpose": "Mobile menu state change."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow-preview",
+        "value": "359px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "719px"
+      },
+      {
+        "name": "desktop-min",
+        "value": "720px"
+      },
+      {
+        "name": "compact-desktop-max",
+        "value": "1100px"
+      },
+      {
+        "name": "wide-min",
+        "value": "1600px"
+      },
+      {
+        "name": "reference-mobile-max",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main route into the resources.",
+      "html": "<a class=\"ds-button\" href=\"#start\">Find your starting point<svg aria-hidden=\"true\" width=\"20\" height=\"20\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z\"/></svg></a>",
+      "css": ".ds-button{display:inline-flex;align-items:center;gap:16px;background:#10324f;color:#fff;padding:13px 22px;border-radius:4px;font:400 20px/1.4 \"Mona Sans\",system-ui,sans-serif;text-decoration:none;box-shadow:0 4px 10px #10324f15}.ds-button:hover{background:#234e72}.ds-button:focus-visible{outline:3px solid #256292;outline-offset:5px}@media(prefers-reduced-motion:no-preference){.ds-button svg{transition:transform 180ms ease-out}.ds-button:hover svg{transform:translateX(4px)}}"
+    },
+    {
+      "name": "Editorial link",
+      "kind": "button",
+      "refersTo": "editorial-link",
+      "description": "Quiet onward route.",
+      "html": "<a class=\"ds-link\" href=\"#options\">Compare the options<svg aria-hidden=\"true\" width=\"20\" height=\"20\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z\"/></svg></a>",
+      "css": ".ds-link{display:inline-flex;align-items:center;gap:10px;color:#102c47;font:550 20px/1.5 \"Mona Sans\",system-ui,sans-serif;text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1px}.ds-link:hover{text-decoration-thickness:2px}.ds-link:focus-visible{outline:3px solid #256292;outline-offset:5px}"
+    },
+    {
+      "name": "Resource item",
+      "kind": "card",
+      "refersTo": "resource-item",
+      "description": "Ruled navigation item, shown in its mobile form.",
+      "html": "<article class=\"ds-resource\"><h2>Canvas</h2><p>Explore what good news means in your context.</p><a href=\"#canvas\">Open the canvas</a></article>",
+      "css": ".ds-resource{background:#fff;color:#102c47;padding:28px 0;border-top:1px solid #d3e0e8;max-width:340px}.ds-resource h2{font:400 34px/1.05 \"Instrument Serif\",Georgia,serif;margin:0 0 10px}.ds-resource p{font:400 16px/1.45 \"Mona Sans\",system-ui,sans-serif}.ds-resource a{color:inherit;font:550 16px/1.5 \"Mona Sans\",system-ui,sans-serif;text-underline-offset:6px}.ds-resource a:hover{text-decoration-thickness:2px}.ds-resource a:focus-visible{outline:3px solid #256292;outline-offset:5px}"
+    },
+    {
+      "name": "Main navigation",
+      "kind": "nav",
+      "refersTo": "editorial-link",
+      "description": "Desktop navigation and locale controls; application menu behavior is documented in DESIGN.md.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Primary\"><a href=\"#principles\">Principles</a><a href=\"#canvas\">Canvas</a><a href=\"#patterns\">Patterns</a><span><a href=\"#en\" aria-current=\"page\">EN</a> / <a href=\"#de\">DE</a></span></nav>",
+      "css": ".ds-nav{display:flex;gap:32px;flex-wrap:wrap;padding:24px;background:#f2f7fa;font:500 14px/1.5 \"Mona Sans\",system-ui,sans-serif}.ds-nav a{color:#102c47;text-decoration:none}.ds-nav a:hover{text-decoration:underline}.ds-nav a:focus-visible{outline:3px solid #256292;outline-offset:5px}"
+    },
+    {
+      "name": "Stacked wordmark",
+      "kind": "custom",
+      "refersTo": "editorial-link",
+      "description": "The two-rule editorial identity lockup.",
+      "html": "<a class=\"ds-wordmark\" href=\"#home\"><span>missional</span><span class=\"ds-rule\"><i>by</i></span><span>design</span></a>",
+      "css": ".ds-wordmark{display:inline-flex;flex-direction:column;align-items:center;color:#102c47;font:400 36px/.84 \"Instrument Serif\",Georgia,serif;letter-spacing:-.02em;text-decoration:none}.ds-rule{display:flex;align-items:center;gap:5px;width:90%;margin:3px 0}.ds-rule:before,.ds-rule:after{content:\"\";height:1px;flex:1;background:currentColor}.ds-rule i{font:400 .54em/1 \"Instrument Serif\",Georgia,serif;letter-spacing:0}.ds-wordmark:hover{opacity:.85}.ds-wordmark:focus-visible{outline:3px solid #256292;outline-offset:5px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Reflected Light",
+    "overview": "Reflected Light pairs luminous paper and cool blue fields with navy ink, expressive editorial typography and warm urban working scenes. The fractured reflective silicon specimen carries reflected witness: broad rugged fractures, icy blue-silver sheen and a sharp four-point optical glint. It does not stand for the gospel or foundation.\n\nThe active system is the final cascade in `src/styles/reflected-light.css`, after global and historical brand styles. Native marketing remains light. The adjacent reference extends this world for sustained reading with a deliberate light/dark control and system-preference fallback. Home composition remains in its surface contract rather than becoming a universal page template.",
+    "keyCharacteristics": [
+      "White and pale ice-blue fields with navy ink.",
+      "Instrument Serif display and short editorial passages; Mona Sans body and UI.",
+      "Restrained rules, small control radii, generous editorial image fields.",
+      "Warm fictional urban photography with visible generated-image disclosure."
+    ],
+    "rules": [
+      {
+        "name": "The Light Marketing Rule",
+        "body": "Keep native marketing surfaces light; carry alternate reading themes through the reference's existing theme controls.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Use Instrument Serif for display and short editorial passages, and Mona Sans for reading, navigation and controls.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do use the active Reflected Light overrides as the visual source of truth.",
+      "Do retain the actual approved neighborhood source and label generated fictional scenes.",
+      "Do keep reading proposals visibly illustrative and preserve source/evidence distinctions.",
+      "Do preserve menu, locale routing, reading controls, workbook data and one-page A3 export behavior."
+    ],
+    "donts": [
+      "Don't inherit the historical amber, cream or Roboto Flex display palette as the new identity.",
+      "Don't substitute a cross-cutout rock, abstract rock icons or unlabelled fictional testimony.",
+      "Don't turn marketing preview text into evidence of observed app behavior or spiritual outcomes."
+    ]
+  }
+}

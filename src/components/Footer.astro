@@ -1,5 +1,6 @@
 ---
 import EmailLink from './EmailLink.astro';
+import BrandWordmark from './BrandWordmark.astro';
 import { t, type Locale } from '../i18n/ui';
 
 interface Props {
@@ -17,10 +18,11 @@ const canvasPath = `${base}/missional-canvas/`;
 ---
 
 <footer class="footer">
+  <div class="light-footer-credit"><a href={`${prefix}/`} aria-label="Missional by Design"><BrandWordmark /></a><p>{lang === 'de' ? 'Eine offene Ressource von Tobias Treppmann.' : 'An open resource by Tobias Treppmann.'}</p></div>
   <div class="footer-grid">
     <div>
       <div class="footer-title">{t(lang, 'footer.tagline')}</div>
-      <p style="max-width: 40ch; font-weight: 300; opacity: 0.7;">
+      <p style="max-width: 40ch; font-weight: 400;">
         {t(lang, 'footer.blurb')}
       </p>
     </div>
@@ -43,7 +45,7 @@ const canvasPath = `${base}/missional-canvas/`;
       </ul>
     </div>
   </div>
-  <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; opacity: 0.5; font-size: 0.75rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1);">
+  <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; font-size: 0.75rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1);">
     <div>{t(lang, 'footer.credit')}</div>
     <ul style="list-style: none; padding: 0; margin: 0; display: flex; gap: 1.5rem;">
       <li><a href={impressumHref}>{t(lang, 'footer.links.imprint')}</a></li>

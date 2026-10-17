@@ -1,7 +1,7 @@
 {
  "name": "Bible & Faith Patterns content API",
  "site": "https://missional.design",
- "updated": "2026-10-16",
+ "updated": "2026-10-17",
  "licence": {
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
@@ -20,7 +20,7 @@
  },
  "counts": {
   "deep_dives": 22,
-  "sources": 385,
+  "sources": 386,
   "examples": 131,
   "pages": 229
  }

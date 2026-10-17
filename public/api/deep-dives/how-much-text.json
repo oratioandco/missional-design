@@ -94,6 +94,10 @@
    "text": "A highlighted verse with the passage dimmed around it keeps attention and context together, and works best with audio: read-along highlighting helped children with dyslexia follow, and karaoke-style subtitles have supported literacy at scale. Let readers choose the window, as Immersive Reader does with one, three or five lines."
   },
   {
+   "heading": "Checking off verses is a second dimension",
+   "text": "Some apps let readers tick off each verse as read; Dewfall, a small iPhone app, does this and counts verses read toward finishing the Bible. That is not another point between one verse and a whole chapter. It decides what counts as read, and it works at any unit. Like one verse per card, it makes the verse the unit, splitting a passage into separate rows, but the passage stays in view. A tick can help someone keep their own place in a long book. It can also reward getting through over taking in: Dyer found app readers finished more of a plan without understanding more. If you offer it, make the tick a deliberate act, never infer it from opening or scrolling, and let it be undone."
+  },
+  {
    "heading": "Passage and chapter carry the argument",
    "text": "A passage gives a reading its natural shape, the unit preachers and plans use, but its boundaries and titles are editorial. Reader’s editions such as the ESV Reader’s Bible remove numbers and headings so people read longer and follow the story. Make the longer mode calm and easy to enter, and keep the reader’s place across modes."
   }
@@ -655,6 +659,16 @@
    "shows": "Wolf argues skimming habits weaken the slower processes of deep reading, and that readers can learn to switch deliberately between modes.",
    "application": "Make the slower mode easy to enter and protect it from interruption.",
    "limits": "An argument drawing on neuroscience, not a controlled trial of interfaces."
+  },
+  {
+   "key": "dewfall",
+   "title": "dewfall: Bible study and prayer journal",
+   "url": "https://apps.apple.com/us/app/dewfall/id6787696480",
+   "author": "Tejas Kumar · App Store listing, version 1.2.0",
+   "kind": "Design reference",
+   "shows": "The listing describes a progress map of all 66 books with “verses read”, streaks and a reading rhythm; in the app each verse can be ticked off as read.",
+   "application": "Counting by the verse makes the verse the unit of record and splits the text into rows; keep the tick deliberate and separate from opening.",
+   "limits": "A small, recent app with few ratings; one example of a pattern, not evidence of its effects."
   },
   {
    "key": "hutchings",
