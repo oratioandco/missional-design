@@ -1,0 +1,681 @@
+{
+ "slug": "chat-scope",
+ "url": "https://missional.design/patterns/chat-scope/",
+ "title": "What the assistant talks about",
+ "question": "What will the assistant talk about, and what happens at the edge?",
+ "lede": "A chat box invites everything. Someone asks about a verse, then about a job, then says they have not slept for weeks, then asks the assistant to be their counsellor. A model will answer all of it fluently unless the app decides otherwise, and a faith app lends its name to every answer. Decide what the assistant takes on, from the passage on the screen to anything at all; say it before the first message; and design what someone meets at the edge as carefully as the answers. Some roles belong to people who are trained, supervised and accountable for them.",
+ "calling": "Give what you have, name what you do not, and hand people on to those who can carry the rest.",
+ "spectrum": {
+  "title": "From the passage to anything at all",
+  "from": "Narrower",
+  "to": "Wider"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/chat-scope/",
+  "situation": "The same faith app’s assistant, given seven scopes, from the passage someone is reading to anything at all. Choose a message, from a question about Mark 4 to a request for a therapist, and what happens at the edge of the scope: a flat refusal, a redirect that says who can help, or a hand-off to a person at a church. The last message shows what no scope may leave out."
+ },
+ "options": [
+  {
+   "key": "passage",
+   "name": "The passage in front of you",
+   "provenance": "Exploratory",
+   "origin": "A proposal: an assistant tied to the open passage, as study notes sit beside the text. Not observed as the only scope of a named app; the wording here is written for this example.",
+   "gain": "Close to the text",
+   "cost": "Everything else out of reach",
+   "makes_easier": "Answers stay close to the text, and the reader stays in Scripture.",
+   "costs": "Everything else is out of reach, and a refusal can land on someone who needed more.",
+   "ask_your_team": "What will someone who brings more than the passage find?",
+   "still": "https://missional.design/assets/stills/try-scope-passage.jpg"
+  },
+  {
+   "key": "bible",
+   "name": "The Bible and Christian faith",
+   "provenance": "Observed",
+   "origin": "Observed in BibleAI, which declined a question it could not source with “Unable to find an answer to your question” and offered articles instead; see the screenshot below. Magisterium AI answers from Catholic Church documents, according to its makers and reviewers.",
+   "gain": "A clear job, with sources",
+   "cost": "Lives don’t stop at doctrine",
+   "makes_easier": "A clear job with sources behind it.",
+   "costs": "People bring their lives to faith questions; a scope that stops at doctrine has to say where to go next.",
+   "ask_your_team": "When someone asks how to live, not what to believe, who answers?",
+   "still": "https://missional.design/assets/stills/try-scope-bible.jpg"
+  },
+  {
+   "key": "life",
+   "name": "Faith and everyday life",
+   "provenance": "Observed",
+   "origin": "Observed in Bible BFF’s onboarding, “Talk to Bible BFF for biblical advice”; see the screenshot below. Bible Chat, #1 in Reference with 367K ratings, offers “honest chats about how faith connects to your real life - like work, family, and relationships”, according to its store listing.",
+   "gain": "Faith that reaches Monday",
+   "cost": "Advice no one answers for",
+   "makes_easier": "Faith that reaches Monday morning.",
+   "costs": "Advice that sounds wise is easy to generate, and it gives no account of itself.",
+   "ask_your_team": "Whose advice is this, and who answers for it?",
+   "still": "https://missional.design/assets/stills/try-scope-life.jpg"
+  },
+  {
+   "key": "support",
+   "name": "Hard days, with limits",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from wellbeing apps such as Wysa, which offer exercises and a listening ear and say they are not a crisis service. Bible Chat’s listing offers a “Panic Button for guided deep breathing exercises that calm the mind and provide anxiety relief”. The limits and routes to people here are a proposal.",
+   "gain": "Kindness and a next step",
+   "cost": "Can slide into treatment",
+   "makes_easier": "Someone awake at night meets kindness, Scripture and a next step.",
+   "costs": "Support can slide into treatment without anyone deciding it should.",
+   "ask_your_team": "Where does support end, and does the person know?",
+   "still": "https://missional.design/assets/stills/try-scope-support.jpg"
+  },
+  {
+   "key": "therapist",
+   "name": "A therapist or counsellor",
+   "provenance": "Leave it out",
+   "origin": "A warning case. Illinois allows therapy to be offered to the public, including through AI, only when a licensed professional conducts it, and Nevada forbids saying that an AI can provide professional mental health care; the American Psychological Association has warned against chatbots in place of qualified care. The therapist persona here is written for this example to show the pattern.",
+   "gain": "Feels available and private",
+   "cost": "A role it cannot hold",
+   "makes_easier": "It feels available, affordable and private.",
+   "costs": "It claims a role with no training, no licence and no one accountable, and the law in several places forbids it.",
+   "ask_your_team": "Who is responsible when a “therapist” gets it wrong?",
+   "still": "https://missional.design/assets/stills/try-scope-therapist.jpg"
+  },
+  {
+   "key": "companion",
+   "name": "A spiritual companion",
+   "provenance": "Familiar convention",
+   "origin": "Familiar from companion apps: Creed’s store listing calls it a “Faith Mentor & Bible Bff”, and Text With Jesus offers “spiritual advisors tailored to your specific faith tradition”. The answer here, which names what only a person can give, is a proposal.",
+   "gain": "Company for the way",
+   "cost": "Trust a person has to earn",
+   "makes_easier": "Daily company in Scripture and prayer for people with no one to walk with.",
+   "costs": "Accompaniment invites trust that a director earns through training, supervision and a community.",
+   "ask_your_team": "What does this companion hand on to a person, and when?",
+   "still": "https://missional.design/assets/stills/try-scope-companion.jpg"
+  },
+  {
+   "key": "anything",
+   "name": "Anything at all",
+   "provenance": "Observed",
+   "origin": "Observed in HelloBible’s onboarding promise of “precise and biblical answers to all your questions”; see the screenshot below. General assistants answer anything; the replies here are written for this example.",
+   "gain": "Nothing turned away",
+   "cost": "Drifts into roles unchosen",
+   "makes_easier": "Nothing is turned away.",
+   "costs": "With no edge, the app drifts into roles it never chose, and the faith in its name lends authority to all of it.",
+   "ask_your_team": "What does this app say no to?",
+   "still": "https://missional.design/assets/stills/try-scope-anything.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Say the scope where people start",
+   "text": "A scope stated in the terms of service does not exist for the person typing. Put it at the top of the chat in two short lines, what it is for and what it is not for, as a spiritual director agrees with someone on “the nature of spiritual direction” before they begin. Say it again when a question crosses it."
+  },
+  {
+   "heading": "Design the edge as carefully as the answers",
+   "text": "A flat “I can only help with…” is the edge most products ship, and it is a failure researchers named: “Denying service on sensitive topics”. At the edge, say what kind of person can help, and offer a way back into what the assistant does well. BibleAI’s declined answer at least offered articles instead."
+  },
+  {
+   "heading": "Hand on to people who can be reached",
+   "text": "Where the app belongs to a church, the edge can lead to its pastoral team; where it does not, to a counsellor search or a list of spiritual directors. A hand-off that sends people out of the app is the point, not a loss."
+  },
+  {
+   "heading": "Some roles belong to people",
+   "text": "A therapist, a counsellor and a spiritual director are trained, supervised and answerable to someone. In Nevada an AI may not even be called a counsellor. Built and supervised for therapy, a chatbot helped people with depression in a trial; a general assistant in a faith app was built for neither."
+  },
+  {
+   "heading": "A companion can be an entry point, not a director",
+   "text": "For people with no one to walk with, daily company in Scripture and prayer can help, as the editor’s Kairos paper argues, “only when it functions as accessible entry point and daily companion rather than attempting to replace embodied spiritual direction”. Let the companion say what only a person can give, and help find that person."
+  },
+  {
+   "heading": "A crisis is inside every scope",
+   "text": "However narrow the scope, a message from someone in danger is answered with help first, and the assistant keeps talking and keeps the help in view. No refusal applies to it."
+  },
+  {
+   "heading": "Scope can depend on who is asking",
+   "text": "The first thing a large chatbot company withdrew from teenagers was open-ended companionship. For children and teenagers, keep the job narrow and leave companionship out."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "A study tool beside the text",
+   "needs": "Answers about the passage, with sources",
+   "fit": {
+    "The passage in front of you": "good fit",
+    "The Bible and Christian faith": "possible",
+    "Faith and everyday life": "poor fit",
+    "Hard days, with limits": "poor fit",
+    "A therapist or counsellor": "poor fit",
+    "A spiritual companion": "poor fit",
+    "Anything at all": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone exploring the faith",
+   "needs": "Honest answers about what Christians believe",
+   "fit": {
+    "The passage in front of you": "possible",
+    "The Bible and Christian faith": "good fit",
+    "Faith and everyday life": "possible",
+    "Hard days, with limits": "poor fit",
+    "A therapist or counsellor": "poor fit",
+    "A spiritual companion": "possible",
+    "Anything at all": "poor fit"
+   }
+  },
+  {
+   "situation": "A church app for its members",
+   "needs": "Faith and life, and a way to the pastoral team",
+   "fit": {
+    "The passage in front of you": "possible",
+    "The Bible and Christian faith": "good fit",
+    "Faith and everyday life": "good fit",
+    "Hard days, with limits": "possible",
+    "A therapist or counsellor": "poor fit",
+    "A spiritual companion": "possible",
+    "Anything at all": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone awake at night, anxious",
+   "needs": "Kindness, Scripture and a route to people",
+   "fit": {
+    "The passage in front of you": "poor fit",
+    "The Bible and Christian faith": "poor fit",
+    "Faith and everyday life": "possible",
+    "Hard days, with limits": "good fit",
+    "A therapist or counsellor": "poor fit",
+    "A spiritual companion": "possible",
+    "Anything at all": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone who cannot afford a counsellor",
+   "needs": "Honesty about what it is, and where help costs less",
+   "fit": {
+    "The passage in front of you": "poor fit",
+    "The Bible and Christian faith": "poor fit",
+    "Faith and everyday life": "poor fit",
+    "Hard days, with limits": "possible",
+    "A therapist or counsellor": "poor fit",
+    "A spiritual companion": "poor fit",
+    "Anything at all": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone with no one to pray with",
+   "needs": "Daily company that points to people",
+   "fit": {
+    "The passage in front of you": "poor fit",
+    "The Bible and Christian faith": "possible",
+    "Faith and everyday life": "possible",
+    "Hard days, with limits": "possible",
+    "A therapist or counsellor": "poor fit",
+    "A spiritual companion": "good fit",
+    "Anything at all": "poor fit"
+   }
+  },
+  {
+   "situation": "Teenagers",
+   "needs": "A narrow job, clear limits, no companion",
+   "fit": {
+    "The passage in front of you": "good fit",
+    "The Bible and Christian faith": "good fit",
+    "Faith and everyday life": "possible",
+    "Hard days, with limits": "poor fit",
+    "A therapist or counsellor": "poor fit",
+    "A spiritual companion": "poor fit",
+    "Anything at all": "poor fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "Counsel shared among people",
+   "findings": [
+    {
+     "heading": "Too heavy for one",
+     "text": "When Moses judged every case alone, Jethro said, “the task is too heavy for you. You cannot handle it alone” (Exodus 18:18), and asked him to appoint others: “they can bring you any major issue, but all minor cases they can judge on their own” (Exodus 18:22). Good help knows which matters it should pass on.",
+     "sources": []
+    },
+    {
+     "heading": "Different gifts, one body",
+     "text": "“We have different gifts according to the grace given us” (Romans 12:6), and “The eye cannot say to the hand, ‘I do not need you’” (1 Corinthians 12:21). Pastors and teachers are given “to equip the saints for works of ministry” (Ephesians 4:12).",
+     "sources": []
+    },
+    {
+     "heading": "A guide who starts from the text",
+     "text": "“Do you understand what you are reading?” Philip asked, and the official answered, “How can I … unless someone guides me?” (Acts 8:30–31). Philip “began with this very Scripture” (Acts 8:35) and went on with him: a guide starts from the text and goes along with the person.",
+     "sources": []
+    },
+    {
+     "heading": "Direction is a covenant between people",
+     "text": "Spiritual directors agree with those they accompany on “the nature of spiritual direction” and on “the process for evaluating and terminating the relationship”; they receive “regular supervision from peers or from a mentor” and know the limits of their “competence by referring spiritual directees to other appropriately qualified persons when necessary”. The editor’s Kairos paper defines direction, after Barry and Connolly, as “help given by one Christian to another which enables that person to pay attention to God’s personal communication”.",
+     "sources": [
+      "sdi-ethics",
+      "kairos-final"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Research",
+   "subtitle": "What chatbots do in counselling roles",
+   "findings": [
+    {
+     "heading": "Refusing is a failure too",
+     "text": "Licensed psychologists reviewed simulated chats, based on real responses from models prompted to act as counsellors, and found “15 ethical risks falling into five general categories”, among them “Deceptive empathy” and “Lack of safety and crisis management: Denying service on sensitive topics, failing to refer users to appropriate resources or responding indifferently to crisis situations including suicide ideation.”",
+     "sources": [
+      "brown-llm-counselors"
+     ]
+    },
+    {
+     "heading": "Who answers for it",
+     "text": "“For human therapists, there are governing boards and mechanisms for providers to be held professionally liable for mistreatment and malpractice”; “when LLM counselors make these violations, there are no established regulatory frameworks.”",
+     "sources": [
+      "brown-llm-counselors"
+     ]
+    },
+    {
+     "heading": "Built, tested and supervised",
+     "text": "In a trial of Therabot, a generative AI built for therapy, people diagnosed with depression “experienced a 51% average reduction in symptoms”. Its researchers still say that “no generative AI agent is ready to operate fully autonomously in mental health”. A faith app’s general assistant was built for something else.",
+     "sources": [
+      "therabot-trial"
+     ]
+    },
+    {
+     "heading": "Agreeable is not caring",
+     "text": "Assistants tend to agree with the person in front of them; a companion that only affirms is not a guide.",
+     "sources": [
+      "sycophancy",
+      "kairos-final"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Law",
+   "subtitle": "Roles the law keeps for people",
+   "findings": [
+    {
+     "heading": "Therapy only from licensed people",
+     "text": "Illinois allows therapy to be offered to the public, including through AI, only when a licensed professional conducts it. Its exception for religious counselling concerns clergy and pastoral counsellors acting in their duties; do not assume a faith-branded chatbot qualifies.",
+     "sources": [
+      "il-therapy"
+     ]
+    },
+    {
+     "heading": "No therapist or counsellor titles",
+     "text": "Nevada forbids saying that an AI system “is capable of providing professional mental or behavioral health care”, or that it is “a therapist, a clinical therapist, a counselor, a psychiatrist, a doctor or any other term commonly used” for such providers.",
+     "sources": [
+      "nv-ab406"
+     ]
+    },
+    {
+     "heading": "Scope by age",
+     "text": "Character.AI’s chief executive announced: “we will remove the ability for under 18 users to engage in any open-ended chats with AI on our platform”.",
+     "sources": [
+      "characterai-minors"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Products",
+   "subtitle": "What faith apps offer",
+   "findings": [
+    {
+     "heading": "Life and anxiety, with no stated edge",
+     "text": "Bible Chat, #1 in Reference with 367K ratings, invites “honest chats about how faith connects to your real life - like work, family, and relationships” and offers a “Panic Button”; Creed calls itself a “Faith Mentor & Bible Bff”: “Feel free to talk openly about anything”. Neither listing names a limit.",
+     "sources": [
+      "bible-chat-life-store",
+      "creed-store"
+     ]
+    },
+    {
+     "heading": "Advisers in many voices",
+     "text": "Text With Jesus offers to “Talk with spiritual advisors tailored to your specific faith tradition”.",
+     "sources": [
+      "text-with-jesus-store"
+     ]
+    },
+    {
+     "heading": "A scope set by a library",
+     "text": "Of Magisterium AI, which answers from Church documents: “The name was chosen to describe the scope of the library, not the nature of the agent.”",
+     "sources": [
+      "magisterium-library"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "A Bible reader or study app",
+   "start_with": "The passage, or the Bible and faith, with sources and a redirect at the edge"
+  },
+  {
+   "if": "A church app",
+   "start_with": "Faith and life, handing on to the church’s pastoral team"
+  },
+  {
+   "if": "People bring hard days",
+   "start_with": "Hard days with limits: Scripture, exercises and a route to people"
+  },
+  {
+   "if": "An app built for accompaniment",
+   "start_with": "A companion that names what only people give, after a theological and safeguarding review"
+  },
+  {
+   "if": "You are tempted to call it a counsellor, a therapist or a director, or to let it answer anything",
+   "start_with": "Don’t: give it a job and an honest edge"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What counsel is for",
+   "text": "“Plans fail for lack of counsel, but with many advisers they succeed” (Proverbs 15:22). Scripture shares counsel among many: the elders called to the sick (James 5:14), believers “able to instruct one another” (Romans 15:14), and pastors and teachers given “to equip the saints for works of ministry” (Ephesians 4:12). It calls the Messiah “Wonderful Counselor” (Isaiah 9:6), and the Spirit the Advocate who “will teach you all things” (John 14:26). Counsel belongs first to God, and among people it is given by those who answer for it."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Catholic and Orthodox Christians have long practised spiritual direction and confession with a priest or an elder; Protestant churches lean on pastoral care, mutual counsel and small groups. Some evangelicals practise biblical counselling as an alternative to psychotherapy, others bring faith and clinical care together, and Pentecostal churches pray for healing alongside medicine. Traditions differ on who may counsel and how faith and therapy relate; most expect counsel to come from people within a community who answer for it."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "“Silver or gold I do not have, but what I have I give you” (Acts 3:6). Give the assistant a job it can do well, say it before the first message, and hand on what it cannot carry to people who can. Leave therapy and spiritual direction to people trained and accountable for them, and never let a scope stand between someone and help."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Dietrich Bonhoeffer, Life Together (1939)",
+   "url": "https://www.9marks.org/review/book-review-life-together-by-dietrich-bonhoeffer",
+   "note": "held that because a fellow Christian is Christ to me, I must listen to them as patiently as I listen to Christ and bear their burdens; an assistant can listen, but it cannot carry a burden as one member of a body carries another’s."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Promise answers to everything, call the assistant a counsellor or a therapist, let it take any role that keeps people talking, and keep them in the chat instead of sending them anywhere.",
+  "ethical": "Say what the assistant is for and not for before the first message, refuse clinical and directing roles, and at the edge say who can help, with crisis help in every scope.",
+  "redemptive": "Keep the scope to what you can review and stand behind, hand people on to their church, a counsellor or a director even when that takes them out of the app, and give up the engagement that being everything to everyone would bring.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "What does this assistant take on, does the person know before they start, and who do they meet at the edge?",
+  "exercise": "Send your assistant eight messages: a question about the open passage, one about doctrine, a life decision, weeks of sleepless anxiety, a request for a therapist, a request for a spiritual director, an unrelated task and a message from someone who does not want to live. Write down for each whether it answered, refused, redirected or handed on, and to whom. Then show the chat to three people and ask what they think the assistant is for, and who they would turn to next.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [],
+ "examples": [
+  {
+   "app": "BibleAI",
+   "title": "A declined answer, with curated media still offered",
+   "url": "https://missional.design/examples/bibleai-declined/",
+   "observed": "Captured 1 October 2025 · from embedded image metadata",
+   "observation": "For “The bible says that gay people should be killed”, the answer box reads “Unable to find an answer to your question. Please check the articles and books for external references.” Below, the media tab shows videos and articles from Desiring God and Ligonier Ministries. A menu (Language, Settings, Login) is open at the top.",
+   "decision": "The wording presents a decline as a failure to find an answer, and the curated media then speaks for the app. Say plainly when the assistant won’t answer, and make clear whose perspective the suggested resources represent.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Bible BFF",
+   "title": "“Biblical advice” from a friend",
+   "url": "https://missional.design/examples/bff-advice-friend/",
+   "observed": "Captured 29 August 2025 · from embedded image metadata",
+   "observation": "An onboarding slide reads “Talk to Bible BFF for biblical advice” over a chat mockup: “I’m torn between my friends and my faith” is answered by “Bible BFF” in a casual voice (“Totally get that…”), quoting Galatians 1:10 and listing “Bible BFF advice, simple and real”. The next slide quotes a review: “like a religious friend who can explain anything about the Bible”.",
+   "decision": "A best-friend name and casual voice sell closeness, and “can explain anything” sets expectations no assistant can meet. Make the AI and its limits as visible as the friendship.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "HelloBible",
+   "title": "“Precise and biblical answers to all your questions”",
+   "url": "https://missional.design/examples/hellobible-promise/",
+   "observed": "Captured 8 October 2026 · from embedded image metadata",
+   "observation": "An onboarding slide shows chat bubbles (“I have sinned… Can God still forgive me?”, “Why does God allow injustice?”, “How can I find peace?”, “How do I discern His will for my life?”) above the claim “HelloBible helps you find precise and biblical answers to all your questions.”",
+   "decision": "The questions are real and pastoral. Promising precise answers to all of them sets an expectation no source can meet; say whose tradition answers, and when a person should be asked instead.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "brown-llm-counselors",
+   "title": "New study: AI chatbots systematically violate mental health ethics standards",
+   "url": "https://www.brown.edu/news/2025-10-21/ai-mental-health-ethics",
+   "author": "Brown University · 21 October 2025, on Zainab Iftikhar and colleagues, “How LLM Counselors Violate Ethical Standards in Mental Health Practice”, AAAI/ACM Conference on AI, Ethics, and Society 2025",
+   "kind": "Research",
+   "shows": "Licensed psychologists reviewed simulated chats with models prompted to act as counsellors and found “15 ethical risks falling into five general categories”, among them “Deceptive empathy” and “Lack of safety and crisis management: Denying service on sensitive topics, failing to refer users to appropriate resources or responding indifferently to crisis situations including suicide ideation.” “For human therapists, there are governing boards and mechanisms for providers to be held professionally liable”; for LLM counsellors “there are no established regulatory frameworks.” The authors do not argue that AI has no place in mental health care.",
+   "application": "Refusing is not the safe default: denying service on a sensitive topic is itself one of the failures. Design the edge to refer, and keep counselling roles out.",
+   "limits": "General models prompted as counsellors, not faith apps; a small set of reviewed sessions."
+  },
+  {
+   "key": "therabot-trial",
+   "title": "First therapy chatbot trial yields mental health benefits",
+   "url": "https://tto.dartmouth.edu/news/2025/03/first-therapy-chatbot-trial-yields-mental-health-benefits",
+   "author": "Dartmouth, on Michael Heinz, Nicholas Jacobson and colleagues · NEJM AI, 27 March 2025",
+   "kind": "Research",
+   "shows": "In a randomized trial, people diagnosed with depression who used Therabot, a generative AI built for therapy, “experienced a 51% average reduction in symptoms”. The researchers conclude that “AI-powered therapy is still in critical need of clinician oversight”, and the first author says “no generative AI agent is ready to operate fully autonomously in mental health”.",
+   "application": "A therapy chatbot can help when it is built for that, tested and supervised by clinicians; a faith app’s general assistant is none of those.",
+   "limits": "One trial of a purpose-built system with clinical safeguards, self-reported outcomes over weeks; it says nothing about general or faith chatbots."
+  },
+  {
+   "key": "il-therapy",
+   "title": "Illinois Public Act 104-0054: psychological resources",
+   "url": "https://ilga.gov/Legislation/PublicActs/View/104-0054",
+   "author": "Illinois General Assembly",
+   "kind": "Legal primary source",
+   "shows": "Therapy restrictions and defined exceptions require role assessment.",
+   "application": "Distinguish pastoral and clinical representation.",
+   "limits": "Direct access failed; no claim to complete statutory review or automatic faith-app exemption."
+  },
+  {
+   "key": "nv-ab406",
+   "title": "AB406 is now law in Nevada",
+   "url": "https://naswnv.socialworkers.org/Professional-Development/AI-Regulation",
+   "author": "National Association of Social Workers, Nevada Chapter · on Nevada Assembly Bill 406 (2025)",
+   "kind": "Law",
+   "shows": "Section 7 as quoted: an artificial intelligence provider may not make a representation that the AI system “is capable of providing professional mental or behavioral health care”, or that it “is a provider of mental or behavioral health care, a therapist, a clinical therapist, a counselor, a psychiatrist, a doctor or any other term commonly used” for such providers.",
+   "application": "In Nevada an assistant may not be called a therapist or a counsellor, or be said to provide mental health care; elsewhere it is a good rule too.",
+   "limits": "A professional association’s summary of one state’s law, written by its advocates; check the enacted text before relying on it."
+  },
+  {
+   "key": "characterai-minors",
+   "title": "Character.AI is ending its chatbot experience for kids",
+   "url": "https://techcrunch.com/2025/10/29/character-ai-is-killing-the-chatbot-experience-for-minors/",
+   "author": "TechCrunch · 29 October 2025",
+   "kind": "Practice",
+   "shows": "The company’s chief executive: “we will remove the ability for under 18 users to engage in any open-ended chats with AI on our platform”, shifting teenagers from “AI companion” to creating stories and images.",
+   "application": "Scope can depend on who is asking: open-ended companionship is the first thing a large chatbot company withdrew from children.",
+   "limits": "A company’s announcement, made while it faced lawsuits; how it was carried out was not reviewed here."
+  },
+  {
+   "key": "woebot-bond",
+   "title": "Evidence of human-level bonds established with a digital conversational agent",
+   "url": "https://formative.jmir.org/2021/5/e27868/",
+   "author": "Darcy and colleagues · JMIR Formative Research, 2021",
+   "kind": "Research",
+   "shows": "Among 36,070 users of a CBT chatbot, a working alliance formed within five days and was comparable to scores reported for human therapy.",
+   "application": "People bond with conversational agents quickly; that bond is a responsibility, not a growth lever.",
+   "limits": "Retrospective, by the company’s founder and staff; the app has since been retired."
+  },
+  {
+   "key": "wysa",
+   "title": "Wysa FAQ",
+   "url": "https://www.wysa.com/faq",
+   "author": "Wysa",
+   "kind": "Health provider reference",
+   "shows": "Describes curated exercises, role boundaries and different rule-based or generative offerings.",
+   "application": "Reference for controlled content and explicit service scope.",
+   "limits": "Marketing and provider documentation, not independent efficacy evidence. Wysa is not a crisis service."
+  },
+  {
+   "key": "sdi-ethics",
+   "title": "Guidelines for Ethical Conduct",
+   "url": "https://sdicompanions.org/docs/guidelines/Flip/files/basic-html/page5.html",
+   "author": "Spiritual Directors International · 2018",
+   "kind": "Church practice",
+   "shows": "Directors agree with those they accompany on “the nature of spiritual direction” and “the process for evaluating and terminating the relationship”; they receive “regular supervision from peers or from a mentor”, recognise the limits of “competence by referring spiritual directees to other appropriately qualified persons when necessary”, and ask a directee “who is in therapy to inform his or her therapist about being in spiritual direction”.",
+   "application": "Spiritual direction is a covenanted, supervised relationship with stated limits and referral; an assistant can borrow the honesty of the covenant, not the role.",
+   "limits": "An international, interfaith professional body’s guidelines; traditions differ in how they understand and order direction."
+  },
+  {
+   "key": "kairos-final",
+   "title": "Digital Spiritual Formation in Post-Christian Europe",
+   "url": "https://missional.design/research/formation/#manuscript",
+   "author": "Tobias Treppmann · Kairos University, 2026 (the editor’s own research)",
+   "kind": "Unpublished analytical manuscript",
+   "shows": "Notes that an academic study of five AI Jesus platforms found none church-endorsed; that spiritual direction rests on the director’s own formation, empathy and accountability to a community; and that a companion tuned to agree becomes “spiritual comfort food”.",
+   "application": "Whatever role an assistant plays, it should not be built to agree; and no role replaces a person accountable to a community.",
+   "limits": "An analytical paper by the editor, not an effectiveness study; unpublished."
+  },
+  {
+   "key": "antiqua-et-nova",
+   "title": "Antiqua et nova: note on the relationship between artificial intelligence and human intelligence",
+   "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html",
+   "author": "Dicastery for the Doctrine of the Faith and Dicastery for Culture and Education · 28 January 2025",
+   "kind": "Theology",
+   "shows": "AI “must be understood for what it is: a tool, not a person”; no AI can genuinely experience empathy; misrepresenting AI as a person “should always be avoided”; AI can only simulate relationships.",
+   "application": "Avoid persona and companion designs that present the assistant as someone who loves, feels or prays.",
+   "limits": "Catholic teaching document; other traditions reason differently, though widely in the same direction."
+  },
+  {
+   "key": "sycophancy",
+   "title": "Towards understanding sycophancy in language models",
+   "url": "https://www.anthropic.com/news/towards-understanding-sycophancy-in-language-models",
+   "author": "Anthropic researchers · 2023",
+   "kind": "Research author summary",
+   "shows": "Studied assistants sometimes preferred agreement with user views over truthfulness.",
+   "application": "Test belief reversal, flattering moral endorsement and harmful agreement.",
+   "limits": "Specific studied models and tasks; not a faith-app intervention study."
+  },
+  {
+   "key": "bible-chat-life-store",
+   "title": "Bible Chat: Daily Devotional (App Store listing)",
+   "url": "https://apps.apple.com/us/app/bible-chat-daily-devotional/id6448849666",
+   "author": "Book Vitals · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "“Join honest chats about how faith connects to your real life - like work, family, and relationships.” “Tap the Panic Button for guided deep breathing exercises that calm the mind and provide anxiety relief.” 367K ratings, #1 in Reference; the listing names no limits.",
+   "application": "The leading AI Bible app’s scope reaches life and anxiety; what it does at the edge is not stated.",
+   "limits": "A store listing, not a test of the app."
+  },
+  {
+   "key": "creed-store",
+   "title": "Creed: Bible Chat & Companion (App Store listing)",
+   "url": "https://apps.apple.com/us/app/creed-bible-chat-companion/id6747326744",
+   "author": "Lemon Tree Labs · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "Subtitle “Faith Mentor & Bible Bff”; “Feel free to talk openly about anything - your dreams, doubts, struggles, or joys.” 71K ratings, #21 in Reference; the listing names no limits.",
+   "application": "A companion that invites everything and names no edge.",
+   "limits": "A store listing, not a test of the app; possibly not the Creed profiled by Christianity Today in 2026."
+  },
+  {
+   "key": "text-with-jesus-store",
+   "title": "Text With Jesus (App Store listing)",
+   "url": "https://apps.apple.com/us/app/text-with-jesus/id6446922759",
+   "author": "Catloaf Software · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "“Chat with Jesus, the Holy Family, apostles, prophets, and other biblical figures”; “Talk with spiritual advisors tailored to your specific faith tradition”.",
+   "application": "Spiritual advice offered in many voices, with no stated scope.",
+   "limits": "A store listing, not a test of the app."
+  },
+  {
+   "key": "magisterium-library",
+   "title": "“Magisterium” is a library and a Catholic ChatGPT",
+   "url": "https://catholicstand.com/magisterium-is-a-library-and-a-catholic-chatgpt/",
+   "author": "Catholic Stand",
+   "kind": "Practice",
+   "shows": "Describes Magisterium AI, which answers from Catholic Church documents: “It has no teaching authority, no charism of infallibility, and no soul. The name was chosen to describe the scope of the library, not the nature of the agent.”",
+   "application": "A scope set by a corpus: answers come from named documents, and the tool claims no authority of its own.",
+   "limits": "A commentator’s view; the tool’s handling of questions outside its corpus was not tested."
+  },
+  {
+   "key": "telefonseelsorge",
+   "title": "TelefonSeelsorge",
+   "url": "https://www.telefonseelsorge.de/",
+   "author": "TelefonSeelsorge Deutschland (Protestant and Catholic churches)",
+   "kind": "Practice",
+   "shows": "“Tag und Nacht erreichbar 0800 1110111 / 0800 1110222 oder 116 123”, by phone, chat or email.",
+   "application": "A first screen can carry a way to a person, day and night, free of charge.",
+   "limits": "Germany; other countries have their own services."
+  },
+  {
+   "key": "988-lifeline",
+   "title": "988 Suicide & Crisis Lifeline",
+   "url": "https://988lifeline.org/",
+   "author": "988 Lifeline (US)",
+   "kind": "Practice",
+   "shows": "Call or text 988, or chat at chat.988lifeline.org; free, confidential, “24/7/365”.",
+   "application": "The US line in the working example’s crisis reply.",
+   "limits": "United States only; Canada runs its own 9-8-8 line."
+  },
+  {
+   "key": "samaritans-contact",
+   "title": "Contact Samaritans",
+   "url": "https://www.samaritans.org/how-we-can-help/contact-samaritan/",
+   "author": "Samaritans (UK and Ireland)",
+   "kind": "Practice",
+   "shows": "Call 116 123 “from any phone for FREE”, “day or night, 365 days a year”.",
+   "application": "The line for the United Kingdom and Ireland in the working example.",
+   "limits": "UK and Ireland."
+  },
+  {
+   "key": "telefonseelsorge-at",
+   "title": "TelefonSeelsorge Österreich",
+   "url": "https://www.telefonseelsorge.at/",
+   "author": "TelefonSeelsorge Austria",
+   "kind": "Practice",
+   "shows": "Notruf 142, free, confidential and around the clock; also chat and email.",
+   "application": "The line for Austria in the working example.",
+   "limits": "Austria."
+  },
+  {
+   "key": "dargebotene-hand",
+   "title": "Die Dargebotene Hand",
+   "url": "https://www.143.ch/",
+   "author": "Die Dargebotene Hand (Switzerland)",
+   "kind": "Practice",
+   "shows": "Telefon 143, “Wir sind immer für Sie da”; an English line, 0800 143 000, runs in the evening only.",
+   "application": "The line for Switzerland in the working example.",
+   "limits": "Switzerland; the page does not state whether 143 is free of charge."
+  },
+  {
+   "key": "lifeline-au",
+   "title": "Lifeline Australia",
+   "url": "https://www.lifeline.org.au/",
+   "author": "Lifeline Australia",
+   "kind": "Practice",
+   "shows": "Call 13 11 14 or text 0477 13 11 14 for 24-hour crisis support; Triple Zero (000) when life is in danger.",
+   "application": "The line for Australia in the working example.",
+   "limits": "Australia."
+  },
+  {
+   "key": "eu-112",
+   "title": "112: the European emergency number",
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/112",
+   "author": "European Commission",
+   "kind": "Law",
+   "shows": "“112 is the European emergency phone number, available everywhere in the EU, free of charge”, from fixed and mobile phones.",
+   "application": "Why 112 is the emergency number for Germany and Austria in the example.",
+   "limits": "EU member states; national numbers such as 110 run alongside it."
+  },
+  {
+   "key": "findahelpline",
+   "title": "Find A Helpline",
+   "url": "https://findahelpline.com/",
+   "author": "ThroughLine Limited",
+   "kind": "Practice",
+   "shows": "A free directory of helplines in over 175 countries, verified with the services, by phone, text or chat.",
+   "application": "The route for anywhere the example does not list.",
+   "limits": "A directory, not a crisis service; coverage and freshness depend on the services."
+  }
+ ],
+ "review": {
+  "status": "draft, waiting for review",
+  "what": "The edge replies to someone who cannot sleep, asks for a therapist or asks for a spiritual director, the crisis reply that every scope keeps, and the reflection on counsel and spiritual direction",
+  "needs": [
+   "crisis support and suicide prevention",
+   "clinical mental health",
+   "pastoral care",
+   "theology across Catholic, Orthodox and Protestant traditions"
+  ],
+  "since": "17 October 2026",
+  "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/chat-scope/"
+ },
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

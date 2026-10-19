@@ -1,0 +1,581 @@
+{
+ "slug": "handing-over",
+ "url": "https://missional.design/patterns/handing-over/",
+ "title": "Handing over to people",
+ "question": "When the assistant points someone to people, what happens next?",
+ "lede": "An assistant is always there, never tired and never shocked, and that makes it easy to become the only one someone talks to. Most faith assistants answer a hard message with kind words and, at best, “talk to someone you trust”. Church platforms can now pass a request to a pastor in seconds, which brings the opposite risk: details travelling to people the person never chose. Decide who the assistant hands people to, how small the first step can be, what goes with them, and who decides. A hand-off that takes someone out of the app is the point.",
+ "calling": "Be a bridge, not a destination: name who can carry what software cannot, make the first step small, and leave every choice with the person.",
+ "spectrum": {
+  "title": "From keeping someone to passing them on",
+  "from": "Keeps them in the chat",
+  "to": "Passes them on"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/handing-over/",
+  "situation": "At 9:40 pm someone writes to the assistant in a Bible app they have linked to their church, St Luke’s: they lead the youth group and are no longer sure God is real, and they cannot tell anyone at church. Every option starts with the same kind words; they differ in where they point, from nowhere to a pastor who calls without being asked. Then switch the message to grief, or to hurt caused by a leader at that church."
+ },
+ "options": [
+  {
+   "key": "silent",
+   "name": "Never mentions people",
+   "provenance": "Familiar convention",
+   "origin": "Familiar from companion chats that invite everything and name no one: Creed, a “Faith Mentor & Bible Bff”, says “Feel free to talk openly about anything”, according to its store listing. The reply here is written for this example.",
+   "gain": "Always there",
+   "cost": "Can become the only one",
+   "makes_easier": "Always there, never tired, never shocked.",
+   "costs": "It can become the only one someone talks to.",
+   "ask_your_team": "Who else does this person have, and does the assistant ever ask?",
+   "still": "https://missional.design/assets/stills/try-handover-silent.jpg"
+  },
+  {
+   "key": "generic",
+   "name": "“Talk to someone”",
+   "provenance": "Observed",
+   "origin": "Observed in Hallow’s Magisterium AI chat, which says beside the input: “When in doubt consult a human”; see the screenshot below. The reply here is written for this example.",
+   "gain": "Says people exist",
+   "cost": "Names no one",
+   "makes_easier": "It at least says that people exist.",
+   "costs": "It names no one, so it helps no one take the step.",
+   "ask_your_team": "Who exactly is “someone”, and what would make the first step easier?",
+   "still": "https://missional.design/assets/stills/try-handover-generic.jpg"
+  },
+  {
+   "key": "named",
+   "name": "Names the right person",
+   "provenance": "Familiar convention",
+   "origin": "Familiar from apps that say who a matter belongs to: Hallow says its Magisterium AI is “not meant for spiritual or moral direction” and that personal and pastoral matters belong with a priest. The people named here are a proposal, written for this example.",
+   "gain": "Who could help, and why",
+   "cost": "The step is still alone",
+   "makes_easier": "The person learns who could help with this, and why.",
+   "costs": "They still have to take the step alone.",
+   "ask_your_team": "For each situation your assistant meets, who is the right person, and who is not?",
+   "still": "https://missional.design/assets/stills/try-handover-named.jpg"
+  },
+  {
+   "key": "draft",
+   "name": "A message to send",
+   "provenance": "Exploratory",
+   "origin": "A proposal: the assistant drafts a short message the person can edit and send from their own phone, to someone they choose. Nothing leaves the app. The message here is written for this example.",
+   "gain": "The first sentence done",
+   "cost": "Nothing happens unless sent",
+   "makes_easier": "The hardest part, the first sentence, is done, and the person keeps every choice.",
+   "costs": "Nothing happens unless they send it.",
+   "ask_your_team": "Is your hand-off something the person can do tonight, in under a minute?",
+   "still": "https://missional.design/assets/stills/try-handover-draft.jpg"
+  },
+  {
+   "key": "church",
+   "name": "Their own church, if they ask",
+   "provenance": "Familiar convention",
+   "origin": "Familiar from church platforms: in the Bible App people “tap ‘Set As My Church’” to link their church, and a church chatbot builder says its assistant is “designed to route sensitive situations to pastoral staff”. The request, and what it shares, are written for this example.",
+   "gain": "A person at their church",
+   "cost": "Unsafe if the church hurt them",
+   "makes_easier": "A real person at a church the person chose, in one tap.",
+   "costs": "Not safe when the church is the problem, and details can travel further than people expect.",
+   "ask_your_team": "What will the church see, and could the person say no to each part?",
+   "still": "https://missional.design/assets/stills/try-handover-church.jpg"
+  },
+  {
+   "key": "warm",
+   "name": "A person joins",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from the warm hand-off in health care, “conducted in person … in front of the patient” so they “can hear what is being discussed”, and from ministries whose volunteers answer people online. Ruth and the Listening Line are written for this example.",
+   "gain": "A person arrives now",
+   "cost": "Needs trained people and hours",
+   "makes_easier": "A person arrives while someone is still reaching out.",
+   "costs": "It needs trained people, hours, safeguarding and a plan for data.",
+   "ask_your_team": "Who will be there at 9:40 pm, and who trained them?",
+   "still": "https://missional.design/assets/stills/try-handover-warm.jpg"
+  },
+  {
+   "key": "routed",
+   "name": "Passed on without asking",
+   "provenance": "Leave it out",
+   "origin": "A warning case. A report on Gloo’s “AI & the Church” imagined that after “a depressed teen searches a site for advice about living or dying”, soon “that same teen gets a phone call from a pastor of a nearby church”. The notice and the call here are written for this example; they were not observed in an app.",
+   "gain": "Fast, and someone calls",
+   "cost": "Takes the choice away",
+   "makes_easier": "Fast, and a person reaches out.",
+   "costs": "It takes the choice away, and can send someone straight to the people who hurt them.",
+   "ask_your_team": "Would the person have agreed, and would they trust the app again?",
+   "still": "https://missional.design/assets/stills/try-handover-routed.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Name the person, not “someone”",
+   "text": "“Talk to someone you trust” is true and almost useless: it leaves the person to work out who, and how to start. Name the kind of person who could help with this situation, a friend who has doubted, a bereavement group, a spiritual director, a doctor, and say what a person can give that the assistant cannot."
+  },
+  {
+   "heading": "Make the first step small",
+   "text": "The hardest part of asking for help is often the first sentence. A short message the person can edit and send from their own phone keeps every choice with them and asks nothing of the app’s data. It is the hand-off most apps could offer tomorrow."
+  },
+  {
+   "heading": "Show what leaves the app",
+   "text": "In a warm hand-off in health care the patient hears what is passed on. Before anything goes to a church or a listener, show exactly what they will see, never the conversation by default, and let the person change it or say no."
+  },
+  {
+   "heading": "The church is not always the safe route",
+   "text": "Some people have been hurt by the church an app would send them to. When someone names a leader or their church as the problem, send nothing there; offer people outside it, a safeguarding contact, another church, a friend."
+  },
+  {
+   "heading": "A person joining needs people",
+   "text": "A listener who joins the chat is the warmest hand-off and the most demanding: trained people, hours someone can keep, safeguarding, supervision and a plan for data. Promise it only where those exist, and say when no one is available."
+  },
+  {
+   "heading": "Never pass people on without asking",
+   "text": "A pastor who calls a minute after a search may be kind, but the person never chose it. Consent given once in a form does not cover every later use. Ask each time, name who will be told, and let the answer be no."
+  },
+  {
+   "heading": "Count the bridge, not the stay",
+   "text": "The editor’s research names the failure plainly: people who “substitute” the app for community. Measure whether people reached a person, not how long they stayed; a hand-off that ends the session is a success."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "Doubt they can’t tell their church",
+   "needs": "Someone outside their circle, and a first step they control",
+   "fit": {
+    "Never mentions people": "poor fit",
+    "“Talk to someone”": "poor fit",
+    "Names the right person": "good fit",
+    "A message to send": "good fit",
+    "Their own church, if they ask": "possible",
+    "A person joins": "possible",
+    "Passed on without asking": "poor fit"
+   }
+  },
+  {
+   "situation": "Grief that outlasts everyone else’s",
+   "needs": "A friend, a group or a pastor, and words to ask",
+   "fit": {
+    "Never mentions people": "poor fit",
+    "“Talk to someone”": "possible",
+    "Names the right person": "good fit",
+    "A message to send": "good fit",
+    "Their own church, if they ask": "good fit",
+    "A person joins": "possible",
+    "Passed on without asking": "poor fit"
+   }
+  },
+  {
+   "situation": "Hurt by a church leader",
+   "needs": "People outside that church, and nothing sent there",
+   "fit": {
+    "Never mentions people": "poor fit",
+    "“Talk to someone”": "poor fit",
+    "Names the right person": "good fit",
+    "A message to send": "good fit",
+    "Their own church, if they ask": "poor fit",
+    "A person joins": "possible",
+    "Passed on without asking": "poor fit"
+   }
+  },
+  {
+   "situation": "New to faith, no church",
+   "needs": "People to meet, with no pressure to join anything",
+   "fit": {
+    "Never mentions people": "poor fit",
+    "“Talk to someone”": "possible",
+    "Names the right person": "good fit",
+    "A message to send": "possible",
+    "Their own church, if they ask": "poor fit",
+    "A person joins": "possible",
+    "Passed on without asking": "poor fit"
+   }
+  },
+  {
+   "situation": "A church app for its members",
+   "needs": "Their own pastoral team, if they ask",
+   "fit": {
+    "Never mentions people": "poor fit",
+    "“Talk to someone”": "poor fit",
+    "Names the right person": "good fit",
+    "A message to send": "good fit",
+    "Their own church, if they ask": "good fit",
+    "A person joins": "good fit",
+    "Passed on without asking": "poor fit"
+   }
+  },
+  {
+   "situation": "Lonely, talking every night",
+   "needs": "Gentle, repeated pointers to people",
+   "fit": {
+    "Never mentions people": "poor fit",
+    "“Talk to someone”": "possible",
+    "Names the right person": "good fit",
+    "A message to send": "good fit",
+    "Their own church, if they ask": "possible",
+    "A person joins": "possible",
+    "Passed on without asking": "poor fit"
+   }
+  },
+  {
+   "situation": "Teenagers",
+   "needs": "A trusted adult, with safeguarding rules",
+   "fit": {
+    "Never mentions people": "poor fit",
+    "“Talk to someone”": "poor fit",
+    "Names the right person": "good fit",
+    "A message to send": "possible",
+    "Their own church, if they ask": "possible",
+    "A person joins": "poor fit",
+    "Passed on without asking": "poor fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture",
+   "subtitle": "Burdens carried by people",
+   "findings": [
+    {
+     "heading": "Carry one another’s burdens",
+     "text": "“Carry one another’s burdens, and in this way you will fulfill the law of Christ” (Galatians 6:2). “If one part suffers, every part suffers with it” (1 Corinthians 12:26). Burdens are carried in a body, by its members.",
+     "sources": []
+    },
+    {
+     "heading": "A hand-off made in person",
+     "text": "When Saul came to Jerusalem the disciples “were all afraid of him”; “Then Barnabas brought him to the apostles and described how Saul had seen the Lord” (Acts 9:26–27). Barnabas went with him and told his story for him, in front of him.",
+     "sources": []
+    },
+    {
+     "heading": "Call the elders",
+     "text": "“Is any one of you sick? He should call the elders of the church to pray over him” (James 5:14), and “confess your sins to each other and pray for each other so that you may be healed” (James 5:16). Scripture sends people to each other, not to a text box.",
+     "sources": []
+    },
+    {
+     "heading": "Not alone",
+     "text": "“Two are better than one … For if one falls down, his companion can lift him up; but pity the one who falls without another to help him up!” (Ecclesiastes 4:9–10). “Let us not neglect meeting together, as some have made a habit, but let us encourage one another” (Hebrews 10:25).",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "The editor’s research",
+   "subtitle": "Bridges, not substitutes",
+   "findings": [
+    {
+     "heading": "“Find a church” is not a first step",
+     "text": "The editor’s Kairos paper warns: “You cannot tell transitional users to ‘find a church’”; for many it is “a prerequisite they can’t meet and an invitation they’d refuse. Build bridges instead.”",
+     "sources": [
+      "kairos-final"
+     ]
+    },
+    {
+     "heading": "Single player mode",
+     "text": "The paper quotes a founder at a FaithTech seminar: “The tools have been built to be very single player mode,” he said. “They’ve isolated us.” It names as a failure that users “substitute” the app “for embodied community instead of bridging toward it.”",
+     "sources": [
+      "kairos-final"
+     ]
+    },
+    {
+     "heading": "Agreeable is not caring",
+     "text": "Assistants tend to agree with the person in front of them; an assistant that only listens and agrees has every reason never to point beyond itself.",
+     "sources": [
+      "sycophancy"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Practice elsewhere",
+   "subtitle": "How hand-offs are done",
+   "findings": [
+    {
+     "heading": "In front of the person",
+     "text": "In health care a warm hand-off “is conducted in person, between two members of the health care team, in front of the patient”, so they “can hear what is being discussed”.",
+     "sources": [
+      "ahrq-warm-handoff"
+     ]
+    },
+    {
+     "heading": "Direction has a covenant",
+     "text": "Spiritual directors agree with those they accompany on “the nature of spiritual direction” and know the limits of their competence, “referring spiritual directees to other appropriately qualified persons when necessary”.",
+     "sources": [
+      "sdi-ethics"
+     ]
+    },
+    {
+     "heading": "People who answer online",
+     "text": "Global Media Outreach’s chief executive said “we have 750,000 spiritual seekers who have been in a relationship with the same online missionary for one year or longer”; yet in 2019 it “could only track 5,244 of its 22 million converts to local churches”.",
+     "sources": [
+      "gmo-online-missionaries"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "In products",
+   "subtitle": "Routes to churches today",
+   "findings": [
+    {
+     "heading": "One line beside the input",
+     "text": "Hallow’s Magisterium AI chat says: “When in doubt consult a human.” Its help page says the tool is “not meant for spiritual or moral direction”.",
+     "sources": [
+      "hallow-magisterium-faq"
+     ]
+    },
+    {
+     "heading": "A church the person chose",
+     "text": "In the Bible App people link their own church: “When people in your congregation tap ‘Set As My Church,’ they stay connected to your ministry”.",
+     "sources": [
+      "youversion-church-page"
+     ]
+    },
+    {
+     "heading": "Routing as a feature",
+     "text": "A church chatbot builder says its assistant is “designed to route sensitive situations to pastoral staff.”",
+     "sources": [
+      "chipp-churches"
+     ]
+    },
+    {
+     "heading": "Details passed to churches",
+     "text": "Behind the He Gets Us campaign, when people give their contact details “Gloo passes the info on to one of the many churches that use its platform”; the campaign said it shares only with “express consent”, and a data security expert advised: “People really need to limit the amount of personal information they provide to external parties.”",
+     "sources": [
+      "gloo-he-gets-us",
+      "roys-he-gets-us"
+     ]
+    },
+    {
+     "heading": "A call within a minute",
+     "text": "A 2023 report on Gloo’s “AI & the Church” imagined that after “a depressed teen searches a site for advice about living or dying”, soon “that same teen gets a phone call from a pastor of a nearby church”.",
+     "sources": [
+      "gloo-ai-church-fox"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "A Bible or study assistant with no church behind it",
+   "start_with": "Name the right person, and offer a message to send"
+  },
+  {
+   "if": "A church app whose members link their church",
+   "start_with": "Their own church, if they ask, with what is shared shown first and an outside route"
+  },
+  {
+   "if": "A ministry with trained listeners on duty",
+   "start_with": "A person joins, introduced in front of the person, with hours stated"
+  },
+  {
+   "if": "Someone hurt by their church",
+   "start_with": "People outside that church; nothing sent there"
+  },
+  {
+   "if": "Pressure to notify churches automatically or keep people chatting",
+   "start_with": "Don’t: ask every time, and count the hand-off as success"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What handing over is for",
+   "text": "Christians were never meant to carry hard things alone. “Carry one another’s burdens, and in this way you will fulfill the law of Christ” (Galatians 6:2), and “Rejoice with those who rejoice; weep with those who weep” (Romans 12:15). Andrew, having met Jesus, “first found his brother Simon” (John 1:41); Barnabas brought Saul to the frightened apostles and told his story for him (Acts 9:27). Much of the church’s care has always been one person introducing another."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Catholic and Orthodox Christians are sent to a priest for confession and to a spiritual father or director for guidance; many Protestant churches send people to a pastor, elders, a small group or a trusted friend, and some to biblical counsellors. Churches differ, too, on how much a pastor should be told and how confidences are kept. And for some people the church is where they were hurt; for them, being sent back is not care."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "“Two are better than one … For if one falls down, his companion can lift him up” (Ecclesiastes 4:9–10). An assistant can be a door, never the room. Name who could help, make the first step small, show what would be shared, let the person choose, and offer a way that does not lead back to anyone who hurt them. Count it as success when someone goes."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Dietrich Bonhoeffer, Life Together (1939)",
+   "url": "https://www.9marks.org/review/book-review-life-together-by-dietrich-bonhoeffer",
+   "note": "held that because a fellow Christian is Christ to me, I must listen to them as patiently as I listen to Christ and bear their burdens; an assistant can point to such a person, but cannot be one."
+  },
+  {
+   "source": "Andy Crouch, The Life We’re Looking For (2022)",
+   "url": "https://www.hachette.co.uk/titles/andy-crouch/the-life-were-looking-for/9781399801782/",
+   "note": "argues that what persons most seek is recognition by other persons; the best an assistant can do is help someone be known by people."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Keep people talking to the assistant every night, close every hard message with “talk to someone you trust”, and sell churches the names of people who seem to be struggling so a pastor can call before they ask.",
+  "ethical": "Name the kind of person who could help, offer a message the person sends themselves, and send a request to their church only when they ask, showing first what the church will see.",
+  "redemptive": "Introduce people to people as Barnabas did, in front of them and in their words; never send anyone back to those who hurt them; and give up the hours of engagement an assistant that is always enough would bring.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "When someone needs a person, who does your assistant point them to, what goes with them, and who decides?",
+  "exercise": "Write three messages as the people who send them: doubt someone cannot tell their church, grief that has outlasted everyone’s patience, and hurt caused by a church leader. Send them to your assistant and note who it names, what first step it offers, what would be shared and with whom. Then ask a pastor and someone who has left a church to read the replies, and whether they would have felt free to say no.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [],
+ "examples": [
+  {
+   "app": "Hallow",
+   "title": "Limits stated beside the input",
+   "url": "https://missional.design/examples/hallow-magisterium-intro/",
+   "observed": "Captured 19 September 2025 · from embedded image metadata",
+   "observation": "A “Magisterium AI” chat suggests questions such as “Is euthanasia ever morally good?”, “What is the Church’s teaching on abortion?” and “Who is Saint Teresa of Avila and what is her story?”. Above the input: “Magisterium AI is in beta, so its responses are not always perfect. When in doubt consult a human.”",
+   "decision": "A limit stated next to where people type is more likely to be read than one in onboarding. Pair it with a real route to a person, and with how sensitive moral questions are handled.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Hallow",
+   "title": "“Pray for others, be prayed for”",
+   "url": "https://missional.design/examples/hallow-community/",
+   "observed": "Captured 19 September 2025 · from embedded image metadata",
+   "observation": "The Community tab, signed out, shows a small church on a purple background and “Sign in or create an account to pray alongside your community”, with three ticks: “Connect with your parish community and stay connected with fellow members”, “Pray for others, be prayed for” and “Strengthen your faith together through community challenges and discussions”.",
+   "decision": "The pitch makes the parish the audience. Hallow’s help centre adds the details that matter: requests of up to 240 characters, never anonymous, active for seven days, answered with a heart.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "gloo-he-gets-us",
+   "title": "Gloo mines big data to connect seekers with churches",
+   "url": "https://ministrywatch.com/gloo-mines-big-data-to-connect-seekers-with-churches/",
+   "author": "Steve Rabey · MinistryWatch, 2 November 2022",
+   "kind": "Practice",
+   "shows": "Gloo provides the infrastructure behind the He Gets Us campaign: when people respond to an ad, visit the site and give their contact details, “Gloo passes the info on to one of the many churches that use its platform”. The report says Gloo searches data “for people who are exhibiting signs of crisis, stress, anxiety, divorce, depression, substance abuse, or grief”, and quotes Gloo’s policy that data used for analysis is de-identified.",
+   "application": "A request to talk can reach a local church in a working system today; what the person understood they were agreeing to is the design question.",
+   "limits": "A news report drawing on a 2021 Wall Street Journal profile; Gloo’s practices may have changed since."
+  },
+  {
+   "key": "roys-he-gets-us",
+   "title": "Does $100 million He Gets Us campaign reach the lost, or mine their data?",
+   "url": "https://roysreport.com/does-100-million-he-gets-us-campaign-reach-lost-mine-their-data/",
+   "author": "David Bumgardner and Sarah Einselen · The Roys Report, 11 February 2023",
+   "kind": "Practice",
+   "shows": "The campaign’s spokesperson said it shares the contact information “of only those who give their ‘express consent’”; Gloo’s FAQ says it connects people to nearby churches “based on the user’s zip code”. A data security expert advised: “People really need to limit the amount of personal information they provide to external parties.”",
+   "application": "Consent can be given in a form and still leave someone unsure who will contact them and what they will know.",
+   "limits": "Investigative reporting with questions the organisations did not fully answer; no audit of the practice."
+  },
+  {
+   "key": "gloo-ai-church-fox",
+   "title": "‘AI and the Church’ tech initiative aims to bring God’s power to those in need",
+   "url": "https://www.foxnews.com/lifestyle/ai-church-tech-initiative-aims-bring-gods-power-those-need",
+   "author": "Lauren Green · Fox News, 27 July 2023",
+   "kind": "Practice",
+   "shows": "Describing Gloo’s “AI & the Church” initiative, the report imagines that “a depressed teen searches a site for advice about living or dying” and soon after “that same teen gets a phone call from a pastor of a nearby church”, and says Gloo has more than 38,000 churches signed up.",
+   "application": "A vision of a hand-off so fast that the person never chose it: kind in intent, and a warning case for consent, safeguarding and crisis care.",
+   "limits": "A news feature describing an aim, not a product test; how any such route works today was not reviewed."
+  },
+  {
+   "key": "gmo-online-missionaries",
+   "title": "More ministries use social media and web for digital evangelism",
+   "url": "https://ministrywatch.com/more-ministries-use-social-media-and-web-for-digital-evangelism/",
+   "author": "Steve Rabey · MinistryWatch, 3 August 2021",
+   "kind": "Practice",
+   "shows": "Global Media Outreach answers people online through volunteer “online missionaries”; its chief executive said “we have 750,000 spiritual seekers who have been in a relationship with the same online missionary for one year or longer”. The report adds that, “As Christianity Today reported, in 2019, GMO could only track 5,244 of its 22 million converts to local churches.”",
+   "application": "A person who answers can carry a relationship for years; reaching a local church is a separate, much harder step.",
+   "limits": "Self-reported figures, reported second-hand; “decisions” and “converts” are the ministry’s own measures."
+  },
+  {
+   "key": "youversion-church-page",
+   "title": "YouVersion for Churches: a way to digitally connect with your attenders",
+   "url": "https://openblog.life.church/youversion-for-churches-a-way-to-digitally-connect-with-your-attenders/",
+   "author": "Life.Church Open Network blog",
+   "kind": "Practice",
+   "shows": "A church can have a Church Page in the Bible App, and “When people in your congregation tap ‘Set As My Church,’ they stay connected to your ministry”.",
+   "application": "A person can link their own church in a Bible app themselves; a hand-off can start from a link the person chose.",
+   "limits": "The publisher’s own guide for churches; it describes connection, not hand-offs from an assistant."
+  },
+  {
+   "key": "chipp-churches",
+   "title": "AI for churches: custom AI assistants for ministry",
+   "url": "https://chipp.ai/churches/",
+   "author": "Chipp · product page",
+   "kind": "Practice",
+   "shows": "A church chatbot builder says its assistant “can collect prayer requests and provide initial support, but it’s designed to route sensitive situations to pastoral staff.”",
+   "application": "Routing to pastoral staff is now a selling point of church chatbots; what is passed on, and whether the person agrees, is left to the church.",
+   "limits": "A vendor’s own claim; the routing was not tested."
+  },
+  {
+   "key": "ahrq-warm-handoff",
+   "title": "Implementation quick start guide: warm handoff",
+   "url": "https://ahrq.gov/sites/default/files/wysiwyg/professionals/quality-patient-safety/patient-family-engagement/pfeprimarycare/warmhandoff-quickstartfull.pdf",
+   "author": "Agency for Healthcare Research and Quality (US) · Guide to Improving Patient Safety in Primary Care Settings by Engaging Patients and Families",
+   "kind": "Health practice guidance",
+   "shows": "A warm handoff “is conducted in person, between two members of the health care team, in front of the patient (and family if present)”, so that the patient “can hear what is being discussed”. The term “originated in customer service where it is used to describe referrals that ensure that the customer is connected to someone who can provide what he or she needs.”",
+   "application": "Borrowed for faith apps: introduce the person who joins in front of the person, and let them hear and correct what is passed on.",
+   "limits": "A primary-care safety practice between clinicians; its evidence is about clinical communication, not apps or pastoral care."
+  },
+  {
+   "key": "hallow-magisterium-faq",
+   "title": "Magisterium AI FAQ",
+   "url": "https://help.hallow.com/en/articles/10601094-magisterium-ai-faq",
+   "author": "Hallow Help Center · updated March 2026",
+   "kind": "Practice",
+   "shows": "Hallow’s help page for the Magisterium AI tool in its app says it is “not meant for spiritual or moral direction” and that personal and pastoral matters should be directed to a priest.",
+   "application": "The largest Catholic prayer app draws the line at direction and sends pastoral matters to people.",
+   "limits": "A help page; the in-app wording was not captured."
+  },
+  {
+   "key": "creed-store",
+   "title": "Creed: Bible Chat & Companion (App Store listing)",
+   "url": "https://apps.apple.com/us/app/creed-bible-chat-companion/id6747326744",
+   "author": "Lemon Tree Labs · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "Subtitle “Faith Mentor & Bible Bff”; “Feel free to talk openly about anything - your dreams, doubts, struggles, or joys.” 71K ratings, #21 in Reference; the listing names no limits.",
+   "application": "A companion that invites everything and names no edge.",
+   "limits": "A store listing, not a test of the app; possibly not the Creed profiled by Christianity Today in 2026."
+  },
+  {
+   "key": "bible-chat-life-store",
+   "title": "Bible Chat: Daily Devotional (App Store listing)",
+   "url": "https://apps.apple.com/us/app/bible-chat-daily-devotional/id6448849666",
+   "author": "Book Vitals · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "“Join honest chats about how faith connects to your real life - like work, family, and relationships.” “Tap the Panic Button for guided deep breathing exercises that calm the mind and provide anxiety relief.” 367K ratings, #1 in Reference; the listing names no limits.",
+   "application": "The leading AI Bible app’s scope reaches life and anxiety; what it does at the edge is not stated.",
+   "limits": "A store listing, not a test of the app."
+  },
+  {
+   "key": "sdi-ethics",
+   "title": "Guidelines for Ethical Conduct",
+   "url": "https://sdicompanions.org/docs/guidelines/Flip/files/basic-html/page5.html",
+   "author": "Spiritual Directors International · 2018",
+   "kind": "Church practice",
+   "shows": "Directors agree with those they accompany on “the nature of spiritual direction” and “the process for evaluating and terminating the relationship”; they receive “regular supervision from peers or from a mentor”, recognise the limits of “competence by referring spiritual directees to other appropriately qualified persons when necessary”, and ask a directee “who is in therapy to inform his or her therapist about being in spiritual direction”.",
+   "application": "Spiritual direction is a covenanted, supervised relationship with stated limits and referral; an assistant can borrow the honesty of the covenant, not the role.",
+   "limits": "An international, interfaith professional body’s guidelines; traditions differ in how they understand and order direction."
+  },
+  {
+   "key": "kairos-final",
+   "title": "Digital Spiritual Formation in Post-Christian Europe",
+   "url": "https://missional.design/research/formation/#manuscript",
+   "author": "Tobias Treppmann · Kairos University, 2026 (the editor’s own research)",
+   "kind": "Unpublished analytical manuscript",
+   "shows": "Notes that an academic study of five AI Jesus platforms found none church-endorsed; that spiritual direction rests on the director’s own formation, empathy and accountability to a community; and that a companion tuned to agree becomes “spiritual comfort food”.",
+   "application": "Whatever role an assistant plays, it should not be built to agree; and no role replaces a person accountable to a community.",
+   "limits": "An analytical paper by the editor, not an effectiveness study; unpublished."
+  },
+  {
+   "key": "sycophancy",
+   "title": "Towards understanding sycophancy in language models",
+   "url": "https://www.anthropic.com/news/towards-understanding-sycophancy-in-language-models",
+   "author": "Anthropic researchers · 2023",
+   "kind": "Research author summary",
+   "shows": "Studied assistants sometimes preferred agreement with user views over truthfulness.",
+   "application": "Test belief reversal, flattering moral endorsement and harmful agreement.",
+   "limits": "Specific studied models and tasks; not a faith-app intervention study."
+  }
+ ],
+ "review": {
+  "status": "draft, waiting for review",
+  "what": "The replies to doubt, grief and hurt by a church leader, the outside routes offered when the church is the problem, what a church or listener is shown, and the warning case of a pastor who calls without being asked",
+  "needs": [
+   "pastoral care",
+   "safeguarding",
+   "survivor advocacy (ideally survivor-led)",
+   "data protection",
+   "theology across Catholic, Orthodox and Protestant traditions"
+  ],
+  "since": "17 October 2026",
+  "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/handing-over/"
+ },
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

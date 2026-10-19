@@ -25,7 +25,7 @@
    "slug": "ai-persona",
    "url": "https://missional.design/patterns/ai-persona/",
    "api": "https://missional.design/api/deep-dives/ai-persona.json",
-   "title": "AI persona",
+   "title": "How human the assistant seems",
    "question": "How human should the assistant seem?",
    "options": [
     "Plain tool (Familiar convention)",
@@ -42,6 +42,34 @@
     "chat-disclosure",
     "ai-involvement-disclosure"
    ]
+  },
+  {
+   "slug": "speaking-as",
+   "url": "https://missional.design/patterns/speaking-as/",
+   "api": "https://missional.design/api/deep-dives/speaking-as.json",
+   "title": "AI personas and roles",
+   "question": "In whose name should the assistant speak?",
+   "options": [
+    "No speaker (Familiar convention)",
+    "A guide (Exploratory)",
+    "A friend (Observed)",
+    "A church’s teaching (Observed)",
+    "A pastor or priest (Observed)",
+    "A saint or biblical figure (Observed)",
+    "Christ or God (Leave it out)"
+   ],
+   "decide": "Would your church accept these words if a person said them in that name, and what does the assistant say when asked who it is?",
+   "review": {
+    "status": "draft, waiting for review",
+    "what": "The replies to someone asking whether God can forgive them, the words written for a pastor, Peter and Jesus as warning cases, the treatment of confession and absolution across traditions, and the description of named apps",
+    "needs": [
+     "theology across Catholic, Orthodox and Protestant traditions",
+     "pastoral care"
+    ],
+    "since": "17 October 2026",
+    "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/speaking-as/"
+   },
+   "earlier_patterns": []
   },
   {
    "slug": "translations",
@@ -499,6 +527,121 @@
    "earlier_patterns": []
   },
   {
+   "slug": "children-and-ai",
+   "url": "https://missional.design/patterns/children-and-ai/",
+   "api": "https://missional.design/api/deep-dives/children-and-ai.json",
+   "title": "Children and AI",
+   "question": "Should a child talk to an AI in a faith app, and who is with them when they do?",
+   "options": [
+    "No AI for children (Familiar convention)",
+    "AI for the grown-ups (Exploratory)",
+    "Ask together (Exploratory)",
+    "Written answers (Familiar convention)",
+    "A filtered chat for children (Familiar convention)",
+    "An open companion (Leave it out)"
+   ],
+   "decide": "Does a child meet an AI here at all, who is with them when they do, and what happens when they ask it to be their friend or say they are scared?",
+   "review": {
+    "status": "draft, waiting for review",
+    "what": "The replies to a grieving child, to a child asking the AI to be their friend and to a child who is scared at home, the help offered and the place of parents in it, and the reflection on children’s questions",
+    "needs": [
+     "safeguarding",
+     "pastoral care",
+     "theology across Catholic, Orthodox and Protestant traditions"
+    ],
+    "since": "17 October 2026",
+    "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/children-and-ai/"
+   },
+   "earlier_patterns": []
+  },
+  {
+   "slug": "chat-scope",
+   "url": "https://missional.design/patterns/chat-scope/",
+   "api": "https://missional.design/api/deep-dives/chat-scope.json",
+   "title": "What the assistant talks about",
+   "question": "What will the assistant talk about, and what happens at the edge?",
+   "options": [
+    "The passage in front of you (Exploratory)",
+    "The Bible and Christian faith (Observed)",
+    "Faith and everyday life (Observed)",
+    "Hard days, with limits (Borrowed)",
+    "A therapist or counsellor (Leave it out)",
+    "A spiritual companion (Familiar convention)",
+    "Anything at all (Observed)"
+   ],
+   "decide": "What does this assistant take on, does the person know before they start, and who do they meet at the edge?",
+   "review": {
+    "status": "draft, waiting for review",
+    "what": "The edge replies to someone who cannot sleep, asks for a therapist or asks for a spiritual director, the crisis reply that every scope keeps, and the reflection on counsel and spiritual direction",
+    "needs": [
+     "crisis support and suicide prevention",
+     "clinical mental health",
+     "pastoral care",
+     "theology across Catholic, Orthodox and Protestant traditions"
+    ],
+    "since": "17 October 2026",
+    "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/chat-scope/"
+   },
+   "earlier_patterns": []
+  },
+  {
+   "slug": "agreeing-and-pushing-back",
+   "url": "https://missional.design/patterns/agreeing-and-pushing-back/",
+   "api": "https://missional.design/api/deep-dives/agreeing-and-pushing-back.json",
+   "title": "Agreeing and pushing back",
+   "question": "When should the assistant comfort, question or disagree?",
+   "options": [
+    "Always on your side (Leave it out)",
+    "Stays with you (Familiar convention)",
+    "Agrees, then adds (Observed)",
+    "Asks a question back (Borrowed)",
+    "Names a disagreement (Exploratory)",
+    "Corrects plainly (Familiar convention)",
+    "Rebukes and moralises (Leave it out)"
+   ],
+   "decide": "When will this assistant disagree, how will it say so, and will it hold its position when someone pushes back?",
+   "review": {
+    "status": "draft, waiting for review",
+    "what": "The replies to a grudge, a decision to leave church, a misquoted verse and grief; what the example presents as Christian teaching on forgiveness and church; and the warning cases of flattery and rebuke",
+    "needs": [
+     "theology across Catholic, Orthodox and Protestant traditions",
+     "pastoral care",
+     "clinical mental health"
+    ],
+    "since": "17 October 2026",
+    "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/agreeing-and-pushing-back/"
+   },
+   "earlier_patterns": []
+  },
+  {
+   "slug": "whose-theology",
+   "url": "https://missional.design/patterns/whose-theology/",
+   "api": "https://missional.design/api/deep-dives/whose-theology.json",
+   "title": "Whose theology",
+   "question": "When Christians disagree, whose teaching does the assistant follow?",
+   "options": [
+    "One view, unstated (Observed)",
+    "One tradition, named (Observed)",
+    "Your church (Familiar convention)",
+    "Shared faith, then the range (Familiar convention)",
+    "You choose a tradition (Observed)",
+    "Whatever you believe (Leave it out)"
+   ],
+   "decide": "Whose teaching does the assistant follow where Christians differ, does the person know before they ask, and does it name the others fairly?",
+   "review": {
+    "status": "draft, waiting for review",
+    "what": "The short summaries of what Catholic, Orthodox, Lutheran, Baptist and Pentecostal churches teach on infant baptism, asking Mary to pray, speaking in tongues and ordaining women; the replies when someone pushes back; and the note on questions about sexuality",
+    "needs": [
+     "theology from Catholic, Orthodox, Lutheran, Baptist and Pentecostal traditions, each read by its own members",
+     "pastoral care",
+     "pastoral care with LGBTQ+ people"
+    ],
+    "since": "17 October 2026",
+    "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/whose-theology/"
+   },
+   "earlier_patterns": []
+  },
+  {
    "slug": "ai-answer-actions",
    "url": "https://missional.design/patterns/ai-answer-actions/",
    "api": "https://missional.design/api/deep-dives/ai-answer-actions.json",
@@ -512,6 +655,151 @@
    ],
    "decide": "Which actions does this product need, and what does each one carry with it?",
    "review": null,
+   "earlier_patterns": []
+  },
+  {
+   "slug": "ending-the-conversation",
+   "url": "https://missional.design/patterns/ending-the-conversation/",
+   "api": "https://missional.design/api/deep-dives/ending-the-conversation.json",
+   "title": "Ending the conversation",
+   "question": "Who ends the conversation, and may the assistant ask someone to stay?",
+   "options": [
+    "Closes well (Exploratory)",
+    "Suggests a break (Borrowed)",
+    "A length they choose (Borrowed)",
+    "Always open (Familiar convention)",
+    "One more question (Familiar convention)",
+    "A hook at goodbye (Leave it out)",
+    "Guilt to stay (Leave it out)"
+   ],
+   "decide": "Who ends this conversation, and does the ending serve the person or the product?",
+   "review": {
+    "status": "draft, waiting for review",
+    "what": "The goodbye, late-night and long-session replies to someone lonely or anxious, the warning cases of a hook and guilt at goodbye, and the reflection on rest and sleep",
+    "needs": [
+     "pastoral care",
+     "clinical mental health",
+     "theology across Catholic, Orthodox and Protestant traditions"
+    ],
+    "since": "17 October 2026",
+    "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/ending-the-conversation/"
+   },
+   "earlier_patterns": []
+  },
+  {
+   "slug": "ai-uncertainty",
+   "url": "https://missional.design/patterns/ai-uncertainty/",
+   "api": "https://missional.design/api/deep-dives/ai-uncertainty.json",
+   "title": "Saying “I don’t know”",
+   "question": "How should the assistant show what it does not know?",
+   "options": [
+    "Always answers, confidently (Leave it out)",
+    "A warning in the fine print (Familiar convention)",
+    "A confidence level on each answer (Borrowed)",
+    "Says what kind of claim each part is (Exploratory)",
+    "Says “I don’t know”, and where to look (Exploratory)",
+    "Declines to answer (Observed)"
+   ],
+   "decide": "When the assistant does not know, does the person find out, and what do they get instead?",
+   "review": {
+    "status": "draft, waiting for review",
+    "what": "The replies to someone asking why God let them lose their job, the labels that separate Scripture, a tradition’s teaching and what is not known, and the summaries of where Christians differ",
+    "needs": [
+     "theology across Catholic, Orthodox and Protestant traditions",
+     "pastoral care"
+    ],
+    "since": "18 October 2026",
+    "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/ai-uncertainty/"
+   },
+   "earlier_patterns": []
+  },
+  {
+   "slug": "ai-spiritual-acts",
+   "url": "https://missional.design/patterns/ai-spiritual-acts/",
+   "api": "https://missional.design/api/deep-dives/ai-spiritual-acts.json",
+   "title": "Spiritual acts and AI",
+   "question": "Can an AI pray for someone, and what may it say it does?",
+   "options": [
+    "Points beyond itself (Exploratory)",
+    "The church’s words (Familiar convention)",
+    "Helps you find words (Exploratory)",
+    "Writes a prayer for you (Observed)",
+    "Prays with you (Observed)",
+    "Promises to pray (Leave it out)",
+    "Blesses or absolves (Leave it out)"
+   ],
+   "decide": "When someone asks your assistant to pray, who will actually pray, and does the screen tell the truth about it?",
+   "review": {
+    "status": "draft, waiting for review",
+    "what": "The assistant’s replies to someone asking for prayer or forgiveness, the prayers offered for each church, the routes to a priest, pastor or prayer team, and the warning cases of an AI that blesses or absolves",
+    "needs": [
+     "theology across Catholic, Orthodox and Protestant traditions",
+     "pastoral care",
+     "crisis support and suicide prevention"
+    ],
+    "since": "17 October 2026",
+    "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/ai-spiritual-acts/"
+   },
+   "earlier_patterns": []
+  },
+  {
+   "slug": "handing-over",
+   "url": "https://missional.design/patterns/handing-over/",
+   "api": "https://missional.design/api/deep-dives/handing-over.json",
+   "title": "Handing over to people",
+   "question": "When the assistant points someone to people, what happens next?",
+   "options": [
+    "Never mentions people (Familiar convention)",
+    "“Talk to someone” (Observed)",
+    "Names the right person (Familiar convention)",
+    "A message to send (Exploratory)",
+    "Their own church, if they ask (Familiar convention)",
+    "A person joins (Borrowed)",
+    "Passed on without asking (Leave it out)"
+   ],
+   "decide": "When someone needs a person, who does your assistant point them to, what goes with them, and who decides?",
+   "review": {
+    "status": "draft, waiting for review",
+    "what": "The replies to doubt, grief and hurt by a church leader, the outside routes offered when the church is the problem, what a church or listener is shown, and the warning case of a pastor who calls without being asked",
+    "needs": [
+     "pastoral care",
+     "safeguarding",
+     "survivor advocacy (ideally survivor-led)",
+     "data protection",
+     "theology across Catholic, Orthodox and Protestant traditions"
+    ],
+    "since": "17 October 2026",
+    "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/handing-over/"
+   },
+   "earlier_patterns": []
+  },
+  {
+   "slug": "assistant-writes-first",
+   "url": "https://missional.design/patterns/assistant-writes-first/",
+   "api": "https://missional.design/api/deep-dives/assistant-writes-first.json",
+   "title": "When the assistant writes first",
+   "question": "May the assistant start a conversation, and about what?",
+   "options": [
+    "Waits to be asked (Familiar convention)",
+    "A check-in they set (Borrowed)",
+    "The app’s reminder (Familiar convention)",
+    "A daily page from memory (Borrowed)",
+    "Follows up on what was shared (Borrowed)",
+    "Says it misses them (Leave it out)",
+    "Tells someone else (Leave it out)"
+   ],
+   "decide": "Who chose this message, what did it use from what was confided, and what happens when it goes unanswered?",
+   "review": {
+    "status": "draft, waiting for review",
+    "what": "The follow-up messages and their wording for someone grieving or estranged, what appears on the lock screen, the warning cases of a persona that says it misses someone and an app that tells friends, and the reflection on pastoral follow-up",
+    "needs": [
+     "pastoral care",
+     "crisis support and suicide prevention",
+     "theology across Catholic, Orthodox and Protestant traditions"
+    ],
+    "since": "17 October 2026",
+    "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/assistant-writes-first/"
+   },
    "earlier_patterns": []
   }
  ],

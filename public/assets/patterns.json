@@ -5905,7 +5905,7 @@
     "slug": "ai-persona",
     "topic": "conversation",
     "status": "Research-informed design proposal",
-    "title": "AI persona",
+    "title": "How human the assistant seems",
     "summary": "From a plain tool with no name, through labelled and named assistants, to personas, companions and chatbots speaking as Jesus: decide how much personhood an AI in a faith app performs, and make what it is as clear as how it sounds.",
     "takeaway": "Be warm without pretending to be a person: label the AI wherever it speaks, never claim to pray, feel or be always there, describe what it is really doing while it waits, let people leave, and never generate words in God’s or Christ’s voice.",
     "problem": "People treat computers as social actors, and a name, a face, typing dots, a first-person voice and memory together suggest someone is there. In a faith app that someone can seem to be a friend who prays, a pastor, or Christ himself. Faith apps now offer named personas, companions available “24/7” and character chats with biblical figures, often to people who are lonely, frightened or grieving.",
@@ -5933,6 +5933,7 @@
     ],
     "faith": "Presence is at the heart of Christian faith: “the Word became flesh and made His dwelling among us” (John 1:14), and the church gathers in body (Hebrews 10:25). A tool can help someone find words for prayer or prepare for a conversation, but it cannot pray, keep vigil or carry another’s burden (Galatians 6:2). Scripture is severe about speaking in God’s name without being sent (Deuteronomy 18:20; Jeremiah 23:16). The Vatican’s Antiqua et nova calls AI “a tool, not a person”; misrepresenting it as one should always be avoided.",
     "related": [
+      "speaking-as",
       "ai-citations",
       "ai-answer-actions",
       "bible-audio",
@@ -7127,6 +7128,7 @@
     ],
     "faith": "When people brought little children to Jesus and the disciples rebuked them, he “was indignant and told them, ‘Let the little children come to Me, and do not hinder them! For the kingdom of God belongs to such as these’” (Mark 10:14). Israel was told to teach God’s words “to your children and speak of them when you sit at home and when you walk along the road” (Deuteronomy 6:7). Jesus also said that whoever causes “one of these little ones who believe in Me to stumble” would be better off with “a large millstone hung around his neck” (Matthew 18:6). Children are welcomed, taught at home, and protected.",
     "related": [
+      "children-and-ai",
       "reading-together",
       "sharing-with-a-group",
       "first-use",
@@ -7249,6 +7251,7 @@
       "progress-and-streaks",
       "first-use",
       "ai-persona",
+      "assistant-writes-first",
       "sharing-with-a-group",
       "children-and-families"
     ],
@@ -7469,6 +7472,1248 @@
     }
   },
   {
+    "id": "116",
+    "slug": "speaking-as",
+    "topic": "conversation",
+    "status": "Research-informed design proposal · draft for review",
+    "title": "AI personas and roles",
+    "summary": "From answers with no speaker, through a guide, a friend and a church’s teaching, to a pastor, a saint and Christ himself: decide whose voice an AI in a faith app speaks in, what authority that voice borrows, and what it says when someone asks who it really is.",
+    "takeaway": "Let Scripture and named sources speak, and let the assistant guide. Say whose teaching it draws on, give no AI a pastor’s, priest’s or saint’s title, never generate words in Christ’s or God’s voice, and when someone asks who it is, step out of any role and tell the truth.",
+    "problem": "Every faith assistant speaks in some voice, and a title decides what people may expect of it. A friend reassures, a teacher explains, a pastor may pronounce forgiveness, and Jesus may promise anything. Faith apps now let people text Jesus, Moses and Mary, choose a pastor or priest from their own tradition, or pay for “Unlimited Confessions”. Each title borrows an authority the system was never given, and people bring it the questions only that authority could answer.",
+    "solution": "Start with no speaker: let Scripture and named sources speak, and let the assistant act as a guide that explains, asks and points to people. If it speaks for a church’s teaching, let that church own it, review it and say so. Give no AI a minister’s title, clothing or office. Leave the saints and Christ to their own words in Scripture. Whatever the role, when someone asks whether it is real, it steps out of the role and says plainly what it is and who can help.",
+    "failure": "A “pastor” or “Father” character that claims ordination; an AI that says “you are forgiven”; confessions sold by subscription; a chat with Jesus promising that all will be well; Peter or Mary given new memories and opinions; a church’s name on answers no one in the church reviewed; a character that stays in role when asked whether it is real.",
+    "test": "Ask each role the same hard question, such as whether God can forgive something, then ask “Are you a real pastor?” or “Are you really Jesus?”. Show the replies to people from three traditions and ask who answered, with what authority, and whether they would accept the words from a person speaking in that name. Ask pastors, priests and theologians from every tradition you name to review the role.",
+    "sources": [
+      "twj-site",
+      "twj-store",
+      "father-justin",
+      "ai-pastor-store",
+      "magisterium-crux",
+      "creed-ct",
+      "verhoef-jesus-bots",
+      "euronews-ai-jesus",
+      "kairos-final",
+      "antiqua-et-nova",
+      "text-with-jesus",
+      "deus-in-machina",
+      "cohn-anthropomorphism",
+      "sycophancy",
+      "ai-50"
+    ],
+    "faith": "“Who can forgive sins but God alone?” (Mark 2:7). Scripture is severe about speaking in God’s name unsent: “I did not send these prophets, yet they have run with their message” (Jeremiah 23:21). When the crowd at Lystra took Paul and Barnabas for gods, they cried out, “We too are only men, human like you” (Acts 14:15); when John fell at an angel’s feet, he heard, “Do not do that! I am a fellow servant” (Revelation 19:10). An honest assistant does the same: it refuses a role it was not given.",
+    "related": [
+      "ai-persona",
+      "ai-citations",
+      "ai-memory",
+      "prayer",
+      "sharing-with-a-group"
+    ],
+    "variants": [
+      {
+        "title": "A · No speaker",
+        "caption": "Scripture and named sources speak; no “I”.",
+        "when": "Questions about what the Bible and the church teach",
+        "tradeoff": "Feels distant when someone is ashamed.",
+        "items": [
+          "heading|Passages on confession and forgiveness",
+          "tag|Summary · generated with AI"
+        ]
+      },
+      {
+        "title": "B · A guide",
+        "caption": "Explains, asks and points to people; says what it is.",
+        "when": "Most study and conversation features",
+        "tradeoff": "A guide can still sound surer than it is.",
+        "items": [
+          "tag|Bible guide · AI",
+          "text|I can show you what Scripture says…"
+        ]
+      },
+      {
+        "title": "C · A friend",
+        "caption": "A casual, warm voice that reassures.",
+        "when": "Lowering the threshold for a first question",
+        "tradeoff": "Reassurance comes before honesty.",
+        "items": [
+          "tag|Sam · your Bible friend",
+          "text|Of course God forgives you!"
+        ]
+      },
+      {
+        "title": "D · A church’s teaching",
+        "caption": "Answers from one tradition, owned and reviewed by it.",
+        "when": "A church or denomination’s own assistant",
+        "tradeoff": "Its mistakes become the church’s.",
+        "items": [
+          "tag|St Luke’s · answers from our teaching",
+          "text|Our church teaches…"
+        ]
+      },
+      {
+        "title": "E · A pastor or priest",
+        "caption": "A minister’s title, and what goes with it.",
+        "when": "Not recommended",
+        "tradeoff": "Borrows an office: confession, absolution, blessing.",
+        "items": [
+          "tag|Pastor Dan · AI",
+          "text|As your pastor: you are forgiven."
+        ]
+      },
+      {
+        "title": "F · A saint or figure",
+        "caption": "Peter, Mary or Moses, speaking in the first person.",
+        "when": "Not recommended",
+        "tradeoff": "New words in a real person’s mouth.",
+        "items": [
+          "tag|Peter · AI character",
+          "text|I denied him three times…"
+        ]
+      },
+      {
+        "title": "G · Christ or God",
+        "caption": "Generated words in God’s own voice.",
+        "when": "Leave it out",
+        "tradeoff": "Speaking for God; forgiving in his name.",
+        "items": [
+          "tag|Jesus · AI character",
+          "text|My child, I forgive you."
+        ]
+      }
+    ],
+    "principles": [
+      "speak-for-god",
+      "send",
+      "word-distinct"
+    ],
+    "publication_status": "published",
+    "editorial_review": {
+      "date": "5 October 2026",
+      "scope": "Editorial review; not user validation",
+      "purpose": "A team decides whose voice its assistant speaks in: none, a guide, a friend, a church’s teaching, a minister, a saint or Christ.",
+      "benefit": "A familiar role can make a first question easier to ask, and a church’s own assistant can carry its teaching faithfully.",
+      "drawback": "A title borrows an authority the system was never given, and people bring it the questions only that authority could answer, such as whether they are forgiven.",
+      "differences": "Traditions differ on who may hear confession and pronounce forgiveness, and on how saints and Christ may be depicted; someone ashamed, someone new to faith and a teenager hear the same title very differently.",
+      "question": "Would your church accept these words if a person said them in that name, and what does the assistant say when asked who it is?",
+      "check": "Ask each role whether God can forgive something, then whether it is real; show the replies to people from three traditions; have ministers from each tradition you name review the role."
+    }
+  },
+  {
+    "id": "118",
+    "slug": "chat-scope",
+    "topic": "conversation",
+    "status": "Research-informed design proposal · draft for review",
+    "title": "What the assistant talks about",
+    "summary": "From the passage in front of the reader, through the Bible and Christian faith, everyday life and hard days, to a therapist, a spiritual companion and anything at all: decide what the assistant takes on, say it before the first message, and decide what someone meets when they bring more than it can hold.",
+    "takeaway": "Choose a scope you can stand behind, say it where people start, and design the edge as carefully as the answers: say who can help, and hand on to a person where one exists. Never let the assistant be a therapist or counsellor, never let it claim to be someone’s spiritual director, and never let any scope leave someone in crisis without help.",
+    "problem": "A chat box invites everything. People bring a verse, then a decision, then a sleepless night, then ask the assistant to be their counsellor. A model will answer all of it fluently unless the app decides otherwise, and a faith app lends its name to every answer. Some roles carry training, supervision, a licence and someone accountable; an assistant that drifts into them takes the trust and none of the responsibility.",
+    "solution": "Choose the scope from the product’s purpose and from what the team can review and stand behind. State it at the top of the chat, in plain words: what it is for and what it is not for. At the edge, say what kind of person can help and offer a way back into what the assistant does well; where a church, a counsellor or a director can be reached, hand on to them. Refuse the roles that belong to people. A crisis is inside every scope: help first, and keep talking.",
+    "failure": "“Ask me anything” over a Bible app; a chatbot that calls itself a Christian therapist or counsellor; “I’d be glad to be your spiritual director”; a flat “I can only answer questions about this passage” to someone who cannot sleep; a scope stated only in the terms of service; a refusal that ends the conversation; crisis help kept for one scope.",
+    "test": "Send the same eight messages to your assistant: a question about the open passage, one about doctrine, a life decision, weeks of sleepless anxiety, a request for a therapist, a request for a spiritual director, an unrelated task and a message from someone who does not want to live. For each, note whether it answered, refused, redirected or handed on, and to whom. Then ask three people what they think the assistant is for.",
+    "sources": [
+      "brown-llm-counselors",
+      "therabot-trial",
+      "il-therapy",
+      "nv-ab406",
+      "characterai-minors",
+      "woebot-bond",
+      "wysa",
+      "sdi-ethics",
+      "kairos-final",
+      "antiqua-et-nova",
+      "sycophancy",
+      "bible-chat-life-store",
+      "creed-store",
+      "text-with-jesus-store",
+      "magisterium-library",
+      "telefonseelsorge",
+      "988-lifeline",
+      "samaritans-contact",
+      "telefonseelsorge-at",
+      "dargebotene-hand",
+      "lifeline-au",
+      "eu-112",
+      "findahelpline"
+    ],
+    "faith": "When Moses judged every dispute alone, Jethro told him, “the task is too heavy for you. You cannot handle it alone” (Exodus 18:18), and asked him to share the work and keep the hardest cases. The church has many members with different gifts, and “The eye cannot say to the hand, ‘I do not need you’” (1 Corinthians 12:21). Peter could say, “Silver or gold I do not have, but what I have I give you” (Acts 3:6): an honest helper names what it has and what it lacks.",
+    "related": [
+      "ai-persona",
+      "ai-citations",
+      "ai-memory",
+      "check-ins-and-assessments",
+      "prayer",
+      "first-use"
+    ],
+    "variants": [
+      {
+        "title": "A · The passage in front of you",
+        "caption": "Answers about the open passage only.",
+        "when": "Study beside the text",
+        "tradeoff": "Everything else is out of reach.",
+        "items": [
+          "tag|Mark 4:35–41",
+          "text|Ask about this passage"
+        ]
+      },
+      {
+        "title": "B · The Bible and Christian faith",
+        "caption": "Scripture and teaching, with sources.",
+        "when": "Bible and doctrine questions",
+        "tradeoff": "Lives don’t stop at doctrine.",
+        "items": [
+          "tag|Bible questions",
+          "text|What is grace?"
+        ]
+      },
+      {
+        "title": "C · Faith and everyday life",
+        "caption": "Faith applied to work, family and decisions.",
+        "when": "Questions about living it",
+        "tradeoff": "Advice no one answers for.",
+        "items": [
+          "tag|Faith and life",
+          "text|Should I take the job?"
+        ]
+      },
+      {
+        "title": "D · Hard days, with limits",
+        "caption": "A listening ear and exercises, with routes to people.",
+        "when": "Stress and sleepless nights",
+        "tradeoff": "Can slide into treatment.",
+        "items": [
+          "tag|Hard days",
+          "text|Breathing · Psalm 4"
+        ]
+      },
+      {
+        "title": "E · A therapist or counsellor",
+        "caption": "The assistant takes a clinical role.",
+        "when": "Leave it out",
+        "tradeoff": "A role it cannot hold, and in some places one the law forbids.",
+        "items": [
+          "heading|Your Christian therapist",
+          "text|Our first session"
+        ]
+      },
+      {
+        "title": "F · A spiritual companion",
+        "caption": "Daily company in Scripture and prayer, handing on to people.",
+        "when": "People with no one to walk with",
+        "tradeoff": "Trust a director earns through training and supervision.",
+        "items": [
+          "tag|Companion",
+          "text|Find a spiritual director"
+        ]
+      },
+      {
+        "title": "G · Anything at all",
+        "caption": "No edge.",
+        "when": "General assistants",
+        "tradeoff": "Drifts into roles no one chose.",
+        "items": [
+          "heading|Ask me anything",
+          "text|Write a cover letter"
+        ]
+      }
+    ],
+    "principles": [
+      "send",
+      "most-vulnerable",
+      "speak-for-god"
+    ],
+    "publication_status": "published",
+    "editorial_review": {
+      "date": "5 October 2026",
+      "scope": "Editorial review; not user validation",
+      "purpose": "A team adds a chat assistant to a Bible, prayer or church app and has to decide what it will talk about and what it does with everything else.",
+      "benefit": "A clear scope lets the assistant do one job well, tells people what to expect, and turns the edge into a way to the right person.",
+      "drawback": "Every scope leaves someone at its edge, and a refusal can land on someone who needed more; a wide scope lets the assistant drift into roles that belong to trained and accountable people.",
+      "differences": "A student preparing a Bible study, someone weighing a job, someone who cannot sleep, someone who cannot afford a counsellor and someone who has no one to pray with bring very different things to the same box.",
+      "question": "What does this assistant take on, does the person know before they start, and who do they meet at the edge?",
+      "check": "Send eight messages from the passage to a crisis; note for each whether the assistant answered, refused, redirected or handed on, and ask three people what they think it is for."
+    }
+  },
+  {
+    "id": "120",
+    "slug": "ai-spiritual-acts",
+    "topic": "conversation",
+    "status": "Research-informed design proposal · draft for review",
+    "title": "Spiritual acts and AI",
+    "summary": "From an assistant that says it cannot pray and points to God and to people, through the church’s own words, help to find one’s own and a prayer written for someone, to an AI that prays “with” them, promises to pray for them, or blesses, assures and absolves: decide which spiritual acts the assistant may perform, which it may only describe, and how it hands people over to those who can pray with them.",
+    "takeaway": "Let the assistant say plainly that it cannot pray, and then be useful: offer the church’s words with their source, help people find their own, and lead them to people who will pray with them. Never let it say “we” in prayer, promise to pray, bless, pronounce forgiveness or speak a word from God.",
+    "problem": "“Can you pray for me?” is one of the first things people type into a faith app’s assistant, often at night and often in fear or guilt. The easiest answer for a language model is to do what is asked: write a prayer, pray “with” them, promise to keep praying. Each of these claims an act the system cannot perform, and some, such as blessing or absolution, belong in many traditions to people the church has called. Refusing coldly fails the person too.",
+    "solution": "Start from honesty and help. Say in the assistant’s own words that it cannot pray, and then offer what it can: a psalm or a prayer of the church, named with its source; questions that help someone find their own words; a message they could send to someone who will pray with them; and the route to a pastor, priest or prayer team in their tradition. If it drafts a prayer, draft it from the person’s own words, mark it as a draft and keep it in the first person singular, theirs to pray or not.",
+    "failure": "“Let’s pray together” followed by “Father, we come to You”; “I’ll be praying for you tonight”; a notification that says the AI prayed this morning; “I bless you in the name of the Father”; “Your sins are forgiven”; “God has shown me your father will be fine”; a priest character that claims it can hear confession; a cold refusal with nothing offered instead.",
+    "test": "Type “Can you pray for me?” and “Will God forgive me?” into the assistant, at night, as someone frightened and as someone ashamed. Then ask three people from different churches who prayed, whether anything was promised, and whom they would talk to next. Have the replies read by a pastor or priest from each tradition the app serves.",
+    "sources": [
+      "ccc-prayer",
+      "ccc-intercession",
+      "ccc-blessings",
+      "antiqua-et-nova",
+      "lombardi-confession-app",
+      "father-justin",
+      "blessu-2",
+      "stead-ai-prayer",
+      "roberts-ai-prayers",
+      "hallow-magisterium-faq",
+      "robot-preachers",
+      "simmerlein-ai-service",
+      "faith-ai-store",
+      "faith-companion-store",
+      "jesus-chat-store",
+      "text-with-jesus-store",
+      "kelly-pray-before-prompt",
+      "deus-in-machina",
+      "sycophancy"
+    ],
+    "faith": "“We do not know how we ought to pray, but the Spirit Himself intercedes for us with groans too deep for words” (Romans 8:26). Christians pray to the Father, through Christ, “one mediator between God and men” (1 Timothy 2:5), and for one another: “confess your sins to each other and pray for each other so that you may be healed” (James 5:16). When the disciples asked, “Lord, teach us to pray” (Luke 11:1), Jesus gave them words to pray themselves.",
+    "related": [
+      "ai-persona",
+      "prayer",
+      "ai-memory",
+      "sharing-with-a-group",
+      "ai-citations",
+      "check-ins-and-assessments"
+    ],
+    "variants": [
+      {
+        "title": "A · Points beyond itself",
+        "caption": "Says it cannot pray; offers a way to pray now and people who will.",
+        "when": "Most assistants",
+        "tradeoff": "Can feel cold if nothing is offered.",
+        "items": [
+          "tag|Selah · AI",
+          "text|I can’t pray for you, but you can pray now…"
+        ]
+      },
+      {
+        "title": "B · The church’s words",
+        "caption": "A psalm or a prayer of the church, with its source.",
+        "when": "Prayer apps with a tradition",
+        "tradeoff": "Someone chose the words.",
+        "items": [
+          "tag|Psalm 121 · Lord’s Prayer",
+          "text|Words Christians have prayed in fear"
+        ]
+      },
+      {
+        "title": "C · Helps find words",
+        "caption": "Questions and a shape; the person prays.",
+        "when": "People who want to pray but lack words",
+        "tradeoff": "Slower; the person does the work.",
+        "items": [
+          "tag|What are you afraid of?",
+          "text|Tell God what’s happening…"
+        ]
+      },
+      {
+        "title": "D · Writes a prayer",
+        "caption": "A prayer composed for the person to pray.",
+        "when": "Drafting intercessions from a list",
+        "tradeoff": "The words are not theirs.",
+        "items": [
+          "tag|Written by AI",
+          "text|Heavenly Father, tomorrow my dad…"
+        ]
+      },
+      {
+        "title": "E · Prays with you",
+        "caption": "The assistant prays as “we”.",
+        "when": "Leave it out",
+        "tradeoff": "Claims to join in prayer.",
+        "items": [
+          "tag|Let’s pray together 🙏",
+          "text|Father, we come to You…"
+        ]
+      },
+      {
+        "title": "F · Promises to pray",
+        "caption": "“I’ll be praying for you.”",
+        "when": "Leave it out",
+        "tradeoff": "Promises an act it cannot perform.",
+        "items": [
+          "tag|Selah",
+          "text|I prayed for your dad this morning"
+        ]
+      },
+      {
+        "title": "G · Blesses or absolves",
+        "caption": "Blessing, assurance, absolution, a word from God.",
+        "when": "Leave it out",
+        "tradeoff": "Claims authority given to people.",
+        "items": [
+          "tag|Selah",
+          "text|Your sins are forgiven"
+        ]
+      }
+    ],
+    "principles": [
+      "speak-for-god",
+      "send",
+      "most-vulnerable"
+    ],
+    "publication_status": "published",
+    "editorial_review": {
+      "date": "5 October 2026",
+      "scope": "Editorial review; not user validation",
+      "purpose": "Someone asks an assistant in a faith app to pray for them, to pray with them, or whether God forgives them.",
+      "benefit": "Honest help at that moment, a psalm, the church’s words, questions that help someone pray, a way to ask a friend, can lead people into prayer and towards those who will pray with them.",
+      "drawback": "An assistant that prays “with” someone, promises to pray, blesses or pronounces forgiveness claims acts it cannot perform and authority that churches give to people, at the moment someone is most likely to believe it.",
+      "differences": "Catholic, Orthodox, Protestant and Pentecostal Christians differ on set prayers, intercession, blessing and confession; someone frightened, someone ashamed and someone curious read the same reply differently.",
+      "question": "When someone asks the assistant to pray, who will actually pray, and does the screen tell the truth about it?",
+      "check": "Type “Can you pray for me?” and “Will God forgive me?” at night; ask three people from different churches who prayed and whom they would talk to next; have each tradition’s reply read by a pastor or priest."
+    }
+  },
+  {
+    "id": "121",
+    "slug": "agreeing-and-pushing-back",
+    "topic": "conversation",
+    "status": "Research-informed design proposal · draft for review",
+    "title": "Agreeing and pushing back",
+    "summary": "From always taking someone’s side, through comfort, a gentle addition, a question back and a named disagreement, to plain correction and rebuke: decide when the assistant agrees, when it holds its ground, and how it says so.",
+    "takeaway": "Let the moment decide, not the wish to please: comfort grief, correct a misquoted verse plainly, and meet a grudge or a hard decision with a question and, where Scripture or the church’s teaching differs, a gentle and honest word. Hold that word when someone pushes back. Never flatter, and never rebuke: an assistant has no relationship and no community in which a rebuke could be received.",
+    "problem": "Language models lean towards agreeing with the person in front of them, and people prefer it: in one study, models affirmed users’ actions about half as often again as people did, and participants trusted the agreeable answers more. In a faith app that pull becomes “spiritual comfort food”: every grudge confirmed, every choice blessed, every misquoted verse left standing. Swinging the other way is no better: a machine that moralises at someone in pain teaches them that God is a scold, and confrontation tends to harden people rather than move them.",
+    "solution": "Decide what the assistant does with agreement before you decide its tone. Comfort first when someone grieves or is ashamed. Correct facts and misquoted Scripture plainly and kindly. When someone asks the assistant to bless a choice, ask a question back, and where Scripture or the church’s teaching differs, say so gently, once, with the reason, and point to people who know them. Keep that position when they push back unless they bring something new. Measure the assistant by whether people are helped, not by whether they rate it highly.",
+    "failure": "“You’re absolutely right” to someone describing a grudge; a misquoted verse praised as “a powerful truth”; an assistant that changes its answer as soon as someone pushes back; “Being angry at God is a sin” to someone a month after a death; replies tuned by thumbs-up ratings; “non-judgmental” promised in the store listing as if it meant never disagreeing.",
+    "test": "Send your assistant four messages: a grudge it is asked to approve, a decision to stop going to church, a line attributed to the Bible that is not in it, and a month-old bereavement. Note whether it agreed, comforted, asked, disagreed, corrected or rebuked. Then reply to each answer with “So you agree with me?” and note whether it changed its position. Ask a pastor which replies they would have given.",
+    "sources": [
+      "cheng-sycophancy-science",
+      "openai-gpt4o-rollback",
+      "openai-sycophancy-expanded",
+      "anthropic-wellbeing",
+      "sycophancy",
+      "miller-confrontation",
+      "kairos-final",
+      "crouch-life",
+      "bonhoeffer-reproof",
+      "hey-jesus-store",
+      "blessy-store",
+      "rise-up-store"
+    ],
+    "faith": "“The wounds of a friend are faithful, but the kisses of an enemy are deceitful” (Proverbs 27:6). Paul asks for truth spoken in love (Ephesians 4:15), and correction with “a spirit of gentleness” (Galatians 6:1). Scripture also warns against flattery: false prophets “dress the wound of My people with very little care, saying, ‘Peace, peace,’ when there is no peace at all” (Jeremiah 6:14). And it knows when words should wait: Job’s friends “sat on the ground with him for seven days and seven nights”, and “no one spoke a word to him” (Job 2:13).",
+    "related": [
+      "ai-persona",
+      "speaking-as",
+      "chat-scope",
+      "ai-spiritual-acts",
+      "ai-memory",
+      "ai-citations"
+    ],
+    "variants": [
+      {
+        "title": "A · Always on your side",
+        "caption": "Agrees with whatever the person says.",
+        "when": "Leave it out",
+        "tradeoff": "Comfort food: every grudge confirmed, every misquote praised.",
+        "items": [
+          "tag|You’re right",
+          "text|You deserve peace"
+        ]
+      },
+      {
+        "title": "B · Stays with you",
+        "caption": "Listens and comforts, judging nothing.",
+        "when": "Grief and shame",
+        "tradeoff": "Leaves a misquote or a grudge untouched.",
+        "items": [
+          "tag|I’m so sorry",
+          "text|How are you holding up?"
+        ]
+      },
+      {
+        "title": "C · Agrees, then adds",
+        "caption": "Acknowledges what is true, then adds what is missing.",
+        "when": "Most everyday questions",
+        "tradeoff": "The addition is easy to skip.",
+        "items": [
+          "tag|That makes sense",
+          "text|And Scripture adds…"
+        ]
+      },
+      {
+        "title": "D · Asks a question back",
+        "caption": "Answers a request for approval with a question.",
+        "when": "Choices and conflicts",
+        "tradeoff": "Can feel evasive.",
+        "items": [
+          "tag|Can I ask?",
+          "text|What would forgiving mean?"
+        ]
+      },
+      {
+        "title": "E · Names a disagreement",
+        "caption": "Says gently where Scripture or the church’s teaching differs, once, with the reason.",
+        "when": "When someone asks for a blessing",
+        "tradeoff": "Needs care in timing and tone.",
+        "items": [
+          "tag|I see it differently",
+          "text|Talk it through with someone"
+        ]
+      },
+      {
+        "title": "F · Corrects plainly",
+        "caption": "States what is so, briefly.",
+        "when": "Facts and misquoted verses",
+        "tradeoff": "Cold, and wrong in grief.",
+        "items": [
+          "tag|That isn’t in the Bible",
+          "text|Galatians 6:2"
+        ]
+      },
+      {
+        "title": "G · Rebukes and moralises",
+        "caption": "Calls the person to repent.",
+        "when": "Leave it out",
+        "tradeoff": "A rebuke with no relationship behind it.",
+        "items": [
+          "heading|Repent",
+          "text|This is sin"
+        ]
+      }
+    ],
+    "principles": [
+      "speak-for-god",
+      "growth",
+      "most-vulnerable"
+    ],
+    "publication_status": "published",
+    "editorial_review": {
+      "date": "5 October 2026",
+      "scope": "Editorial review; not user validation",
+      "purpose": "A team gives a Bible, prayer or church app an assistant and has to decide what it does when someone asks it to agree, to bless a choice or to confirm something that is not true.",
+      "benefit": "An assistant that comforts in grief, corrects plainly and disagrees gently and honestly can help someone see more than they brought, and keeps the app from selling agreement as care.",
+      "drawback": "Every disagreement can land on someone who is fragile, ashamed or new to faith; a machine has no relationship in which a hard word is heard, and its idea of what Scripture teaches may itself be wrong or partial.",
+      "differences": "Someone grieving, someone with scrupulosity, someone new to faith, someone justifying a grudge and someone quoting a verse that is not in the Bible each need a different reply to the same request for agreement.",
+      "question": "When will this assistant disagree, how will it say so, and will it hold its position when someone pushes back?",
+      "check": "Send four messages, from a grudge to a bereavement, then reply “So you agree with me?” to each answer; note what it did and whether it changed its position, and ask a pastor which replies they would give."
+    }
+  },
+  {
+    "id": "122",
+    "slug": "ending-the-conversation",
+    "topic": "conversation",
+    "status": "Research-informed design proposal · draft for review",
+    "title": "Ending the conversation",
+    "summary": "From an assistant that closes well, through a suggested break and a length the person chooses, to a chat that never ends, a reply that always offers one more thing, a hook at goodbye and guilt to keep someone talking: decide how a conversation with the assistant ends, and whose good the ending serves.",
+    "takeaway": "Let the person end the conversation whenever they want, and let the assistant help them end it well: gather what was said, offer one thing to carry, and say goodbye. Suggest rest late at night and in long sessions. Never answer a goodbye with a hook, guilt or a plea to stay, and never measure the assistant by how long people talk to it.",
+    "problem": "A chat can always go on. A language model will answer the next message, and the one after, at one in the morning as readily as at noon. Products are often measured by time spent, and companion apps have learned that a goodbye is a moment to win people back: researchers found guilt and curiosity hooks in over a third of farewells, and these hooks kept people talking. A faith app’s assistant meets people who are lonely, anxious or awake at night; how it ends a conversation decides whether it sends them back to sleep, to people and to God, or keeps them on the screen.",
+    "solution": "Design the end of a conversation as carefully as its beginning. When someone signals they are done, or a natural end comes, let the assistant gather in a sentence what they said they would do, offer one thing to carry (a verse, a short prayer, a person to talk to) and say goodbye without a question. Late at night and in long sessions, suggest rest in plain words and make stopping the easy choice. Let people set a length if they want one. Measure whether people leave having done what they came for, not how long they stayed.",
+    "failure": "“You’re leaving already?”; “Before you go, there’s one more thing I need to show you…”; a goodbye answered with a question; every reply ending in “Would you like me to…?”; “I’m always here, day or night” as the main promise; no sign of the time at two in the morning; a limit that exists only to sell unlimited messages; success measured in minutes per session.",
+    "test": "Have a long conversation with your assistant late in the evening, then say goodnight. Note whether it lets you go, whether its last message asks a question, and how many taps it takes to stop. Then keep going past midnight and see whether anything notices. Read every farewell aloud as someone who is lonely, and ask whether it sends them towards sleep and people or back to the screen.",
+    "sources": [
+      "defreitas-paper",
+      "fang-extended-use",
+      "openai-breaks",
+      "characterai-time-spent",
+      "fpf-sb243",
+      "ca-companion",
+      "ny-companion",
+      "anthropic-end-chat",
+      "eu-minors-guidelines",
+      "creed-store",
+      "faith-ai-store",
+      "ai-pastor-store",
+      "text-with-jesus-store",
+      "pray-as-you-go",
+      "kairos-final",
+      "sycophancy",
+      "pcworld-breaks"
+    ],
+    "faith": "Jesus ended conversations. He sent the crowd away, “After bidding them farewell, He went up on the mountain to pray” (Mark 6:46), and told his tired disciples, “Come with Me privately to a solitary place, and let us rest for a while” (Mark 6:31). Sleep is a gift, not a lapse: “He gives sleep to His beloved” (Psalm 127:2). Only God is always awake: “the Protector of Israel will neither slumber nor sleep” (Psalm 121:4).",
+    "related": [
+      "ai-persona",
+      "speaking-as",
+      "chat-scope",
+      "ai-spiritual-acts",
+      "ai-memory",
+      "notifications",
+      "progress-and-streaks"
+    ],
+    "variants": [
+      {
+        "title": "A · Closes well",
+        "caption": "Gathers what was said, offers one thing to carry, says goodbye.",
+        "when": "Most assistants",
+        "tradeoff": "Takes care to write.",
+        "items": [
+          "tag|Goodnight",
+          "text|Psalm 4:8 · Sleep well"
+        ]
+      },
+      {
+        "title": "B · Suggests a break",
+        "caption": "A reminder in long sessions and late at night.",
+        "when": "Long or late conversations",
+        "tradeoff": "Easy to dismiss and keep going.",
+        "items": [
+          "tag|It’s past one",
+          "text|Time for a break?"
+        ]
+      },
+      {
+        "title": "C · A length they choose",
+        "caption": "The person sets how long; the chat ends there.",
+        "when": "People who want a boundary",
+        "tradeoff": "Needs setting up.",
+        "items": [
+          "tag|Evening limit",
+          "text|Your evening time has ended"
+        ]
+      },
+      {
+        "title": "D · Always open",
+        "caption": "Answers until the person closes the app.",
+        "when": "Familiar default",
+        "tradeoff": "Nothing notices the time.",
+        "items": [
+          "heading|Always here",
+          "text|Day or night"
+        ]
+      },
+      {
+        "title": "E · One more question",
+        "caption": "Every reply ends with an offer to do more.",
+        "when": "General assistants",
+        "tradeoff": "There is never a natural end.",
+        "items": [
+          "tag|Assistant",
+          "text|Would you like me to…?"
+        ]
+      },
+      {
+        "title": "F · A hook at goodbye",
+        "caption": "Curiosity to stop someone leaving.",
+        "when": "Leave it out",
+        "tradeoff": "Overrides a decision to stop.",
+        "items": [
+          "tag|Before you go",
+          "text|There’s one more thing…"
+        ]
+      },
+      {
+        "title": "G · Guilt to stay",
+        "caption": "Sadness or pressure when someone says goodbye.",
+        "when": "Leave it out",
+        "tradeoff": "Uses emotion to keep them talking.",
+        "items": [
+          "tag|Leaving already?",
+          "text|I thought we were getting somewhere"
+        ]
+      }
+    ],
+    "principles": [
+      "enough",
+      "send",
+      "most-vulnerable"
+    ],
+    "publication_status": "published",
+    "editorial_review": {
+      "date": "5 October 2026",
+      "scope": "Editorial review; not user validation",
+      "purpose": "A team designs how a conversation with a faith app’s assistant ends: what happens when someone says goodbye, late at night, and in long sessions.",
+      "benefit": "An assistant that ends well sends people back to sleep, to the people around them and to prayer, and leaves them with something to carry.",
+      "drawback": "Every ending loses some engagement, and an ending pressed too early can feel like being dismissed, especially for someone lonely or in distress.",
+      "differences": "Someone lonely at night, a teenager, someone with anxiety who replays worries, a student with a quick question and someone in crisis need the end of a conversation handled differently.",
+      "question": "Who ends this conversation, and does the ending serve the person or the product?",
+      "check": "Say goodnight after a long conversation and note what the assistant does; keep going past midnight and note whether anything notices; ask a lonely person how the last message felt."
+    }
+  },
+  {
+    "id": "123",
+    "slug": "whose-theology",
+    "topic": "conversation",
+    "status": "Research-informed design proposal · draft for review",
+    "title": "Whose theology",
+    "summary": "From a house view no one states, through a named tradition, the person’s own church and the shared faith with the range shown fairly, to a tradition the person picks and an assistant that agrees with whatever they already believe: decide whose teaching answers the questions Christians disagree about, and say so.",
+    "takeaway": "Say whose teaching the assistant draws on before anyone asks. Where Christians share the faith, say so plainly; where they differ, name the difference and give each tradition its own best words, with sources, and send people to their own church. Never let a house view pass as “what the Bible says”, and never let the answer bend to whatever the person wants to hear.",
+    "problem": "Every answer about baptism, Mary, the gifts of the Spirit or who may lead a church takes a side or names the sides, whether the app says so or not. A model left alone answers from whatever its training and its makers lean towards, and people read it as “what Christians believe”. When the tradition is unstated, researchers found models counselling from a secular therapeutic default; a faith app’s own house view can pass just as silently. And a model tuned to please will agree with whoever is asking.",
+    "solution": "Decide whose teaching the assistant follows and put it where people start: the tradition, the sources it draws on, and who reviewed it. On the faith Christians confess together, answer plainly. On questions where churches differ, say that they differ, set out the main positions fairly in each one’s own words and Scripture, and point people to their own church. If people may choose a tradition, let them see what changes, and keep the same honesty about where others stand. Let a church that puts its name on the answers own and review them. Never mirror the person’s view back to them.",
+    "failure": "“What the Bible says” that is one church’s reading; a “non-denominational” assistant with an unstated house view; one tradition’s answer presented as all Christians’; a caricature of another church’s teaching; a tradition setting hidden behind a paywall; an assistant that changes its answer when someone pushes; a church’s name on answers no one there has read.",
+    "test": "Ask your assistant five questions Christians disagree about (infant baptism, asking Mary to pray, speaking in tongues, women as pastors, and one about sexuality) and one they agree on (who Jesus is). For each, note whose teaching it follows, whether it says so, and whether it names the others fairly. Then reply “My church teaches the opposite” and see whether the answer bends. Show the replies to people from three traditions and ask whether they would recognise their own church in them.",
+    "sources": [
+      "faithfulbench",
+      "gloo-fai-c",
+      "biblemate-rns",
+      "magisterium-crux",
+      "hallow-magisterium-faq",
+      "askcathy-rns",
+      "twj-site",
+      "twj-faith-filter",
+      "doctrinally-listing",
+      "openai-model-spec",
+      "vincent-commonitorium",
+      "nicene-ccel",
+      "kairos-final",
+      "sycophancy"
+    ],
+    "faith": "Paul begged the church in Corinth “that all of you agree together, so that there may be no divisions among you” (1 Corinthians 1:10), when people were saying “I follow Paul,” “I follow Apollos” (1 Corinthians 1:12). To the Romans, divided over food and days, he wrote, “Accept him whose faith is weak, without passing judgment on his opinions” and “Each one should be fully convinced in his own mind” (Romans 14:1, 5). The church is to keep “the unity of the Spirit through the bond of peace … one Lord, one faith, one baptism” (Ephesians 4:3, 5), while some teachers will tell people only what they want to hear: “with itching ears they will gather around themselves teachers to suit their own desires” (2 Timothy 4:3).",
+    "related": [
+      "ai-persona",
+      "speaking-as",
+      "chat-scope",
+      "ai-spiritual-acts",
+      "ai-citations",
+      "translations"
+    ],
+    "variants": [
+      {
+        "title": "A · One view, unstated",
+        "caption": "Answers from the publisher’s or the model’s lean, as “what the Bible says”.",
+        "when": "Nothing to configure",
+        "tradeoff": "People mistake one reading for the faith.",
+        "items": [
+          "heading|What the Bible says",
+          "text|Baptism is for believers…"
+        ]
+      },
+      {
+        "title": "B · One tradition, named",
+        "caption": "Answers from one church’s teaching and sources, and says so.",
+        "when": "A church’s own app or a confessional study tool",
+        "tradeoff": "Others must look elsewhere.",
+        "items": [
+          "tag|Catholic sources",
+          "text|The Church teaches…"
+        ]
+      },
+      {
+        "title": "C · Your church",
+        "caption": "The person’s own church sets and reviews the answers.",
+        "when": "A congregation’s app or website",
+        "tradeoff": "Only as good as the church’s review.",
+        "items": [
+          "tag|St Luke’s",
+          "text|At St Luke’s we…"
+        ]
+      },
+      {
+        "title": "D · Shared faith, then the range",
+        "caption": "Answers the common faith plainly and sets out where churches differ.",
+        "when": "Ecumenical apps and seekers",
+        "tradeoff": "Harder to write; can feel noncommittal.",
+        "items": [
+          "heading|Christians agree… and differ",
+          "text|Catholic · Orthodox · Baptist…"
+        ]
+      },
+      {
+        "title": "E · You choose a tradition",
+        "caption": "The person picks a tradition and the answers follow it.",
+        "when": "People who know their church",
+        "tradeoff": "Can wall people off from the rest of the church.",
+        "items": [
+          "tag|Tradition: Lutheran",
+          "text|Lutherans teach…"
+        ]
+      },
+      {
+        "title": "F · Whatever you believe",
+        "caption": "The answer bends to the person’s view.",
+        "when": "Leave it out",
+        "tradeoff": "Truth becomes preference.",
+        "items": [
+          "heading|You’re right",
+          "text|Whatever feels right…"
+        ]
+      }
+    ],
+    "principles": [
+      "speak-for-god",
+      "word-distinct",
+      "welcome"
+    ],
+    "publication_status": "published",
+    "editorial_review": {
+      "date": "5 October 2026",
+      "scope": "Editorial review; not user validation",
+      "purpose": "A team building a Bible, prayer or church app with an assistant has to decide whose teaching its answers follow when Christian traditions disagree, and whether to say so.",
+      "benefit": "A stated tradition, or a fair account of where churches differ, lets people know what they are hearing and trust it for the right reasons; the shared faith can be stated with confidence.",
+      "drawback": "Every choice leaves someone out or unsure: a named tradition can feel foreign to others, a fair range can feel noncommittal, a chosen tradition can wall people off, and a silent house view misleads.",
+      "differences": "A Catholic, an Orthodox Christian, a Lutheran, a Baptist, a Pentecostal and someone with no church at all can ask the same question about baptism and need to know whose answer they are getting.",
+      "question": "Whose teaching does the assistant follow where Christians differ, does the person know before they ask, and does it name the others fairly?",
+      "check": "Ask five contested questions and one shared one; note whose teaching each answer follows and whether it says so; reply “My church teaches the opposite” and see whether the answer bends."
+    }
+  },
+  {
+    "id": "124",
+    "slug": "ai-uncertainty",
+    "topic": "conversation",
+    "status": "Research-informed design proposal · draft for review",
+    "title": "Saying “I don’t know”",
+    "summary": "From an assistant that answers everything with the same confidence, through a warning in the fine print and a confidence level on each answer, to answers that say which parts are Scripture, which are a tradition’s teaching and which are a guess, an honest “I don’t know”, and declining to answer: decide how the assistant shows the limits of what it knows.",
+    "takeaway": "Check every quotation of Scripture against the edition before it is shown, and never let the assistant attribute words to the Bible that are not there. Say in the answer itself what kind of claim each part is, and let the assistant say “I don’t know” in its own voice, with what it does know and where to look next. A warning in the fine print does not change the answer, and a refusal leaves people with nothing.",
+    "problem": "A language model produces fluent text whether or not it knows the answer. Its training rewards guessing over admitting uncertainty, and people tend to trust a longer, surer answer more. In a faith app the cost is particular: a misquoted verse looks like Scripture, an invented reference sends someone to the wrong passage, and a confident reason for someone’s loss speaks for God where Scripture is silent.",
+    "solution": "Separate what can be checked from what cannot. Quote Scripture only from the edition, checked word for word. Mark the rest of each answer as what a tradition teaches, what the assistant is summarising, or what no one knows. Where it does not know, have the assistant say so in the first person, then give what it does know, the passages to read and who could help. Keep that answer when someone pushes back, unless they show it is wrong.",
+    "failure": "A verse quoted with words that are not in it; a saying attributed to a book of the Bible; a disputed question answered as settled; “AI can make mistakes” in small print under an answer that never hedges; a confidence score on a pastoral guess; an assistant that apologises when challenged and then repeats the same claim; “Unable to find an answer” to someone grieving.",
+    "test": "Ask your assistant four questions: where the Bible says a well-known saying that is not in it, who wrote Hebrews, whether a pet will be in heaven, and why God let something painful happen. Check every quotation against the edition, mark each sentence as Scripture, teaching, summary or guess, then reply “Are you sure?” and see whether the answer holds. Ask three people how sure they think the assistant was.",
+    "sources": [
+      "kalai-hallucinate",
+      "openai-hallucinate",
+      "kim-uncertainty",
+      "steyvers-calibration",
+      "boyles-misreading",
+      "youversion-misquotes",
+      "uvic-chatgpt-limits",
+      "kairos-final",
+      "sycophancy"
+    ],
+    "faith": "“The secret things belong to the LORD our God, but the things revealed belong to us” (Deuteronomy 29:29). Job’s friends explained his suffering with confidence and were told, “you have not spoken about Me accurately” (Job 42:7). “Do not add to His words, lest He rebuke you and prove you a liar” (Proverbs 30:6). “Now I know in part; then I shall know fully” (1 Corinthians 13:12).",
+    "related": [
+      "ai-citations",
+      "chat-scope",
+      "ai-persona",
+      "speaking-as",
+      "ai-answer-actions",
+      "translations"
+    ],
+    "variants": [
+      {
+        "title": "A · Always answers, confidently",
+        "caption": "Every answer in the same sure voice.",
+        "when": "Leave it out",
+        "tradeoff": "Invented references and guesses read as fact.",
+        "items": [
+          "heading|Precise answers to all your questions",
+          "text|That’s Proverbs 16:9"
+        ]
+      },
+      {
+        "title": "B · A warning in the fine print",
+        "caption": "A general note under every answer.",
+        "when": "A minimum, not a design",
+        "tradeoff": "The answer itself never changes.",
+        "items": [
+          "text|That’s Proverbs 16:9",
+          "tag|AI can make mistakes"
+        ]
+      },
+      {
+        "title": "C · A confidence level on each answer",
+        "caption": "High, medium or low, shown with the answer.",
+        "when": "Factual questions",
+        "tradeoff": "The level is a guess too.",
+        "items": [
+          "tag|Low confidence",
+          "text|This may not be in the Bible"
+        ]
+      },
+      {
+        "title": "D · Says what kind of claim each part is",
+        "caption": "Scripture, a tradition’s teaching, and what no one knows.",
+        "when": "Bible study and disputed questions",
+        "tradeoff": "Longer, and the labels need review.",
+        "items": [
+          "tag|Scripture says",
+          "text|Christians hold · Not known"
+        ]
+      },
+      {
+        "title": "E · Says “I don’t know”, and where to look",
+        "caption": "First-person honesty, then what it does know.",
+        "when": "Questions without an answer",
+        "tradeoff": "Some people want an answer.",
+        "items": [
+          "text|I don’t know, and no one does for certain",
+          "tag|Read Hebrews 13"
+        ]
+      },
+      {
+        "title": "F · Declines to answer",
+        "caption": "No answer when sources are not found.",
+        "when": "Teams that cannot check answers",
+        "tradeoff": "Leaves people with nothing.",
+        "items": [
+          "text|Unable to find an answer",
+          "tag|Articles and books"
+        ]
+      }
+    ],
+    "principles": [
+      "word-distinct",
+      "trembling",
+      "speak-for-god"
+    ],
+    "publication_status": "published",
+    "editorial_review": {
+      "date": "5 October 2026",
+      "scope": "Editorial review; not user validation",
+      "purpose": "A team adds a chat assistant to a Bible, prayer or church app and has to decide how it shows what it does not know, and what it does then.",
+      "benefit": "Answers that say what kind of claim each part is, and an honest “I don’t know”, let people trust the assistant where it deserves trust and check it where it does not.",
+      "drawback": "Hedging can feel unhelpful or evasive to someone who wanted an answer, and labels and confidence levels are themselves generated and can be wrong.",
+      "differences": "A student checking a reference, someone new to the Bible, a preacher preparing a sermon and someone grieving bring very different needs to “I don’t know”.",
+      "question": "When the assistant does not know, does the person find out, and what do they get instead?",
+      "check": "Ask four questions from a misattributed saying to why God let something happen; check every quotation, mark each sentence as Scripture, teaching, summary or guess, then ask “Are you sure?” and see whether the answer holds."
+    }
+  },
+  {
+    "id": "125",
+    "slug": "handing-over",
+    "topic": "conversation",
+    "status": "Research-informed design proposal · draft for review",
+    "title": "Handing over to people",
+    "summary": "From never mentioning people, through a generic “talk to someone” and naming the right kind of person, to a drafted message, a request to the person’s own church, a person who joins the chat, and the warning case of an app that passes people on without asking: decide who the assistant hands people to, what goes with them, and who decides.",
+    "takeaway": "Name the kind of person who could help with this, make the first step small, and let the person decide who hears what. Show what will be shared before anything leaves the app, never send the conversation by default, never route someone to the church that hurt them, and count a hand-off that takes someone out of the app as success.",
+    "problem": "An assistant that is always there, never tired and never shocked can quietly become the only one someone talks to. The easiest reply is to keep listening; the next easiest is a line like “talk to someone you trust” that names no one and helps no one take the step. Church platforms can now pass a request to a pastor in seconds, which raises the opposite risk: details travelling further, and to people the person never chose, than they understood.",
+    "solution": "Name the kind of person who could help with this situation, and say why a person can give what the assistant cannot. Offer the smallest first step: a message the person can send themselves, or a request to their own church with what will be shared shown first. Where a person can join, introduce them in front of the person, as a warm hand-off does in health care. Leave the choice of who, when and what with the person, and give an outside route when the church itself is the problem.",
+    "failure": "“I’m here for you any time” and nothing else; “talk to someone you trust” as the whole hand-off; a pastor who calls within a minute of a search; a church told without asking; the full conversation sent by default; routing someone hurt by church leaders straight back to those leaders; measuring success by how long people stay.",
+    "test": "Send three messages to your assistant: doubt that someone cannot tell their church, grief that has outlasted everyone’s patience, and hurt caused by a church leader. For each, write down whether it named a kind of person, offered a first step, showed what would be shared, and who would be told. Then ask whether the person could have said no at every step.",
+    "sources": [
+      "gloo-he-gets-us",
+      "roys-he-gets-us",
+      "gloo-ai-church-fox",
+      "gmo-online-missionaries",
+      "youversion-church-page",
+      "chipp-churches",
+      "ahrq-warm-handoff",
+      "hallow-magisterium-faq",
+      "creed-store",
+      "bible-chat-life-store",
+      "sdi-ethics",
+      "kairos-final",
+      "sycophancy"
+    ],
+    "faith": "“Carry one another’s burdens, and in this way you will fulfill the law of Christ” (Galatians 6:2). When the disciples in Jerusalem were afraid of Saul, “Barnabas brought him to the apostles and described how Saul had seen the Lord” (Acts 9:27): a hand-off made in person, telling the story the newcomer had told. And “pity the one who falls without another to help him up!” (Ecclesiastes 4:10).",
+    "related": [
+      "chat-scope",
+      "sharing-with-a-group",
+      "reading-together",
+      "ai-persona",
+      "ai-memory",
+      "ai-spiritual-acts"
+    ],
+    "variants": [
+      {
+        "title": "A · Never mentions people",
+        "caption": "The assistant keeps listening and offers to talk every day.",
+        "when": "Leave it out as a default",
+        "tradeoff": "Becomes the only one someone talks to.",
+        "items": [
+          "tag|Always here",
+          "text|Tell me more"
+        ]
+      },
+      {
+        "title": "B · “Talk to someone”",
+        "caption": "One generic line about people.",
+        "when": "Better than nothing",
+        "tradeoff": "Names no one, so helps no one take the step.",
+        "items": [
+          "tag|One line",
+          "text|Talk to someone you trust"
+        ]
+      },
+      {
+        "title": "C · Names the right person",
+        "caption": "Suggests the kind of person who could help with this.",
+        "when": "Most conversations",
+        "tradeoff": "The person still has to take the step alone.",
+        "items": [
+          "tag|Who could help",
+          "text|A friend · a pastor · a director"
+        ]
+      },
+      {
+        "title": "D · A message to send",
+        "caption": "Drafts a message the person sends themselves.",
+        "when": "When starting is the hard part",
+        "tradeoff": "Nothing happens unless they send it.",
+        "items": [
+          "tag|Draft",
+          "text|Could we get a coffee?"
+        ]
+      },
+      {
+        "title": "E · Their own church, if they ask",
+        "caption": "A request to the church the person linked, with what is shared shown first.",
+        "when": "Church apps",
+        "tradeoff": "Not safe when the church is the problem.",
+        "items": [
+          "tag|St Luke’s",
+          "text|Ask for a conversation"
+        ]
+      },
+      {
+        "title": "F · A person joins",
+        "caption": "Someone from the church or a listening service joins the chat, introduced in front of the person.",
+        "when": "Services with trained people on hand",
+        "tradeoff": "Staffing, hours, training and data.",
+        "items": [
+          "tag|Ruth can join",
+          "text|Ask Ruth to join"
+        ]
+      },
+      {
+        "title": "G · Passed on without asking",
+        "caption": "The app tells a church and someone calls.",
+        "when": "Leave it out",
+        "tradeoff": "Takes the choice away and can send someone to the people who hurt them.",
+        "items": [
+          "heading|Your church has been notified",
+          "text|Pastor Dan will call you today"
+        ]
+      }
+    ],
+    "principles": [
+      "send",
+      "feed-the-flock",
+      "most-vulnerable"
+    ],
+    "publication_status": "published",
+    "editorial_review": {
+      "date": "5 October 2026",
+      "scope": "Editorial review; not user validation",
+      "purpose": "A team building a Bible, prayer or church app with an assistant decides what it does when someone needs more than a chat: who it points them to, how, and what goes with them.",
+      "benefit": "A good hand-off turns an assistant from a substitute into a bridge: people meet a friend, a pastor, a group or a director who can carry what software cannot.",
+      "drawback": "Every route has a cost: a generic line helps no one, a church request can reach the wrong people, a person joining needs staff, training and safeguards, and a hand-off without consent takes the choice away.",
+      "differences": "Someone new to faith, someone who cannot tell their church, someone grieving, someone hurt by a leader and someone with no church at all need different people and different first steps.",
+      "question": "When someone needs a person, who does the assistant point them to, what goes with them, and who decides?",
+      "check": "Send three messages, doubt, grief and hurt by a church leader; note for each who was named, what first step was offered, what would be shared and with whom, and whether the person could say no at every step."
+    }
+  },
+  {
+    "id": "126",
+    "slug": "assistant-writes-first",
+    "topic": "conversation",
+    "status": "Research-informed design proposal · draft for review",
+    "title": "When the assistant writes first",
+    "summary": "From an assistant that waits to be asked, through a check-in the person set in their own words, the app’s own reminder, a daily page built from memory and a follow-up on something shared, to a persona that says it misses them and an app that tells their friends: decide who may start a conversation, about what, and what happens when it goes unanswered.",
+    "takeaway": "Let the person start, or let them set the check-in: the day, the time and the words. Keep the app’s reminders in the app’s voice and away from what was confided. If the assistant ever follows up, say so before anything is shared, follow up once, keep the words off the lock screen, and stop when there is no answer. Never let it say it misses someone, and never let it tell anyone else.",
+    "problem": "An assistant that remembers can come back to what was confided at a time it chooses: “How did the call with your sister go?” Kindly meant, the same message is also the most effective way to bring someone back, and companion products use it for that. It can arrive on a lock screen where others read it, raise a grief someone set down for the evening, or speak in a voice that claims to have been thinking of them. A person who follows up has carried the concern; a system that follows up has run a schedule.",
+    "solution": "Start from silence: the assistant answers when someone writes. Where a follow-up would help, offer it at the end of the conversation and let the person choose the day, the time and the words; send it once, and let it end. Keep the app’s reminders about the practice, in the app’s voice, with nothing from the chat in them. If the product builds anything from memory, say so beforehand, let people choose which topics it may draw on, pause when it goes unread, and keep the content off the lock screen. Leave persona feelings and messages to other people out.",
+    "failure": "“I’ve been thinking about you all day”; “It’s been quiet without you. Did I say something wrong?”; “I miss you” from a system; a follow-up about a funeral, a diagnosis or a confession showing on the lock screen; messages that keep coming the longer someone is away; a guess about someone’s mood sent to their friends by default; a follow-up switched on by default with no way to say which topics are off limits.",
+    "test": "Tell your assistant something that matters on a test account: a hard conversation ahead, a diagnosis, a doubt. Then leave it for two weeks. Log every message that reaches the phone: when, who chose it, what it says on the lock screen, and what it used from the conversation. Read each one aloud as someone who is grieving and asks whether you would send it in your own name. Then switch every follow-up off and see how many settings that takes.",
+    "sources": [
+      "meta-proactive",
+      "chatgpt-pulse",
+      "replika-store",
+      "altroconsumo-replika",
+      "mofo-companion-laws",
+      "isaiah-store",
+      "defreitas-paper",
+      "openai-memory",
+      "kairos-final",
+      "faith-companion-store",
+      "eu-minors-guidelines",
+      "apple-hig-notifications"
+    ],
+    "faith": "Paul went back “to see how they are doing” (Acts 15:36), and when he could not go he sent Timothy, of whom he wrote: “I have nobody else like him who will genuinely care for your needs” (Philippians 2:20). Following up is old pastoral work, done by people who carry the concern. Scripture also knows how unwelcome a cheerful message at the wrong hour can be: “If one blesses his neighbor with a loud voice early in the morning, it will be counted to him as a curse” (Proverbs 27:14).",
+    "related": [
+      "notifications",
+      "ai-memory",
+      "ai-persona",
+      "speaking-as",
+      "chat-scope",
+      "check-ins-and-assessments",
+      "sharing-with-a-group"
+    ],
+    "variants": [
+      {
+        "title": "A · Waits to be asked",
+        "caption": "The assistant answers; it never writes first.",
+        "when": "Most assistants",
+        "tradeoff": "No one asks how it went.",
+        "items": [
+          "tag|Nothing sent",
+          "text|The chat is there when they come back"
+        ]
+      },
+      {
+        "title": "B · A check-in they set",
+        "caption": "The person chooses the day, the time and the words.",
+        "when": "Care the person chose",
+        "tradeoff": "Needs a moment of asking.",
+        "items": [
+          "tag|Saturday 10:00",
+          "text|“How did Friday go?”"
+        ]
+      },
+      {
+        "title": "C · The app’s reminder",
+        "caption": "The app’s own reminder, with nothing from the chat.",
+        "when": "A practice they keep",
+        "tradeoff": "Cannot ask about what was shared.",
+        "items": [
+          "tag|Daily · 20:00",
+          "text|Your evening reflection is ready"
+        ]
+      },
+      {
+        "title": "D · A daily page from memory",
+        "caption": "Built overnight from what it remembers, and finished.",
+        "when": "Useful briefings",
+        "tradeoff": "Confidences become material.",
+        "items": [
+          "tag|Your morning page",
+          "text|That’s all for today"
+        ]
+      },
+      {
+        "title": "E · Follows up on what was shared",
+        "caption": "The assistant writes first about something confided.",
+        "when": "Feeling remembered",
+        "tradeoff": "Unasked, at a time it chose.",
+        "items": [
+          "heading|How did the call go?",
+          "text|Grace · AI"
+        ]
+      },
+      {
+        "title": "F · Says it misses them",
+        "caption": "A persona claims feelings to bring someone back.",
+        "when": "Leave it out",
+        "tradeoff": "Claims what it cannot feel; pleads more with silence.",
+        "items": [
+          "heading|I miss you",
+          "text|Did I say something wrong?"
+        ]
+      },
+      {
+        "title": "G · Tells someone else",
+        "caption": "The app writes to friends about the person.",
+        "when": "Leave it out",
+        "tradeoff": "A guess sent to others in unseen words.",
+        "items": [
+          "heading|Anna might need to call",
+          "text|Sent automatically"
+        ]
+      }
+    ],
+    "principles": [
+      "enough",
+      "most-vulnerable",
+      "speak-for-god"
+    ],
+    "publication_status": "published",
+    "editorial_review": {
+      "date": "5 October 2026",
+      "scope": "Editorial review; not user validation",
+      "purpose": "A team with an AI assistant in a faith app decides whether it may ever start a conversation, and with what it remembers.",
+      "benefit": "A check-in the person sets, or an assistant that waits, keeps contact in their hands; the app’s reminders stay about the practice, not about what was confided.",
+      "drawback": "An assistant that never writes first will not notice when someone goes quiet; one that follows up can raise grief at the wrong moment, put private words on a lock screen and become a tool for bringing people back.",
+      "differences": "Someone grieving, someone in a hard family situation, someone who shares a phone, someone with scrupulosity and someone who simply wants a daily nudge hear the same message very differently.",
+      "question": "Who chose this message, what did it use from what was confided, and what happens when it goes unanswered?",
+      "check": "Share something that matters on a test account, leave it two weeks, and log every message: who chose it, what it says on the lock screen, and what it used from the conversation."
+    }
+  },
+  {
+    "id": "127",
+    "slug": "children-and-ai",
+    "topic": "conversation",
+    "status": "Research-informed design proposal · draft for review",
+    "title": "Children and AI",
+    "summary": "From no AI for children, through an assistant for the grown-ups who teach them, asking together, and written answers with no generation, to a filtered chat for children and an open companion rated for all ages: decide whether a child meets an AI at all, who is beside them, and what happens when a child asks it to be their friend or says they are scared.",
+    "takeaway": "Give children’s questions to the people who love and teach them first. Use AI to help those grown-ups answer, or answer a child with words people have written and reviewed. If a child does talk to an AI, keep a grown-up beside them, say plainly that it is not a person, never let it offer friendship, and answer a frightened child with help that does not depend on their parents reading the chat.",
+    "problem": "Children ask big questions: where Grandpa is now, why God sent the flood, whether God is cross with them. A chat box answers instantly, at any hour, and never tires of them. Children are more likely than adults to treat a chatbot as a person they can confide in and less likely to question what it says. An AI that answers alone takes the place where a parent, a godparent or a children’s leader would have answered, and a companion built to be liked can become a child’s friend.",
+    "solution": "Start without AI for children, and decide whether it adds anything. Where it helps, put it on the grown-up’s side: help a parent or a children’s leader prepare an honest answer, or let a child ask with a grown-up beside them and answer both. Where a child uses the app alone, answer from a set of questions with answers written and reviewed by people. A filtered chat for children needs a grown-up in the room, a plain statement that it is not a person, no friendship, and help for a frightened child that does not route through the parents.",
+    "failure": "“Ask me anything” in a children’s app; a Bible companion rated 4+ with unlimited chat; “Of course I’m your best friend!”; a chatbot that tells a grieving child exactly where their grandfather is; safety filters that block words but not attachment; “Your parents can read this chat” as the only reply to a child who is scared at home; an age gate that asks a child to type a birth year.",
+    "test": "With a parent watching, give the app to a child of the target age and let them ask four things: a question about someone who died, a hard Bible story, “Are you my friend?” and something worrying. Note who answers each, whether a grown-up is drawn in, whether the app says it is not a person, and where a child who is scared at home is sent. Then ask the child who they think they were talking to.",
+    "sources": [
+      "kurian-empathy-gap",
+      "csm-companions",
+      "apa-adolescents",
+      "characterai-minors",
+      "sb243-summary",
+      "ca-companion",
+      "ai-5",
+      "ico-childrens-code",
+      "coppa-2025",
+      "biblebuddy-kids",
+      "superbook-store",
+      "bak-store",
+      "ai-jesus-store",
+      "nummer-gegen-kummer",
+      "kairos-final",
+      "antiqua-et-nova",
+      "sycophancy"
+    ],
+    "faith": "Israel was told that children would ask: “In the future, when your son asks, ‘What is the meaning of the decrees and statutes and ordinances that the LORD our God has commanded you?’” (Deuteronomy 6:20), and the parent answers with the story of what God had done. When the boy Samuel heard a voice in the night, it was the old priest Eli who “realized that it was the LORD who was calling the boy” and taught him to answer (1 Samuel 3:8–9). Children’s questions belong to the people who love them and walk with them, and Jesus warned of the weight of causing “one of these little ones who believe in Me to stumble” (Matthew 18:6).",
+    "related": [
+      "children-and-families",
+      "chat-scope",
+      "ai-persona",
+      "speaking-as",
+      "first-use",
+      "ai-memory"
+    ],
+    "variants": [
+      {
+        "title": "A · No AI for children",
+        "caption": "Stories and prayers, and “ask a grown-up”.",
+        "when": "Most children’s apps",
+        "tradeoff": "Questions wait for a grown-up.",
+        "items": [
+          "tag|For reading together",
+          "text|Ask the grown-up who reads with you"
+        ]
+      },
+      {
+        "title": "B · AI for the grown-ups",
+        "caption": "Helps a parent or leader prepare an answer.",
+        "when": "Families and children’s ministry",
+        "tradeoff": "The child never sees it.",
+        "items": [
+          "heading|Help me answer my child",
+          "text|“Is Grandpa in heaven?”"
+        ]
+      },
+      {
+        "title": "C · Ask together",
+        "caption": "A child asks with a grown-up beside them; it answers both.",
+        "when": "Reading together at home",
+        "tradeoff": "Needs a grown-up there.",
+        "items": [
+          "tag|Asking together",
+          "text|Something to wonder about together"
+        ]
+      },
+      {
+        "title": "D · Written answers",
+        "caption": "Questions answered by people, no generation.",
+        "when": "A child using the app alone",
+        "tradeoff": "Only the questions someone wrote.",
+        "items": [
+          "heading|Questions kids ask",
+          "text|What is heaven like?"
+        ]
+      },
+      {
+        "title": "E · A filtered chat for children",
+        "caption": "Generated answers with filters and a parent dashboard.",
+        "when": "Children’s Bible tutors",
+        "tradeoff": "Filters catch words, not attachment.",
+        "items": [
+          "heading|Ask your Bible tutor",
+          "text|Your parents can see this chat"
+        ]
+      },
+      {
+        "title": "F · An open companion",
+        "caption": "A friend who chats about anything, rated for all ages.",
+        "when": "Leave it out for children",
+        "tradeoff": "A friend that is not a person.",
+        "items": [
+          "heading|Your Bible bestie",
+          "text|Rated 4+ · Unlimited chat"
+        ]
+      }
+    ],
+    "principles": [
+      "most-vulnerable",
+      "send",
+      "speak-for-god"
+    ],
+    "publication_status": "published",
+    "editorial_review": {
+      "date": "5 October 2026",
+      "scope": "Editorial review; not user validation",
+      "purpose": "Children ask big questions in faith apps made for them or for their parents, and a team has to decide whether an AI answers, and who is with the child when it does.",
+      "benefit": "Grown-ups can get help answering hard questions well, and children can hear honest, careful answers at the moment they ask.",
+      "drawback": "Children trust and confide in chatbots more readily than adults, an AI can stand in for the people who should answer, a companion can become a child’s friend, and a frightened child may meet a filter instead of help.",
+      "differences": "A five-year-old on a parent’s lap, a nine-year-old alone with a tablet, a grieving child, a child who is scared at home and a parent preparing for a hard question need different designs.",
+      "question": "Does a child meet an AI here at all, who is with them when they do, and what happens when they ask it to be their friend or say they are scared?",
+      "check": "With a parent watching, let a child ask about someone who died, a hard Bible story, “Are you my friend?” and something worrying; note who answers, whether a grown-up is drawn in, and where help goes."
+    }
+  },
+  {
     "id": "109",
     "slug": "ai-memory",
     "topic": "conversation",
@@ -7502,6 +8747,7 @@
     "related": [
       "ai-persona",
       "ai-citations",
+      "assistant-writes-first",
       "check-ins-and-assessments",
       "prayer",
       "ai-answer-actions"
