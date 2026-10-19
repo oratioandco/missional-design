@@ -648,7 +648,8 @@
     "patterns": [
       "ai-citations",
       "answer-depth",
-      "ai-persona"
+      "ai-persona",
+      "ai-uncertainty"
     ],
     "version": "Not recorded",
     "credit": "BibleAI · interface and imagery remain the rights holders’ property.",
@@ -669,7 +670,9 @@
     "limit": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
     "patterns": [
       "ai-citations",
-      "sensitive-topics"
+      "sensitive-topics",
+      "ai-uncertainty",
+      "chat-scope"
     ],
     "version": "Not recorded",
     "credit": "BibleAI · interface and imagery remain the rights holders’ property.",
@@ -711,7 +714,9 @@
     "limit": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
     "patterns": [
       "ai-involvement-disclosure",
-      "ai-citations"
+      "ai-citations",
+      "ai-uncertainty",
+      "handing-over"
     ],
     "version": "Not recorded",
     "credit": "Hallow · interface and imagery remain the rights holders’ property.",
@@ -732,7 +737,8 @@
     "limit": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
     "patterns": [
       "ai-answer-actions",
-      "ai-involvement-disclosure"
+      "ai-involvement-disclosure",
+      "ai-uncertainty"
     ],
     "version": "Not recorded",
     "credit": "Spark Bible · interface and imagery remain the rights holders’ property.",
@@ -1019,7 +1025,10 @@
     "decision": "Portraits of praying people and of Jesus stand where a sender would be, and a call button suggests someone to ring. Test who people think they are talking to, and label the AI before the first message.",
     "limit": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
     "patterns": [
-      "ai-persona"
+      "ai-persona",
+      "speaking-as",
+      "ai-spiritual-acts",
+      "assistant-writes-first"
     ],
     "version": "Not recorded",
     "credit": "Faith · interface and imagery remain the rights holders’ property.",
@@ -1039,7 +1048,10 @@
     "decision": "A best-friend name and casual voice sell closeness, and “can explain anything” sets expectations no assistant can meet. Make the AI and its limits as visible as the friendship.",
     "limit": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
     "patterns": [
-      "ai-persona"
+      "ai-persona",
+      "speaking-as",
+      "chat-scope",
+      "agreeing-and-pushing-back"
     ],
     "version": "Not recorded",
     "credit": "Bible BFF · interface and imagery remain the rights holders’ property.",
@@ -1142,7 +1154,8 @@
     "decision": "A timestamped script makes a produced session navigable and shows which words are Scripture, which are music and which are the editors’.",
     "limit": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
     "patterns": [
-      "bible-audio"
+      "bible-audio",
+      "ending-the-conversation"
     ],
     "version": "Not recorded",
     "credit": "Pray As You Go · interface and imagery remain the rights holders’ property.",
@@ -1443,7 +1456,8 @@
     "decision": "Reaching out is hard, and the app tries to help. But an inference about someone’s mood, sent to friends by default, is a disclosure they did not make. Ask each time by default, and say what the friends are told.",
     "limit": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
     "patterns": [
-      "sharing-with-a-group"
+      "sharing-with-a-group",
+      "assistant-writes-first"
     ],
     "version": "Not recorded",
     "credit": "Soultime · interface and imagery remain the rights holders’ property.",
@@ -1485,7 +1499,9 @@
     "limit": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
     "patterns": [
       "sharing-with-a-group",
-      "first-use"
+      "first-use",
+      "ai-spiritual-acts",
+      "handing-over"
     ],
     "version": "Not recorded",
     "credit": "Hallow · interface and imagery remain the rights holders’ property.",
@@ -2307,7 +2323,10 @@
     "limit": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
     "patterns": [
       "ai-citations",
-      "ai-persona"
+      "ai-persona",
+      "ai-uncertainty",
+      "chat-scope",
+      "whose-theology"
     ],
     "version": "2.7.2",
     "credit": "HelloBible · interface and imagery remain the rights holders’ property.",
@@ -2347,7 +2366,8 @@
     "decision": "Offering lengths respects the listener’s day. Check that the short versions still read the passage whole, and say what is left out.",
     "limit": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
     "patterns": [
-      "devotional-audio"
+      "devotional-audio",
+      "ending-the-conversation"
     ],
     "version": "Not recorded",
     "credit": "Abide · interface and imagery remain the rights holders’ property.",
@@ -2471,7 +2491,8 @@
     "patterns": [
       "notifications",
       "check-ins-and-assessments",
-      "sharing-with-a-group"
+      "sharing-with-a-group",
+      "assistant-writes-first"
     ],
     "version": "Not recorded",
     "credit": "Soultime · interface and imagery remain the rights holders’ property.",

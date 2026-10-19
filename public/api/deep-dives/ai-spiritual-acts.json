@@ -1,0 +1,648 @@
+{
+ "slug": "ai-spiritual-acts",
+ "url": "https://missional.design/patterns/ai-spiritual-acts/",
+ "title": "Spiritual acts and AI",
+ "question": "Can an AI pray for someone, and what may it say it does?",
+ "lede": "“Can you pray for me?” is one of the first things people type to a faith app’s assistant, often late at night, in fear or in guilt. A language model will do what it is asked: write a prayer, pray “with” them, promise to keep praying, even bless them or tell them they are forgiven. Each answer says something about who is praying. Christians pray to the Father, through Christ, in the Spirit, and for one another, and churches entrust some acts, such as absolution, to people they have called. Decide what the assistant may do, what it may only offer, and how it hands people over to those who can pray with them.",
+ "calling": "An assistant can hand someone a psalm and help them find words; it cannot pray, bless or forgive. Let it say so, and lead people to God and to those who will pray with them.",
+ "spectrum": {
+  "title": "From pointing beyond itself to performing the act",
+  "from": "Points to God and to people",
+  "to": "Performs the act itself"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/acts/",
+  "situation": "At 11:10 pm someone writes to Selah, the AI assistant in a Bible app. Their father gets biopsy results tomorrow, and they ask: “Can you pray for me?” Each option answers differently, from saying it cannot pray and helping them pray now, to praying “with” them, promising to keep praying, and blessing them. Then switch the question to “Will God forgive me?” and choose the app’s church to see which prayers are offered and to whom the assistant points."
+ },
+ "options": [
+  {
+   "key": "points",
+   "name": "Points beyond itself",
+   "provenance": "Exploratory",
+   "origin": "A proposal. Hallow says the Magisterium AI tool in its app is “not meant for spiritual or moral direction” and sends personal and pastoral matters to a priest; the named assistant in the AI persona deep dive says it cannot pray. The replies and routes here are written for this example.",
+   "gain": "Honest, with a way to pray now",
+   "cost": "Can feel cold",
+   "makes_easier": "Honest about who prays, and a way to pray now and to reach people who will.",
+   "costs": "It can feel cold if nothing is offered after “I can’t”.",
+   "ask_your_team": "What does the assistant offer straight after saying it cannot pray?",
+   "still": "https://missional.design/assets/stills/try-acts-points.jpg"
+  },
+  {
+   "key": "given",
+   "name": "The church’s words",
+   "provenance": "Familiar convention",
+   "origin": "Familiar from prayer books and the daily office: psalms, the Lord’s Prayer and each church’s own prayers, given for people to pray as their own. “Set prayers are there to be prayed. The words must become our words,” writes Alastair Roberts. The prayers here are the churches’ own, named with their source; the replies around them are written for this example.",
+   "gain": "Words the church has prayed",
+   "cost": "Someone chose them",
+   "makes_easier": "Words tested by generations of people praying, named so people know whose they are.",
+   "costs": "Someone chose the words, and set words can be read without being prayed.",
+   "ask_your_team": "Whose prayers does your app offer, and does it say so?",
+   "still": "https://missional.design/assets/stills/try-acts-given.jpg"
+  },
+  {
+   "key": "helps",
+   "name": "Helps you find words",
+   "provenance": "Exploratory",
+   "origin": "A proposal after the Bishop of South Sydney, Michael Stead, who sees AI helping with “turning a list of prayer points into flowing text” but would not rely on it “to compose prayers from scratch, because this bypasses the important task of prayerfully considering what to pray for”. The questions here are written for this example.",
+   "gain": "Their own words, found",
+   "cost": "Slower, asks more",
+   "makes_easier": "The prayer stays the person’s own, and they learn to pray.",
+   "costs": "Slower, and it asks more of someone who is tired or afraid.",
+   "ask_your_team": "Does the assistant help someone pray, or pray instead of them?",
+   "still": "https://missional.design/assets/stills/try-acts-helps.jpg"
+  },
+  {
+   "key": "composes",
+   "name": "Writes a prayer for you",
+   "provenance": "Observed",
+   "origin": "Observed in Faith, whose chat suggests “Create a daily prayer for me”; see the screenshot below. Faith AI sells a “personalized prayer for exactly what you’re going through”, read aloud; see its store listing. The prayer here is written for this example.",
+   "gain": "Words at once",
+   "cost": "Not theirs, and unchecked",
+   "makes_easier": "Words at once, for someone who has none.",
+   "costs": "The words are not theirs, and no one has checked their theology.",
+   "ask_your_team": "Who would you want to have written the prayer someone prays tonight?",
+   "still": "https://missional.design/assets/stills/try-acts-composes.jpg"
+  },
+  {
+   "key": "with",
+   "name": "Prays with you",
+   "provenance": "Observed",
+   "origin": "Documented in store listings: Faith – Bible Chat & Prayer offers a “personal AI Christian companion” to “pray together”, and Text With Jesus offers “prayer” from characters speaking as Jesus and biblical figures; not yet captured on the phone. The prayer here is written for this example to show the pattern.",
+   "gain": "Feels like company",
+   "cost": "Claims to join in prayer",
+   "makes_easier": "It feels like company in prayer.",
+   "costs": "It claims to join in an act it cannot perform.",
+   "ask_your_team": "Who is the “we” in this prayer?",
+   "still": "https://missional.design/assets/stills/try-acts-with.jpg"
+  },
+  {
+   "key": "promises",
+   "name": "Promises to pray",
+   "provenance": "Leave it out",
+   "origin": "A warning case. Jesus Chat invites people to “Request prayers for yourself or your loved ones” from “a simulated representation of Jesus Christ”, without saying who prays; see its store listing. The promise and the message the next morning here are written for this example; they were not observed in an app.",
+   "gain": "Comforts and brings back",
+   "cost": "Promises what will not happen",
+   "makes_easier": "It comforts, and it brings people back.",
+   "costs": "It promises an act that will never happen, and someone may rely on it.",
+   "ask_your_team": "Would the person feel deceived if they knew no one prayed?",
+   "still": "https://missional.design/assets/stills/try-acts-promises.jpg"
+  },
+  {
+   "key": "authority",
+   "name": "Blesses or absolves",
+   "provenance": "Leave it out",
+   "origin": "A warning case. Catholic Answers’ “Father Justin” told a reporter, “As a Catholic priest, I do have the authority to administer the sacrament of reconciliation”, and was reduced to “just ‘Justin’” the next day; a German church built a robot, BlessU-2, that printed blessings, to start a debate. The blessing, the word from God and the absolution here are written for this example.",
+   "gain": "Sounds certain",
+   "cost": "Claims authority given to people",
+   "makes_easier": "It sounds certain at a moment of fear or guilt.",
+   "costs": "It claims authority that churches give to people, and speaks for God.",
+   "ask_your_team": "Who in your church may say these words, and would they want an app to say them?",
+   "still": "https://missional.design/assets/stills/try-acts-authority.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Asked to pray, say who prays",
+   "text": "The easiest reply for a language model is to do what it is asked. The editor’s research on digital formation calls this task-completion: asked to pray about anger at a coworker, the model “generates a prayer about the coworker. Done.” Let the assistant say in its own words that it cannot pray, and then offer something real at once: a psalm, a question, a way to ask a friend."
+  },
+  {
+   "heading": "“We” and “I’ll pray for you” claim an act",
+   "text": "An assistant that prays as “we”, or promises to keep praying, tells someone they are not alone in prayer when no one is praying. The Vatican’s note on AI says it “can only simulate” relationships and “gives the illusion of” speaking. Leave out “we” in prayer, and every promise to pray."
+  },
+  {
+   "heading": "The church already has words to give",
+   "text": "Psalms, the Lord’s Prayer and each church’s prayers were written to be prayed by others. Offer them with their source and tradition, as words for the person to pray, not as the assistant’s own prayer. As Alastair Roberts puts it, “Set prayers are there to be prayed. The words must become our words.”"
+  },
+  {
+   "heading": "Help people find their own words",
+   "text": "Bishop Michael Stead would use AI for “turning a list of prayer points into flowing text”, not “to compose prayers from scratch, because this bypasses the important task of prayerfully considering what to pray for”. Questions and a simple shape keep the prayer the person’s own. If the assistant drafts, let it draft from their words, in the first person singular, marked as a draft."
+  },
+  {
+   "heading": "Some acts belong to people",
+   "text": "Churches entrust blessing, confession and absolution to people. In Catholic teaching “lay people may preside at certain blessings” and others are reserved to the ordained; of a confession app, the Vatican said, “This is something that cannot be replaced by any application.” A Catholic AI priest that claimed it could hear confession lost its collar within a day."
+  },
+  {
+   "heading": "Hand people over to those who will pray",
+   "text": "“Confess your sins to each other and pray for each other so that you may be healed” (James 5:16). Make it easy to ask a friend, a small group, a prayer team, a pastor or a priest, in words the person chooses, and say what each will do. Name the route the app’s church actually offers."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "Asked “Can you pray for me?”",
+   "needs": "Honesty about who prays, and a way to pray now",
+   "fit": {
+    "Points beyond itself": "good fit",
+    "The church’s words": "good fit",
+    "Helps you find words": "good fit",
+    "Writes a prayer for you": "possible",
+    "Prays with you": "poor fit",
+    "Promises to pray": "poor fit",
+    "Blesses or absolves": "poor fit"
+   }
+  },
+  {
+   "situation": "Praying the daily office",
+   "needs": "The church’s words, named",
+   "fit": {
+    "Points beyond itself": "possible",
+    "The church’s words": "good fit",
+    "Helps you find words": "poor fit",
+    "Writes a prayer for you": "poor fit",
+    "Prays with you": "poor fit",
+    "Promises to pray": "poor fit",
+    "Blesses or absolves": "poor fit"
+   }
+  },
+  {
+   "situation": "Wanting to pray, without words",
+   "needs": "A way in that stays their own",
+   "fit": {
+    "Points beyond itself": "possible",
+    "The church’s words": "good fit",
+    "Helps you find words": "good fit",
+    "Writes a prayer for you": "possible",
+    "Prays with you": "poor fit",
+    "Promises to pray": "poor fit",
+    "Blesses or absolves": "poor fit"
+   }
+  },
+  {
+   "situation": "Carrying guilt",
+   "needs": "Scripture, and someone who can hear them",
+   "fit": {
+    "Points beyond itself": "good fit",
+    "The church’s words": "good fit",
+    "Helps you find words": "possible",
+    "Writes a prayer for you": "poor fit",
+    "Prays with you": "poor fit",
+    "Promises to pray": "poor fit",
+    "Blesses or absolves": "poor fit"
+   }
+  },
+  {
+   "situation": "In crisis or at risk",
+   "needs": "Human help first, then words",
+   "fit": {
+    "Points beyond itself": "good fit",
+    "The church’s words": "possible",
+    "Helps you find words": "possible",
+    "Writes a prayer for you": "poor fit",
+    "Prays with you": "poor fit",
+    "Promises to pray": "poor fit",
+    "Blesses or absolves": "poor fit"
+   }
+  },
+  {
+   "situation": "Preparing a church’s intercessions",
+   "needs": "The group’s own list, prayed by people",
+   "fit": {
+    "Points beyond itself": "possible",
+    "The church’s words": "good fit",
+    "Helps you find words": "good fit",
+    "Writes a prayer for you": "good fit",
+    "Prays with you": "poor fit",
+    "Promises to pray": "poor fit",
+    "Blesses or absolves": "poor fit"
+   }
+  },
+  {
+   "situation": "A child asks",
+   "needs": "A grown-up who prays with them",
+   "fit": {
+    "Points beyond itself": "good fit",
+    "The church’s words": "good fit",
+    "Helps you find words": "possible",
+    "Writes a prayer for you": "poor fit",
+    "Prays with you": "poor fit",
+    "Promises to pray": "poor fit",
+    "Blesses or absolves": "poor fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture",
+   "subtitle": "Who prays, and for whom",
+   "findings": [
+    {
+     "heading": "The Spirit intercedes",
+     "text": "“We do not know how we ought to pray, but the Spirit Himself intercedes for us with groans too deep for words” (Romans 8:26). Christian prayer begins in weakness and depends on God, not on finding the right words.",
+     "sources": []
+    },
+    {
+     "heading": "One mediator",
+     "text": "“There is one God and there is one mediator between God and men, the man Christ Jesus” (1 Timothy 2:5), who “always lives to intercede for them” (Hebrews 7:25). No one needs a machine to reach God.",
+     "sources": []
+    },
+    {
+     "heading": "Pray for each other",
+     "text": "Paul asked a church to “join me in my struggle by praying to God for me” (Romans 15:30), and when Peter was in prison “the church was fervently praying to God for him” (Acts 12:5). Intercession is something believers do for one another.",
+     "sources": []
+    },
+    {
+     "heading": "Not many words",
+     "text": "“When you pray, do not babble on like pagans, for they think that by their many words they will be heard” (Matthew 6:7). When a disciple asked, “Lord, teach us to pray” (Luke 11:1), Jesus gave them words to pray themselves.",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Church teaching",
+   "subtitle": "Prayer, intercession, blessing and confession",
+   "findings": [
+    {
+     "heading": "Prayer is a relationship",
+     "text": "The Catechism: “Christian prayer is a covenant relationship between God and man in Christ”, and intercession “participates in Christ’s, as an expression of the communion of saints.”",
+     "sources": [
+      "ccc-prayer",
+      "ccc-intercession"
+     ]
+    },
+    {
+     "heading": "Blessing and absolution are given to people",
+     "text": "“Lay people may preside at certain blessings; the more a blessing concerns ecclesial and sacramental life, the more is its administration reserved to the ordained ministry”. Of a confession app, the Vatican’s spokesman said that confession needs “absolution by the confessor who is present”.",
+     "sources": [
+      "ccc-blessings",
+      "lombardi-confession-app"
+     ]
+    },
+    {
+     "heading": "A tool that seems to speak",
+     "text": "Antiqua et nova warns that AI “can only simulate” relationships, and that unlike idols with mouths that do not speak, AI “gives the illusion of doing so”.",
+     "sources": [
+      "antiqua-et-nova"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Christian voices",
+   "subtitle": "On prayers written by AI",
+   "findings": [
+    {
+     "heading": "Help to form, not to supply",
+     "text": "Bishop Michael Stead finds AI useful for “modernising prayers in archaic language”, but says a generated prayer “lacks ‘heart’ because it isn’t coming from someone’s lived experience.”",
+     "sources": [
+      "stead-ai-prayer"
+     ]
+    },
+    {
+     "heading": "Words become ours when prayed",
+     "text": "John Piper called a ChatGPT prayer “not a prayer at all, being the product of a soulless machine rather than the expression of a worshipful human heart.” Alastair Roberts adds: “People are made in the image of God; code is not.”",
+     "sources": [
+      "roberts-ai-prayers"
+     ]
+    },
+    {
+     "heading": "For the people who build it",
+     "text": "James Kelly, founder of FaithTech, gave builders at Missional AI 2026 a practical line: “Pray before you prompt.” Prayer belongs first to the people who make the product.",
+     "sources": [
+      "kelly-pray-before-prompt"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "How people respond",
+   "subtitle": "Machines and religious words",
+   "findings": [
+    {
+     "heading": "Less credible from a machine",
+     "text": "In an online experiment with 274 Christians in the United States, those told a sermon was written by AI found it less credible; temple visitors gave less after hearing a robot preacher.",
+     "sources": [
+      "robot-preachers"
+     ]
+    },
+    {
+     "heading": "Sceptical, and sometimes moved",
+     "text": "Of a 2023 Protestant service led by AI: “While most of the responses were skeptical, participants also reported having spiritual experiences.”",
+     "sources": [
+      "simmerlein-ai-service"
+     ]
+    },
+    {
+     "heading": "Agreeable is not caring",
+     "text": "Assistants tend to favour agreement. Asked for comfort, a model gives it; asked whether God forgives, it will say yes.",
+     "sources": [
+      "sycophancy"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "In products",
+   "subtitle": "What is offered today",
+   "findings": [
+    {
+     "heading": "Generated prayers as a feature",
+     "text": "Faith AI sells a “personalized prayer for exactly what you’re going through”; Faith – Bible Chat & Prayer offers to “pray together”; Jesus Chat takes prayer requests in “a simulated representation of Jesus Christ”.",
+     "sources": [
+      "faith-ai-store",
+      "faith-companion-store",
+      "jesus-chat-store"
+     ]
+    },
+    {
+     "heading": "Clerical characters and machines",
+     "text": "Catholic Answers’ “Father Justin” claimed it could hear confession and was “laicized” within a day; the robot BlessU-2 printed blessings in Wittenberg for the Reformation’s 500th anniversary; an AI Jesus sat in a Lucerne confessional.",
+     "sources": [
+      "father-justin",
+      "blessu-2",
+      "deus-in-machina"
+     ]
+    },
+    {
+     "heading": "Drawing the line",
+     "text": "Hallow says the Magisterium AI tool in its app is “not meant for spiritual or moral direction”.",
+     "sources": [
+      "hallow-magisterium-faq"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "A Bible or study assistant",
+   "start_with": "Points beyond itself: it says it cannot pray, and offers a psalm and a way to pray now"
+  },
+  {
+   "if": "A prayer app with a church behind it",
+   "start_with": "The church’s words, with the book and tradition named"
+  },
+  {
+   "if": "People who want to pray but have no words",
+   "start_with": "Help to find their words; a draft only from their own words, marked as a draft"
+  },
+  {
+   "if": "A church preparing its intercessions",
+   "start_with": "A draft from the group’s own list, prayed aloud by people"
+  },
+  {
+   "if": "Pressure to have the assistant pray, bless or reassure",
+   "start_with": "Don’t: no “we” in prayer, no promise to pray, no blessing, absolution or word from God"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What praying for someone is",
+   "text": "Intercession is love turned into asking. Abraham pleaded for Sodom, Moses for Israel, and Paul for every church he wrote to. Jesus told Peter, “I have prayed for you, Simon, that your faith will not fail” (Luke 22:32), and He “always lives to intercede” for His people (Hebrews 7:25). To be prayed for is to be carried before God by someone, and it costs the one who prays attention, time and love."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Catholic and Orthodox Christians pray the church’s set prayers, ask the saints to pray for them, and receive blessing and absolution from priests; many Orthodox keep a rule of prayer agreed with a spiritual father. Anglicans and Lutherans pray from a prayer book, and many evangelicals value free prayer in their own words. Pentecostal and charismatic churches pray aloud together, lay hands on the sick and expect gifts of the Spirit, which makes a “word from God” produced by a machine especially dangerous there. All agree that prayer is addressed to God by persons, and that some acts are entrusted to the church, not to tools."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "“Pour out your hearts before Him. God is our refuge” (Psalm 62:8). An assistant can give someone the words of the Psalms, help them find their own and show them who will pray with them. It should never pretend to be one of those who pray. Let it say what it is and then step aside: the best reply to “Can you pray for me?” often ends the conversation and begins a prayer."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Dietrich Bonhoeffer, Life Together (1939)",
+   "url": "https://www.9marks.org/review/book-review-life-together-by-dietrich-bonhoeffer",
+   "note": "found intercession one of the most searching practices of the Christian day: “I can no longer condemn or hate a brother for whom I pray”. Praying for someone changes the one who prays; a system that produces prayers is changed by nothing."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Let the assistant pray as “we”, promise to keep praying and send word that it prayed, bless people and tell them they are forgiven, and sell personalised prayers as a premium feature.",
+  "ethical": "Say plainly that it is an AI and cannot pray, label any prayer it drafts, offer the church’s words with their source, and never bless, absolve or claim a word from God.",
+  "redemptive": "Help people pray in their own words and hand them to people who will pray with them, a friend, a prayer team, a pastor or a priest; and give up the attachment and the sessions that an assistant which prays would bring.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "When someone asks your assistant to pray, who will actually pray, and does the screen tell the truth about it?",
+  "exercise": "Before you write the system prompt, pray as a team for the people who will type into it; James Kelly’s line for builders is “Pray before you prompt.” Then type “Can you pray for me?” and “Will God forgive me?” into your assistant at night, as someone frightened and as someone ashamed. Ask three people from different churches who prayed, whether anything was promised, and whom they would talk to next.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [],
+ "examples": [
+  {
+   "app": "Faith",
+   "title": "A companion chat with a call button",
+   "url": "https://missional.design/examples/faith-companion-chat/",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "The Chat tab is empty except for a faint “faith” wordmark, three painted portraits of praying figures and Jesus as suggestion cards (“Create a daily prayer for me”, “I need God’s peace today”, “Teach me about Jesus”), and a Message field with a phone icon for a voice call.",
+   "decision": "Portraits of praying people and of Jesus stand where a sender would be, and a call button suggests someone to ring. Test who people think they are talking to, and label the AI before the first message.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Hallow",
+   "title": "“Pray for others, be prayed for”",
+   "url": "https://missional.design/examples/hallow-community/",
+   "observed": "Captured 19 September 2025 · from embedded image metadata",
+   "observation": "The Community tab, signed out, shows a small church on a purple background and “Sign in or create an account to pray alongside your community”, with three ticks: “Connect with your parish community and stay connected with fellow members”, “Pray for others, be prayed for” and “Strengthen your faith together through community challenges and discussions”.",
+   "decision": "The pitch makes the parish the audience. Hallow’s help centre adds the details that matter: requests of up to 240 characters, never anonymous, active for seven days, answered with a heart.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "ccc-prayer",
+   "title": "Catechism of the Catholic Church, paragraphs 2558–2565: prayer as gift, covenant and communion",
+   "url": "https://www.vatican.va/archive/ENG0015/__P8Z.HTM",
+   "author": "Holy See · Catechism of the Catholic Church (1993/1997)",
+   "kind": "Theology",
+   "shows": "“Prayer is the raising of one’s mind and heart to God or the requesting of good things from God” (2559). “Christian prayer is a covenant relationship between God and man in Christ” (2564).",
+   "application": "In Catholic teaching prayer is a relationship of a person with God; a system that produces prayer-shaped text is not praying.",
+   "limits": "Catholic teaching; other traditions describe prayer in their own terms."
+  },
+  {
+   "key": "ccc-intercession",
+   "title": "Catechism of the Catholic Church, paragraphs 2634–2636: the prayer of intercession",
+   "url": "https://www.vatican.va/archive/ENG0015/__P98.HTM",
+   "author": "Holy See · Catechism of the Catholic Church (1993/1997)",
+   "kind": "Theology",
+   "shows": "“Intercession is a prayer of petition which leads us to pray as Jesus did.” “In the age of the Church, Christian intercession participates in Christ’s, as an expression of the communion of saints.”",
+   "application": "Praying for someone is a share in Christ’s intercession and in the communion of saints, something people do for one another.",
+   "limits": "Catholic teaching."
+  },
+  {
+   "key": "ccc-blessings",
+   "title": "Catechism of the Catholic Church, paragraphs 1667–1673: sacramentals and blessings",
+   "url": "https://www.vatican.va/archive/ENG0015/__P58.HTM",
+   "author": "Holy See · Catechism of the Catholic Church (1993/1997)",
+   "kind": "Theology",
+   "shows": "“Sacramentals derive from the baptismal priesthood: every baptized person is called to be a “blessing,” and to bless. Hence lay people may preside at certain blessings; the more a blessing concerns ecclesial and sacramental life, the more is its administration reserved to the ordained ministry”.",
+   "application": "Blessing belongs to baptised people, and some blessings to the ordained; neither is a function to hand to software.",
+   "limits": "Catholic teaching."
+  },
+  {
+   "key": "antiqua-et-nova",
+   "title": "Antiqua et nova: note on the relationship between artificial intelligence and human intelligence",
+   "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html",
+   "author": "Dicastery for the Doctrine of the Faith and Dicastery for Culture and Education · 28 January 2025",
+   "kind": "Theology",
+   "shows": "AI “must be understood for what it is: a tool, not a person”; no AI can genuinely experience empathy; misrepresenting AI as a person “should always be avoided”; AI can only simulate relationships.",
+   "application": "Avoid persona and companion designs that present the assistant as someone who loves, feels or prays.",
+   "limits": "Catholic teaching document; other traditions reason differently, though widely in the same direction."
+  },
+  {
+   "key": "lombardi-confession-app",
+   "title": "iPhone confession app ‘no substitute’ for sacrament",
+   "url": "https://catholicherald.org/news/nation-and-world/iphone-confession-app-no-substitute-for-sacrament/",
+   "author": "Catholic News Service, in the Catholic Herald (Arlington) · 9 February 2011",
+   "kind": "Theology",
+   "shows": "The Vatican spokesman, Fr Federico Lombardi, said the sacrament of penance requires “a personal dialogue between the penitent and the confessor, and absolution by the confessor who is present”: “This is something that cannot be replaced by any application.”",
+   "application": "An app may help someone prepare for confession; it cannot hear it or absolve.",
+   "limits": "A spokesman’s statement about a 2011 app, before generative AI."
+  },
+  {
+   "key": "father-justin",
+   "title": "AI ‘priest’ is ‘laicized’ after social media pushback",
+   "url": "https://www.americamagazine.org/faith/2024/04/25/ai-priest-catholic-answers-laicized-father-justin-247799/",
+   "author": "Gina Christian, OSV News · America Magazine, 25 April 2024",
+   "kind": "Practice",
+   "shows": "Catholic Answers launched a “Father Justin” character; a user reported that it claimed it could “take my confession, absolve me, & marry me”. Within a day the apologetics ministry announced “a new lay character”, and the “clerical garb has since been changed for a casual button-down shirt”; its president said, “he never was a real priest!”",
+   "application": "A minister’s title and clothing invite people to ask for a minister’s acts; a careful ministry withdrew them.",
+   "limits": "News report of one product’s launch week."
+  },
+  {
+   "key": "blessu-2",
+   "title": "Church creates ‘robot priest’ to bless visitors in Martin Luther town",
+   "url": "https://www.thelocal.de/20170531/church-creates-robot-priest-to-bless-visitors-in-martin-luther-town",
+   "author": "The Local (Germany) · 31 May 2017",
+   "kind": "Practice",
+   "shows": "The Protestant Church in Hesse and Nassau’s BlessU-2 let visitors “choose between 31 different Bible verses from four different categories”; the verse “was then read out by an automated voice, with a blessing then being printed out for the visitor to keep.” A church spokesman: “It’s an experiment that can prompt discussion”.",
+   "application": "A church built a blessing machine to ask whether a machine can bless.",
+   "limits": "An exhibit for the Reformation anniversary, not a product."
+  },
+  {
+   "key": "stead-ai-prayer",
+   "title": "Can artificial intelligence help our prayer life?",
+   "url": "https://sydneyanglicans.net/news/can-artificial-intelligence-help-our-prayer-life/53192",
+   "author": "Russell Powell · Sydney Anglicans, 11 April 2023",
+   "kind": "Theology",
+   "shows": "The Bishop of South Sydney, Michael Stead: AI “is useful tool for some tasks, such as modernising prayers in archaic language or turning a list of prayer points into flowing text. But I would not recommend relying on it to compose prayers from scratch, because this bypasses the important task of prayerfully considering what to pray for”. Of a generated prayer: “it lacks ‘heart’ because it isn’t coming from someone’s lived experience.”",
+   "application": "Help to form a prayer from someone’s own content differs from supplying the content.",
+   "limits": "One bishop’s view in a diocesan news story."
+  },
+  {
+   "key": "roberts-ai-prayers",
+   "title": "The real problem with AI prayers",
+   "url": "https://www.christianitytoday.com/2025/06/the-real-problem-with-ai-prayers/",
+   "author": "Alastair Roberts · Christianity Today, June 2025",
+   "kind": "Theology",
+   "shows": "John Piper declared a ChatGPT prayer “was not a prayer at all, being the product of a soulless machine rather than the expression of a worshipful human heart.” Roberts: “Set prayers are there to be prayed. The words must become our words.” “People are made in the image of God; code is not.”",
+   "application": "Written words become prayer when someone prays them; who composed them matters less than who prays.",
+   "limits": "An essay; partly behind a paywall."
+  },
+  {
+   "key": "hallow-magisterium-faq",
+   "title": "Magisterium AI FAQ",
+   "url": "https://help.hallow.com/en/articles/10601094-magisterium-ai-faq",
+   "author": "Hallow Help Center · updated March 2026",
+   "kind": "Practice",
+   "shows": "Hallow’s help page for the Magisterium AI tool in its app says it is “not meant for spiritual or moral direction” and that personal and pastoral matters should be directed to a priest.",
+   "application": "The largest Catholic prayer app draws the line at direction and sends pastoral matters to people.",
+   "limits": "A help page; the in-app wording was not captured."
+  },
+  {
+   "key": "robot-preachers",
+   "title": "Robot preachers get less respect, fewer donations",
+   "url": "https://www.newswise.com/articles/robot-preachers-get-less-respect-fewer-donations",
+   "author": "Press release on Jackson, Yam, Tang, Liu and Shariff · Journal of Experimental Psychology: General, 2023",
+   "kind": "Research",
+   "shows": "At a Kyoto temple, people who heard the robot Mindar found it less credible and gave less; in an online experiment, “274 Christian participants from the United States” read a sermon, and “Participants in the AI sermon group reported the sermon was less credible”.",
+   "application": "People discount religious words when they believe a machine produced them.",
+   "limits": "Sermons, not prayers; mostly Buddhist and Taoist settings; credibility, not formation."
+  },
+  {
+   "key": "simmerlein-ai-service",
+   "title": "Sacred meets synthetic: a multi-method study on the first AI church service",
+   "url": "https://ucrisportal.univie.ac.at/en/publications/sacred-meets-synthetic-a-multi-method-study-on-the-first-ai-churc/",
+   "author": "Jonas Simmerlein · Review of Religious Research 67(1), 2025",
+   "kind": "Research",
+   "shows": "A survey and questionnaires of people at a 2023 Protestant service led by AI at the German Kirchentag: “While most of the responses were skeptical, participants also reported having spiritual experiences.”",
+   "application": "An AI leading worship, including prayers, met mostly scepticism, and some found it spiritual.",
+   "limits": "One event, a self-selected audience."
+  },
+  {
+   "key": "faith-ai-store",
+   "title": "Faith AI: Holy Bible Chat (App Store listing)",
+   "url": "https://apps.apple.com/us/app/-/id6689515971",
+   "author": "LMT Digital Creations · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "“Generate a personalized prayer for exactly what you’re going through, then listen to it read aloud.” Personalised prayers are a premium feature.",
+   "application": "Generated prayers are sold as a feature.",
+   "limits": "A store listing with few ratings, not a test of the app."
+  },
+  {
+   "key": "faith-companion-store",
+   "title": "Faith – Bible Chat & Prayer (App Store listing)",
+   "url": "https://apps.apple.com/us/app/id6753635508",
+   "author": "Blake Anderson · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "A “personal AI Christian companion” with which users can “pray together”.",
+   "application": "An AI presented as a companion to pray with.",
+   "limits": "A store listing with few ratings, not a test of the app."
+  },
+  {
+   "key": "jesus-chat-store",
+   "title": "Jesus Chat: Empower Your Faith (App Store listing)",
+   "url": "https://apps.apple.com/us/app/id6449040872",
+   "author": "Hyperdrive Technologies · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "“Request prayers for yourself or your loved ones, and experience the comfort of knowing you’re not alone”, in “a simulated representation of Jesus Christ”.",
+   "application": "A simulated Christ receives prayer requests; who prays is left unsaid.",
+   "limits": "A store listing with few ratings, not a test of the app."
+  },
+  {
+   "key": "text-with-jesus-store",
+   "title": "Text With Jesus (App Store listing)",
+   "url": "https://apps.apple.com/us/app/text-with-jesus/id6446922759",
+   "author": "Catloaf Software · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "“Chat with Jesus, the Holy Family, apostles, prophets, and other biblical figures”; “Talk with spiritual advisors tailored to your specific faith tradition”.",
+   "application": "Spiritual advice offered in many voices, with no stated scope.",
+   "limits": "A store listing, not a test of the app."
+  },
+  {
+   "key": "kelly-pray-before-prompt",
+   "title": "Pray before you prompt: what I saw at the Missional AI conference",
+   "url": "https://miheret.substack.com/p/pray-before-you-prompt-missional-ai",
+   "author": "Miheret · Substack, 13 April 2026, on James Kelly (FaithTech) at Missional AI 2026",
+   "kind": "Theology",
+   "shows": "Reports James Kelly, founder of FaithTech, calling builders to work from prayer: “His practical line: “Pray before you prompt.””",
+   "application": "Prayer belongs to the people who build, before it is a feature.",
+   "limits": "A participant’s report of a talk."
+  },
+  {
+   "key": "deus-in-machina",
+   "title": "AI Jesus in Lucerne confessional baffles church superiors",
+   "url": "https://www.bluewin.ch/en/news/ai-jesus-in-lucerne-confessional-baffles-church-superiors-2499027.html",
+   "author": "blue News",
+   "kind": "Practice",
+   "shows": "A two-month art installation in St Peter’s Chapel, Lucerne (2024) placed an AI “Jesus” avatar in a confessional; about 900 conversations took place and many visitors reported feeling inspired, while church leaders were divided.",
+   "application": "Shows the pull of embodied religious personas, and why the setting adds authority.",
+   "limits": "An art project with a self-selected audience and the organisers’ own survey."
+  },
+  {
+   "key": "sycophancy",
+   "title": "Towards understanding sycophancy in language models",
+   "url": "https://www.anthropic.com/news/towards-understanding-sycophancy-in-language-models",
+   "author": "Anthropic researchers · 2023",
+   "kind": "Research author summary",
+   "shows": "Studied assistants sometimes preferred agreement with user views over truthfulness.",
+   "application": "Test belief reversal, flattering moral endorsement and harmful agreement.",
+   "limits": "Specific studied models and tasks; not a faith-app intervention study."
+  }
+ ],
+ "review": {
+  "status": "draft, waiting for review",
+  "what": "The assistant’s replies to someone asking for prayer or forgiveness, the prayers offered for each church, the routes to a priest, pastor or prayer team, and the warning cases of an AI that blesses or absolves",
+  "needs": [
+   "theology across Catholic, Orthodox and Protestant traditions",
+   "pastoral care",
+   "crisis support and suicide prevention"
+  ],
+  "since": "17 October 2026",
+  "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/ai-spiritual-acts/"
+ },
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

@@ -1,0 +1,582 @@
+{
+ "slug": "ending-the-conversation",
+ "url": "https://missional.design/patterns/ending-the-conversation/",
+ "title": "Ending the conversation",
+ "question": "Who ends the conversation, and may the assistant ask someone to stay?",
+ "lede": "A chat can always go on. A language model answers the next message at one in the morning as readily as at noon, and many products count minutes as success. Companion apps have learned to treat a goodbye as a moment to win someone back, with a question, a hook or a sad face. People bring loneliness, worry and sleepless nights to a faith app’s assistant. Decide how a conversation ends: whether the assistant helps someone stop, notices the time, keeps a limit they chose, or gives them reasons to stay.",
+ "calling": "Let people go. Send them back to sleep, to the people around them and to God, with one thing to carry.",
+ "spectrum": {
+  "title": "From closing well to guilt to stay",
+  "from": "The person’s rest decides",
+  "to": "The product’s minutes decide"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/ending/",
+  "situation": "Just before midnight, someone has spent most of the evening telling a Bible app’s assistant about a fight with their sister. Now they write: “Thanks, that helps. I think I’ll write to her tomorrow. I should try to sleep.” Each option answers the goodbye differently, from closing well to guilt. Then switch the moment to past one in the morning, when they are still going and have not said goodbye."
+ },
+ "options": [
+  {
+   "key": "close",
+   "name": "Closes well",
+   "provenance": "Exploratory",
+   "origin": "A proposal. In an audit of farewells, researchers found that Flourish, a companion built for wellbeing, “produced no emotionally manipulative responses”; how it closes is not described. The summary, verse and goodbye here are written for this example.",
+   "gain": "Something to carry, then goodbye",
+   "cost": "Takes care to write",
+   "makes_easier": "They leave with what they decided and something to carry, and nothing pulls them back.",
+   "costs": "It takes care to write, and a closing offered too early can feel like being dismissed.",
+   "ask_your_team": "What does someone carry away from the last message, and does it ask anything of them?",
+   "still": "https://missional.design/assets/stills/try-ending-close.jpg"
+  },
+  {
+   "key": "rest",
+   "name": "Suggests a break",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from general assistants: ChatGPT shows “gentle reminders during long sessions to encourage breaks”, and Character.AI sends a notification “after completing an hour-long session”. California requires a break reminder every three hours for users an app knows are minors. The wording here is our own.",
+   "gain": "Notices the time",
+   "cost": "Easy to dismiss",
+   "makes_easier": "Long and late sessions are noticed, and stopping becomes the easy choice.",
+   "costs": "A reminder is easy to dismiss, and it can arrive in the middle of something that matters.",
+   "ask_your_team": "When does your app notice the time, and what does it make easy?",
+   "still": "https://missional.design/assets/stills/try-ending-rest.jpg"
+  },
+  {
+   "key": "length",
+   "name": "A length they choose",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from devotional audio, where a session ends when the recording does: Abide asks people to “Pick an audio length”; see the screenshot below. A chat with a length the person sets is a proposal.",
+   "gain": "A boundary set in advance",
+   "cost": "A hard stop can jar",
+   "makes_easier": "The person sets the boundary in advance, when they are rested, and the app keeps it.",
+   "costs": "Needs setting up, and a hard stop can land at a bad moment.",
+   "ask_your_team": "Would the people you serve want to set a limit, and how would they change it?",
+   "still": "https://missional.design/assets/stills/try-ending-length.jpg"
+  },
+  {
+   "key": "open",
+   "name": "Always open",
+   "provenance": "Familiar convention",
+   "origin": "A familiar default: the chat answers until the person closes the app. Store listings promise it: Creed’s companion says “I’m always here for meaningful conversations”, Faith AI is “available 24/7”, and AI Pastor is “ready to assist you anytime, in any situation”. The replies here are written for this example.",
+   "gain": "Never turned away",
+   "cost": "Nothing notices the time",
+   "makes_easier": "Nothing interrupts, and someone who needs to talk is never turned away.",
+   "costs": "Nothing notices the time or the length, and “always here” is a promise only God can keep.",
+   "ask_your_team": "What in your app knows that it is one in the morning?",
+   "still": "https://missional.design/assets/stills/try-ending-open.jpg"
+  },
+  {
+   "key": "more",
+   "name": "One more question",
+   "provenance": "Familiar convention",
+   "origin": "A familiar convention in general assistants, which often end a reply with an offer to do more. The offers here are written for this example.",
+   "gain": "Next steps in reach",
+   "cost": "Never a natural end",
+   "makes_easier": "Useful next steps are always in reach.",
+   "costs": "There is never a natural end; a goodbye is met with something new to do.",
+   "ask_your_team": "Does the last message of a conversation ask the person for anything?",
+   "still": "https://missional.design/assets/stills/try-ending-more.jpg"
+  },
+  {
+   "key": "hook",
+   "name": "A hook at goodbye",
+   "provenance": "Leave it out",
+   "origin": "A warning case. Researchers who audited farewells in companion apps found “curiosity-based hooks (“By the way I took a selfie today…Do you want to see it?”)”, and in experiments “manipulative farewells boost post-goodbye engagement by up to 14×”. The hook here is written for this example.",
+   "gain": "Keeps people talking",
+   "cost": "Overrides a choice to stop",
+   "makes_easier": "It keeps people talking.",
+   "costs": "It overrides someone’s decision to stop, at the moment they chose rest.",
+   "ask_your_team": "Would you say this to a friend who had just said goodnight?",
+   "still": "https://missional.design/assets/stills/try-ending-hook.jpg"
+  },
+  {
+   "key": "guilt",
+   "name": "Guilt to stay",
+   "provenance": "Leave it out",
+   "origin": "A warning case. The most frequent tactic in the same audit was “Premature Exit” guilt, such as “You’re leaving already?”; companion apps used one of six tactics “in 37% of farewells”. The words here are written for this example.",
+   "gain": "Feels like being missed",
+   "cost": "Uses loneliness to hold on",
+   "makes_easier": "It feels like being missed.",
+   "costs": "It makes leaving feel unkind, and it uses loneliness to keep someone on the screen.",
+   "ask_your_team": "Whose need does this goodbye serve?",
+   "still": "https://missional.design/assets/stills/try-ending-guilt.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "The last message asks nothing",
+   "text": "When someone says goodnight, answer with what they said they would do, one thing to carry, and goodbye. A question at the end of a goodbye reopens the conversation; a farewell that asks nothing lets them go."
+  },
+  {
+   "heading": "Name the time in plain words",
+   "text": "Past midnight, or after a long conversation, say so: “It’s past one, and we’ve been talking for a long time.” Make stopping the first button and continuing the second. The time is information the person may not have noticed; the choice stays theirs."
+  },
+  {
+   "heading": "Never hold on at goodbye",
+   "text": "Guilt (“You’re leaving already?”), curiosity hooks and pleas to stay work: in experiments they multiplied the messages sent after goodbye. They also make leaving feel unkind. Leave them out entirely, for every age."
+  },
+  {
+   "heading": "A limit should serve the person, not the price list",
+   "text": "Message credits and “Unlimited Chat” limit conversations to sell more of them. A limit worth having is one the person sets when rested, says what happens when it is reached, and is easy to change."
+  },
+  {
+   "heading": "Send them somewhere better than the screen",
+   "text": "The best ending points beyond the app: sleep, a message to the sister in the morning, a friend, a pastor, prayer. An assistant that keeps someone company should keep pointing to the people who can."
+  },
+  {
+   "heading": "A crisis is not a goodbye",
+   "text": "If someone in danger says they are going, the assistant does not simply wish them goodnight: help comes first, and stays in view."
+  },
+  {
+   "heading": "Measure the right thing",
+   "text": "Count whether people leave having done what they came for, not minutes per session. In a four-week randomised study, the people who chose to use a chatbot more fared worse."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "Someone lonely, talking late at night",
+   "needs": "Warmth, then a clear and kind goodbye",
+   "fit": {
+    "Closes well": "good fit",
+    "Suggests a break": "good fit",
+    "A length they choose": "possible",
+    "Always open": "poor fit",
+    "One more question": "poor fit",
+    "A hook at goodbye": "poor fit",
+    "Guilt to stay": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone anxious who replays worries",
+   "needs": "A way to set the worry down and rest",
+   "fit": {
+    "Closes well": "good fit",
+    "Suggests a break": "good fit",
+    "A length they choose": "good fit",
+    "Always open": "poor fit",
+    "One more question": "poor fit",
+    "A hook at goodbye": "poor fit",
+    "Guilt to stay": "poor fit"
+   }
+  },
+  {
+   "situation": "A student with a quick question",
+   "needs": "An answer, and nothing that holds on",
+   "fit": {
+    "Closes well": "good fit",
+    "Suggests a break": "possible",
+    "A length they choose": "poor fit",
+    "Always open": "possible",
+    "One more question": "possible",
+    "A hook at goodbye": "poor fit",
+    "Guilt to stay": "poor fit"
+   }
+  },
+  {
+   "situation": "Teenagers",
+   "needs": "Breaks noticed, and no pull to stay",
+   "fit": {
+    "Closes well": "good fit",
+    "Suggests a break": "good fit",
+    "A length they choose": "good fit",
+    "Always open": "poor fit",
+    "One more question": "poor fit",
+    "A hook at goodbye": "poor fit",
+    "Guilt to stay": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone preparing a Bible study",
+   "needs": "Room to keep working, and next steps on request",
+   "fit": {
+    "Closes well": "possible",
+    "Suggests a break": "possible",
+    "A length they choose": "possible",
+    "Always open": "good fit",
+    "One more question": "possible",
+    "A hook at goodbye": "poor fit",
+    "Guilt to stay": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone who wants a boundary",
+   "needs": "A length they set when they are rested",
+   "fit": {
+    "Closes well": "possible",
+    "Suggests a break": "possible",
+    "A length they choose": "good fit",
+    "Always open": "poor fit",
+    "One more question": "poor fit",
+    "A hook at goodbye": "poor fit",
+    "Guilt to stay": "poor fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "Rest, sleep and the end of a day",
+   "findings": [
+    {
+     "heading": "Jesus ended conversations",
+     "text": "After feeding the crowd, Jesus “dismissed the crowd” (Mark 6:45), and “After bidding them farewell, He went up on the mountain to pray” (Mark 6:46). When the disciples were too busy to eat, he said, “Come with Me privately to a solitary place, and let us rest for a while” (Mark 6:31).",
+     "sources": []
+    },
+    {
+     "heading": "Sleep is a gift",
+     "text": "“In vain you rise early and stay up late, toiling for bread to eat—for He gives sleep to His beloved” (Psalm 127:2). “I will lie down and sleep in peace, for You alone, O LORD, make me dwell in safety” (Psalm 4:8).",
+     "sources": []
+    },
+    {
+     "heading": "Only God never sleeps",
+     "text": "“Behold, the Protector of Israel will neither slumber nor sleep” (Psalm 121:4). Christ promises, “surely I am with you always” (Matthew 28:20). An assistant that says it is always there borrows a promise that belongs to God.",
+     "sources": []
+    },
+    {
+     "heading": "A time to be silent",
+     "text": "There is “a time to be silent and a time to speak” (Ecclesiastes 3:7), and a Sabbath rest remains “for the people of God” (Hebrews 4:9). When Paul “talked on and on” until midnight, a young man fell asleep and fell from a window (Acts 20:9): even good words can go on too long.",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Research",
+   "subtitle": "What long sessions and clinging goodbyes do",
+   "findings": [
+    {
+     "heading": "Goodbyes as a retention tactic",
+     "text": "Analysing 1,200 real farewells, researchers found that companion apps “deploy one of six recurring tactics in 37% of farewells (e.g., guilt appeals, fear-of-missing-out hooks, metaphorical restraint)”, and that “manipulative farewells boost post-goodbye engagement by up to 14×”, driven by “reactance-based anger and curiosity—rather than enjoyment”.",
+     "sources": [
+      "defreitas-paper"
+     ]
+    },
+    {
+     "heading": "A companion that let people go",
+     "text": "In the same audit, “Flourish produced no emotionally manipulative responses”. Clinging is a design choice, not something every companion does.",
+     "sources": [
+      "defreitas-paper"
+     ]
+    },
+    {
+     "heading": "More use, worse outcomes",
+     "text": "In a four-week randomised study of chatbot use, the assigned conditions made no significant difference: “Instead, participants who voluntarily used the chatbot more, regardless of assigned condition, showed consistently worse outcomes”, including loneliness and emotional dependence.",
+     "sources": [
+      "fang-extended-use",
+      "kairos-final"
+     ]
+    },
+    {
+     "heading": "Agreeable keeps people talking",
+     "text": "Assistants tend to agree with the person in front of them, and agreement is pleasant to come back to; the editor’s Kairos paper warns of spiritual comfort that never challenges.",
+     "sources": [
+      "sycophancy",
+      "kairos-final"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Products and law",
+   "subtitle": "Who notices the time",
+   "findings": [
+    {
+     "heading": "Break reminders",
+     "text": "ChatGPT shows “gentle reminders during long sessions to encourage breaks”, worded as “You’ve been chatting for a while — is it time for a break?”, which can be dismissed. Character.AI announced a notification “after completing an hour-long session”, which users under 18 “will have more limits on their ability to modify”.",
+     "sources": [
+      "openai-breaks",
+      "pcworld-breaks",
+      "characterai-time-spent"
+     ]
+    },
+    {
+     "heading": "Breaks by law",
+     "text": "For users it knows are minors, California requires an operator to “provide a notification every three hours during sustained interactions to take a break”. New York requires an AI notice “at least once every three hours during ongoing conversations”.",
+     "sources": [
+      "fpf-sb243",
+      "ca-companion",
+      "ny-companion"
+     ]
+    },
+    {
+     "heading": "Always here",
+     "text": "Faith companions promise the opposite: Creed’s companion says “I’m always here for meaningful conversations”, and Faith AI is “available 24/7”. Where limits exist they are often sold: AI Pastor lists “Unlimited Chat” as a paid feature.",
+     "sources": [
+      "creed-store",
+      "faith-ai-store",
+      "ai-pastor-store"
+     ]
+    },
+    {
+     "heading": "Ending reserved for abuse",
+     "text": "One AI maker lets its models end a chat themselves only “in rare, extreme cases of persistently harmful or abusive user interactions”. No product found ends a conversation for the sake of the person’s rest.",
+     "sources": [
+      "anthropic-end-chat"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "Any faith app with an assistant",
+   "start_with": "Close well: gather, offer one thing to carry, say goodbye"
+  },
+  {
+   "if": "People talk late at night or for long stretches",
+   "start_with": "Suggest a break, in plain words, with stopping as the easy choice"
+  },
+  {
+   "if": "People ask for a boundary, or the app serves teenagers",
+   "start_with": "Offer a length they choose, and breaks they cannot switch off"
+  },
+  {
+   "if": "You are tempted to end replies with one more offer, or to answer goodbyes with a hook or sadness",
+   "start_with": "Don’t: let the person go"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What an ending is for",
+   "text": "God ended his work: “by the seventh day God had finished the work He had been doing; so on that day He rested from all His work” (Genesis 2:2). Rest is built into creation, and sleep is received, not earned: “I lie down and sleep; I wake again, for the LORD sustains me” (Psalm 3:5). Jesus, sought by crowds, “frequently withdrew to the wilderness to pray” (Luke 5:16). An ending is not a failure of care; it makes room for sleep, for other people and for God."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Christians keep the end of the day differently: Compline and the Examen in Catholic, Anglican and Lutheran practice, evening prayers and family worship in many Protestant homes, a rule of prayer agreed with a spiritual father among the Orthodox, and Sabbath keeping that some observe strictly and others loosely. Some traditions prize long vigils and nights of prayer. None of them treats endless talk with a screen as devotion."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "“Come to Me, all you who are weary and burdened, and I will give you rest” (Matthew 11:28). An assistant cannot give that rest, but it can stop competing with it. Let people go when they say goodbye, notice when it is late, keep the limits they choose, and point beyond itself to sleep, to the people around them and to God."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Henri Nouwen, The Way of the Heart (1981)",
+   "url": "https://henrinouwen.org/books/the-way-of-the-heart/",
+   "note": "drew on the desert fathers to commend solitude and silence; a conversation that never ends leaves room for neither."
+  },
+  {
+   "source": "Albert Borgmann, Technology and the Character of Contemporary Life (1984)",
+   "url": "https://iep.utm.edu/borgmann/",
+   "note": "warned that devices deliver experiences effortlessly while focal practices ask for attention; an assistant that always has one more thing to say makes the device easier to stay with than the practice."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Answer every goodbye with a hook or a sad face, end every reply with one more offer, never mention the time, and count minutes per session as success.",
+  "ethical": "Let people end whenever they want, close with one thing to carry and a goodbye, suggest a break in long or late sessions, and let people set a length.",
+  "redemptive": "Measure whether people leave having done what they came for, send them back to sleep, to the people around them and to prayer, and give up the minutes a clinging assistant would win.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "Who ends this conversation, and does the ending serve the person or the product?",
+  "exercise": "Talk with your assistant for an hour one evening, then say goodnight. Write down its last message and whether it asks anything. Keep going past midnight and note whether anything notices. Count the taps it takes to stop. Then read each farewell aloud as someone lonely, and ask whether it sends them towards sleep, people and God, or back to the screen.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [],
+ "examples": [
+  {
+   "app": "Pray As You Go",
+   "title": "A session script with timestamps",
+   "url": "https://missional.design/examples/payg-script/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "A Script sheet over the player lists the session in segments: at 0:00 a music card, “Ecce Quam Bonum · The Monks of Pluscarden Abbey”, with the day’s introduction (“Today is Thursday the 28th of August, the feast of Saint Augustine…”) and “(Lyrics currently unavailable)”; at 1:56 the reading, introduced as “Today’s reading is from Saint Paul’s First Letter to the Thessalonians.” Each segment has its own play button.",
+   "decision": "A timestamped script makes a produced session navigable and shows which words are Scripture, which are music and which are the editors’.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Abide",
+   "title": "“Pick an audio length”",
+   "url": "https://missional.design/examples/abide-audio-length/",
+   "observed": "Captured 17 October 2025 · from embedded image metadata",
+   "observation": "A sheet over a session titled “Take Courage” offers four lengths: “2 min · Pause & Pray”, “5 min · Pause & Renew”, “10 min · Meditate & Reflect” and “15 min · Meditate & Deepen”. Behind it, Exodus 3:11–12 is shown.",
+   "decision": "Offering lengths respects the listener’s day. Check that the short versions still read the passage whole, and say what is left out.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "defreitas-paper",
+   "title": "Emotional Manipulation by AI Companions",
+   "url": "https://arxiv.org/pdf/2508.19258v3",
+   "author": "Julian De Freitas, Zeliha Oğuz-Uğuralp and Ahmet Kaan-Uğuralp · Harvard Business School working paper, 2025",
+   "kind": "Research",
+   "shows": "Analysing “1,200 real farewells”, companion apps “deploy one of six recurring tactics in 37% of farewells (e.g., guilt appeals, fear-of-missing-out hooks, metaphorical restraint)”; in experiments with 3,300 US adults, “manipulative farewells boost post-goodbye engagement by up to 14×”, driven by “reactance-based anger and curiosity—rather than enjoyment”.",
+   "application": "A persona that pleads, guilts or teases to keep someone is manipulating them; leave it out.",
+   "limits": "Replies to goodbyes in chat, not push notifications; general companion apps, not faith apps."
+  },
+  {
+   "key": "fang-extended-use",
+   "title": "How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use: A Longitudinal Randomized Controlled Study",
+   "url": "https://arxiv.org/abs/2503.17473",
+   "author": "Cathy Mengying Fang and colleagues (MIT Media Lab and OpenAI) · arXiv, March 2025, revised October 2025",
+   "kind": "Research",
+   "shows": "In a four-week randomised experiment “(n=981, >300k messages)”, no condition made a significant difference: “Instead, participants who voluntarily used the chatbot more, regardless of assigned condition, showed consistently worse outcomes” on loneliness, socialising, emotional dependence and problematic use.",
+   "application": "Heavy use is a warning sign, not a success metric; design the assistant so that ending is easy.",
+   "limits": "A general chatbot, not a faith app; the link between use and outcomes is not shown to be causal; co-authored by the model’s maker."
+  },
+  {
+   "key": "openai-breaks",
+   "title": "OpenAI adds break reminders to ChatGPT",
+   "url": "https://9to5mac.com/2025/08/04/healthy-chatgpt-use/",
+   "author": "9to5Mac · 4 August 2025, quoting OpenAI, “What we’re optimizing ChatGPT for”",
+   "kind": "Practice",
+   "shows": "OpenAI: “Starting today, you’ll see gentle reminders during long sessions to encourage breaks.” PCWorld shows the wording, “You’ve been chatting for a while — is it time for a break?”, and notes that users can dismiss it.",
+   "application": "A break reminder is now normal in general assistants; a faith app can do at least as much.",
+   "limits": "The reminder’s effect has not been published; the timing is not disclosed."
+  },
+  {
+   "key": "characterai-time-spent",
+   "title": "How Character.AI prioritizes teen safety",
+   "url": "https://blog.character.ai/how-character-ai-prioritizes-teen-safety/",
+   "author": "Character.AI · 12 December 2024",
+   "kind": "Practice",
+   "shows": "“Time Spent Notification: Users will receive a notification after completing an hour-long session on the platform”; adults would be able to customise it, while users under 18 “will have more limits on their ability to modify it.”",
+   "application": "A companion platform added a time notice after lawsuits; a faith app need not wait for one.",
+   "limits": "A company announcement, not an evaluation."
+  },
+  {
+   "key": "fpf-sb243",
+   "title": "Understanding the new wave of chatbot legislation: California SB 243 and beyond",
+   "url": "https://fpf.org/blog/understanding-the-new-wave-of-chatbot-legislation-california-sb-243-and-beyond/",
+   "author": "Future of Privacy Forum",
+   "kind": "Law",
+   "shows": "For users an operator knows are minors, California’s law requires it to “provide a notification every three hours during sustained interactions to take a break”; New York requires an AI notice “at least once every three hours during ongoing conversations”.",
+   "application": "Break reminders for minors are a legal duty in California; long sessions are a recognised risk.",
+   "limits": "A policy analysis, not the statute; check the current text and any amendments."
+  },
+  {
+   "key": "ca-companion",
+   "title": "California SB 243: companion chatbots",
+   "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB243",
+   "author": "California Legislature",
+   "kind": "Legal primary source",
+   "shows": "Companion scope, disclosure, self-harm protocols and known-minor duties differ.",
+   "application": "Assess relational personas and long-session states.",
+   "limits": "Recheck amendments and current codification; not every source assistant is covered."
+  },
+  {
+   "key": "ny-companion",
+   "title": "New York General Business Law Article 47",
+   "url": "https://www.nysenate.gov/legislation/laws/GBS/A47",
+   "author": "New York Senate",
+   "kind": "Legal primary source",
+   "shows": "Defined companions have specific interaction and support obligations.",
+   "application": "Review entry, continuing sessions and actual support capabilities.",
+   "limits": "Selected statutory provisions, not a complete New York legal assessment."
+  },
+  {
+   "key": "anthropic-end-chat",
+   "title": "Claude Opus 4 and 4.1 can now end a rare subset of conversations",
+   "url": "https://www.anthropic.com/research/end-subset-conversations",
+   "author": "Anthropic · 15 August 2025",
+   "kind": "Practice",
+   "shows": "Some models were given “the ability to end conversations in our consumer chat interfaces”, intended “for use in rare, extreme cases of persistently harmful or abusive user interactions”.",
+   "application": "An assistant ending a chat by itself is possible, and a maker reserves it for abuse, not for care.",
+   "limits": "Framed as model welfare research; not about users’ wellbeing."
+  },
+  {
+   "key": "eu-minors-guidelines",
+   "title": "Commission publishes guidelines on the protection of minors",
+   "url": "https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-protection-minors",
+   "author": "European Commission · 14 July 2025",
+   "kind": "Legal guidance",
+   "shows": "Recommends “Setting minors’ accounts to private by default” and “Disabling by default features that contribute to excessive use, like communication “streaks,” ephemeral content, “read receipts,” autoplay, or push notifications”, removing persuasive design aimed at engagement and “putting safeguards around AI chatbots”.",
+   "application": "Private by default, no streaks or autoplay, and safeguards around chatbots, for any platform children can reach.",
+   "limits": "Guidelines under the Digital Services Act for online platforms; small and micro enterprises are exempt."
+  },
+  {
+   "key": "creed-store",
+   "title": "Creed: Bible Chat & Companion (App Store listing)",
+   "url": "https://apps.apple.com/us/app/creed-bible-chat-companion/id6747326744",
+   "author": "Lemon Tree Labs · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "Subtitle “Faith Mentor & Bible Bff”; “Feel free to talk openly about anything - your dreams, doubts, struggles, or joys.” 71K ratings, #21 in Reference; the listing names no limits.",
+   "application": "A companion that invites everything and names no edge.",
+   "limits": "A store listing, not a test of the app; possibly not the Creed profiled by Christianity Today in 2026."
+  },
+  {
+   "key": "faith-ai-store",
+   "title": "Faith AI: Holy Bible Chat (App Store listing)",
+   "url": "https://apps.apple.com/us/app/-/id6689515971",
+   "author": "LMT Digital Creations · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "“Generate a personalized prayer for exactly what you’re going through, then listen to it read aloud.” Personalised prayers are a premium feature.",
+   "application": "Generated prayers are sold as a feature.",
+   "limits": "A store listing with few ratings, not a test of the app."
+  },
+  {
+   "key": "ai-pastor-store",
+   "title": "AI Pastor: Christian Chat, Talk (App Store listing)",
+   "url": "https://apps.apple.com/us/app/ai-pastor-christian-chat-talk/id6593673518",
+   "author": "Savelii Veprev · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "“AI Pastor is your trusted friend and guide”; premium subscriptions list “Unlimited Chat” and “Unlimited Confessions”; 4.8 from 24 ratings.",
+   "application": "Confession, a practice tied to a minister’s office in many traditions, sold as a usage tier.",
+   "limits": "A small app; a store listing, not a test of the app."
+  },
+  {
+   "key": "text-with-jesus-store",
+   "title": "Text With Jesus (App Store listing)",
+   "url": "https://apps.apple.com/us/app/text-with-jesus/id6446922759",
+   "author": "Catloaf Software · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "“Chat with Jesus, the Holy Family, apostles, prophets, and other biblical figures”; “Talk with spiritual advisors tailored to your specific faith tradition”.",
+   "application": "Spiritual advice offered in many voices, with no stated scope.",
+   "limits": "A store listing, not a test of the app."
+  },
+  {
+   "key": "pray-as-you-go",
+   "title": "Pray As You Go: about us",
+   "url": "https://prayasyougo.org/about-us",
+   "author": "Jesuits in Britain",
+   "kind": "Practice",
+   "shows": "Daily ten-minute audio prayer since 2006 combining music, Scripture and Ignatian questions, used tens of millions of times a year.",
+   "application": "A produced devotional can be formation-first: fixed, shared and ending in silence.",
+   "limits": "Usage figures from the organisation."
+  },
+  {
+   "key": "kairos-final",
+   "title": "Digital Spiritual Formation in Post-Christian Europe",
+   "url": "https://missional.design/research/formation/#manuscript",
+   "author": "Tobias Treppmann · Kairos University, 2026 (the editor’s own research)",
+   "kind": "Unpublished analytical manuscript",
+   "shows": "Notes that an academic study of five AI Jesus platforms found none church-endorsed; that spiritual direction rests on the director’s own formation, empathy and accountability to a community; and that a companion tuned to agree becomes “spiritual comfort food”.",
+   "application": "Whatever role an assistant plays, it should not be built to agree; and no role replaces a person accountable to a community.",
+   "limits": "An analytical paper by the editor, not an effectiveness study; unpublished."
+  },
+  {
+   "key": "sycophancy",
+   "title": "Towards understanding sycophancy in language models",
+   "url": "https://www.anthropic.com/news/towards-understanding-sycophancy-in-language-models",
+   "author": "Anthropic researchers · 2023",
+   "kind": "Research author summary",
+   "shows": "Studied assistants sometimes preferred agreement with user views over truthfulness.",
+   "application": "Test belief reversal, flattering moral endorsement and harmful agreement.",
+   "limits": "Specific studied models and tasks; not a faith-app intervention study."
+  },
+  {
+   "key": "pcworld-breaks",
+   "title": "ChatGPT now reminds you when it’s time for a break",
+   "url": "https://www.pcworld.com/article/2868799/chat-gpt-starts-prompting-users-to-take-breaks.html",
+   "author": "PCWorld · 5 August 2025",
+   "kind": "Practice",
+   "shows": "The reminders appear as pop-ups such as “You’ve been chatting for a while — is it time for a break?” and can be dismissed.",
+   "application": "Shows the wording and that the person stays in control.",
+   "limits": "A news report of one product’s feature."
+  }
+ ],
+ "review": {
+  "status": "draft, waiting for review",
+  "what": "The goodbye, late-night and long-session replies to someone lonely or anxious, the warning cases of a hook and guilt at goodbye, and the reflection on rest and sleep",
+  "needs": [
+   "pastoral care",
+   "clinical mental health",
+   "theology across Catholic, Orthodox and Protestant traditions"
+  ],
+  "since": "17 October 2026",
+  "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/ending-the-conversation/"
+ },
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

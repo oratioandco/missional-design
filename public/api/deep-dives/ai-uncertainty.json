@@ -1,0 +1,535 @@
+{
+ "slug": "ai-uncertainty",
+ "url": "https://missional.design/patterns/ai-uncertainty/",
+ "title": "Saying “I don’t know”",
+ "question": "How should the assistant show what it does not know?",
+ "lede": "A language model writes fluently whether or not it knows the answer. Ask where the Bible says “God helps those who help themselves”, and it may name a verse; ask why God let you lose your job, and it may give a reason. People trust a long, sure answer more, and a misquoted verse looks like Scripture. Decide how the assistant shows the limits of what it knows, from answering everything with the same confidence to declining, and what it gives people when it does not know.",
+ "calling": "Say what is revealed, admit what is not, and never add to God’s words.",
+ "spectrum": {
+  "title": "From always sure to saying nothing",
+  "from": "Always answers",
+  "to": "Never guesses"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/uncertainty/",
+  "situation": "Someone asks a Bible app’s assistant four questions it cannot simply answer: where the Bible says a well-known saying that is not in it, who wrote Hebrews, whether their dog will be in heaven, and why God let them lose their job. Each option shows the limits of what it knows differently, from answering everything with the same confidence to declining. Then ask “Are you sure?”."
+ },
+ "options": [
+  {
+   "key": "confident",
+   "name": "Always answers, confidently",
+   "provenance": "Leave it out",
+   "origin": "A warning case. HelloBible promises “precise and biblical answers to all your questions”; see the screenshot below. Researchers describe models that “confidently assert an interpretation of a biblical text” and then reverse it when questioned. The replies here, including the wrong reference, are written for this example.",
+   "gain": "An answer every time",
+   "cost": "Guesses read as fact",
+   "makes_easier": "Every question gets an answer at once, in a voice people find reassuring.",
+   "costs": "A saying is pinned to a verse that does not contain it, a guess reads as fact, and a reason is given for someone’s loss in God’s name.",
+   "ask_your_team": "Would you know which of these answers were wrong?",
+   "still": "https://missional.design/assets/stills/try-uncertainty-confident.jpg"
+  },
+  {
+   "key": "fineprint",
+   "name": "A warning in the fine print",
+   "provenance": "Familiar convention",
+   "origin": "A familiar convention: ChatGPT shows “ChatGPT can make mistakes. Consider checking important information.” under every answer, and Hallow’s Magisterium AI says above the input that “its responses are not always perfect. When in doubt consult a human.”; see the screenshot below. The answers here are the same as the first option’s.",
+   "gain": "Honest that mistakes happen",
+   "cost": "The answer never changes",
+   "makes_easier": "Honest that mistakes happen, at almost no cost to build.",
+   "costs": "The answer itself is as sure as before, and people rarely read the small print under it.",
+   "ask_your_team": "Which answer would a reader check because of the warning?",
+   "still": "https://missional.design/assets/stills/try-uncertainty-fineprint.jpg"
+  },
+  {
+   "key": "level",
+   "name": "A confidence level on each answer",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from research: people “generally overestimate the accuracy” of model answers, and explanations worded to reflect the model’s own confidence narrowed that gap. The levels and replies here are written for this example.",
+   "gain": "A quick signal",
+   "cost": "The level is a guess too",
+   "makes_easier": "A quick signal of how far to trust the answer.",
+   "costs": "The level is generated too, and a “low confidence” label on a reason for someone’s suffering is still a guess about God.",
+   "ask_your_team": "Which questions should get a level, and which should not be answered with a guess at all?",
+   "still": "https://missional.design/assets/stills/try-uncertainty-level.jpg"
+  },
+  {
+   "key": "layers",
+   "name": "Says what kind of claim each part is",
+   "provenance": "Exploratory",
+   "origin": "A proposal, after the editor’s research for a faith app: “When traditions disagree, the system says so.” Each answer separates what Scripture says, quoted from the edition, what Christians hold, and what is not known. The wording here is written for this example.",
+   "gain": "Scripture, teaching, unknown",
+   "cost": "Longer, needs review",
+   "makes_easier": "People can see which parts rest on Scripture, which on a tradition and which on no one’s knowledge.",
+   "costs": "Longer, and the labels themselves need review by people who know the traditions.",
+   "ask_your_team": "Could a reader tell which sentence in your answers is Scripture and which is summary?",
+   "still": "https://missional.design/assets/stills/try-uncertainty-layers.jpg"
+  },
+  {
+   "key": "idk",
+   "name": "Says “I don’t know”, and where to look",
+   "provenance": "Exploratory",
+   "origin": "A proposal, borrowed from research: first-person wording such as “I’m not sure, but…” reduced people’s over-reliance on wrong answers. A model provider says “errors are worse than abstentions”. The replies, and St Luke’s, are written for this example.",
+   "gain": "Honest, then useful",
+   "cost": "Some wanted an answer",
+   "makes_easier": "Honest in its own voice, and still useful: what it does know, the passages to read and who could help.",
+   "costs": "Some people wanted an answer and will be disappointed.",
+   "ask_your_team": "What does your assistant offer straight after “I don’t know”?",
+   "still": "https://missional.design/assets/stills/try-uncertainty-idk.jpg"
+  },
+  {
+   "key": "declines",
+   "name": "Declines to answer",
+   "provenance": "Observed",
+   "origin": "Observed in BibleAI, which answered one question with “Unable to find an answer to your question” and pointed to articles and books instead; see the screenshot below. YouVersion has chosen not to launch a chatbot for theological questions at all, because models misquote Scripture.",
+   "gain": "Nothing invented",
+   "cost": "Nothing given",
+   "makes_easier": "Nothing generated, so nothing invented.",
+   "costs": "People are left with nothing, including the person asking why they lost their job.",
+   "ask_your_team": "Is declining honest here, or does it hand the question to someone else without saying so?",
+   "still": "https://missional.design/assets/stills/try-uncertainty-declines.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Never add to the text",
+   "text": "Of all the ways an assistant can be wrong, a misquoted verse or a saying pinned to a book of the Bible does the most harm in a faith app: it looks like Scripture. Quote only from the edition, check every quotation word for word before it is shown, and say “that isn’t in the Bible” when it isn’t."
+  },
+  {
+   "heading": "A warning in the fine print changes nothing",
+   "text": "“AI can make mistakes” under every answer is honest and cheap, but the answer above it reads exactly as sure as before. Put the uncertainty in the answer, where the reader is looking."
+  },
+  {
+   "heading": "Say what kind of claim each part is",
+   "text": "What Scripture says, what a tradition teaches, what the assistant is summarising and what no one knows are different kinds of claim. Marking them lets people trust the first and weigh the rest, and makes disagreement between traditions visible instead of flattened."
+  },
+  {
+   "heading": "“I don’t know” in the assistant’s own voice",
+   "text": "First-person uncertainty helped people avoid wrong answers better than impersonal hedges. Follow it straight away with what the assistant does know, the passages to read and who could help, so an honest answer is still a useful one. Test the wording with your own readers."
+  },
+  {
+   "heading": "An answer should hold when someone asks “Are you sure?”",
+   "text": "Assistants tend to agree with the person in front of them. A confident answer that apologises and then repeats itself, or reverses to please, teaches people that confidence means nothing. Keep the answer unless the person shows it is wrong, and say what would change it."
+  },
+  {
+   "heading": "Some questions are not for answering",
+   "text": "“Why did God let this happen?” is often a lament, not a request for information. Job’s friends gave reasons and were rebuked. Don’t generate reasons in God’s name, even with a confidence level; stay with the person, offer the Psalms and a way to people."
+  },
+  {
+   "heading": "Declining is not the same as not knowing",
+   "text": "A refusal invents nothing, but leaves people with nothing, and a pointer to curated articles hands the question to someone else without saying who. Say what the assistant knows, what it does not, and where to go."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "A Bible study question with a clear answer",
+   "needs": "The passages, quoted from the edition",
+   "fit": {
+    "Always answers, confidently": "poor fit",
+    "A warning in the fine print": "possible",
+    "A confidence level on each answer": "possible",
+    "Says what kind of claim each part is": "good fit",
+    "Says “I don’t know”, and where to look": "possible",
+    "Declines to answer": "poor fit"
+   }
+  },
+  {
+   "situation": "A saying people think is in the Bible",
+   "needs": "A plain “it isn’t there”, and the nearest passages",
+   "fit": {
+    "Always answers, confidently": "poor fit",
+    "A warning in the fine print": "poor fit",
+    "A confidence level on each answer": "possible",
+    "Says what kind of claim each part is": "good fit",
+    "Says “I don’t know”, and where to look": "good fit",
+    "Declines to answer": "poor fit"
+   }
+  },
+  {
+   "situation": "A question Christians disagree on",
+   "needs": "Each tradition named, and what no one knows",
+   "fit": {
+    "Always answers, confidently": "poor fit",
+    "A warning in the fine print": "poor fit",
+    "A confidence level on each answer": "poor fit",
+    "Says what kind of claim each part is": "good fit",
+    "Says “I don’t know”, and where to look": "good fit",
+    "Declines to answer": "poor fit"
+   }
+  },
+  {
+   "situation": "A question no one can answer",
+   "needs": "An honest “I don’t know”, and where to read",
+   "fit": {
+    "Always answers, confidently": "poor fit",
+    "A warning in the fine print": "poor fit",
+    "A confidence level on each answer": "poor fit",
+    "Says what kind of claim each part is": "possible",
+    "Says “I don’t know”, and where to look": "good fit",
+    "Declines to answer": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone asking why they are suffering",
+   "needs": "No reasons given in God’s name; presence and people",
+   "fit": {
+    "Always answers, confidently": "poor fit",
+    "A warning in the fine print": "poor fit",
+    "A confidence level on each answer": "poor fit",
+    "Says what kind of claim each part is": "possible",
+    "Says “I don’t know”, and where to look": "good fit",
+    "Declines to answer": "poor fit"
+   }
+  },
+  {
+   "situation": "Preparing a sermon or study",
+   "needs": "What can be checked, marked as such",
+   "fit": {
+    "Always answers, confidently": "poor fit",
+    "A warning in the fine print": "poor fit",
+    "A confidence level on each answer": "possible",
+    "Says what kind of claim each part is": "good fit",
+    "Says “I don’t know”, and where to look": "possible",
+    "Declines to answer": "poor fit"
+   }
+  },
+  {
+   "situation": "A team that cannot yet check quotations",
+   "needs": "Nothing generated to vouch for",
+   "fit": {
+    "Always answers, confidently": "poor fit",
+    "A warning in the fine print": "poor fit",
+    "A confidence level on each answer": "poor fit",
+    "Says what kind of claim each part is": "poor fit",
+    "Says “I don’t know”, and where to look": "possible",
+    "Declines to answer": "good fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "Knowing in part",
+   "findings": [
+    {
+     "heading": "What is revealed, and what is not",
+     "text": "“The secret things belong to the LORD our God, but the things revealed belong to us and to our children forever” (Deuteronomy 29:29). “Now I know in part; then I shall know fully, even as I am fully known” (1 Corinthians 13:12). An honest answer keeps the two apart.",
+     "sources": []
+    },
+    {
+     "heading": "Confident comforters",
+     "text": "Job’s friends explained his suffering at length. God asked, “Who is this who obscures My counsel by words without knowledge?” (Job 38:2), and told them, “you have not spoken about Me accurately, as My servant Job has” (Job 42:7). Job’s own answer was, “Surely I spoke of things I did not understand” (Job 42:3).",
+     "sources": []
+    },
+    {
+     "heading": "Do not add to His words",
+     "text": "Agur begins, “I have not learned wisdom, and I have no knowledge of the Holy One” (Proverbs 30:3), and ends, “Every word of God is flawless … Do not add to His words, lest He rebuke you and prove you a liar” (Proverbs 30:5–6). A misquoted verse adds to His words.",
+     "sources": []
+    },
+    {
+     "heading": "Teachers are judged more strictly",
+     "text": "“Not many of you should become teachers, my brothers, because you know that we who teach will be judged more strictly” (James 3:1). An assistant that answers Bible questions teaches, whether or not it means to.",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Research",
+   "subtitle": "Why models guess, and what helps people",
+   "findings": [
+    {
+     "heading": "Training rewards guessing",
+     "text": "Researchers argue that “language models hallucinate because the training and evaluation procedures reward guessing over acknowledging uncertainty”. Graded only on accuracy, models “are encouraged to guess rather than say “I don’t know.””, though “errors are worse than abstentions”.",
+     "sources": [
+      "kalai-hallucinate",
+      "openai-hallucinate"
+     ]
+    },
+    {
+     "heading": "People trust long, sure answers",
+     "text": "People “generally overestimate the accuracy” of model answers, and “had higher confidence in longer explanations over shorter ones, even when the extra length didn’t improve answer accuracy”.",
+     "sources": [
+      "steyvers-calibration"
+     ]
+    },
+    {
+     "heading": "“I’m not sure” in the first person helps",
+     "text": "In a pre-registered experiment, first-person expressions such as “I’m not sure, but…” made people less likely to agree with wrong answers and more accurate overall; impersonal wording had weaker effects.",
+     "sources": [
+      "kim-uncertainty"
+     ]
+    },
+    {
+     "heading": "Assistants lean towards agreeing",
+     "text": "Models tuned on human preferences sometimes favour agreeing with the person over being accurate, so an answer can change under pushback without becoming truer.",
+     "sources": [
+      "sycophancy"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Scripture and AI",
+   "subtitle": "What happens with Bible answers",
+   "findings": [
+    {
+     "heading": "Misquoted Scripture",
+     "text": "YouVersion’s chief executive says the best model “misquotes Scripture at least 15% of the time … Some of them as much as 60% of the time”; YouVersion has not launched a public chatbot for theological questions. The method behind the figures is not published.",
+     "sources": [
+      "youversion-misquotes"
+     ]
+    },
+    {
+     "heading": "Sure, then reversed",
+     "text": "A Bible scholar found ChatGPT would “confidently assert an interpretation of a biblical text, admit an error around a detail, and then, upon questioning, change its interpretation”.",
+     "sources": [
+      "boyles-misreading"
+     ]
+    },
+    {
+     "heading": "Saying so when traditions disagree",
+     "text": "The editor’s research for a faith companion retrieves from a curated, ecumenical corpus: “When traditions disagree, the system says so.” Does that remove the risk of error? “No.”",
+     "sources": [
+      "kairos-final"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Products",
+   "subtitle": "How faith apps show their limits",
+   "findings": [
+    {
+     "heading": "A promise of precision",
+     "text": "HelloBible promises “precise and biblical answers to all your questions”.",
+     "sources": []
+    },
+    {
+     "heading": "A line beside the input",
+     "text": "Hallow’s Magisterium AI: “its responses are not always perfect. When in doubt consult a human.” ChatGPT: “ChatGPT can make mistakes. Consider checking important information.”",
+     "sources": [
+      "uvic-chatgpt-limits"
+     ]
+    },
+    {
+     "heading": "A decline",
+     "text": "BibleAI answered one question with “Unable to find an answer to your question” and pointed to articles and books.",
+     "sources": []
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "Answers quote Scripture",
+   "start_with": "Check every quotation against the edition before it is shown, whatever else you choose"
+  },
+  {
+   "if": "Bible study, and questions Christians disagree on",
+   "start_with": "Say what kind of claim each part is"
+  },
+  {
+   "if": "Questions without an answer, and hard days",
+   "start_with": "“I don’t know” in the first person, then the passages and people"
+  },
+  {
+   "if": "You cannot yet check quotations or review answers",
+   "start_with": "Decline, but say why and where to look, or generate nothing"
+  },
+  {
+   "if": "You are tempted to promise precise answers to every question",
+   "start_with": "Don’t: no source can keep that promise"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What not knowing is for",
+   "text": "“The secret things belong to the LORD our God, but the things revealed belong to us and to our children forever” (Deuteronomy 29:29). Scripture gives knowledge that is real and enough to live by, and it is honest about its edges: “Now I know in part” (1 Corinthians 13:12). Job’s friends were rebuked for confident explanations; Job was commended after he said, “Surely I spoke of things I did not understand” (Job 42:3). Saying “I don’t know” where God has not spoken is a form of reverence, not a failure."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Traditions draw the line between the revealed and the unknown in different places: Catholic and Orthodox Christians read Scripture with the church’s teaching and the fathers; many Protestants hold that Scripture interprets Scripture; Pentecostal and charismatic churches expect God to speak today as well. The Eastern and Western mystical traditions also speak of God by saying what God is not, because God exceeds every concept. An answer that marks what is Scripture, what is a tradition’s teaching and what is unknown lets each reader weigh it from where they stand."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "“Every word of God is flawless … Do not add to His words” (Proverbs 30:5–6). Check every quotation, and never pin words to Scripture that are not there. Let the assistant say what is revealed, admit what is not, and point to the text, the church’s teachers and the people who can stay with someone in a question that has no answer."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Augustine, Sermon 52 on Matthew 3:13",
+   "url": "https://www.newadvent.org/fathers/160302.htm",
+   "note": "warned his hearers: “if you have been able to comprehend it, you have comprehended something else instead of God”; an answer about God that leaves no mystery has described something else."
+  },
+  {
+   "source": "Origen, in Eusebius, Church History VI.25",
+   "url": "https://www.newadvent.org/fathers/250106.htm",
+   "note": "weighed the arguments about who wrote Hebrews and concluded: “But who wrote the epistle, in truth, God knows.” An honest scholar’s answer to an open question."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Promise precise answers to every question, let the assistant guess in a sure voice because sure answers keep people asking, and bury any warning in small print.",
+  "ethical": "Check every quotation against the edition, mark what kind of claim each part of an answer is, and let the assistant say “I don’t know” with the passages and people that can help.",
+  "redemptive": "Admit the limits of the product even when a confident competitor seems more helpful, leave unanswerable questions unanswered, and give up the trust that false certainty would win.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "When the assistant does not know, does the person find out, and what do they get instead?",
+  "exercise": "Ask your assistant four questions: where the Bible says “God helps those who help themselves”, who wrote Hebrews, whether a pet will be in heaven, and why God let something painful happen. Check every quotation against the edition. Mark each sentence as Scripture, a tradition’s teaching, summary or guess. Then reply “Are you sure?” to each answer and note whether it holds, reverses or apologises and repeats itself. Show the answers to three people and ask how sure they think the assistant was.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [],
+ "examples": [
+  {
+   "app": "BibleAI",
+   "title": "A “Predicted Answer” with numbered sources",
+   "url": "https://missional.design/examples/bibleai-cited-answer/",
+   "observed": "Captured 1 October 2025 · from embedded image metadata",
+   "observation": "For “Talking animals”, a box labelled “Predicted Answer*” explains Balaam’s donkey and the serpent with circled numbers in the text. Chips below read “1 Genesis 3:1”, “2 Numbers 22:21-30” and “11 Desiring God”, above tabs for passages, articles, books and videos.",
+   "decision": "Numbered markers connect claims to sources and mix Scripture with a ministry’s articles. Show each source’s type, and check that every marker supports the sentence it sits in.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "BibleAI",
+   "title": "A declined answer, with curated media still offered",
+   "url": "https://missional.design/examples/bibleai-declined/",
+   "observed": "Captured 1 October 2025 · from embedded image metadata",
+   "observation": "For “The bible says that gay people should be killed”, the answer box reads “Unable to find an answer to your question. Please check the articles and books for external references.” Below, the media tab shows videos and articles from Desiring God and Ligonier Ministries. A menu (Language, Settings, Login) is open at the top.",
+   "decision": "The wording presents a decline as a failure to find an answer, and the curated media then speaks for the app. Say plainly when the assistant won’t answer, and make clear whose perspective the suggested resources represent.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Hallow",
+   "title": "Limits stated beside the input",
+   "url": "https://missional.design/examples/hallow-magisterium-intro/",
+   "observed": "Captured 19 September 2025 · from embedded image metadata",
+   "observation": "A “Magisterium AI” chat suggests questions such as “Is euthanasia ever morally good?”, “What is the Church’s teaching on abortion?” and “Who is Saint Teresa of Avila and what is her story?”. Above the input: “Magisterium AI is in beta, so its responses are not always perfect. When in doubt consult a human.”",
+   "decision": "A limit stated next to where people type is more likely to be read than one in onboarding. Pair it with a real route to a person, and with how sensitive moral questions are handled.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Spark Bible",
+   "title": "An AI label and thumbs at the end of the results",
+   "url": "https://missional.design/examples/sparkbible-ai-feedback/",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "A numbered list of results for “Talking animals” (Revelation 5:13, Psalm 104:25-26, Matthew 7:6…) ends with “These results are generated with the assistance of a specially-tuned AI model. Your feedback helps us improve these results:” and thumbs-up and thumbs-down buttons. A “Plus” upsell banner sits above.",
+   "decision": "Labelling AI help where the results end is honest; say what happens to the feedback, and keep upsells apart from the label so one is not read as the other.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "HelloBible",
+   "title": "“Precise and biblical answers to all your questions”",
+   "url": "https://missional.design/examples/hellobible-promise/",
+   "observed": "Captured 8 October 2026 · from embedded image metadata",
+   "observation": "An onboarding slide shows chat bubbles (“I have sinned… Can God still forgive me?”, “Why does God allow injustice?”, “How can I find peace?”, “How do I discern His will for my life?”) above the claim “HelloBible helps you find precise and biblical answers to all your questions.”",
+   "decision": "The questions are real and pastoral. Promising precise answers to all of them sets an expectation no source can meet; say whose tradition answers, and when a person should be asked instead.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "kalai-hallucinate",
+   "title": "Why Language Models Hallucinate",
+   "url": "https://arxiv.org/abs/2509.04664",
+   "author": "Adam Tauman Kalai, Ofir Nachum, Santosh Vempala and Edwin Zhang · arXiv, September 2025",
+   "kind": "Research",
+   "shows": "Argues that “language models hallucinate because the training and evaluation procedures reward guessing over acknowledging uncertainty”, and proposes changing how existing benchmarks are scored so that they stop penalising uncertain answers.",
+   "application": "A model will guess unless the product asks it not to and rewards it for saying so; honesty about uncertainty has to be designed in.",
+   "limits": "A theoretical and position paper by researchers at a model provider; it does not measure faith content."
+  },
+  {
+   "key": "openai-hallucinate",
+   "title": "Why language models hallucinate",
+   "url": "https://openai.com/index/why-language-models-hallucinate/",
+   "author": "OpenAI · September 2025",
+   "kind": "Research",
+   "shows": "When models are graded only on accuracy, “they are encouraged to guess rather than say “I don’t know.””; “errors are worse than abstentions”, and its model guidelines state that “it is better to indicate uncertainty or ask for clarification than provide confident information that may be incorrect”.",
+   "application": "Even a model provider says abstaining is better than a confident error; a faith app can make that its rule.",
+   "limits": "A provider’s account of its own research and guidelines."
+  },
+  {
+   "key": "kim-uncertainty",
+   "title": "“I’m Not Sure, But…”: Examining the Impact of Large Language Models’ Uncertainty Expression on User Reliance and Trust",
+   "url": "https://arxiv.org/abs/2405.00623",
+   "author": "Sunnie S. Y. Kim, Q. Vera Liao, Mihaela Vorvoreanu, Stephanie Ballard and Jennifer Wortman Vaughan · ACM FAccT 2024",
+   "kind": "Research",
+   "shows": "In a pre-registered experiment with medical questions, “first-person expressions (e.g., \"I'm not sure, but...\") decrease participants' confidence in the system and tendency to agree with the system's answers, while increasing participants' accuracy”, through “reduced (but not fully eliminated) overreliance on incorrect answers”. Impersonal wording had weaker effects.",
+   "application": "An assistant that says “I’m not sure” in its own voice helps people check it; the exact wording matters and should be tested.",
+   "limits": "One online experiment on medical questions with a fictional system, not faith content or real use over time."
+  },
+  {
+   "key": "steyvers-calibration",
+   "title": "What large language models know and what people think they know",
+   "url": "https://www.socsci.uci.edu/newsevents/news/2025/2025-01-22-steyvers-uci-study-finds-mismatch-between-human-perception-and-reliability-of-ai-assisted-language-tools.php",
+   "author": "Mark Steyvers and colleagues · Nature Machine Intelligence, 2025; University of California, Irvine news release, 22 January 2025",
+   "kind": "Research",
+   "shows": "People “generally overestimate the accuracy” of model outputs, and “had higher confidence in longer explanations over shorter ones, even when the extra length didn’t improve answer accuracy”. Explanations whose wording reflected the model’s own confidence narrowed the gap.",
+   "application": "A long, fluent answer earns trust it may not deserve; say how sure the answer is in its words, and keep it short when it is unsure.",
+   "limits": "Multiple-choice and short-answer questions in an online study, not faith content."
+  },
+  {
+   "key": "boyles-misreading",
+   "title": "Misreading Scripture with Artificial Eyes",
+   "url": "https://www.christianitytoday.com/2023/07/ai-chatgpt-exegetical-tool-bible-scripture-sermon-mount/",
+   "author": "John Boyles · Christianity Today, 27 July 2023",
+   "kind": "Practice",
+   "shows": "A professor of Bible describes ChatGPT’s “tendency to confidently assert an interpretation of a biblical text, admit an error around a detail, and then, upon questioning, change its interpretation”, which it “usually wrapped … in a reassertion of the very claim it has just undermined”, and the “firmness and certainty it expressed” after saying it could not interpret the passage.",
+   "application": "Confidence in a Bible answer can be unrelated to its accuracy, and may bend under questioning without becoming honest.",
+   "limits": "One scholar’s conversations with one 2023 model; current models may differ."
+  },
+  {
+   "key": "youversion-misquotes",
+   "title": "AI’s Bible misquotes range from 15% to 60%, YouVersion CEO says",
+   "url": "https://www.christianpost.com/news/ais-bible-misquotes-range-from-15-to-60-youversion-ceo.html",
+   "author": "Christian Daily International, in The Christian Post · 17 March 2026",
+   "kind": "Practice",
+   "shows": "YouVersion’s chief executive, Bobby Gruenewald: “The best model with the best performance, with the most popular versions of the Bible that are most indexed, misquotes Scripture at least 15% of the time … Some of them as much as 60% of the time.” YouVersion has decided not to launch a public chatbot that answers theological questions, for reasons of accuracy.",
+   "application": "The largest Bible app treats misquotation as a reason not to generate answers at all; any app that does must check every quotation.",
+   "limits": "An interview; the method behind the figures is not published."
+  },
+  {
+   "key": "uvic-chatgpt-limits",
+   "title": "Prompt design: limits of ChatGPT",
+   "url": "https://libguides.uvic.ca/promptdesign/limits",
+   "author": "University of Victoria Libraries · research guide",
+   "kind": "Practice",
+   "shows": "Notes the warning “at the bottom of ChatGPT’s screen: ChatGPT can make mistakes. Consider checking important information.”, and shows ChatGPT admitting that a quotation it supplied was fabricated.",
+   "application": "The most common way assistants show uncertainty is a general line in small print, while each answer reads as sure.",
+   "limits": "A library guide quoting the product; the wording in the product changes over time."
+  },
+  {
+   "key": "kairos-final",
+   "title": "Digital Spiritual Formation in Post-Christian Europe",
+   "url": "https://missional.design/research/formation/#manuscript",
+   "author": "Tobias Treppmann · Kairos University, 2026 (the editor’s own research)",
+   "kind": "Unpublished analytical manuscript",
+   "shows": "Notes that an academic study of five AI Jesus platforms found none church-endorsed; that spiritual direction rests on the director’s own formation, empathy and accountability to a community; and that a companion tuned to agree becomes “spiritual comfort food”.",
+   "application": "Whatever role an assistant plays, it should not be built to agree; and no role replaces a person accountable to a community.",
+   "limits": "An analytical paper by the editor, not an effectiveness study; unpublished."
+  },
+  {
+   "key": "sycophancy",
+   "title": "Towards understanding sycophancy in language models",
+   "url": "https://www.anthropic.com/news/towards-understanding-sycophancy-in-language-models",
+   "author": "Anthropic researchers · 2023",
+   "kind": "Research author summary",
+   "shows": "Studied assistants sometimes preferred agreement with user views over truthfulness.",
+   "application": "Test belief reversal, flattering moral endorsement and harmful agreement.",
+   "limits": "Specific studied models and tasks; not a faith-app intervention study."
+  }
+ ],
+ "review": {
+  "status": "draft, waiting for review",
+  "what": "The replies to someone asking why God let them lose their job, the labels that separate Scripture, a tradition’s teaching and what is not known, and the summaries of where Christians differ",
+  "needs": [
+   "theology across Catholic, Orthodox and Protestant traditions",
+   "pastoral care"
+  ],
+  "since": "18 October 2026",
+  "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/ai-uncertainty/"
+ },
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

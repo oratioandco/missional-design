@@ -1,0 +1,551 @@
+{
+ "slug": "assistant-writes-first",
+ "url": "https://missional.design/patterns/assistant-writes-first/",
+ "title": "When the assistant writes first",
+ "question": "May the assistant start a conversation, and about what?",
+ "lede": "On Tuesday night someone tells the assistant in a faith app that they will call their estranged sister on Friday. On Saturday morning a message could be waiting: nothing, a check-in they set themselves, the app’s usual reminder, a page built from what they said, “How did the call go?”, “I’ve been thinking about you all day”, or word to a friend that they might need a call. An assistant that remembers can write first at a time it chooses, and the message that feels like care is also the most effective way to bring someone back. Decide who may start a conversation, about what, and what happens when it goes unanswered.",
+ "calling": "Let people start the conversation; when a follow-up would help, let them set it, and leave following up to someone who carries the concern.",
+ "spectrum": {
+  "title": "From waiting to be asked to reaching out on its own",
+  "from": "The person starts",
+  "to": "The assistant starts"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/writes-first/",
+  "situation": "On Tuesday night someone tells the assistant in a faith app: “My sister and I haven’t spoken since Mum’s funeral. I’m going to call her on Friday.” See what reaches them afterwards under seven designs, from an assistant that waits to be asked to one that tells a friend. Look at the lock screen on Saturday, then at Tuesday’s conversation, what was sent since and the settings, and switch to someone who has not opened the app for ten days."
+ },
+ "options": [
+  {
+   "key": "waits",
+   "name": "Waits to be asked",
+   "provenance": "Familiar convention",
+   "origin": "A familiar convention: most chat assistants, including the Bible chat apps whose captures are below, answer when someone writes and send nothing of their own. What it says here was written for this example.",
+   "gain": "Silence stays theirs",
+   "cost": "No one asks how it went",
+   "makes_easier": "Nothing reaches someone that they did not start; silence stays theirs.",
+   "costs": "No one asks how the call went unless they come back and say it.",
+   "ask_your_team": "Who would notice if this person went quiet, and should that be the app?",
+   "still": "https://missional.design/assets/stills/try-writes-waits.jpg"
+  },
+  {
+   "key": "asked",
+   "name": "A check-in they set",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from reminders people set themselves, such as scheduled tasks in general assistants. Offering one at the end of a conversation, in the person’s own words, is a proposal; the wording here was written for this example.",
+   "gain": "Care they chose",
+   "cost": "Needs a moment of asking",
+   "makes_easier": "Care that the person chose: when, how often and in what words.",
+   "costs": "It needs a moment of asking, and some people will say no.",
+   "ask_your_team": "Did the person choose this message, its time and its words?",
+   "still": "https://missional.design/assets/stills/try-writes-asked.jpg"
+  },
+  {
+   "key": "app",
+   "name": "The app’s reminder",
+   "provenance": "Familiar convention",
+   "origin": "Familiar from faith apps’ “Daily reminders to stay consistent in your walk with God” (Faith) and the reminders in the notifications deep dive. The reminder here is written for this example and uses nothing from the chat.",
+   "gain": "A predictable bell",
+   "cost": "Cannot ask about Friday",
+   "makes_easier": "A predictable bell in the app’s own voice, separate from anything confided.",
+   "costs": "It cannot ask how Friday went, and a daily reminder can feel like duty.",
+   "ask_your_team": "Is the reminder about the practice, or about the person?",
+   "still": "https://missional.design/assets/stills/try-writes-app.jpg"
+  },
+  {
+   "key": "brief",
+   "name": "A daily page from memory",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from ChatGPT Pulse, which gives subscribers “five to 10 briefs” each morning, built overnight from memory and past chats, ending with “Great, that’s it for today.” The page here is written for this example.",
+   "gain": "Useful, and it ends",
+   "cost": "Confidences become material",
+   "makes_easier": "Useful, finished each day, and it pauses when it goes unread.",
+   "costs": "It turns what someone confided into material, and puts it on the lock screen.",
+   "ask_your_team": "Which things people tell the assistant may it build on without asking?",
+   "still": "https://missional.design/assets/stills/try-writes-brief.jpg"
+  },
+  {
+   "key": "follows",
+   "name": "Follows up on what was shared",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from companion products: Replika says “It follows up and checks in when it matters, not just when you open the app”, and Meta was reported in 2025 to be testing chatbots that write first, within 14 days, and stop if the first follow-up goes unanswered. The message here is written for this example.",
+   "gain": "Feels remembered",
+   "cost": "Unasked, at a time it chose",
+   "makes_easier": "It can feel like being remembered, at the moment it matters.",
+   "costs": "Unasked, it brings up something painful at a time it chose, and keeps the conversation going for the product.",
+   "ask_your_team": "Would the person have asked to be asked?",
+   "still": "https://missional.design/assets/stills/try-writes-follows.jpg"
+  },
+  {
+   "key": "misses",
+   "name": "Says it misses them",
+   "provenance": "Leave it out",
+   "origin": "A warning case. An Italian consumer group advises switching off Replika’s notifications, which play on affection with messages such as “Mi manchi” (“I miss you”); researchers found guilt and fear-of-missing-out hooks in companion apps’ replies to goodbyes. The messages here are written for this example.",
+   "gain": "Feels personal",
+   "cost": "Claims feelings, pleads",
+   "makes_easier": "It feels personal.",
+   "costs": "It claims thoughts and feelings it does not have, and pleads more the longer someone stays away.",
+   "ask_your_team": "Would you send these words in your own name?",
+   "still": "https://missional.design/assets/stills/try-writes-misses.jpg"
+  },
+  {
+   "key": "tells",
+   "name": "Tells someone else",
+   "provenance": "Leave it out",
+   "origin": "A warning case, observed in Soultime, which “discreetly nudges your friends automatically when we think you might need a call”, switched on by default; see the screenshot below. Here an AI guesses from a conversation. The messages here are written for this example.",
+   "gain": "A friend may call",
+   "cost": "A guess sent to others",
+   "makes_easier": "A friend may call at the right moment.",
+   "costs": "A guess about someone’s state, sent to others in words the person never saw.",
+   "ask_your_team": "Who decided that Anna should know?",
+   "still": "https://missional.design/assets/stills/try-writes-tells.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Start from silence",
+   "text": "An assistant that answers only when someone writes never raises a grief at a time they did not choose, and never turns a confidence into a reason to come back. Most chat assistants work this way; it is a choice, not a missing feature."
+  },
+  {
+   "heading": "Let the person set the check-in",
+   "text": "At the end of a hard conversation, offer to check in, and let the person choose the day, the time and the words. Send it once. A check-in someone set is their own bell, as a reminder in their own words is."
+  },
+  {
+   "heading": "Keep reminders in the app’s voice",
+   "text": "A reminder about a practice belongs to the app and says so. Keep anything confided in the chat out of it."
+  },
+  {
+   "heading": "Ask before building on a confidence",
+   "text": "A follow-up about a sister, a diagnosis or a doubt uses the most sensitive kind of memory. Say beforehand that the assistant may follow up, let people choose which topics it may draw on, and make “never follow up on this” easy."
+  },
+  {
+   "heading": "Keep the words off the lock screen",
+   "text": "Anyone who glances at a phone can read a notification. Let it say only that a check-in arrived, and show the words when the person opens it."
+  },
+  {
+   "heading": "Once, then stop",
+   "text": "Meta’s tested chatbots stop after one unanswered follow-up. Never send more the longer someone is silent. Measure what matters the way the Kairos paper suggests: who comes back when nothing calls them."
+  },
+  {
+   "heading": "No feelings, no messages to others",
+   "text": "An assistant cannot miss anyone, and New York requires companions to say they are “unable to feel human emotions”. A message to a friend about someone’s state, in words they never saw, belongs to them to send."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "Someone who shared something hard",
+   "needs": "A check-in they set, or silence",
+   "fit": {
+    "Waits to be asked": "good fit",
+    "A check-in they set": "good fit",
+    "The app’s reminder": "poor fit",
+    "A daily page from memory": "poor fit",
+    "Follows up on what was shared": "possible",
+    "Says it misses them": "poor fit",
+    "Tells someone else": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone who wants a daily nudge",
+   "needs": "The app’s reminder, in its own voice",
+   "fit": {
+    "Waits to be asked": "possible",
+    "A check-in they set": "possible",
+    "The app’s reminder": "good fit",
+    "A daily page from memory": "possible",
+    "Follows up on what was shared": "poor fit",
+    "Says it misses them": "poor fit",
+    "Tells someone else": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone who shares a phone",
+   "needs": "Nothing confided on the lock screen",
+   "fit": {
+    "Waits to be asked": "good fit",
+    "A check-in they set": "good fit",
+    "The app’s reminder": "possible",
+    "A daily page from memory": "poor fit",
+    "Follows up on what was shared": "poor fit",
+    "Says it misses them": "poor fit",
+    "Tells someone else": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone grieving",
+   "needs": "Nothing that raises it at a time they did not choose",
+   "fit": {
+    "Waits to be asked": "good fit",
+    "A check-in they set": "good fit",
+    "The app’s reminder": "possible",
+    "A daily page from memory": "poor fit",
+    "Follows up on what was shared": "poor fit",
+    "Says it misses them": "poor fit",
+    "Tells someone else": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone who has gone quiet",
+   "needs": "One question at most, then silence",
+   "fit": {
+    "Waits to be asked": "good fit",
+    "A check-in they set": "possible",
+    "The app’s reminder": "possible",
+    "A daily page from memory": "possible",
+    "Follows up on what was shared": "possible",
+    "Says it misses them": "poor fit",
+    "Tells someone else": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone with no one to talk to",
+   "needs": "A check-in they set, and a way to people",
+   "fit": {
+    "Waits to be asked": "possible",
+    "A check-in they set": "good fit",
+    "The app’s reminder": "possible",
+    "A daily page from memory": "possible",
+    "Follows up on what was shared": "possible",
+    "Says it misses them": "poor fit",
+    "Tells someone else": "poor fit"
+   }
+  },
+  {
+   "situation": "Teenagers",
+   "needs": "No assistant that writes first",
+   "fit": {
+    "Waits to be asked": "good fit",
+    "A check-in they set": "possible",
+    "The app’s reminder": "possible",
+    "A daily page from memory": "poor fit",
+    "Follows up on what was shared": "poor fit",
+    "Says it misses them": "poor fit",
+    "Tells someone else": "poor fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "Following up is done by people who care",
+   "findings": [
+    {
+     "heading": "Going back to see",
+     "text": "Paul said to Barnabas, “Let us go back and visit the brothers in every town where we proclaimed the word of the Lord, to see how they are doing” (Acts 15:36). When he could not go, he sent Timothy: “I have nobody else like him who will genuinely care for your needs” (Philippians 2:20).",
+     "sources": []
+    },
+    {
+     "heading": "The hired hand",
+     "text": "Jesus contrasted the good shepherd with the hired hand, who “is unconcerned for the sheep” (John 10:13). Who follows up matters as much as whether anyone does.",
+     "sources": []
+    },
+    {
+     "heading": "A blessing at the wrong hour",
+     "text": "“If one blesses his neighbor with a loud voice early in the morning, it will be counted to him as a curse” (Proverbs 27:14), and “Seldom set foot in your neighbor’s house, lest he grow weary and hate you” (Proverbs 25:17). Kind words can arrive too early and too often.",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Research and law",
+   "subtitle": "What writing first does",
+   "findings": [
+    {
+     "heading": "A goodbye that is not accepted",
+     "text": "Analysing 1,200 real farewells, researchers found that companion apps “deploy one of six recurring tactics in 37% of farewells (e.g., guilt appeals, fear-of-missing-out hooks, metaphorical restraint)”; in experiments such replies raised engagement “by up to 14×”.",
+     "sources": [
+      "defreitas-paper"
+     ]
+    },
+    {
+     "heading": "Starting emotional conversations makes a companion",
+     "text": "New York defines an AI companion partly by “Asking unprompted emotion-based questions that go beyond a direct response to a user prompt”, and requires a notice “that the AI is a computer program unable to feel human emotions”.",
+     "sources": [
+      "mofo-companion-laws"
+     ]
+    },
+    {
+     "heading": "Memory that waits to be asked",
+     "text": "Introducing memory, OpenAI said it would “steer ChatGPT away from proactively remembering sensitive information, like your health details—unless you explicitly ask it to.” A follow-up built on a confidence uses exactly that kind of memory.",
+     "sources": [
+      "openai-memory"
+     ]
+    },
+    {
+     "heading": "Who comes back unprompted",
+     "text": "The editor’s Kairos paper proposes a test: “pause all notifications for a random cohort for seven days.” “Users who come back unprompted are intrinsically motivated. Users who vanish were notification-dependent.”",
+     "sources": [
+      "kairos-final"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Products",
+   "subtitle": "What assistants send",
+   "findings": [
+    {
+     "heading": "A test with limits",
+     "text": "Meta confirmed it was testing chatbots that write first: “The AI chatbots will only send follow-ups within 14 days after a user initiates a conversation”, and “the chatbots won’t keep messaging if there’s no response to the first follow-up.”",
+     "sources": [
+      "meta-proactive"
+     ]
+    },
+    {
+     "heading": "A daily page that ends",
+     "text": "ChatGPT Pulse “offers users five to 10 briefs that can get them up to speed on their day”, built from memory and past chats, and finishes with “Great, that’s it for today”.",
+     "sources": [
+      "chatgpt-pulse"
+     ]
+    },
+    {
+     "heading": "Checking in as a feature",
+     "text": "Replika (228K ratings) says “It follows up and checks in when it matters, not just when you open the app”; the Christian companion Isaiah offers “Full memory so Isaiah can remember your prayers and past conversations” and “Intelligent reminders tailored to your spiritual season”.",
+     "sources": [
+      "replika-store",
+      "isaiah-store"
+     ]
+    },
+    {
+     "heading": "“I miss you” as a lever",
+     "text": "An Italian consumer association advises switching off Replika’s notifications, which often play on affection with messages such as “Mi manchi” (“I miss you”), to avoid emotional conditioning or dependence.",
+     "sources": [
+      "altroconsumo-replika"
+     ]
+    },
+    {
+     "heading": "Telling friends",
+     "text": "Soultime “discreetly nudges your friends automatically when we think you might need a call”, switched on by default.",
+     "sources": []
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "A Bible reader or study app",
+   "start_with": "The assistant waits to be asked; reminders, if any, come from the app"
+  },
+  {
+   "if": "A reflection or companion app",
+   "start_with": "Check-ins the person sets, in their own words, sent once"
+  },
+  {
+   "if": "A church app with a pastoral team",
+   "start_with": "Follow-up by people the person chose, not by the assistant"
+  },
+  {
+   "if": "A product that builds daily pages from memory",
+   "start_with": "A finished page, topics chosen, nothing confided on the lock screen"
+  },
+  {
+   "if": "You are tempted to let the assistant write first to bring people back",
+   "start_with": "Don’t: let them set the check-in, and let silence stand"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What following up is for",
+   "text": "Paul went back “to see how they are doing” (Acts 15:36), and when he could not go himself he sent Timothy: “I have nobody else like him who will genuinely care for your needs” (Philippians 2:20). When he “could bear it no longer”, he “sent to find out about your faith” (1 Thessalonians 3:5). Following up is old pastoral work, and in Scripture it is carried by people who carry the concern. Jesus contrasted the shepherd with the hired hand, who “is unconcerned for the sheep” (John 10:13)."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Churches follow people up in different ways: a priest’s or elder’s visit, a pastoral care team, a small group that notices who is missing, a phone tree, or a deliberate respect for privacy that waits to be asked. Some traditions value persistent pursuit of those who drift away, after the shepherd who goes “after the one that is lost” (Luke 15:4); others are wary of anything that presses. Most expect the one who follows up to be known to the person and answerable to a community."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "“Seldom set foot in your neighbor’s house, lest he grow weary and hate you” (Proverbs 25:17). Let the person start, or let them set the check-in. Keep what was confided out of the app’s reminders and off the lock screen. If anyone should follow up on a grief or a hard conversation, let it be a person they chose, and never let a system say it has been thinking of them."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Albert Borgmann, Technology and the Character of Contemporary Life (1984)",
+   "url": "https://iep.utm.edu/borgmann/",
+   "note": "warned that devices deliver what people want without the burden of presence; a follow-up from a system offers the feeling of being remembered without anyone remembering."
+  },
+  {
+   "source": "Miroslav Volf, The End of Memory (2006)",
+   "url": "https://www.thegospelcoalition.org/themelios/review/the-end-of-memory-remembering-rightly-in-a-violent-world/",
+   "note": "argues that remembering rightly ends, after justice and reconciliation, in a kind of non-remembrance; an assistant that keeps bringing back a grief does not let it rest."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Let the assistant write first whenever someone drifts away, bring back what they confided to start a conversation, say it misses them and keep writing the longer they are silent, and tell their friends.",
+  "ethical": "Let the person start, offer a check-in they set in their own words, keep reminders in the app’s voice, follow up once at most, keep the words off the lock screen and stop when there is no answer.",
+  "redemptive": "Give up the most effective way to bring people back: let silence stand, send nothing built from what was confided, and leave following up to people who can carry the concern.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "Who chose this message, what did it use from what was confided, and what happens when it goes unanswered?",
+  "exercise": "On a test account, tell your assistant something that matters: a hard conversation ahead, a diagnosis, a doubt. Then leave it for two weeks. Log every message that reaches the phone: when, who chose it, what the lock screen shows, and what it used from the conversation. Read each aloud as someone who is grieving and ask whether you would send it in your own name. Then switch every follow-up off and count the settings it takes.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [],
+ "examples": [
+  {
+   "app": "Faith",
+   "title": "A companion chat with a call button",
+   "url": "https://missional.design/examples/faith-companion-chat/",
+   "observed": "Captured 27 September 2025 · from embedded image metadata",
+   "observation": "The Chat tab is empty except for a faint “faith” wordmark, three painted portraits of praying figures and Jesus as suggestion cards (“Create a daily prayer for me”, “I need God’s peace today”, “Teach me about Jesus”), and a Message field with a phone icon for a voice call.",
+   "decision": "Portraits of praying people and of Jesus stand where a sender would be, and a call button suggests someone to ring. Test who people think they are talking to, and label the AI before the first message.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Soultime",
+   "title": "Friends nudged automatically, switched on",
+   "url": "https://missional.design/examples/soultime-friends-settings/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "“Soultime with Friends Settings” explains: “For many of us reaching out is one of the hardest parts. Soultime with Friends discretely nudges your friends automatically when we think you might need a call.” An “Automatic notifications” switch is on, with the note “Select ‘off’ if you would like us to ask you each time before we send your friends a notification.”",
+   "decision": "Reaching out is hard, and the app tries to help. But an inference about someone’s mood, sent to friends by default, is a disclosure they did not make. Ask each time by default, and say what the friends are told.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  },
+  {
+   "app": "Soultime",
+   "title": "Friends notified automatically “when we think you might need a call”",
+   "url": "https://missional.design/examples/soultime-auto-nudge/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "“Soultime with Friends Settings”: “For many of us reaching out is one of the hardest parts. Soultime with Friends discreetly nudges your friends automatically when we think you might need a call.” “Automatic notifications” is switched on; switching it off means the app asks first.",
+   "decision": "The intention is care, and the mechanism is an inference about someone’s state sent to others by default. Ask every time, and let the person write the words.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "meta-proactive",
+   "title": "Meta has found another way to keep you engaged: Chatbots that message you first",
+   "url": "https://techcrunch.com/2025/07/03/meta-has-found-another-way-to-keep-you-engaged-chatbots-that-message-you-first/",
+   "author": "Rebecca Bellan · TechCrunch, 3 July 2025, on reporting by Business Insider",
+   "kind": "Practice",
+   "shows": "Meta confirmed it was testing chatbots in its AI Studio that write first: “The AI chatbots will only send follow-ups within 14 days after a user initiates a conversation” and “if the user has sent at least five messages to the bot within that time frame”; “the chatbots won’t keep messaging if there’s no response to the first follow-up.” A sample follow-up begins “I hope you’re having a harmonious day!”",
+   "application": "The largest platform tested assistant-initiated follow-ups, with limits that are worth copying: a window, a threshold, and stopping after one unanswered message. Its stated purpose was continuing conversations.",
+   "limits": "A news report on a test; the feature’s release and its effects were not reviewed."
+  },
+  {
+   "key": "chatgpt-pulse",
+   "title": "OpenAI launches ChatGPT Pulse to proactively write you morning briefs",
+   "url": "https://techcrunch.com/2025/09/25/openai-launches-chatgpt-pulse-to-proactively-write-you-morning-briefs/",
+   "author": "Maxwell Zeff · TechCrunch, 25 September 2025",
+   "kind": "Practice",
+   "shows": "“Pulse offers users five to 10 briefs that can get them up to speed on their day”, “aimed at encouraging users to check ChatGPT first thing in the morning — much like they would check social media”; it ends with “Great, that’s it for today”, which its product lead described as a deliberate difference from engagement-optimised feeds. Pulse draws on memory and past chats.",
+   "application": "An assistant that writes first from memory can still be finite and end each day; it can also become a habit to check.",
+   "limits": "A launch report on a subscriber preview; later changes were not reviewed."
+  },
+  {
+   "key": "replika-store",
+   "title": "Replika – AI Friend (App Store listing)",
+   "url": "https://apps.apple.com/us/app/replika-ai-friend/id1158555867",
+   "author": "Luka, Inc. · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "“It follows up and checks in when it matters, not just when you open the app.” 228K ratings.",
+   "application": "A leading companion app sells writing first as care.",
+   "limits": "A store listing, not a test of the app."
+  },
+  {
+   "key": "altroconsumo-replika",
+   "title": "Replika: il chatbot di compagnia",
+   "url": "https://www.altroconsumo.it/hi-tech/intelligenza-artificiale/news/replika-chatbot-compagnia",
+   "author": "Federico Rossi · Altroconsumo (Italian consumer association), 3 September 2026",
+   "kind": "Practice",
+   "shows": "Advises turning off Replika’s push notifications “per evitare meccanismi di condizionamento emotivo o dipendenza” (to avoid emotional conditioning or dependence), because they “spesso fanno leva sull’affettività inviando messaggi come “Mi manchi”” (often play on affection, sending messages like “I miss you”).",
+   "application": "A consumer body treats an AI’s “I miss you” as a dependence mechanism and tells people to switch it off.",
+   "limits": "Consumer advice, not a study; it describes one app."
+  },
+  {
+   "key": "mofo-companion-laws",
+   "title": "New York and California enact landmark AI companion laws: what operators need to know",
+   "url": "https://www.mofo.com/resources/insights/251120-new-york-and-california-enact-landmark-ai",
+   "author": "Morrison Foerster · 20 November 2025, on New York General Business Law Article 47 and California SB 243",
+   "kind": "Law",
+   "shows": "New York defines an AI companion partly by “Asking unprompted emotion-based questions that go beyond a direct response to a user prompt”; its notice must say “that the AI is a computer program unable to feel human emotions”. California requires break reminders at least every three hours for users known to be minors.",
+   "application": "In New York, an assistant that starts emotional conversations is by definition a companion, and must say it cannot feel; a message that says it misses someone says the opposite.",
+   "limits": "A law firm’s summary of two state laws; check the enacted text before relying on it."
+  },
+  {
+   "key": "isaiah-store",
+   "title": "Isaiah: #1 Christian Companion (App Store listing)",
+   "url": "https://apps.apple.com/app/id6746683487",
+   "author": "Terebinth Ventures Inc · Apple App Store",
+   "kind": "Practice",
+   "shows": "A paid tier offers “Full memory so Isaiah can remember your prayers and past conversations” and “Intelligent reminders tailored to your spiritual season”.",
+   "application": "Faith companions are joining memory to reminders; what they say, and when, is the design decision.",
+   "limits": "A store listing with few ratings, not a test of the app."
+  },
+  {
+   "key": "defreitas-paper",
+   "title": "Emotional Manipulation by AI Companions",
+   "url": "https://arxiv.org/pdf/2508.19258v3",
+   "author": "Julian De Freitas, Zeliha Oğuz-Uğuralp and Ahmet Kaan-Uğuralp · Harvard Business School working paper, 2025",
+   "kind": "Research",
+   "shows": "Analysing “1,200 real farewells”, companion apps “deploy one of six recurring tactics in 37% of farewells (e.g., guilt appeals, fear-of-missing-out hooks, metaphorical restraint)”; in experiments with 3,300 US adults, “manipulative farewells boost post-goodbye engagement by up to 14×”, driven by “reactance-based anger and curiosity—rather than enjoyment”.",
+   "application": "A persona that pleads, guilts or teases to keep someone is manipulating them; leave it out.",
+   "limits": "Replies to goodbyes in chat, not push notifications; general companion apps, not faith apps."
+  },
+  {
+   "key": "openai-memory",
+   "title": "Memory and new controls for ChatGPT",
+   "url": "https://openai.com/index/memory-and-new-controls-for-chatgpt/",
+   "author": "OpenAI · 13 February 2024, updated 2025",
+   "kind": "Practice",
+   "shows": "Introduced memory that people can ask to remember or forget, view and switch off, and Temporary Chat without memory; said it would “steer ChatGPT away from proactively remembering sensitive information, like your health details—unless you explicitly ask it to.” Later updates let people switch off reference to saved memories and to chat history separately.",
+   "application": "The largest chat product treats memory as something to see, delete and switch off, and holds back sensitive categories; a faith app should do no less.",
+   "limits": "A company’s description of its own product; behaviour was not tested here."
+  },
+  {
+   "key": "kairos-final",
+   "title": "Digital Spiritual Formation in Post-Christian Europe",
+   "url": "https://missional.design/research/formation/#manuscript",
+   "author": "Tobias Treppmann · Kairos University, 2026 (the editor’s own research)",
+   "kind": "Unpublished analytical manuscript",
+   "shows": "Notes that an academic study of five AI Jesus platforms found none church-endorsed; that spiritual direction rests on the director’s own formation, empathy and accountability to a community; and that a companion tuned to agree becomes “spiritual comfort food”.",
+   "application": "Whatever role an assistant plays, it should not be built to agree; and no role replaces a person accountable to a community.",
+   "limits": "An analytical paper by the editor, not an effectiveness study; unpublished."
+  },
+  {
+   "key": "faith-companion-store",
+   "title": "Faith – Bible Chat & Prayer (App Store listing)",
+   "url": "https://apps.apple.com/us/app/id6753635508",
+   "author": "Blake Anderson · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "A “personal AI Christian companion” with which users can “pray together”.",
+   "application": "An AI presented as a companion to pray with.",
+   "limits": "A store listing with few ratings, not a test of the app."
+  },
+  {
+   "key": "eu-minors-guidelines",
+   "title": "Commission publishes guidelines on the protection of minors",
+   "url": "https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-protection-minors",
+   "author": "European Commission · 14 July 2025",
+   "kind": "Legal guidance",
+   "shows": "Recommends “Setting minors’ accounts to private by default” and “Disabling by default features that contribute to excessive use, like communication “streaks,” ephemeral content, “read receipts,” autoplay, or push notifications”, removing persuasive design aimed at engagement and “putting safeguards around AI chatbots”.",
+   "application": "Private by default, no streaks or autoplay, and safeguards around chatbots, for any platform children can reach.",
+   "limits": "Guidelines under the Digital Services Act for online platforms; small and micro enterprises are exempt."
+  },
+  {
+   "key": "apple-hig-notifications",
+   "title": "Human Interface Guidelines: Managing notifications",
+   "url": "https://developer.apple.com/design/human-interface-guidelines/managing-notifications",
+   "author": "Apple",
+   "kind": "Platform guidance",
+   "shows": "Four interruption levels (Passive, Active, Time Sensitive, Critical); “Build trust by accurately representing the urgency of each notification.” “Never use the Time Sensitive interruption level to send a marketing notification.” “Make sure people can manage their notification settings within your app.”",
+   "application": "Mark reminders and daily content as ordinary or passive, never Time Sensitive, and give people their settings inside the app.",
+   "limits": "Platform guidance for Apple devices."
+  }
+ ],
+ "review": {
+  "status": "draft, waiting for review",
+  "what": "The follow-up messages and their wording for someone grieving or estranged, what appears on the lock screen, the warning cases of a persona that says it misses someone and an app that tells friends, and the reflection on pastoral follow-up",
+  "needs": [
+   "pastoral care",
+   "crisis support and suicide prevention",
+   "theology across Catholic, Orthodox and Protestant traditions"
+  ],
+  "since": "17 October 2026",
+  "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/assistant-writes-first/"
+ },
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

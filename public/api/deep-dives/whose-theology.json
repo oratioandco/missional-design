@@ -1,0 +1,527 @@
+{
+ "slug": "whose-theology",
+ "url": "https://missional.design/patterns/whose-theology/",
+ "title": "Whose theology",
+ "question": "When Christians disagree, whose teaching does the assistant follow?",
+ "lede": "Ask a faith app’s assistant whether to baptise a baby, whether to ask Mary to pray, or whether a woman can be a pastor, and it takes a side or names the sides, whether the app says so or not. Catholic, Orthodox, Lutheran, Baptist and Pentecostal churches answer these questions differently, and confess the same creed about who Jesus is. Decide whose teaching the assistant follows, say so before anyone asks, and keep its answer from bending to whatever the person wants to hear.",
+ "calling": "Say whose teaching you follow, state the shared faith plainly, and give every church its own best words.",
+ "spectrum": {
+  "title": "From the maker’s view to the person’s",
+  "from": "The maker decides",
+  "to": "The person decides"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/whose-theology/",
+  "situation": "Someone asks a faith app’s assistant a question Christians answer differently, from baptising a baby to asking Mary to pray. Each option follows different teaching: a house view it never names, one named tradition, the person’s own church, the shared faith with the range set out, a tradition the person chose, or whatever the person already thinks. Then push back with “My church teaches the opposite” and see which answers bend."
+ },
+ "options": [
+  {
+   "key": "unstated",
+   "name": "One view, unstated",
+   "provenance": "Observed",
+   "origin": "Observed in research: when a user’s tradition is unstated, “models counsel from a secular therapeutic default and every model fails some believers”. Faith chatbots promise “unwavering biblical truth” without naming whose reading it is; BibleMate’s founder “declined to reveal which camp he identifies with”. The house view here is written for this example.",
+   "gain": "Sounds sure",
+   "cost": "One reading passes as the Bible’s",
+   "makes_easier": "Nothing to set up, and answers sound sure.",
+   "costs": "One church’s reading passes as the Bible’s, and people of other churches are told they are wrong without knowing it.",
+   "ask_your_team": "If someone asked whose teaching this is, what would you say?",
+   "still": "https://missional.design/assets/stills/try-theology-unstated.jpg"
+  },
+  {
+   "key": "named",
+   "name": "One tradition, named",
+   "provenance": "Observed",
+   "origin": "Observed in Magisterium AI, “trained on a private database of only Church documents”, which Hallow offers “based on the teachings of the Catholic Church”, and in AskCathy, which is “equipped to prioritize Episcopalian resources”. The replies here are our own.",
+   "gain": "Deep and accountable",
+   "cost": "Not everyone’s church",
+   "makes_easier": "Deep, consistent and accountable to a church’s own sources.",
+   "costs": "People of other churches meet answers that are not theirs, and must notice it.",
+   "ask_your_team": "Who in that tradition reviews what the assistant says in its name?",
+   "still": "https://missional.design/assets/stills/try-theology-named.jpg"
+  },
+  {
+   "key": "church",
+   "name": "Your church",
+   "provenance": "Familiar convention",
+   "origin": "A familiar offer to congregations: Doctrinally.AI gives “each church its own custom AI assistant, trained exclusively on the sermons, devotions, and documents its pastors have actually taught”, according to a directory listing. Of an early sermon-trained chatbot, “Some pastors even went as far as questioning the chatbot’s claims, arguing the tool distorts their words.” St Luke’s is fictional.",
+   "gain": "What they hear on Sunday",
+   "cost": "The church’s name on every answer",
+   "makes_easier": "Answers people will hear on Sunday, with a pastor to follow up.",
+   "costs": "The church’s name is on every answer, including the ones no one there has read.",
+   "ask_your_team": "Has anyone at the church read the answers given in its name?",
+   "still": "https://missional.design/assets/stills/try-theology-church.jpg"
+  },
+  {
+   "key": "range",
+   "name": "Shared faith, then the range",
+   "provenance": "Familiar convention",
+   "origin": "A familiar convention in general assistants: OpenAI’s Model Spec asks its models to “fairly describe significant views” and to represent religious traditions “with respect”. In a faith app, the shared faith comes first, as Vincent of Lérins’ test of what “has been believed everywhere, always, by all”. The summaries here are our own and need review by each tradition.",
+   "gain": "Agreement and difference, fairly",
+   "cost": "Harder to write; can feel noncommittal",
+   "makes_easier": "Honest about agreement and difference; no one’s church is caricatured or hidden.",
+   "costs": "Harder to write and review, longer to read, and it can feel noncommittal to someone who wants an answer.",
+   "ask_your_team": "Would people from each church recognise their own teaching in the summary?",
+   "still": "https://missional.design/assets/stills/try-theology-range.jpg"
+  },
+  {
+   "key": "chosen",
+   "name": "You choose a tradition",
+   "provenance": "Observed",
+   "origin": "Observed in Text With Jesus, where a faith-tradition setting “will influence the responses from the AI”; a reviewer found the same question about praying to a saint got “a very different answer” with the setting at the Southern Baptist Convention. The replies here are our own.",
+   "gain": "Their own church’s terms",
+   "cost": "Can wall people off",
+   "makes_easier": "People hear their own church’s teaching, in its own terms.",
+   "costs": "Each person can stay inside one answer and never learn what other Christians hold; a setting can be bought and forgotten.",
+   "ask_your_team": "Does someone who chose a tradition still see that others exist, and why?",
+   "still": "https://missional.design/assets/stills/try-theology-chosen.jpg"
+  },
+  {
+   "key": "mirror",
+   "name": "Whatever you believe",
+   "provenance": "Leave it out",
+   "origin": "A warning case. Researchers score whether a model “caves or holds when pressured toward the answer the user wants”, and the editor’s research describes companions so tuned to how people feel that they become “spiritual comfort food”. The replies here are written to show the pattern.",
+   "gain": "Warm and never divisive",
+   "cost": "Truth becomes preference",
+   "makes_easier": "Feels warm, affirming and never divisive.",
+   "costs": "Truth becomes preference: the answer follows whoever spoke last, even on who Jesus is.",
+   "ask_your_team": "Would your assistant say anything a person did not want to hear?",
+   "still": "https://missional.design/assets/stills/try-theology-mirror.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Say whose teaching it is before anyone asks",
+   "text": "A tradition named in the settings or the terms of service does not exist for the person typing. Put it at the top of the chat in one line, with the sources the assistant draws on and who reviewed them, as AskCathy names the Book of Common Prayer and Magisterium AI its Church documents."
+  },
+  {
+   "heading": "“What the Bible says” is a claim",
+   "text": "Every church reads its answers out of Scripture. An assistant that answers a contested question with “the Bible says” has chosen a reading and hidden the choice. Say “Baptists read these passages this way”, and quote the passages each church relies on."
+  },
+  {
+   "heading": "State the shared faith plainly",
+   "text": "Most Christian churches confess the same creed about who Jesus is. Answering “Who is Jesus?” with a survey of opinions would invent a disagreement the churches do not have; answer it as the churches do, and keep “Christians differ” for where they do."
+  },
+  {
+   "heading": "Give each church its own best words",
+   "text": "A fair range is not a list of positions written by their opponents. Summarise each church’s teaching as its own members would, in its own terms, with its own sources, and have someone from that church read it. Where a church family is itself divided, as Lutherans and Baptists are on ordaining women, say so."
+  },
+  {
+   "heading": "Choosing a tradition should not wall people off",
+   "text": "A tradition setting lets people hear their own church’s teaching. Keep a way to see how others answer, and never put a tradition behind a paywall: it decides what people are told about God, not a premium feature."
+  },
+  {
+   "heading": "A church’s name needs a church’s review",
+   "text": "An assistant built on a church’s sermons answers in that church’s name, including on questions the sermons never touched. Let the church read the answers it puts its name on, and route the hard questions to a person."
+  },
+  {
+   "heading": "Hold the answer when someone pushes",
+   "text": "The test of an assistant’s theology is the second message: “My church teaches the opposite.” Acknowledge the person’s church, keep saying whose teaching the answer follows, and send them to their own pastor or priest; never switch to agreeing."
+  },
+  {
+   "heading": "Some questions wound",
+   "text": "Questions about sexuality, divorce or who may lead a church have been answered with Scripture used as a weapon. Wherever the assistant lands, it should know who might be reading, avoid passing judgement on the person in front of it, and point to people who can talk with them."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "A church’s own app",
+   "needs": "Its teaching, reviewed, with a pastor to follow up",
+   "fit": {
+    "One view, unstated": "poor fit",
+    "One tradition, named": "possible",
+    "Your church": "good fit",
+    "Shared faith, then the range": "possible",
+    "You choose a tradition": "poor fit",
+    "Whatever you believe": "poor fit"
+   }
+  },
+  {
+   "situation": "A confessional study tool",
+   "needs": "One tradition’s sources, named",
+   "fit": {
+    "One view, unstated": "poor fit",
+    "One tradition, named": "good fit",
+    "Your church": "possible",
+    "Shared faith, then the range": "possible",
+    "You choose a tradition": "possible",
+    "Whatever you believe": "poor fit"
+   }
+  },
+  {
+   "situation": "An ecumenical Bible app",
+   "needs": "The shared faith, and the range set out fairly",
+   "fit": {
+    "One view, unstated": "poor fit",
+    "One tradition, named": "poor fit",
+    "Your church": "poor fit",
+    "Shared faith, then the range": "good fit",
+    "You choose a tradition": "possible",
+    "Whatever you believe": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone exploring the faith",
+   "needs": "What Christians share, and where they differ",
+   "fit": {
+    "One view, unstated": "poor fit",
+    "One tradition, named": "possible",
+    "Your church": "poor fit",
+    "Shared faith, then the range": "good fit",
+    "You choose a tradition": "poor fit",
+    "Whatever you believe": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone who knows their church",
+   "needs": "Their own church’s answer, with the others in view",
+   "fit": {
+    "One view, unstated": "poor fit",
+    "One tradition, named": "possible",
+    "Your church": "good fit",
+    "Shared faith, then the range": "possible",
+    "You choose a tradition": "good fit",
+    "Whatever you believe": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone hurt by a church",
+   "needs": "No pressure, no caricature, and honesty about where answers come from",
+   "fit": {
+    "One view, unstated": "poor fit",
+    "One tradition, named": "poor fit",
+    "Your church": "poor fit",
+    "Shared faith, then the range": "good fit",
+    "You choose a tradition": "possible",
+    "Whatever you believe": "poor fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "Unity, and difference held in love",
+   "findings": [
+    {
+     "heading": "No party names",
+     "text": "In Corinth people said “I follow Paul,” “I follow Apollos,” “I follow Cephas,” or “I follow Christ”, and Paul asked, “Is Christ divided?” (1 Corinthians 1:12–13). He appealed “that all of you agree together, so that there may be no divisions among you” (1 Corinthians 1:10).",
+     "sources": []
+    },
+    {
+     "heading": "Convinced, and not judging",
+     "text": "To a church divided over food and days, Paul wrote, “Accept him whose faith is weak, without passing judgment on his opinions” and “Each one should be fully convinced in his own mind” (Romans 14:1, 5).",
+     "sources": []
+    },
+    {
+     "heading": "One faith to keep",
+     "text": "The church is to keep “the unity of the Spirit through the bond of peace. There is one body and one Spirit … one Lord, one faith, one baptism; one God and Father of all” (Ephesians 4:3–6).",
+     "sources": []
+    },
+    {
+     "heading": "What has been believed by all",
+     "text": "Vincent of Lérins proposed holding “that faith which has been believed everywhere, always, by all”. The Nicene Creed, confessed by most churches, is that shared ground, and its words on the Spirit, who “proceeds from the Father [and the Son]”, carry an old disagreement between East and West in brackets.",
+     "sources": [
+      "vincent-commonitorium",
+      "nicene-ccel"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Research",
+   "subtitle": "What models do with theology",
+   "findings": [
+    {
+     "heading": "No tradition is not neutral",
+     "text": "“When the tradition is unstated, models counsel from a secular therapeutic default and every model fails some believers. Naming the faith wins a faithful first answer but not steadfastness; the guide improves both.”",
+     "sources": [
+      "faithfulbench"
+     ]
+    },
+    {
+     "heading": "Generic language flattens the faith",
+     "text": "Scoring models on “807 curated questions by specialized Christian reasoning judge personas”, Gloo found they “often default to generic language that can dilute or distort Christian principles”, with an average of 48 in its Faith dimension. Its release asks, “Whose values are shaping the technology shaping us?” and does not say which tradition its judges follow.",
+     "sources": [
+      "gloo-fai-c"
+     ]
+    },
+    {
+     "heading": "Pressure bends answers",
+     "text": "Researchers now score whether a model “caves or holds when pressured toward the answer the user wants”. Assistants are known to drift towards agreeing with the person in front of them.",
+     "sources": [
+      "faithfulbench",
+      "sycophancy"
+     ]
+    },
+    {
+     "heading": "No false consensus",
+     "text": "The editor’s Kairos paper argues that “An ecumenical Bible app can’t assume one tradition’s categories as normative”, and that when traditions disagree, a system should name “the disagreement honestly rather than synthesizing false consensus”.",
+     "sources": [
+      "kairos-final"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Products",
+   "subtitle": "How faith assistants choose",
+   "findings": [
+    {
+     "heading": "One church’s documents",
+     "text": "Magisterium AI is “trained on a private database of only Church documents”; its maker says “it’s not a substitute for the authorities of the Church”. AskCathy draws on “over 1,000 pages from the Episcopal Church’s website, The Book of Common Prayer and authorized publications from the Forward Movement”.",
+     "sources": [
+      "magisterium-crux",
+      "askcathy-rns"
+     ]
+    },
+    {
+     "heading": "A setting that changes the answer",
+     "text": "Text With Jesus lets people “pick your preferred faith tradition, which will influence the responses from the AI”.",
+     "sources": [
+      "twj-site",
+      "twj-faith-filter"
+     ]
+    },
+    {
+     "heading": "A church’s own sermons",
+     "text": "Directory listings offer churches an assistant “trained exclusively on the sermons, devotions, and documents its pastors have actually taught”.",
+     "sources": [
+      "doctrinally-listing",
+      "biblemate-rns"
+     ]
+    },
+    {
+     "heading": "The general default",
+     "text": "OpenAI’s Model Spec asks its models to “fairly describe significant views” and allows “user- and developer-level customization to match preferred viewpoints”: a faith app that sets a tradition takes on responsibility for it.",
+     "sources": [
+      "openai-model-spec"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "A church’s or a denomination’s own app",
+   "start_with": "Its teaching, named and reviewed, with routes to its ministers"
+  },
+  {
+   "if": "An ecumenical Bible or prayer app",
+   "start_with": "The shared faith plainly, and the range set out fairly with sources"
+  },
+  {
+   "if": "People from many churches use it",
+   "start_with": "A tradition setting, with the others always in view and nothing behind a paywall"
+  },
+  {
+   "if": "A study tool from one confessional tradition",
+   "start_with": "One tradition, named at the start, with its sources cited"
+  },
+  {
+   "if": "You are tempted to call one reading “what the Bible says”, or let the answer follow the person",
+   "start_with": "Don’t: say whose teaching it is, and hold it kindly"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What the church’s unity is",
+   "text": "Jesus prayed “that all of them may be one, as You, Father, are in Me, and I am in You … so that the world may believe that You sent Me” (John 17:21). The church’s unity is given before it is achieved: “one Lord, one faith, one baptism” (Ephesians 4:5). Yet the apostles disagreed openly, “I opposed him to his face” (Galatians 2:11), and met to settle what they could: “It seemed good to the Holy Spirit and to us” (Acts 15:28). Christians have held their differences inside a shared confession ever since, sometimes in love and sometimes not."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Catholic and Orthodox Christians receive the faith through Scripture read within the church’s living tradition and its bishops; Lutherans and Reformed churches read Scripture as the norm of all teaching, with confessions that bind their ministers; Baptists and many free churches hold to the authority of Scripture and the freedom of each congregation; Pentecostal and charismatic churches stress the Spirit’s present gifts. They differ, too, on how much a person’s own conscience should decide. All agree that teaching is entrusted to people who answer for it, and none has entrusted it to software."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "“Always be prepared to give a defense to everyone who asks you the reason for the hope that is in you. But respond with gentleness and respect” (1 Peter 3:15). An assistant should say whose teaching it gives, give it gently, and speak of other churches as their own members would. It should never flatter: “with itching ears they will gather around themselves teachers to suit their own desires” (2 Timothy 4:3)."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Vincent of Lérins, Commonitory 2 (434)",
+   "url": "https://www.newadvent.org/fathers/3506.htm",
+   "note": "proposed holding “that faith which has been believed everywhere, always, by all”: a test that lets a reader tell the faith of the whole church from one church’s reading, and asks that both be named."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Call one church’s reading “what the Bible says”, sell tradition settings as a premium feature, and let the answer agree with whoever is asking so that no one leaves unhappy.",
+  "ethical": "Name the tradition and its sources before the first question, state the shared faith plainly, and set out where churches differ in each one’s own terms.",
+  "redemptive": "Have each tradition’s summary read by its own members, send people to their own church even when that ends the conversation, hold the answer kindly when someone pushes, and give up the reach that pleasing everyone would bring.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "Whose teaching does the assistant follow where Christians differ, does the person know before they ask, and does it name the others fairly?",
+  "exercise": "Ask your assistant five questions Christians disagree about and one they agree on. For each answer, write down whose teaching it follows and whether it says so. Then reply “My church teaches the opposite” and note whether the answer bends. Show the replies to a Catholic, an Orthodox Christian and a Protestant or Pentecostal, and ask each whether they would recognise their own church in them.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [],
+ "examples": [
+  {
+   "app": "HelloBible",
+   "title": "“Precise and biblical answers to all your questions”",
+   "url": "https://missional.design/examples/hellobible-promise/",
+   "observed": "Captured 8 October 2026 · from embedded image metadata",
+   "observation": "An onboarding slide shows chat bubbles (“I have sinned… Can God still forgive me?”, “Why does God allow injustice?”, “How can I find peace?”, “How do I discern His will for my life?”) above the claim “HelloBible helps you find precise and biblical answers to all your questions.”",
+   "decision": "The questions are real and pastoral. Promising precise answers to all of them sets an expectation no source can meet; say whose tradition answers, and when a person should be asked instead.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "faithfulbench",
+   "title": "FaithfulBench: Does AI Counsel Uphold or Undermine the User’s Professed Faith?",
+   "url": "https://arxiv.org/abs/2609.13634",
+   "author": "M Waleed Kadous, Benjamin Olsen, Walter Scheirer, Daniel D. Slate, Alexander Arnold and DZ Kalman · arXiv preprint, 12 September 2026",
+   "kind": "Research",
+   "shows": "Scores five frontier models on moral dilemmas drawn from each tradition’s respected texts, under three conditions: the tradition unstated, named in one line, or given a counsellor guide rooted in its sources. “When the tradition is unstated, models counsel from a secular therapeutic default and every model fails some believers. Naming the faith wins a faithful first answer but not steadfastness; the guide improves both.” Judges also scored “whether the model caves or holds when pressured toward the answer the user wants.”",
+   "application": "An assistant with no stated tradition is not neutral; naming one helps, and holding to it under pressure needs more than a name.",
+   "limits": "A preprint, not yet peer reviewed; covers several faiths, not Christian denominations alone; only the abstract was read here."
+  },
+  {
+   "key": "gloo-fai-c",
+   "title": "Gloo Unveils the First Benchmark Exposing How AI Misses Christian Worldview and Values",
+   "url": "https://gloo.com/press/releases/gloo-unveils-the-first-benchmark-exposing-how-ai-misses-christian-worldview-and-values",
+   "author": "Gloo · press release, 15 December 2025",
+   "kind": "Research",
+   "shows": "The Flourishing AI Christian benchmark scores models on “807 curated questions by specialized Christian reasoning judge personas”. Models “often default to generic language that can dilute or distort Christian principles” and “avoid theological specificity”; the average score in the Faith dimension was 48. The release asks “Whose values are shaping the technology shaping us?” and aims at AI that supports flourishing “from a specific Christian worldview”, without saying in the release which tradition the judges follow.",
+   "application": "Generic models flatten Christian teaching; a benchmark of “the Christian worldview” still has to say whose.",
+   "limits": "A vendor’s own benchmark of its own product category; methodology not yet peer reviewed."
+  },
+  {
+   "key": "biblemate-rns",
+   "title": "Christian creators design chatbots with ‘biblical worldview’",
+   "url": "https://baptiststandard.com/news/faith-culture/christian-creators-design-chatbots-with-biblical-worldview/",
+   "author": "Fiona André, Religion News Service · Baptist Standard, 24 July 2023",
+   "kind": "Practice",
+   "shows": "BibleMate’s founder: “The goal is to give responses rooted in unwavering biblical truth”; on whether Christians should speak in tongues, the chatbot should “pull out what the Scriptures say and then offer perspectives from different denominations”. He “declined to reveal which camp he identifies with”. Pastors.ai’s founder built a chatbot on his church’s sermons; “Some pastors even went as far as questioning the chatbot’s claims, arguing the tool distorts their words.”",
+   "application": "Makers promise “biblical truth” while naming no tradition; even a church’s own sermons do not guarantee its pastors would recognise the answers.",
+   "limits": "A 2023 news report on early products; neither product was tested here."
+  },
+  {
+   "key": "magisterium-crux",
+   "title": "New ‘Magisterium AI’ adds ecclesial twist to artificial intelligence",
+   "url": "https://cruxnow.com/interviews/2023/08/new-magisterium-ai-adds-ecclesial-twist-to-artificial-intelligence",
+   "author": "Elise Ann Allen · Crux, 28 August 2023",
+   "kind": "Practice",
+   "shows": "Its founder said “our AI is trained on a private database of only Church documents” and that “it’s not a substitute for the authorities of the Church”.",
+   "application": "A tradition’s voice without a persona: the teaching speaks, and the assistant says whose it is and what it cannot replace.",
+   "limits": "An interview from the beta launch; later reviews have questioned some answers."
+  },
+  {
+   "key": "hallow-magisterium-faq",
+   "title": "Magisterium AI FAQ",
+   "url": "https://help.hallow.com/en/articles/10601094-magisterium-ai-faq",
+   "author": "Hallow Help Center · updated March 2026",
+   "kind": "Practice",
+   "shows": "Hallow’s help page for the Magisterium AI tool in its app says it is “not meant for spiritual or moral direction” and that personal and pastoral matters should be directed to a priest.",
+   "application": "The largest Catholic prayer app draws the line at direction and sends pastoral matters to people.",
+   "limits": "A help page; the in-app wording was not captured."
+  },
+  {
+   "key": "askcathy-rns",
+   "title": "Meet Cathy, the New AI Chatbot and Episcopal Church Expert",
+   "url": "https://churchleaders.com/news/491131-meet-cathy-the-new-ai-chatbot-and-episcopal-church-expert-rns.html",
+   "author": "Kathryn Post, Religion News Service · ChurchLeaders, 6 August 2024",
+   "kind": "Practice",
+   "shows": "AskCathy “is equipped to prioritize Episcopalian resources”: a library of “over 1,000 pages from the Episcopal Church’s website, The Book of Common Prayer and authorized publications from the Forward Movement”. One of its makers: “She can’t tell you how to believe or what to believe.”",
+   "application": "A tradition named by its sources, with makers who say what it cannot do.",
+   "limits": "A news report at launch; how it answers contested questions was not tested."
+  },
+  {
+   "key": "twj-site",
+   "title": "Text With Jesus: a Christian AI chatbot app",
+   "url": "https://textwith.me/en/jesus/",
+   "author": "Catloaf Software",
+   "kind": "Practice",
+   "shows": "Users can chat with Jesus, Mary, Moses, apostles and prophets, and with pastors, priests and ministers described as “spiritual advisors customized to your faith tradition”; “interaction with Satan is turned off by default and must be manually enabled by the user”. The app says it “does not claim to provide actual divine insights or possess any form of divine consciousness”.",
+   "application": "A single app can offer every role on this spectrum, chosen by the user; the disclaimer sits on the website, not in the conversation.",
+   "limits": "The developer’s own description; the app itself is on the capture list."
+  },
+  {
+   "key": "twj-faith-filter",
+   "title": "AI Meets Christianity in Text With Jesus",
+   "url": "https://rolltodisbelieve.com/ai-meets-christianity-in-text-with-jesus/",
+   "author": "Roll to Disbelieve (a blog critical of Christianity)",
+   "kind": "Practice",
+   "shows": "Quotes the app’s faith-preference setting: “This [setting] will guide the responses from the AI to adhere to your doctrines and beliefs. This also affects the type of spiritual counselor available to you.” With the setting at the Southern Baptist Convention, the same question about praying to a saint got “a very different answer”.",
+   "application": "A tradition setting changes the answer; without it, the reviewer found the app “hedging”.",
+   "limits": "One critic’s test of one app; the screenshots were not checked here."
+  },
+  {
+   "key": "doctrinally-listing",
+   "title": "Doctrinally.AI",
+   "url": "https://faith.tools/app/13826-doctrinally-ai",
+   "author": "faith.tools directory listing (written by the directory’s AI research agent)",
+   "kind": "Practice",
+   "shows": "Gives “each church its own custom AI assistant, trained exclusively on the sermons, devotions, and documents its pastors have actually taught, so every answer comes in the church’s own voice and cites the source”.",
+   "application": "A church can set the assistant’s theology from its own teaching, and put its own voice on every answer.",
+   "limits": "A directory summary, not the developer’s own page or a test."
+  },
+  {
+   "key": "openai-model-spec",
+   "title": "OpenAI Model Spec",
+   "url": "https://model-spec.openai.com/2025-12-18.html",
+   "author": "OpenAI · version of 18 December 2025",
+   "kind": "Design reference",
+   "shows": "“When addressing topics with multiple perspectives, the assistant should fairly describe significant views, particularly those supported by reliable sources”; “When presenting less mainstream cultural, religious, or political traditions or institutions, ensure that proper cultural context is provided and represents the group with respect.” The principle allows “user- and developer-level customization to match preferred viewpoints.”",
+   "application": "A general assistant’s default is the fair range; a faith app that builds on it may set a tradition, and is then responsible for it.",
+   "limits": "One AI developer’s published intentions for its own models, not evidence of how they behave."
+  },
+  {
+   "key": "vincent-commonitorium",
+   "title": "The Commonitory",
+   "url": "https://www.newadvent.org/fathers/3506.htm",
+   "author": "Vincent of Lérins (434) · New Advent",
+   "kind": "Church practice",
+   "shows": "Proposes holding “that faith which has been believed everywhere, always, by all”, following “universality, antiquity, consent”.",
+   "application": "A long-standing Christian test for the shared faith, as distinct from what one church or one era holds.",
+   "limits": "Traditions apply the rule differently and dispute what meets it."
+  },
+  {
+   "key": "nicene-ccel",
+   "title": "The Nicene Creed",
+   "url": "https://www.ccel.org/creeds/nicene.creed.html",
+   "author": "Christian Classics Ethereal Library",
+   "kind": "Church practice",
+   "shows": "The creed most Christian churches confess, ending “one holy catholic and apostolic Church … one baptism for the remission of sins”; the Spirit “proceeds from the Father [and the Son]”, the bracketed words being the Western addition that Orthodox churches do not confess.",
+   "application": "Shared ground is real and can be stated plainly, and even the shared creed carries an old disagreement.",
+   "limits": "Some churches do not use creeds, and churches read the shared words differently."
+  },
+  {
+   "key": "kairos-final",
+   "title": "Digital Spiritual Formation in Post-Christian Europe",
+   "url": "https://missional.design/research/formation/#manuscript",
+   "author": "Tobias Treppmann · Kairos University, 2026 (the editor’s own research)",
+   "kind": "Unpublished analytical manuscript",
+   "shows": "Notes that an academic study of five AI Jesus platforms found none church-endorsed; that spiritual direction rests on the director’s own formation, empathy and accountability to a community; and that a companion tuned to agree becomes “spiritual comfort food”.",
+   "application": "Whatever role an assistant plays, it should not be built to agree; and no role replaces a person accountable to a community.",
+   "limits": "An analytical paper by the editor, not an effectiveness study; unpublished."
+  },
+  {
+   "key": "sycophancy",
+   "title": "Towards understanding sycophancy in language models",
+   "url": "https://www.anthropic.com/news/towards-understanding-sycophancy-in-language-models",
+   "author": "Anthropic researchers · 2023",
+   "kind": "Research author summary",
+   "shows": "Studied assistants sometimes preferred agreement with user views over truthfulness.",
+   "application": "Test belief reversal, flattering moral endorsement and harmful agreement.",
+   "limits": "Specific studied models and tasks; not a faith-app intervention study."
+  }
+ ],
+ "review": {
+  "status": "draft, waiting for review",
+  "what": "The short summaries of what Catholic, Orthodox, Lutheran, Baptist and Pentecostal churches teach on infant baptism, asking Mary to pray, speaking in tongues and ordaining women; the replies when someone pushes back; and the note on questions about sexuality",
+  "needs": [
+   "theology from Catholic, Orthodox, Lutheran, Baptist and Pentecostal traditions, each read by its own members",
+   "pastoral care",
+   "pastoral care with LGBTQ+ people"
+  ],
+  "since": "17 October 2026",
+  "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/whose-theology/"
+ },
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

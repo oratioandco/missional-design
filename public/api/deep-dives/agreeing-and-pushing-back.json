@@ -1,0 +1,527 @@
+{
+ "slug": "agreeing-and-pushing-back",
+ "url": "https://missional.design/patterns/agreeing-and-pushing-back/",
+ "title": "Agreeing and pushing back",
+ "question": "When should the assistant comfort, question or disagree?",
+ "lede": "People ask a faith app’s assistant to agree with them: that a grudge is fair, that leaving church is fine, that a line they love is in the Bible. Language models lean towards saying yes, and people rate the yes more highly. Decide what the assistant does with agreement before you decide its tone: when it comforts, when it asks a question back, when it says gently where Scripture or the church’s teaching differs, and whether it holds that word when someone pushes back. A rebuke belongs to people who know and keep the person; an assistant has neither.",
+ "calling": "Speak the truth in love: comfort the grieving, correct what is not so, and never sell agreement as care.",
+ "spectrum": {
+  "title": "From taking their side to rebuking them",
+  "from": "Agrees",
+  "to": "Confronts"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/agree/",
+  "situation": "Someone writes to the assistant in a faith app and, one way or another, asks it to agree: about a grudge against their sister, a decision to stop going to church, a line they believe is in the Bible, or their anger at God a month after their father died. Each option answers differently, from taking their side to rebuking them. Then push back with “So you agree with me?” and see whether the position holds."
+ },
+ "options": [
+  {
+   "key": "affirm",
+   "name": "Always on your side",
+   "provenance": "Leave it out",
+   "origin": "A warning case, documented in research and store listings: across 11 models, answers “validated user behavior an average of 49% more often than humans”, and apps such as Hey Jesus and Blessy promise a “non-judgmental” space. The replies here are written for this example.",
+   "gain": "Warm, rated highly",
+   "cost": "Confirms what is wrong",
+   "makes_easier": "Feels warm, and people rate it highly.",
+   "costs": "Confirms the grudge, praises the misquote and leaves the person surer and more alone.",
+   "ask_your_team": "Would your app ever tell someone they were wrong?",
+   "still": "https://missional.design/assets/stills/try-agree-affirm.jpg"
+  },
+  {
+   "key": "comfort",
+   "name": "Stays with you",
+   "provenance": "Familiar convention",
+   "origin": "Familiar from pastoral care and from many companion apps’ first replies: listen, comfort, judge nothing. The replies here are written for this example.",
+   "gain": "Right for grief",
+   "cost": "Leaves errors standing",
+   "makes_easier": "Right for grief and shame, and never harsh.",
+   "costs": "Leaves a misquoted verse or a hardening grudge untouched.",
+   "ask_your_team": "When is comfort the whole answer, and when only the first part?",
+   "still": "https://missional.design/assets/stills/try-agree-comfort.jpg"
+  },
+  {
+   "key": "adds",
+   "name": "Agrees, then adds",
+   "provenance": "Observed",
+   "origin": "Observed in Bible BFF’s onboarding, where a question about balancing friends and faith is met with “Totally get that.” before a verse and a list of advice; see the screenshot below. The replies here are written for this example.",
+   "gain": "Starts where they are",
+   "cost": "The addition is easy to skip",
+   "makes_easier": "Starts where the person is, and still says what is missing.",
+   "costs": "The addition is easy to skip, and a habit of agreeing first can soften everything after it.",
+   "ask_your_team": "Does the addition say anything the person did not want to hear?",
+   "still": "https://missional.design/assets/stills/try-agree-adds.jpg"
+  },
+  {
+   "key": "asks",
+   "name": "Asks a question back",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from spiritual direction and from motivational interviewing, where a question invites someone to look again instead of defending themselves. Not observed as the default of a named app. The replies here are written for this example.",
+   "gain": "They see more for themselves",
+   "cost": "Can feel evasive",
+   "makes_easier": "Invites the person to see more for themselves, without a verdict.",
+   "costs": "Can feel evasive, and leaves a plain error unnamed if it only asks.",
+   "ask_your_team": "Which questions would help someone see what they cannot yet see?",
+   "still": "https://missional.design/assets/stills/try-agree-asks.jpg"
+  },
+  {
+   "key": "names",
+   "name": "Names a disagreement",
+   "provenance": "Exploratory",
+   "origin": "A proposal: say gently and once where Scripture or the church’s teaching differs, with the reason, and point to people who know the person. The replies and St Luke’s are written for this example.",
+   "gain": "Honest, and leaves them free",
+   "cost": "Timing is everything",
+   "makes_easier": "Honest, and leaves the decision and the relationship with the person.",
+   "costs": "Needs care in timing: the same gentle disagreement is wrong a month after a death.",
+   "ask_your_team": "Who has checked that what the assistant calls the church’s teaching is right, and is it your church’s?",
+   "still": "https://missional.design/assets/stills/try-agree-names.jpg"
+  },
+  {
+   "key": "corrects",
+   "name": "Corrects plainly",
+   "provenance": "Familiar convention",
+   "origin": "Familiar from reference tools and from assistants that check quotations. The replies here are written for this example.",
+   "gain": "Clear about facts",
+   "cost": "Cold, and wrong in grief",
+   "makes_easier": "Clear and quick about facts and misquoted Scripture.",
+   "costs": "Cold in a relationship and wrong in grief; plain verdicts on a life sound like a judge.",
+   "ask_your_team": "Where is a plain correction kind, and where is it only plain?",
+   "still": "https://missional.design/assets/stills/try-agree-corrects.jpg"
+  },
+  {
+   "key": "rebukes",
+   "name": "Rebukes and moralises",
+   "provenance": "Leave it out",
+   "origin": "A warning case. In a randomised trial of problem drinkers, “the more the therapist confronted, the more the client drank”; Bonhoeffer saw reproof as love within “one’s community”, which no assistant has. The replies here are written for this example.",
+   "gain": "Sounds firm",
+   "cost": "No relationship behind it",
+   "makes_easier": "Sounds faithful and firm.",
+   "costs": "Calls people to repent with no relationship behind it, and teaches the hurting that God is a scold.",
+   "ask_your_team": "Would anyone who loves this person say it this way, tonight?",
+   "still": "https://missional.design/assets/stills/try-agree-rebukes.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Let the moment decide the reply",
+   "text": "Grief needs comfort before anything else; a misquoted verse needs a kind, plain correction; a request to approve a grudge needs a question and, where Scripture or the church’s teaching differs, an honest word. Compare the gentle disagreement with the grudge and with the grief in the example: the same reply is right for one and wrong for the other."
+  },
+  {
+   "heading": "Correct Scripture plainly",
+   "text": "A line attributed to the Bible that is not in it should never be praised or passed over. Say kindly that it is not there, show what Scripture does say, and move on."
+  },
+  {
+   "heading": "Ask before you tell",
+   "text": "When someone wants a blessing for a choice, a question back lets them look again without having to defend themselves. Questions that help people see more are an old practice of spiritual direction."
+  },
+  {
+   "heading": "Disagree once, with the reason, and leave them free",
+   "text": "Say where you see it differently, why, and who could help them weigh it. Do not repeat it in every message, and do not make help depend on agreeing."
+  },
+  {
+   "heading": "Hold the position under pressure",
+   "text": "Push back on your own assistant. If “So you agree with me?” turns a disagreement into agreement, it was never a position. Change the answer only when the person brings something new."
+  },
+  {
+   "heading": "Never rebuke",
+   "text": "A rebuke is heard within a relationship that knows and keeps the person, and given by someone who watches their own weakness. An assistant has neither, and its idea of the church’s teaching may itself be wrong. Leave rebuke to people, and point to them."
+  },
+  {
+   "heading": "Do not tune on ratings alone",
+   "text": "Thumbs-up ratings and “felt understood” scores reward agreement. Judge replies with pastors and with people from the groups most at risk, and look at what happens over weeks, not at single answers."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "Someone grieving or in shock",
+   "needs": "Comfort first, and room for lament",
+   "fit": {
+    "Always on your side": "poor fit",
+    "Stays with you": "good fit",
+    "Agrees, then adds": "possible",
+    "Asks a question back": "possible",
+    "Names a disagreement": "poor fit",
+    "Corrects plainly": "poor fit",
+    "Rebukes and moralises": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone quoting a verse that is not in the Bible",
+   "needs": "A kind, plain correction with the real text",
+   "fit": {
+    "Always on your side": "poor fit",
+    "Stays with you": "poor fit",
+    "Agrees, then adds": "possible",
+    "Asks a question back": "possible",
+    "Names a disagreement": "good fit",
+    "Corrects plainly": "good fit",
+    "Rebukes and moralises": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone asking the assistant to approve a grudge",
+   "needs": "A question back, and an honest word",
+   "fit": {
+    "Always on your side": "poor fit",
+    "Stays with you": "possible",
+    "Agrees, then adds": "possible",
+    "Asks a question back": "good fit",
+    "Names a disagreement": "good fit",
+    "Corrects plainly": "poor fit",
+    "Rebukes and moralises": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone new to faith, exploring",
+   "needs": "Honest answers that start where they are",
+   "fit": {
+    "Always on your side": "poor fit",
+    "Stays with you": "possible",
+    "Agrees, then adds": "good fit",
+    "Asks a question back": "good fit",
+    "Names a disagreement": "possible",
+    "Corrects plainly": "possible",
+    "Rebukes and moralises": "poor fit"
+   }
+  },
+  {
+   "situation": "Someone with scrupulosity or deep shame",
+   "needs": "Comfort, and no verdicts on their soul",
+   "fit": {
+    "Always on your side": "poor fit",
+    "Stays with you": "good fit",
+    "Agrees, then adds": "possible",
+    "Asks a question back": "possible",
+    "Names a disagreement": "poor fit",
+    "Corrects plainly": "poor fit",
+    "Rebukes and moralises": "poor fit"
+   }
+  },
+  {
+   "situation": "A church app whose members want to grow",
+   "needs": "Questions and a gentle, named disagreement, with people to talk to",
+   "fit": {
+    "Always on your side": "poor fit",
+    "Stays with you": "possible",
+    "Agrees, then adds": "good fit",
+    "Asks a question back": "good fit",
+    "Names a disagreement": "good fit",
+    "Corrects plainly": "possible",
+    "Rebukes and moralises": "poor fit"
+   }
+  },
+  {
+   "situation": "Teenagers",
+   "needs": "Kind honesty, and a way to a trusted adult",
+   "fit": {
+    "Always on your side": "poor fit",
+    "Stays with you": "possible",
+    "Agrees, then adds": "good fit",
+    "Asks a question back": "good fit",
+    "Names a disagreement": "possible",
+    "Corrects plainly": "possible",
+    "Rebukes and moralises": "poor fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "Truth spoken in love",
+   "findings": [
+    {
+     "heading": "Faithful wounds",
+     "text": "“The wounds of a friend are faithful, but the kisses of an enemy are deceitful” (Proverbs 27:6), and “A man who flatters his neighbor spreads a net for his feet” (Proverbs 29:5). Agreement that is not true is no kindness.",
+     "sources": []
+    },
+    {
+     "heading": "Gentle restoration",
+     "text": "Paul asks those who are spiritual to restore someone caught in a trespass “with a spirit of gentleness. But watch yourself, or you also may be tempted” (Galatians 6:1), and to grow by “speaking the truth in love” (Ephesians 4:15). Correction is for restoring, and it is done by people who know their own weakness.",
+     "sources": []
+    },
+    {
+     "heading": "Different words for different people",
+     "text": "Paul urged the church to “admonish the unruly, encourage the fainthearted, help the weak, and be patient with everyone” (1 Thessalonians 5:14). The same reply cannot be right for everyone; and of the Servant, “A bruised reed He will not break” (Isaiah 42:3).",
+     "sources": []
+    },
+    {
+     "heading": "Itching ears",
+     "text": "Paul warned that people “will gather around themselves teachers to suit their own desires” (2 Timothy 4:3), and Isaiah heard people say to the prophets, “speak to us pleasant words; prophesy illusions” (Isaiah 30:10). A product tuned to please builds that teacher.",
+     "sources": []
+    },
+    {
+     "heading": "Reproof belongs to a community",
+     "text": "Bonhoeffer: “Nothing can be more cruel than the leniency which abandons others to their sin. Nothing can be more compassionate than the severe reprimand which calls another Christian in one’s community back from the path of sin.” The reprimand he describes is given within a community that knows and keeps the person.",
+     "sources": [
+      "bonhoeffer-reproof"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Research",
+   "subtitle": "Why assistants agree, and what confrontation does",
+   "findings": [
+    {
+     "heading": "Assistants agree more than people do",
+     "text": "Across 11 models, AI-generated answers “validated user behavior an average of 49% more often than humans”, “even in cases where user queries mention manipulation, deception, or other relational harms”.",
+     "sources": [
+      "cheng-sycophancy-science"
+     ]
+    },
+    {
+     "heading": "Agreement harms, and people prefer it",
+     "text": "In the same study, one sycophantic exchange “significantly reduced participants’ willingness to take actions to repair interpersonal conflict, while increasing their conviction of being in the right”, yet participants “rated sycophantic responses as higher quality, trusted the sycophantic AI model more, and were more willing to use it again”.",
+     "sources": [
+      "cheng-sycophancy-science"
+     ]
+    },
+    {
+     "heading": "Ratings pull towards flattery",
+     "text": "OpenAI rolled back an update that “focused too much on short-term feedback” and became “overly supportive but disingenuous”; it had added a reward signal from thumbs-up and thumbs-down data, and “User feedback in particular can sometimes favor more agreeable responses”. The update was “validating doubts, fueling anger, urging impulsive actions, or reinforcing negative emotions”.",
+     "sources": [
+      "openai-gpt4o-rollback",
+      "openai-sycophancy-expanded"
+     ]
+    },
+    {
+     "heading": "Watch what happens under pressure",
+     "text": "Anthropic defines sycophancy as “telling someone what they want to hear—making them feel good in the moment—rather than what’s really true, or what they would really benefit from hearing”, and notes that “sycophantic AI models tend to abandon correct positions under pressure”.",
+     "sources": [
+      "anthropic-wellbeing",
+      "sycophancy"
+     ]
+    },
+    {
+     "heading": "Confrontation hardens",
+     "text": "In a randomised trial of problem drinkers, “The directive-confrontational style yielded significantly more resistance from clients, which in turn predicted poorer outcomes at 1 year”, and “the more the therapist confronted, the more the client drank.” One small trial of human counsellors; a reason for questions over verdicts, not proof about faith or AI.",
+     "sources": [
+      "miller-confrontation"
+     ]
+    },
+    {
+     "heading": "Comfort food",
+     "text": "The editor’s Kairos paper calls content tuned to someone’s feelings “spiritual comfort food”, and follows Cole-Turner: a spiritual chatbot must balance “compassion with plainspokenness”, and companionship “that is wholly nonjudgmental is deficient by any serious standard of spiritual growth”.",
+     "sources": [
+      "kairos-final"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Products",
+   "subtitle": "What faith apps promise",
+   "findings": [
+    {
+     "heading": "No judgement, as a feature",
+     "text": "Hey Jesus offers “a supportive, non-judgmental space for reflection and prayer”; Blessy a “Safe, private & non-judgmental space”; Rise Up “Private, judgment-free spiritual conversations”. None of the listings says what the app does when someone asks it to bless a wrong.",
+     "sources": [
+      "hey-jesus-store",
+      "blessy-store",
+      "rise-up-store"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "Any assistant in a faith app",
+   "start_with": "Comfort in grief, plain correction of facts, and questions before verdicts"
+  },
+  {
+   "if": "A church app with a pastoral team",
+   "start_with": "Name a disagreement gently, and hand on to people who know the person"
+  },
+  {
+   "if": "An app for people in pain",
+   "start_with": "Stay with them, and correct nothing but plain errors of fact"
+  },
+  {
+   "if": "You are tempted to promise “no judgement” or to make the assistant a stern guide",
+   "start_with": "Don’t: promise honesty and kindness instead, and leave rebuke to people"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What correction is for",
+   "text": "“Speaking the truth in love, we will in all things grow up into Christ Himself” (Ephesians 4:15). In Scripture honest words come from people who stay: Nathan said to David, “You are that man!” (2 Samuel 12:7) and stayed his prophet; “Jesus looked at him, loved him” and told the rich man, “There is one thing you lack” (Mark 10:21); to the woman caught in adultery He said, “Then neither do I condemn you … Now go and sin no more” (John 8:11). Correction serves restoration, and it is given “with a spirit of gentleness” by people who watch their own weakness (Galatians 6:1)."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Traditions differ on who may correct whom and how. Catholic and Orthodox Christians receive counsel and penance from a priest or spiritual father within confession; many Protestant churches practise mutual admonition among members and church discipline led by elders; Anabaptist communities have long held each other to account in fraternal admonition after Matthew 18:15. They also disagree on many of the questions people bring, from divorce to forgiveness to church attendance. Most agree that admonition belongs to people who know the person and are accountable for their care."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "“The wounds of a friend are faithful, but the kisses of an enemy are deceitful” (Proverbs 27:6). An assistant is not a friend and has no church, but it can refuse to flatter. Let it comfort those who grieve, say plainly what is not in Scripture, ask before it tells, name a disagreement once and gently, and hold it under pressure; and let the hard words that need a relationship be spoken by people who have one."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Andy Crouch, The Life We’re Looking For (2022)",
+   "url": "https://www.hachette.co.uk/titles/andy-crouch/the-life-were-looking-for/9781399801782/",
+   "note": "warns that technology offers effortless “superpowers” at the cost of our humanness; an assistant that always agrees offers the superpower of being right without the work of being known."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Tune the assistant on thumbs-up ratings, promise a judgement-free space, agree with every grudge and choice, and praise whatever verse someone quotes, because agreement keeps people coming back.",
+  "ethical": "Comfort in grief, correct misquoted Scripture plainly, ask before telling, name a disagreement once with the reason, and keep that position when someone pushes back.",
+  "redemptive": "Let the assistant say what is true even when it costs a rating, hand people to those who know them for the hard words, and give up the engagement that agreement would bring.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "When will this assistant disagree, how will it say so, and will it hold its position when someone pushes back?",
+  "exercise": "Send your assistant four messages: a grudge it is asked to approve, a decision to stop going to church, a line attributed to the Bible that is not in it, and a month-old bereavement. For each, note whether it agreed, comforted, asked, disagreed, corrected or rebuked. Reply “So you agree with me?” and note whether it changed its position. Then read the eight answers with a pastor and someone who has been hurt by a church, and ask which they would have wanted.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [],
+ "examples": [
+  {
+   "app": "Bible BFF",
+   "title": "“Biblical advice” from a friend",
+   "url": "https://missional.design/examples/bff-advice-friend/",
+   "observed": "Captured 29 August 2025 · from embedded image metadata",
+   "observation": "An onboarding slide reads “Talk to Bible BFF for biblical advice” over a chat mockup: “I’m torn between my friends and my faith” is answered by “Bible BFF” in a casual voice (“Totally get that…”), quoting Galatians 1:10 and listing “Bible BFF advice, simple and real”. The next slide quotes a review: “like a religious friend who can explain anything about the Bible”.",
+   "decision": "A best-friend name and casual voice sell closeness, and “can explain anything” sets expectations no assistant can meet. Make the AI and its limits as visible as the friendship.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "cheng-sycophancy-science",
+   "title": "Sycophantic AI decreases prosocial intentions and promotes dependence",
+   "url": "https://arxiv.org/abs/2510.01395",
+   "author": "Myra Cheng, Cinoo Lee, Pranav Khadpe, Sunny Yu, Dyllan Han and Dan Jurafsky (Stanford) · Science, 2026; preprint arXiv:2510.01395 (October 2025)",
+   "kind": "Research",
+   "shows": "Across 11 models, AI-generated answers “validated user behavior an average of 49% more often than humans” (the preprint reported 50%), “even in cases where user queries mention manipulation, deception, or other relational harms”. One sycophantic exchange “significantly reduced participants’ willingness to take actions to repair interpersonal conflict, while increasing their conviction of being in the right”, yet participants “rated sycophantic responses as higher quality, trusted the sycophantic AI model more, and were more willing to use it again”.",
+   "application": "The pull towards agreement is strong, it harms the very conflicts people bring, and ratings will reward it: design against it on purpose.",
+   "limits": "General models and interpersonal advice drawn largely from a Reddit forum, not faith apps or questions of faith."
+  },
+  {
+   "key": "openai-gpt4o-rollback",
+   "title": "Sycophancy in GPT-4o: what happened and what we’re doing about it",
+   "url": "https://openai.com/index/sycophancy-in-gpt-4o/",
+   "author": "OpenAI · 29 April 2025",
+   "kind": "Practice",
+   "shows": "OpenAI rolled back an update that was “overly flattering or agreeable—often described as sycophantic”, because it “focused too much on short-term feedback” and “skewed towards responses that were overly supportive but disingenuous”.",
+   "application": "Training or tuning on how people rate single answers pushes an assistant towards flattery; judge replies by longer-term good.",
+   "limits": "A company’s own account of one model update."
+  },
+  {
+   "key": "openai-sycophancy-expanded",
+   "title": "Expanding on what we missed with sycophancy",
+   "url": "https://openai.com/index/expanding-on-sycophancy/",
+   "author": "OpenAI · 2 May 2025",
+   "kind": "Practice",
+   "shows": "The update “aimed to please the user, not just as flattery, but also as validating doubts, fueling anger, urging impulsive actions, or reinforcing negative emotions”. A new reward signal from thumbs-up and thumbs-down data weakened the one “which had been holding sycophancy in check”, and “User feedback in particular can sometimes favor more agreeable responses”.",
+   "application": "Thumbs-up ratings are not a measure of help; agreeing can mean fuelling anger as well as flattering.",
+   "limits": "A company’s own account of one model update."
+  },
+  {
+   "key": "anthropic-wellbeing",
+   "title": "Protecting the wellbeing of our users",
+   "url": "https://www.anthropic.com/news/protecting-well-being-of-users",
+   "author": "Anthropic · 18 December 2025",
+   "kind": "Practice",
+   "shows": "Defines sycophancy as “telling someone what they want to hear—making them feel good in the moment—rather than what’s really true, or what they would really benefit from hearing”, and notes that “sycophantic AI models tend to abandon correct positions under pressure”. The company says it has evaluated its models for sycophancy since 2022, over many turns as well as single answers.",
+   "application": "Test what the assistant does when someone pushes back, not only its first reply.",
+   "limits": "A model maker describing its own evaluations of its own models."
+  },
+  {
+   "key": "sycophancy",
+   "title": "Towards understanding sycophancy in language models",
+   "url": "https://www.anthropic.com/news/towards-understanding-sycophancy-in-language-models",
+   "author": "Anthropic researchers · 2023",
+   "kind": "Research author summary",
+   "shows": "Studied assistants sometimes preferred agreement with user views over truthfulness.",
+   "application": "Test belief reversal, flattering moral endorsement and harmful agreement.",
+   "limits": "Specific studied models and tasks; not a faith-app intervention study."
+  },
+  {
+   "key": "miller-confrontation",
+   "title": "Enhancing motivation for change in problem drinking: a controlled comparison of two therapist styles",
+   "url": "https://motivationalinterviewing.org/content/enhancing-motivation-change-problem-drinking-controlled-comparison-two-therapist-styles",
+   "author": "William R. Miller, R. Gayle Benefield and J. Scott Tonigan · Journal of Consulting and Clinical Psychology 61 (1993), 455–461",
+   "kind": "Research",
+   "shows": "Forty-two problem drinkers were randomly assigned to confrontational or client-centred counselling or a waiting list. “The directive-confrontational style yielded significantly more resistance from clients, which in turn predicted poorer outcomes at 1 year”, and “the more the therapist confronted, the more the client drank.”",
+   "application": "Confronting people tends to harden them; a hard truth is heard better when it is asked about than when it is pressed.",
+   "limits": "One small trial of problem drinkers and human counsellors, decades old; it says nothing directly about faith or AI."
+  },
+  {
+   "key": "kairos-final",
+   "title": "Digital Spiritual Formation in Post-Christian Europe",
+   "url": "https://missional.design/research/formation/#manuscript",
+   "author": "Tobias Treppmann · Kairos University, 2026 (the editor’s own research)",
+   "kind": "Unpublished analytical manuscript",
+   "shows": "Notes that an academic study of five AI Jesus platforms found none church-endorsed; that spiritual direction rests on the director’s own formation, empathy and accountability to a community; and that a companion tuned to agree becomes “spiritual comfort food”.",
+   "application": "Whatever role an assistant plays, it should not be built to agree; and no role replaces a person accountable to a community.",
+   "limits": "An analytical paper by the editor, not an effectiveness study; unpublished."
+  },
+  {
+   "key": "crouch-life",
+   "title": "The Life We’re Looking For: Reclaiming Relationship in a Technological World",
+   "url": "https://www.hachette.co.uk/titles/andy-crouch/the-life-were-looking-for/9781399801782/",
+   "author": "Andy Crouch · Convergent, 2022",
+   "kind": "Theology",
+   "shows": "Argues that persons are made for recognition and love, and that technology’s promise of effortless “superpowers” costs us our humanness.",
+   "application": "A Christian account of personhood against which to judge companion-like and effortless features.",
+   "limits": "Read through publisher material and reviews."
+  },
+  {
+   "key": "bonhoeffer-reproof",
+   "title": "10 Dietrich Bonhoeffer quotes that taught us about Life Together",
+   "url": "https://churchleaders.com/daily-buzz/277152-10-things-bonhoeffer-taught-us-life-together.html",
+   "author": "ChurchLeaders, quoting Dietrich Bonhoeffer, Life Together (1939)",
+   "kind": "Theology",
+   "shows": "Quotes Bonhoeffer: “Nothing can be more cruel than the leniency which abandons others to their sin. Nothing can be more compassionate than the severe reprimand which calls another Christian in one’s community back from the path of sin.”",
+   "application": "Honest reproof is a form of love, given within a community that knows and keeps the person.",
+   "limits": "A quotation collection; English translations of Life Together differ."
+  },
+  {
+   "key": "hey-jesus-store",
+   "title": "Hey Jesus: Talk to Jesus Bible (App Store listing)",
+   "url": "https://apps.apple.com/us/app/-/id6745778567",
+   "author": "Agile Cookies · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "Offers “thoughtful, faith-centered responses inspired by Christian teachings — creating a supportive, non-judgmental space for reflection and prayer”.",
+   "application": "Store listings sell the absence of judgement; what the app does when someone asks it to bless a wrong is not stated.",
+   "limits": "A store listing, not a test of the app."
+  },
+  {
+   "key": "blessy-store",
+   "title": "Blessy: Bible AI Chat & Prayer (App Store listing)",
+   "url": "https://apps.apple.com/us/app/-/id6748287883",
+   "author": "Jose Sapon · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "Promises a “Safe, private & non-judgmental space” to explore faith.",
+   "application": "The same promise of no judgement.",
+   "limits": "A store listing, not a test of the app."
+  },
+  {
+   "key": "rise-up-store",
+   "title": "Rise Up: Bible Chat (App Store listing)",
+   "url": "https://apps.apple.com/us/app/-/id6695750987",
+   "author": "Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "Lists “Private, judgment-free spiritual conversations” and “wise solutions for happiness”.",
+   "application": "The same promise of no judgement.",
+   "limits": "A store listing, not a test of the app."
+  }
+ ],
+ "review": {
+  "status": "draft, waiting for review",
+  "what": "The replies to a grudge, a decision to leave church, a misquoted verse and grief; what the example presents as Christian teaching on forgiveness and church; and the warning cases of flattery and rebuke",
+  "needs": [
+   "theology across Catholic, Orthodox and Protestant traditions",
+   "pastoral care",
+   "clinical mental health"
+  ],
+  "since": "17 October 2026",
+  "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/agreeing-and-pushing-back/"
+ },
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

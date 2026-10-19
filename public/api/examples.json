@@ -328,7 +328,8 @@
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
    "deep_dives": [
     "ai-citations",
-    "ai-persona"
+    "ai-persona",
+    "ai-uncertainty"
    ]
   },
   {
@@ -341,7 +342,9 @@
    "decision": "The wording presents a decline as a failure to find an answer, and the curated media then speaks for the app. Say plainly when the assistant won’t answer, and make clear whose perspective the suggested resources represent.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
    "deep_dives": [
-    "ai-citations"
+    "ai-citations",
+    "ai-uncertainty",
+    "chat-scope"
    ]
   },
   {
@@ -367,7 +370,9 @@
    "decision": "A limit stated next to where people type is more likely to be read than one in onboarding. Pair it with a real route to a person, and with how sensitive moral questions are handled.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
    "deep_dives": [
-    "ai-citations"
+    "ai-citations",
+    "ai-uncertainty",
+    "handing-over"
    ]
   },
   {
@@ -380,7 +385,8 @@
    "decision": "Labelling AI help where the results end is honest; say what happens to the feedback, and keep upsells apart from the label so one is not read as the other.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
    "deep_dives": [
-    "ai-answer-actions"
+    "ai-answer-actions",
+    "ai-uncertainty"
    ]
   },
   {
@@ -564,7 +570,10 @@
    "decision": "Portraits of praying people and of Jesus stand where a sender would be, and a call button suggests someone to ring. Test who people think they are talking to, and label the AI before the first message.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
    "deep_dives": [
-    "ai-persona"
+    "ai-persona",
+    "speaking-as",
+    "ai-spiritual-acts",
+    "assistant-writes-first"
    ]
   },
   {
@@ -577,7 +586,10 @@
    "decision": "A best-friend name and casual voice sell closeness, and “can explain anything” sets expectations no assistant can meet. Make the AI and its limits as visible as the friendship.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
    "deep_dives": [
-    "ai-persona"
+    "ai-persona",
+    "speaking-as",
+    "chat-scope",
+    "agreeing-and-pushing-back"
    ]
   },
   {
@@ -634,7 +646,8 @@
    "decision": "A timestamped script makes a produced session navigable and shows which words are Scripture, which are music and which are the editors’.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
    "deep_dives": [
-    "bible-audio"
+    "bible-audio",
+    "ending-the-conversation"
    ]
   },
   {
@@ -830,7 +843,8 @@
    "decision": "Reaching out is hard, and the app tries to help. But an inference about someone’s mood, sent to friends by default, is a disclosure they did not make. Ask each time by default, and say what the friends are told.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
    "deep_dives": [
-    "sharing-with-a-group"
+    "sharing-with-a-group",
+    "assistant-writes-first"
    ]
   },
   {
@@ -858,7 +872,9 @@
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
    "deep_dives": [
     "sharing-with-a-group",
-    "first-use"
+    "first-use",
+    "ai-spiritual-acts",
+    "handing-over"
    ]
   },
   {
@@ -1398,7 +1414,10 @@
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
    "deep_dives": [
     "ai-citations",
-    "ai-persona"
+    "ai-persona",
+    "ai-uncertainty",
+    "chat-scope",
+    "whose-theology"
    ]
   },
   {
@@ -1424,7 +1443,8 @@
    "decision": "Offering lengths respects the listener’s day. Check that the short versions still read the passage whole, and say what is left out.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
    "deep_dives": [
-    "devotional-audio"
+    "devotional-audio",
+    "ending-the-conversation"
    ]
   },
   {
@@ -1506,7 +1526,8 @@
    "deep_dives": [
     "notifications",
     "check-ins-and-assessments",
-    "sharing-with-a-group"
+    "sharing-with-a-group",
+    "assistant-writes-first"
    ]
   },
   {
