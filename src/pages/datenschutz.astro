@@ -14,7 +14,7 @@ import { legal } from '../data/legal';
     <div class="container-narrow">
       <p>
         <em>Short version: This site is a static website hosted on GitHub Pages. We don't run analytics, we don't set
-        cookies, and we don't operate user accounts. GitHub processes technical access data when you load the site. The reference keeps your theme preference in your browser. Interactive examples run locally, and the feedback form opens an email draft for you to send.</em>
+        cookies, and we don't operate user accounts. GitHub processes technical access data when you load the site. The reference keeps your theme preference in your browser. Interactive examples run locally, and the general feedback form opens an email draft for you to send. The “Disagree, or have evidence?” form at the end of each deep dive, and the matching Bezalel tool, send what you enter to our own server in Germany, which files it in a private GitHub repository (GitHub, USA). We use your IP address only briefly in memory, as a hash, to limit abuse. We publish your feedback only if you agree, and only anonymised.</em>
       </p>
 
       <h2>1. Verantwortlicher / Data Controller</h2>
@@ -54,8 +54,10 @@ import { legal } from '../data/legal';
       </p>
       <p>
         Die Patternreferenz speichert Ihre Wahl des hellen oder dunklen Designs lokal im Browser (Local Storage).
-        Eingaben in den interaktiven Beispielen bleiben im Browser. Das Feedbackformular öffnet Ihre E-Mail-App
-        mit einem Entwurf; erst wenn Sie die E-Mail selbst versenden, wird sie an den Herausgeber übertragen.
+        Eingaben in den interaktiven Beispielen bleiben im Browser. Das allgemeine Feedbackformular öffnet Ihre E-Mail-App
+        mit einem Entwurf; erst wenn Sie die E-Mail selbst versenden, wird sie an den Herausgeber übertragen. Das
+        Formular „Disagree, or have evidence?“ am Ende der Vertiefungen sendet Ihre Angaben dagegen direkt an
+        unseren Server (siehe Abschnitt 6).
       </p>
 
       <h2>5. Kontaktaufnahme per E-Mail</h2>
@@ -66,7 +68,96 @@ import { legal } from '../data/legal';
         entgegenstehen.
       </p>
 
-      <h2>6. Ihre Rechte / Your Rights</h2>
+      <h2>6. Rückmeldungen zu Patterns („Disagree, or have evidence?“) und Bezalel</h2>
+      <p>
+        Am Ende jeder Vertiefung (Deep Dive) und Pattern-Seite der Referenz steht das Formular „Disagree, or have
+        evidence?“. Damit können Teams dem Herausgeber mitteilen, wenn sie sich anders entschieden haben, als die
+        Seite nahelegt, und warum. Dieselben Angaben lassen sich über das Werkzeug <code>send_pattern_feedback</code>
+        von Bezalel senden, unserem MCP-Server für KI-Assistenten (gehostet unter patterns.missional.design oder als
+        Desktop-Paket). Der Assistent ist angewiesen, es nur aufzurufen, wenn Sie das Senden ausdrücklich wünschen.
+      </p>
+
+      <h3>Verarbeitete Daten</h3>
+      <ul>
+        <li>die betroffene Vertiefung bzw. das Pattern und optional die Option oder Empfehlung, bei der Sie abweichen;</li>
+        <li>was Ihr Team stattdessen gewählt hat und warum (Pflichtangaben);</li>
+        <li>optional Belege oder Links;</li>
+        <li>optional eine Kontaktangabe (z. B. E-Mail-Adresse), falls Sie eine Antwort wünschen;</li>
+        <li>Ihre Angabe, ob die Rückmeldung anonymisiert veröffentlicht werden darf;</li>
+        <li>technisch: die Seite, von der aus Sie gesendet haben, ob über die Website oder Bezalel gesendet wurde,
+          eine zufällige Referenznummer und den Eingangszeitpunkt.</li>
+      </ul>
+      <p>
+        Ein Konto oder Ihr Name ist nicht nötig. Bitte geben Sie in den Freitextfeldern keine personenbezogenen Daten
+        über andere Personen an. Das Formular setzt keine Cookies und verwendet kein Tracking. Es enthält ein für
+        Menschen unsichtbares Feld, um automatisierte Einsendungen (Spam) zu erkennen.
+      </p>
+
+      <h3>Übermittlung, Empfänger und Speicherort</h3>
+      <p>
+        Beim Absenden überträgt Ihr Browser die Angaben verschlüsselt (HTTPS) an patterns.missional.design. Diesen
+        Dienst betreiben wir selbst auf einem gemieteten Server der Hetzner Online GmbH, Industriestr. 25,
+        91710 Gunzenhausen, in einem Rechenzentrum in Deutschland (Falkenstein). Hetzner verarbeitet die Daten als
+        Auftragsverarbeiter (Art. 28 DSGVO). [PLATZHALTER: Abschluss des Auftragsverarbeitungsvertrags mit Hetzner bestätigen.]
+      </p>
+      <p>
+        Von dort wird die Rückmeldung als Eintrag (Issue) in einem nicht öffentlichen GitHub-Repository gespeichert,
+        auf das nur der Herausgeber Zugriff hat. Anbieter ist GitHub, Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, USA. Dabei
+        werden Daten in die USA übermittelt. GitHub ist über das EU-US Data Privacy Framework zertifiziert; die
+        Übermittlung stützt sich auf den Angemessenheitsbeschluss der EU-Kommission (Art. 45 DSGVO). Ist GitHub nicht
+        erreichbar oder nicht eingerichtet, wird die Rückmeldung stattdessen in einer Datei auf unserem Server in
+        Deutschland gespeichert.
+      </p>
+      <p>
+        Wenn Sie Bezalel über einen KI-Assistenten nutzen, verarbeitet dessen Anbieter Ihre Unterhaltung, einschließlich
+        der gesendeten Rückmeldung, nach seinen eigenen Datenschutzbestimmungen und in eigener Verantwortung. Darauf
+        haben wir keinen Einfluss.
+      </p>
+
+      <h3>IP-Adresse und Missbrauchsschutz</h3>
+      <p>
+        Um Missbrauch zu verhindern, begrenzen wir die Zahl der Rückmeldungen je Absender (derzeit 5 pro Stunde und
+        20 pro Tag). Dafür wird die IP-Adresse, von der die Anfrage kommt, ausschließlich im Arbeitsspeicher und nur
+        als gesalzener Hashwert verwendet. Der Salt wird bei jedem Neustart des Dienstes neu erzeugt, und Zählungen,
+        die älter als 24 Stunden sind, werden nicht mehr berücksichtigt. Die IP-Adresse wird weder mit der
+        Rückmeldung gespeichert noch an GitHub weitergegeben. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO
+        (berechtigtes Interesse an einem vor Missbrauch geschützten Formular).
+        [PLATZHALTER: Server-Logdateien. Der Webserver protokolliert derzeit Zugriffe einschließlich IP-Adresse
+        standardmäßig in den Container-Logs. Entweder das Protokoll für /feedback abschalten oder hier Umfang und
+        Speicherdauer der Logdateien angeben.]
+      </p>
+
+      <h3>Zwecke und Rechtsgrundlagen</h3>
+      <p>
+        Wir verarbeiten Ihre Rückmeldung, um die Referenz anhand von Erfahrungen und Belegen aus der Praxis zu prüfen
+        und zu verbessern, und Ihre Kontaktangabe nur, um Ihnen zu antworten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f
+        DSGVO; unser berechtigtes Interesse liegt in der fachlichen Qualität der Referenz und im Austausch mit den
+        Teams, die sie nutzen. Ihre Kontaktangabe wird nie veröffentlicht.
+      </p>
+      <p>
+        Veröffentlicht wird eine Rückmeldung nur, wenn Sie das Kästchen zur Veröffentlichung angekreuzt haben
+        (bzw. im Assistenten ausdrücklich zugestimmt haben), und nur anonymisiert: Wir entfernen Angaben, die auf Sie,
+        Ihr Team oder Ihre Organisation schließen lassen. Rechtsgrundlage ist Ihre Einwilligung
+        (Art. 6 Abs. 1 lit. a DSGVO). Sie können sie jederzeit mit Wirkung für die Zukunft widerrufen
+        (Art. 7 Abs. 3 DSGVO), am einfachsten per E-Mail unter Angabe der Referenznummer (PF-…), die Ihnen nach
+        dem Senden angezeigt wird.
+      </p>
+
+      <h3>Speicherdauer</h3>
+      <p>
+        [PLATZHALTER: Speicherdauer festlegen. Derzeit gibt es keine automatische Löschung. Vorschlag: Rückmeldungen
+        werden gespeichert, solange sie für die Pflege der Referenz relevant sind, längstens [X] Jahre;
+        Kontaktangaben werden gelöscht, sobald die Korrespondenz abgeschlossen ist.]
+      </p>
+
+      <h3>Wenn das Senden nicht klappt</h3>
+      <p>
+        Kann die Rückmeldung nicht gesendet werden, bietet das Formular an, denselben Text als E-Mail-Entwurf in
+        Ihrer E-Mail-App zu öffnen. Übertragen wird er erst, wenn Sie die E-Mail selbst versenden; dann gilt
+        Abschnitt 5.
+      </p>
+
+      <h2>7. Ihre Rechte / Your Rights</h2>
       <p>Sie haben das Recht auf:</p>
       <ul>
         <li>Auskunft über die zu Ihrer Person gespeicherten Daten (Art. 15 DSGVO)</li>
@@ -82,7 +173,7 @@ import { legal } from '../data/legal';
         <EmailLink user={legal.operator.email.user} domain={legal.operator.email.domain} tld={legal.operator.email.tld} />.
       </p>
 
-      <h2>7. Externe Links</h2>
+      <h2>8. Externe Links</h2>
       <p>
         Diese Website enthält Links zu externen Websites Dritter (z. B. oratio.co, aperto.bible, Strategyzer, LEANSTACK, ICCM Europe).
         Auf deren Datenverarbeitung haben wir keinen Einfluss. Bitte konsultieren Sie die Datenschutzerklärungen der
