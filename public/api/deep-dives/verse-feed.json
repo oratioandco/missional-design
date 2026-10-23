@@ -78,7 +78,7 @@
   {
    "key": "shuffle",
    "name": "A shuffled, endless feed",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "A warning case. Scroll The Bible’s Discover page “is a feed of random Bible verses”, Verity offers “an engaging, infinite scroll experience—like your favorite social apps”, and YouVersion’s Verse of the Day can be hearted, commented on and shared. After Mark 4:41 this feed goes on to verses from other books, chosen for this example, with likes and shares as such feeds show them.",
    "gain": "Effortless and familiar",
    "cost": "Out of context, endless",
@@ -112,14 +112,6 @@
   {
    "heading": "Cards can be a welcome",
    "text": "For a new reader, someone with little time or someone who finds long text hard, one verse at a time in order can be the easiest way in. Make it a door into the passage, and make the page or pages to turn one tap away when they want more."
-  },
-  {
-   "heading": "When this pulls against a streak",
-   "text": "A feed makes a swipe easy to count, and a streak makes the count matter. Count readings the person chooses, never swipes or cards, and keep the end card free of any tally."
-  },
-  {
-   "heading": "When this pulls against notifications",
-   "text": "A feed that never ends and a reminder that brings people back to it work as one loop. If you send a daily verse, let it open the passage with its end, not the feed."
   }
  ],
  "use_cases": [
@@ -375,6 +367,62 @@
   {
    "if": "You are tempted to add a shuffled, endless feed with likes",
    "start_with": "Don’t: give the reading an order and an end instead"
+  }
+ ],
+ "pulls_against": [
+  {
+   "id": "swipes-and-streaks",
+   "title": "Easy swipes, and counts that matter",
+   "options_here": [
+    "Cards in order",
+    "A daily set of stories"
+   ],
+   "with": {
+    "slug": "progress-and-streaks",
+    "title": "Progress and streaks",
+    "url": "https://missional.design/patterns/progress-and-streaks/",
+    "options": [
+     "Month calendar with a streak",
+     "Levels and badges"
+    ]
+   },
+   "pull": "A feed makes every swipe easy to count, and a streak makes the count matter.",
+   "hold": "Count readings the person chooses, never swipes or cards, and keep the end card free of any tally."
+  },
+  {
+   "id": "daily-verse-and-feed",
+   "title": "A daily verse, and a feed without end",
+   "options_here": [
+    "A feed in order, without end"
+   ],
+   "with": {
+    "slug": "notifications",
+    "title": "Notifications and reminders",
+    "url": "https://missional.design/patterns/notifications/",
+    "options": [
+     "A daily word"
+    ]
+   },
+   "pull": "A reminder that brings people back and a feed that never ends work as one loop.",
+   "hold": "If you send a daily verse, let it open the passage with its end, not the feed: a reading that is enough for today."
+  },
+  {
+   "id": "one-verse-and-passage",
+   "title": "One verse at a time, and the passage around it",
+   "options_here": [
+    "Cards in order"
+   ],
+   "with": {
+    "slug": "how-much-text",
+    "title": "How much text at once",
+    "url": "https://missional.design/patterns/how-much-text/",
+    "options": [
+     "One passage",
+     "Whole chapter"
+    ]
+   },
+   "pull": "One verse to a card is an easy way in, and the same split hides the verses that give it its meaning.",
+   "hold": "Make cards a door into the passage: keep the verses around each card one tap away, and let readers move to the whole passage whenever they are ready."
   }
  ],
  "reflection": [

@@ -273,6 +273,26 @@
    "start_with": "Ask what it teaches; if you keep it, let people switch it off and never sell repairs"
   }
  ],
+ "pulls_against": [
+  {
+   "id": "common-word-and-personal",
+   "title": "The common word, and a word for you",
+   "options_here": [
+    "Daily readings"
+   ],
+   "with": {
+    "slug": "meeting-the-person",
+    "title": "Meeting the person where they are",
+    "url": "https://missional.design/patterns/meeting-the-person/",
+    "options": [
+     "The same for everyone",
+     "Reads the message"
+    ]
+   },
+   "pull": "Shared readings form a community, but a reply written for everyone can assume agreement and lose the sceptic.",
+   "hold": "Keep the passage everyone reads, and adapt only the way in: the length, the language and the question it starts from. Change the manner, never the message."
+  }
+ ],
  "reflection": [
   {
    "heading": "What a rhythm is for",

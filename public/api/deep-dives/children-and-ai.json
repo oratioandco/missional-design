@@ -78,7 +78,7 @@
   {
    "key": "companion",
    "name": "An open companion",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "A warning case. AI Bible chat apps such as AI Jesus – Bible Chat offer “Unlimited chat” and are rated 4+; Common Sense Media found social AI companions “pose unacceptable risks to children and teens under age 18”. “Grace” here is written for this example to show the pattern.",
    "gain": "Always there, never tired",
    "cost": "Becomes a child’s friend",
@@ -107,7 +107,7 @@
   },
   {
    "heading": "Help for a frightened child that does not route through parents",
-   "text": "A parent dashboard is not a safeguarding route: the person a child is scared of may be the one reading the chat. Give a frightened child a children’s helpline such as 116 111 and a trusted adult, as in the children and families example."
+   "text": "A parent dashboard is not a safeguarding route: the person a child is scared of may be the one reading the chat. Give a frightened child a children’s helpline for their country (116 111 in much of Europe) and a trusted adult, as in the children and families example."
   },
   {
    "heading": "Do not rely on a child typing a birth year",
@@ -336,6 +336,46 @@
   {
    "if": "A companion that children can reach",
    "start_with": "Don’t: leave companionship out of anything a child can open"
+  }
+ ],
+ "pulls_against": [
+  {
+   "id": "grown-up-and-child",
+   "title": "A grown-up beside the child, and a child’s own questions",
+   "options_here": [
+    "Ask together",
+    "AI for the grown-ups"
+   ],
+   "with": {
+    "slug": "children-and-families",
+    "title": "Children and families",
+    "url": "https://missional.design/patterns/children-and-families/",
+    "options": [
+     "Read together",
+     "A youth group with a leader"
+    ]
+   },
+   "pull": "The safest design puts a grown-up beside the child, but a grown-up can be the reason a child is afraid, and some questions are only asked alone.",
+   "hold": "Make a grown-up the usual company, never the only way to help. Give parents no record of what the child wrote, and give a frightened child a way to help that does not depend on who is reading over their shoulder."
+  },
+  {
+   "id": "guest-and-child",
+   "title": "Asking nothing at the door, and knowing a child might be there",
+   "options_here": [
+    "A filtered chat for children",
+    "No AI for children"
+   ],
+   "with": {
+    "slug": "first-use",
+    "title": "First use",
+    "url": "https://missional.design/patterns/first-use/",
+    "options": [
+     "Guest first, an account when there is something to keep",
+     "Open on what they came for"
+    ]
+   },
+   "pull": "A first use that asks for nothing leaves a team unable to tell when a child has reached the chat.",
+   "hold": "Design the chat as if a child might be on the other side. Keep open chat out of guest mode, or make guest chat safe for children by default, rather than relying on a typed age."
   }
  ],
  "reflection": [

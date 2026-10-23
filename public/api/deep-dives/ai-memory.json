@@ -66,7 +66,7 @@
   {
    "key": "profile",
    "name": "A profile it builds",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "A composite of personalisation patterns: interests, life events and “stage” inferred from activity, used for plans, offers and advertising partners. HelloBible’s store listing shows identifiers linked to the user for personalisation; see the screenshots below.",
    "gain": "Uncannily personal",
    "cost": "Confidences become categories",
@@ -290,6 +290,27 @@
   {
    "if": "You are tempted to personalise from chats",
    "start_with": "Don’t: no inferred profiles, no offers drawn from confidences"
+  }
+ ],
+ "pulls_against": [
+  {
+   "id": "follow-up-and-forgetting",
+   "title": "Following up, and forgetting",
+   "options_here": [
+    "Nothing kept",
+    "Memory you can see"
+   ],
+   "with": {
+    "slug": "assistant-writes-first",
+    "title": "When the assistant writes first",
+    "url": "https://missional.design/patterns/assistant-writes-first/",
+    "options": [
+     "A check-in they set",
+     "A daily page from memory"
+    ]
+   },
+   "pull": "A follow-up matters most after the very conversation the assistant should remember least.",
+   "hold": "Offer a check-in once, after any danger has passed, and keep only the words the person chose for it, nothing else they said. Often the better follow-up comes from a person they choose."
   }
  ],
  "reflection": [

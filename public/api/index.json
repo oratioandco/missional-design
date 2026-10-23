@@ -16,12 +16,13 @@
   "sources": "https://missional.design/api/sources.json",
   "examples": "https://missional.design/api/examples.json",
   "guides": "https://missional.design/api/guides.json",
+  "tensions": "https://missional.design/api/tensions.json",
   "pages": "https://missional.design/api/pages.json"
  },
  "counts": {
   "deep_dives": 34,
   "sources": 507,
   "examples": 131,
-  "pages": 241
+  "pages": 242
  }
 }

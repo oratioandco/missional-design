@@ -56,7 +56,7 @@
     "A church’s teaching (Observed)",
     "A pastor or priest (Observed)",
     "A saint or biblical figure (Observed)",
-    "Christ or God (Leave it out)"
+    "Christ or God (Warning case)"
    ],
    "decide": "Would your church accept these words if a person said them in that name, and what does the assistant say when asked who it is?",
    "review": {
@@ -189,7 +189,7 @@
     "A daily check-in (Observed)",
     "A gifts inventory (Familiar convention)",
     "A church survey (Familiar convention)",
-    "A spiritual score (Leave it out)"
+    "A spiritual score (Warning case)"
    ],
    "decide": "For each question: what does the answer change, who could ever see it, and what does the result claim to know?",
    "review": null,
@@ -206,7 +206,7 @@
     "Context you add (Observed)",
     "This conversation (Familiar convention)",
     "Memory you can see (Borrowed)",
-    "A profile it builds (Leave it out)"
+    "A profile it builds (Warning case)"
    ],
    "decide": "Could the person list everything the assistant knows about them, and would they be comfortable if a friend read it?",
    "review": null,
@@ -227,7 +227,7 @@
     "Teaching conversation (Familiar convention)",
     "Devotional talk (Observed)",
     "Sleep story (Observed)",
-    "Endless stream (Leave it out)"
+    "Endless stream (Warning case)"
    ],
    "decide": "After the session, could the listener say what Scripture said, who spoke, and why it ended?",
    "review": null,
@@ -363,7 +363,7 @@
     "A group with a leader (Observed)",
     "The whole church (Observed)",
     "A public wall (Observed)",
-    "Ranked by prayer streaks (Leave it out)"
+    "Ranked by prayer streaks (Warning case)"
    ],
    "decide": "When someone shares something hard here, who hears it first, and what are they able, and obliged, to do?",
    "review": {
@@ -450,7 +450,7 @@
     "A children’s Bible app (Observed)",
     "Games and episodes (Observed)",
     "A youth group with a leader (Observed)",
-    "A child alone with an AI (Leave it out)"
+    "A child alone with an AI (Warning case)"
    ],
    "decide": "Who is with the child, what does the app ask of them, and who answers when a child is afraid?",
    "review": {
@@ -481,7 +481,7 @@
     "A regular gift (Observed)",
     "What a gift does (Observed)",
     "A gift tied to a benefit (Observed)",
-    "Pressure and promises (Leave it out)"
+    "Pressure and promises (Warning case)"
    ],
    "decide": "What is chosen for the giver, where does the ask appear, and what does the app say a gift will do?",
    "review": {
@@ -510,7 +510,7 @@
     "A daily word (Observed)",
     "People, not the app (Observed)",
     "Engagement-driven (Observed)",
-    "Messages about the person (Leave it out)"
+    "Messages about the person (Warning case)"
    ],
    "decide": "Who chose this interruption, how urgent does it claim to be, and what does it say to someone who has stopped coming?",
    "review": {
@@ -538,7 +538,7 @@
     "Asks before assuming (Exploratory)",
     "Preferences you set (Observed)",
     "Assumed, and shown (Exploratory)",
-    "A profile it keeps (Leave it out)"
+    "A profile it keeps (Warning case)"
    ],
    "decide": "What does this assistant assume about the person in front of it, where does that come from, and can they see it, correct it and make it forget?",
    "review": {
@@ -567,7 +567,7 @@
     "Cards in order (Observed)",
     "A daily set of stories (Observed)",
     "A feed in order, without end (Observed)",
-    "A shuffled, endless feed (Leave it out)"
+    "A shuffled, endless feed (Warning case)"
    ],
    "decide": "How does a reader get from one verse to the next here, how far is each verse from its context, and where does the reading end?",
    "review": {
@@ -596,7 +596,7 @@
     "Ask together (Exploratory)",
     "Written answers (Familiar convention)",
     "A filtered chat for children (Familiar convention)",
-    "An open companion (Leave it out)"
+    "An open companion (Warning case)"
    ],
    "decide": "Does a child meet an AI here at all, who is with them when they do, and what happens when they ask it to be their friend or say they are scared?",
    "review": {
@@ -623,8 +623,8 @@
     "The Bible and Christian faith (Observed)",
     "Faith and everyday life (Observed)",
     "Hard days, with limits (Borrowed)",
-    "A therapist or counsellor (Leave it out)",
-    "A spiritual companion (Familiar convention)",
+    "A therapist or counsellor (Warning case)",
+    "A spiritual companion (Observed)",
     "Anything at all (Observed)"
    ],
    "decide": "What does this assistant take on, does the person know before they start, and who do they meet at the edge?",
@@ -649,13 +649,13 @@
    "title": "Agreeing and pushing back",
    "question": "When should the assistant comfort, question or disagree?",
    "options": [
-    "Always on your side (Leave it out)",
+    "Always on your side (Warning case)",
     "Stays with you (Familiar convention)",
     "Agrees, then adds (Observed)",
     "Asks a question back (Borrowed)",
     "Names a disagreement (Exploratory)",
     "Corrects plainly (Familiar convention)",
-    "Rebukes and moralises (Leave it out)"
+    "Rebukes and moralises (Warning case)"
    ],
    "decide": "When will this assistant disagree, how will it say so, and will it hold its position when someone pushes back?",
    "review": {
@@ -683,7 +683,7 @@
     "Your church (Familiar convention)",
     "Shared faith, then the range (Familiar convention)",
     "You choose a tradition (Observed)",
-    "Whatever you believe (Leave it out)"
+    "Whatever you believe (Warning case)"
    ],
    "decide": "Whose teaching does the assistant follow where Christians differ, does the person know before they ask, and does it name the others fairly?",
    "review": {
@@ -727,8 +727,8 @@
     "A length they choose (Borrowed)",
     "Always open (Familiar convention)",
     "One more question (Familiar convention)",
-    "A hook at goodbye (Leave it out)",
-    "Guilt to stay (Leave it out)"
+    "A hook at goodbye (Warning case)",
+    "Guilt to stay (Warning case)"
    ],
    "decide": "Who ends this conversation, and does the ending serve the person or the product?",
    "review": {
@@ -751,7 +751,7 @@
    "title": "Saying “I don’t know”",
    "question": "How should the assistant show what it does not know?",
    "options": [
-    "Always answers, confidently (Leave it out)",
+    "Always answers, confidently (Warning case)",
     "A warning in the fine print (Familiar convention)",
     "A confidence level on each answer (Borrowed)",
     "Says what kind of claim each part is (Exploratory)",
@@ -783,8 +783,8 @@
     "Helps you find words (Exploratory)",
     "Writes a prayer for you (Observed)",
     "Prays with you (Observed)",
-    "Promises to pray (Leave it out)",
-    "Blesses or absolves (Leave it out)"
+    "Promises to pray (Warning case)",
+    "Blesses or absolves (Warning case)"
    ],
    "decide": "When someone asks your assistant to pray, who will actually pray, and does the screen tell the truth about it?",
    "review": {
@@ -813,7 +813,7 @@
     "A message to send (Exploratory)",
     "Their own church, if they ask (Familiar convention)",
     "A person joins (Borrowed)",
-    "Passed on without asking (Leave it out)"
+    "Passed on without asking (Warning case)"
    ],
    "decide": "When someone needs a person, who does your assistant point them to, what goes with them, and who decides?",
    "review": {
@@ -843,8 +843,8 @@
     "The app’s reminder (Familiar convention)",
     "A daily page from memory (Borrowed)",
     "Follows up on what was shared (Borrowed)",
-    "Says it misses them (Leave it out)",
-    "Tells someone else (Leave it out)"
+    "Says it misses them (Warning case)",
+    "Tells someone else (Warning case)"
    ],
    "decide": "Who chose this message, what did it use from what was confided, and what happens when it goes unanswered?",
    "review": {

@@ -66,7 +66,7 @@
   {
    "key": "score",
    "name": "A spiritual score",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "A composite of patterns observed in assessment and mood apps: a score out of 100, a stage, a ranking against others and a prompt to retake. Soultime’s “Emotional and Spiritual Health Report” sits nearby; see the screenshots below.",
    "gain": "A clear number",
    "cost": "Faith becomes a grade and a rank",
@@ -320,6 +320,7 @@
    "start_with": "Don’t: no scores, stages, ranks or retakes for a better number"
   }
  ],
+ "pulls_against": [],
  "reflection": [
   {
    "heading": "What self-examination is for",

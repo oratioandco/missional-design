@@ -78,7 +78,7 @@
   {
    "key": "profile",
    "name": "A profile it keeps",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "A warning case. Apps ask about denomination, “season of life” and “what you are wrestling with” at onboarding, and HelloBible asks consent to use what people share “about my faith to personalize my answers”; what is inferred and kept was not tested. In research, “User memory profiles are associated with the largest increases in agreement sycophancy”. The profile and replies here are written for this example.",
    "gain": "Feels personal",
    "cost": "Sorts people, flatters them",
@@ -346,6 +346,45 @@
   {
    "if": "You are tempted to infer and keep faith stage or tradition",
    "start_with": "Don’t: ask, show and forget instead"
+  }
+ ],
+ "pulls_against": [
+  {
+   "id": "meeting-and-truth",
+   "title": "Meeting someone where they are, and telling them the truth",
+   "options_here": [
+    "Preferences you set",
+    "Assumed, and shown"
+   ],
+   "with": {
+    "slug": "agreeing-and-pushing-back",
+    "title": "Agreeing and pushing back",
+    "url": "https://missional.design/patterns/agreeing-and-pushing-back/",
+    "options": [
+     "Names a disagreement",
+     "Asks a question back"
+    ]
+   },
+   "pull": "Every way of adapting to the person also makes it easier to tell them what they want to hear.",
+   "hold": "Adapt the way in, and keep the message. Ask the same question with and without what the assistant knows about the person: if the substance changes, it has started agreeing. A stored preference to hear no hard words never switches off honest disagreement."
+  },
+  {
+   "id": "common-word-and-personal",
+   "title": "The common word, and a word for you",
+   "options_here": [
+    "The same for everyone",
+    "Reads the message"
+   ],
+   "with": {
+    "slug": "reading-plans",
+    "title": "Reading plans",
+    "url": "https://missional.design/patterns/reading-plans/",
+    "options": [
+     "Daily readings"
+    ]
+   },
+   "pull": "Shared readings form a community, but a reply written for everyone can assume agreement and lose the sceptic.",
+   "hold": "Keep the passage everyone reads, and adapt only the way in: the length, the language and the question it starts from. Change the manner, never the message."
   }
  ],
  "reflection": [

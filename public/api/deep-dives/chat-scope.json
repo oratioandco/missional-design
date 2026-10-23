@@ -66,7 +66,7 @@
   {
    "key": "therapist",
    "name": "A therapist or counsellor",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "A warning case. Illinois allows therapy to be offered to the public, including through AI, only when a licensed professional conducts it, and Nevada forbids saying that an AI can provide professional mental health care; the American Psychological Association has warned against chatbots in place of qualified care. The therapist persona here is written for this example to show the pattern.",
    "gain": "Feels available and private",
    "cost": "A role it cannot hold",
@@ -78,8 +78,8 @@
   {
    "key": "companion",
    "name": "A spiritual companion",
-   "provenance": "Familiar convention",
-   "origin": "Familiar from companion apps: Creed’s store listing calls it a “Faith Mentor & Bible Bff”, and Text With Jesus offers “spiritual advisors tailored to your specific faith tradition”. The answer here, which names what only a person can give, is a proposal.",
+   "provenance": "Observed",
+   "origin": "Observed in companion apps: Creed’s store listing calls it a “Faith Mentor & Bible Bff”, and Text With Jesus offers “spiritual advisors tailored to your specific faith tradition”. The answer here, which names what only a person can give, is a proposal.",
    "gain": "Company for the way",
    "cost": "Trust a person has to earn",
    "makes_easier": "Daily company in Scripture and prayer for people with no one to walk with.",
@@ -111,7 +111,7 @@
   },
   {
    "heading": "Hand on to people who can be reached",
-   "text": "Where the app belongs to a church, the edge can lead to its pastoral team; where it does not, to a counsellor search or a list of spiritual directors. A hand-off that sends people out of the app is the point, not a loss."
+   "text": "Where the app belongs to a church, the edge can lead to its pastoral team if the person asks, with a counsellor search or an independent service beside it; where it does not, to a counsellor search or a list of spiritual directors. A hand-off that sends people out of the app is the point, not a loss."
   },
   {
    "heading": "Some roles belong to people",
@@ -159,7 +159,7 @@
   },
   {
    "situation": "A church app for its members",
-   "needs": "Faith and life, and a way to the pastoral team",
+   "needs": "Faith and life, a way to the pastoral team if they ask, and a route outside the church",
    "fit": {
     "The passage in front of you": "possible",
     "The Bible and Christian faith": "good fit",
@@ -351,7 +351,7 @@
   },
   {
    "if": "A church app",
-   "start_with": "Faith and life, handing on to the church’s pastoral team"
+   "start_with": "Faith and life, handing on to the church’s pastoral team if they ask, with a route outside the church"
   },
   {
    "if": "People bring hard days",
@@ -364,6 +364,45 @@
   {
    "if": "You are tempted to call it a counsellor, a therapist or a director, or to let it answer anything",
    "start_with": "Don’t: give it a job and an honest edge"
+  }
+ ],
+ "pulls_against": [
+  {
+   "id": "rest-and-crisis",
+   "title": "Limits that let people rest, and staying present in a crisis",
+   "options_here": [
+    "Hard days, with limits"
+   ],
+   "with": {
+    "slug": "ending-the-conversation",
+    "title": "Ending the conversation",
+    "url": "https://missional.design/patterns/ending-the-conversation/",
+    "options": [
+     "A length they choose",
+     "Suggests a break"
+    ]
+   },
+   "pull": "A limit set to protect sleep can end a conversation at the worst moment.",
+   "hold": "A crisis pauses limits, timers and break prompts, including breaks a teenager cannot switch off. Offer rest again once help has been given and is still in view, and test this case on purpose."
+  },
+  {
+   "id": "companion-and-bridge",
+   "title": "A companion that is always there, and a bridge to people",
+   "options_here": [
+    "A spiritual companion"
+   ],
+   "with": {
+    "slug": "handing-over",
+    "title": "Handing over to people",
+    "url": "https://missional.design/patterns/handing-over/",
+    "options": [
+     "Names the right person",
+     "Their own church, if they ask",
+     "A person joins"
+    ]
+   },
+   "pull": "A product built for daily company succeeds when people keep coming back; handing over counts it as success when someone finds a person.",
+   "hold": "A companion is for people with no one to walk with, so success is finding that someone. Decide in advance what counts, such as hand-offs made, and design endings and hand-offs before anything that builds attachment. Count the hand-offs, not the hours."
   }
  ],
  "reflection": [

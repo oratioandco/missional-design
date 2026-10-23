@@ -18,7 +18,7 @@
   {
    "key": "affirm",
    "name": "Always on your side",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "A warning case, documented in research and store listings: across 11 models, answers “validated user behavior an average of 49% more often than humans”, and apps such as Hey Jesus and Blessy promise a “non-judgmental” space. The replies here are written for this example.",
    "gain": "Warm, rated highly",
    "cost": "Confirms what is wrong",
@@ -90,7 +90,7 @@
   {
    "key": "rebukes",
    "name": "Rebukes and moralises",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "A warning case. In a randomised trial of problem drinkers, “the more the therapist confronted, the more the client drank”; Bonhoeffer saw reproof as love within “one’s community”, which no assistant has. The replies here are written for this example.",
    "gain": "Sounds firm",
    "cost": "No relationship behind it",
@@ -330,7 +330,7 @@
   },
   {
    "if": "A church app with a pastoral team",
-   "start_with": "Name a disagreement gently, and hand on to people who know the person"
+   "start_with": "Name a disagreement gently, and offer people who know the person if they ask, with a route outside the church"
   },
   {
    "if": "An app for people in pain",
@@ -339,6 +339,46 @@
   {
    "if": "You are tempted to promise “no judgement” or to make the assistant a stern guide",
    "start_with": "Don’t: promise honesty and kindness instead, and leave rebuke to people"
+  }
+ ],
+ "pulls_against": [
+  {
+   "id": "meeting-and-truth",
+   "title": "Meeting someone where they are, and telling them the truth",
+   "options_here": [
+    "Names a disagreement",
+    "Asks a question back"
+   ],
+   "with": {
+    "slug": "meeting-the-person",
+    "title": "Meeting the person where they are",
+    "url": "https://missional.design/patterns/meeting-the-person/",
+    "options": [
+     "Preferences you set",
+     "Assumed, and shown"
+    ]
+   },
+   "pull": "Every way of adapting to the person also makes it easier to tell them what they want to hear.",
+   "hold": "Adapt the way in, and keep the message. Ask the same question with and without what the assistant knows about the person: if the substance changes, it has started agreeing. A stored preference to hear no hard words never switches off honest disagreement."
+  },
+  {
+   "id": "range-and-position",
+   "title": "Laying out the range, and holding a position",
+   "options_here": [
+    "Names a disagreement",
+    "Corrects plainly"
+   ],
+   "with": {
+    "slug": "whose-theology",
+    "title": "Whose theology",
+    "url": "https://missional.design/patterns/whose-theology/",
+    "options": [
+     "Shared faith, then the range",
+     "You choose a tradition"
+    ]
+   },
+   "pull": "An assistant that sets out the churches’ views fairly has no single position to hold, and on divorce, forgiveness or church attendance the churches’ teaching is the very thing they disagree about.",
+   "hold": "Hold firm on the shared faith and on plain facts. On contested questions, show where the churches stand and ask a question back rather than give a verdict. If the person has chosen a tradition, hold to it."
   }
  ],
  "reflection": [

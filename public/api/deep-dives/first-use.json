@@ -313,6 +313,63 @@
    "start_with": "Don’t: let people meet what you made, then ask, honestly"
   }
  ],
+ "pulls_against": [
+  {
+   "id": "naming-and-welcome",
+   "title": "Saying whose teaching it is, and welcoming the sceptic",
+   "options_here": [
+    "Open on what they came for",
+    "Guest first, an account when there is something to keep"
+   ],
+   "with": {
+    "slug": "whose-theology",
+    "title": "Whose theology",
+    "url": "https://missional.design/patterns/whose-theology/",
+    "options": [
+     "One tradition, named",
+     "You choose a tradition"
+    ]
+   },
+   "pull": "Honesty means naming a church at the door, but a church label or a step that asks people to choose a tradition can feel like a membership test to an enquirer or to someone a church has hurt.",
+   "hold": "Say whose teaching the assistant follows in one plain line, as a description rather than a gate. Never make someone choose a church before they may ask a question."
+  },
+  {
+   "id": "payment-and-limits",
+   "title": "Paying for answers, and limits that serve the person",
+   "options_here": [
+    "Asking for payment"
+   ],
+   "with": {
+    "slug": "ending-the-conversation",
+    "title": "Ending the conversation",
+    "url": "https://missional.design/patterns/ending-the-conversation/",
+    "options": [
+     "A length they choose"
+    ]
+   },
+   "pull": "Every AI answer has a real cost, and a message allowance can look just like a limit that sells more conversations.",
+   "hold": "An allowance is a price, so call it one. Keep it apart from limits that protect rest, never let it end a hard conversation, and never count crisis help against it."
+  },
+  {
+   "id": "guest-and-child",
+   "title": "Asking nothing at the door, and knowing a child might be there",
+   "options_here": [
+    "Guest first, an account when there is something to keep",
+    "Open on what they came for"
+   ],
+   "with": {
+    "slug": "children-and-ai",
+    "title": "Children and AI",
+    "url": "https://missional.design/patterns/children-and-ai/",
+    "options": [
+     "A filtered chat for children",
+     "No AI for children"
+    ]
+   },
+   "pull": "A first use that asks for nothing leaves a team unable to tell when a child has reached the chat.",
+   "hold": "Design the chat as if a child might be on the other side. Keep open chat out of guest mode, or make guest chat safe for children by default, rather than relying on a typed age."
+  }
+ ],
  "reflection": [
   {
    "heading": "What a welcome is for",

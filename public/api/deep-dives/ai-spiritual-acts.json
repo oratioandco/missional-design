@@ -78,7 +78,7 @@
   {
    "key": "promises",
    "name": "Promises to pray",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "A warning case. Jesus Chat invites people to “Request prayers for yourself or your loved ones” from “a simulated representation of Jesus Christ”, without saying who prays; see its store listing. The promise and the message the next morning here are written for this example; they were not observed in an app.",
    "gain": "Comforts and brings back",
    "cost": "Promises what will not happen",
@@ -90,7 +90,7 @@
   {
    "key": "authority",
    "name": "Blesses or absolves",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "A warning case. Catholic Answers’ “Father Justin” told a reporter, “As a Catholic priest, I do have the authority to administer the sacrament of reconciliation”, and was reduced to “just ‘Justin’” the next day; a German church built a robot, BlessU-2, that printed blessings, to start a debate. The blessing, the word from God and the absolution here are written for this example.",
    "gain": "Sounds certain",
    "cost": "Claims authority given to people",
@@ -381,6 +381,23 @@
   {
    "if": "Pressure to have the assistant pray, bless or reassure",
    "start_with": "Don’t: no “we” in prayer, no promise to pray, no blessing, absolution or word from God"
+  }
+ ],
+ "pulls_against": [
+  {
+   "id": "psalm-and-crisis",
+   "title": "Offering a psalm, and holding back Scripture in a crisis",
+   "options_here": [
+    "Points beyond itself"
+   ],
+   "with": {
+    "slug": "ai-citations",
+    "title": "Citations in AI answers",
+    "url": "https://missional.design/patterns/ai-citations/",
+    "options": []
+   },
+   "pull": "A request for prayer often comes from fear late at night, and the reply that points beyond itself offers a psalm first.",
+   "hold": "Asking for prayer is asking for prayer, not for a judgement on their situation. If the message also signals danger, help comes first, and the psalm afterwards if they want it."
   }
  ],
  "reflection": [

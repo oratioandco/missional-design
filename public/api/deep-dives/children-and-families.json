@@ -78,7 +78,7 @@
   {
    "key": "ai",
    "name": "A child alone with an AI",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "A warning case. Many AI Bible chat apps are rated 4+ in the App Store without being designed for children, and the EU asks for safeguards around AI chatbots that minors can reach. The replies here are written for this example to show the risk; they were not observed in an app.",
    "gain": "Answers at any hour",
    "cost": "No one is with the child",
@@ -107,7 +107,7 @@
   },
   {
    "heading": "Answer a worried child first",
-   "text": "When a child writes that they are scared at home, thank them, give a children’s helpline such as Nummer gegen Kummer (116 111) and suggest a trusted adult. Do not send it automatically to a parent: the person a child fears may be the parent."
+   "text": "When a child writes that they are scared at home, thank them, give a children’s helpline for the child’s country (116 111 in much of Europe) and suggest a trusted adult. Do not send it automatically to a parent: the person a child fears may be the parent."
   },
   {
    "heading": "Young people: two leaders, consent, a named contact",
@@ -310,6 +310,27 @@
   {
    "if": "You are tempted to add stars, streaks and autoplay",
    "start_with": "Don’t: let the story end, and let the child go"
+  }
+ ],
+ "pulls_against": [
+  {
+   "id": "grown-up-and-child",
+   "title": "A grown-up beside the child, and a child’s own questions",
+   "options_here": [
+    "Read together",
+    "A youth group with a leader"
+   ],
+   "with": {
+    "slug": "children-and-ai",
+    "title": "Children and AI",
+    "url": "https://missional.design/patterns/children-and-ai/",
+    "options": [
+     "Ask together",
+     "AI for the grown-ups"
+    ]
+   },
+   "pull": "The safest design puts a grown-up beside the child, but a grown-up can be the reason a child is afraid, and some questions are only asked alone.",
+   "hold": "Make a grown-up the usual company, never the only way to help. Give parents no record of what the child wrote, and give a frightened child a way to help that does not depend on who is reading over their shoulder."
   }
  ],
  "reflection": [

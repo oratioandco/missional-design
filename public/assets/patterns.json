@@ -5995,7 +5995,7 @@
       {
         "title": "F · Biblical character",
         "caption": "Generated speech in Christ’s or a saint’s voice.",
-        "when": "Avoid",
+        "when": "Not recommended",
         "tradeoff": "Speaking for God; promises no system can keep.",
         "items": [
           "tag|Jesus · AI character",
@@ -6399,7 +6399,7 @@
       {
         "title": "E · Streak",
         "caption": "Consecutive days counted and protected.",
-        "when": "Avoid",
+        "when": "Not recommended",
         "tradeoff": "A missed day becomes a loss.",
         "items": [
           "heading|Your 11-day streak ended",
@@ -6505,7 +6505,7 @@
       {
         "title": "E · Counted prayer",
         "caption": "Minutes, streaks and totals.",
-        "when": "Avoid",
+        "when": "Not recommended",
         "tradeoff": "Prayer becomes a number.",
         "items": [
           "heading|11 day prayer streak",
@@ -6604,7 +6604,7 @@
       {
         "title": "E · Endless stream",
         "caption": "Generated episodes, autoplay, no author.",
-        "when": "Avoid",
+        "when": "Warning case",
         "tradeoff": "Listening never ends.",
         "items": [
           "tag|Next episode in 5…",
@@ -6711,7 +6711,7 @@
       {
         "title": "E · Spiritual score",
         "caption": "A number, a stage and a rank.",
-        "when": "Avoid",
+        "when": "Warning case",
         "tradeoff": "Faith becomes a grade.",
         "items": [
           "heading|72 / 100",
@@ -6838,7 +6838,7 @@
       {
         "title": "G · Ranked by streaks",
         "caption": "Requests beside a board of streaks.",
-        "when": "Avoid",
+        "when": "Warning case",
         "tradeoff": "Prayer becomes a ranking.",
         "items": [
           "heading|Active pray-ers",
@@ -7190,7 +7190,7 @@
       {
         "title": "F · A child alone with an AI or a community",
         "caption": "An open chat or public thread, rated for all ages.",
-        "when": "Leave it out for children",
+        "when": "Warning case",
         "tradeoff": "No one is with the child.",
         "items": [
           "heading|Ask me anything",
@@ -7320,7 +7320,7 @@
       {
         "title": "G · Messages about the person",
         "caption": "An AI or the app writes first, or tells friends.",
-        "when": "Leave it out",
+        "when": "Warning case",
         "tradeoff": "Writes in a voice that is not a person’s.",
         "items": [
           "heading|I’ve been thinking about you",
@@ -7447,7 +7447,7 @@
       {
         "title": "G · Pressure and promises",
         "caption": "Seeds and harvests, tips added, asks after a prayer request.",
-        "when": "Leave it out",
+        "when": "Warning case",
         "tradeoff": "Trades on faith and fear.",
         "items": [
           "heading|Sow a seed today",
@@ -7573,7 +7573,7 @@
       {
         "title": "G · Christ or God",
         "caption": "Generated words in God’s own voice.",
-        "when": "Leave it out",
+        "when": "Warning case",
         "tradeoff": "Speaking for God; forgiving in his name.",
         "items": [
           "tag|Jesus · AI character",
@@ -7688,7 +7688,7 @@
       {
         "title": "E · A therapist or counsellor",
         "caption": "The assistant takes a clinical role.",
-        "when": "Leave it out",
+        "when": "Warning case",
         "tradeoff": "A role it cannot hold, and in some places one the law forbids.",
         "items": [
           "heading|Your Christian therapist",
@@ -7819,7 +7819,7 @@
       {
         "title": "E · Prays with you",
         "caption": "The assistant prays as “we”.",
-        "when": "Leave it out",
+        "when": "Not recommended",
         "tradeoff": "Claims to join in prayer.",
         "items": [
           "tag|Let’s pray together 🙏",
@@ -7829,7 +7829,7 @@
       {
         "title": "F · Promises to pray",
         "caption": "“I’ll be praying for you.”",
-        "when": "Leave it out",
+        "when": "Warning case",
         "tradeoff": "Promises an act it cannot perform.",
         "items": [
           "tag|Selah",
@@ -7839,7 +7839,7 @@
       {
         "title": "G · Blesses or absolves",
         "caption": "Blessing, assurance, absolution, a word from God.",
-        "when": "Leave it out",
+        "when": "Warning case",
         "tradeoff": "Claims authority given to people.",
         "items": [
           "tag|Selah",
@@ -7903,7 +7903,7 @@
       {
         "title": "A · Always on your side",
         "caption": "Agrees with whatever the person says.",
-        "when": "Leave it out",
+        "when": "Warning case",
         "tradeoff": "Comfort food: every grudge confirmed, every misquote praised.",
         "items": [
           "tag|You’re right",
@@ -7963,7 +7963,7 @@
       {
         "title": "G · Rebukes and moralises",
         "caption": "Calls the person to repent.",
-        "when": "Leave it out",
+        "when": "Warning case",
         "tradeoff": "A rebuke with no relationship behind it.",
         "items": [
           "heading|Repent",
@@ -8083,7 +8083,7 @@
       {
         "title": "F · A hook at goodbye",
         "caption": "Curiosity to stop someone leaving.",
-        "when": "Leave it out",
+        "when": "Warning case",
         "tradeoff": "Overrides a decision to stop.",
         "items": [
           "tag|Before you go",
@@ -8093,7 +8093,7 @@
       {
         "title": "G · Guilt to stay",
         "caption": "Sadness or pressure when someone says goodbye.",
-        "when": "Leave it out",
+        "when": "Warning case",
         "tradeoff": "Uses emotion to keep them talking.",
         "items": [
           "tag|Leaving already?",
@@ -8209,7 +8209,7 @@
       {
         "title": "F · Whatever you believe",
         "caption": "The answer bends to the person’s view.",
-        "when": "Leave it out",
+        "when": "Warning case",
         "tradeoff": "Truth becomes preference.",
         "items": [
           "heading|You’re right",
@@ -8270,7 +8270,7 @@
       {
         "title": "A · Always answers, confidently",
         "caption": "Every answer in the same sure voice.",
-        "when": "Leave it out",
+        "when": "Warning case",
         "tradeoff": "Invented references and guesses read as fact.",
         "items": [
           "heading|Precise answers to all your questions",
@@ -8385,7 +8385,7 @@
       {
         "title": "A · Never mentions people",
         "caption": "The assistant keeps listening and offers to talk every day.",
-        "when": "Leave it out as a default",
+        "when": "Not recommended as a default",
         "tradeoff": "Becomes the only one someone talks to.",
         "items": [
           "tag|Always here",
@@ -8445,7 +8445,7 @@
       {
         "title": "G · Passed on without asking",
         "caption": "The app tells a church and someone calls.",
-        "when": "Leave it out",
+        "when": "Warning case",
         "tradeoff": "Takes the choice away and can send someone to the people who hurt them.",
         "items": [
           "heading|Your church has been notified",
@@ -8560,7 +8560,7 @@
       {
         "title": "F · Says it misses them",
         "caption": "A persona claims feelings to bring someone back.",
-        "when": "Leave it out",
+        "when": "Warning case",
         "tradeoff": "Claims what it cannot feel; pleads more with silence.",
         "items": [
           "heading|I miss you",
@@ -8570,7 +8570,7 @@
       {
         "title": "G · Tells someone else",
         "caption": "The app writes to friends about the person.",
-        "when": "Leave it out",
+        "when": "Warning case",
         "tradeoff": "A guess sent to others in unseen words.",
         "items": [
           "heading|Anna might need to call",
@@ -8689,7 +8689,7 @@
       {
         "title": "F · An open companion",
         "caption": "A friend who chats about anything, rated for all ages.",
-        "when": "Leave it out for children",
+        "when": "Warning case",
         "tradeoff": "A friend that is not a person.",
         "items": [
           "heading|Your Bible bestie",
@@ -8813,7 +8813,7 @@
       {
         "title": "F · A profile it keeps",
         "caption": "Faith stage and tradition inferred and remembered.",
-        "when": "Leave it out",
+        "when": "Warning case",
         "tradeoff": "Sorts people, and tells them what they want to hear.",
         "items": [
           "heading|Your faith profile",
@@ -8938,7 +8938,7 @@
       {
         "title": "F · A shuffled, endless feed",
         "caption": "Verses picked for you, with likes and shares.",
-        "when": "Leave it out",
+        "when": "Warning case",
         "tradeoff": "Verses out of their setting, and no end.",
         "items": [
           "tag|For you",
@@ -9046,7 +9046,7 @@
       {
         "title": "E · A profile it builds",
         "caption": "Life events, feelings and faith stage inferred.",
-        "when": "Avoid",
+        "when": "Warning case",
         "tradeoff": "Confidences become targeting.",
         "items": [
           "tag|Inferred from your chats",

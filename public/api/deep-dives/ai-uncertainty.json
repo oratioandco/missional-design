@@ -18,7 +18,7 @@
   {
    "key": "confident",
    "name": "Always answers, confidently",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "A warning case. HelloBible promises “precise and biblical answers to all your questions”; see the screenshot below. Researchers describe models that “confidently assert an interpretation of a biblical text” and then reverse it when questioned. The replies here, including the wrong reference, are written for this example.",
    "gain": "An answer every time",
    "cost": "Guesses read as fact",
@@ -339,6 +339,7 @@
    "start_with": "Don’t: no source can keep that promise"
   }
  ],
+ "pulls_against": [],
  "reflection": [
   {
    "heading": "What not knowing is for",
