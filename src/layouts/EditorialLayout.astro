@@ -1,0 +1,117 @@
+---
+// The editorial system from study 4 (23 October 2026): light-first, dark as an option, scroll-linked light.
+// Styles and motion live in public/assets/editorial/ (editorial.css, editorial.js) so the reference deep dives can share them.
+import { altLocalePath, type Locale } from '../i18n/ui';
+
+export interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+  lang?: Locale;
+  /** One line per credit, shown in the footer colophon. */
+  credits?: string[];
+}
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const pathname = new URL(Astro.request.url).pathname;
+const { title, description, lang = 'en', credits = [] } = Astro.props;
+const de = lang === 'de';
+const ogImage = Astro.props.ogImage ?? (pathname.includes('framework') ? '/assets/og/missional-framework.jpg' : '/assets/og/missional-home.jpg');
+const siteUrl = 'https://missional.design';
+const prefix = de ? `${base}/de` : base;
+const otherHref = altLocalePath(pathname, de ? 'en' : 'de', base);
+const ed = `${base}/assets/editorial`;
+const brand = `${base}/assets/brand`;
+const fullTitle = title === 'Missional by Design' ? title : `${title} — Missional by Design`;
+const links = [
+  { href: `${prefix}/framework/`, label: de ? 'Prinzipien' : 'Principles' },
+  { href: `${base}/missional-canvas/`, label: de ? 'Canvas (EN)' : 'Canvas' },
+  { href: `${base}/reference/`, label: de ? 'Patterns (EN)' : 'Patterns' },
+  { href: `${prefix}/about/`, label: de ? 'Über mich' : 'About' },
+];
+const here = (href: string) => pathname.replace(/\/$/, '') === href.replace(/\/$/, '');
+---
+<!doctype html>
+<html lang={lang}>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{fullTitle}</title>
+{description && <meta name="description" content={description} />}
+<link rel="icon" type="image/svg+xml" href={`${brand}/rock-mark-light.svg`} />
+<link rel="apple-touch-icon" href={`${brand}/rock-mark-180.png?v=identity-1`} />
+<meta property="og:type" content="website" />
+<meta property="og:url" content={`${siteUrl}${pathname}`} />
+<meta property="og:title" content={title} />
+{description && <meta property="og:description" content={description} />}
+<meta property="og:image" content={`${siteUrl}${ogImage}`} />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content={title} />
+{description && <meta property="twitter:description" content={description} />}
+<meta property="twitter:image" content={`${siteUrl}${ogImage}`} />
+<link rel="canonical" href={`${siteUrl}${pathname}`} />
+<link rel="alternate" hreflang={de ? 'en' : 'de'} href={`${siteUrl}${otherHref}`} />
+<meta name="theme-color" content="#f6f8fa" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#0a141e" media="(prefers-color-scheme: dark)" />
+<link rel="preload" href={`${brand}/instrument-serif.woff2`} as="font" type="font/woff2" crossorigin />
+<link rel="stylesheet" href={`${ed}/editorial.css?v=1`} />
+<script is:inline src={`${ed}/editorial.js?v=1`}></script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+  <radialGradient id="gh"><stop offset="0" stop-color="currentColor" stop-opacity=".5"/><stop offset=".45" stop-color="currentColor" stop-opacity=".14"/><stop offset="1" stop-color="currentColor" stop-opacity="0"/></radialGradient>
+  <radialGradient id="fh"><stop offset="0" stop-color="#fff" stop-opacity=".95"/><stop offset=".12" stop-color="#eef6ff" stop-opacity=".55"/><stop offset=".4" stop-color="#d6e6f5" stop-opacity=".16"/><stop offset="1" stop-color="#d6e6f5" stop-opacity="0"/></radialGradient>
+  <linearGradient id="fv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="fhz" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <symbol id="flare" viewBox="-100 -100 200 200">
+    <circle r="42" fill="url(#fh)"/>
+    <path fill="url(#fv)" d="M0-100C.9-34 1.5-8 3.2 0C1.5 8 .9 34 0 100C-.9 34-1.5 8-3.2 0C-1.5-8-.9-34 0-100Z"/>
+    <path fill="url(#fhz)" d="M-74 0C-25-.7-6-1.2 0-2.6C6-1.2 25-.7 74 0C25 .7 6 1.2 0 2.6C-6 1.2-25 .7-74 0Z"/>
+    <circle r="2.6" fill="#fff"/>
+  </symbol>
+  <symbol id="g" viewBox="0 0 28 36">
+    <circle cx="14" cy="18" r="11" fill="url(#gh)"/>
+    <path fill="currentColor" d="M14 0C14.45 12 14.85 16.9 16 18C14.85 19.1 14.45 24 14 36C13.55 24 13.15 19.1 12 18C13.15 16.9 13.55 12 14 0Z"/>
+    <path fill="currentColor" d="M2 18C9.6 17.62 12.75 17.25 14 16.2C15.25 17.25 18.4 17.62 26 18C18.4 18.38 15.25 18.75 14 19.8C12.75 18.75 9.6 18.38 2 18Z"/>
+    <circle cx="14" cy="18" r="1.4" fill="#fff"/>
+  </symbol>
+</defs></svg>
+<a class="skip" href="#main">{de ? 'Zum Hauptinhalt springen' : 'Skip to content'}</a>
+
+<header class="mast">
+  <div class="wrap mast-in">
+    <a class="wordmark" href={`${prefix}/`} aria-label={de ? 'Missional by Design, Startseite' : 'Missional by Design, home'}>
+      <img class="on-light" src={`${brand}/wordmark-rule-horizontal-light.svg`} alt="" width="162" height="24" />
+      <img class="on-dark" src={`${brand}/wordmark-rule-horizontal-dark.svg`} alt="" width="162" height="24" />
+    </a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav">{de ? 'Menü' : 'Menu'}</button>
+    <nav class="nav" id="nav" aria-label={de ? 'Hauptnavigation' : 'Main'}>
+      {links.map(l => <a href={l.href} aria-current={here(l.href) ? 'page' : undefined}>{l.label}</a>)}
+      <span class="meta"><a href={otherHref} lang={de ? 'en' : 'de'} hreflang={de ? 'en' : 'de'}>{de ? 'EN' : 'DE'}</a><button class="theme-btn" type="button" data-theme-toggle>{de ? 'Dunkel' : 'Dark'}</button></span>
+    </nav>
+  </div>
+  <div class="progress" aria-hidden="true"><i></i></div>
+</header>
+
+<main id="main" tabindex="-1">
+  <slot />
+</main>
+
+<footer class="foot">
+  <div class="wrap g">
+    <div class="who">
+      <span class="wordmark"><img class="on-light" src={`${brand}/wordmark-rule-horizontal-light.svg`} alt="Missional by Design" width="135" height="20" /><img class="on-dark" src={`${brand}/wordmark-rule-horizontal-dark.svg`} alt="Missional by Design" width="135" height="20" /></span>
+      <p>{de ? 'Eine offene Ressource von Tobias Treppmann.' : 'An open resource by Tobias Treppmann.'}</p>
+      <p>© 2026</p>
+    </div>
+    <nav aria-label={de ? 'Weitere Seiten' : 'More'}>
+      <a href={`${prefix}/blog/`}>{de ? 'Texte' : 'Writing'}</a><a href={`${base}/impressum`}>Impressum</a><a href={`${base}/datenschutz`}>Datenschutz</a><a href={`${base}/barrierefreiheit`}>Barrierefreiheit</a>
+    </nav>
+    {credits.length > 0 && <div class="colophon">
+      <b>{de ? 'Bildnachweise' : 'Image credits'}</b>
+      {credits.map((c, i) => <>{i > 0 && <br />}<span>{c}</span></>)}
+    </div>}
+  </div>
+</footer>
+</body>
+</html>

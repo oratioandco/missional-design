@@ -1,0 +1,214 @@
+---
+// Home page in the editorial system (study 4, 23 October 2026). Copy is the live site's, from the earlier
+// ReflectedHome, HomeDecisions and StartRoutes, and /calling/rocks/; German follows the existing German copy.
+interface Props { lang: 'en' | 'de' }
+const { lang } = Astro.props;
+const de = lang === 'de';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const prefix = de ? `${base}/de` : base;
+const ed = `${base}/assets/editorial`;
+const still = (name: string) => ({ light: `${ed}/stills/${name}.jpg`, dark: `${ed}/stills/${name}-dark.jpg` });
+const areas = de ? ['Das Wort', 'Der Mensch', 'Die Praxis', 'Die Gemeinschaft', 'Die Machenden'] : ['The Word', 'The person', 'The practice', 'The people', 'The makers'];
+---
+<!-- 1 · Opening: the central question over the window-lit room (light on the right) -->
+<section class="open wrap" aria-labelledby="title">
+  <div class="g">
+    <p class="kicker rv">{de ? 'Eine offene Ressource für christliche Technologie- und Gemeindeverantwortliche' : 'An open resource for Christian technologists and ministry leaders'}</p>
+    <h1 id="title" class="display">{de
+      ? <>Was ist wirklich die gute&nbsp;Nachricht <em>in unserem <span class="nw">Kontext?<span class="glint" aria-hidden="true"><svg><use href="#g"/></svg></span></span></em></>
+      : <>What really is the good&nbsp;news <em>in our <span class="nw">context?<span class="glint" aria-hidden="true"><svg><use href="#g"/></svg></span></span></em></>}</h1>
+    <div class="deck lead rv d1">
+      <p>{de ? 'Christliche Reflexion und praktische Werkzeuge für einen sich wandelnden Kontext.' : 'Christian reflection and practical tools for a changing context.'}</p>
+    </div>
+    <div class="hero-note rv d2">
+      <p>{de ? 'Prinzipien, ein missionaler Canvas und Gestaltungsoptionen für Bibel- und Glaubensprodukte.' : 'Principles, a missional canvas and design options for Bible and faith products.'}</p>
+      <a class="go" href="#ways">{de ? 'Einen Einstieg finden' : 'Find your starting point'}</a>
+    </div>
+  </div>
+  <figure class="hero-ground" aria-hidden="true">
+    <img class="room on-light" src={`${ed}/img/hero-window-light.webp`} width="1110" height="836" alt="" fetchpriority="high" />
+    <img class="room on-dark" src={`${ed}/img/hero-window-dark.webp`} width="1110" height="836" alt="" />
+  </figure>
+</section>
+
+<!-- 2 · The rock: light moves across the specimen's facets as you scroll, and the line lights word by word -->
+<section class="lit rock" id="rock" aria-labelledby="rock-title">
+  <div class="lit-stage">
+    <div class="wrap g rock-g">
+      <div class="rock-copy">
+        <p class="kicker">{de ? 'Wenn Silizium das Licht einfängt' : 'When silicon catches the light'}</p>
+        {de
+          ? <h2 id="rock-title" class="statement" data-light-words data-w0="4" data-span="44">Wir machen die Felsen nicht, und das Licht gehört nicht <em>uns.</em></h2>
+          : <h2 id="rock-title" class="statement" data-light-words data-w0="4" data-span="44">We do not make the rocks, and the light is not <em>ours.</em></h2>}
+        <div class="rock-more prose">
+          <p>{de ? 'Ein Stück Silizium fängt auf seiner gebrochenen Oberfläche das Licht ein. Das Licht kommt von außerhalb; das Material empfängt es und gibt es weiter.' : 'A piece of silicon catches the light across its fractured surface. The light comes from beyond it; the material receives it and sends it on.'}</p>
+          <p>{de
+            ? <>Was wir tun: Wir bauen auf den Felsen und mit ihnen, und wir gestalten, wie sie sich verhalten – was sie zuerst sagen, was sie ungesagt lassen, wann sie für einen Menschen zurücktreten. <cite>„Ich bin das Licht der Welt“ (Johannes 8,12)</cite></>
+            : <>What we do is build on the rocks and with them, and shape how they behave: what they say first, what they leave unsaid, when they step back for a person. <cite>“I am the light of the world” (John 8:12)</cite></>}</p>
+          <a class="go" href={`${base}/calling/rocks/`}>{de ? 'Die Metapher ausführlich (EN)' : 'The metaphor, in full'}</a>
+        </div>
+      </div>
+      <div class="stage">
+        <figure class="specimen" style="--gx:.538;--gy:.421" aria-label={de ? 'Ein gebrochenes Stück Silizium. Beim Scrollen wandert Licht über seine Facetten, und auf einer Fläche blitzt ein vierstrahliger Glanz auf.' : 'A fractured piece of silicon. As you scroll, light moves across its facets and a four-point glint flares on one face.'}>
+          <img class="u n" src={`${ed}/img/rock-unlit.webp`} width="780" height="796" alt="" />
+          <img class="u d" src={`${ed}/img/rock-unlit-cut.webp`} width="780" height="796" alt="" loading="lazy" />
+          <img class="l n" src={`${ed}/img/rock-lit.webp`} width="780" height="796" alt="" />
+          <img class="l d" src={`${ed}/img/rock-lit-cut.webp`} width="780" height="796" alt="" loading="lazy" />
+          <img class="f" src={`${ed}/img/rock-facets.png`} width="780" height="796" alt="" />
+          <img class="caus" src={`${ed}/img/caustics.png`} width="1200" height="520" alt="" />
+          <span class="flare" aria-hidden="true"><svg><use href="#flare"/></svg></span>
+        </figure>
+        <img class="spill" src={`${ed}/img/caustics.png`} width="1200" height="520" alt="" aria-hidden="true" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3 · The approach in practice: each case carries its own evidence -->
+<section class="practice wrap" id="in-practice" aria-labelledby="practice-title">
+  <div class="g practice-head">
+    <p class="kicker rv">{de ? 'Der Ansatz in der Praxis' : 'The approach in practice'}</p>
+    <h2 id="practice-title" class="h2 rv">{de ? 'Eine Frage, von der Nachbarschaft bis zum Bildschirm.' : 'One question, from a neighborhood to a screen.'}</h2>
+  </div>
+  <ol class="cases">
+    <li class="case case-film">
+      <div class="film-pin">
+        <hr class="sheen" aria-hidden="true" />
+        <div class="g">
+          <div class="case-text">
+            <h3 class="h3 rv">{de ? 'Eine Nachbarschaft verändert sich.' : 'A neighborhood changes around a church.'}</h3>
+            <div class="body rv d1"><p>{de ? 'Die Gemeinde bleibt am selben Ort. Die Menschen, Fragen und Lebensbedingungen verändern sich. Wieder zuhören, Annahmen prüfen und gemeinsam überlegen, wie die Gemeinde hier dienen kann.' : 'The church stays in place. The people, questions and circumstances change. Listen again, question assumptions and discern together how the church can serve here.'}</p></div>
+            <ol class="film-steps" aria-label={de ? 'Was der Film zeigt' : 'What the film shows'}>
+              {(de
+                ? ['In einem heruntergekommenen Eckhaus öffnet ein Café.', 'Das Haus wird saniert, später nutzen es Läden und Büros.', 'Die Kirche bleibt, während sich die Nachbarschaft verändert.']
+                : ['A café opens in a worn corner building.', 'The house is restored, then retail and offices change its use.', 'The church stays in place while its neighborhood changes.']).map(s => <li>{s}</li>)}
+            </ol>
+            <a class="go" href={`${base}/missional-canvas/`}>{de ? 'Den Kontext mit dem Canvas erkunden (EN)' : 'Explore your context with the canvas'}</a>
+          </div>
+          <figure class="film" data-frames={`${ed}/film/f`} data-count="120">
+            <img class="film-poster" src={`${ed}/film/poster.jpg`} width="960" height="540" alt={de ? 'Eine fiktive Straße: ein heruntergekommenes Eckhaus und eine Kirche, davor ein Stück Silizium im Licht.' : 'A fictional street: a worn corner building and a church, with a silicon specimen catching the light.'} />
+            <canvas width="800" height="450" aria-hidden="true"></canvas>
+            <button class="film-play" type="button" aria-pressed="false">{de ? 'Film abspielen ' : 'Play the film '}<span aria-hidden="true">{de ? '· 16 s, ohne Ton' : '· 16 s, silent'}</span></button>
+            <figcaption><span class="film-meter" aria-hidden="true"><i></i></span><span>{de ? 'Eine fiktive Nachbarschaft, über einige Jahre' : 'A fictional neighborhood, over some years'}</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </li>
+    <li class="case case-phones g">
+      <hr class="sheen" aria-hidden="true" />
+      <figure class="phones rv" lang="en" aria-label={de ? 'Zwei Optionen aus dem Arbeitsbeispiel zu Leseplänen (auf Englisch): eine Serie von 19 Tagen und eine Woche, die jeden Montag neu beginnt.' : 'Two options from the reading-plan working example: a 19-day streak, and a week that starts fresh each Monday.'}>
+        <div class="phone back"><img class="on-light" src={still('try-rhythm-streak').light} width="600" height="1169" alt="" loading="lazy" /><img class="on-dark" src={still('try-rhythm-streak').dark} width="600" height="1169" alt="" loading="lazy" /></div>
+        <div class="phone front"><img class="on-light" src={still('try-rhythm-weekly').light} width="600" height="1169" alt="" loading="lazy" /><img class="on-dark" src={still('try-rhythm-weekly').dark} width="600" height="1169" alt="" loading="lazy" /></div>
+        <figcaption lang={lang}>{de ? 'Aus dem Arbeitsbeispiel: eine Serie, und eine Woche, die neu beginnt' : 'From the working example: a streak, and a week that starts fresh'}</figcaption>
+      </figure>
+      <div class="case-text">
+        <h3 class="h3 rv">{de ? 'Jemand kehrt zum Bibelleseplan zurück.' : 'Someone returns to a Bible reading plan.'}</h3>
+        <div class="body rv d1"><p>{de ? 'Nach einer schwierigen Pause kann ein versäumter Streak beschämen. Ein anderer Einstieg heißt willkommen und bietet einen überschaubaren Neustart. Mit den Menschen prüfen, was ihre Praxis wirklich unterstützt.' : 'After a difficult break, a missed streak can bring shame. Another opening welcomes them and offers a manageable restart. Try the alternatives with people to learn what supports their practice.'}</p><a class="go" href={`${base}/patterns/progress-and-streaks/`}>{de ? 'Gestaltungsoptionen für Fortschritt vergleichen (EN)' : 'Compare approaches to progress'}</a></div>
+      </div>
+    </li>
+    <li class="case case-phones case-right g">
+      <hr class="sheen" aria-hidden="true" />
+      <div class="case-text">
+        <h3 class="h3 rv">{de ? 'Jemand sucht geistlichen Rat bei einer KI.' : 'Someone asks AI for spiritual guidance.'}</h3>
+        <div class="body rv d1"><p>{de ? 'Quellen zugänglich machen, zur eigenen Prüfung einladen und erkennen, wann ein Gespräch mit einem Menschen gebraucht wird. Die nächste KI-Antwort ist nicht immer der beste nächste Schritt.' : 'Make sources accessible, invite discernment and recognize when a conversation with a person matters. Another AI answer is not always the best next step.'}</p><a class="go" href={`${prefix}/framework/`}>{de ? 'Die Prinzipien für Produktteams lesen' : 'Read the principles for product teams'}</a></div>
+      </div>
+      <figure class="phones rv" lang="en" aria-label={de ? 'Zwei Bildschirme aus den KI-Arbeitsbeispielen (auf Englisch): eine Antwort, die ihre Quelle zitiert, und ein Assistent, der sagt, wofür er da ist und wofür nicht.' : 'Two screens from the AI working examples: an answer that quotes its source, and an assistant that states what it is for and not for.'}>
+        <div class="phone back"><img class="on-light" src={still('try-scope-life').light} width="600" height="1169" alt="" loading="lazy" /><img class="on-dark" src={still('try-scope-life').dark} width="600" height="1169" alt="" loading="lazy" /></div>
+        <div class="phone front"><img class="on-light" src={still('try-citations-inline').light} width="600" height="1169" alt="" loading="lazy" /><img class="on-dark" src={still('try-citations-inline').dark} width="600" height="1169" alt="" loading="lazy" /></div>
+        <figcaption lang={lang}>{de ? 'Aus den Arbeitsbeispielen: ein klarer Rahmen, und eine Antwort mit Quelle' : 'From the working examples: a stated scope, and an answer with its source'}</figcaption>
+      </figure>
+    </li>
+  </ol>
+</section>
+
+<!-- 4 · Three ways in: a horizontal sequence on wide screens, a plain column everywhere else -->
+<section class="ways" id="ways" aria-labelledby="ways-title">
+  <div class="ways-seq">
+    <div class="ways-pin">
+      <div class="wrap g ways-head">
+        <p class="kicker rv"><span class="n">{de ? 'Ein gemeinsamer Ansatz' : 'One approach'}</span> · {de ? 'Drei Einstiege' : 'Three starting points'}</p>
+        <h2 id="ways-title" class="h2 rv">{de ? 'Woran arbeitet ihr gerade?' : 'What are you working on?'}</h2>
+      </div>
+      <div class="track-wrap wrap">
+        <ol class="track">
+          <li class="way">
+            <span class="num" aria-hidden="true">01<span class="glint"><svg><use href="#g"/></svg></span></span>
+            <h3 class="h3">{de ? 'Den Ansatz verstehen' : 'Understand the perspective'}</h3>
+            <p class="muted">{de ? 'Wie christliche Berufung, Kontext und Verantwortung unsere Gestaltung prägen. Zehn Prinzipien machen die Konsequenzen für digitale Produkte konkret.' : 'How Christian calling, context and responsibility shape design. Ten principles make the implications concrete for digital products.'}</p>
+            <ul class="detail areas" aria-label={de ? 'Die fünf Bereiche' : 'The five areas'}>{areas.map(a => <li>{a}</li>)}</ul>
+            <p><a class="go" href={`${prefix}/framework/`}>{de ? 'Die Prinzipien lesen' : 'Read the principles'}</a></p>
+          </li>
+          <li class="way">
+            <span class="num" aria-hidden="true"><span class="metal">02</span></span>
+            <h3 class="h3">{de ? 'Mit dem Canvas arbeiten' : 'Work with the canvas'}</h3>
+            <p class="muted">{de ? 'Mit eurem Team zuhören, die missionale Identität klären und einen nächsten Schritt gestalten. Für Gemeinden, mit Entwürfen für Nonprofits und Unternehmen.' : 'Listen with your team, clarify your missional identity and shape a next step. Start with the church canvas, or explore the nonprofit and business drafts.'}</p>
+            <ol class="detail steps">
+              {(de ? ['Mit eurem Team zuhören', 'Die missionale Identität klären', 'Einen nächsten Schritt gestalten'] : ['Listen with your team', 'Clarify your missional identity', 'Shape a next step']).map((s, i) => <li><b>{i + 1}</b>{s}</li>)}
+            </ol>
+            <p><a class="go" href={`${base}/missional-canvas/`}>{de ? 'Canvas öffnen (Englisch)' : 'Open the canvas'}</a></p>
+          </li>
+          <li class="way">
+            <span class="num" aria-hidden="true"><span class="metal">03</span></span>
+            <h3 class="h3">{de ? 'Produktentscheidungen durchdenken' : 'Explore product decisions'}</h3>
+            <p class="muted">{de ? 'Optionen für Bibellesen, Gebet, Gemeinschaft und KI vergleichen. Beispiele ausprobieren und ihre Folgen anhand von Theologie, Forschung und Nutzungspraxis abwägen.' : 'Compare approaches to Bible reading, prayer, community and AI. Try examples and weigh their implications through theology, research and everyday use.'}</p>
+            <div class="detail">
+              <p class="small muted" style="margin-bottom:14px">{de ? 'Ein Tag verpasst. Ein offener Empfang. Wie könnte eine Bibel-App helfen, wieder anzufangen?' : 'A missed day. A welcoming return. How might a reading app help someone begin again?'}</p>
+              <div class="option-pair" lang="en">
+                <div class="option"><b>Welcome back.</b><span>It’s good to see you again.</span><em>Continue where you left off</em></div>
+                <div class="option"><b>Pick up again?</b><span>Whenever you’re ready, we’re here.</span><em>Resume</em></div>
+              </div>
+              <p class="option-note">{de ? 'Illustrative Gestaltungsoptionen · Beispiele auf Englisch' : 'Illustrative design options'}</p>
+            </div>
+            <p><a class="go" href={`${base}/reference/`}>{de ? 'Patterns erkunden (Englisch)' : 'Explore the patterns'}</a></p>
+          </li>
+          <li class="way-end" aria-hidden="true"></li>
+        </ol>
+      </div>
+      <div class="ways-meter" aria-hidden="true">01<span><i></i></span>03</div>
+    </div>
+  </div>
+</section>
+
+<!-- 5 · Posture -->
+<section class="posture wrap" aria-labelledby="posture-title">
+  <div class="g">
+    <p class="kicker rv">{de ? 'Kontext · Prägung · Treue' : 'Context · Formation · Faithfulness'}</p>
+    <h2 id="posture-title" class="h2 rv">{de ? 'Unsere Gestaltung prägt, wie Menschen glauben und leben.' : 'What we design shapes how people practise faith.'}</h2>
+    <div class="copy prose rv d1">
+      <p>{de ? 'Die gute Nachricht von Jesus gibt dieser Arbeit ihr Ziel. Bibel, Gebet, die Weisheit der Kirche und die von unserer Arbeit betroffenen Menschen gehören in den Gestaltungsprozess. Wenn sich die Umstände ändern, kehren wir zu ihnen zurück: Wem dienen wir, und was verlangt treuer Dienst hier von uns?' : 'The good news of Jesus gives this work its purpose. Scripture, prayer, the church’s wisdom and the people affected by our work belong in the design process. As circumstances change, we return to them: whom are we serving, and what does faithful service ask of us here?'}</p>
+      <p>{de ? 'Technologie kann dabei viel ermöglichen. Gute Arbeit stärkt auch die Freiheit, ein Werkzeug weniger zu brauchen. Regelmäßige Nutzung kann eine hilfreiche Praxis tragen; sie allein belegt kein geistliches Wachstum.' : 'Technology can make remarkable things possible. Good work also strengthens the freedom to need a tool less. Continued use can support a meaningful practice; it is not, by itself, evidence of spiritual growth.'}</p>
+      <a class="go" href={`${prefix}/blog/which-rock/`}>{de ? 'Essay: Auf welchen Fels bauen wir?' : 'Essay: On Which Rock Are We Building?'}</a>
+    </div>
+    <figure class="plate portrait photo drift rv d1">
+      <img src={`${ed}/img/chapel-light-from-above.webp`} width="2000" height="1333" alt={de ? 'Eine einzelne Person sitzt in einer runden Holzkapelle; Licht fällt von oben herein.' : 'A lone figure sits in a curved wooden chapel, light falling from an opening above.'} loading="lazy" />
+    </figure>
+    <p class="pull rv">{de ? <>Es geht um die <span class="nw">Menschen.<span class="glint" aria-hidden="true"><svg><use href="#g"/></svg></span></span></> : <>The people are the <span class="nw">point.<span class="glint" aria-hidden="true"><svg><use href="#g"/></svg></span></span></>}</p>
+  </div>
+</section>
+
+<!-- 6 · A pinned statement: the words light up as you scroll -->
+<section class="lit" aria-label={de ? 'Gute Gestaltung beginnt mit Zuhören' : 'Faithful design starts with listening'}>
+  <div class="lit-stage">
+    <div class="shafts" aria-hidden="true"><i></i><i></i></div>
+    <div class="wrap g">
+      {de
+        ? <p class="statement" data-light-words>Gute Gestaltung beginnt mit Zuhören. Den Menschen. Unserem sich wandelnden Kontext. <em>Der guten Nachricht von Jesus.</em></p>
+        : <p class="statement" data-light-words>Faithful design starts with listening. To people. To our changing context. <em>To the good news of Jesus.</em></p>}
+      <p class="after">{de ? 'Ein veränderter Kontext braucht erneutes Zuhören, Gebet und Handeln. Dieselbe Frage verbindet das Leben einer Gemeinde in ihrer Nachbarschaft mit den Entscheidungen eines Produktteams auf einem Bildschirm.' : 'A changing context calls for renewed listening, prayer and action. The same question connects a church’s life in its neighborhood with the choices a product team makes on a screen.'}</p>
+    </div>
+    <span class="ground" aria-hidden="true"></span>
+  </div>
+</section>
+
+<!-- 7 · Close -->
+<section class="close" aria-labelledby="close-title">
+  <div class="wrap g">
+    <h2 id="close-title" class="statement rv">{de ? 'Unser Kontext verändert sich.' : 'Our context keeps changing.'}</h2>
+    <p class="lead rv d1">{de ? 'Treue Antworten beginnen damit, neu hinzusehen.' : 'Faithful responses begin with renewed attention.'}</p>
+    <a class="go rv d2" href={`${prefix}/blog/which-rock/`}>{de ? 'Den Ansatz vertiefen' : 'Explore the perspective'}</a>
+    <figure class="plate photo close-plate rv d1">
+      <img src={`${ed}/img/spree-tv-tower-morning.webp`} width="1600" height="2133" alt={de ? 'Morgen an der Spree in Berlin: der Fernsehturm, neue Gebäude und alte Speicher spiegeln sich im stillen Wasser.' : 'Morning on the Spree in Berlin: the TV Tower, new buildings and old warehouses reflected in still water.'} loading="lazy" />
+    </figure>
+  </div>
+  <div class="wrap"><div class="sheen horizon" aria-hidden="true"><span class="bead"><svg><use href="#g"/></svg></span></div></div>
+</section>
