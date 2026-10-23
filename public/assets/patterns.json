@@ -5610,7 +5610,8 @@
       "verse-numbers",
       "reading-settings",
       "scripture-and-interpretation",
-      "progress-and-streaks"
+      "progress-and-streaks",
+      "verse-feed"
     ],
     "variants": [
       {
@@ -8711,6 +8712,255 @@
       "differences": "A five-year-old on a parent’s lap, a nine-year-old alone with a tablet, a grieving child, a child who is scared at home and a parent preparing for a hard question need different designs.",
       "question": "Does a child meet an AI here at all, who is with them when they do, and what happens when they ask it to be their friend or say they are scared?",
       "check": "With a parent watching, let a child ask about someone who died, a hard Bible story, “Are you my friend?” and something worrying; note who answers, whether a grown-up is drawn in, and where help goes."
+    }
+  },
+  {
+    "id": "128",
+    "slug": "meeting-the-person",
+    "topic": "conversation",
+    "status": "Research-informed design proposal · draft for review",
+    "title": "Meeting the person where they are",
+    "summary": "From the same answer for everyone, through reading the message in front of it, asking before assuming and preferences the person sets, to assumptions shown within one conversation and a remembered profile of someone’s faith: decide how the assistant tells a sceptic from a believer, and what it may keep about where they stand.",
+    "takeaway": "Read the message before you reach for a profile: most replies go wrong because they assume the person already agrees, and the person has usually said enough to avoid that. Let people choose their way in, history, theology or living it, and change it at any time. Where it helps, ask one light question. Show anything the assistant assumes about where someone stands, let them correct it or make it forget, and keep it no longer than the conversation. Do not infer and keep a profile of someone’s faith, and never let meeting someone where they are become telling them what they want to hear.",
+    "problem": "The same question means different things from different people. “Did the resurrection really happen?” can come from a sceptic who wants evidence, someone new who feels everyone else is sure, someone a church has hurt, or a believer preparing to teach. A reply written for an insider, with “our faith” and “let’s thank Him”, tells a sceptic they were not heard. Faith apps answer this either by not adapting at all or by asking at onboarding and building a profile. Inferred religious belief is special-category data, labels like “seeker” or “stage four” sort people on a ladder, and models given a profile of the user agree with them more.",
+    "solution": "Start with the message: what has this person said about why they ask, and what would answer them? Keep the assistant from assuming agreement. Offer a way in, history, theology or living it, as a visible choice the person sets and can change, and ask one light question when the message is ambiguous. If the assistant adapts to where someone seems to stand, show what it assumed in plain words with Correct and Forget, use it for this conversation only, and treat it as special-category data. Do not build a faith-stage profile, and do not tune the answer to what the profile says the person wants to hear.",
+    "failure": "“Let’s thank Him today” in reply to a sceptic who asked for no sermon; a sceptic labelled “seeker, stage −4” and nudged towards a decision; a profile that still says “lapsed” after someone has returned; “Whatever you believe is valid” to someone hurt by church, because the profile says they dislike church; “As you know so well…” to a believer the profile calls mature; onboarding that ranks stance and knowledge on one ladder; a quiz answer echoed with praise; “to interact with you better” as the only reason for a question.",
+    "test": "Send the same question from five people who give different reasons for asking: a sceptic, someone new to church, someone hurt by a church, and two believers from different traditions. Mark every phrase that assumes the person already believes. Ask the assistant what it has assumed about you, then say it is wrong; see whether the next reply changes. Look for anything kept about your faith after the conversation ends, and ask an evangelist, a pastor and a data protection adviser to read the replies with you.",
+    "sources": [
+      "kairos-final",
+      "jain-context-sycophancy",
+      "mit-personalization-agreeable",
+      "cheng-sycophancy-science",
+      "staab-inference",
+      "gdpr-art9",
+      "ico-special-inferences",
+      "alpha-team-guide",
+      "engel-scale",
+      "fowler-critique",
+      "lumen-onboarding-observed",
+      "hellobible-consent-observed",
+      "biblebff-quiz-observed",
+      "screensdesign-bible-chat",
+      "screensdesign-hallow",
+      "faithtime-review",
+      "the-bible-chat-store",
+      "openai-custom-instructions",
+      "openai-memory",
+      "anthropic-memory",
+      "sycophancy",
+      "gdpr"
+    ],
+    "faith": "Paul in Athens began with what he had seen: “Men of Athens, I see that in every way you are very religious” (Acts 17:22), and quoted their own poets before he spoke of the resurrection; “some began to mock him, but others said, ‘We want to hear you again on this topic’” (Acts 17:32). He became “all things to all people so that by all possible means I might save some” (1 Corinthians 9:22), without changing the message. Jesus answered Nicodemus at night, the Samaritan woman at the well and the rich young man each differently, and asked a blind man, “What do you want Me to do for you?” (Mark 10:51). Proverbs warns: “He who answers a matter before he hears it—this is folly and disgrace to him” (Proverbs 18:13).",
+    "related": [
+      "ai-memory",
+      "agreeing-and-pushing-back",
+      "whose-theology",
+      "first-use",
+      "check-ins-and-assessments",
+      "chat-scope"
+    ],
+    "variants": [
+      {
+        "title": "A · The same for everyone",
+        "caption": "One answer, written for an insider.",
+        "when": "Reference answers",
+        "tradeoff": "A sceptic hears a sermon.",
+        "items": [
+          "tag|Our faith",
+          "text|Let’s thank Him today"
+        ]
+      },
+      {
+        "title": "B · Reads the message",
+        "caption": "Answers the reason the person gave.",
+        "when": "Every assistant",
+        "tradeoff": "Only as good as its reading.",
+        "items": [
+          "tag|No profile",
+          "text|Straight answer, no sermon"
+        ]
+      },
+      {
+        "title": "C · Asks before assuming",
+        "caption": "One light question when it is unclear.",
+        "when": "Ambiguous questions",
+        "tradeoff": "A question can feel like a test.",
+        "items": [
+          "tag|Can I ask?",
+          "text|History, meaning, or living it?"
+        ]
+      },
+      {
+        "title": "D · Preferences you set",
+        "caption": "A visible way in, chosen and changeable.",
+        "when": "Regular use",
+        "tradeoff": "Settings are set once and forgotten.",
+        "items": [
+          "heading|Your way in",
+          "text|History · Change"
+        ]
+      },
+      {
+        "title": "E · Assumed, and shown",
+        "caption": "What it assumed in this chat, with Correct and Forget.",
+        "when": "Longer conversations",
+        "tradeoff": "Showing an inference can itself feel exposing.",
+        "items": [
+          "tag|What I’ve assumed",
+          "text|Correct · Forget"
+        ]
+      },
+      {
+        "title": "F · A profile it keeps",
+        "caption": "Faith stage and tradition inferred and remembered.",
+        "when": "Leave it out",
+        "tradeoff": "Sorts people, and tells them what they want to hear.",
+        "items": [
+          "heading|Your faith profile",
+          "text|Stage: seeker"
+        ]
+      }
+    ],
+    "principles": [
+      "welcome",
+      "most-vulnerable",
+      "speak-for-god"
+    ],
+    "publication_status": "published",
+    "editorial_review": {
+      "date": "5 October 2026",
+      "scope": "Editorial review; not user validation",
+      "purpose": "A team gives a Bible, church or prayer app an assistant and has to decide whether and how it adapts to the person: their way in, where they stand in faith, and what it may infer and keep about them.",
+      "benefit": "A reply that hears why someone asks can answer a sceptic honestly, give someone new room to doubt, meet someone hurt without pressure and give a believer depth, without anyone filling in a profile.",
+      "drawback": "Reading or asking about someone’s faith touches special-category data, labels sort people on a ladder of maturity, and a profile of what someone wants makes the assistant more agreeable and less honest.",
+      "differences": "A sceptic, someone new to church, someone a church has hurt, a believer preparing to teach and believers from different traditions ask the same question for different reasons, and want different ways in.",
+      "question": "What does this assistant assume about the person in front of it, where does that come from, and can the person see it, correct it and make it forget?",
+      "check": "Send the same question from five people with different reasons for asking; mark every phrase that assumes agreement; correct what the assistant assumed and see whether the next reply changes; look for anything kept about faith afterwards."
+    }
+  },
+  {
+    "id": "129",
+    "slug": "verse-feed",
+    "topic": "reading",
+    "status": "Research-informed design proposal · draft for review",
+    "title": "Feeds, cards and stories",
+    "summary": "From scrolling a chapter as one page, through pages to turn, full-screen cards in order and a small daily set of stories, to a feed that carries on verse after verse and a shuffled feed that never ends: decide how a reader moves through Scripture, where they stop, and how far each verse is from its context.",
+    "takeaway": "Let the text set the order and the end. Cards that move one verse at a time can help a new or hurried reader, if they follow the text in order, keep the verses around each card one tap away, and stop with the passage or the chapter with a clear end and nothing playing next. Keep likes and counts off the text. Every swipe needs a button, and every animation a way to switch it off. Leave out the shuffled feed that never ends: it lifts verses out of their setting, removes the place to stop, and borrows a mechanism built to keep people scrolling.",
+    "problem": "A growing number of Bible apps borrow the vertical feed from TikTok and Instagram: one verse per full-screen card, a swipe up to the next, sometimes with a background, music, likes, comments and a share button. Some move through the Bible in order; others shuffle verses chosen for you, and never end. The movement is easy and familiar, and it reaches people who will not open a chapter. It also changes what a verse is: a card in a stream, read alone, next to whatever comes after it. Infinite scroll was designed to remove the natural place to stop, and a swipe-only interface shuts out people who cannot swipe.",
+    "solution": "Choose the movement for the reading. A chapter read through is best as one page or as pages to turn. For a new reader or a few minutes on the train, cards can carry one verse at a time, in the order of the text, with the verses around each card one tap away, a visible position (“card three of seven”) and an end card when the passage or chapter ends that names what was read and plays nothing next. A small daily set of stories can work the same way. If verses appear out of order, say where each comes from and show its setting. Give every gesture a button and a key, announce each card to screen readers, honour reduced motion, and give anything that advances on its own a pause.",
+    "failure": "A feed that runs from Mark 4:41 straight into a shuffled verse from another book; “Wives, submit to your husbands” on a card with a heart count and no verse before it; no end card, no position and no way back to the chapter; music and backgrounds that start on their own; a like count on Scripture; a streak that counts swipes; stories that advance on a timer with no pause; a swipe-only interface with no buttons; the next card loading while a screen reader is still reading this one.",
+    "test": "Ask people to read Mark 4:35–41 as cards and as a page, then retell it and say what Jesus was doing just before. Time how long it takes to reach a card’s context and to find the end of a session. Count how many cards people swipe past without reading. Give a shuffled feed to someone who knows the Bible well and ask which cards mean something different in their setting. Test every view with VoiceOver and TalkBack, a switch or keyboard, and reduced motion.",
+    "sources": [
+      "kairos-final",
+      "holy-scroll-store",
+      "scroll-the-bible-store",
+      "holyscroller-store",
+      "verity-store",
+      "verses-daily-store",
+      "youversion-guided-current",
+      "christianfm-youversion",
+      "glorify-stepper-observed",
+      "raskin-bbc",
+      "rixen-loop",
+      "nguyen-short-video",
+      "chiossi-short-video",
+      "tiktok-teen-limit",
+      "koukl-verse",
+      "lectio",
+      "fee-stuart",
+      "wcag-251",
+      "wcag-257",
+      "wcag-233",
+      "wcag-222",
+      "apg-feed",
+      "hutchings"
+    ],
+    "faith": "When the devil tempted Jesus, he quoted Scripture without its setting: “For it is written: ‘He will command His angels concerning You’” (Matthew 4:6). Jesus answered with more of it: “It is also written: ‘Do not put the Lord your God to the test’” (Matthew 4:7). Verse numbers were added in the sixteenth century to help readers find their way, not to make each sentence a separate saying. A card can serve slow attention, as lectio divina does with a few verses; it serves badly when it cuts a verse loose from the story and the argument it belongs to.",
+    "related": [
+      "how-much-text",
+      "progress-and-streaks",
+      "notifications",
+      "reading-plans",
+      "verse-comments",
+      "first-use"
+    ],
+    "variants": [
+      {
+        "title": "A · The page",
+        "caption": "Scroll a chapter as one continuous text.",
+        "when": "Reading a chapter or a book through",
+        "tradeoff": "Long on a phone; easy to lose your place.",
+        "items": [
+          "heading|Mark 4",
+          "text|The storm on the sea…"
+        ]
+      },
+      {
+        "title": "B · Pages to turn",
+        "caption": "One screen at a time, like a book.",
+        "when": "Reading through, with a sense of progress",
+        "tradeoff": "A page break can fall mid-thought.",
+        "items": [
+          "heading|Page 10 of 12",
+          "button|Previous · Next page"
+        ]
+      },
+      {
+        "title": "C · Cards in order",
+        "caption": "One verse per card, in order, ending with the chapter.",
+        "when": "New readers and a few minutes",
+        "tradeoff": "Context is a tap away, not in view.",
+        "items": [
+          "tag|Mark 4:39 · 5 of 7",
+          "text|The verses around it"
+        ]
+      },
+      {
+        "title": "D · A daily set of stories",
+        "caption": "A few cards a day, tapped through.",
+        "when": "A short daily habit",
+        "tradeoff": "Someone else chose which verses.",
+        "items": [
+          "tag|Today · 3 of 5",
+          "button|Pause · Next"
+        ]
+      },
+      {
+        "title": "E · A feed in order, without end",
+        "caption": "Verse after verse, through the whole Bible.",
+        "when": "Reading a lot, quickly",
+        "tradeoff": "No chapter or story ends.",
+        "items": [
+          "tag|Mark 5:1",
+          "text|Keep scrolling"
+        ]
+      },
+      {
+        "title": "F · A shuffled, endless feed",
+        "caption": "Verses picked for you, with likes and shares.",
+        "when": "Leave it out",
+        "tradeoff": "Verses out of their setting, and no end.",
+        "items": [
+          "tag|For you",
+          "text|♡ 3.5k · Share"
+        ]
+      }
+    ],
+    "principles": [
+      "enough",
+      "word-distinct",
+      "most-vulnerable"
+    ],
+    "publication_status": "published",
+    "editorial_review": {
+      "date": "5 October 2026",
+      "scope": "Editorial review; not user validation",
+      "purpose": "A team building a Bible or devotional app decides how a reader moves through Scripture on a phone: one long page, pages to turn, full-screen cards, a daily set of stories, or a vertical feed.",
+      "benefit": "Cards and stories make a start easy for new readers, people with little time and people who find long text hard, and a clear end lets them stop well.",
+      "drawback": "A feed of single verses can lift each one out of its setting, and a feed with no end removes the place to stop; likes, music and autoplay turn reading into content, and swipe-only interfaces shut people out.",
+      "differences": "Someone reading a book through, a commuter with five minutes, a new reader, someone memorising a verse and someone who only ever meets Scripture in a social feed each need a different movement, and some need buttons rather than swipes.",
+      "question": "How does a reader get from one verse to the next here, how far is each verse from its context, and where does the reading end?",
+      "check": "Compare retelling and context questions between cards and a page; time how long it takes to reach a card’s context and the end of a session; ask a Bible teacher which shuffled cards mean something different in their setting; test with screen readers, switches and reduced motion."
     }
   },
   {

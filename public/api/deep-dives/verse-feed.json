@@ -1,0 +1,688 @@
+{
+ "slug": "verse-feed",
+ "url": "https://missional.design/patterns/verse-feed/",
+ "title": "Feeds, cards and stories",
+ "question": "How should a reader move from one verse to the next?",
+ "lede": "A growing number of Bible apps borrow the vertical feed from TikTok and Instagram: one verse per full-screen card, a swipe up to the next, sometimes with a background, likes and a share button. Some go through the Bible in order; others shuffle verses chosen for you and never end. Others offer a small daily set of stories, or pages to turn like a book. The question here is not how much text a screen shows, but how the reader gets from one verse to the next, how far each verse stays from its setting, and where the reading ends. A feed can help a new reader begin. It can also turn the Bible into one more thing to scroll.",
+ "calling": "Let the text set the order and the end, and give every reader a place to stop.",
+ "spectrum": {
+  "title": "From a page you turn to a feed that never ends",
+  "from": "The text sets the order and the end",
+  "to": "The feed sets both"
+ },
+ "working_example": {
+  "url": "https://missional.design/demos/verse-feed/",
+  "situation": "Someone opens Mark 4 at the storm on the sea (4:35–41) in the Berean Standard Bible, with a few minutes to spare. Move through the passage in each design with the buttons, the arrow keys or a swipe. Watch what happens after Mark 4:41, the last verse of the chapter, and open the verses around a card."
+ },
+ "options": [
+  {
+   "key": "page",
+   "name": "The page",
+   "provenance": "Familiar convention",
+   "origin": "A familiar convention in Bible apps and e-books: the chapter as one continuous text, opened where the reader stopped. Section titles here are our own.",
+   "gain": "The story stays whole",
+   "cost": "Long on a phone",
+   "makes_easier": "The story and the argument stay whole, and the context is simply there, above and below.",
+   "costs": "Long on a phone, and a reader can lose their place; it asks for more attention to begin.",
+   "ask_your_team": "Do your readers mostly read through, or dip in?",
+   "still": "https://missional.design/assets/stills/try-feed-page.jpg"
+  },
+  {
+   "key": "paged",
+   "name": "Pages to turn",
+   "provenance": "Familiar convention",
+   "origin": "A familiar convention from e-readers and printed books: one screen of text at a time, turned with a button, a tap or a sideways swipe. The page breaks here are our own.",
+   "gain": "A place and an end",
+   "cost": "Breaks mid-thought",
+   "makes_easier": "A sense of place and progress, a calm screen that does not move under the reader, and a natural end.",
+   "costs": "A page break can fall in the middle of a thought, and text size changes every page.",
+   "ask_your_team": "Will a page end where the text pauses, or where the screen runs out?",
+   "still": "https://missional.design/assets/stills/try-feed-paged.jpg"
+  },
+  {
+   "key": "cards",
+   "name": "Cards in order",
+   "provenance": "Observed",
+   "origin": "Observed in Glorify, which shows a short passage one verse per screen under a step bar; store listings for Holy Scroll, Scroll The Bible and HolyScroller describe full-screen verse cards moved by a vertical swipe. Ending with the chapter, the end card and the verses around each card are our proposal.",
+   "gain": "One verse, then a clear end",
+   "cost": "Context a tap away",
+   "makes_easier": "One verse at a time is easy to start and slow enough to notice each sentence; the position and a clear end let the reader stop well.",
+   "costs": "The passage is a tap away, not in view, and a single verse is easy to read or share apart from its setting.",
+   "ask_your_team": "How far is every card from its context, and what tells the reader they have reached the end?",
+   "still": "https://missional.design/assets/stills/try-feed-cards.jpg"
+  },
+  {
+   "key": "stories",
+   "name": "A daily set of stories",
+   "provenance": "Observed",
+   "origin": "Observed in YouVersion, whose help page says “Swipe up or down to navigate through the sections of Guided Scripture”, ending in a streak page; borrowed from the stories of Instagram and Snapchat, tapped through sideways under a segmented bar. The selection and the question are written for this example.",
+   "gain": "Small and finished",
+   "cost": "Someone else chose",
+   "makes_easier": "Small, finished and easy to fit into a morning; a set with an end is a habit that can be completed.",
+   "costs": "Someone else chose which verses to show and which to leave out, and a timer that advances on its own takes the pace from the reader.",
+   "ask_your_team": "Who chooses the verses in a set, and does the set show where they come from?",
+   "still": "https://missional.design/assets/stills/try-feed-stories.jpg"
+  },
+  {
+   "key": "onward",
+   "name": "A feed in order, without end",
+   "provenance": "Observed",
+   "origin": "Observed in store listings: Holy Scroll describes “verse-by-verse infinite scroll. Just like your Instagram feed, just like TikTok”, opening where the reader stopped; Scroll The Bible’s main feed is “a smooth, full-screen, vertical scroll through every book and chapter of the Bible”. The cards and the likes here are written for this example.",
+   "gain": "Reads on easily",
+   "cost": "No end to stop at",
+   "makes_easier": "Keeps the order of the text and makes reading a lot feel easy; people may read further than they meant to.",
+   "costs": "Nothing marks the end of a story or a chapter, so the only place to stop is when life interrupts; reading turns into scrolling.",
+   "ask_your_team": "If your feed never ends, where will your readers stop?",
+   "still": "https://missional.design/assets/stills/try-feed-onward.jpg"
+  },
+  {
+   "key": "shuffle",
+   "name": "A shuffled, endless feed",
+   "provenance": "Leave it out",
+   "origin": "A warning case. Scroll The Bible’s Discover page “is a feed of random Bible verses”, Verity offers “an engaging, infinite scroll experience—like your favorite social apps”, and YouVersion’s Verse of the Day can be hearted, commented on and shared. After Mark 4:41 this feed goes on to verses from other books, chosen for this example, with likes and shares as such feeds show them.",
+   "gain": "Effortless and familiar",
+   "cost": "Out of context, endless",
+   "makes_easier": "Effortless, varied and familiar to anyone who uses social apps; it reaches people who will never open a chapter.",
+   "costs": "Lifts each verse out of its setting, sets Scripture beside likes and counts, and removes the place to stop. Some verses read very differently alone.",
+   "ask_your_team": "Would you show this verse to this person without the verse before it?",
+   "still": "https://missional.design/assets/stills/try-feed-shuffle.jpg"
+  }
+ ],
+ "takeaways": [
+  {
+   "heading": "Let the text set the order",
+   "text": "Cards in the order of the text keep a story and an argument together, one step at a time. A shuffled feed sets each verse beside whatever comes next, chosen by popularity or by what you liked. Some verses survive that; others, read without the verse before, say something the passage does not."
+  },
+  {
+   "heading": "Give the reading an end",
+   "text": "Show the position (“card three of seven”) and end with the passage or the chapter: an end card that names what was read, offers to read it again or see the whole passage, and plays nothing next. People leave an endless feed only when life interrupts; a reading can let them go."
+  },
+  {
+   "heading": "Keep the context one tap away",
+   "text": "Every card needs a route to the verses around it and to the chapter, as short as the swipe to the next card. Mark the card’s verse in the passage, and say where a verse comes from when it is out of order. A card is also a decision about how much text is shown."
+  },
+  {
+   "heading": "Keep counts off the text",
+   "text": "Likes, comment counts and trending numbers turn a verse into content and make some verses winners. If people may respond, let them save, note or share the passage, and leave popularity out of the reading view."
+  },
+  {
+   "heading": "Every swipe needs a button",
+   "text": "Give Previous and Next buttons and keys for every gesture, announce each card with its position, honour reduced motion, and pause anything that advances on its own. A feed that only moves by swiping shuts out people who cannot swipe."
+  },
+  {
+   "heading": "Cards can be a welcome",
+   "text": "For a new reader, someone with little time or someone who finds long text hard, one verse at a time in order can be the easiest way in. Make it a door into the passage, and make the page or pages to turn one tap away when they want more."
+  },
+  {
+   "heading": "When this pulls against a streak",
+   "text": "A feed makes a swipe easy to count, and a streak makes the count matter. Count readings the person chooses, never swipes or cards, and keep the end card free of any tally."
+  },
+  {
+   "heading": "When this pulls against notifications",
+   "text": "A feed that never ends and a reminder that brings people back to it work as one loop. If you send a daily verse, let it open the passage with its end, not the feed."
+  }
+ ],
+ "use_cases": [
+  {
+   "situation": "Reading a chapter or a book through",
+   "needs": "The story whole, and a kept place",
+   "fit": {
+    "The page": "good fit",
+    "Pages to turn": "good fit",
+    "Cards in order": "possible",
+    "A daily set of stories": "poor fit",
+    "A feed in order, without end": "possible",
+    "A shuffled, endless feed": "poor fit"
+   }
+  },
+  {
+   "situation": "A few minutes on the train",
+   "needs": "An easy start and a clear end",
+   "fit": {
+    "The page": "possible",
+    "Pages to turn": "good fit",
+    "Cards in order": "good fit",
+    "A daily set of stories": "good fit",
+    "A feed in order, without end": "possible",
+    "A shuffled, endless feed": "poor fit"
+   }
+  },
+  {
+   "situation": "New to the Bible, or reading little",
+   "needs": "One thing at a time, and the story around it",
+   "fit": {
+    "The page": "possible",
+    "Pages to turn": "possible",
+    "Cards in order": "good fit",
+    "A daily set of stories": "good fit",
+    "A feed in order, without end": "possible",
+    "A shuffled, endless feed": "poor fit"
+   }
+  },
+  {
+   "situation": "Finds long text hard (attention, dyslexia, literacy)",
+   "needs": "Short units, own pace, no timer",
+   "fit": {
+    "The page": "poor fit",
+    "Pages to turn": "possible",
+    "Cards in order": "good fit",
+    "A daily set of stories": "possible",
+    "A feed in order, without end": "possible",
+    "A shuffled, endless feed": "poor fit"
+   }
+  },
+  {
+   "situation": "Meditation, or memorising a verse",
+   "needs": "Slowness, and the passage close by",
+   "fit": {
+    "The page": "possible",
+    "Pages to turn": "possible",
+    "Cards in order": "good fit",
+    "A daily set of stories": "possible",
+    "A feed in order, without end": "poor fit",
+    "A shuffled, endless feed": "poor fit"
+   }
+  },
+  {
+   "situation": "Study, or preparing to teach",
+   "needs": "Context, references and the argument",
+   "fit": {
+    "The page": "good fit",
+    "Pages to turn": "possible",
+    "Cards in order": "poor fit",
+    "A daily set of stories": "poor fit",
+    "A feed in order, without end": "poor fit",
+    "A shuffled, endless feed": "poor fit"
+   }
+  },
+  {
+   "situation": "Uses a screen reader, switch or keyboard",
+   "needs": "Buttons, headings and a known position",
+   "fit": {
+    "The page": "good fit",
+    "Pages to turn": "good fit",
+    "Cards in order": "good fit",
+    "A daily set of stories": "possible",
+    "A feed in order, without end": "possible",
+    "A shuffled, endless feed": "poor fit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "group": "Scripture and tradition",
+   "subtitle": "Reading in order, and in context",
+   "findings": [
+    {
+     "heading": "“It is also written”",
+     "text": "When the devil tempted Jesus, he quoted a psalm without its setting: “For it is written: ‘He will command His angels concerning You’” (Matthew 4:6). Jesus answered with more of Scripture: “It is also written: ‘Do not put the Lord your God to the test’” (Matthew 4:7). A verse alone can be made to say what the whole does not.",
+     "sources": []
+    },
+    {
+     "heading": "The whole story",
+     "text": "On the road to Emmaus, “beginning with Moses and all the Prophets, He explained to them what was written in all the Scriptures about Himself” (Luke 24:27). Israel heard the law read and explained, “so that the people could understand what was being read” (Nehemiah 8:8).",
+     "sources": []
+    },
+    {
+     "heading": "Reading needs a guide",
+     "text": "Philip asked the Ethiopian official, “Do you understand what you are reading?”, and he answered, “How can I … unless someone guides me?” (Acts 8:30–31). A card that ends a verse and offers the next one is not yet a guide.",
+     "sources": []
+    },
+    {
+     "heading": "Slow reading has a long history",
+     "text": "The blessed person meditates on God’s law “day and night” (Psalm 1:2), and lectio divina dwells on a few verses read slowly and repeatedly. One verse at a time is not new; reading it quickly, and moving on, is.",
+     "sources": [
+      "lectio"
+     ]
+    },
+    {
+     "heading": "Read the paragraph",
+     "text": "Greg Koukl’s rule of thumb: “Never read a Bible verse. … Instead, always read a paragraph at least”, because “Meaning always flows from the top down, from the larger units to the smaller units”.",
+     "sources": [
+      "koukl-verse"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Products",
+   "subtitle": "What Bible apps do now",
+   "findings": [
+    {
+     "heading": "In order, without end",
+     "text": "Holy Scroll describes “verse-by-verse infinite scroll. Just like your Instagram feed, just like TikTok”: “You look up twenty minutes later and you’ve read three chapters without trying.” Scroll The Bible’s main feed is “a smooth, full-screen, vertical scroll through every book and chapter of the Bible”; HolyScroller is “like TikTok, but for your soul”.",
+     "sources": [
+      "holy-scroll-store",
+      "scroll-the-bible-store",
+      "holyscroller-store"
+     ]
+    },
+    {
+     "heading": "Shuffled, and endless",
+     "text": "Scroll The Bible’s Discover page “is a feed of random Bible verses”: “Just keep scrolling.” Verity offers daily verses “through an engaging, infinite scroll experience—like your favorite social apps, but for your spiritual growth”, and Verses: Daily Bible asks people to “Swipe through” a feed of single verses, with a random mode.",
+     "sources": [
+      "scroll-the-bible-store",
+      "verity-store",
+      "verses-daily-store"
+     ]
+    },
+    {
+     "heading": "Daily sets with an end",
+     "text": "In YouVersion, “Swipe up or down to navigate through the sections of Guided Scripture”; “Complete all the slides to reach this page”, where the daily streak is counted. Its Verse of the Day links to “the full chapter the verse is found in”, and “You can heart, comment on, or share the verse of the day”. Glorify shows a short passage one verse per screen under a step bar.",
+     "sources": [
+      "youversion-guided-current",
+      "christianfm-youversion",
+      "glorify-stepper-observed"
+     ]
+    },
+    {
+     "heading": "Where people meet the Bible now",
+     "text": "The editor’s Kairos paper reports from NRB and Barna that among younger people “Nearly a quarter engage with biblical content on TikTok”, and calls a verse of the day “Often underestimated, despite its role in everyday formation”. Many will meet Scripture in a feed whatever Bible apps do.",
+     "sources": [
+      "kairos-final"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Research",
+   "subtitle": "Attention, and the place to stop",
+   "findings": [
+    {
+     "heading": "Infinite scroll removes the stop",
+     "text": "Aza Raskin, who designed infinite scroll, later said: “If you don’t give your brain time to catch up with your impulses … you just keep scrolling.”",
+     "sources": [
+      "raskin-bbc"
+     ]
+    },
+    {
+     "heading": "Caught in a loop",
+     "text": "Infinite scrolling “has been reported to make users feel like they are being caught in a loop, regretfully elongating SM sessions”. In a week-long field study, “most reasons to break SM sessions were not related to the app but the user’s general context”: people stop when life interrupts.",
+     "sources": [
+      "rixen-loop"
+     ]
+    },
+    {
+     "heading": "Short video and attention",
+     "text": "A meta-analysis of 71 studies with 98,299 participants found that heavier short-form video use was “most consistently linked to poorer attention span and reduced inhibitory control”; “The majority of the studies analyzed were cross-sectional”, so cause is not shown. In a lab study, switching between short videos made people worse at remembering what they had meant to do.",
+     "sources": [
+      "nguyen-short-video",
+      "chiossi-short-video"
+     ]
+    },
+    {
+     "heading": "A decision to go on",
+     "text": "Even TikTok gives teenagers a daily limit and asks for a passcode to continue, “requiring them to make an active decision to extend that time”. The end of a passage is a gentler point of decision.",
+     "sources": [
+      "tiktok-teen-limit"
+     ]
+    },
+    {
+     "heading": "Constraint forms",
+     "text": "The Kairos paper: “Every historic formation practice works through chosen constraint, not infinite access.” And of the hurried reader: “Someone reading five fragmented minutes on the train isn’t failing spiritually.”",
+     "sources": [
+      "kairos-final"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Accessible reading",
+   "subtitle": "Best practice",
+   "findings": [
+    {
+     "heading": "A button for every swipe",
+     "text": "“Not everyone can perform complex and multi-touch gestures”: “Provide single-point operation for all functions”, and “Don’t rely on dragging for user actions.”",
+     "sources": [
+      "wcag-251",
+      "wcag-257"
+     ]
+    },
+    {
+     "heading": "A feed screen readers can follow",
+     "text": "A feed is “a dynamic list of articles that often appears to scroll infinitely”; marked up as one, it lets screen reader users “jump forward and backward by article” and know where they are.",
+     "sources": [
+      "apg-feed"
+     ]
+    },
+    {
+     "heading": "Motion the reader controls",
+     "text": "“Support user preferences for motion, and eliminate unnecessary motion effects.” Stories or verses that advance on their own need a pause.",
+     "sources": [
+      "wcag-233"
+     ]
+    }
+   ]
+  }
+ ],
+ "which_fits": [
+  {
+   "if": "Reading a chapter or a book through",
+   "start_with": "The page, or pages to turn"
+  },
+  {
+   "if": "New readers and a few minutes a day",
+   "start_with": "Cards in order, ending with the passage, the verses around each card one tap away"
+  },
+  {
+   "if": "A short daily habit",
+   "start_with": "A daily set of stories that names its source and ends, with no timer by default"
+  },
+  {
+   "if": "People who find long text hard",
+   "start_with": "Cards in order at their own pace, with buttons as well as swipes"
+  },
+  {
+   "if": "You are tempted to add a shuffled, endless feed with likes",
+   "start_with": "Don’t: give the reading an order and an end instead"
+  }
+ ],
+ "reflection": [
+  {
+   "heading": "What a feed cannot give",
+   "text": "“Why spend money on that which is not bread, and your labor on that which does not satisfy? Listen carefully to Me, and eat what is good” (Isaiah 55:2). A feed promises that the next card will be the one, and so there is always a next card. Scripture is a story with a beginning and an end, told so that we may know the One who speaks in it; the disciples’ question at the end of the storm, “Who is this, that even the wind and the sea obey Him?” (Mark 4:41), is meant to be sat with, not swiped past."
+  },
+  {
+   "heading": "Where Christians differ",
+   "text": "Churches have always read Scripture in more than one measure: whole books read aloud in worship, appointed passages in a lectionary, single verses memorised, sung and prayed. Some traditions treasure a verse for the day; others warn that verse numbers, added in the sixteenth century, teach people to read sentences apart from their argument. Many would agree that a verse is safest in the company of the passage it belongs to, and of people who read it together."
+  },
+  {
+   "heading": "What follows for design",
+   "text": "The Bereans “examined the Scriptures every day to see if these teachings were true” (Acts 17:11): daily, and with the whole in view. Let the movement through the text serve that: in its own order, with the setting a tap away, at the reader’s pace, and with an end where the reader can put the phone down and live what they read."
+  }
+ ],
+ "voices": [
+  {
+   "source": "Albert Borgmann, Technology and the Character of Contemporary Life (1984)",
+   "url": "https://iep.utm.edu/borgmann/",
+   "note": "distinguished devices that deliver a commodity without effort from focal practices that ask for attention and engagement; an endless feed delivers verses, a reading asks for the reader."
+  },
+  {
+   "source": "Eugene Peterson, Eat This Book (2006)",
+   "url": "https://www.publishersweekly.com/9780802829481",
+   "note": "calls for slow, attentive reading in which the text is taken in, not skimmed."
+  }
+ ],
+ "three_ways": {
+  "exploitative": "Give the Bible a shuffled feed that never ends, with music, likes and a streak for every day of swiping, because people already scroll and time in the app is what grows.",
+  "ethical": "Move through the text in its own order, one card or one page at a time, with the verses around each card one tap away, a button for every swipe and an end card that plays nothing next.",
+  "redemptive": "Let the reading end where the passage ends, keep popularity off Scripture, and give up the minutes an endless feed would win.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
+ "decide": {
+  "question": "How does a reader get from one verse to the next here, how far is each verse from its context, and where does the reading end?",
+  "exercise": "Read Mark 4:35–41 in your product as cards and as a page with two people, then ask each to retell it and say what Jesus was doing just before. Time how long it takes to reach the verses around a card and to find where the reading ends. Then scroll your feed for ten minutes and list every card that means something different without the verse before it. Finally, try every view with a screen reader, a keyboard and reduced motion.",
+  "worksheet": "https://missional.design/guides/decision-review/"
+ },
+ "earlier_patterns": [],
+ "examples": [
+  {
+   "app": "HelloBible",
+   "title": "A daily verse card alongside practice entry points",
+   "url": "https://missional.design/examples/hellobible-home/",
+   "observed": "Undated · reviewed 5 October 2026",
+   "observation": "The mockup combines a daily verse with reference and actions, service cards, a prominent central action, and a numerical flame indicator.",
+   "decision": "A home screen can connect a short Scripture encounter with further practices. Explain progress indicators without implying that a number measures faith or wellbeing.",
+   "limits": "This is a promotional mockup, not a live app capture. The flame’s precise meaning, central action, chat output, storage behaviour and safeguarding responses were not tested."
+  },
+  {
+   "app": "Glorify",
+   "title": "One verse per screen, with a step bar",
+   "url": "https://missional.design/examples/glorify-verse-stepper/",
+   "observed": "Captured 28 August 2025 · from embedded image metadata",
+   "observation": "Jeremiah 17:5–8 (NIV) is shown one verse at a time: verse 6 sits alone mid-screen under a four-part progress bar, with the reference and an information button above, “Bible version: NIV” below, and text-size and notes buttons at the bottom.",
+   "decision": "A verse at a time slows reading down and suits meditation on a short passage. The step bar keeps the passage boundary in view; the rest of the chapter is out of sight.",
+   "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
+  }
+ ],
+ "sources": [
+  {
+   "key": "kairos-final",
+   "title": "Digital Spiritual Formation in Post-Christian Europe",
+   "url": "https://missional.design/research/formation/#manuscript",
+   "author": "Tobias Treppmann · Kairos University, 2026 (the editor’s own research)",
+   "kind": "Unpublished analytical manuscript",
+   "shows": "Notes that an academic study of five AI Jesus platforms found none church-endorsed; that spiritual direction rests on the director’s own formation, empathy and accountability to a community; and that a companion tuned to agree becomes “spiritual comfort food”.",
+   "application": "Whatever role an assistant plays, it should not be built to agree; and no role replaces a person accountable to a community.",
+   "limits": "An analytical paper by the editor, not an effectiveness study; unpublished."
+  },
+  {
+   "key": "holy-scroll-store",
+   "title": "Holy Scroll: Scroll Your Bible (App Store listing)",
+   "url": "https://apps.apple.com/us/app/-/id6743411441",
+   "author": "Discipleship Tech, Inc. · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "Describes “verse-by-verse infinite scroll. Just like your Instagram feed, just like TikTok”, opening where the reader stopped, with a double tap to like a verse; “You look up twenty minutes later and you’ve read three chapters without trying.”",
+   "application": "An in-order feed can carry a reader through whole chapters; decide whether the chapter and the story still have an end.",
+   "limits": "A store listing in the developer’s own words; the app was not observed."
+  },
+  {
+   "key": "scroll-the-bible-store",
+   "title": "Scroll The Bible (App Store listing)",
+   "url": "https://apps.apple.com/us/app/-/id6756558351",
+   "author": "Gabriel Jacobson · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "A main feed that is “a smooth, full-screen, vertical scroll through every book and chapter of the Bible”, with comments and sharing on verses, and a Discover page that “is a feed of random Bible verses”, each with AI study notes: “Just keep scrolling.”",
+   "application": "Two feeds in one app: in order, and shuffled. Keep the reader’s route from a shuffled verse back into its chapter as short as the swipe.",
+   "limits": "A store listing; the study notes, comments and their moderation were not observed."
+  },
+  {
+   "key": "holyscroller-store",
+   "title": "HolyScroller (App Store listing)",
+   "url": "https://apps.apple.com/us/app/-/id6744199137",
+   "author": "Peter Thomas Hughes · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "A “swipe-based design—like TikTok, but for your soul”, in which “you scroll through the Bible one verse at a time”, with commentaries, cross-references and the day’s lectionary readings.",
+   "application": "A verse feed can sit on a lectionary and on the church’s commentators; say where each card comes from.",
+   "limits": "A small app with few ratings; the listing only."
+  },
+  {
+   "key": "verity-store",
+   "title": "Verity: Bible Verse Daily (App Store listing)",
+   "url": "https://apps.apple.com/us/app/-/id6758253283",
+   "author": "Louis Derrien · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "Offers daily verses “through an engaging, infinite scroll experience—like your favorite social apps, but for your spiritual growth”.",
+   "application": "Store listings present infinite scroll as a virtue; ask what it does to the end of a reading.",
+   "limits": "A small app with few ratings; the listing only."
+  },
+  {
+   "key": "verses-daily-store",
+   "title": "Verses: Daily Bible (App Store listing)",
+   "url": "https://apps.apple.com/us/app/-/id6794246809",
+   "author": "Weiyanda (Shanghai) Information Technology Co., Ltd. · Apple App Store (US)",
+   "kind": "Practice",
+   "shows": "Invites people to “Swipe through a quiet, distraction-free feed of Bible verses — one at a time”, each in its own layout and colour, with a random mode.",
+   "application": "A calm feed is still a feed: decide whether the verses come in order and where it ends.",
+   "limits": "A new app with few ratings; the listing only."
+  },
+  {
+   "key": "youversion-guided-current",
+   "title": "Android: Guided Scripture",
+   "url": "https://help.youversion.com/l/en/article/egc89iwagi-guided-scripture-android",
+   "author": "YouVersion Support",
+   "kind": "Product documentation",
+   "shows": "Documents vertical section navigation and a combination of video, devotion, Scripture and prayer.",
+   "application": "Compare mixed-media pacing and completion semantics.",
+   "limits": "Documentation, not a captured UI or outcome study."
+  },
+  {
+   "key": "christianfm-youversion",
+   "title": "Are you getting the most from your Bible app?",
+   "url": "https://christianfm.com/are-you-getting-the-most-from-your-bible-app/",
+   "author": "Christian FM · undated guide to YouVersion",
+   "kind": "Third-party analysis",
+   "shows": "Says that from the Verse of the Day you can “read the full chapter the verse is found in”, and that “You can heart, comment on, or share the verse of the day”.",
+   "application": "The most widely used Bible app puts a route to the chapter and social reactions on its daily verse card.",
+   "limits": "A third-party guide; the current app was not observed for this page."
+  },
+  {
+   "key": "glorify-stepper-observed",
+   "title": "Glorify: one verse per screen, with a step bar",
+   "url": "https://missional.design/examples/glorify-verse-stepper/",
+   "author": "Glorify · iOS app, screenshot 28 August 2025 (in this reference)",
+   "kind": "Observed interface",
+   "shows": "A short passage shown one verse per screen under a segmented progress bar, like a story, with a close button.",
+   "application": "A finite set with its position in view is the shape of a story; how the reader moves between verses was not recorded.",
+   "limits": "A still image; gestures and what follows the last verse were not tested."
+  },
+  {
+   "key": "raskin-bbc",
+   "title": "Social media apps are “deliberately” addictive to users",
+   "url": "https://www.bbc.com/news/technology-44640959",
+   "author": "Hilary Andersson · BBC Panorama, 3 July 2018",
+   "kind": "Research",
+   "shows": "Aza Raskin, who designed infinite scroll in 2006, says “If you don’t give your brain time to catch up with your impulses … you just keep scrolling”, and that he did not recognise how addictive it could be.",
+   "application": "An endless feed is built to remove the moment of choosing to go on; give the reader that moment back.",
+   "limits": "A designer’s reflection reported in a news programme, not a study."
+  },
+  {
+   "key": "rixen-loop",
+   "title": "The loop and reasons to break it: investigating infinite scrolling behaviour in social media applications and reasons to stop",
+   "url": "https://www.uni-ulm.de/fileadmin/website_uni_ulm/iui.inst.100/1-hci/hci-paper/2023/4-TheLoopAndHowToBreakIT.pdf",
+   "author": "Jan Ole Rixen and colleagues (Ulm University, TU Darmstadt) · Proc. ACM HCI 7 (MobileHCI), 2023",
+   "kind": "Research",
+   "shows": "Infinite scrolling “has been reported to make users feel like they are being caught in a loop, regretfully elongating SM sessions”; in a one-week field study (N=46), “most reasons to break SM sessions were not related to the app but the user’s general context”.",
+   "application": "People stop scrolling because life interrupts, not because the feed lets them go; build the stop into the reading.",
+   "limits": "Social media apps, a small sample and one week; not Bible apps."
+  },
+  {
+   "key": "nguyen-short-video",
+   "title": "Large meta-analysis links TikTok and Instagram Reels to poorer cognitive and mental health",
+   "url": "https://www.psypost.org/large-meta-analysis-links-tiktok-and-instagram-reels-to-poorer-cognitive-and-mental-health/",
+   "author": "PsyPost · reporting Nguyen et al., Psychological Bulletin 151(9), 2025",
+   "kind": "Research",
+   "shows": "Across 71 studies with 98,299 participants, “higher levels of use were most consistently linked to poorer attention span and reduced inhibitory control”; the authors note that “The majority of the studies analyzed were cross-sectional”.",
+   "application": "Heavy short-form video use goes with weaker attention; a Bible feed that copies the format should not assume it is neutral.",
+   "limits": "Correlational, mostly self-reported and about video platforms, not verse feeds; reported through a news summary."
+  },
+  {
+   "key": "chiossi-short-video",
+   "title": "Short-form videos degrade our capacity to retain intentions: effect of context switching on prospective memory",
+   "url": "https://arxiv.org/abs/2302.03714",
+   "author": "Francesco Chiossi, Luke Haliburton, Changkun Ou, Andreas Butz and Albrecht Schmidt (LMU Munich) · CHI 2023; arXiv:2302.03714",
+   "kind": "Research",
+   "shows": "In an experiment with 60 people, “the TikTok condition significantly degraded the users’ performance” on a task of remembering an intention across interruptions; Twitter and YouTube did not.",
+   "application": "Rapid switching between unrelated items is what costs attention; cards in order switch less than a shuffled feed.",
+   "limits": "A lab study with a small sample, about video, not text."
+  },
+  {
+   "key": "tiktok-teen-limit",
+   "title": "New features for teens and families on TikTok",
+   "url": "https://newsroom.tiktok.com/en-us/new-features-for-teens-and-families-on-tiktok-us",
+   "author": "TikTok Newsroom · March 2023",
+   "kind": "Practice",
+   "shows": "Accounts of people under 18 get a daily limit; when it is reached they enter a passcode, “requiring them to make an active decision to extend that time”.",
+   "application": "Even the platform that popularised the endless feed adds a point where going on is a decision; a Bible app can make that point the end of the passage.",
+   "limits": "A company’s description of its own feature; its effect was not tested here."
+  },
+  {
+   "key": "koukl-verse",
+   "title": "Never read a Bible verse",
+   "url": "https://www.str.org/w/never-read-a-bible-verse",
+   "author": "Greg Koukl · Stand to Reason",
+   "kind": "Theology",
+   "shows": "“Never read a Bible verse. … Instead, always read a paragraph at least”, because “Meaning always flows from the top down, from the larger units to the smaller units”.",
+   "application": "A popular evangelical rule of thumb for reading in context; put the paragraph one tap from every card.",
+   "limits": "An apologist’s teaching article; one approach to interpretation among several."
+  },
+  {
+   "key": "lectio",
+   "title": "Introduction to lectio divina",
+   "url": "https://theology.wp.st-andrews.ac.uk/2018/03/07/introduction-to-lectio-divina/",
+   "author": "University of St Andrews, School of Divinity",
+   "kind": "Theology",
+   "shows": "Lectio divina reads a short passage slowly and repeatedly, moving from reading to meditation, prayer and contemplation.",
+   "application": "Small units have a long devotional use; support repetition and pause rather than speed.",
+   "limits": "A description of practice, not a study."
+  },
+  {
+   "key": "fee-stuart",
+   "title": "Gordon Fee and Douglas Stuart, How to Read the Bible for All Its Worth",
+   "url": "https://www.goodreads.com/work/quotes/420678",
+   "author": "Zondervan, 4th edition 2014 (quotations listing)",
+   "kind": "Theology",
+   "shows": "Argues that context and genre govern meaning: a text cannot mean what it could never have meant for its first readers.",
+   "application": "Never strand a verse without a route to its passage and book.",
+   "limits": "A widely used evangelical introduction to interpretation; one approach among several."
+  },
+  {
+   "key": "wcag-251",
+   "title": "Understanding SC 2.5.1: Pointer Gestures",
+   "url": "https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures.html",
+   "author": "Web Accessibility Initiative · W3C",
+   "kind": "Accessibility",
+   "shows": "“Not everyone can perform complex and multi-touch gestures”; “Provide single-point operation for all functions.”",
+   "application": "Every swipe between cards or stories needs a button or a tap that does the same.",
+   "limits": "Level A for web content; apply the same intent in native apps."
+  },
+  {
+   "key": "wcag-257",
+   "title": "Understanding SC 2.5.7: Dragging Movements",
+   "url": "https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html",
+   "author": "Web Accessibility Initiative · W3C",
+   "kind": "Accessibility",
+   "shows": "“Don’t rely on dragging for user actions.”",
+   "application": "A feed moved only by dragging needs Previous and Next.",
+   "limits": "Level AA for web content."
+  },
+  {
+   "key": "wcag-233",
+   "title": "Understanding SC 2.3.3: Animation from Interactions",
+   "url": "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html",
+   "author": "Web Accessibility Initiative · W3C",
+   "kind": "Accessibility",
+   "shows": "“Support user preferences for motion, and eliminate unnecessary motion effects.”",
+   "application": "Honour reduced motion: cards and pages can change without sliding.",
+   "limits": "Level AAA; a strong target."
+  },
+  {
+   "key": "wcag-222",
+   "title": "Understanding SC 2.2.2: Pause, Stop, Hide",
+   "url": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide",
+   "author": "W3C",
+   "kind": "Accessibility",
+   "shows": "Anything that moves or auto-updates for more than five seconds alongside other content needs a way to pause, stop or hide it.",
+   "application": "Auto-advancing verses, read-along and one-word display all need a visible pause.",
+   "limits": "A Level A criterion for web content; apply the same intent in native apps."
+  },
+  {
+   "key": "apg-feed",
+   "title": "Feed pattern",
+   "url": "https://www.w3.org/WAI/ARIA/apg/patterns/feed/",
+   "author": "Web Accessibility Initiative · W3C ARIA Authoring Practices Guide",
+   "kind": "Accessibility",
+   "shows": "A feed is “a dynamic list of articles that often appears to scroll infinitely”, with a contract that lets screen reader users “jump forward and backward by article”.",
+   "application": "Mark up a card feed as a feed of articles, so screen readers can move card by card and know where they are.",
+   "limits": "Guidance for the web; native platforms have their own equivalents."
+  },
+  {
+   "key": "hutchings",
+   "title": "Design and the digital Bible: persuasive technology and religious reading",
+   "url": "https://doi.org/10.1080/13537903.2017.1298903",
+   "author": "Tim Hutchings · Journal of Contemporary Religion 32(2), 2017",
+   "kind": "Research",
+   "shows": "Analyses YouVersion and GloBible as persuasive technologies designed to train evangelical reading habits.",
+   "application": "Ask what reading habit each mode trains, not only whether it is used.",
+   "limits": "Design analysis of two apps; not a study of readers."
+  }
+ ],
+ "review": {
+  "status": "draft, waiting for review",
+  "what": "The reading of verses that change meaning out of their setting (Ephesians 5:22, Jeremiah 29:11, Philippians 4:13, Malachi 3:10 and others) and how the shuffled feed presents them, the use of research on infinite scroll and short-form video, which is about social platforms rather than Bible apps, the accessibility guidance for swiped feeds and stories, and the claim that cards in order can serve new readers and people who find long text hard",
+  "needs": [
+   "biblical studies and hermeneutics",
+   "attention and digital wellbeing research",
+   "accessibility, including screen reader and switch users",
+   "pastoral care"
+  ],
+  "since": "23 October 2026",
+  "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/verse-feed/"
+ },
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

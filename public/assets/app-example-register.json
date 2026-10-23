@@ -147,7 +147,8 @@
       "reading-artifacts",
       "choose-help",
       "progress-and-streaks",
-      "optional-game-elements"
+      "optional-game-elements",
+      "verse-feed"
     ],
     "version": "Not stated by publisher",
     "credit": "HelloBible · interface and imagery remain the rights holders’ property."
@@ -281,7 +282,8 @@
     "patterns": [
       "intent-controls",
       "choose-help",
-      "generated-practice"
+      "generated-practice",
+      "meeting-the-person"
     ],
     "version": "Web interface observed on the capture date",
     "credit": "Lumen Bible · interface and imagery remain the rights holders’ property."
@@ -863,7 +865,8 @@
     "decision": "A verse at a time slows reading down and suits meditation on a short passage. The step bar keeps the passage boundary in view; the rest of the chapter is out of sight.",
     "limit": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
     "patterns": [
-      "how-much-text"
+      "how-much-text",
+      "verse-feed"
     ],
     "version": "Not recorded",
     "credit": "Glorify · interface and imagery remain the rights holders’ property.",
@@ -1689,7 +1692,8 @@
     "limit": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
     "patterns": [
       "check-ins-and-assessments",
-      "first-use"
+      "first-use",
+      "meeting-the-person"
     ],
     "version": "Not recorded",
     "credit": "Abide · interface and imagery remain the rights holders’ property.",
@@ -2158,7 +2162,8 @@
     "limit": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
     "patterns": [
       "check-ins-and-assessments",
-      "first-use"
+      "first-use",
+      "meeting-the-person"
     ],
     "version": "Not recorded",
     "credit": "Bible BFF · interface and imagery remain the rights holders’ property.",
@@ -2280,7 +2285,8 @@
     "decision": "Giving a reason and an opt-out is good practice. Say more precisely what the answer changes; “to interact with you better” could mean almost anything.",
     "limit": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
     "patterns": [
-      "check-ins-and-assessments"
+      "check-ins-and-assessments",
+      "meeting-the-person"
     ],
     "version": "2.7.2",
     "credit": "HelloBible · interface and imagery remain the rights holders’ property.",
@@ -2302,7 +2308,8 @@
     "patterns": [
       "check-ins-and-assessments",
       "ai-persona",
-      "ai-memory"
+      "ai-memory",
+      "meeting-the-person"
     ],
     "version": "2.7.2",
     "credit": "HelloBible · interface and imagery remain the rights holders’ property.",
