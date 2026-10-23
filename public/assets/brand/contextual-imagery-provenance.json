@@ -23,7 +23,7 @@
         "brand/assets/rock-mark-512.png",
         "research/design-directions/editorial-refinement/material-study/glow-more/hero-dark.png"
       ],
-      "prompt_summary": "Bright-white studio sheet of dialogue bubbles, magnifying lens and wayfinding signpost; familiar silhouettes in approved light-blue silicon material, no biblical icon clich\u00e9s.",
+      "prompt_summary": "Bright-white studio sheet of dialogue bubbles, magnifying lens and wayfinding signpost; familiar silhouettes in approved light-blue silicon material, no biblical icon clichés.",
       "status": "Generated concept; visually inspected; not documentary; no production or publication clearance implied"
     },
     {
@@ -200,6 +200,37 @@
       "fictional": true,
       "prompt_file": "research/design-directions/editorial-refinement/icon-surface-v12/prompts.json",
       "usage": "Topic-specific decision guide illustration; recognisable icon silhouettes with subtle surface character"
+    },
+    {
+      "file": "missional-design/public/assets/editorial/img/tv-tower-glass-grid.webp",
+      "source": "Unsplash, Peter Beke, https://unsplash.com/photos/qOc3xteb5Ng",
+      "licence": "Unsplash License (\"Free to use under the Unsplash License\"; not Unsplash+)",
+      "status": "Licensed photograph, resized to 2000 px; credited in the footer. Rechecked on the photo page 23 Oct 2026; full-resolution original in bible-faith-patterns research/design-directions/photography-2026-10-23/full/; see credits.md there.",
+      "sha256": "dc5772bb208ad64e7808528df9c45e4a06ebfc8dec096d16b72f852b058e5bc8",
+      "date": "2026-10-23"
+    },
+    {
+      "file": "missional-design/public/assets/editorial/img/chapel-light-from-above.webp",
+      "source": "Unsplash, Daniel Miksha, https://unsplash.com/photos/NGVKYnqYtK4 (a Lutheran chapel in Helsinki, per the page)",
+      "licence": "Unsplash License (not Unsplash+)",
+      "status": "Licensed photograph, resized to 2000 px; one small seated figure, not prominent; credited in the footer. Rechecked on the photo page 23 Oct 2026; full-resolution original in bible-faith-patterns research/design-directions/photography-2026-10-23/full/; see credits.md there.",
+      "sha256": "162eb40e88a843b0fe34de93a7ceb18ae58169f7476b076b114164be551a6626",
+      "date": "2026-10-23"
+    },
+    {
+      "file": "missional-design/public/assets/editorial/img/spree-tv-tower-morning.webp",
+      "source": "Pexels, Meike, https://www.pexels.com/photo/33482395/",
+      "licence": "Pexels License (label \"Free\")",
+      "status": "Licensed photograph, resized to 1600 px wide; credited in the footer. Rechecked on the photo page 23 Oct 2026; full-resolution original in bible-faith-patterns research/design-directions/photography-2026-10-23/full/; see credits.md there.",
+      "sha256": "d74457ad41487ffd90fdcfaf08bea08fb25eb5d36b840e991968c20e6f5c9267",
+      "date": "2026-10-23"
+    },
+    {
+      "file": "missional-design/public/assets/editorial/img/hero-window-light.webp and hero-window-dark.webp",
+      "source": "Cut from the approved reflected-light render (missional-design public/assets/reflected-light/hero-ground.webp, via study asset b-specimen-wide.webp), left of the stone; mirrored; levels stretched by research/design-directions/editorial-study-2026-10-23/tools/build-hero-window.py",
+      "status": "Digital rendering made for Missional by Design; no new generation",
+      "sha256": "764dab893c4ff71a04d3e408b8e1cf00a72d0974c22cf142f4f8389d7d61fd10",
+      "date": "2026-10-23"
     }
   ]
 }

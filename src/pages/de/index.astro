@@ -1,5 +1,9 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import ReflectedHome from '../../components/ReflectedHome.astro';
+import EditorialLayout from '../../layouts/EditorialLayout.astro';
+import EditorialHome from '../../components/EditorialHome.astro';
+const credits = [
+  'Fotos: Daniel Miksha (Unsplash), Meike (Pexels).',
+  'Fensterlicht, Siliziumstein und Nachbarschaftsfilm: digitale Renderings für Missional by Design. App-Bildschirme: aus den Arbeitsbeispielen.',
+];
 ---
-<BaseLayout lang="de" title="Missional by Design" description="Christliche Reflexion und praktische Werkzeuge für einen sich wandelnden Kontext. Prinzipien, ein missionaler Canvas und Gestaltungsoptionen für Bibel- und Glaubensprodukte."><ReflectedHome lang="de" /></BaseLayout>
+<EditorialLayout lang="de" title="Missional by Design" description="Christliche Reflexion und praktische Werkzeuge für einen sich wandelnden Kontext. Prinzipien, ein missionaler Canvas und Gestaltungsoptionen für Bibel- und Glaubensprodukte." credits={credits}><EditorialHome lang="de" /></EditorialLayout>
