@@ -76,7 +76,8 @@
    "decision": "A home screen can connect a short Scripture encounter with further practices. Explain progress indicators without implying that a number measures faith or wellbeing.",
    "limits": "This is a promotional mockup, not a live app capture. The flame’s precise meaning, central action, chat output, storage behaviour and safeguarding responses were not tested.",
    "deep_dives": [
-    "progress-and-streaks"
+    "progress-and-streaks",
+    "verse-feed"
    ]
   },
   {
@@ -145,7 +146,9 @@
    "observation": "An optional onboarding step offers curiosity or skepticism, beginning or returning, growth, and deeper study. A Skip control is visible; using it opened the home screen without choosing a faith category.",
    "decision": "Offer a low-pressure way to state current intent. Experience, belief and task depth are separate facets; do not turn one onboarding answer into a permanent spiritual ranking.",
    "limits": "Necessary-only service choices were used. Subsequent personalised output, preference persistence, accessibility and mobile behaviour were not evaluated. The labels are the provider’s categories, not validated user segments.",
-   "deep_dives": []
+   "deep_dives": [
+    "meeting-the-person"
+   ]
   },
   {
    "app": "Lumen Bible",
@@ -466,7 +469,8 @@
    "decision": "A verse at a time slows reading down and suits meditation on a short passage. The step bar keeps the passage boundary in view; the rest of the chapter is out of sight.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
    "deep_dives": [
-    "how-much-text"
+    "how-much-text",
+    "verse-feed"
    ]
   },
   {
@@ -997,7 +1001,8 @@
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
    "deep_dives": [
     "check-ins-and-assessments",
-    "first-use"
+    "first-use",
+    "meeting-the-person"
    ]
   },
   {
@@ -1305,7 +1310,8 @@
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
    "deep_dives": [
     "check-ins-and-assessments",
-    "first-use"
+    "first-use",
+    "meeting-the-person"
    ]
   },
   {
@@ -1385,7 +1391,8 @@
    "decision": "Giving a reason and an opt-out is good practice. Say more precisely what the answer changes; “to interact with you better” could mean almost anything.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
    "deep_dives": [
-    "check-ins-and-assessments"
+    "check-ins-and-assessments",
+    "meeting-the-person"
    ]
   },
   {
@@ -1400,7 +1407,8 @@
    "deep_dives": [
     "check-ins-and-assessments",
     "ai-persona",
-    "ai-memory"
+    "ai-memory",
+    "meeting-the-person"
    ]
   },
   {

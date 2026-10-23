@@ -527,6 +527,64 @@
    "earlier_patterns": []
   },
   {
+   "slug": "meeting-the-person",
+   "url": "https://missional.design/patterns/meeting-the-person/",
+   "api": "https://missional.design/api/deep-dives/meeting-the-person.json",
+   "title": "Meeting the person where they are",
+   "question": "How should the assistant meet each person where they are?",
+   "options": [
+    "The same for everyone (Familiar convention)",
+    "Reads the message (Borrowed)",
+    "Asks before assuming (Exploratory)",
+    "Preferences you set (Observed)",
+    "Assumed, and shown (Exploratory)",
+    "A profile it keeps (Leave it out)"
+   ],
+   "decide": "What does this assistant assume about the person in front of it, where does that come from, and can they see it, correct it and make it forget?",
+   "review": {
+    "status": "draft, waiting for review",
+    "what": "The five people’s questions and the replies written for them, the short summaries of historical scholarship and of Reformed and Catholic teaching on the resurrection, the reply to someone hurt by a church, the treatment of stage models (Engel, Fowler), and the reading of GDPR Article 9 and inferred special-category data",
+    "needs": [
+     "pastoral care",
+     "evangelism and apologetics with sceptics and enquirers",
+     "data protection",
+     "theology from Catholic, Orthodox, Lutheran, Baptist and Pentecostal traditions, each read by its own members"
+    ],
+    "since": "19 October 2026",
+    "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/meeting-the-person/"
+   },
+   "earlier_patterns": []
+  },
+  {
+   "slug": "verse-feed",
+   "url": "https://missional.design/patterns/verse-feed/",
+   "api": "https://missional.design/api/deep-dives/verse-feed.json",
+   "title": "Feeds, cards and stories",
+   "question": "How should a reader move from one verse to the next?",
+   "options": [
+    "The page (Familiar convention)",
+    "Pages to turn (Familiar convention)",
+    "Cards in order (Observed)",
+    "A daily set of stories (Observed)",
+    "A feed in order, without end (Observed)",
+    "A shuffled, endless feed (Leave it out)"
+   ],
+   "decide": "How does a reader get from one verse to the next here, how far is each verse from its context, and where does the reading end?",
+   "review": {
+    "status": "draft, waiting for review",
+    "what": "The reading of verses that change meaning out of their setting (Ephesians 5:22, Jeremiah 29:11, Philippians 4:13, Malachi 3:10 and others) and how the shuffled feed presents them, the use of research on infinite scroll and short-form video, which is about social platforms rather than Bible apps, the accessibility guidance for swiped feeds and stories, and the claim that cards in order can serve new readers and people who find long text hard",
+    "needs": [
+     "biblical studies and hermeneutics",
+     "attention and digital wellbeing research",
+     "accessibility, including screen reader and switch users",
+     "pastoral care"
+    ],
+    "since": "23 October 2026",
+    "offer_review": "https://missional.design/feedback/?type=Review&page=/patterns/verse-feed/"
+   },
+   "earlier_patterns": []
+  },
+  {
    "slug": "children-and-ai",
    "url": "https://missional.design/patterns/children-and-ai/",
    "api": "https://missional.design/api/deep-dives/children-and-ai.json",

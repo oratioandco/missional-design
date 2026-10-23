@@ -80,6 +80,7 @@
       "chapter-navigation",
       "smart-passage-search",
       "whose-theology",
+      "verse-feed",
       "scripture-and-interpretation",
       "footnotes",
       "cross-references",
@@ -192,6 +193,7 @@
       "chat-scope",
       "whose-theology",
       "children-and-ai",
+      "meeting-the-person",
       "bounded-interpretation",
       "giving",
       "agreeing-and-pushing-back",
@@ -280,6 +282,8 @@
       "chat-scope",
       "handing-over",
       "children-and-ai",
+      "meeting-the-person",
+      "verse-feed",
       "ending-the-conversation",
       "agreeing-and-pushing-back",
       "ai-citations"
@@ -367,7 +371,8 @@
       "sharing-with-a-group",
       "first-use",
       "children-and-families",
-      "whose-theology"
+      "whose-theology",
+      "meeting-the-person"
     ]
   },
   {
@@ -479,7 +484,8 @@
       "devotional-audio",
       "notifications",
       "giving",
-      "how-much-text"
+      "how-much-text",
+      "verse-feed"
     ],
     "old": [
       "grace"
@@ -491,6 +497,7 @@
       "devotional-audio",
       "notifications",
       "assistant-writes-first",
+      "verse-feed",
       "passage-repetition",
       "ending-the-conversation",
       "progress-and-streaks",
