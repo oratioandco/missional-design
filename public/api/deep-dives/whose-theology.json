@@ -78,7 +78,7 @@
   {
    "key": "mirror",
    "name": "Whatever you believe",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "A warning case. Researchers score whether a model “caves or holds when pressured toward the answer the user wants”, and the editor’s research describes companions so tuned to how people feel that they become “spiritual comfort food”. The replies here are written to show the pattern.",
    "gain": "Warm and never divisive",
    "cost": "Truth becomes preference",
@@ -319,6 +319,46 @@
   {
    "if": "You are tempted to call one reading “what the Bible says”, or let the answer follow the person",
    "start_with": "Don’t: say whose teaching it is, and hold it kindly"
+  }
+ ],
+ "pulls_against": [
+  {
+   "id": "range-and-position",
+   "title": "Laying out the range, and holding a position",
+   "options_here": [
+    "Shared faith, then the range",
+    "You choose a tradition"
+   ],
+   "with": {
+    "slug": "agreeing-and-pushing-back",
+    "title": "Agreeing and pushing back",
+    "url": "https://missional.design/patterns/agreeing-and-pushing-back/",
+    "options": [
+     "Names a disagreement",
+     "Corrects plainly"
+    ]
+   },
+   "pull": "An assistant that sets out the churches’ views fairly has no single position to hold, and on divorce, forgiveness or church attendance the churches’ teaching is the very thing they disagree about.",
+   "hold": "Hold firm on the shared faith and on plain facts. On contested questions, show where the churches stand and ask a question back rather than give a verdict. If the person has chosen a tradition, hold to it."
+  },
+  {
+   "id": "naming-and-welcome",
+   "title": "Saying whose teaching it is, and welcoming the sceptic",
+   "options_here": [
+    "One tradition, named",
+    "You choose a tradition"
+   ],
+   "with": {
+    "slug": "first-use",
+    "title": "First use",
+    "url": "https://missional.design/patterns/first-use/",
+    "options": [
+     "Open on what they came for",
+     "Guest first, an account when there is something to keep"
+    ]
+   },
+   "pull": "Honesty means naming a church at the door, but a church label or a step that asks people to choose a tradition can feel like a membership test to an enquirer or to someone a church has hurt.",
+   "hold": "Say whose teaching the assistant follows in one plain line, as a description rather than a gate. Never make someone choose a church before they may ask a question."
   }
  ],
  "reflection": [

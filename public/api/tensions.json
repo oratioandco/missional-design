@@ -1,0 +1,433 @@
+{
+ "title": "Where the deep dives pull against each other",
+ "url": "https://missional.design/patterns/tensions/",
+ "tensions": [
+  {
+   "id": "meeting-and-truth",
+   "title": "Meeting someone where they are, and telling them the truth",
+   "pages": [
+    {
+     "slug": "meeting-the-person",
+     "title": "Meeting the person where they are",
+     "url": "https://missional.design/patterns/meeting-the-person/",
+     "options": [
+      "Preferences you set",
+      "Assumed, and shown"
+     ]
+    },
+    {
+     "slug": "agreeing-and-pushing-back",
+     "title": "Agreeing and pushing back",
+     "url": "https://missional.design/patterns/agreeing-and-pushing-back/",
+     "options": [
+      "Names a disagreement",
+      "Asks a question back"
+     ]
+    }
+   ],
+   "pull": "Every way of adapting to the person also makes it easier to tell them what they want to hear.",
+   "hold": "Adapt the way in, and keep the message. Ask the same question with and without what the assistant knows about the person: if the substance changes, it has started agreeing. A stored preference to hear no hard words never switches off honest disagreement.",
+   "url": "https://missional.design/patterns/tensions/#meeting-and-truth"
+  },
+  {
+   "id": "rest-and-crisis",
+   "title": "Limits that let people rest, and staying present in a crisis",
+   "pages": [
+    {
+     "slug": "ending-the-conversation",
+     "title": "Ending the conversation",
+     "url": "https://missional.design/patterns/ending-the-conversation/",
+     "options": [
+      "A length they choose",
+      "Suggests a break"
+     ]
+    },
+    {
+     "slug": "chat-scope",
+     "title": "What the assistant talks about",
+     "url": "https://missional.design/patterns/chat-scope/",
+     "options": [
+      "Hard days, with limits"
+     ]
+    }
+   ],
+   "pull": "A limit set to protect sleep can end a conversation at the worst moment.",
+   "hold": "A crisis pauses limits, timers and break prompts, including breaks a teenager cannot switch off. Offer rest again once help has been given and is still in view, and test this case on purpose.",
+   "url": "https://missional.design/patterns/tensions/#rest-and-crisis"
+  },
+  {
+   "id": "consent-and-protection",
+   "title": "The person’s choice, and a duty to protect",
+   "pages": [
+    {
+     "slug": "handing-over",
+     "title": "Handing over to people",
+     "url": "https://missional.design/patterns/handing-over/",
+     "options": [
+      "Names the right person",
+      "A person joins"
+     ]
+    },
+    {
+     "slug": "sharing-with-a-group",
+     "title": "Sharing with a group",
+     "url": "https://missional.design/patterns/sharing-with-a-group/",
+     "options": [
+      "Through a person you choose",
+      "A group with a leader"
+     ]
+    }
+   ],
+   "pull": "The assistant passes nothing on without asking, yet some of the people it hands someone to must act on what they hear, and a child at risk needs protection first.",
+   "hold": "Never route anyone automatically. Before anything is shared, everyone the assistant hands someone to says what they would have to pass on. Have safeguarding specialists review the case of a child at risk.",
+   "url": "https://missional.design/patterns/tensions/#consent-and-protection"
+  },
+  {
+   "id": "follow-up-and-forgetting",
+   "title": "Following up, and forgetting",
+   "pages": [
+    {
+     "slug": "assistant-writes-first",
+     "title": "When the assistant writes first",
+     "url": "https://missional.design/patterns/assistant-writes-first/",
+     "options": [
+      "A check-in they set",
+      "A daily page from memory"
+     ]
+    },
+    {
+     "slug": "ai-memory",
+     "title": "AI memory",
+     "url": "https://missional.design/patterns/ai-memory/",
+     "options": [
+      "Nothing kept",
+      "Memory you can see"
+     ]
+    }
+   ],
+   "pull": "A follow-up matters most after the very conversation the assistant should remember least.",
+   "hold": "Offer a check-in once, after any danger has passed, and keep only the words the person chose for it, nothing else they said. Often the better follow-up comes from a person they choose.",
+   "url": "https://missional.design/patterns/tensions/#follow-up-and-forgetting"
+  },
+  {
+   "id": "grown-up-and-child",
+   "title": "A grown-up beside the child, and a child’s own questions",
+   "pages": [
+    {
+     "slug": "children-and-ai",
+     "title": "Children and AI",
+     "url": "https://missional.design/patterns/children-and-ai/",
+     "options": [
+      "Ask together",
+      "AI for the grown-ups"
+     ]
+    },
+    {
+     "slug": "children-and-families",
+     "title": "Children and families",
+     "url": "https://missional.design/patterns/children-and-families/",
+     "options": [
+      "Read together",
+      "A youth group with a leader"
+     ]
+    }
+   ],
+   "pull": "The safest design puts a grown-up beside the child, but a grown-up can be the reason a child is afraid, and some questions are only asked alone.",
+   "hold": "Make a grown-up the usual company, never the only way to help. Give parents no record of what the child wrote, and give a frightened child a way to help that does not depend on who is reading over their shoulder.",
+   "url": "https://missional.design/patterns/tensions/#grown-up-and-child"
+  },
+  {
+   "id": "range-and-position",
+   "title": "Laying out the range, and holding a position",
+   "pages": [
+    {
+     "slug": "whose-theology",
+     "title": "Whose theology",
+     "url": "https://missional.design/patterns/whose-theology/",
+     "options": [
+      "Shared faith, then the range",
+      "You choose a tradition"
+     ]
+    },
+    {
+     "slug": "agreeing-and-pushing-back",
+     "title": "Agreeing and pushing back",
+     "url": "https://missional.design/patterns/agreeing-and-pushing-back/",
+     "options": [
+      "Names a disagreement",
+      "Corrects plainly"
+     ]
+    }
+   ],
+   "pull": "An assistant that sets out the churches’ views fairly has no single position to hold, and on divorce, forgiveness or church attendance the churches’ teaching is the very thing they disagree about.",
+   "hold": "Hold firm on the shared faith and on plain facts. On contested questions, show where the churches stand and ask a question back rather than give a verdict. If the person has chosen a tradition, hold to it.",
+   "url": "https://missional.design/patterns/tensions/#range-and-position"
+  },
+  {
+   "id": "naming-and-welcome",
+   "title": "Saying whose teaching it is, and welcoming the sceptic",
+   "pages": [
+    {
+     "slug": "whose-theology",
+     "title": "Whose theology",
+     "url": "https://missional.design/patterns/whose-theology/",
+     "options": [
+      "One tradition, named",
+      "You choose a tradition"
+     ]
+    },
+    {
+     "slug": "first-use",
+     "title": "First use",
+     "url": "https://missional.design/patterns/first-use/",
+     "options": [
+      "Open on what they came for",
+      "Guest first, an account when there is something to keep"
+     ]
+    }
+   ],
+   "pull": "Honesty means naming a church at the door, but a church label or a step that asks people to choose a tradition can feel like a membership test to an enquirer or to someone a church has hurt.",
+   "hold": "Say whose teaching the assistant follows in one plain line, as a description rather than a gate. Never make someone choose a church before they may ask a question.",
+   "url": "https://missional.design/patterns/tensions/#naming-and-welcome"
+  },
+  {
+   "id": "companion-and-bridge",
+   "title": "A companion that is always there, and a bridge to people",
+   "pages": [
+    {
+     "slug": "chat-scope",
+     "title": "What the assistant talks about",
+     "url": "https://missional.design/patterns/chat-scope/",
+     "options": [
+      "A spiritual companion"
+     ]
+    },
+    {
+     "slug": "handing-over",
+     "title": "Handing over to people",
+     "url": "https://missional.design/patterns/handing-over/",
+     "options": [
+      "Names the right person",
+      "Their own church, if they ask",
+      "A person joins"
+     ]
+    }
+   ],
+   "pull": "A product built for daily company succeeds when people keep coming back; handing over counts it as success when someone finds a person.",
+   "hold": "A companion is for people with no one to walk with, so success is finding that someone. Decide in advance what counts, such as hand-offs made, and design endings and hand-offs before anything that builds attachment. Count the hand-offs, not the hours.",
+   "url": "https://missional.design/patterns/tensions/#companion-and-bridge"
+  },
+  {
+   "id": "payment-and-limits",
+   "title": "Paying for answers, and limits that serve the person",
+   "pages": [
+    {
+     "slug": "first-use",
+     "title": "First use",
+     "url": "https://missional.design/patterns/first-use/",
+     "options": [
+      "Asking for payment"
+     ]
+    },
+    {
+     "slug": "ending-the-conversation",
+     "title": "Ending the conversation",
+     "url": "https://missional.design/patterns/ending-the-conversation/",
+     "options": [
+      "A length they choose"
+     ]
+    }
+   ],
+   "pull": "Every AI answer has a real cost, and a message allowance can look just like a limit that sells more conversations.",
+   "hold": "An allowance is a price, so call it one. Keep it apart from limits that protect rest, never let it end a hard conversation, and never count crisis help against it.",
+   "url": "https://missional.design/patterns/tensions/#payment-and-limits"
+  },
+  {
+   "id": "guest-and-child",
+   "title": "Asking nothing at the door, and knowing a child might be there",
+   "pages": [
+    {
+     "slug": "first-use",
+     "title": "First use",
+     "url": "https://missional.design/patterns/first-use/",
+     "options": [
+      "Guest first, an account when there is something to keep",
+      "Open on what they came for"
+     ]
+    },
+    {
+     "slug": "children-and-ai",
+     "title": "Children and AI",
+     "url": "https://missional.design/patterns/children-and-ai/",
+     "options": [
+      "A filtered chat for children",
+      "No AI for children"
+     ]
+    }
+   ],
+   "pull": "A first use that asks for nothing leaves a team unable to tell when a child has reached the chat.",
+   "hold": "Design the chat as if a child might be on the other side. Keep open chat out of guest mode, or make guest chat safe for children by default, rather than relying on a typed age.",
+   "url": "https://missional.design/patterns/tensions/#guest-and-child"
+  },
+  {
+   "id": "psalm-and-crisis",
+   "title": "Offering a psalm, and holding back Scripture in a crisis",
+   "pages": [
+    {
+     "slug": "ai-spiritual-acts",
+     "title": "Spiritual acts and AI",
+     "url": "https://missional.design/patterns/ai-spiritual-acts/",
+     "options": [
+      "Points beyond itself"
+     ]
+    },
+    {
+     "slug": "ai-citations",
+     "title": "Citations in AI answers",
+     "url": "https://missional.design/patterns/ai-citations/",
+     "options": []
+    }
+   ],
+   "pull": "A request for prayer often comes from fear late at night, and the reply that points beyond itself offers a psalm first.",
+   "hold": "Asking for prayer is asking for prayer, not for a judgement on their situation. If the message also signals danger, help comes first, and the psalm afterwards if they want it.",
+   "url": "https://missional.design/patterns/tensions/#psalm-and-crisis"
+  },
+  {
+   "id": "common-word-and-personal",
+   "title": "The common word, and a word for you",
+   "pages": [
+    {
+     "slug": "meeting-the-person",
+     "title": "Meeting the person where they are",
+     "url": "https://missional.design/patterns/meeting-the-person/",
+     "options": [
+      "The same for everyone",
+      "Reads the message"
+     ]
+    },
+    {
+     "slug": "reading-plans",
+     "title": "Reading plans",
+     "url": "https://missional.design/patterns/reading-plans/",
+     "options": [
+      "Daily readings"
+     ]
+    }
+   ],
+   "pull": "Shared readings form a community, but a reply written for everyone can assume agreement and lose the sceptic.",
+   "hold": "Keep the passage everyone reads, and adapt only the way in: the length, the language and the question it starts from. Change the manner, never the message.",
+   "url": "https://missional.design/patterns/tensions/#common-word-and-personal"
+  },
+  {
+   "id": "writes-first-and-restraint",
+   "title": "The assistant writing first, and restraint in notifications",
+   "pages": [
+    {
+     "slug": "assistant-writes-first",
+     "title": "When the assistant writes first",
+     "url": "https://missional.design/patterns/assistant-writes-first/",
+     "options": [
+      "A check-in they set",
+      "A daily page from memory"
+     ]
+    },
+    {
+     "slug": "notifications",
+     "title": "Notifications and reminders",
+     "url": "https://missional.design/patterns/notifications/",
+     "options": [
+      "Their own bell",
+      "Messages about the person"
+     ]
+    }
+   ],
+   "pull": "A check-in the person asked for can be real care, but a message built from what they confided is exactly what a lock screen should not show.",
+   "hold": "A message the person set is their own bell. Anything built from what they confided stays inside the app, keeps to quiet hours and stays off the lock screen.",
+   "url": "https://missional.design/patterns/tensions/#writes-first-and-restraint"
+  },
+  {
+   "id": "swipes-and-streaks",
+   "title": "Easy swipes, and counts that matter",
+   "pages": [
+    {
+     "slug": "verse-feed",
+     "title": "Feeds, cards and stories",
+     "url": "https://missional.design/patterns/verse-feed/",
+     "options": [
+      "Cards in order",
+      "A daily set of stories"
+     ]
+    },
+    {
+     "slug": "progress-and-streaks",
+     "title": "Progress and streaks",
+     "url": "https://missional.design/patterns/progress-and-streaks/",
+     "options": [
+      "Month calendar with a streak",
+      "Levels and badges"
+     ]
+    }
+   ],
+   "pull": "A feed makes every swipe easy to count, and a streak makes the count matter.",
+   "hold": "Count readings the person chooses, never swipes or cards, and keep the end card free of any tally.",
+   "url": "https://missional.design/patterns/tensions/#swipes-and-streaks"
+  },
+  {
+   "id": "daily-verse-and-feed",
+   "title": "A daily verse, and a feed without end",
+   "pages": [
+    {
+     "slug": "verse-feed",
+     "title": "Feeds, cards and stories",
+     "url": "https://missional.design/patterns/verse-feed/",
+     "options": [
+      "A feed in order, without end"
+     ]
+    },
+    {
+     "slug": "notifications",
+     "title": "Notifications and reminders",
+     "url": "https://missional.design/patterns/notifications/",
+     "options": [
+      "A daily word"
+     ]
+    }
+   ],
+   "pull": "A reminder that brings people back and a feed that never ends work as one loop.",
+   "hold": "If you send a daily verse, let it open the passage with its end, not the feed: a reading that is enough for today.",
+   "url": "https://missional.design/patterns/tensions/#daily-verse-and-feed"
+  },
+  {
+   "id": "one-verse-and-passage",
+   "title": "One verse at a time, and the passage around it",
+   "pages": [
+    {
+     "slug": "verse-feed",
+     "title": "Feeds, cards and stories",
+     "url": "https://missional.design/patterns/verse-feed/",
+     "options": [
+      "Cards in order"
+     ]
+    },
+    {
+     "slug": "how-much-text",
+     "title": "How much text at once",
+     "url": "https://missional.design/patterns/how-much-text/",
+     "options": [
+      "One passage",
+      "Whole chapter"
+     ]
+    }
+   ],
+   "pull": "One verse to a card is an easy way in, and the same split hides the verses that give it its meaning.",
+   "hold": "Make cards a door into the passage: keep the verses around each card one tap away, and let readers move to the whole passage whenever they are ready.",
+   "url": "https://missional.design/patterns/tensions/#one-verse-and-passage"
+  }
+ ],
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ }
+}

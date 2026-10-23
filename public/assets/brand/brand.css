@@ -241,6 +241,10 @@ body.paper .fg-place{grid-template-columns:1fr;max-width:760px}
 :root body.paper .cta:hover{background:#285c7b;color:#fff}
 :root body.paper .decide{background:#163950;color:#fff}
 :root body.paper .decide a{color:#d2e9fa}
+/* The worksheet button keeps dark ink on its white face; in dark mode the face is dark and the ink light. */
+:root body.paper .decide a.button-link{color:#191c1c}
+:root[data-theme=dark] body.paper .decide a.button-link{color:#d2e9fa}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]) body.paper .decide a.button-link{color:#d2e9fa}}
 :root body.paper .site-header nav a{min-height:36px;display:inline-flex;align-items:center}
 :root body.paper .subnav{background:var(--p-bg)}
 :root[data-theme=dark] body.paper{--mbd-paper:#102333;--mbd-card:#162e40;--mbd-ink:#e8f1f7;--mbd-muted:#b9cddd;--mbd-rule:#3c566a;--mbd-accent:#a7d2f0;--p-bg:#102333;--p-raised:#162e40;--p-surface:#183447;--p-fill:#203f53;--p-container:#294f66;--p-on-container:#e1eff9;--p-ink:#e8f1f7;--p-muted:#b9cddd;--p-rule:#3c566a;--p-link:#a7d2f0;--p-accent:#a7d2f0;--ink:#e8f1f7;--muted:#b9cddd;--blue:#a7d2f0;--paper:#102333;--soft:#183447;--line:#3c566a}

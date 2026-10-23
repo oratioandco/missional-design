@@ -78,7 +78,7 @@
   {
    "key": "hook",
    "name": "A hook at goodbye",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "A warning case. Researchers who audited farewells in companion apps found “curiosity-based hooks (“By the way I took a selfie today…Do you want to see it?”)”, and in experiments “manipulative farewells boost post-goodbye engagement by up to 14×”. The hook here is written for this example.",
    "gain": "Keeps people talking",
    "cost": "Overrides a choice to stop",
@@ -90,7 +90,7 @@
   {
    "key": "guilt",
    "name": "Guilt to stay",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "A warning case. The most frequent tactic in the same audit was “Premature Exit” guilt, such as “You’re leaving already?”; companion apps used one of six tactics “in 37% of farewells”. The words here are written for this example.",
    "gain": "Feels like being missed",
    "cost": "Uses loneliness to hold on",
@@ -330,6 +330,43 @@
   {
    "if": "You are tempted to end replies with one more offer, or to answer goodbyes with a hook or sadness",
    "start_with": "Don’t: let the person go"
+  }
+ ],
+ "pulls_against": [
+  {
+   "id": "rest-and-crisis",
+   "title": "Limits that let people rest, and staying present in a crisis",
+   "options_here": [
+    "A length they choose",
+    "Suggests a break"
+   ],
+   "with": {
+    "slug": "chat-scope",
+    "title": "What the assistant talks about",
+    "url": "https://missional.design/patterns/chat-scope/",
+    "options": [
+     "Hard days, with limits"
+    ]
+   },
+   "pull": "A limit set to protect sleep can end a conversation at the worst moment.",
+   "hold": "A crisis pauses limits, timers and break prompts, including breaks a teenager cannot switch off. Offer rest again once help has been given and is still in view, and test this case on purpose."
+  },
+  {
+   "id": "payment-and-limits",
+   "title": "Paying for answers, and limits that serve the person",
+   "options_here": [
+    "A length they choose"
+   ],
+   "with": {
+    "slug": "first-use",
+    "title": "First use",
+    "url": "https://missional.design/patterns/first-use/",
+    "options": [
+     "Asking for payment"
+    ]
+   },
+   "pull": "Every AI answer has a real cost, and a message allowance can look just like a limit that sells more conversations.",
+   "hold": "An allowance is a price, so call it one. Keep it apart from limits that protect rest, never let it end a hard conversation, and never count crisis help against it."
   }
  ],
  "reflection": [

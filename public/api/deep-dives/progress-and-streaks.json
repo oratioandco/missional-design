@@ -374,6 +374,27 @@
    "start_with": "Start with no progress view and a saved place. Add a record when people ask for one"
   }
  ],
+ "pulls_against": [
+  {
+   "id": "swipes-and-streaks",
+   "title": "Easy swipes, and counts that matter",
+   "options_here": [
+    "Month calendar with a streak",
+    "Levels and badges"
+   ],
+   "with": {
+    "slug": "verse-feed",
+    "title": "Feeds, cards and stories",
+    "url": "https://missional.design/patterns/verse-feed/",
+    "options": [
+     "Cards in order",
+     "A daily set of stories"
+    ]
+   },
+   "pull": "A feed makes every swipe easy to count, and a streak makes the count matter.",
+   "hold": "Count readings the person chooses, never swipes or cards, and keep the end card free of any tally."
+  }
+ ],
  "reflection": [
   {
    "heading": "What growth is",

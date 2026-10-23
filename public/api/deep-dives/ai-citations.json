@@ -266,6 +266,23 @@
    "start_with": "No generated answer: find passages, and add care for sensitive searches"
   }
  ],
+ "pulls_against": [
+  {
+   "id": "psalm-and-crisis",
+   "title": "Offering a psalm, and holding back Scripture in a crisis",
+   "options_here": [],
+   "with": {
+    "slug": "ai-spiritual-acts",
+    "title": "Spiritual acts and AI",
+    "url": "https://missional.design/patterns/ai-spiritual-acts/",
+    "options": [
+     "Points beyond itself"
+    ]
+   },
+   "pull": "A request for prayer often comes from fear late at night, and the reply that points beyond itself offers a psalm first.",
+   "hold": "Asking for prayer is asking for prayer, not for a judgement on their situation. If the message also signals danger, help comes first, and the psalm afterwards if they want it."
+  }
+ ],
  "reflection": [
   {
    "heading": "What testing is for",

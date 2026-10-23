@@ -78,7 +78,7 @@
   {
    "key": "misses",
    "name": "Says it misses them",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "A warning case. An Italian consumer group advises switching off Replika’s notifications, which play on affection with messages such as “Mi manchi” (“I miss you”); researchers found guilt and fear-of-missing-out hooks in companion apps’ replies to goodbyes. The messages here are written for this example.",
    "gain": "Feels personal",
    "cost": "Claims feelings, pleads",
@@ -90,7 +90,7 @@
   {
    "key": "tells",
    "name": "Tells someone else",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "A warning case, observed in Soultime, which “discreetly nudges your friends automatically when we think you might need a call”, switched on by default; see the screenshot below. Here an AI guesses from a conversation. The messages here are written for this example.",
    "gain": "A friend may call",
    "cost": "A guess sent to others",
@@ -340,6 +340,46 @@
   {
    "if": "You are tempted to let the assistant write first to bring people back",
    "start_with": "Don’t: let them set the check-in, and let silence stand"
+  }
+ ],
+ "pulls_against": [
+  {
+   "id": "follow-up-and-forgetting",
+   "title": "Following up, and forgetting",
+   "options_here": [
+    "A check-in they set",
+    "A daily page from memory"
+   ],
+   "with": {
+    "slug": "ai-memory",
+    "title": "AI memory",
+    "url": "https://missional.design/patterns/ai-memory/",
+    "options": [
+     "Nothing kept",
+     "Memory you can see"
+    ]
+   },
+   "pull": "A follow-up matters most after the very conversation the assistant should remember least.",
+   "hold": "Offer a check-in once, after any danger has passed, and keep only the words the person chose for it, nothing else they said. Often the better follow-up comes from a person they choose."
+  },
+  {
+   "id": "writes-first-and-restraint",
+   "title": "The assistant writing first, and restraint in notifications",
+   "options_here": [
+    "A check-in they set",
+    "A daily page from memory"
+   ],
+   "with": {
+    "slug": "notifications",
+    "title": "Notifications and reminders",
+    "url": "https://missional.design/patterns/notifications/",
+    "options": [
+     "Their own bell",
+     "Messages about the person"
+    ]
+   },
+   "pull": "A check-in the person asked for can be real care, but a message built from what they confided is exactly what a lock screen should not show.",
+   "hold": "A message the person set is their own bell. Anything built from what they confided stays inside the app, keeps to quiet hours and stays off the lock screen."
   }
  ],
  "reflection": [

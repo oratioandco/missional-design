@@ -19,7 +19,7 @@
    "key": "private",
    "name": "Between you and God",
    "provenance": "Leave it out",
-   "origin": "Leaving sharing out. Hallow’s help centre describes the private setting: an intention “will only be saved to your journal and not shared with others”. Here the whole app works that way and points people to those they know and to their own church.",
+   "origin": "Leaving sharing out, a sound default: the prayer deep dive recommends keeping requests on the device unless someone chooses to share. Hallow’s help centre describes the private setting: an intention “will only be saved to your journal and not shared with others”. Here the whole app works that way and points people to those they know and to their own church.",
    "gain": "Nothing to leak or misread",
    "cost": "No one prays with them",
    "makes_easier": "Nothing to leak, misread or answer badly.",
@@ -90,7 +90,7 @@
   {
    "key": "ranked",
    "name": "Ranked by prayer streaks",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "Observed in Pray.com’s Community Board, which lists “Active Streakers” with Praise and Remind buttons; see the screenshots below and the prayer deep dive. Shown here as something to leave out.",
    "gain": "Motivates while it lasts",
    "cost": "Prayer becomes a ranking",
@@ -343,6 +343,27 @@
   {
    "if": "You are tempted to rank or count",
    "start_with": "Don’t: no streaks, boards or public totals"
+  }
+ ],
+ "pulls_against": [
+  {
+   "id": "consent-and-protection",
+   "title": "The person’s choice, and a duty to protect",
+   "options_here": [
+    "Through a person you choose",
+    "A group with a leader"
+   ],
+   "with": {
+    "slug": "handing-over",
+    "title": "Handing over to people",
+    "url": "https://missional.design/patterns/handing-over/",
+    "options": [
+     "Names the right person",
+     "A person joins"
+    ]
+   },
+   "pull": "The assistant passes nothing on without asking, yet some of the people it hands someone to must act on what they hear, and a child at risk needs protection first.",
+   "hold": "Never route anyone automatically. Before anything is shared, everyone the assistant hands someone to says what they would have to pass on. Have safeguarding specialists review the case of a child at risk."
   }
  ],
  "reflection": [

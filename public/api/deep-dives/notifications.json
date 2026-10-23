@@ -90,7 +90,7 @@
   {
    "key": "ai",
    "name": "Messages about the person",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "A warning case. Soultime with Friends “discreetly nudges your friends automatically when we think you might need a call”; see the screenshot below. Companion apps answer goodbyes with guilt and fear-of-missing-out hooks in 37% of farewells, researchers found. The AI messages here are written for this example; they were not observed in a faith app.",
    "gain": "Feels personal",
    "cost": "A persona pleads and guesses",
@@ -126,8 +126,8 @@
    "text": "Send nothing from late evening to morning unless the person chose it, and when someone opens the app at night, put help within reach."
   },
   {
-   "heading": "No persona writes first",
-   "text": "An AI that says it has been thinking about someone, asks “Did I say something wrong?” or tells their friends they might need a call is using a voice that is not a person’s to bring them back. Leave it out."
+   "heading": "No persona writes first, unless the person set the message",
+   "text": "An AI that says it has been thinking about someone, asks “Did I say something wrong?” or tells their friends they might need a call is using a voice that is not a person’s to bring them back. A check-in the person set, in their own words, is their own bell."
   }
  ],
  "use_cases": [
@@ -335,8 +335,46 @@
    "start_with": "The app waits, with a widget for those who want one"
   },
   {
-   "if": "You are tempted to add streak warnings, “we miss you” or AI messages",
+   "if": "You are tempted to add streak warnings, “we miss you” or AI messages no one asked for",
    "start_with": "Don’t: ask once whether to keep reminding, then stop"
+  }
+ ],
+ "pulls_against": [
+  {
+   "id": "writes-first-and-restraint",
+   "title": "The assistant writing first, and restraint in notifications",
+   "options_here": [
+    "Their own bell",
+    "Messages about the person"
+   ],
+   "with": {
+    "slug": "assistant-writes-first",
+    "title": "When the assistant writes first",
+    "url": "https://missional.design/patterns/assistant-writes-first/",
+    "options": [
+     "A check-in they set",
+     "A daily page from memory"
+    ]
+   },
+   "pull": "A check-in the person asked for can be real care, but a message built from what they confided is exactly what a lock screen should not show.",
+   "hold": "A message the person set is their own bell. Anything built from what they confided stays inside the app, keeps to quiet hours and stays off the lock screen."
+  },
+  {
+   "id": "daily-verse-and-feed",
+   "title": "A daily verse, and a feed without end",
+   "options_here": [
+    "A daily word"
+   ],
+   "with": {
+    "slug": "verse-feed",
+    "title": "Feeds, cards and stories",
+    "url": "https://missional.design/patterns/verse-feed/",
+    "options": [
+     "A feed in order, without end"
+    ]
+   },
+   "pull": "A reminder that brings people back and a feed that never ends work as one loop.",
+   "hold": "If you send a daily verse, let it open the passage with its end, not the feed: a reading that is enough for today."
   }
  ],
  "reflection": [

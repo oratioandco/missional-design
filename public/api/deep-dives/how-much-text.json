@@ -347,6 +347,26 @@
    "start_with": "Leave single-word display out for Scripture study"
   }
  ],
+ "pulls_against": [
+  {
+   "id": "one-verse-and-passage",
+   "title": "One verse at a time, and the passage around it",
+   "options_here": [
+    "One passage",
+    "Whole chapter"
+   ],
+   "with": {
+    "slug": "verse-feed",
+    "title": "Feeds, cards and stories",
+    "url": "https://missional.design/patterns/verse-feed/",
+    "options": [
+     "Cards in order"
+    ]
+   },
+   "pull": "One verse to a card is an easy way in, and the same split hides the verses that give it its meaning.",
+   "hold": "Make cards a door into the passage: keep the verses around each card one tap away, and let readers move to the whole passage whenever they are ready."
+  }
+ ],
  "reflection": [
   {
    "heading": "What attention is for",

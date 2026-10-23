@@ -90,7 +90,7 @@
   {
    "key": "christ",
    "name": "Christ or God",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "A warning case, observed in Text With Jesus and in character platforms where the most popular Jesus has had “over 13 million conversations”; a philosopher found that one Jesus bot “blatantly claims to be Jesus himself”. The words here are our own, written to show the pattern.",
    "gain": "Feels like an answer from God",
    "cost": "Speaks and forgives in his name",
@@ -353,6 +353,7 @@
    "start_with": "Leave it out; offer the Gospels in their own words instead"
   }
  ],
+ "pulls_against": [],
  "reflection": [
   {
    "heading": "What speaking in a name is for",

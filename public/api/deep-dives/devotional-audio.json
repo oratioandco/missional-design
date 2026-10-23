@@ -66,7 +66,7 @@
   {
    "key": "stream",
    "name": "Endless stream",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "A composite of patterns from podcast and video apps (“Next from:” auto-queues, autoplay countdowns) and from generated daily devotionals.",
    "gain": "Always something new",
    "cost": "Never ends, no author",
@@ -265,6 +265,7 @@
    "start_with": "Don’t: no autoplay, no endless generated episodes, no listening streaks"
   }
  ],
+ "pulls_against": [],
  "reflection": [
   {
    "heading": "What hearing devotionally is for",

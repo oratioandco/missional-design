@@ -90,7 +90,7 @@
   {
    "key": "routed",
    "name": "Passed on without asking",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "A warning case. A report on Gloo’s “AI & the Church” imagined that after “a depressed teen searches a site for advice about living or dying”, soon “that same teen gets a phone call from a pastor of a nearby church”. The notice and the call here are written for this example; they were not observed in an app.",
    "gain": "Fast, and someone calls",
    "cost": "Takes the choice away",
@@ -367,6 +367,46 @@
   {
    "if": "Pressure to notify churches automatically or keep people chatting",
    "start_with": "Don’t: ask every time, and count the hand-off as success"
+  }
+ ],
+ "pulls_against": [
+  {
+   "id": "consent-and-protection",
+   "title": "The person’s choice, and a duty to protect",
+   "options_here": [
+    "Names the right person",
+    "A person joins"
+   ],
+   "with": {
+    "slug": "sharing-with-a-group",
+    "title": "Sharing with a group",
+    "url": "https://missional.design/patterns/sharing-with-a-group/",
+    "options": [
+     "Through a person you choose",
+     "A group with a leader"
+    ]
+   },
+   "pull": "The assistant passes nothing on without asking, yet some of the people it hands someone to must act on what they hear, and a child at risk needs protection first.",
+   "hold": "Never route anyone automatically. Before anything is shared, everyone the assistant hands someone to says what they would have to pass on. Have safeguarding specialists review the case of a child at risk."
+  },
+  {
+   "id": "companion-and-bridge",
+   "title": "A companion that is always there, and a bridge to people",
+   "options_here": [
+    "Names the right person",
+    "Their own church, if they ask",
+    "A person joins"
+   ],
+   "with": {
+    "slug": "chat-scope",
+    "title": "What the assistant talks about",
+    "url": "https://missional.design/patterns/chat-scope/",
+    "options": [
+     "A spiritual companion"
+    ]
+   },
+   "pull": "A product built for daily company succeeds when people keep coming back; handing over counts it as success when someone finds a person.",
+   "hold": "A companion is for people with no one to walk with, so success is finding that someone. Decide in advance what counts, such as hand-offs made, and design endings and hand-offs before anything that builds attachment. Count the hand-offs, not the hours."
   }
  ],
  "reflection": [

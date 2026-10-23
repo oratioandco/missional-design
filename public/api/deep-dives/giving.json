@@ -90,7 +90,7 @@
   {
    "key": "pressure",
    "name": "Pressure and promises",
-   "provenance": "Leave it out",
+   "provenance": "Warning case",
    "origin": "A warning case. Evangelical theologians at Lausanne described prosperity teaching that promises health and wealth through the “sowing of seeds” in tithes and offerings; regulators objected to a default “tip” added to gifts. The seed, the countdown, the tip and the ask after a prayer request here are written for this example to show the pattern; no app is named.",
    "gain": "Raises money fast",
    "cost": "Trades on faith and fear",
@@ -334,6 +334,7 @@
    "start_with": "Don’t: let people give what they decided in their heart"
   }
  ],
+ "pulls_against": [],
  "reflection": [
   {
    "heading": "What giving is for",
