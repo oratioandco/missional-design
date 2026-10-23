@@ -743,3 +743,9 @@ main{overflow-x:clip}
   .hero-ground img{object-position:85% 45%}
   .hero-ground::before{background:linear-gradient(180deg,color-mix(in srgb,var(--paper) 50%,transparent),transparent 70%)}
 }
+
+/* site: the framework's closing links sit in one wrapping row */
+.next .next-links{display:flex;flex-wrap:wrap;gap:12px 28px;margin-top:20px}
+.next .next-links .go{margin:0}
+.principle h4 a{color:inherit;text-decoration-color:var(--rule-strong);text-underline-offset:.2em}
+.principle h4 a:hover{text-decoration-color:currentColor}

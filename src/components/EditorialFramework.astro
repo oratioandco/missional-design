@@ -1,0 +1,119 @@
+---
+// The principles page in the editorial system (study 4, 23 October 2026). The content stays in the page files
+// (framework.astro, de/framework.astro); this component only lays it out.
+import EmailLink from './EmailLink.astro';
+interface Commitment { id: string; title: string; body: string }
+interface Place { num: string; name: string; ask: string; commitments: Commitment[] }
+interface Way { label: string; praxis: string; body: string }
+interface Tension { title: string; body: string }
+interface Props { lang: 'en' | 'de'; places: Place[]; ways: Way[]; tensions: Tension[]; questions: string[] }
+const { lang, places, ways, tensions, questions } = Astro.props;
+const de = lang === 'de';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const full = `${base}/principles/`;
+const ed = `${base}/assets/editorial`;
+// "The app takes the place. It borrows…" → the first clause is set in bold, as in the study.
+const lead = (s: string) => { const m = s.match(/^[^.:]+[.:]/); return m ? [m[0], s.slice(m[0].length)] : ['', s]; };
+---
+<section class="fw-open wrap" aria-labelledby="title">
+  <div class="g">
+    <p class="kicker rv">{de ? 'Zehn Prinzipien für Produktteams' : 'Ten principles for product teams'}</p>
+    <h1 id="title" class="display">{de
+      ? <>Werkzeuge gestalten, die Glauben und <span class="nw">Beziehungen dienen.<span class="glint" aria-hidden="true"><svg><use href="#g"/></svg></span></span></>
+      : <>Build tools that serve faith and <span class="nw">relationships.<span class="glint" aria-hidden="true"><svg><use href="#g"/></svg></span></span></>}</h1>
+    <div class="deck rv d1">
+      <p class="lead">{de ? 'Eine Bibel-App, Gebets-App oder KI gestaltet mehr als eine Aufgabe. Sie kann beeinflussen, wem Menschen vertrauen, wie sie ihren Glauben leben und wo sie Hilfe suchen.' : 'A Bible reader, prayer app or AI assistant shapes more than a task. It can influence whom people trust, how they practise faith and where they turn for help.'}</p>
+      <p class="muted" style="margin-top:18px">{de ? 'Diese zehn Prinzipien verbinden christliche Berufung mit den Entscheidungen eines Produktteams.' : 'These ten principles connect Christian calling with the decisions a team makes before shipping.'}</p>
+      <a class="go" href="#principles">{de ? 'Die zehn Prinzipien erkunden' : 'Explore the ten principles'}</a>
+    </div>
+    <figure class="plate photo fw-plate drift rv"><img src={`${ed}/img/tv-tower-glass-grid.webp`} width="2000" height="1335" alt={de ? 'Der Berliner Fernsehturm spiegelt sich im Raster einer Glasfassade.' : 'Berlin’s TV Tower reflected in the grid of a glass facade.'} fetchpriority="high" /></figure>
+  </div>
+</section>
+
+<section class="fw-intro wrap" aria-label={de ? 'Wie die Prinzipien zu nutzen sind' : 'How to use the principles'}>
+  <div class="g"><p class="rv">{de
+    ? <>Beginnt mit einer konkreten Entscheidung im Team: Welchem Guten soll sie dienen? Wen könnte sie belasten? Was müsst ihr von den betroffenen Menschen lernen? Die fünf Bereiche unten helfen euch, Bibel, einzelne Menschen, Glaubenspraxis, Beziehungen und eure Verantwortung als Gestaltende zu betrachten. <a href={`${base}/calling/`}>Theologische Grundlagen (Englisch)</a> · <a href={`${base}/reference/`}>Gestaltungsoptionen vergleichen (Englisch)</a>.</>
+    : <>Start with a decision your team is making. Ask what good it should serve, who could be burdened by it and what you need to learn from the people affected. The five areas below help you examine Scripture, the person, their practice, their relationships and your responsibilities as makers. <a href={`${base}/calling/`}>Read the theological grounding</a> or <a href={`${base}/reference/`}>compare design options</a>.</>}</p></div>
+</section>
+
+<!-- Five areas: a sticky rail that keeps your place; the active area carries the glint -->
+<section class="areas wrap" id="principles" aria-labelledby="areas-title">
+  <div class="g">
+    <nav class="rail" aria-labelledby="areas-title" data-spy>
+      <h2 id="areas-title">{de ? 'Fünf Bereiche der Verantwortung.' : 'Five areas of responsibility.'}</h2>
+      <ol>{places.map(p => <li><a href={`#area-${p.num}`}><b>{p.num}</b>{p.name}<span class="glint" aria-hidden="true"><svg><use href="#g"/></svg></span></a></li>)}</ol>
+    </nav>
+    <div class="area-list">
+      {places.map((p, i) => (
+        <article class="area" id={`area-${p.num}`} aria-labelledby={`area-${p.num}-t`}>
+          <div class="area-top rv"><span class="n metal" aria-hidden="true">{p.num}</span><h3 id={`area-${p.num}-t`}>{p.name}</h3></div>
+          <p class="q rv">{p.ask}</p>
+          {p.commitments.map(c => <div class="principle rv" id={c.id}><h4><a href={`${full}${c.id}/`}>{c.title}</a></h4><p>{c.body}</p></div>)}
+          {i === places.length - 1 && <p class="more small muted rv">{de ? 'Jedes Prinzip mit seiner Schrift, seiner Tradition, dem, was es ein- und ausschließt, und Fragen zur Prüfung (auf Englisch): ' : 'Each principle, with its Scripture, tradition, what it rules in and out, and questions to test a design: '}<a href={full}>patterns.missional.design/principles</a>.</p>}
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- a pinned line, lit word by word: the hinge between the five areas and the three ways -->
+<section class="lit lit-short" aria-label={de ? 'Die App ist ein Mittel' : 'The app is a means'}>
+  <div class="lit-stage">
+    <div class="shafts" aria-hidden="true"><i></i><i></i></div>
+    <div class="wrap g">
+      {de
+        ? <p class="statement" data-light-words>Die App ist ein Mittel, nie das <em>Ziel.</em></p>
+        : <p class="statement" data-light-words>The app is a means, never the <em>destination.</em></p>}
+      <p class="after">{de ? 'Miss sie daran, wohin Menschen gehen, wenn sie sie schließen: zur Schrift, ins Gebet, in eine Gemeinde, eine Gruppe, zu einer Freundin.' : 'Judge it by where people go when they close it: to Scripture, to prayer, to a church, a group, a friend.'}</p>
+    </div>
+  </div>
+</section>
+
+<!-- The three ways: a beam of light moves across and settles on the redemptive way -->
+<section class="three" aria-labelledby="three-title">
+  <div class="three-stage">
+    <div class="wrap">
+      <div class="g">
+        <h2 id="three-title" class="h2 rv">{de ? 'Ausbeuterisch, ethisch, erlösend.' : 'Exploitative, ethical, redemptive.'}</h2>
+        <p class="src rv d1">{de
+          ? <>Die drei Arten stammen von <a href="https://www.praxis.co/redemptive-entrepreneurship">Praxis</a>, deren Redemptive Frame den erlösenden Weg „creative restoration through sacrifice“ nennt, schöpferische Wiederherstellung durch Opfer. Wir lesen ihn für Apps, deren Gegenstand Gott ist und bei denen die erste Versuchung nicht nur ist, Menschen zu benutzen, sondern Gottes Namen. <a href="https://www.faithtech.com/digital-playbook/a-way-of-building-redemptively">Das Playbook von FaithTech</a> vollzieht dieselbe Wendung mit rücksichtsloser, verantwortlicher und erlösender Technologie. Dieser Leitfaden wendet beide Ansätze auf die theologischen und seelsorglichen Aufgaben geistlicher Apps an.</>
+          : <>The three ways are the work of <a href="https://www.praxis.co/redemptive-entrepreneurship">Praxis</a>, whose Redemptive Frame calls the redemptive way “creative restoration through sacrifice”. We read it for apps whose subject is God, where the first temptation is not only to use people but to use God’s name. <a href="https://www.faithtech.com/digital-playbook/a-way-of-building-redemptively">FaithTech’s Playbook</a> makes the same turn with reckless, responsible and redemptive technology. This guide applies both frameworks to the theological and pastoral responsibilities of spiritual apps.</>}</p>
+      </div>
+      <div class="g three-cols">
+        <span class="beam" aria-hidden="true"></span>
+        {ways.map((w, i) => { const [b, rest] = lead(w.body); return (
+          <div class:list={['col', { on: i === ways.length - 1 }]}><span class="glint" aria-hidden="true"><svg><use href="#g"/></svg></span><h3>{w.label}</h3><p class="tag">Praxis: {w.praxis}</p><p><b>{b}</b>{rest}</p></div>
+        ); })}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hold wrap" aria-labelledby="hold-title">
+  <div class="g">
+    <h2 id="hold-title" class="h2 rv">{de ? 'Drei Dinge, die man aushalten muss.' : 'Three things worth holding.'}</h2>
+    <p class="lede rv d1">{de ? 'Die zehn überschneiden sich und ziehen manchmal auseinander. Manche Spannungen muss man aushalten, nicht lösen.' : 'The ten overlap and sometimes pull apart. Some tensions must be held, not solved.'}</p>
+    <dl>{tensions.map(t => <><dt class="rv">{t.title}</dt><dd class="rv">{t.body}</dd></>)}</dl>
+  </div>
+</section>
+
+<section class="questions wrap" aria-labelledby="q-title">
+  <div class="g">
+    <div class="head"><h2 id="q-title" class="h2 rv">{de ? 'Prüffragen.' : 'Diagnostic questions.'}</h2><p class="rv d1">{de ? 'Nutze sie, um jede Funktion, Kampagne oder Gestaltungsentscheidung zu prüfen, bevor sie veröffentlicht wird.' : 'Use these to evaluate any feature, campaign, or design decision before it ships.'}</p></div>
+    <ol>{questions.map((q, i) => <li><div class="sheen" aria-hidden="true"></div><b>{String(i + 1).padStart(2, '0')}</b><span class="rv">{q}</span></li>)}</ol>
+  </div>
+</section>
+
+<section class="next wrap" aria-labelledby="next-title">
+  <div class="g">
+    <h2 id="next-title" class="h2 rv">{de ? 'Das Rahmenwerk anwenden?' : 'Want to apply the framework?'}</h2>
+    <div class="lede rv d1">
+      <p>{de ? 'Prüft mit den Prinzipien eine konkrete Produktentscheidung im Team und vergleicht anschließend die Gestaltungsoptionen in der Musterbibliothek. Die theologische und seelsorgliche Prüfung dieses Entwurfs steht noch aus; Beiträge von Fachleuten sind willkommen.' : 'Use the principles to examine a product decision with your team, then explore the practical options in the pattern library. Theological and pastoral review of this draft is pending; contributions from reviewers are welcome.'}</p>
+      <p class="next-links"><a class="go" href={full}>{de ? 'Die zehn ausführlich (Englisch)' : 'Read the principles with sources'}</a> <EmailLink label={de ? 'Kontakt aufnehmen' : 'Get in touch'} class="go" /> <a class="go" href={`${base}${de ? '/de' : ''}/about/`}>{de ? 'Über den Autor' : 'About the author'}</a></p>
+    </div>
+    <div class="pair">
+      <a href={`${base}/missional-canvas/`} class="rv"><b>{de ? 'Mit eurem Kontext beginnen?' : 'Need to understand your context?'}</b><span>{de ? 'Der Canvas hilft euch, gemeinsam zuzuhören, eure missionale Identität zu klären und einen nächsten Schritt zu gestalten.' : 'Use the canvas with your team to listen, clarify your missional identity and shape a next step.'}</span><em>{de ? 'Canvas öffnen (Englisch)' : 'Open the canvas'}</em></a>
+      <a href={`${base}/reference/`} class="rv d1"><b>{de ? 'Bereit für die konkreten Optionen?' : 'Ready to compare concrete options?'}</b><span>{de ? 'Die Patternreferenz zeigt Beispiele und Abwägungen für Bibellesen, Gebet, Gemeinschaft und KI.' : 'Explore examples and trade-offs for Bible reading, prayer, community and AI.'}</span><em>{de ? 'Patterns erkunden (Englisch)' : 'Explore the patterns'}</em></a>
+    </div>
+  </div>
+</section>
