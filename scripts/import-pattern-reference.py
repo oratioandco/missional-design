@@ -40,6 +40,8 @@ for source in sorted(args.source.rglob('*')):
         text = re.sub(r'https://patterns\.missional\.design(?!/mcp\b)', 'https://missional.design', text)
         text = text.replace('https://missional.design/about', 'https://missional.design/reference/about')
         text = re.sub(r'(["\'])/about(?=[/#"\'])', r'\1/reference/about', text)
+        # The shared masthead's About is the site's /about/, not the reference's About page.
+        text = text.replace('href="https://missional.design/reference/about/" data-site-about', 'href="https://missional.design/about/" data-site-about')
         if source.relative_to(args.source) == Path('index.html'):
             text = text.replace('data-auto href="https://missional.design/"', 'data-auto href="https://missional.design/reference/"')
             text = text.replace('property="og:url" content="https://missional.design/"', 'property="og:url" content="https://missional.design/reference/"')
