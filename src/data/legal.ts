@@ -2,22 +2,19 @@
  * Legal information for the Impressum, Datenschutzerklärung, and
  * Barrierefreiheitserklärung pages.
  *
- * !!! FILL IN THESE PLACEHOLDERS BEFORE GOING LIVE !!!
- *
  * Required under § 5 TMG (Germany) and Art. 13/14 GDPR.
  */
 
 export const legal = {
   operator: {
     name: 'Tobias Treppmann',
-    // Replace with your legal postal address:
-    street: 'MUSTERSTRASSE 1',
-    postcode: '00000',
-    city: 'MUSTERSTADT',
+    street: 'Lückstraße 74',
+    postcode: '10317',
+    city: 'Berlin',
     country: 'Deutschland',
     // Replace / remove if not applicable:
     phone: 'auf Anfrage / available on request',
-    email: { user: 'tobias', domain: 'missional', tld: 'design' },
+    email: { user: 'hello', domain: 'treppmann', tld: 'design' },
     // Optional – include only if you have them:
     vatId: '', // e.g. 'DE123456789'
     taxNumber: '', // Steuernummer, e.g. '123/456/7890'
@@ -29,10 +26,9 @@ export const legal = {
    */
   editorialResponsible: {
     name: 'Tobias Treppmann',
-    // Often the operator's postal address:
-    street: 'MUSTERSTRASSE 1',
-    postcode: '00000',
-    city: 'MUSTERSTADT',
+    street: 'Lückstraße 74',
+    postcode: '10317',
+    city: 'Berlin',
   },
 
   site: {
@@ -42,5 +38,5 @@ export const legal = {
   },
 
   // Last update of the legal pages themselves
-  lastUpdated: '2026-10-12',
+  lastUpdated: '2026-10-24',
 };
