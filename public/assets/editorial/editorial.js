@@ -4,8 +4,8 @@
   var root = document.documentElement;
   var q = new URLSearchParams(location.search);
   var de = (root.lang || '').slice(0, 2) === 'de';
-  var T = de ? { light: 'Hell', dark: 'Dunkel', toLight: 'Zum hellen Design wechseln', toDark: 'Zum dunklen Design wechseln', menu: 'Menü', close: 'Schließen', play: 'Film abspielen ', pause: 'Pause ', again: 'Noch einmal ' }
-            : { light: 'Light', dark: 'Dark', toLight: 'Switch to light theme', toDark: 'Switch to dark theme', menu: 'Menu', close: 'Close', play: 'Play the film ', pause: 'Pause ', again: 'Play again ' };
+  var T = de ? { light: 'Helles Design', dark: 'Dunkles Design', toLight: 'Zum hellen Design wechseln', toDark: 'Zum dunklen Design wechseln', menu: 'Menü', close: 'Schließen', play: 'Film abspielen ', pause: 'Pause ', again: 'Noch einmal ' }
+            : { light: 'Light theme', dark: 'Dark theme', toLight: 'Switch to light theme', toDark: 'Switch to dark theme', menu: 'Menu', close: 'Close', play: 'Play the film ', pause: 'Pause ', again: 'Play again ' };
   function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
 
   /* ---------- theme ---------- */
@@ -23,7 +23,7 @@
   document.addEventListener('DOMContentLoaded', function () {
     /* theme button */
     document.querySelectorAll('[data-theme-toggle]').forEach(function (b) {
-      function label() { b.textContent = isDark() ? T.light : T.dark; b.setAttribute('aria-label', isDark() ? T.toLight : T.toDark); }
+      function label() { var d = isDark(); b.dataset.mode = d ? 'dark' : 'light'; b.setAttribute('aria-label', d ? T.toLight : T.toDark); b.title = d ? T.light : T.dark; }
       label();
       b.addEventListener('click', function () { root.dataset.theme = isDark() ? 'light' : 'dark'; store('mbd-theme', root.dataset.theme); label(); });
     });
