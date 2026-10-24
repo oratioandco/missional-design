@@ -756,3 +756,10 @@ main{overflow-x:clip}
 .theme-btn .i-sun,.theme-btn[data-mode="dark"] .i-moon{display:none}
 .theme-btn[data-mode="dark"] .i-sun{display:block}
 .theme-btn:hover{color:var(--ink);background:var(--paper-lo)}
+
+/* the light reveals what the stone is: a silicon wafer pattern on the front face (study 24 Oct 2026,
+   bible-faith-patterns research/design-directions/rock-wafer-study-2026-10-24/). It follows the same edge of light,
+   then a faint trace stays. */
+.specimen .wf{--x:calc(var(--lp) * 150% - 25%);
+  -webkit-mask-image:linear-gradient(118deg,rgba(0,0,0,.16) calc(var(--x) - 30%),#000 calc(var(--x) - 10%),transparent calc(var(--x) + 2%));
+  mask-image:linear-gradient(118deg,rgba(0,0,0,.16) calc(var(--x) - 30%),#000 calc(var(--x) - 10%),transparent calc(var(--x) + 2%))}
