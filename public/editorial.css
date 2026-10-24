@@ -399,3 +399,10 @@ html:not(.motion) .e-line .e-bead{left:100%}
   :root:root body.ed *,:root:root body.ed *::before,:root:root body.ed *::after,.e-mast *,.e-mast *::after{animation:none!important;transition:none!important}
 }
 @media print{.e-mast,.e-subnav,.e-toc,.e-shafts{display:none!important}.motion .e-lit{height:auto}.motion .e-lit-stage{position:static;height:auto}}
+
+/* theme switch: a moon in light mode (switch to dark), a sun in dark mode */
+:root:root .e-theme-btn{display:inline-grid;place-items:center;width:32px;height:32px;padding:0;border-radius:999px}
+:root:root .e-theme-btn svg{width:18px;height:18px;display:block}
+:root:root .e-theme-btn .i-sun,:root:root .e-theme-btn[data-mode="dark"] .i-moon{display:none}
+:root:root .e-theme-btn[data-mode="dark"] .i-sun{display:block}
+:root:root .e-theme-btn:hover{color:var(--e-ink);background:var(--e-paper-lo)}

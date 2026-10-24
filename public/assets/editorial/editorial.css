@@ -749,3 +749,10 @@ main{overflow-x:clip}
 .next .next-links .go{margin:0}
 .principle h4 a{color:inherit;text-decoration-color:var(--rule-strong);text-underline-offset:.2em}
 .principle h4 a:hover{text-decoration-color:currentColor}
+
+/* theme switch: a moon in light mode (switch to dark), a sun in dark mode */
+.theme-btn{display:inline-grid;place-items:center;width:32px;height:32px;padding:0;border-radius:999px}
+.theme-btn svg{width:18px;height:18px;display:block}
+.theme-btn .i-sun,.theme-btn[data-mode="dark"] .i-moon{display:none}
+.theme-btn[data-mode="dark"] .i-sun{display:block}
+.theme-btn:hover{color:var(--ink);background:var(--paper-lo)}
