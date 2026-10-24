@@ -170,8 +170,8 @@ const steps = [
     </p>
     <div style="margin-top: 2.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
       <a href={`${base}/canvas-guide-de.pdf`} class="button" download>Anleitung als PDF herunterladen</a>
-      <a href={`${base}/de/ministry-model-canvas`} class="button" style="background: transparent; color: var(--color-white); border: 1px solid var(--color-white);">Zurück zum Canvas</a>
-      <a href={`${base}/ministry-model-canvas-de.pdf`} class="button" style="background: transparent; color: var(--color-white); border: 1px solid var(--color-white);" download>Canvas-PDF</a>
+      <a href={`${base}/de/ministry-model-canvas`} class="button">Zurück zum Canvas</a>
+      <a href={`${base}/ministry-model-canvas-de.pdf`} class="button" download>Canvas-PDF</a>
     </div>
   </section>
 
@@ -179,7 +179,7 @@ const steps = [
   <section class="section">
     <div class="container">
       <div style="max-width: 65ch;">
-        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Wann das Canvas hilft</div>
+        <div class="pg-kicker">Wann das Canvas hilft</div>
         <h2>Fünf wiederkehrende<br/>Situationen.</h2>
         <p class="lead" style="margin-top: 2rem;">
           Das Canvas ist dem Lean Canvas im Geist eng verwandt: eine Seite, die Klarheit erzwingt, bevor etwas
@@ -189,28 +189,28 @@ const steps = [
       </div>
 
       <div class="grid grid-2" style="margin-top: 3rem; gap: 2rem;">
-        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
-          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 0.75rem; opacity: 0.6;">Anwendungsfall 01</div>
+        <div class="pg-card">
+          <div class="pg-kicker">Anwendungsfall 01</div>
           <h4 style="margin-bottom: 1rem;">Etwas Neues beginnen.</h4>
           <p style="font-size: 0.95rem; line-height: 1.55;">Eine Neugründung, ein neues Vorhaben oder ein frischer Aufbruch. Das Canvas hilft einem Gründungsteam, konkret zu werden — wem es gesandt ist, was es anbietet, was es kosten wird —, bevor Zeit, Geld und Menschen festgelegt sind.</p>
         </div>
-        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
-          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 0.75rem; opacity: 0.6;">Anwendungsfall 02</div>
+        <div class="pg-card">
+          <div class="pg-kicker">Anwendungsfall 02</div>
           <h4 style="margin-bottom: 1rem;">Eine neue Zielgruppe erreichen.</h4>
           <p style="font-size: 0.95rem; line-height: 1.55;">Eine bestehende Gemeinde möchte einer Gruppe dienen, der sie bisher nicht gedient hat — jungen Familien, älteren Menschen, einem neuen Stadtteil, einem unerreichten Milieu. Das Canvas erzwingt Klarheit darüber, was sich am Modell ändert und was bleibt.</p>
         </div>
-        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
-          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 0.75rem; opacity: 0.6;">Anwendungsfall 03</div>
+        <div class="pg-card">
+          <div class="pg-kicker">Anwendungsfall 03</div>
           <h4 style="margin-bottom: 1rem;">Bestand sichtbar machen.</h4>
           <p style="font-size: 0.95rem; line-height: 1.55;">Viele Gemeinden arbeiten mit Annahmen, die nie schriftlich festgehalten wurden — darüber, für wen der Sonntagsgottesdienst eigentlich da ist, darüber, wie Erfolg aussieht. Das Canvas macht das ererbte Modell sichtbar, damit das Team entscheiden kann, ob es noch passt.</p>
         </div>
-        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
-          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 0.75rem; opacity: 0.6;">Anwendungsfall 04</div>
+        <div class="pg-card">
+          <div class="pg-kicker">Anwendungsfall 04</div>
           <h4 style="margin-bottom: 1rem;">Eine Leitungsübergabe.</h4>
           <p style="font-size: 0.95rem; line-height: 1.55;">Ein neuer Pastor oder eine neue Leitung tritt ihren Dienst an. Ohne gemeinsame Landkarte verbringen sie das erste Jahr damit, das Modell von Grund auf zu rekonstruieren. Das Canvas gibt dem einsteigenden Team ein klares Bild davon, was es übernimmt — und wo die eigentliche Arbeit liegt.</p>
         </div>
-        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black); grid-column: 1 / -1;">
-          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 0.75rem; opacity: 0.6;">Anwendungsfall 05</div>
+        <div class="pg-card" style="grid-column: 1 / -1;">
+          <div class="pg-kicker">Anwendungsfall 05</div>
           <h4 style="margin-bottom: 1rem;">Strategische Quartalsdurchsicht.</h4>
           <p style="font-size: 0.95rem; line-height: 1.55;">Ein Team, das das Canvas bereits nutzt, schaut wieder darauf. Wo hat sich der Kontext verändert? Welche Blöcke verlangen Aufmerksamkeit? Wo klafft die Lücke zwischen Anspruch und Wirklichkeit? Hier reicht oft das kompakte 90-Minuten-Format.</p>
         </div>
@@ -222,7 +222,7 @@ const steps = [
   <section class="section section-cream">
     <div class="container">
       <div style="max-width: 65ch;">
-        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Zwei Formate</div>
+        <div class="pg-kicker">Zwei Formate</div>
         <h2>Wählt die richtige<br/>Länge für das Team.</h2>
         <p class="lead" style="margin-top: 2rem;">
           Dieselben acht Schritte passen in zwei realistische Workshop-Längen. Ein Team beim Erstdurchgang braucht die
@@ -231,8 +231,8 @@ const steps = [
       </div>
 
       <div class="grid grid-2" style="margin-top: 3rem; gap: 3rem;">
-        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
-          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">90 Minuten · kompakt</div>
+        <div class="pg-card">
+          <div class="pg-kicker">90 Minuten · kompakt</div>
           <h4 style="margin-bottom: 1rem;">Für ein eingespieltes Team oder eine fokussierte Auffrischung.</h4>
           <p style="font-size: 0.95rem; line-height: 1.5;">
             Geeignet für ein erfahrenes Team, eine Quartalsdurchsicht oder eine Auftakt-Sitzung innerhalb eines längeren
@@ -241,8 +241,8 @@ const steps = [
             Viertelstunde.
           </p>
         </div>
-        <div style="padding: 2rem; background: var(--color-white); border: 1px solid var(--color-black);">
-          <div style="font-family: var(--font-display); font-weight: 900; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem;">2½ – 3 Stunden · Erstdurchgang</div>
+        <div class="pg-card">
+          <div class="pg-kicker">2½ – 3 Stunden · Erstdurchgang</div>
           <h4 style="margin-bottom: 1rem;">Für ein Team, das das Canvas zum ersten Mal durcharbeitet.</h4>
           <p style="font-size: 0.95rem; line-height: 1.5;">
             Echter Raum für die Gespräche, die jeder Block erzwingt, mit Gebet und kurzer Pause eingerechnet. Plant
@@ -258,7 +258,7 @@ const steps = [
   <section class="section">
     <div class="container">
       <div style="max-width: 70ch;">
-        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Vor der Sitzung</div>
+        <div class="pg-kicker">Vor der Sitzung</div>
         <h2>Richtet den Raum,<br/>bevor die Menschen kommen.</h2>
 
         <h3 style="margin-top: 3rem;">Wer ist im Raum.</h3>
@@ -290,9 +290,9 @@ const steps = [
   <section class="section section-dark">
     <div class="container">
       <div style="margin-bottom: 4rem; max-width: 60ch;">
-        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Die acht Schritte</div>
+        <div class="pg-kicker">Die acht Schritte</div>
         <h2>Ein Block nach dem<br/>anderen, in dieser Reihenfolge.</h2>
-        <p class="lead" style="margin-top: 2rem; opacity: 0.9;">
+        <p class="lead" style="margin-top: 2rem;">
           Jeder Schritt nennt den Block, zwei Zeitangaben (kompakt / Standard), einen kurzen Einstieg, was das Team
           konkret tut, Fragen für die Moderation und worauf zu achten ist.
         </p>
@@ -339,7 +339,7 @@ const steps = [
   <section class="section section-cream">
     <div class="container">
       <div style="margin-bottom: 3rem; max-width: 60ch;">
-        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Moderation</div>
+        <div class="pg-kicker">Moderation</div>
         <h2>Fünf Dinge,<br/>die die Moderation tut.</h2>
       </div>
 
@@ -366,7 +366,7 @@ const steps = [
   <section class="section">
     <div class="container">
       <div style="max-width: 70ch;">
-        <div style="font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; font-weight: 700; opacity: 0.6;">Nach der Sitzung</div>
+        <div class="pg-kicker">Nach der Sitzung</div>
         <h2>Die Arbeit beginnt<br/>in den Tagen danach.</h2>
         <p class="lead" style="margin-top: 2rem;">
           Ein Canvas, das in einer Sitzung fertig wird, ist ein Entwurf, kein Endprodukt. Behandelt es als lebendiges
@@ -392,13 +392,13 @@ const steps = [
     <div class="container">
       <div style="max-width: 60ch;">
         <h2>Brauchst du Hilfe<br/>für deine erste Sitzung?</h2>
-        <p class="lead" style="margin-top: 2rem; opacity: 0.9;">
+        <p class="lead" style="margin-top: 2rem;">
           Wir moderieren Arbeitstreffen zur strategischen Planung mit Gemeinden und kirchlichen Initiativen — in Präsenz oder online.
           Nimm Kontakt auf, und wir schicken dir einen Beispiel-Sitzungsplan.
         </p>
         <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
           <EmailLink label="Kontakt aufnehmen" class="button" />
-          <a href={`${base}/de/ministry-model-canvas`} class="button" style="background: transparent; color: var(--color-white); border: 1px solid var(--color-white);">Zurück zum Canvas</a>
+          <a href={`${base}/de/ministry-model-canvas`} class="button">Zurück zum Canvas</a>
         </div>
       </div>
     </div>
@@ -409,7 +409,7 @@ const steps = [
   .guide-step {
     padding-bottom: 3rem;
     margin-bottom: 3rem;
-    border-bottom: 1px solid rgba(255,255,255,0.15);
+    border-bottom: 1px solid var(--rule);
   }
   .guide-step:last-child {
     border-bottom: 0;
@@ -422,28 +422,21 @@ const steps = [
     margin-bottom: 0.5rem;
   }
   .guide-step-num {
-    font-family: var(--font-display);
-    font-weight: 900;
-    font-size: 0.8rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    opacity: 0.6;
+    font: 500 var(--t-micro)/1.3 var(--sans);
+    letter-spacing: 0.05em;
+    color: var(--faint);
   }
   .guide-step-title {
-    font-family: var(--font-display);
-    font-weight: 900;
-    font-size: 1.6rem;
+    font: 400 clamp(28px, 2.6vw, 38px)/1.1 var(--serif);
     letter-spacing: -0.01em;
   }
   .guide-step-block {
-    font-family: var(--font-display);
-    font-weight: 700;
     font-size: 0.95rem;
-    opacity: 0.6;
+    color: var(--muted);
   }
   .guide-step-timing {
     font-size: 0.85rem;
-    opacity: 0.65;
+    color: var(--muted);
     margin-bottom: 1.25rem;
     display: flex;
     gap: 0.5rem;
@@ -453,28 +446,25 @@ const steps = [
     font-size: 1.15rem;
     line-height: 1.5;
     margin-bottom: 1rem;
-    opacity: 0.9;
+    font-family: var(--serif);
+    font-size: clamp(21px, 1.7vw, 24px);
   }
   .guide-step-body {
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 1rem;
-    font-weight: 300;
   }
   .guide-step-sub {
     margin-top: 1.5rem;
     padding: 1.25rem 1.5rem;
-    background: rgba(255,255,255,0.06);
-    border-left: 2px solid rgba(255,255,255,0.3);
+    background: var(--paper-hi);
+    border-left: 2px solid var(--metal-3);
   }
   .guide-step-sub h5 {
-    font-family: var(--font-display);
-    font-weight: 900;
-    font-size: 0.75rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
+    font: 500 var(--t-micro)/1.3 var(--sans);
+    letter-spacing: 0.05em;
+    color: var(--faint);
     margin: 0 0 0.75rem 0;
-    opacity: 0.7;
   }
   .guide-step-sub ul {
     list-style: none;
@@ -485,7 +475,7 @@ const steps = [
     font-size: 0.95rem;
     line-height: 1.55;
     margin-bottom: 0.5rem;
-    font-weight: 300;
+    color: var(--muted);
   }
   .guide-step-sub li:last-child { margin-bottom: 0; }
 </style>

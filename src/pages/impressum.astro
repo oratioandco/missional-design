@@ -124,7 +124,7 @@ import { legal } from '../data/legal';
         We are not obliged to participate in dispute resolution proceedings before a consumer arbitration board.
       </p>
 
-      <p style="margin-top: 3rem; opacity: 0.6; font-size: 0.85rem;">
+      <p class="pg-note">
         Zuletzt aktualisiert / Last updated: {legal.lastUpdated}
       </p>
     </div>
@@ -136,6 +136,9 @@ import { legal } from '../data/legal';
     margin-top: 2.5rem;
     margin-bottom: 1rem;
   }
+  h3 {
+    font-size: clamp(22px, 2vw, 28px);
+  }
   p {
     margin-bottom: 1rem;
     line-height: 1.6;
@@ -143,6 +146,6 @@ import { legal } from '../data/legal';
   hr {
     margin: 3rem 0 2rem;
     border: 0;
-    border-top: 1px solid var(--color-black);
+    border-top: 1px solid var(--rule-strong);
   }
 </style>

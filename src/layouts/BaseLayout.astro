@@ -1,10 +1,9 @@
 ---
-import Nav from '../components/Nav.astro';
-import Footer from '../components/Footer.astro';
+// Content pages (about, writing, canvas, guides, legal) share the editorial frame: the same masthead, footer,
+// theme switch and type/colour tokens as home and principles. Their bodies keep their own markup; the shared
+// rules that restyle it in the editorial system live in public/assets/editorial/site.css.
+import EditorialLayout from './EditorialLayout.astro';
 import { getLocaleFromPath, type Locale } from '../i18n/ui';
-import '../styles/global.css';
-import '../styles/brand.css';
-import '../styles/reflected-light.css';
 
 export interface Props {
   title: string;
@@ -15,62 +14,19 @@ export interface Props {
    * (`/de/...` → 'de', otherwise 'en').
    */
   lang?: Locale;
+  /** Image credits shown in the footer colophon. */
+  credits?: string[];
 }
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const pathname = new URL(Astro.request.url).pathname;
 const detectedLocale = getLocaleFromPath(pathname, base);
-const {
-  title,
-  description,
-  ogImage = pathname.includes("framework") ? "/assets/og/missional-framework.jpg" : "/assets/og/missional-home.jpg",
-  lang = detectedLocale,
-} = Astro.props;
-const siteUrl = "https://missional.design";
+const { title, description, ogImage, lang = detectedLocale, credits = [] } = Astro.props;
 const finalDescription = description ?? (lang === 'de'
   ? "Missional by Design — Strategische Gestaltung, theologische Reflexion und Innovation im Dienst für Gemeinden, Gründungen und alle, die Technologie für menschliches Gedeihen entwickeln."
   : "Missional by Design — Strategic design, theological reflection, and ministry innovation for churches, startups, and the teams building technology for human flourishing.");
 ---
-
-<!DOCTYPE html>
-<html lang={lang}>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title === 'Missional by Design' ? 'Missional by Design' : `${title} — Missional by Design`}</title>
-    <meta name="description" content={finalDescription} />
-
-    <link rel="stylesheet" href={`${base}/assets/brand/tokens.css?v=identity-1`} />
-    <link rel="icon" type="image/svg+xml" href={`${base}/assets/brand/rock-mark-light.svg`} />
-
-    <link rel="apple-touch-icon" href={`${base}/assets/brand/rock-mark-180.png?v=identity-1`} />
-
-    <!-- Open Graph / Social Media -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content={`${siteUrl}${pathname}`} />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={finalDescription} />
-    {ogImage && <meta property="og:image" content={`${siteUrl}${ogImage}`} />}
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content={`${siteUrl}${pathname}`} />
-    <meta property="twitter:title" content={title} />
-    <meta property="twitter:description" content={finalDescription} />
-    {ogImage && <meta property="twitter:image" content={`${siteUrl}${ogImage}`} />}
-
-    <link rel="canonical" href={`${siteUrl}${pathname}`} />
-    <meta name="theme-color" content="#edf4f8" />
-  </head>
-
-  <body class:list={['reflected-site', {'reflected-home': pathname === `${base}/` || pathname === `${base}/de/` || pathname === `${base}/de`, 'reflected-framework': pathname.includes('/framework')} ]}>
-    <a class="skip-link" href="#main">
-      {lang === 'de' ? 'Zum Hauptinhalt springen' : 'Skip to main content'}
-    </a>
-    <Nav lang={lang} />
-    <main id="main" tabindex="-1">
-      <slot />
-    </main>
-    <Footer lang={lang} />
-  </body>
-</html>
+<EditorialLayout title={title} description={finalDescription} ogImage={ogImage} lang={lang} credits={credits} bodyClass="site-page">
+  <link slot="head" rel="stylesheet" href={`${base}/assets/editorial/site.css?v=1`} />
+  <slot />
+</EditorialLayout>
