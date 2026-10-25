@@ -1,0 +1,7 @@
+---
+import media from '../../data/app-store-media.json';
+import {dateLabel} from '../../lib/app-library';
+const {app}=Astro.props;
+const record=media[app.id];
+---
+{record&&<section class="lib-section" id="app-store"><div class="lib-section-heading"><h2>App Store screenshots</h2><a href={record.store_url} target="_blank" rel="noreferrer">View the store listing</a></div><p class="lib-note">Publisher-supplied images from the {record.country.toUpperCase()} App Store, checked {dateLabel(record.checked)}. Promotional artwork may include captions or composites; it shows how the publisher presents the app.</p><div class="lib-store-gallery" role="region" aria-label={'App Store screenshots for '+app.name} tabindex="0">{record.screenshots.map((s,i)=><figure><a href={s.image} target="_blank" rel="noreferrer" aria-label={'Open '+app.name+' App Store image '+(i+1)}><img src={s.image} width={s.width} height={s.height} alt={app.name+' — publisher App Store screenshot '+(i+1)} loading="lazy" decoding="async"/></a><figcaption>Store image {i+1} · {s.device==='ipad'?'iPad':'iPhone'}</figcaption></figure>)}</div><p class="lib-note">Scroll to browse all {record.screenshots.length} images. Select an image to open it at its sourced size.</p></section>}

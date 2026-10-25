@@ -1,8 +1,41 @@
 ---
 import Layout from '../../layouts/LibraryLayout.astro';
 import Facts from '../../components/library/OrganisationFacts.astro';
+import AppIcon from '../../components/library/AppIcon.astro';
+import media from '../../data/app-store-media.json';
 import {organisations,apps,screensFor} from '../../lib/app-library';
 export function getStaticPaths(){return organisations.map(organisation=>({params:{slug:organisation.slug},props:{organisation}}));}
-const {organisation:o}=Astro.props;const children=apps.filter(a=>a.organisation_id===o.id);const integrations=organisations.filter(c=>(c.relationships||[]).some(r=>r.organisation_id===o.id));
+const {organisation:o}=Astro.props;
+const children=apps.filter(a=>a.organisation_id===o.id);
+const integrations=organisations.filter(c=>(c.relationships||[]).some(r=>r.organisation_id===o.id));
+const previews=children.flatMap(a=>(media[a.id]?.screenshots||[]).slice(0,children.length>1?2:3).map(image=>({app:a,...image}))).slice(0,3);
+const relatedApps=integrations.flatMap(c=>apps.filter(a=>a.organisation_id===c.id));
 ---
-<Layout title={o.name} description={o.description} active="organisations" indexable><span hidden data-pagefind-meta="record_id">{'organisation:'+o.id}</span><span hidden data-pagefind-filter="kind">organisation</span><header class="lib-intro"><a class="lib-back" href="/organisations/">All organisations</a><h1 data-pagefind-meta="title">{o.name}</h1><p data-pagefind-meta="description">{o.description}</p><div class="lib-links"><a href={o.website} rel="noreferrer" target="_blank">Official website</a></div>{o.app_store_seller&&<p class="lib-note">App Store seller: {o.app_store_seller}</p>}</header><div id="figures"><Facts organisation={o}/></div><section class="lib-section"><h2>{children.length?'Apps in this collection':'Integration relationships'}</h2>{children.length?<div class="lib-directory">{children.map(a=><article class="lib-directory-row"><div><h3><a href={a.url}>{a.name}</a></h3><p>{a.description}</p></div><span class="lib-directory-count">{screensFor(a.id).length} screenshots</span></article>)}</div>:integrations.map(c=><p>Technology integrated into an app published by <a href={c.url}>{c.name}</a>.</p>)}</section></Layout>
+<Layout title={o.name} description={o.description} active="organisations" indexable>
+ <span hidden data-pagefind-meta="record_id">{'organisation:'+o.id}</span><span hidden data-pagefind-filter="kind">organisation</span>
+ <header class="lib-org-hero">
+  <div class="lib-intro">
+   <a class="lib-back" href="/organisations/">All organisations</a>
+   <h1 data-pagefind-meta="title">{o.name}</h1>
+   <p data-pagefind-meta="description">{o.description}</p>
+   <div class="lib-links"><a href={o.website} rel="noreferrer" target="_blank">Official website</a><a href="#about">About the organisation</a></div>
+   {o.app_store_seller&&<p class="lib-note">App Store seller: {o.app_store_seller}</p>}
+  </div>
+  {previews.length>0?<figure class="lib-org-preview">
+   <div class="lib-org-preview-images">{previews.map((s,i)=><a href={s.app.url+'#app-store'} aria-label={'Explore '+s.app.name+' App Store images'}><img src={s.image} width={s.width} height={s.height} alt={s.app.name+' — publisher App Store image'} loading={i===0?'eager':'lazy'} decoding="async"/></a>)}</div>
+   <figcaption>Publisher’s App Store images · {children.map(a=><a href={a.url}>{a.name}</a>)}</figcaption>
+  </figure>:<div class="lib-org-connection" aria-label="Technology relationship">
+   <strong>{o.name}</strong><span>Technology provider</span>
+   {integrations.map(c=><><svg width="24" height="36" viewBox="0 0 24 36" aria-hidden="true"><path d="M12 2v28m-6-6 6 6 6-6" stroke="currentColor" fill="none" stroke-width="1.5"/></svg><a href={c.url}>{c.name}</a><span>App publisher using the integration</span></>)}
+  </div>}
+ </header>
+ <div class="lib-org-content">
+  <div class="lib-org-main"><Facts organisation={o}/></div>
+  <aside class="lib-org-rail">
+   <nav class="lib-page-index" aria-label="On this organisation page"><h2>On this page</h2><a href="#about">About</a><a href="#figures">Facts and figures</a>{o.leaders.length>0&&<a href="#people">People</a>}<a href="#organisation-apps">{children.length?'Apps':'Integrations'}</a><a href="#sources">Sources</a></nav>
+   <section id="organisation-apps"><h2>{children.length?'Apps':'Used in'}</h2>
+    {(children.length?children:relatedApps).map(a=><article class="lib-org-app"><a class="lib-org-app-name" href={a.url}><AppIcon app={a} size={44}/><strong>{a.name}</strong></a>{!children.length&&<p class="lib-note">Technology integration; a separate app publisher.</p>}<a href={a.url+'#app-store'}>{media[a.id]?.screenshots.length||0} App Store images</a><a href={a.url+'#research-captures'}>{screensFor(a.id).length} research capture{screensFor(a.id).length===1?'':'s'}</a></article>)}
+   </section>
+  </aside>
+ </div>
+</Layout>
