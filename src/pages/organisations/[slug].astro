@@ -18,7 +18,7 @@ const relatedApps=integrations.flatMap(c=>apps.filter(a=>a.organisation_id===c.i
    <a class="lib-back" href="/organisations/">All organisations</a>
    <h1 data-pagefind-meta="title">{o.name}</h1>
    <p data-pagefind-meta="description">{o.description}</p>
-   <div class="lib-links"><a href={o.website} rel="noreferrer" target="_blank">Official website</a><a href="#about">About the organisation</a></div>
+   <div class="lib-links">{o.website&&<a href={o.website} rel="noreferrer" target="_blank">Official website</a>}<a href="#about">About the organisation</a></div>
    {o.app_store_seller&&<p class="lib-note">App Store seller: {o.app_store_seller}</p>}
   </div>
   {previews.length>0?<figure class="lib-org-preview">

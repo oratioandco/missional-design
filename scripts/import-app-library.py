@@ -16,7 +16,7 @@ def main(source):
   name={'tv.lifechurch.bible':'youversion-bible','com.alphainternational.bioy':'bible-with-nicky-and-pippa-gumbel'}.get(a['id'],slug(a['name']))
   if name in seen:name+='-'+hashlib.sha256(a['id'].encode()).hexdigest()[:6]
   seen.add(name);a['slug']=name;a['url']='/apps/'+name+'/'
- for o in orgs:o['slug']=slug(o['name']);o['url']='/organisations/'+o['slug']+'/'
+ for o in orgs:o['slug']=slug(o['name']) or 'publisher-'+o['id'].lower();o['url']='/organisations/'+o['slug']+'/'
  assert len({o['slug'] for o in orgs})==len(orgs)
  app_ids={a['id'] for a in apps};screens=data['screens']
  assert all(s['app_id'] in app_ids for s in screens),'Screenshot app needs an authored profile.'
