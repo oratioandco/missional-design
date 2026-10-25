@@ -61,3 +61,14 @@ Fresh independent reviewer `m06_scale_finish_reviewer` disposition: **ship at ex
 Implementation-agent verification reported 439 screens, 113 apps and 105 organisations; no horizontal overflow at 320/390/1440px; page reload and last-page handling; scoped-filter clearing; empty and search states; all 439 article links available without JavaScript; and zero browser JavaScript errors. These checks were supplied by the implementation agent, not independently rerun during documentation. `/tmp/m06-scale-detector.json` reports zero primary findings; existing library type-ramp and radius advisories remain maintenance debt rather than new global tokens.
 
 This entry documents the reviewed extension and supplied evidence. It does not certify whole-site behaviour, audit the private image corpus, close unrelated runtime phases or establish production deployment.
+
+
+## 25 October 2026 — M06 final library release QA
+
+This final evidence supersedes the earlier 439-screen scale count: the public library now contains 1,163 screens, 113 apps and 105 organisations. Component browsing presents 57 families, with 955 raw labels available through native disclosure and label search. Legacy Content cards links resolve to five matches; Card resolves to 275. The existing visual system remains unchanged; DESIGN.md and `.impeccable/design.json` are preserved.
+
+Root-agent browser verification covered Pagefind and forced fallback search, the Button grid and raw-label search, 36-result pagination with clamping and filter reset, and zero horizontal overflow at 320/390/1440px. It reported zero JavaScript errors, all 1,163 screens available without JavaScript, and all 1,423 article example links across 32 articles. These are root-agent checks, not independently rerun by the documentation pass.
+
+Independent reviewer `m06_scale_finish_reviewer` inspected six component captures and two article captures, plus source, and returned **SHIP**, with no blockers. The reviewer could not operate the browser and relied on root-agent evidence for interactions; its image and source inspection was independent. Evidence remains in `.impeccable/review/m06-final/` and `.impeccable/review/m06-scale/`.
+
+Nonblocking advisories remain: a selected facet can sit below the bounded list, mobile capture framing can crop a heading, caption columns are dense, and pre-existing library type/radius drift remains maintenance debt. This is a scoped release QA record, not a whole-site or private-image audit, and makes no production deployment claim.
