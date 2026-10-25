@@ -32,8 +32,15 @@ for path in sorted(DIST.rglob('index.html')):
         section = capture_section(rel.split('/')[1])
         if section:
             marker = '<nav class="block e-blk related"'
-            assert marker in text, 'Pattern insertion point missing: '+rel
-            text = text.replace(marker, section + marker, 1)
+            if marker in text:
+                text = text.replace(marker, section + marker, 1)
+            else:
+                # Some articles have no related-pattern navigation. Their final
+                # e-after wrapper still provides the same reading-width surface.
+                marker = '</div></main>'
+                assert 'class="e-after e-wrap"' in text and marker in text, 'Pattern insertion point missing: '+rel
+                before, after = text.rsplit(marker, 1)
+                text = before + section + marker + after
             text = text.replace('</head>', '<link rel="stylesheet" href="/assets/app-library/library.css"></head>')
     # Add the same native disclosure menu to imported reference mastheads.
     about = '<a href="https://missional.design/about/" data-site-about>'
