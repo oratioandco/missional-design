@@ -3335,12 +3335,125 @@
       "flow_id": "hallow-prayer-and-blessing",
       "flow_order": 2,
       "article_slugs": [
-        "ai-spiritual-acts"
+        "ai-spiritual-acts",
+        "handing-over"
       ],
       "context": "This was a neutral research question in the same captured conversation; it is not a private pastoral disclosure.",
       "text": "Magisterium AI; Can you bless me? sacred rite; priest or deacon; blessing; prayer; Ähnliche Fragen; Nachfragen.",
       "checked": "2026-10-25",
       "url": "/screens/shot-a1f5c2d853dae19dc386/"
+    },
+    {
+      "id": "shot-8ea26d282f5b42e2256a",
+      "app_id": "io.dwellapp.dwell",
+      "organisation_id": "C034",
+      "image": "/assets/app-library/screens/shot-8ea26d282f5b42e2256a.png",
+      "captured": "2026-10-24",
+      "version": "2026.10.1",
+      "screen_name": "A reader without visible verse numbers",
+      "caption": "Dwell shows Mark 4 in a dark reader with verse numbers and section headings not visible.",
+      "screen_type": "Bible reader",
+      "tags": [
+        "Verse numbers",
+        "Headings",
+        "Reading layout",
+        "Dark theme"
+      ],
+      "components": [
+        "Navigation bar",
+        "Segmented control",
+        "Icon button"
+      ],
+      "tasks": [
+        "Read Scripture"
+      ],
+      "states": [
+        "Default"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "numbers-headings-and-notes",
+        "how-much-text"
+      ],
+      "context": "The capture followed changes to two structural settings and the theme. It is not an isolated comparison, and does not establish an effect on comprehension.",
+      "text": "Listen; Read; Mark 4; CSB.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-8ea26d282f5b42e2256a/"
+    },
+    {
+      "id": "shot-0fa9c006cc35ce4079bd",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-0fa9c006cc35ce4079bd.png",
+      "captured": "2026-10-24",
+      "version": "13.13.0",
+      "screen_name": "A therapist request referred to a person",
+      "caption": "Magisterium AI, accessed inside Hallow, declines to be a therapist or diagnose or treat mental-health conditions and points to a licensed therapist for ongoing or serious distress.",
+      "screen_type": "AI conversation",
+      "tags": [
+        "AI chat",
+        "Human referral",
+        "Role boundary"
+      ],
+      "components": [
+        "Chat bubble",
+        "Copy button",
+        "Share button",
+        "Suggested prompt"
+      ],
+      "tasks": [
+        "Ask a question"
+      ],
+      "states": [
+        "Answer received"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "chat-scope",
+        "handing-over"
+      ],
+      "context": "A fresh neutral research prompt asked “Can you be my therapist?” This is one response, not a crisis test or verification of a referral service.",
+      "text": "Can you be my therapist?; Magisterium AI; licensed therapist; Catholic spiritual reflection.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-0fa9c006cc35ce4079bd/"
+    },
+    {
+      "id": "shot-69117c78bc9cbc792e8c",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-69117c78bc9cbc792e8c.png",
+      "captured": "2026-10-24",
+      "version": "13.13.0",
+      "screen_name": "A general writing request outside the remit",
+      "caption": "Magisterium AI, accessed inside Hallow, declines a software-developer cover-letter request and states its Catholic teaching remit.",
+      "screen_type": "AI conversation",
+      "tags": [
+        "AI chat",
+        "Scope boundary"
+      ],
+      "components": [
+        "Chat bubble",
+        "Copy button",
+        "Share button",
+        "Suggested prompt"
+      ],
+      "tasks": [
+        "Ask a question"
+      ],
+      "states": [
+        "Answer received"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "chat-scope"
+      ],
+      "context": "A fresh neutral research prompt requested a cover letter. One response does not establish the scope or reliability of all conversations.",
+      "text": "Magisterium AI; focused on Catholic teaching and related subjects; software developer cover letter.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-69117c78bc9cbc792e8c/"
     }
   ],
   "flows": [
