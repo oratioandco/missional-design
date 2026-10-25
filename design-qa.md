@@ -37,3 +37,14 @@ Impeccable runtime remains phase plates, later phases pending. `build-phase fini
 ## Implementation checklist
 
 Completed: responsive home EN/DE; light family across principles, essays and reference; source-aware content and working tools; visual/functional checks; independent fix review. Persist DESIGN.md/sidecar, commits and handoff before ending. Keep branches/worktrees and local runtime evidence during migration.
+
+
+## 25 October 2026 — App assessment extension
+
+Reviewed `AppAssessment.astro`, `/apps/assessment/` and the library stylesheet against PRODUCT.md and DESIGN.md. This is an ordinary extension of the familiar navy/ice, Mona Sans editorial reading surface. Features **and** patterns remain ingredients; assessments are scoped observations with explicit limits, no overall app grades, and source-specific review samples. This follows the product requirement to distinguish observed behaviour, interpretation and evidence. No durable visual-system change was approved; DESIGN.md and `.impeccable/design.json` remain unchanged.
+
+Independent finish reviewer disposition: **ship at extension scope**, with no material issues. Screenshot evidence: `.impeccable/review/app-assessment/*.png` (method, Dwell, Hallow, pattern examples, reviews and dark reading at desktop/mobile widths). Small mobile previews and narrow captions remain an advisory; explicit capture links provide full-screen evidence.
+
+Implementation-agent verification reported: build and Pagefind succeeded (91 indexed pages); 15 device captures in 25 placements across 14 pattern articles; overflow checks at 320/390/1440px; no-JavaScript article examples; 38 app assessment sections; publication privacy allowlist; dark reading theme; and Pagefind retrieval for “therapist”. These checks were supplied by the implementation agent, not independently rerun during documentation.
+
+Primary detector findings: zero. The advisory report `/tmp/app-assessment-detector.json` records pre-existing library type-ramp drift against DESIGN.md (and an existing radius advisory); this is retained as maintenance debt rather than promoting local reading styles into new global tokens. This entry records the extension review only, not whole-site approval, functional certification or production deployment.

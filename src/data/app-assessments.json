@@ -1,0 +1,2363 @@
+{
+  "schema_version": 1,
+  "checked": "2026-10-25",
+  "rubric_version": "0.1",
+  "apps": [
+    {
+      "app_id": "com.BlueLetterBible.BLB",
+      "checked": "2026-10-25",
+      "ingredients": [
+        {
+          "kind": "feature",
+          "feature_id": "notes-highlights",
+          "pattern_slug": null,
+          "label": "Notes and highlights",
+          "pattern_slugs": [
+            "highlights-and-notes"
+          ],
+          "implementation": "Reviewed frames show highlight styles/range, note and bookmark marks.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-2ca850a7454c1e7501b6/"
+            },
+            {
+              "url": "/screens/shot-c8c44616f5dce111fc66/"
+            },
+            {
+              "url": "/screens/shot-51491f559e29c5e78109/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "highlights-and-notes",
+          "label": "Highlights and notes",
+          "pattern_slugs": [
+            "highlights-and-notes"
+          ],
+          "implementation": "Blue Letter Bible uses separate note and bookmark icons beside highlighted verses. Blue Letter Bible groups study tools, annotation actions and highlight styles in the verse menu. Blue Letter Bible asks for start and end verses before applying a highlight.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-2ca850a7454c1e7501b6/"
+            },
+            {
+              "url": "/screens/shot-c8c44616f5dce111fc66/"
+            },
+            {
+              "url": "/screens/shot-51491f559e29c5e78109/"
+            }
+          ]
+        }
+      ],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 50,
+          "histogram": {
+            "1": 7,
+            "2": 2,
+            "3": 3,
+            "4": 5,
+            "5": 33
+          },
+          "oldest": "2026-10-06 12:49:15",
+          "newest": "2026-10-24 09:17:58",
+          "url": "https://play.google.com/store/apps/details?id=org.blueletterbible.blb&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": "2015-07-06 10:24:42",
+          "newest": "2024-08-24 07:05:40",
+          "url": "https://play.google.com/store/apps/details?id=org.blueletterbible.blb&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2017-11-26",
+        "newest": "2026-07-30",
+        "url": "https://apps.apple.com/us/app/blue-letter-bible/id365547505?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Study resources are valued; selected recent examples report freezing or failure to open after an update.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=org.blueletterbible.blb&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "de.bibellesebund.bibelzeit",
+      "checked": "2026-10-25",
+      "ingredients": [
+        {
+          "kind": "feature",
+          "feature_id": "notes-highlights",
+          "pattern_slug": null,
+          "label": "Notes and highlights",
+          "pattern_slugs": [
+            "highlights-and-notes"
+          ],
+          "implementation": "Meaning-labelled highlight palette is visible in the reviewed frame.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-753bd68a8291c6811309/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "highlights-and-notes",
+          "label": "Highlights and notes",
+          "pattern_slugs": [
+            "highlights-and-notes"
+          ],
+          "implementation": "Bibelzeit labels its highlight colours with theological and personal meanings.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-753bd68a8291c6811309/"
+            }
+          ]
+        }
+      ],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": "2019-03-21 09:40:33",
+          "newest": "2025-06-23 11:30:24",
+          "url": "https://play.google.com/store/apps/details?id=de.bibellesebund.bibelzeit&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 1,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "oldest": "2021-10-31 02:47:55",
+          "newest": "2026-08-06 06:41:49",
+          "url": "https://play.google.com/store/apps/details?id=de.bibellesebund.bibelzeit&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 0,
+        "oldest": null,
+        "newest": null,
+        "url": "https://apps.apple.com/us/app/bibelzeit/id1449571811?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Historical selected feedback appreciates presentation and content; no current overall verdict follows.",
+        "examples_reviewed": 1,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=de.bibellesebund.bibelzeit&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "com.alphainternational.bioy",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 40,
+          "histogram": {
+            "1": 2,
+            "2": 1,
+            "3": 3,
+            "4": 3,
+            "5": 31
+          },
+          "oldest": "2026-02-28 09:05:28",
+          "newest": "2026-10-23 11:48:15",
+          "url": "https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 6,
+          "histogram": {
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "4": 0,
+            "5": 5
+          },
+          "oldest": "2024-04-06 10:36:11",
+          "newest": "2026-10-23 12:11:22",
+          "url": "https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2019-01-19",
+        "newest": "2025-01-01",
+        "url": "https://apps.apple.com/us/app/the-bible-with-nicky-and-pippa/id504133402?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Useful routine support is described alongside login, first-day audio and support-response problems.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.multipie.bibleinoneyear&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "tv.lifechurch.bible",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 50,
+          "histogram": {
+            "1": 0,
+            "2": 2,
+            "3": 0,
+            "4": 2,
+            "5": 46
+          },
+          "oldest": "2026-10-23 18:27:31",
+          "newest": "2026-10-24 10:28:27",
+          "url": "https://play.google.com/store/apps/details?id=com.sirma.mobile.bible.android&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 50,
+          "histogram": {
+            "1": 2,
+            "2": 0,
+            "3": 2,
+            "4": 3,
+            "5": 43
+          },
+          "oldest": "2026-10-04 18:53:14",
+          "newest": "2026-10-24 09:12:25",
+          "url": "https://play.google.com/store/apps/details?id=com.sirma.mobile.bible.android&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2021-03-16",
+        "newest": "2026-08-11",
+        "url": "https://apps.apple.com/us/app/bible/id282935706?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Brief praise and a disputed verse/translation complaint appear. The complaint does not establish censorship or a textual error.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.sirma.mobile.bible.android&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "tv.lifechurch.bible.kids",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 50,
+          "histogram": {
+            "1": 4,
+            "2": 0,
+            "3": 0,
+            "4": 3,
+            "5": 43
+          },
+          "oldest": "2026-10-12 00:46:09",
+          "newest": "2026-10-24 10:16:08",
+          "url": "https://play.google.com/store/apps/details?id=com.bible.kids&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 8,
+          "histogram": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 7
+          },
+          "oldest": "2024-02-15 18:28:31",
+          "newest": "2026-10-21 20:16:04",
+          "url": "https://play.google.com/store/apps/details?id=com.bible.kids&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2018-04-12",
+        "newest": "2026-09-18",
+        "url": "https://apps.apple.com/us/app/bible-app-for-kids/id668692393?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Teaching usefulness is described. A negative example has unclear advertising context; do not infer that this app itself displays those adverts.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.bible.kids&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "com.basmo.BibleChat",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 50,
+          "histogram": {
+            "1": 6,
+            "2": 0,
+            "3": 3,
+            "4": 6,
+            "5": 35
+          },
+          "oldest": "2026-10-23 15:29:15",
+          "newest": "2026-10-24 10:36:43",
+          "url": "https://play.google.com/store/apps/details?id=com.basmo.BibleChat&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 10,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 1,
+            "5": 8
+          },
+          "oldest": "2025-01-30 04:27:07",
+          "newest": "2026-10-24 09:33:21",
+          "url": "https://play.google.com/store/apps/details?id=com.basmo.BibleChat&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2023-05-20",
+        "newest": "2026-10-06",
+        "url": "https://apps.apple.com/us/app/bible-chat-daily-devotional/id6448849666?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Brief praise coexists with a selected complaint about discovering a monthly price late in the journey; test price disclosure rather than infer intent.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.basmo.BibleChat&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "com.zonervan.biblegateway",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 50,
+          "histogram": {
+            "1": 22,
+            "2": 11,
+            "3": 4,
+            "4": 0,
+            "5": 13
+          },
+          "oldest": "2026-09-03 23:49:45",
+          "newest": "2026-10-23 02:51:58",
+          "url": "https://play.google.com/store/apps/details?id=com.csnmedia.android.bg&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": "2013-05-21 23:20:45",
+          "newest": "2025-05-01 08:17:36",
+          "url": "https://play.google.com/store/apps/details?id=com.csnmedia.android.bg&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2022-09-16",
+        "newest": "2024-09-16",
+        "url": "https://apps.apple.com/us/app/bible-gateway/id506512797?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Study and note-taking are valued; a selected critical account reports intrusive full-screen adverts and slower opening.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.csnmedia.android.bg"
+        ]
+      }
+    },
+    {
+      "app_id": "com.bibleproject.bibleproject",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 50,
+          "histogram": {
+            "1": 3,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 44
+          },
+          "oldest": "2026-06-13 21:57:16",
+          "newest": "2026-10-23 08:59:44",
+          "url": "https://play.google.com/store/apps/details?id=com.bibleproject&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 2,
+          "histogram": {
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "oldest": "2022-01-12 23:16:33",
+          "newest": "2026-10-13 00:51:09",
+          "url": "https://play.google.com/store/apps/details?id=com.bibleproject&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2021-12-31",
+        "newest": "2025-11-13",
+        "url": "https://apps.apple.com/us/app/bibleproject/id1523687027?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "The educational concept is praised; a selected negative example concerns theological interpretation, not a demonstrated app malfunction or verified doctrinal error.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.bibleproject&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "com.ministrycentered.ChurchCenter",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 50,
+          "histogram": {
+            "1": 8,
+            "2": 3,
+            "3": 2,
+            "4": 3,
+            "5": 34
+          },
+          "oldest": "2026-08-12 06:02:29",
+          "newest": "2026-10-22 22:32:43",
+          "url": "https://play.google.com/store/apps/details?id=com.ministrycentered.churchcenter&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": "2020-12-07 09:12:25",
+          "newest": "2025-02-15 21:46:54",
+          "url": "https://play.google.com/store/apps/details?id=com.ministrycentered.churchcenter&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2021-01-24",
+        "newest": "2026-03-09",
+        "url": "https://apps.apple.com/us/app/church-center/id1357742931?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "A selected update credits restoration of older-device support; a critical account alleges privacy/notification problems. No leak or resolution is independently verified.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.ministrycentered.churchcenter"
+        ]
+      }
+    },
+    {
+      "app_id": "com.damirakyan.creed",
+      "checked": "2026-10-25",
+      "ingredients": [
+        {
+          "kind": "feature",
+          "feature_id": "ai-persona",
+          "pattern_slug": null,
+          "label": "AI or companion persona",
+          "pattern_slugs": [
+            "ai-persona",
+            "speaking-as"
+          ],
+          "implementation": "A scripted companion-onboarding frame claims a Christian identity; this is not a generated-chat finding.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-9b3430b86f4366e0d48b/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "ai-persona",
+          "label": "How human the assistant seems",
+          "pattern_slugs": [
+            "ai-persona"
+          ],
+          "implementation": "Creed’s sheep companion claims Christian identity in scripted onboarding.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-9b3430b86f4366e0d48b/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "speaking-as",
+          "label": "AI personas and roles",
+          "pattern_slugs": [
+            "speaking-as"
+          ],
+          "implementation": "Creed’s sheep companion claims Christian identity in scripted onboarding.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-9b3430b86f4366e0d48b/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "whose-theology",
+          "label": "Whose theology",
+          "pattern_slugs": [
+            "whose-theology"
+          ],
+          "implementation": "Creed’s sheep companion claims Christian identity in scripted onboarding.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-9b3430b86f4366e0d48b/"
+            }
+          ]
+        }
+      ],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 50,
+          "histogram": {
+            "1": 10,
+            "2": 0,
+            "3": 1,
+            "4": 6,
+            "5": 33
+          },
+          "oldest": "2026-10-07 06:24:35",
+          "newest": "2026-10-24 10:50:12",
+          "url": "https://play.google.com/store/apps/details?id=com.damirakyan.creed&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 39,
+          "histogram": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 3,
+            "5": 35
+          },
+          "oldest": "2025-09-23 12:28:19",
+          "newest": "2026-08-19 00:26:10",
+          "url": "https://play.google.com/store/apps/details?id=com.damirakyan.creed&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2025-08-16",
+        "newest": "2026-10-11",
+        "url": "https://apps.apple.com/us/app/creed-bible-chat-companion/id6747326744?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Routine support is valued; a selected critical account objects to a changed annual-subscription offer. Terms and timing need separate verification.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.damirakyan.creed&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "com.duomoapp.project",
+      "checked": "2026-10-25",
+      "ingredients": [
+        {
+          "kind": "feature",
+          "feature_id": "assessments",
+          "pattern_slug": null,
+          "label": "Check-ins and assessments",
+          "pattern_slugs": [
+            "check-ins-and-assessments"
+          ],
+          "implementation": "A Faith Growth Profile is displayed after fictional research onboarding; measurement validity is not established.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-20fd5330aaf1d16ebc51/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "check-ins-and-assessments",
+          "label": "Check-ins and assessments",
+          "pattern_slugs": [
+            "check-ins-and-assessments"
+          ],
+          "implementation": "Duomo presents a Scripture Confidence gauge and spiritual-status description after a setup questionnaire.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-20fd5330aaf1d16ebc51/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "meeting-the-person",
+          "label": "Meeting the person where they are",
+          "pattern_slugs": [
+            "meeting-the-person"
+          ],
+          "implementation": "Duomo presents a Scripture Confidence gauge and spiritual-status description after a setup questionnaire.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-20fd5330aaf1d16ebc51/"
+            }
+          ]
+        }
+      ],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 50,
+          "histogram": {
+            "1": 5,
+            "2": 1,
+            "3": 1,
+            "4": 0,
+            "5": 43
+          },
+          "oldest": "2026-08-28 21:18:58",
+          "newest": "2026-10-22 13:46:33",
+          "url": "https://play.google.com/store/apps/details?id=com.goduomo&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 3,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 3
+          },
+          "oldest": "2025-01-02 14:20:41",
+          "newest": "2026-07-16 08:01:22",
+          "url": "https://play.google.com/store/apps/details?id=com.goduomo&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2025-01-27",
+        "newest": "2026-08-05",
+        "url": "https://apps.apple.com/us/app/duomo-daily-prayer-bible/id6736357076?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Read/listen choices and structure are appreciated; a selected critical account reports being unable to sign in after payment.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.goduomo&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "io.dwellapp.dwell",
+      "checked": "2026-10-25",
+      "ingredients": [
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "how-much-text",
+          "label": "How much text at once",
+          "pattern_slugs": [
+            "how-much-text"
+          ],
+          "implementation": "Dwell shows Mark 4 in a dark reader with verse numbers and section headings not visible.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-8ea26d282f5b42e2256a/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "numbers-headings-and-notes",
+          "label": "Numbers, headings and notes",
+          "pattern_slugs": [
+            "numbers-headings-and-notes"
+          ],
+          "implementation": "Dwell shows Mark 4 in a dark reader with verse numbers and section headings not visible.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-8ea26d282f5b42e2256a/"
+            }
+          ]
+        }
+      ],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 50,
+          "histogram": {
+            "1": 16,
+            "2": 1,
+            "3": 3,
+            "4": 4,
+            "5": 26
+          },
+          "oldest": "2026-07-27 20:20:44",
+          "newest": "2026-10-23 13:02:48",
+          "url": "https://play.google.com/store/apps/details?id=com.dwellapp.dwell&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": "2019-07-05 12:22:40",
+          "newest": "2022-12-01 09:15:40",
+          "url": "https://play.google.com/store/apps/details?id=com.dwellapp.dwell&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2019-07-29",
+        "newest": "2026-05-02",
+        "url": "https://apps.apple.com/us/app/dwell-audio-bible/id1343917374?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Audio listening in daily life is valued; a selected negative example objects to the paid model rather than describing a specific deceptive action.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.dwellapp.dwell&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "systems.emmaus.zam",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 11,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 10
+          },
+          "oldest": "2024-08-30 18:11:22",
+          "newest": "2026-10-17 02:48:16",
+          "url": "https://play.google.com/store/apps/details?id=systems.emmaus.zam&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": "2017-10-16 11:28:39",
+          "newest": "2025-03-16 21:21:15",
+          "url": "https://play.google.com/store/apps/details?id=systems.emmaus.zam&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 3,
+        "oldest": "2024-04-10",
+        "newest": "2026-04-21",
+        "url": "https://apps.apple.com/us/app/emmaus-bible-courses/id1267933551?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Courses are appreciated; a selected historical account reports a Google-service/email interaction problem.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=systems.emmaus.zam&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "com.aimermedia.LiveLent",
+      "checked": "2026-10-25",
+      "ingredients": [
+        {
+          "kind": "feature",
+          "feature_id": "human-referral",
+          "pattern_slug": null,
+          "label": "Referral to people",
+          "pattern_slugs": [
+            "handing-over",
+            "reading-together"
+          ],
+          "implementation": "Reviewed Sunday-pause screen explicitly makes room for local church.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-a327728e3681d683e930/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "prayer",
+          "label": "Prayer",
+          "pattern_slugs": [
+            "prayer"
+          ],
+          "implementation": "Everyday Faith explains its Sunday pause by pointing readers towards local worship and fellowship.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-a327728e3681d683e930/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "reading-plans",
+          "label": "Reading plans",
+          "pattern_slugs": [
+            "reading-plans"
+          ],
+          "implementation": "Everyday Faith explains its Sunday pause by pointing readers towards local worship and fellowship.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-a327728e3681d683e930/"
+            }
+          ]
+        }
+      ],
+      "dimensions": {
+        "formation_relationships": {
+          "status": "redemptive_candidate",
+          "scope": "Captured Sunday pause only.",
+          "reason": "The screen explicitly points beyond the app to local church.",
+          "limits": "Builder cost/trade-off and effects on actual participation not verified. Not a redemptive award."
+        }
+      },
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 34,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 2,
+            "4": 4,
+            "5": 28
+          },
+          "oldest": "2026-03-03 04:23:21",
+          "newest": "2026-10-13 09:13:09",
+          "url": "https://play.google.com/store/apps/details?id=com.livelent&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": "2025-02-25 07:50:44",
+          "newest": "2025-05-11 15:08:46",
+          "url": "https://play.google.com/store/apps/details?id=com.livelent&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2023-03-14",
+        "newest": "2026-09-30",
+        "url": "https://apps.apple.com/us/app/everyday-faith/id1336487241?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "An example values devotional audio and a gentle start to the day. Absence of a selected complaint is not proof of an ethical pass.",
+        "examples_reviewed": 1,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.livelent"
+        ]
+      }
+    },
+    {
+      "app_id": "com.pushcontrolz.Givelify",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 50,
+          "histogram": {
+            "1": 0,
+            "2": 1,
+            "3": 2,
+            "4": 3,
+            "5": 44
+          },
+          "oldest": "2026-08-08 17:56:21",
+          "newest": "2026-10-22 23:21:03",
+          "url": "https://play.google.com/store/apps/details?id=com.pushcontrolz.givelify&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": null,
+          "newest": null,
+          "url": "https://play.google.com/store/apps/details?id=com.pushcontrolz.givelify&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2019-05-28",
+        "newest": "2025-01-05",
+        "url": "https://apps.apple.com/us/app/givelify-mobile-giving-app/id725815127?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Ease of giving and records is valued; a selected account disputes fees. The fee model and disclosures need separate checking.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.pushcontrolz.givelify&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "com.Quiet-Time",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 50,
+          "histogram": {
+            "1": 6,
+            "2": 1,
+            "3": 2,
+            "4": 5,
+            "5": 36
+          },
+          "oldest": "2026-09-25 17:27:58",
+          "newest": "2026-10-24 05:34:20",
+          "url": "https://play.google.com/store/apps/details?id=com.glorify.app&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 2,
+          "histogram": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": "2021-05-05 14:02:51",
+          "newest": "2026-09-12 15:16:57",
+          "url": "https://play.google.com/store/apps/details?id=com.glorify.app&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2023-02-09",
+        "newest": "2026-04-23",
+        "url": "https://apps.apple.com/us/app/glorify-devotional-prayer/id1490587079?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Helpfulness is described, while a selected negative account is primarily an objection to the paywall.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.glorify.app&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "app.hallow.Hallow",
+      "checked": "2026-10-25",
+      "ingredients": [
+        {
+          "kind": "feature",
+          "feature_id": "ai-chat",
+          "pattern_slug": null,
+          "label": "AI chat",
+          "pattern_slugs": [
+            "chat-scope",
+            "speaking-as"
+          ],
+          "implementation": "Reviewed Magisterium AI conversations show prayer wording, a blessing boundary and limits on its role and subject matter.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-9d05fb67eca9ba98aa72/"
+            },
+            {
+              "url": "/screens/shot-a1f5c2d853dae19dc386/"
+            },
+            {
+              "url": "/screens/shot-0fa9c006cc35ce4079bd/"
+            },
+            {
+              "url": "/screens/shot-69117c78bc9cbc792e8c/"
+            }
+          ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "human-referral",
+          "pattern_slug": null,
+          "label": "Referral to people",
+          "pattern_slugs": [
+            "handing-over",
+            "reading-together"
+          ],
+          "implementation": "Captured replies refer a blessing request to clergy and an ongoing mental-health need to a licensed therapist.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-a1f5c2d853dae19dc386/"
+            },
+            {
+              "url": "/screens/shot-0fa9c006cc35ce4079bd/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "ai-persona",
+          "label": "How human the assistant seems",
+          "pattern_slugs": [
+            "ai-persona"
+          ],
+          "implementation": "Magisterium AI, accessed inside Hallow, identifies itself as AI built by Longbeard and offers wording the reader might pray.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-9d05fb67eca9ba98aa72/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "ai-spiritual-acts",
+          "label": "Spiritual acts and AI",
+          "pattern_slugs": [
+            "ai-spiritual-acts"
+          ],
+          "implementation": "Magisterium AI, accessed inside Hallow, identifies itself as AI built by Longbeard and offers wording the reader might pray. Magisterium AI inside Hallow declines to impart a blessing or perform a sacred rite and suggests prayer or a priest or deacon.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-9d05fb67eca9ba98aa72/"
+            },
+            {
+              "url": "/screens/shot-a1f5c2d853dae19dc386/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "chat-scope",
+          "label": "What the assistant talks about",
+          "pattern_slugs": [
+            "chat-scope"
+          ],
+          "implementation": "Magisterium AI, accessed inside Hallow, declines to be a therapist or diagnose or treat mental-health conditions and points to a licensed therapist for ongoing or serious distress. Magisterium AI, accessed inside Hallow, declines a software-developer cover-letter request and states its Catholic teaching remit.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-0fa9c006cc35ce4079bd/"
+            },
+            {
+              "url": "/screens/shot-69117c78bc9cbc792e8c/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "handing-over",
+          "label": "Handing over to people",
+          "pattern_slugs": [
+            "handing-over"
+          ],
+          "implementation": "Magisterium AI inside Hallow declines to impart a blessing or perform a sacred rite and suggests prayer or a priest or deacon. Magisterium AI, accessed inside Hallow, declines to be a therapist or diagnose or treat mental-health conditions and points to a licensed therapist for ongoing or serious distress.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-a1f5c2d853dae19dc386/"
+            },
+            {
+              "url": "/screens/shot-0fa9c006cc35ce4079bd/"
+            }
+          ]
+        }
+      ],
+      "dimensions": {
+        "truth_authority": {
+          "status": "ethical_baseline_observed",
+          "scope": "Two captured prayer/blessing responses only.",
+          "reason": "The interface distinguishes generated prayer wording from conferring a sacred rite and refers to human clergy.",
+          "limits": "Not a finding about all prompts, app features, workplace practices or leadership intent."
+        }
+      },
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 50,
+          "histogram": {
+            "1": 19,
+            "2": 2,
+            "3": 3,
+            "4": 1,
+            "5": 25
+          },
+          "oldest": "2026-09-29 08:13:18",
+          "newest": "2026-10-24 10:50:33",
+          "url": "https://play.google.com/store/apps/details?id=app.hallow.android&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 8,
+          "histogram": {
+            "1": 3,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 4
+          },
+          "oldest": "2024-11-16 16:23:19",
+          "newest": "2026-08-15 10:56:48",
+          "url": "https://play.google.com/store/apps/details?id=app.hallow.android&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2020-01-03",
+        "newest": "2025-11-30",
+        "url": "https://apps.apple.com/us/app/hallow-prayer-meditation/id1405323394?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Brief praise and affordability/confessional objections coexist. Review claims about what is available free should be checked against the actual catalogue.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=app.hallow.android&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "ChandlerSantos.HolyScroll",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [],
+      "apple": {
+        "n": 10,
+        "oldest": "2025-11-12",
+        "newest": "2026-10-18",
+        "url": "https://apps.apple.com/us/app/holy-scroll/id6743411441?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "A selected account appreciates deliberate verse-by-verse pacing; this is personal experience, not demonstrated spiritual growth.",
+        "examples_reviewed": 1,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://apps.apple.com/us/app/holy-scroll/id6743411441?see-all=reviews"
+        ]
+      }
+    },
+    {
+      "app_id": "com.247prayer.innerroomv2",
+      "checked": "2026-10-25",
+      "ingredients": [
+        {
+          "kind": "feature",
+          "feature_id": "prayer-lists",
+          "pattern_slug": null,
+          "label": "Prayer lists and requests",
+          "pattern_slugs": [
+            "prayer"
+          ],
+          "implementation": "An empty prayer-pots organiser is visible; storage/privacy operation not audited.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-0a7b417cd2daac82f570/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "prayer",
+          "label": "Prayer",
+          "pattern_slugs": [
+            "prayer"
+          ],
+          "implementation": "Inner Room shows an empty Pots view with an unassigned group and an add control.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-0a7b417cd2daac82f570/"
+            }
+          ]
+        }
+      ],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 6,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 0,
+            "5": 5
+          },
+          "oldest": "2026-05-12 22:21:13",
+          "newest": "2026-09-24 04:08:55",
+          "url": "https://play.google.com/store/apps/details?id=com.prayer247.innerroomv2&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": null,
+          "newest": null,
+          "url": "https://play.google.com/store/apps/details?id=com.prayer247.innerroomv2&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 4,
+        "oldest": "2026-05-11",
+        "newest": "2026-06-14",
+        "url": "https://apps.apple.com/us/app/inner-room-app/id6756577061?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "A selected account values minimal prayer guidance. This alone does not prove a redemptive cost-bearing model.",
+        "examples_reviewed": 1,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.prayer247.innerroomv2"
+        ]
+      }
+    },
+    {
+      "app_id": "de.dbg.konapp",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": "2020-06-24 23:41:07",
+          "newest": "2025-05-19 21:47:03",
+          "url": "https://play.google.com/store/apps/details?id=dbg.de.konapp&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 2,
+          "histogram": {
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": "2020-11-08 14:51:42",
+          "newest": "2026-09-16 15:40:54",
+          "url": "https://play.google.com/store/apps/details?id=dbg.de.konapp&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 0,
+        "oldest": null,
+        "newest": null,
+        "url": "https://apps.apple.com/us/app/konapp-die-app-f%C3%BCr-konfis/id1163238745?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Historical accounts value the concept but mention chat and role/visibility usability. Visibility trade-offs need actual context, not an automatic privacy verdict.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=dbg.de.konapp&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "com.prayer247.lectio365",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 50,
+          "histogram": {
+            "1": 2,
+            "2": 4,
+            "3": 2,
+            "4": 5,
+            "5": 37
+          },
+          "oldest": "2026-06-21 18:08:38",
+          "newest": "2026-10-20 05:59:49",
+          "url": "https://play.google.com/store/apps/details?id=com.prayer247.lectio365&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 1,
+          "histogram": {
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": "2020-01-01 14:08:39",
+          "newest": "2026-06-16 20:57:42",
+          "url": "https://play.google.com/store/apps/details?id=com.prayer247.lectio365&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2021-08-28",
+        "newest": "2025-02-28",
+        "url": "https://apps.apple.com/us/app/lectio-365-daily-bible-prayer/id1483974820?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Devotional practice and sharing are valued; a selected criticism concerns translation preference rather than a verified reliability fault.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.prayer247.lectio365&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "com.logos.ilogos",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 50,
+          "histogram": {
+            "1": 3,
+            "2": 3,
+            "3": 3,
+            "4": 6,
+            "5": 35
+          },
+          "oldest": "2026-10-13 06:44:09",
+          "newest": "2026-10-24 07:48:21",
+          "url": "https://play.google.com/store/apps/details?id=com.logos.androidlogos&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 24,
+          "histogram": {
+            "1": 0,
+            "2": 3,
+            "3": 5,
+            "4": 1,
+            "5": 15
+          },
+          "oldest": "2025-07-18 22:42:12",
+          "newest": "2026-10-18 20:54:22",
+          "url": "https://play.google.com/store/apps/details?id=com.logos.androidlogos&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2017-12-26",
+        "newest": "2026-10-15",
+        "url": "https://apps.apple.com/us/app/logos-bible/id336400266?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "One example credits support with restoring a split-screen workflow; another objects to commercial prompts. User control deserves direct review.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.logos.androidlogos"
+        ]
+      }
+    },
+    {
+      "app_id": "com.quietpupil.neubible",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [],
+      "apple": {
+        "n": 10,
+        "oldest": "2016-05-13",
+        "newest": "2026-02-14",
+        "url": "https://apps.apple.com/us/app/mere-bible/id961857426?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Minimal reading is valued; selected Apple feedback reports highlight/preservation concerns after an alleged ownership change. Verify current behaviour and ownership separately.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://apps.apple.com/us/app/mere-bible/id961857426?see-all=reviews"
+        ]
+      }
+    },
+    {
+      "app_id": "com.olivetree.BR-Free",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 50,
+          "histogram": {
+            "1": 2,
+            "2": 2,
+            "3": 3,
+            "4": 1,
+            "5": 42
+          },
+          "oldest": "2026-10-04 18:38:53",
+          "newest": "2026-10-23 21:52:04",
+          "url": "https://play.google.com/store/apps/details?id=biblereader.olivetree&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 6,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 0,
+            "5": 5
+          },
+          "oldest": "2023-09-01 09:34:07",
+          "newest": "2026-10-13 20:26:13",
+          "url": "https://play.google.com/store/apps/details?id=biblereader.olivetree&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2018-11-21",
+        "newest": "2026-05-14",
+        "url": "https://apps.apple.com/us/app/bible-app-read-study-daily/id332615624?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Translations/library usefulness is appreciated; a selected account reports difficulty searching notes and concern about a purchased reference changing.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=biblereader.olivetree&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "com.prayapp.pray",
+      "checked": "2026-10-25",
+      "ingredients": [
+        {
+          "kind": "feature",
+          "feature_id": "ai-persona",
+          "pattern_slug": null,
+          "label": "AI or companion persona",
+          "pattern_slugs": [
+            "ai-persona",
+            "speaking-as"
+          ],
+          "implementation": "A reviewed screen lists branded AI leaders; authorisation and generated behaviour not established.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-d8867427cd1c30f2cd7a/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "chat-scope",
+          "label": "What the assistant talks about",
+          "pattern_slugs": [
+            "chat-scope"
+          ],
+          "implementation": "PRAY.COM presents branded AI leaders for guidance, encouragement and prayer.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-d8867427cd1c30f2cd7a/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "speaking-as",
+          "label": "AI personas and roles",
+          "pattern_slugs": [
+            "speaking-as"
+          ],
+          "implementation": "PRAY.COM presents branded AI leaders for guidance, encouragement and prayer.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-d8867427cd1c30f2cd7a/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "whose-theology",
+          "label": "Whose theology",
+          "pattern_slugs": [
+            "whose-theology"
+          ],
+          "implementation": "PRAY.COM presents branded AI leaders for guidance, encouragement and prayer.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-d8867427cd1c30f2cd7a/"
+            }
+          ]
+        }
+      ],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 50,
+          "histogram": {
+            "1": 13,
+            "2": 1,
+            "3": 4,
+            "4": 4,
+            "5": 28
+          },
+          "oldest": "2026-07-30 08:28:59",
+          "newest": "2026-10-23 14:23:25",
+          "url": "https://play.google.com/store/apps/details?id=com.prayapp.client&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": "2020-12-10 05:27:25",
+          "newest": "2024-04-26 11:37:34",
+          "url": "https://play.google.com/store/apps/details?id=com.prayapp.client&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2020-05-30",
+        "newest": "2024-11-10",
+        "url": "https://apps.apple.com/us/app/pray-com-bible-daily-prayer/id1161035371?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "A selected update describes partial recovery but continuing ad/cost concerns; another reports repetitive content playback.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.prayapp.client&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "en.pray-as-you-go",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 8,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 6
+          },
+          "oldest": "2025-07-23 07:12:29",
+          "newest": "2026-10-13 23:46:52",
+          "url": "https://play.google.com/store/apps/details?id=pl.foxcode.prayasyougo&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": "2018-12-03 11:55:09",
+          "newest": "2025-05-21 16:16:46",
+          "url": "https://play.google.com/store/apps/details?id=pl.foxcode.prayasyougo&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2017-08-20",
+        "newest": "2025-05-04",
+        "url": "https://apps.apple.com/us/app/pray-as-you-go-daily-prayer/id865934048?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Selected older accounts describe a mixed rebuild experience and background/uninstall problems; do not assume current behaviour is unchanged.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=pl.foxcode.prayasyougo"
+        ]
+      }
+    },
+    {
+      "app_id": "net.geero.Prayer-Partner",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 8,
+          "histogram": {
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 6
+          },
+          "oldest": "2024-04-26 05:53:57",
+          "newest": "2026-09-23 03:19:35",
+          "url": "https://play.google.com/store/apps/details?id=net.geero.prayermate&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": "2014-10-25 19:37:59",
+          "newest": "2025-01-08 08:57:56",
+          "url": "https://play.google.com/store/apps/details?id=net.geero.prayermate&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2018-09-21",
+        "newest": "2026-01-29",
+        "url": "https://apps.apple.com/us/app/prayermate-christian-prayer/id434815549?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Custom prayer organisation is valued; an older selected account requests desktop sync and easier text entry.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=net.geero.prayermate&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "com.lionswool.Prayminder",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 2,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 0,
+            "5": 1
+          },
+          "oldest": "2023-08-12 23:12:39",
+          "newest": "2026-10-09 12:35:34",
+          "url": "https://play.google.com/store/apps/details?id=com.lionswool.prayminder&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": "2021-05-01 20:46:43",
+          "newest": "2026-03-15 20:46:35",
+          "url": "https://play.google.com/store/apps/details?id=com.lionswool.prayminder&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2020-11-18",
+        "newest": "2026-01-22",
+        "url": "https://apps.apple.com/us/app/prayminder/id1309466339?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Reminders are valued; the suggestion to block the phone until prayer is a user request, not evidence that the feature exists. Another dated account reports missed reminders.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.lionswool.prayminder&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "com.stayonfire.stayonfireapp",
+      "checked": "2026-10-25",
+      "ingredients": [
+        {
+          "kind": "feature",
+          "feature_id": "progress-streaks",
+          "pattern_slug": null,
+          "label": "Progress and streaks",
+          "pattern_slugs": [
+            "progress-and-streaks"
+          ],
+          "implementation": "Scripted onboarding presents a faith-flame/streak metaphor; later recovery behaviour not established.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-4d5c92d0a49353fb63b2/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "progress-and-streaks",
+          "label": "Progress and streaks",
+          "pattern_slugs": [
+            "progress-and-streaks"
+          ],
+          "implementation": "STAYONFIRE introduces a flame that grows with daily app opening and dims after absence.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-4d5c92d0a49353fb63b2/"
+            }
+          ]
+        }
+      ],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": "2019-11-21 09:49:11",
+          "newest": "2021-07-30 08:57:59",
+          "url": "https://play.google.com/store/apps/details?id=com.stayonfire.stayonfireapp&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 3,
+          "histogram": {
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "4": 1,
+            "5": 1
+          },
+          "oldest": "2022-01-30 11:55:55",
+          "newest": "2026-09-18 19:18:16",
+          "url": "https://play.google.com/store/apps/details?id=com.stayonfire.stayonfireapp&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2020-01-05",
+        "newest": "2022-09-01",
+        "url": "https://apps.apple.com/de/app/stayonfire/id1490446398?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Historical German feedback values concise devotional content and simple presentation; no current full-app ethical finding follows.",
+        "examples_reviewed": 1,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.stayonfire.stayonfireapp&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "com.bookvitals.BibleChatKids",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": null,
+          "newest": null,
+          "url": "https://play.google.com/store/apps/details?id=com.bookvitals.sam&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": null,
+          "newest": null,
+          "url": "https://play.google.com/store/apps/details?id=com.bookvitals.sam&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2025-11-05",
+        "newest": "2026-10-14",
+        "url": "https://apps.apple.com/us/app/sam-bedtime-stories/id6749544775?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Family content is valued; a selected Apple account alleges charges after cancellation. Verify the billing route and support record before treating it as a finding.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://apps.apple.com/us/app/sam-bedtime-stories/id6749544775?see-all=reviews"
+        ]
+      }
+    },
+    {
+      "app_id": "app.startblock.ios",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": "2022-05-02 09:07:58",
+          "newest": "2022-05-02 09:07:58",
+          "url": "https://play.google.com/store/apps/details?id=app.startblock&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 1,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "oldest": "2021-11-09 06:02:34",
+          "newest": "2026-09-03 15:10:51",
+          "url": "https://play.google.com/store/apps/details?id=app.startblock&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 0,
+        "oldest": null,
+        "newest": null,
+        "url": "https://apps.apple.com/us/app/startblock/id1585144354?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "A historical selected account values habit support; that does not establish a causal formation outcome.",
+        "examples_reviewed": 1,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=app.startblock&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "ai.rebind.studybible",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [],
+      "apple": {
+        "n": 10,
+        "oldest": "2025-11-03",
+        "newest": "2026-06-20",
+        "url": "https://apps.apple.com/us/app/rebind-study-bible/id6751198660?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "A selected Apple account appreciates integrated Scripture/commentary/audio and requests more translations; requested translations are not established features.",
+        "examples_reviewed": 1,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://apps.apple.com/us/app/rebind-study-bible/id6751198660?see-all=reviews"
+        ]
+      }
+    },
+    {
+      "app_id": "com.catloafsoft.TextsWithJesus",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 17,
+          "histogram": {
+            "1": 3,
+            "2": 0,
+            "3": 1,
+            "4": 0,
+            "5": 13
+          },
+          "oldest": "2025-10-07 13:40:56",
+          "newest": "2026-10-19 06:37:04",
+          "url": "https://play.google.com/store/apps/details?id=app.textwith.jesus&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 2,
+          "histogram": {
+            "1": 2,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": "2024-09-19 10:08:42",
+          "newest": "2026-08-21 14:27:52",
+          "url": "https://play.google.com/store/apps/details?id=app.textwith.jesus&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2023-08-12",
+        "newest": "2026-07-11",
+        "url": "https://apps.apple.com/us/app/text-with-jesus/id6446922759?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Personal spiritual usefulness is reported; a selected critical account raises AI agreeableness/role concerns. Actual model behaviour needs direct testing.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=app.textwith.jesus&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "simpletithe",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 24,
+          "histogram": {
+            "1": 4,
+            "2": 1,
+            "3": 0,
+            "4": 1,
+            "5": 18
+          },
+          "oldest": "2025-12-01 21:45:42",
+          "newest": "2026-10-22 18:51:45",
+          "url": "https://play.google.com/store/apps/details?id=ly.tithe.tithely&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": null,
+          "newest": null,
+          "url": "https://play.google.com/store/apps/details?id=ly.tithe.tithely&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2024-06-23",
+        "newest": "2024-11-22",
+        "url": "https://apps.apple.com/us/app/tithe-ly/id694740700?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Convenient giving and acceptable fees are described; a critical account appears to concern onboarding/upselling/exit, possibly an administrator workflow. Product/role scope needs checking.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=ly.tithe.tithely"
+        ]
+      }
+    },
+    {
+      "app_id": "ai.truthly.TruthlyApp",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 50,
+          "histogram": {
+            "1": 17,
+            "2": 3,
+            "3": 3,
+            "4": 4,
+            "5": 23
+          },
+          "oldest": "2026-08-19 00:42:08",
+          "newest": "2026-10-22 15:13:05",
+          "url": "https://play.google.com/store/apps/details?id=com.truthly&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 3,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 3
+          },
+          "oldest": "2025-09-24 12:24:00",
+          "newest": "2026-09-16 10:14:42",
+          "url": "https://play.google.com/store/apps/details?id=com.truthly&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2024-07-07",
+        "newest": "2026-10-11",
+        "url": "https://apps.apple.com/us/app/truthly-catholic-ai/id6504047524?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Catholic study/reference usefulness is valued; a selected account reports losing a response on switching apps. Reviewer claims of official institutional AI status are not adopted.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.truthly&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "ai.bible.bibleai",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [],
+      "apple": {
+        "n": 10,
+        "oldest": "2025-02-05",
+        "newest": "2026-07-07",
+        "url": "https://apps.apple.com/us/app/bible-ai-chat-about-anything/id6739915445?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Question-answering is valued; a selected account objects to the app’s spiritual role. This is a worldview/role concern, not proof of answer inaccuracy.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://apps.apple.com/us/app/bible-ai-chat-about-anything/id6739915445?see-all=reviews"
+        ]
+      }
+    },
+    {
+      "app_id": "de.bibletunes.podcastmanager",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": null,
+          "newest": null,
+          "url": "https://play.google.com/store/apps/details?id=de.bibletunes.podcasts&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 1,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "oldest": "2021-06-11 09:32:21",
+          "newest": "2026-05-12 10:25:08",
+          "url": "https://play.google.com/store/apps/details?id=de.bibletunes.podcasts&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 0,
+        "oldest": null,
+        "newest": null,
+        "url": "https://apps.apple.com/us/app/bibletunes-podcasts/id1186177578?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Historical German accounts mention restored function and later downloading/data-loss problems; no current resolution is verified.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=de.bibletunes.podcasts"
+        ]
+      }
+    },
+    {
+      "app_id": "qa.tejas.dewfall",
+      "checked": "2026-10-25",
+      "ingredients": [],
+      "dimensions": {},
+      "play": [],
+      "apple": {
+        "n": 0,
+        "oldest": null,
+        "newest": null,
+        "url": "https://apps.apple.com/us/app/dewfall/id6787696480?see-all=reviews"
+      },
+      "review_note": null
+    }
+  ]
+}
