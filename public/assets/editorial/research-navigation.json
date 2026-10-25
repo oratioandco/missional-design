@@ -1,0 +1,32 @@
+[
+  {
+    "id": "apps",
+    "href": "/apps/",
+    "label": "Apps",
+    "description": "What the apps do"
+  },
+  {
+    "id": "organisations",
+    "href": "/organisations/",
+    "label": "Organisations",
+    "description": "The people and companies behind them"
+  },
+  {
+    "id": "screens",
+    "href": "/screens/",
+    "label": "Screens",
+    "description": "Browse captured interfaces"
+  },
+  {
+    "id": "flows",
+    "href": "/flows/",
+    "label": "Flows",
+    "description": "Follow captured sequences"
+  },
+  {
+    "id": "articles",
+    "href": "/patterns/",
+    "label": "Patterns",
+    "description": "Explore the design questions"
+  }
+]

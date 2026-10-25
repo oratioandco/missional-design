@@ -1,0 +1,16 @@
+/* Shared by native Astro and imported reference pages. */
+.research-menu{position:relative;font:inherit;color:var(--ink)}
+.research-menu>summary{display:flex;align-items:center;gap:7px;cursor:pointer;list-style:none;padding:8px 0;white-space:nowrap}
+.research-menu>summary::-webkit-details-marker{display:none}
+.research-menu>summary:hover,.research-menu>summary.is-current{text-decoration:underline;text-underline-offset:8px}
+.research-menu[open]>summary svg{transform:rotate(180deg)}
+.research-menu-links{position:absolute;top:calc(100% + 12px);left:-22px;width:310px;background:var(--paper-hi);border:1px solid var(--rule);border-radius:4px;padding:10px;box-shadow:0 12px 30px -18px rgba(0,0,0,.35);z-index:30}
+.nav .research-menu-links a,:root:root .e-nav .research-menu-links a{display:block;padding:12px;color:var(--ink);text-decoration:none;border-radius:4px;font-size:14px;line-height:1.45}
+.nav .research-menu-links a::after,:root:root .e-nav .research-menu-links a::after{display:none}
+.research-menu-links a:hover,.research-menu-links a:focus-visible{background:var(--paper-lo)}
+.research-menu-links strong{display:block;font-weight:600}
+.research-menu-links span{display:block;font-size:12px;color:var(--muted);margin-top:3px}
+.research-menu summary:focus-visible{outline:2px solid var(--focus);outline-offset:5px}
+@media(max-width:900px){.research-menu{width:100%}.research-menu-links{position:static;box-shadow:none;width:100%;margin:6px 0 12px;border:0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:8px 0;background:transparent}.nav .research-menu-links a,:root:root .e-nav .research-menu-links a{padding:9px 12px}.research-menu>summary{min-height:44px}}
+
+.e-nav .research-menu{--ink:var(--e-ink);--muted:var(--e-muted);--paper-hi:var(--e-paper-hi);--paper-lo:var(--e-paper-lo);--rule:var(--e-rule);--focus:var(--e-focus)}

@@ -1,0 +1,2804 @@
+{
+  "com.BlueLetterBible.BLB": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/blue-letter-bible/id365547505?uo=4",
+    "country": "us",
+    "store_version": "2.84.2",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/f348fe257ec0c3aff814411f.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/90/9a/0c909a5e-c0fe-b0c6-5dbb-77863b0953b0/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/8a13eac89ab88849a105d8b4.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1b/eb/9b/1beb9b6a-7f94-0ed4-2913-47f80bdf8378/mzl.lgcapokj.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/364e848e9e28ca1af42583c7.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/b2/24/a6b22470-09f6-957b-cd0f-14158c591201/pr_source.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/ede65349e7ba0bbcdf11fcc6.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/a3/ce/5fa3ce37-3038-fdeb-4e02-6e85df00e2f2/mzl.gchmpxtj.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/cc3e303bc01c55556880ae20.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/14/7e/f8147ea7-1427-e6b2-f075-99c31782e9de/mzl.stvmrafz.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/b0c280a92a6633532b534d36.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c4/7a/44/c47a448f-0b3d-690c-d685-93ec1d6e4b3f/mzl.poqlsugj.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 5
+      }
+    ]
+  },
+  "de.bibellesebund.bibelzeit": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/bibelzeit/id1449571811?uo=4",
+    "country": "us",
+    "store_version": "3.1.1",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/aefe414ab7d75e1a6c2aa92c.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/12/21/5c122125-ca25-3884-172f-b3eabe4b9603/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/bf76b6e723ab21e4b5f92a2b.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/d2/fb/72/d2fb724e-ae03-15cc-0427-c4b571af95f9/3e242b31-7ac6-4518-b22d-890981252649_Simulator_Screenshot_-_iPhone_8_Plus_-_2023-12-20_at_19.22.40.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/c567c7903691bde593c63000.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/f3/0f/cd/f30fcd65-138a-4af8-f10d-58aeb462a9b9/175ab712-8564-49f6-9b53-b04e87ef997a_Simulator_Screenshot_-_iPhone_8_Plus_-_2023-12-20_at_19.22.44.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/339b52cf3d79ba77c94b643a.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/57/1a/5c/571a5c2b-a9ca-a4ad-1015-d5c644b53004/0c98c29c-6878-480c-9182-91228b6543b2_Simulator_Screenshot_-_iPhone_8_Plus_-_2023-12-20_at_19.22.55.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/953f10c7cb5c0041fd7c869b.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/00/ca/68/00ca683c-46f8-0622-5c19-9c0ea154a61a/7c18cfac-6399-4da5-9729-2665b472cb4b_Simulator_Screenshot_-_iPhone_8_Plus_-_2023-12-20_at_19.23.26.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/9e39f8334f169979b6fb4e2d.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/ca/46/08/ca460826-6ac1-d673-1688-d3c5109b246f/1c0eafbe-cc4b-4ee2-b243-6c0c75f5d2a2_Simulator_Screenshot_-_iPhone_8_Plus_-_2023-12-20_at_19.23.39.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/4d608a0219353edb97469c01.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/e3/21/49/e321497c-9baf-6a35-a1d4-c85c66b542ab/c6016243-fb86-407d-9b8c-460bcfb8e054_Simulator_Screenshot_-_iPhone_8_Plus_-_2023-12-20_at_19.24.06.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 6
+      }
+    ]
+  },
+  "com.alphainternational.bioy": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/the-bible-with-nicky-and-pippa/id504133402?uo=4",
+    "country": "us",
+    "store_version": "30.0",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/c2e3a01a05d5666715c3e230.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/3b/6a/0a3b6ad0-cc58-3655-7706-8f1b327b41fd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/ee199ed0ae7d08660de6dcdc.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/f1/37/04f13709-4b3f-5a33-0029-e7daaa010815/b1491125-1782-4eab-b63c-5f859dd951b8_App-Store-5.5_hiking.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/bf8a103c5e4dcec7c0ddce7c.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/0a/05/170a0567-8569-43f4-415e-c05b6b0fc07c/9442e490-cc14-4b56-8cea-2aef644df777_5.5__Apple_Store_-_1.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/6a4096d92230de2e058a8286.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/44/6b/d9/446bd97f-26c0-50cb-b77d-ca5df518d5bf/ab6e688d-cc5b-42f7-88ec-fa8b13d0e48f_5.5__Apple_Store_-_2.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/be70a12fd6be31797ee1bc13.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3b/7c/f3/3b7cf3c4-6a01-c9cd-93f0-6dc5437285cf/8062dfc3-ea35-4012-8547-555313c65ce5_5.5__Apple_Store_-_3.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/79febdba96f8d245496bc393.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e5/41/d3/e541d301-0c4a-4d4e-8c41-501d197c5b4b/b51f10aa-c21a-406e-b94b-04d6224f1dbf_5.5__Apple_Store_-_4.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/ff433938c73802d53c714435.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/1e/e8/491ee8ca-7fc4-344e-4888-726cb71722d6/63e5094b-70b0-4186-810c-b04ae5959b75_5.5__Apple_Store_-_5.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 6
+      }
+    ]
+  },
+  "tv.lifechurch.bible": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/bible/id282935706?uo=4",
+    "country": "us",
+    "store_version": "11.34.1",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/da5007a9989a0044fc142275.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/39/16/323916eb-db20-cce0-baa9-9709f5800ed7/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/b3c13aad8fec30df560bb5b1.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b2/03/14/b2031465-02b3-bcc2-f456-78516e90e268/1-daily-refresh.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/31d1669a8f3daa69738a7c60.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d8/d2/cd/d8d2cd7a-ffd2-09af-7a2b-8b7cff56fb17/2-bible.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/0b2ebc1268b378771230806b.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/9b/7e/039b7ec2-af3d-0562-377a-093ed1e67658/9-reviews.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/e39af8842ff49487718f9018.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bb/a2/7e/bba27e73-b43a-e02c-a0cc-4e85276d29b9/6-audio.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/2545d6c9883b67429931beac.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/10/fc/08/10fc08e3-248c-46ca-019d-5c3fe12a36c7/3-versions.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/0050b555e31ec315f41a5c18.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3d/fa/a7/3dfaa7e8-cc11-09c3-1aa3-3b085f710408/5-plans.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/48fca033a908f409ccbfcb2c.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b8/db/aa/b8dbaab8-0e43-4c6f-eb58-4f7d2b01e543/8-community.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 7
+      },
+      {
+        "image": "/assets/app-library/store/cae6f3166e904350acd3df85.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b8/33/dc/b833dcab-a873-6105-e241-f59d4e9dc83c/10-discover.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 8
+      },
+      {
+        "image": "/assets/app-library/store/8cefa1cb5b8ec43ab1e5cd1b.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d6/9d/66/d69d6697-2bd3-03c1-0451-e63b6ec2d810/7-guided-prayer.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 9
+      }
+    ]
+  },
+  "tv.lifechurch.bible.kids": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/bible-app-for-kids/id668692393?uo=4",
+    "country": "us",
+    "store_version": "3.4.1",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/8b83f7abfb97996354c8338d.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/03/95/33039508-42a3-4ee4-8978-cd7629bcc17e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/e5635ad5977e832d519d5273.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/7f/66/fc7f6608-7d0d-9c92-c1fe-662c0e194aaa/en_bafk_iphone_animated_bible_stories.png/320x480bb.jpg",
+        "width": 320,
+        "height": 147,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/7e683ff4f8e877634a863359.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/37/7a/ec377a02-513d-d194-c3f7-b791b8602dac/en_bafk_iphone_interactive_animations.png/320x480bb.jpg",
+        "width": 320,
+        "height": 147,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/a53be0cf3cd34005a3b5fe3c.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/59/b4/fb59b485-f8c0-9a1f-16b5-6ad5f670f67c/en_bafk_iphone_fun_activities.png/320x480bb.jpg",
+        "width": 320,
+        "height": 147,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/892c47b8599733d0b1b585d2.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6c/da/6f/6cda6f82-02f9-9a42-f796-f49ea9de0d3d/en_bafk_iphone_challenges_and_rewards.png/320x480bb.jpg",
+        "width": 320,
+        "height": 147,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/f9b470c0f584a88e208eaf5d.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/96/4f/d2/964fd2ad-0b42-024d-f36d-f4e68e466a3b/en_bafk_iphone_languages.png/320x480bb.jpg",
+        "width": 320,
+        "height": 147,
+        "device": "iphone",
+        "position": 5
+      }
+    ]
+  },
+  "com.basmo.BibleChat": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/bible-chat-daily-devotional/id6448849666?uo=4",
+    "country": "us",
+    "store_version": "5.1.4",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/27cc9c3c592a6d9710f1e80d.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/9b/e7/c39be73f-23bd-10be-4e6b-4d8c8e08a959/AppIcon-0-0-1x_U007epad-0-1-0-85-220.jpeg/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/e0439881cdc161665dbc01da.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/3f/be/093fbeea-ec9b-6700-a983-3d6a6211f177/02-today.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/9ce5d95986b8bb1d1efc793a.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/64/13/54/64135451-028e-4768-de97-806bb09ca90d/04-social-proof.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/499d7a51798f8dc189ef697c.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/56/d7/9a56d708-a435-2a2b-6a19-02b195d90fe9/12-lockscreen.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/85ba4510d941cbc9dda57e53.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/a6/ea/6aa6ea37-a499-543c-bf62-8622ffe3b99e/14-journey.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/4f4964fabca4897daa4855f3.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e9/c1/59/e9c1596c-3b4a-b2f1-e82c-ecde5267e9e4/06-voice-assistant.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/e48aaf16b660b2db397f4e3c.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/af/ef/60afef72-701b-3af7-139e-1b2df5f369da/13-plans-browse.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/97d05e01e5c00dcbc3f09a5d.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/d4/79/cdd47941-aadc-8623-5e98-6646f9bc4fd6/10-meditations.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 7
+      },
+      {
+        "image": "/assets/app-library/store/d40ac9f03b59a3873c8402f4.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7e/7b/01/7e7b01c0-111a-150f-e249-476b55af2d66/11-watch.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 8
+      },
+      {
+        "image": "/assets/app-library/store/d34deeeb2d333424e607de16.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/41/7f/51417f69-da6c-9d58-ea41-68649a4397cb/09-bible-reader.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 9
+      },
+      {
+        "image": "/assets/app-library/store/64105e2413e06a48c040fbca.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c0/b9/32/c0b932c3-5d8f-1826-8aac-d90724404bff/03-listen.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 10
+      }
+    ]
+  },
+  "com.zonervan.biblegateway": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/bible-gateway/id506512797?uo=4",
+    "country": "us",
+    "store_version": "200.2.1",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/8fa37580b31895cbe94b0d87.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/98/8a/f4988a2f-e222-57a6-9502-db6b08984ad0/app-icon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/442f6ef96755fc9a4def24a8.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/18/0a/03/180a03d3-dbc7-fa6a-02cc-065910079d66/Bible_Gateway_App_iPhone_1290x2796_screen1.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/16b268514eccaa034c5244e5.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9c/60/2a/9c602a22-5067-25b6-0ea4-f3394a7096ca/Bible_Gateway_App_iPhone_1290x2796_screen2.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/9c97012eb387bd7daef4d297.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/34/56/cc345641-0bec-847f-5f5b-818357a35a1a/Bible_Gateway_App_iPhone_1290x2796_screen3.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/c85e68841135bdbaafe58e12.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f3/e2/7e/f3e27ee0-0f86-413f-fbed-e392bf5e2d63/Bible_Gateway_App_iPhone_1290x2796_screen4.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/7d90d707d6040a7eda3b8934.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e3/d6/58/e3d65811-2f71-3437-ca57-27bc2231e52d/Bible_Gateway_App_iPhone_1290x2796_screen5.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/e484eb5592f0e75dfde81620.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/e8/6e/dde86e40-eed5-4330-2843-841a51016303/Bible_Gateway_App_iPhone_1290x2796_screen6.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 6
+      }
+    ]
+  },
+  "com.bibleproject.bibleproject": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/bibleproject/id1523687027?uo=4",
+    "country": "us",
+    "store_version": "2.26",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/ca168e6fce4894c2a609b286.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bd/b0/6f/bdb06fae-3951-588d-481f-f851e5ef0492/Prod-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/3fb67a50b859a36906e58d5e.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/b4/83/52b4830c-2ca5-6ef8-affc-a41691fb3e56/iPhone__U00286.7__Display_U0029_-_01.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/1e74146c2bef095c960d2374.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/97/09/ad/9709adbc-3329-3236-1069-4f8eec29674d/iPhone__U00286.7__Display_U0029_-_02.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/1edb1424a8bba82faf61380e.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7c/c6/bc/7cc6bc5c-1f00-83fe-fca7-85fb59d87f3b/iPhone__U00286.7__Display_U0029_-_03.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/76ca81f750a90cd7451c8b38.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c5/3f/80/c53f8042-b09d-dae7-2a26-17782eec14e5/iPhone__U00286.7__Display_U0029_-_04.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/1391c5c99165bf1a6bce17b9.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/15/33/fa/1533faa0-6978-c5a4-9e97-6ca3c462a7fb/iPhone__U00286.7__Display_U0029_-_05.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 5
+      }
+    ]
+  },
+  "com.ministrycentered.ChurchCenter": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/church-center/id1357742931?uo=4",
+    "country": "us",
+    "store_version": "2026.10.3",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/943062fcff57dfb26b7265fb.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/11/88/b511884d-c357-ada0-4bae-2522a8ab4b4c/app_icon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/4fcb78e4b3c084907ec2c040.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8a/6e/cb/8a6ecb29-bf29-171f-bd8b-b841584c2adc/01-me-page.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/26ccb78ec7d1583d5325661c.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/73/c7/d3/73c7d339-9774-b6d2-7e17-290801ecdeb7/02-home.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/6e58a8d4041bd1fae42ba07c.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3a/b7/da/3ab7da39-0b58-ead0-9a72-8fd6f4e1c0e3/03-groups.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/61fe95a49ce9a80696ac995d.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/6c/96/236c9650-b818-460a-e58a-3802fb232728/04-chat.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/349f5f73ba10a4452e6b4eba.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/f0/4f/e0f04f60-cc76-a6c1-ad54-cefd9cc070c4/05-calendar.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/75271405e2c17b02f3c04f25.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d7/fc/95/d7fc95a5-bf89-4bcf-563d-6787707ccb51/06-sermons.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/fb6c48718ddec44dcddae3d1.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/2e/7b/2c2e7bec-7b35-4da0-3777-d340f91426be/07-check-ins.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 7
+      },
+      {
+        "image": "/assets/app-library/store/836621eb1ceb33b68e13dee8.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/60/24/66602452-ca4a-c341-f714-9ca25cb8c4d4/08-profile-settings.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 8
+      }
+    ]
+  },
+  "com.damirakyan.creed": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/creed-bible-chat-companion/id6747326744?uo=4",
+    "country": "us",
+    "store_version": "1.1.53",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/d7777bc788ec6ddfd1a505f6.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/37/68/1d37685a-eb71-4326-1a70-225f5d731411/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/b074ade2482345d8ea03f501.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/d7/3e/f6d73e93-aa56-ea2c-88c4-099652bbd0fc/iPhone_Screenshots_1.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/1c65e8b7bbce0041e54a6935.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/18/ce/2618cebb-ded1-89e0-d3e7-5b86c66ba3e2/iPhone_Screenshots_2.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/39c05c3be6f53544d4c7708b.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/54/ff/0754ffeb-3b69-338a-f61b-ff22e04face4/iPhone_Screenshots_12.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/b8b2fdb117bb0eb1d4f367a1.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/1e/56/be1e56ab-3ce2-0878-8601-a3d8c78a1483/iPhone_Screenshots_4.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/24acfe8b52a52e824271cc95.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/66/de/6d/66de6d5b-9f74-2f13-5f62-f4e25561fdc2/iPhone_Screenshots_13.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/e9364e5ce748cd5dd3bd0979.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fe/37/b0/fe37b09d-a59a-97ea-d31e-929abf89cee4/iPhone_Screenshots_10.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 6
+      }
+    ]
+  },
+  "com.duomoapp.project": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/duomo-daily-prayer-bible/id6736357076?uo=4",
+    "country": "us",
+    "store_version": "6.4.8",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/832cd70f7331a5eaddb16de2.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1d/c5/f1/1dc5f1f5-fe34-d2fa-6d7b-5a9b95cd6ef5/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/b795b7ceb44c0e1dcb4fd4b4.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ff/c9/28/ffc9284d-ce06-2a53-ba0b-03b233c7c9ac/1.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/14dc0b8252add24cfc04331a.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/a6/bd/a5a6bd3a-4d30-48f2-ffde-c650dee6d5d6/2.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/ae0ebb1bc362504585a3db75.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/51/9a/fd519a86-05a1-9764-e4a4-0dbad956b3fc/3.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/ab6864b4c2d4e8e731cd0718.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/84/94/9a84944f-0bf7-505a-06b4-6d634fc9ef59/4.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/99d69f5ed9192c8841b65bc0.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/d2/2f/d8d22f1b-0f08-5d65-2d6a-3c61c2c9343a/5.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/6f949c3b265cd72e962dea2b.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/b0/35/5db03547-78cc-a3dd-ea7a-0365ab65b351/6.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/6831718977784dfb16ba65f1.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/36/71/a1/3671a175-99f5-4d1d-de2a-4e430907b3b4/7.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 7
+      }
+    ]
+  },
+  "io.dwellapp.dwell": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/dwell-audio-bible/id1343917374?uo=4",
+    "country": "us",
+    "store_version": "2026.10.1",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/7c251876cfac442f03f891b5.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/f8/35/d0f835e4-9729-037f-fa28-dfa474041f88/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/252eaa1dd5d3ba4aa5f0465e.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/41/e2/ad/41e2ad1e-3bbf-b399-4afe-748b8f9e5abd/f6a52c33-2dc0-441c-9bd7-8267025dbc74_2023.07-Dwell-Screens-5.5-1.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/3f4ed980bbbebe9c7b293f2c.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/18/02/44180210-140d-45de-dd5b-a047a35a5d18/94fc92a4-64f0-4105-8345-d9d3cc3092ab_2023.07-Dwell-Screens-5.5-2.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/490483f20632f7f5f5515f5f.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/b3/07/c2b30777-58ad-7fbf-2ac2-1fc40964bf33/01decbe2-83eb-4fcb-bed4-e6fd2dfc141a_2023.07-Dwell-Screens-5.5-3.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/c844cbcb08073e797cd77e7a.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/59/5f/4d595f89-c718-700d-636b-56b80f3792c7/4e8efd25-88b1-41c2-8b11-d7591fe7cb76_2023.07-Dwell-Screens-5.5-4.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/db5918ce11c2bee5d764ee8e.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6e/d3/b6/6ed3b6b7-6d1b-3a26-8df0-9df7368eeea7/47bbda36-a474-4595-9957-ee62650f6542_2023.08-Dwell-Screens-5.5-5.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/0764cdaf014c43cfab20221e.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/18/16/0f181694-c28b-b84a-b143-207cdf5d78a1/b0bf2c81-49e6-4fdd-914e-9308c35353a4_2023.08-Dwell-Screens-5.5-6.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/3296d08189a17e52a2a05a9f.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/91/09/c4/9109c43b-41bc-eb68-2189-d18bfbd8848d/d1098a9e-dcb6-421e-b8ee-a9bd6346c15c_2023.08-Dwell-Screens-5.5-7.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 7
+      },
+      {
+        "image": "/assets/app-library/store/298a9b92b0ed977df5b18189.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/43/0f/7b430fd1-1710-c13e-7b03-5d8557170383/c44907b2-b516-4ac6-b3bf-394245242c09_2023.07-Dwell-Screens-5.5-8.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 8
+      },
+      {
+        "image": "/assets/app-library/store/62fc9af7e027e51d06a95b4b.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/47/25/b9472584-77ce-deaa-0c5b-e818c5ee51ef/d6ea11c9-127c-48b9-a4a4-ebfd2cf553cd_2023.07-Dwell-Screens-5.5-9.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 9
+      },
+      {
+        "image": "/assets/app-library/store/a176751e3abb630dc9b8d060.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/1e/af/7f1eafb1-f8b1-2e1b-428b-a8d1f6ca0a5d/843c93ea-54d7-4e20-815a-efafe14f2c71_2023.07-Dwell-Screens-5.5-10.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 10
+      }
+    ]
+  },
+  "systems.emmaus.zam": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/emmaus-bible-courses/id1267933551?uo=4",
+    "country": "us",
+    "store_version": "2.2.0",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/3fb7bdf948cf70065c2ce16f.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/ce/a3/35cea3de-3d0d-6bc3-1450-bd64212bb550/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/12a0c4a7a2c062ded94988b0.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/06/a8/d0/06a8d07b-1a30-f671-9ca7-9ba86712ec18/Simulator_Screenshot_-_iPhone_16_Plus_-_2024-12-06_at_23.13.58.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/4c9ce18a4e1d13da5196433b.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6e/6d/90/6e6d90ed-0851-ebd7-0391-ab01d3986644/Simulator_Screenshot_-_iPhone_16_Plus_-_2024-12-06_at_23.17.54.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/41b29286e27def2047ce21bb.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3b/e9/0c/3be90c19-c2be-69c6-6c28-3f3cb91fd486/Simulator_Screenshot_-_iPhone_16_Plus_-_2024-12-06_at_23.14.25.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/364aecb79173faf4c3338537.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/47/6c/be476ccd-5094-2bd4-daac-1bcda71e1e16/Simulator_Screenshot_-_iPhone_16_Plus_-_2024-12-06_at_23.18.56.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/d454e1c938ba69bdcf96d94e.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/64/ad/88/64ad8828-6240-a406-3478-b01f9241cb36/Simulator_Screenshot_-_iPhone_16_Plus_-_2024-12-06_at_23.17.39.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/822889a44199e24a7e4d6c72.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/01/22/cc0122cc-0742-7fbe-8992-3e5b02c8923f/Simulator_Screenshot_-_iPhone_16_Plus_-_2024-12-06_at_23.17.42.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/533cdfc63ba3fb4af36eec05.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9c/e3/d1/9ce3d167-2651-c7ae-7500-e3af50044d2f/Simulator_Screenshot_-_iPhone_16_Plus_-_2024-12-06_at_23.15.30.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 7
+      },
+      {
+        "image": "/assets/app-library/store/ddcb69bec9e9cf5b8037d009.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/95/b3/63/95b3637f-0488-2db9-d399-301fc26a71de/Simulator_Screenshot_-_iPhone_16_Plus_-_2024-12-06_at_23.16.02.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 8
+      },
+      {
+        "image": "/assets/app-library/store/70078e970badb8f350a61fa1.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/83/04/38/8304381b-a7f6-6a35-d8eb-800bd23ac89f/Simulator_Screenshot_-_iPhone_16_Plus_-_2024-12-06_at_23.17.18.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 9
+      }
+    ]
+  },
+  "com.aimermedia.LiveLent": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/everyday-faith/id1336487241?uo=4",
+    "country": "us",
+    "store_version": "17.7",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/a8f622137bbc0201cf56d196.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b8/ee/5f/b8ee5f82-b13c-17e2-445b-560cf91da331/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/6e8af2082a88433b3d7611d8.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b9/03/16/b90316f0-c692-d89d-1507-f004339cd1ad/363661f8-31fb-46f6-8e83-5535d2614eeb_IOS_Old_1.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/ca56819f0236b8544c937d9c.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7b/0f/5c/7b0f5c19-5b9d-a083-a50e-5eb6c5a9e32f/16bc7a1c-1477-4799-806c-40de17b38d5f_IOS_old_2.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/2fba19d55140d94750753274.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/08/3b/69083b18-6761-d063-e1bf-5e1ee6f2baf3/97bb0179-660f-4fb1-a4eb-fd1cbe3710d8_IOS_old_3.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/4b08d2527273d858e198d510.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/1b/0a/381b0a03-d297-3468-ead8-eebc275348a6/805e56e9-329d-4395-934d-1849765bd2f7_IOS_old_4.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/74a87de2e5cb990311103ccf.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fd/fe/c6/fdfec69c-7419-5f2b-b9b3-548412975710/57fcf9a4-05b5-424e-b3ee-f6c5df495a66_IOS_old_5.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/4969fa9fe43fd4855a30c4b1.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/34/4a/1c/344a1c8e-340a-ddef-3e40-e0c10135252c/b7e7fb8b-43e8-4980-a526-2757b50a6729_IOS_old_6.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/eb4e9e41bd79a15a574b16e6.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/db/8e/b8/db8eb83f-8d5d-c5d6-1d1b-0ac4e1f7e110/bd12bc3a-27e9-4817-b71d-a006e474613a_IOS_old_7.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 7
+      },
+      {
+        "image": "/assets/app-library/store/68cd96613b2b5c6e1c1e6462.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/33/d7/60/33d760a7-bffc-08c2-5b37-12b31c371cee/d03f7f92-a6c2-4a9d-999e-202e4bfb365f_IOS_old_8.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 8
+      },
+      {
+        "image": "/assets/app-library/store/f0c41c7b95e7608b5a7de48b.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/24/e1/0324e1f4-ea72-8e10-4c67-edd4cd2aeafe/7e8528a8-a183-406f-a3fa-cac0a346ce24_IOS_old_9.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 9
+      }
+    ]
+  },
+  "com.pushcontrolz.Givelify": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/givelify-mobile-giving-app/id725815127?uo=4",
+    "country": "us",
+    "store_version": "6.44.0.1",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/f5218bd7f198932afb2430c9.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/c7/1c/9cc71cd2-4ea1-e2a6-66f4-014111929310/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/b5482ad6605090ed8eced7f8.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/84/e2/35/84e2355c-a84f-5387-730a-3a883d021ef6/4e85047d-ce9a-441e-b205-95151ffe86c4_iPhoneSE00.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/feaf5985aab3b521afb232a9.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/52/e9/0c/52e90cbc-4580-5a0b-5f6f-c629e88a828f/e0e7c7ae-adb7-4037-a0e8-92442305accd_iPhoneSE01.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/19894eb4e8cdbfa98c9b32c0.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/de/e7/28/dee728d5-dcca-b397-0dd3-c07101d1a234/372ee91e-7632-4ed3-bbd4-1f16b07f5d92_iPhoneSE02.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/adcca0a580044036526842ce.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/14/bd/b3/14bdb3df-9f27-cad2-dcbc-ae7a72b609c3/0ef73946-1adc-49da-a8b1-916c49725280_iPhoneSE03.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/102c785d41f98691b72d4b7f.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/20/63/6d/20636dac-211d-d24b-3431-61c7a6c63842/cff5e5ee-b2ef-473b-80c0-a3b62a170057_iPhoneSE04.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/022159ebd432d0f728c0b3fe.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/69/97/4c/69974cbd-fbce-1648-3aa1-1fe62f0f0fb5/b380e396-7916-4bd7-be09-e1c7f5eff412_iPhoneSE05.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/c0556b51a1cab49730ffb1ca.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e7/3e/c9/e73ec96a-8a8f-9954-6a44-c091a4393436/51b43488-0baa-4d82-a93a-1aed1412eab7_iPhoneSE06.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 7
+      },
+      {
+        "image": "/assets/app-library/store/479249a99a202f91215d5932.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/09/ea/fc/09eafc40-d020-2c0c-c9c6-9a46949ece18/24accdfd-90c9-46c4-9f5b-1cb2372cecf4_iPhoneSE08.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 8
+      }
+    ]
+  },
+  "com.Quiet-Time": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/glorify-devotional-prayer/id1490587079?uo=4",
+    "country": "us",
+    "store_version": "2.185.0",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/caa3fc5501aeefd7e415b137.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/8e/e9/5b8ee9c0-bcab-4957-01f0-1e1d2f0484ea/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/867a694ee9aef5a00fddf2fc.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/0d/e2/5f0de24b-9309-e960-43d0-d809a56613c4/EN_App_Store_2796x1290_Screen_01__U00281_U0029.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/3b05095cd8645ab7fcc1d873.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/9f/36/ee9f369e-9839-9b0c-ee01-a3118c33ac5a/EN_App_Store_2796x1290_Screen_02.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/d3c88f2cc125a1852a3f1385.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d3/87/2b/d3872bd2-57e7-96fa-fe50-4ac7767e0532/EN_App_Store_1290_U00d72796_THE_CHOSEN2_Screen_04.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/0cda4c75ec1d5dd3281d640a.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4b/7e/6c/4b7e6ca1-2c6c-5b3f-602f-4f288cc9bb02/EN_App_Store_1290_U00d72796_THE_CHOSEN2_Screen_05.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/bd48fb12a116fe66121a394d.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/91/25/11/91251113-bdb4-9cd7-eb68-630021ba6b18/EN_App_Store_1290_U00d72796_THE_CHOSEN2_Screen_06.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/50dfd11ac3c9143ea121f0cb.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/80/48/5f8048e4-3fee-58e2-2372-ebb483568bc1/EN_App_Store_1290_U00d72796_THE_CHOSEN2_Screen_07.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/f849f1d3e27524c2fc277e63.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/99/f4/4099f4d2-4e2e-a8eb-57d2-9a54a446db74/EN_App_Store_1290_U00d72796_THE_CHOSEN2_Screen_08.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 7
+      },
+      {
+        "image": "/assets/app-library/store/293df4d528dc20635a62945f.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4d/0c/3b/4d0c3bcc-66e0-2acd-2e4c-bbb168d2a42a/EN_App_Store_1290_U00d72796_THE_CHOSEN2_Screen_09.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 8
+      }
+    ]
+  },
+  "app.hallow.Hallow": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/hallow-prayer-meditation/id1405323394?uo=4",
+    "country": "us",
+    "store_version": "13.13.0",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/b76cf3d8d7c21e1f82360217.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/af/fe/a5/affea5cd-e686-c097-a246-3fde3e151a2e/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/e7714a42a7afb948f70fce6a.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8f/df/b1/8fdfb1f2-8236-b09e-b259-132be3e028dc/iOS_6.5_1.jpg/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/3dd56050e106aa036cea1440.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c5/e8/a8/c5e8a814-b569-d6b8-cb08-47180f270b54/iOS_6.5_2.jpg/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/df2e9adf78ef9b944f7a3b98.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/af/72/c7/af72c7f4-e919-69cf-dcfd-d37ea72fb53d/iOS_6.5_3.jpg/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/ef7e2ec538d2a9b3e6a34bbb.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/00/f2/5600f20b-a9cc-faf1-d2e4-7e8f60c33bc5/iOS_6.5_4.jpg/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/ddda832ce17e151b2fbe0bdf.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c8/dd/45/c8dd453f-0c84-41b9-d90e-924407bf69ac/iOS_6.5_5.jpg/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/42af4aadbd4613c40c2dba00.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/d4/1b/72d41bc9-58b0-1c67-57a1-6755b13317f0/iOS_6.5_6.jpg/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/74d8cd5f7d7fc358f2f1ffe9.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/64/d9/f0/64d9f0f0-b057-50e8-fe80-29d1310610e5/iOS_6.5_7.jpg/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 7
+      },
+      {
+        "image": "/assets/app-library/store/a8e3f4ac08da32146137bebd.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/96/24/08/9624086b-8cf5-6450-63ff-0d03e7d8c912/iOS_6.5_9_v2.jpg/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 8
+      },
+      {
+        "image": "/assets/app-library/store/ae8116d58e4798b4de530893.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/0c/ca/320ccabf-e307-a5bf-fa50-dbb4a2d1611e/iOS_6.5_8.jpg/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 9
+      }
+    ]
+  },
+  "ChandlerSantos.HolyScroll": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/holy-scroll/id6743411441?uo=4",
+    "country": "us",
+    "store_version": "1.3.0",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/45ac6cebe8124263f808d2e8.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b8/ed/c6/b8edc61a-c5c1-f447-3460-c85aa931d2aa/HolyScroll-Orange-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/560d165d51d36a1ad7c581b6.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/25/28/37/252837d4-1633-7f6e-3ddf-c3568e1a6f33/Blank.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/269bf8c0c028eaf4e53c9eb4.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/51/25/71512582-5d4e-647c-127c-948a42c5a126/verse.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/b38b140c8c91714ac4386c90.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/42/39/00/423900c4-5dcf-0716-6987-79330cef9064/4.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/ad03bab3000ffa8654af0160.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/be/d0/80bed0f0-2ec1-4f7f-1568-018b2ae68d30/notes.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/f7b91eb1e9794639bdb8ac4a.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/0f/62/1a0f6219-ae9c-e36c-dcf9-c3aa0e50cb84/2.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/c481ae135d88e9f9e137882a.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b8/82/1b/b8821b5b-09c4-cef7-370c-37d6ecfdb766/me.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 6
+      }
+    ]
+  },
+  "com.247prayer.innerroomv2": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/inner-room-app/id6756577061?uo=4",
+    "country": "us",
+    "store_version": "1.0.9",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/ef35c85bae6d70a3ece00ee0.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/ed/ef/f9edef69-a30c-62a2-fc2d-b19d4dfb85f1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/54bf025ed1b475133441ad69.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/91/05/b19105d6-1dfb-6435-6b84-3556bc88e052/IR-app_store-2026_04Image_1_1290x2796.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/0065510c2b763d9eb949b924.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/c3/c4/0fc3c456-450c-b4a8-0e06-442413069ee3/IR-app_store-2026_04Image_2_1290x2796.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/ee06974437f6704a5e41f57d.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7e/95/e5/7e95e5b4-55ea-eab5-ad08-73feadb4e2ad/IR-app_store-2026_04Image_3_1290x2796.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/a81f735b193123f346c5358a.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2a/b9/e3/2ab9e32a-b124-1cc4-4e1b-bc7303a157f6/IR-app_store-2026_04Image_4_1290x2796.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/408bb86347faa05d97aa2c35.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/16/ef/a9/16efa931-eec7-03f2-6e38-7ae8585109a9/IR-app_store-2026_04Image_5_1290x2796.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/2f6aaba4dae426adf5d45f9d.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/20/9d/a6209df9-2b73-dc8f-6b52-ba255f8a1186/IR-app_store-2026_04Image_6_1290x2796.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/486a8f5fc6a36c9957c27231.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/98/4b/56984bda-628c-68d1-70e1-181ad6b26017/IR-app_store-2026_04Image_7_1290x2796.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 7
+      },
+      {
+        "image": "/assets/app-library/store/7fe2d59fdb6f58788c3479dd.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d7/79/12/d779124e-14bf-cf2a-e9c5-bdf380353bfa/IR-app_store-2026_04Image_8_1290x2796.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 8
+      },
+      {
+        "image": "/assets/app-library/store/e4a5f6ff8288b7d853ec0b36.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2d/b9/5a/2db95a95-1960-e621-1cf4-e3355521616e/IR-app_store-2026_04Image_9_1290x2796.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 9
+      },
+      {
+        "image": "/assets/app-library/store/80f03e29e528f9986937d57f.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/bd/4c/ccbd4cdc-f0e4-a332-1ee7-6df358515349/IR-app_store-2026_04Image_10_1290x2796.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 10
+      }
+    ]
+  },
+  "de.dbg.konapp": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/konapp-die-app-f%C3%BCr-konfis/id1163238745?uo=4",
+    "country": "us",
+    "store_version": "2.4.5",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/4caadda93826d22bc03a795a.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/b3/f2/ddb3f2cd-9f47-08eb-06ec-11c16b35ea08/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/affb961a6648a5643b041e69.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/37/59/fc/3759fcab-a88b-86c6-7187-03d5e7ffa25d/db60db75-df73-4f95-87dd-171146508353_1.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/fa7e6ef4d9268de5dccf5b1f.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/29/a1/0729a1e4-6cd9-9460-955d-5fd339c8aa46/756dd4e0-cf24-4eba-bfb2-d0e180f32a36_2.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/b9344b3a0b199f9c600cd8aa.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/be/47/46be4754-e1a4-e3c2-4456-bdeeed55236d/8d4e2342-5887-4fcb-9470-0bca773d06c0_3.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/22f0edc28a3dd0eead634838.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/a0/16/51a0162a-e32b-a180-17db-17d84afd5275/f334b0d6-0b2d-42df-85a6-5c8563d3a5c9_4.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/1eb5f5e16ad979c3d8ed39dc.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/1b/24/321b246c-7c19-111d-e58d-eaead7122a32/d905a9a7-0a7e-4bf5-8cfc-d84fe92a149a_5.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/72029cca15de81282e4b9bba.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/08/79/8508796e-2a8f-f9ef-8b2c-0662df7b6cb0/7a37fb74-74dd-44cc-afc5-6de1d1348035_6.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/244a322867401d6e382e39a9.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/25/ea/c2/25eac211-dfd0-c2b3-4354-8de6b68f24ad/77573b80-00d3-4152-a117-4f5814290f63_7.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 7
+      },
+      {
+        "image": "/assets/app-library/store/7af55ed08fa78917ab45e0c9.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4c/a5/c6/4ca5c62e-5c4f-9689-d7e1-b8a893fdd01a/467a5143-f344-4726-bc8d-96011152ed15_8.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 8
+      }
+    ]
+  },
+  "com.prayer247.lectio365": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/lectio-365-daily-bible-prayer/id1483974820?uo=4",
+    "country": "us",
+    "store_version": "4.12.0",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/0595a5bdf5bcd904bc0ca866.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/73/d7/9c/73d79c28-1ad7-cedf-286d-cfd9af92f4a7/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/cf8480d8b8f9868a292b6c8b.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/be/4d/dfbe4dc9-418c-fffa-cc41-2f043ed6e23d/App_Store_Lectio365_ENG_6.9_1.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/e46c14f15cac977e8838e44d.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/09/65/5c/09655c4f-46ce-d4f5-7042-566f9b35b025/App_Store_Lectio365_ENG_6.9_2.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/aa984cd1d0944ab31d350647.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/94/08/50/940850e0-305e-1e73-a3b4-ac80e9f9e81c/App_Store_Lectio365_ENG_6.9_3.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/1768c16a459543ec25817344.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/64/a2/f564a2b2-ae5e-5e62-b05c-62cb53a9592d/App_Store_Lectio365_ENG_6.9_4.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/629ef6f393dce775f708cfa3.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/97/db/f497db7d-0719-25df-a785-b0025b77ce13/App_Store_Lectio365_ENG_6.9_5.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/7ff232d469ab00723f48e804.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/89/e3/f5/89e3f52d-fdc3-bbad-f2b2-211a5894680b/App_Store_Lectio365_ENG_6.9_6.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/46f546981bd49ed870251af1.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/4d/38/5a4d389c-5131-27b6-7856-6e309fee5f18/App_Store_Lectio365_ENG_6.9_7.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 7
+      },
+      {
+        "image": "/assets/app-library/store/8b77c9b476e44663382880a6.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/a2/3e/52a23e99-bfa4-c2ff-59e7-27c168ce0f26/App_Store_Lectio365_ENG_6.9_8.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 8
+      },
+      {
+        "image": "/assets/app-library/store/d5e40e3c79fb74b5ba7f5c2a.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4a/f1/8a/4af18a92-ef06-79f2-f47a-a164475b570d/App_Store_Lectio365_ENG_6.9_9.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 9
+      },
+      {
+        "image": "/assets/app-library/store/5233079a45482a1d18db7f46.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/97/dd/e1/97dde149-22aa-54a1-1d05-bf58dc64e7dc/App_Store_Lectio365_ENG_6.9_10.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 10
+      }
+    ]
+  },
+  "com.logos.ilogos": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/logos-bible/id336400266?uo=4",
+    "country": "us",
+    "store_version": "54.0.2",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/2947c1fe6d6dc09b48af981d.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/92/db/ff92dbf8-21f3-4894-1565-34efeba23171/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/2826e9d579b61f5b9a89bec6.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ac/40/84/ac408438-491c-276c-6f8d-912351594918/Logos_U2014App_Store_Listing_U2014iPhone_U201401.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/cc6002c97177c6d47ab16cd9.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/15/d1/5d15d1a9-26f3-0395-70b3-76109aa58fc6/Logos_U2014App_Store_Listing_U2014iPhone_U201402.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/9e4e49480274bf87b2aa2ca1.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/13/b0/41/13b04101-00d8-8526-7ebe-208d7903e7bc/Logos_U2014App_Store_Listing_U2014iPhone_U201403.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/44aba04880232a900ecc8d8a.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/dd/18/a6dd1865-3b5d-f122-dcf1-5cf2f71732eb/Logos_U2014App_Store_Listing_U2014iPhone_U201404.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/c8a599ddc229f67266f17877.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/eb/ed/03ebed53-64e6-3cf2-1913-59c29b92c3a3/Logos_U2014App_Store_Listing_U2014iPhone_U201405.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/b97ad18a78ab12f131be9529.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/18/1c/74181c51-9924-e397-5dde-ffe14b92a642/Logos_U2014App_Store_Listing_U2014iPhone_U201406.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/0be82617ee1590e5d63c4630.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/6d/94/326d942a-405f-c98c-0a58-58eb98a95932/Logos_U2014App_Store_Listing_U2014iPhone_U201407.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 7
+      },
+      {
+        "image": "/assets/app-library/store/b4da39196dd654bcd8eb8c23.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/e4/53/92e453c3-13f2-6cfe-06ca-ea5cd9bd2e8c/Logos_U2014App_Store_Listing_U2014iPhone_U201408.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 8
+      }
+    ]
+  },
+  "com.quietpupil.neubible": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/mere-bible/id961857426?uo=4",
+    "country": "us",
+    "store_version": "2026.4.3",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/a321a88d140b995451469716.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a5/cd/b7/a5cdb7e4-00fe-6ac6-381a-cd33ff7ff088/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/c1cdf9869f61d0a6793ba458.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/99/49/8a994999-7df6-8dc5-4599-ac76327f6f18/mzl.onaonrev.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/3f5628cb136d16ca18171dd7.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/3e/77/2b3e77fc-dff5-4d41-c453-edd87763534c/mzl.gwyyziss.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/649ef3b9e786033294c905a6.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/79/01/8f790189-040d-bf63-9cf6-7d317fba5c7e/mzl.rubjjbpu.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/dcd3201b01f68c6bb220b469.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/cd/15/e1cd1598-a435-d01c-cd8a-19ef4d125401/mzl.mobflkeb.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/c081d80c9fba168027cf93e4.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e7/e4/06/e7e40657-61c7-8cb6-25ee-15870b3e6dd7/mzl.dpmkahva.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 5
+      }
+    ]
+  },
+  "com.olivetree.BR-Free": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/bible-app-read-study-daily/id332615624?uo=4",
+    "country": "us",
+    "store_version": "8.1.4",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/2de7aa1249329e9e675aece3.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/72/5d/40725d3c-2d48-e5a5-080d-776dccbfa191/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/d4ee943f94dce5ba2d9c1e22.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b4/7a/f4/b47af492-1d70-81e5-4504-18266b975e69/1.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/9704e82aa8cb967e84c07618.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/b7/72/cfb772b0-7fc9-1a23-575f-4ca622f160fe/2.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/6723aa513f2af630cc1fa558.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e1/7d/a2/e17da2c6-2b3d-1c6d-aa10-d34dc5acee1a/8.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/f46fbd312a8ca619a74f2b92.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8a/33/91/8a339161-7ba7-1879-ff84-76b05426f1d8/5.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/087015ec57edb3c1c633593b.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/08/0f/25/080f255c-8017-0782-a3c9-71600e6c73e7/6.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/b8d5f41d17352d068c970235.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b5/1a/af/b51aaf76-94c0-4f0b-900e-5a8219b4ac80/4.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/193c77d76b269f80fcf966d3.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/db/3e/32/db3e32fd-66d3-cfa4-740a-3a9d07c19ed2/7.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 7
+      },
+      {
+        "image": "/assets/app-library/store/32ff9d85edfc5fd445e3a965.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/42/46/40/42464031-e8c5-b8bd-deb4-852e18e3f0c8/3.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 8
+      },
+      {
+        "image": "/assets/app-library/store/73b6ebdf8659e971191e539c.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/83/f1/c283f1b7-08ed-394b-eaef-1eb2154a5701/9.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 9
+      },
+      {
+        "image": "/assets/app-library/store/90a28da998702d29c80018d9.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/aa/cd/cb/aacdcbda-2200-60bb-bcf1-97169feda8c9/10.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 10
+      }
+    ]
+  },
+  "com.prayapp.pray": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/pray-com-bible-daily-prayer/id1161035371?uo=4",
+    "country": "us",
+    "store_version": "2.149.1",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/336520e1927c0adef9640c47.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/51/76/5b517620-bc82-5362-1b82-18a6f085e914/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/389af842a4f437900c22e624.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/9b/29/f99b2998-4ea2-fff8-5049-e2d040786698/Iphone5.5in_1320x2868_01.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/83dd4a979ca6b274c63e9a1b.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bb/0b/a4/bb0ba4dd-4283-aac5-b21e-388bfae83797/Iphone5.5in_1320x2868_02.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/6629ee4e16a4125280a3cf4c.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8f/11/2e/8f112ef4-157b-ffce-cee2-29a2d132bbb0/Iphone5.5in_1320x2868_04.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/66403214db43d4aa3f44c5a6.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/24/ba/cd24ba7f-6d96-d623-f72f-be16e1c630a5/Iphone5.5in_1320x2868_05.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/924b1c4247ccbb68e6c0db6a.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c4/6e/78/c46e78e7-cfec-e880-43fe-70ce66d81b87/Iphone5.5in_1320x2868_06.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/dbaceb70107b88a7b9b22d61.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/2f/00/692f00ac-f82f-b082-c37a-0dd3f46bbc1d/Iphone5.5in_1320x2868_07.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/b34df48becc3b0f2806573f7.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/d4/aa/e0d4aa7f-bc66-197b-5aa0-66d826b2dde0/Iphone5.5in_1320x2868_09.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 7
+      },
+      {
+        "image": "/assets/app-library/store/355c58cfd8d10ce9e39b2887.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/02/53/f10253f4-5325-2580-0188-536235b1d46a/Iphone5.5in_1320x2868_08.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 8
+      },
+      {
+        "image": "/assets/app-library/store/1b7472ca7359ae0d52bbc70a.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/46/bd/40/46bd4062-574c-d90e-65ec-2f65c2c2c3c2/Iphone5.5in_1320x2868_10.jpg/392x696bb.jpg",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 9
+      }
+    ]
+  },
+  "en.pray-as-you-go": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/pray-as-you-go-daily-prayer/id865934048?uo=4",
+    "country": "us",
+    "store_version": "5.22.24",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/08d4249a582fad4467dc9fed.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/29/80/3d29807e-87e6-657f-ae99-15f00392ac95/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/f192bc05ae8b6fbf73a8558a.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/d1/2b/5ad12b68-2ed5-6c0c-f214-9ca971c1796c/6.9__Screenshot_1.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/47f49a1b6e0e92f499017ff8.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/96/7e/25/967e2509-dd5d-5350-e8fe-0e718e1a0fe2/6.9__Screenshot_2.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/c3ab99a2a3272d057e8bb1de.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6e/c5/b2/6ec5b2af-9c69-c3c6-e666-1cd5cddc298a/6.9__Screenshot_4.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/c7417fbd5deace1fb034e2e3.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/04/d1/2104d15a-c2c6-f715-f4da-bc630f6bc2ad/6.9__Screenshot_3.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/e98bf7bed950a1c85e6b155d.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/32/80/ed32803d-a83b-c47c-32c9-24de2ac4b37f/6.9__Screenshot_5.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/4840f8a1e3bf59c8efe3c6f1.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/18/dd/51/18dd51e3-f4b7-8fc8-4761-b221a52d0ecc/6.9__Screenshot_7.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 6
+      }
+    ]
+  },
+  "net.geero.Prayer-Partner": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/prayermate-christian-prayer/id434815549?uo=4",
+    "country": "us",
+    "store_version": "10.0.16",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/04e0889d49c64ad71c6c5686.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e7/16/89/e71689a7-454d-9abf-08a8-f73e9916f913/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/2d734ddb02c35402301a47f9.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/af/55/99/af559910-4542-ddab-50ed-dd3d153b2e2e/83f72d45-227e-4807-983b-c958ef83ed20_Simulator_Screenshot_-_iPhone_SE__U00283rd_generation_U0029_-_2023-12-22_at_14.40.59.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/493c0db8392d9da5bb782460.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d0/56/78/d0567867-831b-cd3a-2e63-5a0441a90f8a/60dbaf37-45de-41f0-b571-09dc05dac647_Simulator_Screenshot_-_iPhone_SE__U00283rd_generation_U0029_-_2023-12-22_at_14.40.23.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 2
+      }
+    ]
+  },
+  "com.lionswool.Prayminder": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/prayminder/id1309466339?uo=4",
+    "country": "us",
+    "store_version": "1.5.1",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/cd4e1732e998adbc9edaabbc.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/5e/b9/5f5eb983-e1a1-eadb-3d30-9f5215d31c40/PrayminderAppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/f4183f9e75e2194c91a60d18.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/84/ae/af/84aeafe3-dbbf-3008-7f1a-1c453e2790ac/iPhone_5.5__Screenshot_1.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/bcfe3b4e782b928b925e46ec.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ab/40/7d/ab407d06-7795-25fb-76e2-722b534d6951/iPhone_5.5__Screenshot_2.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/217a925a0f0cb29a2f71065b.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/23/d0/e4/23d0e488-50c4-2ae6-1f33-98fa7d97fdb5/iPhone_5.5__Screenshot_3.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/ab2e6e1161e7122c60e6d654.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/ee/3c/f7ee3cb0-8c85-c7f6-0859-5fdf138c2b27/iPhone_5.5__Screenshot_4.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/e5f01fb4edefb4d955a76326.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/ff/42/beff4223-4ae5-c587-9234-8e2875a3a86b/iPhone_5.5__Screenshot_5.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/df41b43978ef321d8b56abd7.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7d/e9/f6/7de9f644-e1f2-0a74-79b1-807f63058683/iPhone_5.5__Screenshot_6.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/f237d85bf92feb272c4278d0.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/27/cd/3b/27cd3ba2-b5e8-9e5f-3596-9a682be3be79/iPhone_5.5__Screenshot_7.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 7
+      },
+      {
+        "image": "/assets/app-library/store/ad8b1d8fe7ea2eb02deacfba.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bf/c1/9f/bfc19f06-67d5-5ede-e357-8e9b2fe98c27/iPhone_5.5__Screenshot_8.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 8
+      },
+      {
+        "image": "/assets/app-library/store/ade33cb632dc6fc5adb51d28.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dd/2f/d1/dd2fd169-4a2c-df00-43ca-afbdd76e7ec6/iPhone_5.5__Screenshot_9.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 9
+      }
+    ]
+  },
+  "com.stayonfire.stayonfireapp": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/de/app/stayonfire/id1490446398?uo=4",
+    "country": "de",
+    "store_version": "3.2.0",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/711efa8635991d5a2d847fb1.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/a6/cb/7fa6cbb6-80f7-6136-b657-019d2880bda2/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/f8361d071c01a7c927d63681.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fa/05/cf/fa05cf62-0a66-8c37-db3d-6707e59db5aa/1_Ta_U0308gliche_Ermutigung.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/941793d39dcf70f67450f583.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/2a/27/ec2a27f2-4da5-73af-db80-0429c9d2946e/2_Feed.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/7dbb2c42861acc42c4d3f4a6.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b3/2b/45/b32b4515-04fd-a477-840c-64e7494a49cc/3_Kollektionen.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/3a2bf91a343709bef8ee9554.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4a/7e/da/4a7eda7a-9ea1-ada3-9bea-28600d5e1be9/4_Autoren.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/e6c67d09d41f43eacb791f68.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/24/48/8d/24488de2-c531-2e2d-9ae1-a787feb545d6/5_Fireplace.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/a9fe37258254cbd721b8d44e.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9c/64/14/9c641469-d160-edf3-69b0-a6b2f15ebdfc/6_Streak.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/a25e95d999b861f6e79e0242.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9e/25/35/9e25353a-1bef-cac8-2899-f9181305bd8d/7_Dark_Mode.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 7
+      }
+    ]
+  },
+  "com.bookvitals.BibleChatKids": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/sam-bedtime-stories/id6749544775?uo=4",
+    "country": "us",
+    "store_version": "1.3.5",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/2cf2ee4299fd3f13b75a3264.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fe/49/da/fe49da26-ebbe-d835-425f-367030918980/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/fbb6f41e1b283c127deea192.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fe/7b/e3/fe7be3ba-71d8-9c61-6840-1a146ec87483/01_bedtime-stories.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/35e07d5bd99e8818a2c07ce0.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3c/8b/d7/3c8bd7ab-1949-e471-dc99-5efb614cda79/02_animated-stories.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/47953e58c2aa28ff1dc0f327.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/16/d3/cc16d3c7-1aad-10ae-a9c0-d3cce72c994a/04_favorites.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/177ee1e0d91d04286d37efb7.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/29/24/2f/29242fec-5421-9230-4af7-b273c0379ded/03_coloring-pages.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/51e2ccb2011ed44f662933e7.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/5c/1c/eb5c1cde-d1af-4bdf-21a5-98612235940b/05_parent-reviews.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/53a6462dcc2df436e80d969d.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d9/32/8d/d9328db6-5ca3-2e16-e5b3-4a190bb95e69/06_everything-in-sam.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 6
+      }
+    ]
+  },
+  "app.startblock.ios": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/startblock/id1585144354?uo=4",
+    "country": "us",
+    "store_version": "1.4.1",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/eab6af33ae6f49800ff7598c.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/47/91/ad/4791ad62-aa1b-1456-f2ff-754f504c7c11/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/1a7533e7f59d05e4156d41ba.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/29/16/e7/2916e77f-c853-6e40-678f-d66a5987689c/1f8cd5c5-89a8-4b43-bb3e-b353fec7e0ed_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2022-12-02_at_15.16.16.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/71e5f088ad026af76f65e540.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/73/c6/4b/73c64bc4-5576-e6dd-efe3-0b70a1a4e003/153af263-147b-4624-b8e4-dfed7c059e70_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2022-12-02_at_15.16.07.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/7587c95f895a980abd4d9a29.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/2b/7b/6f/2b7b6fe6-d191-7283-b830-0606aa2aaa31/700f9641-f191-4b5b-bd8b-708d9db39133_simulator_screenshot_F6BC6F76-3926-42D5-8C85-19FD111C35CA.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/ac6441edb9a7053f6117724d.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/fb/7e/6a/fb7e6a0b-2162-887e-8318-b26623544a65/d5e373a7-54ff-4864-8856-98786cd0e223_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2021-11-02_at_15.34.09.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/e5c0664d229ec68c6dc23c2d.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/bd/e8/41/bde841cf-639c-2b74-b1cb-0cf64559f916/5eacac4e-482a-4aa1-b759-952cfa163154_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2021-11-02_at_15.33.38.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/d98dbd1f933f9add36ea153c.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource112/v4/bb/0c/2c/bb0c2c09-c4ac-6267-6c15-526e882187aa/7430e9ab-690e-4d19-adde-81935f88dc7e_simulator_screenshot_9FB13F6C-6262-4EA3-A91F-450E9CC35188.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/768ae8c49059c892914943c0.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/92/63/1a/92631aa0-5bca-daa4-4423-8a75155ab31b/2dadaf2d-8610-4b9a-a57d-cf613e513d56_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2021-11-02_at_15.34.02.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 7
+      }
+    ]
+  },
+  "ai.rebind.studybible": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/rebind-study-bible/id6751198660?uo=4",
+    "country": "us",
+    "store_version": "4.0.2",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/8dca8770665dfb823be49983.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/19/26/6919262b-c225-1caf-6917-ae229cb8cded/AppIcon-0-0-1x_U007epad-0-5-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/2b83bde3b44855a5a04264a7.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/37/55/393755c7-7655-7297-641d-74ad786089ca/iphone-6.9-01-listen.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/56a68cf16c24c0511ee695b9.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/9f/1a/5f9f1af7-8e4a-5914-5d90-0e72fa30b888/iphone-6.9-02-build.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/06a55f15f66913301020a618.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/c5/d0/29c5d092-7274-4c99-34cd-941ed770ae22/iphone-6.9-03-ask.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/7780cf2d2c2e24538d905558.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b6/d1/58/b6d158c8-411f-744e-846f-e4bb804972b2/iphone-6.9-04-today.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/5b45617a9aa438cf4aef0660.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/9c/39/9a9c3964-fc64-9bce-f173-a36dc21752d4/iphone-6.9-05-study.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/519b82c2ba0d17df1ba36d2f.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/b9/75/85b975f6-7fda-9f08-681c-079cdbae56e1/iphone-6.9-06-library.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/db5627d0cc2e3cd150b3f18d.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/25/bc/3225bc1b-54e9-d90f-623d-97904f57bbd1/iphone-6.9-07-bible.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 7
+      },
+      {
+        "image": "/assets/app-library/store/7d4c322aca366dacc2695658.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/29/41/c0294142-8b37-57f6-5358-0ced3fc5a5dc/iphone-6.9-08-history.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 8
+      }
+    ]
+  },
+  "com.catloafsoft.TextsWithJesus": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/text-with-jesus/id6446922759?uo=4",
+    "country": "us",
+    "store_version": "7.1",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/ff63c4aa573670577e5e956a.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/53/d3/4153d349-5810-128f-fdd3-3e23e80415c9/Text_With_Jesus-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/1721a076db0961742954c544.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/da/e0/fc/dae0fc6c-67ae-577b-3f58-65c59347e908/01-jc.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/da02d2be0337580f2b40dd36.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/c6/37/60c63782-b288-8c3a-8e1a-14949b4e9efa/02-select.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/3c36a5b093f16aca192081d4.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/fd/d5/e0fdd5fe-b099-69f5-e825-749be3600a08/03-sc-na.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/b7267bc52d3fa614f9f5a79a.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/bd/23/59bd239a-e0af-1abd-3eb5-13d3a42ae965/04-voicemails.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/464918548454b5cb01f58e1e.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/93/42/80934298-6617-93a8-5a72-a7e162cd7ded/05-dailyverse.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/d6c9576f2f5f1d37e9c1f4f7.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/39/26/9e39267f-ba52-731f-c444-b6caa1dc6ceb/06-prayer.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/adbcfb17a35423884f27ba65.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/af/b0/f0/afb0f003-99b0-dac7-9d67-7ab16fde7d4e/07-mary.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 7
+      },
+      {
+        "image": "/assets/app-library/store/c91a310e7c86bf0aece53277.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/93/f6/e1/93f6e1b1-fb5b-1393-4fc0-79159e82d34f/08-paul.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 8
+      },
+      {
+        "image": "/assets/app-library/store/f38110b0153c8f090eefa024.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c9/e0/a8/c9e0a82f-da13-7b25-b881-c39e45fb5ef4/09-moses.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 9
+      }
+    ]
+  },
+  "simpletithe": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/tithe-ly/id694740700?uo=4",
+    "country": "us",
+    "store_version": "3.7.3",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/7daa9ac7d6751cbfa4994688.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/12/e6/08/12e6080b-64f3-381f-7f69-6c2ec06b06e7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/39a74683a373283fd5e181c4.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/de/34/a6de34f6-b74a-b36a-a925-b8825549433c/b144191f-3225-47bf-8e1a-e884e6c6dd55_home_page_mockup.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/83915aa6a1207837e9f2a287.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0e/18/25/0e182581-7a7b-f861-f9fb-60f1175b9d4c/2d0f4057-accf-4874-838b-4a79ec15843f_entered_amount_mockup.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/13af4692f33bb5ce7c0e9e4e.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/db/63/17/db63178f-093c-6c4a-3a59-127778aa33c1/fa6891a9-3fa3-4ad5-b45a-5410b1aa1c09_payment_method_mockup.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/ca38c521c332e08b7a1453a1.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/c5/6e/04c56e01-dbe8-e45f-55ae-288549c6acb6/8cee32cb-5e36-48d5-8f35-8b85acf881eb_unlock_pin_mockup.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/da91bdf704f25be30d8a37c4.png",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/f7/02/a6f7029c-6e8f-3190-6b9c-86e22b2dd246/01619aa8-cf95-4de8-814d-f05817e89b4d_giving_form_mockup.png/392x696bb.png",
+        "width": 392,
+        "height": 696,
+        "device": "iphone",
+        "position": 5
+      }
+    ]
+  },
+  "ai.truthly.TruthlyApp": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/truthly-catholic-ai/id6504047524?uo=4",
+    "country": "us",
+    "store_version": "1.8.7",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/e7ec0b375acbcaa95a4fb673.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/4a/70/464a70bf-639d-2689-ba93-d50eb0062913/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/d5ebb7543e8f11738ff6931e.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4b/92/ac/4b92ac05-57be-1051-93cb-8820ea8fa42a/Truthly_1290x2796_1__U00281_U0029.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/a5551c2a4662458da28281b0.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/c3/05/f2c305eb-6c70-51ee-1723-768815223d0c/Truthly_1290x2796_2__U00282_U0029.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/2f08b267664c3433c18a864c.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0d/11/13/0d1113e7-930b-eba0-76cb-897074550766/Truthly_1290x2796_3__U00281_U0029.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/0f9ec8012c95a15fa7ff10f3.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/10/3e/81/103e81d8-37da-46cf-7958-9320c8c9a46f/Truthly_1290x2796_4__U00281_U0029.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/12f52d361bcaa96facdb94b2.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e6/24/b5/e624b580-04e5-63ab-cd96-0628c7aaaf47/Truthly_1290x2796_5__U00281_U0029.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/724f77a8f1bb1ad91a45a454.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/24/4c/38244c17-7e93-eca5-6c91-0434798a0a9d/Truthly_1290x2796_6__U00281_U0029.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/1b482a66a60a53ff1e4a5897.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2e/51/15/2e511555-16b8-c2e0-aa69-c67e6cff1243/Truthly_1290x2796_7__U00281_U0029.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 7
+      },
+      {
+        "image": "/assets/app-library/store/e862376b14aa5b3a1773d1f8.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/39/47/e239479b-95e5-7b0c-c2fb-feeb8f056b81/Truthly_1290x2796_8__U00281_U0029.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 8
+      },
+      {
+        "image": "/assets/app-library/store/369bf2ef2343068170d52d03.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/42/8e/ae/428eae27-e60b-3294-36ba-373a606f6e4b/Truthly_1290x2796_9__U00281_U0029.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 9
+      },
+      {
+        "image": "/assets/app-library/store/52faccaba26bf0a653e4acef.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b7/6a/34/b76a3413-8282-2a67-7f6c-e0d531cbd606/Truthly_1290x2796_10__U00282_U0029.jpg/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 10
+      }
+    ]
+  },
+  "ai.bible.bibleai": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/bible-ai-chat-about-anything/id6739915445?uo=4",
+    "country": "us",
+    "store_version": "1.0.4",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/87a64f95882ff018e6ef41cc.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cd/95/8b/cd958ba3-b278-0927-e542-9a055db7c216/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/f8476576d1721d9505371f9a.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/eb/23/24/eb2324b2-7fc1-318b-55de-a4bd4bc12658/iPhone_16_Pro_-_38.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/2aeb0152121f388e41259a20.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/17/4f/39/174f3988-623d-8772-9314-7579f327262e/iPhone_16_Pro_-_23.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/9134fa0584c4f991109acb3b.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/40/bb/0540bba2-5333-9f1e-e5cb-601acd0631fd/iPhone_16_Pro_-_12.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/bb43a3c599c996bff36d6ff1.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e8/f1/db/e8f1db11-83a2-1682-1920-c855f048fa6a/iPhone_16_Pro_-_14.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/188c4f7cec86dcec9e3102e7.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e4/9d/85/e49d8518-3230-98ed-7d45-e92e39dc2d98/iPhone_16_Pro_-_11.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/116e7ec55f1e81c0a2ce28fb.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7b/48/d0/7b48d062-5ac4-07d7-d847-42ddc3988e0c/iPhone_16_Pro_-_51_U0028no_alpha_U0029.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 6
+      },
+      {
+        "image": "/assets/app-library/store/523b7c72b03b96a767d5c901.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d7/43/ae/d743ae05-5419-8806-fca2-23535d6262ca/iPhone_16_Pro_-_8.png/320x480bb.jpg",
+        "width": 221,
+        "height": 480,
+        "device": "iphone",
+        "position": 7
+      }
+    ]
+  },
+  "de.bibletunes.podcastmanager": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/bibletunes-podcasts/id1186177578?uo=4",
+    "country": "us",
+    "store_version": "4.1.4",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/7e9d3301fb3aa70c9aa82975.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/a6/b2/85a6b297-3f95-6a26-21f7-55783f686813/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/e6d8e73076b9e04bf3b360f6.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9f/d4/68/9fd468ee-9b86-78a5-ac3b-065169010a24/iphone_6.5-_53.jpg/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/441d192e14945d3c2c43c6ae.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/6e/b8/b16eb851-414a-4674-9aba-8e82d6c85788/iphone_6.5-_56.jpg/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/df9a96af2c5eee58c464114a.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/62/96/32629679-a945-036b-1184-e3eb575c9299/iphone_6.5-_55.jpg/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/2a1dc6ce19803fea659bfa9b.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e4/4c/97/e44c97a2-01e5-478d-31b0-afef6e0ca72e/iphone_6.5-_54.jpg/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/2225c1242ec78e024cd8d95f.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/16/ca/84/16ca84f3-d245-f676-677e-c607aacfe164/iphone_6.5-_57.jpg/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 5
+      },
+      {
+        "image": "/assets/app-library/store/8cb730d94512d4d960fd8d5a.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/57/26/10/572610b4-a503-6cc3-a834-4546701dd1f2/iphone_6.5-_52.jpg/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 6
+      }
+    ]
+  },
+  "qa.tejas.dewfall": {
+    "checked": "2026-10-25",
+    "store_url": "https://apps.apple.com/us/app/dewfall/id6787696480?uo=4",
+    "country": "us",
+    "store_version": "1.2.1",
+    "source": "publisher_app_store",
+    "icon": {
+      "image": "/assets/app-library/store/8f401fee39d817529a4998d5.jpg",
+      "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/71/d7/fc71d798-2d57-cd63-e6fc-50fa2939d463/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "width": 512,
+      "height": 512
+    },
+    "screenshots": [
+      {
+        "image": "/assets/app-library/store/d011288b4a8b4d3237dec284.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2a/59/a7/2a59a71b-d6ad-5f33-0f26-f37410f7addc/cov.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 1
+      },
+      {
+        "image": "/assets/app-library/store/8278e1c1fc9f1d6d5454f5f0.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/25/4b/92/254b927b-57ee-9b86-345c-8c66d4ba351b/1__U00281_U0029.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 2
+      },
+      {
+        "image": "/assets/app-library/store/cb1722aff536b4e6b1c66a87.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ff/2e/f6/ff2ef6c7-2bfc-e0fb-6235-e85792d61f74/2__U00282_U0029.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 3
+      },
+      {
+        "image": "/assets/app-library/store/5404c959f818700b31c0e480.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/f8/fc/5bf8fcfa-cb4e-d270-985e-73c5a0079ea5/3__U00281_U0029.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 4
+      },
+      {
+        "image": "/assets/app-library/store/944ad7afc90f578ae86dbc20.jpg",
+        "source_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/92/2c/04922cef-1687-09bc-6c84-6ab630c3ef5b/4__U00281_U0029.png/320x480bb.jpg",
+        "width": 222,
+        "height": 480,
+        "device": "iphone",
+        "position": 5
+      }
+    ]
+  }
+}
