@@ -145,13 +145,15 @@ The adjacent reference carries quiet reading surfaces, compact navigation, sourc
 
 This document records the built visual system. The fresh reviewer accepted the home topology, material and readability with intentional adaptations; the later ship verdict covers the scored fixes. The automated runtime phase remains open because continuation came through direct chat approval rather than a review UI receipt. This is not a claim that all automated gates passed, nor a universal quality or theological endorsement.
 
-### App profiles and evidence labels
+### App profiles and principle-led evidence
 
-App profiles open with the app icon, short publisher-positioning description and clearly attributed App Store promotional imagery. Portrait previews sit side by side; landscape artwork uses a single larger image at its natural aspect ratio. A compact page index exposes Ingredients, Assessment, Screenshots, App facts and User response.
+App profiles serve designers and builders learning from documented choices. The opening pairs compact app identity, purpose and publisher-positioned audience with neutral download/access facts. Cost, capability scope, store products, publisher website prices and organisation funding/model sources are available through one native disclosure; source/date/channel and unknowns remain explicit. Capital, revenue, app payments and donations are distinct, and none predetermines a moral judgment.
 
-A square, ruled nutrition-style section brings observed features/patterns and the eight assessment dimensions together. Neutral “Not assessed” text is explicit; existing judgments show their exact scope, with reasoning and limits available through native disclosure. The heavy top rule is a label separator, not a rounded-card accent. Never derive an overall score, colour-coded moral grade or judgment from free/paid status. Full ingredient implementation text and capture evidence remain expandable.
+The substantive reading leads with a documented choice: exact captured evidence, the existing bounded frame interpretation, named principles and their questions, reasoning and limits. The reviewed interface supplies the visual reference. Publisher promotional galleries remain clearly attributed supporting context. Sparse profiles offer useful captioned research examples and linked design questions without fabricating findings.
 
-Research screenshots start with two examples on mobile and four on wider screens, with all other published captures behind a native disclosure and a link to the filtered library. The enhancement moves existing anchors without duplicating images; without JavaScript, two examples and a working disclosure still provide the complete set. Focus follows moved content when a breakpoint removes a small gallery’s disclosure. App facts, full publisher galleries and review-source detail are progressively revealed, without removing source content.
+The complete ten-principle checklist follows as expandable coverage, grouped by the five places. Rows link reciprocally to relevant findings; they never inherit grades automatically. Eight-dimension coverage remains separately inspectable. A concise explainer names the exploitative, ethical and redemptive lenses with the canonical evidence requirements. There is no app scalar, colour ranking or repeated upfront unknown scorecard.
+
+Ingredients show concrete implementations and evidence before the rest of the list is revealed. Complete research galleries retain the two-mobile/four-desktop preview, native all-capture access and no-JS fallback; responsive focus follows moved anchors. App facts, review samples and publisher galleries remain available at deeper reading levels. The closing action connects the example to the reader’s own design work, principles and a correction route.
 
 ## Do's and Don'ts
 

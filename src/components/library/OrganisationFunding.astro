@@ -1,0 +1,12 @@
+---
+import data from '../../data/app-commercial-facts.json';
+import {dateLabel} from '../../lib/app-library';
+const {organisation:o,compact=false}=Astro.props;
+const record=data.organisations.find(r=>r.organisation_id===o.id);
+---
+<section class:list={['lib-funding',{'lib-section':!compact}]} id={compact?undefined:'funding'}>
+ <h2>{compact?'Publisher funding and business model':'Funding and business model'}</h2>
+ {record?.facts.length?<ul class="lib-funding-facts">{record.facts.map(f=><li><p>{f.summary}</p><p class="lib-note">{f.scope} · {f.statement_period} · <a href={f.source_url} target="_blank" rel="noreferrer">Publisher source</a> · checked {dateLabel(f.checked)}</p></li>)}</ul>:<p class="lib-muted">No source-backed funding or business-model summary is available in this profile yet.</p>}
+ <p class="lib-note">The organisation’s complete current funding mix and revenue are not established here. App payments, donations and capital raised describe different things; they do not determine an ethical assessment.</p>
+ {compact&&<a href={o.url+'#funding'}>Organisation profile and funding sources</a>}
+</section>

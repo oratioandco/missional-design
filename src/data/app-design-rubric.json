@@ -1,0 +1,158 @@
+{
+  "version": "0.1",
+  "dimensions": [
+    {
+      "id": "money_access",
+      "label": "Money and access",
+      "principle_ids": [
+        "feed-the-flock",
+        "welcome"
+      ]
+    },
+    {
+      "id": "attention_agency",
+      "label": "Attention and agency",
+      "principle_ids": [
+        "enough",
+        "growth"
+      ]
+    },
+    {
+      "id": "truth_authority",
+      "label": "Truth and spiritual authority",
+      "principle_ids": [
+        "word-distinct",
+        "speak-for-god"
+      ]
+    },
+    {
+      "id": "privacy_dignity",
+      "label": "Privacy and dignity",
+      "principle_ids": [
+        "welcome",
+        "most-vulnerable"
+      ]
+    },
+    {
+      "id": "formation_relationships",
+      "label": "Formation and relationships",
+      "principle_ids": [
+        "send",
+        "growth"
+      ]
+    },
+    {
+      "id": "care_inclusion",
+      "label": "Care and inclusion",
+      "principle_ids": [
+        "most-vulnerable",
+        "welcome"
+      ]
+    },
+    {
+      "id": "craft_repair",
+      "label": "Craft and repair",
+      "principle_ids": [
+        "offering",
+        "trembling"
+      ]
+    },
+    {
+      "id": "stewardship_accountability",
+      "label": "Stewardship and accountability",
+      "principle_ids": [
+        "feed-the-flock",
+        "trembling"
+      ]
+    }
+  ],
+  "principles": [
+    {
+      "id": "word-distinct",
+      "name": "Keep the Word distinct, and teach it truly",
+      "place": "word",
+      "question": "Can a reader always tell Scripture from our words, and our words from a machine’s?",
+      "url": "https://missional.design/principles/word-distinct/"
+    },
+    {
+      "id": "speak-for-god",
+      "name": "Never speak for God",
+      "place": "word",
+      "question": "Would we put our own name under this sentence, or are we borrowing God’s?",
+      "url": "https://missional.design/principles/speak-for-god/"
+    },
+    {
+      "id": "most-vulnerable",
+      "name": "Design for the most vulnerable first",
+      "place": "person",
+      "question": "Who is the most vulnerable person likely to use this today, and what will they see?",
+      "url": "https://missional.design/principles/most-vulnerable/"
+    },
+    {
+      "id": "welcome",
+      "name": "Welcome before you ask, and guard what is told in confidence",
+      "place": "person",
+      "question": "If a friend read everything we keep about this person, would the person be glad?",
+      "url": "https://missional.design/principles/welcome/"
+    },
+    {
+      "id": "feed-the-flock",
+      "name": "Feed the flock, not on it",
+      "place": "practice",
+      "question": "Does this serve growth in faith, or only the usage numbers?",
+      "url": "https://missional.design/principles/feed-the-flock/"
+    },
+    {
+      "id": "enough",
+      "name": "Make room for rest, and say when it is enough",
+      "place": "practice",
+      "question": "Where does our product stop, and does it ever tell someone they have done enough?",
+      "url": "https://missional.design/principles/enough/"
+    },
+    {
+      "id": "send",
+      "name": "Send people to God and to one another",
+      "place": "people",
+      "question": "When someone closes what we built, are they closer to God and to other people?",
+      "url": "https://missional.design/principles/send/"
+    },
+    {
+      "id": "growth",
+      "name": "Plant and water; leave the growth to God",
+      "place": "people",
+      "question": "What would we stop measuring if we believed growth is God’s?",
+      "url": "https://missional.design/principles/growth/"
+    },
+    {
+      "id": "offering",
+      "name": "Make it well, as an offering",
+      "place": "makers",
+      "question": "Would we offer this to God as it is, and could the person with the least sight, time or reading ease use it?",
+      "url": "https://missional.design/principles/offering/"
+    },
+    {
+      "id": "trembling",
+      "name": "Hold it with joy and trembling, before God and others",
+      "place": "makers",
+      "question": "Who outside the team holds us to account, and who prays for the people who use this?",
+      "url": "https://missional.design/principles/trembling/"
+    }
+  ],
+  "frame": [
+    {
+      "id": "concern",
+      "label": "Concern",
+      "description": "Actual coercion, deception or extraction must be evidenced in the feature or flow; do not infer malicious intent."
+    },
+    {
+      "id": "ethical",
+      "label": "Ethical baseline",
+      "description": "Respect agency, truth and dignity through clear roles, meaningful choice and appropriate safeguards in the assessed interaction."
+    },
+    {
+      "id": "redemptive",
+      "label": "Redemptive possibility",
+      "description": "Requires a concrete loss or exclusion addressed, a restorative mechanism, cost or risk freely borne by the builder, and benefit or a credible mechanism for people served. Candidates are not awards."
+    }
+  ]
+}
