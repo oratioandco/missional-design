@@ -1,0 +1,6 @@
+---
+import Layout from '../../layouts/LibraryLayout.astro';
+import Search from '../../components/library/SearchForm.astro';
+import {organisations,apps} from '../../lib/app-library';
+---
+<Layout title="The organisations behind faith apps" description="Research profiles of the publishers and technology companies behind Bible and faith apps." active="organisations"><header class="lib-intro"><h1>The people building<br/>faith technology.</h1><p>Explore the organisations behind the apps: their purpose, intended audiences, business models and publicly reported figures.</p></header><Search kind="organisation" label="Find an organisation"/><div class="lib-section-heading"><h2>Organisation profiles</h2><span>{organisations.length} organisations</span></div><div class="lib-directory">{organisations.slice().sort((a,b)=>a.name.localeCompare(b.name)).map(o=><article class="lib-directory-row"><div><h3><a href={o.url}>{o.name}</a></h3><p>{o.description}</p></div><span class="lib-directory-count">{o.organisation_type==='integrated_service_provider'?'Service provider':apps.filter(a=>a.organisation_id===o.id).length+' apps'}</span></article>)}</div></Layout>

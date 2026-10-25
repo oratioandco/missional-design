@@ -4,12 +4,15 @@
   "description": "A thought leadership site about missional product design by Tobias Treppmann",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && python3 scripts/finalize-reference.py",
+    "build": "astro build && python3 scripts/finalize-reference.py && pagefind --site dist",
     "preview": "astro preview"
   },
   "dependencies": {
     "@phosphor-icons/core": "^2.1.1",
     "astro": "^4.0.0",
     "jspdf": "^4.2.1"
+  },
+  "devDependencies": {
+    "pagefind": "1.5.2"
   }
 }

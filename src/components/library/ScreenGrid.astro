@@ -1,0 +1,5 @@
+---
+import {appFor} from '../../lib/app-library';
+const {screens:items}=Astro.props;
+---
+<div class="lib-grid">{items.map(s=><a class="lib-screen" href={s.url}><div class="lib-image"><img src={s.image} width="1320" height="2868" loading="lazy" decoding="async" alt={s.screen_name} /></div><div class="lib-screen-caption"><strong>{s.screen_name}</strong><span>{appFor(s.app_id).name}</span><small>{s.screen_type} · {s.captured}</small></div></a>)}</div>
