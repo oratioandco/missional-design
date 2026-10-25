@@ -1,0 +1,6 @@
+---
+import Layout from '../../layouts/LibraryLayout.astro';
+import ScreenGrid from '../../components/library/ScreenGrid.astro';
+import {flows,screenFor,appFor} from '../../lib/app-library';
+---
+<Layout title="Captured app sequences" description="Follow selected screens through Bible and faith app interactions, with capture gaps kept explicit." active="flows"><header class="lib-intro"><h1>Follow the interaction.</h1><p>Selected screens show how a task or conversation develops. Each sequence records its context and gaps.</p></header>{flows.map(f=><section class="lib-section"><h2><a href={f.url}>{f.title}</a></h2><p><a href={appFor(f.app_id).url}>{appFor(f.app_id).name}</a> · {f.screen_ids.length} selected screens</p><p class="lib-flow-context">{f.context}</p><ScreenGrid screens={f.screen_ids.map(screenFor)}/></section>)}</Layout>

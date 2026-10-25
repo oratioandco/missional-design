@@ -7,6 +7,12 @@ DIST = ROOT / 'dist'
 urls = []
 for path in sorted(DIST.rglob('index.html')):
     text = path.read_text()
+    # Keep imported reference navigation connected without editing generated source pages.
+    about = '<a href="https://missional.design/about/" data-site-about>'
+    library_link = '<a href="/screens/">Apps</a>'
+    if about in text and library_link not in text:
+        text = text.replace(about, library_link + about, 1)
+        path.write_text(text)
     rel = path.parent.relative_to(DIST).as_posix()
     if rel.startswith('demos') or 'content="noindex"' in text or 'http-equiv="refresh"' in text or 'http-equiv="Refresh"' in text:
         continue

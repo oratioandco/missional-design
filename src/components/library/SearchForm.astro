@@ -1,0 +1,4 @@
+---
+const {kind='all',label='Search apps, screens and organisations'}=Astro.props;
+---
+<form action="/screens/" class="lib-quick-search" role="search"><label class="sr" for="library-query">{label}</label><input id="library-query" name="q" type="search" placeholder={label} /><input type="hidden" name="kind" value={kind} /><button type="submit">Search</button></form>

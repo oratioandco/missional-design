@@ -1,0 +1,3373 @@
+{
+  "schema_version": 1,
+  "checked": "2026-10-25",
+  "apps": [
+    {
+      "id": "com.BlueLetterBible.BLB",
+      "name": "Blue Letter Bible",
+      "store_name": "Blue Letter Bible",
+      "organisation_id": "C015",
+      "identity_status": "exact_bundle_match",
+      "website": "http://www.blueletterbible.org/",
+      "app_store_url": "https://apps.apple.com/us/app/blue-letter-bible/id365547505?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2010-05-17T21:04:36Z",
+      "version": "2.84.2",
+      "checked": "2026-10-25T03:42:06.004224+00:00",
+      "source_url": "https://apps.apple.com/us/app/blue-letter-bible/id365547505?uo=4",
+      "store_rating": {
+        "average": 4.87246,
+        "count": 360710,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A Bible-study app with reference tools, annotations and original-language resources.",
+      "target_audience": {
+        "text": "Readers and teachers looking closely at biblical passages.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/blue-letter-bible/id365547505?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "blue-letter-bible",
+      "url": "/apps/blue-letter-bible/"
+    },
+    {
+      "id": "de.bibellesebund.bibelzeit",
+      "name": "Bibelzeit",
+      "store_name": "Bibelzeit",
+      "organisation_id": "C011",
+      "identity_status": "exact_bundle_match",
+      "website": "https://www.bibellesebund.de/bibelzeit.html",
+      "app_store_url": "https://apps.apple.com/us/app/bibelzeit/id1449571811?uo=4",
+      "platform": "iOS",
+      "category": "Lifestyle",
+      "first_store_release": "2019-03-12T14:27:20Z",
+      "version": "3.1.1",
+      "checked": "2026-10-25T03:42:13.019659+00:00",
+      "source_url": "https://apps.apple.com/us/app/bibelzeit/id1449571811?uo=4",
+      "store_rating": {
+        "average": 0,
+        "count": 0,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A German Bible-engagement app with reading material and personal marking tools.",
+      "target_audience": {
+        "text": "German-speaking readers developing a regular Bible-reading practice.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/bibelzeit/id1449571811?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "bibelzeit",
+      "url": "/apps/bibelzeit/"
+    },
+    {
+      "id": "com.alphainternational.bioy",
+      "name": "Bible",
+      "store_name": "The Bible with Nicky and Pippa",
+      "organisation_id": "C100",
+      "identity_status": "exact_bundle_match",
+      "website": "https://bible.alpha.org/en/",
+      "app_store_url": "https://apps.apple.com/us/app/the-bible-with-nicky-and-pippa/id504133402?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2012-03-02T02:33:26Z",
+      "version": "30.0",
+      "checked": "2026-10-25T03:42:13.959831+00:00",
+      "source_url": "https://apps.apple.com/us/app/the-bible-with-nicky-and-pippa/id504133402?uo=4",
+      "store_rating": {
+        "average": 4.89869,
+        "count": 13552,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A daily Bible-reading app with commentary from Nicky and Pippa Gumbel, formerly Bible in One Year.",
+      "target_audience": {
+        "text": "People seeking an accessible guided plan through the Bible over a year.",
+        "basis": "Editorial summary of publisher positioning; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/the-bible-with-nicky-and-pippa/id504133402?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "bible-with-nicky-and-pippa-gumbel",
+      "url": "/apps/bible-with-nicky-and-pippa-gumbel/"
+    },
+    {
+      "id": "tv.lifechurch.bible",
+      "name": "Bible",
+      "store_name": "Bible",
+      "organisation_id": "C059",
+      "identity_status": "exact_bundle_match",
+      "website": "https://www.bible.com/about",
+      "app_store_url": "https://apps.apple.com/us/app/bible/id282935706?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2019-02-12T08:00:00Z",
+      "version": "11.34.1",
+      "checked": "2026-10-25T03:42:15.020630+00:00",
+      "source_url": "https://apps.apple.com/us/app/bible/id282935706?uo=4",
+      "store_rating": {
+        "average": 4.9142,
+        "count": 13851822,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "YouVersion’s Bible-reading app with translations, audio, reading plans and sharing tools.",
+      "target_audience": {
+        "text": "People reading or listening to Scripture in daily life across languages.",
+        "basis": "Editorial summary of publisher positioning; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/bible/id282935706?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "youversion-bible",
+      "url": "/apps/youversion-bible/"
+    },
+    {
+      "id": "tv.lifechurch.bible.kids",
+      "name": "Bible App for Kids",
+      "store_name": "Bible App for Kids",
+      "organisation_id": "C059",
+      "identity_status": "exact_bundle_match",
+      "website": "http://www.bible.com/kids",
+      "app_store_url": "https://apps.apple.com/us/app/bible-app-for-kids/id668692393?uo=4",
+      "platform": "iOS",
+      "category": "Education",
+      "first_store_release": "2013-11-28T06:47:38Z",
+      "version": "3.4.1",
+      "checked": "2026-10-25T03:42:15.029618+00:00",
+      "source_url": "https://apps.apple.com/us/app/bible-app-for-kids/id668692393?uo=4",
+      "store_rating": {
+        "average": 4.65299,
+        "count": 9490,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "An illustrated Bible-story app for children.",
+      "target_audience": {
+        "text": "Children and the adults reading Bible stories with them.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/bible-app-for-kids/id668692393?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "bible-app-for-kids",
+      "url": "/apps/bible-app-for-kids/"
+    },
+    {
+      "id": "com.basmo.BibleChat",
+      "name": "Bible Chat",
+      "store_name": "Bible Chat: Daily Devotional",
+      "organisation_id": "C016",
+      "identity_status": "exact_bundle_match",
+      "website": "https://thebiblechat.com",
+      "app_store_url": "https://apps.apple.com/us/app/bible-chat-daily-devotional/id6448849666?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2023-05-11T07:00:00Z",
+      "version": "5.1.4",
+      "checked": "2026-10-25T03:42:16.009110+00:00",
+      "source_url": "https://apps.apple.com/us/app/bible-chat-daily-devotional/id6448849666?uo=4",
+      "store_rating": {
+        "average": 4.92216,
+        "count": 368439,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A conversational Bible app with AI-assisted questions and devotional features.",
+      "target_audience": {
+        "text": "People seeking conversational help with Scripture and Christian life.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/bible-chat-daily-devotional/id6448849666?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "bible-chat",
+      "url": "/apps/bible-chat/"
+    },
+    {
+      "id": "com.zonervan.biblegateway",
+      "name": "Bible Gateway",
+      "store_name": "Bible Gateway",
+      "organisation_id": "C050",
+      "identity_status": "exact_bundle_match",
+      "website": "https://www.biblegateway.com/app/",
+      "app_store_url": "https://apps.apple.com/us/app/bible-gateway/id506512797?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2012-03-08T05:04:19Z",
+      "version": "200.2.1",
+      "checked": "2026-10-25T03:42:16.871306+00:00",
+      "source_url": "https://apps.apple.com/us/app/bible-gateway/id506512797?uo=4",
+      "store_rating": {
+        "average": 3.6554,
+        "count": 10116,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A Bible-reading and search app with multiple translations and study resources.",
+      "target_audience": {
+        "text": "Readers comparing translations or using devotional and reference resources.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/bible-gateway/id506512797?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "bible-gateway",
+      "url": "/apps/bible-gateway/"
+    },
+    {
+      "id": "com.bibleproject.bibleproject",
+      "name": "BibleProject",
+      "store_name": "BibleProject",
+      "organisation_id": "C013",
+      "identity_status": "exact_bundle_match",
+      "website": "https://bibleproject.com/",
+      "app_store_url": "https://apps.apple.com/us/app/bibleproject/id1523687027?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2021-12-15T08:00:00Z",
+      "version": "2.26",
+      "checked": "2026-10-25T03:42:21.969843+00:00",
+      "source_url": "https://apps.apple.com/us/app/bibleproject/id1523687027?uo=4",
+      "store_rating": {
+        "average": 4.88929,
+        "count": 2782,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A Bible-learning app connecting reading with biblical themes, videos and study resources.",
+      "target_audience": {
+        "text": "Readers exploring the literary and theological context of Scripture.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/bibleproject/id1523687027?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "bibleproject",
+      "url": "/apps/bibleproject/"
+    },
+    {
+      "id": "com.ministrycentered.ChurchCenter",
+      "name": "Church Center",
+      "store_name": "Church Center",
+      "organisation_id": "C063",
+      "identity_status": "exact_bundle_match",
+      "website": "https://www.planningcenter.com/church-center",
+      "app_store_url": "https://apps.apple.com/us/app/church-center/id1357742931?uo=4",
+      "platform": "iOS",
+      "category": "Lifestyle",
+      "first_store_release": "2018-11-26T21:31:51Z",
+      "version": "2026.10.3",
+      "checked": "2026-10-25T03:42:25.136345+00:00",
+      "source_url": "https://apps.apple.com/us/app/church-center/id1357742931?uo=4",
+      "store_rating": {
+        "average": 3.95327,
+        "count": 1926,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A congregational app connecting people with their church’s activities and services.",
+      "target_audience": {
+        "text": "Congregants and church teams using Planning Center.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/church-center/id1357742931?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "church-center",
+      "url": "/apps/church-center/"
+    },
+    {
+      "id": "com.damirakyan.creed",
+      "name": "Creed",
+      "store_name": "Creed: Bible Chat & Companion",
+      "organisation_id": "C058",
+      "identity_status": "exact_bundle_match",
+      "website": "http://www.usecreed.com",
+      "app_store_url": "https://apps.apple.com/us/app/creed-bible-chat-companion/id6747326744?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2025-08-05T07:00:00Z",
+      "version": "1.1.53",
+      "checked": "2026-10-25T03:42:25.302930+00:00",
+      "source_url": "https://apps.apple.com/us/app/creed-bible-chat-companion/id6747326744?uo=4",
+      "store_rating": {
+        "average": 4.8772,
+        "count": 72574,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A Bible and prayer companion app featuring a sheep character named Lenny.",
+      "target_audience": {
+        "text": "Christians seeking conversational Bible engagement and daily prayer.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/creed-bible-chat-companion/id6747326744?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "creed",
+      "url": "/apps/creed/"
+    },
+    {
+      "id": "com.duomoapp.project",
+      "name": "Duomo",
+      "store_name": "Duomo: Daily Prayer & Bible",
+      "organisation_id": "C029",
+      "identity_status": "exact_bundle_match",
+      "website": null,
+      "app_store_url": "https://apps.apple.com/us/app/duomo-daily-prayer-bible/id6736357076?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2024-10-09T07:00:00Z",
+      "version": "6.4.8",
+      "checked": "2026-10-25T03:42:27.437982+00:00",
+      "source_url": "https://apps.apple.com/us/app/duomo-daily-prayer-bible/id6736357076?uo=4",
+      "store_rating": {
+        "average": 4.77182,
+        "count": 10904,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A devotional app pairing Scripture with quizzes, reflection and everyday actions.",
+      "target_audience": {
+        "text": "People seeking a daily Christian routine or returning to faith.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/duomo-daily-prayer-bible/id6736357076?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "duomo",
+      "url": "/apps/duomo/"
+    },
+    {
+      "id": "io.dwellapp.dwell",
+      "name": "Dwell",
+      "store_name": "Dwell: Audio Bible",
+      "organisation_id": "C034",
+      "identity_status": "exact_bundle_match",
+      "website": "https://dwellapp.io",
+      "app_store_url": "https://apps.apple.com/us/app/dwell-audio-bible/id1343917374?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2018-08-02T09:52:37Z",
+      "version": "2026.10.1",
+      "checked": "2026-10-25T03:42:28.060311+00:00",
+      "source_url": "https://apps.apple.com/us/app/dwell-audio-bible/id1343917374?uo=4",
+      "store_rating": {
+        "average": 4.89283,
+        "count": 87589,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "An audio Bible app built around listening, narration and Scripture playlists.",
+      "target_audience": {
+        "text": "People who prefer listening to Scripture and churches supporting a listening habit.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/dwell-audio-bible/id1343917374?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "dwell",
+      "url": "/apps/dwell/"
+    },
+    {
+      "id": "systems.emmaus.zam",
+      "name": "EMMAUS",
+      "store_name": "EMMAUS - Bible & Courses",
+      "organisation_id": "C099",
+      "identity_status": "exact_bundle_match",
+      "website": null,
+      "app_store_url": "https://apps.apple.com/us/app/emmaus-bible-courses/id1267933551?uo=4",
+      "platform": "iOS",
+      "category": "Education",
+      "first_store_release": "2017-12-18T17:35:51Z",
+      "version": "2.2.0",
+      "checked": "2026-10-25T03:42:28.464119+00:00",
+      "source_url": "https://apps.apple.com/us/app/emmaus-bible-courses/id1267933551?uo=4",
+      "store_rating": {
+        "average": 4.59091,
+        "count": 22,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A multilingual Bible-course app led by Zentralafrika-Mission.",
+      "target_audience": {
+        "text": "People studying Scripture through structured courses.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/emmaus-bible-courses/id1267933551?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "emmaus",
+      "url": "/apps/emmaus/"
+    },
+    {
+      "id": "com.aimermedia.LiveLent",
+      "name": "Everyday Faith",
+      "store_name": "Everyday Faith",
+      "organisation_id": "C025",
+      "identity_status": "exact_bundle_match",
+      "website": "http://churchofengland.org/everyday-faith",
+      "app_store_url": "https://apps.apple.com/us/app/everyday-faith/id1336487241?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2018-02-01T20:44:18Z",
+      "version": "17.7",
+      "checked": "2026-10-25T03:42:31.541519+00:00",
+      "source_url": "https://apps.apple.com/us/app/everyday-faith/id1336487241?uo=4",
+      "store_rating": {
+        "average": 4.88307,
+        "count": 325,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A daily reflection and prayer app from the Church of England.",
+      "target_audience": {
+        "text": "People practising Christian faith in everyday life.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/everyday-faith/id1336487241?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "everyday-faith",
+      "url": "/apps/everyday-faith/"
+    },
+    {
+      "id": "com.pushcontrolz.Givelify",
+      "name": "Givelify",
+      "store_name": "Givelify Mobile Giving App",
+      "organisation_id": "C019",
+      "identity_status": "exact_bundle_match",
+      "website": "http://givelify.com",
+      "app_store_url": "https://apps.apple.com/us/app/givelify-mobile-giving-app/id725815127?uo=4",
+      "platform": "iOS",
+      "category": "Finance",
+      "first_store_release": "2013-10-24T18:15:00Z",
+      "version": "6.44.0.1",
+      "checked": "2026-10-25T03:42:34.978737+00:00",
+      "source_url": "https://apps.apple.com/us/app/givelify-mobile-giving-app/id725815127?uo=4",
+      "store_rating": {
+        "average": 4.92523,
+        "count": 101830,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A mobile giving app connecting donors with places of worship and nonprofits.",
+      "target_audience": {
+        "text": "Donors and fundraising teams at churches and nonprofit organisations.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/givelify-mobile-giving-app/id725815127?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "givelify",
+      "url": "/apps/givelify/"
+    },
+    {
+      "id": "com.Quiet-Time",
+      "name": "Glorify",
+      "store_name": "Glorify: Devotional & Prayer",
+      "organisation_id": "C087",
+      "identity_status": "exact_bundle_match",
+      "website": "https://glorify-app.com",
+      "app_store_url": "https://apps.apple.com/us/app/glorify-devotional-prayer/id1490587079?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2020-01-31T08:00:00Z",
+      "version": "2.185.0",
+      "checked": "2026-10-25T03:42:36.574664+00:00",
+      "source_url": "https://apps.apple.com/us/app/glorify-devotional-prayer/id1490587079?uo=4",
+      "store_rating": {
+        "average": 4.92286,
+        "count": 100555,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A Christian devotional app offering daily readings, reflection and prayer.",
+      "target_audience": {
+        "text": "People developing a daily rhythm of Christian devotion.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/glorify-devotional-prayer/id1490587079?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "glorify",
+      "url": "/apps/glorify/"
+    },
+    {
+      "id": "app.hallow.Hallow",
+      "name": "Hallow",
+      "store_name": "Hallow: Prayer & Meditation",
+      "organisation_id": "C049",
+      "identity_status": "exact_bundle_match",
+      "website": "https://hallow.com",
+      "app_store_url": "https://apps.apple.com/us/app/hallow-prayer-meditation/id1405323394?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2018-12-06T11:07:12Z",
+      "version": "13.13.0",
+      "checked": "2026-10-25T03:42:37.567930+00:00",
+      "source_url": "https://apps.apple.com/us/app/hallow-prayer-meditation/id1405323394?uo=4",
+      "store_rating": {
+        "average": 4.88922,
+        "count": 380865,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A Catholic prayer app offering guided audio, devotional programmes and reflection.",
+      "target_audience": {
+        "text": "Catholics and others seeking guided Christian prayer.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/hallow-prayer-meditation/id1405323394?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "hallow",
+      "url": "/apps/hallow/"
+    },
+    {
+      "id": "ChandlerSantos.HolyScroll",
+      "name": "Holy Scroll",
+      "store_name": "Holy Scroll",
+      "organisation_id": "C033",
+      "identity_status": "exact_bundle_match",
+      "website": null,
+      "app_store_url": "https://apps.apple.com/us/app/holy-scroll/id6743411441?uo=4",
+      "platform": "iOS",
+      "category": "Book",
+      "first_store_release": "2025-11-11T08:00:00Z",
+      "version": "1.3.0",
+      "checked": "2026-10-25T03:42:39.283926+00:00",
+      "source_url": "https://apps.apple.com/us/app/holy-scroll/id6743411441?uo=4",
+      "store_rating": {
+        "average": 4.92391,
+        "count": 92,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A deliberately simplified Bible-reading app.",
+      "target_audience": {
+        "text": "Readers seeking fewer distractions while reading Scripture.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/holy-scroll/id6743411441?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "holy-scroll",
+      "url": "/apps/holy-scroll/"
+    },
+    {
+      "id": "com.247prayer.innerroomv2",
+      "name": "Inner Room",
+      "store_name": "Inner Room App",
+      "organisation_id": "C002",
+      "identity_status": "exact_bundle_match",
+      "website": "https://www.24-7prayer.com/resource/inner-room/",
+      "app_store_url": "https://apps.apple.com/us/app/inner-room-app/id6756577061?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2026-05-05T07:00:00Z",
+      "version": "1.0.9",
+      "checked": "2026-10-25T03:42:39.490893+00:00",
+      "source_url": "https://apps.apple.com/us/app/inner-room-app/id6756577061?uo=4",
+      "store_rating": {
+        "average": 4.125,
+        "count": 8,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A prayer organiser from 24-7 Prayer.",
+      "target_audience": {
+        "text": "People organising prayer needs and making space for personal prayer.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/inner-room-app/id6756577061?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "inner-room",
+      "url": "/apps/inner-room/"
+    },
+    {
+      "id": "de.dbg.konapp",
+      "name": "KonApp",
+      "store_name": "KonApp - Die App für Konfis",
+      "organisation_id": "C030",
+      "identity_status": "exact_bundle_match",
+      "website": "https://www.konapp.de/",
+      "app_store_url": "https://apps.apple.com/us/app/konapp-die-app-f%C3%BCr-konfis/id1163238745?uo=4",
+      "platform": "iOS",
+      "category": "Education",
+      "first_store_release": "2019-09-30T07:00:00Z",
+      "version": "2.4.5",
+      "checked": "2026-10-25T03:42:41.748454+00:00",
+      "source_url": "https://apps.apple.com/us/app/konapp-die-app-f%C3%BCr-konfis/id1163238745?uo=4",
+      "store_rating": {
+        "average": 0,
+        "count": 0,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A Bible and communication app for confirmation groups.",
+      "target_audience": {
+        "text": "Young people preparing for confirmation and their group leaders.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/konapp-die-app-f%C3%BCr-konfis/id1163238745?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "konapp",
+      "url": "/apps/konapp/"
+    },
+    {
+      "id": "com.prayer247.lectio365",
+      "name": "Lectio 365",
+      "store_name": "Lectio 365: Daily Bible Prayer",
+      "organisation_id": "C002",
+      "identity_status": "exact_bundle_match",
+      "website": "https://lectio365.com",
+      "app_store_url": "https://apps.apple.com/us/app/lectio-365-daily-bible-prayer/id1483974820?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2019-11-12T08:00:00Z",
+      "version": "4.12.0",
+      "checked": "2026-10-25T03:42:42.733692+00:00",
+      "source_url": "https://apps.apple.com/us/app/lectio-365-daily-bible-prayer/id1483974820?uo=4",
+      "store_rating": {
+        "average": 4.78285,
+        "count": 1096,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A daily audio devotional from 24-7 Prayer.",
+      "target_audience": {
+        "text": "Listeners seeking guided Christian prayer through the day.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/lectio-365-daily-bible-prayer/id1483974820?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "lectio-365",
+      "url": "/apps/lectio-365/"
+    },
+    {
+      "id": "com.logos.ilogos",
+      "name": "Logos Bible",
+      "store_name": "Logos Bible",
+      "organisation_id": "C043",
+      "identity_status": "exact_bundle_match",
+      "website": "https://apps.apple.com/app/apple-store/id336400266",
+      "app_store_url": "https://apps.apple.com/us/app/logos-bible/id336400266?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2009-11-01T02:45:31Z",
+      "version": "54.0.2",
+      "checked": "2026-10-25T03:42:43.753466+00:00",
+      "source_url": "https://apps.apple.com/us/app/logos-bible/id336400266?uo=4",
+      "store_rating": {
+        "average": 4.8612,
+        "count": 176480,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A Bible-study app connecting passages with digital libraries, notes and research tools.",
+      "target_audience": {
+        "text": "Bible students, teachers, pastors and readers using study libraries.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/logos-bible/id336400266?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "logos-bible",
+      "url": "/apps/logos-bible/"
+    },
+    {
+      "id": "com.quietpupil.neubible",
+      "name": "Mere Bible",
+      "store_name": "Mere Bible",
+      "organisation_id": "C034",
+      "identity_status": "exact_bundle_match",
+      "website": "https://www.merebible.app",
+      "app_store_url": "https://apps.apple.com/us/app/mere-bible/id961857426?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2015-03-19T04:50:08Z",
+      "version": "2026.4.3",
+      "checked": "2026-10-25T03:42:45.267963+00:00",
+      "source_url": "https://apps.apple.com/us/app/mere-bible/id961857426?uo=4",
+      "store_rating": {
+        "average": 4.64771,
+        "count": 545,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A focused Bible reader published by Dwell App.",
+      "target_audience": {
+        "text": "Readers seeking a straightforward Scripture-reading interface.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/mere-bible/id961857426?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "mere-bible",
+      "url": "/apps/mere-bible/"
+    },
+    {
+      "id": "com.olivetree.BR-Free",
+      "name": "Olive Tree Bible",
+      "store_name": "Bible App - Read & Study Daily",
+      "organisation_id": "C046",
+      "identity_status": "exact_bundle_match",
+      "website": "https://www.olivetree.com",
+      "app_store_url": "https://apps.apple.com/us/app/bible-app-read-study-daily/id332615624?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2009-10-02T22:47:42Z",
+      "version": "8.1.4",
+      "checked": "2026-10-25T03:42:48.276526+00:00",
+      "source_url": "https://apps.apple.com/us/app/bible-app-read-study-daily/id332615624?uo=4",
+      "store_rating": {
+        "average": 4.84037,
+        "count": 324282,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A Bible reader with linked study resources, highlights and notes.",
+      "target_audience": {
+        "text": "Readers building a personal Bible-study library across devices.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/bible-app-read-study-daily/id332615624?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "olive-tree-bible",
+      "url": "/apps/olive-tree-bible/"
+    },
+    {
+      "id": "com.prayapp.pray",
+      "name": "PRAY.COM",
+      "store_name": "Pray.com: Bible & Daily Prayer",
+      "organisation_id": "C070",
+      "identity_status": "exact_bundle_match",
+      "website": null,
+      "app_store_url": "https://apps.apple.com/us/app/pray-com-bible-daily-prayer/id1161035371?uo=4",
+      "platform": "iOS",
+      "category": "Health & Fitness",
+      "first_store_release": "2017-02-28T22:50:22Z",
+      "version": "2.149.1",
+      "checked": "2026-10-25T03:42:50.196443+00:00",
+      "source_url": "https://apps.apple.com/us/app/pray-com-bible-daily-prayer/id1161035371?uo=4",
+      "store_rating": {
+        "average": 4.78758,
+        "count": 192579,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A Christian prayer and audio app with devotional and AI-related offerings.",
+      "target_audience": {
+        "text": "People seeking Christian audio, prayer and devotional content.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/pray-com-bible-daily-prayer/id1161035371?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "pray-com",
+      "url": "/apps/pray-com/"
+    },
+    {
+      "id": "en.pray-as-you-go",
+      "name": "Pray As You Go",
+      "store_name": "Pray As You Go - Daily Prayer",
+      "organisation_id": "C055",
+      "identity_status": "exact_bundle_match",
+      "website": "https://www.prayasyougo.org/",
+      "app_store_url": "https://apps.apple.com/us/app/pray-as-you-go-daily-prayer/id865934048?uo=4",
+      "platform": "iOS",
+      "category": "Lifestyle",
+      "first_store_release": "2014-04-24T16:34:19Z",
+      "version": "5.22.24",
+      "checked": "2026-10-25T03:42:51.176167+00:00",
+      "source_url": "https://apps.apple.com/us/app/pray-as-you-go-daily-prayer/id865934048?uo=4",
+      "store_rating": {
+        "average": 4.51915,
+        "count": 757,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "An audio prayer app combining music, Scripture and Ignatian reflection.",
+      "target_audience": {
+        "text": "Listeners seeking short guided daily prayer.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/pray-as-you-go-daily-prayer/id865934048?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "pray-as-you-go",
+      "url": "/apps/pray-as-you-go/"
+    },
+    {
+      "id": "net.geero.Prayer-Partner",
+      "name": "PrayerMate",
+      "store_name": "PrayerMate - Christian Prayer",
+      "organisation_id": "C032",
+      "identity_status": "exact_bundle_match",
+      "website": "http://app.prayermate.net/",
+      "app_store_url": "https://apps.apple.com/us/app/prayermate-christian-prayer/id434815549?uo=4",
+      "platform": "iOS",
+      "category": "Productivity",
+      "first_store_release": "2011-05-25T12:47:15Z",
+      "version": "10.0.16",
+      "checked": "2026-10-25T03:42:51.312879+00:00",
+      "source_url": "https://apps.apple.com/us/app/prayermate-christian-prayer/id434815549?uo=4",
+      "store_rating": {
+        "average": 4.79481,
+        "count": 424,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A prayer organiser for personal requests and shared ministry prayer information.",
+      "target_audience": {
+        "text": "Individuals, churches and ministries organising regular prayer.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/prayermate-christian-prayer/id434815549?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "prayermate",
+      "url": "/apps/prayermate/"
+    },
+    {
+      "id": "com.lionswool.Prayminder",
+      "name": "Prayminder",
+      "store_name": "Prayminder",
+      "organisation_id": "C071",
+      "identity_status": "exact_bundle_match",
+      "website": "http://prayminder.com",
+      "app_store_url": "https://apps.apple.com/us/app/prayminder/id1309466339?uo=4",
+      "platform": "iOS",
+      "category": "Productivity",
+      "first_store_release": "2017-12-06T14:22:05Z",
+      "version": "1.5.1",
+      "checked": "2026-10-25T03:42:52.160345+00:00",
+      "source_url": "https://apps.apple.com/us/app/prayminder/id1309466339?uo=4",
+      "store_rating": {
+        "average": 4.89761,
+        "count": 4854,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A prayer reminder app for keeping people and prayer needs in view during the day.",
+      "target_audience": {
+        "text": "People wanting to remember prayer commitments in ordinary daily life.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/prayminder/id1309466339?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "prayminder",
+      "url": "/apps/prayminder/"
+    },
+    {
+      "id": "com.stayonfire.stayonfireapp",
+      "name": "STAYONFIRE",
+      "store_name": "STAYONFIRE",
+      "organisation_id": "C076",
+      "identity_status": "exact_bundle_match",
+      "website": "https://stayonfire.de/",
+      "app_store_url": "https://apps.apple.com/de/app/stayonfire/id1490446398?uo=4",
+      "platform": "iOS",
+      "category": "Lifestyle",
+      "first_store_release": "2019-12-10T08:00:00Z",
+      "version": "3.2.0",
+      "checked": "2026-10-25T03:42:53.191897+00:00",
+      "source_url": "https://apps.apple.com/de/app/stayonfire/id1490446398?uo=4",
+      "store_rating": {
+        "average": 4.92275,
+        "count": 233,
+        "country": "de",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "EUR",
+        "country": "de",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A German Christian media app offering devotional articles, music and encouragement for everyday faith.",
+      "target_audience": {
+        "text": "German-speaking readers and listeners seeking Christian content and a regular faith practice.",
+        "basis": "Editorial summary of publisher positioning; not measured demographics",
+        "source_url": "https://apps.apple.com/de/app/stayonfire/id1490446398?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "stayonfire",
+      "url": "/apps/stayonfire/"
+    },
+    {
+      "id": "com.bookvitals.BibleChatKids",
+      "name": "Sam",
+      "store_name": "Sam - Bedtime Stories",
+      "organisation_id": "C016",
+      "identity_status": "exact_bundle_match",
+      "website": "https://www.biblechatkids.com",
+      "app_store_url": "https://apps.apple.com/us/app/sam-bedtime-stories/id6749544775?uo=4",
+      "platform": "iOS",
+      "category": "Education",
+      "first_store_release": "2025-09-08T07:00:00Z",
+      "version": "1.3.5",
+      "checked": "2026-10-25T03:42:54.417331+00:00",
+      "source_url": "https://apps.apple.com/us/app/sam-bedtime-stories/id6749544775?uo=4",
+      "store_rating": {
+        "average": 4.7541,
+        "count": 305,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A Bible app for children from the publisher of Bible Chat.",
+      "target_audience": {
+        "text": "Children and families; separate from the adult Bible Chat audience.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/sam-bedtime-stories/id6749544775?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "sam",
+      "url": "/apps/sam/"
+    },
+    {
+      "id": "app.startblock.ios",
+      "name": "Startblock",
+      "store_name": "Startblock",
+      "organisation_id": "C083",
+      "identity_status": "exact_bundle_match",
+      "website": "https://www.startblock.app/",
+      "app_store_url": "https://apps.apple.com/us/app/startblock/id1585144354?uo=4",
+      "platform": "iOS",
+      "category": "Lifestyle",
+      "first_store_release": "2021-12-16T08:00:00Z",
+      "version": "1.4.1",
+      "checked": "2026-10-25T03:42:57.483148+00:00",
+      "source_url": "https://apps.apple.com/us/app/startblock/id1585144354?uo=4",
+      "store_rating": {
+        "average": 0,
+        "count": 0,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A German Bible-study app with courses, articles and group features.",
+      "target_audience": {
+        "text": "Young German-speaking readers exploring Scripture together or individually.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/startblock/id1585144354?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "startblock",
+      "url": "/apps/startblock/"
+    },
+    {
+      "id": "ai.rebind.studybible",
+      "name": "Study Bible",
+      "store_name": "Rebind Study Bible",
+      "organisation_id": "C075",
+      "identity_status": "exact_bundle_match",
+      "website": "https://bible.rebindapp.com/",
+      "app_store_url": "https://apps.apple.com/us/app/rebind-study-bible/id6751198660?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2025-09-29T07:00:00Z",
+      "version": "4.0.2",
+      "checked": "2026-10-25T03:42:58.268493+00:00",
+      "source_url": "https://apps.apple.com/us/app/rebind-study-bible/id6751198660?uo=4",
+      "store_rating": {
+        "average": 4.03226,
+        "count": 31,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A Rebind Bible-study app combining curated readings with conversational study.",
+      "target_audience": {
+        "text": "Readers seeking guided Scripture study and commentary.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/rebind-study-bible/id6751198660?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "study-bible",
+      "url": "/apps/study-bible/"
+    },
+    {
+      "id": "com.catloafsoft.TextsWithJesus",
+      "name": "Text Jesus",
+      "store_name": "Text With Jesus",
+      "organisation_id": "C021",
+      "identity_status": "exact_bundle_match",
+      "website": "https://textwith.me/jesus/",
+      "app_store_url": "https://apps.apple.com/us/app/text-with-jesus/id6446922759?uo=4",
+      "platform": "iOS",
+      "category": "Lifestyle",
+      "first_store_release": "2023-06-04T07:00:00Z",
+      "version": "7.1",
+      "checked": "2026-10-25T03:43:00.869698+00:00",
+      "source_url": "https://apps.apple.com/us/app/text-with-jesus/id6446922759?uo=4",
+      "store_rating": {
+        "average": 4.71752,
+        "count": 3933,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "An AI conversation app simulating biblical figures.",
+      "target_audience": {
+        "text": "People exploring conversations with simulated biblical characters.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/text-with-jesus/id6446922759?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "text-jesus",
+      "url": "/apps/text-jesus/"
+    },
+    {
+      "id": "simpletithe",
+      "name": "Tithe.ly",
+      "store_name": "Tithe.ly",
+      "organisation_id": "C098",
+      "identity_status": "exact_bundle_match",
+      "website": "https://tithe.ly",
+      "app_store_url": "https://apps.apple.com/us/app/tithe-ly/id694740700?uo=4",
+      "platform": "iOS",
+      "category": "Finance",
+      "first_store_release": "2013-09-19T18:12:11Z",
+      "version": "3.7.3",
+      "checked": "2026-10-25T03:43:02.696685+00:00",
+      "source_url": "https://apps.apple.com/us/app/tithe-ly/id694740700?uo=4",
+      "store_rating": {
+        "average": 4.55079,
+        "count": 1329,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A mobile app for giving to churches.",
+      "target_audience": {
+        "text": "Congregants donating to participating churches.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/tithe-ly/id694740700?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "tithe-ly",
+      "url": "/apps/tithe-ly/"
+    },
+    {
+      "id": "ai.truthly.TruthlyApp",
+      "name": "Truthly",
+      "store_name": "Truthly: Catholic AI",
+      "organisation_id": "C096",
+      "identity_status": "exact_bundle_match",
+      "website": "https://www.truthly.ai",
+      "app_store_url": "https://apps.apple.com/us/app/truthly-catholic-ai/id6504047524?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2024-07-02T07:00:00Z",
+      "version": "1.8.7",
+      "checked": "2026-10-25T03:43:02.726853+00:00",
+      "source_url": "https://apps.apple.com/us/app/truthly-catholic-ai/id6504047524?uo=4",
+      "store_rating": {
+        "average": 4.9055,
+        "count": 6476,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "An AI-assisted service for questions about Catholic teaching.",
+      "target_audience": {
+        "text": "Catholics and seekers exploring Catholic beliefs and practice.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/truthly-catholic-ai/id6504047524?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "truthly",
+      "url": "/apps/truthly/"
+    },
+    {
+      "id": "ai.bible.bibleai",
+      "name": "bible.ai",
+      "store_name": "bible.ai - Chat about Anything",
+      "organisation_id": "C012",
+      "identity_status": "exact_bundle_match",
+      "website": "https://bible.ai",
+      "app_store_url": "https://apps.apple.com/us/app/bible-ai-chat-about-anything/id6739915445?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2025-02-05T08:00:00Z",
+      "version": "1.0.4",
+      "checked": "2026-10-25T03:43:04.852453+00:00",
+      "source_url": "https://apps.apple.com/us/app/bible-ai-chat-about-anything/id6739915445?uo=4",
+      "store_rating": {
+        "average": 4.18966,
+        "count": 58,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A Bible conversation app with text, voice and simulated theological perspectives.",
+      "target_audience": {
+        "text": "People exploring biblical questions through conversation.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/bible-ai-chat-about-anything/id6739915445?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "bible-ai",
+      "url": "/apps/bible-ai/"
+    },
+    {
+      "id": "de.bibletunes.podcastmanager",
+      "name": "bibletunes",
+      "store_name": "bibletunes - Podcasts",
+      "organisation_id": "C101",
+      "identity_status": "exact_bundle_match",
+      "website": "https://app.bibletunes.com",
+      "app_store_url": "https://apps.apple.com/us/app/bibletunes-podcasts/id1186177578?uo=4",
+      "platform": "iOS",
+      "category": "Lifestyle",
+      "first_store_release": "2016-12-22T20:59:06Z",
+      "version": "4.1.4",
+      "checked": "2026-10-25T03:43:05.768799+00:00",
+      "source_url": "https://apps.apple.com/us/app/bibletunes-podcasts/id1186177578?uo=4",
+      "store_rating": {
+        "average": 0,
+        "count": 0,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A German audio Bible-commentary app with podcasts and listening resources.",
+      "target_audience": {
+        "text": "German-speaking listeners exploring the Bible through explanatory audio.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/bibletunes-podcasts/id1186177578?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "bibletunes",
+      "url": "/apps/bibletunes/"
+    },
+    {
+      "id": "qa.tejas.dewfall",
+      "name": "dewfall",
+      "store_name": "dewfall",
+      "organisation_id": "C089",
+      "identity_status": "exact_bundle_match",
+      "website": "https://dewfall.app/",
+      "app_store_url": "https://apps.apple.com/us/app/dewfall/id6787696480?uo=4",
+      "platform": "iOS",
+      "category": "Lifestyle",
+      "first_store_release": "2026-07-17T07:00:00Z",
+      "version": "1.2.1",
+      "checked": "2026-10-25T03:43:06.819653+00:00",
+      "source_url": "https://apps.apple.com/us/app/dewfall/id6787696480?uo=4",
+      "store_rating": {
+        "average": 0,
+        "count": 0,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A Bible reader with verse-level progress, journaling and AI study material.",
+      "target_audience": {
+        "text": "Readers working through Scripture in small steps.",
+        "basis": "Editorial summary of App Store listing and recorded capture context; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/dewfall/id6787696480?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "dewfall",
+      "url": "/apps/dewfall/"
+    }
+  ],
+  "organisations": [
+    {
+      "id": "C002",
+      "name": "24-7 Prayer",
+      "app_store_seller": "24-7 Prayer",
+      "website": "https://www.24-7prayer.com/resource/inner-room/",
+      "research_status": "curated_draft",
+      "description": "Prayer movement producing Lectio 365 devotionals and the Inner Room prayer organiser.",
+      "target_audience": {
+        "text": "People seeking daily guided prayer; churches and prayer communities.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://lectio365.com/24-7-prayer/"
+      },
+      "business_model": {
+        "text": "Ministry resources; financial totals and app-level revenue not established in this pass.",
+        "source_url": "https://lectio365.com/24-7-prayer/"
+      },
+      "sources": [
+        "https://lectio365.com/24-7-prayer/"
+      ],
+      "leaders": [
+        {
+          "name": "Pete Greig",
+          "role": "Founder; board of trustees",
+          "source_url": "https://www.24-7prayer.com/team/pete-greig/",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [],
+      "slug": "24-7-prayer",
+      "url": "/organisations/24-7-prayer/"
+    },
+    {
+      "id": "C011",
+      "name": "Bibellesebund",
+      "app_store_seller": "Bibellesebund e.V.",
+      "website": "https://www.guterstart.net/app/",
+      "research_status": "curated_draft",
+      "description": "German Bible-engagement ministry publishing Bibelzeit and Barti.",
+      "target_audience": {
+        "text": "German-speaking adults and children seeking help with regular Bible reading.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://www.bibellesebund.de/bibelzeit.html"
+      },
+      "business_model": {
+        "text": "Ministry and publishing; financial totals not verified.",
+        "source_url": "https://www.bibellesebund.de/bibelzeit.html"
+      },
+      "sources": [
+        "https://www.bibellesebund.de/bibelzeit.html"
+      ],
+      "leaders": [],
+      "metrics": [],
+      "slug": "bibellesebund",
+      "url": "/organisations/bibellesebund/"
+    },
+    {
+      "id": "C012",
+      "name": "bible.ai",
+      "app_store_seller": "Bible Ai PTY LTD",
+      "website": "https://bible.ai",
+      "research_status": "curated_draft",
+      "description": "AI-assisted Bible exploration with text, voice and simulated theological perspectives.",
+      "target_audience": {
+        "text": "People exploring biblical questions and Christian theology through conversation.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://www.bible.ai/press"
+      },
+      "business_model": {
+        "text": "App service; revenue not publicly verified in this pass.",
+        "source_url": "https://www.bible.ai/press"
+      },
+      "sources": [
+        "https://www.bible.ai/press"
+      ],
+      "leaders": [
+        {
+          "name": "Leio McLaren",
+          "role": "Founder & CEO",
+          "source_url": "https://www.bible.ai/press",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [],
+      "slug": "bible-ai",
+      "url": "/organisations/bible-ai/"
+    },
+    {
+      "id": "C013",
+      "name": "BibleProject",
+      "app_store_seller": "BibleProject (OR)",
+      "website": "https://bibleproject.com/",
+      "research_status": "curated_draft",
+      "description": "Crowdfunded nonprofit producing biblical education through animation, podcasts, classes and an app.",
+      "target_audience": {
+        "text": "Readers seeking the literary and theological context of the Bible.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://bibleproject.com/about/"
+      },
+      "business_model": {
+        "text": "Donor-funded; resources available without charge.",
+        "source_url": "https://bibleproject.com/about/"
+      },
+      "sources": [
+        "https://bibleproject.com/about/"
+      ],
+      "leaders": [
+        {
+          "name": "Tim Mackie",
+          "role": "Co-founder",
+          "source_url": "https://bibleproject.com/about/",
+          "checked": "2026-10-25"
+        },
+        {
+          "name": "Jon Collins",
+          "role": "Co-founder",
+          "source_url": "https://bibleproject.com/about/",
+          "checked": "2026-10-25"
+        },
+        {
+          "name": "Steve Atkinson",
+          "role": "CEO",
+          "source_url": "https://bibleproject.com/about/",
+          "checked": "2026-10-25"
+        },
+        {
+          "name": "Joel Worrall",
+          "role": "Chief Product Officer",
+          "source_url": "https://bibleproject.com/about/",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [
+        {
+          "label": "Organisation revenue",
+          "value": 30888558,
+          "unit": "USD",
+          "scope": "organisation",
+          "period": "Fiscal year ended September 2025",
+          "source_url": "https://projects.propublica.org/nonprofits/organizations/464277592",
+          "source_kind": "filing_derived_secondary",
+          "checked": "2026-10-25",
+          "limits": "ProPublica extraction of IRS Form 990; filed 23 February 2026. Covers the entire nonprofit, not app revenue."
+        }
+      ],
+      "slug": "bibleproject",
+      "url": "/organisations/bibleproject/"
+    },
+    {
+      "id": "C015",
+      "name": "Blue Letter Bible",
+      "app_store_seller": "Blue Letter Bible",
+      "website": "http://www.blueletterbible.org/",
+      "research_status": "curated_draft",
+      "description": "Bible study ministry providing reading, reference and original-language tools.",
+      "target_audience": {
+        "text": "Bible readers and teachers seeking detailed study resources.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://www.blueletterbible.org/"
+      },
+      "business_model": {
+        "text": "Ministry; current financials and app-level revenue not established.",
+        "source_url": "https://www.blueletterbible.org/"
+      },
+      "sources": [
+        "https://www.blueletterbible.org/"
+      ],
+      "leaders": [
+        {
+          "name": "Jim Milligan",
+          "role": "CEO and co-founder in 2021 newsletter; current role needs confirmation",
+          "source_url": "https://www.blueletterbible.org/assets/pdf/newsletter/2021_FallNewsletter.pdf",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [],
+      "slug": "blue-letter-bible",
+      "url": "/organisations/blue-letter-bible/"
+    },
+    {
+      "id": "C016",
+      "name": "Bible Chat / BookVitals",
+      "app_store_seller": "Book Vitals Inc.",
+      "website": "https://thebiblechat.com",
+      "research_status": "curated_draft",
+      "description": "Publisher behind conversational Bible app Bible Chat and the children's app Sam.",
+      "target_audience": {
+        "text": "Christians seeking conversational Bible guidance; Sam serves a separate children's audience.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://thebiblechat.com/about-us/"
+      },
+      "business_model": {
+        "text": "App subscriptions; financial figures below describe BookVitals, not individual apps.",
+        "source_url": "https://thebiblechat.com/about-us/"
+      },
+      "sources": [
+        "https://thebiblechat.com/about-us/",
+        "https://thebiblechat.com/privacy-policy/"
+      ],
+      "leaders": [
+        {
+          "name": "Laurentiu Victor Balasa",
+          "role": "Co-founder & CEO",
+          "source_url": "https://thebiblechat.com/author/laurentiu-balasa/",
+          "checked": "2026-10-25"
+        },
+        {
+          "name": "Marius Iordache",
+          "role": "Co-founder",
+          "source_url": "https://thebiblechat.com/about-us/",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [
+        {
+          "label": "BookVitals turnover",
+          "value": 72170000,
+          "unit": "RON",
+          "scope": "legal entity BookVitals",
+          "period": "2025",
+          "source_url": "https://economedia.ro/bookvitals-compania-romaneasca-din-spatele-aplicatiei-pentru-crestini-biblechat-si-a-triplat-afacerile-in-2025-dar-pierderile-au-crescut-cu-57.html",
+          "source_kind": "secondary_report",
+          "checked": "2026-10-25",
+          "limits": "Rounded 72.17 million RON reported by Economedia from Termene. Primary accounts not inspected; do not attribute wholly to Bible Chat or Sam."
+        }
+      ],
+      "identity_note": "App Store publisher Book Vitals Inc.; privacy policy names BookVitals App SRL for EU/UK and BookVitals Inc. in the US. SoulStream is an associated brand; legal consolidation not established.",
+      "slug": "bible-chat-bookvitals",
+      "url": "/organisations/bible-chat-bookvitals/"
+    },
+    {
+      "id": "C019",
+      "name": "Givelify",
+      "app_store_seller": "CONTROL-Z LLC",
+      "website": "http://givelify.com",
+      "research_status": "curated_draft",
+      "description": "Digital giving platform connecting donors with churches and nonprofit organisations.",
+      "target_audience": {
+        "text": "Donors, places of worship and nonprofit fundraising teams.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://www.givelify.com/about-us/our-story/"
+      },
+      "business_model": {
+        "text": "Giving platform; processed donations are not company revenue.",
+        "source_url": "https://www.givelify.com/about-us/our-story/"
+      },
+      "sources": [
+        "https://www.givelify.com/about-us/our-story/"
+      ],
+      "leaders": [
+        {
+          "name": "Wale Mafolasire",
+          "role": "Founder & CEO",
+          "source_url": "https://www.givelify.com/about-us/our-story/",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [
+        {
+          "label": "People who have given",
+          "value": 2000000,
+          "unit": "people; more than",
+          "scope": "platform",
+          "period": "Cumulative, undated webpage checked 25 October 2026",
+          "source_url": "https://www.givelify.com/about-us/our-story/",
+          "source_kind": "company_reported",
+          "checked": "2026-10-25",
+          "limits": "Not monthly active users."
+        },
+        {
+          "label": "Donations facilitated",
+          "value": 7500000000,
+          "unit": "USD; more than",
+          "scope": "platform",
+          "period": "Cumulative, undated webpage checked 25 October 2026",
+          "source_url": "https://www.givelify.com/about-us/our-story/",
+          "source_kind": "company_reported",
+          "checked": "2026-10-25",
+          "limits": "Giving volume, not revenue."
+        },
+        {
+          "label": "Recipient organisations",
+          "value": 80000,
+          "unit": "organisations; more than",
+          "scope": "platform",
+          "period": "Undated webpage checked 25 October 2026",
+          "source_url": "https://www.givelify.com/about-us/our-story/",
+          "source_kind": "company_reported",
+          "checked": "2026-10-25",
+          "limits": ""
+        }
+      ],
+      "slug": "givelify",
+      "url": "/organisations/givelify/"
+    },
+    {
+      "id": "C021",
+      "name": "Catloaf Software",
+      "app_store_seller": "Catloaf Software Inc.",
+      "website": "https://textwith.me/jesus/",
+      "research_status": "curated_draft",
+      "description": "Independent app studio behind Text With Jesus and other conversational and utility apps.",
+      "target_audience": {
+        "text": "People exploring conversations with simulated biblical figures.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://www.catloafsoft.com/press/"
+      },
+      "business_model": {
+        "text": "Independent commercial studio; app revenue not found.",
+        "source_url": "https://www.catloafsoft.com/press/"
+      },
+      "sources": [
+        "https://www.catloafsoft.com/press/"
+      ],
+      "leaders": [],
+      "metrics": [],
+      "slug": "catloaf-software",
+      "url": "/organisations/catloaf-software/"
+    },
+    {
+      "id": "C025",
+      "name": "Church of England / Everyday Faith",
+      "app_store_seller": "Church of England Central Services",
+      "website": "http://churchofengland.org/everyday-faith",
+      "research_status": "curated_draft",
+      "description": "National church digital service offering daily devotional reflection.",
+      "target_audience": {
+        "text": "People practising Christian faith in daily life, within and beyond church settings.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://www.churchofengland.org/faith-life/exploring-faith/everyday-faith"
+      },
+      "business_model": {
+        "text": "Free church resource; church-wide income is not app revenue.",
+        "source_url": "https://www.churchofengland.org/faith-life/exploring-faith/everyday-faith"
+      },
+      "sources": [
+        "https://www.churchofengland.org/faith-life/exploring-faith/everyday-faith"
+      ],
+      "leaders": [],
+      "metrics": [],
+      "slug": "church-of-england-everyday-faith",
+      "url": "/organisations/church-of-england-everyday-faith/"
+    },
+    {
+      "id": "C029",
+      "name": "Duomo",
+      "app_store_seller": "DUOMO APP LIMITED",
+      "website": null,
+      "research_status": "curated_draft",
+      "description": "Bible and devotional app pairing daily reading with quizzes, actions and reflection.",
+      "target_audience": {
+        "text": "People seeking a daily Christian routine or returning to faith.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://duomoapp.com/"
+      },
+      "business_model": {
+        "text": "Paid access through in-app subscriptions, with a trial; revenue not verified.",
+        "source_url": "https://duomoapp.com/"
+      },
+      "sources": [
+        "https://duomoapp.com/"
+      ],
+      "leaders": [],
+      "metrics": [
+        {
+          "label": "Lessons completed",
+          "value": 4400000,
+          "unit": "lessons",
+          "scope": "app",
+          "period": "Cumulative, undated webpage checked 25 October 2026",
+          "source_url": "https://duomoapp.com/",
+          "source_kind": "company_reported",
+          "checked": "2026-10-25",
+          "limits": "Activity count, not users."
+        },
+        {
+          "label": "Reflections shared",
+          "value": 450000,
+          "unit": "reflections; more than",
+          "scope": "app",
+          "period": "Cumulative, undated webpage checked 25 October 2026",
+          "source_url": "https://duomoapp.com/",
+          "source_kind": "company_reported",
+          "checked": "2026-10-25",
+          "limits": "Not a user count."
+        }
+      ],
+      "slug": "duomo",
+      "url": "/organisations/duomo/"
+    },
+    {
+      "id": "C030",
+      "name": "Deutsche Bibelgesellschaft / KonApp",
+      "app_store_seller": "Deutsche Bibelgesellschaft",
+      "website": "https://www.konapp.de/",
+      "research_status": "curated_draft",
+      "description": "German Bible society producing KonApp for confirmation groups.",
+      "target_audience": {
+        "text": "Young people preparing for confirmation and their group leaders.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://www.konapp.de/fakten/"
+      },
+      "business_model": {
+        "text": "Free KonApp; originally supported by EKD funding.",
+        "source_url": "https://www.konapp.de/fakten/"
+      },
+      "sources": [
+        "https://www.konapp.de/fakten/"
+      ],
+      "leaders": [
+        {
+          "name": "Dr. Christoph Rösel",
+          "role": "Generalsekretär",
+          "source_url": "https://www.konapp.de/rechtliches/Impressum.html",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [],
+      "slug": "deutsche-bibelgesellschaft-konapp",
+      "url": "/organisations/deutsche-bibelgesellschaft-konapp/"
+    },
+    {
+      "id": "C032",
+      "name": "Discipleship Tech / PrayerMate",
+      "app_store_seller": "Discipleship Tech",
+      "website": "http://app.prayermate.net/",
+      "research_status": "curated_draft",
+      "description": "UK charity creating digital tools for prayer and Bible engagement.",
+      "target_audience": {
+        "text": "Christians organising personal prayer and churches sharing prayer needs.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://blog.prayermate.net/en/2018-at-prayermate-in-review-cd705dc6a2ea/"
+      },
+      "business_model": {
+        "text": "Charity; app ownership transferred from its creator to Discipleship Tech in 2018.",
+        "source_url": "https://blog.prayermate.net/en/2018-at-prayermate-in-review-cd705dc6a2ea/"
+      },
+      "sources": [
+        "https://blog.prayermate.net/en/2018-at-prayermate-in-review-cd705dc6a2ea/"
+      ],
+      "leaders": [
+        {
+          "name": "Andy Geers",
+          "role": "Creator of PrayerMate; charity founder",
+          "source_url": "https://blog.prayermate.net/en/2018-at-prayermate-in-review-cd705dc6a2ea/",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [],
+      "identity_note": "UK Discipleship Tech must not be merged with US seller Discipleship Tech, Inc. (Holy Scroll) without evidence.",
+      "slug": "discipleship-tech-prayermate",
+      "url": "/organisations/discipleship-tech-prayermate/"
+    },
+    {
+      "id": "C033",
+      "name": "Discipleship Tech, Inc. / Holy Scroll",
+      "app_store_seller": "Discipleship Tech, Inc.",
+      "website": null,
+      "research_status": "curated_draft",
+      "description": "US nonprofit publisher presenting a deliberately simplified Bible-reading app.",
+      "target_audience": {
+        "text": "Readers seeking a Bible interface with fewer distractions.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://www.holyscrollbibleapp.com/"
+      },
+      "business_model": {
+        "text": "Site identifies a 501(c)(3); app-level finances not established.",
+        "source_url": "https://www.holyscrollbibleapp.com/"
+      },
+      "sources": [
+        "https://www.holyscrollbibleapp.com/"
+      ],
+      "leaders": [],
+      "metrics": [],
+      "slug": "discipleship-tech-inc-holy-scroll",
+      "url": "/organisations/discipleship-tech-inc-holy-scroll/"
+    },
+    {
+      "id": "C034",
+      "name": "Dwell",
+      "app_store_seller": "Dwell App, LLC",
+      "website": "https://dwellapp.io",
+      "research_status": "curated_draft",
+      "description": "Audio Bible publisher also listed as the publisher of Mere Bible.",
+      "target_audience": {
+        "text": "People who prefer listening to Scripture; readers seeking a focused Bible app.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://dwellapp.io/about_us"
+      },
+      "business_model": {
+        "text": "Commercial listening service with personal and church pricing; current revenue not found.",
+        "source_url": "https://dwellapp.io/about_us"
+      },
+      "sources": [
+        "https://dwellapp.io/about_us"
+      ],
+      "leaders": [
+        {
+          "name": "Jonathan Bailey",
+          "role": "Co-founder",
+          "source_url": "https://dwellapp.io/about_us",
+          "checked": "2026-10-25"
+        },
+        {
+          "name": "Joshua Bailey",
+          "role": "Co-founder",
+          "source_url": "https://dwellapp.io/about_us",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [
+        {
+          "label": "Kickstarter campaign",
+          "value": 250,
+          "unit": "% of USD 50,000 goal; over",
+          "scope": "Dwell launch campaign",
+          "period": "8 February 2018",
+          "source_url": "https://dwellapp.io/press/dwell-kickstarter-successful-fourth-most-funded-app-ever",
+          "source_kind": "company_reported",
+          "checked": "2026-10-25",
+          "limits": "Historical crowdfunding result, not annual revenue, and not a current funding total."
+        }
+      ],
+      "slug": "dwell",
+      "url": "/organisations/dwell/"
+    },
+    {
+      "id": "C043",
+      "name": "Logos",
+      "app_store_seller": "Faithlife Corporation",
+      "website": "https://apps.apple.com/app/apple-store/id336400266",
+      "research_status": "curated_draft",
+      "description": "Bible-study software company offering connected libraries, research tools and AI-assisted study.",
+      "target_audience": {
+        "text": "Pastors, students, scholars and Bible readers seeking detailed study.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://www.logos.com/newsroom"
+      },
+      "business_model": {
+        "text": "Software subscriptions and digital libraries; company revenue not verified.",
+        "source_url": "https://www.logos.com/newsroom"
+      },
+      "sources": [
+        "https://www.logos.com/newsroom"
+      ],
+      "leaders": [
+        {
+          "name": "Chris Migura",
+          "role": "CEO; appointment announced September 2025",
+          "source_url": "https://www.logos.com/newsroom",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [
+        {
+          "label": "People represented in Chronicled",
+          "value": 4000000,
+          "unit": "people",
+          "scope": "Logos ecosystem",
+          "period": "2025 report released 22 December 2025",
+          "source_url": "https://www.logos.com/newsroom/2025-chronicled",
+          "source_kind": "company_reported",
+          "checked": "2026-10-25",
+          "limits": "Not specified as MAU; not iPhone-only."
+        },
+        {
+          "label": "Bible study sessions",
+          "value": 76000000,
+          "unit": "sessions",
+          "scope": "Logos ecosystem",
+          "period": "2025 report released 22 December 2025",
+          "source_url": "https://www.logos.com/newsroom/2025-chronicled",
+          "source_kind": "company_reported",
+          "checked": "2026-10-25",
+          "limits": "Sessions are not unique people."
+        }
+      ],
+      "slug": "logos",
+      "url": "/organisations/logos/"
+    },
+    {
+      "id": "C046",
+      "name": "Olive Tree / Gospel Technologies",
+      "app_store_seller": "Gospel Technologies LLC",
+      "website": "https://www.olivetree.com",
+      "research_status": "curated_draft",
+      "description": "Bible-study software publisher offering linked books, annotations and reading tools.",
+      "target_audience": {
+        "text": "Bible readers and teachers using study libraries across devices.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://www.olivetree.com/about"
+      },
+      "business_model": {
+        "text": "Digital books and study resources; current app revenue not found.",
+        "source_url": "https://www.olivetree.com/about"
+      },
+      "sources": [
+        "https://www.olivetree.com/about",
+        "https://rushtopress.org/gospel-technologies-llc-acquires-olive-tree-bible-software-from-harpercollins-christian-publishing/"
+      ],
+      "leaders": [
+        {
+          "name": "Steven Cummings",
+          "role": "President and owner of Gospel Technologies in 2020 acquisition announcement; current title needs confirmation",
+          "source_url": "https://rushtopress.org/gospel-technologies-llc-acquires-olive-tree-bible-software-from-harpercollins-christian-publishing/",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [],
+      "identity_note": "Gospel Technologies acquired Olive Tree from HarperCollins Christian Publishing in 2020; consideration undisclosed in the publisher-issued announcement.",
+      "slug": "olive-tree-gospel-technologies",
+      "url": "/organisations/olive-tree-gospel-technologies/"
+    },
+    {
+      "id": "C049",
+      "name": "Hallow",
+      "app_store_seller": "Hallow, Inc.",
+      "website": "https://hallow.com",
+      "research_status": "curated_draft",
+      "description": "Catholic prayer and meditation app with guided audio and devotional programmes.",
+      "target_audience": {
+        "text": "Catholics and others seeking guided Christian prayer.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://hallow.com/about/"
+      },
+      "business_model": {
+        "text": "Subscription app; funding is disclosed separately from revenue.",
+        "source_url": "https://hallow.com/about/"
+      },
+      "sources": [
+        "https://hallow.com/about/",
+        "https://help.hallow.com/en/articles/10601094-magisterium-ai-faq"
+      ],
+      "leaders": [
+        {
+          "name": "Alex Jones",
+          "role": "Co-founder & CEO",
+          "source_url": "https://hallow.com/about/",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [
+        {
+          "label": "Series C funding",
+          "value": 50000000,
+          "unit": "USD",
+          "scope": "company",
+          "period": "2023 announcement",
+          "source_url": "https://hallow.com/blog/10-million-installs/",
+          "source_kind": "company_reported",
+          "checked": "2026-10-25",
+          "limits": "Historical funding round, not revenue."
+        },
+        {
+          "label": "Total funding at Series C",
+          "value": 105000000,
+          "unit": "USD",
+          "scope": "company",
+          "period": "2023 announcement",
+          "source_url": "https://hallow.com/blog/10-million-installs/",
+          "source_kind": "company_reported",
+          "checked": "2026-10-25",
+          "limits": "Historical total at announcement; not verified as the current total."
+        }
+      ],
+      "identity_note": "The captured Magisterium AI feature identifies Longbeard as its builder. Hallow documents a special partnership; app publisher and integrated AI provider remain separate entities.",
+      "relationships": [
+        {
+          "type": "integrates_service",
+          "service": "Magisterium AI",
+          "organisation_id": "P001",
+          "source_url": "https://help.hallow.com/en/articles/10601094-magisterium-ai-faq"
+        }
+      ],
+      "slug": "hallow",
+      "url": "/organisations/hallow/"
+    },
+    {
+      "id": "C050",
+      "name": "Bible Gateway",
+      "app_store_seller": "HarperCollins Christian Publishing, Inc.",
+      "website": "https://www.biblegateway.com/app/",
+      "research_status": "curated_draft",
+      "description": "Searchable Bible website and app within HarperCollins Christian Publishing.",
+      "target_audience": {
+        "text": "Readers comparing Bible translations and using devotional or study resources.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://www.biblegateway.com/about/"
+      },
+      "business_model": {
+        "text": "Publishing-owned digital service; app-level revenue not found.",
+        "source_url": "https://www.biblegateway.com/about/"
+      },
+      "sources": [
+        "https://www.biblegateway.com/about/"
+      ],
+      "leaders": [
+        {
+          "name": "Nick Hengeveld",
+          "role": "Original creator, 1993",
+          "source_url": "https://www.biblegateway.com/about/",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [],
+      "slug": "bible-gateway",
+      "url": "/organisations/bible-gateway/"
+    },
+    {
+      "id": "C055",
+      "name": "Pray As You Go",
+      "app_store_seller": "Jesuits in Britain",
+      "website": "https://www.prayasyougo.org/",
+      "research_status": "curated_draft",
+      "description": "Jesuit audio prayer resource combining music, Scripture and reflection.",
+      "target_audience": {
+        "text": "Listeners seeking short guided daily prayer and Ignatian reflection.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://prayasyougo.org/about-us"
+      },
+      "business_model": {
+        "text": "Free resources; app-level finances not found.",
+        "source_url": "https://prayasyougo.org/about-us"
+      },
+      "sources": [
+        "https://prayasyougo.org/about-us"
+      ],
+      "leaders": [
+        {
+          "name": "Fr Peter Scally SJ",
+          "role": "Created the original daily podcast in 2006",
+          "source_url": "https://prayasyougo.org/about-us",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [],
+      "slug": "pray-as-you-go",
+      "url": "/organisations/pray-as-you-go/"
+    },
+    {
+      "id": "C058",
+      "name": "Creed / Lemon Tree Labs",
+      "app_store_seller": "Lemon Tree Labs, Inc.",
+      "website": "http://www.usecreed.com",
+      "research_status": "curated_draft",
+      "description": "Conversational Bible and prayer app featuring a sheep companion named Lenny.",
+      "target_audience": {
+        "text": "Christians seeking conversational Bible engagement and daily prayer.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://www.usecreed.com/app/"
+      },
+      "business_model": {
+        "text": "Commercial app with premium subscriptions; revenue not verified.",
+        "source_url": "https://www.usecreed.com/app/"
+      },
+      "sources": [
+        "https://www.usecreed.com/app/"
+      ],
+      "leaders": [],
+      "metrics": [
+        {
+          "label": "Believers",
+          "value": 2000000,
+          "unit": "believers; more than",
+          "scope": "Creed app marketing claim",
+          "period": "Undated webpage checked 25 October 2026",
+          "source_url": "https://www.usecreed.com/app/",
+          "source_kind": "company_reported",
+          "checked": "2026-10-25",
+          "limits": "Publisher does not define whether this means downloads, registrations or active users. Do not relabel as users."
+        }
+      ],
+      "slug": "creed-lemon-tree-labs",
+      "url": "/organisations/creed-lemon-tree-labs/"
+    },
+    {
+      "id": "C059",
+      "name": "YouVersion / Life.Church",
+      "app_store_seller": "Life.Church",
+      "website": "https://www.bible.com/about",
+      "research_status": "curated_draft",
+      "description": "Bible-reading platform and family of free Scripture apps.",
+      "target_audience": {
+        "text": "Bible readers across languages and ages; a separate app serves children.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://www.youversion.com/our-mission"
+      },
+      "business_model": {
+        "text": "Free access supported through ministry and donations.",
+        "source_url": "https://www.youversion.com/our-mission"
+      },
+      "sources": [
+        "https://www.youversion.com/our-mission"
+      ],
+      "leaders": [
+        {
+          "name": "Bobby Gruenewald",
+          "role": "Founder & CEO",
+          "source_url": "https://www.youversion.com/our-mission",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [],
+      "slug": "youversion-life-church",
+      "url": "/organisations/youversion-life-church/"
+    },
+    {
+      "id": "C063",
+      "name": "Planning Center",
+      "app_store_seller": "Ministry Centered Technologies",
+      "website": "https://www.planningcenter.com/church-center",
+      "research_status": "curated_draft",
+      "description": "Independent church software company behind Church Center and administrative tools.",
+      "target_audience": {
+        "text": "Church staff, volunteers and congregants.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://www.planningcenter.com/about"
+      },
+      "business_model": {
+        "text": "Church software subscriptions; bootstrapped and founder-owned according to its website.",
+        "source_url": "https://www.planningcenter.com/about"
+      },
+      "sources": [
+        "https://www.planningcenter.com/about"
+      ],
+      "leaders": [
+        {
+          "name": "Jeff Berg",
+          "role": "Co-founder, CEO & owner",
+          "source_url": "https://www.planningcenter.com/about",
+          "checked": "2026-10-25"
+        },
+        {
+          "name": "Aaron Stewart",
+          "role": "Co-founder",
+          "source_url": "https://www.planningcenter.com/about",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [
+        {
+          "label": "Staff and volunteers using products weekly",
+          "value": 4000000,
+          "unit": "people",
+          "scope": "Planning Center suite",
+          "period": "Undated FAQ checked 25 October 2026",
+          "source_url": "https://www.planningcenter.com/about",
+          "source_kind": "company_reported",
+          "checked": "2026-10-25",
+          "limits": "Across the suite, not Church Center-only. Site describes 4 million as both active and weekly users; definition is publisher's."
+        },
+        {
+          "label": "Processed donations",
+          "value": 29000000000,
+          "unit": "USD; more than",
+          "scope": "Planning Center suite",
+          "period": "Cumulative, undated webpage checked 25 October 2026",
+          "source_url": "https://www.planningcenter.com/about",
+          "source_kind": "company_reported",
+          "checked": "2026-10-25",
+          "limits": "Transaction volume, not revenue."
+        }
+      ],
+      "identity_note": "Website says 78,000 active churches in its figures and over 90,000 churches in its FAQ; do not collapse these into one unqualified total.",
+      "slug": "planning-center",
+      "url": "/organisations/planning-center/"
+    },
+    {
+      "id": "C070",
+      "name": "PRAY.COM",
+      "app_store_seller": "Pray, Inc.",
+      "website": null,
+      "research_status": "curated_draft",
+      "description": "Faith-based audio, prayer and AI service.",
+      "target_audience": {
+        "text": "People seeking Christian devotional audio, prayer and leader-related content.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://www.pray.com/articles/founders"
+      },
+      "business_model": {
+        "text": "Commercial faith platform; revenue not publicly verified in this pass.",
+        "source_url": "https://www.pray.com/articles/founders"
+      },
+      "sources": [
+        "https://www.pray.com/articles/founders"
+      ],
+      "leaders": [
+        {
+          "name": "Steve Gatena",
+          "role": "Founder & CEO",
+          "source_url": "https://www.pray.com/articles/founders",
+          "checked": "2026-10-25"
+        },
+        {
+          "name": "Michael Lynn",
+          "role": "Co-founder & CFO",
+          "source_url": "https://www.pray.com/articles/founders",
+          "checked": "2026-10-25"
+        },
+        {
+          "name": "Ryan Beck",
+          "role": "Co-founder & CTO",
+          "source_url": "https://www.pray.com/articles/founders",
+          "checked": "2026-10-25"
+        },
+        {
+          "name": "Matthew Potter",
+          "role": "Co-founder; strategic relationships",
+          "source_url": "https://www.pray.com/articles/founders",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [],
+      "slug": "pray-com",
+      "url": "/organisations/pray-com/"
+    },
+    {
+      "id": "C071",
+      "name": "Prayminder",
+      "app_store_seller": "Prayminder AB",
+      "website": "http://prayminder.com",
+      "research_status": "curated_draft",
+      "description": "Prayer reminder and organising app.",
+      "target_audience": {
+        "text": "People wanting to remember prayer needs throughout ordinary daily life.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://prayminder.com/give"
+      },
+      "business_model": {
+        "text": "Free app accepting one-time and recurring financial support.",
+        "source_url": "https://prayminder.com/give"
+      },
+      "sources": [
+        "https://prayminder.com/give"
+      ],
+      "leaders": [],
+      "metrics": [
+        {
+          "label": "Prayers",
+          "value": 30000000,
+          "unit": "prayers; more than",
+          "scope": "app",
+          "period": "Cumulative, undated webpage checked 25 October 2026",
+          "source_url": "https://prayminder.com/",
+          "source_kind": "company_reported",
+          "checked": "2026-10-25",
+          "limits": "Publisher's activity count; not unique people or a measure of spiritual outcomes."
+        }
+      ],
+      "slug": "prayminder",
+      "url": "/organisations/prayminder/"
+    },
+    {
+      "id": "C075",
+      "name": "Rebind",
+      "app_store_seller": "Rebind Publishing, LLC",
+      "website": "https://bible.rebindapp.com/",
+      "research_status": "curated_draft",
+      "description": "AI-supported reading publisher offering a study Bible with curated reading material.",
+      "target_audience": {
+        "text": "Readers seeking guided Scripture study through commentary and conversation.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://bible.rebindapp.com/"
+      },
+      "business_model": {
+        "text": "Study Bible subscription with trial; revenue not found.",
+        "source_url": "https://bible.rebindapp.com/"
+      },
+      "sources": [
+        "https://bible.rebindapp.com/"
+      ],
+      "leaders": [],
+      "metrics": [],
+      "slug": "rebind",
+      "url": "/organisations/rebind/"
+    },
+    {
+      "id": "C076",
+      "name": "STAYONFIRE e.V.",
+      "app_store_seller": "STAYONFIRE e. V.",
+      "website": "https://stayonfire.de/",
+      "research_status": "curated_draft",
+      "description": "German Christian media association behind the STAYONFIRE app and its articles, music and devotional resources.",
+      "target_audience": {
+        "text": "German-speaking people looking for Christian encouragement and help with everyday faith.",
+        "basis": "Editorial summary of publisher positioning; not measured demographics",
+        "source_url": "https://stayonfire.de/blog/hi-ich-bin-thaddaeus"
+      },
+      "business_model": {
+        "text": "Registered association. Revenue and the current funding mix have not been verified in this research pass.",
+        "source_url": "https://stayonfire.de/blog/hi-ich-bin-thaddaeus"
+      },
+      "sources": [
+        "https://stayonfire.de/blog/hi-ich-bin-thaddaeus"
+      ],
+      "leaders": [
+        {
+          "name": "Thaddäus Schindler",
+          "role": "Co-founder, described in the publisher’s 2 November 2023 article",
+          "source_url": "https://stayonfire.de/blog/hi-ich-bin-thaddaeus",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [],
+      "slug": "stayonfire-e-v",
+      "url": "/organisations/stayonfire-e-v/"
+    },
+    {
+      "id": "C083",
+      "name": "Startblock",
+      "app_store_seller": "Startblock - Christliche Medien e.V.",
+      "website": "https://www.startblock.app/",
+      "research_status": "curated_draft",
+      "description": "Independent German nonprofit creating Bible courses and articles.",
+      "target_audience": {
+        "text": "Young German-speaking readers exploring Scripture, including in groups.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://www.startblock.app/ueber-uns"
+      },
+      "business_model": {
+        "text": "Financed exclusively through donations according to its about page.",
+        "source_url": "https://www.startblock.app/ueber-uns"
+      },
+      "sources": [
+        "https://www.startblock.app/ueber-uns"
+      ],
+      "leaders": [],
+      "metrics": [],
+      "slug": "startblock",
+      "url": "/organisations/startblock/"
+    },
+    {
+      "id": "C087",
+      "name": "Glorify",
+      "app_store_seller": "TUPOE LTD",
+      "website": "https://glorify-app.com",
+      "research_status": "curated_draft",
+      "description": "Christian devotional app now presented alongside the Glorify Ring.",
+      "target_audience": {
+        "text": "People building a daily rhythm of Christian devotion.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://www.glorify.global/app/about"
+      },
+      "business_model": {
+        "text": "Commercial app and hardware offering; revenue not verified.",
+        "source_url": "https://www.glorify.global/app/about"
+      },
+      "sources": [
+        "https://www.glorify.global/app/about",
+        "https://www.glorify.global/ring?coupon=Community2025"
+      ],
+      "leaders": [],
+      "metrics": [],
+      "identity_note": "Apple seller TUPOE LTD. Faith app, distinct from glorify.com design software. Official website confirms merger with Confidein; date and current leadership still require primary verification.",
+      "slug": "glorify",
+      "url": "/organisations/glorify/"
+    },
+    {
+      "id": "C089",
+      "name": "dewfall",
+      "app_store_seller": "Tejas Kumar",
+      "website": "https://dewfall.app/",
+      "research_status": "curated_draft",
+      "description": "Bible-reading app combining verse-level progress, journaling and AI study material.",
+      "target_audience": {
+        "text": "Readers working through Scripture in small steps.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://dewfall.app/en/terms"
+      },
+      "business_model": {
+        "text": "Operated by Tejas Kumar e.U.; financial totals not found.",
+        "source_url": "https://dewfall.app/en/terms"
+      },
+      "sources": [
+        "https://dewfall.app/en/terms"
+      ],
+      "leaders": [
+        {
+          "name": "Tejas Kumar",
+          "role": "Named operator; founder title not separately verified",
+          "source_url": "https://dewfall.app/en/terms",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [],
+      "slug": "dewfall",
+      "url": "/organisations/dewfall/"
+    },
+    {
+      "id": "C096",
+      "name": "Truthly",
+      "app_store_seller": "Truthly, Inc.",
+      "website": "https://www.truthly.ai",
+      "research_status": "curated_draft",
+      "description": "Catholic AI and media company offering answers grounded in Catholic teaching.",
+      "target_audience": {
+        "text": "Catholics and seekers exploring Catholic belief and practice.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://www.truthly.ai/about/"
+      },
+      "business_model": {
+        "text": "App and related services; revenue not found.",
+        "source_url": "https://www.truthly.ai/about/"
+      },
+      "sources": [
+        "https://www.truthly.ai/about/"
+      ],
+      "leaders": [
+        {
+          "name": "Jacob Ciccarelli",
+          "role": "Co-founder & CEO",
+          "source_url": "https://www.truthly.ai/about/",
+          "checked": "2026-10-25"
+        },
+        {
+          "name": "Zac Johnson",
+          "role": "Co-founder",
+          "source_url": "https://www.truthly.ai/about/",
+          "checked": "2026-10-25"
+        },
+        {
+          "name": "Karim Chehade",
+          "role": "Co-founder",
+          "source_url": "https://www.truthly.ai/about/",
+          "checked": "2026-10-25"
+        },
+        {
+          "name": "Edward Ryan",
+          "role": "Co-founder & CTO",
+          "source_url": "https://www.truthly.ai/about/",
+          "checked": "2026-10-25"
+        },
+        {
+          "name": "Paul Kim",
+          "role": "Co-founder",
+          "source_url": "https://www.truthly.ai/about/",
+          "checked": "2026-10-25"
+        },
+        {
+          "name": "Matt Fradd",
+          "role": "Co-founder",
+          "source_url": "https://www.truthly.ai/about/",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [],
+      "slug": "truthly",
+      "url": "/organisations/truthly/"
+    },
+    {
+      "id": "C098",
+      "name": "Tithely",
+      "app_store_seller": "Your Giving, Inc.",
+      "website": "https://tithe.ly",
+      "research_status": "curated_draft",
+      "description": "Church technology company offering giving and other ministry tools.",
+      "target_audience": {
+        "text": "Church administrators and congregants using digital giving.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://get.tithe.ly/about"
+      },
+      "business_model": {
+        "text": "Church technology services; processed giving must be separated from revenue.",
+        "source_url": "https://get.tithe.ly/about"
+      },
+      "sources": [
+        "https://get.tithe.ly/about"
+      ],
+      "leaders": [
+        {
+          "name": "Dean Sweetman",
+          "role": "Co-founder & CEO",
+          "source_url": "https://get.tithe.ly/about",
+          "checked": "2026-10-25"
+        },
+        {
+          "name": "Frank Barry",
+          "role": "Co-founder",
+          "source_url": "https://get.tithe.ly/about",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [],
+      "slug": "tithely",
+      "url": "/organisations/tithely/"
+    },
+    {
+      "id": "C099",
+      "name": "EMMAUS / Zentralafrika-Mission",
+      "app_store_seller": "Zentralafrika Mission e.V.",
+      "website": null,
+      "research_status": "curated_draft",
+      "description": "Bible-course project led by the German Zentralafrika-Mission association.",
+      "target_audience": {
+        "text": "People studying Scripture through structured courses in multiple languages.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://info.emmaus.app/en/about-us/"
+      },
+      "business_model": {
+        "text": "Mission-led project; financial totals not found.",
+        "source_url": "https://info.emmaus.app/en/about-us/"
+      },
+      "sources": [
+        "https://info.emmaus.app/en/about-us/"
+      ],
+      "leaders": [
+        {
+          "name": "Mark Schibli",
+          "role": "Vorstandsvorsitzender in app imprint",
+          "source_url": "https://emmaus-app.com/de/imprint/",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [],
+      "slug": "emmaus-zentralafrika-mission",
+      "url": "/organisations/emmaus-zentralafrika-mission/"
+    },
+    {
+      "id": "C100",
+      "name": "Alpha International",
+      "app_store_seller": "alpha international",
+      "website": "https://bible.alpha.org/en/",
+      "research_status": "curated_draft",
+      "description": "Christian ministry producing the Bible with Nicky and Pippa Gumbel and Rhythms.",
+      "target_audience": {
+        "text": "People developing daily Scripture and prayer habits.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://bible.alpha.org/en/about/"
+      },
+      "business_model": {
+        "text": "Ministry resources; app-level revenue not found.",
+        "source_url": "https://bible.alpha.org/en/about/"
+      },
+      "sources": [
+        "https://bible.alpha.org/en/about/"
+      ],
+      "leaders": [],
+      "metrics": [],
+      "slug": "alpha-international",
+      "url": "/organisations/alpha-international/"
+    },
+    {
+      "id": "C101",
+      "name": "bibletunes",
+      "app_store_seller": "bibletunes gGmbH",
+      "website": "https://app.bibletunes.com",
+      "research_status": "curated_draft",
+      "description": "German Christian audio publisher and nonprofit company.",
+      "target_audience": {
+        "text": "German-speaking listeners studying the Bible through explanatory audio.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://bibletunes.de/impressum"
+      },
+      "business_model": {
+        "text": "Free podcast and app with donation support; financial totals not found.",
+        "source_url": "https://bibletunes.de/impressum"
+      },
+      "sources": [
+        "https://bibletunes.de/impressum",
+        "https://bibletunes.de/pressematerial/pressetexte"
+      ],
+      "leaders": [
+        {
+          "name": "Detlef Kühlein",
+          "role": "Founder & Geschäftsführer",
+          "source_url": "https://bibletunes.de/pressematerial/pressetexte",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [
+        {
+          "label": "App downloads",
+          "value": 10000,
+          "unit": "downloads; more than",
+          "scope": "bibletunes app",
+          "period": "Cumulative, undated webpage checked 25 October 2026",
+          "source_url": "https://app.bibletunes.com/",
+          "source_kind": "company_reported",
+          "checked": "2026-10-25",
+          "limits": "Not active users."
+        }
+      ],
+      "slug": "bibletunes",
+      "url": "/organisations/bibletunes/"
+    },
+    {
+      "id": "P001",
+      "app_store_seller": null,
+      "website": "https://www.longbeard.com/?tab=about-us",
+      "research_status": "curated_draft",
+      "name": "Longbeard",
+      "organisation_type": "integrated_service_provider",
+      "description": "Catholic technology company building Magisterium AI and other tools for access to Church teaching and scholarship.",
+      "target_audience": {
+        "text": "People exploring Catholic teaching, and Catholic institutions and researchers using digital knowledge tools.",
+        "basis": "Editorial summary of official company positioning; not measured demographics",
+        "source_url": "https://www.longbeard.com/?tab=about-us"
+      },
+      "business_model": {
+        "text": "Technology products and services; revenue not verified in this research pass.",
+        "source_url": "https://www.longbeard.com/?tab=about-us"
+      },
+      "sources": [
+        "https://www.longbeard.com/?tab=about-us",
+        "https://help.hallow.com/en/articles/10601094-magisterium-ai-faq"
+      ],
+      "leaders": [
+        {
+          "name": "Matthew Harvey Sanders",
+          "role": "Founder & CEO",
+          "source_url": "https://www.longbeard.com/?tab=about-us",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [],
+      "slug": "longbeard",
+      "url": "/organisations/longbeard/"
+    }
+  ],
+  "screens": [
+    {
+      "id": "shot-753bd68a8291c6811309",
+      "app_id": "de.bibellesebund.bibelzeit",
+      "organisation_id": "C011",
+      "image": "/assets/app-library/screens/shot-753bd68a8291c6811309.png",
+      "captured": "2026-10-25",
+      "version": "3.1.1",
+      "screen_name": "A palette with meanings",
+      "caption": "Bibelzeit labels its highlight colours with theological and personal meanings.",
+      "screen_type": "Annotation editor",
+      "tags": [
+        "Highlight",
+        "Sharing",
+        "Translation",
+        "Semantic palette"
+      ],
+      "components": [
+        "Bottom sheet",
+        "List",
+        "Color picker",
+        "Icon button",
+        "Navigation bar"
+      ],
+      "tasks": [
+        "Mark and save",
+        "Read Scripture"
+      ],
+      "states": [
+        "Selected"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "highlights-and-notes"
+      ],
+      "context": "The palette is open over Genesis 1; the frame does not show a completed saved mark.",
+      "text": "Gottes Versprechen; Gottes Eigenschaften; Gottes Aufforderungen; Das will ich mir merken; Das ist mir wichtig geworden; Mit anderen Bibelübersetzungen vergleichen.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-753bd68a8291c6811309/"
+    },
+    {
+      "id": "shot-2ca850a7454c1e7501b6",
+      "app_id": "com.BlueLetterBible.BLB",
+      "organisation_id": "C015",
+      "image": "/assets/app-library/screens/shot-2ca850a7454c1e7501b6.png",
+      "captured": "2026-10-25",
+      "version": "2.84.2",
+      "screen_name": "Three kinds of mark on one passage",
+      "caption": "Blue Letter Bible uses separate note and bookmark icons beside highlighted verses.",
+      "screen_type": "Bible reader",
+      "tags": [
+        "Highlight",
+        "Note",
+        "Bookmark",
+        "Verse numbers"
+      ],
+      "components": [
+        "Inline annotation",
+        "Icon button",
+        "Navigation bar"
+      ],
+      "tasks": [
+        "Read Scripture",
+        "Mark and save"
+      ],
+      "states": [
+        "Default"
+      ],
+      "flow_id": "blue-letter-bible-mark-a-passage",
+      "flow_order": 3,
+      "article_slugs": [
+        "highlights-and-notes"
+      ],
+      "context": "The neutral research annotations were removed after capture. The frame shows appearance, not tap behaviour.",
+      "text": "Mark 4; KJV; verse numbers 35 and 36; note icon; bookmark icon; green highlight.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-2ca850a7454c1e7501b6/"
+    },
+    {
+      "id": "shot-4d5c92d0a49353fb63b2",
+      "app_id": "com.stayonfire.stayonfireapp",
+      "organisation_id": "C076",
+      "image": "/assets/app-library/screens/shot-4d5c92d0a49353fb63b2.png",
+      "captured": "2026-10-25",
+      "version": "3.2.0",
+      "screen_name": "Daily opening as a faith-flame metaphor",
+      "caption": "STAYONFIRE introduces a flame that grows with daily app opening and dims after absence.",
+      "screen_type": "Onboarding",
+      "tags": [
+        "Account",
+        "Progress",
+        "Spiritual claims",
+        "Scripted onboarding"
+      ],
+      "components": [
+        "Illustration",
+        "Primary button",
+        "Text link"
+      ],
+      "tasks": [
+        "Join and personalise",
+        "Build a routine"
+      ],
+      "states": [
+        "Default"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "progress-and-streaks"
+      ],
+      "context": "This is onboarding copy with promotional mockups, not a longitudinal test of the progress system.",
+      "text": "Neu: Deine Flamme; Feuer im Glauben; Kostenlos anmelden; Ohne Konto fortfahren; Flammen Infos.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-4d5c92d0a49353fb63b2/"
+    },
+    {
+      "id": "shot-20fd5330aaf1d16ebc51",
+      "app_id": "com.duomoapp.project",
+      "organisation_id": "C029",
+      "image": "/assets/app-library/screens/shot-20fd5330aaf1d16ebc51.png",
+      "captured": "2026-10-25",
+      "version": "6.4.8",
+      "screen_name": "A Faith Growth Profile in setup",
+      "caption": "Duomo presents a Scripture Confidence gauge and spiritual-status description after a setup questionnaire.",
+      "screen_type": "Onboarding",
+      "tags": [
+        "Progress",
+        "Spiritual claims",
+        "Personalisation"
+      ],
+      "components": [
+        "Progress indicator",
+        "Assessment gauge",
+        "Card",
+        "Primary button"
+      ],
+      "tasks": [
+        "Join and personalise"
+      ],
+      "states": [
+        "Default"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "check-ins-and-assessments",
+        "meeting-the-person"
+      ],
+      "context": "The questionnaire used fictional research answers. This is not evidence that the assessment measures spiritual growth.",
+      "text": "Your plan; Faith Growth Profile; Scripture Confidence; Foundations; Growing; Rooted; Spiritual status; Motivation; Main Barrier; Walking with God; Continue.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-20fd5330aaf1d16ebc51/"
+    },
+    {
+      "id": "shot-a327728e3681d683e930",
+      "app_id": "com.aimermedia.LiveLent",
+      "organisation_id": "C025",
+      "image": "/assets/app-library/screens/shot-a327728e3681d683e930.png",
+      "captured": "2026-10-25",
+      "version": "17.7.10",
+      "screen_name": "Leaving room for Sunday worship",
+      "caption": "Everyday Faith explains its Sunday pause by pointing readers towards local worship and fellowship.",
+      "screen_type": "Content detail",
+      "tags": [
+        "Community",
+        "Reading plan",
+        "Intentional pause"
+      ],
+      "components": [
+        "Date selector",
+        "Hero image",
+        "Icon button",
+        "Divider"
+      ],
+      "tasks": [
+        "Pray",
+        "Build a routine"
+      ],
+      "states": [
+        "Default"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "reading-plans",
+        "prayer"
+      ],
+      "context": "The checkmark is visible; the capture did not test the completion action.",
+      "text": "Together; 25 October; Sunday pause; Reflection; local church community; worship and fellowship.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-a327728e3681d683e930/"
+    },
+    {
+      "id": "shot-0a7b417cd2daac82f570",
+      "app_id": "com.247prayer.innerroomv2",
+      "organisation_id": "C002",
+      "image": "/assets/app-library/screens/shot-0a7b417cd2daac82f570.png",
+      "captured": "2026-10-25",
+      "version": "1.0.9",
+      "screen_name": "Organising prayers into Pots",
+      "caption": "Inner Room shows an empty Pots view with an unassigned group and an add control.",
+      "screen_type": "Saved items",
+      "tags": [
+        "Prayer organisation"
+      ],
+      "components": [
+        "Card",
+        "Empty state",
+        "Floating action button",
+        "Tabs"
+      ],
+      "tasks": [
+        "Pray"
+      ],
+      "states": [
+        "Empty"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "prayer"
+      ],
+      "context": "No personal prayers or groups were entered during this capture.",
+      "text": "Pots; Unassigned; Organise your prayers; Group related prayers into Pots; Prayers; Guided; More.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-0a7b417cd2daac82f570/"
+    },
+    {
+      "id": "shot-9d05fb67eca9ba98aa72",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-9d05fb67eca9ba98aa72.png",
+      "captured": "2026-10-24",
+      "version": "13.13.0",
+      "screen_name": "AI identity and prayer wording",
+      "caption": "Magisterium AI, accessed inside Hallow, identifies itself as AI built by Longbeard and offers wording the reader might pray.",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat",
+        "AI disclosure",
+        "Spiritual claims",
+        "Sharing"
+      ],
+      "components": [
+        "Chat bubble",
+        "Text input",
+        "Suggestion button",
+        "Icon button",
+        "Navigation bar"
+      ],
+      "tasks": [
+        "Ask a question",
+        "Pray"
+      ],
+      "states": [
+        "Default"
+      ],
+      "flow_id": "hallow-prayer-and-blessing",
+      "flow_order": 1,
+      "article_slugs": [
+        "ai-spiritual-acts",
+        "ai-persona"
+      ],
+      "context": "The visible questions are neutral research prompts. The app publisher and the AI service provider are separate organisations.",
+      "text": "Magisterium AI; Longbeard; Are you a real person? Can you pray for me? Ähnliche Fragen; Nachfragen.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-9d05fb67eca9ba98aa72/"
+    },
+    {
+      "id": "shot-9b3430b86f4366e0d48b",
+      "app_id": "com.damirakyan.creed",
+      "organisation_id": "C058",
+      "image": "/assets/app-library/screens/shot-9b3430b86f4366e0d48b.png",
+      "captured": "2026-10-25",
+      "version": "1.1.445",
+      "screen_name": "Religious identity in companion onboarding",
+      "caption": "Creed’s sheep companion claims Christian identity in scripted onboarding.",
+      "screen_type": "Onboarding",
+      "tags": [
+        "Scripted onboarding",
+        "Spiritual claims",
+        "Companion persona"
+      ],
+      "components": [
+        "Illustration",
+        "Progress indicator",
+        "Primary button",
+        "Icon button"
+      ],
+      "tasks": [
+        "Join and personalise"
+      ],
+      "states": [
+        "Default"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "ai-persona",
+        "speaking-as",
+        "whose-theology"
+      ],
+      "context": "This is fixed onboarding copy, not a generated reply or evidence of a live conversation.",
+      "text": "Christian identity; sheep companion; Continue; onboarding progress dots.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-9b3430b86f4366e0d48b/"
+    },
+    {
+      "id": "shot-d8867427cd1c30f2cd7a",
+      "app_id": "com.prayapp.pray",
+      "organisation_id": "C070",
+      "image": "/assets/app-library/screens/shot-d8867427cd1c30f2cd7a.png",
+      "captured": "2026-10-25",
+      "version": "2.149.1",
+      "screen_name": "A directory of AI leaders",
+      "caption": "PRAY.COM presents branded AI leaders for guidance, encouragement and prayer.",
+      "screen_type": "Browse",
+      "tags": [
+        "Chat",
+        "Spiritual claims",
+        "Audio playback"
+      ],
+      "components": [
+        "Card",
+        "Grid",
+        "Mini player",
+        "Icon button"
+      ],
+      "tasks": [
+        "Find content",
+        "Ask a question"
+      ],
+      "states": [
+        "Default"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "speaking-as",
+        "whose-theology",
+        "chat-scope"
+      ],
+      "context": "The screen is a directory. It does not show a generated leader response, and playback was paused during capture.",
+      "text": "Talk to an AI Leader; spiritual guidance; encouragement; prayer; Pray AI; Hope for the Heart; PRAY.COM; Mission Aviation Fellowship.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-d8867427cd1c30f2cd7a/"
+    },
+    {
+      "id": "shot-c8c44616f5dce111fc66",
+      "app_id": "com.BlueLetterBible.BLB",
+      "organisation_id": "C015",
+      "image": "/assets/app-library/screens/shot-c8c44616f5dce111fc66.png",
+      "captured": "2026-10-25",
+      "version": "2.84.2",
+      "screen_name": "Verse actions and highlight styles",
+      "caption": "Blue Letter Bible groups study tools, annotation actions and highlight styles in the verse menu.",
+      "screen_type": "Browse",
+      "tags": [
+        "Highlight",
+        "Note",
+        "Bookmark",
+        "Sharing"
+      ],
+      "components": [
+        "List",
+        "Menu",
+        "Navigation bar",
+        "Color picker"
+      ],
+      "tasks": [
+        "Mark and save",
+        "Study a passage"
+      ],
+      "states": [
+        "Default"
+      ],
+      "flow_id": "blue-letter-bible-mark-a-passage",
+      "flow_order": 1,
+      "article_slugs": [
+        "highlights-and-notes"
+      ],
+      "context": "The frame shows available actions; it does not establish the behaviour of every action.",
+      "text": "Study; Interlinear/Concordance; Bible Comparison; Cross-References; Text Commentaries; Audio / Video; Dictionaries; Add Note; Add Bookmark; Share Verse; Copy to Clipboard; Single Underline; Double Underline; Highlights.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-c8c44616f5dce111fc66/"
+    },
+    {
+      "id": "shot-51491f559e29c5e78109",
+      "app_id": "com.BlueLetterBible.BLB",
+      "organisation_id": "C015",
+      "image": "/assets/app-library/screens/shot-51491f559e29c5e78109.png",
+      "captured": "2026-10-25",
+      "version": "2.84.2",
+      "screen_name": "Choosing a highlight range",
+      "caption": "Blue Letter Bible asks for start and end verses before applying a highlight.",
+      "screen_type": "Annotation editor",
+      "tags": [
+        "Highlight",
+        "Verse numbers"
+      ],
+      "components": [
+        "Modal",
+        "Selector",
+        "Primary button"
+      ],
+      "tasks": [
+        "Mark and save"
+      ],
+      "states": [
+        "Selected"
+      ],
+      "flow_id": "blue-letter-bible-mark-a-passage",
+      "flow_order": 2,
+      "article_slugs": [
+        "highlights-and-notes"
+      ],
+      "context": "Verse 35 is selected at both ends in this frame. Intermediate actions before the final annotated reader are not pictured.",
+      "text": "Select Verse(s); Start; End; Cancel; Highlight; Mark 4; KJV.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-51491f559e29c5e78109/"
+    },
+    {
+      "id": "shot-a1f5c2d853dae19dc386",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-a1f5c2d853dae19dc386.png",
+      "captured": "2026-10-24",
+      "version": "13.13.0",
+      "screen_name": "A blessing request referred to clergy",
+      "caption": "Magisterium AI inside Hallow declines to impart a blessing or perform a sacred rite and suggests prayer or a priest or deacon.",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat",
+        "AI disclosure",
+        "Spiritual claims"
+      ],
+      "components": [
+        "Chat bubble",
+        "Text input",
+        "Suggestion button",
+        "Icon button",
+        "Navigation bar"
+      ],
+      "tasks": [
+        "Ask a question",
+        "Pray"
+      ],
+      "states": [
+        "Default"
+      ],
+      "flow_id": "hallow-prayer-and-blessing",
+      "flow_order": 2,
+      "article_slugs": [
+        "ai-spiritual-acts"
+      ],
+      "context": "This was a neutral research question in the same captured conversation; it is not a private pastoral disclosure.",
+      "text": "Magisterium AI; Can you bless me? sacred rite; priest or deacon; blessing; prayer; Ähnliche Fragen; Nachfragen.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-a1f5c2d853dae19dc386/"
+    }
+  ],
+  "flows": [
+    {
+      "id": "blue-letter-bible-mark-a-passage",
+      "url": "/flows/blue-letter-bible-mark-a-passage/",
+      "title": "Marking a passage",
+      "context": "Selected captures show verse actions, the range picker and a later annotated reader. Several intermediate actions are not pictured.",
+      "app_id": "com.BlueLetterBible.BLB",
+      "screen_ids": [
+        "shot-c8c44616f5dce111fc66",
+        "shot-51491f559e29c5e78109",
+        "shot-2ca850a7454c1e7501b6"
+      ],
+      "coverage": "Selected capture sequence; not a complete walkthrough."
+    },
+    {
+      "id": "hallow-prayer-and-blessing",
+      "url": "/flows/hallow-prayer-and-blessing/",
+      "title": "Prayer and blessing boundaries",
+      "context": "Two captured responses show how the integrated assistant distinguishes prayer wording and a request for a blessing.",
+      "app_id": "app.hallow.Hallow",
+      "screen_ids": [
+        "shot-9d05fb67eca9ba98aa72",
+        "shot-a1f5c2d853dae19dc386"
+      ],
+      "coverage": "Selected capture sequence; not a complete walkthrough."
+    }
+  ]
+}

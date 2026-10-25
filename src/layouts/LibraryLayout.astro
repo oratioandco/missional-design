@@ -1,0 +1,11 @@
+---
+import EditorialLayout from './EditorialLayout.astro';
+interface Props {title:string;description:string;active?:string;indexable?:boolean;}
+const {title,description,active='screens',indexable=false}=Astro.props;
+const links=[['screens','/screens/','Screens'],['flows','/flows/','Flows'],['apps','/apps/','Apps'],['organisations','/organisations/','Organisations'],['articles','/patterns/','Pattern articles']];
+---
+<EditorialLayout title={title} description={description} bodyClass="app-library" credits={['App interface screenshots belong to their respective publishers. Captured for product-design commentary.']}>
+ <Fragment slot="head"><link rel="stylesheet" href="/assets/app-library/library.css" /></Fragment>
+ <div class="lib-top wrap"><a class="lib-home" href="/screens/">Bible &amp; faith app library</a><nav class="lib-nav" aria-label="App library">{links.map(([key,url,label])=><a href={url} aria-current={key===active?'page':undefined}>{label}</a>)}</nav></div>
+ <div class="wrap lib-page" data-pagefind-body={indexable?'':undefined} data-pagefind-ignore={indexable?undefined:'all'}><slot /></div>
+</EditorialLayout>

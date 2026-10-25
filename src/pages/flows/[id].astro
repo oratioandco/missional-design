@@ -1,0 +1,8 @@
+---
+import Layout from '../../layouts/LibraryLayout.astro';
+import ScreenGrid from '../../components/library/ScreenGrid.astro';
+import {flows,screenFor,appFor} from '../../lib/app-library';
+export function getStaticPaths(){return flows.map(flow=>({params:{id:flow.id},props:{flow}}));}
+const {flow:f}=Astro.props;const app=appFor(f.app_id);
+---
+<Layout title={f.title+' — '+app.name} description={f.context} active="flows" indexable><span hidden data-pagefind-meta="record_id">{'flow:'+f.id}</span><span hidden data-pagefind-filter="kind">flow</span><header class="lib-intro"><a class="lib-back" href="/flows/">All sequences</a><h1 data-pagefind-meta="title">{f.title}</h1><p data-pagefind-meta="description">{f.context}</p><div class="lib-links"><a href={app.url}>{app.name}</a></div><p class="lib-note">{f.coverage} Screens are presented in captured order.</p></header><ScreenGrid screens={f.screen_ids.map(screenFor)}/></Layout>

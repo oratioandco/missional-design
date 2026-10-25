@@ -1,0 +1,8 @@
+---
+import Layout from '../../layouts/LibraryLayout.astro';
+import Facts from '../../components/library/OrganisationFacts.astro';
+import {organisations,apps,screensFor} from '../../lib/app-library';
+export function getStaticPaths(){return organisations.map(organisation=>({params:{slug:organisation.slug},props:{organisation}}));}
+const {organisation:o}=Astro.props;const children=apps.filter(a=>a.organisation_id===o.id);const integrations=organisations.filter(c=>(c.relationships||[]).some(r=>r.organisation_id===o.id));
+---
+<Layout title={o.name} description={o.description} active="organisations" indexable><span hidden data-pagefind-meta="record_id">{'organisation:'+o.id}</span><span hidden data-pagefind-filter="kind">organisation</span><header class="lib-intro"><a class="lib-back" href="/organisations/">All organisations</a><h1 data-pagefind-meta="title">{o.name}</h1><p data-pagefind-meta="description">{o.description}</p><div class="lib-links"><a href={o.website} rel="noreferrer" target="_blank">Official website</a></div>{o.app_store_seller&&<p class="lib-note">App Store seller: {o.app_store_seller}</p>}</header><div id="figures"><Facts organisation={o}/></div><section class="lib-section"><h2>{children.length?'Apps in this collection':'Integration relationships'}</h2>{children.length?<div class="lib-directory">{children.map(a=><article class="lib-directory-row"><div><h3><a href={a.url}>{a.name}</a></h3><p>{a.description}</p></div><span class="lib-directory-count">{screensFor(a.id).length} screenshots</span></article>)}</div>:integrations.map(c=><p>Technology integrated into an app published by <a href={c.url}>{c.name}</a>.</p>)}</section></Layout>
