@@ -1,8 +1,10 @@
 ---
+import OrganisationFunding from './OrganisationFunding.astro';
 import {dateLabel,organisationFor} from '../../lib/app-library';
 const {organisation:o}=Astro.props;
 ---
-<div class="lib-facts-columns" id="about"><section><h2>Who it serves</h2><p>{o.target_audience?.text}</p><p class="lib-note">An editorial summary of publisher positioning, rather than measured audience demographics. <a href={o.target_audience.source_url} rel="noreferrer" target="_blank">Source</a></p></section><section><h2>How it is supported</h2><p>{o.business_model.text}</p><p class="lib-note"><a href={o.business_model.source_url} rel="noreferrer" target="_blank">Publisher source</a></p></section></div>
+<section id="about"><h2>Who it serves</h2><p>{o.target_audience?.text}</p><p class="lib-note">An editorial summary of publisher positioning, rather than measured audience demographics. <a href={o.target_audience.source_url} rel="noreferrer" target="_blank">Source</a></p></section>
+<OrganisationFunding organisation={o}/>
 {o.identity_note&&<p class="lib-context">{o.identity_note}</p>}
 {(o.relationships||[]).map(r=>{const related=organisationFor(r.organisation_id);return <p class="lib-context">Integrates {r.service} from <a href={related.url}>{related.name}</a>. <a href={r.source_url} rel="noreferrer" target="_blank">Partnership source</a></p>})}
 <section class="lib-section" id="figures"><h2>Facts and figures</h2>{o.metrics.length?<><dl class="lib-metrics">{o.metrics.map(m=><div class="lib-metric"><dt>{m.label}</dt><dd class="lib-metric-value"><strong>{Number(m.value).toLocaleString('en-GB')}</strong><span>{m.unit}</span></dd><dd class="lib-metric-scope"><span>{m.scope} · {m.period}</span><p><a href={m.source_url} rel="noreferrer" target="_blank">{m.source_kind.replaceAll('_',' ')}</a></p>{m.limits&&<p class="lib-note">{m.limits}</p>}</dd></div>)}</dl><p class="lib-note">Organisation figures apply to the stated entity and period. Funding, giving volume and revenue are different measures.</p></>:<p class="lib-muted">No verified revenue or audience-size figure is recorded in the sources reviewed.</p>}</section>

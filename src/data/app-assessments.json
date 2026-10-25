@@ -7071,7 +7071,16 @@
           "status": "redemptive_candidate",
           "scope": "Captured Sunday pause only.",
           "reason": "The screen explicitly points beyond the app to local church.",
-          "limits": "Builder cost/trade-off and effects on actual participation not verified. Not a redemptive award."
+          "limits": "Builder cost/trade-off and effects on actual participation not verified. Not a redemptive award.",
+          "principle_ids": [
+            "send",
+            "growth"
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-a327728e3681d683e930/"
+            }
+          ]
         }
       },
       "play": [
@@ -9079,7 +9088,19 @@
           "status": "ethical_baseline_observed",
           "scope": "Two captured prayer/blessing responses only.",
           "reason": "The interface distinguishes generated prayer wording from conferring a sacred rite and refers to human clergy.",
-          "limits": "Not a finding about all prompts, app features, workplace practices or leadership intent."
+          "limits": "Not a finding about all prompts, app features, workplace practices or leadership intent.",
+          "principle_ids": [
+            "word-distinct",
+            "speak-for-god"
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-9d05fb67eca9ba98aa72/"
+            },
+            {
+              "url": "/screens/shot-a1f5c2d853dae19dc386/"
+            }
+          ]
         }
       },
       "play": [
