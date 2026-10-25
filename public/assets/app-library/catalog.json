@@ -44,6 +44,47 @@
       "url": "/apps/blue-letter-bible/"
     },
     {
+      "id": "de.nacamar.BibelTV",
+      "name": "BibelTV",
+      "store_name": "Bibel TV App",
+      "organisation_id": "C010",
+      "identity_status": "exact_bundle_match",
+      "website": "https://www.bibeltv.de/app/",
+      "app_store_url": "https://apps.apple.com/us/app/bibel-tv-app/id928955864?uo=4",
+      "platform": "iOS",
+      "category": "Entertainment",
+      "first_store_release": "2014-11-06T01:21:30Z",
+      "version": "5.16.2. Teilen des TV-Programms und Sendungen mit Vorschaubild",
+      "checked": "2026-10-25T03:42:12.944219+00:00",
+      "source_url": "https://apps.apple.com/us/app/bibel-tv-app/id928955864?uo=4",
+      "store_rating": {
+        "average": 4.75,
+        "count": 4,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "Bibel TV’s German-language app combines Christian television and on-demand video with Bible reading, reading plans and verse-linked teaching videos.",
+      "target_audience": {
+        "text": "German-speaking people seeking Christian programmes, worship broadcasts, Bible reading and video-based study material.",
+        "basis": "Editorial summary of the publisher App Store description; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/bibel-tv-app/id928955864?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "bibeltv",
+      "url": "/apps/bibeltv/"
+    },
+    {
       "id": "de.bibellesebund.bibelzeit",
       "name": "Bibelzeit",
       "store_name": "Bibelzeit",
@@ -331,6 +372,47 @@
       "url": "/apps/bibleproject/"
     },
     {
+      "id": "com.bepresentapp.BibleScroll",
+      "name": "BibleScroll",
+      "store_name": "BibleScroll: Christian Focus",
+      "organisation_id": "C079",
+      "identity_status": "exact_bundle_match",
+      "website": null,
+      "app_store_url": "https://apps.apple.com/us/app/biblescroll-christian-focus/id6755406222?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2026-02-01T08:00:00Z",
+      "version": "1.1.21",
+      "checked": "2026-10-25T03:42:22.204034+00:00",
+      "source_url": "https://apps.apple.com/us/app/biblescroll-christian-focus/id6755406222?uo=4",
+      "store_rating": {
+        "average": 4.80693,
+        "count": 7997,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A Christian focus app designed to make daily Bible reading a prerequisite for opening selected distracting apps, with reading streaks, saved verses and multiple translations.",
+      "target_audience": {
+        "text": "People seeking to reduce distracting app use and put Scripture reading before their daily scrolling.",
+        "basis": "Editorial summary of the linked publisher App Store description; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/biblescroll-christian-focus/id6755406222?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "biblescroll",
+      "url": "/apps/biblescroll/"
+    },
+    {
       "id": "com.ministrycentered.ChurchCenter",
       "name": "Church Center",
       "store_name": "Church Center",
@@ -411,6 +493,47 @@
       "description_status": "editorial_draft",
       "slug": "creed",
       "url": "/apps/creed/"
+    },
+    {
+      "id": "com.surgeworks.divineofficeios",
+      "name": "DivineOffice",
+      "store_name": "Divine Office",
+      "organisation_id": "C086",
+      "identity_status": "exact_bundle_match",
+      "website": "http://divine-office.com",
+      "app_store_url": "https://apps.apple.com/us/app/divine-office/id914635909?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2014-11-27T00:41:35Z",
+      "version": "3.2.53",
+      "checked": "2026-10-25T03:42:27.042700+00:00",
+      "source_url": "https://apps.apple.com/us/app/divine-office/id914635909?uo=4",
+      "store_rating": {
+        "average": 4.92945,
+        "count": 8405,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A Liturgy of the Hours app offering daily prayer texts and audio, with prayers organised around the Catholic liturgical calendar.",
+      "target_audience": {
+        "text": "People wishing to pray the Liturgy of the Hours, particularly Catholic users and other Christians interested in this daily prayer tradition.",
+        "basis": "Editorial summary of the linked publisher App Store description; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/divine-office/id914635909?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "divineoffice",
+      "url": "/apps/divineoffice/"
     },
     {
       "id": "com.duomoapp.project",
@@ -577,6 +700,47 @@
       "url": "/apps/everyday-faith/"
     },
     {
+      "id": "com.augustineinstitute.formed",
+      "name": "Formed",
+      "store_name": "Formed",
+      "organisation_id": "C008",
+      "identity_status": "exact_bundle_match",
+      "website": "https://watch.formed.org",
+      "app_store_url": "https://apps.apple.com/us/app/formed/id1212963367?uo=4",
+      "platform": "iOS",
+      "category": "Education",
+      "first_store_release": "2017-06-08T17:12:24Z",
+      "version": "10.401.1",
+      "checked": "2026-10-25T03:42:33.886498+00:00",
+      "source_url": "https://apps.apple.com/us/app/formed/id1212963367?uo=4",
+      "store_rating": {
+        "average": 4.91491,
+        "count": 14149,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A Catholic faith-content platform presented as a resource for formation and evangelisation, with in-app monthly or yearly subscriptions for full content access.",
+      "target_audience": {
+        "text": "Catholics and people exploring Catholic faith who seek formation and evangelisation resources.",
+        "basis": "Editorial summary of the linked publisher App Store description; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/formed/id1212963367?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "formed",
+      "url": "/apps/formed/"
+    },
+    {
       "id": "com.pushcontrolz.Givelify",
       "name": "Givelify",
       "store_name": "Givelify Mobile Giving App",
@@ -657,6 +821,47 @@
       "description_status": "editorial_draft",
       "slug": "glorify",
       "url": "/apps/glorify/"
+    },
+    {
+      "id": "com.22media.JPMobile",
+      "name": "Gospel Partner",
+      "store_name": "Gospel Partner: Daily Bible",
+      "organisation_id": "C001",
+      "identity_status": "exact_bundle_match",
+      "website": "https://www.gospelpartner.com",
+      "app_store_url": "https://apps.apple.com/us/app/gospel-partner-daily-bible/id931396143?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2015-02-17T13:24:54Z",
+      "version": "5.4.10",
+      "checked": "2026-10-25T03:42:37.204903+00:00",
+      "source_url": "https://apps.apple.com/us/app/gospel-partner-daily-bible/id931396143?uo=4",
+      "store_rating": {
+        "average": 4.71816,
+        "count": 369,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A Bible and devotional app built around Joseph Prince’s teaching, combining Scripture reading, pastoral reflections, journaling prompts and sermon clips; a subscription unlocks additional study and teaching content.",
+      "target_audience": {
+        "text": "Readers seeking daily devotional material and Bible study through Joseph Prince’s teaching and gospel-and-grace emphasis.",
+        "basis": "Editorial summary of the publisher App Store description; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/gospel-partner-daily-bible/id931396143?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "gospel-partner",
+      "url": "/apps/gospel-partner/"
     },
     {
       "id": "app.hallow.Hallow",
@@ -782,6 +987,47 @@
       "url": "/apps/inner-room/"
     },
     {
+      "id": "com.minimasoftware.dailybibleinspirations.lite",
+      "name": "Inspirations",
+      "store_name": "Bible Inspirations · Daily",
+      "organisation_id": "C056",
+      "identity_status": "exact_bundle_match",
+      "website": "https://dailybible.co",
+      "app_store_url": "https://apps.apple.com/us/app/bible-inspirations-daily/id494789758?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2012-01-29T08:00:00Z",
+      "version": "4.17.2",
+      "checked": "2026-10-25T03:42:40.312703+00:00",
+      "source_url": "https://apps.apple.com/us/app/bible-inspirations-daily/id494789758?uo=4",
+      "store_rating": {
+        "average": 4.89235,
+        "count": 134426,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A daily Bible verse and devotional app pairing Scripture and short reflections with photographs, configurable reminders, saved favourites and a personal journal.",
+      "target_audience": {
+        "text": "People seeking brief daily Bible reading and reflection, including new and long-time Christians with limited time.",
+        "basis": "Editorial summary of the linked publisher App Store description; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/bible-inspirations-daily/id494789758?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "inspirations",
+      "url": "/apps/inspirations/"
+    },
+    {
       "id": "de.dbg.konapp",
       "name": "KonApp",
       "store_name": "KonApp - Die App für Konfis",
@@ -862,6 +1108,47 @@
       "description_status": "editorial_draft",
       "slug": "lectio-365",
       "url": "/apps/lectio-365/"
+    },
+    {
+      "id": "com.yourcompany.TecartaBible",
+      "name": "Life Bible",
+      "store_name": "Life Bible App",
+      "organisation_id": "C088",
+      "identity_status": "exact_bundle_match",
+      "website": "https://lifebible.com/features",
+      "app_store_url": "https://apps.apple.com/us/app/life-bible-app/id325955298?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2009-08-15T21:47:05Z",
+      "version": "10.2.557",
+      "checked": "2026-10-25T03:42:43.450629+00:00",
+      "source_url": "https://apps.apple.com/us/app/life-bible-app/id325955298?uo=4",
+      "store_rating": {
+        "average": 4.85342,
+        "count": 105888,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A Bible reading and study app, formerly Tecarta Bible, combining translations, devotionals, reading plans, study resources and tools for personal notes and highlights.",
+      "target_audience": {
+        "text": "People seeking daily Bible reading and devotionals, alongside readers who want translations, commentaries and personal study tools.",
+        "basis": "Editorial summary of the publisher App Store description; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/life-bible-app/id325955298?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "life-bible",
+      "url": "/apps/life-bible/"
     },
     {
       "id": "com.logos.ilogos",
@@ -1233,6 +1520,47 @@
       "url": "/apps/sam/"
     },
     {
+      "id": "com.sourceviewbible.app",
+      "name": "SourceView",
+      "store_name": "SourceView Bible",
+      "organisation_id": "C081",
+      "identity_status": "exact_bundle_match",
+      "website": "http://sourceviewbible.com",
+      "app_store_url": "https://apps.apple.com/us/app/sourceview-bible/id1114617271?uo=4",
+      "platform": "iOS",
+      "category": "Reference",
+      "first_store_release": "2016-09-07T02:18:25Z",
+      "version": "1.3.1",
+      "checked": "2026-10-25T03:42:56.465500+00:00",
+      "source_url": "https://apps.apple.com/us/app/sourceview-bible/id1114617271?uo=4",
+      "store_rating": {
+        "average": 4.53846,
+        "count": 52,
+        "country": "us",
+        "definition": "Cumulative ratings in this storefront at lookup; not downloads or active users."
+      },
+      "download_price": {
+        "value": 0.0,
+        "currency": "USD",
+        "country": "us",
+        "definition": "Download price at lookup; not subscription price or revenue."
+      },
+      "revenue": null,
+      "userbase": null,
+      "financial_status": "No verified app-level revenue found in this pass; see separately scoped organisation figures.",
+      "research_status": "curated_organisation_draft",
+      "description": "A Bible reader that colours text by speaker role and provides tools for exploring speakers, words and passage data.",
+      "target_audience": {
+        "text": "Individual Bible readers, study groups and teachers interested in dialogue, speaker roles and close exploration of biblical text.",
+        "basis": "Editorial summary of the publisher App Store description; not measured demographics",
+        "source_url": "https://apps.apple.com/us/app/sourceview-bible/id1114617271?uo=4"
+      },
+      "description_checked": "2026-10-25",
+      "description_status": "editorial_draft",
+      "slug": "sourceview",
+      "url": "/apps/sourceview/"
+    },
+    {
       "id": "app.startblock.ios",
       "name": "Startblock",
       "store_name": "Startblock",
@@ -1563,6 +1891,31 @@
   ],
   "organisations": [
     {
+      "id": "C001",
+      "name": "22 MEDIA PTE. LTD.",
+      "app_store_seller": "22 MEDIA PTE. LTD.",
+      "website": "https://www.gospelpartner.com",
+      "research_status": "curated_draft",
+      "description": "The App Store-listed seller of Gospel Partner, a Bible and devotional app featuring Joseph Prince’s teaching.",
+      "target_audience": {
+        "text": "People seeking Bible reading, devotional practices and Joseph Prince teaching content.",
+        "basis": "Editorial summary of the linked app publisher description; not demographic measurement",
+        "source_url": "https://apps.apple.com/us/app/gospel-partner-daily-bible/id931396143?uo=4"
+      },
+      "business_model": {
+        "text": "The Gospel Partner listing describes a subscription unlocking additional study and teaching material. Company revenue and the wider ownership or licensing arrangements have not been verified.",
+        "source_url": "https://apps.apple.com/us/app/gospel-partner-daily-bible/id931396143?uo=4"
+      },
+      "leaders": [],
+      "metrics": [],
+      "sources": [
+        "https://apps.apple.com/us/app/gospel-partner-daily-bible/id931396143?uo=4",
+        "https://itunes.apple.com/lookup?bundleId=com.22media.JPMobile&country=us"
+      ],
+      "slug": "22-media-pte-ltd",
+      "url": "/organisations/22-media-pte-ltd/"
+    },
+    {
       "id": "C002",
       "name": "24-7 Prayer",
       "app_store_seller": "24-7 Prayer",
@@ -1592,6 +1945,62 @@
       "metrics": [],
       "slug": "24-7-prayer",
       "url": "/organisations/24-7-prayer/"
+    },
+    {
+      "id": "C008",
+      "name": "Augustine Institute, Inc.",
+      "app_store_seller": "Augustine Institute, Inc.",
+      "website": "https://amenapp.org",
+      "research_status": "curated_draft",
+      "description": "The App Store-listed publisher of Formed, a Catholic faith-content platform for formation and evangelisation.",
+      "target_audience": {
+        "text": "Catholics and people exploring Catholic faith who seek formation and evangelisation resources.",
+        "basis": "Editorial summary of this publisher-listed app’s audience; not an organisation-wide demographic measurement",
+        "source_url": "https://apps.apple.com/us/app/formed/id1212963367?uo=4"
+      },
+      "business_model": {
+        "text": "The Formed listing describes auto-renewing monthly or yearly in-app subscriptions for access to all features and content. This app-level offer does not establish company revenue or its wider funding model.",
+        "source_url": "https://apps.apple.com/us/app/formed/id1212963367?uo=4"
+      },
+      "leaders": [],
+      "metrics": [],
+      "sources": [
+        "https://apps.apple.com/us/app/formed/id1212963367?uo=4",
+        "https://itunes.apple.com/lookup?bundleId=com.augustineinstitute.formed&country=us"
+      ],
+      "slug": "augustine-institute-inc",
+      "url": "/organisations/augustine-institute-inc/"
+    },
+    {
+      "id": "C010",
+      "name": "Bibel TV",
+      "app_store_seller": "Bibel TV Stiftung gGmbH",
+      "website": "https://www.bibeltv.de/app/",
+      "research_status": "curated_draft",
+      "description": "German Christian media organisation operating television and digital services.",
+      "target_audience": {
+        "text": "German-speaking viewers seeking Christian television, video and devotional content.",
+        "basis": "Editorial summary of the linked publisher description; not a demographic measurement",
+        "source_url": "https://www.bibeltv.de/kontakt/impressum"
+      },
+      "business_model": {
+        "text": "Nonprofit media organisation; app-level financials not found.",
+        "source_url": "https://www.bibeltv.de/kontakt/impressum"
+      },
+      "sources": [
+        "https://www.bibeltv.de/kontakt/impressum"
+      ],
+      "leaders": [
+        {
+          "name": "Matthias Brender",
+          "role": "Geschäftsführer",
+          "source_url": "https://www.bibeltv.de/kontakt/impressum",
+          "checked": "2026-10-25"
+        }
+      ],
+      "metrics": [],
+      "slug": "bibel-tv",
+      "url": "/organisations/bibel-tv/"
     },
     {
       "id": "C011",
@@ -2301,6 +2710,31 @@
       "url": "/organisations/pray-as-you-go/"
     },
     {
+      "id": "C056",
+      "name": "Joyverse Inc",
+      "app_store_seller": "Joyverse Inc",
+      "website": "https://dailybible.co",
+      "research_status": "curated_draft",
+      "description": "The App Store-listed seller of Bible Inspirations · Daily, an app combining Bible verses, short devotions and photographs.",
+      "target_audience": {
+        "text": "People seeking brief daily Bible reading and reflection, including new and long-time Christians with limited time.",
+        "basis": "Editorial summary of this publisher-listed app’s audience; not an organisation-wide demographic measurement",
+        "source_url": "https://apps.apple.com/us/app/bible-inspirations-daily/id494789758?uo=4"
+      },
+      "business_model": {
+        "text": "The listing describes a free download with advertising and a premium subscription that removes ads and unlocks content. No company or app revenue has been verified.",
+        "source_url": "https://apps.apple.com/us/app/bible-inspirations-daily/id494789758?uo=4"
+      },
+      "leaders": [],
+      "metrics": [],
+      "sources": [
+        "https://apps.apple.com/us/app/bible-inspirations-daily/id494789758?uo=4",
+        "https://itunes.apple.com/lookup?bundleId=com.minimasoftware.dailybibleinspirations.lite&country=us"
+      ],
+      "slug": "joyverse-inc",
+      "url": "/organisations/joyverse-inc/"
+    },
+    {
       "id": "C058",
       "name": "Creed / Lemon Tree Labs",
       "app_store_seller": "Lemon Tree Labs, Inc.",
@@ -2569,6 +3003,56 @@
       "url": "/organisations/stayonfire-e-v/"
     },
     {
+      "id": "C079",
+      "name": "Screen Detox Inc",
+      "app_store_seller": "Screen Detox Inc",
+      "website": null,
+      "research_status": "curated_draft",
+      "description": "The App Store-listed seller of BibleScroll, a Christian focus app that connects selected-app access to daily Bible reading.",
+      "target_audience": {
+        "text": "People seeking to reduce distracting app use and put Scripture reading before their daily scrolling.",
+        "basis": "Editorial summary of this publisher-listed app’s audience; not an organisation-wide demographic measurement",
+        "source_url": "https://apps.apple.com/us/app/biblescroll-christian-focus/id6755406222?uo=4"
+      },
+      "business_model": {
+        "text": "The cached US listing shows a free download. Pricing beyond the download and company revenue have not been verified.",
+        "source_url": "https://apps.apple.com/us/app/biblescroll-christian-focus/id6755406222?uo=4"
+      },
+      "leaders": [],
+      "metrics": [],
+      "sources": [
+        "https://apps.apple.com/us/app/biblescroll-christian-focus/id6755406222?uo=4",
+        "https://itunes.apple.com/lookup?bundleId=com.bepresentapp.BibleScroll&country=us"
+      ],
+      "slug": "screen-detox-inc",
+      "url": "/organisations/screen-detox-inc/"
+    },
+    {
+      "id": "C081",
+      "name": "SourceView Publishing LLC",
+      "app_store_seller": "SourceView Publishing LLC",
+      "website": "http://sourceviewbible.com",
+      "research_status": "curated_draft",
+      "description": "The App Store-listed publisher of SourceView Bible, an app for reading biblical text with speaker-role colours and exploring passage data.",
+      "target_audience": {
+        "text": "Bible readers, groups and teachers interested in speaker-based reading and textual exploration.",
+        "basis": "Editorial summary of the linked app publisher description; not demographic measurement",
+        "source_url": "https://apps.apple.com/us/app/sourceview-bible/id1114617271?uo=4"
+      },
+      "business_model": {
+        "text": "The SourceView Bible listing describes an optional Spheres in-app purchase. This is an app-level offer; company revenue and other business activities have not been verified.",
+        "source_url": "https://apps.apple.com/us/app/sourceview-bible/id1114617271?uo=4"
+      },
+      "leaders": [],
+      "metrics": [],
+      "sources": [
+        "https://apps.apple.com/us/app/sourceview-bible/id1114617271?uo=4",
+        "https://itunes.apple.com/lookup?bundleId=com.sourceviewbible.app&country=us"
+      ],
+      "slug": "sourceview-publishing-llc",
+      "url": "/organisations/sourceview-publishing-llc/"
+    },
+    {
       "id": "C083",
       "name": "Startblock",
       "app_store_seller": "Startblock - Christliche Medien e.V.",
@@ -2591,6 +3075,31 @@
       "metrics": [],
       "slug": "startblock",
       "url": "/organisations/startblock/"
+    },
+    {
+      "id": "C086",
+      "name": "Surgeworks, Inc.",
+      "app_store_seller": "Surgeworks, Inc.",
+      "website": "http://divine-office.com",
+      "research_status": "curated_draft",
+      "description": "The App Store-listed publisher of Divine Office, a text and audio app for praying the Liturgy of the Hours.",
+      "target_audience": {
+        "text": "People wishing to pray the Liturgy of the Hours, particularly Catholic users and other Christians interested in this daily prayer tradition.",
+        "basis": "Editorial summary of this publisher-listed app’s audience; not an organisation-wide demographic measurement",
+        "source_url": "https://apps.apple.com/us/app/divine-office/id914635909?uo=4"
+      },
+      "business_model": {
+        "text": "The cached US listing shows a free download. Funding arrangements, any other paid offers and company revenue have not been verified.",
+        "source_url": "https://apps.apple.com/us/app/divine-office/id914635909?uo=4"
+      },
+      "leaders": [],
+      "metrics": [],
+      "sources": [
+        "https://apps.apple.com/us/app/divine-office/id914635909?uo=4",
+        "https://itunes.apple.com/lookup?bundleId=com.surgeworks.divineofficeios&country=us"
+      ],
+      "slug": "surgeworks-inc",
+      "url": "/organisations/surgeworks-inc/"
     },
     {
       "id": "C087",
@@ -2617,6 +3126,31 @@
       "identity_note": "Apple seller TUPOE LTD. Faith app, distinct from glorify.com design software. Official website confirms merger with Confidein; date and current leadership still require primary verification.",
       "slug": "glorify",
       "url": "/organisations/glorify/"
+    },
+    {
+      "id": "C088",
+      "name": "Tecarta, Inc.",
+      "app_store_seller": "Tecarta, Inc.",
+      "website": "https://lifebible.com/features",
+      "research_status": "curated_draft",
+      "description": "The App Store-listed publisher of Life Bible, formerly Tecarta Bible, a Bible reading and study app with devotional and reference resources.",
+      "target_audience": {
+        "text": "People seeking daily Bible reading and devotionals, alongside readers who want translations, commentaries and personal study tools.",
+        "basis": "Editorial summary of the linked publisher-listed app’s audience; not company-wide demographic measurement",
+        "source_url": "https://apps.apple.com/us/app/life-bible-app/id325955298?uo=4"
+      },
+      "business_model": {
+        "text": "The listing describes free streaming of popular Bible translations and purchases of devotional and study resources. These app-level offers do not establish company revenue or the full pricing model.",
+        "source_url": "https://apps.apple.com/us/app/life-bible-app/id325955298?uo=4"
+      },
+      "leaders": [],
+      "metrics": [],
+      "sources": [
+        "https://apps.apple.com/us/app/life-bible-app/id325955298?uo=4",
+        "https://itunes.apple.com/lookup?bundleId=com.yourcompany.TecartaBible&country=us"
+      ],
+      "slug": "tecarta-inc",
+      "url": "/organisations/tecarta-inc/"
     },
     {
       "id": "C089",
@@ -3454,6 +3988,913 @@
       "text": "Magisterium AI; focused on Catholic teaching and related subjects; software developer cover letter.",
       "checked": "2026-10-25",
       "url": "/screens/shot-69117c78bc9cbc792e8c/"
+    },
+    {
+      "id": "shot-e8f0c0c51f35ceab992f",
+      "app_id": "com.olivetree.BR-Free",
+      "organisation_id": "C046",
+      "image": "/assets/app-library/screens/shot-e8f0c0c51f35ceab992f.png",
+      "captured": "2026-10-25",
+      "version": "8.1.4",
+      "screen_name": "Three highlight records over the same words",
+      "caption": "Olive Tree lists three Mark 4:35 highlight records: two anchored to “other” and one to “other side.”",
+      "screen_type": "Annotation library",
+      "tags": [
+        "Highlight",
+        "Overlapping marks",
+        "Word anchor"
+      ],
+      "components": [
+        "Bottom sheet",
+        "List",
+        "Icon button"
+      ],
+      "tasks": [
+        "Mark and save"
+      ],
+      "states": [
+        "Open"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "highlights-and-notes"
+      ],
+      "context": "The records were created during a neutral overlap test. The list establishes separate records in this captured state, not a general compositing rule or default palette. The paired reader frame remains held for review of pre-existing category labels.",
+      "text": "Mar 4:35 MSG; other; other; other side.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-e8f0c0c51f35ceab992f/"
+    },
+    {
+      "id": "shot-e20bd7a778ea711fbaea",
+      "app_id": "com.BlueLetterBible.BLB",
+      "organisation_id": "C015",
+      "image": "/assets/app-library/screens/shot-e20bd7a778ea711fbaea.png",
+      "captured": "2026-10-25",
+      "version": "2.84.2",
+      "screen_name": "One library entry for each highlighted verse",
+      "caption": "Blue Letter Bible lists Mark 4:35 and Mark 4:36 as separate entries under Highlight 2.",
+      "screen_type": "Annotation library",
+      "tags": [
+        "Highlight",
+        "Verse anchor",
+        "Excerpt visibility"
+      ],
+      "components": [
+        "Navigation bar",
+        "Toggle switch",
+        "List",
+        "Disclosure row"
+      ],
+      "tasks": [
+        "Mark and save"
+      ],
+      "states": [
+        "Open"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "highlights-and-notes"
+      ],
+      "context": "Neutral test highlights are shown in a category library. The Display Biblical Text switch controls excerpts in this list; it is not a reader-wide hide-marks control. Compare the category-count frame, without inferring word-level overlap behaviour from this list.",
+      "text": "Highlight 2; Display Biblical Text; Mark 4:35 (KJV); Mark 4:36 (KJV); Highlight Category Options; Share All Highlights; Rename Highlight; Delete Highlight.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-e20bd7a778ea711fbaea/"
+    },
+    {
+      "id": "shot-1916611e53733c0dab72",
+      "app_id": "com.BlueLetterBible.BLB",
+      "organisation_id": "C015",
+      "image": "/assets/app-library/screens/shot-1916611e53733c0dab72.png",
+      "captured": "2026-10-25",
+      "version": "2.84.2",
+      "screen_name": "A highlight library with category counts",
+      "caption": "Blue Letter Bible shows seven named highlight categories and separate single- and double-underline options; Highlight 2 has a count of two.",
+      "screen_type": "Annotation library",
+      "tags": [
+        "Highlight",
+        "Underline",
+        "Category count"
+      ],
+      "components": [
+        "Navigation bar",
+        "List",
+        "Color swatch",
+        "Count badge"
+      ],
+      "tasks": [
+        "Mark and save"
+      ],
+      "states": [
+        "Open"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "highlights-and-notes"
+      ],
+      "context": "This is the captured library after a neutral marking test. No count is visible beside Highlight 1. That display alone does not prove deletion or a universal replacement policy; use the related verse-entry frame to establish what is listed.",
+      "text": "Manage Highlights; Create New Highlight Category; Single Underline; Double Underline; Highlight 1; Highlight 2; 2; Highlight 3; Highlight 4; Highlight 5; Highlight 6; Highlight 7.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-1916611e53733c0dab72/"
+    },
+    {
+      "id": "shot-78d64e25944e0adb1553",
+      "app_id": "com.BlueLetterBible.BLB",
+      "organisation_id": "C015",
+      "image": "/assets/app-library/screens/shot-78d64e25944e0adb1553.png",
+      "captured": "2026-10-25",
+      "version": "2.84.2",
+      "screen_name": "Editing a highlight label and colour",
+      "caption": "Blue Letter Bible exposes an editable highlight label, colour presets, RGB sliders and a hexadecimal colour field.",
+      "screen_type": "Annotation editor",
+      "tags": [
+        "Highlight",
+        "Custom colour",
+        "Editable label"
+      ],
+      "components": [
+        "Text field",
+        "Color picker",
+        "Slider",
+        "Stepper",
+        "Preview",
+        "Button"
+      ],
+      "tasks": [
+        "Mark and save",
+        "Customise appearance"
+      ],
+      "states": [
+        "Editing"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "highlights-and-notes"
+      ],
+      "context": "The editor was inspected without changing the label or colours and without using the clipboard controls. The frame demonstrates available controls, not a saved custom palette or a meaning assigned to the colour.",
+      "text": "Colors; Label; Highlight 1; Preview; Update; Cancel; R; G; B; Recently Selected Colors; FFFFAA; (255,255,170); Copy; Paste.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-78d64e25944e0adb1553/"
+    },
+    {
+      "id": "shot-6bcc7e27c6068085ab75",
+      "app_id": "com.logos.ilogos",
+      "organisation_id": "C043",
+      "image": "/assets/app-library/screens/shot-6bcc7e27c6068085ab75.png",
+      "captured": "2026-10-24",
+      "version": "54.0.2",
+      "screen_name": "A dark reader after hiding personal marks",
+      "caption": "Logos shows Mark 4 in a dark reader after the captured session turned Show Notes/Highlights off.",
+      "screen_type": "Bible reader",
+      "tags": [
+        "Hide marks",
+        "Dark theme",
+        "Editorial cues"
+      ],
+      "components": [
+        "Navigation bar",
+        "Reference field",
+        "Icon button",
+        "Bottom navigation"
+      ],
+      "tasks": [
+        "Read Scripture",
+        "Customise appearance"
+      ],
+      "states": [
+        "Default"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "highlights-and-notes"
+      ],
+      "context": "The visible frame has no personal highlight backgrounds or note markers; red-letter speech and editorial reference letters remain. The session log records the setting change. This frame alone does not prove that saved records persist or that no mark exists elsewhere.",
+      "text": "English Standard Version; Mark 4:35; Jesus Calms a Storm; Today; Ask; Study; More.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-6bcc7e27c6068085ab75/"
+    },
+    {
+      "id": "shot-3066e3eb1502590dd932",
+      "app_id": "de.nacamar.BibelTV",
+      "organisation_id": "C010",
+      "image": "/assets/app-library/screens/shot-3066e3eb1502590dd932.png",
+      "captured": "2026-10-25",
+      "version": "5.17.0",
+      "screen_name": "Bold emphasis after a passage lookup",
+      "caption": "Bibel TV displays Mark 4:35–41 in bold after an exact passage lookup, distinct from the surrounding regular-weight text.",
+      "screen_type": "Bible reader",
+      "tags": [
+        "Passage lookup",
+        "Search emphasis",
+        "Verse numbers"
+      ],
+      "components": [
+        "Navigation bar",
+        "Tab bar",
+        "Verse reference",
+        "Bottom navigation"
+      ],
+      "tasks": [
+        "Find a passage",
+        "Read Scripture"
+      ],
+      "states": [
+        "Search result"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "finding-a-passage",
+        "highlights-and-notes"
+      ],
+      "context": "The capture log records a reference lookup, not creation of a saved highlight. The visible bold range is search-result emphasis. No audio or media playback was tested in this frame.",
+      "text": "lesen & markieren; Videos zum Text; GNB; Markus 4; Im Sturm auf die Probe gestellt; Gute Nachricht Bibel, durchgesehene Neuausgabe, © 2018 Deutsche Bibelgesellschaft, Stuttgart.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-3066e3eb1502590dd932/"
+    },
+    {
+      "id": "shot-00d195419738cc5fedfb",
+      "app_id": "com.yourcompany.TecartaBible",
+      "organisation_id": "C088",
+      "image": "/assets/app-library/screens/shot-00d195419738cc5fedfb.png",
+      "captured": "2026-10-24",
+      "version": "10.2.557",
+      "screen_name": "Coloured text and a note marker in a dark reader",
+      "caption": "Life Bible shows blue text with a note icon at Mark 4:35 and yellow marked text at verse 41 in a dark reader.",
+      "screen_type": "Bible reader",
+      "tags": [
+        "Highlight",
+        "Note marker",
+        "Dark theme"
+      ],
+      "components": [
+        "Navigation bar",
+        "Inline annotation",
+        "Icon button",
+        "Bottom navigation"
+      ],
+      "tasks": [
+        "Read Scripture",
+        "Mark and save"
+      ],
+      "states": [
+        "Default"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "highlights-and-notes"
+      ],
+      "context": "The capture session used neutral research annotations. The note content is not open or visible. Overlap behaviour was inconclusive, so this frame is an appearance example rather than evidence about overlap storage or rendering rules.",
+      "text": "Markus 4; HFA; Herr über Wind und Wellen; Home; Bible; Search; Plans; More.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-00d195419738cc5fedfb/"
+    },
+    {
+      "id": "shot-e204ebe9038f9deb57f4",
+      "app_id": "com.minimasoftware.dailybibleinspirations.lite",
+      "organisation_id": "C056",
+      "image": "/assets/app-library/screens/shot-e204ebe9038f9deb57f4.png",
+      "captured": "2026-10-25",
+      "version": "4.17.2",
+      "screen_name": "Completion language after navigation",
+      "caption": "Bible Inspirations displays “You did it!” and says the reader devoted time to Jesus, beside an invitation to set a daily reminder.",
+      "screen_type": "Completion screen",
+      "tags": [
+        "Completion",
+        "Reminder",
+        "Advertising"
+      ],
+      "components": [
+        "Pagination indicator",
+        "Text link",
+        "Banner ad",
+        "Navigation menu"
+      ],
+      "tasks": [
+        "Review progress"
+      ],
+      "states": [
+        "Completion message"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "progress-and-streaks"
+      ],
+      "context": "The capture log records research navigation to this end card without reading a devotion. This is displayed wording, not evidence of spiritual activity or a database completion record. The banner is an in-app advertisement, not an endorsement by this resource.",
+      "text": "Bible Inspirations from Joyverse; You did it!; You devoted time to Jesus today!; Set a Daily Reminder; Browse Archive; Explore Topics.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-e204ebe9038f9deb57f4/"
+    },
+    {
+      "id": "shot-361a785f3881c5317f48",
+      "app_id": "qa.tejas.dewfall",
+      "organisation_id": "C089",
+      "image": "/assets/app-library/screens/shot-361a785f3881c5317f48.png",
+      "captured": "2026-10-24",
+      "version": null,
+      "screen_name": "Individual verse completion checkboxes",
+      "caption": "Dewfall shows filled checkboxes beside Mark 4:35–37 while adjacent verses remain unchecked.",
+      "screen_type": "Bible reader",
+      "tags": [
+        "Verse numbers",
+        "Completion",
+        "Checkbox",
+        "Progress"
+      ],
+      "components": [
+        "Checkbox",
+        "Progress indicator",
+        "Navigation bar",
+        "Translation selector"
+      ],
+      "tasks": [
+        "Read Scripture",
+        "Mark completion"
+      ],
+      "states": [
+        "Selected"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "progress-and-streaks",
+        "how-much-text"
+      ],
+      "context": "The marked verses were neutral research test ticks, not a record of the owner’s devotional activity. The text appearance remains otherwise similar in this frame. The version was not recorded; storage and synchronisation are not established by the image.",
+      "text": "Mark 4; BSB; My Journey; Read; Library; checked verses 35, 36 and 37.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-361a785f3881c5317f48/"
+    },
+    {
+      "id": "shot-89c9202e1be884da7a16",
+      "app_id": "qa.tejas.dewfall",
+      "organisation_id": "C089",
+      "image": "/assets/app-library/screens/shot-89c9202e1be884da7a16.png",
+      "captured": "2026-10-24",
+      "version": null,
+      "screen_name": "A book map and verse-count journey",
+      "caption": "Dewfall’s My Journey screen displays a 66-book map, verse count, books started and finished, and streak counters.",
+      "screen_type": "Progress dashboard",
+      "tags": [
+        "Progress",
+        "Streak",
+        "Book map",
+        "Statistics"
+      ],
+      "components": [
+        "Progress indicator",
+        "Statistic",
+        "Content card",
+        "Navigation bar",
+        "Share button"
+      ],
+      "tasks": [
+        "Review progress"
+      ],
+      "states": [
+        "Research test data"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "progress-and-streaks"
+      ],
+      "context": "The displayed three verses and one-day streak were created by neutral research test ticks. They are not the owner’s spiritual history or evidence of spiritual growth. The capture does not establish how each metric is calculated or synchronised; the app version was not recorded.",
+      "text": "My Journey; 3 of 31,086 verses; 0%; 66 BOOKS; Continue Reading; Random Verse; Books Finished 0/66; Books Started 1; Journal Entries 0; Current Streak 1d; Longest Streak 1d.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-89c9202e1be884da7a16/"
+    },
+    {
+      "id": "shot-3eff4b762011c39b5575",
+      "app_id": "com.aimermedia.LiveLent",
+      "organisation_id": "C025",
+      "image": "/assets/app-library/screens/shot-3eff4b762011c39b5575.png",
+      "captured": "2026-10-25",
+      "version": "17.7.10",
+      "screen_name": "An attributed reading in a daily devotion",
+      "caption": "Everyday Faith opens the “Beard oil” devotion with a reading attributed to Psalm 133:1–3 in the Common Worship Psalter.",
+      "screen_type": "Devotional reader",
+      "tags": [
+        "Scripture",
+        "Daily devotion",
+        "Attribution",
+        "Step sequence"
+      ],
+      "components": [
+        "Content image",
+        "Favourite button",
+        "Share button",
+        "Audio control",
+        "Previous/next controls"
+      ],
+      "tasks": [
+        "Follow a devotion",
+        "Read Scripture"
+      ],
+      "states": [
+        "Reading step"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "reading-plans",
+        "prayer"
+      ],
+      "context": "This is the Reading step for content dated 24 October, captured on 25 October. Companion captures show Reflection, Response and Prayer. No audio was played, favourite saved or completion pressed during the logged research navigation.",
+      "text": "Together; 24 October; Beard oil; Reading; Psalm 133.1-3 (Common Worship Psalter); listen.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-3eff4b762011c39b5575/"
+    },
+    {
+      "id": "shot-e89d803012e2702418ba",
+      "app_id": "com.surgeworks.divineofficeios",
+      "organisation_id": "C086",
+      "image": "/assets/app-library/screens/shot-e89d803012e2702418ba.png",
+      "captured": "2026-10-25",
+      "version": "3.2.53",
+      "screen_name": "Night Prayer with print-book references",
+      "caption": "Divine Office’s Night Prayer reader shows red rubrics and page references for the Liturgy of the Hours and Christian Prayer beside paused audio controls.",
+      "screen_type": "Prayer reader",
+      "tags": [
+        "Liturgy",
+        "Prayer",
+        "Audio",
+        "Print references",
+        "Rubrics"
+      ],
+      "components": [
+        "Audio player",
+        "Playback speed",
+        "Text size control",
+        "Share button",
+        "Progress slider"
+      ],
+      "tasks": [
+        "Follow prayer",
+        "Read a liturgy"
+      ],
+      "states": [
+        "Paused"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "prayer",
+        "devotional-audio"
+      ],
+      "context": "The audio is paused at 00:00 of the displayed 11:51 recording. The frame establishes visible text, references and controls, not what is spoken, whether rubrics are voiced, or completion of prayer.",
+      "text": "Night Prayer; Ribbon Placement; Liturgy of the Hours; Christian Prayer; Examination of Conscience; 00:00; 11:51; 1X.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-e89d803012e2702418ba/"
+    },
+    {
+      "id": "shot-d0b0becf7e3a137046ad",
+      "app_id": "com.damirakyan.creed",
+      "organisation_id": "C058",
+      "image": "/assets/app-library/screens/shot-d0b0becf7e3a137046ad.png",
+      "captured": "2026-10-25",
+      "version": "1.1.445",
+      "screen_name": "An invitation to confide in a companion",
+      "caption": "Creed’s scripted lamb onboarding links confiding through voice or text with its promise to guide the person toward God.",
+      "screen_type": "Onboarding",
+      "tags": [
+        "AI persona",
+        "Companion",
+        "Self-disclosure",
+        "Scripted copy"
+      ],
+      "components": [
+        "Character illustration",
+        "Progress indicator",
+        "Back button",
+        "Continue button"
+      ],
+      "tasks": [
+        "Understand an assistant",
+        "Set up an app"
+      ],
+      "states": [
+        "Scripted onboarding"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "ai-persona",
+        "meeting-the-person",
+        "ai-memory"
+      ],
+      "context": "This is scripted onboarding, not a generated reply. No actual confidences were supplied. The screen does not establish retention, memory implementation, theological reliability or effects on the person.",
+      "text": "As for how the app works, you can talk to me using voice or text.; The more you confide in me, the better I can guide you toward God.; Continue.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-d0b0becf7e3a137046ad/"
+    },
+    {
+      "id": "shot-2181ad9f29a93a95b87e",
+      "app_id": "com.damirakyan.creed",
+      "organisation_id": "C058",
+      "image": "/assets/app-library/screens/shot-2181ad9f29a93a95b87e.png",
+      "captured": "2026-10-25",
+      "version": "1.1.445",
+      "screen_name": "A subscription appeal through mascot care",
+      "caption": "Creed’s scripted subscription warning says payment keeps the lights on and “also helps feed” the lamb character.",
+      "screen_type": "Onboarding",
+      "tags": [
+        "Subscription",
+        "AI persona",
+        "Companion",
+        "Payment framing"
+      ],
+      "components": [
+        "Character illustration",
+        "Progress indicator",
+        "Back button",
+        "Continue button"
+      ],
+      "tasks": [
+        "Understand pricing",
+        "Set up an app"
+      ],
+      "states": [
+        "Before paywall"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use",
+        "giving",
+        "ai-persona"
+      ],
+      "context": "This is a subscription appeal in onboarding, not a donation or a purchase confirmation. The claims about other free apps and data selling are the app’s own copy and were not independently verified. No subscription was activated in this logged sequence.",
+      "text": "The team says I have to warn you about the paywall.; Subscribing helps us keep the lights on.; It also helps feed me.; Continue.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-2181ad9f29a93a95b87e/"
+    },
+    {
+      "id": "shot-4fe639e5cda508388d68",
+      "app_id": "com.bepresentapp.BibleScroll",
+      "organisation_id": "C079",
+      "image": "/assets/app-library/screens/shot-4fe639e5cda508388d68.png",
+      "captured": "2026-10-25",
+      "version": "1.1.21",
+      "screen_name": "Social proof before account creation",
+      "caption": "BibleScroll’s entry screen presents Christian-focus positioning and a testimonial above Apple and email account options.",
+      "screen_type": "Account entry",
+      "tags": [
+        "Social proof",
+        "Account",
+        "Sign in",
+        "Positioning"
+      ],
+      "components": [
+        "Testimonial card",
+        "Rating display",
+        "Apple sign-in button",
+        "Email sign-in button",
+        "Back button"
+      ],
+      "tasks": [
+        "Create an account",
+        "Understand an app"
+      ],
+      "states": [
+        "Signed out"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "The displayed ranking, user-count claim and named testimonial are publisher-provided social proof, not independently verified findings or the phone owner’s information. This entry frame does not establish Screen Time blocking, account completion or a reading plan.",
+      "text": "Thousands of Christians Read the Bible Daily with BibleScroll; #1 Christian Focus App; Continue with Apple; Continue with Email.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-4fe639e5cda508388d68/"
+    },
+    {
+      "id": "shot-abb15f181498fb322269",
+      "app_id": "com.augustineinstitute.formed",
+      "organisation_id": "C008",
+      "image": "/assets/app-library/screens/shot-abb15f181498fb322269.png",
+      "captured": "2026-10-25",
+      "version": "10.401.1",
+      "screen_name": "Exploration alongside a free-trial option",
+      "caption": "Formed separates “Explore content” from “Start free trial” on its entry screen.",
+      "screen_type": "Welcome screen",
+      "tags": [
+        "Guest exploration",
+        "Trial",
+        "Subscription",
+        "Account"
+      ],
+      "components": [
+        "Primary button",
+        "Secondary button",
+        "Sign-in link",
+        "Restore purchase link"
+      ],
+      "tasks": [
+        "Explore content",
+        "Start an app"
+      ],
+      "states": [
+        "Signed out"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "The copy distinguishes exploring the catalogue from subscribing to watch. This frame does not establish that all viewing is free, the trial’s commercial terms, or a completed subscription.",
+      "text": "Start watching Formed; Start exploring our catalog of videos for free or subscribe to instantly start watching.; Start free trial; Explore content; Log in; Restore purchase.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-abb15f181498fb322269/"
+    },
+    {
+      "id": "shot-ded40b9832dd0a2d14b4",
+      "app_id": "com.minimasoftware.dailybibleinspirations.lite",
+      "organisation_id": "C056",
+      "image": "/assets/app-library/screens/shot-ded40b9832dd0a2d14b4.png",
+      "captured": "2026-10-25",
+      "version": "4.17.2",
+      "screen_name": "Advertising consent before the reader",
+      "caption": "Inspirations displays a personal-data consent dialog for advertising and content, with separate Consent and Manage options buttons.",
+      "screen_type": "Consent dialog",
+      "tags": [
+        "Consent",
+        "Advertising",
+        "Privacy",
+        "First use"
+      ],
+      "components": [
+        "Modal dialog",
+        "Consent button",
+        "Manage options button",
+        "Expandable information",
+        "Partner-list link"
+      ],
+      "tasks": [
+        "Choose privacy settings"
+      ],
+      "states": [
+        "Consent requested"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "The displayed text names 210 partners and possible precise geolocation use on the capture date. Those are statements in the dialog, not a network audit or proof of actual processing. The log records that consent was not granted.",
+      "text": "Inspirations asks for your consent to use your personal data; Personalised advertising and content; Store and/or access information on a device; Learn more; 210 partners; List of partners; Consent; Manage options.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-ded40b9832dd0a2d14b4/"
+    },
+    {
+      "id": "shot-f73ea4cb66af36550007",
+      "app_id": "com.aimermedia.LiveLent",
+      "organisation_id": "C025",
+      "image": "/assets/app-library/screens/shot-f73ea4cb66af36550007.png",
+      "captured": "2026-10-25",
+      "version": "17.7.10",
+      "screen_name": "A separate reflection step",
+      "caption": "Everyday Faith places its editorial reflection after the attributed Scripture reading in the “Beard oil” devotion.",
+      "screen_type": "Devotional reader",
+      "tags": [
+        "Scripture",
+        "Daily devotion",
+        "Attribution",
+        "Step sequence"
+      ],
+      "components": [
+        "Content image",
+        "Favourite button",
+        "Share button",
+        "Audio control",
+        "Previous/next controls"
+      ],
+      "tasks": [
+        "Follow a devotion",
+        "Read Scripture"
+      ],
+      "states": [
+        "Reflection step"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "reading-plans",
+        "prayer"
+      ],
+      "context": "One of four individually reviewed stages in the Everyday Faith “Beard oil” devotion: Reading, Reflection, Response and Prayer. This is app-authored content, not a personal entry. No audio played or response submitted; the final completion checkmark was not pressed.",
+      "text": "Together; 24 October; Beard oil; Reflection; listen.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-f73ea4cb66af36550007/"
+    },
+    {
+      "id": "shot-e5689f437a28371c6600",
+      "app_id": "com.aimermedia.LiveLent",
+      "organisation_id": "C025",
+      "image": "/assets/app-library/screens/shot-e5689f437a28371c6600.png",
+      "captured": "2026-10-25",
+      "version": "17.7.10",
+      "screen_name": "A response prompt without a submitted answer",
+      "caption": "Everyday Faith’s Response step asks the reader to reflect on unity before moving to prayer.",
+      "screen_type": "Devotional reader",
+      "tags": [
+        "Scripture",
+        "Daily devotion",
+        "Attribution",
+        "Step sequence"
+      ],
+      "components": [
+        "Content image",
+        "Favourite button",
+        "Share button",
+        "Audio control",
+        "Previous/next controls"
+      ],
+      "tasks": [
+        "Follow a devotion",
+        "Read Scripture"
+      ],
+      "states": [
+        "Response step"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "reading-plans",
+        "prayer"
+      ],
+      "context": "One of four individually reviewed stages in the Everyday Faith “Beard oil” devotion: Reading, Reflection, Response and Prayer. This is app-authored content, not a personal entry. No audio played or response submitted; the final completion checkmark was not pressed.",
+      "text": "Together; 24 October; Beard oil; Response; Where might you have begun to take unity for granted?; listen.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-e5689f437a28371c6600/"
+    },
+    {
+      "id": "shot-814fe19f968018138057",
+      "app_id": "com.aimermedia.LiveLent",
+      "organisation_id": "C025",
+      "image": "/assets/app-library/screens/shot-814fe19f968018138057.png",
+      "captured": "2026-10-25",
+      "version": "17.7.10",
+      "screen_name": "Prayer with an explicit completion control",
+      "caption": "Everyday Faith’s Prayer step provides an editorial communal prayer and a checkmark control at the end of the devotion.",
+      "screen_type": "Devotional reader",
+      "tags": [
+        "Scripture",
+        "Daily devotion",
+        "Attribution",
+        "Step sequence"
+      ],
+      "components": [
+        "Content image",
+        "Favourite button",
+        "Share button",
+        "Audio control",
+        "Previous/next controls"
+      ],
+      "tasks": [
+        "Follow a devotion",
+        "Read Scripture"
+      ],
+      "states": [
+        "Prayer step",
+        "Completion available"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "reading-plans",
+        "prayer"
+      ],
+      "context": "One of four individually reviewed stages in the Everyday Faith “Beard oil” devotion: Reading, Reflection, Response and Prayer. This is app-authored content, not a personal entry. No audio played or response submitted; the final completion checkmark was not pressed.",
+      "text": "Together; 24 October; Beard oil; Prayer; Lord God, we thank you that unity is not cheap nor boring.; listen.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-814fe19f968018138057/"
+    },
+    {
+      "id": "shot-51b77c41675a784cf3a2",
+      "app_id": "com.sourceviewbible.app",
+      "organisation_id": "C081",
+      "image": "/assets/app-library/screens/shot-51b77c41675a784cf3a2.png",
+      "captured": "2026-10-25",
+      "version": "1.3.1",
+      "screen_name": "Speaker colours within the passage",
+      "caption": "SourceView displays spoken lines in red and green within the paragraph text of Mark 4.",
+      "screen_type": "Bible reader",
+      "tags": [
+        "Speaker colours",
+        "Verse numbers",
+        "Reading layout"
+      ],
+      "components": [
+        "Navigation bar",
+        "Icon button",
+        "Inline text styling"
+      ],
+      "tasks": [
+        "Read Scripture"
+      ],
+      "states": [
+        "Default"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "numbers-headings-and-notes",
+        "whose-theology"
+      ],
+      "context": "The publisher describes source-role colour coding. These displayed colours are not personal highlights. This frame does not establish a comprehension benefit or verify every speaker attribution.",
+      "text": "Mark; 35; 36; 37; 38; 39; 40.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-51b77c41675a784cf3a2/"
+    },
+    {
+      "id": "shot-38053d339dbe24aa7b00",
+      "app_id": "de.nacamar.BibelTV",
+      "organisation_id": "C010",
+      "image": "/assets/app-library/screens/shot-38053d339dbe24aa7b00.png",
+      "captured": "2026-10-25",
+      "version": "5.17.0",
+      "screen_name": "Verse-linked videos in a separate reading mode",
+      "caption": "Bibel TV shows circular video thumbnails beside verses in its “Videos zum Text” mode.",
+      "screen_type": "Bible reader",
+      "tags": [
+        "Study helps",
+        "Video",
+        "Verse numbers",
+        "Reading modes"
+      ],
+      "components": [
+        "Tabs",
+        "Video thumbnail",
+        "Icon button",
+        "Bottom navigation",
+        "Chapter navigation"
+      ],
+      "tasks": [
+        "Read Scripture",
+        "Explore study material"
+      ],
+      "states": [
+        "Selected"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "numbers-headings-and-notes",
+        "study-helps"
+      ],
+      "context": "Proverbs 16 is open in the Gute Nachricht Bibel reader. The separate text/marking mode is visible as an alternative tab. No thumbnail was opened and no video playback or content was verified.",
+      "text": "lesen & markieren; Videos zum Text; GNB; Das Menschenherz macht Pläne; Sprüche (Sprichwörter) 16; Startseite; Mediathek; Bibel; Lesepläne; Suche.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-38053d339dbe24aa7b00/"
+    },
+    {
+      "id": "shot-c00cc253ea49dda26e9d",
+      "app_id": "com.22media.JPMobile",
+      "organisation_id": "C001",
+      "image": "/assets/app-library/screens/shot-c00cc253ea49dda26e9d.png",
+      "captured": "2026-10-25",
+      "version": "5.4.10",
+      "screen_name": "A locked study-video card inside the reader",
+      "caption": "Gospel Partner places a verse-linked study-video card with a lock icon between the verses of Genesis 1.",
+      "screen_type": "Bible reader",
+      "tags": [
+        "Study helps",
+        "Video",
+        "Subscription indicator",
+        "Verse numbers"
+      ],
+      "components": [
+        "Video card",
+        "Carousel",
+        "Lock icon",
+        "Chapter navigation",
+        "Icon button"
+      ],
+      "tasks": [
+        "Read Scripture",
+        "Explore study material"
+      ],
+      "states": [
+        "Locked content visible"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "numbers-headings-and-notes",
+        "study-helps"
+      ],
+      "context": "The NKJV reader is open. The visible study card identifies Genesis 1:1 and a two-minute video. Playback and the subscription unlock were not tested; a lock icon alone does not establish the full access rules.",
+      "text": "Genesis; NKJV; The History of Creation; Genesis 1:1; Video · 2 Mins.",
+      "checked": "2026-10-25",
+      "url": "/screens/shot-c00cc253ea49dda26e9d/"
     }
   ],
   "flows": [

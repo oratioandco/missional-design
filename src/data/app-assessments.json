@@ -26,6 +26,15 @@
             },
             {
               "url": "/screens/shot-51491f559e29c5e78109/"
+            },
+            {
+              "url": "/screens/shot-e20bd7a778ea711fbaea/"
+            },
+            {
+              "url": "/screens/shot-1916611e53733c0dab72/"
+            },
+            {
+              "url": "/screens/shot-78d64e25944e0adb1553/"
             }
           ]
         },
@@ -37,7 +46,7 @@
           "pattern_slugs": [
             "highlights-and-notes"
           ],
-          "implementation": "Blue Letter Bible uses separate note and bookmark icons beside highlighted verses. Blue Letter Bible groups study tools, annotation actions and highlight styles in the verse menu. Blue Letter Bible asks for start and end verses before applying a highlight.",
+          "implementation": "Blue Letter Bible uses separate note and bookmark icons beside highlighted verses. Blue Letter Bible groups study tools, annotation actions and highlight styles in the verse menu. Blue Letter Bible asks for start and end verses before applying a highlight. Blue Letter Bible lists Mark 4:35 and Mark 4:36 as separate entries under Highlight 2. Blue Letter Bible shows seven named highlight categories and separate single- and double-underline options; Highlight 2 has a count of two. Blue Letter Bible exposes an editable highlight label, colour presets, RGB sliders and a hexadecimal colour field.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
@@ -48,6 +57,15 @@
             },
             {
               "url": "/screens/shot-51491f559e29c5e78109/"
+            },
+            {
+              "url": "/screens/shot-e20bd7a778ea711fbaea/"
+            },
+            {
+              "url": "/screens/shot-1916611e53733c0dab72/"
+            },
+            {
+              "url": "/screens/shot-78d64e25944e0adb1553/"
             }
           ]
         }
@@ -97,6 +115,123 @@
         "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
         "source_urls": [
           "https://play.google.com/store/apps/details?id=org.blueletterbible.blb&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "de.nacamar.BibelTV",
+      "checked": "2026-10-25",
+      "ingredients": [
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "finding-a-passage",
+          "label": "Finding a passage",
+          "pattern_slugs": [
+            "finding-a-passage"
+          ],
+          "implementation": "Bibel TV displays Mark 4:35–41 in bold after an exact passage lookup, distinct from the surrounding regular-weight text.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-3066e3eb1502590dd932/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "highlights-and-notes",
+          "label": "Highlights and notes",
+          "pattern_slugs": [
+            "highlights-and-notes"
+          ],
+          "implementation": "Bibel TV displays Mark 4:35–41 in bold after an exact passage lookup, distinct from the surrounding regular-weight text.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-3066e3eb1502590dd932/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "numbers-headings-and-notes",
+          "label": "Numbers, headings and notes",
+          "pattern_slugs": [
+            "numbers-headings-and-notes"
+          ],
+          "implementation": "Bibel TV shows circular video thumbnails beside verses in its “Videos zum Text” mode.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-38053d339dbe24aa7b00/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "study-helps",
+          "label": "Study helps",
+          "pattern_slugs": [
+            "study-helps"
+          ],
+          "implementation": "Bibel TV shows circular video thumbnails beside verses in its “Videos zum Text” mode.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-38053d339dbe24aa7b00/"
+            }
+          ]
+        }
+      ],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 1,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "oldest": "2016-08-03 08:20:47",
+          "newest": "2026-08-25 15:28:03",
+          "url": "https://play.google.com/store/apps/details?id=de.bibeltv.mobile.android.bibeltv_mobile&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 28,
+          "histogram": {
+            "1": 2,
+            "2": 1,
+            "3": 2,
+            "4": 1,
+            "5": 22
+          },
+          "oldest": "2025-10-27 08:25:08",
+          "newest": "2026-10-20 12:13:53",
+          "url": "https://play.google.com/store/apps/details?id=de.bibeltv.mobile.android.bibeltv_mobile&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 0,
+        "oldest": null,
+        "newest": null,
+        "url": "https://apps.apple.com/us/app/bibel-tv-app/id928955864?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Selected historical accounts value films but mention playback/language fit. Language mismatch is not evidence of a broken English-language promise.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=de.bibeltv.mobile.android.bibeltv_mobile&hl=en&gl=us"
         ]
       }
     },
@@ -498,6 +633,75 @@
       }
     },
     {
+      "app_id": "com.bepresentapp.BibleScroll",
+      "checked": "2026-10-25",
+      "ingredients": [
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "first-use",
+          "label": "First use",
+          "pattern_slugs": [
+            "first-use"
+          ],
+          "implementation": "BibleScroll’s entry screen presents Christian-focus positioning and a testimonial above Apple and email account options.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-4fe639e5cda508388d68/"
+            }
+          ]
+        }
+      ],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 17,
+          "histogram": {
+            "1": 5,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 12
+          },
+          "oldest": "2026-09-26 20:22:52",
+          "newest": "2026-10-24 09:18:29",
+          "url": "https://play.google.com/store/apps/details?id=com.bepresent.biblescroll&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": null,
+          "newest": null,
+          "url": "https://play.google.com/store/apps/details?id=com.bepresent.biblescroll&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2026-06-13",
+        "newest": "2026-10-22",
+        "url": "https://apps.apple.com/us/app/biblescroll-christian-focus/id6755406222?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "User-chosen distraction blocking is valued; a selected account reports an onboarding/authentication dead end.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.bepresent.biblescroll"
+        ]
+      }
+    },
+    {
       "app_id": "com.ministrycentered.ChurchCenter",
       "checked": "2026-10-25",
       "ingredients": [],
@@ -567,6 +771,28 @@
           "evidence": [
             {
               "url": "/screens/shot-9b3430b86f4366e0d48b/"
+            },
+            {
+              "url": "/screens/shot-d0b0becf7e3a137046ad/"
+            },
+            {
+              "url": "/screens/shot-2181ad9f29a93a95b87e/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "ai-memory",
+          "label": "AI memory",
+          "pattern_slugs": [
+            "ai-memory"
+          ],
+          "implementation": "Creed’s scripted lamb onboarding links confiding through voice or text with its promise to guide the person toward God.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-d0b0becf7e3a137046ad/"
             }
           ]
         },
@@ -578,11 +804,65 @@
           "pattern_slugs": [
             "ai-persona"
           ],
-          "implementation": "Creed’s sheep companion claims Christian identity in scripted onboarding.",
+          "implementation": "Creed’s sheep companion claims Christian identity in scripted onboarding. Creed’s scripted lamb onboarding links confiding through voice or text with its promise to guide the person toward God. Creed’s scripted subscription warning says payment keeps the lights on and “also helps feed” the lamb character.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
               "url": "/screens/shot-9b3430b86f4366e0d48b/"
+            },
+            {
+              "url": "/screens/shot-d0b0becf7e3a137046ad/"
+            },
+            {
+              "url": "/screens/shot-2181ad9f29a93a95b87e/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "first-use",
+          "label": "First use",
+          "pattern_slugs": [
+            "first-use"
+          ],
+          "implementation": "Creed’s scripted subscription warning says payment keeps the lights on and “also helps feed” the lamb character.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-2181ad9f29a93a95b87e/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "giving",
+          "label": "Giving and offerings",
+          "pattern_slugs": [
+            "giving"
+          ],
+          "implementation": "Creed’s scripted subscription warning says payment keeps the lights on and “also helps feed” the lamb character.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-2181ad9f29a93a95b87e/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "meeting-the-person",
+          "label": "Meeting the person where they are",
+          "pattern_slugs": [
+            "meeting-the-person"
+          ],
+          "implementation": "Creed’s scripted lamb onboarding links confiding through voice or text with its promise to guide the person toward God.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-d0b0becf7e3a137046ad/"
             }
           ]
         },
@@ -664,6 +944,91 @@
         "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
         "source_urls": [
           "https://play.google.com/store/apps/details?id=com.damirakyan.creed&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "com.surgeworks.divineofficeios",
+      "checked": "2026-10-25",
+      "ingredients": [
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "devotional-audio",
+          "label": "Devotional audio",
+          "pattern_slugs": [
+            "devotional-audio"
+          ],
+          "implementation": "Divine Office’s Night Prayer reader shows red rubrics and page references for the Liturgy of the Hours and Christian Prayer beside paused audio controls.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-e89d803012e2702418ba/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "prayer",
+          "label": "Prayer",
+          "pattern_slugs": [
+            "prayer"
+          ],
+          "implementation": "Divine Office’s Night Prayer reader shows red rubrics and page references for the Liturgy of the Hours and Christian Prayer beside paused audio controls.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-e89d803012e2702418ba/"
+            }
+          ]
+        }
+      ],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 24,
+          "histogram": {
+            "1": 0,
+            "2": 1,
+            "3": 1,
+            "4": 3,
+            "5": 19
+          },
+          "oldest": "2025-12-05 02:22:10",
+          "newest": "2026-10-17 03:17:05",
+          "url": "https://play.google.com/store/apps/details?id=com.surgeworks.divineoffice&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": "2014-08-27 23:48:35",
+          "newest": "2016-01-26 21:56:21",
+          "url": "https://play.google.com/store/apps/details?id=com.surgeworks.divineoffice&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2020-08-11",
+        "newest": "2026-06-19",
+        "url": "https://apps.apple.com/us/app/divine-office/id914635909?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Portable prayer, book references and reading controls are valued; a selected request asks for more granular notification categories.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.surgeworks.divineoffice"
         ]
       }
     },
@@ -923,6 +1288,18 @@
           "evidence": [
             {
               "url": "/screens/shot-a327728e3681d683e930/"
+            },
+            {
+              "url": "/screens/shot-3eff4b762011c39b5575/"
+            },
+            {
+              "url": "/screens/shot-f73ea4cb66af36550007/"
+            },
+            {
+              "url": "/screens/shot-e5689f437a28371c6600/"
+            },
+            {
+              "url": "/screens/shot-814fe19f968018138057/"
             }
           ]
         },
@@ -934,11 +1311,23 @@
           "pattern_slugs": [
             "prayer"
           ],
-          "implementation": "Everyday Faith explains its Sunday pause by pointing readers towards local worship and fellowship.",
+          "implementation": "Everyday Faith explains its Sunday pause by pointing readers towards local worship and fellowship. Everyday Faith opens the “Beard oil” devotion with a reading attributed to Psalm 133:1–3 in the Common Worship Psalter. Everyday Faith places its editorial reflection after the attributed Scripture reading in the “Beard oil” devotion. Everyday Faith’s Response step asks the reader to reflect on unity before moving to prayer. Everyday Faith’s Prayer step provides an editorial communal prayer and a checkmark control at the end of the devotion.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
               "url": "/screens/shot-a327728e3681d683e930/"
+            },
+            {
+              "url": "/screens/shot-3eff4b762011c39b5575/"
+            },
+            {
+              "url": "/screens/shot-f73ea4cb66af36550007/"
+            },
+            {
+              "url": "/screens/shot-e5689f437a28371c6600/"
+            },
+            {
+              "url": "/screens/shot-814fe19f968018138057/"
             }
           ]
         },
@@ -950,11 +1339,23 @@
           "pattern_slugs": [
             "reading-plans"
           ],
-          "implementation": "Everyday Faith explains its Sunday pause by pointing readers towards local worship and fellowship.",
+          "implementation": "Everyday Faith explains its Sunday pause by pointing readers towards local worship and fellowship. Everyday Faith opens the “Beard oil” devotion with a reading attributed to Psalm 133:1–3 in the Common Worship Psalter. Everyday Faith places its editorial reflection after the attributed Scripture reading in the “Beard oil” devotion. Everyday Faith’s Response step asks the reader to reflect on unity before moving to prayer. Everyday Faith’s Prayer step provides an editorial communal prayer and a checkmark control at the end of the devotion.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
               "url": "/screens/shot-a327728e3681d683e930/"
+            },
+            {
+              "url": "/screens/shot-3eff4b762011c39b5575/"
+            },
+            {
+              "url": "/screens/shot-f73ea4cb66af36550007/"
+            },
+            {
+              "url": "/screens/shot-e5689f437a28371c6600/"
+            },
+            {
+              "url": "/screens/shot-814fe19f968018138057/"
             }
           ]
         }
@@ -1011,6 +1412,75 @@
         "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
         "source_urls": [
           "https://play.google.com/store/apps/details?id=com.livelent"
+        ]
+      }
+    },
+    {
+      "app_id": "com.augustineinstitute.formed",
+      "checked": "2026-10-25",
+      "ingredients": [
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "first-use",
+          "label": "First use",
+          "pattern_slugs": [
+            "first-use"
+          ],
+          "implementation": "Formed separates “Explore content” from “Start free trial” on its entry screen.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-abb15f181498fb322269/"
+            }
+          ]
+        }
+      ],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 50,
+          "histogram": {
+            "1": 4,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 45
+          },
+          "oldest": "2026-07-21 00:51:17",
+          "newest": "2026-10-22 20:29:19",
+          "url": "https://play.google.com/store/apps/details?id=com.ai.formed.formed&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": "2021-11-25 18:56:39",
+          "newest": "2024-08-04 19:30:47",
+          "url": "https://play.google.com/store/apps/details?id=com.ai.formed.formed&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2019-09-16",
+        "newest": "2025-11-30",
+        "url": "https://apps.apple.com/us/app/formed/id1212963367?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Faith videos are valued; a selected account reports an activation-code problem.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.ai.formed.formed"
         ]
       }
     },
@@ -1115,6 +1585,91 @@
         "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
         "source_urls": [
           "https://play.google.com/store/apps/details?id=com.glorify.app&hl=en&gl=us"
+        ]
+      }
+    },
+    {
+      "app_id": "com.22media.JPMobile",
+      "checked": "2026-10-25",
+      "ingredients": [
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "numbers-headings-and-notes",
+          "label": "Numbers, headings and notes",
+          "pattern_slugs": [
+            "numbers-headings-and-notes"
+          ],
+          "implementation": "Gospel Partner places a verse-linked study-video card with a lock icon between the verses of Genesis 1.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-c00cc253ea49dda26e9d/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "study-helps",
+          "label": "Study helps",
+          "pattern_slugs": [
+            "study-helps"
+          ],
+          "implementation": "Gospel Partner places a verse-linked study-video card with a lock icon between the verses of Genesis 1.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-c00cc253ea49dda26e9d/"
+            }
+          ]
+        }
+      ],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 50,
+          "histogram": {
+            "1": 2,
+            "2": 1,
+            "3": 0,
+            "4": 2,
+            "5": 45
+          },
+          "oldest": "2026-05-10 10:46:23",
+          "newest": "2026-10-18 19:21:06",
+          "url": "https://play.google.com/store/apps/details?id=com.josephprince&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 2,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 1
+          },
+          "oldest": "2016-10-09 23:37:16",
+          "newest": "2026-08-28 00:03:22",
+          "url": "https://play.google.com/store/apps/details?id=com.josephprince&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2019-06-13",
+        "newest": "2026-10-18",
+        "url": "https://apps.apple.com/us/app/gospel-partner-daily-bible/id931396143?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Devotional/audio additions are appreciated; a selected critical account alleges an unexpected renewal/plan choice. Billing consent is not independently verified.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.josephprince"
         ]
       }
     },
@@ -1404,6 +1959,91 @@
       }
     },
     {
+      "app_id": "com.minimasoftware.dailybibleinspirations.lite",
+      "checked": "2026-10-25",
+      "ingredients": [
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "first-use",
+          "label": "First use",
+          "pattern_slugs": [
+            "first-use"
+          ],
+          "implementation": "Inspirations displays a personal-data consent dialog for advertising and content, with separate Consent and Manage options buttons.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-ded40b9832dd0a2d14b4/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "progress-and-streaks",
+          "label": "Progress and streaks",
+          "pattern_slugs": [
+            "progress-and-streaks"
+          ],
+          "implementation": "Bible Inspirations displays “You did it!” and says the reader devoted time to Jesus, beside an invitation to set a daily reminder.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-e204ebe9038f9deb57f4/"
+            }
+          ]
+        }
+      ],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": "2021-07-20 17:55:20",
+          "newest": "2026-01-12 15:58:56",
+          "url": "https://play.google.com/store/apps/details?id=com.minimasoftware.dailybibleinspirations&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 0,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "oldest": "2015-01-05 12:07:51",
+          "newest": "2020-08-07 09:55:25",
+          "url": "https://play.google.com/store/apps/details?id=com.minimasoftware.dailybibleinspirations&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2018-03-12",
+        "newest": "2025-09-22",
+        "url": "https://apps.apple.com/us/app/bible-inspirations-daily/id494789758?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Older selected accounts discuss discovery of a listen control, updates and advertising. Do not treat them as a current verified audit.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.minimasoftware.dailybibleinspirations&hl=en&gl=us"
+        ]
+      }
+    },
+    {
       "app_id": "de.dbg.konapp",
       "checked": "2026-10-25",
       "ingredients": [],
@@ -1508,9 +2148,95 @@
       }
     },
     {
+      "app_id": "com.yourcompany.TecartaBible",
+      "checked": "2026-10-25",
+      "ingredients": [
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "highlights-and-notes",
+          "label": "Highlights and notes",
+          "pattern_slugs": [
+            "highlights-and-notes"
+          ],
+          "implementation": "Life Bible shows blue text with a note icon at Mark 4:35 and yellow marked text at verse 41 in a dark reader.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-00d195419738cc5fedfb/"
+            }
+          ]
+        }
+      ],
+      "dimensions": {},
+      "play": [
+        {
+          "language": "en",
+          "country": "us",
+          "n": 50,
+          "histogram": {
+            "1": 4,
+            "2": 2,
+            "3": 1,
+            "4": 4,
+            "5": 39
+          },
+          "oldest": "2026-10-03 06:30:41",
+          "newest": "2026-10-24 08:09:09",
+          "url": "https://play.google.com/store/apps/details?id=com.tecarta.TecartaBible&hl=en&gl=us"
+        },
+        {
+          "language": "de",
+          "country": "de",
+          "n": 2,
+          "histogram": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 2
+          },
+          "oldest": "2015-10-22 19:09:09",
+          "newest": "2026-08-23 08:26:40",
+          "url": "https://play.google.com/store/apps/details?id=com.tecarta.TecartaBible&hl=de&gl=de"
+        }
+      ],
+      "apple": {
+        "n": 10,
+        "oldest": "2019-09-02",
+        "newest": "2026-07-25",
+        "url": "https://apps.apple.com/us/app/life-bible-app/id325955298?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "A selected account describes adaptation after an earlier redesign; another dislikes the new format. Perceived regressions and recovery are distinct.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://play.google.com/store/apps/details?id=com.tecarta.TecartaBible&hl=en&gl=us"
+        ]
+      }
+    },
+    {
       "app_id": "com.logos.ilogos",
       "checked": "2026-10-25",
-      "ingredients": [],
+      "ingredients": [
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "highlights-and-notes",
+          "label": "Highlights and notes",
+          "pattern_slugs": [
+            "highlights-and-notes"
+          ],
+          "implementation": "Logos shows Mark 4 in a dark reader after the captured session turned Show Notes/Highlights off.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-6bcc7e27c6068085ab75/"
+            }
+          ]
+        }
+      ],
       "dimensions": {},
       "play": [
         {
@@ -1583,7 +2309,24 @@
     {
       "app_id": "com.olivetree.BR-Free",
       "checked": "2026-10-25",
-      "ingredients": [],
+      "ingredients": [
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "highlights-and-notes",
+          "label": "Highlights and notes",
+          "pattern_slugs": [
+            "highlights-and-notes"
+          ],
+          "implementation": "Olive Tree lists three Mark 4:35 highlight records: two anchored to “other” and one to “other side.”",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-e8f0c0c51f35ceab992f/"
+            }
+          ]
+        }
+      ],
       "dimensions": {},
       "play": [
         {
@@ -2044,6 +2787,60 @@
       }
     },
     {
+      "app_id": "com.sourceviewbible.app",
+      "checked": "2026-10-25",
+      "ingredients": [
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "numbers-headings-and-notes",
+          "label": "Numbers, headings and notes",
+          "pattern_slugs": [
+            "numbers-headings-and-notes"
+          ],
+          "implementation": "SourceView displays spoken lines in red and green within the paragraph text of Mark 4.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-51b77c41675a784cf3a2/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "whose-theology",
+          "label": "Whose theology",
+          "pattern_slugs": [
+            "whose-theology"
+          ],
+          "implementation": "SourceView displays spoken lines in red and green within the paragraph text of Mark 4.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-51b77c41675a784cf3a2/"
+            }
+          ]
+        }
+      ],
+      "dimensions": {},
+      "play": [],
+      "apple": {
+        "n": 10,
+        "oldest": "2018-02-23",
+        "newest": "2025-10-16",
+        "url": "https://apps.apple.com/us/app/sourceview-bible/id1114617271?see-all=reviews"
+      },
+      "review_note": {
+        "summary": "Historical feedback values the speaker-oriented presentation but describes purchase/discovery and device-support concerns; not a current technical audit.",
+        "examples_reviewed": 2,
+        "scope": "Up to two selected rating-polarity examples, read in bounded excerpts; illustrative rather than exhaustive thematic coding. Dates may be historical.",
+        "source_urls": [
+          "https://apps.apple.com/us/app/sourceview-bible/id1114617271?see-all=reviews"
+        ]
+      }
+    },
+    {
       "app_id": "app.startblock.ios",
       "checked": "2026-10-25",
       "ingredients": [],
@@ -2348,7 +3145,43 @@
     {
       "app_id": "qa.tejas.dewfall",
       "checked": "2026-10-25",
-      "ingredients": [],
+      "ingredients": [
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "how-much-text",
+          "label": "How much text at once",
+          "pattern_slugs": [
+            "how-much-text"
+          ],
+          "implementation": "Dewfall shows filled checkboxes beside Mark 4:35–37 while adjacent verses remain unchecked.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-361a785f3881c5317f48/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "progress-and-streaks",
+          "label": "Progress and streaks",
+          "pattern_slugs": [
+            "progress-and-streaks"
+          ],
+          "implementation": "Dewfall shows filled checkboxes beside Mark 4:35–37 while adjacent verses remain unchecked. Dewfall’s My Journey screen displays a 66-book map, verse count, books started and finished, and streak counters.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-361a785f3881c5317f48/"
+            },
+            {
+              "url": "/screens/shot-89c9202e1be884da7a16/"
+            }
+          ]
+        }
+      ],
       "dimensions": {},
       "play": [],
       "apple": {
