@@ -2,10 +2,46 @@
 import AppAssessment from '../../components/library/AppAssessment.astro';
 import AppIcon from '../../components/library/AppIcon.astro';
 import AppStoreGallery from '../../components/library/AppStoreGallery.astro';
+import AppCaptureGallery from '../../components/library/AppCaptureGallery.astro';
+import media from '../../data/app-store-media.json';
 import Layout from '../../layouts/LibraryLayout.astro';
-import ScreenGrid from '../../components/library/ScreenGrid.astro';
 import {apps,screensFor,organisationFor,flows,dateLabel,articleTitle} from '../../lib/app-library';
 export function getStaticPaths(){return apps.map(app=>({params:{slug:app.slug},props:{app}}));}
 const {app:a}=Astro.props;const org=organisationFor(a.organisation_id);const shots=screensFor(a.id);const sequences=flows.filter(f=>f.app_id===a.id);const articles=[...new Set(shots.flatMap(s=>s.article_slugs))];
+const publisher=media[a.id];const preview=publisher?.screenshots.filter(s=>s.device!=='ipad').slice(0,3);const images=preview?.length?preview:publisher?.screenshots.slice(0,3)||[];
+const landscape=images.length>0&&images[0].width>images[0].height;
 ---
-<Layout title={a.name} description={a.description} active="apps" indexable><span hidden data-pagefind-meta="record_id">{'app:'+a.id}</span><span hidden data-pagefind-filter="kind">app</span><header class="lib-intro"><a class="lib-back" href="/apps/">All apps</a><div class="lib-app-heading"><AppIcon app={a} size={76}/><h1 data-pagefind-meta="title">{a.name}</h1></div><p data-pagefind-meta="description">{a.description}</p><div class="lib-links"><a href={org.url}>Organisation: {org.name}</a>{a.website&&<a href={a.website} rel="noreferrer" target="_blank">Official website</a>}<a href={a.app_store_url} rel="noreferrer" target="_blank">App Store</a></div></header><nav class="lib-links" aria-label="On this app profile"><a href="#ingredients">Ingredients and design</a><a href="#user-response">User response</a><a href="#research-captures">Research captures</a></nav><div class="lib-facts-columns"><section><h2>Who it serves</h2><p>{a.target_audience.text}</p><p class="lib-note">An editorial summary of publisher positioning. <a href={a.target_audience.source_url} rel="noreferrer" target="_blank">Source</a></p></section><section><h2>App facts</h2><dl class="lib-dl"><div><dt>Platform</dt><dd>{a.platform}</dd></div><div><dt>Store category</dt><dd>{a.category}</dd></div><div><dt>Store version at lookup</dt><dd>{a.version}</dd></div><div><dt>First store release</dt><dd>{dateLabel(a.first_store_release)}</dd></div><div><dt>Store ratings</dt><dd>{a.store_rating.count.toLocaleString('en-GB')} in {a.store_rating.country.toUpperCase()} at lookup</dd></div></dl><p class="lib-note">Ratings are not downloads or active users. App Store facts checked {dateLabel(a.checked)}.</p></section></div><section class="lib-section"><h2>Revenue and reach</h2><p>App-specific revenue and active user numbers have not been verified in the sources reviewed. <a href={org.url+'#figures'}>See the organisation profile</a> for separately scoped figures where available.</p></section><AppAssessment app={a}/><AppStoreGallery app={a}/><section class="lib-section" id="research-captures"><div class="lib-section-heading"><h2>Research captures</h2><span>{shots.length} captured screen{shots.length===1?'':'s'}</span></div>{shots.length?<ScreenGrid screens={shots}/>:<p class="lib-muted">No research captures for this app are published yet. Explore the publisher’s App Store images above.</p>}<p class="lib-note">Capture dates and versions belong to individual screens. These examples do not establish complete coverage of the app.</p></section>{sequences.length>0&&<section class="lib-section"><h2>Captured sequences</h2><ul class="lib-link-list">{sequences.map(f=><li><a href={f.url}>{f.title}</a><p>{f.context}</p></li>)}</ul></section>}{articles.length>0&&<section class="lib-section"><h2>Explore the design questions</h2><ul class="lib-link-list">{articles.map(s=><li><a href={'/patterns/'+s+'/'}>{articleTitle(s)}</a></li>)}</ul></section>}</Layout>
+<Layout title={a.name} description={a.description} active="apps" indexable>
+ <article class="lib-app-profile">
+ <span hidden data-pagefind-meta="record_id">{'app:'+a.id}</span><span hidden data-pagefind-filter="kind">app</span>
+ <header class:list={["lib-app-hero",{"lib-app-hero-no-preview":images.length===0}]}>
+  <div class="lib-intro">
+   <a class="lib-back" href="/apps/">All apps</a>
+   <div class="lib-app-heading"><AppIcon app={a} size={88} priority/><h1 data-pagefind-meta="title">{a.name}</h1></div>
+   <p data-pagefind-meta="description">{a.description}</p>
+   <div class="lib-links"><a href={org.url}>By {org.name}</a>{a.website&&<a href={a.website} rel="noreferrer" target="_blank">Official website</a>}<a href={a.app_store_url} rel="noreferrer" target="_blank">App Store</a></div>
+  </div>
+  {images.length>0&&<figure class:list={["lib-app-preview",{"lib-app-preview-landscape":landscape}]}><div class="lib-app-preview-images">{images.map((s,i)=><a href={s.image} target="_blank" rel="noreferrer" aria-label={'Open '+a.name+' publisher image '+(i+1)}><img src={s.image} width={s.width} height={s.height} alt={a.name+' publisher App Store image '+(i+1)} loading={i<2?'eager':'lazy'} decoding="async"/></a>)}</div><figcaption>Publisher preview · App Store promotional images.<br/><a href="#app-store">Explore all {publisher.screenshots.length} publisher images</a></figcaption></figure>}
+ </header>
+ <nav class="lib-profile-nav" aria-label="On this app profile"><a href="#ingredients">Ingredients</a><a href="#assessment">Assessment</a><a href="#research-captures">Screenshots</a><a href="#app-facts">App facts</a><a href="#user-response">User response</a></nav>
+ <AppAssessment app={a} part="label"/>
+ <AppCaptureGallery app={a} screens={shots}/>
+ {sequences.length>0&&<section class="lib-section"><h2>Captured sequences</h2><ul class="lib-link-list">{sequences.map(f=><li><a href={f.url}>{f.title}</a><p>{f.context}</p></li>)}</ul></section>}
+ <AppStoreGallery app={a} collapsible/>
+ <details class="lib-profile-facts" id="app-facts"><summary>App facts, audience &amp; organisation</summary><div class="lib-facts-columns"><section><h2>Who it serves</h2><p>{a.target_audience.text}</p><p class="lib-note">An editorial summary of publisher positioning. <a href={a.target_audience.source_url} rel="noreferrer" target="_blank">Source</a></p></section><section><h2>App facts</h2><dl class="lib-dl"><div><dt>Platform</dt><dd>{a.platform}</dd></div><div><dt>Store category</dt><dd>{a.category}</dd></div><div><dt>Store version at lookup</dt><dd>{a.version}</dd></div><div><dt>First store release</dt><dd>{dateLabel(a.first_store_release)}</dd></div><div><dt>Store ratings</dt><dd>{a.store_rating.count.toLocaleString('en-GB')} in {a.store_rating.country.toUpperCase()} at lookup</dd></div></dl><p class="lib-note">Ratings are not downloads or active users. App Store facts checked {dateLabel(a.checked)}.</p></section></div><section><h2>Revenue and reach</h2><p>App-specific revenue and active user numbers have not been verified in the sources reviewed. <a href={org.url+'#figures'}>See the organisation profile</a> for separately scoped figures where available.</p></section></details>
+ <AppAssessment app={a} part="reviews"/>
+ {articles.length>0&&<details class="lib-profile-related"><summary>Explore {articles.length} related design questions</summary><ul class="lib-link-list">{articles.map(s=><li><a href={'/patterns/'+s+'/'}>{articleTitle(s)}</a></li>)}</ul></details>}
+ </article>
+</Layout>
+<script>
+ function revealFragment(){
+  if(!location.hash)return;
+  let target;try{target=document.getElementById(decodeURIComponent(location.hash.slice(1)));}catch{return;}
+  if(!target)return;
+  if(target instanceof HTMLDetailsElement)target.open=true;
+  for(let parent=target.parentElement;parent;parent=parent.parentElement)if(parent instanceof HTMLDetailsElement)parent.open=true;
+ }
+ revealFragment();window.addEventListener('hashchange',revealFragment);
+ // Also open a disclosure when its already-selected fragment is clicked again.
+ document.querySelectorAll('.lib-app-profile a[href^="#"]').forEach(link=>link.addEventListener('click',()=>{const target=document.getElementById(link.getAttribute('href')!.slice(1));if(target instanceof HTMLDetailsElement)target.open=true;}));
+</script>

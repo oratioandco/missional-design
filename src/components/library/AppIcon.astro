@@ -1,6 +1,6 @@
 ---
 import media from '../../data/app-store-media.json';
-const {app,size=56}=Astro.props;
+const {app,size=56,priority=false}=Astro.props;
 const icon=media[app.id]?.icon;
 ---
-{icon&&<img class="lib-app-icon" src={icon.image} alt="" width={size} height={size} loading="lazy" decoding="async"/>}
+{icon&&<img class="lib-app-icon" src={icon.image} alt="" width={size} height={size} loading={priority?"eager":"lazy"} decoding="async"/>}
