@@ -1,4 +1,5 @@
 ---
+import contextData from '../../data/app-profile-context.json';
 import AppContext from '../../components/library/AppContext.astro';
 import AppAssessment from '../../components/library/AppAssessment.astro';
 import AppIcon from '../../components/library/AppIcon.astro';
@@ -22,7 +23,7 @@ const previewShots=[];const previewTypes=new Set();for(const shot of shots){if(!
   <div class="lib-links"><a href={org.url}>By {org.name}</a><a href={a.app_store_url} target="_blank" rel="noreferrer">App Store</a>{!shots.length&&<a href="#app-store">Publisher images</a>}{a.website&&<a href={a.website} target="_blank" rel="noreferrer">Official website</a>}</div>
  </header>
  <div class="lib-profile-filmstrip" aria-label="Research screenshot preview">{previewShots.map(s=><a href={s.url}><img src={s.image} width="1320" height="2868" alt={s.screen_name} loading="eager"/></a>)}{!shots.length&&<p>Research capture pending. <a href="#app-store">View publisher images</a>.</p>}</div></div>
- <nav class="lib-profile-nav" aria-label="On this app profile"><a href="#assessment">Findings &amp; principles</a><a href="#ingredients">Ingredients</a><a href="#research-captures">Screenshots</a><a href="#cost-access">Cost &amp; access</a><a href="#user-response">Reviews &amp; context</a></nav>
+ <nav class="lib-profile-nav" aria-label="On this app profile"><a href="#assessment">Findings &amp; principles</a><a href="#ingredients">Ingredients</a><a href="#research-captures">Screenshots</a><a href="#cost-access">Cost &amp; access</a><a href={contextData.apps.some(x=>x.app_id===a.id)?'#wider-context':'#user-response'}>Reviews &amp; context</a></nav>
  <AppAssessment app={a} part="label"/>
  <AppCaptureGallery app={a} screens={shots}/>
  {sequences.length>0&&<section class="lib-section"><h2>Captured sequences</h2><ul class="lib-link-list">{sequences.map(f=><li><a href={f.url}>{f.title}</a><p>{f.context}</p></li>)}</ul></section>}
