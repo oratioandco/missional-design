@@ -1,0 +1,6 @@
+---
+import data from '../../data/app-profile-context.json';
+import {dateLabel} from '../../lib/app-library';
+const {app}=Astro.props;const context=data.apps.find(a=>a.app_id===app.id);
+---
+{context&&<section class="lib-section lib-profile-context" id="wider-context"><h2>Voices &amp; wider context</h2><div class="lib-context-columns"><section><h3>What people use it for</h3><ul>{context.review_themes.map(t=><li><strong>{t.label}.</strong> {t.summary}</li>)}</ul><p class="lib-note">Thematic reading: {context.review_sample.n}{' '}{context.review_sample.platform} reviews, {context.review_sample.oldest}–{context.review_sample.newest}; {context.review_sample.language_request.toUpperCase()}/{context.review_sample.country_request.toUpperCase()} requested. <a href={context.review_sample.source_url} target="_blank" rel="noreferrer">Review source</a>. Self-selected reports; not a measure of prevalence or impact.</p></section><section><h3>In the news</h3><ul class="lib-news-items">{context.news.map(n=><li><strong><a href={n.url} target="_blank" rel="noreferrer">{n.title}</a></strong><p>{n.summary}</p><p class="lib-note">{n.publisher} · {dateLabel(n.date)}</p></li>)}</ul><p class="lib-note">{context.coverage_note}</p></section></div></section>}

@@ -1,0 +1,24 @@
+<script>
+ document.querySelectorAll<HTMLElement>('[data-profile-selector]').forEach(root=>{
+  const list=root.querySelector<HTMLElement>('[data-selector-list]')!;
+  const links=[...list.querySelectorAll<HTMLAnchorElement>('a')];
+  const panels=links.map(a=>document.getElementById(a.hash.slice(1))!);
+  if(!links.length||panels.some(p=>!p))return;
+  list.setAttribute('role','tablist');list.setAttribute('aria-label',root.dataset.profileSelector!);
+  links.forEach((a,i)=>{a.setAttribute('role','tab');a.setAttribute('aria-controls',panels[i].id);panels[i].setAttribute('role','tabpanel');panels[i].setAttribute('aria-labelledby',a.id);panels[i].tabIndex=0;});
+  function select(index:number,focus=false){links.forEach((a,i)=>{a.setAttribute('aria-selected',String(i===index));a.tabIndex=i===index?0:-1;panels[i].hidden=i!==index;});if(focus)links[index].focus();}
+  function fromHash(){let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}const target=document.getElementById(id);const index=panels.findIndex(p=>p===target||!!target&&p.contains(target));if(index>=0)select(index);}
+  select(0);fromHash();window.addEventListener('hashchange',fromHash);
+  links.forEach((a,i)=>{a.addEventListener('click',event=>{event.preventDefault();select(i);history.replaceState(null,'',a.hash);});a.addEventListener('keydown',event=>{let next=i;if(event.key==='ArrowRight')next=(i+1)%links.length;else if(event.key==='ArrowLeft')next=(i-1+links.length)%links.length;else if(event.key==='Home')next=0;else if(event.key==='End')next=links.length-1;else return;event.preventDefault();select(next,true);});});
+  document.querySelectorAll<HTMLAnchorElement>('a[href^="#"]').forEach(a=>a.addEventListener('click',()=>{const target=document.getElementById(a.hash.slice(1));const i=panels.findIndex(p=>p===target||!!target&&p.contains(target));if(i>=0)select(i);}));
+ });
+ // Selectors change document height. Resolve fragments after every group and fonts settle.
+ function scrollSelectedFragment(){
+  if(!location.hash)return;
+  let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}
+  const target=document.getElementById(id);
+  if(target)requestAnimationFrame(()=>target.scrollIntoView({block:'start'}));
+ }
+ document.fonts.ready.then(scrollSelectedFragment);
+ window.addEventListener('hashchange',scrollSelectedFragment);
+</script>

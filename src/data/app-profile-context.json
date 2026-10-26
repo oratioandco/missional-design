@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "checked": "2026-10-26",
+  "apps": [
+    {
+      "app_id": "app.hallow.Hallow",
+      "review_sample": {
+        "platform": "Google Play",
+        "package": "app.hallow.android",
+        "language_request": "en",
+        "country_request": "us",
+        "n": 50,
+        "collected": "2026-10-25",
+        "oldest": "2026-09-29",
+        "newest": "2026-10-24",
+        "selection": "50 newest returned written reviews; self-selected, not representative. Requested language does not guarantee review language or residency.",
+        "source_url": "https://play.google.com/store/apps/details?id=app.hallow.android&hl=en&gl=us"
+      },
+      "news": [
+        {
+          "title": "Sponsorship and audience trust",
+          "publisher": "Religion News Service",
+          "date": "2026-02-23",
+          "url": "https://religionnews.com/2026/02/23/prayer-app-hallow-faces-backlash-over-lenten-partnership-with-tucker-carlson/",
+          "summary": "RNS reported both criticism and support for Hallow’s Lenten sponsorship of Tucker Carlson’s programme. The report said Hallow had not responded by publication. This is context for audience trust and partner selection, not evidence about the app’s checkout or all users’ views."
+        },
+        {
+          "title": "Religious chatbots in wider coverage",
+          "publisher": "TechCrunch",
+          "date": "2025-09-14",
+          "url": "https://techcrunch.com/2025/09/14/users-turn-to-chatbots-for-spiritual-guidance/",
+          "summary": "Hallow’s popularity appears in wider chatbot coverage; general concerns are not Hallow-specific findings."
+        }
+      ],
+      "coverage_note": "Initial thematic reading of one 50-review Android stream and two selected news items. Not a complete cross-platform, longitudinal or news-sentiment census. Reviews and reporting do not automatically change a design assessment.",
+      "review_themes": [
+        {
+          "label": "Use cases",
+          "summary": "Commuting prayer, a daily routine, learning Catholic practices and returning to faith appear in the sample."
+        },
+        {
+          "label": "Reported benefit",
+          "summary": "Some reviewers describe encouragement, valued content and a stronger prayer habit. These are personal reports, not measured spiritual outcomes."
+        },
+        {
+          "label": "Access and billing friction",
+          "summary": "Reviewers question affordability, finding free content, trial payment requirements and cancellation. Publisher documentation describes a free tier; these reports are prompts to test discoverability and billing, not proof every user must pay."
+        },
+        {
+          "label": "Reliability and continuity",
+          "summary": "Reports include battery drain, playback or cache problems, account access and lost saved content. One reviewer links a lost streak to connectivity while travelling; this warrants checking recovery without establishing coercion."
+        }
+      ]
+    }
+  ]
+}
