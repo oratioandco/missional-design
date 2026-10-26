@@ -1,8 +1,19 @@
 ---
 import data from '../../data/app-assessments.json';
+import {screenFor} from '../../lib/app-library';
+import ProfileSelector from './ProfileSelector.astro';
 const {app}=Astro.props;const a=data.apps.find(x=>x.app_id===app.id);
-const entries=a?.ingredients||[];const features=entries.filter(i=>i.kind==='feature');const ordered=[...entries.filter(i=>i.kind==='pattern'),...features];const preview=ordered.slice(0,3);const rest=ordered.slice(3);
+const entries=a?.ingredients||[];const ordered=[...entries.filter(i=>i.kind==='feature'),...entries.filter(i=>i.kind==='pattern')];
 ---
-<section class="lib-section lib-design-ingredients" id="ingredients"><h2>Design ingredients</h2><p>Features and patterns documented in these captures. Their presence is separate from an ethical assessment.</p>{features.length>0&&<p class="lib-note">Features observed: {features.map((f,n)=><Fragment>{n>0?' · ':''}{f.label}</Fragment>)}</p>}
- {entries.length>0?<><dl class="lib-ingredients">{preview.map(i=><div><dt>{i.kind==='pattern'?<a href={'/patterns/'+i.pattern_slug+'/'}>{i.label}</a>:i.label}<small>{i.kind==='pattern'?'Pattern example':'Feature'} · observed in a capture</small></dt><dd><p>{i.implementation}</p><div class="lib-evidence-links">{i.evidence.slice(0,2).map((e,n)=><a href={e.url}>Inspect capture{i.evidence.length>1?' '+(n+1):''}</a>)}{i.evidence.length>2&&<a href="#research-captures">Browse the app’s capture set</a>}</div></dd></div>)}</dl>{rest.length>0?<details class="lib-ingredient-evidence" id="ingredient-evidence"><summary>Show {rest.length} more ingredients and their evidence</summary><dl class="lib-ingredients">{rest.map(i=><div><dt>{i.kind==='pattern'?<a href={'/patterns/'+i.pattern_slug+'/'}>{i.label}</a>:i.label}<small>{i.kind==='feature'?'Feature':'Pattern example'} · observed in a capture</small></dt><dd><p>{i.implementation}</p><div class="lib-evidence-links">{i.evidence.map((e,n)=><a href={e.url}>View capture{i.evidence.length>1?' '+(n+1):''}</a>)}</div></dd></div>)}</dl></details>:<div id="ingredient-evidence"/>}<p class="lib-note">A linked pattern names a design question illustrated by the capture. It does not imply every option in that pattern’s spectrum is implemented.</p></>:<p class="lib-muted">Ingredients are not yet verified against publishable captures. Missing entries do not mean a feature is absent.</p>}
+<section class="lib-section lib-design-ingredients" id="ingredients">
+ <h2>Design ingredients</h2><p>Explore a feature or pattern, then inspect how this app implements it.</p>
+ {ordered.length?<div data-profile-selector="Design ingredients">
+  <nav class="lib-ingredient-pills" data-selector-list aria-label="Choose an ingredient">{ordered.map((i,n)=><a id={'ingredient-tab-'+n} href={'#ingredient-'+n}>{i.label}</a>)}</nav>
+  <div id="ingredient-evidence">{ordered.map((i,n)=>{const evidence=i.evidence.map(e=>screenFor(e.url.split('/').filter(Boolean).at(-1)!)).filter(Boolean);return <article class="lib-ingredient-panel" id={'ingredient-'+n}>
+   <div class="lib-ingredient-copy"><h3>{i.label}</h3><p>{i.implementation}</p><p class="lib-note">Observed in reviewed captures · {i.kind==='feature'?'Feature':'Pattern example'}</p><div class="lib-evidence-links">{i.pattern_slugs.map(slug=><a href={'/patterns/'+slug+'/'}>Explore {slug.replaceAll('-',' ')}</a>)}</div><p class="lib-note">This example illustrates a design question; it does not establish every option in the pattern.</p></div>
+   <div class="lib-ingredient-shots">{evidence.slice(0,2).map(s=><figure><a href={s.url}><img src={s.image} width="1320" height="2868" alt={s.screen_name} loading={n===0?'eager':'lazy'}/></a><figcaption><a href={s.url}>{s.screen_name}</a></figcaption></figure>)}</div>
+   {evidence.length>2&&<details class="lib-ingredient-sources"><summary>All {evidence.length} supporting captures</summary><ul>{evidence.map(s=><li><a href={s.url}>{s.screen_name}</a></li>)}</ul></details>}
+  </article>;})}</div>
+ </div>:<p class="lib-muted">No ingredients verified against publishable captures yet. Missing entries do not mean a feature is absent.</p>}
 </section>
+<ProfileSelector/>
