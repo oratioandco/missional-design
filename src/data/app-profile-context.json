@@ -32,7 +32,7 @@
           "summary": "Hallow’s popularity appears in wider chatbot coverage; general concerns are not Hallow-specific findings."
         }
       ],
-      "coverage_note": "Initial thematic reading of one 50-review Android stream and two selected news items. Not a complete cross-platform, longitudinal or news-sentiment census. Reviews and reporting do not automatically change a design assessment.",
+      "coverage_note": "Initial reading of one 50-review Android stream, ten selected historical Apple excerpts and two news items, kept separate. Not a complete cross-platform, longitudinal or news-sentiment census. Reports do not automatically change a design assessment.",
       "review_themes": [
         {
           "label": "Use cases",
@@ -50,7 +50,16 @@
           "label": "Reliability and continuity",
           "summary": "Reports include battery drain, playback or cache problems, account access and lost saved content. One reviewer links a lost streak to connectivity while travelling; this warrants checking recovery without establishing coercion."
         }
-      ]
+      ],
+      "apple_reading": {
+        "n": 10,
+        "oldest": "2020-01-03",
+        "newest": "2025-11-30",
+        "selection": "Public page default order; selected historical excerpts, not a recent or representative sample. One excerpt describes downloading before using the app.",
+        "source_url": "https://apps.apple.com/us/app/hallow-prayer-meditation/id1405323394?see-all=reviews",
+        "summary": "Older excerpts value guided prayer, learning and family routines; they request transcripts and report account/payment problems. Our later capture shows a transcript for one prayer, so historical requests are not proof of a current omission.",
+        "capture_url": "/screens/shot-ebe2aad9921837b4f1a8/"
+      }
     }
   ]
 }

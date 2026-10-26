@@ -13,7 +13,8 @@ def export(source):
    assert t['sample_indices'] and all(isinstance(i,int) and 0<=i<sample['n'] for i in t['sample_indices'])
    themes.append({k:t[k] for k in ['label','summary']})
   for url in [sample['source_url']]+[n['url'] for n in a['news']]:assert urlparse(url).scheme=='https' and urlparse(url).netloc
-  result.append({k:a[k] for k in ['app_id','review_sample','news','coverage_note']}|{'review_themes':themes})
+  apple=a.get('apple_reading');assert not apple or (apple['n']>0 and urlparse(apple['source_url']).scheme=='https' and apple['capture_url'] in {s['url'] for s in json.loads((ROOT/'src/data/app-library.json').read_text())['screens']})
+  result.append({k:a[k] for k in ['app_id','review_sample','news','coverage_note']}|{'review_themes':themes,'apple_reading':apple})
  assert len({a['app_id'] for a in result})==len(result)
  output={k:data[k] for k in ['schema_version','checked']}|{'apps':result};text=json.dumps(output,ensure_ascii=False,indent=2)+'\n'
  assert not re.search(r'/Users/|"reviewer"|"userName"|sample_indices|[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}',text)
