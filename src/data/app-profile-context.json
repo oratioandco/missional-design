@@ -4,6 +4,7 @@
   "apps": [
     {
       "app_id": "app.hallow.Hallow",
+      "coverage_note": "Initial reading of one 50-review Android stream, ten selected historical Apple excerpts and two news items, kept separate. Not a complete cross-platform, longitudinal or news-sentiment census. Reports do not automatically change a design assessment.",
       "review_sample": {
         "platform": "Google Play",
         "package": "app.hallow.android",
@@ -32,7 +33,6 @@
           "summary": "Hallow’s popularity appears in wider chatbot coverage; general concerns are not Hallow-specific findings."
         }
       ],
-      "coverage_note": "Initial reading of one 50-review Android stream, ten selected historical Apple excerpts and two news items, kept separate. Not a complete cross-platform, longitudinal or news-sentiment census. Reports do not automatically change a design assessment.",
       "review_themes": [
         {
           "label": "Use cases",
@@ -58,7 +58,143 @@
         "selection": "Public page default order; selected historical excerpts, not a recent or representative sample. One excerpt describes downloading before using the app.",
         "source_url": "https://apps.apple.com/us/app/hallow-prayer-meditation/id1405323394?see-all=reviews",
         "summary": "Older excerpts value guided prayer, learning and family routines; they request transcripts and report account/payment problems. Our later capture shows a transcript for one prayer, so historical requests are not proof of a current omission.",
-        "capture_url": "/screens/shot-ebe2aad9921837b4f1a8/"
+        "capture_url": "/screens/shot-ebe2aad9921837b4f1a8/",
+        "capture_label": "Inspect the transcript capture"
+      }
+    },
+    {
+      "app_id": "io.dwellapp.dwell",
+      "coverage_note": "Reviewed one 50-item Android stream, ten selected Apple excerpts and three dated reporting/publisher-context sources separately. Broader search excluded unrelated Dwell magazine results and unverified automated sentiment claims. This is bounded coverage, not an internet-sentiment census.",
+      "review_sample": {
+        "platform": "Google Play",
+        "package": "com.dwellapp.dwell",
+        "language_request": "en",
+        "country_request": "us",
+        "n": 50,
+        "collected": "2026-10-25",
+        "oldest": "2026-07-27",
+        "newest": "2026-10-23",
+        "selection": "50 newest returned written reviews; self-selected, not representative. Locale requests do not establish residence.",
+        "source_url": "https://play.google.com/store/apps/details?id=com.dwellapp.dwell&hl=en&gl=us"
+      },
+      "news": [
+        {
+          "title": "Audio listening in everyday life",
+          "publisher": "Christianity Today · independent reporting",
+          "date": "2024-03-04",
+          "url": "https://www.christianitytoday.com/2024/03/audio-bible-listen-dwell-app-youversion-esv-study/",
+          "summary": "The report interviews Dwell’s cofounder within wider coverage of audio Bibles, everyday listening and the complementary roles of audio and text. It provides historical use-case context, not a causal study of Dwell’s spiritual impact."
+        },
+        {
+          "title": "NeuBible acquisition",
+          "publisher": "Dwell · publisher announcement",
+          "date": "2022-01-31",
+          "url": "https://dwellapp.io/articles/5ZcEvWv0aJecadS6lP0EQp",
+          "summary": "Dwell announced its acquisition of NeuBible and described a shared emphasis on reading design. The announcement said integration was not in place then; it does not establish the products’ current relationship."
+        },
+        {
+          "title": "Human, hybrid and generated voices",
+          "publisher": "Dwell Help Center · publisher guidance",
+          "date": "2026-05-19",
+          "url": "https://help.dwellbible.com/en/articles/15184085-are-the-voices-i-m-listening-to-real-people-or-ai",
+          "summary": "The publisher describes human studio recordings, recordings extended with TTS, and fully generated voices. It says fully generated voices are labelled Digital Voice in the app. Production and current in-app labelling have not been independently audited here."
+        }
+      ],
+      "review_themes": [
+        {
+          "label": "Everyday listening",
+          "summary": "Commuting, household tasks, morning reflection and bedtime listening recur as use cases. Reported spiritual benefit remains personal testimony rather than a measured outcome."
+        },
+        {
+          "label": "Choice and preference",
+          "summary": "Reviewers value narrator, translation and background-music choices. Some want more control or sleep content; individual preferences differ."
+        },
+        {
+          "label": "Access and prompting friction",
+          "summary": "Affordability, expected free access, cancellation and repeated account/notification prompts appear as pain points. Publisher-documented samples and paid offers do not establish how easy those paths are to discover or exit."
+        },
+        {
+          "label": "Reliability and platform expectations",
+          "summary": "Reports include crashes, a blank screen, Android feature delays and sign-in/in-car needs. These are scoped test cases, not reproduced findings or claims about every version."
+        }
+      ],
+      "apple_reading": {
+        "n": 10,
+        "oldest": "2019-07-29",
+        "newest": "2026-05-02",
+        "selection": "Public-page default order; selected excerpts across several years, not a recent or representative sample.",
+        "source_url": "https://apps.apple.com/us/app/dwell-audio-bible/id1343917374?see-all=reviews",
+        "summary": "Selected excerpts value repeat listening, reflection, read-along and family routines. Reported friction includes offline startup, text/audio alignment and support routes. An edited voice review illustrates why subjective impressions need checking against the publisher’s current voice categories.",
+        "capture_url": "/screens/shot-aac191000d37971fcfa1/",
+        "capture_label": "Inspect captured listening options"
+      }
+    },
+    {
+      "app_id": "is.abide.abide",
+      "coverage_note": "Thematic reading includes all 50 returned Android reviews; the statistics below use a 180-day window and may count fewer. Ten historical Apple excerpts and three dated/checked context sources are kept separate. No medical outcome, overall sentiment score or app-wide moral judgment is inferred.",
+      "review_sample": {
+        "platform": "Google Play",
+        "package": "is.abide",
+        "language_request": "en",
+        "country_request": "us",
+        "n": 50,
+        "collected": "2026-10-25",
+        "oldest": "2026-04-17",
+        "newest": "2026-10-20",
+        "selection": "50 newest returned written reviews, including two older than the 180-day statistics window. Self-selected; locale requests do not establish residency.",
+        "source_url": "https://play.google.com/store/apps/details?id=is.abide&hl=en&gl=us"
+      },
+      "news": [
+        {
+          "title": "Guideposts acquisition",
+          "publisher": "MediaPost · industry reporting",
+          "date": "2021-10-25",
+          "url": "https://www.mediapost.com/publications/article/368076/guideposts-acquires-abide-christian-prayer-app.html",
+          "summary": "The report describes Guideposts’ acquisition of Abide and says transaction terms were undisclosed. Its historical audience numbers span distribution channels; they should not be presented as current app users or revenue."
+        },
+        {
+          "title": "Free access and financial assistance",
+          "publisher": "Abide Help Center · publisher guidance",
+          "date": "2026-04-24",
+          "url": "https://help.abide.com/hc/en-us/articles/23119147863955-How-Much-Does-Abide-Cost",
+          "summary": "Publisher help describes the short daily meditation and selected sleep stories as free, with premium subscriptions and request-based discounts or one-year assistance. The offer’s existence does not establish approval rates or fulfilment for individual applicants."
+        },
+        {
+          "title": "Donor-supported access programme",
+          "publisher": "Guideposts · programme page",
+          "date": "2026-10-26",
+          "url": "https://guideposts.org/abide/",
+          "summary": "The undated programme page invites support for subscriptions for military members, students, chaplains, pastors and underserved people. This documents the advertised mechanism; distribution, donor costs and outcomes have not been independently verified.",
+          "date_kind": "checked"
+        }
+      ],
+      "review_themes": [
+        {
+          "label": "Quiet routines",
+          "summary": "Morning reflection, bedtime listening and encouragement are valued uses. Reports of calm and sleep benefit are personal experiences, not evidence of clinical effectiveness."
+        },
+        {
+          "label": "Access and affordability",
+          "summary": "Reviewers describe cost concerns, confusing paid-access/sign-in states, restoration problems and difficulty managing renewal. These are investigation targets, not verified billing misconduct."
+        },
+        {
+          "label": "Reliability and interruption",
+          "summary": "Reported crashes, navigation delays, overnight playback and loud alarm/prompt problems can undermine a calming session. Platform, version and settings need reproduction before judging prevalence or mechanism."
+        },
+        {
+          "label": "Content and preference",
+          "summary": "Children’s sleep-content requests, narrator preferences and responses to meditation wording vary. A subjective claim that a voice is generated does not establish its production method."
+        }
+      ],
+      "apple_reading": {
+        "n": 10,
+        "oldest": "2017-10-25",
+        "newest": "2025-03-17",
+        "selection": "Public-page default order; selected historical excerpts, not a recent or representative sample.",
+        "source_url": "https://apps.apple.com/us/app/abide-bible-prayer-meditation/id726031617?see-all=reviews",
+        "summary": "Selected excerpts value Scripture routines, sleep listening and family use. Others object to paid boundaries or describe prompts disrupting reflection; older requests for gentler ending and playlist controls are test questions, not confirmed current omissions. Sensitive personal testimony is not reproduced or treated as medical evidence.",
+        "capture_url": "/screens/shot-b39ad82e0a59a44e2516/",
+        "capture_label": "Inspect the captured free/locked length choices"
       }
     }
   ]

@@ -13,10 +13,20 @@ def export(source):
    evidence=[e for e in i['evidence'] if e['source_url'].removeprefix('https://missional.design') in screens]
    assert evidence,'Observed ingredient requires a public capture'
    ingredients.append({k:i.get(k) for k in ['kind','feature_id','pattern_slug','label','pattern_slugs','implementation','pattern_relation']}|{'evidence':[{'url':e['source_url'].removeprefix('https://missional.design')} for e in evidence]})
-  dimensions={}
+  dimensions={};dimension_reviews={}
   for dimension_id,value in a['assessment']['dimensions'].items():
    assert value['principle_ids']==dimension_principles[dimension_id]
    assert set(value['principle_ids'])<=principle_ids
+   if value.get('reviewed'):
+    assert re.fullmatch(r'\d{4}-\d{2}-\d{2}',value['reviewed'])
+    assert isinstance(value.get('review_summary'),str) and value['review_summary']
+    assert isinstance(value.get('next_checks'),list) and all(isinstance(c,str) for c in value['next_checks'])
+    dimension_reviews[dimension_id]={k:value[k] for k in ['reviewed','review_summary','next_checks']}
+    if value.get('review_evidence'):
+     links=[]
+     for item in value['review_evidence']:
+      url=item['source_url'].removeprefix('https://missional.design');assert screens.get(url)==a['app_id'],'Review evidence must belong to this exact app';links.append({'url':url})
+     dimension_reviews[dimension_id]['evidence']=links
    if value['status']=='not_assessed':continue
    safe={k:value[k] for k in ['status','scope','reason','limits','principle_ids'] if k in value}
    evidence=[]
@@ -30,7 +40,7 @@ def export(source):
   if r['android_identity']['status']=='reviewed_product_identity_match':
    for stream in r['google_play_sources']:
     s=stream['sample'];play.append(dict(language=stream['lang'],country=stream['country'],n=s['recent_180_days']['n'],histogram=s['recent_180_days']['histogram'],oldest=s['oldest'],newest=s['newest'],url=f"https://play.google.com/store/apps/details?id={stream['package']}&hl={stream['lang']}&gl={stream['country']}"))
-  apple=r['apple_review_page'];finding=a.get('review_findings');result.append(dict(app_id=a['app_id'],checked=a['reviewed'],ingredients=ingredients,dimensions=dimensions,play=play,apple=dict(n=apple['n'],oldest=apple['oldest'][:10] if apple['oldest'] else None,newest=apple['newest'][:10] if apple['newest'] else None,url=r['apple_review_page_source'].get('url')),review_note={k:finding[k] for k in ['summary','examples_reviewed','scope','source_urls']} if finding and finding['examples_reviewed'] else None))
+  apple=r['apple_review_page'];finding=a.get('review_findings');result.append(dict(app_id=a['app_id'],checked=a['reviewed'],ingredients=ingredients,dimensions=dimensions,dimension_reviews=dimension_reviews,play=play,apple=dict(n=apple['n'],oldest=apple['oldest'][:10] if apple['oldest'] else None,newest=apple['newest'][:10] if apple['newest'] else None,url=r['apple_review_page_source'].get('url')),review_note={k:finding[k] for k in ['summary','examples_reviewed','scope','source_urls']} if finding and finding['examples_reviewed'] else None))
  assert len(result)==len(ids)
  output=dict(schema_version=1,checked=data['checked'],rubric_version='0.1',apps=result)
  serialized=json.dumps(output,ensure_ascii=False,indent=2)+'\n'
