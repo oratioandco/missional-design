@@ -128,6 +128,74 @@
         "capture_url": "/screens/shot-aac191000d37971fcfa1/",
         "capture_label": "Inspect captured listening options"
       }
+    },
+    {
+      "app_id": "is.abide.abide",
+      "coverage_note": "Thematic reading includes all 50 returned Android reviews; the statistics below use a 180-day window and may count fewer. Ten historical Apple excerpts and three dated/checked context sources are kept separate. No medical outcome, overall sentiment score or app-wide moral judgment is inferred.",
+      "review_sample": {
+        "platform": "Google Play",
+        "package": "is.abide",
+        "language_request": "en",
+        "country_request": "us",
+        "n": 50,
+        "collected": "2026-10-25",
+        "oldest": "2026-04-17",
+        "newest": "2026-10-20",
+        "selection": "50 newest returned written reviews, including two older than the 180-day statistics window. Self-selected; locale requests do not establish residency.",
+        "source_url": "https://play.google.com/store/apps/details?id=is.abide&hl=en&gl=us"
+      },
+      "news": [
+        {
+          "title": "Guideposts acquisition",
+          "publisher": "MediaPost · industry reporting",
+          "date": "2021-10-25",
+          "url": "https://www.mediapost.com/publications/article/368076/guideposts-acquires-abide-christian-prayer-app.html",
+          "summary": "The report describes Guideposts’ acquisition of Abide and says transaction terms were undisclosed. Its historical audience numbers span distribution channels; they should not be presented as current app users or revenue."
+        },
+        {
+          "title": "Free access and financial assistance",
+          "publisher": "Abide Help Center · publisher guidance",
+          "date": "2026-04-24",
+          "url": "https://help.abide.com/hc/en-us/articles/23119147863955-How-Much-Does-Abide-Cost",
+          "summary": "Publisher help describes the short daily meditation and selected sleep stories as free, with premium subscriptions and request-based discounts or one-year assistance. The offer’s existence does not establish approval rates or fulfilment for individual applicants."
+        },
+        {
+          "title": "Donor-supported access programme",
+          "publisher": "Guideposts · programme page",
+          "date": "2026-10-26",
+          "url": "https://guideposts.org/abide/",
+          "summary": "The undated programme page invites support for subscriptions for military members, students, chaplains, pastors and underserved people. This documents the advertised mechanism; distribution, donor costs and outcomes have not been independently verified.",
+          "date_kind": "checked"
+        }
+      ],
+      "review_themes": [
+        {
+          "label": "Quiet routines",
+          "summary": "Morning reflection, bedtime listening and encouragement are valued uses. Reports of calm and sleep benefit are personal experiences, not evidence of clinical effectiveness."
+        },
+        {
+          "label": "Access and affordability",
+          "summary": "Reviewers describe cost concerns, confusing paid-access/sign-in states, restoration problems and difficulty managing renewal. These are investigation targets, not verified billing misconduct."
+        },
+        {
+          "label": "Reliability and interruption",
+          "summary": "Reported crashes, navigation delays, overnight playback and loud alarm/prompt problems can undermine a calming session. Platform, version and settings need reproduction before judging prevalence or mechanism."
+        },
+        {
+          "label": "Content and preference",
+          "summary": "Children’s sleep-content requests, narrator preferences and responses to meditation wording vary. A subjective claim that a voice is generated does not establish its production method."
+        }
+      ],
+      "apple_reading": {
+        "n": 10,
+        "oldest": "2017-10-25",
+        "newest": "2025-03-17",
+        "selection": "Public-page default order; selected historical excerpts, not a recent or representative sample.",
+        "source_url": "https://apps.apple.com/us/app/abide-bible-prayer-meditation/id726031617?see-all=reviews",
+        "summary": "Selected excerpts value Scripture routines, sleep listening and family use. Others object to paid boundaries or describe prompts disrupting reflection; older requests for gentler ending and playlist controls are test questions, not confirmed current omissions. Sensitive personal testimony is not reproduced or treated as medical evidence.",
+        "capture_url": "/screens/shot-b39ad82e0a59a44e2516/",
+        "capture_label": "Inspect the captured free/locked length choices"
+      }
     }
   ]
 }

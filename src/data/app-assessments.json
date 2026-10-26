@@ -337,8 +337,110 @@
           ]
         }
       ],
-      "dimensions": {},
-      "dimension_reviews": {},
+      "dimensions": {
+        "truth_authority": {
+          "status": "ethical_baseline_observed",
+          "scope": "Visible credits for the captured Stand Still… Get Moving meditation only.",
+          "reason": "The information sheet names the author and narrator in separate roles and identifies the Scripture translation used. This makes the item’s credited sources inspectable.",
+          "limits": "This is a finding about visible attribution only. Recording origin, licensing, theological accuracy, boundaries in the audio itself and the rest of the catalogue were not independently verified. No app-wide or redemptive award.",
+          "principle_ids": [
+            "word-distinct",
+            "speak-for-god"
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-14f994f330f4e5e5a993/"
+            }
+          ]
+        }
+      },
+      "dimension_reviews": {
+        "money_access": {
+          "reviewed": "2026-10-26",
+          "review_summary": "The captured length picker leaves the two-minute meditation available and shows locks on five-, ten- and fifteen-minute choices. Publisher help describes a free tier, paid premium options and request-based financial assistance. Actual trial, renewal, restore and cancellation paths remain untested.",
+          "next_checks": [
+            "Inspect the contextual offer and its dismissal/default plan.",
+            "Verify entitlement restoration and cancellation; do not infer deceptive billing from reports alone."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-b39ad82e0a59a44e2516/"
+            }
+          ]
+        },
+        "attention_agency": {
+          "reviewed": "2026-10-26",
+          "review_summary": "Captured controls expose a sleep-timer entry and ambience at app open, during playback, after playback and outside the app. These are saved states, not first-install defaults. Reported alarms, repeated prompting and overnight failures were not reproduced.",
+          "next_checks": [
+            "Inspect alarm/reminder defaults and safe volume controls without enabling a new overnight alarm.",
+            "Verify stopping, background playback and prompt timing while preserving original settings."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-e00b03130f5feb684706/"
+            },
+            {
+              "url": "/screens/shot-14f994f330f4e5e5a993/"
+            }
+          ]
+        },
+        "truth_authority": {
+          "reviewed": "2026-10-26",
+          "review_summary": "One captured meditation credits its author and narrator separately and identifies the Bible translation. This establishes visible attribution for that item, not the recording process, accuracy or every item in the catalogue.",
+          "next_checks": [
+            "Inspect Scripture/commentary boundaries during playback.",
+            "Check any synthetic-voice disclosure using current publisher evidence rather than reviewer guesses."
+          ]
+        },
+        "privacy_dignity": {
+          "reviewed": "2026-10-26",
+          "review_summary": "Retained states show a custom tracking pre-prompt and the iOS tracking-permission dialog. The custom privacy/personalisation claims are publisher assertions; screenshots do not establish backend data handling or what happens after refusal.",
+          "next_checks": [
+            "Inspect refusal, subsequent access and any repeat prompts.",
+            "Compare app-specific controls and policy statements without treating them as a backend audit."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-a43be773810987a7ab8b/"
+            },
+            {
+              "url": "/screens/shot-5648aaeaec4321be60d4/"
+            }
+          ]
+        },
+        "formation_relationships": {
+          "reviewed": "2026-10-26",
+          "review_summary": "Reviewers describe daily reflection, bedtime routines and encouragement. The captions and player do not establish durable spiritual formation, dependence, community outcomes or a restorative cost borne by the builder.",
+          "next_checks": [
+            "Inspect streak/progress wording and return after missed days.",
+            "Distinguish app activity from spiritual worth and preserve existing user progress."
+          ]
+        },
+        "care_inclusion": {
+          "reviewed": "2026-10-26",
+          "review_summary": "The short meditation provides one observed access point, while affordability and children’s-content requests appear in reports. Publisher financial-assistance offers are not proof of fulfilment for every applicant. Clinical benefit and child safeguards were not evaluated.",
+          "next_checks": [
+            "Inspect accessible controls and available content without entering sensitive health/child data.",
+            "Keep reported calm/sleep experiences separate from medical efficacy or treatment claims."
+          ]
+        },
+        "craft_repair": {
+          "reviewed": "2026-10-26",
+          "review_summary": "The review sample includes paid-access/sign-in mismatch, crashes, scrolling and background-playback problems. A retained elapsed-player state is not a reproduction of those reported failures.",
+          "next_checks": [
+            "Reproduce restore/sign-in and playback issues on the relevant platform/version.",
+            "Inspect support and bug-report routes without sending messages."
+          ]
+        },
+        "stewardship_accountability": {
+          "reviewed": "2026-10-26",
+          "review_summary": "Guideposts ownership is documented through historical reporting and publisher material. Donor-supported access is described publicly; actual allocation, current finances and organisation-wide practices remain outside this product review.",
+          "next_checks": [
+            "Keep acquisition timing and historical reach figures separate from current app metrics.",
+            "Investigate the assistance mechanism without contacting vendors or inferring moral status from nonprofit ownership."
+          ]
+        }
+      },
       "play": [
         {
           "language": "en",
@@ -6413,6 +6515,11 @@
           "next_checks": [
             "Inspect plan progress and return-after-absence wording.",
             "Check whether prompts distinguish listening activity from spiritual worth."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-96985b4152488e16d787/"
+            }
           ]
         },
         "care_inclusion": {
@@ -6421,6 +6528,14 @@
           "next_checks": [
             "Check VoiceOver labels and reading order, text scaling and control reachability.",
             "Verify current Android/iOS feature scope rather than generalise from one platform."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-85b86958ef19223909f0/"
+            },
+            {
+              "url": "/screens/shot-96985b4152488e16d787/"
+            }
           ]
         },
         "craft_repair": {
@@ -9140,7 +9255,90 @@
           ]
         }
       },
-      "dimension_reviews": {},
+      "dimension_reviews": {
+        "money_access": {
+          "reviewed": "2026-10-26",
+          "review_summary": "Publisher help describes a free account/tier and optional premium content; US store offers are listed separately. None of the41public Hallow captures shows its paywall, checkout, restore or cancellation sequence.",
+          "next_checks": [
+            "Capture the dismissible free path and representative premium items.",
+            "Verify actual offer currency/period, trial renewal, restore and cancellation."
+          ]
+        },
+        "attention_agency": {
+          "reviewed": "2026-10-26",
+          "review_summary": "The retained home/catalogue states show routine and participation cues. They do not establish reminder defaults, delivery frequency, interruption, missed-day recovery or coercion.",
+          "next_checks": [
+            "Inspect reminder controls, pause/off and return-after-absence wording.",
+            "Use the separate notification study for actual delivered messages and documented sampling windows."
+          ]
+        },
+        "truth_authority": {
+          "reviewed": "2026-10-26",
+          "review_summary": "The existing finding concerns two captured Magisterium AI prayer/blessing responses inside Hallow. Additional citation/identity screens do not establish accuracy across all answers or sources.",
+          "next_checks": [
+            "Check the scope and accuracy of opened references without generalising from citations being present.",
+            "Preserve Hallow/Longbeard-provider identity and distinguish AI wording from sacred acts."
+          ]
+        },
+        "privacy_dignity": {
+          "reviewed": "2026-10-26",
+          "review_summary": "One retained AI reply distinguishes chat from confidential spiritual direction and cautions against sensitive disclosure. This visible boundary does not establish retention, secondary use, backend privacy or deletion.",
+          "next_checks": [
+            "Inspect account/conversation controls and app-specific disclosures.",
+            "Keep the assistant’s wording separate from independently verified data handling."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-05c2d9e55c3f59be1884/"
+            }
+          ]
+        },
+        "formation_relationships": {
+          "reviewed": "2026-10-26",
+          "review_summary": "Parish invitations and guidance toward human clergy appear in the corpus; one parish-discovery frame says coming soon. Invitations alone do not establish a working handoff, church participation or spiritual formation.",
+          "next_checks": [
+            "Test the current parish/referral route rather than infer function from promotional copy.",
+            "Inspect how routine/progress language relates to life beyond the app."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-22ec6e68a945b3345178/"
+            },
+            {
+              "url": "/screens/shot-a1f5c2d853dae19dc386/"
+            }
+          ]
+        },
+        "care_inclusion": {
+          "reviewed": "2026-10-26",
+          "review_summary": "A captured therapist-role refusal points toward a licensed professional, and the catalogue includes children/family categories. Neither establishes clinical safety across prompts or safeguards for every child-facing feature.",
+          "next_checks": [
+            "Inspect relevant limits, accessibility controls and intended-audience safeguards.",
+            "Do not treat generic role-refusal examples as a clinical or child-safety certification."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-0fa9c006cc35ce4079bd/"
+            }
+          ]
+        },
+        "craft_repair": {
+          "reviewed": "2026-10-26",
+          "review_summary": "Reader, prayer-player and AI-reference states are documented. Screenshots and self-selected reliability reports do not establish consistent playback, citation accuracy, recovery or support handling.",
+          "next_checks": [
+            "Reproduce specific playback/account problems before assigning a concern.",
+            "Inspect correction/reporting routes without submitting public/private messages."
+          ]
+        },
+        "stewardship_accountability": {
+          "reviewed": "2026-10-26",
+          "review_summary": "The organisation page carries separately dated funding context. Historical capital raised is not current revenue; user-facing captures do not establish employment, leadership intent or organisation-wide accountability.",
+          "next_checks": [
+            "Keep financial scope/date and app-level evidence distinct.",
+            "Do not infer an ethical or redemptive verdict from funding or subscription structure."
+          ]
+        }
+      },
       "play": [
         {
           "language": "en",

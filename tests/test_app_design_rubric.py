@@ -86,6 +86,11 @@ class PublicTraceabilityTests(unittest.TestCase):
         self.assertNotIn('money_access',output['dimensions'])
         self.assertEqual(set(output['dimension_reviews']['money_access']),{'reviewed','review_summary','next_checks'})
 
+    def test_review_note_cannot_link_another_apps_capture(self):
+        data=copy.deepcopy(self.data)
+        data['apps'][0]['assessment']['dimensions']['money_access'].update(reviewed='2026-10-26',review_summary='Review.',next_checks=[],review_evidence=[{'source_url':'https://missional.design'+SUNDAY}])
+        with self.assertRaisesRegex(AssertionError,'exact app'):self.export(data)
+
     def test_published_findings_keep_exact_statuses_and_capture_scope(self):
         apps = json.loads((ROOT / 'src/data/app-assessments.json').read_text())['apps']
         findings = {(a['app_id'], d): v for a in apps for d, v in a['dimensions'].items()}
@@ -93,6 +98,7 @@ class PublicTraceabilityTests(unittest.TestCase):
             (HALLOW, 'truth_authority'): 'ethical_baseline_observed',
             ('com.aimermedia.LiveLent', 'formation_relationships'): 'redemptive_candidate',
             ('io.dwellapp.dwell', 'attention_agency'): 'ethical_baseline_observed',
+            ('is.abide.abide', 'truth_authority'): 'ethical_baseline_observed',
         })
         self.assertEqual(findings[(HALLOW, 'truth_authority')]['evidence'],
                          [{'url': PRAYER}, {'url': BLESSING}])

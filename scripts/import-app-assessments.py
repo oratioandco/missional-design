@@ -22,6 +22,11 @@ def export(source):
     assert isinstance(value.get('review_summary'),str) and value['review_summary']
     assert isinstance(value.get('next_checks'),list) and all(isinstance(c,str) for c in value['next_checks'])
     dimension_reviews[dimension_id]={k:value[k] for k in ['reviewed','review_summary','next_checks']}
+    if value.get('review_evidence'):
+     links=[]
+     for item in value['review_evidence']:
+      url=item['source_url'].removeprefix('https://missional.design');assert screens.get(url)==a['app_id'],'Review evidence must belong to this exact app';links.append({'url':url})
+     dimension_reviews[dimension_id]['evidence']=links
    if value['status']=='not_assessed':continue
    safe={k:value[k] for k in ['status','scope','reason','limits','principle_ids'] if k in value}
    evidence=[]
