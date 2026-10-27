@@ -19,3 +19,31 @@
 .lib-pagination{display:flex;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;margin-top:32px;font-size:14px}.lib-pagination[hidden]{display:none}.lib-pagination span{font-variant-numeric:tabular-nums;color:var(--muted)}.app-library .lib-pagination button:disabled{opacity:.5;cursor:default}#lib-result-title{scroll-margin-top:100px}
 
 .lib-scope{display:flex;align-items:center;gap:12px 20px;flex-wrap:wrap;margin:0 0 24px}.lib-scope[hidden]{display:none}.app-library .lib-scope button{padding:8px 12px}
+
+/* A shared control rhythm for browsing the screenshot collection. */
+.app-library .lib-page input,.app-library .lib-page select,.app-library .lib-page button{border-radius:6px;min-height:46px;transition:border-color 150ms,background 150ms;color:var(--ink);border-color:var(--rule-strong)}
+.app-library .lib-page input,.app-library .lib-page select{background-color:var(--paper-hi);font-size:15px;padding:11px 14px}
+.app-library .lib-page input::placeholder{color:var(--muted);opacity:1}
+.app-library .lib-page select{appearance:none;padding-right:42px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 16 16'%3E%3Cpath d='m4 6 4 4 4-4' fill='none' stroke='%23668399' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;cursor:pointer}
+.app-library .lib-page :is(input,select,button):focus-visible{outline:2px solid var(--focus);outline-offset:3px}
+.app-library .lib-quick-search{max-width:none;gap:0;border:1px solid var(--rule-strong);border-radius:6px;background:var(--paper-hi);padding:5px;align-items:center}
+.app-library .lib-quick-search input{background:transparent;border:0;min-height:44px;padding-left:12px}
+.app-library .lib-quick-search button{background:var(--ink);color:var(--paper-hi);border:1px solid var(--ink);padding:10px 24px;min-height:44px;font-weight:600}
+.app-library .lib-quick-search button:hover{background:var(--muted);border-color:var(--muted)}
+.app-library .lib-filter-row{gap:16px;margin:20px 0 30px;padding-bottom:24px;border-bottom:1px solid var(--rule);align-items:flex-end}
+.app-library .lib-filter-row label{margin:0;flex:0 1 185px;color:var(--muted);font-size:12px;font-weight:500}
+.app-library .lib-filter-row label:nth-child(2){flex:1 1 230px;max-width:400px}
+.app-library .lib-filter-row select{width:100%;margin-top:8px;font-weight:400}
+.app-library .lib-filter-row #lib-reset{background:transparent;border-color:transparent;color:var(--muted);font-size:13px;margin:0;padding:10px 12px;text-decoration:underline;text-underline-offset:4px}
+.app-library .lib-filter-row #lib-reset:hover{color:var(--ink);background:var(--paper-lo)}
+.app-library .lib-sidebar{padding-right:24px}
+.app-library .lib-sidebar>details>label{color:var(--muted);font-weight:500;font-size:12px}
+.app-library .lib-sidebar #facet-help{font-size:12px;margin:3px 0 18px}
+.app-library .lib-sidebar #facet-search{background:transparent;font-size:13px;min-height:42px}
+.app-library .lib-sidebar #facet-list{gap:3px;margin-top:8px}
+.app-library .lib-sidebar #facet-list button{background:transparent;border:0;border-radius:4px;padding:10px 9px;min-height:44px;font-size:13px;line-height:1.4;font-weight:400}
+.app-library .lib-sidebar #facet-list button:hover{background:var(--paper-lo)}
+.app-library .lib-sidebar #facet-list button[aria-pressed=true]{background:var(--ink);color:var(--paper-hi);font-weight:600}
+.app-library .lib-sidebar #facet-list button[aria-pressed=true] span:last-child{color:inherit}
+.app-library .lib-sidebar #facet-list button span:last-child{font-size:11px}
+@media(max-width:700px){.app-library .lib-quick-search{flex-wrap:nowrap}.app-library .lib-quick-search input{flex-basis:auto;width:auto;font-size:16px}.app-library .lib-quick-search button{width:auto;padding:10px 16px}.app-library .lib-filter-row{gap:14px 12px}.app-library .lib-filter-row label,.app-library .lib-filter-row label:nth-child(2){flex:1 1 calc(50% - 12px);min-width:0;max-width:none}.app-library .lib-filter-row select{font-size:16px;padding-left:10px}.app-library .lib-filter-row #lib-reset{width:auto;min-height:44px;padding:4px 0}.app-library .lib-sidebar{padding-right:0}.app-library .lib-sidebar select,.app-library .lib-sidebar input{width:100%;margin-left:0}.app-library .lib-sidebar #facet-search,.app-library .lib-sidebar select{font-size:16px}.app-library .lib-sidebar #facet-list{max-height:260px}.app-library .lib-sidebar #facet-list button{border:1px solid var(--rule);padding:8px 11px}}

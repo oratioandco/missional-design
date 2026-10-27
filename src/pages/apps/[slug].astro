@@ -12,18 +12,18 @@ export function getStaticPaths(){return apps.map(app=>({params:{slug:app.slug},p
 const {app:a}=Astro.props;const org=organisationFor(a.organisation_id);const shots=screensFor(a.id);const sequences=flows.filter(f=>f.app_id===a.id);const articles=[...new Set(shots.flatMap(s=>s.article_slugs))];
 const previewShots=[];const previewTypes=new Set();for(const shot of shots){if(!previewTypes.has(shot.screen_type)){previewShots.push(shot);previewTypes.add(shot.screen_type);}if(previewShots.length===3)break;}
 ---
-<Layout title={a.name} description={a.description} active="apps" indexable>
+<Layout title={a.name} description={a.description} active="apps" indexable compactNav>
  <article class="lib-app-profile">
  <span hidden data-pagefind-meta="record_id">{'app:'+a.id}</span><span hidden data-pagefind-filter="kind">app</span>
  <div class="lib-maker-overview"><header class="lib-maker-intro">
   <a class="lib-back" href="/apps/">All apps</a>
   <div class="lib-app-heading"><AppIcon app={a} size={64} priority/><h1 data-pagefind-meta="title">{a.name}</h1></div>
   <p class="lib-maker-description" data-pagefind-meta="description">{a.description}</p>
-  <p class="lib-maker-audience"><strong>For</strong> {a.target_audience.text} <a href={a.target_audience.source_url} target="_blank" rel="noreferrer">Publisher positioning</a></p>
-  <div class="lib-links"><a href={org.url}>By {org.name}</a><a href={a.app_store_url} target="_blank" rel="noreferrer">App Store</a>{!shots.length&&<a href="#app-store">Publisher images</a>}{a.website&&<a href={a.website} target="_blank" rel="noreferrer">Official website</a>}</div>
+  <p class="lib-maker-audience"><strong>For</strong> {a.target_audience.text}</p>
+  <p class="profile-publisher">By <a href={org.url}>{org.name}</a></p><details class="profile-publisher-links"><summary>Website, store &amp; audience source</summary><ul><li><a href={a.app_store_url} target="_blank" rel="noreferrer">Apple App Store</a></li>{a.website&&<li><a href={a.website} target="_blank" rel="noreferrer">Official website</a></li>}<li><a href={a.target_audience.source_url} target="_blank" rel="noreferrer">Publisher audience positioning</a></li></ul></details>
  </header>
  <div class="lib-profile-filmstrip" aria-label="Research screenshot preview">{previewShots.map(s=><a href={s.url}><img src={s.image} width="1320" height="2868" alt={s.screen_name} loading="eager"/></a>)}{!shots.length&&<p>Research capture pending. <a href="#app-store">View publisher images</a>.</p>}</div></div>
- <nav class="lib-profile-nav" aria-label="On this app profile"><a href="#assessment">Findings &amp; principles</a><a href="#ingredients">Ingredients</a><a href="#research-captures">Screenshots</a><a href="#cost-access">Cost &amp; access</a><a href={contextData.apps.some(x=>x.app_id===a.id)?'#wider-context':'#user-response'}>Reviews &amp; context</a></nav>
+ <details class="profile-page-index"><summary>On this page</summary><nav aria-label="On this app profile"><a href="#assessment">Design review</a><a href="#ingredients">Design ingredients</a><a href="#research-captures">Screenshots</a><a href="#cost-access">Cost &amp; access details</a><a href={contextData.apps.some(x=>x.app_id===a.id)?'#wider-context':'#user-response'}>Reviews &amp; context</a></nav></details>
  <AppAssessment app={a} part="label"/>
  <AppCaptureGallery app={a} screens={shots}/>
  {sequences.length>0&&<section class="lib-section"><h2>Captured sequences</h2><ul class="lib-link-list">{sequences.map(f=><li><a href={f.url}>{f.title}</a><p>{f.context}</p></li>)}</ul></section>}

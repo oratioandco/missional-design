@@ -34,7 +34,7 @@ def main(source):
  for key in dict.fromkeys(s['flow_id'] for s in screens if s.get('flow_id')):
   frames=sorted([s for s in screens if s.get('flow_id')==key],key=lambda s:s['flow_order'])
   title,context=names[key];flows.append(dict(id=key,url='/flows/'+key+'/',title=title,context=context,app_id=frames[0]['app_id'],screen_ids=[s['id'] for s in frames],coverage='Selected capture sequence; not a complete walkthrough.'))
- records=dict(schema_version=1,checked=max(s['captured'] for s in screens),apps=apps,organisations=orgs,screens=screens,flows=flows)
+ records=dict(schema_version=1,facet_aliases=data.get('facet_aliases',{}),checked=max(s['captured'] for s in screens),apps=apps,organisations=orgs,screens=screens,flows=flows)
  serialized=json.dumps(records,ensure_ascii=False,indent=2)+'\n'
  assert not re.search(r'[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}|/Users/|phone-captures|linkedin\.com/in/|capture-log|source_row|reviewer|ocr_text',serialized),'Private data in public export'
  (ROOT/'src/data/app-library.json').write_text(serialized)

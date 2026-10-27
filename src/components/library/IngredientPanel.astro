@@ -1,0 +1,10 @@
+---
+import {screenFor,articleTitle} from '../../lib/app-library';
+const {entry:i,index:n}=Astro.props;
+const evidence=i.evidence.map(e=>screenFor(e.url.split('/').filter(Boolean).at(-1)!)).filter(Boolean);
+---
+<article class="lib-ingredient-panel" id={'ingredient-'+n}>
+ <div class="lib-ingredient-copy"><h3>{i.label}</h3><p>{i.implementation}</p><p class="lib-note">Observed in reviewed captures · {i.kind==='feature'?'Feature':'Pattern example'}</p>{i.pattern_slugs.length>0&&<p><a href={'/patterns/'+i.pattern_slugs[0]+'/'}>{articleTitle(i.pattern_slugs[0])}</a></p>}{i.pattern_slugs.length>1&&<details class="ingredient-related"><summary>Related design questions</summary><ul>{i.pattern_slugs.slice(1).map(slug=><li><a href={'/patterns/'+slug+'/'}>{articleTitle(slug)}</a></li>)}</ul></details>}<p class="lib-note">A captured implementation, not every option or an app-wide conclusion.</p></div>
+ <div class="lib-ingredient-shots">{evidence.slice(0,2).map(s=><figure><a href={s.url}><img src={s.image} width="1320" height="2868" alt={s.screen_name} loading={n===0?'eager':'lazy'}/></a><figcaption>{s.screen_name}</figcaption></figure>)}</div>
+ {evidence.length>2&&<details class="lib-ingredient-sources"><summary>All {evidence.length} supporting captures</summary><ul>{evidence.map(s=><li><a href={s.url}>{s.screen_name}</a></li>)}</ul></details>}
+</article>
