@@ -99,6 +99,10 @@ class PublicTraceabilityTests(unittest.TestCase):
             ('com.aimermedia.LiveLent', 'formation_relationships'): 'redemptive_candidate',
             ('io.dwellapp.dwell', 'attention_agency'): 'ethical_baseline_observed',
             ('is.abide.abide', 'truth_authority'): 'ethical_baseline_observed',
+            (HALLOW, 'attention_agency'): 'ethical_baseline_observed',
+            ('com.bgolson.scripturetyper', 'money_access'): 'ethical_baseline_observed',
+            ('com.bible.holy.bible.for.women', 'money_access'): 'mixed',
+            ('com.prayapp.pray', 'attention_agency'): 'mixed',
         })
         self.assertEqual(findings[(HALLOW, 'truth_authority')]['evidence'],
                          [{'url': PRAYER}, {'url': BLESSING}])

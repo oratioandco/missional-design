@@ -26,10 +26,15 @@ def main(source):
   s['image']='/assets/app-library/'+s['image'];s['url']='/screens/'+s['id']+'/'
  flows=[]
  names={'blue-letter-bible-mark-a-passage':('Marking a passage','Selected captures show verse actions, the range picker and a later annotated reader. Several intermediate actions are not pictured.'),'hallow-prayer-and-blessing':('Prayer and blessing boundaries','Two captured responses show how the integrated assistant distinguishes prayer wording and a request for a blessing.')}
+ names.update({
+  'ascension-paid-offer-to-trial':('A trial after declining a paid offer','The first annual/monthly offer is followed by an annual trial offer after dismissal. Apple confirmation was declined.'),
+  'bible-memory-free-guest-entry':('Entering the free Lite library without an account','Selected collection, account-choice and empty-library states show an account-free path. No verse was added.'),
+  'bible-for-women-apple-cancellation':('Canceling Apple trial renewal','Apple subscription details, available plans, cancellation confirmation and the verified expiring state. Trial access remains until October 30; intermediate navigation is omitted.'),
+ })
  for key in dict.fromkeys(s['flow_id'] for s in screens if s.get('flow_id')):
   frames=sorted([s for s in screens if s.get('flow_id')==key],key=lambda s:s['flow_order'])
   title,context=names[key];flows.append(dict(id=key,url='/flows/'+key+'/',title=title,context=context,app_id=frames[0]['app_id'],screen_ids=[s['id'] for s in frames],coverage='Selected capture sequence; not a complete walkthrough.'))
- records=dict(schema_version=1,checked='2026-10-25',apps=apps,organisations=orgs,screens=screens,flows=flows)
+ records=dict(schema_version=1,checked=max(s['captured'] for s in screens),apps=apps,organisations=orgs,screens=screens,flows=flows)
  serialized=json.dumps(records,ensure_ascii=False,indent=2)+'\n'
  assert not re.search(r'[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}|/Users/|phone-captures|linkedin\.com/in/|capture-log|source_row|reviewer|ocr_text',serialized),'Private data in public export'
  (ROOT/'src/data/app-library.json').write_text(serialized)

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked": "2026-10-25",
+  "checked": "2026-10-27",
   "apps": [
     {
       "id": "365STEPS",
@@ -51632,6 +51632,3573 @@
       "text": "Willkommen; Schön, dass du die KonApp nutzen möchtest. Um loszulegen musst du nur deinen Namen angeben.; Wie möchtest du genannt werden?; Research; Anmelden; Ich habe schon ein Profil; Ich bin Gruppenleitung",
       "checked": "2026-10-25",
       "url": "/screens/shot-e610588fad446fd75daf/"
+    },
+    {
+      "id": "shot-fd897505a93dd9fa59b1",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-fd897505a93dd9fa59b1.webp",
+      "captured": "2026-10-27",
+      "version": "13.13.0 (11213)",
+      "screen_name": "Trial choices and renewal price",
+      "caption": "The selected offer gives seven days free, then USD69.99 billed yearly. A USD0.99 thirty-day alternative and an enabled trial reminder are also visible; no trial was activated.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD69.99/year. A separate 30-day USD0.99 choice was offered. Locked Holy Family sessions lead to a contextual paywall; Quick Novena offers playback. Hardware confirmation was dismissed; playback, restoration and cancellation were not tested. Settings are existing account state, not installation defaults.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-fd897505a93dd9fa59b1/"
+    },
+    {
+      "id": "shot-376781db6a4586f89a1a",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-376781db6a4586f89a1a.webp",
+      "captured": "2026-10-27",
+      "version": "13.13.0 (11213)",
+      "screen_name": "General settings",
+      "caption": "General settings. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD69.99/year. A separate 30-day USD0.99 choice was offered. Locked Holy Family sessions lead to a contextual paywall; Quick Novena offers playback. Hardware confirmation was dismissed; playback, restoration and cancellation were not tested. Settings are existing account state, not installation defaults.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-376781db6a4586f89a1a/"
+    },
+    {
+      "id": "shot-0e479760e935e38fc78b",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-0e479760e935e38fc78b.webp",
+      "captured": "2026-10-27",
+      "version": "13.13.0 (11213)",
+      "screen_name": "Notification categories",
+      "caption": "Notification categories. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [
+        "Reminders"
+      ],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD69.99/year. A separate 30-day USD0.99 choice was offered. Locked Holy Family sessions lead to a contextual paywall; Quick Novena offers playback. Hardware confirmation was dismissed; playback, restoration and cancellation were not tested. Settings are existing account state, not installation defaults.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-0e479760e935e38fc78b/"
+    },
+    {
+      "id": "shot-b9d64cb38f18862acddc",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-b9d64cb38f18862acddc.webp",
+      "captured": "2026-10-27",
+      "version": "13.13.0 (11213)",
+      "screen_name": "Prayer-streak visibility",
+      "caption": "A dedicated switch can hide the consecutive prayer-day count. It was on in the existing account and was not changed; this is not an installation default.",
+      "screen_type": "Settings",
+      "tags": [
+        "Progress"
+      ],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Build a routine"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "progress-and-streaks",
+        "prayer"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD69.99/year. A separate 30-day USD0.99 choice was offered. Locked Holy Family sessions lead to a contextual paywall; Quick Novena offers playback. Hardware confirmation was dismissed; playback, restoration and cancellation were not tested. Settings are existing account state, not installation defaults.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-b9d64cb38f18862acddc/"
+    },
+    {
+      "id": "shot-caaaf363f334da174286",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-caaaf363f334da174286.webp",
+      "captured": "2026-10-27",
+      "version": "13.13.0 (11213)",
+      "screen_name": "Privacy routes",
+      "caption": "Privacy routes. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [
+        "Privacy"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD69.99/year. A separate 30-day USD0.99 choice was offered. Locked Holy Family sessions lead to a contextual paywall; Quick Novena offers playback. Hardware confirmation was dismissed; playback, restoration and cancellation were not tested. Settings are existing account state, not installation defaults.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-caaaf363f334da174286/"
+    },
+    {
+      "id": "shot-8a51ab6603f742034215",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-8a51ab6603f742034215.webp",
+      "captured": "2026-10-27",
+      "version": "13.13.0 (11213)",
+      "screen_name": "Profile discoverability",
+      "caption": "Profile discoverability. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [
+        "Privacy"
+      ],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "meeting-the-person"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD69.99/year. A separate 30-day USD0.99 choice was offered. Locked Holy Family sessions lead to a contextual paywall; Quick Novena offers playback. Hardware confirmation was dismissed; playback, restoration and cancellation were not tested. Settings are existing account state, not installation defaults.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-8a51ab6603f742034215/"
+    },
+    {
+      "id": "shot-61b96876200c49561b4f",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-61b96876200c49561b4f.webp",
+      "captured": "2026-10-27",
+      "version": "13.13.0 (11213)",
+      "screen_name": "Quiz-result sharing",
+      "caption": "Quiz-result sharing. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [
+        "Privacy"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "sharing-with-a-group"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD69.99/year. A separate 30-day USD0.99 choice was offered. Locked Holy Family sessions lead to a contextual paywall; Quick Novena offers playback. Hardware confirmation was dismissed; playback, restoration and cancellation were not tested. Settings are existing account state, not installation defaults.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-61b96876200c49561b4f/"
+    },
+    {
+      "id": "shot-860068a4996d06861e2f",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-860068a4996d06861e2f.webp",
+      "captured": "2026-10-27",
+      "version": "13.13.0 (11213)",
+      "screen_name": "Tracking categories",
+      "caption": "Tracking categories. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [
+        "Privacy"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD69.99/year. A separate 30-day USD0.99 choice was offered. Locked Holy Family sessions lead to a contextual paywall; Quick Novena offers playback. Hardware confirmation was dismissed; playback, restoration and cancellation were not tested. Settings are existing account state, not installation defaults.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-860068a4996d06861e2f/"
+    },
+    {
+      "id": "shot-bc89fdf40f6484bba4ec",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-bc89fdf40f6484bba4ec.webp",
+      "captured": "2026-10-27",
+      "version": "13.13.0 (11213)",
+      "screen_name": "Free and locked novenas",
+      "caption": "Free and locked novenas. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Browse",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [
+        "Locked"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "prayer"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD69.99/year. A separate 30-day USD0.99 choice was offered. Locked Holy Family sessions lead to a contextual paywall; Quick Novena offers playback. Hardware confirmation was dismissed; playback, restoration and cancellation were not tested. Settings are existing account state, not installation defaults.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-bc89fdf40f6484bba4ec/"
+    },
+    {
+      "id": "shot-0e7a727b85c68d33a1df",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-0e7a727b85c68d33a1df.webp",
+      "captured": "2026-10-27",
+      "version": "13.13.0 (11213)",
+      "screen_name": "Locked novena details",
+      "caption": "Locked novena details. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Content detail",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [
+        "Locked"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "prayer"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD69.99/year. A separate 30-day USD0.99 choice was offered. Locked Holy Family sessions lead to a contextual paywall; Quick Novena offers playback. Hardware confirmation was dismissed; playback, restoration and cancellation were not tested. Settings are existing account state, not installation defaults.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-0e7a727b85c68d33a1df/"
+    },
+    {
+      "id": "shot-4f48744d55e7d3b8e37c",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-4f48744d55e7d3b8e37c.webp",
+      "captured": "2026-10-27",
+      "version": "13.13.0 (11213)",
+      "screen_name": "Session unlock gate",
+      "caption": "Holy Family Day 1 requires unlocking before starting, while its title, guide and description remain available.",
+      "screen_type": "Content detail",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [
+        "Locked"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD69.99/year. A separate 30-day USD0.99 choice was offered. Locked Holy Family sessions lead to a contextual paywall; Quick Novena offers playback. Hardware confirmation was dismissed; playback, restoration and cancellation were not tested. Settings are existing account state, not installation defaults.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-4f48744d55e7d3b8e37c/"
+    },
+    {
+      "id": "shot-65e6d4ef5c6c9e7fb44b",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-65e6d4ef5c6c9e7fb44b.webp",
+      "captured": "2026-10-27",
+      "version": "13.13.0 (11213)",
+      "screen_name": "Contextual trial offer",
+      "caption": "The locked-session offer discloses seven days free followed by USD69.99/year. The offer was dismissed; restoration and cancellation were not tested.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD69.99/year. A separate 30-day USD0.99 choice was offered. Locked Holy Family sessions lead to a contextual paywall; Quick Novena offers playback. Hardware confirmation was dismissed; playback, restoration and cancellation were not tested. Settings are existing account state, not installation defaults.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-65e6d4ef5c6c9e7fb44b/"
+    },
+    {
+      "id": "shot-d668566cc3d1bd7cf3bd",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-d668566cc3d1bd7cf3bd.webp",
+      "captured": "2026-10-27",
+      "version": "13.13.0 (11213)",
+      "screen_name": "Quick Novena play entry",
+      "caption": "Quick Novena play entry. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Content detail",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "prayer"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD69.99/year. A separate 30-day USD0.99 choice was offered. Locked Holy Family sessions lead to a contextual paywall; Quick Novena offers playback. Hardware confirmation was dismissed; playback, restoration and cancellation were not tested. Settings are existing account state, not installation defaults.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-d668566cc3d1bd7cf3bd/"
+    },
+    {
+      "id": "shot-780eca2e5e83c370f48a",
+      "app_id": "io.dwellapp.dwell",
+      "organisation_id": "C034",
+      "image": "/assets/app-library/screens/shot-780eca2e5e83c370f48a.webp",
+      "captured": "2026-10-27",
+      "version": "2026.10.1 (202610131204)",
+      "screen_name": "New plans interface announcement",
+      "caption": "New plans interface announcement. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Announcement",
+      "tags": [
+        "Reading plan",
+        "Progress"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give",
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "reading-plans",
+        "progress-and-streaks"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. An existing lifetime entitlement prevents inspection of the free-tier paywall. Reminder cadence and separate content, release, announcement and offer controls are visible. The announcement contains a publisher demo, not personal plan progress. Voice names do not establish recording provenance.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-780eca2e5e83c370f48a/"
+    },
+    {
+      "id": "shot-8bf87e1bfa195bde57aa",
+      "app_id": "io.dwellapp.dwell",
+      "organisation_id": "C034",
+      "image": "/assets/app-library/screens/shot-8bf87e1bfa195bde57aa.webp",
+      "captured": "2026-10-27",
+      "version": "2026.10.1 (202610131204)",
+      "screen_name": "Existing lifetime entitlement",
+      "caption": "The inspected account already has Dwell Lifetime with no expiry. This prevents a free-tier paywall test; no lifetime purchase occurred in this session.",
+      "screen_type": "Account",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. An existing lifetime entitlement prevents inspection of the free-tier paywall. Reminder cadence and separate content, release, announcement and offer controls are visible. The announcement contains a publisher demo, not personal plan progress. Voice names do not establish recording provenance.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-8bf87e1bfa195bde57aa/"
+    },
+    {
+      "id": "shot-460397a6b568248b58fe",
+      "app_id": "io.dwellapp.dwell",
+      "organisation_id": "C034",
+      "image": "/assets/app-library/screens/shot-460397a6b568248b58fe.webp",
+      "captured": "2026-10-27",
+      "version": "2026.10.1 (202610131204)",
+      "screen_name": "Personalisation settings",
+      "caption": "Personalisation settings. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. An existing lifetime entitlement prevents inspection of the free-tier paywall. Reminder cadence and separate content, release, announcement and offer controls are visible. The announcement contains a publisher demo, not personal plan progress. Voice names do not establish recording provenance.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-460397a6b568248b58fe/"
+    },
+    {
+      "id": "shot-9f8278cb5100c97d7635",
+      "app_id": "io.dwellapp.dwell",
+      "organisation_id": "C034",
+      "image": "/assets/app-library/screens/shot-9f8278cb5100c97d7635.webp",
+      "captured": "2026-10-27",
+      "version": "2026.10.1 (202610131204)",
+      "screen_name": "Empty reminder schedule",
+      "caption": "Empty reminder schedule. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [
+        "Reminders"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [
+        "Empty"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. An existing lifetime entitlement prevents inspection of the free-tier paywall. Reminder cadence and separate content, release, announcement and offer controls are visible. The announcement contains a publisher demo, not personal plan progress. Voice names do not establish recording provenance.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-9f8278cb5100c97d7635/"
+    },
+    {
+      "id": "shot-7b0a0e50cb2fabdaf0f4",
+      "app_id": "io.dwellapp.dwell",
+      "organisation_id": "C034",
+      "image": "/assets/app-library/screens/shot-7b0a0e50cb2fabdaf0f4.webp",
+      "captured": "2026-10-27",
+      "version": "2026.10.1 (202610131204)",
+      "screen_name": "Reminder day and time editor",
+      "caption": "Reminder day and time editor. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [
+        "Reminders"
+      ],
+      "components": [
+        "Button",
+        "Calendar"
+      ],
+      "component_details": [
+        "Button",
+        "Time picker"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. An existing lifetime entitlement prevents inspection of the free-tier paywall. Reminder cadence and separate content, release, announcement and offer controls are visible. The announcement contains a publisher demo, not personal plan progress. Voice names do not establish recording provenance.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-7b0a0e50cb2fabdaf0f4/"
+    },
+    {
+      "id": "shot-467858792e41142c0597",
+      "app_id": "io.dwellapp.dwell",
+      "organisation_id": "C034",
+      "image": "/assets/app-library/screens/shot-467858792e41142c0597.webp",
+      "captured": "2026-10-27",
+      "version": "2026.10.1 (202610131204)",
+      "screen_name": "Announcement and offer controls",
+      "caption": "Existing announcement preferences separately control content, releases, announcements and offers. All four switches are on in this account; delivery frequency was not measured.",
+      "screen_type": "Settings",
+      "tags": [
+        "Upsell",
+        "Reminders"
+      ],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Subscribe or give",
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use",
+        "notifications"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. An existing lifetime entitlement prevents inspection of the free-tier paywall. Reminder cadence and separate content, release, announcement and offer controls are visible. The announcement contains a publisher demo, not personal plan progress. Voice names do not establish recording provenance.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-467858792e41142c0597/"
+    },
+    {
+      "id": "shot-f9af9a9342d2305c09bf",
+      "app_id": "io.dwellapp.dwell",
+      "organisation_id": "C034",
+      "image": "/assets/app-library/screens/shot-f9af9a9342d2305c09bf.webp",
+      "captured": "2026-10-27",
+      "version": "2026.10.1 (202610131204)",
+      "screen_name": "Version and voice preferences",
+      "caption": "Version and voice preferences. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "bible-audio",
+        "translations"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. An existing lifetime entitlement prevents inspection of the free-tier paywall. Reminder cadence and separate content, release, announcement and offer controls are visible. The announcement contains a publisher demo, not personal plan progress. Voice names do not establish recording provenance.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-f9af9a9342d2305c09bf/"
+    },
+    {
+      "id": "shot-f0bb0f6ab3e0de421e3d",
+      "app_id": "is.abide.abide",
+      "organisation_id": "C047",
+      "image": "/assets/app-library/screens/shot-f0bb0f6ab3e0de421e3d.webp",
+      "captured": "2026-10-27",
+      "version": "3.97.0 (2793)",
+      "screen_name": "Upgrade promotion",
+      "caption": "Upgrade promotion. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Announcement",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD39.99/year or USD9.99/month; annual was selected. Reminder editors offer time and weekday controls. Apple confirmation was dismissed; reminder delivery and scholarship fulfilment were not tested.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-f0bb0f6ab3e0de421e3d/"
+    },
+    {
+      "id": "shot-8b48f43c1ec35429f634",
+      "app_id": "is.abide.abide",
+      "organisation_id": "C047",
+      "image": "/assets/app-library/screens/shot-8b48f43c1ec35429f634.webp",
+      "captured": "2026-10-27",
+      "version": "3.97.0 (2793)",
+      "screen_name": "Access and reminder settings",
+      "caption": "Access and reminder settings. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [
+        "Reminders"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD39.99/year or USD9.99/month; annual was selected. Reminder editors offer time and weekday controls. Apple confirmation was dismissed; reminder delivery and scholarship fulfilment were not tested.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-8b48f43c1ec35429f634/"
+    },
+    {
+      "id": "shot-fcb368e883d1087ce8a0",
+      "app_id": "is.abide.abide",
+      "organisation_id": "C047",
+      "image": "/assets/app-library/screens/shot-fcb368e883d1087ce8a0.webp",
+      "captured": "2026-10-27",
+      "version": "3.97.0 (2793)",
+      "screen_name": "Annual and monthly trial choices",
+      "caption": "The selected annual offer gives seven days free then USD39.99/year; USD3.33/month is an equivalent, not monthly billing. The monthly alternative is USD9.99.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD39.99/year or USD9.99/month; annual was selected. Reminder editors offer time and weekday controls. Apple confirmation was dismissed; reminder delivery and scholarship fulfilment were not tested.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-fcb368e883d1087ce8a0/"
+    },
+    {
+      "id": "shot-1680ea813f0453a68e9a",
+      "app_id": "is.abide.abide",
+      "organisation_id": "C047",
+      "image": "/assets/app-library/screens/shot-1680ea813f0453a68e9a.webp",
+      "captured": "2026-10-27",
+      "version": "3.97.0 (2793)",
+      "screen_name": "Meditation reminder editor",
+      "caption": "Meditation reminder editor. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [
+        "Reminders"
+      ],
+      "components": [
+        "Button",
+        "Calendar"
+      ],
+      "component_details": [
+        "Button",
+        "Time picker"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD39.99/year or USD9.99/month; annual was selected. Reminder editors offer time and weekday controls. Apple confirmation was dismissed; reminder delivery and scholarship fulfilment were not tested.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-1680ea813f0453a68e9a/"
+    },
+    {
+      "id": "shot-21cb900b13aae4316676",
+      "app_id": "is.abide.abide",
+      "organisation_id": "C047",
+      "image": "/assets/app-library/screens/shot-21cb900b13aae4316676.webp",
+      "captured": "2026-10-27",
+      "version": "3.97.0 (2793)",
+      "screen_name": "Bedtime reminder editor",
+      "caption": "Bedtime reminder editor. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [
+        "Reminders"
+      ],
+      "components": [
+        "Button",
+        "Calendar"
+      ],
+      "component_details": [
+        "Button",
+        "Time picker"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD39.99/year or USD9.99/month; annual was selected. Reminder editors offer time and weekday controls. Apple confirmation was dismissed; reminder delivery and scholarship fulfilment were not tested.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-21cb900b13aae4316676/"
+    },
+    {
+      "id": "shot-55c23e01efb3349a53aa",
+      "app_id": "com.Quiet-Time",
+      "organisation_id": "C087",
+      "image": "/assets/app-library/screens/shot-55c23e01efb3349a53aa.webp",
+      "captured": "2026-10-27",
+      "version": "2.185.0 (13)",
+      "screen_name": "Welcome back and growing-tree metaphor",
+      "caption": "Welcome back and growing-tree metaphor. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Onboarding",
+      "tags": [
+        "Progress"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Build a routine"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "progress-and-streaks"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. A welcome-back tree metaphor and a quote completion control are visible. The subsequent Today view marks the quote complete without a recorded completion tap; the cause remains unresolved. Course entry does not establish full free access or therapeutic effectiveness.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-55c23e01efb3349a53aa/"
+    },
+    {
+      "id": "shot-c2561038edec441b8b4b",
+      "app_id": "com.Quiet-Time",
+      "organisation_id": "C087",
+      "image": "/assets/app-library/screens/shot-c2561038edec441b8b4b.webp",
+      "captured": "2026-10-27",
+      "version": "2.185.0 (13)",
+      "screen_name": "Quote with explicit completion action",
+      "caption": "Quote with explicit completion action. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Content detail",
+      "tags": [
+        "Progress"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Build a routine"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "progress-and-streaks"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. A welcome-back tree metaphor and a quote completion control are visible. The subsequent Today view marks the quote complete without a recorded completion tap; the cause remains unresolved. Course entry does not establish full free access or therapeutic effectiveness.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-c2561038edec441b8b4b/"
+    },
+    {
+      "id": "shot-c0e4da7b92e83f3d4252",
+      "app_id": "com.Quiet-Time",
+      "organisation_id": "C087",
+      "image": "/assets/app-library/screens/shot-c0e4da7b92e83f3d4252.webp",
+      "captured": "2026-10-27",
+      "version": "2.185.0 (13)",
+      "screen_name": "Disarming Fear course details",
+      "caption": "Disarming Fear course details. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Content detail",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "reading-plans"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. A welcome-back tree metaphor and a quote completion control are visible. The subsequent Today view marks the quote complete without a recorded completion tap; the cause remains unresolved. Course entry does not establish full free access or therapeutic effectiveness.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-c0e4da7b92e83f3d4252/"
+    },
+    {
+      "id": "shot-29a0e4193b076730fbea",
+      "app_id": "com.prayapp.pray",
+      "organisation_id": "C070",
+      "image": "/assets/app-library/screens/shot-29a0e4193b076730fbea.webp",
+      "captured": "2026-10-27",
+      "version": "2.149.1 (2)",
+      "screen_name": "Ministry-support annual offer",
+      "caption": "Ministry-support annual offer. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use",
+        "giving"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Support offers and Premium trials are separate surfaces: individual USD99.99/year or USD19.99/month; family USD39.99/month or USD299.99/year. Premium advertises seven days free. The attempted trial opened Apple Pay rather than Apple-account IAP and was dismissed. AI-labelled purchase management was not executed. No claim about ministry fund allocation or cancellation success.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-29a0e4193b076730fbea/"
+    },
+    {
+      "id": "shot-0a5c17adef8e415ad60e",
+      "app_id": "com.prayapp.pray",
+      "organisation_id": "C070",
+      "image": "/assets/app-library/screens/shot-0a5c17adef8e415ad60e.webp",
+      "captured": "2026-10-27",
+      "version": "2.149.1 (2)",
+      "screen_name": "Ministry-support monthly offer",
+      "caption": "Ministry-support monthly offer. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use",
+        "giving"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Support offers and Premium trials are separate surfaces: individual USD99.99/year or USD19.99/month; family USD39.99/month or USD299.99/year. Premium advertises seven days free. The attempted trial opened Apple Pay rather than Apple-account IAP and was dismissed. AI-labelled purchase management was not executed. No claim about ministry fund allocation or cancellation success.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-0a5c17adef8e415ad60e/"
+    },
+    {
+      "id": "shot-6cd383097480aca98831",
+      "app_id": "com.prayapp.pray",
+      "organisation_id": "C070",
+      "image": "/assets/app-library/screens/shot-6cd383097480aca98831.webp",
+      "captured": "2026-10-27",
+      "version": "2.149.1 (2)",
+      "screen_name": "Family support plans",
+      "caption": "Family support plans. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use",
+        "giving"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Support offers and Premium trials are separate surfaces: individual USD99.99/year or USD19.99/month; family USD39.99/month or USD299.99/year. Premium advertises seven days free. The attempted trial opened Apple Pay rather than Apple-account IAP and was dismissed. AI-labelled purchase management was not executed. No claim about ministry fund allocation or cancellation success.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-6cd383097480aca98831/"
+    },
+    {
+      "id": "shot-372643e2a48fb7773c57",
+      "app_id": "com.prayapp.pray",
+      "organisation_id": "C070",
+      "image": "/assets/app-library/screens/shot-372643e2a48fb7773c57.webp",
+      "captured": "2026-10-27",
+      "version": "2.149.1 (2)",
+      "screen_name": "Ebook and ongoing email offer",
+      "caption": "Ebook and ongoing email offer. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Support offers and Premium trials are separate surfaces: individual USD99.99/year or USD19.99/month; family USD39.99/month or USD299.99/year. Premium advertises seven days free. The attempted trial opened Apple Pay rather than Apple-account IAP and was dismissed. AI-labelled purchase management was not executed. No claim about ministry fund allocation or cancellation success.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-372643e2a48fb7773c57/"
+    },
+    {
+      "id": "shot-5e5e5818808eebaa1ed0",
+      "app_id": "com.prayapp.pray",
+      "organisation_id": "C070",
+      "image": "/assets/app-library/screens/shot-5e5e5818808eebaa1ed0.webp",
+      "captured": "2026-10-27",
+      "version": "2.149.1 (2)",
+      "screen_name": "Premium trial plans",
+      "caption": "Premium trial plans. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Support offers and Premium trials are separate surfaces: individual USD99.99/year or USD19.99/month; family USD39.99/month or USD299.99/year. Premium advertises seven days free. The attempted trial opened Apple Pay rather than Apple-account IAP and was dismissed. AI-labelled purchase management was not executed. No claim about ministry fund allocation or cancellation success.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-5e5e5818808eebaa1ed0/"
+    },
+    {
+      "id": "shot-84e7171124576de59810",
+      "app_id": "com.prayapp.pray",
+      "organisation_id": "C070",
+      "image": "/assets/app-library/screens/shot-84e7171124576de59810.webp",
+      "captured": "2026-10-27",
+      "version": "2.149.1 (2)",
+      "screen_name": "Account and purchase settings",
+      "caption": "Account and purchase settings. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Support offers and Premium trials are separate surfaces: individual USD99.99/year or USD19.99/month; family USD39.99/month or USD299.99/year. Premium advertises seven days free. The attempted trial opened Apple Pay rather than Apple-account IAP and was dismissed. AI-labelled purchase management was not executed. No claim about ministry fund allocation or cancellation success.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-84e7171124576de59810/"
+    },
+    {
+      "id": "shot-1009183d7ba0d4170f95",
+      "app_id": "com.prayapp.pray",
+      "organisation_id": "C070",
+      "image": "/assets/app-library/screens/shot-1009183d7ba0d4170f95.webp",
+      "captured": "2026-10-27",
+      "version": "2.149.1 (2)",
+      "screen_name": "AI-labelled purchase-management entry",
+      "caption": "Manage Purchases opens an AI-labelled assistant entry rather than a conventional subscription list. No request was submitted, so management and cancellation capability remain untested.",
+      "screen_type": "Chat",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Support offers and Premium trials are separate surfaces: individual USD99.99/year or USD19.99/month; family USD39.99/month or USD299.99/year. Premium advertises seven days free. The attempted trial opened Apple Pay rather than Apple-account IAP and was dismissed. AI-labelled purchase management was not executed. No claim about ministry fund allocation or cancellation success.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-1009183d7ba0d4170f95/"
+    },
+    {
+      "id": "shot-2c9c944c43e53581c23e",
+      "app_id": "com.prayapp.pray",
+      "organisation_id": "C070",
+      "image": "/assets/app-library/screens/shot-2c9c944c43e53581c23e.webp",
+      "captured": "2026-10-27",
+      "version": "2.149.1 (2)",
+      "screen_name": "Push-notification master control",
+      "caption": "Push-notification master control. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [
+        "Reminders"
+      ],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Support offers and Premium trials are separate surfaces: individual USD99.99/year or USD19.99/month; family USD39.99/month or USD299.99/year. Premium advertises seven days free. The attempted trial opened Apple Pay rather than Apple-account IAP and was dismissed. AI-labelled purchase management was not executed. No claim about ministry fund allocation or cancellation success.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-2c9c944c43e53581c23e/"
+    },
+    {
+      "id": "shot-a5d4a348a9072d546df3",
+      "app_id": "com.prayapp.pray",
+      "organisation_id": "C070",
+      "image": "/assets/app-library/screens/shot-a5d4a348a9072d546df3.webp",
+      "captured": "2026-10-27",
+      "version": "2.149.1 (2)",
+      "screen_name": "Reminder framed around avoiding streak loss",
+      "caption": "The reminder prompt ties setting a reminder to avoiding a missed daily prayer and losing a streak. No reminder was saved.",
+      "screen_type": "Settings",
+      "tags": [
+        "Reminders",
+        "Progress"
+      ],
+      "components": [
+        "Button",
+        "Calendar"
+      ],
+      "component_details": [
+        "Button",
+        "Time picker"
+      ],
+      "tasks": [
+        "Manage settings",
+        "Build a routine"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications",
+        "progress-and-streaks"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Support offers and Premium trials are separate surfaces: individual USD99.99/year or USD19.99/month; family USD39.99/month or USD299.99/year. Premium advertises seven days free. The attempted trial opened Apple Pay rather than Apple-account IAP and was dismissed. AI-labelled purchase management was not executed. No claim about ministry fund allocation or cancellation success.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-a5d4a348a9072d546df3/"
+    },
+    {
+      "id": "shot-01ccbdb9cb22c3feba35",
+      "app_id": "com.prayapp.pray",
+      "organisation_id": "C070",
+      "image": "/assets/app-library/screens/shot-01ccbdb9cb22c3feba35.webp",
+      "captured": "2026-10-27",
+      "version": "2.149.1 (2)",
+      "screen_name": "Prayer alarm control",
+      "caption": "Prayer alarm control. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "prayer"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Support offers and Premium trials are separate surfaces: individual USD99.99/year or USD19.99/month; family USD39.99/month or USD299.99/year. Premium advertises seven days free. The attempted trial opened Apple Pay rather than Apple-account IAP and was dismissed. AI-labelled purchase management was not executed. No claim about ministry fund allocation or cancellation success.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-01ccbdb9cb22c3feba35/"
+    },
+    {
+      "id": "shot-e0d775d757b25f4c45af",
+      "app_id": "com.prayapp.pray",
+      "organisation_id": "C070",
+      "image": "/assets/app-library/screens/shot-e0d775d757b25f4c45af.webp",
+      "captured": "2026-10-27",
+      "version": "2.149.1 (2)",
+      "screen_name": "Premium streak-repair offer",
+      "caption": "The missed-day screen offers two streak repairs per month with Premium and also provides Continue. No repair was performed; the offer alone does not establish harm or spiritual outcomes.",
+      "screen_type": "Progress",
+      "tags": [
+        "Upsell",
+        "Progress"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give",
+        "Build a routine"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use",
+        "progress-and-streaks"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Support offers and Premium trials are separate surfaces: individual USD99.99/year or USD19.99/month; family USD39.99/month or USD299.99/year. Premium advertises seven days free. The attempted trial opened Apple Pay rather than Apple-account IAP and was dismissed. AI-labelled purchase management was not executed. No claim about ministry fund allocation or cancellation success.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-e0d775d757b25f4c45af/"
+    },
+    {
+      "id": "shot-df91818200b03cc54071",
+      "app_id": "com.duomoapp.project",
+      "organisation_id": "C029",
+      "image": "/assets/app-library/screens/shot-df91818200b03cc54071.webp",
+      "captured": "2026-10-27",
+      "version": "6.4.8 (108)",
+      "screen_name": "Onboarding audience and rating claims",
+      "caption": "Onboarding audience and rating claims. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Onboarding",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. The entry screen claims more than one million users across more than 150 countries. These are publisher claims, not independently verified audience measurements.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-df91818200b03cc54071/"
+    },
+    {
+      "id": "shot-3632df5539c32669e403",
+      "app_id": "com.stayonfire.stayonfireapp",
+      "organisation_id": "C076",
+      "image": "/assets/app-library/screens/shot-3632df5539c32669e403.webp",
+      "captured": "2026-10-27",
+      "version": "3.2.0 (38)",
+      "screen_name": "Daily reading feed",
+      "caption": "Daily reading feed. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Home",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Guest settings require sign-in for streaks, favourites and notifications. Autoplay and preload were on in this existing state; usage analytics was off. No installation-default or backend privacy claim.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-3632df5539c32669e403/"
+    },
+    {
+      "id": "shot-37f0927733f8ff5f5f81",
+      "app_id": "com.stayonfire.stayonfireapp",
+      "organisation_id": "C076",
+      "image": "/assets/app-library/screens/shot-37f0927733f8ff5f5f81.webp",
+      "captured": "2026-10-27",
+      "version": "3.2.0 (38)",
+      "screen_name": "Account benefits and sign-in entry",
+      "caption": "Account benefits and sign-in entry. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Account",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use",
+        "meeting-the-person"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Guest settings require sign-in for streaks, favourites and notifications. Autoplay and preload were on in this existing state; usage analytics was off. No installation-default or backend privacy claim.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-37f0927733f8ff5f5f81/"
+    },
+    {
+      "id": "shot-6da2f300423beb5b861b",
+      "app_id": "com.stayonfire.stayonfireapp",
+      "organisation_id": "C076",
+      "image": "/assets/app-library/screens/shot-6da2f300423beb5b861b.webp",
+      "captured": "2026-10-27",
+      "version": "3.2.0 (38)",
+      "screen_name": "Guest settings and gated engagement features",
+      "caption": "Guest settings and gated engagement features. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Guest settings require sign-in for streaks, favourites and notifications. Autoplay and preload were on in this existing state; usage analytics was off. No installation-default or backend privacy claim.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-6da2f300423beb5b861b/"
+    },
+    {
+      "id": "shot-d3fcf484daa703e1f067",
+      "app_id": "com.stayonfire.stayonfireapp",
+      "organisation_id": "C076",
+      "image": "/assets/app-library/screens/shot-d3fcf484daa703e1f067.webp",
+      "captured": "2026-10-27",
+      "version": "3.2.0 (38)",
+      "screen_name": "Autoplay and preload controls",
+      "caption": "Autoplay and preload controls. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "bible-audio"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Guest settings require sign-in for streaks, favourites and notifications. Autoplay and preload were on in this existing state; usage analytics was off. No installation-default or backend privacy claim.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-d3fcf484daa703e1f067/"
+    },
+    {
+      "id": "shot-3a0e8b238e160f65227a",
+      "app_id": "com.zonervan.biblegateway",
+      "organisation_id": "C050",
+      "image": "/assets/app-library/screens/shot-3a0e8b238e160f65227a.webp",
+      "captured": "2026-10-27",
+      "version": "200.2.1 (1)",
+      "screen_name": "Free home and Plus promotion",
+      "caption": "Free home and Plus promotion. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Home",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. The comparison assigns translations, highlighting and note sync to the free account; ad-free access and premium study resources to Plus. The USD6.99/month wording is an as-low-as comparison, not a verified checkout quote.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-3a0e8b238e160f65227a/"
+    },
+    {
+      "id": "shot-cd869ebfaa40f9648053",
+      "app_id": "com.zonervan.biblegateway",
+      "organisation_id": "C050",
+      "image": "/assets/app-library/screens/shot-cd869ebfaa40f9648053.webp",
+      "captured": "2026-10-27",
+      "version": "200.2.1 (1)",
+      "screen_name": "Free and Plus comparison",
+      "caption": "Free and Plus comparison. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Subscription",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use",
+        "study-helps"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. The comparison assigns translations, highlighting and note sync to the free account; ad-free access and premium study resources to Plus. The USD6.99/month wording is an as-low-as comparison, not a verified checkout quote.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-cd869ebfaa40f9648053/"
+    },
+    {
+      "id": "shot-bf97ca76f1d7a3150963",
+      "app_id": "org.crossway.ESVStudyBible",
+      "organisation_id": "C028",
+      "image": "/assets/app-library/screens/shot-bf97ca76f1d7a3150963.webp",
+      "captured": "2026-10-27",
+      "version": "5.1.15 (1463)",
+      "screen_name": "Free and locked study resources",
+      "caption": "Free and locked study resources. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Browse",
+      "tags": [
+        "Subscription"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [
+        "Locked"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "study-helps"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven-day trial with USD3.99/month or USD39.99/year. Monthly was selected. The app timeline names November 3 while Apple names November 2 for conversion; the discrepancy remains unresolved. The reader remained accessible after declining the trial; premium resources and restoration were not executed.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-bf97ca76f1d7a3150963/"
+    },
+    {
+      "id": "shot-6d3bacb5c50e33b12cd8",
+      "app_id": "org.crossway.ESVStudyBible",
+      "organisation_id": "C028",
+      "image": "/assets/app-library/screens/shot-6d3bacb5c50e33b12cd8.webp",
+      "captured": "2026-10-27",
+      "version": "5.1.15 (1463)",
+      "screen_name": "Locked-resource trial offer",
+      "caption": "Locked-resource trial offer. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [
+        "Locked"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven-day trial with USD3.99/month or USD39.99/year. Monthly was selected. The app timeline names November 3 while Apple names November 2 for conversion; the discrepancy remains unresolved. The reader remained accessible after declining the trial; premium resources and restoration were not executed.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-6d3bacb5c50e33b12cd8/"
+    },
+    {
+      "id": "shot-32f780826fefd9b64f75",
+      "app_id": "org.crossway.ESVStudyBible",
+      "organisation_id": "C028",
+      "image": "/assets/app-library/screens/shot-32f780826fefd9b64f75.webp",
+      "captured": "2026-10-27",
+      "version": "5.1.15 (1463)",
+      "screen_name": "Trial reminder timeline",
+      "caption": "The app promises a trial reminder on October 31 and conversion on November 3. Apple later showed November 2; the discrepancy remains unresolved and no trial was activated.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell",
+        "Reminders"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give",
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use",
+        "notifications"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven-day trial with USD3.99/month or USD39.99/year. Monthly was selected. The app timeline names November 3 while Apple names November 2 for conversion; the discrepancy remains unresolved. The reader remained accessible after declining the trial; premium resources and restoration were not executed.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-32f780826fefd9b64f75/"
+    },
+    {
+      "id": "shot-018088e90db6459b6610",
+      "app_id": "org.crossway.ESVStudyBible",
+      "organisation_id": "C028",
+      "image": "/assets/app-library/screens/shot-018088e90db6459b6610.webp",
+      "captured": "2026-10-27",
+      "version": "5.1.15 (1463)",
+      "screen_name": "Monthly and annual billing choices",
+      "caption": "Monthly USD3.99 is selected; annual USD39.99 is offered alongside it. The stated periods are actual billing choices rather than equivalent monthly calculations.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven-day trial with USD3.99/month or USD39.99/year. Monthly was selected. The app timeline names November 3 while Apple names November 2 for conversion; the discrepancy remains unresolved. The reader remained accessible after declining the trial; premium resources and restoration were not executed.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-018088e90db6459b6610/"
+    },
+    {
+      "id": "shot-ddceb233f870ab2bba91",
+      "app_id": "org.crossway.ESVStudyBible",
+      "organisation_id": "C028",
+      "image": "/assets/app-library/screens/shot-ddceb233f870ab2bba91.webp",
+      "captured": "2026-10-27",
+      "version": "5.1.15 (1463)",
+      "screen_name": "Reader after trial dismissal",
+      "caption": "Reader after trial dismissal. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Bible reader",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "how-much-text",
+        "numbers-headings-and-notes"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven-day trial with USD3.99/month or USD39.99/year. Monthly was selected. The app timeline names November 3 while Apple names November 2 for conversion; the discrepancy remains unresolved. The reader remained accessible after declining the trial; premium resources and restoration were not executed.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-ddceb233f870ab2bba91/"
+    },
+    {
+      "id": "shot-c2ca8910f47e76d03f9b",
+      "app_id": "com.yourcompany.TecartaBible",
+      "organisation_id": "C088",
+      "image": "/assets/app-library/screens/shot-c2ca8910f47e76d03f9b.webp",
+      "captured": "2026-10-27",
+      "version": "10.2.557 (2002557)",
+      "screen_name": "Verse notification pre-prompt",
+      "caption": "A Verse of the Day notification prompt offers Not Now and Enable. Advertising-consent text present in the accessibility tree is not visible in this screenshot.",
+      "screen_type": "Permissions",
+      "tags": [
+        "Reminders"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. One month free followed by USD5.99/month or USD59.99/year. Separate access choices offer account-linked temporary ad removal, regular ads, annual ad removal and Premium. Hidden accessibility consent text was not displayed in these frames. No consent change or subscription activation.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-c2ca8910f47e76d03f9b/"
+    },
+    {
+      "id": "shot-fdd7e74f5c5ad7005105",
+      "app_id": "com.yourcompany.TecartaBible",
+      "organisation_id": "C088",
+      "image": "/assets/app-library/screens/shot-fdd7e74f5c5ad7005105.webp",
+      "captured": "2026-10-27",
+      "version": "10.2.557 (2002557)",
+      "screen_name": "Home after notification deferral",
+      "caption": "Home after notification deferral. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Home",
+      "tags": [
+        "Reminders"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. One month free followed by USD5.99/month or USD59.99/year. Separate access choices offer account-linked temporary ad removal, regular ads, annual ad removal and Premium. Hidden accessibility consent text was not displayed in these frames. No consent change or subscription activation.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-fdd7e74f5c5ad7005105/"
+    },
+    {
+      "id": "shot-a47e3e117f130f05d3df",
+      "app_id": "com.yourcompany.TecartaBible",
+      "organisation_id": "C088",
+      "image": "/assets/app-library/screens/shot-a47e3e117f130f05d3df.webp",
+      "captured": "2026-10-27",
+      "version": "10.2.557 (2002557)",
+      "screen_name": "Premium benefits and trial",
+      "caption": "Premium benefits and trial. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. One month free followed by USD5.99/month or USD59.99/year. Separate access choices offer account-linked temporary ad removal, regular ads, annual ad removal and Premium. Hidden accessibility consent text was not displayed in these frames. No consent change or subscription activation.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-a47e3e117f130f05d3df/"
+    },
+    {
+      "id": "shot-f54d659f0b6bf1dd31bd",
+      "app_id": "com.yourcompany.TecartaBible",
+      "organisation_id": "C088",
+      "image": "/assets/app-library/screens/shot-f54d659f0b6bf1dd31bd.webp",
+      "captured": "2026-10-27",
+      "version": "10.2.557 (2002557)",
+      "screen_name": "Monthly and yearly trial choices",
+      "caption": "Monthly and yearly trial choices. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. One month free followed by USD5.99/month or USD59.99/year. Separate access choices offer account-linked temporary ad removal, regular ads, annual ad removal and Premium. Hidden accessibility consent text was not displayed in these frames. No consent change or subscription activation.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-f54d659f0b6bf1dd31bd/"
+    },
+    {
+      "id": "shot-b1c5ad798ecda06a8ba1",
+      "app_id": "com.yourcompany.TecartaBible",
+      "organisation_id": "C088",
+      "image": "/assets/app-library/screens/shot-b1c5ad798ecda06a8ba1.webp",
+      "captured": "2026-10-27",
+      "version": "10.2.557 (2002557)",
+      "screen_name": "Advertising and ad-free access choices",
+      "caption": "Ad-access choices distinguish creating an account for three ad-free months, regular ads, paying for annual ad removal and Premium. No option was saved.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. One month free followed by USD5.99/month or USD59.99/year. Separate access choices offer account-linked temporary ad removal, regular ads, annual ad removal and Premium. Hidden accessibility consent text was not displayed in these frames. No consent change or subscription activation.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-b1c5ad798ecda06a8ba1/"
+    },
+    {
+      "id": "shot-1f41bba8970212d609d7",
+      "app_id": "com.soultime.app",
+      "organisation_id": "C080",
+      "image": "/assets/app-library/screens/shot-1f41bba8970212d609d7.webp",
+      "captured": "2026-10-27",
+      "version": "7.2.9 (180)",
+      "screen_name": "Subscription error",
+      "caption": "Subscription error. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Error",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [
+        "Error"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Subscription and reminder routes returned errors in this session. Friend settings offer automatic nudges or asking each time. No notification was sent; error states do not establish absence of subscriptions or reminders.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-1f41bba8970212d609d7/"
+    },
+    {
+      "id": "shot-2db60d2ee7639a1f5ecc",
+      "app_id": "com.soultime.app",
+      "organisation_id": "C080",
+      "image": "/assets/app-library/screens/shot-2db60d2ee7639a1f5ecc.webp",
+      "captured": "2026-10-27",
+      "version": "7.2.9 (180)",
+      "screen_name": "Reminder-times error",
+      "caption": "Reminder-times error. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Error",
+      "tags": [
+        "Reminders"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [
+        "Error"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Subscription and reminder routes returned errors in this session. Friend settings offer automatic nudges or asking each time. No notification was sent; error states do not establish absence of subscriptions or reminders.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-2db60d2ee7639a1f5ecc/"
+    },
+    {
+      "id": "shot-c67b40ca7c01b1a096bd",
+      "app_id": "com.soultime.app",
+      "organisation_id": "C080",
+      "image": "/assets/app-library/screens/shot-c67b40ca7c01b1a096bd.webp",
+      "captured": "2026-10-27",
+      "version": "7.2.9 (180)",
+      "screen_name": "Automatic friend-notification consent",
+      "caption": "Friend settings describe automatic nudges and an alternative that asks each time before notifying a friend. Enforcement and triggering were not tested; nobody was contacted.",
+      "screen_type": "Settings",
+      "tags": [
+        "Reminders"
+      ],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Subscription and reminder routes returned errors in this session. Friend settings offer automatic nudges or asking each time. No notification was sent; error states do not establish absence of subscriptions or reminders.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-c67b40ca7c01b1a096bd/"
+    },
+    {
+      "id": "shot-4ea99fbd7b924be7fa0a",
+      "app_id": "org.amenapp.amen",
+      "organisation_id": "C008",
+      "image": "/assets/app-library/screens/shot-4ea99fbd7b924be7fa0a.webp",
+      "captured": "2026-10-27",
+      "version": "1.36.3 (2741)",
+      "screen_name": "Account and reminder settings",
+      "caption": "Account and reminder settings. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [
+        "Reminders"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Meditation and bedtime reminder controls are visible. No payment offer occurred in this scoped path; this is not proof that all services are free. No reminder saved.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-4ea99fbd7b924be7fa0a/"
+    },
+    {
+      "id": "shot-326d3f4cee32da1b76cb",
+      "app_id": "org.amenapp.amen",
+      "organisation_id": "C008",
+      "image": "/assets/app-library/screens/shot-326d3f4cee32da1b76cb.webp",
+      "captured": "2026-10-27",
+      "version": "1.36.3 (2741)",
+      "screen_name": "Meditation reminder editor",
+      "caption": "Meditation reminder editor. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [
+        "Reminders"
+      ],
+      "components": [
+        "Button",
+        "Toggle",
+        "Calendar"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle",
+        "Time picker"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Meditation and bedtime reminder controls are visible. No payment offer occurred in this scoped path; this is not proof that all services are free. No reminder saved.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-326d3f4cee32da1b76cb/"
+    },
+    {
+      "id": "shot-1f6d384fdaf966003b70",
+      "app_id": "org.amenapp.amen",
+      "organisation_id": "C008",
+      "image": "/assets/app-library/screens/shot-1f6d384fdaf966003b70.webp",
+      "captured": "2026-10-27",
+      "version": "1.36.3 (2741)",
+      "screen_name": "Bedtime reminder editor",
+      "caption": "Bedtime reminder editor. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [
+        "Reminders"
+      ],
+      "components": [
+        "Button",
+        "Calendar"
+      ],
+      "component_details": [
+        "Button",
+        "Time picker"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Meditation and bedtime reminder controls are visible. No payment offer occurred in this scoped path; this is not proof that all services are free. No reminder saved.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-1f6d384fdaf966003b70/"
+    },
+    {
+      "id": "shot-b6cc39e867753483ac5d",
+      "app_id": "com.prayer247.lectio365",
+      "organisation_id": "C002",
+      "image": "/assets/app-library/screens/shot-b6cc39e867753483ac5d.webp",
+      "captured": "2026-10-27",
+      "version": "4.12.0 (100063)",
+      "screen_name": "Attributed morning-prayer reader",
+      "caption": "Attributed morning-prayer reader. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Prayer",
+      "tags": [],
+      "components": [
+        "Button",
+        "Audio control"
+      ],
+      "component_details": [
+        "Button",
+        "Audio controls"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "prayer",
+        "devotional-audio"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. An attributed prayer reader and three dayparts are available in the inspected path. Morning, midday and night reminders are separately controlled and currently off. No audio played, notification delivery tested or donation made.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-b6cc39e867753483ac5d/"
+    },
+    {
+      "id": "shot-68771ecef986f5acf98c",
+      "app_id": "com.prayer247.lectio365",
+      "organisation_id": "C002",
+      "image": "/assets/app-library/screens/shot-68771ecef986f5acf98c.webp",
+      "captured": "2026-10-27",
+      "version": "4.12.0 (100063)",
+      "screen_name": "Morning midday and night navigation",
+      "caption": "Morning midday and night navigation. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Home",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. An attributed prayer reader and three dayparts are available in the inspected path. Morning, midday and night reminders are separately controlled and currently off. No audio played, notification delivery tested or donation made.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-68771ecef986f5acf98c/"
+    },
+    {
+      "id": "shot-e3270f7c2add8b6f0fe3",
+      "app_id": "com.prayer247.lectio365",
+      "organisation_id": "C002",
+      "image": "/assets/app-library/screens/shot-e3270f7c2add8b6f0fe3.webp",
+      "captured": "2026-10-27",
+      "version": "4.12.0 (100063)",
+      "screen_name": "About settings and support routes",
+      "caption": "About settings and support routes. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "giving"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. An attributed prayer reader and three dayparts are available in the inspected path. Morning, midday and night reminders are separately controlled and currently off. No audio played, notification delivery tested or donation made.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-e3270f7c2add8b6f0fe3/"
+    },
+    {
+      "id": "shot-174a44f6fc4e4c9afc44",
+      "app_id": "com.prayer247.lectio365",
+      "organisation_id": "C002",
+      "image": "/assets/app-library/screens/shot-174a44f6fc4e4c9afc44.webp",
+      "captured": "2026-10-27",
+      "version": "4.12.0 (100063)",
+      "screen_name": "Separate prayer reminder controls",
+      "caption": "Separate prayer reminder controls. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [
+        "Reminders"
+      ],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications",
+        "prayer"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. An attributed prayer reader and three dayparts are available in the inspected path. Morning, midday and night reminders are separately controlled and currently off. No audio played, notification delivery tested or donation made.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-174a44f6fc4e4c9afc44/"
+    },
+    {
+      "id": "shot-26ba29140993b6b908b0",
+      "app_id": "com.ascension.app",
+      "organisation_id": "C007",
+      "image": "/assets/app-library/screens/shot-26ba29140993b6b908b0.webp",
+      "captured": "2026-10-27",
+      "version": "1.16.3 (808)",
+      "screen_name": "Reading and autoplay preferences",
+      "caption": "Reading and autoplay preferences. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "bible-audio"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Initial plans show USD59.99/year or USD8.99/month without a trial. Dismissing that paywall produces a seven-day annual trial at USD59.99/year. Apple confirmation was dismissed. The 83% understanding claim is publisher marketing, not a measured outcome in this study.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-26ba29140993b6b908b0/"
+    },
+    {
+      "id": "shot-35486aa2617550eba6e3",
+      "app_id": "com.ascension.app",
+      "organisation_id": "C007",
+      "image": "/assets/app-library/screens/shot-35486aa2617550eba6e3.webp",
+      "captured": "2026-10-27",
+      "version": "1.16.3 (808)",
+      "screen_name": "Notification and progress controls",
+      "caption": "Notification and progress controls. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [
+        "Reminders"
+      ],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Initial plans show USD59.99/year or USD8.99/month without a trial. Dismissing that paywall produces a seven-day annual trial at USD59.99/year. Apple confirmation was dismissed. The 83% understanding claim is publisher marketing, not a measured outcome in this study.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-35486aa2617550eba6e3/"
+    },
+    {
+      "id": "shot-28164f33eed6475614ae",
+      "app_id": "com.ascension.app",
+      "organisation_id": "C007",
+      "image": "/assets/app-library/screens/shot-28164f33eed6475614ae.webp",
+      "captured": "2026-10-27",
+      "version": "1.16.3 (808)",
+      "screen_name": "Explore catalogue",
+      "caption": "Explore catalogue. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Browse",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Initial plans show USD59.99/year or USD8.99/month without a trial. Dismissing that paywall produces a seven-day annual trial at USD59.99/year. Apple confirmation was dismissed. The 83% understanding claim is publisher marketing, not a measured outcome in this study.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-28164f33eed6475614ae/"
+    },
+    {
+      "id": "shot-69765c31000763145fb7",
+      "app_id": "com.ascension.app",
+      "organisation_id": "C007",
+      "image": "/assets/app-library/screens/shot-69765c31000763145fb7.webp",
+      "captured": "2026-10-27",
+      "version": "1.16.3 (808)",
+      "screen_name": "Premium entry within Explore",
+      "caption": "Premium entry within Explore. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Browse",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Initial plans show USD59.99/year or USD8.99/month without a trial. Dismissing that paywall produces a seven-day annual trial at USD59.99/year. Apple confirmation was dismissed. The 83% understanding claim is publisher marketing, not a measured outcome in this study.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-69765c31000763145fb7/"
+    },
+    {
+      "id": "shot-7939b575f38a91680f2b",
+      "app_id": "com.ascension.app",
+      "organisation_id": "C007",
+      "image": "/assets/app-library/screens/shot-7939b575f38a91680f2b.webp",
+      "captured": "2026-10-27",
+      "version": "1.16.3 (808)",
+      "screen_name": "Initial annual and monthly paywall",
+      "caption": "The initial offer shows USD59.99/year or USD8.99/month without a displayed trial. Its 83% understanding statement is a publisher claim, not an independently measured result.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": "ascension-paid-offer-to-trial",
+      "flow_order": 1,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Initial plans show USD59.99/year or USD8.99/month without a trial. Dismissing that paywall produces a seven-day annual trial at USD59.99/year. Apple confirmation was dismissed. The 83% understanding claim is publisher marketing, not a measured outcome in this study.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-7939b575f38a91680f2b/"
+    },
+    {
+      "id": "shot-7ce950f49690b3facb3a",
+      "app_id": "com.ascension.app",
+      "organisation_id": "C007",
+      "image": "/assets/app-library/screens/shot-7ce950f49690b3facb3a.webp",
+      "captured": "2026-10-27",
+      "version": "1.16.3 (808)",
+      "screen_name": "Trial offer after paywall dismissal",
+      "caption": "Dismissing the initial paid offer reveals a seven-day trial followed by USD59.99/year. The subsequent Apple confirmation was declined.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": "ascension-paid-offer-to-trial",
+      "flow_order": 2,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Initial plans show USD59.99/year or USD8.99/month without a trial. Dismissing that paywall produces a seven-day annual trial at USD59.99/year. Apple confirmation was dismissed. The 83% understanding claim is publisher marketing, not a measured outcome in this study.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-7ce950f49690b3facb3a/"
+    },
+    {
+      "id": "shot-c8e4110aed2c3920d6b1",
+      "app_id": "com.basmo.BibleChat",
+      "organisation_id": "C016",
+      "image": "/assets/app-library/screens/shot-c8e4110aed2c3920d6b1.webp",
+      "captured": "2026-10-27",
+      "version": "5.1.4 (4)",
+      "screen_name": "Free membership and restore route",
+      "caption": "Free membership and restore route. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Account",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven-day trials are displayed for USD4.99/week and USD12.99/month; annual access is USD59.99/year. The offer uses charitable contribution language. Streak explanation distinguishes free freeze capacity of two, Premium capacity of five, and one included Premium repair per month. Capacity and current grants are different measures; no repair executed.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-c8e4110aed2c3920d6b1/"
+    },
+    {
+      "id": "shot-01733037060016069fbb",
+      "app_id": "com.basmo.BibleChat",
+      "organisation_id": "C016",
+      "image": "/assets/app-library/screens/shot-01733037060016069fbb.webp",
+      "captured": "2026-10-27",
+      "version": "5.1.4 (4)",
+      "screen_name": "Contribution-framed trial plans",
+      "caption": "Contribution-framed trial plans. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use",
+        "giving"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven-day trials are displayed for USD4.99/week and USD12.99/month; annual access is USD59.99/year. The offer uses charitable contribution language. Streak explanation distinguishes free freeze capacity of two, Premium capacity of five, and one included Premium repair per month. Capacity and current grants are different measures; no repair executed.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-01733037060016069fbb/"
+    },
+    {
+      "id": "shot-81277c92331518da2714",
+      "app_id": "com.basmo.BibleChat",
+      "organisation_id": "C016",
+      "image": "/assets/app-library/screens/shot-81277c92331518da2714.webp",
+      "captured": "2026-10-27",
+      "version": "5.1.4 (4)",
+      "screen_name": "Streak freezes and paid repair explanation",
+      "caption": "The explanation distinguishes freezes that protect a streak from repairs after a gap. It states free capacity of two, Premium capacity of five and one included Premium repair per month; execution was not tested.",
+      "screen_type": "Progress",
+      "tags": [
+        "Progress"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Build a routine"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "progress-and-streaks"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven-day trials are displayed for USD4.99/week and USD12.99/month; annual access is USD59.99/year. The offer uses charitable contribution language. Streak explanation distinguishes free freeze capacity of two, Premium capacity of five, and one included Premium repair per month. Capacity and current grants are different measures; no repair executed.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-81277c92331518da2714/"
+    },
+    {
+      "id": "shot-68395c50f25970d345d6",
+      "app_id": "app.biblebff",
+      "organisation_id": "C053",
+      "image": "/assets/app-library/screens/shot-68395c50f25970d345d6.webp",
+      "captured": "2026-10-27",
+      "version": "23 (4)",
+      "screen_name": "Gift-reveal offer entry",
+      "caption": "Gift-reveal offer entry. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use",
+        "giving"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. A gift reveal leads to USD39.99/year against a crossed-out USD59.99 and a never-again claim. This is a paid annual offer, not a verified trial. Dismissal reaches the home screen. Profile entry remained loading.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-68395c50f25970d345d6/"
+    },
+    {
+      "id": "shot-664408dffe41bb935597",
+      "app_id": "app.biblebff",
+      "organisation_id": "C053",
+      "image": "/assets/app-library/screens/shot-664408dffe41bb935597.webp",
+      "captured": "2026-10-27",
+      "version": "23 (4)",
+      "screen_name": "Annual discount and urgency wording",
+      "caption": "The revealed gift is an annual USD39.99 paid offer, compared with USD59.99, with a never-again claim. It was dismissed; future recurrence was not tested.",
+      "screen_type": "Subscription",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. A gift reveal leads to USD39.99/year against a crossed-out USD59.99 and a never-again claim. This is a paid annual offer, not a verified trial. Dismissal reaches the home screen. Profile entry remained loading.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-664408dffe41bb935597/"
+    },
+    {
+      "id": "shot-472402eeb79d3ab2e7ff",
+      "app_id": "app.biblebff",
+      "organisation_id": "C053",
+      "image": "/assets/app-library/screens/shot-472402eeb79d3ab2e7ff.webp",
+      "captured": "2026-10-27",
+      "version": "23 (4)",
+      "screen_name": "Home after offer dismissal",
+      "caption": "Home after offer dismissal. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Home",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button",
+        "Text field"
+      ],
+      "component_details": [
+        "Button",
+        "Text input"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "meeting-the-person"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. A gift reveal leads to USD39.99/year against a crossed-out USD59.99 and a never-again claim. This is a paid annual offer, not a verified trial. Dismissal reaches the home screen. Profile entry remained loading.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-472402eeb79d3ab2e7ff/"
+    },
+    {
+      "id": "shot-35d633c599ef1715ce1e",
+      "app_id": "app.project2b",
+      "organisation_id": "C073",
+      "image": "/assets/app-library/screens/shot-35d633c599ef1715ce1e.webp",
+      "captured": "2026-10-27",
+      "version": "1.17 (1.17.220.0)",
+      "screen_name": "Optional mood prompt",
+      "caption": "Optional mood prompt. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Check-in",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "check-ins-and-assessments",
+        "meeting-the-person"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. The visible offer shows USD29.99/year and USD5.99/week. Three-day trial wording found in the accessibility tree is not visible evidence and is excluded. An attempted weekly selection did not visibly change the selected annual plan. The available allowance does not establish a reset cadence.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-35d633c599ef1715ce1e/"
+    },
+    {
+      "id": "shot-f48f537516d18338d10e",
+      "app_id": "app.project2b",
+      "organisation_id": "C073",
+      "image": "/assets/app-library/screens/shot-f48f537516d18338d10e.webp",
+      "captured": "2026-10-27",
+      "version": "1.17 (1.17.220.0)",
+      "screen_name": "Home with available message allowance",
+      "caption": "Home with available message allowance. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Home",
+      "tags": [],
+      "components": [
+        "Button",
+        "Text field"
+      ],
+      "component_details": [
+        "Button",
+        "Text input"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. The visible offer shows USD29.99/year and USD5.99/week. Three-day trial wording found in the accessibility tree is not visible evidence and is excluded. An attempted weekly selection did not visibly change the selected annual plan. The available allowance does not establish a reset cadence.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-f48f537516d18338d10e/"
+    },
+    {
+      "id": "shot-5389da30f911f04298ee",
+      "app_id": "app.project2b",
+      "organisation_id": "C073",
+      "image": "/assets/app-library/screens/shot-5389da30f911f04298ee.webp",
+      "captured": "2026-10-27",
+      "version": "1.17 (1.17.220.0)",
+      "screen_name": "Annual and weekly paid plans",
+      "caption": "The visible plan selector offers USD29.99/year or USD5.99/week. Three-day trial wording found only in hidden accessibility text is excluded from the finding.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. The visible offer shows USD29.99/year and USD5.99/week. Three-day trial wording found in the accessibility tree is not visible evidence and is excluded. An attempted weekly selection did not visibly change the selected annual plan. The available allowance does not establish a reset cadence.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-5389da30f911f04298ee/"
+    },
+    {
+      "id": "shot-2c4513c5dbdcdbaea7c4",
+      "app_id": "app.project2b",
+      "organisation_id": "C073",
+      "image": "/assets/app-library/screens/shot-2c4513c5dbdcdbaea7c4.webp",
+      "captured": "2026-10-27",
+      "version": "1.17 (1.17.220.0)",
+      "screen_name": "Home after offer dismissal",
+      "caption": "Home after offer dismissal. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Home",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button",
+        "Text field"
+      ],
+      "component_details": [
+        "Button",
+        "Text input"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. The visible offer shows USD29.99/year and USD5.99/week. Three-day trial wording found in the accessibility tree is not visible evidence and is excluded. An attempted weekly selection did not visibly change the selected annual plan. The available allowance does not establish a reset cadence.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-2c4513c5dbdcdbaea7c4/"
+    },
+    {
+      "id": "shot-89feb0c277b5ede618a8",
+      "app_id": "com.aura.letspray",
+      "organisation_id": "C004",
+      "image": "/assets/app-library/screens/shot-89feb0c277b5ede618a8.webp",
+      "captured": "2026-10-27",
+      "version": "2.11.1 (459)",
+      "screen_name": "Referral subscription reward",
+      "caption": "The referral screen offers a friend fourteen days and an inviter reward after the friend subscribes. No invitation was sent.",
+      "screen_type": "Sharing",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use",
+        "giving"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Standard plans show USD49.99/year, USD12.99/month and USD4.99/week. A USD39.99 first-year Autumn promotion reappeared after dismissal of the standard offer. Its crossed-out comparison is not a verified renewal quote. Referral rewards depend on a friend subscribing; no invitation sent.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-89feb0c277b5ede618a8/"
+    },
+    {
+      "id": "shot-e069d1e39ffd5c475858",
+      "app_id": "com.aura.letspray",
+      "organisation_id": "C004",
+      "image": "/assets/app-library/screens/shot-e069d1e39ffd5c475858.webp",
+      "captured": "2026-10-27",
+      "version": "2.11.1 (459)",
+      "screen_name": "Standard weekly monthly and yearly plans",
+      "caption": "The standard selector offers USD49.99/year, USD12.99/month and USD4.99/week. The separate first-year Autumn promotion is not a verified renewal quote.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Standard plans show USD49.99/year, USD12.99/month and USD4.99/week. A USD39.99 first-year Autumn promotion reappeared after dismissal of the standard offer. Its crossed-out comparison is not a verified renewal quote. Referral rewards depend on a friend subscribing; no invitation sent.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-e069d1e39ffd5c475858/"
+    },
+    {
+      "id": "shot-de288f8ea890232561e2",
+      "app_id": "com.topmuse.biblenote",
+      "organisation_id": "C066",
+      "image": "/assets/app-library/screens/shot-de288f8ea890232561e2.webp",
+      "captured": "2026-10-27",
+      "version": "2.12.0 (119953)",
+      "screen_name": "Three-day weekly trial offer",
+      "caption": "The selected three-day trial converts to USD6.99/week. A USD69.99 annual alternative is visible; the trial-reminder switch is off in this offer.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Three days free followed by USD6.99/week; annual alternative USD69.99. The trial-reminder switch is off in the captured offer. The streak screen displays three grace days; their execution was not tested. Apple confirmation dismissed.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-de288f8ea890232561e2/"
+    },
+    {
+      "id": "shot-a80ccd5622251ee42f2f",
+      "app_id": "com.topmuse.biblenote",
+      "organisation_id": "C066",
+      "image": "/assets/app-library/screens/shot-a80ccd5622251ee42f2f.webp",
+      "captured": "2026-10-27",
+      "version": "2.12.0 (119953)",
+      "screen_name": "Appearance feature announcement",
+      "caption": "Appearance feature announcement. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Announcement",
+      "tags": [
+        "Reminders"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Three days free followed by USD6.99/week; annual alternative USD69.99. The trial-reminder switch is off in the captured offer. The streak screen displays three grace days; their execution was not tested. Apple confirmation dismissed.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-a80ccd5622251ee42f2f/"
+    },
+    {
+      "id": "shot-da534a89ee0919811f80",
+      "app_id": "com.btang.manna",
+      "organisation_id": "C009",
+      "image": "/assets/app-library/screens/shot-da534a89ee0919811f80.webp",
+      "captured": "2026-10-27",
+      "version": "2.11.2 (113)",
+      "screen_name": "Annual trial and monthly alternative",
+      "caption": "Annual trial and monthly alternative. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD34.99/year, with a USD9.99/month alternative. The comparison reserves unlimited hearts, audiobook, verse explanation and unlimited prayer creation for Super. Basic Bible Study appears in both columns. Refill and wait mechanisms are offered, not tested.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-da534a89ee0919811f80/"
+    },
+    {
+      "id": "shot-b147e2fcc1367ee8f9d0",
+      "app_id": "com.btang.manna",
+      "organisation_id": "C009",
+      "image": "/assets/app-library/screens/shot-b147e2fcc1367ee8f9d0.webp",
+      "captured": "2026-10-27",
+      "version": "2.11.2 (113)",
+      "screen_name": "Trial timeline and reminder control",
+      "caption": "Trial timeline and reminder control. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell",
+        "Reminders"
+      ],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Subscribe or give",
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use",
+        "notifications"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD34.99/year, with a USD9.99/month alternative. The comparison reserves unlimited hearts, audiobook, verse explanation and unlimited prayer creation for Super. Basic Bible Study appears in both columns. Refill and wait mechanisms are offered, not tested.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-b147e2fcc1367ee8f9d0/"
+    },
+    {
+      "id": "shot-9c114934e3926db2d24e",
+      "app_id": "com.btang.manna",
+      "organisation_id": "C009",
+      "image": "/assets/app-library/screens/shot-9c114934e3926db2d24e.webp",
+      "captured": "2026-10-27",
+      "version": "2.11.2 (113)",
+      "screen_name": "Free and Super benefit comparison",
+      "caption": "The comparison lists Basic Bible Study in both tiers; unlimited hearts, audiobook, verse explanation and unlimited prayer creation are listed for Super. Included capabilities were not executed.",
+      "screen_type": "Subscription",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD34.99/year, with a USD9.99/month alternative. The comparison reserves unlimited hearts, audiobook, verse explanation and unlimited prayer creation for Super. Basic Bible Study appears in both columns. Refill and wait mechanisms are offered, not tested.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-9c114934e3926db2d24e/"
+    },
+    {
+      "id": "shot-e80ca4b9ff8a1b30b03d",
+      "app_id": "com.logos.ilogos",
+      "organisation_id": "C043",
+      "image": "/assets/app-library/screens/shot-e80ca4b9ff8a1b30b03d.webp",
+      "captured": "2026-10-27",
+      "version": "54.0.2 (7)",
+      "screen_name": "Plus monthly trial",
+      "caption": "Plus monthly trial. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. One month free followed by Plus USD4.99/month or USD49.99/year; Premium USD9.99/month or USD99.99/year. The inspected account had no subscription. Apple Plus monthly confirmation was dismissed. Paid AI and resource benefits are offer claims, not executed feature tests.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-e80ca4b9ff8a1b30b03d/"
+    },
+    {
+      "id": "shot-74093fecf74dc96c12bf",
+      "app_id": "com.logos.ilogos",
+      "organisation_id": "C043",
+      "image": "/assets/app-library/screens/shot-74093fecf74dc96c12bf.webp",
+      "captured": "2026-10-27",
+      "version": "54.0.2 (7)",
+      "screen_name": "Plus annual trial",
+      "caption": "Plus annual access is offered with one month free, then USD49.99/year. No subscription was activated.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. One month free followed by Plus USD4.99/month or USD49.99/year; Premium USD9.99/month or USD99.99/year. The inspected account had no subscription. Apple Plus monthly confirmation was dismissed. Paid AI and resource benefits are offer claims, not executed feature tests.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-74093fecf74dc96c12bf/"
+    },
+    {
+      "id": "shot-105b361ac5e901ec013c",
+      "app_id": "com.logos.ilogos",
+      "organisation_id": "C043",
+      "image": "/assets/app-library/screens/shot-105b361ac5e901ec013c.webp",
+      "captured": "2026-10-27",
+      "version": "54.0.2 (7)",
+      "screen_name": "Premium annual trial",
+      "caption": "Premium annual access is offered with one month free, then USD99.99/year. The resource and AI benefits shown are offer claims, not tests of their behaviour.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. One month free followed by Plus USD4.99/month or USD49.99/year; Premium USD9.99/month or USD99.99/year. The inspected account had no subscription. Apple Plus monthly confirmation was dismissed. Paid AI and resource benefits are offer claims, not executed feature tests.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-105b361ac5e901ec013c/"
+    },
+    {
+      "id": "shot-5a0249b8a923109a4755",
+      "app_id": "com.logos.ilogos",
+      "organisation_id": "C043",
+      "image": "/assets/app-library/screens/shot-5a0249b8a923109a4755.webp",
+      "captured": "2026-10-27",
+      "version": "54.0.2 (7)",
+      "screen_name": "Premium monthly trial",
+      "caption": "Premium monthly trial. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. One month free followed by Plus USD4.99/month or USD49.99/year; Premium USD9.99/month or USD99.99/year. The inspected account had no subscription. Apple Plus monthly confirmation was dismissed. Paid AI and resource benefits are offer claims, not executed feature tests.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-5a0249b8a923109a4755/"
+    },
+    {
+      "id": "shot-62aecb9a1fe574ffb9c9",
+      "app_id": "com.smontlouis.biblestrong",
+      "organisation_id": "C084",
+      "image": "/assets/app-library/screens/shot-62aecb9a1fe574ffb9c9.webp",
+      "captured": "2026-10-27",
+      "version": "27.2.0 (297)",
+      "screen_name": "Community contribution and account-exit routes",
+      "caption": "Community contribution and account-exit routes. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Settings",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "giving"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. The menu offers contribution, code repository, support and account-exit routes. No contribution, deletion or contact performed; absence of a price on this screen is not a free-app conclusion.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-62aecb9a1fe574ffb9c9/"
+    },
+    {
+      "id": "shot-6da67acdc592dd936666",
+      "app_id": "com.bgolson.scripturetyper",
+      "organisation_id": "C062",
+      "image": "/assets/app-library/screens/shot-6da67acdc592dd936666.webp",
+      "captured": "2026-10-27",
+      "version": "9.6 (949)",
+      "screen_name": "Annual monthly and free Lite choices",
+      "caption": "Annual monthly and free Lite choices. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD49.99/year; USD12.99/month and USD149.99 one-time alternatives. A free Lite path reaches an empty verse library without signing up. Continued access to verses and progress after cancellation is a publisher promise, not a tested cancellation outcome.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-6da67acdc592dd936666/"
+    },
+    {
+      "id": "shot-c1891ddf1c3737aeec60",
+      "app_id": "com.bgolson.scripturetyper",
+      "organisation_id": "C062",
+      "image": "/assets/app-library/screens/shot-c1891ddf1c3737aeec60.webp",
+      "captured": "2026-10-27",
+      "version": "9.6 (949)",
+      "screen_name": "One-time purchase alternative",
+      "caption": "The expanded alternative is a USD149.99 one-time purchase. The surrounding trial button still applies to the annual subscription; no purchase was made.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD49.99/year; USD12.99/month and USD149.99 one-time alternatives. A free Lite path reaches an empty verse library without signing up. Continued access to verses and progress after cancellation is a publisher promise, not a tested cancellation outcome.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-c1891ddf1c3737aeec60/"
+    },
+    {
+      "id": "shot-5d2ce7db42f48f505fae",
+      "app_id": "com.bgolson.scripturetyper",
+      "organisation_id": "C062",
+      "image": "/assets/app-library/screens/shot-5d2ce7db42f48f505fae.webp",
+      "captured": "2026-10-27",
+      "version": "9.6 (949)",
+      "screen_name": "Optional memorisation collection",
+      "caption": "Optional memorisation collection. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Onboarding",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": "bible-memory-free-guest-entry",
+      "flow_order": 1,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD49.99/year; USD12.99/month and USD149.99 one-time alternatives. A free Lite path reaches an empty verse library without signing up. Continued access to verses and progress after cancellation is a publisher promise, not a tested cancellation outcome.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-5d2ce7db42f48f505fae/"
+    },
+    {
+      "id": "shot-8d86ca3ae113e7bd9b2b",
+      "app_id": "com.bgolson.scripturetyper",
+      "organisation_id": "C062",
+      "image": "/assets/app-library/screens/shot-8d86ca3ae113e7bd9b2b.webp",
+      "captured": "2026-10-27",
+      "version": "9.6 (949)",
+      "screen_name": "Account-free entry option",
+      "caption": "Account creation offers sync and backup, alongside Continue without Signing Up. The account-free route reached the empty Lite library.",
+      "screen_type": "Account",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": "bible-memory-free-guest-entry",
+      "flow_order": 2,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD49.99/year; USD12.99/month and USD149.99 one-time alternatives. A free Lite path reaches an empty verse library without signing up. Continued access to verses and progress after cancellation is a publisher promise, not a tested cancellation outcome.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-8d86ca3ae113e7bd9b2b/"
+    },
+    {
+      "id": "shot-9e4f097a82f7437034c8",
+      "app_id": "com.bgolson.scripturetyper",
+      "organisation_id": "C062",
+      "image": "/assets/app-library/screens/shot-9e4f097a82f7437034c8.webp",
+      "captured": "2026-10-27",
+      "version": "9.6 (949)",
+      "screen_name": "Empty guest verse library",
+      "caption": "Empty guest verse library. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Saved items",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [
+        "Empty"
+      ],
+      "flow_id": "bible-memory-free-guest-entry",
+      "flow_order": 3,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. Seven days free followed by USD49.99/year; USD12.99/month and USD149.99 one-time alternatives. A free Lite path reaches an empty verse library without signing up. Continued access to verses and progress after cancellation is a publisher promise, not a tested cancellation outcome.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-9e4f097a82f7437034c8/"
+    },
+    {
+      "id": "shot-caea4b63ed40f4e470d6",
+      "app_id": "com.bible.holy.bible.for.women",
+      "organisation_id": "C068",
+      "image": "/assets/app-library/screens/shot-caea4b63ed40f4e470d6.webp",
+      "captured": "2026-10-27",
+      "version": "2.67.1 (180)",
+      "screen_name": "Full-screen travel advertisement",
+      "caption": "Full-screen travel advertisement. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Advertisement",
+      "tags": [
+        "Advertising"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. The opening support offer says USD2.49/month, while the subsequent timeline and selected plan disclose USD29.99 billed yearly after three free days; the monthly alternative is USD4.99. Apple renewal was canceled and the expiring state confirmed, retaining access until October 30. Apple available-product prices are not a quote of eligibility or future price. Full unlocked-content coverage was not completed.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-caea4b63ed40f4e470d6/"
+    },
+    {
+      "id": "shot-cb1c70fccc5466441b4a",
+      "app_id": "com.bible.holy.bible.for.women",
+      "organisation_id": "C068",
+      "image": "/assets/app-library/screens/shot-cb1c70fccc5466441b4a.webp",
+      "captured": "2026-10-27",
+      "version": "2.67.1 (180)",
+      "screen_name": "Advertisement end card after Skip",
+      "caption": "Advertisement end card after Skip. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Advertisement",
+      "tags": [
+        "Advertising"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. The opening support offer says USD2.49/month, while the subsequent timeline and selected plan disclose USD29.99 billed yearly after three free days; the monthly alternative is USD4.99. Apple renewal was canceled and the expiring state confirmed, retaining access until October 30. Apple available-product prices are not a quote of eligibility or future price. Full unlocked-content coverage was not completed.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-cb1c70fccc5466441b4a/"
+    },
+    {
+      "id": "shot-eaf87322584bef680214",
+      "app_id": "com.bible.holy.bible.for.women",
+      "organisation_id": "C068",
+      "image": "/assets/app-library/screens/shot-eaf87322584bef680214.webp",
+      "captured": "2026-10-27",
+      "version": "2.67.1 (180)",
+      "screen_name": "Support-framed ad-free trial",
+      "caption": "The support-framed opening offer states three days free, then USD2.49/month without showing annual billing on this screen. Later steps disclose USD29.99/year; reach and life-transformation claims are unverified.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use",
+        "giving"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. The opening support offer says USD2.49/month, while the subsequent timeline and selected plan disclose USD29.99 billed yearly after three free days; the monthly alternative is USD4.99. Apple renewal was canceled and the expiring state confirmed, retaining access until October 30. Apple available-product prices are not a quote of eligibility or future price. Full unlocked-content coverage was not completed.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-eaf87322584bef680214/"
+    },
+    {
+      "id": "shot-1e8b27855d86ab8f90c8",
+      "app_id": "com.bible.holy.bible.for.women",
+      "organisation_id": "C068",
+      "image": "/assets/app-library/screens/shot-1e8b27855d86ab8f90c8.webp",
+      "captured": "2026-10-27",
+      "version": "2.67.1 (180)",
+      "screen_name": "Trial timeline and annual billing disclosure",
+      "caption": "The later timeline discloses that the USD2.49 monthly equivalent is billed USD29.99/year after the three-day trial. The reminder is on in the displayed offer.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. The opening support offer says USD2.49/month, while the subsequent timeline and selected plan disclose USD29.99 billed yearly after three free days; the monthly alternative is USD4.99. Apple renewal was canceled and the expiring state confirmed, retaining access until October 30. Apple available-product prices are not a quote of eligibility or future price. Full unlocked-content coverage was not completed.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-1e8b27855d86ab8f90c8/"
+    },
+    {
+      "id": "shot-5b6b88a11d135290d829",
+      "app_id": "com.bible.holy.bible.for.women",
+      "organisation_id": "C068",
+      "image": "/assets/app-library/screens/shot-5b6b88a11d135290d829.webp",
+      "captured": "2026-10-27",
+      "version": "2.67.1 (180)",
+      "screen_name": "Monthly and annual alternatives",
+      "caption": "The selector distinguishes USD4.99 monthly from USD29.99 yearly, displayed as a USD2.49 monthly equivalent. The annual plan is selected.",
+      "screen_type": "Subscription",
+      "tags": [],
+      "components": [
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Button",
+        "Toggle"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. The opening support offer says USD2.49/month, while the subsequent timeline and selected plan disclose USD29.99 billed yearly after three free days; the monthly alternative is USD4.99. Apple renewal was canceled and the expiring state confirmed, retaining access until October 30. Apple available-product prices are not a quote of eligibility or future price. Full unlocked-content coverage was not completed.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-5b6b88a11d135290d829/"
+    },
+    {
+      "id": "shot-b76acfb92cabf07fbd83",
+      "app_id": "com.bible.holy.bible.for.women",
+      "organisation_id": "C068",
+      "image": "/assets/app-library/screens/shot-b76acfb92cabf07fbd83.webp",
+      "captured": "2026-10-27",
+      "version": "2.67.1 (180)",
+      "screen_name": "Post-activation contribution message",
+      "caption": "After owner-confirmed trial activation, the app thanks the subscriber for a contribution and displays a cheerful-giver verse. This is a commercial confirmation, not evidence of charitable fund allocation.",
+      "screen_type": "Confirmation",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "giving"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. The opening support offer says USD2.49/month, while the subsequent timeline and selected plan disclose USD29.99 billed yearly after three free days; the monthly alternative is USD4.99. Apple renewal was canceled and the expiring state confirmed, retaining access until October 30. Apple available-product prices are not a quote of eligibility or future price. Full unlocked-content coverage was not completed.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-b76acfb92cabf07fbd83/"
+    },
+    {
+      "id": "shot-05f5bef243203f7a228a",
+      "app_id": "com.bible.holy.bible.for.women",
+      "organisation_id": "C068",
+      "image": "/assets/app-library/screens/shot-05f5bef243203f7a228a.webp",
+      "captured": "2026-10-27",
+      "version": "2.67.1 (180)",
+      "screen_name": "Active Apple trial details",
+      "caption": "Active Apple trial details. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": "bible-for-women-apple-cancellation",
+      "flow_order": 1,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. The opening support offer says USD2.49/month, while the subsequent timeline and selected plan disclose USD29.99 billed yearly after three free days; the monthly alternative is USD4.99. Apple renewal was canceled and the expiring state confirmed, retaining access until October 30. Apple available-product prices are not a quote of eligibility or future price. Full unlocked-content coverage was not completed.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-05f5bef243203f7a228a/"
+    },
+    {
+      "id": "shot-e9db78cecc6baea9de36",
+      "app_id": "com.bible.holy.bible.for.women",
+      "organisation_id": "C068",
+      "image": "/assets/app-library/screens/shot-e9db78cecc6baea9de36.webp",
+      "captured": "2026-10-27",
+      "version": "2.67.1 (180)",
+      "screen_name": "Apple available subscription plans",
+      "caption": "Apple lists several subscription products for the same app. These available-product prices are not proof of eligibility for a particular introductory offer.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": "bible-for-women-apple-cancellation",
+      "flow_order": 2,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. The opening support offer says USD2.49/month, while the subsequent timeline and selected plan disclose USD29.99 billed yearly after three free days; the monthly alternative is USD4.99. Apple renewal was canceled and the expiring state confirmed, retaining access until October 30. Apple available-product prices are not a quote of eligibility or future price. Full unlocked-content coverage was not completed.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-e9db78cecc6baea9de36/"
+    },
+    {
+      "id": "shot-8bc651ba568e49cc8325",
+      "app_id": "com.bible.holy.bible.for.women",
+      "organisation_id": "C068",
+      "image": "/assets/app-library/screens/shot-8bc651ba568e49cc8325.webp",
+      "captured": "2026-10-27",
+      "version": "2.67.1 (180)",
+      "screen_name": "Additional Apple subscription plans",
+      "caption": "Apple’s extended product list includes several annual prices and the selected USD29.99/year trial product. No plan was changed.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [
+        "Subscribe or give"
+      ],
+      "states": [],
+      "flow_id": "bible-for-women-apple-cancellation",
+      "flow_order": 3,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. The opening support offer says USD2.49/month, while the subsequent timeline and selected plan disclose USD29.99 billed yearly after three free days; the monthly alternative is USD4.99. Apple renewal was canceled and the expiring state confirmed, retaining access until October 30. Apple available-product prices are not a quote of eligibility or future price. Full unlocked-content coverage was not completed.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-8bc651ba568e49cc8325/"
+    },
+    {
+      "id": "shot-9f9e888021c6f5dc8771",
+      "app_id": "com.bible.holy.bible.for.women",
+      "organisation_id": "C068",
+      "image": "/assets/app-library/screens/shot-9f9e888021c6f5dc8771.webp",
+      "captured": "2026-10-27",
+      "version": "2.67.1 (180)",
+      "screen_name": "Apple cancellation confirmation",
+      "caption": "Apple asks for cancellation confirmation and states that service will end on October 30. The cancellation was then confirmed.",
+      "screen_type": "Confirmation",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": "bible-for-women-apple-cancellation",
+      "flow_order": 4,
+      "article_slugs": [],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. The opening support offer says USD2.49/month, while the subsequent timeline and selected plan disclose USD29.99 billed yearly after three free days; the monthly alternative is USD4.99. Apple renewal was canceled and the expiring state confirmed, retaining access until October 30. Apple available-product prices are not a quote of eligibility or future price. Full unlocked-content coverage was not completed.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-9f9e888021c6f5dc8771/"
+    },
+    {
+      "id": "shot-2b83f1f3e99b5b8fb989",
+      "app_id": "com.bible.holy.bible.for.women",
+      "organisation_id": "C068",
+      "image": "/assets/app-library/screens/shot-2b83f1f3e99b5b8fb989.webp",
+      "captured": "2026-10-27",
+      "version": "2.67.1 (180)",
+      "screen_name": "Apple renewal-canceled state",
+      "caption": "Apple confirms that the subscription is expiring and replaces cancellation with Subscribe. Renewal is canceled; access remains until October 30.",
+      "screen_type": "Confirmation",
+      "tags": [],
+      "components": [
+        "Button"
+      ],
+      "component_details": [
+        "Button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": "bible-for-women-apple-cancellation",
+      "flow_order": 5,
+      "article_slugs": [],
+      "context": "iOS capture, 27 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and the persistent Manna Live Activity are not part of the foreground product. The opening support offer says USD2.49/month, while the subsequent timeline and selected plan disclose USD29.99 billed yearly after three free days; the monthly alternative is USD4.99. Apple renewal was canceled and the expiring state confirmed, retaining access until October 30. Apple available-product prices are not a quote of eligibility or future price. Full unlocked-content coverage was not completed.",
+      "text": "",
+      "checked": "2026-10-27",
+      "url": "/screens/shot-2b83f1f3e99b5b8fb989/"
     }
   ],
   "flows": [
@@ -51657,6 +55224,46 @@
       "screen_ids": [
         "shot-9d05fb67eca9ba98aa72",
         "shot-a1f5c2d853dae19dc386"
+      ],
+      "coverage": "Selected capture sequence; not a complete walkthrough."
+    },
+    {
+      "id": "ascension-paid-offer-to-trial",
+      "url": "/flows/ascension-paid-offer-to-trial/",
+      "title": "A trial after declining a paid offer",
+      "context": "The first annual/monthly offer is followed by an annual trial offer after dismissal. Apple confirmation was declined.",
+      "app_id": "com.ascension.app",
+      "screen_ids": [
+        "shot-7939b575f38a91680f2b",
+        "shot-7ce950f49690b3facb3a"
+      ],
+      "coverage": "Selected capture sequence; not a complete walkthrough."
+    },
+    {
+      "id": "bible-memory-free-guest-entry",
+      "url": "/flows/bible-memory-free-guest-entry/",
+      "title": "Entering the free Lite library without an account",
+      "context": "Selected collection, account-choice and empty-library states show an account-free path. No verse was added.",
+      "app_id": "com.bgolson.scripturetyper",
+      "screen_ids": [
+        "shot-5d2ce7db42f48f505fae",
+        "shot-8d86ca3ae113e7bd9b2b",
+        "shot-9e4f097a82f7437034c8"
+      ],
+      "coverage": "Selected capture sequence; not a complete walkthrough."
+    },
+    {
+      "id": "bible-for-women-apple-cancellation",
+      "url": "/flows/bible-for-women-apple-cancellation/",
+      "title": "Canceling Apple trial renewal",
+      "context": "Apple subscription details, available plans, cancellation confirmation and the verified expiring state. Trial access remains until October 30; intermediate navigation is omitted.",
+      "app_id": "com.bible.holy.bible.for.women",
+      "screen_ids": [
+        "shot-05f5bef243203f7a228a",
+        "shot-e9db78cecc6baea9de36",
+        "shot-8bc651ba568e49cc8325",
+        "shot-9f9e888021c6f5dc8771",
+        "shot-2b83f1f3e99b5b8fb989"
       ],
       "coverage": "Selected capture sequence; not a complete walkthrough."
     }

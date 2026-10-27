@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked": "2026-10-25",
+  "checked": "2026-10-27",
   "rubric_version": "0.1",
   "apps": [
     {
@@ -197,7 +197,7 @@
     },
     {
       "app_id": "is.abide.abide",
-      "checked": "2026-10-25",
+      "checked": "2026-10-27",
       "ingredients": [
         {
           "kind": "pattern",
@@ -290,7 +290,7 @@
           "pattern_slugs": [
             "first-use"
           ],
-          "implementation": "A custom sheet frames tracking permission with privacy and personalisation explanations. iOS tracking permission appears over Abide home.",
+          "implementation": "A custom sheet frames tracking permission with privacy and personalisation explanations. iOS tracking permission appears over Abide home. The selected annual offer gives seven days free then USD39.99/year; USD3.33/month is an equivalent, not monthly billing. The monthly alternative is USD9.99.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
@@ -298,6 +298,31 @@
             },
             {
               "url": "/screens/shot-5648aaeaec4321be60d4/"
+            },
+            {
+              "url": "/screens/shot-fcb368e883d1087ce8a0/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "notifications",
+          "label": "Notifications and reminders",
+          "pattern_slugs": [
+            "notifications"
+          ],
+          "implementation": "Access and reminder settings. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Meditation reminder editor. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Bedtime reminder editor. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-8b48f43c1ec35429f634/"
+            },
+            {
+              "url": "/screens/shot-1680ea813f0453a68e9a/"
+            },
+            {
+              "url": "/screens/shot-21cb900b13aae4316676/"
             }
           ]
         },
@@ -335,6 +360,42 @@
               "url": "/screens/shot-5899a18e36cd02f94722/"
             }
           ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "subscriptions",
+          "pattern_slug": null,
+          "label": "Monthly and annual trials",
+          "pattern_slugs": [
+            "first-use",
+            "giving"
+          ],
+          "implementation": "The inspected plans offer seven days free, then USD39.99/year or USD9.99/month.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-fcb368e883d1087ce8a0/"
+            }
+          ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "reminders",
+          "pattern_slug": null,
+          "label": "Meditation and bedtime reminders",
+          "pattern_slugs": [
+            "notifications"
+          ],
+          "implementation": "Meditation and bedtime editors expose time and weekday choices. The editors were closed without saving; scheduled delivery, refusal handling and repeat prompting remain untested.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-1680ea813f0453a68e9a/"
+            },
+            {
+              "url": "/screens/shot-21cb900b13aae4316676/"
+            }
+          ]
         }
       ],
       "dimensions": {
@@ -356,31 +417,34 @@
       },
       "dimension_reviews": {
         "money_access": {
-          "reviewed": "2026-10-26",
-          "review_summary": "The captured length picker leaves the two-minute meditation available and shows locks on five-, ten- and fifteen-minute choices. Publisher help describes a free tier, paid premium options and request-based financial assistance. Actual trial, renewal, restore and cancellation paths remain untested.",
+          "reviewed": "2026-10-27",
+          "review_summary": "Seven days free followed by USD39.99/year or USD9.99/month; annual was selected. Reminder editors offer time and weekday controls. Apple confirmation was dismissed; reminder delivery and scholarship fulfilment were not tested.",
           "next_checks": [
-            "Inspect the contextual offer and its dismissal/default plan.",
-            "Verify entitlement restoration and cancellation; do not infer deceptive billing from reports alone."
+            "Test any still-unexecuted restore, entitlement and cancellation paths separately.",
+            "Check other platform/storefront and offer eligibility before generalising these dated prices."
           ],
           "evidence": [
             {
-              "url": "/screens/shot-b39ad82e0a59a44e2516/"
+              "url": "/screens/shot-fcb368e883d1087ce8a0/"
             }
           ]
         },
         "attention_agency": {
-          "reviewed": "2026-10-26",
-          "review_summary": "Captured controls expose a sleep-timer entry and ambience at app open, during playback, after playback and outside the app. These are saved states, not first-install defaults. Reported alarms, repeated prompting and overnight failures were not reproduced.",
+          "reviewed": "2026-10-27",
+          "review_summary": "Meditation and bedtime editors expose time and weekday choices. The editors were closed without saving; scheduled delivery, refusal handling and repeat prompting remain untested.",
           "next_checks": [
-            "Inspect alarm/reminder defaults and safe volume controls without enabling a new overnight alarm.",
-            "Verify stopping, background playback and prompt timing while preserving original settings."
+            "Distinguish existing account settings from first-install defaults.",
+            "Observe delivered notifications over time; verify pause, refusal and recovery behaviour without manufacturing personal activity."
           ],
           "evidence": [
             {
-              "url": "/screens/shot-e00b03130f5feb684706/"
+              "url": "/screens/shot-8b48f43c1ec35429f634/"
             },
             {
-              "url": "/screens/shot-14f994f330f4e5e5a993/"
+              "url": "/screens/shot-1680ea813f0453a68e9a/"
+            },
+            {
+              "url": "/screens/shot-21cb900b13aae4316676/"
             }
           ]
         },
@@ -721,7 +785,7 @@
     },
     {
       "app_id": "org.amenapp.amen",
-      "checked": "2026-10-25",
+      "checked": "2026-10-27",
       "ingredients": [
         {
           "kind": "pattern",
@@ -828,7 +892,7 @@
           "pattern_slugs": [
             "notifications"
           ],
-          "implementation": "Onboarding offers separate push and email notification toggles, both on. Onboarding offers separate push and email notification toggles, both off.",
+          "implementation": "Onboarding offers separate push and email notification toggles, both on. Onboarding offers separate push and email notification toggles, both off. Account and reminder settings. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Meditation reminder editor. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Bedtime reminder editor. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
@@ -836,6 +900,15 @@
             },
             {
               "url": "/screens/shot-016faaadb0ea4ba849a3/"
+            },
+            {
+              "url": "/screens/shot-4ea99fbd7b924be7fa0a/"
+            },
+            {
+              "url": "/screens/shot-326d3f4cee32da1b76cb/"
+            },
+            {
+              "url": "/screens/shot-1f6d384fdaf966003b70/"
             }
           ]
         },
@@ -875,10 +948,49 @@
               "url": "/screens/shot-2cdc526cb01f644bddf7/"
             }
           ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "reminders",
+          "pattern_slug": null,
+          "label": "Meditation and bedtime reminders",
+          "pattern_slugs": [
+            "notifications"
+          ],
+          "implementation": "Separate meditation and bedtime reminder editors expose time and weekday choices. No reminder was created or changed; actual delivery and prompting remain untested.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-326d3f4cee32da1b76cb/"
+            },
+            {
+              "url": "/screens/shot-1f6d384fdaf966003b70/"
+            }
+          ]
         }
       ],
       "dimensions": {},
-      "dimension_reviews": {},
+      "dimension_reviews": {
+        "attention_agency": {
+          "reviewed": "2026-10-27",
+          "review_summary": "Separate meditation and bedtime reminder editors expose time and weekday choices. No reminder was created or changed; actual delivery and prompting remain untested.",
+          "next_checks": [
+            "Distinguish existing account settings from first-install defaults.",
+            "Observe delivered notifications over time; verify pause, refusal and recovery behaviour without manufacturing personal activity."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-4ea99fbd7b924be7fa0a/"
+            },
+            {
+              "url": "/screens/shot-326d3f4cee32da1b76cb/"
+            },
+            {
+              "url": "/screens/shot-1f6d384fdaf966003b70/"
+            }
+          ]
+        }
+      },
       "play": [
         {
           "language": "en",
@@ -928,8 +1040,24 @@
     },
     {
       "app_id": "com.ascension.app",
-      "checked": "2026-10-25",
+      "checked": "2026-10-27",
       "ingredients": [
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "bible-audio",
+          "label": "Bible audio",
+          "pattern_slugs": [
+            "bible-audio"
+          ],
+          "implementation": "Reading and autoplay preferences. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-26ba29140993b6b908b0/"
+            }
+          ]
+        },
         {
           "kind": "pattern",
           "feature_id": null,
@@ -963,7 +1091,7 @@
           "pattern_slugs": [
             "first-use"
           ],
-          "implementation": "Ascension asks for a first name alongside a publisher-selected testimonial and sign-in link. Ascension asks for a last name on a separate onboarding step. Ascension asks for an email for account use and updates in a focused empty field. Ascension shows password requirements with a system strong-password suggestion over an empty field. Ascension asks which content types interest the reader, including an undecided option. Ascension offers optional parish or school community search during onboarding. Ascension teaches a left swipe or Guide tap to reveal its Daily Reading Guide.",
+          "implementation": "Ascension asks for a first name alongside a publisher-selected testimonial and sign-in link. Ascension asks for a last name on a separate onboarding step. Ascension asks for an email for account use and updates in a focused empty field. Ascension shows password requirements with a system strong-password suggestion over an empty field. Ascension asks which content types interest the reader, including an undecided option. Ascension offers optional parish or school community search during onboarding. Ascension teaches a left swipe or Guide tap to reveal its Daily Reading Guide. Premium entry within Explore. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. The initial offer shows USD59.99/year or USD8.99/month without a displayed trial. Its 83% understanding statement is a publisher claim, not an independently measured result. Dismissing the initial paid offer reveals a seven-day trial followed by USD59.99/year. The subsequent Apple confirmation was declined.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
@@ -986,6 +1114,15 @@
             },
             {
               "url": "/screens/shot-6c41aa350ccf4855ec85/"
+            },
+            {
+              "url": "/screens/shot-69765c31000763145fb7/"
+            },
+            {
+              "url": "/screens/shot-7939b575f38a91680f2b/"
+            },
+            {
+              "url": "/screens/shot-7ce950f49690b3facb3a/"
             }
           ]
         },
@@ -1002,6 +1139,22 @@
           "evidence": [
             {
               "url": "/screens/shot-b00acafc98ebe247c2b9/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "notifications",
+          "label": "Notifications and reminders",
+          "pattern_slugs": [
+            "notifications"
+          ],
+          "implementation": "Notification and progress controls. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-35486aa2617550eba6e3/"
             }
           ]
         },
@@ -1042,10 +1195,63 @@
               "url": "/screens/shot-4a9fb1aa6b601dbfcafe/"
             }
           ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "subscriptions",
+          "pattern_slug": null,
+          "label": "Trial offered after paywall dismissal",
+          "pattern_slugs": [
+            "first-use",
+            "giving"
+          ],
+          "implementation": "An initial annual/monthly paid offer is followed, after dismissal, by a seven-day annual trial at USD59.99/year.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-7939b575f38a91680f2b/"
+            },
+            {
+              "url": "/screens/shot-7ce950f49690b3facb3a/"
+            }
+          ]
         }
       ],
       "dimensions": {},
-      "dimension_reviews": {},
+      "dimension_reviews": {
+        "money_access": {
+          "reviewed": "2026-10-27",
+          "review_summary": "Initial plans show USD59.99/year or USD8.99/month without a trial. Dismissing that paywall produces a seven-day annual trial at USD59.99/year. Apple confirmation was dismissed. The 83% understanding claim is publisher marketing, not a measured outcome in this study.",
+          "next_checks": [
+            "Test any still-unexecuted restore, entitlement and cancellation paths separately.",
+            "Check other platform/storefront and offer eligibility before generalising these dated prices."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-69765c31000763145fb7/"
+            },
+            {
+              "url": "/screens/shot-7939b575f38a91680f2b/"
+            },
+            {
+              "url": "/screens/shot-7ce950f49690b3facb3a/"
+            }
+          ]
+        },
+        "attention_agency": {
+          "reviewed": "2026-10-27",
+          "review_summary": "Settings distinguish next-session autoplay, next-audio-chapter autoplay, video playback, general notifications and two annual-program reminders. Existing states were preserved. Reset and migration controls were not executed.",
+          "next_checks": [
+            "Distinguish existing account settings from first-install defaults.",
+            "Observe delivered notifications over time; verify pause, refusal and recovery behaviour without manufacturing personal activity."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-35486aa2617550eba6e3/"
+            }
+          ]
+        }
+      },
       "play": [
         {
           "language": "en",
@@ -1095,7 +1301,7 @@
     },
     {
       "app_id": "com.aura.letspray",
-      "checked": "2026-10-25",
+      "checked": "2026-10-27",
       "ingredients": [
         {
           "kind": "pattern",
@@ -1129,6 +1335,41 @@
             },
             {
               "url": "/screens/shot-245b81665b0ad855367a/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "first-use",
+          "label": "First use",
+          "pattern_slugs": [
+            "first-use"
+          ],
+          "implementation": "The referral screen offers a friend fourteen days and an inviter reward after the friend subscribes. No invitation was sent. The standard selector offers USD49.99/year, USD12.99/month and USD4.99/week. The separate first-year Autumn promotion is not a verified renewal quote.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-89feb0c277b5ede618a8/"
+            },
+            {
+              "url": "/screens/shot-e069d1e39ffd5c475858/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "giving",
+          "label": "Giving and offerings",
+          "pattern_slugs": [
+            "giving"
+          ],
+          "implementation": "The referral screen offers a friend fourteen days and an inviter reward after the friend subscribes. No invitation was sent.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-89feb0c277b5ede618a8/"
             }
           ]
         },
@@ -1179,10 +1420,77 @@
               "url": "/screens/shot-1d6f7a887eebc95e6e92/"
             }
           ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "subscriptions",
+          "pattern_slug": null,
+          "label": "Standard subscription plans",
+          "pattern_slugs": [
+            "first-use",
+            "giving"
+          ],
+          "implementation": "The standard plan selector displays USD49.99/year, USD12.99/month and USD4.99/week.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-e069d1e39ffd5c475858/"
+            }
+          ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "community",
+          "pattern_slug": null,
+          "label": "Subscription-linked referral reward",
+          "pattern_slugs": [
+            "sharing-with-a-group",
+            "reading-together"
+          ],
+          "implementation": "The invitation flow offers a friend fourteen days and a reward to the inviter after the friend subscribes. No invitation was sent.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-89feb0c277b5ede618a8/"
+            }
+          ]
         }
       ],
       "dimensions": {},
-      "dimension_reviews": {},
+      "dimension_reviews": {
+        "money_access": {
+          "reviewed": "2026-10-27",
+          "review_summary": "Standard plans show USD49.99/year, USD12.99/month and USD4.99/week. A USD39.99 first-year Autumn promotion reappeared after dismissal of the standard offer. Its crossed-out comparison is not a verified renewal quote. Referral rewards depend on a friend subscribing; no invitation sent.",
+          "next_checks": [
+            "Test any still-unexecuted restore, entitlement and cancellation paths separately.",
+            "Check other platform/storefront and offer eligibility before generalising these dated prices."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-89feb0c277b5ede618a8/"
+            },
+            {
+              "url": "/screens/shot-e069d1e39ffd5c475858/"
+            }
+          ]
+        },
+        "attention_agency": {
+          "reviewed": "2026-10-27",
+          "review_summary": "A limited-time first-year offer appeared on launch and reappeared after dismissal of a standard paywall in this session. The referral screen makes a reward conditional on a friend subscribing. No referral was sent and no long-term prompt-frequency claim follows.",
+          "next_checks": [
+            "Distinguish existing account settings from first-install defaults.",
+            "Observe delivered notifications over time; verify pause, refusal and recovery behaviour without manufacturing personal activity."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-89feb0c277b5ede618a8/"
+            },
+            {
+              "url": "/screens/shot-e069d1e39ffd5c475858/"
+            }
+          ]
+        }
+      },
       "play": [
         {
           "language": "en",
@@ -2478,8 +2786,61 @@
     },
     {
       "app_id": "com.bible.holy.bible.for.women",
-      "checked": "2026-10-25",
+      "checked": "2026-10-27",
       "ingredients": [
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "first-use",
+          "label": "First use",
+          "pattern_slugs": [
+            "first-use"
+          ],
+          "implementation": "Full-screen travel advertisement. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Advertisement end card after Skip. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. The support-framed opening offer states three days free, then USD2.49/month without showing annual billing on this screen. Later steps disclose USD29.99/year; reach and life-transformation claims are unverified. The later timeline discloses that the USD2.49 monthly equivalent is billed USD29.99/year after the three-day trial. The reminder is on in the displayed offer. Active Apple trial details. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Apple lists several subscription products for the same app. These available-product prices are not proof of eligibility for a particular introductory offer. Apple’s extended product list includes several annual prices and the selected USD29.99/year trial product. No plan was changed.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-caea4b63ed40f4e470d6/"
+            },
+            {
+              "url": "/screens/shot-cb1c70fccc5466441b4a/"
+            },
+            {
+              "url": "/screens/shot-eaf87322584bef680214/"
+            },
+            {
+              "url": "/screens/shot-1e8b27855d86ab8f90c8/"
+            },
+            {
+              "url": "/screens/shot-05f5bef243203f7a228a/"
+            },
+            {
+              "url": "/screens/shot-e9db78cecc6baea9de36/"
+            },
+            {
+              "url": "/screens/shot-8bc651ba568e49cc8325/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "giving",
+          "label": "Giving and offerings",
+          "pattern_slugs": [
+            "giving"
+          ],
+          "implementation": "The support-framed opening offer states three days free, then USD2.49/month without showing annual billing on this screen. Later steps disclose USD29.99/year; reach and life-transformation claims are unverified. After owner-confirmed trial activation, the app thanks the subscriber for a contribution and displays a cheerful-giver verse. This is a commercial confirmation, not evidence of charitable fund allocation.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-eaf87322584bef680214/"
+            },
+            {
+              "url": "/screens/shot-b76acfb92cabf07fbd83/"
+            }
+          ]
+        },
         {
           "kind": "pattern",
           "feature_id": null,
@@ -2527,10 +2888,115 @@
               "url": "/screens/shot-fd4882e62d3bf1176318/"
             }
           ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "subscriptions",
+          "pattern_slug": null,
+          "label": "Ad-free subscription and cancellation",
+          "pattern_slugs": [
+            "first-use",
+            "giving"
+          ],
+          "implementation": "An initial USD2.49/month presentation is later disclosed as USD29.99/year after a three-day trial. Apple cancellation was completed and the expiring state verified.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-eaf87322584bef680214/"
+            },
+            {
+              "url": "/screens/shot-1e8b27855d86ab8f90c8/"
+            },
+            {
+              "url": "/screens/shot-5b6b88a11d135290d829/"
+            },
+            {
+              "url": "/screens/shot-05f5bef243203f7a228a/"
+            },
+            {
+              "url": "/screens/shot-9f9e888021c6f5dc8771/"
+            },
+            {
+              "url": "/screens/shot-2b83f1f3e99b5b8fb989/"
+            }
+          ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "advertising",
+          "pattern_slug": null,
+          "label": "Full-screen advertisement and end card",
+          "pattern_slugs": [
+            "first-use"
+          ],
+          "implementation": "A full-screen travel advertisement leads from Skip to an end card with a separate Close action. No advertiser link was followed.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-caea4b63ed40f4e470d6/"
+            },
+            {
+              "url": "/screens/shot-cb1c70fccc5466441b4a/"
+            }
+          ]
         }
       ],
-      "dimensions": {},
-      "dimension_reviews": {},
+      "dimensions": {
+        "money_access": {
+          "status": "mixed",
+          "scope": "The observed ad-free trial offer, later billing disclosure and Apple cancellation sequence.",
+          "reason": "The initial offer states USD2.49/month without the annual billing total; later screens disclose USD29.99 billed yearly and distinguish the USD4.99 monthly alternative. Apple cancellation was completed and the expiring state verified. Initial period clarity and successful exit are separate findings.",
+          "limits": "One iOS offer and one owner-activated trial. Does not establish deception, intent, charitable fund allocation, other offers, Android behaviour or a redemptive builder sacrifice. Full unlocked-content coverage was not completed.",
+          "principle_ids": [
+            "feed-the-flock",
+            "welcome"
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-eaf87322584bef680214/"
+            },
+            {
+              "url": "/screens/shot-1e8b27855d86ab8f90c8/"
+            },
+            {
+              "url": "/screens/shot-5b6b88a11d135290d829/"
+            },
+            {
+              "url": "/screens/shot-9f9e888021c6f5dc8771/"
+            },
+            {
+              "url": "/screens/shot-2b83f1f3e99b5b8fb989/"
+            }
+          ]
+        }
+      },
+      "dimension_reviews": {
+        "money_access": {
+          "reviewed": "2026-10-27",
+          "review_summary": "The opening support offer says USD2.49/month, while the subsequent timeline and selected plan disclose USD29.99 billed yearly after three free days; the monthly alternative is USD4.99. Apple renewal was canceled and the expiring state confirmed, retaining access until October 30. Apple available-product prices are not a quote of eligibility or future price. Full unlocked-content coverage was not completed.",
+          "next_checks": [
+            "Test any still-unexecuted restore, entitlement and cancellation paths separately.",
+            "Check other platform/storefront and offer eligibility before generalising these dated prices."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-eaf87322584bef680214/"
+            },
+            {
+              "url": "/screens/shot-1e8b27855d86ab8f90c8/"
+            },
+            {
+              "url": "/screens/shot-05f5bef243203f7a228a/"
+            },
+            {
+              "url": "/screens/shot-e9db78cecc6baea9de36/"
+            },
+            {
+              "url": "/screens/shot-8bc651ba568e49cc8325/"
+            }
+          ]
+        }
+      },
       "play": [
         {
           "language": "en",
@@ -2992,7 +3458,7 @@
     },
     {
       "app_id": "app.biblebff",
-      "checked": "2026-10-25",
+      "checked": "2026-10-27",
       "ingredients": [
         {
           "kind": "pattern",
@@ -3030,7 +3496,7 @@
           "pattern_slugs": [
             "first-use"
           ],
-          "implementation": "Bible BFF offers Get Started and Login over a cloud background. Bible BFF introduces story-led episodes using an embedded product mockup. Bible BFF introduces onboarding questions for app customization. Bible BFF asks what makes Bible reading difficult, with six unselected choices. Bible BFF presents a publisher claim about whole-Bible reading in its onboarding carousel. Bible BFF says it explains stories in simple modern language with context and lessons. Bible BFF asks which learning goal brought the user to the app. Bible BFF presents a member testimonial with rating and audience claims. Bible BFF asks how a successful learning journey would feel. Bible BFF offers four levels of Bible familiarity. Bible BFF uses an illustrated reassurance panel before continuing. Bible BFF asks when Bible reading could fit into the day. Bible BFF offers three starting frequencies and says the goal can change. Bible BFF illustrates a three-step learning path with a day-one action. Bible BFF offers Get Started and login routes beneath its publisher positioning. Bible BFF displays progress while building a personalized path.",
+          "implementation": "Bible BFF offers Get Started and Login over a cloud background. Bible BFF introduces story-led episodes using an embedded product mockup. Bible BFF introduces onboarding questions for app customization. Bible BFF asks what makes Bible reading difficult, with six unselected choices. Bible BFF presents a publisher claim about whole-Bible reading in its onboarding carousel. Bible BFF says it explains stories in simple modern language with context and lessons. Bible BFF asks which learning goal brought the user to the app. Bible BFF presents a member testimonial with rating and audience claims. Bible BFF asks how a successful learning journey would feel. Bible BFF offers four levels of Bible familiarity. Bible BFF uses an illustrated reassurance panel before continuing. Bible BFF asks when Bible reading could fit into the day. Bible BFF offers three starting frequencies and says the goal can change. Bible BFF illustrates a three-step learning path with a day-one action. Bible BFF offers Get Started and login routes beneath its publisher positioning. Bible BFF displays progress while building a personalized path. Gift-reveal offer entry. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
@@ -3107,6 +3573,41 @@
             },
             {
               "url": "/screens/shot-5efa3aeca4a0d28a8a86/"
+            },
+            {
+              "url": "/screens/shot-68395c50f25970d345d6/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "giving",
+          "label": "Giving and offerings",
+          "pattern_slugs": [
+            "giving"
+          ],
+          "implementation": "Gift-reveal offer entry. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-68395c50f25970d345d6/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "meeting-the-person",
+          "label": "Meeting the person where they are",
+          "pattern_slugs": [
+            "meeting-the-person"
+          ],
+          "implementation": "Home after offer dismissal. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-472402eeb79d3ab2e7ff/"
             }
           ]
         },
@@ -3125,10 +3626,60 @@
               "url": "/screens/shot-8383c3ab31c2bd73bf0f/"
             }
           ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "subscriptions",
+          "pattern_slug": null,
+          "label": "Gift-framed annual discount",
+          "pattern_slugs": [
+            "first-use",
+            "giving"
+          ],
+          "implementation": "A reveal leads to USD39.99/year against a crossed-out USD59.99; this is a paid offer rather than a verified trial.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-68395c50f25970d345d6/"
+            },
+            {
+              "url": "/screens/shot-664408dffe41bb935597/"
+            }
+          ]
         }
       ],
       "dimensions": {},
-      "dimension_reviews": {},
+      "dimension_reviews": {
+        "money_access": {
+          "reviewed": "2026-10-27",
+          "review_summary": "A gift reveal leads to USD39.99/year against a crossed-out USD59.99 and a never-again claim. This is a paid annual offer, not a verified trial. Dismissal reaches the home screen. Profile entry remained loading.",
+          "next_checks": [
+            "Test any still-unexecuted restore, entitlement and cancellation paths separately.",
+            "Check other platform/storefront and offer eligibility before generalising these dated prices."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-68395c50f25970d345d6/"
+            }
+          ]
+        },
+        "attention_agency": {
+          "reviewed": "2026-10-27",
+          "review_summary": "An annual discount is presented as a gift with a claim that it will not be seen again. Dismissal reaches the home screen. Reappearance across later sessions and effects on user decisions were not tested.",
+          "next_checks": [
+            "Distinguish existing account settings from first-install defaults.",
+            "Observe delivered notifications over time; verify pause, refusal and recovery behaviour without manufacturing personal activity."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-68395c50f25970d345d6/"
+            },
+            {
+              "url": "/screens/shot-664408dffe41bb935597/"
+            }
+          ]
+        }
+      },
       "play": [
         {
           "language": "en",
@@ -3178,7 +3729,7 @@
     },
     {
       "app_id": "com.basmo.BibleChat",
-      "checked": "2026-10-25",
+      "checked": "2026-10-27",
       "ingredients": [
         {
           "kind": "pattern",
@@ -3373,7 +3924,7 @@
           "pattern_slugs": [
             "first-use"
           ],
-          "implementation": "Bible Chat displays its launch artwork and a Scripture quotation.",
+          "implementation": "Bible Chat displays its launch artwork and a Scripture quotation. Contribution-framed trial plans. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
@@ -3381,6 +3932,25 @@
             },
             {
               "url": "/screens/shot-a1d63d36cdf65c8b9f6a/"
+            },
+            {
+              "url": "/screens/shot-01733037060016069fbb/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "giving",
+          "label": "Giving and offerings",
+          "pattern_slugs": [
+            "giving"
+          ],
+          "implementation": "Contribution-framed trial plans. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-01733037060016069fbb/"
             }
           ]
         },
@@ -3452,11 +4022,14 @@
           "pattern_slugs": [
             "progress-and-streaks"
           ],
-          "implementation": "Bible Chat expands Week 1 and labels Day 1 as the place to continue.",
+          "implementation": "Bible Chat expands Week 1 and labels Day 1 as the place to continue. The explanation distinguishes freezes that protect a streak from repairs after a gap. It states free capacity of two, Premium capacity of five and one included Premium repair per month; execution was not tested.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
               "url": "/screens/shot-94bd5a3e5b5fe224f4dc/"
+            },
+            {
+              "url": "/screens/shot-81277c92331518da2714/"
             }
           ]
         },
@@ -3550,10 +4123,70 @@
               "url": "/screens/shot-7baa72f1c73053a19b8f/"
             }
           ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "subscriptions",
+          "pattern_slug": null,
+          "label": "Contribution-framed subscription",
+          "pattern_slugs": [
+            "first-use",
+            "giving"
+          ],
+          "implementation": "The contribution-framed offer shows seven-day trials at USD4.99/week or USD12.99/month and annual access at USD59.99/year.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-01733037060016069fbb/"
+            }
+          ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "progress-streaks",
+          "pattern_slug": null,
+          "label": "Streak freezes and repair",
+          "pattern_slugs": [
+            "progress-and-streaks"
+          ],
+          "implementation": "The explanation distinguishes protection before a missed day from repair afterward. Free accounts may hold two freezes; Premium raises capacity to five and includes one repair per month for gaps up to seven days. This is the offered model; repair execution, recurring grants and long-term effects remain untested.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-81277c92331518da2714/"
+            }
+          ]
         }
       ],
       "dimensions": {},
-      "dimension_reviews": {},
+      "dimension_reviews": {
+        "money_access": {
+          "reviewed": "2026-10-27",
+          "review_summary": "Seven-day trials are displayed for USD4.99/week and USD12.99/month; annual access is USD59.99/year. The offer uses charitable contribution language. Streak explanation distinguishes free freeze capacity of two, Premium capacity of five, and one included Premium repair per month. Capacity and current grants are different measures; no repair executed.",
+          "next_checks": [
+            "Test any still-unexecuted restore, entitlement and cancellation paths separately.",
+            "Check other platform/storefront and offer eligibility before generalising these dated prices."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-01733037060016069fbb/"
+            }
+          ]
+        },
+        "attention_agency": {
+          "reviewed": "2026-10-27",
+          "review_summary": "The explanation distinguishes protection before a missed day from repair afterward. Free accounts may hold two freezes; Premium raises capacity to five and includes one repair per month for gaps up to seven days. This is the offered model; repair execution, recurring grants and long-term effects remain untested.",
+          "next_checks": [
+            "Distinguish existing account settings from first-install defaults.",
+            "Observe delivered notifications over time; verify pause, refusal and recovery behaviour without manufacturing personal activity."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-81277c92331518da2714/"
+            }
+          ]
+        }
+      },
       "play": [
         {
           "language": "en",
@@ -3886,7 +4519,7 @@
     },
     {
       "app_id": "com.bgolson.scripturetyper",
-      "checked": "2026-10-25",
+      "checked": "2026-10-27",
       "ingredients": [
         {
           "kind": "pattern",
@@ -3896,7 +4529,7 @@
           "pattern_slugs": [
             "first-use"
           ],
-          "implementation": "Bible Memory asks for memory-plan goals and shows Daily time with God selected. Bible Memory explains typing only the first letter of each word using John 3:16 as a sample.",
+          "implementation": "Bible Memory asks for memory-plan goals and shows Daily time with God selected. Bible Memory explains typing only the first letter of each word using John 3:16 as a sample. Annual monthly and free Lite choices. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. The expanded alternative is a USD149.99 one-time purchase. The surrounding trial button still applies to the annual subscription; no purchase was made. Account creation offers sync and backup, alongside Continue without Signing Up. The account-free route reached the empty Lite library.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
@@ -3904,12 +4537,92 @@
             },
             {
               "url": "/screens/shot-26089ec004c6dd6f0fe8/"
+            },
+            {
+              "url": "/screens/shot-6da67acdc592dd936666/"
+            },
+            {
+              "url": "/screens/shot-c1891ddf1c3737aeec60/"
+            },
+            {
+              "url": "/screens/shot-8d86ca3ae113e7bd9b2b/"
+            }
+          ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "subscriptions",
+          "pattern_slug": null,
+          "label": "Paid options alongside free Lite",
+          "pattern_slugs": [
+            "first-use",
+            "giving"
+          ],
+          "implementation": "Plans show USD49.99/year, USD12.99/month and USD149.99 one-time. The free Lite route reaches an empty library without an account.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-6da67acdc592dd936666/"
+            },
+            {
+              "url": "/screens/shot-c1891ddf1c3737aeec60/"
+            },
+            {
+              "url": "/screens/shot-5d2ce7db42f48f505fae/"
+            },
+            {
+              "url": "/screens/shot-8d86ca3ae113e7bd9b2b/"
+            },
+            {
+              "url": "/screens/shot-9e4f097a82f7437034c8/"
             }
           ]
         }
       ],
-      "dimensions": {},
-      "dimension_reviews": {},
+      "dimensions": {
+        "money_access": {
+          "status": "ethical_baseline_observed",
+          "scope": "The inspected free Lite entry without account creation.",
+          "reason": "Declining the paid offer leads through a skippable collection choice and an explicit account-free route to an empty verse library. The person can enter this scoped free experience without payment or registration.",
+          "limits": "Core entry only; not every free capability, accessibility, post-cancellation retention, all pricing or backend privacy. A free path alone does not establish redemptive practice or an app-wide ethical pass.",
+          "principle_ids": [
+            "feed-the-flock",
+            "welcome"
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-6da67acdc592dd936666/"
+            },
+            {
+              "url": "/screens/shot-5d2ce7db42f48f505fae/"
+            },
+            {
+              "url": "/screens/shot-8d86ca3ae113e7bd9b2b/"
+            },
+            {
+              "url": "/screens/shot-9e4f097a82f7437034c8/"
+            }
+          ]
+        }
+      },
+      "dimension_reviews": {
+        "money_access": {
+          "reviewed": "2026-10-27",
+          "review_summary": "Seven days free followed by USD49.99/year; USD12.99/month and USD149.99 one-time alternatives. A free Lite path reaches an empty verse library without signing up. Continued access to verses and progress after cancellation is a publisher promise, not a tested cancellation outcome.",
+          "next_checks": [
+            "Test any still-unexecuted restore, entitlement and cancellation paths separately.",
+            "Check other platform/storefront and offer eligibility before generalising these dated prices."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-6da67acdc592dd936666/"
+            },
+            {
+              "url": "/screens/shot-c1891ddf1c3737aeec60/"
+            }
+          ]
+        }
+      },
       "play": [
         {
           "language": "en",
@@ -3959,7 +4672,7 @@
     },
     {
       "app_id": "com.topmuse.biblenote",
-      "checked": "2026-10-25",
+      "checked": "2026-10-27",
       "ingredients": [
         {
           "kind": "pattern",
@@ -4042,7 +4755,7 @@
           "pattern_slugs": [
             "first-use"
           ],
-          "implementation": "Bible Note opens with an illustrated Bible and Get Started action. Bible Note asks the reason for using the app with three unselected options. Bible Note asks for an age range and includes Prefer not to say. Bible Note asks the user to choose a role, with no selection visible. Bible Note asks about Bible study difficulties, with three unchecked answers and Skip. Bible Note asks about consequences of study difficulties with unchecked options. Bible Note promotes asking questions to understand Scripture. Bible Note illustrates a verse explanation with context, application and prayer labels. Bible Note illustrates a question and an answer about Jeremiah 29:11. Bible Note displays a testimonial carousel and popularity claims. Bible Note displays three preparation steps with check indicators. Bible Note announces that the journey is ready and offers Start Journey. Bible Note explains verse tapping over its Genesis 1 reader.",
+          "implementation": "Bible Note opens with an illustrated Bible and Get Started action. Bible Note asks the reason for using the app with three unselected options. Bible Note asks for an age range and includes Prefer not to say. Bible Note asks the user to choose a role, with no selection visible. Bible Note asks about Bible study difficulties, with three unchecked answers and Skip. Bible Note asks about consequences of study difficulties with unchecked options. Bible Note promotes asking questions to understand Scripture. Bible Note illustrates a verse explanation with context, application and prayer labels. Bible Note illustrates a question and an answer about Jeremiah 29:11. Bible Note displays a testimonial carousel and popularity claims. Bible Note displays three preparation steps with check indicators. Bible Note announces that the journey is ready and offers Start Journey. Bible Note explains verse tapping over its Genesis 1 reader. The selected three-day trial converts to USD6.99/week. A USD69.99 annual alternative is visible; the trial-reminder switch is off in this offer.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
@@ -4083,6 +4796,9 @@
             },
             {
               "url": "/screens/shot-0c4476bc3505e8307056/"
+            },
+            {
+              "url": "/screens/shot-de288f8ea890232561e2/"
             }
           ]
         },
@@ -4099,6 +4815,22 @@
           "evidence": [
             {
               "url": "/screens/shot-0c4476bc3505e8307056/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "notifications",
+          "label": "Notifications and reminders",
+          "pattern_slugs": [
+            "notifications"
+          ],
+          "implementation": "Appearance feature announcement. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-a80ccd5622251ee42f2f/"
             }
           ]
         },
@@ -4165,10 +4897,54 @@
               "url": "/screens/shot-89020b527ba2666d8061/"
             }
           ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "subscriptions",
+          "pattern_slug": null,
+          "label": "Weekly trial and annual alternative",
+          "pattern_slugs": [
+            "first-use",
+            "giving"
+          ],
+          "implementation": "Three days free followed by USD6.99/week, with a USD69.99 annual alternative; the visible trial-reminder switch is off.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-de288f8ea890232561e2/"
+            }
+          ]
         }
       ],
       "dimensions": {},
-      "dimension_reviews": {},
+      "dimension_reviews": {
+        "money_access": {
+          "reviewed": "2026-10-27",
+          "review_summary": "Three days free followed by USD6.99/week; annual alternative USD69.99. The trial-reminder switch is off in the captured offer. The streak screen displays three grace days; their execution was not tested. Apple confirmation dismissed.",
+          "next_checks": [
+            "Test any still-unexecuted restore, entitlement and cancellation paths separately.",
+            "Check other platform/storefront and offer eligibility before generalising these dated prices."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-de288f8ea890232561e2/"
+            }
+          ]
+        },
+        "attention_agency": {
+          "reviewed": "2026-10-27",
+          "review_summary": "The trial-ending reminder switch is off in the inspected offer. A later appearance announcement can be deferred. The grace-day display was retained privately; its mechanics were not executed.",
+          "next_checks": [
+            "Distinguish existing account settings from first-install defaults.",
+            "Observe delivered notifications over time; verify pause, refusal and recovery behaviour without manufacturing personal activity."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-a80ccd5622251ee42f2f/"
+            }
+          ]
+        }
+      },
       "play": [
         {
           "language": "en",
@@ -4435,7 +5211,7 @@
           "pattern_slugs": [
             "giving"
           ],
-          "implementation": "Bible Strong’s home panel links to meditation, reading plans, Audibible and support. A scrolled resource menu offers meditation collections, reading plans, an audio app and support.",
+          "implementation": "Bible Strong’s home panel links to meditation, reading plans, Audibible and support. A scrolled resource menu offers meditation collections, reading plans, an audio app and support. Community contribution and account-exit routes. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
@@ -4443,6 +5219,9 @@
             },
             {
               "url": "/screens/shot-05ef22ac7f3a47c543ec/"
+            },
+            {
+              "url": "/screens/shot-62aecb9a1fe574ffb9c9/"
             }
           ]
         },
@@ -6182,6 +6961,9 @@
             },
             {
               "url": "/screens/shot-1a143819dd0a11b996a7/"
+            },
+            {
+              "url": "/screens/shot-df91818200b03cc54071/"
             }
           ]
         },
@@ -6310,7 +7092,7 @@
     },
     {
       "app_id": "io.dwellapp.dwell",
-      "checked": "2026-10-25",
+      "checked": "2026-10-27",
       "ingredients": [
         {
           "kind": "pattern",
@@ -6320,7 +7102,7 @@
           "pattern_slugs": [
             "bible-audio"
           ],
-          "implementation": "Chapter cover and paused controls expose voice/version, music and reflection options. Paused Matthew player separates listening from reading and exposes audio customisation. Options page summarises voice, music, volume and playback settings. Expanded reflection controls choose where to insert silence and its duration. Player menu offers chapter-end, timed and custom stopping choices. Voice list groups narrators beneath translations with country flags and descriptive labels. Background catalogue groups music styles and immersive sound environments. Queue sheet contains only the neutral chapter currently open in the research session. Paragraph reader shows Mark4 with a section heading and shaded current verse area. Underlined Mark verse exposes play, favourite and queue controls.",
+          "implementation": "Chapter cover and paused controls expose voice/version, music and reflection options. Paused Matthew player separates listening from reading and exposes audio customisation. Options page summarises voice, music, volume and playback settings. Expanded reflection controls choose where to insert silence and its duration. Player menu offers chapter-end, timed and custom stopping choices. Voice list groups narrators beneath translations with country flags and descriptive labels. Background catalogue groups music styles and immersive sound environments. Queue sheet contains only the neutral chapter currently open in the research session. Paragraph reader shows Mark4 with a section heading and shaded current verse area. Underlined Mark verse exposes play, favourite and queue controls. Version and voice preferences. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
@@ -6352,6 +7134,31 @@
             },
             {
               "url": "/screens/shot-f2d24901a6b2928a8698/"
+            },
+            {
+              "url": "/screens/shot-f9af9a9342d2305c09bf/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "first-use",
+          "label": "First use",
+          "pattern_slugs": [
+            "first-use"
+          ],
+          "implementation": "New plans interface announcement. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. The inspected account already has Dwell Lifetime with no expiry. This prevents a free-tier paywall test; no lifetime purchase occurred in this session. Existing announcement preferences separately control content, releases, announcements and offers. All four switches are on in this account; delivery frequency was not measured.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-780eca2e5e83c370f48a/"
+            },
+            {
+              "url": "/screens/shot-8bf87e1bfa195bde57aa/"
+            },
+            {
+              "url": "/screens/shot-467858792e41142c0597/"
             }
           ]
         },
@@ -6408,6 +7215,31 @@
         {
           "kind": "pattern",
           "feature_id": null,
+          "pattern_slug": "notifications",
+          "label": "Notifications and reminders",
+          "pattern_slugs": [
+            "notifications"
+          ],
+          "implementation": "New plans interface announcement. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Empty reminder schedule. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Reminder day and time editor. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Existing announcement preferences separately control content, releases, announcements and offers. All four switches are on in this account; delivery frequency was not measured.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-780eca2e5e83c370f48a/"
+            },
+            {
+              "url": "/screens/shot-9f8278cb5100c97d7635/"
+            },
+            {
+              "url": "/screens/shot-7b0a0e50cb2fabdaf0f4/"
+            },
+            {
+              "url": "/screens/shot-467858792e41142c0597/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
           "pattern_slug": "numbers-headings-and-notes",
           "label": "Numbers, headings and notes",
           "pattern_slugs": [
@@ -6441,7 +7273,7 @@
           "pattern_slugs": [
             "translations"
           ],
-          "implementation": "Change Version sheet lists Bible translations with CSB checked. Voice list groups narrators beneath translations with country flags and descriptive labels.",
+          "implementation": "Change Version sheet lists Bible translations with CSB checked. Voice list groups narrators beneath translations with country flags and descriptive labels. Version and voice preferences. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
@@ -6449,6 +7281,31 @@
             },
             {
               "url": "/screens/shot-2aff9329be7ae0b42446/"
+            },
+            {
+              "url": "/screens/shot-f9af9a9342d2305c09bf/"
+            }
+          ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "reminders",
+          "pattern_slug": null,
+          "label": "Reminder scheduling and announcements",
+          "pattern_slugs": [
+            "notifications"
+          ],
+          "implementation": "The account has no scheduled morning, afternoon or evening reminders. A suggested reminder editor offers time, individual weekdays and daily/weekday/weekend cadence; it was canceled without saving. Announcements separately expose content, release, announcement and offer switches, currently on.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-9f8278cb5100c97d7635/"
+            },
+            {
+              "url": "/screens/shot-7b0a0e50cb2fabdaf0f4/"
+            },
+            {
+              "url": "/screens/shot-467858792e41142c0597/"
             }
           ]
         }
@@ -6478,19 +7335,44 @@
       },
       "dimension_reviews": {
         "money_access": {
-          "reviewed": "2026-10-26",
-          "review_summary": "Free samples and paid catalogue access are publisher-documented, including subscriptions and a separate lifetime offer. Store prices are available; free-path discovery, consent, renewal and cancellation have not been captured.",
+          "reviewed": "2026-10-27",
+          "review_summary": "An existing lifetime entitlement prevents inspection of the free-tier paywall. Reminder cadence and separate content, release, announcement and offer controls are visible. The announcement contains a publisher demo, not personal plan progress. Voice names do not establish recording provenance.",
           "next_checks": [
-            "Capture the free path and representative locked items.",
-            "Inspect plan defaults, full billing period, trial conversion, restore and cancellation."
+            "Test any still-unexecuted restore, entitlement and cancellation paths separately.",
+            "Check other platform/storefront and offer eligibility before generalising these dated prices."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-780eca2e5e83c370f48a/"
+            },
+            {
+              "url": "/screens/shot-8bf87e1bfa195bde57aa/"
+            },
+            {
+              "url": "/screens/shot-467858792e41142c0597/"
+            }
           ]
         },
         "attention_agency": {
-          "reviewed": "2026-10-26",
-          "review_summary": "Captured iOS player controls offer stopping points and adjustable silence. Reminder prompting, missed-day recovery and delivered-message frequency remain untested.",
+          "reviewed": "2026-10-27",
+          "review_summary": "The account has no scheduled morning, afternoon or evening reminders. A suggested reminder editor offers time, individual weekdays and daily/weekday/weekend cadence; it was canceled without saving. Announcements separately expose content, release, announcement and offer switches, currently on.",
           "next_checks": [
-            "Run and verify a selected sleep timer; test pause/resume from headphones.",
-            "Test notification refusal and later prompting in a bounded session."
+            "Distinguish existing account settings from first-install defaults.",
+            "Observe delivered notifications over time; verify pause, refusal and recovery behaviour without manufacturing personal activity."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-780eca2e5e83c370f48a/"
+            },
+            {
+              "url": "/screens/shot-9f8278cb5100c97d7635/"
+            },
+            {
+              "url": "/screens/shot-7b0a0e50cb2fabdaf0f4/"
+            },
+            {
+              "url": "/screens/shot-467858792e41142c0597/"
+            }
           ]
         },
         "truth_authority": {
@@ -6842,7 +7724,7 @@
     },
     {
       "app_id": "org.crossway.ESVStudyBible",
-      "checked": "2026-10-25",
+      "checked": "2026-10-27",
       "ingredients": [
         {
           "kind": "pattern",
@@ -6903,12 +7785,66 @@
         {
           "kind": "pattern",
           "feature_id": null,
+          "pattern_slug": "first-use",
+          "label": "First use",
+          "pattern_slugs": [
+            "first-use"
+          ],
+          "implementation": "Locked-resource trial offer. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. The app promises a trial reminder on October 31 and conversion on November 3. Apple later showed November 2; the discrepancy remains unresolved and no trial was activated. Monthly USD3.99 is selected; annual USD39.99 is offered alongside it. The stated periods are actual billing choices rather than equivalent monthly calculations.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-6d3bacb5c50e33b12cd8/"
+            },
+            {
+              "url": "/screens/shot-32f780826fefd9b64f75/"
+            },
+            {
+              "url": "/screens/shot-018088e90db6459b6610/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "how-much-text",
+          "label": "How much text at once",
+          "pattern_slugs": [
+            "how-much-text"
+          ],
+          "implementation": "Reader after trial dismissal. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-ddceb233f870ab2bba91/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "notifications",
+          "label": "Notifications and reminders",
+          "pattern_slugs": [
+            "notifications"
+          ],
+          "implementation": "The app promises a trial reminder on October 31 and conversion on November 3. Apple later showed November 2; the discrepancy remains unresolved and no trial was activated.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-32f780826fefd9b64f75/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
           "pattern_slug": "numbers-headings-and-notes",
           "label": "Numbers, headings and notes",
           "pattern_slugs": [
             "numbers-headings-and-notes"
           ],
-          "implementation": "ESV Bible presents John 18 with a chapter drop cap, heading, verse numbers and cross-reference letters. ESV Bible lists text and layout switches, including verse numbers, footnotes, cross references and verse-by-verse layout. John 18 uses a large chapter drop cap and inline verse and reference markers beneath a section heading. John 18 places each verse in a separate paragraph with hanging verse numbers while retaining its heading and reference markers. A continuous passage crosses into John 18 with a chapter drop cap but no visible verse numbers, reference markers or section heading. Text settings show headings, verse numbers, footnotes and cross references enabled, with verse-by-verse layout disabled. ESV Bible renders John 18 with a chapter drop cap, heading and inline verse and reference markers.",
+          "implementation": "ESV Bible presents John 18 with a chapter drop cap, heading, verse numbers and cross-reference letters. ESV Bible lists text and layout switches, including verse numbers, footnotes, cross references and verse-by-verse layout. John 18 uses a large chapter drop cap and inline verse and reference markers beneath a section heading. John 18 places each verse in a separate paragraph with hanging verse numbers while retaining its heading and reference markers. A continuous passage crosses into John 18 with a chapter drop cap but no visible verse numbers, reference markers or section heading. Text settings show headings, verse numbers, footnotes and cross references enabled, with verse-by-verse layout disabled. ESV Bible renders John 18 with a chapter drop cap, heading and inline verse and reference markers. Reader after trial dismissal. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
@@ -6934,12 +7870,77 @@
             },
             {
               "url": "/screens/shot-51358fd632847390bb54/"
+            },
+            {
+              "url": "/screens/shot-ddceb233f870ab2bba91/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "study-helps",
+          "label": "Study helps",
+          "pattern_slugs": [
+            "study-helps"
+          ],
+          "implementation": "Free and locked study resources. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-bf97ca76f1d7a3150963/"
+            }
+          ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "subscriptions",
+          "pattern_slug": null,
+          "label": "Study-resource subscription",
+          "pattern_slugs": [
+            "first-use",
+            "giving"
+          ],
+          "implementation": "The locked-resource offer displays seven days free then USD3.99/month, with USD39.99/year as an alternative; Scripture reading remained accessible after dismissal.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-bf97ca76f1d7a3150963/"
+            },
+            {
+              "url": "/screens/shot-6d3bacb5c50e33b12cd8/"
+            },
+            {
+              "url": "/screens/shot-018088e90db6459b6610/"
+            },
+            {
+              "url": "/screens/shot-ddceb233f870ab2bba91/"
             }
           ]
         }
       ],
       "dimensions": {},
-      "dimension_reviews": {},
+      "dimension_reviews": {
+        "money_access": {
+          "reviewed": "2026-10-27",
+          "review_summary": "Seven-day trial with USD3.99/month or USD39.99/year. Monthly was selected. The app timeline names November 3 while Apple names November 2 for conversion; the discrepancy remains unresolved. The reader remained accessible after declining the trial; premium resources and restoration were not executed.",
+          "next_checks": [
+            "Test any still-unexecuted restore, entitlement and cancellation paths separately.",
+            "Check other platform/storefront and offer eligibility before generalising these dated prices."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-6d3bacb5c50e33b12cd8/"
+            },
+            {
+              "url": "/screens/shot-32f780826fefd9b64f75/"
+            },
+            {
+              "url": "/screens/shot-018088e90db6459b6610/"
+            }
+          ]
+        }
+      },
       "play": [
         {
           "language": "en",
@@ -7458,7 +8459,7 @@
     },
     {
       "app_id": "app.project2b",
-      "checked": "2026-10-25",
+      "checked": "2026-10-27",
       "ingredients": [
         {
           "kind": "pattern",
@@ -7603,7 +8604,7 @@
           "pattern_slugs": [
             "check-ins-and-assessments"
           ],
-          "implementation": "A cloud-background prompt offers eight unselected feeling and support choices. Eight unselected feeling and support choices appear on clouds.",
+          "implementation": "A cloud-background prompt offers eight unselected feeling and support choices. Eight unselected feeling and support choices appear on clouds. Optional mood prompt. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
@@ -7614,6 +8615,9 @@
             },
             {
               "url": "/screens/shot-cbee8ce9423637d9caf7/"
+            },
+            {
+              "url": "/screens/shot-35d633c599ef1715ce1e/"
             }
           ]
         },
@@ -7633,6 +8637,25 @@
             },
             {
               "url": "/screens/shot-ba537ecd4ec752c94efd/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "first-use",
+          "label": "First use",
+          "pattern_slugs": [
+            "first-use"
+          ],
+          "implementation": "The visible plan selector offers USD29.99/year or USD5.99/week. Three-day trial wording found only in hidden accessibility text is excluded from the finding. Home after offer dismissal. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-5389da30f911f04298ee/"
+            },
+            {
+              "url": "/screens/shot-2c4513c5dbdcdbaea7c4/"
             }
           ]
         },
@@ -7684,6 +8707,22 @@
           "evidence": [
             {
               "url": "/screens/shot-cb5cb0cca30d1591974f/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "meeting-the-person",
+          "label": "Meeting the person where they are",
+          "pattern_slugs": [
+            "meeting-the-person"
+          ],
+          "implementation": "Optional mood prompt. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-35d633c599ef1715ce1e/"
             }
           ]
         },
@@ -7788,10 +8827,60 @@
               "url": "/screens/shot-07a74cca063340ea24cc/"
             }
           ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "subscriptions",
+          "pattern_slug": null,
+          "label": "Annual and weekly access",
+          "pattern_slugs": [
+            "first-use",
+            "giving"
+          ],
+          "implementation": "The visible offer shows USD29.99/year and USD5.99/week. Hidden trial text is excluded from the observation.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-5389da30f911f04298ee/"
+            }
+          ]
         }
       ],
       "dimensions": {},
-      "dimension_reviews": {},
+      "dimension_reviews": {
+        "money_access": {
+          "reviewed": "2026-10-27",
+          "review_summary": "The visible offer shows USD29.99/year and USD5.99/week. Three-day trial wording found in the accessibility tree is not visible evidence and is excluded. An attempted weekly selection did not visibly change the selected annual plan. The available allowance does not establish a reset cadence.",
+          "next_checks": [
+            "Test any still-unexecuted restore, entitlement and cancellation paths separately.",
+            "Check other platform/storefront and offer eligibility before generalising these dated prices."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-5389da30f911f04298ee/"
+            },
+            {
+              "url": "/screens/shot-2c4513c5dbdcdbaea7c4/"
+            }
+          ]
+        },
+        "attention_agency": {
+          "reviewed": "2026-10-27",
+          "review_summary": "A mood prompt can be dismissed without disclosure. A visible message allowance is available; its reset cadence is unknown. An attempted weekly-plan selection did not visibly change the selected annual offer and is held as unresolved.",
+          "next_checks": [
+            "Distinguish existing account settings from first-install defaults.",
+            "Observe delivered notifications over time; verify pause, refusal and recovery behaviour without manufacturing personal activity."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-35d633c599ef1715ce1e/"
+            },
+            {
+              "url": "/screens/shot-f48f537516d18338d10e/"
+            }
+          ]
+        }
+      },
       "play": [],
       "apple": {
         "n": 10,
@@ -8432,7 +9521,7 @@
     },
     {
       "app_id": "com.Quiet-Time",
-      "checked": "2026-10-25",
+      "checked": "2026-10-27",
       "ingredients": [
         {
           "kind": "pattern",
@@ -8518,7 +9607,7 @@
           "pattern_slugs": [
             "progress-and-streaks"
           ],
-          "implementation": "Glorify pairs a growing-tree illustration with weekday progress and a devotional entry button. Glorify groups quote, passage, devotional and prayer steps with durations. Glorify uses a plant illustration and weekday row for its welcome-back entry.",
+          "implementation": "Glorify pairs a growing-tree illustration with weekday progress and a devotional entry button. Glorify groups quote, passage, devotional and prayer steps with durations. Glorify uses a plant illustration and weekday row for its welcome-back entry. Welcome back and growing-tree metaphor. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Quote with explicit completion action. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
@@ -8535,6 +9624,28 @@
             },
             {
               "url": "/screens/shot-11334c2bbf10cecb123d/"
+            },
+            {
+              "url": "/screens/shot-55c23e01efb3349a53aa/"
+            },
+            {
+              "url": "/screens/shot-c2561038edec441b8b4b/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "reading-plans",
+          "label": "Reading plans",
+          "pattern_slugs": [
+            "reading-plans"
+          ],
+          "implementation": "Disarming Fear course details. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-c0e4da7b92e83f3d4252/"
             }
           ]
         },
@@ -8572,7 +9683,24 @@
         }
       ],
       "dimensions": {},
-      "dimension_reviews": {},
+      "dimension_reviews": {
+        "attention_agency": {
+          "reviewed": "2026-10-27",
+          "review_summary": "The welcome-back screen uses a growing-tree metaphor. An explicit quote completion control is visible, but a subsequent private Today frame showed completion without a recorded completion tap. The cause remains unresolved; this is not proof of the app’s general completion algorithm.",
+          "next_checks": [
+            "Distinguish existing account settings from first-install defaults.",
+            "Observe delivered notifications over time; verify pause, refusal and recovery behaviour without manufacturing personal activity."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-55c23e01efb3349a53aa/"
+            },
+            {
+              "url": "/screens/shot-c2561038edec441b8b4b/"
+            }
+          ]
+        }
+      },
       "play": [
         {
           "language": "en",
@@ -8768,7 +9896,7 @@
     },
     {
       "app_id": "app.hallow.Hallow",
-      "checked": "2026-10-25",
+      "checked": "2026-10-27",
       "ingredients": [
         {
           "kind": "feature",
@@ -9038,6 +10166,25 @@
         {
           "kind": "pattern",
           "feature_id": null,
+          "pattern_slug": "first-use",
+          "label": "First use",
+          "pattern_slugs": [
+            "first-use"
+          ],
+          "implementation": "The selected offer gives seven days free, then USD69.99 billed yearly. A USD0.99 thirty-day alternative and an enabled trial reminder are also visible; no trial was activated. The locked-session offer discloses seven days free followed by USD69.99/year. The offer was dismissed; restoration and cancellation were not tested.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-fd897505a93dd9fa59b1/"
+            },
+            {
+              "url": "/screens/shot-65e6d4ef5c6c9e7fb44b/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
           "pattern_slug": "handing-over",
           "label": "Handing over to people",
           "pattern_slugs": [
@@ -9122,6 +10269,22 @@
         {
           "kind": "pattern",
           "feature_id": null,
+          "pattern_slug": "notifications",
+          "label": "Notifications and reminders",
+          "pattern_slugs": [
+            "notifications"
+          ],
+          "implementation": "Notification categories. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-0e479760e935e38fc78b/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
           "pattern_slug": "numbers-headings-and-notes",
           "label": "Numbers, headings and notes",
           "pattern_slugs": [
@@ -9158,7 +10321,7 @@
           "pattern_slugs": [
             "prayer"
           ],
-          "implementation": "Hallow shows the guide, audio duration and play action for a short Holy Spirit meditation. Hallow’s full-screen prayer player shows elapsed time, remaining time and transport controls. Hallow displays a short prayer transcript with text settings, a concern-report link and a mini player. German home presents a guided prayer recommendation and shortcuts. Search and illustrated category tiles organise prayer content. Scrolled discovery adds series, family and guest categories. Hallow home features a dove illustration and a play control for a recommended prayer. Illustrated category tiles follow an empty discovery search. Scrolled category grid reveals family, series and guest collections.",
+          "implementation": "Hallow shows the guide, audio duration and play action for a short Holy Spirit meditation. Hallow’s full-screen prayer player shows elapsed time, remaining time and transport controls. Hallow displays a short prayer transcript with text settings, a concern-report link and a mini player. German home presents a guided prayer recommendation and shortcuts. Search and illustrated category tiles organise prayer content. Scrolled discovery adds series, family and guest categories. Hallow home features a dove illustration and a play control for a recommended prayer. Illustrated category tiles follow an empty discovery search. Scrolled category grid reveals family, series and guest collections. A dedicated switch can hide the consecutive prayer-day count. It was on in the existing account and was not changed; this is not an installation default. Free and locked novenas. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Locked novena details. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Quick Novena play entry. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
@@ -9187,6 +10350,34 @@
             },
             {
               "url": "/screens/shot-77c3c70770223961ce52/"
+            },
+            {
+              "url": "/screens/shot-b9d64cb38f18862acddc/"
+            },
+            {
+              "url": "/screens/shot-bc89fdf40f6484bba4ec/"
+            },
+            {
+              "url": "/screens/shot-0e7a727b85c68d33a1df/"
+            },
+            {
+              "url": "/screens/shot-d668566cc3d1bd7cf3bd/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "progress-and-streaks",
+          "label": "Progress and streaks",
+          "pattern_slugs": [
+            "progress-and-streaks"
+          ],
+          "implementation": "A dedicated switch can hide the consecutive prayer-day count. It was on in the existing account and was not changed; this is not an installation default.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-b9d64cb38f18862acddc/"
             }
           ]
         },
@@ -9233,9 +10424,75 @@
               "url": "/screens/shot-103c93ffbcea559e3527/"
             }
           ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "subscriptions",
+          "pattern_slug": null,
+          "label": "Subscription access",
+          "pattern_slugs": [
+            "first-use",
+            "giving"
+          ],
+          "implementation": "The inspected annual offer gives seven days free followed by USD69.99/year; locked Holy Family content leads to a contextual offer.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-fd897505a93dd9fa59b1/"
+            },
+            {
+              "url": "/screens/shot-bc89fdf40f6484bba4ec/"
+            },
+            {
+              "url": "/screens/shot-0e7a727b85c68d33a1df/"
+            },
+            {
+              "url": "/screens/shot-4f48744d55e7d3b8e37c/"
+            },
+            {
+              "url": "/screens/shot-65e6d4ef5c6c9e7fb44b/"
+            }
+          ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "reminders",
+          "pattern_slug": null,
+          "label": "Notification and streak controls",
+          "pattern_slugs": [
+            "notifications"
+          ],
+          "implementation": "Existing settings separate new-prayer, community and campaign notifications and offer a prayer-streak visibility switch. This establishes visible controls, not installation defaults, delivered frequency or the effect of saving them.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-0e479760e935e38fc78b/"
+            },
+            {
+              "url": "/screens/shot-b9d64cb38f18862acddc/"
+            }
+          ]
         }
       ],
       "dimensions": {
+        "attention_agency": {
+          "status": "ethical_baseline_observed",
+          "scope": "Visible category controls and optional prayer-streak display in the inspected iOS settings.",
+          "reason": "The interface exposes separate notification categories and a switch for showing the consecutive prayer-day count, giving the person visible choices about interruption and metric visibility.",
+          "limits": "Current account settings only. Switch execution, installation defaults, delivered notification frequency, reminder refusal and effects on pressure or formation were not tested. No app-wide judgment.",
+          "principle_ids": [
+            "enough",
+            "growth"
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-0e479760e935e38fc78b/"
+            },
+            {
+              "url": "/screens/shot-b9d64cb38f18862acddc/"
+            }
+          ]
+        },
         "truth_authority": {
           "status": "ethical_baseline_observed",
           "scope": "Two captured prayer/blessing responses only.",
@@ -9257,19 +10514,35 @@
       },
       "dimension_reviews": {
         "money_access": {
-          "reviewed": "2026-10-26",
-          "review_summary": "Publisher help describes a free account/tier and optional premium content; US store offers are listed separately. None of the41public Hallow captures shows its paywall, checkout, restore or cancellation sequence.",
+          "reviewed": "2026-10-27",
+          "review_summary": "Seven days free followed by USD69.99/year. A separate 30-day USD0.99 choice was offered. Locked Holy Family sessions lead to a contextual paywall; Quick Novena offers playback. Hardware confirmation was dismissed; playback, restoration and cancellation were not tested. Settings are existing account state, not installation defaults.",
           "next_checks": [
-            "Capture the dismissible free path and representative premium items.",
-            "Verify actual offer currency/period, trial renewal, restore and cancellation."
+            "Test any still-unexecuted restore, entitlement and cancellation paths separately.",
+            "Check other platform/storefront and offer eligibility before generalising these dated prices."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-fd897505a93dd9fa59b1/"
+            },
+            {
+              "url": "/screens/shot-65e6d4ef5c6c9e7fb44b/"
+            }
           ]
         },
         "attention_agency": {
-          "reviewed": "2026-10-26",
-          "review_summary": "The retained home/catalogue states show routine and participation cues. They do not establish reminder defaults, delivery frequency, interruption, missed-day recovery or coercion.",
+          "reviewed": "2026-10-27",
+          "review_summary": "Existing settings separate new-prayer, community and campaign notifications and offer a prayer-streak visibility switch. This establishes visible controls, not installation defaults, delivered frequency or the effect of saving them.",
           "next_checks": [
-            "Inspect reminder controls, pause/off and return-after-absence wording.",
-            "Use the separate notification study for actual delivered messages and documented sampling windows."
+            "Distinguish existing account settings from first-install defaults.",
+            "Observe delivered notifications over time; verify pause, refusal and recovery behaviour without manufacturing personal activity."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-0e479760e935e38fc78b/"
+            },
+            {
+              "url": "/screens/shot-b9d64cb38f18862acddc/"
+            }
           ]
         },
         "truth_authority": {
@@ -10433,7 +11706,7 @@
     },
     {
       "app_id": "com.prayer247.lectio365",
-      "checked": "2026-10-25",
+      "checked": "2026-10-27",
       "ingredients": [
         {
           "kind": "pattern",
@@ -10443,7 +11716,7 @@
           "pattern_slugs": [
             "devotional-audio"
           ],
-          "implementation": "Lectio 365 presents an opening pause and prayer of approach before reflection. Lectio 365 pairs a written introduction with narrator attribution and audio controls. Lectio 365 separates scripture into a coloured card within its Reflect stage. Lectio 365 shows a crossed music icon alongside prayer text and playback controls. Lectio 365 presents a Yield prompt and scripture in a coloured card. Lectio 365 introduces Is God Listening? by Carla Harding with prayer-stage navigation and a paused audio player. Lectio 365 pairs a Yield prompt with a Scripture quotation and paused audio controls. Lectio 365 introduces Is God Listening? by Carla Harding and its P.R.A.Y stages.",
+          "implementation": "Lectio 365 presents an opening pause and prayer of approach before reflection. Lectio 365 pairs a written introduction with narrator attribution and audio controls. Lectio 365 separates scripture into a coloured card within its Reflect stage. Lectio 365 shows a crossed music icon alongside prayer text and playback controls. Lectio 365 presents a Yield prompt and scripture in a coloured card. Lectio 365 introduces Is God Listening? by Carla Harding with prayer-stage navigation and a paused audio player. Lectio 365 pairs a Yield prompt with a Scripture quotation and paused audio controls. Lectio 365 introduces Is God Listening? by Carla Harding and its P.R.A.Y stages. Attributed morning-prayer reader. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
@@ -10469,6 +11742,9 @@
             },
             {
               "url": "/screens/shot-170efac42e423a20ffb0/"
+            },
+            {
+              "url": "/screens/shot-b6cc39e867753483ac5d/"
             }
           ]
         },
@@ -10480,7 +11756,7 @@
           "pattern_slugs": [
             "giving"
           ],
-          "implementation": "Lectio 365 groups help, organisational information, settings and support actions. Lectio 365 groups donation, share, favourite and download actions in a sheet.",
+          "implementation": "Lectio 365 groups help, organisational information, settings and support actions. Lectio 365 groups donation, share, favourite and download actions in a sheet. About settings and support routes. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
@@ -10488,6 +11764,9 @@
             },
             {
               "url": "/screens/shot-e591cda41d2aa317d0fc/"
+            },
+            {
+              "url": "/screens/shot-e3270f7c2add8b6f0fe3/"
             }
           ]
         },
@@ -10510,12 +11789,28 @@
         {
           "kind": "pattern",
           "feature_id": null,
+          "pattern_slug": "notifications",
+          "label": "Notifications and reminders",
+          "pattern_slugs": [
+            "notifications"
+          ],
+          "implementation": "Separate prayer reminder controls. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-174a44f6fc4e4c9afc44/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
           "pattern_slug": "prayer",
           "label": "Prayer",
           "pattern_slugs": [
             "prayer"
           ],
-          "implementation": "Lectio 365 places Morning, Midday and Night choices above a dated prayer entry. Lectio 365 shows a midday prayer entry within its time-of-day navigation. Lectio 365 presents an opening pause and prayer of approach before reflection. Lectio 365 follows a scripture card with pauses and a yielding prayer. Lectio 365 closes its devotional with prayer text and an Amen action. Lectio 365 returns to its dated morning entry after the captured devotional. Lectio 365 combines time-of-day choices with a weekly list and save/download actions. Lectio 365 offers a dated morning prayer within its daily rhythm. Lectio 365 pairs a written introduction with narrator attribution and audio controls. Lectio 365 separates scripture into a coloured card within its Reflect stage. Lectio 365 places pause-and-pray cues between authored prompts. Lectio 365 shows a crossed music icon alongside prayer text and playback controls. Lectio 365 presents a Yield prompt and scripture in a coloured card. Lectio 365 introduces Is God Listening? by Carla Harding with prayer-stage navigation and a paused audio player. Lectio 365 pairs a Yield prompt with a Scripture quotation and paused audio controls. Lectio 365 offers a morning session titled Is God Listening? within Great Prayers of the Bible. Lectio 365 introduces Is God Listening? by Carla Harding and its P.R.A.Y stages.",
+          "implementation": "Lectio 365 places Morning, Midday and Night choices above a dated prayer entry. Lectio 365 shows a midday prayer entry within its time-of-day navigation. Lectio 365 presents an opening pause and prayer of approach before reflection. Lectio 365 follows a scripture card with pauses and a yielding prayer. Lectio 365 closes its devotional with prayer text and an Amen action. Lectio 365 returns to its dated morning entry after the captured devotional. Lectio 365 combines time-of-day choices with a weekly list and save/download actions. Lectio 365 offers a dated morning prayer within its daily rhythm. Lectio 365 pairs a written introduction with narrator attribution and audio controls. Lectio 365 separates scripture into a coloured card within its Reflect stage. Lectio 365 places pause-and-pray cues between authored prompts. Lectio 365 shows a crossed music icon alongside prayer text and playback controls. Lectio 365 presents a Yield prompt and scripture in a coloured card. Lectio 365 introduces Is God Listening? by Carla Harding with prayer-stage navigation and a paused audio player. Lectio 365 pairs a Yield prompt with a Scripture quotation and paused audio controls. Lectio 365 offers a morning session titled Is God Listening? within Great Prayers of the Bible. Lectio 365 introduces Is God Listening? by Carla Harding and its P.R.A.Y stages. Attributed morning-prayer reader. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Separate prayer reminder controls. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
@@ -10568,12 +11863,48 @@
             },
             {
               "url": "/screens/shot-170efac42e423a20ffb0/"
+            },
+            {
+              "url": "/screens/shot-b6cc39e867753483ac5d/"
+            },
+            {
+              "url": "/screens/shot-174a44f6fc4e4c9afc44/"
+            }
+          ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "reminders",
+          "pattern_slug": null,
+          "label": "Prayer reminders by daypart",
+          "pattern_slugs": [
+            "notifications"
+          ],
+          "implementation": "Morning, midday and night prayer reminders are separately controlled and currently off. The daypart navigation supports several rhythms; delivery and outcomes outside the app are not established.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-174a44f6fc4e4c9afc44/"
             }
           ]
         }
       ],
       "dimensions": {},
-      "dimension_reviews": {},
+      "dimension_reviews": {
+        "attention_agency": {
+          "reviewed": "2026-10-27",
+          "review_summary": "Morning, midday and night prayer reminders are separately controlled and currently off. The daypart navigation supports several rhythms; delivery and outcomes outside the app are not established.",
+          "next_checks": [
+            "Distinguish existing account settings from first-install defaults.",
+            "Observe delivered notifications over time; verify pause, refusal and recovery behaviour without manufacturing personal activity."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-174a44f6fc4e4c9afc44/"
+            }
+          ]
+        }
+      },
       "play": [
         {
           "language": "en",
@@ -10623,7 +11954,7 @@
     },
     {
       "app_id": "com.yourcompany.TecartaBible",
-      "checked": "2026-10-25",
+      "checked": "2026-10-27",
       "ingredients": [
         {
           "kind": "pattern",
@@ -10633,11 +11964,20 @@
           "pattern_slugs": [
             "first-use"
           ],
-          "implementation": "Life Bible highlights its More tab with a discovery coachmark.",
+          "implementation": "Life Bible highlights its More tab with a discovery coachmark. Premium benefits and trial. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Monthly and yearly trial choices. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Ad-access choices distinguish creating an account for three ad-free months, regular ads, paying for annual ad removal and Premium. No option was saved.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
               "url": "/screens/shot-e6d9ac4d3cd6f67c11eb/"
+            },
+            {
+              "url": "/screens/shot-a47e3e117f130f05d3df/"
+            },
+            {
+              "url": "/screens/shot-f54d659f0b6bf1dd31bd/"
+            },
+            {
+              "url": "/screens/shot-b1c5ad798ecda06a8ba1/"
             }
           ]
         },
@@ -10714,11 +12054,17 @@
           "pattern_slugs": [
             "notifications"
           ],
-          "implementation": "Life Bible exposes text, system theme, streak display, daily notifications and default translation controls in settings.",
+          "implementation": "Life Bible exposes text, system theme, streak display, daily notifications and default translation controls in settings. A Verse of the Day notification prompt offers Not Now and Enable. Advertising-consent text present in the accessibility tree is not visible in this screenshot. Home after notification deferral. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
               "url": "/screens/shot-872e4f9ddbb747cd87cc/"
+            },
+            {
+              "url": "/screens/shot-c2ca8910f47e76d03f9b/"
+            },
+            {
+              "url": "/screens/shot-fdd7e74f5c5ad7005105/"
             }
           ]
         },
@@ -10874,10 +12220,72 @@
               "url": "/screens/shot-bc531a71b87241f6b1a6/"
             }
           ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "subscriptions",
+          "pattern_slug": null,
+          "label": "Study library and ad-free access",
+          "pattern_slugs": [
+            "first-use",
+            "giving"
+          ],
+          "implementation": "One-month trial followed by USD5.99/month or USD59.99/year; separate ad-access choices distinguish account incentives, regular ads, paid removal and Premium.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-a47e3e117f130f05d3df/"
+            },
+            {
+              "url": "/screens/shot-f54d659f0b6bf1dd31bd/"
+            },
+            {
+              "url": "/screens/shot-b1c5ad798ecda06a8ba1/"
+            }
+          ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "reminders",
+          "pattern_slug": null,
+          "label": "Deferrable verse notification prompt",
+          "pattern_slugs": [
+            "notifications"
+          ],
+          "implementation": "The Verse of the Day prompt offers Not Now; choosing it returns to home.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-c2ca8910f47e76d03f9b/"
+            },
+            {
+              "url": "/screens/shot-fdd7e74f5c5ad7005105/"
+            }
+          ]
         }
       ],
       "dimensions": {},
-      "dimension_reviews": {},
+      "dimension_reviews": {
+        "money_access": {
+          "reviewed": "2026-10-27",
+          "review_summary": "One month free followed by USD5.99/month or USD59.99/year. Separate access choices offer account-linked temporary ad removal, regular ads, annual ad removal and Premium. Hidden accessibility consent text was not displayed in these frames. No consent change or subscription activation.",
+          "next_checks": [
+            "Test any still-unexecuted restore, entitlement and cancellation paths separately.",
+            "Check other platform/storefront and offer eligibility before generalising these dated prices."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-a47e3e117f130f05d3df/"
+            },
+            {
+              "url": "/screens/shot-f54d659f0b6bf1dd31bd/"
+            },
+            {
+              "url": "/screens/shot-b1c5ad798ecda06a8ba1/"
+            }
+          ]
+        }
+      },
       "play": [
         {
           "language": "en",
@@ -10927,7 +12335,7 @@
     },
     {
       "app_id": "com.logos.ilogos",
-      "checked": "2026-10-25",
+      "checked": "2026-10-27",
       "ingredients": [
         {
           "kind": "pattern",
@@ -11050,7 +12458,7 @@
           "pattern_slugs": [
             "first-use"
           ],
-          "implementation": "Logos presents account options alongside Skip and Continue as a guest. Logos asks for a Bible translation during setup and provides a searchable list. Logos introduces its Study Assistant with example questions, an AI caution and an account gate. Logos introduces its study focus with a single Get started action. Logos presents assistant examples and a sign-in requirement before conversation. Logos presents example questions, a source promise, an AI caution and an account requirement. Logos overlays its Lexham English Bible reader with selection instructions.",
+          "implementation": "Logos presents account options alongside Skip and Continue as a guest. Logos asks for a Bible translation during setup and provides a searchable list. Logos introduces its Study Assistant with example questions, an AI caution and an account gate. Logos introduces its study focus with a single Get started action. Logos presents assistant examples and a sign-in requirement before conversation. Logos presents example questions, a source promise, an AI caution and an account requirement. Logos overlays its Lexham English Bible reader with selection instructions. Plus monthly trial. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Plus annual access is offered with one month free, then USD49.99/year. No subscription was activated. Premium annual access is offered with one month free, then USD99.99/year. The resource and AI benefits shown are offer claims, not tests of their behaviour. Premium monthly trial. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
@@ -11073,6 +12481,18 @@
             },
             {
               "url": "/screens/shot-6d6077340671fb66016b/"
+            },
+            {
+              "url": "/screens/shot-e80ca4b9ff8a1b30b03d/"
+            },
+            {
+              "url": "/screens/shot-74093fecf74dc96c12bf/"
+            },
+            {
+              "url": "/screens/shot-105b361ac5e901ec013c/"
+            },
+            {
+              "url": "/screens/shot-5a0249b8a923109a4755/"
             }
           ]
         },
@@ -11304,10 +12724,59 @@
               "url": "/screens/shot-24b4a0a384091404fe50/"
             }
           ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "subscriptions",
+          "pattern_slug": null,
+          "label": "Plus and Premium plans",
+          "pattern_slugs": [
+            "first-use",
+            "giving"
+          ],
+          "implementation": "A one-month trial is offered: Plus USD4.99/month or USD49.99/year; Premium USD9.99/month or USD99.99/year. These are offers, not tests of every included capability.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-e80ca4b9ff8a1b30b03d/"
+            },
+            {
+              "url": "/screens/shot-74093fecf74dc96c12bf/"
+            },
+            {
+              "url": "/screens/shot-105b361ac5e901ec013c/"
+            },
+            {
+              "url": "/screens/shot-5a0249b8a923109a4755/"
+            }
+          ]
         }
       ],
       "dimensions": {},
-      "dimension_reviews": {},
+      "dimension_reviews": {
+        "money_access": {
+          "reviewed": "2026-10-27",
+          "review_summary": "One month free followed by Plus USD4.99/month or USD49.99/year; Premium USD9.99/month or USD99.99/year. The inspected account had no subscription. Apple Plus monthly confirmation was dismissed. Paid AI and resource benefits are offer claims, not executed feature tests.",
+          "next_checks": [
+            "Test any still-unexecuted restore, entitlement and cancellation paths separately.",
+            "Check other platform/storefront and offer eligibility before generalising these dated prices."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-e80ca4b9ff8a1b30b03d/"
+            },
+            {
+              "url": "/screens/shot-74093fecf74dc96c12bf/"
+            },
+            {
+              "url": "/screens/shot-105b361ac5e901ec013c/"
+            },
+            {
+              "url": "/screens/shot-5a0249b8a923109a4755/"
+            }
+          ]
+        }
+      },
       "play": [
         {
           "language": "en",
@@ -11357,7 +12826,7 @@
     },
     {
       "app_id": "com.btang.manna",
-      "checked": "2026-10-25",
+      "checked": "2026-10-27",
       "ingredients": [
         {
           "kind": "pattern",
@@ -11444,10 +12913,95 @@
               "url": "/screens/shot-2e9fdebf1c98c1c392b6/"
             }
           ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "first-use",
+          "label": "First use",
+          "pattern_slugs": [
+            "first-use"
+          ],
+          "implementation": "Annual trial and monthly alternative. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Trial timeline and reminder control. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-da534a89ee0919811f80/"
+            },
+            {
+              "url": "/screens/shot-b147e2fcc1367ee8f9d0/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "notifications",
+          "label": "Notifications and reminders",
+          "pattern_slugs": [
+            "notifications"
+          ],
+          "implementation": "Trial timeline and reminder control. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-b147e2fcc1367ee8f9d0/"
+            }
+          ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "subscriptions",
+          "pattern_slug": null,
+          "label": "Free and Super comparison",
+          "pattern_slugs": [
+            "first-use",
+            "giving"
+          ],
+          "implementation": "The offer distinguishes Basic Bible Study from paid unlimited hearts, audiobook, verse explanation and unlimited prayer creation.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-da534a89ee0919811f80/"
+            },
+            {
+              "url": "/screens/shot-9c114934e3926db2d24e/"
+            }
+          ]
         }
       ],
       "dimensions": {},
-      "dimension_reviews": {},
+      "dimension_reviews": {
+        "money_access": {
+          "reviewed": "2026-10-27",
+          "review_summary": "Seven days free followed by USD34.99/year, with a USD9.99/month alternative. The comparison reserves unlimited hearts, audiobook, verse explanation and unlimited prayer creation for Super. Basic Bible Study appears in both columns. Refill and wait mechanisms are offered, not tested.",
+          "next_checks": [
+            "Test any still-unexecuted restore, entitlement and cancellation paths separately.",
+            "Check other platform/storefront and offer eligibility before generalising these dated prices."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-da534a89ee0919811f80/"
+            },
+            {
+              "url": "/screens/shot-b147e2fcc1367ee8f9d0/"
+            }
+          ]
+        },
+        "attention_agency": {
+          "reviewed": "2026-10-27",
+          "review_summary": "The paywall comparison lists Basic Bible Study in both free and Super tiers and reserves unlimited hearts and other benefits for Super. The private hearts panel offers waiting, a coin refill and upgrading, but no hearts were spent and no replenishment was tested.",
+          "next_checks": [
+            "Distinguish existing account settings from first-install defaults.",
+            "Observe delivered notifications over time; verify pause, refusal and recovery behaviour without manufacturing personal activity."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-b147e2fcc1367ee8f9d0/"
+            }
+          ]
+        }
+      },
       "play": [
         {
           "language": "en",
@@ -12168,7 +13722,7 @@
     },
     {
       "app_id": "com.prayapp.pray",
-      "checked": "2026-10-25",
+      "checked": "2026-10-27",
       "ingredients": [
         {
           "kind": "feature",
@@ -12214,6 +13768,39 @@
             },
             {
               "url": "/screens/shot-223f3190a4c4ff810e88/"
+            },
+            {
+              "url": "/screens/shot-29a0e4193b076730fbea/"
+            },
+            {
+              "url": "/screens/shot-0a5c17adef8e415ad60e/"
+            },
+            {
+              "url": "/screens/shot-6cd383097480aca98831/"
+            },
+            {
+              "url": "/screens/shot-372643e2a48fb7773c57/"
+            },
+            {
+              "url": "/screens/shot-5e5e5818808eebaa1ed0/"
+            },
+            {
+              "url": "/screens/shot-84e7171124576de59810/"
+            },
+            {
+              "url": "/screens/shot-1009183d7ba0d4170f95/"
+            },
+            {
+              "url": "/screens/shot-2c9c944c43e53581c23e/"
+            },
+            {
+              "url": "/screens/shot-a5d4a348a9072d546df3/"
+            },
+            {
+              "url": "/screens/shot-01ccbdb9cb22c3feba35/"
+            },
+            {
+              "url": "/screens/shot-e0d775d757b25f4c45af/"
             }
           ]
         },
@@ -12258,12 +13845,43 @@
         {
           "kind": "pattern",
           "feature_id": null,
+          "pattern_slug": "first-use",
+          "label": "First use",
+          "pattern_slugs": [
+            "first-use"
+          ],
+          "implementation": "Ministry-support annual offer. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Ministry-support monthly offer. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Family support plans. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Ebook and ongoing email offer. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Premium trial plans. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. The missed-day screen offers two streak repairs per month with Premium and also provides Continue. No repair was performed; the offer alone does not establish harm or spiritual outcomes.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-29a0e4193b076730fbea/"
+            },
+            {
+              "url": "/screens/shot-0a5c17adef8e415ad60e/"
+            },
+            {
+              "url": "/screens/shot-6cd383097480aca98831/"
+            },
+            {
+              "url": "/screens/shot-372643e2a48fb7773c57/"
+            },
+            {
+              "url": "/screens/shot-5e5e5818808eebaa1ed0/"
+            },
+            {
+              "url": "/screens/shot-e0d775d757b25f4c45af/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
           "pattern_slug": "giving",
           "label": "Giving and offerings",
           "pattern_slugs": [
             "giving"
           ],
-          "implementation": "Pray.com pairs ministry support with an ad-free subscription offer. Pray.com overlays scripture text and publisher controls on scenic media. Pray.com displays a Psalm quotation with a public speaker profile and support controls. Pray.com offers support tiers and an optional gift setting. Pray.com shows a central play control over scripture media and publisher actions.",
+          "implementation": "Pray.com pairs ministry support with an ad-free subscription offer. Pray.com overlays scripture text and publisher controls on scenic media. Pray.com displays a Psalm quotation with a public speaker profile and support controls. Pray.com offers support tiers and an optional gift setting. Pray.com shows a central play control over scripture media and publisher actions. Ministry-support annual offer. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Ministry-support monthly offer. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Family support plans. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
@@ -12283,6 +13901,34 @@
             },
             {
               "url": "/screens/shot-ebb6bceef9b0070d009f/"
+            },
+            {
+              "url": "/screens/shot-29a0e4193b076730fbea/"
+            },
+            {
+              "url": "/screens/shot-0a5c17adef8e415ad60e/"
+            },
+            {
+              "url": "/screens/shot-6cd383097480aca98831/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "notifications",
+          "label": "Notifications and reminders",
+          "pattern_slugs": [
+            "notifications"
+          ],
+          "implementation": "Push-notification master control. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. The reminder prompt ties setting a reminder to avoiding a missed daily prayer and losing a streak. No reminder was saved.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-2c9c944c43e53581c23e/"
+            },
+            {
+              "url": "/screens/shot-a5d4a348a9072d546df3/"
             }
           ]
         },
@@ -12299,6 +13945,41 @@
           "evidence": [
             {
               "url": "/screens/shot-223f3190a4c4ff810e88/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "prayer",
+          "label": "Prayer",
+          "pattern_slugs": [
+            "prayer"
+          ],
+          "implementation": "Prayer alarm control. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-01ccbdb9cb22c3feba35/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "progress-and-streaks",
+          "label": "Progress and streaks",
+          "pattern_slugs": [
+            "progress-and-streaks"
+          ],
+          "implementation": "The reminder prompt ties setting a reminder to avoiding a missed daily prayer and losing a streak. No reminder was saved. The missed-day screen offers two streak repairs per month with Premium and also provides Continue. No repair was performed; the offer alone does not establish harm or spiritual outcomes.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-a5d4a348a9072d546df3/"
+            },
+            {
+              "url": "/screens/shot-e0d775d757b25f4c45af/"
             }
           ]
         },
@@ -12333,10 +14014,122 @@
               "url": "/screens/shot-d8867427cd1c30f2cd7a/"
             }
           ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "subscriptions",
+          "pattern_slug": null,
+          "label": "Premium and ministry-support offers",
+          "pattern_slugs": [
+            "first-use",
+            "giving"
+          ],
+          "implementation": "Separate support and Premium surfaces disclose individual and family billing options; support framing does not verify donation allocation.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-29a0e4193b076730fbea/"
+            },
+            {
+              "url": "/screens/shot-0a5c17adef8e415ad60e/"
+            },
+            {
+              "url": "/screens/shot-6cd383097480aca98831/"
+            },
+            {
+              "url": "/screens/shot-5e5e5818808eebaa1ed0/"
+            }
+          ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "progress-streaks",
+          "pattern_slug": null,
+          "label": "Premium streak repair",
+          "pattern_slugs": [
+            "progress-and-streaks"
+          ],
+          "implementation": "The reminder sheet explicitly links a reminder to avoiding streak loss. A missed-day screen offers two Premium streak repairs per month, alongside a Continue route. This couples recovery with paid access; it does not establish guilt, psychological harm, spiritual worth or successful repair. The existing push-notification master switch is off.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-a5d4a348a9072d546df3/"
+            },
+            {
+              "url": "/screens/shot-e0d775d757b25f4c45af/"
+            }
+          ]
         }
       ],
-      "dimensions": {},
-      "dimension_reviews": {},
+      "dimensions": {
+        "attention_agency": {
+          "status": "mixed",
+          "scope": "The inspected daily-reminder and missed-day repair prompts.",
+          "reason": "Reminder copy ties notification use to avoiding streak loss, and repair is promoted through Premium with two repairs per month. The repair screen also provides a Continue route. This places a paid recovery offer beside an available route onward.",
+          "limits": "Observed wording and offered controls only. No repair, notification delivery, causal pressure, harm, spiritual outcome or intent was established. A paid subscription is not itself the concern, and ordinary access after choosing Continue was not audited in this flow.",
+          "principle_ids": [
+            "enough",
+            "growth"
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-a5d4a348a9072d546df3/"
+            },
+            {
+              "url": "/screens/shot-e0d775d757b25f4c45af/"
+            }
+          ]
+        }
+      },
+      "dimension_reviews": {
+        "money_access": {
+          "reviewed": "2026-10-27",
+          "review_summary": "Support offers and Premium trials are separate surfaces: individual USD99.99/year or USD19.99/month; family USD39.99/month or USD299.99/year. Premium advertises seven days free. The attempted trial opened Apple Pay rather than Apple-account IAP and was dismissed. AI-labelled purchase management was not executed. No claim about ministry fund allocation or cancellation success.",
+          "next_checks": [
+            "Test any still-unexecuted restore, entitlement and cancellation paths separately.",
+            "Check other platform/storefront and offer eligibility before generalising these dated prices."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-29a0e4193b076730fbea/"
+            },
+            {
+              "url": "/screens/shot-0a5c17adef8e415ad60e/"
+            },
+            {
+              "url": "/screens/shot-6cd383097480aca98831/"
+            },
+            {
+              "url": "/screens/shot-372643e2a48fb7773c57/"
+            },
+            {
+              "url": "/screens/shot-5e5e5818808eebaa1ed0/"
+            },
+            {
+              "url": "/screens/shot-e0d775d757b25f4c45af/"
+            }
+          ]
+        },
+        "attention_agency": {
+          "reviewed": "2026-10-27",
+          "review_summary": "The reminder sheet explicitly links a reminder to avoiding streak loss. A missed-day screen offers two Premium streak repairs per month, alongside a Continue route. This couples recovery with paid access; it does not establish guilt, psychological harm, spiritual worth or successful repair. The existing push-notification master switch is off.",
+          "next_checks": [
+            "Distinguish existing account settings from first-install defaults.",
+            "Observe delivered notifications over time; verify pause, refusal and recovery behaviour without manufacturing personal activity."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-2c9c944c43e53581c23e/"
+            },
+            {
+              "url": "/screens/shot-a5d4a348a9072d546df3/"
+            },
+            {
+              "url": "/screens/shot-e0d775d757b25f4c45af/"
+            }
+          ]
+        }
+      },
       "play": [
         {
           "language": "en",
@@ -13143,39 +14936,21 @@
     },
     {
       "app_id": "com.stayonfire.stayonfireapp",
-      "checked": "2026-10-25",
+      "checked": "2026-10-27",
       "ingredients": [
         {
-          "kind": "feature",
-          "feature_id": "progress-streaks",
-          "pattern_slug": null,
-          "label": "Progress and streaks",
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "bible-audio",
+          "label": "Bible audio",
           "pattern_slugs": [
-            "progress-and-streaks"
+            "bible-audio"
           ],
-          "implementation": "Scripted onboarding presents a faith-flame/streak metaphor; later recovery behaviour not established.",
-          "pattern_relation": null,
+          "implementation": "Autoplay and preload controls. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
-              "url": "/screens/shot-4d5c92d0a49353fb63b2/"
-            },
-            {
-              "url": "/screens/shot-e5fb5f0d39b1d0680be8/"
-            },
-            {
-              "url": "/screens/shot-758863195edf628c8c11/"
-            },
-            {
-              "url": "/screens/shot-3b4fa318cd1d2a9e29d4/"
-            },
-            {
-              "url": "/screens/shot-6645da9c374593b670f4/"
-            },
-            {
-              "url": "/screens/shot-f2ce58dbe98937dc95e8/"
-            },
-            {
-              "url": "/screens/shot-96c088abd430ebea52e3/"
+              "url": "/screens/shot-d3fcf484daa703e1f067/"
             }
           ]
         },
@@ -13187,7 +14962,7 @@
           "pattern_slugs": [
             "first-use"
           ],
-          "implementation": "STAYONFIRE introduces short Fires cards and an entry to the full article. STAYONFIRE introduces a Fireplace collecting saved posts and plans alongside a flame-based return counter.",
+          "implementation": "STAYONFIRE introduces short Fires cards and an entry to the full article. STAYONFIRE introduces a Fireplace collecting saved posts and plans alongside a flame-based return counter. Account benefits and sign-in entry. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
           "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
           "evidence": [
             {
@@ -13195,6 +14970,25 @@
             },
             {
               "url": "/screens/shot-758863195edf628c8c11/"
+            },
+            {
+              "url": "/screens/shot-37f0927733f8ff5f5f81/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "meeting-the-person",
+          "label": "Meeting the person where they are",
+          "pattern_slugs": [
+            "meeting-the-person"
+          ],
+          "implementation": "Account benefits and sign-in entry. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-37f0927733f8ff5f5f81/"
             }
           ]
         },
@@ -13273,10 +15067,46 @@
               "url": "/screens/shot-6645da9c374593b670f4/"
             }
           ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "progress-streaks",
+          "pattern_slug": null,
+          "label": "Account-gated streaks",
+          "pattern_slugs": [
+            "progress-and-streaks"
+          ],
+          "implementation": "Guest settings require sign-in for streaks, favourites and notifications.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-37f0927733f8ff5f5f81/"
+            },
+            {
+              "url": "/screens/shot-6da2f300423beb5b861b/"
+            }
+          ]
         }
       ],
       "dimensions": {},
-      "dimension_reviews": {},
+      "dimension_reviews": {
+        "attention_agency": {
+          "reviewed": "2026-10-27",
+          "review_summary": "Guest settings require sign-in for streaks, favourites and notifications. Autoplay and preloading are on in the inspected state; analytics is off. These are current settings, not verified installation defaults.",
+          "next_checks": [
+            "Distinguish existing account settings from first-install defaults.",
+            "Observe delivered notifications over time; verify pause, refusal and recovery behaviour without manufacturing personal activity."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-3632df5539c32669e403/"
+            },
+            {
+              "url": "/screens/shot-37f0927733f8ff5f5f81/"
+            }
+          ]
+        }
+      },
       "play": [
         {
           "language": "en",
@@ -13769,7 +15599,7 @@
     },
     {
       "app_id": "com.soultime.app",
-      "checked": "2026-10-25",
+      "checked": "2026-10-27",
       "ingredients": [
         {
           "kind": "pattern",
@@ -13827,6 +15657,41 @@
         {
           "kind": "pattern",
           "feature_id": null,
+          "pattern_slug": "first-use",
+          "label": "First use",
+          "pattern_slugs": [
+            "first-use"
+          ],
+          "implementation": "Subscription error. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-1f41bba8970212d609d7/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
+          "pattern_slug": "notifications",
+          "label": "Notifications and reminders",
+          "pattern_slugs": [
+            "notifications"
+          ],
+          "implementation": "Reminder-times error. Captured on iOS, 27 October 2026; existing state, not an installation default. Offers and visible controls do not establish successful execution. Friend settings describe automatic nudges and an alternative that asks each time before notifying a friend. Enforcement and triggering were not tested; nobody was contacted.",
+          "pattern_relation": "Captured example relevant to this design question; not a claim that every spectrum option is implemented.",
+          "evidence": [
+            {
+              "url": "/screens/shot-2db60d2ee7639a1f5ecc/"
+            },
+            {
+              "url": "/screens/shot-c67b40ca7c01b1a096bd/"
+            }
+          ]
+        },
+        {
+          "kind": "pattern",
+          "feature_id": null,
           "pattern_slug": "reading-plans",
           "label": "Reading plans",
           "pattern_slugs": [
@@ -13839,10 +15704,43 @@
               "url": "/screens/shot-43ec4b6a81627b9b1f9d/"
             }
           ]
+        },
+        {
+          "kind": "feature",
+          "feature_id": "reminders",
+          "pattern_slug": null,
+          "label": "Friend-nudge consent",
+          "pattern_slugs": [
+            "notifications"
+          ],
+          "implementation": "Friend settings say automatic notifications can nudge friends when the service thinks a call is needed; turning the control off is described as asking each time. Actual triggering, disclosure and consent enforcement were not tested; no friend was contacted.",
+          "pattern_relation": null,
+          "evidence": [
+            {
+              "url": "/screens/shot-c67b40ca7c01b1a096bd/"
+            }
+          ]
         }
       ],
       "dimensions": {},
-      "dimension_reviews": {},
+      "dimension_reviews": {
+        "attention_agency": {
+          "reviewed": "2026-10-27",
+          "review_summary": "Friend settings say automatic notifications can nudge friends when the service thinks a call is needed; turning the control off is described as asking each time. Actual triggering, disclosure and consent enforcement were not tested; no friend was contacted.",
+          "next_checks": [
+            "Distinguish existing account settings from first-install defaults.",
+            "Observe delivered notifications over time; verify pause, refusal and recovery behaviour without manufacturing personal activity."
+          ],
+          "evidence": [
+            {
+              "url": "/screens/shot-2db60d2ee7639a1f5ecc/"
+            },
+            {
+              "url": "/screens/shot-c67b40ca7c01b1a096bd/"
+            }
+          ]
+        }
+      },
       "play": [
         {
           "language": "en",
