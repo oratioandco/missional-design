@@ -31,14 +31,15 @@ const links = [
   { href: `${base}/missional-canvas/`, label: de ? 'Canvas (EN)' : 'Canvas' },
   { href: `${base}/reference/`, label: de ? 'Patterns (EN)' : 'Patterns' },
   { href: `${base}/apps/`, label: de ? 'App-Bibliothek (EN)' : 'App library', library: true },
+  { href: `${base}/building-tools/`, label: de ? 'Werkzeuge (EN)' : 'Tools' },
   { href: `${prefix}/about/`, label: de ? 'Über mich' : 'About' },
 ];
 const here = (href: string) => pathname.replace(/\/$/, '') === href.replace(/\/$/, '');
 // Pages without a counterpart: the legal pages carry both languages; the canvas exists in English only.
 const bare = pathname.replace(/\/$/, '');
 const bilingual = [`${base}/impressum`, `${base}/datenschutz`, `${base}/barrierefreiheit`].includes(bare);
-const englishOnly = bare === `${base}/missional-canvas` || /^\/(apps|organisations|screens|flows)(\/|$)/.test(bare);
-const englishNote = bare === `${base}/missional-canvas` ? 'canvas in English' : 'app library in English';
+const englishOnly = bare === `${base}/missional-canvas` || /^\/(apps|organisations|screens|flows|building-tools)(\/|$)/.test(bare);
+const englishNote = bare.startsWith(`${base}/building-tools`) ? 'building tools in English' : bare === `${base}/missional-canvas` ? 'canvas in English' : 'app library in English';
 ---
 <!doctype html>
 <html lang={lang}>

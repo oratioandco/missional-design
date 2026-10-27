@@ -170,6 +170,8 @@ const areas = de ? ['Das Wort', 'Der Mensch', 'Die Praxis', 'Die Gemeinschaft', 
   </div>
 </section>
 
+<section class="block tools-entry" aria-labelledby="building-tools-title"><div class="wrap g"><div class="prose"><h2 id="building-tools-title">{de ? 'Von der Frage zur Gestaltung.' : 'From a question to something you can build.'}</h2><p>{de ? 'Die Prinzipien im Team durcharbeiten, die Patternreferenz mit eurem KI-Assistenten nutzen oder die Foundation-Referenz-App kennenlernen.' : 'Work through the principles with your team, use the pattern reference in your AI assistant, or explore the Foundation reference app.'}</p><a class="go" href="/building-tools/">{de ? 'Werkzeuge entdecken (EN)' : 'Explore building tools'}</a></div></div></section>
+
 <!-- 5 · Posture -->
 <section class="posture wrap" aria-labelledby="posture-title">
   <div class="g">
@@ -213,3 +215,9 @@ const areas = de ? ['Das Wort', 'Der Mensch', 'Die Praxis', 'Die Gemeinschaft', 
   </div>
   <div class="wrap"><div class="sheen horizon" aria-hidden="true"><span class="bead"><svg><use href="#g"/></svg></span></div></div>
 </section>
+<style>
+ .tools-entry .prose{grid-column:2/12;max-width:850px}
+ .tools-entry h2{font-family:var(--serif);font-size:clamp(34px,4vw,52px);font-weight:400;line-height:1.15;margin-bottom:22px}
+ .tools-entry p{font-size:clamp(19px,2vw,23px);line-height:1.6;max-width:65ch;margin-bottom:22px}
+ @media(max-width:760px){.tools-entry .prose{grid-column:1/-1}}
+</style>
