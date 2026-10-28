@@ -1,0 +1,173 @@
+---
+// Redemptive design scorecard: every rubric dimension for one app, placed on the redemptive frame.
+// No overall grade. Each mark is one scoped observation; rows link to the finding or review area below.
+import data from '../../data/app-assessments.json';
+import rubric from '../../data/app-design-rubric.json';
+import {screenFor,dateLabel} from '../../lib/app-library';
+import {statusNames,findingTitles} from '../../lib/app-review';
+import warning from '@phosphor-icons/core/assets/bold/warning-bold.svg?raw';
+import scales from '@phosphor-icons/core/assets/bold/scales-bold.svg?raw';
+import plant from '@phosphor-icons/core/assets/bold/plant-bold.svg?raw';
+import caret from '@phosphor-icons/core/assets/regular/caret-right.svg?raw';
+const {app}=Astro.props;
+const a=data.apps.find(x=>x.app_id===app.id);
+const reviews:Record<string,any>=a?.dimension_reviews||{};
+const shotDate=(url:string)=>screenFor(url.split('/').filter(Boolean).at(-1)!)?.captured;
+const firstSentence=(text?:string)=>text?.split(/(?<=[.!?])\s+(?=[A-Z])/)[0];
+// Frame columns: 0 concern, 1 ethical baseline, 2 redemptive.
+const marks:Record<string,{col:number,kind:string,icon:string}[]>={
+ concern_evidenced:[{col:0,kind:'concern',icon:warning}],
+ ethical_baseline_observed:[{col:1,kind:'ethical',icon:scales}],
+ redemptive_candidate:[{col:2,kind:'candidate',icon:plant}],
+ redemptive_practice_evidenced:[{col:2,kind:'redemptive',icon:plant}],
+ mixed:[{col:0,kind:'concern',icon:warning},{col:1,kind:'ethical',icon:scales}],
+};
+const rows=rubric.dimensions.map(d=>{
+ const raw=a?.dimensions[d.id as keyof typeof a.dimensions] as any;
+ const finding=raw&&raw.status!=='not_assessed'?raw:undefined;
+ const review=reviews[d.id];
+ const state=finding?(finding.status==='not_applicable'?'na':'finding'):review?'reviewed':'open';
+ const evidence=(finding?.evidence||review?.evidence||[]) as {url:string}[];
+ const captured=evidence.map(e=>shotDate(e.url)).filter(Boolean).sort().at(-1);
+ const date=review?.reviewed?'Reviewed '+dateLabel(review.reviewed):captured?'Captured '+dateLabel(captured):'';
+ const status=finding?statusNames[finding.status]:review?'Evidence reviewed, no scoped finding yet':'Not yet assessed';
+ const detail=finding&&state==='finding'?(findingTitles[app.id+':'+d.id]||firstSentence(finding.scope)):state==='reviewed'?firstSentence(review.review_summary):'';
+ return {id:d.id,label:d.label,state,status:finding?.status||state,statusText:status,detail,marks:finding?marks[finding.status]||[]:[],
+  mixed:finding?.status==='mixed',count:evidence.length,date,href:finding?'#finding-'+d.id:'#dimension-'+d.id};
+});
+const assessed=rows.filter(r=>r.state!=='open'),open=rows.filter(r=>r.state==='open');
+const nFinding=rows.filter(r=>r.state==='finding').length,nReviewed=rows.filter(r=>r.state==='reviewed').length,nOpen=rows.filter(r=>r.state==='open').length;
+const tally=[nFinding&&`Scoped findings in ${nFinding} area${nFinding===1?'':'s'}`,nReviewed&&`evidence reviewed in ${nReviewed}`,nOpen&&`not yet assessed in ${nOpen}`].filter(Boolean).join(' · ');
+const columns=[{label:'Exploitative concern',icon:warning},{label:'Ethical baseline',icon:scales},{label:'Redemptive practice',icon:plant}];
+---
+<section class="lib-section sc" id="scorecard" aria-labelledby="scorecard-title">
+ <span id="redemptive-frame" class="sc-anchor"></span>
+ <header class="sc-head">
+  <div>
+   <p class="sc-eyebrow">Redemptive design scorecard</p>
+   <h2 id="scorecard-title">{app.name} on the redemptive frame</h2>
+   <p class="sc-lead">We read eight areas of design on the redemptive frame, from exploitative concern through an ethical baseline to redemptive practice. Each mark is a dated observation of a particular flow, with its evidence. There is no overall grade: a strength does not cancel a concern, and an area not yet assessed is an open question rather than a pass.</p>
+  </div>
+  <p class="sc-links"><a href="/apps/assessment/#assessment">How we review</a><a href="/framework/">The design principles</a></p>
+ </header>
+ {assessed.length>0&&<p class="sc-tally">{tally}</p>}
+ {assessed.length>0?<div class="sc-card">
+  <div class="sc-scale" aria-hidden="true"><span class="sc-scale-spacer"></span><span class="sc-scale-cols">{columns.map(c=><span><i set:html={c.icon}/>{c.label}</span>)}</span><span class="sc-scale-spacer sc-meta-spacer"></span></div>
+  <ol class="sc-rows">
+   {assessed.map(r=><li><a class="sc-row" href={r.href} data-state={r.state} data-status={r.status}>
+    <span class="sc-name"><strong>{r.label}</strong><span class="sc-status">{r.statusText}</span>{r.detail&&<span class="sc-detail">{r.detail}</span>}</span>
+    <span class="sc-track" aria-hidden="true">
+     <span class="sc-seg"></span><span class="sc-seg"></span><span class="sc-seg"></span>
+     {r.mixed&&<span class="sc-band"></span>}
+     {r.marks.map(m=><span class="sc-mark" data-kind={m.kind} style={`grid-column:${m.col+1}`} set:html={m.icon}/>)}
+     {r.state==='reviewed'&&<span class="sc-empty">No finding yet</span>}
+       {r.state==='na'&&<span class="sc-empty">Not applicable</span>}
+    </span>
+    <span class="sc-meta">{r.count?<>{r.count} capture{r.count===1?'':'s'}</>:<>No linked captures</>}{r.date&&<span>{r.date}</span>}</span>
+    <span class="sc-go" aria-hidden="true" set:html={caret}/>
+   </a></li>)}
+  </ol>
+  {open.length>0&&<p class="sc-open"><span>Not yet assessed</span>{open.map(r=><a href={r.href}>{r.label}</a>)}</p>}
+  <dl class="sc-key">
+   <div><dt><span class="sc-mark" data-kind="concern" set:html={warning}/></dt><dd>Concern evidenced</dd></div>
+   <div><dt><span class="sc-mark" data-kind="ethical" set:html={scales}/></dt><dd>Ethical baseline observed</dd></div>
+   <div><dt><span class="sc-mark" data-kind="candidate" set:html={plant}/></dt><dd>Redemptive candidate: promising, builder cost and effect unverified</dd></div>
+   <div><dt><span class="sc-mark" data-kind="redemptive" set:html={plant}/></dt><dd>Redemptive practice evidenced</dd></div>
+   <div><dt><span class="sc-swatch sc-swatch-mixed"></span></dt><dd>Mixed: choices to weigh together, not averaged</dd></div>
+   <div><dt><span class="sc-swatch sc-swatch-reviewed"></span></dt><dd>Evidence reviewed, no scoped finding yet</dd></div>
+  </dl>
+ </div>:<div class="sc-card sc-card-empty"><div class="sc-frame-only" aria-label="The redemptive frame"><span class="sc-scale-cols">{columns.map(c=><span><i set:html={c.icon} aria-hidden="true"/>{c.label}</span>)}</span></div><p class="sc-none">{app.name} has not been assessed on the redemptive frame yet. These are the eight areas a review will cover:</p><p class="sc-open"><span>Not yet assessed</span>{open.map(r=><a href={r.href}>{r.label}</a>)}</p></div>}
+ {assessed.length>0&&<p class="sc-foot">Select an area for its scope, reasoning, limits and evidence screens. A finding describes one observed flow, not the whole app or the people who make it.</p>}
+</section>
+<style>
+ .sc{margin-top:40px;scroll-margin-top:110px}
+ .sc-anchor{position:relative;top:-110px;display:block}
+ .sc-head{display:flex;justify-content:space-between;align-items:flex-start;gap:32px;margin-bottom:18px}
+ .sc-eyebrow{font:600 13px/1.4 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+ .sc-head h2{font:400 clamp(30px,3.4vw,46px)/1.1 var(--serif);letter-spacing:-.02em;margin:0 0 14px;text-wrap:balance;overflow-wrap:anywhere}
+ .sc-lead{font-size:17px;line-height:1.62;max-width:68ch;margin:0}
+ .sc-links{display:flex;flex-direction:column;gap:6px;font-size:14px;white-space:nowrap;margin:6px 0 0}
+ .sc-links a{min-height:28px}
+ .sc-tally{font-size:14px;color:var(--muted);margin:0 0 12px}
+ .sc-card{border:1px solid var(--rule-strong);border-radius:14px;background:var(--paper-hi);overflow:hidden}
+ .sc-scale,.sc-row{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1.25fr) 150px 20px;gap:24px;align-items:center;padding:0 22px}
+ .sc-scale{padding-top:14px;padding-bottom:12px;background:var(--paper-lo);border-bottom:1px solid var(--rule)}
+ .sc-scale-cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));font-size:12.5px;line-height:1.3;font-weight:600;color:var(--muted);text-align:center}
+ .sc-scale-cols>span{display:flex;flex-direction:column;align-items:center;gap:4px;padding:0 4px}
+ .sc-scale-cols i{display:block;width:16px;height:16px}
+ .sc-scale :global(svg){width:16px;height:16px;display:block}
+ .sc-rows>li+li{border-top:1px solid var(--rule)}
+ .sc-row{padding-top:16px;padding-bottom:16px;min-height:64px;color:var(--ink);text-decoration:none}
+ .sc-row:hover{background:var(--paper-lo)}
+ .sc-row:hover strong{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.22em}
+ .sc-row:focus-visible{outline-offset:-3px;border-radius:0}
+ .sc-name{display:flex;flex-direction:column;gap:2px;min-width:0}
+ .sc-name strong{font:600 17px/1.3 var(--sans)}
+ .sc-status{font-size:14px;line-height:1.45;color:var(--ink)}
+ .sc-row[data-state=reviewed] .sc-status,.sc-row[data-state=open] .sc-status,.sc-row[data-state=na] .sc-status{color:var(--muted)}
+ .sc-row[data-state=finding] .sc-status{font-weight:600}
+ .sc-row[data-state=reviewed] .sc-detail{font:400 14px/1.45 var(--sans)}
+ .sc-detail{font:italic 400 17px/1.35 var(--serif);color:var(--muted);margin-top:2px}
+ /* the frame track */
+ .sc-track{position:relative;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:center;justify-items:center;height:40px;border-radius:999px;border:1px solid var(--rule-strong);background:var(--paper)}
+ .sc-seg{grid-row:1;align-self:stretch;justify-self:stretch}
+ .sc-seg:nth-child(1){grid-column:1}.sc-seg:nth-child(2){grid-column:2;border-left:1px solid var(--rule);border-right:1px solid var(--rule)}.sc-seg:nth-child(3){grid-column:3}
+ .sc-row[data-state=reviewed] .sc-track{background:repeating-linear-gradient(135deg,transparent 0 6px,color-mix(in srgb,var(--rule) 70%,transparent) 6px 7px),var(--paper)}
+ .sc-row[data-state=open] .sc-track,.sc-row[data-state=na] .sc-track{border:1.5px dashed var(--metal-3);background:transparent}
+ .sc-row[data-state=open] .sc-seg,.sc-row[data-state=na] .sc-seg,.sc-row[data-state=reviewed] .sc-seg{border-color:transparent}
+ .sc-empty{grid-row:1;grid-column:1/4;font-size:12.5px;line-height:1;color:var(--muted);background:var(--paper-hi);padding:3px 8px;border-radius:999px;z-index:1}
+ .sc-row:hover .sc-empty{background:var(--paper-lo)}
+ .sc-band{grid-row:1;grid-column:1/3;justify-self:stretch;height:12px;margin:0 22%;border-radius:999px;background:repeating-linear-gradient(90deg,var(--metal-4) 0 6px,var(--metal-2) 6px 10px)}
+ .sc-mark{grid-row:1;z-index:1;display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;box-sizing:border-box}
+ .sc-mark :global(svg){width:17px;height:17px;display:block}
+ .sc-mark[data-kind=concern]{background:var(--ink);color:var(--paper-hi);border-radius:6px;transform:rotate(45deg)}
+ .sc-mark[data-kind=concern] :global(svg){transform:rotate(-45deg)}
+ .sc-mark[data-kind=ethical]{background:var(--metal-4);color:var(--paper-hi)}
+ .sc-mark[data-kind=candidate]{background:var(--paper-hi);color:var(--ink);border:2px dashed var(--ink)}
+ .sc-mark[data-kind=redemptive]{background:var(--ink);color:var(--paper-hi);box-shadow:0 0 0 3px var(--paper-hi),0 0 0 5px var(--ink)}
+ .sc-meta{display:flex;flex-direction:column;font-size:13.5px;line-height:1.4;color:var(--muted)}
+ .sc-meta>span{white-space:nowrap}
+ .sc-go{width:18px;height:18px;color:var(--muted)}
+ .sc-go :global(svg){width:18px;height:18px;display:block}
+ /* key */
+ .sc-key{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px 24px;margin:0;padding:18px 22px 20px;border-top:1px solid var(--rule);background:var(--paper-lo)}
+ .sc-key>div{display:flex;align-items:center;gap:12px;font-size:14px;line-height:1.4}
+ .sc-key dt{flex:0 0 44px;display:flex;justify-content:center}
+ .sc-key dd{margin:0}
+ .sc-key .sc-mark{width:26px;height:26px}
+ .sc-key .sc-mark :global(svg){width:15px;height:15px}
+ .sc-swatch{display:block;width:44px;height:18px;border-radius:999px;border:1px solid var(--rule-strong);background:var(--paper)}
+ .sc-swatch-mixed{border:0;height:10px;background:repeating-linear-gradient(90deg,var(--metal-4) 0 6px,var(--metal-2) 6px 10px)}
+ .sc-swatch-reviewed{background:repeating-linear-gradient(135deg,transparent 0 6px,color-mix(in srgb,var(--rule-strong) 80%,transparent) 6px 7px),var(--paper)}
+ .sc-swatch-open{border:1.5px dashed var(--metal-3);background:transparent}
+ .sc-open{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 0;margin:0;padding:14px 22px;border-top:1px solid var(--rule);font-size:14px;line-height:1.5;color:var(--muted)}
+ .sc-open>span{font-weight:600;margin-right:12px}
+ .sc-open>a{color:var(--muted);display:inline-block;padding:6px 0}
+ .sc-open>a+a::before{content:"·";display:inline-block;padding:0 10px;color:var(--faint)}
+ .sc-card-empty .sc-open{border-top:0;padding-top:0}
+ .sc-frame-only{padding:16px 22px 14px;background:var(--paper-lo);border-bottom:1px solid var(--rule)}
+ .sc-frame-only .sc-scale-cols{max-width:560px;margin:0 auto}
+ .sc-frame-only :global(svg){width:16px;height:16px;display:block}
+ .sc-none{font-size:16px;line-height:1.6;margin:0;padding:18px 22px 10px;max-width:70ch}
+ .sc-foot{font-size:14px;line-height:1.55;color:var(--muted);max-width:75ch;margin:12px 0 0}
+ @media(max-width:900px){
+  .sc-scale,.sc-row{grid-template-columns:minmax(0,1fr) minmax(0,1.1fr) 20px;gap:16px 20px}
+  .sc-meta-spacer{display:none}
+  .sc-meta{grid-column:1/3;flex-direction:row;flex-wrap:wrap;gap:0 14px}
+  .sc-go{grid-row:1/3;grid-column:3}
+ }
+ @media(max-width:700px){
+  .sc-head{display:block}
+  .sc-links{flex-direction:row;flex-wrap:wrap;gap:4px 20px;margin-top:14px}
+  .sc-lead{font-size:16px}
+  .sc-scale,.sc-row{grid-template-columns:minmax(0,1fr) 18px;gap:10px 12px;padding-left:16px;padding-right:14px}
+  .sc-scale>.sc-scale-spacer{display:none}
+  .sc-scale-cols{grid-column:1/2}
+  .sc-name{grid-column:1}
+  .sc-track{grid-column:1}
+  .sc-meta{grid-column:1}
+  .sc-go{grid-column:2;grid-row:1/4}
+  .sc-key{grid-template-columns:1fr;padding:16px}
+  .sc-open{padding:12px 16px;display:grid;grid-template-columns:1fr 1fr;gap:0 16px}.sc-open>span{grid-column:1/-1}.sc-open>a+a::before{content:none}.sc-none{padding:16px 16px 8px}
+ }
+</style>

@@ -3,14 +3,11 @@ import data from '../../data/app-assessments.json';
 import commercial from '../../data/app-commercial-facts.json';
 import rubric from '../../data/app-design-rubric.json';
 import {screenFor,dateLabel} from '../../lib/app-library';
+import {statusNames as names,findingTitles} from '../../lib/app-review';
 import wallet from '@phosphor-icons/core/assets/regular/wallet.svg?raw';
 import sliders from '@phosphor-icons/core/assets/regular/sliders-horizontal.svg?raw';
 import shield from '@phosphor-icons/core/assets/regular/shield.svg?raw';
-import warning from '@phosphor-icons/core/assets/regular/warning-circle.svg?raw';
-import scales from '@phosphor-icons/core/assets/regular/scales.svg?raw';
-import plant from '@phosphor-icons/core/assets/regular/plant.svg?raw';
 const {app}=Astro.props;const a=data.apps.find(x=>x.app_id===app.id);const cost=commercial.apps.find(x=>x.app_id===app.id);
-const names:Record<string,string>={concern_evidenced:'Concern evidenced',ethical_baseline_observed:'Ethical baseline observed',redemptive_candidate:'Redemptive candidate',redemptive_practice_evidenced:'Redemptive practice evidenced',mixed:'Mixed findings',not_assessed:'Not assessed',not_applicable:'Not applicable'};
 const findings=a?Object.entries(a.dimensions).filter(([,d])=>!['not_assessed','not_applicable'].includes(d.status)):[];
 const reviews=a?.dimension_reviews||{};
 const principleFor=(id:string)=>rubric.principles.find(p=>p.id===id);
@@ -52,28 +49,11 @@ const trustText=truth?firstSentence(truth.reason)+' Other privacy and safeguardi
 const cards=[{title:'Access & cost',icon:wallet,text:accessText,basis:money?'Captured flow · '+dateLabel(money.reviewed):'Publisher information · flow checks pending'},
 {title:'Attention & control',icon:sliders,text:controlText,basis:attention?'Scoped review · '+dateLabel(attention.reviewed):'Controls not yet verified'},
 {title:'Trust & care',icon:shield,text:trustText,basis:truth?'One interaction assessed':reviews['truth_authority']?'Evidence reviewed · checks remain':'Evidence incomplete'}];
-const frameGroups=[
- {label:'Exploitative',icon:warning,description:'A choice subverts the person’s agency.',statuses:['concern_evidenced'],empty:'No exploitative finding established in the reviewed flows.'},
- {label:'Ethical',icon:scales,description:'A choice respects people and safeguards.',statuses:['ethical_baseline_observed'],empty:'No ethical-baseline finding assigned yet.'},
- {label:'Redemptive',icon:plant,description:'A practice restores at a cost freely borne by the builder.',statuses:['redemptive_candidate','redemptive_practice_evidenced'],empty:'Redemptive practice has not been established.'},
-].map(group=>({...group,matches:findings.filter(([,f])=>group.statuses.includes(f.status))}));
-const mixed= findings.filter(([,f])=>f.status==='mixed');
-const findingTitles:Record<string,string>={
-'app.hallow.Hallow:attention_agency':'The prayer-streak count can be hidden.',
-'app.hallow.Hallow:truth_authority':'The assistant sets a boundary around blessing.',
-'com.bgolson.scripturetyper:money_access':'A free entry without creating an account.',
-'com.bible.holy.bible.for.women:money_access':'Later billing disclosure, with a verified exit.',
-'com.prayapp.pray:attention_agency':'Paid repair sits beside a way onward.',
-'io.dwellapp.dwell:attention_agency':'Stopping and pacing controls are offered.',
-'is.abide.abide:truth_authority':'This meditation names its author.',
-'com.aimermedia.LiveLent:formation_relationships':'A Sunday pause points toward local church.',
-};
 ---
 <section class="lib-section lib-design-review" id="assessment" aria-labelledby="design-findings-title">
  <header class="review-heading"><div><h2 id="design-findings-title">Design review</h2><p>Observed choices, what they mean, and what still needs checking.</p></div><a href="/apps/assessment/">How we review</a></header>
  <div class="review-snapshot">{cards.map(card=><section class="review-fact"><span class="review-icon" aria-hidden="true" set:html={card.icon}/><h3>{card.title}</h3><p>{card.text}</p><span class="review-basis">{card.basis}</span></section>)}</div>
  <p class="review-offer-scope">Offers are dated iOS observations in USD where captured. Eligibility, country and platform can differ. Existing settings are not installation defaults.</p>
- <section class="review-frame-panel" id="redemptive-frame" aria-labelledby="frame-title"><header><h3 id="frame-title">The redemptive frame</h3><p>Where the observed choices sit. Each finding concerns a specific flow or practice.</p></header><div class="review-frame-grid">{frameGroups.map(group=><section class="review-frame-cell" data-frame-evidence={group.matches.length?'present':'not-established'}><span class="review-icon" aria-hidden="true" set:html={group.icon}/><h4>{group.label}</h4><p>{group.description}</p><div class="review-frame-result">{group.matches.length?<><strong>{group.matches.length} scoped observation{group.matches.length===1?'':'s'}</strong><ul>{group.matches.map(([id,f])=><li><a href={'#finding-'+id}>{rubric.dimensions.find(d=>d.id===id)?.label}</a>{f.status==='redemptive_candidate'&&<span class="review-frame-candidate">Candidate · builder cost and effect unverified</span>}</li>)}</ul></>:<p>{group.empty}</p>}</div></section>)}</div>{mixed.length>0&&<div class="review-mixed"><strong>Mixed findings remain visible.</strong><p>These flows contain choices that need to be considered together, without averaging them into a grade.</p>{mixed.map(([id])=><a href={'#finding-'+id}>Read the {rubric.dimensions.find(d=>d.id===id)?.label.toLowerCase()} finding</a>)}</div>}<p class="review-frame-limit">An empty column means “not established”, not a pass or failure. A free tier, a subscription or Christian branding alone does not settle the assessment. <a href="/apps/assessment/">Read the evidence requirements</a>.</p></section>
  {findings.length>0?<div class="review-findings">{findings.map(([id,finding],index)=>{const evidence=finding.evidence.map(e=>evidenceScreen(e.url)).filter(Boolean);const shot=evidence.at(-1);const dimension=rubric.dimensions.find(d=>d.id===id)!;return <details class="review-finding-record" id={'finding-'+id} open={index===0||finding.status==='mixed'||finding.status==='concern_evidenced'}><summary><span class="review-status" data-finding-status={finding.status}>{names[finding.status]} <span>· {dimension.label}</span></span><span class="review-finding-title">{findingTitles[app.id+':'+id]||finding.scope}</span></summary><div class="review-finding">
   <div class="review-finding-copy"><p>{finding.reason}</p><p class="review-limit">{finding.limits}</p><details class="review-evidence"><summary>Evidence and principles <span>{evidence.length} capture{evidence.length===1?'':'s'}</span></summary><p class="lib-note">Scope: {finding.scope}</p><ul>{evidence.map(s=><li><a href={s.url}>{s.screen_name}</a><span> · {dateLabel(s.captured)}</span></li>)}</ul><p>Related principles</p><ul>{dimension.principle_ids.map(id=><li><a href={principleFor(id)?.url}>{principleFor(id)?.name}</a></li>)}</ul></details></div>
   {shot&&<figure class="review-finding-image"><a href={shot.url}><img src={shot.image} width="1320" height="2868" alt={shot.screen_name} loading="lazy"/></a><figcaption>{shot.screen_name} · {dateLabel(shot.captured)}</figcaption></figure>}

@@ -1,6 +1,7 @@
 ---
 import contextData from '../../data/app-profile-context.json';
 import AppContext from '../../components/library/AppContext.astro';
+import AppScorecard from '../../components/library/AppScorecard.astro';
 import AppAssessment from '../../components/library/AppAssessment.astro';
 import AppIcon from '../../components/library/AppIcon.astro';
 import AppStoreGallery from '../../components/library/AppStoreGallery.astro';
@@ -23,7 +24,8 @@ const previewShots=[];const previewTypes=new Set();for(const shot of shots){if(!
   <p class="profile-publisher">By <a href={org.url}>{org.name}</a></p><details class="profile-publisher-links"><summary>Website, store &amp; audience source</summary><ul><li><a href={a.app_store_url} target="_blank" rel="noreferrer">Apple App Store</a></li>{a.website&&<li><a href={a.website} target="_blank" rel="noreferrer">Official website</a></li>}<li><a href={a.target_audience.source_url} target="_blank" rel="noreferrer">Publisher audience positioning</a></li></ul></details>
  </header>
  <div class="lib-profile-filmstrip" aria-label="Research screenshot preview">{previewShots.map(s=><a href={s.url}><img src={s.image} width="1320" height="2868" alt={s.screen_name} loading="eager"/></a>)}{!shots.length&&<p>Research capture pending. <a href="#app-store">View publisher images</a>.</p>}</div></div>
- <details class="profile-page-index"><summary>On this page</summary><nav aria-label="On this app profile"><a href="#assessment">Design review</a><a href="#ingredients">Design ingredients</a><a href="#research-captures">Screenshots</a><a href="#cost-access">Cost &amp; access details</a><a href={contextData.apps.some(x=>x.app_id===a.id)?'#wider-context':'#user-response'}>Reviews &amp; context</a></nav></details>
+ <AppScorecard app={a}/>
+ <details class="profile-page-index"><summary>On this page</summary><nav aria-label="On this app profile"><a href="#scorecard">Redemptive design scorecard</a><a href="#assessment">Design review</a><a href="#ingredients">Design ingredients</a><a href="#research-captures">Screenshots</a><a href="#cost-access">Cost &amp; access details</a><a href={contextData.apps.some(x=>x.app_id===a.id)?'#wider-context':'#user-response'}>Reviews &amp; context</a></nav></details>
  <AppAssessment app={a} part="label"/>
  <AppCaptureGallery app={a} screens={shots}/>
  {sequences.length>0&&<section class="lib-section"><h2>Captured sequences</h2><ul class="lib-link-list">{sequences.map(f=><li><a href={f.url}>{f.title}</a><p>{f.context}</p></li>)}</ul></section>}
