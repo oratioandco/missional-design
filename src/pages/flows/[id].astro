@@ -1,8 +1,8 @@
 ---
 import Layout from '../../layouts/LibraryLayout.astro';
 import ScreenGrid from '../../components/library/ScreenGrid.astro';
-import {flows,screenFor,appFor} from '../../lib/app-library';
+import {flows,screenFor,appFor,articleTitle} from '../../lib/app-library';
 export function getStaticPaths(){return flows.map(flow=>({params:{id:flow.id},props:{flow}}));}
-const {flow:f}=Astro.props;const app=appFor(f.app_id);
+const {flow:f}=Astro.props;const app=appFor(f.app_id);const frames=f.screen_ids.map(screenFor);const articles=[...new Set(frames.flatMap(s=>s.article_slugs))];const i=flows.findIndex(x=>x.id===f.id);const next=flows[(i+1)%flows.length];
 ---
-<Layout title={f.title+' — '+app.name} description={f.context} active="flows" indexable><span hidden data-pagefind-meta="record_id">{'flow:'+f.id}</span><span hidden data-pagefind-filter="kind">flow</span><header class="lib-intro"><a class="lib-back" href="/flows/">All sequences</a><h1 data-pagefind-meta="title">{f.title}</h1><p data-pagefind-meta="description">{f.context}</p><div class="lib-links"><a href={app.url}>{app.name}</a></div><p class="lib-note">{f.coverage} Screens are presented in captured order.</p></header><ScreenGrid screens={f.screen_ids.map(screenFor)}/></Layout>
+<Layout title={f.title+' — '+app.name} description={f.context} active="flows" indexable><span hidden data-pagefind-meta="record_id">{'flow:'+f.id}</span><span hidden data-pagefind-filter="kind">flow</span><header class="lib-intro"><a class="lib-back" href="/flows/">All flows</a><h1 data-pagefind-meta="title">{f.title}</h1><p data-pagefind-meta="description">{f.context}</p><div class="lib-links"><a href={app.url}>App profile: {app.name}</a><a href={'/screens/?app='+encodeURIComponent(app.id)}>All screens from {app.name}</a></div><p class="lib-note">{f.coverage} Screens are presented in captured order.</p></header><ScreenGrid screens={frames}/>{articles.length>0&&<section class="lib-section"><h2>Design questions this flow illustrates</h2><ul class="lib-pattern-list">{articles.map(x=><li><a href={'/patterns/'+x+'/'}>{articleTitle(x)}</a></li>)}</ul></section>}{next&&next.id!==f.id&&<p class="lib-sequence-nav"><a href={next.url}>Next flow: {next.title}</a></p>}</Layout>
