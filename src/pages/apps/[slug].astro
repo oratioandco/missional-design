@@ -24,15 +24,17 @@ const previewShots=[];const previewTypes=new Set();for(const shot of shots){if(!
   <dl class="profile-facts-row"><div><dt>Platform</dt><dd>{a.platform}</dd></div><div><dt>Category</dt><dd>{a.category}</dd></div><div><dt>First release</dt><dd>{dateLabel(a.first_store_release)}</dd></div><div><dt>Store ratings</dt><dd>{a.store_rating.count.toLocaleString('en-GB')} ({a.store_rating.country.toUpperCase()})</dd></div><div><dt>Research captures</dt><dd>{shots.length||'None yet'}</dd></div></dl>
  </header>
  <div class="lib-profile-filmstrip" aria-label="Research screenshot preview">{previewShots.map(s=><a href={s.url}><img src={s.image} width="1320" height="2868" alt={s.screen_name} loading="eager"/></a>)}{!shots.length&&<p>Research capture pending. <a href="#app-store">View publisher images</a>.</p>}</div></div>
- <nav class="profile-jump" aria-label="On this app profile"><a href="#assessment">Design review</a><a href="#ingredients">Design ingredients</a><a href="#research-captures">Screenshots</a><a href="#cost-access">Cost &amp; access</a><a href={contextData.apps.some(x=>x.app_id===a.id)?'#wider-context':'#user-response'}>Reviews &amp; context</a>{articles.length>0&&<a href="#related-patterns">Related patterns</a>}</nav>
- <AppAssessment app={a} part="label"/>
+ <nav class="profile-jump" aria-label="On this app profile"><a href="#assessment">Design review</a><a href="#research-captures">Screens ({shots.length})</a><a href="#ingredients">Features</a><a href="#cost-access">Cost &amp; access</a><a href={contextData.apps.some(x=>x.app_id===a.id)?'#wider-context':'#user-response'}>What others say</a>{articles.length>0&&<a href="#related-patterns">Related patterns</a>}</nav>
+ <AppAssessment app={a} part="findings"/>
  <AppCaptureGallery app={a} screens={shots}/>
+ <AppAssessment app={a} part="ingredients"/>
  {sequences.length>0&&<section class="lib-section"><h2>Captured sequences</h2><ul class="lib-link-list">{sequences.map(f=><li><a href={f.url}>{f.title}</a><p>{f.context}</p></li>)}</ul></section>}
  <AppCommercialFacts app={a}/>
- <AppStoreGallery app={a} collapsible/>
  <p class="lib-note profile-facts-note" id="app-facts">Store facts checked {dateLabel(a.checked)} (version {a.version}). Ratings are not downloads or active users. App-specific revenue and active users have not been verified; <a href={org.url+'#figures'}>see the organisation profile</a> for separately scoped figures.</p>
  <AppContext app={a}/>
  <AppAssessment app={a} part="reviews"/>
+ <AppStoreGallery app={a} collapsible/>
+ <AppAssessment app={a} part="notes"/>
  <section class="lib-section lib-use-example"><h2>Use this in your own work</h2><p>Start with the observed choice, then ask how your own implementation serves people. The evidence is a design example, rather than an app-wide recommendation.</p><div class="lib-use-links"><a href="#principle-checklist">Work through the principle questions</a>{articles.length>0&&<a href={'/patterns/'+articles[0]+'/'}>Explore a related design decision</a>}<a href="/feedback/">Suggest a correction or add context</a></div>{articles.length>0&&<section id="related-patterns"><h3>Design questions this app illustrates</h3><ul class="lib-pattern-list">{articles.map(x=><li><a href={'/patterns/'+x+'/'}>{articleTitle(x)}</a></li>)}</ul></section>}</section>
  </article>
 </Layout>

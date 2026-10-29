@@ -22,11 +22,5 @@
     "href": "/flows/",
     "label": "Flows",
     "description": "Follow captured sequences"
-  },
-  {
-    "id": "articles",
-    "href": "/patterns/",
-    "label": "Patterns",
-    "description": "Explore the design questions"
   }
 ]

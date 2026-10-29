@@ -1,28 +1,16 @@
 ---
 import ScreenGrid from './ScreenGrid.astro';
 const {app,screens}=Astro.props;
+// Lead with one screen per type so the first view shows the app's range.
+const types=[...new Set(screens.map(s=>s.screen_type))];
+const counts=types.map(t=>[t,screens.filter(s=>s.screen_type===t).length]).sort((a,b)=>b[1]-a[1]);
+const lead=[...types.map(t=>screens.find(s=>s.screen_type===t)),...screens].filter((s,i,all)=>all.indexOf(s)===i).slice(0,8);
+const base='/screens/?app='+encodeURIComponent(app.id);
 ---
 <section class="lib-section lib-profile-captures" id="research-captures">
- <div class="lib-section-heading"><h2>Research screenshots</h2><span>{screens.length} reviewed screen{screens.length===1?'':'s'}</span></div>
- {screens.length>0?<><p class="lib-note">Captured app states, distinct from the publisher’s promotional images. Dates and versions belong to each screen; this is not a complete app walkthrough.</p><div class="lib-capture-preview"><ScreenGrid screens={screens.slice(0,2)}/></div>{screens.length>2&&<details class="lib-captures-more"><summary><span class="lib-when-closed">Show all {screens.length} research screenshots</span><span class="lib-when-open">Show fewer research screenshots</span></summary><ScreenGrid screens={screens.slice(2)}/></details>}<a class="lib-gallery-link" href={'/screens/?app='+encodeURIComponent(app.id)}>Browse all {screens.length} screenshots with filters</a></>:<p class="lib-muted">No research captures for this app are published yet. Publisher images are available below.</p>}
+ <div class="lib-section-heading"><h2>Screens</h2><span>{screens.length} reviewed screen{screens.length===1?'':'s'}</span></div>
+ {screens.length>0?<><p class="lib-note">Captured app states, distinct from the publisher’s promotional images. Dates and versions belong to each screen; this is not a complete app walkthrough.</p>
+ {counts.length>1&&<nav class="lib-type-chips" aria-label="Screens by type">{counts.map(([t,n])=><a href={base+'&facet=screen_type&category='+encodeURIComponent(t)}>{t} <span>{n}</span></a>)}</nav>}
+ <ScreenGrid screens={lead}/>
+ {screens.length>lead.length&&<a class="lib-gallery-link" href={base}>See all {screens.length} screens from {app.name}</a>}</>:<p class="lib-muted">No research captures for this app are published yet. Publisher images are available below.</p>}
 </section>
-<script>
- const section=document.querySelector('.lib-profile-captures');
- const preview=section?.querySelector('.lib-capture-preview .lib-grid');
- const disclosure=section?.querySelector<HTMLDetailsElement>('.lib-captures-more');
- const remaining=disclosure?.querySelector('.lib-grid');
- if(preview&&remaining&&disclosure){
-  const extras=[...remaining.children].slice(0,2);const wide=matchMedia('(min-width:701px)');
-  const adapt=()=>{
-   const focused=document.activeElement;
-   const movingFocus=focused instanceof HTMLElement&&extras.some(card=>card===focused||card.contains(focused));
-   if(!wide.matches&&movingFocus)disclosure.open=true;
-   if(wide.matches)extras.forEach(card=>preview.append(card));
-   else [...extras].reverse().forEach(card=>remaining.prepend(card));
-   disclosure.hidden=remaining.children.length===0;
-   if(movingFocus)focused.focus({preventScroll:true});
-   else if(disclosure.hidden&&focused instanceof HTMLElement&&disclosure.contains(focused)){const last=extras.at(-1);if(last instanceof HTMLElement)last.focus({preventScroll:true});}
-  };
-  adapt();wide.addEventListener('change',adapt);
- }
-</script>

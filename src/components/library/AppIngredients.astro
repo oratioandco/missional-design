@@ -1,17 +1,18 @@
 ---
 import data from '../../data/app-assessments.json';
-import IngredientPanel from './IngredientPanel.astro';
-import ProfileSelector from './ProfileSelector.astro';
+import {screenFor,articleTitle} from '../../lib/app-library';
 const {app}=Astro.props;const a=data.apps.find(x=>x.app_id===app.id);
 const entries=a?.ingredients||[];const ordered=[...entries.filter(i=>i.kind==='feature'),...entries.filter(i=>i.kind==='pattern')];
-const features=ordered.filter(i=>i.kind==='feature');const primary=features.length?features:ordered.slice(0,4);const further=ordered.filter(i=>!primary.includes(i));
+const key=(label:string)=>label.toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const shared=new Map<string,number>();for(const x of data.apps)for(const i of x.ingredients||[])shared.set(key(i.label),(shared.get(key(i.label))||0)+1);
+const lead=ordered.slice(0,6),rest=ordered.slice(6);
+const shot=(i:any)=>i.evidence.map((e:any)=>screenFor(e.url.split('/').filter(Boolean).at(-1)!)).find(Boolean);
 ---
 <section class="lib-section lib-design-ingredients" id="ingredients">
- <h2>Design ingredients</h2><p>Choose a feature to see the implementation and its screenshots.</p>
- {primary.length?<div data-profile-selector="Design ingredients">
-  <nav class="lib-ingredient-pills" data-selector-list aria-label="Choose an ingredient">{primary.map(i=>{const n=ordered.indexOf(i);return <a id={'ingredient-tab-'+n} href={'#ingredient-'+n}>{i.label}</a>;})}</nav>
-  <div id="ingredient-evidence">{primary.map(i=><IngredientPanel entry={i} index={ordered.indexOf(i)}/>)}</div>
- </div>:<p class="lib-muted">No ingredients verified against publishable captures yet. Missing entries do not mean a feature is absent.</p>}
- {further.length>0&&<details class="ingredient-further"><summary>More patterns in this app <span>{further.length} captured examples</span></summary>{further.map(i=><details class="ingredient-example"><summary>{i.label}</summary><IngredientPanel entry={i} index={ordered.indexOf(i)}/></details>)}</details>}
+ <h2>Features and patterns</h2><p>What the reviewed screens show this app doing. A missing entry does not mean a feature is absent.</p>
+ {lead.length?<div class="ingredient-list">{lead.map((i,n)=>{const s=shot(i);const k=key(i.label);return <article class="ingredient-row" id={'ingredient-'+n}>
+  {s&&<a class="ingredient-thumb" href={s.url}><img src={s.image} width="1320" height="2868" alt={s.screen_name} loading="lazy"/></a>}
+  <div><h3>{i.label}</h3><p>{i.implementation}</p><p class="ingredient-links">{i.pattern_slugs[0]&&<a href={'/patterns/'+i.pattern_slugs[0]+'/'}>{articleTitle(i.pattern_slugs[0])}</a>}{(shared.get(k)||0)>1&&<a href={'/apps/?ingredient='+k}>Other apps with {i.label.toLowerCase()} ({shared.get(k)!-1})</a>}{i.evidence.length>1&&<span class="lib-muted">{i.evidence.length} supporting screens</span>}</p></div>
+ </article>;})}</div>:<p class="lib-muted">No features verified against publishable captures yet. Missing entries do not mean a feature is absent.</p>}
+ {rest.length>0&&<><h3 class="ingredient-more-title">Also observed</h3><ul class="ingredient-more">{rest.map(i=>{const s=shot(i);return <li>{s?<a href={s.url}>{i.label}</a>:i.label}</li>;})}</ul></>}
 </section>
-<ProfileSelector/>
