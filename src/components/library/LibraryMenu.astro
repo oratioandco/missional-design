@@ -2,8 +2,9 @@
 import links from '../../../public/assets/editorial/research-navigation.json';
 const {de=false}=Astro.props;
 const active=/^\/(apps|organisations|screens|flows)(\/|$)/.test(Astro.url.pathname);
+const current=(href:string)=>Astro.url.pathname===href?'page':Astro.url.pathname.startsWith(href)?'location':undefined;
 ---
 <details class="research-menu">
  <summary class:list={{'is-current':active}}>{de?'App-Bibliothek (EN)':'App library'}<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="m3 4.5 3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></summary>
- <div class="research-menu-links" role="group" aria-label="App library and patterns">{links.map(l=><a href={l.href}><strong>{l.label}</strong><span>{l.description}</span></a>)}</div>
+ <div class="research-menu-links" role="group" aria-label="App library and patterns">{links.map(l=><a href={l.href} aria-current={current(l.href)}><strong>{l.label}</strong><span>{l.description}</span></a>)}</div>
 </details>

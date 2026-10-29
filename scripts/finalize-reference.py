@@ -25,13 +25,17 @@ def capture_section(slug):
         if image_bytes.startswith(b'\x89PNG\r\n\x1a\n'):
             width, height = struct.unpack('>II', image_bytes[16:24])
             size = ' width="'+str(width)+'" height="'+str(height)+'"'
-        figures.append('<figure><a class="lib-image" href="'+s['url']+'"><img src="'+s['image']+'" alt="'+html_escape(s['screen_name'], quote=True)+'" loading="lazy"'+size+'></a><figcaption><strong>'+html_escape(s['screen_name'])+'</strong><p>'+html_escape(s['caption'])+'</p><p class="lib-note">'+html_escape(s['context'])+'</p><small>'+html_escape(a['name'])+' · Captured '+html_escape(s['captured'])+' · Version '+html_escape(s['version'] or 'not recorded')+'</small><div class="lib-evidence-links"><a href="'+s['url']+'">Screen and evidence</a><a href="'+a['url']+'#ingredients">App ingredients</a></div></figcaption></figure>')
+        figures.append('<figure><a class="lib-image" href="'+s['url']+'"><img src="'+s['image']+'" alt="'+html_escape(s['screen_name'], quote=True)+'" loading="lazy"'+size+'></a><figcaption><strong>'+html_escape(s['screen_name'])+'</strong><p>'+html_escape(s['caption'])+'</p><p class="lib-note">'+html_escape(s['context'])+'</p><small><a href="'+a['url']+'">'+html_escape(a['name'])+'</a> · Captured '+html_escape(s['captured'])+' · Version '+html_escape(s['version'] or 'not recorded')+'</small><div class="lib-evidence-links"><a href="'+s['url']+'">Screen and evidence</a><a href="'+a['url']+'">About '+html_escape(a['name'])+'</a></div></figcaption></figure>')
     gallery = '<div class="lib-grid">'+''.join(figures[:6])+'</div>'
     if len(figures)>6:
         gallery += '<details class="lib-source-details"><summary>More examples for this pattern ('+str(len(figures)-6)+')</summary><div class="lib-grid">'+''.join(figures[6:])+'</div></details>'
     gallery += '<p><a href="/screens/?article='+slug+'">Explore all '+str(len(shots))+' relevant screens in the library</a></p>'
     return '<section class="lib-pattern-captures" id="app-captures" aria-labelledby="app-captures-title"><h2 id="app-captures-title">Examples in real apps</h2><p>Selected, reviewed device captures illustrate this design question. They show particular states, not every option in the spectrum or a complete app walkthrough.</p>'+gallery+'<p class="lib-note">Screenshots: respective app publishers. Captions describe the captured state; generated responses can differ. <a href="/screens/">Browse research captures</a> · <a href="/apps/assessment/">How we assess design</a>.</p></section>'
 
+examples = json.loads((ROOT / 'public/api/examples.json').read_text())['examples']
+app_by_name = {a['name'].lower(): a for a in library['apps']}
+app_by_name.update({k: app_by_id[v] for k, v in {'youversion': 'tv.lifechurch.bible', 'bibleai': 'ai.bible.bibleai', 'olive tree': 'com.olivetree.BR-Free', 'neubible (now mere bible)': 'com.quietpupil.neubible', 'mere bible (formerly neubible)': 'com.quietpupil.neubible'}.items() if v in app_by_id})
+example_app = {e['url'].rstrip('/').rsplit('/', 1)[1]: app_by_name.get((e.get('app') or '').lower()) for e in examples}
 for path in sorted(DIST.rglob('index.html')):
     text = path.read_text()
     # Compose reviewed library examples into imported articles at build time.
@@ -51,6 +55,11 @@ for path in sorted(DIST.rglob('index.html')):
                 before, after = text.rsplit(marker, 1)
                 text = before + section + marker + after
             text = text.replace('</head>', '<link rel="stylesheet" href="/assets/app-library/library.css"></head>')
+    if rel.startswith('examples/') and rel.count('/') == 1 and 'data-app-profile-link' not in text:
+        a = example_app.get(rel.split('/')[1])
+        lead_end = text.find('</p>', text.find('<p class="lead">'))
+        if a and lead_end > 0:
+            text = text[:lead_end+4] + '<p class="lib-example-app" data-app-profile-link>Observed in <a href="'+a['url']+'">'+html_escape(a['name'])+'</a>: app profile, research screenshots and design review.</p>' + text[lead_end+4:]
     # Add the same native disclosure menu to imported reference mastheads.
     about = '<a href="https://missional.design/about/" data-site-about>'
     if about in text:
@@ -59,7 +68,8 @@ for path in sorted(DIST.rglob('index.html')):
         links = ''.join('<a href="'+i['href']+'"><strong>'+html_escape(i['label'])+'</strong><span>'+html_escape(i['description'])+'</span></a>' for i in items)
         menu = '<details class="research-menu"><summary>App library<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="m3 4.5 3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></summary><div class="research-menu-links" role="group" aria-label="App library and patterns">'+links+'</div></details>'
         if 'class="research-menu"' not in text:
-            text = text.replace(about, menu + about, 1)
+            tools = '<a href="https://missional.design/building-tools/">'
+            text = text.replace(tools, menu + tools, 1) if tools in text else text.replace(about, menu + about, 1)
         if '/assets/editorial/research-nav.css' not in text:
             text = text.replace('</head>', '<link rel="stylesheet" href="/assets/editorial/research-nav.css"><script defer src="/assets/editorial/research-nav.js"></script></head>')
         if 'src="/editorial.js' not in text:

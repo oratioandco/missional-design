@@ -2,30 +2,95 @@
 import data from '../../data/app-assessments.json';
 import commercial from '../../data/app-commercial-facts.json';
 import rubric from '../../data/app-design-rubric.json';
-import {screensFor,screenFor,dateLabel} from '../../lib/app-library';
-import ProfileSelector from './ProfileSelector.astro';
-const {app}=Astro.props;const a=data.apps.find(x=>x.app_id===app.id);const shots=screensFor(app.id);const cost=commercial.apps.find(x=>x.app_id===app.id);
-const names:Record<string,string>={concern_evidenced:'Concern evidenced',ethical_baseline_observed:'Ethical baseline observed',redemptive_candidate:'Redemptive candidate',redemptive_practice_evidenced:'Redemptive practice evidenced',mixed:'Mixed findings',not_assessed:'Flow review needed',not_applicable:'Not applicable'};
+import {screenFor,dateLabel} from '../../lib/app-library';
+import wallet from '@phosphor-icons/core/assets/regular/wallet.svg?raw';
+import sliders from '@phosphor-icons/core/assets/regular/sliders-horizontal.svg?raw';
+import shield from '@phosphor-icons/core/assets/regular/shield.svg?raw';
+import warning from '@phosphor-icons/core/assets/regular/warning-circle.svg?raw';
+import scales from '@phosphor-icons/core/assets/regular/scales.svg?raw';
+import plant from '@phosphor-icons/core/assets/regular/plant.svg?raw';
+const {app}=Astro.props;const a=data.apps.find(x=>x.app_id===app.id);const cost=commercial.apps.find(x=>x.app_id===app.id);
+const names:Record<string,string>={concern_evidenced:'Concern noted',ethical_baseline_observed:'Respectful practice observed',redemptive_candidate:'Possible redemptive practice',redemptive_practice_evidenced:'Redemptive practice observed',mixed:'Strengths and concerns together',not_assessed:'Not reviewed yet',not_applicable:'Not applicable'};
 const findings=a?Object.entries(a.dimensions).filter(([,d])=>!['not_assessed','not_applicable'].includes(d.status)):[];
+const reviews=a?.dimension_reviews||{};
 const principleFor=(id:string)=>rubric.principles.find(p=>p.id===id);
-const evidenceScreen=(url:string)=>screenFor(url.split('/').filter(Boolean).at(-1));
+const evidenceScreen=(url:string)=>screenFor(url.split('/').filter(Boolean).at(-1)!);
 const reviewLinks=(review:any)=>review?.evidence?.map(e=>({url:e.url,name:evidenceScreen(e.url)?.screen_name||'Supporting capture'}))||[];
-const places=[['word','The Word'],['person','The person'],['practice','The practice'],['people','The people'],['makers','The makers']];
-const attention=shots.filter(s=>/reminder|streak|progress|routine|notification/i.test(s.screen_name+' '+s.caption));
-const coverage=(id:string)=>{const d=a?.dimensions[id];if(d)return names[d.status];if(id==='money_access')return cost?.access_scopes.length?'Free / paid scope documented':cost?.iap.products.length?'Store prices documented':'Access evidence incomplete';if(a?.dimension_reviews?.[id])return 'Reviewed; checks remaining';if(id==='attention_agency')return attention.length?'Candidate mechanics; controls unchecked':'Controls not captured';return 'No scoped finding yet';};
+const firstSentence=(text?:string)=>text?.split(/(?<=[.!?])\s+(?=[A-Z])/)[0];
+const money=reviews['money_access'];const attention=reviews['attention_agency'];const truth=a?.dimensions['truth_authority'];
+const prices:Record<string,string>={
+'app.hallow.Hallow':'7 days free, then $69.99/year. The inspected Holy Family session is locked; a Quick Novena shows a play entry.',
+'is.abide.abide':'7 days free, then $39.99/year or $9.99/month. The annual plan was selected in the inspected offer.',
+'io.dwellapp.dwell':'This account has lifetime access. The free-tier paywall could not be inspected.',
+'com.ascension.app':'$59.99/year or $8.99/month. Closing the first offer reveals a 7-day annual trial.',
+'com.bible.holy.bible.for.women':'3 days free, then $29.99/year. Initial $2.49/month wording is an annual equivalent; a separate monthly plan is $4.99.',
+'com.bgolson.scripturetyper':'Free Lite entry without an account. Paid offers include $49.99/year, $12.99/month and a $149.99 one-time option.',
+'com.prayapp.pray':'Premium offers 7 days free, then $99.99/year or $19.99/month. Ministry-support and family offers are separate.',
+'org.crossway.ESVStudyBible':'7 days free, then $3.99/month or $39.99/year. Scripture reading remained available after declining the trial.',
+'com.yourcompany.TecartaBible':'1 month free, then $5.99/month or $59.99/year. Advertising and separate ad-removal choices are also offered.',
+'com.basmo.BibleChat':'7-day trials at $4.99/week or $12.99/month; annual access is $59.99/year.',
+'app.biblebff':'A gift-framed offer shows $39.99/year against a crossed-out $59.99. It is a paid offer, not a verified trial.',
+'app.project2b':'The visible selector shows $29.99/year or $5.99/week. Trial wording found only in hidden accessibility text is excluded.',
+'com.aura.letspray':'Standard plans show $49.99/year, $12.99/month or $4.99/week. A separate first-year promotion is not a renewal quote.',
+'com.topmuse.biblenote':'3 days free, then $6.99/week. A $69.99 annual alternative is also offered.',
+'com.btang.manna':'7 days free, then $34.99/year, with a $9.99/month alternative. Super includes unlimited hearts and other paid benefits.',
+'com.logos.ilogos':'After 1 month free: Plus $4.99/month or $49.99/year; Premium $9.99/month or $99.99/year.',
+};
+const controls:Record<string,string>={
+'app.hallow.Hallow':'Separate notification categories and a switch to hide the prayer-streak count. Delivery and first-install defaults are untested.',
+'io.dwellapp.dwell':'Reminder days and times are editable. Content, release, announcement and offer notifications have separate controls.',
+'is.abide.abide':'Meditation and bedtime editors offer time and weekday choices. No reminder was saved or delivery tested.',
+'com.prayapp.pray':'The reminder warns about streak loss. Premium offers two repairs per month; the repair screen also offers Continue.',
+'com.basmo.BibleChat':'Free members may hold two streak freezes; Premium raises capacity to five and includes one repair per month. Execution is untested.',
+'com.prayer247.lectio365':'Morning, midday and night reminders have separate switches. All were off in the inspected account.',
+'com.soultime.app':'Friend nudges can be automatic or described as asking each time. Consent enforcement and triggering were not tested.',
+'com.aura.letspray':'A limited-time offer reappeared after the standard offer was dismissed. Referral rewards depend on a friend subscribing.',
+};
+const accessText=prices[app.id]||firstSentence(money?.review_summary)||cost?.access_scopes[0]?.summary||'The sources reviewed do not establish the free and paid capability boundary.';
+const controlText=controls[app.id]||firstSentence(attention?.review_summary)||'Reminder defaults, pause and missed-day recovery have not been verified.';
+const trustText=truth?firstSentence(truth.reason)+' Other privacy and safeguarding questions remain open.':firstSentence(reviews['truth_authority']?.review_summary)||'Source boundaries, privacy and safeguards need further review. No app-wide assurance is implied.';
+const cards=[{title:'Access & cost',icon:wallet,text:accessText,basis:money?'Captured flow · '+dateLabel(money.reviewed):'Publisher information · flow checks pending'},
+{title:'Attention & control',icon:sliders,text:controlText,basis:attention?'Scoped review · '+dateLabel(attention.reviewed):'Controls not yet verified'},
+{title:'Trust & care',icon:shield,text:trustText,basis:truth?'One interaction assessed':reviews['truth_authority']?'Evidence reviewed · checks remain':'Evidence incomplete'}];
+// One row per review area, placed on the exploitative → ethical → redemptive spectrum.
+const zones=[{id:'exploitative',label:'Works against the person',icon:warning},{id:'ethical',label:'Respects the person',icon:scales},{id:'redemptive',label:'Restores, at the builder’s cost',icon:plant}];
+const placement:Record<string,string[]>={concern_evidenced:['exploitative'],ethical_baseline_observed:['ethical'],mixed:['exploitative','ethical'],redemptive_candidate:['redemptive'],redemptive_practice_evidenced:['redemptive']};
+const rows=rubric.dimensions.map(d=>{const f=a?.dimensions[d.id];const placed=f?placement[f.status]||[]:[];const review=reviews[d.id];
+ const state=placed.length?'placed':review?'reviewed':'open';
+ const note=placed.length?names[f!.status]:review?'Reviewed, not yet placed':'Not reviewed yet';
+ const href=placed.length?'#finding-'+d.id:review?'#area-'+d.id:undefined;
+ return {id:d.id,label:d.label,placed,state,note,href,candidate:f?.status==='redemptive_candidate'};});
+const count=(fn:(r:any)=>boolean)=>rows.filter(fn).length;
+const summary=[[count(r=>r.placed.includes('ethical')||r.placed.includes('redemptive')),'area','areas','with good practice observed'],[count(r=>r.placed.includes('exploitative')),'area','areas','with a concern noted'],[count(r=>r.state==='reviewed'),'area','areas','reviewed, not yet placed'],[count(r=>r.state==='open'),'area','areas','not reviewed yet']].filter(([n])=>n);
+const reviewedOnly=rubric.dimensions.filter(d=>reviews[d.id]&&!findings.some(([id])=>id===d.id));
+const openAreas=rows.filter(r=>r.state==='open').map(r=>r.label);
+const findingTitles:Record<string,string>={
+'app.hallow.Hallow:attention_agency':'The prayer-streak count can be hidden.',
+'app.hallow.Hallow:truth_authority':'The assistant sets a boundary around blessing.',
+'com.bgolson.scripturetyper:money_access':'A free entry without creating an account.',
+'com.bible.holy.bible.for.women:money_access':'Later billing disclosure, with a verified exit.',
+'com.prayapp.pray:attention_agency':'Paid repair sits beside a way onward.',
+'io.dwellapp.dwell:attention_agency':'Stopping and pacing controls are offered.',
+'is.abide.abide:truth_authority':'This meditation names its author.',
+'com.aimermedia.LiveLent:formation_relationships':'A Sunday pause points toward local church.',
+};
 ---
-<section class="lib-section lib-design-profile" id="assessment" aria-labelledby="design-findings-title">
- <header class="lib-design-heading"><h2 id="design-findings-title">Design nutrition</h2><p>What is in the app, how it serves people, and what the evidence can tell us.</p></header>
- <div data-profile-selector="Design assessment">
- <nav class="lib-nutrition-grid" data-selector-list aria-label="Explore an assessment dimension">{rubric.dimensions.map(d=><a id={'nutrition-tab-'+d.id} href={'#dimension-'+d.id}><strong>{d.label}</strong><span>{coverage(d.id)}</span></a>)}</nav>
- {rubric.dimensions.map(d=>{const finding=a?.dimensions[d.id];const review=a?.dimension_reviews?.[d.id];const evidence=finding?.evidence.map(e=>evidenceScreen(e.url)).filter(Boolean)||[];return <section class="lib-nutrition-panel" id={'dimension-'+d.id}>
-  <header><h3>{d.label}</h3><p class="lib-note">{d.principle_ids.map((id,n)=>{const p=principleFor(id);return <Fragment>{n>0?' · ':''}<a href={p?.url}>{p?.name}</a></Fragment>;})}</p></header>
-  {d.id==='money_access'?<div class="lib-money-summary"><div><h4>Access and paywalls</h4>{cost?.access_scopes.length?cost.access_scopes.map(s=><p>{s.summary} <a href={s.source_url} target="_blank" rel="noreferrer">Publisher source</a></p>):<p>The sources reviewed do not establish the free/paid capability boundary.</p>}{app.id==='app.hallow.Hallow'&&<p>The publisher describes a dismissible subscription screen and premium-content markers. These are documented instructions, rather than a captured test of the flow.</p>}<p class="lib-note">Purchase flow still needs checking: paywall dismissal, default plan, trial renewal disclosure, restore and cancellation. A listed price alone does not establish informed consent or an easy exit.</p><a href="#cost-access">All access, billing and publisher sources</a></div><div><h4>Listed in-app prices</h4>{cost?.iap.products.length?<><ul class="lib-price-list">{cost.iap.products.map(p=><li><span>{p.name}</span><strong>{p.display_price}</strong></li>)}</ul><p class="lib-note">{cost.iap.storefront.toUpperCase()} App Store · {dateLabel(cost.iap.checked)}. Listed offers can differ from a personal checkout, country or web price.</p></>:<p>No verified in-app price list in the retrieved source.</p>}<p class="lib-review-state">Facts reviewed · transaction behaviour not yet assessed</p></div></div>:finding?<article class="lib-design-finding" id={'finding-'+d.id}><div class="lib-finding-layout">{evidence.at(-1)&&<figure><a href={evidence.at(-1).url}><img src={evidence.at(-1).image} width="1320" height="2868" alt={evidence.at(-1).screen_name} loading="lazy"/></a><figcaption><a href={evidence.at(-1).url}>Inspect the captured evidence</a></figcaption></figure>}<div class="lib-finding-reason"><p class="lib-finding-status">{names[finding.status]}</p><h4>{finding.scope}</h4><p>{finding.reason}</p><p class="lib-finding-limit">{finding.limits}</p><div class="lib-evidence-links">{evidence.map((s,n)=><a href={s.url}>Capture {n+1}</a>)}<a href={'#principle-'+d.principle_ids[0]}>Principle checklist</a></div></div></div></article>:d.id==='attention_agency'&&!review?<div><p>{attention.length?'Captured examples show '+attention.map(s=>s.screen_name).slice(0,3).join(', ')+'. Their presence alone does not establish pressure or coercion.':'Reminder defaults, cadence, streak loss and return-after-absence behaviour are not established by the published captures.'}</p><div class="lib-evidence-links">{attention.slice(0,3).map(s=><a href={s.url}>{s.screen_name}</a>)}</div><p class="lib-note">Next checks: opt-in, editable timing, pause, recovery and guilt/urgency wording. Delivered-message frequency awaits the notification study; a notification permission prompt is not a delivery log.</p></div>:review?<div class="lib-reviewed-dimension"><p>{review.review_summary}</p><div class="lib-evidence-links">{reviewLinks(review).map(e=><a href={e.url}>{e.name}</a>)}</div><h4>Checks still needed</h4><ul>{review.next_checks.map(c=><li>{c}</li>)}</ul><p class="lib-note">Evidence reviewed {dateLabel(review.reviewed)}. No ethical finding has been assigned from these facts alone.</p></div>:<p class="lib-muted">No scoped evaluation has been completed for this dimension. Screens and ingredients below can support further review; missing findings do not mean a pass, failure or absent feature.</p>}
- {review&&d.id==='money_access'&&<div class="lib-reviewed-dimension"><p>{review.review_summary}</p><div class="lib-evidence-links">{reviewLinks(review).map(e=><a href={e.url}>{e.name}</a>)}</div><p class="lib-note">Evidence reviewed {dateLabel(review.reviewed)}. {review.next_checks.join(' ')}</p></div>}
- </section>;})}
- </div>
- <section class="lib-frame-key" id="redemptive-frame" data-pagefind-ignore="all"><h3>The redemptive frame</h3><p><strong>Exploitative:</strong> subverts agency. <strong>Ethical:</strong> respects people and safeguards. <strong>Redemptive:</strong> restores at a cost freely borne by the builder.</p><p class="lib-note">Specific practices, not an overall app grade. <a href="/apps/assessment/">Read the method and evidence requirements</a> · <a href="https://www.praxis.co/redemptive-entrepreneurship">Praxis’s frame</a>.</p></section>
- <details class="lib-principle-checklist" id="principle-checklist" data-pagefind-ignore="all"><summary>Full principle checklist <span>{findings.length} scoped finding{findings.length===1?'':'s'} · additional flow checks pending</span></summary><p class="lib-note">This is a map of the review, not a score. A linked finding informs a principle; it does not automatically grade that principle or the whole app. Unknown is not a pass or a failure.</p>{places.map(([place,title])=><section class="lib-principle-group"><h3>{title}</h3><dl>{rubric.principles.filter(p=>p.place===place).map(p=>{const linked=findings.filter(([,d])=>d.principle_ids.includes(p.id));return <div id={'principle-'+p.id}><dt><a href={p.url}>{p.name}</a><p>{p.question}</p></dt><dd>{linked.length?linked.map(([id,d])=><a href={'#finding-'+id}>Read the related scoped finding</a>):<span class="lib-muted">No scoped finding yet</span>}</dd></div>;})}</dl></section>)}<details class="lib-source-details"><summary>Coverage of the eight assessment dimensions</summary><dl class="lib-coverage-dimensions">{rubric.dimensions.map(d=>{const finding=findings.find(([id])=>id===d.id);return <div><dt>{d.label}</dt><dd>{finding?<a href={'#finding-'+d.id}>{names[finding[1].status]}</a>:a?.dimension_reviews?.[d.id]?<a href={'#dimension-'+d.id}>Reviewed; further evidence needed</a>:'Not assessed'}</dd></div>;})}</dl></details></details>
-
+<section class="lib-section lib-design-review" id="assessment" aria-labelledby="design-findings-title">
+ <header class="review-heading"><div><h2 id="design-findings-title">Design review</h2><p>Observed choices, what they mean, and what still needs checking.</p></div><a href="/apps/assessment/">How we review</a></header>
+ <div class="review-snapshot">{cards.map(card=><section class="review-fact"><span class="review-icon" aria-hidden="true" set:html={card.icon}/><h3>{card.title}</h3><p>{card.text}</p><span class="review-basis">{card.basis}</span></section>)}</div>
+ <p class="review-offer-scope">Offers are dated iOS observations in USD where captured. Eligibility, country and platform can differ. Existing settings are not installation defaults.</p>
+ <section class="review-frame-panel" id="redemptive-frame" aria-labelledby="frame-title"><header><h3 id="frame-title">Where the observed choices sit</h3><p class="frame-summary">{summary.map(([n,one,many,text])=><span><strong>{n}</strong>{' '+(n===1?one:many)+' '+text}</span>)}</p></header>
+  <div class="frame-plot" role="table" aria-label="Review areas placed on the redemptive frame">
+   <div class="frame-row frame-head" role="row"><span role="columnheader">Review area</span><div class="frame-track" role="columnheader">{zones.map(z=><span class="frame-zone-label"><span class="frame-zone-icon" aria-hidden="true" set:html={z.icon}/>{z.label}</span>)}</div><span role="columnheader" class="frame-note-head">What we found</span></div>
+   {rows.map(r=><div class="frame-row" role="row" data-state={r.state}><span role="cell" class="frame-area">{r.label}</span><div role="cell" class="frame-track" aria-label={r.placed.length?'Placed: '+r.placed.join(' and '):r.note}>{zones.map(z=><span class="frame-zone" data-zone={z.id}>{r.placed.includes(z.id)&&<span class:list={['frame-dot',{'is-candidate':r.candidate}]} aria-hidden="true"/>}</span>)}{r.placed.length===2&&<span class="frame-span" aria-hidden="true"/>}</div><span role="cell" class="frame-note">{r.href?<a href={r.href}>{r.note}</a>:r.note}</span></div>)}
+  </div>
+  <p class="review-frame-limit">Each dot is one scoped observation of a specific flow or practice, not a grade for the whole app. A half-filled dot is a possible redemptive practice whose cost to the builder and effect are not yet verified. Price, Christian branding or a free tier alone do not place an area. <a href="/apps/assessment/">How we review</a>.</p></section>
+ {findings.length>0&&<div class="review-findings">{findings.map(([id,finding])=>{const evidence=finding.evidence.map(e=>evidenceScreen(e.url)).filter(Boolean);const shot=evidence.at(-1);const dimension=rubric.dimensions.find(d=>d.id===id)!;return <article class="review-finding" id={'finding-'+id} data-finding-status={finding.status}>
+  <div class="review-finding-copy"><p class="review-status"><span class="review-status-chip">{names[finding.status]}</span> {dimension.label}</p><h3>{findingTitles[app.id+':'+id]||finding.scope}</h3><p>{finding.reason}</p><p class="review-limit">{finding.limits}</p>
+   <dl class="review-meta"><div><dt>Scope</dt><dd>{finding.scope}</dd></div><div><dt>Evidence</dt><dd>{evidence.map((e,i)=><>{i>0&&' · '}<a href={e.url}>{e.screen_name}</a></>)}</dd></div><div><dt>Principles</dt><dd>{dimension.principle_ids.map((pid,i)=><>{i>0&&' · '}<a href={principleFor(pid)?.url}>{principleFor(pid)?.name}</a></>)}</dd></div></dl></div>
+  {shot&&<figure class="review-finding-image"><a href={shot.url}><img src={shot.image} width="1320" height="2868" alt={shot.screen_name} loading="lazy"/></a><figcaption>{shot.screen_name} · {dateLabel(shot.captured)}</figcaption></figure>}
+ </article>;})}</div>}
+ {reviewedOnly.length>0&&<section class="review-areas" aria-labelledby="areas-title"><h3 id="areas-title">Reviewed, not yet placed</h3><p class="lib-note">Evidence was gathered for these areas, but it does not yet support placing a choice on the frame.</p>{reviewedOnly.map(d=>{const review=reviews[d.id];return <section class="review-area" id={'area-'+d.id}><h4>{d.label}</h4><p>{review.review_summary}</p><p class="review-next"><strong>Still to check:</strong> {review.next_checks.join(' ')}</p><p class="review-meta-line">{reviewLinks(review).map((e,i)=><>{i>0&&' · '}<a href={e.url}>{e.name}</a></>)}{reviewLinks(review).length>0&&' · '}Reviewed {dateLabel(review.reviewed)}</p></section>;})}</section>}
+ {openAreas.length>0&&<p class="review-open">Not reviewed yet: {openAreas.join(', ')}.</p>}
+ <details class="review-checklist" id="principle-checklist"><summary>The ten principle questions <span>For your own design review</span></summary><p>These questions guide discernment; they are not ten scores for this app.</p><dl>{rubric.principles.map(p=><div id={'principle-'+p.id}><dt><a href={p.url}>{p.name}</a></dt><dd>{p.question}</dd></div>)}</dl><p><a href="/building-tools/worksheet/">Work through the principle worksheet with your team</a></p></details>
 </section>
-<ProfileSelector/>

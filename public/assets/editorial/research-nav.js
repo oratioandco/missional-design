@@ -1,2 +1,2 @@
 document.addEventListener('click',event=>{document.querySelectorAll('.research-menu[open]').forEach(menu=>{if(!menu.contains(event.target)||event.target.closest('a'))menu.open=false;});});
-document.addEventListener('keydown',event=>{if(event.key==='Escape'){document.querySelectorAll('.research-menu[open]').forEach(menu=>{menu.open=false;menu.querySelector('summary').focus();});}});
+document.addEventListener('keydown',event=>{if(event.key==='Escape'){const openMenus=document.querySelectorAll('.research-menu[open]');if(!openMenus.length)return;event.preventDefault();event.stopImmediatePropagation();openMenus.forEach(menu=>{menu.open=false;menu.querySelector('summary').focus();});}},true);

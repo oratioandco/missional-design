@@ -1,19 +1,17 @@
 ---
 import data from '../../data/app-assessments.json';
-import {screenFor} from '../../lib/app-library';
+import IngredientPanel from './IngredientPanel.astro';
 import ProfileSelector from './ProfileSelector.astro';
 const {app}=Astro.props;const a=data.apps.find(x=>x.app_id===app.id);
 const entries=a?.ingredients||[];const ordered=[...entries.filter(i=>i.kind==='feature'),...entries.filter(i=>i.kind==='pattern')];
+const features=ordered.filter(i=>i.kind==='feature');const primary=features.length?features:ordered.slice(0,4);const further=ordered.filter(i=>!primary.includes(i));
 ---
 <section class="lib-section lib-design-ingredients" id="ingredients">
- <h2>Design ingredients</h2><p>Explore a feature or pattern, then inspect how this app implements it.</p>
- {ordered.length?<div data-profile-selector="Design ingredients">
-  <nav class="lib-ingredient-pills" data-selector-list aria-label="Choose an ingredient">{ordered.map((i,n)=><a id={'ingredient-tab-'+n} href={'#ingredient-'+n}>{i.label}</a>)}</nav>
-  <div id="ingredient-evidence">{ordered.map((i,n)=>{const evidence=i.evidence.map(e=>screenFor(e.url.split('/').filter(Boolean).at(-1)!)).filter(Boolean);return <article class="lib-ingredient-panel" id={'ingredient-'+n}>
-   <div class="lib-ingredient-copy"><h3>{i.label}</h3><p>{i.implementation}</p><p class="lib-note">Observed in reviewed captures · {i.kind==='feature'?'Feature':'Pattern example'}</p><div class="lib-evidence-links">{i.pattern_slugs.map(slug=><a href={'/patterns/'+slug+'/'}>Explore {slug.replaceAll('-',' ')}</a>)}</div><p class="lib-note">This example illustrates a design question; it does not establish every option in the pattern.</p></div>
-   <div class="lib-ingredient-shots">{evidence.slice(0,2).map(s=><figure><a href={s.url}><img src={s.image} width="1320" height="2868" alt={s.screen_name} loading={n===0?'eager':'lazy'}/></a><figcaption><a href={s.url}>{s.screen_name}</a></figcaption></figure>)}</div>
-   {evidence.length>2&&<details class="lib-ingredient-sources"><summary>All {evidence.length} supporting captures</summary><ul>{evidence.map(s=><li><a href={s.url}>{s.screen_name}</a></li>)}</ul></details>}
-  </article>;})}</div>
+ <h2>Design ingredients</h2><p>Choose a feature to see the implementation and its screenshots.</p>
+ {primary.length?<div data-profile-selector="Design ingredients">
+  <nav class="lib-ingredient-pills" data-selector-list aria-label="Choose an ingredient">{primary.map(i=>{const n=ordered.indexOf(i);return <a id={'ingredient-tab-'+n} href={'#ingredient-'+n}>{i.label}</a>;})}</nav>
+  <div id="ingredient-evidence">{primary.map(i=><IngredientPanel entry={i} index={ordered.indexOf(i)}/>)}</div>
  </div>:<p class="lib-muted">No ingredients verified against publishable captures yet. Missing entries do not mean a feature is absent.</p>}
+ {further.length>0&&<details class="ingredient-further"><summary>More patterns in this app <span>{further.length} captured examples</span></summary>{further.map(i=><details class="ingredient-example"><summary>{i.label}</summary><IngredientPanel entry={i} index={ordered.indexOf(i)}/></details>)}</details>}
 </section>
 <ProfileSelector/>
