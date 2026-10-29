@@ -1,6 +1,6 @@
 """Emit a sitemap covering Astro pages and the imported public reference."""
 from pathlib import Path
-import json, struct
+import json, re, struct
 from html import escape as html_escape
 from xml.sax.saxutils import escape
 
@@ -9,28 +9,30 @@ DIST = ROOT / 'dist'
 urls = []
 library = json.loads((ROOT / 'src/data/app-library.json').read_text())
 app_by_id = {a['id']: a for a in library['apps']}
-def capture_section(slug):
+def capture_gallery(slug, limit=8):
     shots = [s for s in library['screens'] if slug in s['article_slugs']]
-    if not shots: return ''
-    # Lead with app diversity; keep every mapped example available below.
+    if not shots: return '', 0
+    # Lead with app diversity; the full set stays one click away in the library.
     first_by_app = list({s['app_id']: next(x for x in shots if x['app_id']==s['app_id']) for s in shots}.values())
-    leading = first_by_app[:6]
-    leading += [s for s in shots if s not in leading][:max(0,6-len(leading))]
-    shots = leading + [s for s in shots if s not in leading]
+    leading = first_by_app[:limit]
+    leading += [s for s in shots if s not in leading][:max(0,limit-len(leading))]
     figures = []
-    for s in shots:
+    for s in leading:
         a = app_by_id[s['app_id']]
         image_bytes = (ROOT / 'public' / s['image'].lstrip('/')).read_bytes()
         size = ''
         if image_bytes.startswith(b'\x89PNG\r\n\x1a\n'):
             width, height = struct.unpack('>II', image_bytes[16:24])
             size = ' width="'+str(width)+'" height="'+str(height)+'"'
-        figures.append('<figure><a class="lib-image" href="'+s['url']+'"><img src="'+s['image']+'" alt="'+html_escape(s['screen_name'], quote=True)+'" loading="lazy"'+size+'></a><figcaption><strong>'+html_escape(s['screen_name'])+'</strong><p>'+html_escape(s['caption'])+'</p><p class="lib-note">'+html_escape(s['context'])+'</p><small><a href="'+a['url']+'">'+html_escape(a['name'])+'</a> · Captured '+html_escape(s['captured'])+' · Version '+html_escape(s['version'] or 'not recorded')+'</small><div class="lib-evidence-links"><a href="'+s['url']+'">Screen and evidence</a><a href="'+a['url']+'">About '+html_escape(a['name'])+'</a></div></figcaption></figure>')
-    gallery = '<div class="lib-grid">'+''.join(figures[:6])+'</div>'
-    if len(figures)>6:
-        gallery += '<details class="lib-source-details"><summary>More examples for this pattern ('+str(len(figures)-6)+')</summary><div class="lib-grid">'+''.join(figures[6:])+'</div></details>'
-    gallery += '<p><a href="/screens/?article='+slug+'">Explore all '+str(len(shots))+' relevant screens in the library</a></p>'
-    return '<section class="lib-pattern-captures" id="app-captures" aria-labelledby="app-captures-title"><h2 id="app-captures-title">Examples in real apps</h2><p>Selected, reviewed device captures illustrate this design question. They show particular states, not every option in the spectrum or a complete app walkthrough.</p>'+gallery+'<p class="lib-note">Screenshots: respective app publishers. Captions describe the captured state; generated responses can differ. <a href="/screens/">Browse research captures</a> · <a href="/apps/assessment/">How we assess design</a>.</p></section>'
+        figures.append('<figure><a class="lib-image" href="'+s['url']+'"><img src="'+s['image']+'" alt="'+html_escape(s['screen_name'], quote=True)+'" loading="lazy"'+size+'></a><figcaption><strong><a href="'+s['url']+'">'+html_escape(s['screen_name'])+'</a></strong><p>'+html_escape(s['caption'])+'</p><small><a href="'+a['url']+'">'+html_escape(a['name'])+'</a> · '+html_escape(s['captured'])+'</small></figcaption></figure>')
+    gallery = '<div class="lib-grid lib-pattern-captures">'+''.join(figures)+'</div>'
+    gallery += '<p class="lib-pattern-all"><a href="/screens/?article='+slug+'">See all '+str(len(shots))+' screens for this pattern</a> · <a href="/apps/">Browse apps</a> · <a href="/apps/assessment/">How we review</a></p><p class="lib-note">Screenshots: respective app publishers. Captions describe the captured state; generated responses can differ.</p>'
+    return gallery, len(shots)
+
+def capture_section(slug):
+    gallery, count = capture_gallery(slug)
+    if not count: return ''
+    return '<section class="block e-blk" id="app-examples" aria-labelledby="app-captures-title"><p class="kicker">In real apps</p><h2 id="app-captures-title">Examples in real apps</h2><p class="block-intro">Reviewed device captures of particular states. They show an implementation, not every option or a complete app walkthrough.</p>'+gallery+'</section>'
 
 examples = json.loads((ROOT / 'public/api/examples.json').read_text())['examples']
 app_by_name = {a['name'].lower(): a for a in library['apps']}
@@ -41,25 +43,37 @@ for path in sorted(DIST.rglob('index.html')):
     # Compose reviewed library examples into imported articles at build time.
     # Keep imported source HTML unchanged; all metadata comes from the public allowlist.
     rel = path.parent.relative_to(DIST).as_posix()
-    if rel.startswith('patterns/') and rel.count('/') == 1 and 'id="app-captures"' not in text:
-        section = capture_section(rel.split('/')[1])
-        if section:
+    if rel.startswith('patterns/') and rel.count('/') == 1 and 'id="app-captures-title"' not in text:
+        slug = rel.split('/')[1]
+        gallery, count = capture_gallery(slug)
+        start = text.find('<section class="block e-blk" id="app-examples">')
+        if count and start >= 0:
+            end = text.find('</section>', start)
+            body = text[start:end]
+            body = body.replace('<h2 class="rv">Examples in use</h2>', '<h2 class="rv" id="app-captures-title">Examples in real apps</h2>', 1)
+            body = re.sub(r'<p><a href="/examples/">Explore the growing app-example collection</a></p>', '', body)
+            body = body.replace('<div class="grid">', '<h3 class="lib-curated-title">Annotated examples</h3><div class="grid">', 1)
+            body += '<h3 class="lib-curated-title">Research screens</h3>' + gallery
+            text = text[:start] + body + text[end:]
+            text = re.sub(r'<li><strong>\d+</strong> app examples</li>', '<li><strong>'+str(count)+'</strong> app screens</li>', text, count=1)
+        elif count:
+            section = capture_section(slug)
             marker = '<nav class="block e-blk related"'
             if marker in text:
                 text = text.replace(marker, section + marker, 1)
             else:
-                # Some articles have no related-pattern navigation. Their final
-                # e-after wrapper still provides the same reading-width surface.
                 marker = '</div></main>'
                 assert 'class="e-after e-wrap"' in text and marker in text, 'Pattern insertion point missing: '+rel
                 before, after = text.rsplit(marker, 1)
                 text = before + section + marker + after
+        if count:
             text = text.replace('</head>', '<link rel="stylesheet" href="/assets/app-library/library.css"></head>')
     if rel.startswith('examples/') and rel.count('/') == 1 and 'data-app-profile-link' not in text:
         a = example_app.get(rel.split('/')[1])
         lead_end = text.find('</p>', text.find('<p class="lead">'))
         if a and lead_end > 0:
             text = text[:lead_end+4] + '<p class="lib-example-app" data-app-profile-link>Observed in <a href="'+a['url']+'">'+html_escape(a['name'])+'</a>: app profile, research screenshots and design review.</p>' + text[lead_end+4:]
+    text = text.replace('href="https://missional.design/reference/" aria-current="page">Patterns<', 'href="https://missional.design/patterns/" aria-current="location">Patterns<').replace('href="https://missional.design/reference/">Patterns<', 'href="https://missional.design/patterns/">Patterns<')
     # Add the same native disclosure menu to imported reference mastheads.
     about = '<a href="https://missional.design/about/" data-site-about>'
     if about in text:

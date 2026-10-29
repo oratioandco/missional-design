@@ -9,7 +9,7 @@ import shield from '@phosphor-icons/core/assets/regular/shield.svg?raw';
 import warning from '@phosphor-icons/core/assets/regular/warning-circle.svg?raw';
 import scales from '@phosphor-icons/core/assets/regular/scales.svg?raw';
 import plant from '@phosphor-icons/core/assets/regular/plant.svg?raw';
-const {app}=Astro.props;const a=data.apps.find(x=>x.app_id===app.id);const cost=commercial.apps.find(x=>x.app_id===app.id);
+const {app,part='main'}=Astro.props;const a=data.apps.find(x=>x.app_id===app.id);const cost=commercial.apps.find(x=>x.app_id===app.id);
 const names:Record<string,string>={concern_evidenced:'Concern noted',ethical_baseline_observed:'Respectful practice observed',redemptive_candidate:'Possible redemptive practice',redemptive_practice_evidenced:'Redemptive practice observed',mixed:'Strengths and concerns together',not_assessed:'Not reviewed yet',not_applicable:'Not applicable'};
 const findings=a?Object.entries(a.dimensions).filter(([,d])=>!['not_assessed','not_applicable'].includes(d.status)):[];
 const reviews=a?.dimension_reviews||{};
@@ -75,7 +75,7 @@ const findingTitles:Record<string,string>={
 'com.aimermedia.LiveLent:formation_relationships':'A Sunday pause points toward local church.',
 };
 ---
-<section class="lib-section lib-design-review" id="assessment" aria-labelledby="design-findings-title">
+{part==="main"&&<section class="lib-section lib-design-review" id="assessment" aria-labelledby="design-findings-title">
  <header class="review-heading"><div><h2 id="design-findings-title">Design review</h2><p>Observed choices, what they mean, and what still needs checking.</p></div><a href="/apps/assessment/">How we review</a></header>
  <div class="review-snapshot">{cards.map(card=><section class="review-fact"><span class="review-icon" aria-hidden="true" set:html={card.icon}/><h3>{card.title}</h3><p>{card.text}</p><span class="review-basis">{card.basis}</span></section>)}</div>
  <p class="review-offer-scope">Offers are dated iOS observations in USD where captured. Eligibility, country and platform can differ. Existing settings are not installation defaults.</p>
@@ -90,7 +90,8 @@ const findingTitles:Record<string,string>={
    <dl class="review-meta"><div><dt>Scope</dt><dd>{finding.scope}</dd></div><div><dt>Evidence</dt><dd>{evidence.map((e,i)=><>{i>0&&' · '}<a href={e.url}>{e.screen_name}</a></>)}</dd></div><div><dt>Principles</dt><dd>{dimension.principle_ids.map((pid,i)=><>{i>0&&' · '}<a href={principleFor(pid)?.url}>{principleFor(pid)?.name}</a></>)}</dd></div></dl></div>
   {shot&&<figure class="review-finding-image"><a href={shot.url}><img src={shot.image} width="1320" height="2868" alt={shot.screen_name} loading="lazy"/></a><figcaption>{shot.screen_name} · {dateLabel(shot.captured)}</figcaption></figure>}
  </article>;})}</div>}
- {reviewedOnly.length>0&&<section class="review-areas" aria-labelledby="areas-title"><h3 id="areas-title">Reviewed, not yet placed</h3><p class="lib-note">Evidence was gathered for these areas, but it does not yet support placing a choice on the frame.</p>{reviewedOnly.map(d=>{const review=reviews[d.id];return <section class="review-area" id={'area-'+d.id}><h4>{d.label}</h4><p>{review.review_summary}</p><p class="review-next"><strong>Still to check:</strong> {review.next_checks.join(' ')}</p><p class="review-meta-line">{reviewLinks(review).map((e,i)=><>{i>0&&' · '}<a href={e.url}>{e.name}</a></>)}{reviewLinks(review).length>0&&' · '}Reviewed {dateLabel(review.reviewed)}</p></section>;})}</section>}
+ 
+</section>}
+{part==="notes"&&(reviewedOnly.length>0||openAreas.length>0)&&<section class="lib-section lib-design-review lib-review-notes" id="review-notes" aria-labelledby="areas-title">{reviewedOnly.length>0&&<section class="review-areas"><h2 id="areas-title">Review notes</h2><h3>Reviewed, not yet placed</h3><p class="lib-note">Evidence was gathered for these areas, but it does not yet support placing a choice on the frame.</p>{reviewedOnly.map(d=>{const review=reviews[d.id];return <section class="review-area" id={'area-'+d.id}><h4>{d.label}</h4><p>{review.review_summary}</p><p class="review-next"><strong>Still to check:</strong> {review.next_checks.join(' ')}</p><p class="review-meta-line">{reviewLinks(review).map((e,i)=><>{i>0&&' · '}<a href={e.url}>{e.name}</a></>)}{reviewLinks(review).length>0&&' · '}Reviewed {dateLabel(review.reviewed)}</p></section>;})}</section>}
  {openAreas.length>0&&<p class="review-open">Not reviewed yet: {openAreas.join(', ')}.</p>}
- <details class="review-checklist" id="principle-checklist"><summary>The ten principle questions <span>For your own design review</span></summary><p>These questions guide discernment; they are not ten scores for this app.</p><dl>{rubric.principles.map(p=><div id={'principle-'+p.id}><dt><a href={p.url}>{p.name}</a></dt><dd>{p.question}</dd></div>)}</dl><p><a href="/building-tools/worksheet/">Work through the principle worksheet with your team</a></p></details>
-</section>
+ <details class="review-checklist" id="principle-checklist"><summary>The ten principle questions <span>For your own design review</span></summary><p>These questions guide discernment; they are not ten scores for this app.</p><dl>{rubric.principles.map(p=><div id={'principle-'+p.id}><dt><a href={p.url}>{p.name}</a></dt><dd>{p.question}</dd></div>)}</dl><p><a href="/building-tools/worksheet/">Work through the principle worksheet with your team</a></p></details></section>}
