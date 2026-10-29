@@ -1,4 +1,5 @@
 import data from '../data/app-library.json';
+import deepDives from '../../public/api/deep-dives.json';
 export const library = data;
 export const apps = data.apps;
 export const organisations = data.organisations;
@@ -22,4 +23,5 @@ export const articleNames: Record<string,string> = {
   "speaking-as": "AI personas and roles",
   "whose-theology": "Whose theology"
 };
-export const articleTitle = (slug:string) => articleNames[slug] || slug.split('-').map(x=>x[0].toUpperCase()+x.slice(1)).join(' ');
+const deepDiveTitles:Record<string,string>=Object.fromEntries(deepDives.deep_dives.map((d:any)=>[d.slug,d.title]));
+export const articleTitle = (slug:string) => articleNames[slug] || deepDiveTitles[slug] || slug.split('-').map(x=>x[0].toUpperCase()+x.slice(1)).join(' ');
