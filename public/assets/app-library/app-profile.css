@@ -49,3 +49,34 @@
 .obs-tag-line{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;margin:0;font-size:13px;color:var(--muted)}.obs-tag{display:inline-flex;gap:8px;align-items:center;font-weight:600;color:var(--ink);padding:5px 11px 5px 8px;border-radius:999px;border:1px solid var(--rule)}
 .obs-card h3{font:400 clamp(26px,2.6vw,34px)/1.2 var(--serif);margin:14px 0 18px;max-width:30ch}.obs-card h4{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:20px 0 6px;font-weight:600}.obs-card p{font-size:16px;line-height:1.7;margin:0;max-width:66ch}.obs-card .obs-limit{color:var(--muted);font-size:14px}.obs-chips{display:flex;flex-wrap:wrap;gap:8px}.obs-chips a{font-size:13px;padding:5px 10px;border-radius:999px;background:var(--paper-lo);text-decoration:none}
 @media(max-width:700px){.obs-scale-head{display:none!important}.obs-row{grid-template-columns:52px minmax(0,1fr);gap:14px}.obs-row img{width:52px}.obs-meter{grid-column:2}.obs-list.is-multi .obs-meter-labels{display:grid}.obs-row p{font-size:16px}.review-findings .obs-card{grid-template-columns:1fr;gap:20px}.obs-card figure{max-width:200px}}
+/* Faith chat comparison (/apps/ai-chat/) */
+.cmp .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.cmp-mark{display:inline-flex;width:18px;height:18px;flex:none;color:var(--ink)}.cmp-mark svg{width:18px;height:18px;display:block}.cmp-mark.is-plain{color:var(--muted)}
+.cmp-legend{display:flex;flex-wrap:wrap;gap:8px 20px;list-style:none;padding:0;margin:0 0 18px;font-size:14px;color:var(--muted)}.cmp-legend li{display:inline-flex;gap:7px;align-items:center}
+.cmp-overview{margin:40px 0 56px}.cmp-overview h2,.cmp-q h2,.cmp-method h2{font-family:var(--serif);font-weight:400}
+.cmp-matrix{width:100%;border-collapse:collapse;font-size:15px;table-layout:fixed}.cmp-matrix th,.cmp-matrix td{text-align:left;vertical-align:top;padding:12px 10px;border-top:1px solid var(--rule)}.cmp-matrix thead th{border-top:0;font-size:13px;font-weight:600;color:var(--muted);padding-bottom:8px}.cmp-matrix thead th:first-child{width:28%}.cmp-matrix thead a{color:var(--ink)}
+.cmp-matrix tbody th{font-weight:600;line-height:1.35}.cmp-matrix tbody th a{color:var(--ink);text-decoration:none}.cmp-matrix tbody th a:hover{text-decoration:underline}
+.cmp-cell{display:flex;gap:8px;align-items:flex-start;color:var(--ink);text-decoration:none;line-height:1.35}.cmp-cell:hover span:last-child{text-decoration:underline}.cmp-none{color:var(--muted);font-size:13px}
+.cmp-foot{font-size:14px;color:var(--muted);margin-top:14px}
+.cmp-q{padding:48px 0 8px;border-top:1px solid var(--rule)}.cmp-num{font-size:13px;color:var(--muted);margin:0 0 6px;font-variant-numeric:tabular-nums}.cmp-q h2{margin:0 0 14px;font-size:clamp(26px,3.2vw,34px);line-height:1.15}
+.cmp-prompt{margin:0 0 12px;font-size:16px;color:var(--ink)}.cmp-prompt span{display:block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+.cmp-summary{font-size:18px;line-height:1.55;max-width:64ch;margin:0 0 12px}.cmp-tally{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--muted);margin:0 0 18px}.cmp-tally>span{display:inline-flex;gap:6px;align-items:center}
+.cmp-answers{list-style:none;padding:0;margin:0}.cmp-answer{display:grid;grid-template-columns:200px minmax(0,1fr) auto;gap:20px;align-items:start;padding:16px 0;border-top:1px solid var(--rule)}.cmp-answer:target{background:var(--paper-lo)}
+.cmp-who{display:flex;flex-direction:column;gap:8px;align-items:flex-start}.cmp-who>a{font-weight:600;color:var(--ink)}
+.cmp-tag{display:inline-flex;gap:6px;align-items:center;font-size:12px;font-weight:600;padding:4px 10px 4px 7px;border:1px solid var(--rule);border-radius:999px;color:var(--ink)}.cmp-tag.is-plain{color:var(--muted)}.cmp-tag .cmp-mark,.cmp-tag .cmp-mark svg{width:15px;height:15px}
+.cmp-text{margin:0;font-size:16px;line-height:1.55}.cmp-shots{display:flex;gap:8px}.cmp-shots img{width:72px;height:auto;border-radius:8px;display:block;border:1px solid var(--rule)}.cmp-noshot{margin:0;font-size:12px;color:var(--muted);max-width:110px}
+.cmp-also{margin:22px 0 0}.cmp-also h3{font-size:14px;font-weight:600;margin:0 0 8px}.cmp-also ul{list-style:none;padding:0;margin:0;display:grid;gap:8px}.cmp-also li{display:flex;gap:8px;align-items:baseline;font-size:15px;line-height:1.5}.cmp-also li .cmp-mark{transform:translateY(3px)}.cmp-see{font-size:13px;white-space:nowrap}
+.cmp-links{display:flex;flex-wrap:wrap;gap:8px 18px;margin:22px 0 0;font-size:14px}
+.cmp-method{border-top:1px solid var(--rule);margin-top:40px}
+@media (max-width:760px){
+ .cmp-matrix,.cmp-matrix tbody,.cmp-matrix tr,.cmp-matrix td,.cmp-matrix th{display:block;width:auto!important}.cmp-matrix thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+ .cmp-matrix tr{border-top:1px solid var(--rule);padding:14px 0}.cmp-matrix th,.cmp-matrix td{border:0;padding:4px 0}.cmp-matrix tbody th{font-size:16px;padding-bottom:8px}
+ .cmp-matrix td{display:grid;grid-template-columns:120px 1fr;gap:10px;font-size:14px}.cmp-matrix td::before{content:attr(data-app);color:var(--muted);font-size:13px}
+ .cmp-answer{grid-template-columns:1fr;gap:10px}.cmp-who{flex-direction:row;flex-wrap:wrap;align-items:center;gap:10px}
+}
+.profile-compare{margin:14px 0 0;font-size:15px}
+/* Badged marks so the overview scans by shape and fill, not colour alone */
+.cmp-legend .cmp-mark,.cmp-cell .cmp-mark,.cmp-tally .cmp-mark,.cmp-also .cmp-mark{width:24px;height:24px;border-radius:50%;align-items:center;justify-content:center;border:1px solid var(--ink)}
+.cmp-legend .cmp-mark svg,.cmp-cell .cmp-mark svg,.cmp-tally .cmp-mark svg,.cmp-also .cmp-mark svg{width:15px;height:15px}
+.cmp-mark.is-good{background:var(--paper-lo)}.cmp-mark.is-concern{background:var(--ink);color:var(--paper-hi)}.cmp-mark.is-mixed{background:linear-gradient(90deg,var(--ink) 50%,var(--paper-lo) 50%)}.cmp-mark.is-mixed svg{mix-blend-mode:difference;color:#fff}.cmp-mark.is-plain{border-style:dashed;border-color:var(--muted)}
+.cmp-cell{align-items:center}
