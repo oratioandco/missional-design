@@ -9,6 +9,7 @@ DIST = ROOT / 'dist'
 urls = []
 library = json.loads((ROOT / 'src/data/app-library.json').read_text())
 app_by_id = {a['id']: a for a in library['apps']}
+chat_compare = json.loads((ROOT / 'src/data/ai-chat-comparison.json').read_text())
 def capture_gallery(slug, limit=8):
     shots = [s for s in library['screens'] if slug in s['article_slugs']]
     if not shots: return '', 0
@@ -26,6 +27,11 @@ def capture_gallery(slug, limit=8):
             size = ' width="'+str(width)+'" height="'+str(height)+'"'
         figures.append('<figure><a class="lib-image" href="'+s['url']+'"><img src="'+s['image']+'" alt="'+html_escape(s['screen_name'], quote=True)+'" loading="lazy"'+size+'></a><figcaption><strong><a href="'+s['url']+'">'+html_escape(s['screen_name'])+'</a></strong><p>'+html_escape(s['caption'])+'</p><small><a href="'+a['url']+'">'+html_escape(a['name'])+'</a> · '+html_escape(s['captured'])+'</small></figcaption></figure>')
     gallery = '<div class="lib-grid lib-pattern-captures">'+''.join(figures)+'</div>'
+    compared = [q for q in chat_compare['questions'] if slug in q['patterns']]
+    if compared:
+        # Pattern pages that the chat comparison covers point to the side-by-side answers.
+        links = ', '.join('<a href="/apps/ai-chat/#'+q['id']+'">'+html_escape(q['question'])+'</a>' for q in compared)
+        gallery = '<p class="lib-pattern-compare">Five faith chat apps, asked the same question: '+links+'</p>' + gallery
     gallery += '<p class="lib-pattern-all"><a href="/screens/?article='+slug+'">See all '+str(len(shots))+' screens for this pattern</a> · <a href="/apps/">Browse apps</a> · <a href="/apps/assessment/">How we review</a></p><p class="lib-note">Screenshots: respective app publishers. Captions describe the captured state; generated responses can differ.</p>'
     return gallery, len(shots)
 

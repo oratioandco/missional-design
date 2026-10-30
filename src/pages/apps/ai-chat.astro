@@ -1,0 +1,69 @@
+---
+import {createHash} from 'node:crypto';
+import Layout from '../../layouts/LibraryLayout.astro';
+import data from '../../data/ai-chat-comparison.json';
+import rubric from '../../data/app-design-rubric.json';
+import {screens,articleTitle,dateLabel} from '../../lib/app-library';
+import shield from '@phosphor-icons/core/assets/regular/shield.svg?raw';
+import scales from '@phosphor-icons/core/assets/regular/scales.svg?raw';
+import warning from '@phosphor-icons/core/assets/regular/warning-circle.svg?raw';
+import eye from '@phosphor-icons/core/assets/regular/eye.svg?raw';
+const icons:Record<string,string>={good:shield,mixed:scales,concern:warning,plain:eye};
+const byId=new Map(screens.map(s=>[s.id,s]));
+// Evidence keys are "DD/app/file" for captures from October 2026; public ids are a hash of the private capture path.
+const shot=(key:string)=>{const [day,...rest]=key.split('/');const sid=`2026-10-${day}/${rest.join('/')}.png`;return byId.get('shot-'+createHash('sha256').update(sid).digest('hex').slice(0,20));};
+const shots=(keys:string[]=[])=>keys.map(shot).filter(Boolean);
+const appName=(key:string)=>[...data.apps,...data.also].find(a=>a.key===key)!;
+const principle=(id:string)=>rubric.principles.find(p=>p.id===id);
+const kindName=(k:string)=>data.kinds[k as keyof typeof data.kinds];
+const count=(q:any,k:string)=>Object.values(q.cells).filter((c:any)=>c.kind===k).length;
+---
+<Layout title={data.title} description="Five faith chat apps asked the same questions: AI disclosure, whose voice, tradition, translations, memory, handing over, prayer and late-night endings." active="apps" indexable compactNav>
+<article class="cmp">
+ <header class="lib-intro cmp-intro">
+  <a class="lib-back" href="/apps/">All apps</a>
+  <h1>{data.title}</h1>
+  <p>{data.lead}</p>
+  <p class="lib-note">Observed 28–30 October 2026 on iOS · one sample per question · updated {dateLabel(data.checked)}</p>
+ </header>
+ <nav class="lib-links" aria-label="On this page"><a href="#overview">Overview</a><a href="#questions">The questions</a><a href="#method">How we tested</a></nav>
+
+ <section class="cmp-overview" id="overview" aria-labelledby="overview-h">
+  <h2 id="overview-h">At a glance</h2>
+  <ul class="cmp-legend">{Object.entries(data.kinds).map(([k,label])=><li><span class={'cmp-mark is-'+k} set:html={icons[k]} aria-hidden="true"></span>{label}</li>)}</ul>
+  <table class="cmp-matrix">
+   <caption class="sr-only">What each app did, by question</caption>
+   <thead><tr><th scope="col">Question</th>{data.apps.map(a=><th scope="col"><a href={'/apps/'+a.slug+'/'}>{a.short||a.name}</a></th>)}</tr></thead>
+   <tbody>{data.questions.map(q=><tr>
+    <th scope="row"><a href={'#'+q.id}>{q.question}</a></th>
+    {data.apps.map(a=>{const c=(q.cells as any)[a.key];return <td data-app={a.short||a.name}>{c?<a href={'#'+q.id+'-'+a.key} class="cmp-cell"><span class={'cmp-mark is-'+c.kind} set:html={icons[c.kind]} role="img" aria-label={kindName(c.kind)}></span><span>{c.short}</span></a>:<span class="cmp-none">Not tested</span>}</td>;})}
+   </tr>)}</tbody>
+  </table>
+  <p class="cmp-foot">{data.gaps}</p>
+ </section>
+
+ <section id="questions" class="cmp-questions" aria-label="The questions">
+  {data.questions.map((q,i)=><section class="cmp-q" id={q.id} aria-labelledby={q.id+'-h'}>
+   <p class="cmp-num">{String(i+1).padStart(2,'0')}</p>
+   <h2 id={q.id+'-h'}>{q.question}</h2>
+   <p class="cmp-prompt"><span>We asked</span>{q.prompt}</p>
+   <p class="cmp-summary">{q.summary}</p>
+   <p class="cmp-tally">{['good','mixed','concern','plain'].filter(k=>count(q,k)).map(k=><span><span class={'cmp-mark is-'+k} set:html={icons[k]} aria-hidden="true"></span>{count(q,k)} {kindName(k).toLowerCase()}</span>)}</p>
+   <ol class="cmp-answers">{data.apps.map(a=>{const c=(q.cells as any)[a.key];if(!c)return null;const ev=shots(c.evidence);return <li class="cmp-answer" id={q.id+'-'+a.key}>
+    <div class="cmp-who"><a href={'/apps/'+a.slug+'/'}>{a.name}</a><span class={'cmp-tag is-'+c.kind}><span class="cmp-mark" set:html={icons[c.kind]} aria-hidden="true"></span>{kindName(c.kind)}</span></div>
+    <p class="cmp-text">{c.text}</p>
+    {ev.length?<div class="cmp-shots">{ev.slice(0,3).map(s=><a href={s!.url} title={s!.screen_name}><img src={s!.image} alt={s!.screen_name+': '+s!.caption} loading="lazy" width="72" /></a>)}</div>:<p class="cmp-noshot">Reply recorded; screen kept private</p>}
+   </li>;})}</ol>
+   {q.also?.length&&<div class="cmp-also"><h3>Also seen</h3><ul>{q.also.map((x:any)=>{const ev=shots(x.evidence);return <li><span class={'cmp-mark is-'+x.kind} set:html={icons[x.kind]} role="img" aria-label={kindName(x.kind)}></span><a href={'/apps/'+appName(x.app).slug+'/'}>{appName(x.app).name}</a>: {x.text}{ev[0]&&<> <a class="cmp-see" href={ev[0]!.url}>See screen</a></>}</li>;})}</ul></div>}
+   <p class="cmp-links">{q.patterns.map(p=><a href={'/patterns/'+p+'/'}>Pattern: {articleTitle(p)}</a>)}{principle(q.principle)&&<a href={'/principles/'+q.principle+'/'}>Principle: {principle(q.principle)!.name}</a>}</p>
+  </section>)}
+ </section>
+
+ <section class="lib-section cmp-method" id="method">
+  <h2>How we tested</h2>
+  <ul>{data.method.map(m=><li>{m}</li>)}</ul>
+  <p>{data.safeguarding_note}</p>
+  <p>The marks describe the reply we saw against our <a href="/apps/assessment/">assessment method</a>; they are not scores and do not add up to a grade. Apps change: <a href="/feedback/">send a correction</a> with the version and a screenshot.</p>
+ </section>
+</article>
+</Layout>

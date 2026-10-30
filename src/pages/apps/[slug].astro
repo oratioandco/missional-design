@@ -1,4 +1,5 @@
 ---
+import chatCompare from '../../data/ai-chat-comparison.json';
 import contextData from '../../data/app-profile-context.json';
 import AppContext from '../../components/library/AppContext.astro';
 import AppAssessment from '../../components/library/AppAssessment.astro';
@@ -25,6 +26,7 @@ const previewShots=[];const previewTypes=new Set();for(const shot of shots){if(!
  </header>
  <div class="lib-profile-filmstrip" aria-label="Research screenshot preview">{previewShots.map(s=><a href={s.url}><img src={s.image} width="1320" height="2868" alt={s.screen_name} loading="eager"/></a>)}{!shots.length&&<p>Research capture pending. <a href="#app-store">View publisher images</a>.</p>}</div></div>
  <nav class="profile-jump" aria-label="On this app profile"><a href="#assessment">Design review</a><a href="#research-captures">Screens ({shots.length})</a><a href="#ingredients">Features</a><a href="#cost-access">Cost &amp; access</a><a href={contextData.apps.some(x=>x.app_id===a.id)?'#wider-context':'#user-response'}>What others say</a>{articles.length>0&&<a href="#related-patterns">Related patterns</a>}</nav>
+ {[...chatCompare.apps,...chatCompare.also].some(x=>x.slug===a.slug)&&<p class="profile-compare"><a href="/apps/ai-chat/">See how {a.name} answered in our faith chat comparison</a>, beside other chat apps asked the same questions.</p>}
  <AppAssessment app={a} part="findings"/>
  <AppCaptureGallery app={a} screens={shots}/>
  <AppAssessment app={a} part="ingredients"/>

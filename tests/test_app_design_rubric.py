@@ -103,6 +103,15 @@ class PublicTraceabilityTests(unittest.TestCase):
             ('com.bgolson.scripturetyper', 'money_access'): 'ethical_baseline_observed',
             ('com.bible.holy.bible.for.women', 'money_access'): 'mixed',
             ('com.prayapp.pray', 'attention_agency'): 'mixed',
+            # Faith chat comparison and Bible For Women trial captures, 28–30 October 2026.
+            ('ai.bible.bibleai', 'privacy_dignity'): 'concern_evidenced',
+            ('ai.bible.bibleai', 'truth_authority'): 'concern_evidenced',
+            ('app.biblebff', 'care_inclusion'): 'concern_evidenced',
+            ('APP.AMEN', 'truth_authority'): 'mixed',
+            ('com.bibletalkios.bibletalk', 'truth_authority'): 'concern_evidenced',
+            (HALLOW, 'care_inclusion'): 'ethical_baseline_observed',
+            ('com.bible.holy.bible.for.women', 'care_inclusion'): 'ethical_baseline_observed',
+            ('com.bible.holy.bible.for.women', 'attention_agency'): 'concern_evidenced',
         })
         self.assertEqual(findings[(HALLOW, 'truth_authority')]['evidence'],
                          [{'url': PRAYER}, {'url': BLESSING}])
