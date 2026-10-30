@@ -38,6 +38,21 @@ examples = json.loads((ROOT / 'public/api/examples.json').read_text())['examples
 app_by_name = {a['name'].lower(): a for a in library['apps']}
 app_by_name.update({k: app_by_id[v] for k, v in {'youversion': 'tv.lifechurch.bible', 'bibleai': 'ai.bible.bibleai', 'olive tree': 'com.olivetree.BR-Free', 'neubible (now mere bible)': 'com.quietpupil.neubible', 'mere bible (formerly neubible)': 'com.quietpupil.neubible'}.items() if v in app_by_id})
 example_app = {e['url'].rstrip('/').rsplit('/', 1)[1]: app_by_name.get((e.get('app') or '').lower()) for e in examples}
+assessments = json.loads((ROOT / 'src/data/app-assessments.json').read_text())
+rubric = json.loads((ROOT / 'src/data/app-design-rubric.json').read_text())
+verdicts = {'concern_evidenced':'Works against the person','ethical_baseline_observed':'Respects the person','mixed':'Respects and works against the person','redemptive_candidate':'May restore, at the builder’s cost','redemptive_practice_evidenced':'Restores, at the builder’s cost'}
+def principle_section(pid):
+    dims = {d['id']: d for d in rubric['dimensions'] if pid in d['principle_ids']}
+    rows = []
+    for x in assessments['apps']:
+        a = app_by_id.get(x['app_id'])
+        if not a: continue
+        for did, f in x['dimensions'].items():
+            if did in dims and f['status'] in verdicts:
+                rows.append('<li><a href="'+a['url']+'#finding-'+did+'"><strong>'+html_escape(a['name'])+'</strong> · '+html_escape(verdicts[f['status']])+'</a><p>'+html_escape(f['scope'])+'</p></li>')
+    areas = ', '.join(d['label'] for d in dims.values())
+    body = '<ul class="lib-principle-obs">'+''.join(rows)+'</ul>' if rows else '<p>No app observation has been placed for this principle yet.</p>'
+    return '<section class="block" id="in-real-apps"><h2>Seen in real apps</h2><p>App design reviews connect this principle to the review area'+('s' if len(dims)>1 else '')+' '+html_escape(areas)+'. Each entry is one scoped observation of a specific flow, not a verdict on the app.</p>'+body+'<p><a href="/apps/">Browse app profiles</a> · <a href="/apps/assessment/">How we review</a></p></section>'
 for path in sorted(DIST.rglob('index.html')):
     text = path.read_text()
     # Compose reviewed library examples into imported articles at build time.
@@ -74,6 +89,13 @@ for path in sorted(DIST.rglob('index.html')):
         if a and lead_end > 0:
             text = text[:lead_end+4] + '<p class="lib-example-app" data-app-profile-link>Observed in <a href="'+a['url']+'">'+html_escape(a['name'])+'</a>: app profile, research screenshots and design review.</p>' + text[lead_end+4:]
     text = text.replace('href="https://missional.design/reference/" aria-current="page">Patterns<', 'href="https://missional.design/patterns/" aria-current="location">Patterns<').replace('href="https://missional.design/reference/">Patterns<', 'href="https://missional.design/patterns/">Patterns<')
+    if rel.startswith('principles/') and rel.count('/') == 1 and 'id="in-real-apps"' not in text:
+        marker = '<nav class="block related" aria-label="Other principles">'
+        if marker in text:
+            text = text.replace(marker, principle_section(rel.split('/')[1]) + marker, 1)
+            text = text.replace('<a href="#deep-dives">In the deep dives</a></nav>', '<a href="#deep-dives">In the deep dives</a><a href="#in-real-apps">Seen in real apps</a></nav>', 1)
+            if '/assets/app-library/library.css' not in text:
+                text = text.replace('</head>', '<link rel="stylesheet" href="/assets/app-library/library.css"></head>')
     # Add the same native disclosure menu to imported reference mastheads.
     about = '<a href="https://missional.design/about/" data-site-about>'
     if about in text:

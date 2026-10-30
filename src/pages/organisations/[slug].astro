@@ -3,13 +3,14 @@ import Layout from '../../layouts/LibraryLayout.astro';
 import Facts from '../../components/library/OrganisationFacts.astro';
 import AppIcon from '../../components/library/AppIcon.astro';
 import media from '../../data/app-store-media.json';
-import {organisations,apps,screensFor} from '../../lib/app-library';
+import {organisations,apps,screensFor,articleTitle} from '../../lib/app-library';
 export function getStaticPaths(){return organisations.map(organisation=>({params:{slug:organisation.slug},props:{organisation}}));}
 const {organisation:o}=Astro.props;
 const children=apps.filter(a=>a.organisation_id===o.id);
 const integrations=organisations.filter(c=>(c.relationships||[]).some(r=>r.organisation_id===o.id));
 const previews=children.flatMap(a=>(media[a.id]?.screenshots||[]).slice(0,children.length>1?2:3).map(image=>({app:a,...image}))).slice(0,3);
 const relatedApps=integrations.flatMap(c=>apps.filter(a=>a.organisation_id===c.id));
+const orgArticles=[...new Set(children.flatMap(a=>screensFor(a.id).flatMap(s=>s.article_slugs)))];
 ---
 <Layout title={o.name} description={o.description} active="organisations" indexable>
  <span hidden data-pagefind-meta="record_id">{'organisation:'+o.id}</span><span hidden data-pagefind-filter="kind">organisation</span>
@@ -36,6 +37,7 @@ const relatedApps=integrations.flatMap(c=>apps.filter(a=>a.organisation_id===c.i
    <section id="organisation-apps"><h2>{children.length?'Apps':'Used in'}</h2>
     {(children.length?children:relatedApps).map(a=><article class="lib-org-app"><a class="lib-org-app-name" href={a.url}><AppIcon app={a} size={44}/><strong>{a.name}</strong></a>{!children.length&&<p class="lib-note">Technology integration; a separate app publisher.</p>}<a href={a.url+'#app-store'}>{media[a.id]?.screenshots.length||0} App Store images</a><a href={a.url+'#research-captures'}>{screensFor(a.id).length} research capture{screensFor(a.id).length===1?'':'s'}</a></article>)}
    </section>
+   {orgArticles.length>0&&<section id="organisation-patterns"><h2>Design questions these apps illustrate</h2><ul class="lib-pattern-list">{orgArticles.map(x=><li><a href={'/patterns/'+x+'/'}>{articleTitle(x)}</a></li>)}</ul></section>}
   </aside>
  </div>
 </Layout>

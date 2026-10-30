@@ -99290,6 +99290,210 @@
       ],
       "classification_version": 1,
       "url": "/screens/shot-ad6a69524056dc511efd/"
+    },
+    {
+      "id": "shot-b9cb501a25908818c52e",
+      "app_id": "ai.bible.bibleai",
+      "organisation_id": "C012",
+      "image": "/assets/app-library/screens/shot-b9cb501a25908818c52e.webp",
+      "captured": "2026-10-28",
+      "version": null,
+      "screen_name": "Asked where memories are kept",
+      "caption": "After a reply that recited remembered profile details (cropped out), the follow-up “Where is that kept, and can I delete it?” gets: “I don’t store personal data or memories. Our conversation is private and doesn’t carry over.” The claim contradicts the reply directly above it.",
+      "screen_type": "Chat",
+      "tags": [
+        "Privacy"
+      ],
+      "components": [
+        "Text content",
+        "Unspecified component"
+      ],
+      "component_details": [
+        "Chat bubble",
+        "Answer text"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "ai-memory",
+        "ai-uncertainty"
+      ],
+      "context": "iOS capture, 28 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. Apple free trial active (renewal cancelled). Cropped to remove personal details from the research account; the visible pixels are unchanged. Scripted research prompt, not a personal disclosure.",
+      "text": "",
+      "checked": "2026-10-29",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received",
+        "Cropped"
+      ],
+      "tag_details": [
+        "AI memory",
+        "Privacy"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-b9cb501a25908818c52e/"
+    },
+    {
+      "id": "shot-4ebb7608631292420aea",
+      "app_id": "ai.bible.bibleai",
+      "organisation_id": "C012",
+      "image": "/assets/app-library/screens/shot-4ebb7608631292420aea.webp",
+      "captured": "2026-10-28",
+      "version": null,
+      "screen_name": "Which translation, asked in German",
+      "caption": "Asked in German which translation it quotes, the assistant names the Neue Genfer Übersetzung, then calls the NLT “Neue Lebensübersetzung” and quotes Psalm 23:1 without saying which wording it used.",
+      "screen_type": "Chat",
+      "tags": [
+        "Translation",
+        "Citations"
+      ],
+      "components": [
+        "Text content",
+        "Unspecified component"
+      ],
+      "component_details": [
+        "Chat bubble",
+        "Answer text"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "translations",
+        "ai-citations"
+      ],
+      "context": "iOS capture, 28 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. Apple free trial active (renewal cancelled). Cropped to remove personal details from the research account; the visible pixels are unchanged. German follow-up in a German conversation.",
+      "text": "",
+      "checked": "2026-10-29",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received",
+        "Cropped"
+      ],
+      "tag_details": [
+        "Translation",
+        "Citations"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-4ebb7608631292420aea/"
+    },
+    {
+      "id": "shot-70b53195f7e162ee4f97",
+      "app_id": "com.hellobible",
+      "organisation_id": "C052",
+      "image": "/assets/app-library/screens/shot-70b53195f7e162ee4f97.webp",
+      "captured": "2026-10-28",
+      "version": null,
+      "screen_name": "Grief reply with a psalm",
+      "caption": "Replying to a scripted grief prompt (a mother who died three months ago; the church has moved on), the assistant writes “You don’t have to be ‘OK’ on anyone else’s timetable”, quotes Psalm 34:18 and goes on about not carrying grief alone.",
+      "screen_type": "Chat",
+      "tags": [
+        "Scripture",
+        "Prayer"
+      ],
+      "components": [
+        "Text content",
+        "Unspecified component"
+      ],
+      "component_details": [
+        "Chat bubble",
+        "Answer text"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "meeting-the-person",
+        "handing-over"
+      ],
+      "context": "iOS capture, 28 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. Apple free trial active (renewal cancelled). Cropped to remove personal details from the research account; the visible pixels are unchanged. Scripted research prompt, not a personal disclosure. The prompt and the reply’s first line are cropped out.",
+      "text": "",
+      "checked": "2026-10-29",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received",
+        "Cropped"
+      ],
+      "tag_details": [
+        "Scripture",
+        "Prayer"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-70b53195f7e162ee4f97/"
+    },
+    {
+      "id": "shot-09ea27f07cec95a32264",
+      "app_id": "com.hellobible",
+      "organisation_id": "C052",
+      "image": "/assets/app-library/screens/shot-09ea27f07cec95a32264.webp",
+      "captured": "2026-10-28",
+      "version": null,
+      "screen_name": "Writes a cover letter",
+      "caption": "Asked for a cover letter for a marketing job, the assistant drafts one with bracketed placeholders (“Dear Hiring Manager, I’m writing to apply for the Marketing [Job Title] position…”). The visible draft makes no reference to faith.",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat"
+      ],
+      "components": [
+        "Text content",
+        "Unspecified component"
+      ],
+      "component_details": [
+        "Chat bubble",
+        "Answer text"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "chat-scope"
+      ],
+      "context": "iOS capture, 28 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. Apple free trial active (renewal cancelled). Cropped to remove personal details from the research account; the visible pixels are unchanged. Off-topic scope probe. The prompt and the reply’s first line are cropped out.",
+      "text": "",
+      "checked": "2026-10-29",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received",
+        "Cropped"
+      ],
+      "tag_details": [
+        "AI chat"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-09ea27f07cec95a32264/"
     }
   ],
   "flows": [
