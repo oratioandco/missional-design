@@ -110126,7 +110126,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Onboarding greeting",
-      "caption": "Amen onboarding greets \"Hello, Test.\" with \"I will ask you a few short questions.\" and a disabled Continue button. The name \"Test\" and the selections were entered by the researcher during the capture.",
+      "caption": "Amen onboarding greets \"Hello, [name].\" with \"I will ask you a few short questions.\" and a disabled Continue button.",
       "screen_type": "Onboarding",
       "tags": [
         "Personalisation",
@@ -110154,7 +110154,7 @@
         "first-use",
         "check-ins-and-assessments"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Research onboarding with test inputs.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The account's own answers are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Onboarding",
@@ -110180,7 +110180,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Onboarding greeting with privacy promise",
-      "caption": "The greeting continues: \"This helps Amen show you Bible verses, devotionals, and prayers that truly fit your life. Everything stays 100% private.\" The name \"Test\" and the selections were entered by the researcher during the capture.",
+      "caption": "The greeting continues: \"This helps Amen show you Bible verses, devotionals, and prayers that truly fit your life. Everything stays 100% private.\"",
       "screen_type": "Onboarding",
       "tags": [
         "Personalisation",
@@ -110206,7 +110206,7 @@
         "first-use",
         "check-ins-and-assessments"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Research onboarding with test inputs.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The account's own answers are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Onboarding",
@@ -110232,7 +110232,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Goal question",
-      "caption": "\"what do you want to achieve with Amen?\" (choose up to 3): put God first before my phone, build a consistent prayer habit, deepen my relationship with God, find peace in a chaotic world (selected), understand the Bible in my real life, bring my doubts honestly to God. The name \"Test\" and the selections were entered by the researcher during the capture.",
+      "caption": "\"what do you want to achieve with Amen?\" (choose up to 3): put God first before my phone, build a consistent prayer habit, deepen my relationship with God, understand the Bible in my real life, bring my doubts honestly to God; the selected option is covered.",
       "screen_type": "Onboarding",
       "tags": [
         "Personalisation",
@@ -110260,7 +110260,7 @@
         "first-use",
         "check-ins-and-assessments"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Research onboarding with test inputs.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The account's own answers are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Onboarding",
@@ -110286,7 +110286,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Real faith question",
-      "caption": "\"think bigger, what does real faith look like to you?\" with four options; \"making decisions with God\" is selected. The name \"Test\" and the selections were entered by the researcher during the capture.",
+      "caption": "\"think bigger, what does real faith look like to you?\" with options (trusting God when it's hard, finding peace in my heart, living God's word in daily life); the selected option is covered.",
       "screen_type": "Onboarding",
       "tags": [
         "Personalisation",
@@ -110314,7 +110314,7 @@
         "first-use",
         "check-ins-and-assessments"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Research onboarding with test inputs.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The account's own answers are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Onboarding",
@@ -110340,7 +110340,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Personalised feedback",
-      "caption": "Three cards echo the chosen aspirations (making decisions with God, find peace in a chaotic world, put God first before my phone) with what Amen will do for each, then \"you're in the right place – Amen adapts your path to what matters to you with God.\" The name \"Test\" and the selections were entered by the researcher during the capture.",
+      "caption": "After the goal questions, cards echo the chosen aspirations (covered) above \"you're in the right place – Amen adapts your path to what matters to you with God.\"",
       "screen_type": "Onboarding",
       "tags": [
         "Personalisation",
@@ -110368,7 +110368,7 @@
         "first-use",
         "check-ins-and-assessments"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Research onboarding with test inputs.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The account's own answers are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Onboarding",
@@ -110394,7 +110394,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Reading frequency question",
-      "caption": "\"how often do you read the bible per week?\" with a 0–7 slider set to \"1 day\". The name \"Test\" and the selections were entered by the researcher during the capture.",
+      "caption": "\"how often do you read the bible per week?\" with a 0–7 slider; the chosen value is covered.",
       "screen_type": "Onboarding",
       "tags": [
         "Personalisation",
@@ -110422,7 +110422,7 @@
         "first-use",
         "check-ins-and-assessments"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Research onboarding with test inputs.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The account's own answers are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Onboarding",
@@ -110448,7 +110448,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Obstacle question",
-      "caption": "\"what keeps you from staying close to God day by day?\" (choose up to 3), with \"I feel spiritually dry or distant from God\" selected among phone, busyness, wandering mind, not knowing where to start and falling out of the habit. The name \"Test\" and the selections were entered by the researcher during the capture.",
+      "caption": "\"what keeps you from staying close to God day by day?\" (choose up to 3): my phone pulls me away, too busy, my mind wanders, don't know where to start, I start strong then fall out of the habit; the selected option is covered.",
       "screen_type": "Onboarding",
       "tags": [
         "Personalisation",
@@ -110476,7 +110476,7 @@
         "first-use",
         "check-ins-and-assessments"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Research onboarding with test inputs.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The account's own answers are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Onboarding",
@@ -110502,7 +110502,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Struggle question",
-      "caption": "\"what are you quietly asking God to help you with?\" lists anxiety, loneliness, lust or private sin, guilt and shame (selected), doubt, and pride. The onboarding asks for sensitive spiritual disclosures before any content. The name \"Test\" and the selections were entered by the researcher during the capture.",
+      "caption": "\"what are you quietly asking God to help you with?\" lists anxiety, loneliness, lust or private sin, doubt, and pride; the selected option is covered. The onboarding asks for sensitive spiritual disclosures before any content.",
       "screen_type": "Onboarding",
       "tags": [
         "Personalisation",
@@ -110530,7 +110530,7 @@
         "first-use",
         "check-ins-and-assessments"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Research onboarding with test inputs.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The account's own answers are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Onboarding",
@@ -110556,7 +110556,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Denomination question",
-      "caption": "\"to make sure the prayers and scriptures feel right for you – What is your denomination?\" Catholic, Protestant, Free Church, Orthodox (selected), None, Other. The name \"Test\" and the selections were entered by the researcher during the capture.",
+      "caption": "\"to make sure the prayers and scriptures feel right for you – What is your denomination?\" Catholic, Protestant, Free Church, None, Other; the selected option is covered.",
       "screen_type": "Onboarding",
       "tags": [
         "Personalisation",
@@ -110584,7 +110584,7 @@
         "first-use",
         "check-ins-and-assessments"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Research onboarding with test inputs.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The account's own answers are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Onboarding",
@@ -110610,7 +110610,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Gender question",
-      "caption": "\"God made us unique and wonderfully – Psalm 139:14. What's your gender?\" with Male selected and Female. The name \"Test\" and the selections were entered by the researcher during the capture.",
+      "caption": "\"God made us unique and wonderfully – Psalm 139:14. What's your gender?\" with two options; the selection is covered.",
       "screen_type": "Onboarding",
       "tags": [
         "Personalisation",
@@ -110638,7 +110638,7 @@
         "first-use",
         "check-ins-and-assessments"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Research onboarding with test inputs.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The account's own answers are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Onboarding",
@@ -110664,7 +110664,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Home: recently prayed",
-      "caption": "Awaken Prayer's home (German) shows \"Kürzlich gebetet\" (Rosary with Mark Wahlberg, Tagesmeditation) and a \"Neu: Pompejische Novene\" challenge card: \"Challenge beitreten\", 855 joined, 49 days left.",
+      "caption": "Awaken Prayer's home (German) shows \"Kürzlich gebetet\" (recently prayed; items covered) and a \"Neu: Pompejische Novene\" challenge card with \"Challenge beitreten\" and joined/remaining-day counts.",
       "screen_type": "Home",
       "tags": [
         "Prayer",
@@ -110689,7 +110689,7 @@
         "prayer",
         "progress-and-streaks"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. The app shares Hallow's content and layout.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Earlier prayer history is covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Home",
@@ -110715,7 +110715,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Profile tab",
-      "caption": "The Ich (profile) tab: name masked, Serie \"0 – Bete heute und beginne einen Gebetsrhythmus!\", Routine with a 5:30 AM \"Täglicher Friede in der Stille\" meditation and \"Bearbeiten\", and Kürzlich gebetet.",
+      "caption": "The Ich (profile) tab: name covered, Serie \"0 – Bete heute und beginne einen Gebetsrhythmus!\", a Routine section with Bearbeiten (the account's routine covered) and Kürzlich gebetet (covered).",
       "screen_type": "Progress",
       "tags": [
         "Progress",
@@ -110738,7 +110738,7 @@
       "article_slugs": [
         "progress-and-streaks"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The profile name is masked.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Name, routine and prayer history are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Progress",
@@ -110764,7 +110764,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Profile tab, scrolled",
-      "caption": "Further down the profile: empty Favoriten and Downloads, two Meilensteine badges (\"15 Minuten des Gebets\", \"Erstes Gebet abgeschlossen\"), Anliegen with one personal intention (masked) and an add button, and \"Reflexionen hinzufügen\".",
+      "caption": "Further down the profile: empty Favoriten and Downloads, Meilensteine (covered), Anliegen with a personal intention (covered) and an add button, and \"Reflexionen hinzufügen\".",
       "screen_type": "Progress",
       "tags": [
         "Progress",
@@ -110790,7 +110790,7 @@
         "progress-and-streaks",
         "prayer"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. A personal intention is masked.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Milestones and a personal intention are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Progress",
@@ -110816,7 +110816,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Home with daily card and discussions",
-      "caption": "bible.ai home: a \"daily\" card (\"how can you hear God's voice above the noise of life?\") labelled \"oct 11 for [name]\", \"daily for you\", earlier discussions (\"finding strength in faith\"; a prayer thread whose title is masked), and \"let's talk about\" topics (for you, characters, family, for men, for women).",
+      "caption": "bible.ai home: a \"daily\" card (\"how can you hear God's voice above the noise of life?\") labelled \"oct 11 for [name]\", \"daily for you\", a discussions row (earlier chats covered) and \"let's talk about\" topics (for you, characters, family, for men, for women).",
       "screen_type": "Home",
       "tags": [
         "Chat",
@@ -110843,7 +110843,7 @@
         "ai-memory",
         "assistant-writes-first"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The account name and a family reference in a thread title are masked.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The account name and earlier chats are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Home",
@@ -110869,7 +110869,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Home with daily card (second launch)",
-      "caption": "The same bible.ai home with the daily card in a brown theme, labelled for the masked account name, earlier discussions and topic chips.",
+      "caption": "The same bible.ai home with the daily card in a brown theme, labelled for the masked account name, a discussions row (earlier chats covered) and \"let's talk about\" topics (for you, characters, family, for men, for women).",
       "screen_type": "Home",
       "tags": [
         "Chat",
@@ -110896,7 +110896,7 @@
         "ai-memory",
         "assistant-writes-first"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The account name and a family reference are masked.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The account name and earlier chats are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Home",
@@ -111459,7 +111459,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Bible tab reader",
-      "caption": "Bible tab: Acts 1 (NIV) with existing yellow test highlights on verses 4 and 6, and a reader bar (Acts 1, NIV, previous, play, next). The profile initial and greeting name are masked.",
+      "caption": "Bible tab: Acts 1 (NIV) with earlier highlights on verses 4 and 6 and a mark on verse 3 (covered), and a reader bar (Acts 1, NIV, previous, play, next). The profile initial and greeting name are masked.",
       "screen_type": "Browse",
       "tags": [
         "Scripture",
@@ -111555,7 +111555,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Bible tab with playback",
-      "caption": "Acts 1 with test highlights while the floating bar shows pause, i.e. audio playing. The profile initial and greeting name are masked.",
+      "caption": "Acts 1 with earlier highlights covered while the floating bar shows pause, i.e. audio playing. The profile initial is masked.",
       "screen_type": "Browse",
       "tags": [
         "Scripture",
@@ -111605,7 +111605,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Today with streak and verse of the day",
-      "caption": "YouVersion's Today: \"Good Afternoon, [name]\", streak 1, verse of the day Galatians 6:10 (1.1M likes), Guided Scripture \"Do Something Good\" and Guided Prayer \"Need a moment with God?\". The account photo in the You tab is masked.",
+      "caption": "YouVersion's Today: \"Good Afternoon, [name]\", streak counter (covered), verse of the day Galatians 6:10 (1.1M likes), Guided Scripture \"Do Something Good\" and Guided Prayer \"Need a moment with God?\". The account photo in the You tab is masked.",
       "screen_type": "Home",
       "tags": [
         "Devotionals",
@@ -111655,7 +111655,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Today scrolled: badges",
-      "caption": "Today scrolled: \"Need a place to begin?\" plans card, \"Share the Bible App\" invitation, and Badges (Sower 2026, Plan Subscription 5, Guided Scripture 5) with View All. The account photo in the You tab is masked.",
+      "caption": "Today scrolled: \"Need a place to begin?\" plans card, \"Share the Bible App\" invitation, and Badges (covered) with View All. The account photo in the You tab is masked.",
       "screen_type": "Home",
       "tags": [
         "Progress",
@@ -111706,7 +111706,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Plan Subscription badge",
-      "caption": "\"Plan Subscription\" badge (level 3): \"Discover daily devotional content through Plans. Earn when you start any Plan.\" Milestones: 1 remaining for 5; 3 completed on Feb 11, 2019; 1 completed on Jun 19, 2015. The account photo in the You tab is masked.",
+      "caption": "\"Plan Subscription\" badge: \"Discover daily devotional content through Plans. Earn when you start any Plan.\" Milestones (covered). The account photo in the You tab is masked.",
       "screen_type": "Progress",
       "tags": [
         "Progress",
@@ -111732,7 +111732,7 @@
         "progress-and-streaks",
         "reading-plans"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The account photo is masked.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Milestone dates are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Progress",
@@ -111806,7 +111806,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Home: recently prayed",
-      "caption": "Centering Prayer's home (German, Hallow layout): Kürzlich gebetet and the \"Neu: Pompejische Novene\" challenge with 856 joined.",
+      "caption": "Centering Prayer's home (German) shows \"Kürzlich gebetet\" (recently prayed; items covered) and a \"Neu: Pompejische Novene\" challenge card with \"Challenge beitreten\" and joined/remaining-day counts.",
       "screen_type": "Home",
       "tags": [
         "Prayer",
@@ -111829,7 +111829,7 @@
       "article_slugs": [
         "prayer"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Earlier prayer history is covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Home",
@@ -111854,7 +111854,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Profile tab",
-      "caption": "Profile tab (Ich): name masked, Serie 0 with \"Bete heute…\", 5:30 AM routine and Kürzlich gebetet.",
+      "caption": "The Ich (profile) tab: name covered, Serie \"0 – Bete heute und beginne einen Gebetsrhythmus!\", a Routine section with Bearbeiten (the account's routine covered) and Kürzlich gebetet (covered).",
       "screen_type": "Progress",
       "tags": [
         "Progress",
@@ -111877,7 +111877,7 @@
       "article_slugs": [
         "progress-and-streaks"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The profile name is masked.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Name, routine and prayer history are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Progress",
@@ -111902,7 +111902,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Profile tab, scrolled",
-      "caption": "Favoriten, Downloads, Meilensteine badges, Anliegen with one personal intention (masked) and Reflexionen.",
+      "caption": "Further down the profile: empty Favoriten and Downloads, Meilensteine (covered), Anliegen with a personal intention (covered) and an add button, and \"Reflexionen hinzufügen\".",
       "screen_type": "Progress",
       "tags": [
         "Progress",
@@ -111928,7 +111928,7 @@
         "progress-and-streaks",
         "prayer"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. A personal intention is masked.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Milestones and a personal intention are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Progress",
@@ -111953,7 +111953,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Today with verse of the day",
-      "caption": "Daily Prayer (YouVersion family) Today: greeting (masked), streak 1, Galatians 6:10 with 1.2M likes, Guided Scripture and Guided Prayer. The account photo in the You tab is masked.",
+      "caption": "Daily Prayer (YouVersion family) Today: greeting (masked), streak counter (covered), Galatians 6:10 with 1.2M likes, Guided Scripture and Guided Prayer. The account photo in the You tab is masked.",
       "screen_type": "Home",
       "tags": [
         "Devotionals",
@@ -112001,7 +112001,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Today scrolled: Need prayer?",
-      "caption": "\"Need prayer? [name], let us know what you're going through so we can pray for you and send you helpful resources.\" with Request Prayer and Dismiss, then Badges. The account photo in the You tab is masked.",
+      "caption": "\"Need prayer? [name], let us know what you're going through so we can pray for you and send you helpful resources.\" with Request Prayer and Dismiss, then Badges (covered). The account photo in the You tab is masked.",
       "screen_type": "Home",
       "tags": [
         "Prayer",
@@ -112054,7 +112054,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Plan Subscription badge",
-      "caption": "Plan Subscription badge with milestones completed on Feb 11, 2019 and Jun 19, 2015, and \"1 remaining\". The account photo in the You tab is masked.",
+      "caption": "\"Plan Subscription\" badge: \"Discover daily devotional content through Plans. Earn when you start any Plan.\" Milestones (covered). The account photo in the You tab is masked.",
       "screen_type": "Progress",
       "tags": [
         "Progress",
@@ -112079,7 +112079,7 @@
       "article_slugs": [
         "progress-and-streaks"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The account photo is masked.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Milestone dates are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Progress",
@@ -112200,7 +112200,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Home: up next and downloads",
-      "caption": "Dwell's Home: Up Next (Today \"Faithful Servants\", Dwell Daily 6m; Inhabit Companion Verses 8m), \"Keep Listening – Nothing in progress\", Downloads (book covers) and a mini player \"Matthew 2, 23 verses\".",
+      "caption": "Dwell's Home: Up Next with the Dwell Daily item for today, a second Up Next card (covered), \"Keep Listening – Nothing in progress\" and Downloads with the mini player (covered).",
       "screen_type": "Home",
       "tags": [
         "Audio playback",
@@ -112226,7 +112226,7 @@
         "bible-audio",
         "devotional-audio"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Existing downloads and favourites from earlier listening are visible.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Earlier downloads and listening are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Home",
@@ -112251,7 +112251,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Home scrolled: favourites",
-      "caption": "Further down: Favorites (MOVED, Day 2 Matthew 4–6) and What's New (\"Prodigal Love – 4 Experiences\").",
+      "caption": "Further down: Favorites (covered) and What's New (\"Prodigal Love – 4 Experiences\"); mini player covered.",
       "screen_type": "Home",
       "tags": [
         "Audio playback"
@@ -112275,7 +112275,7 @@
       "article_slugs": [
         "bible-audio"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Earlier favourites and listening are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Home",
@@ -112300,7 +112300,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Reader entry: Proverbs 1",
-      "caption": "ESV reader opens on Proverbs 1 (\"The Beginning of Knowledge\") with an existing highlight on verse 3; header Psalm 150.",
+      "caption": "ESV reader opens on Proverbs 1 (\"The Beginning of Knowledge\"); header Psalm 150. An earlier highlight on verse 3 is covered.",
       "screen_type": "Bible reader",
       "tags": [
         "Scripture",
@@ -112324,7 +112324,7 @@
         "highlights-and-notes",
         "first-use"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. The highlight is earlier account state, not a default.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. An earlier highlight from the account is covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Bible reader",
@@ -112349,7 +112349,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Home: Today's reading",
-      "caption": "ESV Home: Today's Reading \"A Proverb a Day, Day 2 of 31\", Personal (Bookmarks, Notes, Favorites, Highlights, History) and a verse card (Ephesians 2:10).",
+      "caption": "ESV Home: Today's Reading (the account's plan and progress covered), Personal (Bookmarks, Notes, Favorites, Highlights, History) and a verse card (Ephesians 2:10).",
       "screen_type": "Home",
       "tags": [
         "Reading plan",
@@ -112372,7 +112372,7 @@
       "article_slugs": [
         "reading-plans"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Plan progress is earlier account state.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Plan progress is covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Home",
@@ -112397,7 +112397,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Home scrolled: my plans",
-      "caption": "Home scrolled: Ephesians 2:10 with \"Change Verse\", My Plans (A Proverb a Day, Day 2 of 31) and Suggested Playlists (Peace 26 tracks, The Fruit of the Spirit, The Gospel).",
+      "caption": "Home scrolled: Ephesians 2:10 with \"Change Verse\", My Plans (covered) and Suggested Playlists (Peace 26 tracks, The Fruit of the Spirit, The Gospel).",
       "screen_type": "Home",
       "tags": [
         "Reading plan",
@@ -112419,7 +112419,7 @@
         "reading-plans",
         "bible-audio"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Plan progress is covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Home",
@@ -112494,7 +112494,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Notes tab",
-      "caption": "Notes: notebooks (All Notes 4, My Journal 0, Sermon Notes 0, Create Notebook), \"Show 4 notes in Bible\" and All Notes by date (test notes \"Q\" and \"my first note\").",
+      "caption": "Gospel Partner Notes: notebooks (All Notes, My Journal, Sermon Notes, Create Notebook), \"Show 4 notes in Bible\", New Note and All Notes by date (notes covered).",
       "screen_type": "Saved items",
       "tags": [
         "Note"
@@ -112518,7 +112518,7 @@
       "article_slugs": [
         "highlights-and-notes"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Another app's media artwork is masked.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Notes are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Annotation library",
@@ -112542,7 +112542,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Notes tab, scrolled",
-      "caption": "All Notes scrolled with New Note, four test notes anchored to John 1 and Genesis 1:26, and Back to Top.",
+      "caption": "All Notes scrolled with New Note, the notes list (covered) and Back to Top.",
       "screen_type": "Saved items",
       "tags": [
         "Note"
@@ -112564,7 +112564,7 @@
       "article_slugs": [
         "highlights-and-notes"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Another app's media artwork is masked.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Notes are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Annotation library",
@@ -112640,7 +112640,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Home: recently prayed",
-      "caption": "Hallow (German) Startseite: Kürzlich gebetet (Rosary with Mark Wahlberg, Tagesmeditation) and \"Neu: Pompejische Novene\" challenge, 854 joined, 49 days left.",
+      "caption": "Hallow's home (German) shows \"Kürzlich gebetet\" (recently prayed; items covered) and a \"Neu: Pompejische Novene\" challenge card with \"Challenge beitreten\" and joined/remaining-day counts.",
       "screen_type": "Home",
       "tags": [
         "Prayer",
@@ -112664,7 +112664,7 @@
       "article_slugs": [
         "prayer"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Earlier prayer history is covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Home",
@@ -112690,7 +112690,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Profile tab",
-      "caption": "Hallow's Ich tab: name masked, Serie 0, 5:30 AM routine \"Täglicher Friede in der Stille\" with Bearbeiten, Kürzlich gebetet.",
+      "caption": "The Ich (profile) tab: name covered, Serie \"0 – Bete heute und beginne einen Gebetsrhythmus!\", a Routine section with Bearbeiten (the account's routine covered) and Kürzlich gebetet (covered).",
       "screen_type": "Progress",
       "tags": [
         "Progress",
@@ -112713,7 +112713,7 @@
       "article_slugs": [
         "progress-and-streaks"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The profile name is masked.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Name, routine and prayer history are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Progress",
@@ -112738,7 +112738,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Profile tab, scrolled",
-      "caption": "Favoriten, Downloads, Meilensteine, Anliegen (one personal intention masked) and Reflexionen.",
+      "caption": "Further down the profile: empty Favoriten and Downloads, Meilensteine (covered), Anliegen with a personal intention (covered) and an add button, and \"Reflexionen hinzufügen\".",
       "screen_type": "Progress",
       "tags": [
         "Progress",
@@ -112764,7 +112764,7 @@
         "progress-and-streaks",
         "prayer"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. A personal intention is masked.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Milestones and a personal intention are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Progress",
@@ -112887,7 +112887,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Today",
-      "caption": "My Bible (YouVersion family) Today: \"Good Evening, [name]\", streak 1, Galatians 6:10, Guided Scripture and Guided Prayer. The account photo in the You tab is masked.",
+      "caption": "My Bible (YouVersion family) Today: \"Good Evening, [name]\", streak counter (covered), Galatians 6:10, Guided Scripture and Guided Prayer. The account photo in the You tab is masked.",
       "screen_type": "Home",
       "tags": [
         "Devotionals",
@@ -112935,7 +112935,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Today scrolled: Need prayer?",
-      "caption": "\"Need prayer? [name], let us know what you're going through so we can pray for you…\" with Request Prayer, then Badges. The account photo in the You tab is masked.",
+      "caption": "\"Need prayer? [name], let us know what you're going through so we can pray for you…\" with Request Prayer, then Badges (covered). The account photo in the You tab is masked.",
       "screen_type": "Home",
       "tags": [
         "Prayer",
@@ -112986,7 +112986,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Plan Subscription badge",
-      "caption": "Plan Subscription badge with milestones from 2015 and 2019. The account photo in the You tab is masked.",
+      "caption": "\"Plan Subscription\" badge: \"Discover daily devotional content through Plans. Earn when you start any Plan.\" Milestones (covered). The account photo in the You tab is masked.",
       "screen_type": "Progress",
       "tags": [
         "Progress",
@@ -113011,7 +113011,7 @@
       "article_slugs": [
         "progress-and-streaks"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The account photo is masked.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Milestone dates are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Progress",
@@ -113180,7 +113180,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Reader with existing highlight",
-      "caption": "Olive Tree Bible (Psalm 139:23–140:1, MSG): toolbar, \"God, get me out\" highlighted, and \"Open Study Center\". The notes pane lists existing categories (journal, Sermon Notes); the yellow and green marks are earlier test highlights.",
+      "caption": "Olive Tree Bible, Psalm 139:23–140 (MSG), with toolbar and \"Open Study Center\"; an earlier highlight on 140:1 is covered.",
       "screen_type": "Bible reader",
       "tags": [
         "Highlight",
@@ -113204,7 +113204,7 @@
       "article_slugs": [
         "highlights-and-notes"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. An earlier highlight from the account is covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Bible reader",
@@ -113231,7 +113231,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Passage after navigation",
-      "caption": "Psalm 139:23–140:1 (MSG) after choosing a passage; same highlight and Open Study Center bar. The notes pane lists existing categories (journal, Sermon Notes); the yellow and green marks are earlier test highlights.",
+      "caption": "Olive Tree Bible, Psalm 139:23–140 (MSG), with toolbar and \"Open Study Center\"; an earlier highlight on 140:1 is covered.",
       "screen_type": "Bible reader",
       "tags": [
         "Highlight",
@@ -113255,7 +113255,7 @@
       "article_slugs": [
         "highlights-and-notes"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. An earlier highlight from the account is covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Bible reader",
@@ -113282,7 +113282,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Reader at launch",
-      "caption": "Psalm 140 (MSG) with the existing highlight and the Study Center bar. The notes pane lists existing categories (journal, Sermon Notes); the yellow and green marks are earlier test highlights.",
+      "caption": "Olive Tree Bible, Psalm 139:23–140 (MSG), with toolbar and \"Open Study Center\"; an earlier highlight on 140:1 is covered.",
       "screen_type": "Bible reader",
       "tags": [
         "Highlight",
@@ -113306,7 +113306,7 @@
       "article_slugs": [
         "highlights-and-notes"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. An earlier highlight from the account is covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Bible reader",
@@ -113333,7 +113333,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "Psalm 140",
-      "caption": "Psalm 139:23–140:6 (MSG) with the existing highlight. The notes pane lists existing categories (journal, Sermon Notes); the yellow and green marks are earlier test highlights.",
+      "caption": "Olive Tree Bible, Psalm 139:23–140 (MSG), with toolbar and \"Open Study Center\"; an earlier highlight on 140:1 is covered.",
       "screen_type": "Bible reader",
       "tags": [
         "Highlight",
@@ -113356,7 +113356,7 @@
       "article_slugs": [
         "highlights-and-notes"
       ],
-      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 11 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. An earlier highlight from the account is covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Bible reader",
@@ -113383,7 +113383,7 @@
       "captured": "2026-10-11",
       "version": null,
       "screen_name": "You tab: activity",
-      "caption": "YouVersion You tab: account email and photo masked, Find Your Church, Activity/Saved/Profile, App Streak and Days in the Bible App this Year (counts masked), 0 Encouragements Sent, Badges (9) and an activity item (photo masked) \"You earned the Guided Scripture Badge\".",
+      "caption": "YouVersion You tab: account email and photo masked, Find Your Church, Activity/Saved/Profile, App Streak and Days in the Bible App this Year (counts masked), 0 Encouragements Sent, Badges (covered) and an activity item (covered).",
       "screen_type": "Progress",
       "tags": [
         "Progress",
@@ -113778,7 +113778,7 @@
       "captured": "2026-10-13",
       "version": "8.1.3",
       "screen_name": "Study Center notes pane",
-      "caption": "Olive Tree Study Center: Psalm 139:23–140:1 (MSG) with an existing highlight; Notes pane with Search, Add Note, Add Category and categories including Sermon Notes.",
+      "caption": "Olive Tree Study Center: Psalm 139:23–140:1 (MSG) with an earlier highlight covered; Notes pane with Search, Add Note and Add Category; the account's note categories are covered.",
       "screen_type": "Bible reader",
       "tags": [
         "Note",
@@ -113801,7 +113801,7 @@
         "highlights-and-notes",
         "study-helps"
       ],
-      "context": "iOS capture, 13 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 13 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. An earlier highlight and note categories are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Bible reader",
@@ -113826,7 +113826,7 @@
       "captured": "2026-10-13",
       "version": "2.7.4",
       "screen_name": "Home with mood check",
-      "caption": "HelloBible home: profile initial and greeting name masked, streak 1, \"His Word brings peace to your soul.\", My daily verse (Isaiah 43:2) and My services.",
+      "caption": "HelloBible home: profile initial and greeting name masked, streak counter (covered), \"His Word brings peace to your soul.\", My daily verse (Isaiah 43:2) and My services.",
       "screen_type": "Home",
       "tags": [
         "Devotionals",
@@ -113876,7 +113876,7 @@
       "captured": "2026-10-13",
       "version": "1.5.1",
       "screen_name": "Prayer status options",
-      "caption": "Prayminder prayer \"Gratitude\", Settings tab: Status menu open (In progress, Answered, Archived), Group, \"Include in prayer rotation\" on, and \"Set specific times\".",
+      "caption": "Prayminder: a prayer (title covered), Settings tab with the Status menu open (In progress, Answered, Archived), Group, \"Include in prayer rotation\" on, and \"Set specific times\".",
       "screen_type": "Settings",
       "tags": [
         "Prayer",
@@ -113902,7 +113902,7 @@
         "prayer",
         "notifications"
       ],
-      "context": "iOS capture, 13 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 13 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The prayer title is covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Settings",
@@ -114027,7 +114027,7 @@
       "captured": "2026-10-14",
       "version": null,
       "screen_name": "Afternoon entry",
-      "caption": "bible.ai home: daily card \"how can God's word bring peace to your mind?\" for the masked name, discussions and topic chips including \"generational blessings and curses\".",
+      "caption": "bible.ai home: daily card \"how can God's word bring peace to your mind?\" for the masked name, discussions and topic chips including \"generational blessings and curses\"., a discussions row (earlier chats covered) and \"let's talk about\" topics (for you, characters, family, for men, for women).",
       "screen_type": "Home",
       "tags": [
         "Chat",
@@ -114054,7 +114054,7 @@
         "ai-memory",
         "assistant-writes-first"
       ],
-      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The name and a family reference are masked.",
+      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The account name and earlier chats are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Home",
@@ -114413,7 +114413,7 @@
       "captured": "2026-10-14",
       "version": null,
       "screen_name": "Home on return",
-      "caption": "Dwell Home (dark): Up Next (Dwell Daily \"Up and Down, Ebb and Flow\"), Keep Listening empty, Downloads and mini player.",
+      "caption": "Dwell Home (dark): Up Next with today's Dwell Daily \"Up and Down, Ebb and Flow\", a second card (covered), Keep Listening empty, Downloads and mini player (covered).",
       "screen_type": "Home",
       "tags": [
         "Audio playback",
@@ -114439,7 +114439,7 @@
         "bible-audio",
         "devotional-audio"
       ],
-      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Existing downloads from earlier listening are visible.",
+      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Earlier downloads and listening are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Home",
@@ -114464,7 +114464,7 @@
       "captured": "2026-10-14",
       "version": null,
       "screen_name": "Me tab: listening stats",
-      "caption": "Me: Spurgeon quote, This Week/This Month/All Time, 0 Active Days and 0s Listening Time since Oct 1, Stats, Favorites, Downloads, Playlists, Plans, and Listening History cards (Matthew).",
+      "caption": "Me: Spurgeon quote, This Week/This Month/All Time, 0 Active Days and 0s Listening Time since Oct 1, Stats, Favorites, Downloads, Playlists, Plans, and Listening History (covered).",
       "screen_type": "Progress",
       "tags": [
         "Progress",
@@ -114489,7 +114489,7 @@
       "article_slugs": [
         "progress-and-streaks"
       ],
-      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Earlier listening history is covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Progress",
@@ -114514,7 +114514,7 @@
       "captured": "2026-10-14",
       "version": null,
       "screen_name": "Reader entry: Proverbs 1",
-      "caption": "Pray As You Go-linked ESV reader on Proverbs 1 with an existing highlight on verse 3.",
+      "caption": "ESV reader opens on Proverbs 1 (\"The Beginning of Knowledge\"); header Psalm 150. An earlier highlight on verse 3 is covered.",
       "screen_type": "Bible reader",
       "tags": [
         "Scripture",
@@ -114537,7 +114537,7 @@
       "article_slugs": [
         "highlights-and-notes"
       ],
-      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. The highlight is earlier account state.",
+      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. An earlier highlight from the account is covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Bible reader",
@@ -114612,7 +114612,7 @@
       "captured": "2026-10-14",
       "version": null,
       "screen_name": "Ask AI history",
-      "caption": "pray.ai \"Ask AI\" tab with model chips (chatgpt, GPT_4o), credits 3, a compose button and one earlier chat dated 4/17/26.",
+      "caption": "pray.ai \"Ask AI\" tab with model chips (chatgpt, GPT_4o), credits and a compose button; an earlier chat row is covered.",
       "screen_type": "Chat",
       "tags": [
         "Chat"
@@ -114634,7 +114634,7 @@
       "article_slugs": [
         "assistant-writes-first"
       ],
-      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. An earlier chat is covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Chat entry",
@@ -114909,7 +114909,7 @@
       "captured": "2026-10-14",
       "version": null,
       "screen_name": "Today after the prompt",
-      "caption": "Today: greeting (masked), Psalm 46:10 verse of the day, Badges (Global Bible Month 2026, Sower, Plan Subscription) and Guided Scripture. The account photo in the You tab is masked.",
+      "caption": "Today: greeting (covered), Psalm 46:10 verse of the day, Badges (covered) and Guided Scripture. The account photo in the You tab is masked.",
       "screen_type": "Home",
       "tags": [
         "Devotionals",
@@ -115008,7 +115008,7 @@
       "captured": "2026-10-14",
       "version": null,
       "screen_name": "My Plans",
-      "caption": "My Plans: \"Christmas Around The World\", \"Bible on Business\" (1 participant, photo masked) and a third plan (masked). The account photo in the You tab is masked.",
+      "caption": "My Plans tab (Find Plans, Saved, Completed alongside); the account's plans are covered. The account photo in the You tab is masked.",
       "screen_type": "Reading plan",
       "tags": [
         "Reading plan",
@@ -115031,7 +115031,7 @@
       "article_slugs": [
         "reading-plans"
       ],
-      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. A participant photo and a plan title are masked.",
+      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The account's plans are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Reading plan",
@@ -115056,7 +115056,7 @@
       "captured": "2026-10-14",
       "version": null,
       "screen_name": "Overdue plan",
-      "caption": "\"Christmas Around The World\" (Compassion): Day 1 of 5, \"5 Missed Days\", completed Devotional and Isaiah 7:14, open Isaiah 9:6–7, and a sheet \"We're so glad you're back! Ready to keep going?\" with Catch Me Up.",
+      "caption": "A reading plan with its title, cover, day strip, progress and readings covered, and a sheet \"We're so glad you're back! Ready to keep going?\" with Catch Me Up.",
       "screen_type": "Reading plan",
       "tags": [
         "Reading plan",
@@ -115082,7 +115082,7 @@
         "reading-plans",
         "progress-and-streaks"
       ],
-      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Plan history is earlier account state.",
+      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The plan, its dates, progress and missed days are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Reading plan",
@@ -115108,7 +115108,7 @@
       "captured": "2026-10-14",
       "version": null,
       "screen_name": "Plan after dismissing catch-up",
-      "caption": "The plan with \"Start Reading\" after the catch-up sheet is dismissed; \"5 Missed Days\" remains.",
+      "caption": "The plan with \"Start Reading\" after the catch-up sheet is dismissed; title, cover, dates, progress and readings covered.",
       "screen_type": "Reading plan",
       "tags": [
         "Reading plan",
@@ -115129,7 +115129,7 @@
       "article_slugs": [
         "reading-plans"
       ],
-      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The plan and its history are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Reading plan",
@@ -115154,7 +115154,7 @@
       "captured": "2026-10-14",
       "version": null,
       "screen_name": "Plan menu",
-      "caption": "Plan menu: Share, Settings, Plan Info, Catch Me Up, Stop This Plan.",
+      "caption": "Plan menu: Share, Settings, Plan Info, Catch Me Up, Stop This Plan; the plan and its history behind are covered.",
       "screen_type": "Reading plan",
       "tags": [
         "Reading plan"
@@ -115174,7 +115174,7 @@
       "article_slugs": [
         "reading-plans"
       ],
-      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The plan and its history are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Reading plan",
@@ -115198,7 +115198,7 @@
       "captured": "2026-10-14",
       "version": null,
       "screen_name": "Plan settings",
-      "caption": "Plan Settings: Reminder off, Day 1 of 5 (0%), start and end dates in December 2019, \"Catch Me Up – Shift start and end dates. Last fully completed day becomes yesterday.\", and the five missed days listed.",
+      "caption": "Plan Settings: the plan (covered), Reminder off, a Catch Me Up button with \"Shift start and end dates. Last fully completed day becomes yesterday. Partially completed days still reflect unfinished selections.\"; dates, progress and missed days are covered.",
       "screen_type": "Settings",
       "tags": [
         "Reading plan",
@@ -115223,7 +115223,7 @@
         "reading-plans",
         "notifications"
       ],
-      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The plan and its history are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Settings",
@@ -115295,7 +115295,7 @@
       "captured": "2026-10-14",
       "version": null,
       "screen_name": "Note editor",
-      "caption": "Blank note editor: \"What would you like to say?\", Private, Exodus 1:1 attached, Add Verse, label chips (encouragement, obedience, sin, worship) and five colours.",
+      "caption": "Blank note editor: \"What would you like to say?\", Private, Exodus 1:1 attached, Add Verse, a Label button with label chips (covered) and five colours.",
       "screen_type": "Annotation editor",
       "tags": [
         "Note",
@@ -115322,7 +115322,7 @@
       "article_slugs": [
         "highlights-and-notes"
       ],
-      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Label chips are covered: unclear whether defaults or the account's own.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Annotation editor",
@@ -115347,7 +115347,7 @@
       "captured": "2026-10-24",
       "version": "1.0.3",
       "screen_name": "Home: your ai daily",
-      "caption": "bible.ai home with daily card \"what does the journey to salvation look like?\" for the masked name, discussions and topics.",
+      "caption": "bible.ai home with daily card \"what does the journey to salvation look like?\" for [name], a discussions row (earlier chats covered) and topics.",
       "screen_type": "Home",
       "tags": [
         "Chat",
@@ -115374,7 +115374,7 @@
         "ai-memory",
         "assistant-writes-first"
       ],
-      "context": "iOS capture, 24 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The name is masked.",
+      "context": "iOS capture, 24 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The name and earlier chats are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Home",
@@ -116549,7 +116549,7 @@
       "captured": "2026-10-24",
       "version": "8.1.4",
       "screen_name": "Reader with notes split pane",
-      "caption": "Olive Tree (dark): Psalm 139:23–140:1 (MSG) with the existing highlight above the Notes pane (Sort, Search, Add Note, Add Category). The notes pane lists existing categories (journal, Sermon Notes); the yellow and green marks are earlier test highlights.",
+      "caption": "Olive Tree (dark): Psalm 139–140 (MSG) above the Notes pane (Sort, Search, Add Note, Add Category); an earlier highlight and the account's note categories are covered.",
       "screen_type": "Bible reader",
       "tags": [
         "Highlight",
@@ -116573,7 +116573,7 @@
       "article_slugs": [
         "highlights-and-notes"
       ],
-      "context": "iOS capture, 24 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 24 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. An earlier highlight and note categories are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Bible reader",
@@ -116600,7 +116600,7 @@
       "captured": "2026-10-24",
       "version": "8.1.4",
       "screen_name": "Quick reader settings",
-      "caption": "Psalm 139:17–140:1 in the split view, after the quick reader settings were used. The notes pane lists existing categories (journal, Sermon Notes); the yellow and green marks are earlier test highlights.",
+      "caption": "Olive Tree (dark): Psalm 139–140 (MSG) above the Notes pane (Sort, Search, Add Note, Add Category); an earlier highlight and the account's note categories are covered.",
       "screen_type": "Bible reader",
       "tags": [
         "Highlight",
@@ -116624,7 +116624,7 @@
       "article_slugs": [
         "highlights-and-notes"
       ],
-      "context": "iOS capture, 24 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 24 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. An earlier highlight and note categories are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Bible reader",
@@ -116842,7 +116842,7 @@
       "captured": "2026-10-24",
       "version": "11.33.1",
       "screen_name": "Highlights in dark mode",
-      "caption": "The same green test highlight on Mark 4:37–38 in the dark theme. The account photo in the You tab is masked.",
+      "caption": "The same green research test highlight (capture notes: \"TEST marks\") on Mark 4:37–38 in the dark theme. The account photo in the You tab is masked.",
       "screen_type": "Bible reader",
       "tags": [
         "Highlight",
@@ -116890,7 +116890,7 @@
       "captured": "2026-10-24",
       "version": "11.33.1",
       "screen_name": "You: activity feed with marks",
-      "caption": "You tab Activity: name, photo and counts masked, Badges (10), filters (All, Highlights, Notes, Plans, Badges) and \"You added a note on Mark 4:37 – Private\".",
+      "caption": "You tab Activity: name, photo and counts masked, Badges (covered), filters (All, Highlights, Notes, Plans, Badges) and \"You added a note on Mark 4:37 – Private\".",
       "screen_type": "Progress",
       "tags": [
         "Progress",
@@ -117043,7 +117043,7 @@
       "captured": "2026-10-24",
       "version": "11.33.1",
       "screen_name": "Overlap after deleting top highlight",
-      "caption": "After deleting the green highlight, the underlying yellow test highlight on Mark 4:37 remains. The account photo in the You tab is masked.",
+      "caption": "After deleting the green highlight, the underlying yellow research test highlight (capture notes: \"TEST marks\") on Mark 4:37 remains. The account photo in the You tab is masked.",
       "screen_type": "Bible reader",
       "tags": [
         "Highlight"
@@ -117183,55 +117183,6 @@
       "url": "/screens/shot-d5114e81172da04eaa47/"
     },
     {
-      "id": "shot-aad84c56da87de28096f",
-      "app_id": "tv.lifechurch.bible.kids",
-      "organisation_id": "C059",
-      "image": "/assets/app-library/screens/shot-aad84c56da87de28096f.webp",
-      "captured": "2026-10-25",
-      "version": "3.4.1",
-      "screen_name": "Story map",
-      "caption": "Bible App for Kids landscape story map with illustrated story bubbles, star ratings, a trophy, 23 stars and 12 badges, profile and settings buttons.",
-      "screen_type": "Home",
-      "tags": [
-        "Progress"
-      ],
-      "components": [
-        "Map",
-        "Unspecified component"
-      ],
-      "component_details": [
-        "Map",
-        "Badges"
-      ],
-      "tasks": [
-        "Explore content"
-      ],
-      "states": [],
-      "flow_id": null,
-      "flow_order": null,
-      "article_slugs": [
-        "children-and-families",
-        "progress-and-streaks"
-      ],
-      "context": "iOS capture, 25 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Stars and counts are earlier account state.",
-      "text": "",
-      "checked": "2026-10-30",
-      "screen_type_detail": "Home",
-      "task_details": [
-        "Find content"
-      ],
-      "state_details": [
-        "Default"
-      ],
-      "tag_details": [
-        "Children",
-        "Progress",
-        "Illustration"
-      ],
-      "classification_version": 1,
-      "url": "/screens/shot-aad84c56da87de28096f/"
-    },
-    {
       "id": "shot-d82db3a3713c6ed5773e",
       "app_id": "com.duomoapp.project",
       "organisation_id": "C029",
@@ -117239,7 +117190,7 @@
       "captured": "2026-10-25",
       "version": "6.4.8",
       "screen_name": "Personalised trial gate",
-      "caption": "Duomo: \"Your daily walk with God starts here!\" summarising answers (Growth goal Grounded, Spiritual status Growing, Walking with God Just starting, Daily rhythm 5 min/day, Main focus Going deeper), \"Due today $0.00, 3 days free, $9.99 due Oct 28, 2026\", Try for $0.00 and View other plans.",
+      "caption": "Duomo: \"Your daily walk with God starts here!\" summarising five answers (Growth goal, Spiritual status, Walking with God, Daily rhythm, Main focus; answers covered), \"Due today $0.00, 3 days free, $9.99 due Oct 28, 2026\", Try for $0.00 and View other plans.",
       "screen_type": "Subscription",
       "tags": [
         "Upsell",
@@ -117263,7 +117214,7 @@
         "first-use",
         "check-ins-and-assessments"
       ],
-      "context": "iOS capture, 25 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Answers were given during the research onboarding.",
+      "context": "iOS capture, 25 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Survey answers are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Paywall",
@@ -117339,7 +117290,7 @@
       "captured": "2026-10-25",
       "version": "8.1.4",
       "screen_name": "Mark 4 clean reader",
-      "caption": "Olive Tree Mark 4:35–5:1 (MSG) clean, above the notes pane. Existing note categories (journal, Sermon Notes) show in the lower pane.",
+      "caption": "Olive Tree Mark 4:35–5:1 (MSG) clean, above the notes pane. The marks on \"other\" are research test marks recorded in the capture notes; the account's note categories in the lower pane are covered.",
       "screen_type": "Bible reader",
       "tags": [
         "Highlight",
@@ -117363,7 +117314,7 @@
       "article_slugs": [
         "highlights-and-notes"
       ],
-      "context": "iOS capture, 25 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 25 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Note categories are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Bible reader",
@@ -117389,7 +117340,7 @@
       "captured": "2026-10-25",
       "version": "8.1.4",
       "screen_name": "Word selection actions",
-      "caption": "\"other\" selected with the action palette: Highlight, Note, Save, Search, Lookup, Define, Copy, Share. Existing note categories (journal, Sermon Notes) show in the lower pane.",
+      "caption": "\"other\" selected with the action palette: Highlight, Note, Save, Search, Lookup, Define, Copy, Share. The marks on \"other\" are research test marks recorded in the capture notes; the account's note categories in the lower pane are covered.",
       "screen_type": "Bible reader",
       "tags": [
         "Highlight",
@@ -117414,7 +117365,7 @@
       "article_slugs": [
         "highlights-and-notes"
       ],
-      "context": "iOS capture, 25 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 25 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Note categories are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Bible reader",
@@ -117433,58 +117384,6 @@
       "url": "/screens/shot-37bd09e2fd287674fc17/"
     },
     {
-      "id": "shot-d2f09d96db8e0718477a",
-      "app_id": "com.olivetree.BR-Free",
-      "organisation_id": "C046",
-      "image": "/assets/app-library/screens/shot-d2f09d96db8e0718477a.webp",
-      "captured": "2026-10-25",
-      "version": "8.1.4",
-      "screen_name": "Labelled style palette",
-      "caption": "Highlight sheet for Mar 4:35 MSG with labelled styles (Christian…, Love, Mystery, Salvation, Holy Spirit, Sin, Afterlife, ???, The glory…, The ways…, Pray the…, Encourag…, Highlighter), Tags and Change Category. Existing note categories (journal, Sermon Notes) show in the lower pane.",
-      "screen_type": "Bible reader",
-      "tags": [
-        "Highlight",
-        "Note",
-        "Study helps"
-      ],
-      "components": [
-        "Bottom sheet",
-        "Unspecified component"
-      ],
-      "component_details": [
-        "Bottom sheet",
-        "Palette"
-      ],
-      "tasks": [
-        "Mark & save"
-      ],
-      "states": [
-        "Expanded"
-      ],
-      "flow_id": null,
-      "flow_order": null,
-      "article_slugs": [
-        "highlights-and-notes"
-      ],
-      "context": "iOS capture, 25 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
-      "text": "",
-      "checked": "2026-10-30",
-      "screen_type_detail": "Bible reader",
-      "task_details": [
-        "Mark and save"
-      ],
-      "state_details": [
-        "Open"
-      ],
-      "tag_details": [
-        "Highlight",
-        "Note",
-        "Study helps"
-      ],
-      "classification_version": 1,
-      "url": "/screens/shot-d2f09d96db8e0718477a/"
-    },
-    {
       "id": "shot-0977bfe0112a51c6823e",
       "app_id": "com.olivetree.BR-Free",
       "organisation_id": "C046",
@@ -117492,7 +117391,7 @@
       "captured": "2026-10-25",
       "version": "8.1.4",
       "screen_name": "One-word underline",
-      "caption": "\"other\" underlined as a one-word test mark. Existing note categories (journal, Sermon Notes) show in the lower pane.",
+      "caption": "\"other\" underlined as a one-word test mark. The marks on \"other\" are research test marks recorded in the capture notes; the account's note categories in the lower pane are covered.",
       "screen_type": "Bible reader",
       "tags": [
         "Highlight",
@@ -117516,7 +117415,7 @@
       "article_slugs": [
         "highlights-and-notes"
       ],
-      "context": "iOS capture, 25 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 25 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Note categories are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Bible reader",
@@ -117542,7 +117441,7 @@
       "captured": "2026-10-25",
       "version": "8.1.4",
       "screen_name": "Style replacement",
-      "caption": "The same word restyled with a red highlight. Existing note categories (journal, Sermon Notes) show in the lower pane.",
+      "caption": "The same word restyled with a red highlight. The marks on \"other\" are research test marks recorded in the capture notes; the account's note categories in the lower pane are covered.",
       "screen_type": "Bible reader",
       "tags": [
         "Highlight",
@@ -117566,7 +117465,7 @@
       "article_slugs": [
         "highlights-and-notes"
       ],
-      "context": "iOS capture, 25 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 25 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Note categories are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Bible reader",
@@ -117592,7 +117491,7 @@
       "captured": "2026-10-25",
       "version": "8.1.4",
       "screen_name": "Partial overlap render",
-      "caption": "\"other side\" with an overlapping green test highlight. Existing note categories (journal, Sermon Notes) show in the lower pane.",
+      "caption": "\"other side\" with an overlapping green test highlight. The marks on \"other\" are research test marks recorded in the capture notes; the account's note categories in the lower pane are covered.",
       "screen_type": "Bible reader",
       "tags": [
         "Highlight",
@@ -117616,7 +117515,7 @@
       "article_slugs": [
         "highlights-and-notes"
       ],
-      "context": "iOS capture, 25 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 25 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Note categories are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Bible reader",
@@ -117642,7 +117541,7 @@
       "captured": "2026-10-25",
       "version": "8.1.4",
       "screen_name": "Anchored test note",
-      "caption": "Note editor for Mar 4:35 MSG: \"Capture test only. Delete after screen capture.\" with Related Tags and formatting bar. Existing note categories (journal, Sermon Notes) show in the lower pane.",
+      "caption": "Note editor for Mar 4:35 MSG with the research test note \"Capture test only. Delete after screen capture.\", Related Tags and formatting bar; the account's note categories behind are covered.",
       "screen_type": "Bible reader",
       "tags": [
         "Highlight",
@@ -117668,7 +117567,7 @@
       "article_slugs": [
         "highlights-and-notes"
       ],
-      "context": "iOS capture, 25 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 25 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Note categories are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Bible reader",
@@ -117694,7 +117593,7 @@
       "captured": "2026-10-25",
       "version": "8.1.4",
       "screen_name": "Save passage form",
-      "caption": "\"Save Passage\" sheet for Mar 4:35 MSG with Tags and Change Category. Existing note categories (journal, Sermon Notes) show in the lower pane.",
+      "caption": "\"Save Passage\" sheet for Mar 4:35 MSG with Tags and Change Category. The marks on \"other\" are research test marks recorded in the capture notes; the account's note categories in the lower pane are covered.",
       "screen_type": "Bible reader",
       "tags": [
         "Highlight",
@@ -117718,7 +117617,7 @@
       "article_slugs": [
         "highlights-and-notes"
       ],
-      "context": "iOS capture, 25 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 25 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Note categories are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Bible reader",
@@ -117744,7 +117643,7 @@
       "captured": "2026-10-25",
       "version": "8.1.4",
       "screen_name": "Combined marks",
-      "caption": "Highlight, underline and note marks combined on Mark 4:35. Existing note categories (journal, Sermon Notes) show in the lower pane.",
+      "caption": "Highlight, underline and note marks combined on Mark 4:35. The marks on \"other\" are research test marks recorded in the capture notes; the account's note categories in the lower pane are covered.",
       "screen_type": "Bible reader",
       "tags": [
         "Highlight",
@@ -117768,7 +117667,7 @@
       "article_slugs": [
         "highlights-and-notes"
       ],
-      "context": "iOS capture, 25 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 25 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Note categories are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Bible reader",
@@ -117794,7 +117693,7 @@
       "captured": "2026-10-25",
       "version": "4.0.0",
       "screen_name": "Existing day list",
-      "caption": "Rhythms plan day list: Day 1 \"The Most Important Question in the World\" and Day 3 \"Is Christianity a Crutch?\" checked, Day 2 and Day 4 open.",
+      "caption": "Rhythms plan day list: Day 1 \"The Most Important Question in the World\" to Day 4 \"How to Plan for Your Future\"; completion marks covered.",
       "screen_type": "Reading plan",
       "tags": [
         "Reading plan",
@@ -117813,7 +117712,7 @@
       "article_slugs": [
         "reading-plans"
       ],
-      "context": "iOS capture, 25 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Checks are earlier account state.",
+      "context": "iOS capture, 25 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Completion marks are covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Reading plan",
@@ -117838,7 +117737,7 @@
       "captured": "2026-10-14",
       "version": null,
       "screen_name": "Home with streak",
-      "caption": "Life Bible Home: flame 1, search \"Search Bible, Topics, or Questions\", Verse / Touchpoint / Devo tabs and My Reading Plans.",
+      "caption": "Life Bible Home: streak counter (covered), search \"Search Bible, Topics, or Questions\", Verse / Touchpoint / Devo tabs and My Reading Plans.",
       "screen_type": "Home",
       "tags": [
         "Progress",
@@ -117864,7 +117763,7 @@
       "article_slugs": [
         "progress-and-streaks"
       ],
-      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "context": "iOS capture, 14 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. The streak count is covered.",
       "text": "",
       "checked": "2026-10-30",
       "screen_type_detail": "Home",
