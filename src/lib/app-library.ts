@@ -1,5 +1,6 @@
 import data from '../data/app-library.json';
 import deepDives from '../../public/api/deep-dives.json';
+import patternAreas from '../data/pattern-areas.json';
 export const library = data;
 export const apps = data.apps;
 export const organisations = data.organisations;
@@ -25,3 +26,7 @@ export const articleNames: Record<string,string> = {
 };
 const deepDiveTitles:Record<string,string>=Object.fromEntries(deepDives.deep_dives.map((d:any)=>[d.slug,d.title]));
 export const articleTitle = (slug:string) => articleNames[slug] || deepDiveTitles[slug] || slug.split('-').map(x=>x[0].toUpperCase()+x.slice(1)).join(' ');
+// Published patterns with their question and navigation area, for screen and app pages.
+const areaOf:Record<string,{id:string,label:string}>=Object.fromEntries(patternAreas.areas.flatMap((a:any)=>a.slugs.map((slug:string)=>[slug,{id:a.id,label:a.label}])));
+const questions:Record<string,string>=Object.fromEntries(deepDives.deep_dives.map((d:any)=>[d.slug,d.question]));
+export const patternInfo = (slug:string) => ({slug, url:'/patterns/'+slug+'/', title:articleTitle(slug), question:questions[slug]||'', area:areaOf[slug]});

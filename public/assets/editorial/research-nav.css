@@ -17,3 +17,75 @@
 
 .research-menu-links a[aria-current]{background:var(--paper-lo)}
 .e-lang-note{font-size:12px;color:var(--e-muted,var(--p-muted));white-space:nowrap}
+
+/* Patterns menu: a link to the overview plus a button that opens every pattern by area. Shared by native and imported pages. */
+.pmenu{display:inline-flex;align-items:center;gap:2px;color:var(--ink)}
+.e-nav .pmenu{--ink:var(--e-ink);--muted:var(--e-muted);--paper-hi:var(--e-paper-hi);--paper-lo:var(--e-paper-lo);--rule:var(--e-rule);--focus:var(--e-focus)}
+.pmenu-link{color:inherit}
+.pmenu-toggle{appearance:none;background:none;border:0;color:inherit;display:inline-flex;align-items:center;justify-content:center;width:28px;height:32px;padding:0;cursor:pointer;border-radius:4px}
+.pmenu-toggle:hover{background:var(--paper-lo)}
+.pmenu-toggle[aria-expanded="true"] svg{transform:rotate(180deg)}
+.pmenu-toggle:focus-visible,.pmenu-area-btn:focus-visible,.pmenu-panel a:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.pmenu-panel{position:fixed;z-index:40;top:var(--pmenu-top,72px);left:50%;transform:translateX(-50%);width:min(1120px,calc(100vw - 32px));max-height:calc(100vh - var(--pmenu-top,72px) - 16px);overflow:auto;
+  background:var(--paper-hi);color:var(--ink);border:1px solid var(--rule);border-radius:6px;box-shadow:0 18px 40px -22px rgba(0,0,0,.4);padding:24px 28px 18px;font-size:14px;line-height:1.4;letter-spacing:0;text-align:left}
+.pmenu-panel[hidden]{display:none}
+.pmenu-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px 28px}
+.pmenu-area{min-width:0}
+.pmenu-area:nth-child(3){grid-row:span 2}
+.pmenu-area-head{margin:0 0 6px;font:inherit}
+.pmenu-area-btn{appearance:none;background:none;border:0;padding:0 0 6px;color:var(--ink);font:600 13px/1.3 var(--sans,var(--e-sans,inherit));letter-spacing:.02em;display:flex;align-items:center;gap:6px;width:100%;text-align:left;border-bottom:1px solid var(--rule);cursor:default}
+.pmenu-area-btn svg{display:none}
+.pmenu-count{color:var(--muted);font-weight:400}
+.pmenu-area ul{list-style:none;margin:0;padding:0;display:grid;gap:1px}
+.pmenu-area ul[hidden]{display:none}
+.nav .pmenu-panel a,:root:root .e-nav .pmenu-panel a{display:block;padding:5px 6px;margin:0 -6px;color:var(--ink);text-decoration:none;border-radius:4px;font-size:14px;line-height:1.35}
+.nav .pmenu-panel a::after,:root:root .e-nav .pmenu-panel a::after{display:none}
+.pmenu-panel a:hover{background:var(--paper-lo)}
+.pmenu-panel a[aria-current="page"]{background:var(--paper-lo);font-weight:600}
+.pmenu-foot{display:flex;flex-wrap:wrap;gap:4px 22px;margin:18px 0 0;padding-top:12px;border-top:1px solid var(--rule)}
+.nav .pmenu-foot a,:root:root .e-nav .pmenu-foot a{color:var(--muted);text-decoration:underline;text-underline-offset:3px;margin:0;padding:4px 0}
+@media(max-width:1100px){.pmenu-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.pmenu-area:nth-child(3){grid-row:auto}}
+@media(max-width:900px){
+  .pmenu{width:100%;flex-wrap:wrap;justify-content:space-between}
+  .pmenu-toggle{width:44px;height:44px}
+  .pmenu-panel{position:static;transform:none;width:100%;max-height:none;overflow:visible;box-shadow:none;border:0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);border-radius:0;background:transparent;padding:6px 0 10px;margin:4px 0 10px}
+  .pmenu-grid{grid-template-columns:minmax(0,1fr);gap:0}
+  .pmenu-area-head{margin:0}
+  .pmenu-area-btn{cursor:pointer;min-height:44px;font-size:16px;padding:0;border-bottom:1px solid var(--rule)}
+  .pmenu-area-btn svg{display:block;margin-left:auto}
+  .pmenu-area-btn[aria-expanded="true"] svg{transform:rotate(180deg)}
+  .pmenu-area ul{padding:4px 0 10px 8px}
+  .nav .pmenu-panel a,:root:root .e-nav .pmenu-panel a{font-size:16px;padding:8px 6px}
+}
+
+/* /patterns/ overview by area */
+.pattern-intro-link{margin-top:14px;color:var(--e-muted,var(--muted))}
+.pattern-intro-link a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+.pattern-areas-jump{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 36px}
+.pattern-areas-jump a{display:inline-flex;gap:6px;align-items:center;padding:7px 12px;border:1px solid var(--e-rule,var(--rule));border-radius:999px;color:var(--e-ink,var(--ink));text-decoration:none;font-size:14px;background:var(--e-paper-hi,var(--paper-hi))}
+.pattern-areas-jump a:hover{border-color:var(--e-rule-strong,var(--rule-strong))}
+.pattern-areas-jump span{color:var(--e-muted,var(--muted));font-variant-numeric:tabular-nums}
+.pattern-area{scroll-margin-top:24px;margin:0 0 48px}
+:root:root .pattern-area h3{font:400 clamp(28px,2.6vw,38px)/1.1 var(--e-serif,var(--serif,Georgia,serif));margin:0 0 6px;color:var(--e-ink,var(--ink))}
+.pattern-area-summary{margin:0 0 18px;color:var(--e-muted,var(--muted));max-width:60ch}
+.pattern-area .deep-grid li,.pattern-area .deep-grid li:nth-child(-n+2){grid-column:span 2}
+.pattern-area .deep-grid li:nth-child(-n+2) .mini-cover{height:210px}
+@media(max-width:1000px){.pattern-area .deep-grid li,.pattern-area .deep-grid li:nth-child(-n+2){grid-column:span 1}}
+
+/* Wayfinding on pattern pages */
+.e-area-list{margin-top:28px}
+:root:root body.ed .e-toc .e-area-list a[aria-current="page"]{color:var(--e-ink);border-left:2px solid var(--e-ink);padding-left:13px;font-weight:600}
+@media(max-width:900px){.e-area-list{display:none}}
+.pattern-pager-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:12px 0}
+:root:root body.ed .pattern-pager-links a{display:grid;gap:4px;padding:16px 18px;border:1px solid var(--e-rule);border-radius:6px;color:var(--e-ink);text-decoration:none;background:var(--e-paper-hi)}
+:root:root body.ed .pattern-pager-links a:hover{border-color:var(--e-rule-strong)}
+.pattern-pager-links a[rel="next"]{grid-column:2;text-align:right}
+.pattern-pager-links span{font-size:13px;color:var(--e-muted)}
+.pattern-pager-links strong{font-weight:600}
+.pattern-pager-all{font-size:14px;color:var(--e-muted)}
+.pattern-pager-all a{color:var(--e-link,inherit)}
+@media(max-width:640px){.pattern-pager-links{grid-template-columns:minmax(0,1fr)}.pattern-pager-links a[rel="next"]{grid-column:auto}}
+
+:root:root body.ed .pattern-pager-links a span,:root:root body.ed .pattern-pager-links a strong{text-decoration:none}
+:root:root body.ed .pattern-pager-links a strong{color:var(--e-ink)}
+:root:root .e-mast .e-nav .pmenu-foot a,:root:root .mast .nav .pmenu-foot a{padding-left:0;padding-right:0}

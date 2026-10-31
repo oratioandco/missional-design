@@ -3,10 +3,12 @@ from pathlib import Path
 import json, re, struct
 from html import escape as html_escape
 from xml.sax.saxutils import escape
+import pattern_nav
 
 ROOT = Path(__file__).resolve().parent.parent
 DIST = ROOT / 'dist'
 urls = []
+pattern_nav.check()
 library = json.loads((ROOT / 'src/data/app-library.json').read_text())
 app_by_id = {a['id']: a for a in library['apps']}
 chat_compare = json.loads((ROOT / 'src/data/ai-chat-comparison.json').read_text())
@@ -95,6 +97,12 @@ for path in sorted(DIST.rglob('index.html')):
         if a and lead_end > 0:
             text = text[:lead_end+4] + '<p class="lib-example-app" data-app-profile-link>Observed in <a href="'+a['url']+'">'+html_escape(a['name'])+'</a>: app profile, research screenshots and design review.</p>' + text[lead_end+4:]
     text = text.replace('href="https://missional.design/reference/" aria-current="page">Patterns<', 'href="https://missional.design/patterns/" aria-current="location">Patterns<').replace('href="https://missional.design/reference/">Patterns<', 'href="https://missional.design/patterns/">Patterns<')
+    # One Patterns menu in every header; the overview by area; wayfinding on each pattern page.
+    text = pattern_nav.add_menu(text, rel)
+    if rel == 'patterns':
+        text = pattern_nav.overview(text)
+    elif rel.startswith('patterns/') and rel.count('/') == 1:
+        text = pattern_nav.wayfinding(text, rel.split('/')[1])
     if rel.startswith('principles/') and rel.count('/') == 1 and 'id="in-real-apps"' not in text:
         marker = '<nav class="block related" aria-label="Other principles">'
         if marker in text:
