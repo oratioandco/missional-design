@@ -112,6 +112,14 @@ class PublicTraceabilityTests(unittest.TestCase):
             (HALLOW, 'care_inclusion'): 'ethical_baseline_observed',
             ('com.bible.holy.bible.for.women', 'care_inclusion'): 'ethical_baseline_observed',
             ('com.bible.holy.bible.for.women', 'attention_agency'): 'concern_evidenced',
+            # Evening captures: giving, ads, rewards and chat probes, 30 October 2026.
+            ('com.prayapp.pray', 'money_access'): 'concern_evidenced',
+            ('tv.lifechurch.bible', 'money_access'): 'mixed',
+            ('com.bibleproject.bibleproject', 'money_access'): 'mixed',
+            ('com.damirakyan.creed', 'attention_agency'): 'concern_evidenced',
+            ('com.basmo.BibleChat', 'money_access'): 'concern_evidenced',
+            ('com.hellobible', 'care_inclusion'): 'ethical_baseline_observed',
+            ('com.hellobible', 'attention_agency'): 'concern_evidenced',
         })
         self.assertEqual(findings[(HALLOW, 'truth_authority')]['evidence'],
                          [{'url': PRAYER}, {'url': BLESSING}])
