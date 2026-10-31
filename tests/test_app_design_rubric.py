@@ -120,6 +120,13 @@ class PublicTraceabilityTests(unittest.TestCase):
             ('com.basmo.BibleChat', 'money_access'): 'concern_evidenced',
             ('com.hellobible', 'care_inclusion'): 'ethical_baseline_observed',
             ('com.hellobible', 'attention_agency'): 'concern_evidenced',
+            # Day captures: session endings, Creed trial and chat, figures, 31 October 2026.
+            ('com.damirakyan.creed', 'truth_authority'): 'concern_evidenced',
+            ('com.damirakyan.creed', 'money_access'): 'mixed',
+            ('com.basmo.BibleChat', 'truth_authority'): 'concern_evidenced',
+            ('com.prayer247.lectio365', 'attention_agency'): 'ethical_baseline_observed',
+            ('en.pray-as-you-go', 'attention_agency'): 'ethical_baseline_observed',
+            ('com.catloafsoft.TextsWithJesus', 'truth_authority'): 'mixed',
         })
         self.assertEqual(findings[(HALLOW, 'truth_authority')]['evidence'],
                          [{'url': PRAYER}, {'url': BLESSING}])
