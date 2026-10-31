@@ -35,7 +35,7 @@
       function setOpen(o) { mast.classList.toggle('menu-open', o); mb.setAttribute('aria-expanded', String(o)); mb.textContent = o ? T.close : T.menu; }
       mb.addEventListener('click', function (e) { e.stopPropagation(); setOpen(!isOpen()); });
       // Close on a link inside the menu, a tap outside it, Escape, or widening past the phone layout.
-      mast.querySelectorAll('.nav a, .nav button').forEach(function (a) { a.addEventListener('click', function () { setOpen(false); }); });
+      mast.querySelectorAll('.nav a, .nav button:not(.pmenu-toggle):not(.pmenu-area-btn)').forEach(function (a) { a.addEventListener('click', function () { setOpen(false); }); });
       document.addEventListener('click', function (e) { if (isOpen() && !mast.contains(e.target)) setOpen(false); });
       document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && isOpen()) { setOpen(false); mb.focus(); } });
       matchMedia('(min-width: 900px)').addEventListener('change', function (m) { if (m.matches) setOpen(false); });

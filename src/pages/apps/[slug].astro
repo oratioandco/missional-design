@@ -8,7 +8,7 @@ import AppStoreGallery from '../../components/library/AppStoreGallery.astro';
 import AppCaptureGallery from '../../components/library/AppCaptureGallery.astro';
 import AppCommercialFacts from '../../components/library/AppCommercialFacts.astro';
 import Layout from '../../layouts/LibraryLayout.astro';
-import {apps,screensFor,organisationFor,flows,dateLabel,articleTitle} from '../../lib/app-library';
+import {apps,screensFor,organisationFor,flows,dateLabel,articleTitle,patternInfo} from '../../lib/app-library';
 export function getStaticPaths(){return apps.map(app=>({params:{slug:app.slug},props:{app}}));}
 const {app:a}=Astro.props;const org=organisationFor(a.organisation_id);const shots=screensFor(a.id);const sequences=flows.filter(f=>f.app_id===a.id);const articles=[...new Set(shots.flatMap(s=>s.article_slugs))];
 const previewShots=[];const previewTypes=new Set();for(const shot of shots){if(!previewTypes.has(shot.screen_type)){previewShots.push(shot);previewTypes.add(shot.screen_type);}if(previewShots.length===3)break;}
@@ -37,6 +37,7 @@ const previewShots=[];const previewTypes=new Set();for(const shot of shots){if(!
  <AppAssessment app={a} part="reviews"/>
  <AppStoreGallery app={a} collapsible/>
  <AppAssessment app={a} part="notes"/>
+ {articles.length>0&&<section class="lib-section" id="related-patterns"><h2>Patterns seen in this app</h2><p class="lib-note">Design decisions that this app's reviewed screens show. Each link opens the options and research; the count is the number of screens.</p><ul class="lib-link-list">{articles.map(slug=>({...patternInfo(slug),n:shots.filter(x=>x.article_slugs.includes(slug)).length})).sort((a,b)=>b.n-a.n).map(p=><li><a href={p.url}>{p.title}</a> <span class="lib-pattern-count">{p.n} {p.n===1?'screen':'screens'}</span>{p.question&&<p>{p.question}{p.area&&<> · <a class="lib-pattern-area" href={'/patterns/#area-'+p.area.id}>{p.area.label}</a></>}</p>}</li>)}</ul></section>}
  <section class="lib-section lib-use-example"><h2>Use this in your own work</h2><p>Start with the observed choice, then ask how your own implementation serves people. The evidence is a design example, rather than an app-wide recommendation.</p><div class="lib-use-links"><a href="#principle-checklist">Work through the principle questions</a>{articles.length>0&&<a href={'/patterns/'+articles[0]+'/'}>Explore a related design decision</a>}<a href="/feedback/">Suggest a correction or add context</a></div>{articles.length>0&&<section id="related-patterns"><h3>Design questions this app illustrates</h3><ul class="lib-pattern-list">{articles.map(x=><li><a href={'/patterns/'+x+'/'}>{articleTitle(x)}</a></li>)}</ul></section>}</section>
  </article>
 </Layout>

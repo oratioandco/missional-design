@@ -1,0 +1,57 @@
+{
+  "note": "Navigation areas for the published patterns (deep dives). Every published slug belongs to exactly one area; order within an area is the reading order used for previous/next. 'planned' lists drafts that are not published and are never shown.",
+  "areas": [
+    {
+      "id": "reading",
+      "label": "Reading the Bible",
+      "summary": "How much text to show, which translation, how to find a passage and what surrounds it.",
+      "slugs": ["how-much-text", "numbers-headings-and-notes", "translations", "finding-a-passage", "highlights-and-notes", "study-helps", "reading-plans", "verse-feed", "bible-audio"]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer and practice",
+      "summary": "Making room for prayer, guided audio and honest check-ins.",
+      "slugs": ["prayer", "devotional-audio", "check-ins-and-assessments"]
+    },
+    {
+      "id": "ai",
+      "label": "Talking with AI",
+      "summary": "Who the assistant is, what it says and keeps, and when it hands over to people.",
+      "slugs": ["ai-persona", "speaking-as", "chat-scope", "ai-memory", "ai-citations", "agreeing-and-pushing-back", "whose-theology", "ai-answer-actions", "ending-the-conversation", "ai-uncertainty", "ai-spiritual-acts", "handing-over", "assistant-writes-first"]
+    },
+    {
+      "id": "together",
+      "label": "Together",
+      "summary": "Sharing prayer requests and reading Scripture with other people.",
+      "slugs": ["sharing-with-a-group", "reading-together"]
+    },
+    {
+      "id": "habits",
+      "label": "Habits and attention",
+      "summary": "Streaks, reminders and meeting each person where they are.",
+      "slugs": ["progress-and-streaks", "notifications", "meeting-the-person"]
+    },
+    {
+      "id": "money",
+      "label": "Money, data and trust",
+      "summary": "What an app asks for before someone arrives, and how it asks for gifts.",
+      "slugs": ["first-use", "giving"]
+    },
+    {
+      "id": "children",
+      "label": "Children",
+      "summary": "Children meeting Scripture and AI, and the adults with them.",
+      "slugs": ["children-and-families", "children-and-ai"]
+    }
+  ],
+  "planned": {
+    "when-a-session-ends": "prayer",
+    "figures-and-avatars": "ai",
+    "prayer-walls": "together",
+    "rewards-and-companions": "habits",
+    "personalisation": "habits",
+    "paying-for-access": "money",
+    "advertising": "money",
+    "permissions-and-consent": "money"
+  }
+}

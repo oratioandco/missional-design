@@ -53,3 +53,4 @@
 .lib-principle-obs{list-style:none;padding:0;margin:18px 0}.lib-principle-obs li{padding:14px 0;border-top:1px solid var(--rule,var(--e-rule))}.lib-principle-obs p{font-size:14px;margin:6px 0 0;opacity:.8}
 .lib-filter-label{font-size:13px;font-weight:600;margin:16px 0 0}
 .lib-pattern-compare{font-size:16px;margin:0 0 18px}
+.lib-pattern-count{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}.lib-pattern-area{color:inherit}
