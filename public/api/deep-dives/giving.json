@@ -31,7 +31,7 @@
    "key": "quiet",
    "name": "A quiet way to give",
    "provenance": "Observed",
-   "origin": "Observed in YouVersion, captured 11 October 2026: Give from the profile, an amount that starts at zero, a regular gift switched off, and a choice between YouVersion and Bible translation; see the screenshots below. The ministry, funds and wording here are written for this example.",
+   "origin": "Observed in YouVersion, captured 11 October 2026: Give from the profile, an amount that starts at zero, a regular gift switched off, and a choice between YouVersion and Bible translation; see the screenshots below. The ministry, funds and wording here are written for this example. This is the donation ask redeemed: easy to find, never in the way.",
    "gain": "There when wanted",
    "cost": "Easy to miss",
    "makes_easier": "Easy to find when someone wants it, and silent otherwise.",
@@ -79,7 +79,7 @@
    "key": "benefit",
    "name": "A gift tied to a benefit",
    "provenance": "Observed",
-   "origin": "Observed in Pray.com’s “Support & Go Ad Free”, where a ministry donation brings “an Ad Free Subscription”, and Glorify’s “Pay it Forward” tiers with “Most popular” ticked; see the screenshots below. Apple treats a gift tied to content as a purchase. The tiers here are written for this example.",
+   "origin": "Observed in PRAY.COM’s “Support & Go Ad Free”, where a ministry donation brings “an Ad Free Subscription”, and Glorify’s “Pay it Forward” tiers with “Most popular” ticked; see the screenshots below. Apple treats a gift tied to content as a purchase. The tiers here are written for this example.",
    "gain": "Supports others too",
    "cost": "A price dressed as a gift",
    "makes_easier": "People who would pay anyway support others too.",
@@ -115,7 +115,7 @@
   },
   {
    "heading": "Keep gifts and purchases apart",
-   "text": "Pray.com’s “Support & Go Ad Free” gives donors “an Ad Free Subscription”, and Glorify’s “Pay it Forward” ticks “Most popular” in advance. If a payment unlocks something, call it a price; if it is a gift, let it unlock nothing."
+   "text": "PRAY.COM’s “Support & Go Ad Free” gives donors “an Ad Free Subscription”, and Glorify’s “Pay it Forward” ticks “Most popular” in advance. If a payment unlocks something, call it a price; if it is a gift, let it unlock nothing."
   },
   {
    "heading": "Stopping is as easy as starting",
@@ -310,6 +310,86 @@
      ]
     }
    ]
+  },
+  {
+   "group": "The techniques",
+   "subtitle": "Why they work, where they cross a line, what they could become",
+   "findings": [
+    {
+     "heading": "Defaults and preselection",
+     "text": "A preselected amount or a monthly switch already on changes what people give, as the research on default amounts above shows; that is why fundraising screens use them. They cross a line when the choice made for the giver is the one that suits the app, and the giver has to undo it. Redeemed, the amount starts empty and a one-off gift is the default.",
+     "sources": [
+      "goswami-defaults",
+      "brignull-deceptive"
+     ]
+    },
+    {
+     "heading": "Recognition and badges",
+     "text": "Being seen raises gifts, so apps turn giving into badges, levels and lists. It crosses a line when a gift becomes a status to display. Redeemed, recognition is private: a thank-you and a receipt, in keeping with giving in secret.",
+     "sources": []
+    },
+    {
+     "heading": "A gift tied to a benefit",
+     "text": "Calling a purchase a gift works because people like both to give and to get. It crosses a line when the person cannot tell whether they bought access or gave money away. Redeemed, a purchase is called a purchase and a gift unlocks nothing. A planned pattern on paying for access treats this in full.",
+     "sources": [
+      "eyal-hooked"
+     ]
+    },
+    {
+     "heading": "The deciding questions",
+     "text": "Transparency: is it clear whether money buys access or is given, and what reaches whom? Freedom: is anything chosen for the giver, and is stopping as easy as starting? Context: does an ask appear after a prayer request or in grief?",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Observed, October 2026",
+   "subtitle": "How faith apps asked in our captures",
+   "findings": [
+    {
+     "heading": "A badge for a recurring gift",
+     "text": "YouVersion’s give screen starts at $0 with its recurring switch off. A separate Sower badge page asks people to “Give a Recurring Gift”, so a monthly gift shows as an achievement.",
+     "sources": []
+    },
+    {
+     "heading": "Monthly and $50 already chosen",
+     "text": "BibleProject’s support sheet unlocks nothing and says so, and opens with Monthly and $50 preselected.",
+     "sources": []
+    },
+    {
+     "heading": "A gift that is a subscription",
+     "text": "PRAY.COM’s full-screen “Support & Go Ad Free” names a ministry and tells donors “As a gift to you, you get an Ad Free Subscription to Pray Premium”; a custom amount has a minimum of $50. A later version said “We’ll direct a portion” to a named ministry without saying how much.",
+     "sources": []
+    },
+    {
+     "heading": "Giving kept to a menu",
+     "text": "Lectio 365 offers Donate beside Share in its More menu, not during prayer. Bible.is, though donor-funded, has no donation item in its account menu at all.",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Options no faith app ships yet",
+   "subtitle": "Not in the working example: proposals to test",
+   "findings": [
+    {
+     "heading": "An open cost ledger",
+     "text": "Borrowed from Open Collective, where a community’s income and expenses are visible to everyone: the giving page shows what the app costs this year, what has been given and when it is enough.",
+     "sources": [
+      "opencollective"
+     ]
+    },
+    {
+     "heading": "An ask that waits to be invited",
+     "text": "Exploratory. No giving prompt appears until the person opens the giving page themselves, or picks a month in which they would like to be asked.",
+     "sources": []
+    },
+    {
+     "heading": "Gifts that give access to others",
+     "text": "Close to something observed: Creed’s settings offer a Prayer Pool to sponsor the app for someone who cannot afford it. A ministry app could let gifts pay for free access for anyone, with nobody asked to explain why they need it.",
+     "sources": []
+    }
+   ]
   }
  ],
  "which_fits": [
@@ -334,7 +414,27 @@
    "start_with": "Don’t: let people give what they decided in their heart"
   }
  ],
- "pulls_against": [],
+ "pulls_against": [
+  {
+   "id": "sustainability-and-welcome",
+   "title": "Paying for the work, and welcoming people first",
+   "options_here": [
+    "A gift tied to a benefit",
+    "A quiet way to give"
+   ],
+   "with": {
+    "slug": "first-use",
+    "title": "First use",
+    "url": "https://missional.design/patterns/first-use/",
+    "options": [
+     "Asking for payment",
+     "Open on what they came for"
+    ]
+   },
+   "pull": "An app needs money, and the strongest moment to ask is before someone has received anything.",
+   "hold": "Say plainly what stays free, let people reach what they came for first, then ask once, after value, and call a purchase a purchase and a gift a gift."
+  }
+ ],
  "reflection": [
   {
    "heading": "What giving is for",
@@ -643,6 +743,46 @@
    "shows": "“Tag und Nacht erreichbar 0800 1110111 / 0800 1110222 oder 116 123”, by phone, chat or email.",
    "application": "A first screen can carry a way to a person, day and night, free of charge.",
    "limits": "Germany; other countries have their own services."
+  },
+  {
+   "key": "opencollective",
+   "title": "How Open Collective works",
+   "url": "https://opencollective.com/how-it-works",
+   "author": "Open Collective",
+   "kind": "Practice",
+   "shows": "Communities raise and spend money with full transparency: income and expenses are visible to everyone.",
+   "application": "An example of showing what a project costs and where gifts go.",
+   "limits": "A platform description, not an evaluation."
+  },
+  {
+   "key": "brignull-deceptive",
+   "title": "Deceptive patterns: types",
+   "url": "https://www.deceptive.design/types",
+   "author": "Harry Brignull · deceptive.design",
+   "kind": "Design reference",
+   "shows": "A catalogue of deceptive design patterns such as preselection, confirmshaming, forced action, nagging and hard-to-cancel subscriptions, with examples and the laws that apply.",
+   "application": "Gives teams shared names for techniques that cross the line from persuasion to deception.",
+   "limits": "A curated catalogue; inclusion is the author’s judgment."
+  },
+  {
+   "key": "dsa-art25",
+   "title": "Regulation (EU) 2022/2065 (Digital Services Act), Article 25",
+   "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+   "author": "European Union",
+   "kind": "Law",
+   "shows": "Online platforms may not design, organise or operate their interfaces in a way that deceives or manipulates users or otherwise materially distorts or impairs their ability to make free and informed decisions.",
+   "application": "Sets a legal baseline in the EU for interface design that steers people.",
+   "limits": "Applies to online platforms under the DSA; not every app is in scope."
+  },
+  {
+   "key": "eyal-hooked",
+   "title": "Hooked: How to Build Habit-Forming Products",
+   "url": "https://www.penguinrandomhouse.com/books/319106/hooked-by-nir-eyal/",
+   "author": "Nir Eyal · Portfolio/Penguin, 2014",
+   "kind": "Design reference",
+   "shows": "Describes a four-step habit loop (trigger, action, variable reward, investment) and, in its chapter on ethics, a Manipulation Matrix that asks whether the maker would use the product and whether it materially improves users’ lives.",
+   "application": "Names the techniques product teams use, and an ethics test from inside the industry.",
+   "limits": "A practitioner book; the matrix is the author’s own test, not research."
   }
  ],
  "review": {

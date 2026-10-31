@@ -43,7 +43,7 @@
    "key": "guest",
    "name": "Guest first, an account when there is something to keep",
    "provenance": "Observed",
-   "origin": "Observed in Startblock (“Ohne Anmeldung fortfahren”, continue without signing in), Bible.is (“Create account later”) and Joseph Prince, where a guest can read and copy but is asked to sign up “to begin highlighting”; see the screenshots below. Apple’s review guidelines ask apps without significant account-based features to “let people use it without a login”. The wording here is written for this example.",
+   "origin": "Observed in Startblock (“Ohne Anmeldung fortfahren”, continue without signing in), Bible.is (“Create account later”) and Joseph Prince, where a guest can read and copy but is asked to sign up “to begin highlighting”; see the screenshots below. Apple’s review guidelines ask apps without significant account-based features to “let people use it without a login”. The wording here is written for this example. This is the account wall redeemed: people receive before they are asked to give.",
    "gain": "Use first, decide later",
    "cost": "The later ask can feel like a wall",
    "makes_easier": "People use the app first and decide later whether to stay.",
@@ -79,7 +79,7 @@
    "key": "pay",
    "name": "Asking for payment",
    "provenance": "Observed",
-   "origin": "Observed in Bible BFF, which asks people to rate the app before using it and then offers a weekly plan; Spark Bible, which asks for notifications before the first verse and later says “You just used your last free study”; Abide, whose trial screen gives the reminder day and charge date; and Pray.com, which asks for a mobile number at sign-up; see the screenshots below. The second setting, asking after a first use and saying what things cost, is a proposal; its costs are our estimate from published AI prices.",
+   "origin": "Observed in Bible BFF, which asks people to rate the app before using it and then offers a weekly plan; Spark Bible, which asks for notifications before the first verse and later says “You just used your last free study”; Abide, whose trial screen gives the reminder day and charge date; and PRAY.COM, which asks for a mobile number at sign-up; see the screenshots below. The second setting, asking after a first use and saying what things cost, is a proposal; its costs are our estimate from published AI prices.",
    "gain": "Pays for the work",
    "cost": "Up front, it asks before giving",
    "makes_easier": "Asked after a first use, honestly, it keeps the work going.",
@@ -289,6 +289,80 @@
      ]
     }
    ]
+  },
+  {
+   "group": "The techniques",
+   "subtitle": "Why they work, where they cross a line, what they could become",
+   "findings": [
+    {
+     "heading": "Questions as a commitment",
+     "text": "Onboarding questions work twice: the answers can make a first suggestion fit, and people who have answered a few are likelier to continue, the consistency Robert Cialdini describes. They cross a line when the answers mainly build a profile for a paywall that follows. Redeemed, every question changes the content and can be skipped, and any price is shown before the questions, not after.",
+     "sources": [
+      "cialdini-consistency"
+     ]
+    },
+    {
+     "heading": "A wall before the welcome",
+     "text": "Account walls, tracking prompts and rating requests at launch raise sign-ups and data, which is why growth teams place them early. They cross a line when someone has to give before they receive, and regulators now name forced action and nagging as deceptive design. Redeemed as guest first: use the app, then be asked for an account when there is something to keep.",
+     "sources": [
+      "brignull-deceptive",
+      "dsa-art25",
+      "ftc-dark-patterns"
+     ]
+    },
+    {
+     "heading": "The deciding questions",
+     "text": "Freedom: can someone skip, say no or leave as easily as they say yes? Transparency: do they know what each answer and each permission is for? Context: what does someone in a hard night meet first?",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Observed, October 2026",
+   "subtitle": "What faith apps asked first in our captures",
+   "findings": [
+    {
+     "heading": "A profile, then a personalised trial",
+     "text": "Duomo’s setup questions produce a Faith Growth Profile with a Scripture Confidence gauge, then a trial screen built from the answers that reads “Due today $0.00, 3 days free, $9.99 due Oct 28, 2026”.",
+     "sources": []
+    },
+    {
+     "heading": "Tracking and an account before any content",
+     "text": "On a fresh install, Glorify showed the iOS tracking prompt as soon as Join was tapped, then an account wall whose single switch combined age, terms and “religious related personal data”.",
+     "sources": []
+    },
+    {
+     "heading": "Three asks before a first use",
+     "text": "One launch of Creed showed a sign-in sheet, a streak celebration and “Are you enjoying Creed?” before anything else.",
+     "sources": []
+    },
+    {
+     "heading": "A trial switched on, and a reminder switched on",
+     "text": "Orthodox Bible’s offer has its Free Trial Enabled switch already on. Manna also preselects a trial, but its “Remind me when free trial ends” switch is on by default, a default that protects the person.",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Options no faith app ships yet",
+   "subtitle": "Not in the working example: proposals to test",
+   "findings": [
+    {
+     "heading": "A reading room with no account",
+     "text": "Borrowed from public libraries, where anyone can read in the reading room and a card is needed only to take something home: everything that can be read, heard or asked works without an account, and the first screen says so.",
+     "sources": []
+    },
+    {
+     "heading": "The price before the questions",
+     "text": "Exploratory. If an app will ask for payment, its first screen says so and shows the price, before any questions, so nobody invests answers in a funnel they did not know about.",
+     "sources": []
+    },
+    {
+     "heading": "Answers you can see and delete",
+     "text": "Exploratory. After onboarding questions, the app shows what each answer changed and offers to forget them, before any offer appears.",
+     "sources": []
+    }
+   ]
   }
  ],
  "which_fits": [
@@ -314,6 +388,61 @@
   }
  ],
  "pulls_against": [
+  {
+   "id": "sustainability-and-welcome",
+   "title": "Paying for the work, and welcoming people first",
+   "options_here": [
+    "Asking for payment",
+    "Open on what they came for"
+   ],
+   "with": {
+    "slug": "giving",
+    "title": "Giving and offerings",
+    "url": "https://missional.design/patterns/giving/",
+    "options": [
+     "A gift tied to a benefit",
+     "A quiet way to give"
+    ]
+   },
+   "pull": "An app needs money, and the strongest moment to ask is before someone has received anything.",
+   "hold": "Say plainly what stays free, let people reach what they came for first, then ask once, after value, and call a purchase a purchase and a gift a gift."
+  },
+  {
+   "id": "protective-default-and-conversion",
+   "title": "Protective defaults, and opt-in rates",
+   "options_here": [
+    "Guest first, an account when there is something to keep",
+    "Questions first"
+   ],
+   "with": {
+    "slug": "notifications",
+    "title": "Notifications and reminders",
+    "url": "https://missional.design/patterns/notifications/",
+    "options": [
+     "Their own bell",
+     "Engagement-driven"
+    ]
+   },
+   "pull": "Defaults decide most outcomes, and the defaults that protect people cost sign-ups and opt-ins.",
+   "hold": "Default to the less invasive setting, and ask at the moment a feature needs it, with a reason the person can weigh."
+  },
+  {
+   "id": "fit-and-commitment",
+   "title": "Questions that improve fit, and answers that become a commitment",
+   "options_here": [
+    "Questions first"
+   ],
+   "with": {
+    "slug": "meeting-the-person",
+    "title": "Meeting the person where they are",
+    "url": "https://missional.design/patterns/meeting-the-person/",
+    "options": [
+     "Preferences you set"
+    ]
+   },
+   "pull": "Questions at the start help an app fit the person, and the same answers can become a commitment that leads into a paywall.",
+   "hold": "Ask only what changes the content, show what each answer changed, let it be skipped or forgotten, and never let answers set a price."
+  },
   {
    "id": "naming-and-welcome",
    "title": "Saying whose teaching it is, and welcoming the sceptic",
@@ -746,6 +875,56 @@
    "shows": "“Tag und Nacht erreichbar 0800 1110111 / 0800 1110222 oder 116 123”, by phone, chat or email.",
    "application": "A first screen can carry a way to a person, day and night, free of charge.",
    "limits": "Germany; other countries have their own services."
+  },
+  {
+   "key": "cialdini-consistency",
+   "title": "The 7 principles of persuasion: consistency",
+   "url": "https://www.influenceatwork.com/7-principles-of-persuasion/",
+   "author": "Robert Cialdini · Influence at Work",
+   "kind": "Research",
+   "shows": "People like to be consistent with the things they have previously said or done; consistency is activated by asking for small initial commitments.",
+   "application": "Explains why answering onboarding questions makes people likelier to continue into what follows.",
+   "limits": "A practitioner summary of the author’s research."
+  },
+  {
+   "key": "fogg-bmap",
+   "title": "Fogg Behavior Model",
+   "url": "https://behaviormodel.org/",
+   "author": "BJ Fogg · Behavior Design Lab, Stanford",
+   "kind": "Design reference",
+   "shows": "Behaviour happens when motivation, ability and a prompt come together at the same time (B=MAP); when it does not happen, one of the three is missing.",
+   "application": "Explains why a well-timed prompt works, and which part of a design is doing the work.",
+   "limits": "A design model from industry practice, not a measure of benefit to the person."
+  },
+  {
+   "key": "brignull-deceptive",
+   "title": "Deceptive patterns: types",
+   "url": "https://www.deceptive.design/types",
+   "author": "Harry Brignull · deceptive.design",
+   "kind": "Design reference",
+   "shows": "A catalogue of deceptive design patterns such as preselection, confirmshaming, forced action, nagging and hard-to-cancel subscriptions, with examples and the laws that apply.",
+   "application": "Gives teams shared names for techniques that cross the line from persuasion to deception.",
+   "limits": "A curated catalogue; inclusion is the author’s judgment."
+  },
+  {
+   "key": "dsa-art25",
+   "title": "Regulation (EU) 2022/2065 (Digital Services Act), Article 25",
+   "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+   "author": "European Union",
+   "kind": "Law",
+   "shows": "Online platforms may not design, organise or operate their interfaces in a way that deceives or manipulates users or otherwise materially distorts or impairs their ability to make free and informed decisions.",
+   "application": "Sets a legal baseline in the EU for interface design that steers people.",
+   "limits": "Applies to online platforms under the DSA; not every app is in scope."
+  },
+  {
+   "key": "ftc-dark-patterns",
+   "title": "FTC report summary: dark patterns that trick and trap consumers",
+   "url": "https://www.ftc.gov/news-events/news/press-releases/2022/09/ftc-report-shows-rise-sophisticated-dark-patterns-designed-trick-trap-consumers",
+   "author": "US Federal Trade Commission · 2022",
+   "kind": "Regulator guidance",
+   "shows": "Describes obscured terms, obstructive cancellation and manipulative data choices.",
+   "application": "Review purchase, cancellation and analytics consent flows.",
+   "limits": "Historical report summary, not a claim about the current validity of later subscription rules."
   }
  ],
  "review": {
