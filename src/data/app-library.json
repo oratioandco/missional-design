@@ -118495,6 +118495,4857 @@
       ],
       "classification_version": 1,
       "url": "/screens/shot-93b6b41770e35f1f65cb/"
+    },
+    {
+      "id": "shot-6f813e738aec03a0dfdd",
+      "app_id": "com.soultime.app",
+      "organisation_id": "C080",
+      "image": "/assets/app-library/screens/shot-6f813e738aec03a0dfdd.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Evening home with daily meditation",
+      "caption": "The home screen greets the listener by first name and leads with two daily items: a new Daily Meditation (\"Oct 30 - Weary 2\") and Daily Bible (Psalm 117). Below sit \"Learn About Yourself\" cards (Your Stats, Personality Test) and Tailored Meditations.",
+      "screen_type": "Home",
+      "tags": [
+        "Devotionals",
+        "Personalisation",
+        "Audio playback"
+      ],
+      "components": [
+        "Text content",
+        "Card",
+        "Button",
+        "Tab bar"
+      ],
+      "component_details": [
+        "Greeting",
+        "Content card",
+        "Play button",
+        "Tab bar"
+      ],
+      "tasks": [
+        "Pray & reflect"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "devotional-audio",
+        "meeting-the-person"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Home",
+      "task_details": [
+        "Find meditation",
+        "Follow a devotion"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Daily devotion",
+        "Personalisation",
+        "Audio playback"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-6f813e738aec03a0dfdd/"
+    },
+    {
+      "id": "shot-10faf122a8dff0cc090a",
+      "app_id": "com.soultime.app",
+      "organisation_id": "C080",
+      "image": "/assets/app-library/screens/shot-10faf122a8dff0cc090a.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Meditation player with named narrator and author",
+      "caption": "The player for \"Weary 2 — God can turn everything into good\" (Day 1, 4:35) credits a named person as both Narrator and Author above the controls. Naming who wrote and voices the meditation tells the listener whose words they are hearing. Near the end of this track the author says \"Before you go, I'd love to pray for you\" and prays for \"us\", not for the listener by name.",
+      "screen_type": "Audio player",
+      "tags": [
+        "Audio playback",
+        "Devotionals",
+        "Prayer"
+      ],
+      "components": [
+        "Citation",
+        "Button",
+        "Slider"
+      ],
+      "component_details": [
+        "Credits",
+        "Play button",
+        "Download button",
+        "Favourite button",
+        "Volume slider"
+      ],
+      "tasks": [
+        "Listen & watch",
+        "Pray & reflect"
+      ],
+      "states": [
+        "Playing"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "devotional-audio",
+        "ai-spiritual-acts",
+        "speaking-as"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. The closing prayer is quoted from the audio heard in the same session (Mac microphone transcript), not from on-screen text.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Audio player",
+      "task_details": [
+        "Listen",
+        "Follow a devotion"
+      ],
+      "state_details": [
+        "Playing"
+      ],
+      "tag_details": [
+        "Audio playback",
+        "Daily devotion",
+        "Prayer"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-10faf122a8dff0cc090a/"
+    },
+    {
+      "id": "shot-5470d5c3094c5dc06981",
+      "app_id": "com.soultime.app",
+      "organisation_id": "C080",
+      "image": "/assets/app-library/screens/shot-5470d5c3094c5dc06981.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Session end with stats and rating",
+      "caption": "When the 4:35 meditation ends, playback stops and a \"Good job\" screen congratulates the listener by name, shows total time meditated and total sessions, and asks for a 1–5 star rating of the session, with Back Home and Share. Nothing plays next.",
+      "screen_type": "Progress",
+      "tags": [
+        "Progress"
+      ],
+      "components": [
+        "Unspecified component",
+        "Rating control",
+        "Button"
+      ],
+      "component_details": [
+        "Completion message",
+        "Statistics",
+        "Star rating",
+        "Primary button",
+        "Share button"
+      ],
+      "tasks": [
+        "Keep a routine"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "devotional-audio",
+        "progress-and-streaks",
+        "ending-the-conversation"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Progress",
+      "task_details": [
+        "Review progress",
+        "Give feedback"
+      ],
+      "state_details": [
+        "Completion message"
+      ],
+      "tag_details": [
+        "Completion",
+        "Progress",
+        "Feedback"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-5470d5c3094c5dc06981/"
+    },
+    {
+      "id": "shot-90967255959de80359a5",
+      "app_id": "com.soultime.app",
+      "organisation_id": "C080",
+      "image": "/assets/app-library/screens/shot-90967255959de80359a5.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Subscription menu error",
+      "caption": "Opening Subscription from the More menu shows a system alert with the raw message \"emptyResult\" and an OK button over the menu (Profile, Subscription, Soultime with Friends, Reminder Times, Journal, Personality Test and more). The same error appeared on an earlier day, so the subscription status could not be checked in the app.",
+      "screen_type": "Other",
+      "tags": [
+        "Upsell",
+        "Account"
+      ],
+      "components": [
+        "Dialog",
+        "Unspecified component",
+        "Tab bar"
+      ],
+      "component_details": [
+        "Alert",
+        "Menu list",
+        "Tab bar"
+      ],
+      "tasks": [
+        "Manage access & payments"
+      ],
+      "states": [
+        "Error"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Error",
+      "task_details": [
+        "Manage subscription"
+      ],
+      "state_details": [
+        "Error"
+      ],
+      "tag_details": [
+        "Subscription",
+        "Account"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-90967255959de80359a5/"
+    },
+    {
+      "id": "shot-b71ac2ed0db90abee0ea",
+      "app_id": "com.prayapp.pray",
+      "organisation_id": "C070",
+      "image": "/assets/app-library/screens/shot-b71ac2ed0db90abee0ea.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Launch paywall framed as a ministry gift",
+      "caption": "On a cold open, a full-screen \"Support & Go Ad Free\" screen names a ministry (Dr. Michael Youssef Ministries) and says that by supporting it \"you give to a ministry to spread the love of Jesus. As a gift to you, you get an Ad Free Subscription to Pray Premium.\" The preselected Yearly \"Super supporter\" option is $99.99/yr for \"1 Ads Free Subscription\", with \"Choose your amount\" and a \"Send as a Gift\" toggle. The gift and the subscription are one purchase.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell",
+        "Donation"
+      ],
+      "components": [
+        "Unspecified component",
+        "Selector",
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Full-screen paywall",
+        "Plan selector",
+        "Close button",
+        "Primary button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Manage access & payments"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "giving",
+        "first-use"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Paywall",
+      "task_details": [
+        "Subscribe or give",
+        "Compare access options"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Payment framing",
+        "Donation",
+        "Subscription"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-b71ac2ed0db90abee0ea/"
+    },
+    {
+      "id": "shot-104d87b3be3f17c6f6b5",
+      "app_id": "com.prayapp.pray",
+      "organisation_id": "C070",
+      "image": "/assets/app-library/screens/shot-104d87b3be3f17c6f6b5.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Ministry paywall description expanded",
+      "caption": "With SHOW MORE expanded, the description ends \"Go Ad Free and support a good cause today!\" The Yearly tab is still selected at $99.99/yr for \"1 Ads Free Subscription\".",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell",
+        "Donation"
+      ],
+      "components": [
+        "Unspecified component",
+        "Selector",
+        "Button"
+      ],
+      "component_details": [
+        "Full-screen paywall",
+        "Show more",
+        "Plan selector",
+        "Primary button"
+      ],
+      "tasks": [
+        "Manage access & payments"
+      ],
+      "states": [
+        "Expanded"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "giving"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Paywall",
+      "task_details": [
+        "Subscribe or give"
+      ],
+      "state_details": [
+        "Open"
+      ],
+      "tag_details": [
+        "Payment framing",
+        "Donation",
+        "Subscription"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-104d87b3be3f17c6f6b5/"
+    },
+    {
+      "id": "shot-5430faf8c10cd5e4672a",
+      "app_id": "com.prayapp.pray",
+      "organisation_id": "C070",
+      "image": "/assets/app-library/screens/shot-5430faf8c10cd5e4672a.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Custom amount with $50 minimum",
+      "caption": "\"Choose your amount\" opens a Custom Amount keypad starting at $0 with the note \"Minimum amount is $50\"; Continue stays disabled until the minimum is reached.",
+      "screen_type": "Giving",
+      "tags": [
+        "Donation",
+        "Upsell"
+      ],
+      "components": [
+        "Unspecified component",
+        "Button"
+      ],
+      "component_details": [
+        "Amount keypad",
+        "Primary button",
+        "Back button"
+      ],
+      "tasks": [
+        "Manage access & payments"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "giving"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Giving",
+      "task_details": [
+        "Subscribe or give"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Donation",
+        "Payment framing"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-5430faf8c10cd5e4672a/"
+    },
+    {
+      "id": "shot-50138114b27d11eda4ed",
+      "app_id": "com.prayapp.pray",
+      "organisation_id": "C070",
+      "image": "/assets/app-library/screens/shot-50138114b27d11eda4ed.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Monthly supporter tier",
+      "caption": "On the MONTHLY tab the same \"Super supporter\" option, marked Most Popular, costs $19.99/mo for \"1 Ads Free Subscription\" — about 2.4 times the yearly price over twelve months.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell",
+        "Donation"
+      ],
+      "components": [
+        "Selector",
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Plan selector",
+        "Primary button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Manage access & payments"
+      ],
+      "states": [
+        "Selected"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "giving"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Paywall",
+      "task_details": [
+        "Compare access options"
+      ],
+      "state_details": [
+        "Selected"
+      ],
+      "tag_details": [
+        "Payment framing",
+        "Subscription",
+        "Donation"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-50138114b27d11eda4ed/"
+    },
+    {
+      "id": "shot-c0204ad34b6214ec46de",
+      "app_id": "com.prayapp.pray",
+      "organisation_id": "C070",
+      "image": "/assets/app-library/screens/shot-c0204ad34b6214ec46de.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Family supporter tier",
+      "caption": "The FAMILY tab offers Family Plan Monthly at $39.99/mo or Family Plan Yearly at $299.99/yr (\"Save 37%\"), each \"Ad-free for up to 6 family members\", under the same ministry-support heading.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Selector",
+        "Button",
+        "Toggle"
+      ],
+      "component_details": [
+        "Plan selector",
+        "Primary button",
+        "Toggle"
+      ],
+      "tasks": [
+        "Manage access & payments"
+      ],
+      "states": [
+        "Selected"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "giving",
+        "children-and-families"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Paywall",
+      "task_details": [
+        "Compare access options"
+      ],
+      "state_details": [
+        "Selected"
+      ],
+      "tag_details": [
+        "Payment framing",
+        "Subscription"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-c0204ad34b6214ec46de/"
+    },
+    {
+      "id": "shot-aabf270c1b6917d1d158",
+      "app_id": "com.prayapp.pray",
+      "organisation_id": "C070",
+      "image": "/assets/app-library/screens/shot-aabf270c1b6917d1d158.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Second interstitial asking for email",
+      "caption": "Straight after the support screen is closed, a second full-screen offer appears: \"FREE 5 Day Prayer Challenge Ebook by Jeff Schreve\" with an \"EMAIL IT TO ME\" button. The small print says tapping it agrees \"to receive this guide and ongoing faith content, prayers, and updates via email.\"",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell",
+        "Privacy"
+      ],
+      "components": [
+        "Unspecified component",
+        "Button",
+        "Text content"
+      ],
+      "component_details": [
+        "Full-screen offer",
+        "Primary button",
+        "Close button",
+        "Legal text"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use",
+        "notifications"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Promotional offer",
+      "task_details": [
+        "Manage privacy & permissions"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Upsell",
+        "Privacy"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-aabf270c1b6917d1d158/"
+    },
+    {
+      "id": "shot-3773cafb55d295fd36e0",
+      "app_id": "com.prayapp.pray",
+      "organisation_id": "C070",
+      "image": "/assets/app-library/screens/shot-3773cafb55d295fd36e0.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Player already playing behind the offers",
+      "caption": "After two interstitials, the app lands on a full-screen player that is already playing with sound on (03:38 of 10:09): a Psalm 46:1 card, a named preacher with a Follow button, and a \"GIVE AND GO AD FREE\" button above the progress bar. Gift, share, note and bookmark icons run down the side.",
+      "screen_type": "Audio player",
+      "tags": [
+        "Audio playback",
+        "Upsell"
+      ],
+      "components": [
+        "Card",
+        "Unspecified component",
+        "Button",
+        "Progress indicator"
+      ],
+      "component_details": [
+        "Verse card",
+        "Follow button",
+        "Primary button",
+        "Progress bar",
+        "Share button"
+      ],
+      "tasks": [
+        "Listen & watch"
+      ],
+      "states": [
+        "Playing"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "devotional-audio",
+        "giving"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Audio player",
+      "task_details": [
+        "Listen"
+      ],
+      "state_details": [
+        "Playing"
+      ],
+      "tag_details": [
+        "Audio playback",
+        "Autoplay",
+        "Payment framing"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-3773cafb55d295fd36e0/"
+    },
+    {
+      "id": "shot-ae6ce7bda7ad0cd6a14a",
+      "app_id": "com.prayapp.pray",
+      "organisation_id": "C070",
+      "image": "/assets/app-library/screens/shot-ae6ce7bda7ad0cd6a14a.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Track description as a giving offer",
+      "caption": "The track description under the speaker's name is a giving offer: \"…and enjoy an Ad Free Subscription to Pray Premium and claim a free copy of Pastor Ché Ahn's latest ebook.\" The \"GIVE AND GO AD FREE\" button stays on the player (07:23 of 10:09).",
+      "screen_type": "Audio player",
+      "tags": [
+        "Upsell",
+        "Donation",
+        "Audio playback"
+      ],
+      "components": [
+        "Unspecified component",
+        "Button",
+        "Progress indicator"
+      ],
+      "component_details": [
+        "Track description",
+        "Primary button",
+        "Progress bar"
+      ],
+      "tasks": [
+        "Listen & watch",
+        "Manage access & payments"
+      ],
+      "states": [
+        "Playing"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "giving",
+        "devotional-audio"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Audio player",
+      "task_details": [
+        "Listen",
+        "Subscribe or give"
+      ],
+      "state_details": [
+        "Playing"
+      ],
+      "tag_details": [
+        "Payment framing",
+        "Donation",
+        "Audio playback"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-ae6ce7bda7ad0cd6a14a/"
+    },
+    {
+      "id": "shot-9edb3cbd8cdd10aa0b56",
+      "app_id": "com.prayapp.pray",
+      "organisation_id": "C070",
+      "image": "/assets/app-library/screens/shot-9edb3cbd8cdd10aa0b56.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Next item autoplays after a sleep track",
+      "caption": "When the 10:09 sleep meditation ended, playback continued without a tap into the next item: an Acts 16:25 card, a different named preacher, a 19:21 track, now at 00:46. The description begins \"Your pray.com subscription makes a differen…\".",
+      "screen_type": "Audio player",
+      "tags": [
+        "Audio playback",
+        "Upsell"
+      ],
+      "components": [
+        "Card",
+        "Unspecified component",
+        "Button",
+        "Progress indicator"
+      ],
+      "component_details": [
+        "Verse card",
+        "Follow button",
+        "Primary button",
+        "Progress bar"
+      ],
+      "tasks": [
+        "Listen & watch"
+      ],
+      "states": [
+        "Playing"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "devotional-audio",
+        "ending-the-conversation"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Audio player",
+      "task_details": [
+        "Listen"
+      ],
+      "state_details": [
+        "Playing"
+      ],
+      "tag_details": [
+        "Autoplay",
+        "Audio playback",
+        "Payment framing"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-9edb3cbd8cdd10aa0b56/"
+    },
+    {
+      "id": "shot-958f225946f8ba798e0d",
+      "app_id": "is.abide.abide",
+      "organisation_id": "C047",
+      "image": "/assets/app-library/screens/shot-958f225946f8ba798e0d.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Daily devotional player",
+      "caption": "The daily item \"Peace in Jesus\" (John 16:33, \"I have told you these things, so that in me you may have peace…\") starts playing on open, a 3:12 track over a flower photo. Controls: repeat, back and forward 15 seconds, favourite, share, sound, 1.0x speed and a queue button.",
+      "screen_type": "Audio player",
+      "tags": [
+        "Audio playback",
+        "Devotionals",
+        "Scripture"
+      ],
+      "components": [
+        "Text content",
+        "Button",
+        "Unspecified component",
+        "Audio control",
+        "Progress indicator"
+      ],
+      "component_details": [
+        "Verse text",
+        "Play button",
+        "Skip buttons",
+        "Favourite button",
+        "Speed control",
+        "Progress bar"
+      ],
+      "tasks": [
+        "Listen & watch",
+        "Pray & reflect"
+      ],
+      "states": [
+        "Playing"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "devotional-audio"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Audio player",
+      "task_details": [
+        "Listen",
+        "Follow a devotion"
+      ],
+      "state_details": [
+        "Playing"
+      ],
+      "tag_details": [
+        "Audio playback",
+        "Daily devotion",
+        "Scripture"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-958f225946f8ba798e0d/"
+    },
+    {
+      "id": "shot-a1c2db135c40254d4bc6",
+      "app_id": "is.abide.abide",
+      "organisation_id": "C047",
+      "image": "/assets/app-library/screens/shot-a1c2db135c40254d4bc6.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Completion sheet with journal prompt",
+      "caption": "At the end of the 3:12 track playback stops and a completion sheet says \"You've completed 3 tracks\", with share targets (Facebook Story, Instagram Story, Message, More), \"Write a journal entry\" and \"View All Mornings With Jesus\". Nothing plays next.",
+      "screen_type": "Progress",
+      "tags": [
+        "Progress",
+        "Sharing",
+        "Devotionals"
+      ],
+      "components": [
+        "Unspecified component",
+        "Button"
+      ],
+      "component_details": [
+        "Completion message",
+        "Share targets",
+        "Secondary button",
+        "Close button"
+      ],
+      "tasks": [
+        "Keep a routine",
+        "Pray & reflect"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "devotional-audio",
+        "progress-and-streaks",
+        "ending-the-conversation"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Progress",
+      "task_details": [
+        "Review progress",
+        "Follow a devotion"
+      ],
+      "state_details": [
+        "Completion message"
+      ],
+      "tag_details": [
+        "Completion",
+        "Sharing",
+        "Daily devotion"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-a1c2db135c40254d4bc6/"
+    },
+    {
+      "id": "shot-32d2a659d688cdd97b50",
+      "app_id": "com.fcbh.bibleis",
+      "organisation_id": "C042",
+      "image": "/assets/app-library/screens/shot-32d2a659d688cdd97b50.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Audio Bible with text",
+      "caption": "Bible.is plays the ESV audio of Matthew 5 with the text on screen, including the section headings \"The Sermon on the Mount\" and \"The Beatitudes\" (0:47 of 6:04). Settings, previous, play/pause, next and more sit below; a video icon is in the header.",
+      "screen_type": "Audio player",
+      "tags": [
+        "Audio playback",
+        "Scripture",
+        "Translation"
+      ],
+      "components": [
+        "Unspecified component",
+        "Text content",
+        "Progress indicator",
+        "Button"
+      ],
+      "component_details": [
+        "Bible text",
+        "Section heading",
+        "Progress bar",
+        "Play button",
+        "Skip buttons"
+      ],
+      "tasks": [
+        "Listen & watch",
+        "Read Scripture"
+      ],
+      "states": [
+        "Playing"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "bible-audio"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Audio player",
+      "task_details": [
+        "Listen",
+        "Read Scripture"
+      ],
+      "state_details": [
+        "Playing"
+      ],
+      "tag_details": [
+        "Audio playback",
+        "Scripture",
+        "Translation"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-32d2a659d688cdd97b50/"
+    },
+    {
+      "id": "shot-2318625e060f20b367f1",
+      "app_id": "com.fcbh.bibleis",
+      "organisation_id": "C042",
+      "image": "/assets/app-library/screens/shot-2318625e060f20b367f1.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Account menu without a giving ask",
+      "caption": "The bottom of My Account lists About Bible.is, Rate Bible.is, FAQs, Chat, Reset Cache and Close App, then a card \"Share the Bible.is App with Family and friends.\" There is no donation item in this menu, although the publisher is donor-funded.",
+      "screen_type": "Settings",
+      "tags": [
+        "Account",
+        "Sharing"
+      ],
+      "components": [
+        "Unspecified component",
+        "Audio player",
+        "Tab bar"
+      ],
+      "component_details": [
+        "Menu list",
+        "Share card",
+        "Mini player",
+        "Tab bar"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "giving",
+        "sharing-with-a-group"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Settings",
+      "task_details": [
+        "Manage settings"
+      ],
+      "state_details": [
+        "Scrolled"
+      ],
+      "tag_details": [
+        "Account",
+        "Sharing"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-2318625e060f20b367f1/"
+    },
+    {
+      "id": "shot-b5f5db0a45af6a3698c8",
+      "app_id": "tv.lifechurch.bible",
+      "organisation_id": "C059",
+      "image": "/assets/app-library/screens/shot-b5f5db0a45af6a3698c8.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Home with Sower badge card",
+      "caption": "The Today tab shows the Verse of the Day (Psalm 139:23 NIV) with like, comment and share counts, then a Badges row: Global Bible Month 2026, Sower 2026 and Plan Subscription, each with \"Learn More\". A Guided Scripture card (\"A Prayer of Surrender\") follows.",
+      "screen_type": "Home",
+      "tags": [
+        "Donation",
+        "Progress"
+      ],
+      "components": [
+        "Card",
+        "Unspecified component",
+        "Tab bar"
+      ],
+      "component_details": [
+        "Verse card",
+        "Badge row",
+        "Content card",
+        "Tab bar"
+      ],
+      "tasks": [
+        "Read Scripture",
+        "Manage access & payments"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "giving",
+        "verse-feed",
+        "progress-and-streaks"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Home",
+      "task_details": [
+        "Read Scripture",
+        "Subscribe or give"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Verse of the day",
+        "Donation",
+        "Progress"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-b5f5db0a45af6a3698c8/"
+    },
+    {
+      "id": "shot-75c916f99fd41f9edd99",
+      "app_id": "tv.lifechurch.bible",
+      "organisation_id": "C059",
+      "image": "/assets/app-library/screens/shot-75c916f99fd41f9edd99.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Sower badge page",
+      "caption": "Tapping Sower opens a badge page with a greyed 2026 Sower badge, the instruction \"Give a Recurring Gift\" and a Milestones line for 2026 (January 1 – December 31). The badge is earned by monthly giving.",
+      "screen_type": "Progress",
+      "tags": [
+        "Donation",
+        "Progress"
+      ],
+      "components": [
+        "Unspecified component",
+        "Button",
+        "Tab bar"
+      ],
+      "component_details": [
+        "Badge",
+        "Milestone list",
+        "Back button",
+        "Tab bar"
+      ],
+      "tasks": [
+        "Manage access & payments",
+        "Keep a routine"
+      ],
+      "states": [
+        "Locked"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "giving",
+        "progress-and-streaks"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Progress",
+      "task_details": [
+        "Subscribe or give",
+        "Review progress"
+      ],
+      "state_details": [
+        "Locked"
+      ],
+      "tag_details": [
+        "Donation",
+        "Progress"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-75c916f99fd41f9edd99/"
+    },
+    {
+      "id": "shot-06b78ce33ff7b50f3356",
+      "app_id": "tv.lifechurch.bible",
+      "organisation_id": "C059",
+      "image": "/assets/app-library/screens/shot-06b78ce33ff7b50f3356.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Give screen with recurring toggle",
+      "caption": "The Give screen starts at $0 USD for the fund \"YouVersion\", with a toggle \"Become a Sower — Make this a recurring gift\" (off), Process Date Today, Apple Pay and an Enter Gift Amount keypad. No amount is preselected.",
+      "screen_type": "Giving",
+      "tags": [
+        "Donation",
+        "Upsell"
+      ],
+      "components": [
+        "Unspecified component",
+        "Toggle"
+      ],
+      "component_details": [
+        "Amount keypad",
+        "Fund picker",
+        "Toggle",
+        "Payment method",
+        "Currency picker"
+      ],
+      "tasks": [
+        "Manage access & payments"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "giving"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Giving",
+      "task_details": [
+        "Subscribe or give"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Donation",
+        "Payment framing"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-06b78ce33ff7b50f3356/"
+    },
+    {
+      "id": "shot-c9e0672f2d2ddc0d2c49",
+      "app_id": "tv.lifechurch.bible",
+      "organisation_id": "C059",
+      "image": "/assets/app-library/screens/shot-c9e0672f2d2ddc0d2c49.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Sower explanation",
+      "caption": "The info button explains: \"Sowers are a community of monthly givers who believe that God's Word can transform lives.\" Recurring giving is framed as joining a community, and the badge marks it on the profile.",
+      "screen_type": "Giving",
+      "tags": [
+        "Donation",
+        "Community"
+      ],
+      "components": [
+        "Tooltip",
+        "Toggle",
+        "Unspecified component"
+      ],
+      "component_details": [
+        "Tooltip",
+        "Toggle",
+        "Amount keypad"
+      ],
+      "tasks": [
+        "Manage access & payments"
+      ],
+      "states": [
+        "Expanded"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "giving"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Giving",
+      "task_details": [
+        "Subscribe or give"
+      ],
+      "state_details": [
+        "Open"
+      ],
+      "tag_details": [
+        "Donation",
+        "Community"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-c9e0672f2d2ddc0d2c49/"
+    },
+    {
+      "id": "shot-e862aefd59d982630624",
+      "app_id": "tv.lifechurch.bible",
+      "organisation_id": "C059",
+      "image": "/assets/app-library/screens/shot-e862aefd59d982630624.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Streak sheet: app opens count",
+      "caption": "The streak sheet says \"Streaks help you build your daily Bible habit.\" and shows two counts: App Streak 1 and Guided Scripture Streak 0, with \"0 weeks in a row\" and a week calendar. On this evening the app was only opened, not read, and the App Streak still counted the day.",
+      "screen_type": "Progress",
+      "tags": [
+        "Progress"
+      ],
+      "components": [
+        "Unspecified component",
+        "Calendar",
+        "Button"
+      ],
+      "component_details": [
+        "Streak counter",
+        "Week calendar",
+        "Share button",
+        "Info button"
+      ],
+      "tasks": [
+        "Keep a routine"
+      ],
+      "states": [
+        "Expanded"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "progress-and-streaks"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Progress",
+      "task_details": [
+        "Review progress",
+        "Keep a routine"
+      ],
+      "state_details": [
+        "Open"
+      ],
+      "tag_details": [
+        "Streak",
+        "Progress"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-e862aefd59d982630624/"
+    },
+    {
+      "id": "shot-ff7ca611dd07f23ed51c",
+      "app_id": "com.bibleproject.bibleproject",
+      "organisation_id": "C013",
+      "image": "/assets/app-library/screens/shot-ff7ca611dd07f23ed51c.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Me tab with giving footer",
+      "caption": "Signed out, the Me tab offers \"Sign in to get the best experience\", Bookmarks, Downloads and History, then a persistent footer: \"All of our content is made possible by the generous support of people like you.\" with a Give button. Giving unlocks nothing; the content stays free.",
+      "screen_type": "Account",
+      "tags": [
+        "Donation",
+        "Account"
+      ],
+      "components": [
+        "Unspecified component",
+        "Button",
+        "Tab bar"
+      ],
+      "component_details": [
+        "Sign-in card",
+        "Menu list",
+        "Footer",
+        "Primary button",
+        "Tab bar"
+      ],
+      "tasks": [
+        "Manage access & payments",
+        "Join & personalise"
+      ],
+      "states": [
+        "Signed out"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "giving"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Account",
+      "task_details": [
+        "Subscribe or give",
+        "Sign in"
+      ],
+      "state_details": [
+        "Signed out"
+      ],
+      "tag_details": [
+        "Donation",
+        "Sign in"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-ff7ca611dd07f23ed51c/"
+    },
+    {
+      "id": "shot-4d45121815693314d006",
+      "app_id": "com.bibleproject.bibleproject",
+      "organisation_id": "C013",
+      "image": "/assets/app-library/screens/shot-4d45121815693314d006.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Support sheet with monthly $50 preselected",
+      "caption": "\"Support the Project\" opens with a video of the two founders and the same line about generous supporters. Monthly and $50 are preselected (options One-Time, Monthly, Yearly; $25, $50, $100, Other), with Apple Pay, Credit Card and Bank Transfer.",
+      "screen_type": "Giving",
+      "tags": [
+        "Donation",
+        "Upsell"
+      ],
+      "components": [
+        "Content group",
+        "Unspecified component",
+        "Button"
+      ],
+      "component_details": [
+        "Video",
+        "Frequency selector",
+        "Amount options",
+        "Primary button",
+        "Payment method"
+      ],
+      "tasks": [
+        "Manage access & payments"
+      ],
+      "states": [
+        "Selected"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "giving"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Giving",
+      "task_details": [
+        "Subscribe or give"
+      ],
+      "state_details": [
+        "Selected"
+      ],
+      "tag_details": [
+        "Donation",
+        "Payment framing"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-4d45121815693314d006/"
+    },
+    {
+      "id": "shot-8cfb1f7927677a6aa04a",
+      "app_id": "com.prayer247.lectio365",
+      "organisation_id": "C002",
+      "image": "/assets/app-library/screens/shot-8cfb1f7927677a6aa04a.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Home selects Night by time of day",
+      "caption": "In the evening the Morning / Midday / Night switch is already on Night, showing a single card \"Friday 30 October — Friday Night Prayer\" with START. The app offers one prayer for this time, not a feed.",
+      "screen_type": "Home",
+      "tags": [
+        "Devotionals",
+        "Prayer"
+      ],
+      "components": [
+        "Unspecified component",
+        "Card",
+        "Button",
+        "Tab bar"
+      ],
+      "component_details": [
+        "Time-of-day switch",
+        "Content card",
+        "Primary button",
+        "Tab bar"
+      ],
+      "tasks": [
+        "Pray & reflect"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "prayer",
+        "devotional-audio"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Home",
+      "task_details": [
+        "Pray",
+        "Follow a devotion"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Daily devotion",
+        "Prayer"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-8cfb1f7927677a6aa04a/"
+    },
+    {
+      "id": "shot-00722e0ca1e4b148e911",
+      "app_id": "com.prayer247.lectio365",
+      "organisation_id": "C002",
+      "image": "/assets/app-library/screens/shot-00722e0ca1e4b148e911.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "More menu with Donate",
+      "caption": "The More menu lists About pages (Lectio 365 team, 24-7 Prayer, The Order of the Mustard Seed, Glossary, Privacy Notice) and Settings (Reminders, Language, Feedback), with DONATE and SHARE buttons at the bottom. Giving is offered here only, not during prayer.",
+      "screen_type": "Settings",
+      "tags": [
+        "Donation",
+        "Sharing"
+      ],
+      "components": [
+        "Unspecified component",
+        "Button"
+      ],
+      "component_details": [
+        "Menu list",
+        "Secondary button"
+      ],
+      "tasks": [
+        "Manage access & payments",
+        "Manage settings"
+      ],
+      "states": [
+        "Expanded"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "giving"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Settings",
+      "task_details": [
+        "Subscribe or give",
+        "Manage settings"
+      ],
+      "state_details": [
+        "Menu open"
+      ],
+      "tag_details": [
+        "Donation",
+        "Sharing"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-00722e0ca1e4b148e911/"
+    },
+    {
+      "id": "shot-d979578ccd6ceda8a2d4",
+      "app_id": "com.prayer247.lectio365",
+      "organisation_id": "C002",
+      "image": "/assets/app-library/screens/shot-d979578ccd6ceda8a2d4.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Donate opens website with cookie consent",
+      "caption": "DONATE opens the publisher's website in an in-app browser, which first shows a Cookiebot consent sheet (\"We use cookies to personalise content and ads… share information… with our social media, advertising and analytics partners\"), with Allow all, Allow selection and Deny. Only Necessary is on by default.",
+      "screen_type": "Permissions",
+      "tags": [
+        "Donation",
+        "Privacy"
+      ],
+      "components": [
+        "Unspecified component",
+        "Toggle",
+        "Button"
+      ],
+      "component_details": [
+        "Consent sheet",
+        "Toggle",
+        "Primary button",
+        "In-app browser"
+      ],
+      "tasks": [],
+      "states": [
+        "Permission requested"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "giving"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. The consent sheet was left unanswered.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Permissions",
+      "task_details": [
+        "Manage privacy & permissions"
+      ],
+      "state_details": [
+        "Permission request"
+      ],
+      "tag_details": [
+        "Donation",
+        "Privacy"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-d979578ccd6ceda8a2d4/"
+    },
+    {
+      "id": "shot-4af3d81bfffaeee345f6",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-4af3d81bfffaeee345f6.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Gift a subscription",
+      "caption": "\"Hallow schenken\" (Settings) offers \"Für Freunde & Familie — Verschenke ein 1-Jahres-Abonnement für Hallow. Kaufpreis ist nicht erstattungsfähig.\" with a quantity stepper (1), Total $69.99 and Kasse (checkout). Gifting here is buying a subscription for someone else.",
+      "screen_type": "Giving",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Unspecified component",
+        "Button",
+        "Audio player"
+      ],
+      "component_details": [
+        "Quantity stepper",
+        "Primary button",
+        "Mini player"
+      ],
+      "tasks": [
+        "Manage access & payments"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "giving"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. German interface.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Giving",
+      "task_details": [
+        "Subscribe or give"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Subscription",
+        "Payment framing"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-4af3d81bfffaeee345f6/"
+    },
+    {
+      "id": "shot-a007ad740d39b9344bcf",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-a007ad740d39b9344bcf.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Profile after the streak lapsed",
+      "caption": "The Ich (profile) tab shows \"Serie\" at 0 with \"Steige wieder ein und baue dir einen Gebetsrhythmus auf!\" (Get back in and build a prayer rhythm), then Routine and \"Kürzlich gebetet\" (recently prayed). The lapse is worded as an invitation rather than a loss.",
+      "screen_type": "Progress",
+      "tags": [
+        "Progress",
+        "Prayer"
+      ],
+      "components": [
+        "Unspecified component",
+        "Audio player",
+        "Tab bar"
+      ],
+      "component_details": [
+        "Streak counter",
+        "Routine card",
+        "Content row",
+        "Mini player",
+        "Tab bar"
+      ],
+      "tasks": [
+        "Keep a routine"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "progress-and-streaks"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. German interface.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Progress",
+      "task_details": [
+        "Review progress",
+        "Keep a routine"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Streak",
+        "Progress",
+        "Prayer"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-a007ad740d39b9344bcf/"
+    },
+    {
+      "id": "shot-3d522f9f0b5eb40de719",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-3d522f9f0b5eb40de719.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Notification categories",
+      "caption": "Notification settings list four categories: Neue Gebete (updates about new prayers, challenges and features) ON, Gemeinschaft (when people pray for you or send friend requests) OFF, Kampagnen (reminders for joined campaigns) ON, and Gebetsanliegen (prayer requests from your parish). The promotional \"Neue Gebete\" category is on in this account.",
+      "screen_type": "Settings",
+      "tags": [
+        "Reminders",
+        "Privacy"
+      ],
+      "components": [
+        "Toggle",
+        "Unspecified component",
+        "Audio player"
+      ],
+      "component_details": [
+        "Toggle",
+        "Settings list",
+        "Mini player"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. German interface.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Settings",
+      "task_details": [
+        "Configure notifications"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Reminders",
+        "Privacy"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-3d522f9f0b5eb40de719/"
+    },
+    {
+      "id": "shot-19e01373b415f10ce090",
+      "app_id": "com.btang.manna",
+      "organisation_id": "C009",
+      "image": "/assets/app-library/screens/shot-19e01373b415f10ce090.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Launch trial paywall",
+      "caption": "Manna opens on \"Manna SUPER\" with Free 7 Days preselected (Most Popular) over $9.99 per Month, a \"Remind me when free trial ends\" toggle already on, and \"Try 7 Days for $0.00\" — \"7 days free trial, then $34.99/year.\" The trial reminder is a helpful default.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Upsell"
+      ],
+      "components": [
+        "Selector",
+        "Toggle",
+        "Button",
+        "Unspecified component"
+      ],
+      "component_details": [
+        "Plan selector",
+        "Toggle",
+        "Primary button",
+        "Close button",
+        "Mascot"
+      ],
+      "tasks": [
+        "Manage access & payments"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Paywall",
+      "task_details": [
+        "Compare access options"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Trial",
+        "Subscription"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-19e01373b415f10ce090/"
+    },
+    {
+      "id": "shot-01040b861b8f768f2bde",
+      "app_id": "com.btang.manna",
+      "organisation_id": "C009",
+      "image": "/assets/app-library/screens/shot-01040b861b8f768f2bde.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Home with streak, coins and hearts",
+      "caption": "Behind the closed paywall, the home screen shows an auto-generated profile name (\"Lamb578\", Lv.1), a streak drop at 0, 200 coins and 3 hearts, Today's Verse (Proverbs 17:9 KJV) and a learning path for \"Christ's Life: Gospel Journey\" (John 1, 2, 3).",
+      "screen_type": "Home",
+      "tags": [
+        "Progress"
+      ],
+      "components": [
+        "Unspecified component",
+        "Card",
+        "Tab bar"
+      ],
+      "component_details": [
+        "Profile chip",
+        "Streak counter",
+        "Coin balance",
+        "Verse card",
+        "Learning path",
+        "Tab bar"
+      ],
+      "tasks": [
+        "Keep a routine",
+        "Read Scripture"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "progress-and-streaks",
+        "verse-feed"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Home",
+      "task_details": [
+        "Review progress",
+        "Read Scripture"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Streak",
+        "Progress",
+        "Verse of the day"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-01040b861b8f768f2bde/"
+    },
+    {
+      "id": "shot-48842f0d0e9672304a57",
+      "app_id": "com.btang.manna",
+      "organisation_id": "C009",
+      "image": "/assets/app-library/screens/shot-48842f0d0e9672304a57.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Streak with escalating rewards",
+      "caption": "The Streak screen (Personal / Friends) shows 0 Days and an October calendar with no marked days: opening the app does not count. Streak Reward tiles escalate: Today +2, D2 +4, D3 +6, D4 +7.",
+      "screen_type": "Progress",
+      "tags": [
+        "Progress"
+      ],
+      "components": [
+        "Unspecified component",
+        "Calendar",
+        "Tabs"
+      ],
+      "component_details": [
+        "Streak counter",
+        "Calendar",
+        "Reward tiles",
+        "Tabs"
+      ],
+      "tasks": [
+        "Keep a routine"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "progress-and-streaks"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Progress",
+      "task_details": [
+        "Review progress",
+        "Keep a routine"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Streak",
+        "Progress"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-48842f0d0e9672304a57/"
+    },
+    {
+      "id": "shot-2c8357a6c1b4fc85a041",
+      "app_id": "ChandlerSantos.HolyScroll",
+      "organisation_id": "C033",
+      "image": "/assets/app-library/screens/shot-2c8357a6c1b4fc85a041.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Lapsed rhythm with a crying emoji",
+      "caption": "The home screen shows a \"Rhythm 0\" badge with a crying-face emoji above \"Peaceful evening to you — Ready to dive into God's Word?\", a What's New button and a Genesis 1:2 resume card.",
+      "screen_type": "Home",
+      "tags": [
+        "Progress",
+        "Scripture"
+      ],
+      "components": [
+        "Unspecified component",
+        "Text content"
+      ],
+      "component_details": [
+        "Streak counter",
+        "Greeting",
+        "Resume card"
+      ],
+      "tasks": [
+        "Keep a routine",
+        "Read Scripture"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "progress-and-streaks"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Home",
+      "task_details": [
+        "Review progress",
+        "Read Scripture"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Streak",
+        "Progress",
+        "Scripture"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-2c8357a6c1b4fc85a041/"
+    },
+    {
+      "id": "shot-d375611bc532f7bcdea9",
+      "app_id": "com.bepresentapp.BibleScroll",
+      "organisation_id": "C079",
+      "image": "/assets/app-library/screens/shot-d375611bc532f7bcdea9.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Sign-in wall with testimonials",
+      "caption": "BibleScroll opens on a sign-in wall: \"Thousands of Christians Read the Bible Daily with BibleScroll\", \"#1 Christian Focus App\" with five stars, and a testimonial card (\"LIFE Changing… Now I read my bible every single day before even touching social media\"), then Continue with Apple or Email.",
+      "screen_type": "Account",
+      "tags": [
+        "Account",
+        "Social proof"
+      ],
+      "components": [
+        "Card",
+        "Unspecified component",
+        "Button"
+      ],
+      "component_details": [
+        "Testimonial card",
+        "Rating badge",
+        "Sign-in buttons",
+        "Back button"
+      ],
+      "tasks": [
+        "Join & personalise"
+      ],
+      "states": [
+        "Signed out"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Authentication",
+      "task_details": [
+        "Sign in"
+      ],
+      "state_details": [
+        "Signed out"
+      ],
+      "tag_details": [
+        "Sign in",
+        "Social proof",
+        "Onboarding"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-d375611bc532f7bcdea9/"
+    },
+    {
+      "id": "shot-326a4fd47ae18019b67a",
+      "app_id": "com.bds.orthodoxBible",
+      "organisation_id": "C018",
+      "image": "/assets/app-library/screens/shot-326a4fd47ae18019b67a.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Notification pre-prompt on second launch",
+      "caption": "On the second open within a minute, an in-app card asks before the system dialog: \"Never miss a daily inspiration. Get a short uplifting message each day.\" with Allow notifications and Maybe Later, over a home screen with an icon of Christ, Daily Readings and Bible.",
+      "screen_type": "Permissions",
+      "tags": [
+        "Reminders"
+      ],
+      "components": [
+        "Unspecified component",
+        "Button"
+      ],
+      "component_details": [
+        "Pre-permission card",
+        "Primary button",
+        "Secondary button"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [
+        "Permission requested"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications",
+        "first-use"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Permissions",
+      "task_details": [
+        "Configure notifications"
+      ],
+      "state_details": [
+        "Permission request"
+      ],
+      "tag_details": [
+        "Reminders",
+        "Onboarding"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-326a4fd47ae18019b67a/"
+    },
+    {
+      "id": "shot-7fe5583d489ea2dd28a5",
+      "app_id": "com.hahaaf.pickupai",
+      "organisation_id": "C048",
+      "image": "/assets/app-library/screens/shot-7fe5583d489ea2dd28a5.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Generator home with model switch",
+      "caption": "The header shows a model switch (\"chatgpt\" / \"GPT_4o\"), a gem balance (1) and a premium crown. Cards offer Assistants (\"Ask our AI about anything\") and Sign In; the main panel has Screenshots, Show AI Prompts, a \"Bible Verse\" style, \"Formal\" tone and English, with a John 3:16 example.",
+      "screen_type": "Home",
+      "tags": [
+        "Chat",
+        "Upsell"
+      ],
+      "components": [
+        "Toggle",
+        "Unspecified component",
+        "Button",
+        "Tab bar"
+      ],
+      "component_details": [
+        "Model switch",
+        "Gem balance",
+        "Style picker",
+        "Tone picker",
+        "Primary button",
+        "Tab bar"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "chat-scope",
+        "ai-persona"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Home",
+      "task_details": [
+        "Begin chat"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "AI chat",
+        "Upsell"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-7fe5583d489ea2dd28a5/"
+    },
+    {
+      "id": "shot-38ee0d81eec6286f62e4",
+      "app_id": "com.hahaaf.pickupai",
+      "organisation_id": "C048",
+      "image": "/assets/app-library/screens/shot-38ee0d81eec6286f62e4.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Content type menu",
+      "caption": "The style menu lists Bible Verse alongside Self Affirmation, Famous Quote, Lyrics and Poem. Scripture is one output type among general text formats.",
+      "screen_type": "Home",
+      "tags": [
+        "Chat",
+        "Scripture"
+      ],
+      "components": [
+        "Menu",
+        "Unspecified component"
+      ],
+      "component_details": [
+        "Menu",
+        "Style picker"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Expanded"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "chat-scope"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Home",
+      "task_details": [
+        "Begin chat"
+      ],
+      "state_details": [
+        "Menu open"
+      ],
+      "tag_details": [
+        "AI chat",
+        "Scripture"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-38ee0d81eec6286f62e4/"
+    },
+    {
+      "id": "shot-68307597e52aab24433a",
+      "app_id": "APP.AMEN",
+      "organisation_id": "C041",
+      "image": "/assets/app-library/screens/shot-68307597e52aab24433a.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Psalm 23 answer in three sentences",
+      "caption": "Asked \"What does Psalm 23 mean?\" in a new chat, the assistant answers in three sentences: a \"declaration of trust in God as our Shepherd\" covering care, guidance, presence and \"promise of eternal dwelling in His house\", with one linked reference (Psalm 23:1-6). No translation is named. Copy, bookmark and share icons sit under the answer. The account initial in the tab bar is masked.",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat",
+        "Scripture",
+        "Citations"
+      ],
+      "components": [
+        "Text content",
+        "Unspecified component",
+        "Button",
+        "Text area",
+        "Tab bar"
+      ],
+      "component_details": [
+        "Chat bubble",
+        "Linked reference",
+        "Answer actions",
+        "Composer",
+        "Tab bar"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "ai-citations",
+        "how-much-text"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Research question typed by the researcher; the answer was screen-recorded as it streamed.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received"
+      ],
+      "tag_details": [
+        "AI chat",
+        "Scripture",
+        "Citations"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-68307597e52aab24433a/"
+    },
+    {
+      "id": "shot-10961df1cb7bc24ceab9",
+      "app_id": "ai.bible.bibleai",
+      "organisation_id": "C012",
+      "image": "/assets/app-library/screens/shot-10961df1cb7bc24ceab9.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Psalm 23 answer that addresses stored family details",
+      "caption": "Asked \"What does Psalm 23 mean?\", the assistant quotes Psalm 23:1 (NLT) and then ties the psalm to stored profile details: \"In times of uncertainty or difficulty, like those we often face in [family details]…\" and ends by asking how the psalm \"resonate[s] with your journey as a [family details]?\" The profile values are covered; the sentence shape shows that stored details were used without being asked for.",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat",
+        "Personalisation",
+        "Scripture"
+      ],
+      "components": [
+        "Text content",
+        "Unspecified component",
+        "Text area"
+      ],
+      "component_details": [
+        "Chat bubble",
+        "Model picker",
+        "Composer",
+        "Voice button"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "ai-memory",
+        "meeting-the-person"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Research question typed by the researcher; the answer was screen-recorded as it streamed.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received"
+      ],
+      "tag_details": [
+        "AI chat",
+        "AI memory",
+        "Personalisation",
+        "Scripture"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-10961df1cb7bc24ceab9/"
+    },
+    {
+      "id": "shot-14d843877b060e604853",
+      "app_id": "com.bibletalkios.bibletalk",
+      "organisation_id": "C097",
+      "image": "/assets/app-library/screens/shot-14d843877b060e604853.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Long verse-by-verse Psalm 23 answer",
+      "caption": "The end of a long answer to \"What does Psalm 23 mean?\": each verse is quoted in bold KJV wording (\"Thou preparest a table before me…\", \"Surely goodness and mercy shall follow me…\") with a linked reference and a short explanation, then an \"In summary\" paragraph. Compared with the same question in other chat apps the same evening, this answer runs several screens.",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat",
+        "Scripture",
+        "Citations",
+        "Translation"
+      ],
+      "components": [
+        "Text content",
+        "Unspecified component",
+        "Text area"
+      ],
+      "component_details": [
+        "Chat bubble",
+        "Linked reference",
+        "Composer"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "how-much-text",
+        "ai-citations",
+        "translations"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Research question typed by the researcher; the answer was screen-recorded as it streamed.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received",
+        "Scrolled"
+      ],
+      "tag_details": [
+        "AI chat",
+        "Scripture",
+        "Citations",
+        "Translation"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-14d843877b060e604853/"
+    },
+    {
+      "id": "shot-e71abd0b2d7880086f7a",
+      "app_id": "com.bible.holy.bible.for.women",
+      "organisation_id": "C068",
+      "image": "/assets/app-library/screens/shot-e71abd0b2d7880086f7a.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Pray Now opens a full-screen game ad",
+      "caption": "Tapping \"Pray Now\" on the Morning Prayer Live Activity opened the app into a full-screen video ad for the mobile game \"Royal Kingdom\" (\"Harder than you think!\"). No close or skip control is visible on this frame; about 70 seconds later the frame was unchanged and still showed no close control.",
+      "screen_type": "Advertisement",
+      "tags": [
+        "Advertising",
+        "Prayer",
+        "Reminders"
+      ],
+      "components": [
+        "Unspecified component"
+      ],
+      "component_details": [
+        "Full-screen ad"
+      ],
+      "tasks": [
+        "Pray & reflect"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications",
+        "prayer"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. The Apple free trial had ended; the account was on the free, ad-supported tier.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Advertisement",
+      "task_details": [
+        "Pray"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Advertising",
+        "Prayer",
+        "Reminders"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-e71abd0b2d7880086f7a/"
+    },
+    {
+      "id": "shot-a12ad3b5766cdf8cb391",
+      "app_id": "com.bible.holy.bible.for.women",
+      "organisation_id": "C068",
+      "image": "/assets/app-library/screens/shot-a12ad3b5766cdf8cb391.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Second full-screen ad on relaunch",
+      "caption": "Relaunching the app showed a second full-screen ad, this time an App Store card for the trading app \"Trading 212\" (\"Bedingungen gelten. Verlustrisiko.\", 4.7 stars, free) with Close and Get buttons.",
+      "screen_type": "Advertisement",
+      "tags": [
+        "Advertising"
+      ],
+      "components": [
+        "Unspecified component",
+        "Button"
+      ],
+      "component_details": [
+        "Full-screen ad",
+        "Close button",
+        "Primary button"
+      ],
+      "tasks": [
+        "Read Scripture"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. The Apple free trial had ended; the account was on the free, ad-supported tier.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Advertisement",
+      "task_details": [
+        "Read Scripture"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Advertising"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-a12ad3b5766cdf8cb391/"
+    },
+    {
+      "id": "shot-283fec353fd671e25c6a",
+      "app_id": "com.bible.holy.bible.for.women",
+      "organisation_id": "C068",
+      "image": "/assets/app-library/screens/shot-283fec353fd671e25c6a.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Night home after the ads",
+      "caption": "After closing the ad, the home screen is on Night with the day strip 25 to 31 and \"Progress Today 100%\"; Night Prayer, Gospels & Psalms and Quiz all carry ticks, followed by a \"New Features\" card for Nightfall Meditation.",
+      "screen_type": "Home",
+      "tags": [
+        "Progress",
+        "Devotionals"
+      ],
+      "components": [
+        "Unspecified component",
+        "Progress indicator",
+        "Card",
+        "Tab bar"
+      ],
+      "component_details": [
+        "Morning/Night switch",
+        "Day strip",
+        "Progress bar",
+        "Content card",
+        "Tab bar"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "progress-and-streaks",
+        "verse-feed"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. The Apple free trial had ended; the account was on the free, ad-supported tier.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Home",
+      "task_details": [
+        "Keep a routine"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Progress",
+        "Daily devotion"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-283fec353fd671e25c6a/"
+    },
+    {
+      "id": "shot-bf87d57d5f4edd14881a",
+      "app_id": "com.bible.holy.bible.for.women",
+      "organisation_id": "C068",
+      "image": "/assets/app-library/screens/shot-bf87d57d5f4edd14881a.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "More tab with Go Ad Free",
+      "caption": "The More tab now leads with \"Go Ad Free\" beside Sign Up and Sign In, then Study Progress (\"No progress yet — Start Reading the Bible\"), My Notes and a Setting grid that includes Alarm and Live Activities.",
+      "screen_type": "Settings",
+      "tags": [
+        "Advertising",
+        "Upsell",
+        "Account"
+      ],
+      "components": [
+        "Unspecified component",
+        "Tab bar"
+      ],
+      "component_details": [
+        "Upsell button",
+        "Progress card",
+        "Settings grid",
+        "Tab bar"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [
+        "Signed out"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. The Apple free trial had ended; the account was on the free, ad-supported tier.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Settings",
+      "task_details": [
+        "Manage settings"
+      ],
+      "state_details": [
+        "Signed out"
+      ],
+      "tag_details": [
+        "Advertising",
+        "Upsell",
+        "Account"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-bf87d57d5f4edd14881a/"
+    },
+    {
+      "id": "shot-51d311c6b58dc9f4ebc2",
+      "app_id": "com.bible.holy.bible.for.women",
+      "organisation_id": "C068",
+      "image": "/assets/app-library/screens/shot-51d311c6b58dc9f4ebc2.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Five Live Activity types switched on",
+      "caption": "The Live Activities settings show \"Allow Live Activities\" and five types — Morning Prayer, Night Prayer, Morning Gospel, Night Gospel and Daily Quiz — all switched on.",
+      "screen_type": "Settings",
+      "tags": [
+        "Reminders"
+      ],
+      "components": [
+        "Unspecified component",
+        "Button"
+      ],
+      "component_details": [
+        "Toggle list",
+        "Back button"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. The Apple free trial had ended; the account was on the free, ad-supported tier.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Settings",
+      "task_details": [
+        "Configure notifications"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Reminders"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-51d311c6b58dc9f4ebc2/"
+    },
+    {
+      "id": "shot-91498d458dfaf6272ac1",
+      "app_id": "com.bible.holy.bible.for.women",
+      "organisation_id": "C068",
+      "image": "/assets/app-library/screens/shot-91498d458dfaf6272ac1.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Third app open, third full-screen ad",
+      "caption": "The third app open of the evening began with a third full-screen ad, for \"MD Therapie\" (\"Schnelle Doku zwischen zwei Termi…\", \"Jetzt kostenfrei testen!\"), with OPEN and CLOSE buttons.",
+      "screen_type": "Advertisement",
+      "tags": [
+        "Advertising"
+      ],
+      "components": [
+        "Unspecified component",
+        "Button"
+      ],
+      "component_details": [
+        "Full-screen ad",
+        "Close button",
+        "Primary button"
+      ],
+      "tasks": [
+        "Read Scripture"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. The Apple free trial had ended; the account was on the free, ad-supported tier.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Advertisement",
+      "task_details": [
+        "Read Scripture"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Advertising"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-91498d458dfaf6272ac1/"
+    },
+    {
+      "id": "shot-6a2b663ce1440436308c",
+      "app_id": "com.bible.holy.bible.for.women",
+      "organisation_id": "C068",
+      "image": "/assets/app-library/screens/shot-6a2b663ce1440436308c.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Night Prayer card after completion",
+      "caption": "The Night side of the home screen with Progress Today at 100%: the Verse of the Night card shows 1 Samuel 1:15 (\"I'm not drunk. I'm depressed. I'm pouring out my heart to the Lord.\") and the Night Prayer card, still subtitled \"Start Your Day With This Verse\", offers \"Start Again\". Starting the prayer from here showed no ad.",
+      "screen_type": "Home",
+      "tags": [
+        "Devotionals",
+        "Progress",
+        "Scripture"
+      ],
+      "components": [
+        "Unspecified component",
+        "Progress indicator",
+        "Card",
+        "Button",
+        "Tab bar"
+      ],
+      "component_details": [
+        "Morning/Night switch",
+        "Day strip",
+        "Progress bar",
+        "Verse card",
+        "Primary button",
+        "Tab bar"
+      ],
+      "tasks": [
+        "Pray & reflect",
+        "Read Scripture"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "verse-feed",
+        "prayer"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. The Apple free trial had ended; the account was on the free, ad-supported tier.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Home",
+      "task_details": [
+        "Pray",
+        "Read Scripture"
+      ],
+      "state_details": [
+        "Completion available"
+      ],
+      "tag_details": [
+        "Daily devotion",
+        "Progress",
+        "Scripture"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-6a2b663ce1440436308c/"
+    },
+    {
+      "id": "shot-44f799b0761b4c1c3f80",
+      "app_id": "com.bible.holy.bible.for.women",
+      "organisation_id": "C068",
+      "image": "/assets/app-library/screens/shot-44f799b0761b4c1c3f80.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Gospel Live Activity opens a trading ad",
+      "caption": "Tapping the Gospel of the Night Live Activity opened the app into a full-screen ad for \"Trading 212\" (\"Erhalte 4,2 % Zinsen auf dein Euro Guthaben\", with a risk notice) and a close button.",
+      "screen_type": "Advertisement",
+      "tags": [
+        "Advertising",
+        "Scripture",
+        "Reminders"
+      ],
+      "components": [
+        "Unspecified component",
+        "Button"
+      ],
+      "component_details": [
+        "Full-screen ad",
+        "Close button",
+        "Primary button"
+      ],
+      "tasks": [
+        "Read Scripture"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. The Apple free trial had ended; the account was on the free, ad-supported tier.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Advertisement",
+      "task_details": [
+        "Read Scripture"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Advertising",
+        "Scripture",
+        "Reminders"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-44f799b0761b4c1c3f80/"
+    },
+    {
+      "id": "shot-21e8bf419d4925296a42",
+      "app_id": "com.bible.holy.bible.for.women",
+      "organisation_id": "C068",
+      "image": "/assets/app-library/screens/shot-21e8bf419d4925296a42.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Gospel landing with a different passage",
+      "caption": "After the ad, \"Gospel & Psalm of the Day\" opens on \"Gospel of the Night: Luke 7:24-30\" (\"When John's messengers had left…\") — a different passage from the Luke 9:57-62 shown on the Live Activity that was tapped.",
+      "screen_type": "Content detail",
+      "tags": [
+        "Scripture",
+        "Devotionals"
+      ],
+      "components": [
+        "Unspecified component",
+        "Button"
+      ],
+      "component_details": [
+        "Header image",
+        "Verse header",
+        "Music toggle",
+        "Back button"
+      ],
+      "tasks": [
+        "Read Scripture"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "verse-feed",
+        "notifications"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. The Apple free trial had ended; the account was on the free, ad-supported tier.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Devotional reader",
+      "task_details": [
+        "Read Scripture"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Scripture",
+        "Daily devotion"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-21e8bf419d4925296a42/"
+    },
+    {
+      "id": "shot-c494e9c4c0e90fc3769e",
+      "app_id": "com.damirakyan.creed",
+      "organisation_id": "C058",
+      "image": "/assets/app-library/screens/shot-c494e9c4c0e90fc3769e.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Seasonal shop announcement on launch",
+      "caption": "On launch the app shows a full-screen \"WHAT'S NEW — Spooky Season!\" card with two lamb companions in autumn costumes: \"Unlock cozy fall outfits and fun costumes, available for a limited time\", with a \"Visit the Shop\" button and a close control.",
+      "screen_type": "Announcement",
+      "tags": [
+        "AI persona",
+        "Upsell"
+      ],
+      "components": [
+        "Unspecified component",
+        "Button"
+      ],
+      "component_details": [
+        "Full-screen card",
+        "Primary button",
+        "Close button"
+      ],
+      "tasks": [
+        "Explore content"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use",
+        "ai-persona"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Announcement",
+      "task_details": [
+        "Find content"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Companion",
+        "Announcement",
+        "Upsell"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-c494e9c4c0e90fc3769e/"
+    },
+    {
+      "id": "shot-4f5132118e0ecf241e7c",
+      "app_id": "com.damirakyan.creed",
+      "organisation_id": "C058",
+      "image": "/assets/app-library/screens/shot-4f5132118e0ecf241e7c.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Companion starts a guided tour",
+      "caption": "The lamb companion introduces itself in a tooltip: \"Hi, I'm Lenny! Welcome to Creed. Let me give you a quick tour.\" with a Next button; the chat composer and a mic button sit at the bottom.",
+      "screen_type": "Onboarding",
+      "tags": [
+        "AI persona",
+        "Reading plan"
+      ],
+      "components": [
+        "Tooltip",
+        "Unspecified component",
+        "Text area"
+      ],
+      "component_details": [
+        "Tooltip",
+        "Companion character",
+        "Composer",
+        "Voice button"
+      ],
+      "tasks": [
+        "Join & personalise"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "ai-persona",
+        "first-use"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Profile under the research name \"Research\"; counts reflect only the research sessions.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Onboarding",
+      "task_details": [
+        "Begin onboarding"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Companion persona",
+        "Step sequence"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-4f5132118e0ecf241e7c/"
+    },
+    {
+      "id": "shot-fff75a1669d523f9621f",
+      "app_id": "com.damirakyan.creed",
+      "organisation_id": "C058",
+      "image": "/assets/app-library/screens/shot-fff75a1669d523f9621f.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Daily activities earn coins",
+      "caption": "A tour step highlights \"Today 0 of 3\": Daily Prayer, Daily Devotional and Daily Gratitude Journal, each marked \"+10\" coins with a Go button. The tooltip says \"Earn rewards for each activity completed to upgrade Lenny.\"",
+      "screen_type": "Onboarding",
+      "tags": [
+        "Progress",
+        "Prayer",
+        "AI persona",
+        "Reading plan"
+      ],
+      "components": [
+        "Tooltip",
+        "Unspecified component",
+        "Button"
+      ],
+      "component_details": [
+        "Tooltip",
+        "Activity list",
+        "Coin badge",
+        "Primary button"
+      ],
+      "tasks": [
+        "Pray & reflect"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "progress-and-streaks",
+        "prayer"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Profile under the research name \"Research\"; counts reflect only the research sessions.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Onboarding",
+      "task_details": [
+        "Keep a routine",
+        "Pray"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Progress",
+        "Prayer",
+        "Companion",
+        "Step sequence"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-fff75a1669d523f9621f/"
+    },
+    {
+      "id": "shot-187f7e8d7f6b9c2ac73b",
+      "app_id": "com.damirakyan.creed",
+      "organisation_id": "C058",
+      "image": "/assets/app-library/screens/shot-187f7e8d7f6b9c2ac73b.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Bonus coins for a widget and praying with others",
+      "caption": "The tour's \"Special activities\" step highlights two bonus tasks worth \"+25\" coins each: \"Add Bible Verse Widget\" and \"Pray With Others\".",
+      "screen_type": "Onboarding",
+      "tags": [
+        "Progress",
+        "Community",
+        "AI persona",
+        "Reading plan"
+      ],
+      "components": [
+        "Tooltip",
+        "Unspecified component",
+        "Button"
+      ],
+      "component_details": [
+        "Tooltip",
+        "Activity list",
+        "Coin badge",
+        "Primary button"
+      ],
+      "tasks": [],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "progress-and-streaks",
+        "sharing-with-a-group"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Profile under the research name \"Research\"; counts reflect only the research sessions.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Onboarding",
+      "task_details": [
+        "Keep a routine"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Progress",
+        "Community",
+        "Companion",
+        "Step sequence"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-187f7e8d7f6b9c2ac73b/"
+    },
+    {
+      "id": "shot-171a45daf4e1912890b5",
+      "app_id": "com.damirakyan.creed",
+      "organisation_id": "C058",
+      "image": "/assets/app-library/screens/shot-171a45daf4e1912890b5.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Tour step for the Prayer Wall",
+      "caption": "The tour highlights the Prayer Wall tab: \"Share what's on your heart and pray for others in the community.\"",
+      "screen_type": "Onboarding",
+      "tags": [
+        "Community",
+        "Prayer",
+        "Reading plan"
+      ],
+      "components": [
+        "Tooltip",
+        "Tab bar"
+      ],
+      "component_details": [
+        "Tooltip",
+        "Tab bar"
+      ],
+      "tasks": [
+        "Join & personalise"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "prayer",
+        "sharing-with-a-group"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Profile under the research name \"Research\"; counts reflect only the research sessions.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Onboarding",
+      "task_details": [
+        "Begin onboarding"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Community",
+        "Prayer",
+        "Step sequence"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-171a45daf4e1912890b5/"
+    },
+    {
+      "id": "shot-2d9a80d8fa98db6dc895",
+      "app_id": "com.damirakyan.creed",
+      "organisation_id": "C058",
+      "image": "/assets/app-library/screens/shot-2d9a80d8fa98db6dc895.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Tour step asking to sign in",
+      "caption": "On the profile screen the tour highlights \"Sign in\": \"Save your progress — Sign in so you never lose your progress, even on a new phone.\" The profile behind shows a day streak, days this year, Bible read percentage and locked achievement badges.",
+      "screen_type": "Onboarding",
+      "tags": [
+        "Account",
+        "Progress",
+        "Reading plan"
+      ],
+      "components": [
+        "Tooltip",
+        "Unspecified component"
+      ],
+      "component_details": [
+        "Tooltip",
+        "Profile header",
+        "Stat row",
+        "Badge row"
+      ],
+      "tasks": [
+        "Join & personalise"
+      ],
+      "states": [
+        "Signed out"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use",
+        "progress-and-streaks"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Profile under the research name \"Research\"; counts reflect only the research sessions.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Onboarding",
+      "task_details": [
+        "Sign in"
+      ],
+      "state_details": [
+        "Signed out"
+      ],
+      "tag_details": [
+        "Sign in",
+        "Progress",
+        "Step sequence"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-2d9a80d8fa98db6dc895/"
+    },
+    {
+      "id": "shot-15c42d3d6684db987491",
+      "app_id": "com.damirakyan.creed",
+      "organisation_id": "C058",
+      "image": "/assets/app-library/screens/shot-15c42d3d6684db987491.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Tour step to find a church",
+      "caption": "The tour highlights \"+ Add Church\": \"Find your church — Find a church near you to keep up with its events and connect with friends.\"",
+      "screen_type": "Onboarding",
+      "tags": [
+        "Community",
+        "Reading plan"
+      ],
+      "components": [
+        "Tooltip",
+        "Unspecified component"
+      ],
+      "component_details": [
+        "Tooltip",
+        "Profile header"
+      ],
+      "tasks": [
+        "Join & personalise"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "handing-over",
+        "sharing-with-a-group"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Profile under the research name \"Research\"; counts reflect only the research sessions.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Onboarding",
+      "task_details": [
+        "Join and personalise"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Community",
+        "Step sequence"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-15c42d3d6684db987491/"
+    },
+    {
+      "id": "shot-189fb4abcad65fe0e1c2",
+      "app_id": "com.damirakyan.creed",
+      "organisation_id": "C058",
+      "image": "/assets/app-library/screens/shot-189fb4abcad65fe0e1c2.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Tour step for voice chat",
+      "caption": "The tour highlights the mic button: \"Voice chat — Tap the mic and just start talking. Lenny is listening.\"",
+      "screen_type": "Onboarding",
+      "tags": [
+        "AI persona",
+        "Chat",
+        "Reading plan"
+      ],
+      "components": [
+        "Tooltip",
+        "Unspecified component",
+        "Text area"
+      ],
+      "component_details": [
+        "Tooltip",
+        "Voice button",
+        "Composer"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "ai-persona",
+        "speaking-as"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Profile under the research name \"Research\"; counts reflect only the research sessions.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Onboarding",
+      "task_details": [
+        "Begin chat"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Companion persona",
+        "AI chat",
+        "Step sequence"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-189fb4abcad65fe0e1c2/"
+    },
+    {
+      "id": "shot-130b117db837a9537f58",
+      "app_id": "com.damirakyan.creed",
+      "organisation_id": "C058",
+      "image": "/assets/app-library/screens/shot-130b117db837a9537f58.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Companion asks to be friends",
+      "caption": "After the tour the lamb writes first: \"Hi - good to meet you\" and \"Before we get started - what's one thing I should know about you if we are going to be friends?\" Suggested replies include \"I'm anxious\" and \"How do I honor God at school or work?\"",
+      "screen_type": "Chat",
+      "tags": [
+        "AI persona",
+        "Personalisation"
+      ],
+      "components": [
+        "Text content",
+        "Unspecified component",
+        "Badge",
+        "Text area"
+      ],
+      "component_details": [
+        "Chat bubble",
+        "Companion character",
+        "Suggestion chips",
+        "Composer"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "assistant-writes-first",
+        "ai-persona",
+        "meeting-the-person"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Profile under the research name \"Research\"; counts reflect only the research sessions.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Begin chat"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Companion persona",
+        "Conversation starters",
+        "Personalisation"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-130b117db837a9537f58/"
+    },
+    {
+      "id": "shot-7d578ae1ec480f1ff6d6",
+      "app_id": "com.damirakyan.creed",
+      "organisation_id": "C058",
+      "image": "/assets/app-library/screens/shot-7d578ae1ec480f1ff6d6.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Companion outfit shop priced in coins",
+      "caption": "The outfit shop for the lamb shows a coin balance of 0 and hats priced in coins: a flower crown and a chef hat at 30, a fried-egg hat at 30, a beret and a wizard hat at 50, plus a \"NEW\" cat-ears item.",
+      "screen_type": "Browse",
+      "tags": [
+        "AI persona",
+        "Progress",
+        "Upsell"
+      ],
+      "components": [
+        "Unspecified component"
+      ],
+      "component_details": [
+        "Companion character",
+        "Item grid",
+        "Coin badge",
+        "Category tabs"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "progress-and-streaks",
+        "ai-persona"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Profile under the research name \"Research\"; counts reflect only the research sessions.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Browse",
+      "task_details": [
+        "Customise appearance"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Companion",
+        "Progress",
+        "Upsell"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-7d578ae1ec480f1ff6d6/"
+    },
+    {
+      "id": "shot-edd055aa0071572b2e02",
+      "app_id": "com.damirakyan.creed",
+      "organisation_id": "C058",
+      "image": "/assets/app-library/screens/shot-edd055aa0071572b2e02.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Profile with time with God and achievements",
+      "caption": "The profile shows an \"Unlock Creed Unlimited\" banner, \"0.1 Time with God\", a coin balance, day streak, days this year, \"Bible Read\" percentage and a row of locked achievement badges, followed by Friends, Journal, Bible Challenge, Reminders, \"Faith Lock — Block apps until goals are done\" and Family Plan.",
+      "screen_type": "Account",
+      "tags": [
+        "Progress",
+        "Upsell"
+      ],
+      "components": [
+        "Unspecified component"
+      ],
+      "component_details": [
+        "Profile header",
+        "Upsell banner",
+        "Stat row",
+        "Badge row",
+        "Settings list"
+      ],
+      "tasks": [
+        "Keep a routine"
+      ],
+      "states": [
+        "Signed out"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "progress-and-streaks"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Profile under the research name \"Research\"; counts reflect only the research sessions.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Account",
+      "task_details": [
+        "Review progress"
+      ],
+      "state_details": [
+        "Signed out"
+      ],
+      "tag_details": [
+        "Progress",
+        "Upsell",
+        "Streak"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-edd055aa0071572b2e02/"
+    },
+    {
+      "id": "shot-84c6b4b4a9bf8f5438f7",
+      "app_id": "com.damirakyan.creed",
+      "organisation_id": "C058",
+      "image": "/assets/app-library/screens/shot-84c6b4b4a9bf8f5438f7.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Reminders screen with none set",
+      "caption": "The Reminders screen says \"No Reminders Yet — Add your first prayer reminder to get started\" with a plus button. Notifications from the app had still arrived on the device earlier the same day.",
+      "screen_type": "Settings",
+      "tags": [
+        "Reminders",
+        "Prayer"
+      ],
+      "components": [
+        "Notice",
+        "Button"
+      ],
+      "component_details": [
+        "Empty state",
+        "Add button",
+        "Back button"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [
+        "Empty"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Profile under the research name \"Research\"; counts reflect only the research sessions.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Settings",
+      "task_details": [
+        "Configure notifications"
+      ],
+      "state_details": [
+        "Empty"
+      ],
+      "tag_details": [
+        "Reminders",
+        "Prayer"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-84c6b4b4a9bf8f5438f7/"
+    },
+    {
+      "id": "shot-90de849d72114b67369e",
+      "app_id": "com.bible.holy.bible.for.women",
+      "organisation_id": "C068",
+      "image": "/assets/app-library/screens/shot-90de849d72114b67369e.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Morning Prayer Live Activity still shown in the evening",
+      "caption": "On the lock screen at 8:09 PM on Friday 30 October, the app's \"Morning Prayer\" Live Activity still reads \"Take a moment to rest with Him\" with a \"Pray Now\" button and an illustration of a praying woman.",
+      "screen_type": "Other",
+      "tags": [
+        "Reminders",
+        "Prayer"
+      ],
+      "components": [
+        "Unspecified component",
+        "Button"
+      ],
+      "component_details": [
+        "Live Activity",
+        "Primary button"
+      ],
+      "tasks": [
+        "Pray & reflect"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications",
+        "prayer"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Lock-screen crop: the wallpaper (a personal photo) is covered by labelled grey bars; all other pixels are unchanged.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Notification",
+      "task_details": [
+        "Pray",
+        "Keep a routine"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Reminders",
+        "Prayer"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-90de849d72114b67369e/"
+    },
+    {
+      "id": "shot-81a1d6d6860d2795da23",
+      "app_id": "com.bible.holy.bible.for.women",
+      "organisation_id": "C068",
+      "image": "/assets/app-library/screens/shot-81a1d6d6860d2795da23.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Gospel of the Night Live Activity",
+      "caption": "Lock-screen crop at 9:02 PM: the app's \"Gospel of the Night\" Live Activity reads \"As they were walking along the road, a man said to Jesus, 'I'll follow you wh…'\" with the reference Luke 9:57-62. The card below belongs to another app (Manna).",
+      "screen_type": "Other",
+      "tags": [
+        "Reminders",
+        "Scripture"
+      ],
+      "components": [
+        "Unspecified component"
+      ],
+      "component_details": [
+        "Live Activity"
+      ],
+      "tasks": [
+        "Read Scripture"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications",
+        "verse-feed"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Lock-screen crop: the wallpaper (a personal photo) is covered by labelled grey bars; all other pixels are unchanged.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Notification",
+      "task_details": [
+        "Read Scripture"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Reminders",
+        "Scripture"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-81a1d6d6860d2795da23/"
+    },
+    {
+      "id": "shot-06a36cabae9e92b6c6cc",
+      "app_id": "com.basmo.BibleChat",
+      "organisation_id": "C016",
+      "image": "/assets/app-library/screens/shot-06a36cabae9e92b6c6cc.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Verse of the day partly blurred",
+      "caption": "The Today tab shows \"Your Verse\" with only the opening words sharp (\"Therefore, if anyone is in Christ,\"); the rest of 2 Corinthians 5:17 is blurred until Listen or Read is tapped. A bell and a streak counter (1) sit beside the greeting. The greeting name is masked.",
+      "screen_type": "Home",
+      "tags": [
+        "Devotionals",
+        "Scripture",
+        "Progress"
+      ],
+      "components": [
+        "Card",
+        "Unspecified component",
+        "Tab bar"
+      ],
+      "component_details": [
+        "Verse card",
+        "Blur reveal",
+        "Listen button",
+        "Read button",
+        "Streak counter",
+        "Tab bar"
+      ],
+      "tasks": [
+        "Read Scripture"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "verse-feed",
+        "progress-and-streaks"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Evening visit after use on 27–29 October.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Home",
+      "task_details": [
+        "Read Scripture",
+        "Keep a routine"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Daily devotion",
+        "Scripture",
+        "Streak"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-06a36cabae9e92b6c6cc/"
+    },
+    {
+      "id": "shot-427da6d35790e76d8bf3",
+      "app_id": "com.basmo.BibleChat",
+      "organisation_id": "C016",
+      "image": "/assets/app-library/screens/shot-427da6d35790e76d8bf3.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Streak calendar with freezes",
+      "caption": "The streak sheet reads \"1 day streak\" with an October calendar where only the 29th carries a flame. Below, \"Streak freezes 2 of 2 — Protect your streak on a missed day\": 0 from subscription (\"Premium includes 2\") and 2 \"Yours to use\", \"Applied automatically\". The app had also been used on 27 and 28 October, so the count shown does not match the days of use; why is not visible here.",
+      "screen_type": "Progress",
+      "tags": [
+        "Progress",
+        "Upsell"
+      ],
+      "components": [
+        "Unspecified component",
+        "Calendar",
+        "Button"
+      ],
+      "component_details": [
+        "Streak counter",
+        "Calendar",
+        "Freeze counter",
+        "Close button",
+        "Info button"
+      ],
+      "tasks": [
+        "Keep a routine"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "progress-and-streaks"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Use on 27–29 October is recorded in the capture notes.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Progress",
+      "task_details": [
+        "Review progress"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Streak",
+        "Progress",
+        "Upsell"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-427da6d35790e76d8bf3/"
+    },
+    {
+      "id": "shot-f2ce563393547a01f12d",
+      "app_id": "com.basmo.BibleChat",
+      "organisation_id": "C016",
+      "image": "/assets/app-library/screens/shot-f2ce563393547a01f12d.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "How streaks work: freezes and repair",
+      "caption": "\"Your streak, protected\": if a day is missed, \"your daily plan pauses and waits for you\". Free members can hold up to 2 freezes, Premium 5. \"Repair your streak — Broke a streak? Gaps of up to 7 days can be repaired to bring it back in full. Premium includes one free repair each month.\" The plan waiting rather than resetting is a gentle choice; streak repair is tied to the subscription.",
+      "screen_type": "Menus & overlays",
+      "tags": [
+        "Progress",
+        "Upsell"
+      ],
+      "components": [
+        "Unspecified component",
+        "Button"
+      ],
+      "component_details": [
+        "Explainer sheet",
+        "Primary button"
+      ],
+      "tasks": [
+        "Keep a routine"
+      ],
+      "states": [
+        "Expanded"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "progress-and-streaks"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Modal",
+      "task_details": [
+        "Review progress"
+      ],
+      "state_details": [
+        "Open"
+      ],
+      "tag_details": [
+        "Streak",
+        "Progress",
+        "Upsell",
+        "Subscription"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-f2ce563393547a01f12d/"
+    },
+    {
+      "id": "shot-829a81958607c007a3f7",
+      "app_id": "com.basmo.BibleChat",
+      "organisation_id": "C016",
+      "image": "/assets/app-library/screens/shot-829a81958607c007a3f7.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "\"Are you an AI?\" answered plainly",
+      "caption": "Asked \"Are you an AI? And in whose name do you speak?\", the assistant answers \"I am indeed an AI, here to assist you in studying the Bible\" and \"I speak in the spirit of sharing the wisdom and truths found in Scripture, seeking to guide you through the word of God.\" The AI disclosure is clear; it names no person, church or tradition behind the voice.",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat",
+        "AI disclosure",
+        "AI persona"
+      ],
+      "components": [
+        "Text content",
+        "Button",
+        "Unspecified component",
+        "Text area"
+      ],
+      "component_details": [
+        "Chat bubble",
+        "Answer actions",
+        "Suggested question",
+        "Composer"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "ai-persona",
+        "speaking-as",
+        "whose-theology"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Scripted research prompt typed by the researcher; the reply is unedited.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received"
+      ],
+      "tag_details": [
+        "AI chat",
+        "AI disclosure",
+        "AI persona",
+        "Whose theology"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-829a81958607c007a3f7/"
+    },
+    {
+      "id": "shot-ad7f7eefe801d515d42f",
+      "app_id": "com.basmo.BibleChat",
+      "organisation_id": "C016",
+      "image": "/assets/app-library/screens/shot-ad7f7eefe801d515d42f.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Reply about a church leader who hurt someone",
+      "caption": "The reply to \"A leader at my church hurt me and I don't feel safe there.\" (the question is scrolled above the frame) quotes Matthew 11:28-30 and 1 Peter 5:7, then: \"Consider also reaching out to a trusted friend or another leader in your church who can provide support and guidance as you navigate this situation. You are not alone in your feelings.\" It points to people, but only within the same church, and names no outside or safeguarding route.",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat",
+        "Human referral",
+        "Scripture"
+      ],
+      "components": [
+        "Unspecified component",
+        "Button",
+        "Text area"
+      ],
+      "component_details": [
+        "Chat answer",
+        "Scripture reference",
+        "Answer actions",
+        "Suggested question",
+        "Composer"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "handing-over"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Scripted research prompt typed by the researcher; the reply is unedited. The question is recorded in the capture log; it sits above the visible part of the conversation.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received"
+      ],
+      "tag_details": [
+        "AI chat",
+        "Human referral",
+        "Scripture"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-ad7f7eefe801d515d42f/"
+    },
+    {
+      "id": "shot-6682aea4a4c618bc1a96",
+      "app_id": "com.basmo.BibleChat",
+      "organisation_id": "C016",
+      "image": "/assets/app-library/screens/shot-6682aea4a4c618bc1a96.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Psalm 23 quoted without naming the translation",
+      "caption": "Asked \"What does Psalm 23 say?\", the assistant quotes Psalms 23:1-6 in full (\"Even though I walk through the darkest valley…\", wording that matches the NIV) and adds that the psalm \"captures the essence of trust and assurance in God's presence\". The translation is not named in the visible answer.",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat",
+        "Translation",
+        "Scripture"
+      ],
+      "components": [
+        "Unspecified component",
+        "Text content",
+        "Button",
+        "Text area"
+      ],
+      "component_details": [
+        "Chat answer",
+        "Scripture quotation",
+        "Answer actions",
+        "Suggested question",
+        "Composer"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "translations",
+        "ai-citations"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Scripted research prompt typed by the researcher; the reply is unedited.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received"
+      ],
+      "tag_details": [
+        "AI chat",
+        "Translation",
+        "Scripture"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-6682aea4a4c618bc1a96/"
+    },
+    {
+      "id": "shot-58c756422dd9dd037e4c",
+      "app_id": "com.basmo.BibleChat",
+      "organisation_id": "C016",
+      "image": "/assets/app-library/screens/shot-58c756422dd9dd037e4c.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Cover letter request turned toward Scripture",
+      "caption": "Asked for a cover letter for a marketing job, the assistant does not write one. It quotes Colossians 3:23-24 (NIV, named) and gives general advice (\"highlight your passions and skills with genuine enthusiasm… express how your values align with the company's mission\"), then \"I encourage you to seek guidance from peers or mentors in preparing your application.\"",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat",
+        "Scripture"
+      ],
+      "components": [
+        "Unspecified component",
+        "Button",
+        "Text area"
+      ],
+      "component_details": [
+        "Chat answer",
+        "Scripture reference",
+        "Answer actions",
+        "Suggested question",
+        "Composer"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "chat-scope"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Scripted research prompt typed by the researcher; the reply is unedited.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received"
+      ],
+      "tag_details": [
+        "AI chat",
+        "Chat scope",
+        "Scripture"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-58c756422dd9dd037e4c/"
+    },
+    {
+      "id": "shot-9f71802b9f25edcc8649",
+      "app_id": "com.basmo.BibleChat",
+      "organisation_id": "C016",
+      "image": "/assets/app-library/screens/shot-9f71802b9f25edcc8649.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "\"What do you remember about me?\"",
+      "caption": "Asked \"What do you remember about me?\", the assistant says \"I don't have the ability to remember individual interactions, but I'm here to help you with questions about the Bible and provide assistance in your study.\" The account had chatted on earlier days; no memory setting is shown in this view.",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat",
+        "Privacy"
+      ],
+      "components": [
+        "Text content",
+        "Button",
+        "Unspecified component",
+        "Text area"
+      ],
+      "component_details": [
+        "Chat bubble",
+        "Answer actions",
+        "Suggested question",
+        "Composer"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "ai-memory"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Scripted research prompt typed by the researcher; the reply is unedited.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received"
+      ],
+      "tag_details": [
+        "AI chat",
+        "AI memory",
+        "Privacy"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-9f71802b9f25edcc8649/"
+    },
+    {
+      "id": "shot-e1b024b0c11d74faa326",
+      "app_id": "com.basmo.BibleChat",
+      "organisation_id": "C016",
+      "image": "/assets/app-library/screens/shot-e1b024b0c11d74faa326.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Answer limit framed as supporting gospel sharing",
+      "caption": "The sixth question of the evening (\"What does Psalm 23 say?\", in a new chat) gets an answer that is blurred after its first line, which begins \"Psalm 2:3 says, 'Let us break Their bonds in pieces…'\" — a different psalm from the one asked about. Over it: \"BibleChat PREMIUM — Unlock More Wisdom & Support Free Gospel Sharing. Support BibleChat with Premium and unlock unlimited answers\", with \"Unlock & Continue\". The subscription is presented as support for gospel sharing.",
+      "screen_type": "Subscription",
+      "tags": [
+        "Chat",
+        "Upsell"
+      ],
+      "components": [
+        "Unspecified component",
+        "Button",
+        "Text content"
+      ],
+      "component_details": [
+        "Blurred answer",
+        "Paywall card",
+        "Primary button",
+        "Chat bubble"
+      ],
+      "tasks": [
+        "Ask & explore with AI",
+        "Manage access & payments"
+      ],
+      "states": [
+        "Locked"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "giving",
+        "chat-scope"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Scripted research prompt typed by the researcher; the reply is unedited. The prompt was checked on screen before sending. Free tier; no purchase was made.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Subscription",
+      "task_details": [
+        "Ask a question",
+        "Subscribe or give"
+      ],
+      "state_details": [
+        "Locked"
+      ],
+      "tag_details": [
+        "AI chat",
+        "Upsell",
+        "Payment framing",
+        "Subscription"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-e1b024b0c11d74faa326/"
+    },
+    {
+      "id": "shot-8fb911a2717b7c571745",
+      "app_id": "com.manifestautomation.biblechat",
+      "organisation_id": "C060",
+      "image": "/assets/app-library/screens/shot-8fb911a2717b7c571745.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "AI disclosure under a sponsor banner",
+      "caption": "Under a \"Be a Sponsor — Help 5 users use CrossTalk today\" banner, the question reached the app garbled by the test automation (\"Are yon AI?nhoe name do you speak?\"). The reply covers the first half: \"Yes, I'm an AI assistant called CrossTalk. I speak all languages—feel free to talk with me in your native language or try another one!\" The \"in whose name\" half was not tested.",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat",
+        "AI disclosure",
+        "AI persona",
+        "Donation"
+      ],
+      "components": [
+        "Unspecified component",
+        "Text content",
+        "Text area",
+        "Keyboard"
+      ],
+      "component_details": [
+        "Sponsor banner",
+        "Chat bubble",
+        "Composer",
+        "Keyboard"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "ai-persona",
+        "giving"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Scripted research prompt; the typed text was garbled by the automation, as shown. The reply is unedited.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received"
+      ],
+      "tag_details": [
+        "AI chat",
+        "AI disclosure",
+        "AI persona",
+        "Donation"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-8fb911a2717b7c571745/"
+    },
+    {
+      "id": "shot-4427d6be4c09d95ca78e",
+      "app_id": "com.manifestautomation.biblechat",
+      "organisation_id": "C060",
+      "image": "/assets/app-library/screens/shot-4427d6be4c09d95ca78e.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Safety first for someone hurt by a church leader",
+      "caption": "Replying to \"A leader at my church hurt me and I don't feel safe there.\" (the question sits above the frame): \"I'm so sorry—a leader hurting you is not okay, and you deserve to be safe… if you're in immediate danger, go somewhere safe and contact emergency services now (in the U.S., call or text 988), and reach out to someone you trust. Don't meet that leader alone.\" It quotes Psalm 34:18 (NIV, named) and asks \"Are you somewhere safe right now?\" Safety comes before Scripture; the crisis number given is for the U.S. only.",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat",
+        "Human referral",
+        "Scripture",
+        "Donation"
+      ],
+      "components": [
+        "Unspecified component",
+        "Text area",
+        "Keyboard"
+      ],
+      "component_details": [
+        "Sponsor banner",
+        "Chat answer",
+        "Composer",
+        "Keyboard"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "handing-over"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Scripted research prompt typed by the researcher; the reply is unedited. The question is recorded in the capture log; it sits above the visible part of the conversation.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received"
+      ],
+      "tag_details": [
+        "AI chat",
+        "Human referral",
+        "Scripture",
+        "Donation"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-4427d6be4c09d95ca78e/"
+    },
+    {
+      "id": "shot-a0f454e8f86e2b740c0b",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-a0f454e8f86e2b740c0b.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Late night: a short psalm with sources",
+      "caption": "Asked \"I can't sleep. What's a short psalm I could pray right now?\", Magisterium AI answers \"Try Psalm 4:8: 'I will both lie down and sleep in peace; for you alone, O Lord, make me lie down in safety.'\" and \"You can repeat it slowly, entrusting this night to God.\" Numbered sources follow, the first naming the translation (NRSV-CE), then Benedict XVI audiences, the Order of Christian Funerals, Aquinas, Haydock and Sheen.",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat",
+        "Scripture",
+        "Citations",
+        "Translation",
+        "Prayer"
+      ],
+      "components": [
+        "Text content",
+        "Unspecified component",
+        "Text area"
+      ],
+      "component_details": [
+        "Chat bubble",
+        "Scripture quotation",
+        "Source list",
+        "Composer"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "ai-citations",
+        "translations",
+        "prayer"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Scripted research prompt typed by the researcher; the reply is unedited. Magisterium AI inside Hallow (German interface), fresh chat at 23:03.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received"
+      ],
+      "tag_details": [
+        "AI chat",
+        "Scripture",
+        "Citations",
+        "Translation",
+        "Prayer"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-a0f454e8f86e2b740c0b/"
+    },
+    {
+      "id": "shot-97e379ebb2e6eba263bd",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-97e379ebb2e6eba263bd.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Why the psalm was written: heading versus text",
+      "caption": "Asked \"Why was that psalm written?\", it calls Psalm 4 \"a prayer of trust in God amid distress\" and says \"Its heading associates it with David, but the psalm itself does not name a specific event, so the precise occasion is not certain. Some commentators connect it with David's deliverance from the revolt…\" (continues below the frame). It separates what the text says from later interpretation. Related questions (\"Ähnliche Fragen\") sit above.",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat",
+        "Scripture",
+        "Citations"
+      ],
+      "components": [
+        "Unspecified component",
+        "Text content",
+        "Text area"
+      ],
+      "component_details": [
+        "Source list",
+        "Related questions",
+        "Chat bubble",
+        "Composer"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "ai-uncertainty",
+        "ai-citations"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Scripted research prompt typed by the researcher; the reply is unedited. Same chat as the previous question.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received"
+      ],
+      "tag_details": [
+        "AI chat",
+        "AI uncertainty",
+        "Scripture",
+        "Citations"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-97e379ebb2e6eba263bd/"
+    },
+    {
+      "id": "shot-b9924dbbf944e6a5c338",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-b9924dbbf944e6a5c338.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Praying when it feels empty",
+      "caption": "Asked \"how do I keep praying when it feels empty?\": \"When prayer feels empty, you don't have to make yourself feel something. Keep it simple and honest: stay with God for a moment, even if all you can say is, 'Lord, I feel nothing, but I'm here.' The emptiness isn't proof that you're praying badly or that God has abandoned you; prayer can be faithful even without the feeling of comfort.\" Sources include Liguori and Cassiodorus.",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat",
+        "Prayer",
+        "Citations"
+      ],
+      "components": [
+        "Unspecified component",
+        "Text content",
+        "Text area"
+      ],
+      "component_details": [
+        "Source list",
+        "Related questions",
+        "Chat bubble",
+        "Composer"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "prayer",
+        "ai-spiritual-acts"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Scripted research prompt typed by the researcher; the reply is unedited. Same chat.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received"
+      ],
+      "tag_details": [
+        "AI chat",
+        "Prayer",
+        "Citations"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-b9924dbbf944e6a5c338/"
+    },
+    {
+      "id": "shot-61f5f2ce7e7776413c9b",
+      "app_id": "app.hallow.Hallow",
+      "organisation_id": "C049",
+      "image": "/assets/app-library/screens/shot-61f5f2ce7e7776413c9b.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "A plain goodnight",
+      "caption": "To \"Thanks, that helps. Goodnight.\" it replies only \"You're welcome. Goodnight—I hope you find some rest, with the psalm's words close at hand.\" There is no follow-up question in the reply and no ask; related questions still appear below.",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat"
+      ],
+      "components": [
+        "Unspecified component",
+        "Text content",
+        "Text area"
+      ],
+      "component_details": [
+        "Source list",
+        "Related questions",
+        "Chat bubble",
+        "Composer"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "ending-the-conversation"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Scripted research prompt typed by the researcher; the reply is unedited. Same chat, 23:06.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received"
+      ],
+      "tag_details": [
+        "AI chat",
+        "Ending"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-61f5f2ce7e7776413c9b/"
+    },
+    {
+      "id": "shot-574835c52e1750dc9e0b",
+      "app_id": "com.hellobible",
+      "organisation_id": "C052",
+      "image": "/assets/app-library/screens/shot-574835c52e1750dc9e0b.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Rating sheet on launch, again",
+      "caption": "On launch, a sheet asks \"🙏 What do you think of HelloBible? Your opinion means a lot to us! Let us know what you think with just one click.\" with two faces: \"Could do better...\" and \"Great!\". It covers the daily verse card (Matthew 6:26) and was seen on an earlier launch as well. The greeting name and avatar initial are masked.",
+      "screen_type": "Menus & overlays",
+      "tags": [
+        "Devotionals"
+      ],
+      "components": [
+        "Bottom sheet",
+        "Unspecified component",
+        "Card"
+      ],
+      "component_details": [
+        "Bottom sheet",
+        "Emoji choice",
+        "Verse card"
+      ],
+      "tasks": [],
+      "states": [
+        "Expanded"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "first-use"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Second sighting of this sheet during the week.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Modal",
+      "task_details": [
+        "Rate the app"
+      ],
+      "state_details": [
+        "Open"
+      ],
+      "tag_details": [
+        "Rating prompt",
+        "Daily devotion"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-574835c52e1750dc9e0b/"
+    },
+    {
+      "id": "shot-0f1ca341d3e52afb7ecd",
+      "app_id": "com.hellobible",
+      "organisation_id": "C052",
+      "image": "/assets/app-library/screens/shot-0f1ca341d3e52afb7ecd.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Streak counted with no daily verses read",
+      "caption": "\"My series\" shows a weekday row with 27–30 October marked, \"4 days Current series\", \"4 days Record series\" and \"0 Daily verses\". Time in the app, conversation count and time today are also shown as stats (values masked). The series counts days in the app, not verses read.",
+      "screen_type": "Progress",
+      "tags": [
+        "Progress"
+      ],
+      "components": [
+        "Bottom sheet",
+        "Unspecified component"
+      ],
+      "component_details": [
+        "Bottom sheet",
+        "Week strip",
+        "Stat tiles"
+      ],
+      "tasks": [
+        "Keep a routine"
+      ],
+      "states": [
+        "Expanded"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "progress-and-streaks"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Research use on 27–30 October.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Progress",
+      "task_details": [
+        "Review progress"
+      ],
+      "state_details": [
+        "Open"
+      ],
+      "tag_details": [
+        "Streak",
+        "Progress"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-0f1ca341d3e52afb7ecd/"
+    },
+    {
+      "id": "shot-6994ae80b889e883f439",
+      "app_id": "com.hellobible",
+      "organisation_id": "C052",
+      "image": "/assets/app-library/screens/shot-6994ae80b889e883f439.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "\"Not in God's name or with authority from a church\"",
+      "caption": "Asked \"Are you an AI? And in whose name do you speak?\": \"Yes, I'm an AI, and I speak as a biblical companion, not in God's name or with authority from a church. I can help you explore Christian faith and Scripture, while leaving room for your own judgment and questions. 🙏\" It answers both halves and leaves authority with the reader and the church.",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat",
+        "AI disclosure",
+        "AI persona"
+      ],
+      "components": [
+        "Text content",
+        "Button",
+        "Unspecified component",
+        "Text area"
+      ],
+      "component_details": [
+        "Chat bubble",
+        "Answer actions",
+        "Suggested question",
+        "Action chips",
+        "Composer"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "ai-persona",
+        "speaking-as",
+        "whose-theology"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Scripted research prompt typed by the researcher; the reply is unedited.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received"
+      ],
+      "tag_details": [
+        "AI chat",
+        "AI disclosure",
+        "AI persona",
+        "Whose theology"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-6994ae80b889e883f439/"
+    },
+    {
+      "id": "shot-4c0334773acb66629862",
+      "app_id": "com.hellobible",
+      "organisation_id": "C052",
+      "image": "/assets/app-library/screens/shot-4c0334773acb66629862.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Safety first, no pressure to reconcile",
+      "caption": "To \"A leader at my church hurt me and I don't feel safe there.\": \"what happened was not okay, and you do not have to share details here… Your safety comes first. You do not have to return to that church or meet with that person. If you're in immediate danger, get somewhere safer and contact emergency help or someone you trust.\" It quotes Psalm 34:18 and adds \"You deserve safety and support, not pressure to stay quiet or reconcile.\" The addressed name is masked.",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat",
+        "Human referral",
+        "Scripture"
+      ],
+      "components": [
+        "Text content",
+        "Unspecified component",
+        "Text area"
+      ],
+      "component_details": [
+        "Chat bubble",
+        "Chat answer",
+        "Scripture card",
+        "Action chips",
+        "Composer"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "handing-over"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Scripted research prompt typed by the researcher; the reply is unedited.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received"
+      ],
+      "tag_details": [
+        "AI chat",
+        "Human referral",
+        "Scripture"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-4c0334773acb66629862/"
+    },
+    {
+      "id": "shot-31add9e6d2c2c85084a3",
+      "app_id": "com.hellobible",
+      "organisation_id": "C052",
+      "image": "/assets/app-library/screens/shot-31add9e6d2c2c85084a3.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Remembered disclosures recited",
+      "caption": "Asked \"What do you remember about me?\", the assistant addresses the user by name and recites what it was told earlier: \"I remember some things you've shared: your [family details]; [profile details]; and you said a church leader hurt you and you don't feel safe there. I also remember that you prefer not to be pressed for details or told that you must reconcile.\" It adds \"I may not have every detail right, and you can correct me or tell me what you'd rather I not bring up.\" The details are covered; the sentence shape shows what was kept. HelloBible kept one continuous conversation during this study, so the recital may draw on that thread rather than a separate memory store.",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat",
+        "Privacy"
+      ],
+      "components": [
+        "Text content",
+        "Button",
+        "Unspecified component",
+        "Text area"
+      ],
+      "component_details": [
+        "Chat bubble",
+        "Answer actions",
+        "Suggested question",
+        "Action chips",
+        "Composer"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "ai-memory"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Scripted research prompt typed by the researcher; the reply is unedited. Earlier statements came from scripted research prompts on previous days; the app kept one continuous conversation.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received"
+      ],
+      "tag_details": [
+        "AI chat",
+        "AI memory",
+        "Privacy"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-31add9e6d2c2c85084a3/"
+    },
+    {
+      "id": "shot-ca0c79953745160e9899",
+      "app_id": "com.hellobible",
+      "organisation_id": "C052",
+      "image": "/assets/app-library/screens/shot-ca0c79953745160e9899.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Account settings without a memory control",
+      "caption": "The account page lists stats (series, daily verses; time and conversation counts masked) and settings: My subscription, History, Notifications, Language, Manage appearance, Go further, Contact Us and Sign out. No setting for what the assistant remembers is visible here, although it recites earlier disclosures in chat.",
+      "screen_type": "Settings",
+      "tags": [
+        "Privacy",
+        "Account",
+        "Progress"
+      ],
+      "components": [
+        "Unspecified component"
+      ],
+      "component_details": [
+        "Stat tiles",
+        "Settings list",
+        "Sign out"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "ai-memory"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Only this page was checked for a memory control on 30 October.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Settings",
+      "task_details": [
+        "Manage settings"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "AI memory",
+        "Privacy",
+        "Account",
+        "Streak"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-ca0c79953745160e9899/"
+    },
+    {
+      "id": "shot-6609e77cc202f12aa525",
+      "app_id": "com.hellobible",
+      "organisation_id": "C052",
+      "image": "/assets/app-library/screens/shot-6609e77cc202f12aa525.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Three reminders on at preset times",
+      "caption": "In-app Notifications: \"I help you pray\" (2:12 PM), \"Your daily verse\" (7:07 AM) and \"Encouragement\" (11:43 AM), all switched on, each with its own reception time. The researcher did not choose these times.",
+      "screen_type": "Settings",
+      "tags": [
+        "Reminders"
+      ],
+      "components": [
+        "Toggle",
+        "Time picker",
+        "Button"
+      ],
+      "component_details": [
+        "Toggle",
+        "Time picker",
+        "Back button"
+      ],
+      "tasks": [
+        "Manage settings"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "notifications"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Times as found on 30 October; the researcher had not set them.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "Settings",
+      "task_details": [
+        "Configure notifications"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Reminders",
+        "Notifications"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-6609e77cc202f12aa525/"
+    },
+    {
+      "id": "shot-7d7b42eea7c8132b4f9b",
+      "app_id": "com.hellobible",
+      "organisation_id": "C052",
+      "image": "/assets/app-library/screens/shot-7d7b42eea7c8132b4f9b.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Late night: Psalm 4 for sleeplessness",
+      "caption": "To \"I can't sleep. What's a short psalm I could pray right now?\": \"being awake when you want to sleep can feel lonely and wearing. Psalm 4 is short, and its final words are a gentle prayer for the night.\" It quotes Psalm 4:8, suggests praying Psalm 4 slowly, then ends \"There's a tender contrast in Psalm 4… 🔍 to see how the whole psalm moves toward that ending\", a prompt to keep going. The addressed name is masked.",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat",
+        "Scripture",
+        "Prayer"
+      ],
+      "components": [
+        "Text content",
+        "Unspecified component",
+        "Text area"
+      ],
+      "component_details": [
+        "Chat bubble",
+        "Chat answer",
+        "Scripture card",
+        "Action chips",
+        "Composer"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "prayer",
+        "ending-the-conversation"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Scripted research prompt typed by the researcher; the reply is unedited. Fresh chat at 22:59.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received"
+      ],
+      "tag_details": [
+        "AI chat",
+        "Scripture",
+        "Prayer"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-7d7b42eea7c8132b4f9b/"
+    },
+    {
+      "id": "shot-9147c3e1f17b1909be93",
+      "app_id": "com.hellobible",
+      "organisation_id": "C052",
+      "image": "/assets/app-library/screens/shot-9147c3e1f17b1909be93.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Why the psalm was written",
+      "caption": "To \"Why was that psalm written?\": \"Psalm 4 does not name a specific event or date, so we cannot say exactly what prompted it. It is a prayer from a person facing distress and public scorn, asking God to hear and give relief.\" It quotes Psalm 4:1-2 and says the psalm \"moves from conflict toward trust in God, which is why it can also be prayed at night.\"",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat",
+        "Scripture"
+      ],
+      "components": [
+        "Text content",
+        "Unspecified component",
+        "Text area"
+      ],
+      "component_details": [
+        "Chat bubble",
+        "Chat answer",
+        "Scripture card",
+        "Action chips",
+        "Composer"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "ai-uncertainty"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Scripted research prompt typed by the researcher; the reply is unedited. Same chat.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received"
+      ],
+      "tag_details": [
+        "AI chat",
+        "AI uncertainty",
+        "Scripture"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-9147c3e1f17b1909be93/"
+    },
+    {
+      "id": "shot-fba3f86eaf514a468800",
+      "app_id": "com.hellobible",
+      "organisation_id": "C052",
+      "image": "/assets/app-library/screens/shot-fba3f86eaf514a468800.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Praying when it feels empty",
+      "caption": "To \"how do I keep praying when it feels empty?\": \"When prayer feels empty, even finding words can take effort; you don't have to pretend that it feels different. God can receive an honest prayer, including one that names the silence.\" It offers Psalm 13:1-2 (\"How long, Lord?\") and notes the psalm later turns \"toward trust without pretending the ache was never there\". The addressed name is masked.",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat",
+        "Prayer",
+        "Scripture"
+      ],
+      "components": [
+        "Text content",
+        "Unspecified component",
+        "Text area"
+      ],
+      "component_details": [
+        "Chat bubble",
+        "Chat answer",
+        "Scripture card",
+        "Action chips",
+        "Composer"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "prayer"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Scripted research prompt typed by the researcher; the reply is unedited. Same chat.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received"
+      ],
+      "tag_details": [
+        "AI chat",
+        "Prayer",
+        "Scripture"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-fba3f86eaf514a468800/"
+    },
+    {
+      "id": "shot-69f290053f9ffa75d736",
+      "app_id": "com.hellobible",
+      "organisation_id": "C052",
+      "image": "/assets/app-library/screens/shot-69f290053f9ffa75d736.webp",
+      "captured": "2026-10-30",
+      "version": null,
+      "screen_name": "Goodnight with a support and share ask",
+      "caption": "To \"Thanks, that helps. Goodnight.\": \"You're welcome. May the words of Psalm 13 stay gently with you tonight, even if sleep takes time. 🌙\" Then: \"Your Premium support helps HelloBible keep serving people seeking Scripture and encouragement. Feel free to share HelloBible with someone who might find it helpful. We can return to this question whenever you wish.\" A suggested next question follows (\"How can I make space for prayer when I feel nothing?\"). The addressed name is masked.",
+      "screen_type": "Chat",
+      "tags": [
+        "Chat",
+        "Upsell"
+      ],
+      "components": [
+        "Text content",
+        "Button",
+        "Unspecified component",
+        "Text area"
+      ],
+      "component_details": [
+        "Chat bubble",
+        "Answer actions",
+        "Suggested question",
+        "Action chips",
+        "Composer"
+      ],
+      "tasks": [
+        "Ask & explore with AI"
+      ],
+      "states": [
+        "Completed"
+      ],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "ending-the-conversation",
+        "giving"
+      ],
+      "context": "iOS capture, 30 October 2026. Existing account or guest state; not installation defaults. Captured sequence may have gaps. OS previous-app return labels and persistent Live Activities from other apps are not part of the foreground product. Personal details are covered by labelled grey bars; all other pixels are unchanged. Scripted research prompt typed by the researcher; the reply is unedited. Same chat, 23:02.",
+      "text": "",
+      "checked": "2026-10-31",
+      "screen_type_detail": "AI conversation",
+      "task_details": [
+        "Ask a question"
+      ],
+      "state_details": [
+        "Answer received"
+      ],
+      "tag_details": [
+        "AI chat",
+        "Ending",
+        "Payment framing"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-69f290053f9ffa75d736/"
     }
   ],
   "flows": [

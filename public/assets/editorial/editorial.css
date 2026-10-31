@@ -144,6 +144,7 @@ em,i{font-style:italic}
 .nav a[aria-current]::after{background:linear-gradient(90deg,var(--metal-3),var(--ink) 40%,var(--ink))}
 .nav .meta{display:flex;gap:18px;align-items:center;color:var(--muted);padding-left:clamp(14px,1.8vw,28px);border-left:1px solid var(--rule)}
 .nav .meta a{color:var(--muted)}
+.nav .lang-switch{display:inline-flex;gap:6px;align-items:center}.nav .lang-switch>span[aria-hidden]{opacity:.5}.nav .lang-switch .lang-current{color:var(--ink,currentColor);font-weight:650;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1.5px}.nav .lang-switch a{text-decoration:none}.nav .lang-switch a:hover{text-decoration:underline;text-underline-offset:4px}
 .theme-btn{appearance:none;background:none;border:0;color:var(--muted);font:inherit;cursor:pointer;padding:8px 0}
 .menu-btn{display:none;appearance:none;background:none;border:0;color:var(--ink);font:500 15px/1 var(--sans);padding:12px 0 12px 12px;cursor:pointer}
 /* progress: light travelling along the bottom edge of the masthead */
