@@ -67,7 +67,7 @@
    "key": "today",
    "name": "Today’s step",
    "provenance": "Observed",
-   "origin": "Observed in Olive Tree’s in-text “1 of 3 Complete · Next” bar (see below); also borrowed from meditation apps whose home card advances to the next day. Generalized here.",
+   "origin": "Observed in Olive Tree’s in-text “1 of 3 Complete · Next” bar (see below); also borrowed from meditation apps whose home card advances to the next day. Generalized here. This is the streak redeemed as a rhythm: a break simply waits.",
    "gain": "Only the next step",
    "cost": "Little sense of the whole",
    "makes_easier": "The home screen is the progress indicator: one next step, sized to the plan, with nothing to catch up on. A break simply waits.",
@@ -350,6 +350,54 @@
      ]
     }
    ]
+  },
+  {
+   "group": "The techniques",
+   "subtitle": "Why they work, where they cross a line, what they could become",
+   "findings": [
+    {
+     "heading": "Streaks and loss aversion",
+     "text": "Streaks work because a loss weighs more than an equal gain, the loss aversion Kahneman and Tversky described: a count someone has built feels costly to lose, so they come back to protect it. The same mechanism is why a broken streak drives people away, as the studies above found. Redeemed, consistency becomes a rhythm kept with grace: a plan that waits, nothing that counts what was missed, and a count the person can switch off.",
+     "sources": [
+      "loss-aversion",
+      "broken-streaks"
+     ]
+    },
+    {
+     "heading": "Levels, badges and variable rewards",
+     "text": "Rewards that arrive unpredictably keep people checking; Nir Eyal names it the reward step of the habit loop. They cross a line when the reward becomes the reason to open Scripture. Redeemed, a milestone marks something that mattered to the person, such as finishing a book, and never decays.",
+     "sources": [
+      "eyal-hooked",
+      "rewards-intrinsic-meta"
+     ]
+    },
+    {
+     "heading": "The deciding questions",
+     "text": "Purpose: does the count serve a goal the reader chose, or a retention metric? Context: what does it say to someone back after a hard month? And the kill-switch test: would the practice survive if the count disappeared tomorrow?",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Observed, October 2026",
+   "subtitle": "What counted as a day in our captures",
+   "findings": [
+    {
+     "heading": "An open counts, or it does not",
+     "text": "YouVersion’s App Streak counted an evening when the app was only opened, while its Guided Scripture streak stayed at 0. Manna’s streak does not count an open, and its rewards escalate from +2 to +7. HelloBible showed a series of 4 days beside 0 daily verses.",
+     "sources": []
+    },
+    {
+     "heading": "A lapse worded as an invitation, or as a loss",
+     "text": "Hallow words a 0 streak as an invitation to get back in and build a prayer rhythm. Holy Scroll shows Rhythm 0 with a crying-face emoji, and Creed celebrated a 2-day streak on opening, before anything had been done.",
+     "sources": []
+    },
+    {
+     "heading": "A plan that waits",
+     "text": "Bible Chat’s plan pauses and waits after a missed day, and after a lapse it said “Grace meets you wherever you start.” The same app offers to repair a broken streak in Premium.",
+     "sources": []
+    }
+   ]
   }
  ],
  "which_fits": [
@@ -375,6 +423,25 @@
   }
  ],
  "pulls_against": [
+  {
+   "id": "reminder-and-streak",
+   "title": "Reminders that bring people back, and streaks that drive them away",
+   "options_here": [
+    "Month calendar with a streak",
+    "Today’s step"
+   ],
+   "with": {
+    "slug": "notifications",
+    "title": "Notifications and reminders",
+    "url": "https://missional.design/patterns/notifications/",
+    "options": [
+     "Engagement-driven",
+     "Their own bell"
+    ]
+   },
+   "pull": "Reminders work best when they warn of a loss, and that same loss is what makes people stop after a gap.",
+   "hold": "Remind in the person’s own words and at their times, and never mention the count. Let the plan wait after a missed day, so a reminder invites rather than threatens."
+  },
   {
    "id": "swipes-and-streaks",
    "title": "Easy swipes, and counts that matter",
@@ -558,6 +625,46 @@
    "limits": "Evangelical missional commitment, not a comparison of interface or funding-model effectiveness."
   },
   {
+   "key": "loss-aversion",
+   "title": "Loss aversion",
+   "url": "https://www.behavioraleconomics.com/resources/mini-encyclopedia-of-be/loss-aversion/",
+   "author": "BehavioralEconomics.com, after Kahneman and Tversky (1979)",
+   "kind": "Research",
+   "shows": "Losses weigh more heavily than equivalent gains, a central finding of prospect theory.",
+   "application": "Explains why a streak someone has built feels costly to lose.",
+   "limits": "A reference summary of a research tradition."
+  },
+  {
+   "key": "broken-streaks",
+   "title": "On or off track: how (broken) streaks affect consumer decisions",
+   "url": "https://udspace.udel.edu/handle/19716/34160",
+   "author": "Jackie Silverman and Alixandra Barasch · Journal of Consumer Research 49(6), 2023",
+   "kind": "Research",
+   "shows": "In seven studies, highlighting a broken streak reduced later engagement compared with an intact one, regardless of actual behaviour; the effect was stronger when people blamed themselves for the break, and weaker when the streak could be repaired.",
+   "application": "Counting consecutive days makes a missed day look like a loss; do not make the count the point.",
+   "limits": "Consumer and lab studies; not Scripture reading."
+  },
+  {
+   "key": "eyal-hooked",
+   "title": "Hooked: How to Build Habit-Forming Products",
+   "url": "https://www.penguinrandomhouse.com/books/319106/hooked-by-nir-eyal/",
+   "author": "Nir Eyal · Portfolio/Penguin, 2014",
+   "kind": "Design reference",
+   "shows": "Describes a four-step habit loop (trigger, action, variable reward, investment) and, in its chapter on ethics, a Manipulation Matrix that asks whether the maker would use the product and whether it materially improves users’ lives.",
+   "application": "Names the techniques product teams use, and an ethics test from inside the industry.",
+   "limits": "A practitioner book; the matrix is the author’s own test, not research."
+  },
+  {
+   "key": "fogg-bmap",
+   "title": "Fogg Behavior Model",
+   "url": "https://behaviormodel.org/",
+   "author": "BJ Fogg · Behavior Design Lab, Stanford",
+   "kind": "Design reference",
+   "shows": "Behaviour happens when motivation, ability and a prompt come together at the same time (B=MAP); when it does not happen, one of the three is missing.",
+   "application": "Explains why a well-timed prompt works, and which part of a design is doing the work.",
+   "limits": "A design model from industry practice, not a measure of benefit to the person."
+  },
+  {
    "key": "mcheyne-preface",
    "title": "Daily Bread: M’Cheyne’s calendar for daily readings, with his preface",
    "url": "https://vernalpc.org/resources/mcheyne-daily-bread",
@@ -616,16 +723,6 @@
    "shows": "Modelled automaticity timelines varied substantially between participants.",
    "application": "Avoid universal habit-formation deadlines.",
    "limits": "Not a gamification study or a test of intrinsic motivation replacing incentives."
-  },
-  {
-   "key": "broken-streaks",
-   "title": "On or off track: how (broken) streaks affect consumer decisions",
-   "url": "https://udspace.udel.edu/handle/19716/34160",
-   "author": "Jackie Silverman and Alixandra Barasch · Journal of Consumer Research 49(6), 2023",
-   "kind": "Research",
-   "shows": "In seven studies, highlighting a broken streak reduced later engagement compared with an intact one, regardless of actual behaviour; the effect was stronger when people blamed themselves for the break, and weaker when the streak could be repaired.",
-   "application": "Counting consecutive days makes a missed day look like a loss; do not make the count the point.",
-   "limits": "Consumer and lab studies; not Scripture reading."
   },
   {
    "key": "fresh-start",

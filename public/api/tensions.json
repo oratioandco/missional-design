@@ -3,6 +3,112 @@
  "url": "https://missional.design/patterns/tensions/",
  "tensions": [
   {
+   "id": "reminder-and-streak",
+   "title": "Reminders that bring people back, and streaks that drive them away",
+   "pages": [
+    {
+     "slug": "notifications",
+     "title": "Notifications and reminders",
+     "url": "https://missional.design/patterns/notifications/",
+     "options": [
+      "Engagement-driven",
+      "Their own bell"
+     ]
+    },
+    {
+     "slug": "progress-and-streaks",
+     "title": "Progress and streaks",
+     "url": "https://missional.design/patterns/progress-and-streaks/",
+     "options": [
+      "Month calendar with a streak",
+      "Today’s step"
+     ]
+    }
+   ],
+   "pull": "Reminders work best when they warn of a loss, and that same loss is what makes people stop after a gap.",
+   "hold": "Remind in the person’s own words and at their times, and never mention the count. Let the plan wait after a missed day, so a reminder invites rather than threatens.",
+   "url": "https://missional.design/patterns/tensions/#reminder-and-streak"
+  },
+  {
+   "id": "sustainability-and-welcome",
+   "title": "Paying for the work, and welcoming people first",
+   "pages": [
+    {
+     "slug": "giving",
+     "title": "Giving and offerings",
+     "url": "https://missional.design/patterns/giving/",
+     "options": [
+      "A gift tied to a benefit",
+      "A quiet way to give"
+     ]
+    },
+    {
+     "slug": "first-use",
+     "title": "First use",
+     "url": "https://missional.design/patterns/first-use/",
+     "options": [
+      "Asking for payment",
+      "Open on what they came for"
+     ]
+    }
+   ],
+   "pull": "An app needs money, and the strongest moment to ask is before someone has received anything.",
+   "hold": "Say plainly what stays free, let people reach what they came for first, then ask once, after value, and call a purchase a purchase and a gift a gift.",
+   "url": "https://missional.design/patterns/tensions/#sustainability-and-welcome"
+  },
+  {
+   "id": "protective-default-and-conversion",
+   "title": "Protective defaults, and opt-in rates",
+   "pages": [
+    {
+     "slug": "first-use",
+     "title": "First use",
+     "url": "https://missional.design/patterns/first-use/",
+     "options": [
+      "Guest first, an account when there is something to keep",
+      "Questions first"
+     ]
+    },
+    {
+     "slug": "notifications",
+     "title": "Notifications and reminders",
+     "url": "https://missional.design/patterns/notifications/",
+     "options": [
+      "Their own bell",
+      "Engagement-driven"
+     ]
+    }
+   ],
+   "pull": "Defaults decide most outcomes, and the defaults that protect people cost sign-ups and opt-ins.",
+   "hold": "Default to the less invasive setting, and ask at the moment a feature needs it, with a reason the person can weigh.",
+   "url": "https://missional.design/patterns/tensions/#protective-default-and-conversion"
+  },
+  {
+   "id": "fit-and-commitment",
+   "title": "Questions that improve fit, and answers that become a commitment",
+   "pages": [
+    {
+     "slug": "meeting-the-person",
+     "title": "Meeting the person where they are",
+     "url": "https://missional.design/patterns/meeting-the-person/",
+     "options": [
+      "Preferences you set"
+     ]
+    },
+    {
+     "slug": "first-use",
+     "title": "First use",
+     "url": "https://missional.design/patterns/first-use/",
+     "options": [
+      "Questions first"
+     ]
+    }
+   ],
+   "pull": "Questions at the start help an app fit the person, and the same answers can become a commitment that leads into a paywall.",
+   "hold": "Ask only what changes the content, show what each answer changed, let it be skipped or forgotten, and never let answers set a price.",
+   "url": "https://missional.design/patterns/tensions/#fit-and-commitment"
+  },
+  {
    "id": "meeting-and-truth",
    "title": "Meeting someone where they are, and telling them the truth",
    "pages": [
