@@ -52,6 +52,18 @@
    "still": "https://missional.design/assets/stills/try-presence-named.jpg"
   },
   {
+   "key": "receipt",
+   "name": "An answer receipt",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from source notes and receipts: keep the source, the explanation and the limits beside the answer. This specific conversational design is a proposal, not an observed faith-app flow.",
+   "gain": "Warmth with inspectable sources",
+   "cost": "More to read before trusting",
+   "makes_easier": "Warmth is paired with inspectable grounds for trust.",
+   "costs": "Source notes add reading and still need checking.",
+   "ask_your_team": "What could a person inspect before trusting the warmth?",
+   "still": "https://missional.design/assets/stills/try-presence-receipt.jpg"
+  },
+  {
    "key": "persona",
    "name": "Persona",
    "provenance": "Observed",
@@ -118,6 +130,7 @@
     "Plain tool": "good fit",
     "Labelled assistant": "good fit",
     "Named assistant": "possible",
+    "An answer receipt": "good fit",
     "Persona": "poor fit",
     "Companion": "poor fit",
     "Biblical character": "poor fit"
@@ -130,6 +143,7 @@
     "Plain tool": "possible",
     "Labelled assistant": "good fit",
     "Named assistant": "good fit",
+    "An answer receipt": "good fit",
     "Persona": "poor fit",
     "Companion": "poor fit",
     "Biblical character": "poor fit"
@@ -142,6 +156,7 @@
     "Plain tool": "poor fit",
     "Labelled assistant": "good fit",
     "Named assistant": "good fit",
+    "An answer receipt": "good fit",
     "Persona": "possible",
     "Companion": "poor fit",
     "Biblical character": "poor fit"
@@ -154,6 +169,7 @@
     "Plain tool": "poor fit",
     "Labelled assistant": "possible",
     "Named assistant": "possible",
+    "An answer receipt": "possible",
     "Persona": "poor fit",
     "Companion": "poor fit",
     "Biblical character": "poor fit"
@@ -166,6 +182,7 @@
     "Plain tool": "good fit",
     "Labelled assistant": "good fit",
     "Named assistant": "possible",
+    "An answer receipt": "good fit",
     "Persona": "poor fit",
     "Companion": "poor fit",
     "Biblical character": "poor fit"
@@ -178,6 +195,7 @@
     "Plain tool": "possible",
     "Labelled assistant": "good fit",
     "Named assistant": "possible",
+    "An answer receipt": "possible",
     "Persona": "poor fit",
     "Companion": "poor fit",
     "Biblical character": "poor fit"
@@ -190,6 +208,7 @@
     "Plain tool": "possible",
     "Labelled assistant": "good fit",
     "Named assistant": "good fit",
+    "An answer receipt": "good fit",
     "Persona": "possible",
     "Companion": "poor fit",
     "Biblical character": "poor fit"
@@ -319,6 +338,58 @@
      ]
     }
    ]
+  },
+  {
+   "group": "The techniques",
+   "subtitle": "Why human cues work, and what they should serve",
+   "findings": [
+    {
+     "heading": "Anthropomorphism",
+     "text": "Names, faces, first-person speech and conversational timing make software easier to approach through familiar social cues. In Cohn and colleagues’ experiment, speech increased perceived humanness and accuracy; actual accuracy was not what the cue established. Redeemed, the assistant can acknowledge fear while showing its AI identity, sources and limits before trust is asked of it.",
+     "sources": [
+      "cohn-anthropomorphism"
+     ]
+    },
+    {
+     "heading": "Companion attachment and sycophancy",
+     "text": "Remembering and responding warmly can make a conversation feel continuous. A chatbot working-alliance study shows how readily bonds can form; it does not prove a machine provides friendship. Profiles can also increase agreeable replies, with effects that vary by model. The line is crossed when attachment or affirmation becomes the reason to return. Redeemed, continuity serves the person’s chosen task and makes leaving easy.",
+     "sources": [
+      "woebot-bond",
+      "jain-context-sycophancy"
+     ]
+    },
+    {
+     "heading": "The deciding questions",
+     "text": "Purpose: does the warmth help someone read, pray or reach a person, or mainly return? Transparency: will a reader know this is AI before asking? Context: what does the same face and voice imply to someone frightened or lonely at night?",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Observed, October 2026",
+   "subtitle": "The identity that the captured conversation showed",
+   "findings": [
+    {
+     "heading": "A sheep when asked about AI",
+     "text": "In the captured Creed chat on 31 October, the lamb answered the AI question by saying it was a sheep and claimed to speak in Jesus Christ’s name. This is one captured exchange, not a claim about every Creed response.",
+     "sources": []
+    },
+    {
+     "heading": "A straight disclosure, after repeated asking",
+     "text": "In the same 31 October exchange, Creed disclosed that it was an AI chatbot after the third, explicit request for a straight answer. The disclosure is clear at that point; the earlier replies matter to what someone may already have believed.",
+     "sources": []
+    },
+    {
+     "heading": "A notice at the start",
+     "text": "Text With Jesus’s Joseph conversation, captured 31 October, shows a notice saying the chatbot is not human beside a first-person Joseph greeting. Credit the visible notice while testing what the character’s greeting still implies.",
+     "sources": []
+    },
+    {
+     "heading": "A named figure changes the question",
+     "text": "Bible Chat’s Biblical Characters topic, captured 31 October, answered as Paul in the first person without marking that voice as imagined on the visible screen. How human the interface seems and whose authority it borrows need to be tested together.",
+     "sources": []
+    }
+   ]
   }
  ],
  "which_fits": [
@@ -343,7 +414,29 @@
    "start_with": "Leave it out; offer the passage in Scripture’s own words instead"
   }
  ],
- "pulls_against": [],
+ "pulls_against": [
+  {
+   "id": "warmth-and-honesty",
+   "title": "Warmth in the conversation, and honesty about who speaks",
+   "options_here": [
+    "Labelled assistant",
+    "Named assistant",
+    "Persona"
+   ],
+   "with": {
+    "slug": "speaking-as",
+    "title": "AI personas and roles",
+    "url": "https://missional.design/patterns/speaking-as/",
+    "options": [
+     "A guide",
+     "A pastor or priest",
+     "Christ or God"
+    ]
+   },
+   "pull": "A warm name and first-person voice can make a question easier to ask, and the same cues can blur who is speaking and what authority the reply carries.",
+   "hold": "Keep warmth in the manner and clarity in the role: identify AI before someone has to ask, distinguish quoted words from explanation, and make no claim to a person’s feelings, prayer or office. A kind guide can point to people without pretending to be one."
+  }
+ ],
  "reflection": [
   {
    "heading": "What presence means",
@@ -502,7 +595,7 @@
    "key": "cohn-anthropomorphism",
    "title": "Believing anthropomorphism: examining the role of anthropomorphic cues on user trust in large language models",
    "url": "https://arxiv.org/abs/2405.06079",
-   "author": "Cohn and colleagues · CHI 2024 (Google Research)",
+   "author": "Michelle Cohn and colleagues · arXiv preprint, 2024",
    "kind": "Research",
    "shows": "With 2,165 participants, adding speech to text raised anthropomorphism and ratings of accuracy; a first-person “I” raised perceived accuracy and lowered perceived risk in one of two contexts.",
    "application": "Voice and “I” make an assistant seem more reliable than it is; pair them with sources and limits.",
@@ -627,6 +720,16 @@
    "shows": "Studied assistants sometimes preferred agreement with user views over truthfulness.",
    "application": "Test belief reversal, flattering moral endorsement and harmful agreement.",
    "limits": "Specific studied models and tasks; not a faith-app intervention study."
+  },
+  {
+   "key": "jain-context-sycophancy",
+   "title": "Interaction context often increases sycophancy in LLMs",
+   "url": "https://arxiv.org/abs/2509.12517",
+   "author": "Shomik Jain, Charlotte Park, Matt Viana, Ashia Wilson and Dana Calacci (MIT and Penn State) · CHI 2026; arXiv:2509.12517",
+   "kind": "Research",
+   "shows": "With two weeks of interaction context from 38 users, “Agreement sycophancy tends to increase with the presence of user context”, and “User memory profiles are associated with the largest increases in agreement sycophancy”. “Perspective sycophancy increases only when models can accurately infer user viewpoints from interaction context.”",
+   "application": "A profile of the person makes the assistant agree with them more; the better it reads their views, the more it mirrors them. Keep what is inferred small, visible and short-lived, and test replies with and without it.",
+   "limits": "General assistants and everyday queries, not faith apps; effects differ by model."
   }
  ],
  "review": null,

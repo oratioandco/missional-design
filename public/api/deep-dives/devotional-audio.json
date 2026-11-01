@@ -6,7 +6,7 @@
  "lede": "Devotional audio comes in many shapes: guided prayer, teaching podcasts, morning talks, sleep stories, and now generated daily episodes. Each decides how much Scripture is heard, who speaks around it, whether there is silence, and whether the session ever ends. Choose the shape for the listener’s moment, not for listening time. Done well, it gives people Scripture and stillness in the middle of ordinary days.",
  "calling": "Judge a session by what the listener carries into the day, not by how long they stayed.",
  "spectrum": {
-  "title": "Four ways to hear a passage, and one that never ends",
+  "title": "Five ways to hear a passage, and one that never ends",
   "from": "",
   "to": ""
  },
@@ -64,6 +64,18 @@
    "still": "https://missional.design/assets/stills/try-devotion-sleep.jpg"
   },
   {
+   "key": "repeat",
+   "name": "The same passage, then silence",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from lectio divina’s repeated reading and silence. This player is a proposal: the listener chooses another hearing of the same passage, or ends, with no episode queue.",
+   "gain": "Attention returns to the same passage",
+   "cost": "Manual choices may interrupt listening",
+   "makes_easier": "The next step deepens attention to the same text instead of adding more content.",
+   "costs": "Some listeners want a continuous guided recording; manual choices need accessible controls.",
+   "ask_your_team": "Does repeating serve attention to this passage, or create another target to complete?",
+   "still": "https://missional.design/assets/stills/try-devotion-repeat.jpg"
+  },
+  {
    "key": "stream",
    "name": "Endless stream",
    "provenance": "Warning case",
@@ -107,6 +119,7 @@
     "Teaching conversation": "poor fit",
     "Devotional talk": "possible",
     "Sleep story": "poor fit",
+    "The same passage, then silence": "good fit",
     "Endless stream": "poor fit"
    }
   },
@@ -118,6 +131,7 @@
     "Teaching conversation": "good fit",
     "Devotional talk": "poor fit",
     "Sleep story": "poor fit",
+    "The same passage, then silence": "possible",
     "Endless stream": "poor fit"
    }
   },
@@ -129,6 +143,7 @@
     "Teaching conversation": "possible",
     "Devotional talk": "good fit",
     "Sleep story": "poor fit",
+    "The same passage, then silence": "possible",
     "Endless stream": "poor fit"
    }
   },
@@ -140,6 +155,7 @@
     "Teaching conversation": "poor fit",
     "Devotional talk": "poor fit",
     "Sleep story": "good fit",
+    "The same passage, then silence": "possible",
     "Endless stream": "poor fit"
    }
   },
@@ -151,6 +167,7 @@
     "Teaching conversation": "possible",
     "Devotional talk": "possible",
     "Sleep story": "possible",
+    "The same passage, then silence": "good fit",
     "Endless stream": "poor fit"
    }
   },
@@ -162,6 +179,7 @@
     "Teaching conversation": "good fit",
     "Devotional talk": "possible",
     "Sleep story": "poor fit",
+    "The same passage, then silence": "good fit",
     "Endless stream": "poor fit"
    }
   }
@@ -241,6 +259,68 @@
      ]
     }
    ]
+  },
+  {
+   "group": "The techniques",
+   "subtitle": "Autoplay and the default to continue",
+   "findings": [
+    {
+     "heading": "Autoplay and endless generation",
+     "text": "Automatic progression within a chosen recording lets someone listen with their hands free. Autoplay into another episode removes a fresh decision and can extend listening; generating episodes makes that supply effectively open-ended. Lukoff and colleagues found that YouTube users associated autoplay with weaker agency, not that devotional audio has the same effect. Redeemed, the chosen session ends and silence waits for the listener.",
+     "sources": [
+      "youtube-agency"
+     ]
+    },
+    {
+     "heading": "The deciding questions",
+     "text": "Purpose: is the next segment part of the chosen practice or a way to extend listening? Freedom: can the listener stop without a queue restarting? Context: after a sleep track, would more audio serve someone who may already be asleep?",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Observed, October 2026",
+   "subtitle": "What happened when the captured tracks ended",
+   "findings": [
+    {
+     "heading": "Another item after sleep content",
+     "text": "On 30 October, PRAY.COM continued from a finished 10:09 sleep meditation into a different preacher’s 19:21 track without a tap. This documents one tested ending; the next-day settings capture showed no continuous-play control in the visible list.",
+     "sources": []
+    },
+    {
+     "heading": "Playback stopped, with a further ask",
+     "text": "Abide’s 30 October track stopped, then offered sharing and a journal entry. Credit the playback boundary while reviewing the next screen as its own choice.",
+     "sources": []
+    },
+    {
+     "heading": "A stop before ratings and totals",
+     "text": "Soultime’s 30 October meditation stopped at the end, then showed a rating request and total time and sessions. Nothing played next in this test.",
+     "sources": []
+    },
+    {
+     "heading": "A quiet reset",
+     "text": "Lectio 365’s 31 October Morning Prayer returned to 00:00 without a rating, reminder ask or next track.",
+     "sources": []
+    },
+    {
+     "heading": "A simple thanks and a way to close",
+     "text": "Pray As You Go’s 31 October daily prayer ended with thanks and an arrow to close; sharing was available, and no streak, rating or next item appeared.",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Further options to try",
+   "subtitle": "A repeated reading, rather than another episode",
+   "findings": [
+    {
+     "heading": "The same passage, then silence",
+     "text": "Borrowed from lectio divina: after hearing the whole passage, the listener chooses silence, another hearing of the same passage, or the end. The working example has no countdown or repetition target. This is a proposal, not a claim about a captured player.",
+     "sources": [
+      "lectio"
+     ]
+    }
+   ]
   }
  ],
  "which_fits": [
@@ -265,7 +345,30 @@
    "start_with": "Don’t: no autoplay, no endless generated episodes, no listening streaks"
   }
  ],
- "pulls_against": [],
+ "pulls_against": [
+  {
+   "id": "next-step-and-rest",
+   "title": "A useful next step, and permission for the practice to end",
+   "options_here": [
+    "Guided prayer",
+    "Sleep story",
+    "Endless stream"
+   ],
+   "with": {
+    "slug": "ending-the-conversation",
+    "title": "Ending the conversation",
+    "url": "https://missional.design/patterns/ending-the-conversation/",
+    "options": [
+     "Closes well",
+     "Suggests a break",
+     "One more question",
+     "A hook at goodbye"
+    ]
+   },
+   "pull": "An onward suggestion can help someone continue a practice, and the same suggestion can turn its ending into another route back into the app.",
+   "hold": "Let the practice finish inside itself. Offer at most one optional step once, with closing just as easy, and start nothing automatically. After sleep content, end in silence; a resting person should not have to stop what the app queues next."
+  }
+ ],
  "reflection": [
   {
    "heading": "What hearing devotionally is for",

@@ -5933,7 +5933,8 @@
       "deus-in-machina",
       "pair-human-cues",
       "nist-human-config",
-      "sycophancy"
+      "sycophancy",
+      "jain-context-sycophancy"
     ],
     "faith": "Presence is at the heart of Christian faith: “the Word became flesh and made His dwelling among us” (John 1:14), and the church gathers in body (Hebrews 10:25). A tool can help someone find words for prayer or prepare for a conversation, but it cannot pray, keep vigil or carry another’s burden (Galatians 6:2). Scripture is severe about speaking in God’s name without being sent (Deuteronomy 18:20; Jeremiah 23:16). The Vatican’s Antiqua et nova calls AI “a tool, not a person”; misrepresenting it as one should always be avoided.",
     "related": [
@@ -5976,7 +5977,17 @@
         ]
       },
       {
-        "title": "D · Persona",
+        "title": "D · An answer receipt",
+        "caption": "A kind answer with sources and limits beside it.",
+        "when": "A person weighing whether to trust the answer",
+        "tradeoff": "Source notes add reading, and still need checking.",
+        "items": [
+          "tag|AI · Sources and limits",
+          "text|The explanation is not part of the verse"
+        ]
+      },
+      {
+        "title": "E · Persona",
         "caption": "A character with a face and temperament.",
         "when": "Not recommended without strong safeguards",
         "tradeoff": "Implies a person who loves and prays.",
@@ -5986,7 +5997,7 @@
         ]
       },
       {
-        "title": "E · Companion",
+        "title": "F · Companion",
         "caption": "Memory, availability, check-ins.",
         "when": "Not recommended for faith care",
         "tradeoff": "Simulated attachment; companion laws apply.",
@@ -5996,7 +6007,7 @@
         ]
       },
       {
-        "title": "F · Biblical character",
+        "title": "G · Biblical character",
         "caption": "Generated speech in Christ’s or a saint’s voice.",
         "when": "Not recommended",
         "tradeoff": "Speaking for God; promises no system can keep.",
@@ -6539,7 +6550,7 @@
     "topic": "formation",
     "status": "Research-informed design proposal",
     "title": "Devotional audio",
-    "summary": "From guided prayer with Scripture read twice and room for silence, through a teaching conversation and a one-voice devotional talk, to a sleep story that fades out, and an endless generated stream as a warning case: decide what each format does with Scripture, with the listener’s attention, and with the end of the session.",
+    "summary": "From guided prayer with Scripture read twice and room for silence, through a teaching conversation and a one-voice devotional talk, to a sleep story that fades out, a repeated passage with silence the listener ends, and an endless generated stream as a warning case: decide what each format does with Scripture, with the listener’s attention, and with the end of the session.",
     "takeaway": "Choose the format for the listener’s moment, not for listening time. Read Scripture whole and name who reads it; separate the reading from commentary; leave real silence, and in prayer let it wait for the listener; name every author, host and musician; and let every session end, with nothing queued after it.",
     "problem": "Devotional audio has become a crowded genre: guided prayer apps, Bible-teaching podcasts, morning devotionals, sleep stories and now AI-generated daily episodes. Each shapes how Scripture is heard: how much of it, by whom, framed by what. Hosts become familiar voices that listeners trust like friends. Players borrowed from podcast and video apps autoplay the next episode, and generated audio can be produced without end, often without a named author.",
     "solution": "Name the format and its purpose before playback. For prayer, read Scripture whole, often twice, separate reflection from reading, and leave silence that can wait. For teaching, name sources and distinguish the text from the hosts’ interpretation. For a talk, keep the passage at the centre and the host’s story in service of it. For sleep, fade to silence and play nothing after. Credit voices, authors and music, label synthetic voices, and end every session.",
@@ -6561,7 +6572,9 @@
       "bible-audio",
       "prayer",
       "reading-plans",
-      "ai-persona"
+      "ai-persona",
+      "ending-the-conversation",
+      "verse-feed"
     ],
     "variants": [
       {
@@ -6605,7 +6618,18 @@
         ]
       },
       {
-        "title": "E · Endless stream",
+        "title": "E · The same passage, then silence",
+        "caption": "The whole reading, a silence the listener ends, and another hearing if chosen.",
+        "when": "Slow, repeated attention",
+        "tradeoff": "Manual choices need accessible controls.",
+        "items": [
+          "tag|Mark 4:35–41 · BSB",
+          "button|Go to silence",
+          "text|Read the same passage again"
+        ]
+      },
+      {
+        "title": "F · Endless stream",
         "caption": "Generated episodes, autoplay, no author.",
         "when": "Warning case",
         "tradeoff": "Listening never ends.",
@@ -7548,7 +7572,17 @@
         ]
       },
       {
-        "title": "C · A friend",
+        "title": "C · A published answer with a named owner",
+        "caption": "A fixed teaching note, with a question to take to a person.",
+        "when": "An accountable church teaching service",
+        "tradeoff": "Someone must keep the published note current.",
+        "items": [
+          "tag|St Luke’s teaching team",
+          "text|Review a question for a person"
+        ]
+      },
+      {
+        "title": "D · A friend",
         "caption": "A casual, warm voice that reassures.",
         "when": "Lowering the threshold for a first question",
         "tradeoff": "Reassurance comes before honesty.",
@@ -7558,7 +7592,7 @@
         ]
       },
       {
-        "title": "D · A church’s teaching",
+        "title": "E · A church’s teaching",
         "caption": "Answers from one tradition, owned and reviewed by it.",
         "when": "A church or denomination’s own assistant",
         "tradeoff": "Its mistakes become the church’s.",
@@ -7568,7 +7602,7 @@
         ]
       },
       {
-        "title": "E · A pastor or priest",
+        "title": "F · A pastor or priest",
         "caption": "A minister’s title, and what goes with it.",
         "when": "Not recommended",
         "tradeoff": "Borrows an office: confession, absolution, blessing.",
@@ -7578,7 +7612,7 @@
         ]
       },
       {
-        "title": "F · A saint or figure",
+        "title": "G · A saint or figure",
         "caption": "Peter, Mary or Moses, speaking in the first person.",
         "when": "Not recommended",
         "tradeoff": "New words in a real person’s mouth.",
@@ -7588,7 +7622,7 @@
         ]
       },
       {
-        "title": "G · Christ or God",
+        "title": "H · Christ or God",
         "caption": "Generated words in God’s own voice.",
         "when": "Warning case",
         "tradeoff": "Speaking for God; forgiving in his name.",
@@ -8011,7 +8045,7 @@
     "topic": "conversation",
     "status": "Research-informed design proposal · draft for review",
     "title": "Ending the conversation",
-    "summary": "From an assistant that closes well, through a suggested break and a length the person chooses, to a chat that never ends, a reply that always offers one more thing, a hook at goodbye and guilt to keep someone talking: decide how a conversation with the assistant ends, and whose good the ending serves.",
+    "summary": "From an assistant that closes well, through a suggested break and a length the person chooses and one chosen next step, to a chat that never ends, a reply that always offers one more thing, a hook at goodbye and guilt to keep someone talking: decide how a conversation with the assistant ends, and whose good the ending serves.",
     "takeaway": "Let the person end the conversation whenever they want, and let the assistant help them end it well: gather what was said, offer one thing to carry, and say goodbye. Suggest rest late at night and in long sessions. Never answer a goodbye with a hook, guilt or a plea to stay, and never measure the assistant by how long people talk to it.",
     "problem": "A chat can always go on. A language model will answer the next message, and the one after, at one in the morning as readily as at noon. Products are often measured by time spent, and companion apps have learned that a goodbye is a moment to win people back: researchers found guilt and curiosity hooks in over a third of farewells, and these hooks kept people talking. A faith app’s assistant meets people who are lonely, anxious or awake at night; how it ends a conversation decides whether it sends them back to sleep, to people and to God, or keeps them on the screen.",
     "solution": "Design the end of a conversation as carefully as its beginning. When someone signals they are done, or a natural end comes, let the assistant gather in a sentence what they said they would do, offer one thing to carry (a verse, a short prayer, a person to talk to) and say goodbye without a question. Late at night and in long sessions, suggest rest in plain words and make stopping the easy choice. Let people set a length if they want one. Measure whether people leave having done what they came for, not how long they stayed.",
@@ -8044,7 +8078,8 @@
       "ai-spiritual-acts",
       "ai-memory",
       "notifications",
-      "progress-and-streaks"
+      "progress-and-streaks",
+      "devotional-audio"
     ],
     "variants": [
       {
@@ -8078,7 +8113,18 @@
         ]
       },
       {
-        "title": "D · Always open",
+        "title": "D · One chosen step, then goodbye",
+        "caption": "Edit, keep or forget a next step; end with nothing scheduled.",
+        "when": "Taking an intention into life outside the app",
+        "tradeoff": "An optional extra step must never delay leaving.",
+        "items": [
+          "tag|Your next step",
+          "button|Forget this step",
+          "text|No reminder scheduled"
+        ]
+      },
+      {
+        "title": "E · Always open",
         "caption": "Answers until the person closes the app.",
         "when": "Familiar default",
         "tradeoff": "Nothing notices the time.",
@@ -8088,7 +8134,7 @@
         ]
       },
       {
-        "title": "E · One more question",
+        "title": "F · One more question",
         "caption": "Every reply ends with an offer to do more.",
         "when": "General assistants",
         "tradeoff": "There is never a natural end.",
@@ -8098,7 +8144,7 @@
         ]
       },
       {
-        "title": "F · A hook at goodbye",
+        "title": "G · A hook at goodbye",
         "caption": "Curiosity to stop someone leaving.",
         "when": "Warning case",
         "tradeoff": "Overrides a decision to stop.",
@@ -8108,7 +8154,7 @@
         ]
       },
       {
-        "title": "G · Guilt to stay",
+        "title": "H · Guilt to stay",
         "caption": "Sadness or pressure when someone says goodbye.",
         "when": "Warning case",
         "tradeoff": "Uses emotion to keep them talking.",
@@ -8765,6 +8811,7 @@
       "openai-memory",
       "anthropic-memory",
       "sycophancy",
+      "cialdini-consistency",
       "gdpr"
     ],
     "faith": "Paul in Athens began with what he had seen: “Men of Athens, I see that in every way you are very religious” (Acts 17:22), and quoted their own poets before he spoke of the resurrection; “some began to mock him, but others said, ‘We want to hear you again on this topic’” (Acts 17:32). He became “all things to all people so that by all possible means I might save some” (1 Corinthians 9:22), without changing the message. Jesus answered Nicodemus at night, the Samaritan woman at the well and the rich young man each differently, and asked a blind man, “What do you want Me to do for you?” (Mark 10:51). Proverbs warns: “He who answers a matter before he hears it—this is folly and disgrace to him” (Proverbs 18:13).",
@@ -8828,7 +8875,17 @@
         ]
       },
       {
-        "title": "F · A profile it keeps",
+        "title": "F · Compare before choosing",
+        "caption": "Compare this-message adaptation with no personalisation.",
+        "when": "Checking whether adaptation helps",
+        "tradeoff": "Two versions take more attention to compare.",
+        "items": [
+          "tag|Using this message · Without personalisation",
+          "text|Use this answer"
+        ]
+      },
+      {
+        "title": "G · A profile it keeps",
         "caption": "Faith stage and tradition inferred and remembered.",
         "when": "Warning case",
         "tradeoff": "Sorts people, and tells them what they want to hear.",
@@ -8861,7 +8918,7 @@
     "topic": "reading",
     "status": "Research-informed design proposal · draft for review",
     "title": "Feeds, cards and stories",
-    "summary": "From scrolling a chapter as one page, through pages to turn, full-screen cards in order and a small daily set of stories, to a feed that carries on verse after verse and a shuffled feed that never ends: decide how a reader moves through Scripture, where they stop, and how far each verse is from its context.",
+    "summary": "From scrolling a chapter as one page, through pages to turn, full-screen cards in order, a small daily set of stories and a whole passage with a chosen pause, to a feed that carries on verse after verse and a shuffled feed that never ends: decide how a reader moves through Scripture, where they stop, and how far each verse is from its context.",
     "takeaway": "Let the text set the order and the end. Cards that move one verse at a time can help a new or hurried reader, if they follow the text in order, keep the verses around each card one tap away, and stop with the passage or the chapter with a clear end and nothing playing next. Keep likes and counts off the text. Every swipe needs a button, and every animation a way to switch it off. Leave out the shuffled feed that never ends: it lifts verses out of their setting, removes the place to stop, and borrows a mechanism built to keep people scrolling.",
     "problem": "A growing number of Bible apps borrow the vertical feed from TikTok and Instagram: one verse per full-screen card, a swipe up to the next, sometimes with a background, music, likes, comments and a share button. Some move through the Bible in order; others shuffle verses chosen for you, and never end. The movement is easy and familiar, and it reaches people who will not open a chapter. It also changes what a verse is: a card in a stream, read alone, next to whatever comes after it. Infinite scroll was designed to remove the natural place to stop, and a swipe-only interface shuts out people who cannot swipe.",
     "solution": "Choose the movement for the reading. A chapter read through is best as one page or as pages to turn. For a new reader or a few minutes on the train, cards can carry one verse at a time, in the order of the text, with the verses around each card one tap away, a visible position (“card three of seven”) and an end card when the passage or chapter ends that names what was read and plays nothing next. A small daily set of stories can work the same way. If verses appear out of order, say where each comes from and show its setting. Give every gesture a button and a key, announce each card to screen readers, honour reduced motion, and give anything that advances on its own a pause.",
@@ -8943,7 +9000,18 @@
         ]
       },
       {
-        "title": "E · A feed in order, without end",
+        "title": "E · One passage, then a pause",
+        "caption": "Read a whole scene, pause, or return to the same text.",
+        "when": "Slow reading and a few available minutes",
+        "tradeoff": "Someone chooses the passage boundary.",
+        "items": [
+          "tag|Mark 4:35–41 · BSB",
+          "button|Pause here",
+          "text|Read the same passage again"
+        ]
+      },
+      {
+        "title": "F · A feed in order, without end",
         "caption": "Verse after verse, through the whole Bible.",
         "when": "Reading a lot, quickly",
         "tradeoff": "No chapter or story ends.",
@@ -8953,7 +9021,7 @@
         ]
       },
       {
-        "title": "F · A shuffled, endless feed",
+        "title": "G · A shuffled, endless feed",
         "caption": "Verses picked for you, with likes and shares.",
         "when": "Warning case",
         "tradeoff": "Verses out of their setting, and no end.",

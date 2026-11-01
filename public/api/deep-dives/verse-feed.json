@@ -64,6 +64,18 @@
    "still": "https://missional.design/assets/stills/try-feed-stories.jpg"
   },
   {
+   "key": "passage",
+   "name": "One passage, then a pause",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from reading a complete passage and from lectio divina’s repeated attention to it. The boundary and pause screen here are our proposal; no faith app is claimed to ship this interface.",
+   "gain": "A whole scene and a chosen stop",
+   "cost": "The boundary needs editorial care",
+   "makes_easier": "The text supplies a meaningful boundary, and continuing is a fresh choice.",
+   "costs": "Someone still chooses the passage boundary; a short reading can need wider context.",
+   "ask_your_team": "Does the text supply the stopping point, and can the reader easily see what surrounds it?",
+   "still": "https://missional.design/assets/stills/try-feed-passage.jpg"
+  },
+  {
    "key": "onward",
    "name": "A feed in order, without end",
    "provenance": "Observed",
@@ -123,6 +135,7 @@
     "Pages to turn": "good fit",
     "Cards in order": "possible",
     "A daily set of stories": "poor fit",
+    "One passage, then a pause": "good fit",
     "A feed in order, without end": "possible",
     "A shuffled, endless feed": "poor fit"
    }
@@ -135,6 +148,7 @@
     "Pages to turn": "good fit",
     "Cards in order": "good fit",
     "A daily set of stories": "good fit",
+    "One passage, then a pause": "good fit",
     "A feed in order, without end": "possible",
     "A shuffled, endless feed": "poor fit"
    }
@@ -147,6 +161,7 @@
     "Pages to turn": "possible",
     "Cards in order": "good fit",
     "A daily set of stories": "good fit",
+    "One passage, then a pause": "good fit",
     "A feed in order, without end": "possible",
     "A shuffled, endless feed": "poor fit"
    }
@@ -159,6 +174,7 @@
     "Pages to turn": "possible",
     "Cards in order": "good fit",
     "A daily set of stories": "possible",
+    "One passage, then a pause": "possible",
     "A feed in order, without end": "possible",
     "A shuffled, endless feed": "poor fit"
    }
@@ -171,6 +187,7 @@
     "Pages to turn": "possible",
     "Cards in order": "good fit",
     "A daily set of stories": "possible",
+    "One passage, then a pause": "good fit",
     "A feed in order, without end": "poor fit",
     "A shuffled, endless feed": "poor fit"
    }
@@ -183,6 +200,7 @@
     "Pages to turn": "possible",
     "Cards in order": "poor fit",
     "A daily set of stories": "poor fit",
+    "One passage, then a pause": "good fit",
     "A feed in order, without end": "poor fit",
     "A shuffled, endless feed": "poor fit"
    }
@@ -195,6 +213,7 @@
     "Pages to turn": "good fit",
     "Cards in order": "good fit",
     "A daily set of stories": "possible",
+    "One passage, then a pause": "good fit",
     "A feed in order, without end": "possible",
     "A shuffled, endless feed": "poor fit"
    }
@@ -269,7 +288,7 @@
     },
     {
      "heading": "Where people meet the Bible now",
-     "text": "The editor’s Kairos paper reports from NRB and Barna that among younger people “Nearly a quarter engage with biblical content on TikTok”, and calls a verse of the day “Often underestimated, despite its role in everyday formation”. Many will meet Scripture in a feed whatever Bible apps do.",
+     "text": "My Kairos paper reports from NRB and Barna that among younger people “Nearly a quarter engage with biblical content on TikTok”, and calls a verse of the day “Often underestimated, despite its role in everyday formation”. Many will meet Scripture in a feed whatever Bible apps do.",
      "sources": [
       "kairos-final"
      ]
@@ -342,6 +361,58 @@
      "text": "“Support user preferences for motion, and eliminate unnecessary motion effects.” Stories or verses that advance on their own need a pause.",
      "sources": [
       "wcag-233"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "The techniques",
+   "subtitle": "Why an endless feed works, and what it could become",
+   "findings": [
+    {
+     "heading": "Infinite scroll and variable rewards",
+     "text": "Infinite scroll removes the repeated decision to load another page. An unpredictable next card adds a variable reward: perhaps the next one will feel especially relevant. Rixen and colleagues discuss partial reinforcement as one proposed explanation, while their field study follows how people actually leave social feeds. It is not evidence that a verse card causes addiction. Redeemed, easy movement stays, but the passage supplies an end and another reading requires a choice.",
+     "sources": [
+      "rixen-loop"
+     ]
+    },
+    {
+     "heading": "The deciding questions",
+     "text": "Purpose: are swipes serving understanding or a use target? Freedom: is there a meaningful place to stop? Context: can the reader reach the surrounding passage before a detached sentence becomes advice?",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Observed, October 2026",
+   "subtitle": "What the captured reading surfaces show",
+   "findings": [
+    {
+     "heading": "A finite passage, one verse at a time",
+     "text": "Glorify’s 31 October capture shows Ecclesiastes 2:11 on the last verse card, followed by COMPLETE PASSAGE. This credits a bounded, ordered reading; the frame does not establish understanding or the effect of its progress bar.",
+     "sources": []
+    },
+    {
+     "heading": "A verse held behind a reveal",
+     "text": "Bible Chat’s 30 October home card shows the opening of 2 Corinthians 5:17 sharply while the rest is blurred until Read or Listen is chosen. A reveal can invite a first action; the capture alone does not show why people tap or how they read afterwards.",
+     "sources": []
+    },
+    {
+     "heading": "A sparse verse reader",
+     "text": "Holy Scroll’s 24 October public screens show Genesis 1:1 and then Genesis 1:2 in the same spacious reader. This establishes the one-verse presentation, not an endless or shuffled session. Its infinite-scroll positioning is documented separately in the listing above.",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Further options to try",
+   "subtitle": "Borrowed practice in the working example",
+   "findings": [
+    {
+     "heading": "One passage, then a pause",
+     "text": "Borrowed from complete-passage reading and lectio divina: keep the whole scene in view, let it end, and offer another reading of the same passage. The prototype also opens the whole chapter; its chosen boundary is identified as editorial.",
+     "sources": [
+      "lectio"
      ]
     }
    ]

@@ -31,6 +31,7 @@
     "Plain tool (Familiar convention)",
     "Labelled assistant (Familiar convention)",
     "Named assistant (Exploratory)",
+    "An answer receipt (Borrowed)",
     "Persona (Observed)",
     "Companion (Observed)",
     "Biblical character (Observed)"
@@ -52,6 +53,7 @@
    "options": [
     "No speaker (Familiar convention)",
     "A guide (Exploratory)",
+    "A published answer with a named owner (Borrowed)",
     "A friend (Observed)",
     "A church’s teaching (Observed)",
     "A pastor or priest (Observed)",
@@ -227,6 +229,7 @@
     "Teaching conversation (Familiar convention)",
     "Devotional talk (Observed)",
     "Sleep story (Observed)",
+    "The same passage, then silence (Borrowed)",
     "Endless stream (Warning case)"
    ],
    "decide": "After the session, could the listener say what Scripture said, who spoke, and why it ended?",
@@ -547,6 +550,7 @@
     "Asks before assuming (Exploratory)",
     "Preferences you set (Observed)",
     "Assumed, and shown (Exploratory)",
+    "Compare before choosing (Borrowed)",
     "A profile it keeps (Warning case)"
    ],
    "decide": "What does this assistant assume about the person in front of it, where does that come from, and can they see it, correct it and make it forget?",
@@ -575,6 +579,7 @@
     "Pages to turn (Familiar convention)",
     "Cards in order (Observed)",
     "A daily set of stories (Observed)",
+    "One passage, then a pause (Borrowed)",
     "A feed in order, without end (Observed)",
     "A shuffled, endless feed (Warning case)"
    ],
@@ -734,6 +739,7 @@
     "Closes well (Exploratory)",
     "Suggests a break (Borrowed)",
     "A length they choose (Borrowed)",
+    "One chosen step, then goodbye (Exploratory)",
     "Always open (Familiar convention)",
     "One more question (Familiar convention)",
     "A hook at goodbye (Warning case)",

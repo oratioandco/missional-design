@@ -288,7 +288,29 @@
    "start_with": "Don’t: no minutes, streaks, totals or reminders to friends"
   }
  ],
- "pulls_against": [],
+ "pulls_against": [
+  {
+   "id": "presence-and-secret",
+   "title": "Knowing others are present, and prayer kept in confidence",
+   "options_here": [
+    "People I pray for",
+    "Quiet prayer",
+    "Counted prayer"
+   ],
+   "with": {
+    "slug": "sharing-with-a-group",
+    "title": "Sharing with a group",
+    "url": "https://missional.design/patterns/sharing-with-a-group/",
+    "options": [
+     "The whole church",
+     "A public wall",
+     "Ranked by prayer streaks"
+    ]
+   },
+   "pull": "A visible response can help someone feel less alone, while public totals and rankings turn private prayer into something people are asked to display.",
+   "hold": "Keep requests and responses with the people chosen to receive them. Let someone send a private acknowledgement to the requester if they choose; describe it honestly as an acknowledgement, not a measurement of prayer. Leave quiet prayer unrecorded and give it no lower standing."
+  }
+ ],
  "reflection": [
   {
    "heading": "What prayer is for",

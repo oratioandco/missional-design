@@ -3,6 +3,94 @@
  "url": "https://missional.design/patterns/tensions/",
  "tensions": [
   {
+   "id": "warmth-and-honesty",
+   "title": "Warmth in the conversation, and honesty about who speaks",
+   "pages": [
+    {
+     "slug": "ai-persona",
+     "title": "How human the assistant seems",
+     "url": "https://missional.design/patterns/ai-persona/",
+     "options": [
+      "Labelled assistant",
+      "Named assistant",
+      "Persona"
+     ]
+    },
+    {
+     "slug": "speaking-as",
+     "title": "AI personas and roles",
+     "url": "https://missional.design/patterns/speaking-as/",
+     "options": [
+      "A guide",
+      "A pastor or priest",
+      "Christ or God"
+     ]
+    }
+   ],
+   "pull": "A warm name and first-person voice can make a question easier to ask, and the same cues can blur who is speaking and what authority the reply carries.",
+   "hold": "Keep warmth in the manner and clarity in the role: identify AI before someone has to ask, distinguish quoted words from explanation, and make no claim to a person’s feelings, prayer or office. A kind guide can point to people without pretending to be one.",
+   "url": "https://missional.design/patterns/tensions/#warmth-and-honesty"
+  },
+  {
+   "id": "presence-and-secret",
+   "title": "Knowing others are present, and prayer kept in confidence",
+   "pages": [
+    {
+     "slug": "sharing-with-a-group",
+     "title": "Sharing with a group",
+     "url": "https://missional.design/patterns/sharing-with-a-group/",
+     "options": [
+      "The whole church",
+      "A public wall",
+      "Ranked by prayer streaks"
+     ]
+    },
+    {
+     "slug": "prayer",
+     "title": "Prayer",
+     "url": "https://missional.design/patterns/prayer/",
+     "options": [
+      "People I pray for",
+      "Quiet prayer",
+      "Counted prayer"
+     ]
+    }
+   ],
+   "pull": "A visible response can help someone feel less alone, while public totals and rankings turn private prayer into something people are asked to display.",
+   "hold": "Keep requests and responses with the people chosen to receive them. Let someone send a private acknowledgement to the requester if they choose; describe it honestly as an acknowledgement, not a measurement of prayer. Leave quiet prayer unrecorded and give it no lower standing.",
+   "url": "https://missional.design/patterns/tensions/#presence-and-secret"
+  },
+  {
+   "id": "next-step-and-rest",
+   "title": "A useful next step, and permission for the practice to end",
+   "pages": [
+    {
+     "slug": "devotional-audio",
+     "title": "Devotional audio",
+     "url": "https://missional.design/patterns/devotional-audio/",
+     "options": [
+      "Guided prayer",
+      "Sleep story",
+      "Endless stream"
+     ]
+    },
+    {
+     "slug": "ending-the-conversation",
+     "title": "Ending the conversation",
+     "url": "https://missional.design/patterns/ending-the-conversation/",
+     "options": [
+      "Closes well",
+      "Suggests a break",
+      "One more question",
+      "A hook at goodbye"
+     ]
+    }
+   ],
+   "pull": "An onward suggestion can help someone continue a practice, and the same suggestion can turn its ending into another route back into the app.",
+   "hold": "Let the practice finish inside itself. Offer at most one optional step once, with closing just as easy, and start nothing automatically. After sleep content, end in silence; a resting person should not have to stop what the app queues next.",
+   "url": "https://missional.design/patterns/tensions/#next-step-and-rest"
+  },
+  {
    "id": "reminder-and-streak",
    "title": "Reminders that bring people back, and streaks that drive them away",
    "pages": [

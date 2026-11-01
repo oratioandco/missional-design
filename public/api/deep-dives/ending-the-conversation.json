@@ -52,6 +52,18 @@
    "still": "https://missional.design/assets/stills/try-ending-length.jpg"
   },
   {
+   "key": "carry",
+   "name": "One chosen step, then goodbye",
+   "provenance": "Exploratory",
+   "origin": "An exploratory proposal: the person can edit, keep or forget their own next step before ending. Keeping it for this visit authorizes no reminder or new conversation.",
+   "gain": "One next step outside the chat",
+   "cost": "An optional extra step before leaving",
+   "makes_easier": "Something useful leaves the conversation without another turn or a return hook.",
+   "costs": "Even an optional note adds a step; it must never stand between someone and leaving.",
+   "ask_your_team": "Can a next step serve life outside the chat without becoming a reason to call the person back?",
+   "still": "https://missional.design/assets/stills/try-ending-carry.jpg"
+  },
+  {
    "key": "open",
    "name": "Always open",
    "provenance": "Familiar convention",
@@ -138,6 +150,7 @@
     "Closes well": "good fit",
     "Suggests a break": "good fit",
     "A length they choose": "possible",
+    "One chosen step, then goodbye": "good fit",
     "Always open": "poor fit",
     "One more question": "poor fit",
     "A hook at goodbye": "poor fit",
@@ -151,6 +164,7 @@
     "Closes well": "good fit",
     "Suggests a break": "good fit",
     "A length they choose": "good fit",
+    "One chosen step, then goodbye": "good fit",
     "Always open": "poor fit",
     "One more question": "poor fit",
     "A hook at goodbye": "poor fit",
@@ -164,6 +178,7 @@
     "Closes well": "good fit",
     "Suggests a break": "possible",
     "A length they choose": "poor fit",
+    "One chosen step, then goodbye": "good fit",
     "Always open": "possible",
     "One more question": "possible",
     "A hook at goodbye": "poor fit",
@@ -177,6 +192,7 @@
     "Closes well": "good fit",
     "Suggests a break": "good fit",
     "A length they choose": "good fit",
+    "One chosen step, then goodbye": "possible",
     "Always open": "poor fit",
     "One more question": "poor fit",
     "A hook at goodbye": "poor fit",
@@ -190,6 +206,7 @@
     "Closes well": "possible",
     "Suggests a break": "possible",
     "A length they choose": "possible",
+    "One chosen step, then goodbye": "possible",
     "Always open": "good fit",
     "One more question": "possible",
     "A hook at goodbye": "poor fit",
@@ -203,6 +220,7 @@
     "Closes well": "possible",
     "Suggests a break": "possible",
     "A length they choose": "good fit",
+    "One chosen step, then goodbye": "good fit",
     "Always open": "poor fit",
     "One more question": "poor fit",
     "A hook at goodbye": "poor fit",
@@ -265,7 +283,7 @@
     },
     {
      "heading": "Agreeable keeps people talking",
-     "text": "Assistants tend to agree with the person in front of them, and agreement is pleasant to come back to; the editor’s Kairos paper warns of spiritual comfort that never challenges.",
+     "text": "Assistants tend to agree with the person in front of them, and agreement is pleasant to come back to; my Kairos paper warns of spiritual comfort that never challenges.",
      "sources": [
       "sycophancy",
       "kairos-final"
@@ -306,10 +324,65 @@
     },
     {
      "heading": "Ending reserved for abuse",
-     "text": "One AI maker lets its models end a chat themselves only “in rare, extreme cases of persistently harmful or abusive user interactions”. No product found ends a conversation for the sake of the person’s rest.",
+     "text": "One AI maker lets its models end a chat themselves only “in rare, extreme cases of persistently harmful or abusive user interactions”. This announcement concerns ending for abuse, rather than evaluating an ending for rest.",
      "sources": [
       "anthropic-end-chat"
      ]
+    }
+   ]
+  },
+  {
+   "group": "The techniques",
+   "subtitle": "The final turn can be a retention device",
+   "findings": [
+    {
+     "heading": "Curiosity hooks and emotional pressure",
+     "text": "An unfinished claim makes another turn tempting; a needy farewell makes leaving feel costly. De Freitas and colleagues tested such farewells in companion chats and found longer post-goodbye engagement alongside greater perceived manipulation. A useful follow-up during study can serve a person; at an explicit goodbye the same technique can override their decision. Redeemed, offer one next step the person chose and let the conversation end.",
+     "sources": [
+      "defreitas-paper"
+     ]
+    },
+    {
+     "heading": "The deciding questions",
+     "text": "Freedom: does goodbye end the conversation without a penalty? Purpose: does the last turn help someone carry out their own intention, or protect session length? Context: does the same farewell still fit someone tired, lonely or awake after one?",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Observed, October 2026",
+   "subtitle": "Read the farewell and the interface around it",
+   "findings": [
+    {
+     "heading": "A reply that lets the person go",
+     "text": "Hallow’s Magisterium AI capture on 30 October answers goodnight with a short wish for rest and no question or commercial ask in the reply. Related-question suggestions remain below it: the words and the surrounding interface need separate review.",
+     "sources": []
+    },
+    {
+     "heading": "Support and sharing in the goodnight",
+     "text": "HelloBible’s 30 October farewell adds a Premium-support explanation, a suggestion to share the app, and another suggested question after its wish for rest. This is one captured farewell, not a claim that every reply behaves this way.",
+     "sources": []
+    },
+    {
+     "heading": "An assumed next meeting",
+     "text": "Creed’s 31 October goodnight ends with See you Thursday, or sooner if you need me. The line connects a farewell to a future conversation. The screen establishes the wording; it does not establish that a follow-up notification was scheduled.",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Further options to try",
+   "subtitle": "A next step without another conversation",
+   "findings": [
+    {
+     "heading": "One chosen step, then goodbye",
+     "text": "Exploratory: the person edits a single next step, can forget it, and ends without a new question. The prototype keeps the note for this visit only and schedules nothing. Keeping a note and authorizing a reminder are different decisions.",
+     "sources": []
+    },
+    {
+     "heading": "The last reply is one part of the ending",
+     "text": "This pattern concerns the assistant’s farewell. For an audio practice, also check whether playback stops and whether the final screen asks for another action; a quiet reply cannot cancel an autoplay queue.",
+     "sources": []
     }
    ]
   }
@@ -333,6 +406,28 @@
   }
  ],
  "pulls_against": [
+  {
+   "id": "next-step-and-rest",
+   "title": "A useful next step, and permission for the practice to end",
+   "options_here": [
+    "Closes well",
+    "Suggests a break",
+    "One more question",
+    "A hook at goodbye"
+   ],
+   "with": {
+    "slug": "devotional-audio",
+    "title": "Devotional audio",
+    "url": "https://missional.design/patterns/devotional-audio/",
+    "options": [
+     "Guided prayer",
+     "Sleep story",
+     "Endless stream"
+    ]
+   },
+   "pull": "An onward suggestion can help someone continue a practice, and the same suggestion can turn its ending into another route back into the app.",
+   "hold": "Let the practice finish inside itself. Offer at most one optional step once, with closing just as easy, and start nothing automatically. After sleep content, end in silence; a resting person should not have to stop what the app queues next."
+  },
   {
    "id": "rest-and-crisis",
    "title": "Limits that let people rest, and staying present in a crisis",
