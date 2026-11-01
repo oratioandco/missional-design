@@ -1,0 +1,29 @@
+---
+import ReflectionLayout from '../../layouts/ReflectionLayout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const pdf = `${base}/research/treppmann-2026-digital-spiritual-formation.pdf`;
+---
+<ReflectionLayout lang="en" title="Digital Spiritual Formation in Post-Christian Europe" subtitle="A framework for spiritual formation in digital culture. Research paper by Tobias Treppmann, 2026.">
+ <p><a href={pdf}>Download the paper (PDF, 57 pages)</a></p>
+ <dl class="paper-meta">
+  <dt>Author</dt><dd>Tobias Treppmann</dd>
+  <dt>Version</dt><dd>1.0, 1 November 2026. Written as a capstone paper at Kairos University (submitted March 2026, as <em>Digital Spiritual Formation: The Aperto Vision</em>) and lightly corrected for publication.</dd>
+  <dt>Licence</dt><dd>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 (CC BY-NC-ND 4.0)</dd>
+  <dt>Cite as</dt><dd>Treppmann, T. (2026). <em>Digital Spiritual Formation in Post-Christian Europe: A Framework for Spiritual Formation in Digital Culture</em> (Version 1.0). Missional by Design. https://missional.design/research/digital-spiritual-formation/</dd>
+ </dl>
+ <h2>Abstract</h2>
+ <p>English-speaking Bible apps dominate the market. Many were pioneers, with the resources to produce high-quality software and content and to reach over a billion people. Other language communities were often left with older translations or less care. Some apps copied the Silicon Valley playbook and its engagement mechanics without asking whether they serve people seeking God in every situation, and most offer generic content without real attention to the person.</p>
+ <p>The paper analyses these patterns and where technology is heading. Its hypothesis is that the AI landscape lets apps take a more active, careful role in supporting spiritual formation, and can make excellent resources available to less-resourced communities. It moves through cognitive science, behavioural data, the Christian formation tradition and concrete product architecture, with a focus on spiritually liminal people in post-Christian Europe: people who have left institutions but not stopped seeking. It concludes with the missional product design framework, seven principles and six diagnostic questions that connect theology to product development, and it names what could prove the hypothesis wrong. Aperto, a spiritual companion app the author is building, serves as a case study.</p>
+ <h2>How this site builds on it</h2>
+ <p>Missional by Design grew out of this paper. The <a href={`${base}/framework/`}>principles and diagnostic questions</a> develop its framework for product teams. The <a href={`${base}/patterns/`}>patterns</a> apply it to concrete decisions, from <a href={`${base}/patterns/progress-and-streaks/`}>progress and streaks</a> to <a href={`${base}/patterns/notifications/`}>notifications</a>, and the <a href={`${base}/apps/`}>app library</a> documents what faith apps actually do. The paper's account of how faith apps inherited the attention economy's design philosophy is the starting point for the site's work on discerning common technology practices.</p>
+ <aside aria-label="About this paper">
+  <h2>About this paper</h2>
+  <p>This is a research paper, not a peer-reviewed publication. Its empirical claims cite their sources; its design principles and its account of Aperto are the author's proposals and plans as of early 2026. Feedback and critique are welcome via the <a href={`${base}/about/`}>About page</a>.</p>
+ </aside>
+</ReflectionLayout>
+<style>
+.paper-meta{display:grid;grid-template-columns:max-content 1fr;gap:6px 18px;margin:0 0 24px;font-size:15px}
+.paper-meta dt{color:var(--color-muted,#486078)}
+.paper-meta dd{margin:0}
+@media (max-width:560px){.paper-meta{grid-template-columns:1fr}.paper-meta dd{margin-bottom:8px}}
+</style>
