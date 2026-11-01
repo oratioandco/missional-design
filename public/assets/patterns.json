@@ -1249,13 +1249,16 @@
       "rewards-intrinsic-meta",
       "autonomous-motivation",
       "lausanne-success",
+      "loss-aversion",
+      "broken-streaks",
+      "eyal-hooked",
+      "fogg-bmap",
       "mcheyne-preface",
       "benedict-18",
       "personal-quantification",
       "gamification-meta",
       "sdt",
       "habit-automaticity",
-      "broken-streaks",
       "fresh-start",
       "shame-guilt"
     ],
@@ -7007,7 +7010,12 @@
       "esv-api-terms",
       "bsb-pd",
       "youversion-funding",
-      "telefonseelsorge"
+      "telefonseelsorge",
+      "cialdini-consistency",
+      "fogg-bmap",
+      "brignull-deceptive",
+      "dsa-art25",
+      "ftc-dark-patterns"
     ],
     "faith": "When two disciples began to follow Jesus, he asked them, “What do you want?”, and when they asked where he was staying, he said, “Come and see” (John 1:38–39). They spent the day with him before anything was asked of them. The same Scriptures say both “Freely you have received; freely give” (Matthew 10:8) and “the worker is worthy of his wages” (Luke 10:7): welcome freely, and pay honestly those who serve.",
     "related": [
@@ -7244,7 +7252,12 @@
       "universalis-store",
       "hallow-store",
       "bible-chat-store",
-      "telefonseelsorge"
+      "telefonseelsorge",
+      "fogg-bmap",
+      "eyal-hooked",
+      "edpb-deceptive-design",
+      "brignull-deceptive",
+      "dsa-art25"
     ],
     "faith": "“Morning, noon, and night, I cry out in distress, and He hears my voice” (Psalm 55:17). Daniel prayed “three times a day” (Daniel 6:10), and the Psalmist “Seven times a day” (Psalm 119:164); the church has rung bells for its hours ever since. But when the disciples found Jesus praying alone and said, “Everyone is looking for You!”, he did not go back (Mark 1:37–38). God spoke to Elijah not in the wind, the earthquake or the fire, but in “a still, small voice” (1 Kings 19:12).",
     "related": [
@@ -7373,7 +7386,11 @@
       "givelify-store",
       "givelify-total",
       "nouwen-fundraising",
-      "telefonseelsorge"
+      "telefonseelsorge",
+      "opencollective",
+      "brignull-deceptive",
+      "dsa-art25",
+      "eyal-hooked"
     ],
     "faith": "“Each one should give what he has decided in his heart to give, not out of regret or compulsion. For God loves a cheerful giver” (2 Corinthians 9:7). Jesus said that the poor widow who put in two small coins “has put more than all the others into the treasury” (Mark 12:43), and told those who give, “do not let your left hand know what your right hand is doing” (Matthew 6:3). When the people brought more than enough for the tabernacle, Moses “sent a proclamation throughout the camp” to stop (Exodus 36:6).",
     "related": [

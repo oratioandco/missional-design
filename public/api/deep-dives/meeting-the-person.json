@@ -350,6 +350,23 @@
  ],
  "pulls_against": [
   {
+   "id": "fit-and-commitment",
+   "title": "Questions that improve fit, and answers that become a commitment",
+   "options_here": [
+    "Preferences you set"
+   ],
+   "with": {
+    "slug": "first-use",
+    "title": "First use",
+    "url": "https://missional.design/patterns/first-use/",
+    "options": [
+     "Questions first"
+    ]
+   },
+   "pull": "Questions at the start help an app fit the person, and the same answers can become a commitment that leads into a paywall.",
+   "hold": "Ask only what changes the content, show what each answer changed, let it be skipped or forgotten, and never let answers set a price."
+  },
+  {
    "id": "meeting-and-truth",
    "title": "Meeting someone where they are, and telling them the truth",
    "options_here": [
