@@ -15,7 +15,12 @@
     // Hide the settings area when no setting applies to the chosen option.
     function settingsVisibility() { var box = root.querySelector('.rail-settings'); if (box) box.classList.toggle('is-empty', !box.querySelector('fieldset:not([disabled])')); }
     settingsVisibility();
-    window.addEventListener('message', function (e) { if (e.source === frame.contentWindow && e.data && e.data.type === 'bf-live') live = true; });
+    window.addEventListener('message', function (e) {
+      if (e.origin === location.origin && e.source === frame.contentWindow && e.data && e.data.type === 'bf-live') {
+        live = true;
+        update();
+      }
+    });
     function query() {
       var q = 'v=' + current;
       [].forEach.call(root.querySelectorAll('fieldset[data-param]'), function (f) {

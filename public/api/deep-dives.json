@@ -419,6 +419,9 @@
     "Open on what they came for (Familiar convention)",
     "A first page of places to start (Familiar convention)",
     "Guest first, an account when there is something to keep (Observed)",
+    "A reading room with no account (Borrowed)",
+    "The price before the questions (Exploratory)",
+    "Answers you can see and delete (Exploratory)",
     "A short tour first (Observed)",
     "Questions first (Observed)",
     "Asking for payment (Observed)"
@@ -480,6 +483,9 @@
     "The church’s offering (Observed)",
     "A regular gift (Observed)",
     "What a gift does (Observed)",
+    "An open cost ledger (Borrowed)",
+    "An ask that waits to be invited (Exploratory)",
+    "Gifts that give access to others (Exploratory)",
     "A gift tied to a benefit (Observed)",
     "Pressure and promises (Warning case)"
    ],
@@ -509,6 +515,9 @@
     "The church’s hours (Familiar convention)",
     "A daily word (Observed)",
     "People, not the app (Observed)",
+    "A bell for a season (Exploratory)",
+    "A quiet day each week (Exploratory)",
+    "One summary instead of many (Borrowed)",
     "Engagement-driven (Observed)",
     "Messages about the person (Warning case)"
    ],

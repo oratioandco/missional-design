@@ -12,7 +12,7 @@
  },
  "working_example": {
   "url": "https://missional.design/demos/give/",
-  "situation": "The same faith app, made by a small ministry and used by members of St Luke’s church, handles giving in seven ways. Choose who is giving: someone who gives every month, someone who installed the app this week, someone short of money this month, or someone who has just shared a prayer request. Then look at where the ask appears, the screen where they give, and what happens afterwards. Nothing is paid."
+  "situation": "The same faith app, made by a small ministry and used by members of St Luke’s church, handles giving in ten ways. Choose who is giving: someone who gives every month, someone who installed the app this week, someone short of money this month, or someone who has just shared a prayer request. Then look at where the ask appears, the screen where they give, and what happens afterwards. Nothing is paid."
  },
  "options": [
   {
@@ -74,6 +74,42 @@
    "costs": "Figures age, and a number per dollar can promise too much.",
    "ask_your_team": "Could you show the source and the date of every figure?",
    "still": "https://missional.design/assets/stills/try-give-impact.jpg"
+  },
+  {
+   "key": "ledger",
+   "name": "An open cost ledger",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from Open Collective’s public income and expense ledgers. The ministry and all budget figures here are illustrative; donor identities remain private.",
+   "gain": "Need and costs visible",
+   "cost": "Accounts need ongoing care",
+   "makes_easier": "People can see the need and when enough has been given.",
+   "costs": "Maintaining dated, intelligible accounts takes ongoing work.",
+   "ask_your_team": "What costs can you publish, and will you stop asking when they are covered?",
+   "still": "https://missional.design/assets/stills/try-give-ledger.jpg"
+  },
+  {
+   "key": "invited",
+   "name": "An ask that waits to be invited",
+   "provenance": "Exploratory",
+   "origin": "An exploratory proposal: Give stays in the menu. A person can invite one reminder for a month they choose, withdraw it, or invite none.",
+   "gain": "The person invites the ask",
+   "cost": "Fewer appeals may raise less",
+   "makes_easier": "The person chooses whether an ask ever reaches them.",
+   "costs": "Fewer uninvited appeals may mean less income.",
+   "ask_your_team": "Can your funding plan accept a person choosing never to be asked?",
+   "still": "https://missional.design/assets/stills/try-give-invited.jpg"
+  },
+  {
+   "key": "access",
+   "name": "Gifts that give access to others",
+   "provenance": "Exploratory",
+   "origin": "A proposal related to Creed’s Prayer Pool entry, captured 31 October 2026 and linked under “Further options to try”. That screen offers sponsorship; this pooled, application-free access model is our proposal, not an observed fulfilment flow.",
+   "gain": "Access without explaining need",
+   "cost": "The ministry carries funding risk",
+   "makes_easier": "Gifts make access available without requiring recipients to explain their need.",
+   "costs": "The ministry carries the funding risk and must explain the pool honestly.",
+   "ask_your_team": "Can someone receive the same access without a purchase, application or public label?",
+   "still": "https://missional.design/assets/stills/try-give-access.jpg"
   },
   {
    "key": "benefit",
@@ -140,6 +176,9 @@
     "The church’s offering": "good fit",
     "A regular gift": "good fit",
     "What a gift does": "possible",
+    "An open cost ledger": "good fit",
+    "An ask that waits to be invited": "good fit",
+    "Gifts that give access to others": "possible",
     "A gift tied to a benefit": "poor fit",
     "Pressure and promises": "poor fit"
    }
@@ -153,6 +192,9 @@
     "The church’s offering": "poor fit",
     "A regular gift": "good fit",
     "What a gift does": "good fit",
+    "An open cost ledger": "good fit",
+    "An ask that waits to be invited": "good fit",
+    "Gifts that give access to others": "good fit",
     "A gift tied to a benefit": "poor fit",
     "Pressure and promises": "poor fit"
    }
@@ -166,6 +208,9 @@
     "The church’s offering": "possible",
     "A regular gift": "good fit",
     "What a gift does": "good fit",
+    "An open cost ledger": "good fit",
+    "An ask that waits to be invited": "good fit",
+    "Gifts that give access to others": "possible",
     "A gift tied to a benefit": "poor fit",
     "Pressure and promises": "poor fit"
    }
@@ -179,6 +224,9 @@
     "The church’s offering": "poor fit",
     "A regular gift": "possible",
     "What a gift does": "possible",
+    "An open cost ledger": "good fit",
+    "An ask that waits to be invited": "good fit",
+    "Gifts that give access to others": "good fit",
     "A gift tied to a benefit": "possible",
     "Pressure and promises": "poor fit"
    }
@@ -192,6 +240,9 @@
     "The church’s offering": "possible",
     "A regular gift": "possible",
     "What a gift does": "poor fit",
+    "An open cost ledger": "possible",
+    "An ask that waits to be invited": "good fit",
+    "Gifts that give access to others": "good fit",
     "A gift tied to a benefit": "poor fit",
     "Pressure and promises": "poor fit"
    }
@@ -205,6 +256,9 @@
     "The church’s offering": "possible",
     "A regular gift": "possible",
     "What a gift does": "possible",
+    "An open cost ledger": "possible",
+    "An ask that waits to be invited": "good fit",
+    "Gifts that give access to others": "good fit",
     "A gift tied to a benefit": "poor fit",
     "Pressure and promises": "poor fit"
    }
@@ -369,8 +423,8 @@
    ]
   },
   {
-   "group": "Options no faith app ships yet",
-   "subtitle": "Not in the working example: proposals to test",
+   "group": "Further options to try",
+   "subtitle": "Borrowed and exploratory states in the working example",
    "findings": [
     {
      "heading": "An open cost ledger",

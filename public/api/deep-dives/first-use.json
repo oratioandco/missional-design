@@ -12,7 +12,7 @@
  },
  "working_example": {
   "url": "https://missional.design/demos/first/",
-  "situation": "Someone has just installed a faith app. Choose what kind of app it is: a Bible reader, a prayer app or an AI companion. Then choose who is arriving: someone curious, someone in a hard night, or someone coming back after years away or after being hurt in a church. Count what each option asks before they reach what they came for, and see where help is. For the last option, compare asking for payment up front with asking after a first use."
+  "situation": "Someone has just installed a faith app. Choose what kind of app it is: a Bible reader, a prayer app or an AI companion. Then choose who is arriving: someone curious, someone in a hard night, or someone coming back after years away or after being hurt in a church. Count what each option asks before they reach what they came for, and see where help is. In “Asking for payment”, compare asking for payment up front with asking after a first use."
  },
  "options": [
   {
@@ -50,6 +50,42 @@
    "costs": "The later ask can still feel like a wall, if it comes at the wrong moment.",
    "ask_your_team": "What is the first thing worth keeping, and is that the right moment to ask?",
    "still": "https://missional.design/assets/stills/try-first-guest.jpg"
+  },
+  {
+   "key": "room",
+   "name": "A reading room with no account",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from public-library reading rooms: reading is open to everyone, while a card is needed for borrowing. Here reading, listening and asking work without an account. This interface is a proposal, not an observed faith-app screen.",
+   "gain": "Read, listen or ask without joining",
+   "cost": "Sync needs a separate decision",
+   "makes_easier": "Receiving stays open without joining or disclosing an identity.",
+   "costs": "Syncing across devices still needs a separate account decision.",
+   "ask_your_team": "Which functions truly require an identity, and which can remain open?",
+   "still": "https://missional.design/assets/stills/try-first-room.jpg"
+  },
+  {
+   "key": "price",
+   "name": "The price before the questions",
+   "provenance": "Exploratory",
+   "origin": "An exploratory proposal: show the free floor and an illustrative optional price before asking anything. Answers never change the price. No payment or trial starts in this example.",
+   "gain": "Terms known before questions",
+   "cost": "Price can distract from welcome",
+   "makes_easier": "People know the terms before investing answers in setup.",
+   "costs": "A price on the first screen can still distract from the welcome.",
+   "ask_your_team": "Can people understand what is free before answering a question?",
+   "still": "https://missional.design/assets/stills/try-first-price.jpg"
+  },
+  {
+   "key": "answers",
+   "name": "Answers you can see and delete",
+   "provenance": "Exploratory",
+   "origin": "An exploratory proposal: show the answer and its effect on the starting screen, with a way to forget it before continuing. No profile or personalised offer is built.",
+   "gain": "Personalisation visible and reversible",
+   "cost": "Another step before content",
+   "makes_easier": "People can inspect and undo the personalisation.",
+   "costs": "An extra review step can delay reaching the content.",
+   "ask_your_team": "Does every answer change something useful, visible and reversible?",
+   "still": "https://missional.design/assets/stills/try-first-answers.jpg"
   },
   {
    "key": "tour",
@@ -126,6 +162,9 @@
     "Open on what they came for": "good fit",
     "A first page of places to start": "good fit",
     "Guest first, an account when there is something to keep": "good fit",
+    "A reading room with no account": "good fit",
+    "The price before the questions": "possible",
+    "Answers you can see and delete": "possible",
     "A short tour first": "possible",
     "Questions first": "possible",
     "Asking for payment": "poor fit"
@@ -138,6 +177,9 @@
     "Open on what they came for": "good fit",
     "A first page of places to start": "good fit",
     "Guest first, an account when there is something to keep": "possible",
+    "A reading room with no account": "good fit",
+    "The price before the questions": "poor fit",
+    "Answers you can see and delete": "possible",
     "A short tour first": "poor fit",
     "Questions first": "possible",
     "Asking for payment": "poor fit"
@@ -150,6 +192,9 @@
     "Open on what they came for": "good fit",
     "A first page of places to start": "good fit",
     "Guest first, an account when there is something to keep": "good fit",
+    "A reading room with no account": "good fit",
+    "The price before the questions": "possible",
+    "Answers you can see and delete": "good fit",
     "A short tour first": "possible",
     "Questions first": "poor fit",
     "Asking for payment": "poor fit"
@@ -162,6 +207,9 @@
     "Open on what they came for": "good fit",
     "A first page of places to start": "possible",
     "Guest first, an account when there is something to keep": "good fit",
+    "A reading room with no account": "good fit",
+    "The price before the questions": "possible",
+    "Answers you can see and delete": "possible",
     "A short tour first": "possible",
     "Questions first": "possible",
     "Asking for payment": "poor fit"
@@ -174,6 +222,9 @@
     "Open on what they came for": "possible",
     "A first page of places to start": "possible",
     "Guest first, an account when there is something to keep": "good fit",
+    "A reading room with no account": "possible",
+    "The price before the questions": "possible",
+    "Answers you can see and delete": "possible",
     "A short tour first": "poor fit",
     "Questions first": "poor fit",
     "Asking for payment": "good fit"
@@ -186,6 +237,9 @@
     "Open on what they came for": "possible",
     "A first page of places to start": "poor fit",
     "Guest first, an account when there is something to keep": "good fit",
+    "A reading room with no account": "good fit",
+    "The price before the questions": "good fit",
+    "Answers you can see and delete": "possible",
     "A short tour first": "poor fit",
     "Questions first": "poor fit",
     "Asking for payment": "good fit"
@@ -344,8 +398,8 @@
    ]
   },
   {
-   "group": "Options no faith app ships yet",
-   "subtitle": "Not in the working example: proposals to test",
+   "group": "Further options to try",
+   "subtitle": "Borrowed and exploratory states in the working example",
    "findings": [
     {
      "heading": "A reading room with no account",
