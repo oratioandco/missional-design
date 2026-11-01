@@ -12,7 +12,7 @@
  },
  "working_example": {
   "url": "https://missional.design/demos/notify/",
-  "situation": "The same faith app, seven ways of sending notifications. Choose who is holding the phone: someone who installed it yesterday, someone who opens it most days, someone who has been away for three weeks, or someone awake at 2 am. Then choose what their phone does: show everything on the lock screen, collect it in a Scheduled Summary at 8:00, or keep Sleep Focus until 7:45. Look at the lock screen now, what the app sent this week, and the settings it offers."
+  "situation": "The same faith app, ten ways of sending notifications. Choose who is holding the phone: someone who installed it yesterday, someone who opens it most days, someone who has been away for three weeks, or someone awake at 2 am. Then choose what their phone does: show everything on the lock screen, collect it in a Scheduled Summary at 8:00, or keep Sleep Focus until 7:45. Look at the lock screen now, what the app sent this week, and the settings it offers."
  },
  "options": [
   {
@@ -74,6 +74,42 @@
    "costs": "Quiet for someone with no friends in the app.",
    "ask_your_team": "Does the person sharing know their prayer becomes someone’s notification?",
    "still": "https://missional.design/assets/stills/try-notify-people.jpg"
+  },
+  {
+   "key": "season",
+   "name": "A bell for a season",
+   "provenance": "Exploratory",
+   "origin": "An exploratory proposal: a reminder ends with the season the person chose. This example uses Advent, 1–24 December, rather than an indefinite reminder.",
+   "gain": "The bell ends with the season",
+   "cost": "Restarting needs a new choice",
+   "makes_easier": "The reminder stops without another task for the person.",
+   "costs": "A new season requires another deliberate choice.",
+   "ask_your_team": "When does the chosen practice end, and does the reminder end with it?",
+   "still": "https://missional.design/assets/stills/try-notify-season.jpg"
+  },
+  {
+   "key": "sabbath",
+   "name": "A quiet day each week",
+   "provenance": "Exploratory",
+   "origin": "An exploratory proposal: on a day the person chooses, all app notifications pause. Messages are not bundled into a catch-up alert the next day.",
+   "gain": "A day with no interruptions",
+   "cost": "Wanted alerts stay in the app",
+   "makes_easier": "Silence is an explicit part of the chosen rhythm.",
+   "costs": "Even a wanted group alert waits for the person to open the app.",
+   "ask_your_team": "Which categories must pause for a quiet day to mean silence?",
+   "still": "https://missional.design/assets/stills/try-notify-sabbath.jpg"
+  },
+  {
+   "key": "digest",
+   "name": "One summary instead of many",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from scheduled phone summaries and a newspaper’s morning edition. Notification-batching research concerns general phone use; it does not establish spiritual benefit or validate this exact one-summary design.",
+   "gain": "One predictable message",
+   "cost": "Human messages may wait",
+   "makes_easier": "One predictable message replaces separate interruptions.",
+   "costs": "Time-sensitive human messages may be read later.",
+   "ask_your_team": "What belongs in the summary, and what private detail must stay in the app?",
+   "still": "https://missional.design/assets/stills/try-notify-digest.jpg"
   },
   {
    "key": "engaged",
@@ -140,6 +176,9 @@
     "The church’s hours": "possible",
     "A daily word": "possible",
     "People, not the app": "poor fit",
+    "A bell for a season": "good fit",
+    "A quiet day each week": "good fit",
+    "One summary instead of many": "good fit",
     "Engagement-driven": "poor fit",
     "Messages about the person": "poor fit"
    }
@@ -153,6 +192,9 @@
     "The church’s hours": "good fit",
     "A daily word": "poor fit",
     "People, not the app": "possible",
+    "A bell for a season": "good fit",
+    "A quiet day each week": "possible",
+    "One summary instead of many": "possible",
     "Engagement-driven": "poor fit",
     "Messages about the person": "poor fit"
    }
@@ -166,6 +208,9 @@
     "The church’s hours": "poor fit",
     "A daily word": "poor fit",
     "People, not the app": "possible",
+    "A bell for a season": "possible",
+    "A quiet day each week": "good fit",
+    "One summary instead of many": "possible",
     "Engagement-driven": "poor fit",
     "Messages about the person": "poor fit"
    }
@@ -179,6 +224,9 @@
     "The church’s hours": "poor fit",
     "A daily word": "poor fit",
     "People, not the app": "good fit",
+    "A bell for a season": "possible",
+    "A quiet day each week": "possible",
+    "One summary instead of many": "good fit",
     "Engagement-driven": "poor fit",
     "Messages about the person": "poor fit"
    }
@@ -192,6 +240,9 @@
     "The church’s hours": "possible",
     "A daily word": "poor fit",
     "People, not the app": "possible",
+    "A bell for a season": "possible",
+    "A quiet day each week": "good fit",
+    "One summary instead of many": "possible",
     "Engagement-driven": "poor fit",
     "Messages about the person": "poor fit"
    }
@@ -205,6 +256,9 @@
     "The church’s hours": "good fit",
     "A daily word": "possible",
     "People, not the app": "possible",
+    "A bell for a season": "good fit",
+    "A quiet day each week": "good fit",
+    "One summary instead of many": "good fit",
     "Engagement-driven": "poor fit",
     "Messages about the person": "poor fit"
    }
@@ -370,8 +424,8 @@
    ]
   },
   {
-   "group": "Options no faith app ships yet",
-   "subtitle": "Not in the working example: proposals to test",
+   "group": "Further options to try",
+   "subtitle": "Borrowed and exploratory states in the working example",
    "findings": [
     {
      "heading": "A bell for a season",
