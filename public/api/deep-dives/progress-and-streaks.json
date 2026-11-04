@@ -751,5 +751,69 @@
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
   "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ },
+ "boundaries": {
+  "intro": "People disagree about counting, and the options above include streaks, levels and no count at all. These practices are different: they misstate what happened, or use the count against the person.",
+  "dont": [
+   {
+    "name": "Count an open as reading",
+    "looks": "A streak that grows when the app is only opened, shown as if the person read.",
+    "why": "It tells people something untrue about their own practice.",
+    "instead": "coverage",
+    "sources": []
+   },
+   {
+    "name": "Treat a gap as failure",
+    "looks": "A crying face at zero, or a calendar delay presented as spiritual failure.",
+    "why": "People come back from hard months. A broken streak can drive them away just when coming back matters most.",
+    "instead": "today",
+    "sources": [
+     "broken-streaks"
+    ]
+   },
+   {
+    "name": "Sell back what was lost",
+    "looks": "A broken streak that can be repaired by paying.",
+    "why": "It charges for relief from a loss the design created.",
+    "instead": "today",
+    "sources": [
+     "loss-aversion"
+    ]
+   },
+   {
+    "name": "Make private practice a ranking",
+    "looks": "A private activity record turned into a list against others.",
+    "why": "It exposes what someone did not choose to share.",
+    "instead": "journal",
+    "sources": []
+   }
+  ],
+  "excluded": [
+   {
+    "name": "Reading plans",
+    "why": "What to read and when is covered there.",
+    "href": "/patterns/reading-plans/"
+   },
+   {
+    "name": "Reminders",
+    "why": "How a streak is pressed through notifications is covered there.",
+    "href": "/patterns/notifications/"
+   },
+   {
+    "name": "Reading in a group",
+    "why": "What people share with one another is covered there.",
+    "href": "/patterns/sharing-with-a-group/"
+   },
+   {
+    "name": "How to detect reading reliably",
+    "why": "How an app could tell is a separate technical question.",
+    "href": null
+   },
+   {
+    "name": "What a faith app should measure",
+    "why": "A team’s own analytics is a separate question.",
+    "href": null
+   }
+  ]
  }
 }

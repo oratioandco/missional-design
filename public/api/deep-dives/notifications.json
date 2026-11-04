@@ -886,5 +886,81 @@
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
   "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ },
+ "boundaries": {
+  "intro": "A reminder someone chose can be a real help, and the options above range widely. These practices are different: they get attention by guilt, false urgency or settings nobody chose.",
+  "dont": [
+   {
+    "name": "Manufacture urgency",
+    "looks": "“Your 12-day streak ends at midnight!”, marked Time Sensitive to break through Sleep Focus.",
+    "why": "It overrides a boundary the person set, in order to protect a number.",
+    "instead": "own",
+    "sources": [
+     "apple-hig-notifications"
+    ]
+   },
+   {
+    "name": "Guilt people back",
+    "looks": "“We miss you.” “Did I say something wrong?”, in the voice of an app or an AI.",
+    "why": "It borrows the weight of a relationship. In one study of companion apps’ goodbyes, such tactics raised engagement through curiosity and anger, not enjoyment; that study did not test notifications.",
+    "instead": "quiet",
+    "sources": [
+     "defreitas-paper"
+    ]
+   },
+   {
+    "name": "Multiply after silence",
+    "looks": "More reminders the longer someone has not opened the app.",
+    "why": "Silence may be an answer, and this treats it as a problem to overcome.",
+    "instead": "own",
+    "sources": []
+   },
+   {
+    "name": "Switch things on for them",
+    "looks": "Several reminder types on at times nobody chose, or promotions on by default.",
+    "why": "Many people never change a default, so the default becomes the app’s real policy.",
+    "instead": "own",
+    "sources": [
+     "apple-review-push",
+     "brignull-deceptive"
+    ]
+   },
+   {
+    "name": "Disguise the message",
+    "looks": "Marketing in the prayer reminder’s place, or a prayer button that opens an advert.",
+    "why": "They tapped to pray and got an advert.",
+    "instead": "own",
+    "sources": []
+   },
+   {
+    "name": "Tell others about someone",
+    "looks": "Telling someone’s friends that the app thinks they need a call, or prompting friends to chase someone who stopped.",
+    "why": "It exposes a person’s state to others without asking them.",
+    "instead": "people",
+    "sources": []
+   }
+  ],
+  "excluded": [
+   {
+    "name": "When to ask for permission",
+    "why": "Timing the first request is covered with first use.",
+    "href": "/patterns/first-use/"
+   },
+   {
+    "name": "Streaks themselves",
+    "why": "What a count of days does is covered there.",
+    "href": "/patterns/progress-and-streaks/"
+   },
+   {
+    "name": "An AI that writes first",
+    "why": "Messages composed by an assistant are covered there.",
+    "href": "/patterns/assistant-writes-first/"
+   },
+   {
+    "name": "Group reminders",
+    "why": "What people send one another in a group is covered there.",
+    "href": "/patterns/sharing-with-a-group/"
+   }
+  ]
  }
 }

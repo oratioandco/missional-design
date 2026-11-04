@@ -1,0 +1,16 @@
+/* Do, don't and excluded block beside each spectrum (spectrum_boundaries.py). */
+:root:root body.ed main .e-bounds .pairs{margin:24px 0 0;gap:18px}
+:root:root body.ed main .e-bounds .pairs li{margin:0;padding:0;grid-template-columns:3fr 2fr;gap:0}
+:root:root body.ed main .e-bounds .pairs li>div{border-radius:0;background:none;border:0;border-top:1px solid var(--e-rule-strong)!important;padding:14px 18px 8px 0}
+:root:root body.ed main .e-bounds .pair-dont .mini-label{color:var(--e-warn)}
+:root:root body.ed main .e-bounds .pairs li>.pair-dont{border-top-color:var(--e-warn)!important}
+:root:root body.ed main .e-bounds .pairs h3{font:600 16px/1.35 var(--e-sans);margin:0 0 4px}
+:root:root body.ed main .e-bounds .pairs p{margin:0;font-size:15px;line-height:1.55}
+:root:root body.ed main .e-bounds .pair-why{grid-column:1/-1;margin:0;padding-right:18px;color:var(--e-faint)}
+:root:root body.ed main .e-bounds .pair-why .cites{display:inline}
+:root:root body.ed main .e-bounds .pair-why .cite{display:inline-flex;margin:3px 0 3px 8px;padding:5px 13px;font-size:13px;line-height:1.3;text-decoration:none;border:0;background-image:none}
+:root:root body.ed main .e-bounds .pair-why .cite:hover{text-decoration:none}
+:root:root body.ed main .e-bounds .e-h3{margin:36px 0 10px}
+:root:root body.ed main .e-excluded{list-style:none;margin:0;padding:0}
+:root:root body.ed main .e-excluded li{margin:0;padding:10px 0;border-top:1px solid var(--e-rule);font-size:15px;line-height:1.55}
+@media (max-width:700px){:root:root body.ed main .e-bounds .pairs li{grid-template-columns:1fr}:root:root body.ed main .e-bounds .pairs li>.pair-do{border-top:0!important;padding-top:0}}

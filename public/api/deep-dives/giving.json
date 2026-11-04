@@ -112,6 +112,18 @@
    "still": "https://missional.design/assets/stills/try-give-access.jpg"
   },
   {
+   "key": "badge",
+   "name": "A badge for giving",
+   "provenance": "Observed",
+   "origin": "Observed in YouVersion, where a Sower badge page asks people to “Give a Recurring Gift”, so a monthly gift shows as an achievement.",
+   "gain": "Some givers like being thanked, and a quiet mark can remind them what they chose.",
+   "cost": "A gift becomes something to show, and being seen is a motive Jesus warned about.",
+   "makes_easier": "Some givers like being thanked, and a quiet mark can remind them what they chose.",
+   "costs": "A gift becomes something to show, and being seen is a motive Jesus warned about.",
+   "ask_your_team": "Who sees the badge, and would people give the same without it?",
+   "still": "https://missional.design/assets/stills/try-give-badge.jpg"
+  },
+  {
    "key": "benefit",
    "name": "A gift tied to a benefit",
    "provenance": "Observed",
@@ -855,5 +867,98 @@
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
   "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ },
+ "boundaries": {
+  "intro": "Apart from the warning case, every option above is one a team could choose in good faith, including those people disagree about. These practices are different: they work by misleading or pressing the person, whatever your view of giving.",
+  "dont": [
+   {
+    "name": "Promise a return on a gift",
+    "looks": "“Sow a seed of faith today and expect a harvest.” Health or wealth offered in exchange for giving.",
+    "why": "It offers an outcome no app can promise or verify, in exchange for money.",
+    "instead": "impact",
+    "sources": [
+     "lausanne-prosperity"
+    ]
+   },
+   {
+    "name": "Choose for the giver",
+    "looks": "A “Most popular” tier ticked in advance, a monthly switch already on, or a tip added unless someone slides it to zero.",
+    "why": "The choice suits the app, and the giver has to notice it and undo it.",
+    "instead": "quiet",
+    "sources": [
+     "goswami-defaults",
+     "gofundme-tip-letter",
+     "brignull-deceptive"
+    ]
+   },
+   {
+    "name": "Ask at the tender moment",
+    "looks": "A gift box on the screen after someone shares a prayer request, or during grief.",
+    "why": "The person came for something else, and is at their most open.",
+    "instead": "invited",
+    "sources": []
+   },
+   {
+    "name": "Manufacture urgency",
+    "looks": "A countdown with no real deadline, or repeated asks after someone has said no.",
+    "why": "The UK fundraising code names undue pressure and persistence, and a person can end up giving out of compulsion.",
+    "instead": "quiet",
+    "sources": [
+     "fundraising-code"
+    ]
+   },
+   {
+    "name": "Rank givers publicly",
+    "looks": "Givers listed by amount for others to see.",
+    "why": "It turns giving into a contest, and the people who can give least come last.",
+    "instead": "quiet",
+    "sources": []
+   },
+   {
+    "name": "Present old figures as current",
+    "looks": "A figure from five years ago shown as what a gift does today.",
+    "why": "An aged figure tells the giver something no longer true.",
+    "instead": "ledger",
+    "sources": [
+     "ecfa-standards"
+    ]
+   },
+   {
+    "name": "Make stopping harder than starting",
+    "looks": "A recurring gift that can only be stopped by email.",
+    "why": "It keeps money flowing through friction, long after the person has decided to stop.",
+    "instead": "regular",
+    "sources": [
+     "brignull-deceptive"
+    ]
+   }
+  ],
+  "excluded": [
+   {
+    "name": "Paying for access",
+    "why": "Subscriptions and paywalls are a separate decision. A gift tied to a benefit is on this spectrum only where the two meet.",
+    "href": null
+   },
+   {
+    "name": "Advertising",
+    "why": "How an app earns from ads is its own question.",
+    "href": null
+   },
+   {
+    "name": "Asking during first use",
+    "why": "When to ask anything of a new person is covered with onboarding.",
+    "href": "/patterns/first-use/"
+   },
+   {
+    "name": "What people ought to give",
+    "why": "Tithing and proportion are matters for churches. We note the differences and take no side.",
+    "href": null
+   },
+   {
+    "name": "Legal and tax advice",
+    "why": "We point to rules that shape the design, and a team still needs its own advice.",
+    "href": null
+   }
+  ]
  }
 }
