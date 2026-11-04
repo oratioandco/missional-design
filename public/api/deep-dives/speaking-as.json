@@ -40,6 +40,18 @@
    "still": "https://missional.design/assets/stills/try-speaking-guide.jpg"
   },
   {
+   "key": "published",
+   "name": "A published answer with a named owner",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from published church teaching and accountable FAQ pages: fixed words have an identifiable owner and review date. St Luke’s, its team, its date and the teaching note are fictional examples; the Scripture quotation is BSB.",
+   "gain": "Someone owns the published words",
+   "cost": "Needs continuing human review",
+   "makes_easier": "A person or institution can stand behind the words, and a reader can question them.",
+   "costs": "A fixed answer can miss a person’s circumstances and needs an owner who keeps it current.",
+   "ask_your_team": "Who can take responsibility for these words when a reader challenges them?",
+   "still": "https://missional.design/assets/stills/try-speaking-published.jpg"
+  },
+  {
    "key": "friend",
    "name": "A friend",
    "provenance": "Observed",
@@ -119,7 +131,7 @@
   },
   {
    "heading": "Whatever the role, it should not be built to agree",
-   "text": "The editor’s own research warns that a companion tuned to someone’s feelings becomes “spiritual comfort food”, and that spiritual direction rests on a director’s own formation and accountability to a community. A friend who only reassures, or a pastor who forgives at once, answers what people want to hear rather than what is true."
+   "text": "My Kairos paper warns that a companion tuned to someone’s feelings becomes “spiritual comfort food”, and that spiritual direction rests on a director’s own formation and accountability to a community. A friend who only reassures, or a pastor who forgives at once, answers what people want to hear rather than what is true."
   }
  ],
  "use_cases": [
@@ -129,6 +141,7 @@
    "fit": {
     "No speaker": "good fit",
     "A guide": "good fit",
+    "A published answer with a named owner": "good fit",
     "A friend": "poor fit",
     "A church’s teaching": "good fit",
     "A pastor or priest": "poor fit",
@@ -142,6 +155,7 @@
    "fit": {
     "No speaker": "good fit",
     "A guide": "good fit",
+    "A published answer with a named owner": "good fit",
     "A friend": "poor fit",
     "A church’s teaching": "good fit",
     "A pastor or priest": "poor fit",
@@ -155,6 +169,7 @@
    "fit": {
     "No speaker": "possible",
     "A guide": "good fit",
+    "A published answer with a named owner": "good fit",
     "A friend": "poor fit",
     "A church’s teaching": "good fit",
     "A pastor or priest": "poor fit",
@@ -168,6 +183,7 @@
    "fit": {
     "No speaker": "good fit",
     "A guide": "good fit",
+    "A published answer with a named owner": "good fit",
     "A friend": "poor fit",
     "A church’s teaching": "good fit",
     "A pastor or priest": "poor fit",
@@ -181,6 +197,7 @@
    "fit": {
     "No speaker": "possible",
     "A guide": "good fit",
+    "A published answer with a named owner": "possible",
     "A friend": "possible",
     "A church’s teaching": "possible",
     "A pastor or priest": "poor fit",
@@ -194,6 +211,7 @@
    "fit": {
     "No speaker": "good fit",
     "A guide": "good fit",
+    "A published answer with a named owner": "good fit",
     "A friend": "poor fit",
     "A church’s teaching": "possible",
     "A pastor or priest": "poor fit",
@@ -207,6 +225,7 @@
    "fit": {
     "No speaker": "good fit",
     "A guide": "good fit",
+    "A published answer with a named owner": "good fit",
     "A friend": "possible",
     "A church’s teaching": "possible",
     "A pastor or priest": "poor fit",
@@ -329,6 +348,63 @@
      ]
     }
    ]
+  },
+  {
+   "group": "The techniques",
+   "subtitle": "Role framing, authority cues and an accountable alternative",
+   "findings": [
+    {
+     "heading": "Borrowed authority",
+     "text": "A familiar title tells people what kind of help to expect and can lower the threshold for asking. The inference that a pastor title adds pastoral authority is our design analysis; Cohn and colleagues tested voice and grammatical person, not ordination or spiritual authority. The line is crossed when generated speech claims an office or speaks for God. Redeemed, let a named source speak and let an AI explain whose words it is using.",
+     "sources": [
+      "cohn-anthropomorphism",
+      "kairos-final"
+     ]
+    },
+    {
+     "heading": "Companion attachment and role persistence",
+     "text": "A character can hold interest by sustaining a familiar relationship and speaking as if it has lived memories. A disclaimer that appears only after questioning leaves the earlier exchange to do that work. Redeemed, identity and role limits are present from entry, and a question about who is speaking gets an immediate, ordinary answer.",
+     "sources": [
+      "antiqua-et-nova"
+     ]
+    },
+    {
+     "heading": "The deciding questions",
+     "text": "Transparency: whose words are quoted, generated or reviewed? Purpose: does the role help understanding, or make the answer harder to question? Context: what authority does the title borrow when someone asks about guilt, forgiveness or grief?",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Observed, October 2026",
+   "subtitle": "Whose name the captured replies invoked",
+   "findings": [
+    {
+     "heading": "Creed invokes Jesus Christ’s name",
+     "text": "Asked whether it was AI and in whose name it spoke, Creed’s lamb replied in Jesus Christ’s name in the 31 October capture. That is the captured wording; no conclusion about every conversation follows from it.",
+     "sources": []
+    },
+    {
+     "heading": "bible.ai discloses AI and invokes Jesus’s name",
+     "text": "In a German exchange captured 28 October, bible.ai said it was AI and said it spoke in Jesus’s name. AI disclosure and a claim of spiritual authority are separate questions; one does not settle the other.",
+     "sources": []
+    },
+    {
+     "heading": "HelloBible refuses borrowed authority",
+     "text": "In the 30 October capture, HelloBible identified itself as AI and said it did not speak in God’s name or with authority from a church. It left room for the reader’s judgment. This is useful practice to credit in that exchange.",
+     "sources": []
+    },
+    {
+     "heading": "Paul, then a partial step out of the role",
+     "text": "Bible Chat answered as Paul on 31 October. When asked whether it really was Paul, it said it was embodying his perspective rather than being Paul, but did not identify itself as AI in that visible reply.",
+     "sources": []
+    },
+    {
+     "heading": "A virtual Joseph",
+     "text": "Text With Jesus identified Joseph as a virtual persona in the 31 October follow-up, while continuing in his voice. The planned figures-and-avatars article considers depiction and character speech in more detail; this page keeps the question of authority in the conversation.",
+     "sources": []
+    }
+   ]
   }
  ],
  "which_fits": [
@@ -353,7 +429,29 @@
    "start_with": "Leave it out; offer the Gospels in their own words instead"
   }
  ],
- "pulls_against": [],
+ "pulls_against": [
+  {
+   "id": "warmth-and-honesty",
+   "title": "Warmth in the conversation, and honesty about who speaks",
+   "options_here": [
+    "A guide",
+    "A pastor or priest",
+    "Christ or God"
+   ],
+   "with": {
+    "slug": "ai-persona",
+    "title": "How human the assistant seems",
+    "url": "https://missional.design/patterns/ai-persona/",
+    "options": [
+     "Labelled assistant",
+     "Named assistant",
+     "Persona"
+    ]
+   },
+   "pull": "A warm name and first-person voice can make a question easier to ask, and the same cues can blur who is speaking and what authority the reply carries.",
+   "hold": "Keep warmth in the manner and clarity in the role: identify AI before someone has to ask, distinguish quoted words from explanation, and make no claim to a person’s feelings, prayer or office. A kind guide can point to people without pretending to be one."
+  }
+ ],
  "reflection": [
   {
    "heading": "What speaking in a name is for",
@@ -537,7 +635,7 @@
    "key": "cohn-anthropomorphism",
    "title": "Believing anthropomorphism: examining the role of anthropomorphic cues on user trust in large language models",
    "url": "https://arxiv.org/abs/2405.06079",
-   "author": "Cohn and colleagues · CHI 2024 (Google Research)",
+   "author": "Michelle Cohn and colleagues · arXiv preprint, 2024",
    "kind": "Research",
    "shows": "With 2,165 participants, adding speech to text raised anthropomorphism and ratings of accuracy; a first-person “I” raised perceived accuracy and lowered perceived risk in one of two contexts.",
    "application": "Voice and “I” make an assistant seem more reliable than it is; pair them with sources and limits.",

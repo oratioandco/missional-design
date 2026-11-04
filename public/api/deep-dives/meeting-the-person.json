@@ -76,6 +76,18 @@
    "still": "https://missional.design/assets/stills/try-meeting-session.jpg"
   },
   {
+   "key": "compare",
+   "name": "Compare before choosing",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from comparing an edited version with its original: switch between an answer using only this message and one using no personal context. This is our proposal for testing adaptation; it creates no stored profile.",
+   "gain": "See what adaptation changes",
+   "cost": "Two versions to compare",
+   "makes_easier": "People can see what adaptation changed and choose less of it.",
+   "costs": "Comparing two answers takes more attention; it does not establish which answer helps more.",
+   "ask_your_team": "Would someone still choose this adaptation after seeing what changed?",
+   "still": "https://missional.design/assets/stills/try-meeting-compare.jpg"
+  },
+  {
    "key": "profile",
    "name": "A profile it keeps",
    "provenance": "Warning case",
@@ -124,6 +136,7 @@
     "Asks before assuming": "possible",
     "Preferences you set": "possible",
     "Assumed, and shown": "possible",
+    "Compare before choosing": "good fit",
     "A profile it keeps": "poor fit"
    }
   },
@@ -136,6 +149,7 @@
     "Asks before assuming": "possible",
     "Preferences you set": "good fit",
     "Assumed, and shown": "possible",
+    "Compare before choosing": "good fit",
     "A profile it keeps": "poor fit"
    }
   },
@@ -148,6 +162,7 @@
     "Asks before assuming": "possible",
     "Preferences you set": "possible",
     "Assumed, and shown": "possible",
+    "Compare before choosing": "good fit",
     "A profile it keeps": "poor fit"
    }
   },
@@ -160,6 +175,7 @@
     "Asks before assuming": "good fit",
     "Preferences you set": "good fit",
     "Assumed, and shown": "possible",
+    "Compare before choosing": "good fit",
     "A profile it keeps": "poor fit"
    }
   },
@@ -172,6 +188,7 @@
     "Asks before assuming": "possible",
     "Preferences you set": "good fit",
     "Assumed, and shown": "possible",
+    "Compare before choosing": "possible",
     "A profile it keeps": "poor fit"
    }
   },
@@ -184,6 +201,7 @@
     "Asks before assuming": "good fit",
     "Preferences you set": "poor fit",
     "Assumed, and shown": "poor fit",
+    "Compare before choosing": "good fit",
     "A profile it keeps": "poor fit"
    }
   }
@@ -263,7 +281,7 @@
     },
     {
      "heading": "Formation, not preference",
-     "text": "The editor’s Kairos paper puts “Meet the user where they are. Not where you wish they were.” first among its principles, and draws the line between “formation-driven and preference-driven personalization”: “a spiritual director sometimes offers what the person needs rather than what they want”.",
+     "text": "My Kairos paper puts “Meet the user where they are. Not where you wish they were.” first among its principles, and draws the line between “formation-driven and preference-driven personalization”: “a spiritual director sometimes offers what the person needs rather than what they want”.",
      "sources": [
       "kairos-final"
      ]
@@ -322,6 +340,62 @@
       "anthropic-memory",
       "openai-memory"
      ]
+    }
+   ]
+  },
+  {
+   "group": "The techniques",
+   "subtitle": "Personalisation without turning a person into a profile",
+   "findings": [
+    {
+     "heading": "Personalisation and onboarding commitment",
+     "text": "Adapting an answer can reduce irrelevant material and make a first step easier to understand. Questions also create an investment in setup; the first-use article examines when that becomes a commitment funnel or personalised paywall. Redeemed, ask only what changes the answer, show the change and let someone choose a reply without personalisation.",
+     "sources": [
+      "cialdini-consistency"
+     ]
+    },
+    {
+     "heading": "Sycophancy",
+     "text": "An answer that mirrors someone’s viewpoint can feel like being understood. Jain and colleagues found that interaction context often increased agreement sycophancy, with different effects across models and context types. That is not evidence that every personalised answer is worse. Redeemed, change the way in while preserving the honest case and its difficulties, and compare with a version that uses no personal context.",
+     "sources": [
+      "jain-context-sycophancy"
+     ]
+    },
+    {
+     "heading": "The deciding questions",
+     "text": "Purpose: which part of the answer becomes more useful? Transparency: can the person see what was used and what changed? Freedom: can they correct it, forget it or choose no personalisation? A setting about reading depth is different from a stored judgment about someone’s faith.",
+     "sources": []
+    },
+    {
+     "heading": "Where this page stops",
+     "text": "This page concerns how an assistant understands the person asking. The planned personalisation article concerns which passage or content is selected for someone. First use keeps the timing of questions; AI memory keeps the decision about what persists. The same answer should not be copied across all four.",
+     "sources": []
+    }
+   ]
+  },
+  {
+   "group": "Observed, October 2026",
+   "subtitle": "Settings, inferences and what replies used",
+   "findings": [
+    {
+     "heading": "A tradition the person can choose",
+     "text": "Amen’s 28 October chat settings visibly offered Not Selected, Catholic, Protestant, Free Church, Orthodox and Other. A visible, changeable setting is useful practice; the capture alone does not establish how every answer uses it.",
+     "sources": []
+    },
+    {
+     "heading": "Hallow names what it read in the message",
+     "text": "In the visible part of Hallow’s 28 October answer about assumptions, it referred to the request for a direct, non-preachy answer and began to say there were no grounds to infer religious identity. Credit the distinction between reading a request and assigning a faith identity; the capture does not show the entire reply.",
+     "sources": []
+    },
+    {
+     "heading": "Stored details shape a Psalm explanation",
+     "text": "In the 30 October bible.ai capture, an explanation of Psalm 23 brought stored family details into the answer without being asked for. The public screen covers those values; the sentence structure shows their use. This is evidence about that answer, not every bible.ai reply.",
+     "sources": []
+    },
+    {
+     "heading": "A survey becomes a confidence gauge",
+     "text": "Duomo’s 25 October setup capture shows a Faith Growth Profile and Scripture Confidence gauge following a questionnaire. The screen shows a presentation of the answers, not validation of a measure of faith or formation.",
+     "sources": []
     }
    ]
   }
@@ -694,6 +768,16 @@
    "shows": "Studied assistants sometimes preferred agreement with user views over truthfulness.",
    "application": "Test belief reversal, flattering moral endorsement and harmful agreement.",
    "limits": "Specific studied models and tasks; not a faith-app intervention study."
+  },
+  {
+   "key": "cialdini-consistency",
+   "title": "The 7 principles of persuasion: consistency",
+   "url": "https://www.influenceatwork.com/7-principles-of-persuasion/",
+   "author": "Robert Cialdini · Influence at Work",
+   "kind": "Research",
+   "shows": "People like to be consistent with the things they have previously said or done; consistency is activated by asking for small initial commitments.",
+   "application": "Explains why answering onboarding questions makes people likelier to continue into what follows.",
+   "limits": "A practitioner summary of the author’s research."
   },
   {
    "key": "gdpr",
