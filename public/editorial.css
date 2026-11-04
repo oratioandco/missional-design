@@ -406,3 +406,9 @@ html:not(.motion) .e-line .e-bead{left:100%}
 :root:root .e-theme-btn .i-sun,:root:root .e-theme-btn[data-mode="dark"] .i-moon{display:none}
 :root:root .e-theme-btn[data-mode="dark"] .i-sun{display:block}
 :root:root .e-theme-btn:hover{color:var(--e-ink);background:var(--e-paper-lo)}
+
+/* Stacked settings: a pill radius on a tall list renders as a dark blob behind the choices. */
+:root:root body.ed .seg.stacked .seg-opts{border-radius:12px;padding:4px;gap:2px}
+:root:root body.ed .seg.stacked .seg-opts label span{border-radius:9px}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]) body.ed .controls .seg-opts{background:rgba(255,255,255,.07)}}
+:root[data-theme=dark] body.ed .controls .seg-opts{background:rgba(255,255,255,.07)}
