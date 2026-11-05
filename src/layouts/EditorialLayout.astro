@@ -38,8 +38,8 @@ const current = (href: string) => pathname.replace(/\/$/, '') === href.replace(/
 // Pages without a counterpart: the legal pages carry both languages; the canvas exists in English only.
 const bare = pathname.replace(/\/$/, '');
 const bilingual = [`${base}/impressum`, `${base}/datenschutz`, `${base}/barrierefreiheit`].includes(bare);
-const englishOnly = bare === `${base}/missional-canvas` || /^\/(apps|organisations|screens|flows|building-tools)(\/|$)/.test(bare);
-const englishNote = bare.startsWith(`${base}/building-tools`) ? 'building tools in English' : bare === `${base}/missional-canvas` ? 'canvas in English' : 'app library in English';
+const englishOnly = bare === `${base}/missional-canvas` || bare === `${base}/research/digital-spiritual-formation` || /^\/(apps|organisations|screens|flows|building-tools)(\/|$)/.test(bare);
+const englishNote = bare === `${base}/research/digital-spiritual-formation` ? 'paper in English' : bare.startsWith(`${base}/building-tools`) ? 'building tools in English' : bare === `${base}/missional-canvas` ? 'canvas in English' : 'app library in English';
 ---
 <!doctype html>
 <html lang={lang}>

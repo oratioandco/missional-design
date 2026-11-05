@@ -99,7 +99,7 @@ const lead = (s: string) => { const m = s.match(/^[^.:]+[.:]/); return m ? [m[0]
 
 <section class="questions wrap" aria-labelledby="q-title">
   <div class="g">
-    <div class="head"><h2 id="q-title" class="h2 rv">{de ? 'Prüffragen.' : 'Diagnostic questions.'}</h2><p class="rv d1">{de ? 'Nutze sie, um jede Funktion, Kampagne oder Gestaltungsentscheidung zu prüfen, bevor sie veröffentlicht wird.' : 'Use these to evaluate any feature, campaign, or design decision before it ships.'}</p></div>
+    <div class="head"><h2 id="q-title" class="h2 rv">{de ? 'Prüffragen.' : 'Diagnostic questions.'}</h2><p class="rv d1">{de ? 'Nutze sie, um jede Funktion, Kampagne oder Gestaltungsentscheidung zu prüfen, bevor sie veröffentlicht wird.' : 'Use these to evaluate any feature, campaign, or design decision before it ships.'}</p>{!de && <p class="rv d1">From the research paper <a href={`${base}/research/digital-spiritual-formation/`}><em>Digital Spiritual Formation in Post-Christian Europe</em></a>.</p>}</div>
     <ol>{questions.map((q, i) => <li><div class="sheen" aria-hidden="true"></div><b>{String(i + 1).padStart(2, '0')}</b><span class="rv">{q}</span></li>)}</ol>
   </div>
 </section>
