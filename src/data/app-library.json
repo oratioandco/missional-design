@@ -70675,7 +70675,9 @@
         "Account"
       ],
       "classification_version": 1,
-      "url": "/screens/shot-2d2fe5e909b2feff5428/"
+      "url": "/screens/shot-2d2fe5e909b2feff5428/",
+      "width": 2868,
+      "height": 1320
     },
     {
       "id": "shot-8c694df1124185769ef3",
@@ -70719,7 +70721,9 @@
         "Positioning"
       ],
       "classification_version": 1,
-      "url": "/screens/shot-8c694df1124185769ef3/"
+      "url": "/screens/shot-8c694df1124185769ef3/",
+      "width": 2868,
+      "height": 1320
     },
     {
       "id": "shot-56631dacb0ca8ca06907",
@@ -99340,7 +99344,9 @@
         "Privacy"
       ],
       "classification_version": 1,
-      "url": "/screens/shot-b9cb501a25908818c52e/"
+      "url": "/screens/shot-b9cb501a25908818c52e/",
+      "width": 1320,
+      "height": 720
     },
     {
       "id": "shot-4ebb7608631292420aea",
@@ -99392,7 +99398,9 @@
         "Citations"
       ],
       "classification_version": 1,
-      "url": "/screens/shot-4ebb7608631292420aea/"
+      "url": "/screens/shot-4ebb7608631292420aea/",
+      "width": 1320,
+      "height": 1130
     },
     {
       "id": "shot-70b53195f7e162ee4f97",
@@ -99444,7 +99452,9 @@
         "Prayer"
       ],
       "classification_version": 1,
-      "url": "/screens/shot-70b53195f7e162ee4f97/"
+      "url": "/screens/shot-70b53195f7e162ee4f97/",
+      "width": 1320,
+      "height": 1220
     },
     {
       "id": "shot-09ea27f07cec95a32264",
@@ -99493,7 +99503,9 @@
         "AI chat"
       ],
       "classification_version": 1,
-      "url": "/screens/shot-09ea27f07cec95a32264/"
+      "url": "/screens/shot-09ea27f07cec95a32264/",
+      "width": 1320,
+      "height": 1330
     },
     {
       "id": "shot-950ce4ae431fa2e89970",
@@ -102824,7 +102836,9 @@
         "Scripture"
       ],
       "classification_version": 1,
-      "url": "/screens/shot-933e459e2676b0e12556/"
+      "url": "/screens/shot-933e459e2676b0e12556/",
+      "width": 1320,
+      "height": 2480
     },
     {
       "id": "shot-9067cdb4a9d1b4230d5f",
@@ -121857,7 +121871,9 @@
         "Prayer"
       ],
       "classification_version": 1,
-      "url": "/screens/shot-90de849d72114b67369e/"
+      "url": "/screens/shot-90de849d72114b67369e/",
+      "width": 1320,
+      "height": 1185
     },
     {
       "id": "shot-81a1d6d6860d2795da23",
@@ -121904,7 +121920,9 @@
         "Scripture"
       ],
       "classification_version": 1,
-      "url": "/screens/shot-81a1d6d6860d2795da23/"
+      "url": "/screens/shot-81a1d6d6860d2795da23/",
+      "width": 1320,
+      "height": 864
     },
     {
       "id": "shot-06a36cabae9e92b6c6cc",

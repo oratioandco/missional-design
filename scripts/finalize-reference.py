@@ -108,6 +108,7 @@ for path in sorted(DIST.rglob('index.html')):
         if marker in text:
             text = text.replace(marker, principle_section(rel.split('/')[1]) + marker, 1)
             text = text.replace('<a href="#deep-dives">In the deep dives</a></nav>', '<a href="#deep-dives">In the deep dives</a><a href="#in-real-apps">Seen in real apps</a></nav>', 1)
+            text = text.replace('<a href="#deep-dives">In the deep dives</a></details>', '<a href="#deep-dives">In the deep dives</a><a href="#in-real-apps">Seen in real apps</a></details>', 1)
             if '/assets/app-library/library.css' not in text:
                 text = text.replace('</head>', '<link rel="stylesheet" href="/assets/app-library/library.css"></head>')
     # Add the same native disclosure menu to imported reference mastheads.

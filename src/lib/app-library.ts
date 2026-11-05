@@ -10,6 +10,8 @@ export const appFor = (id: string) => apps.find(a => a.id === id)!;
 export const organisationFor = (id: string) => organisations.find(o => o.id === id)!;
 export const screenFor = (id: string) => screens.find(s => s.id === id)!;
 export const screensFor = (appId: string) => screens.filter(s => s.app_id === appId);
+// Only screens that differ from a full capture, such as crop redactions, record their own size.
+export const shotSize = (s: any) => ({width: s.width ?? 1320, height: s.height ?? 2868});
 export const dateLabel = (value: string) => new Date(value).toLocaleDateString('en-GB', {day:'numeric',month:'long',year:'numeric',timeZone:'UTC'});
 export const articleNames: Record<string,string> = {
   "ai-persona": "How human the assistant seems",
