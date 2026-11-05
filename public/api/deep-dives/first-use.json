@@ -1065,6 +1065,36 @@
     "why": "What help should look like is covered there.",
     "href": "/patterns/handing-over/"
    }
-  ]
+  ],
+  "seen": {
+   "Switch on a trial for them": [
+    {
+     "app": "Bible Note",
+     "date": "27 October 2026",
+     "text": "The “Free, 3 days” plan was ticked, with “3 days free, then $6.99/wk” in the list, “1 year $69.99” unticked and “Remind me before the trial ends” off.",
+     "shot": "shot-de288f8ea890232561e2"
+    },
+    {
+     "app": "Faithe",
+     "date": "24 October 2026",
+     "text": "“3-Day Free Trial, then $5.99 per week” was selected and labelled “MOST POPULAR”, with “Yearly Access $34.99 per year” unselected above “Try It Free”.",
+     "shot": "shot-9eba4f9e80697ffa8751"
+    }
+   ],
+   "GOOD:guest": [
+    {
+     "app": "Pause",
+     "date": "25 October 2026",
+     "text": "“Skip for now” appeared below the empty “Create your account” form.",
+     "shot": "shot-c64e8fd862c62c43f42d"
+    },
+    {
+     "app": "Formed",
+     "date": "25 October 2026",
+     "text": "The entry screen read “Start exploring our catalog of videos for free or subscribe to instantly start watching.” with “Explore content” beside “Start free trial”.",
+     "shot": "shot-abb15f181498fb322269"
+    }
+   ]
+  }
  }
 }

@@ -959,6 +959,30 @@
     "why": "We point to rules that shape the design, and a team still needs its own advice.",
     "href": null
    }
-  ]
+  ],
+  "seen": {
+   "Choose for the giver": [
+    {
+     "app": "BibleProject",
+     "date": "30 October 2026",
+     "text": "The “Support the Project” sheet opened with “Monthly” and “$50” already selected, beside One-Time, Yearly, $25, $100 and Other.",
+     "shot": "shot-4d45121815693314d006"
+    },
+    {
+     "app": "PRAY.COM",
+     "date": "27 October 2026",
+     "text": "A paid ad-free subscription presented as support for a ministry. The “Support & Go Ad Free” screen opened on “Yearly” with the “Most Popular” tier, “Super supporter $99.99/yr”, outlined above “Choose your amount” and “Continue”.",
+     "shot": "shot-29a0e4193b076730fbea"
+    }
+   ],
+   "GOOD:quiet": [
+    {
+     "app": "YouVersion",
+     "date": "11 October 2026",
+     "text": "The gift form opened at “$0” with “Become a Sower, Make this a recurring gift” switched off and “Enter Gift Amount” on the button.",
+     "shot": "shot-601a4d67e3adf71dc95b"
+    }
+   ]
+  }
  }
 }

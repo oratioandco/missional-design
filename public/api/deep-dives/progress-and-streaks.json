@@ -814,6 +814,32 @@
     "why": "A team’s own analytics is a separate question.",
     "href": null
    }
-  ]
+  ],
+  "seen": {
+   "Treat a gap as failure": [
+    {
+     "app": "Holy Scroll",
+     "date": "30 October 2026",
+     "text": "The home screen showed a “Rhythm 0” badge with a crying-face emoji above “Peaceful evening to you”.",
+     "shot": "shot-2c8357a6c1b4fc85a041"
+    }
+   ],
+   "Sell back what was lost": [
+    {
+     "app": "PRAY.COM",
+     "date": "27 October 2026",
+     "text": "After a missed day the screen read “Missed a day? Repair your 2 day streak! With PRAY Premium, you'll get 2 streak repairs every month. Start your free trial today.”, with “Continue” and “Repair your streak” buttons.",
+     "shot": "shot-e0d775d757b25f4c45af"
+    }
+   ],
+   "GOOD:today": [
+    {
+     "app": "Bible Chat",
+     "date": "31 October 2026",
+     "text": "After a gap the plan card read “PLAN ENDED”, “There's no wrong time to begin.” and “These days slipped by, and that's alright. Grace meets you wherever you start.”, with “Continue this Plan”.",
+     "shot": "shot-c70b64804115df033ce2"
+    }
+   ]
+  }
  }
 }
