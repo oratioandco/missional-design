@@ -8,7 +8,7 @@ import AppStoreGallery from '../../components/library/AppStoreGallery.astro';
 import AppCaptureGallery from '../../components/library/AppCaptureGallery.astro';
 import AppCommercialFacts from '../../components/library/AppCommercialFacts.astro';
 import Layout from '../../layouts/LibraryLayout.astro';
-import {apps,screensFor,organisationFor,flows,dateLabel,articleTitle,patternInfo} from '../../lib/app-library';
+import {apps,screensFor,organisationFor,flows,dateLabel,articleTitle,patternInfo,shotSize} from '../../lib/app-library';
 export function getStaticPaths(){return apps.map(app=>({params:{slug:app.slug},props:{app}}));}
 const {app:a}=Astro.props;const org=organisationFor(a.organisation_id);const shots=screensFor(a.id);const sequences=flows.filter(f=>f.app_id===a.id);const articles=[...new Set(shots.flatMap(s=>s.article_slugs))];
 const previewShots=[];const previewTypes=new Set();for(const shot of shots){if(!previewTypes.has(shot.screen_type)){previewShots.push(shot);previewTypes.add(shot.screen_type);}if(previewShots.length===3)break;}
@@ -24,7 +24,7 @@ const previewShots=[];const previewTypes=new Set();for(const shot of shots){if(!
   <p class="profile-publisher">By <a href={org.url}>{org.name}</a></p><p class="profile-links"><a href={a.app_store_url} target="_blank" rel="noreferrer">App Store</a>{a.website&&<a href={a.website} target="_blank" rel="noreferrer">Official website</a>}<a href={a.target_audience.source_url} target="_blank" rel="noreferrer">Audience source</a></p>
   <dl class="profile-facts-row"><div><dt>Platform</dt><dd>{a.platform}</dd></div><div><dt>Category</dt><dd>{a.category}</dd></div><div><dt>First release</dt><dd>{dateLabel(a.first_store_release)}</dd></div><div><dt>Store ratings</dt><dd>{a.store_rating.count.toLocaleString('en-GB')} ({a.store_rating.country.toUpperCase()})</dd></div><div><dt>Research captures</dt><dd>{shots.length||'None yet'}</dd></div></dl>
  </header>
- <div class="lib-profile-filmstrip" aria-label="Research screenshot preview">{previewShots.map(s=><a href={s.url}><img src={s.image} width="1320" height="2868" alt={s.screen_name} loading="eager"/></a>)}{!shots.length&&<p>Research capture pending. <a href="#app-store">View publisher images</a>.</p>}</div></div>
+ <div class="lib-profile-filmstrip" aria-label="Research screenshot preview">{previewShots.map(s=><a href={s.url}><img src={s.image} {...shotSize(s)} alt={s.screen_name} loading="eager"/></a>)}{!shots.length&&<p>Research capture pending. <a href="#app-store">View publisher images</a>.</p>}</div></div>
  <nav class="profile-jump" aria-label="On this app profile"><a href="#assessment">Design review</a><a href="#research-captures">Screens ({shots.length})</a><a href="#ingredients">Features</a><a href="#cost-access">Cost &amp; access</a><a href={contextData.apps.some(x=>x.app_id===a.id)?'#wider-context':'#user-response'}>What others say</a>{articles.length>0&&<a href="#related-patterns">Related patterns</a>}</nav>
  {[...chatCompare.apps,...chatCompare.also].some(x=>x.slug===a.slug)&&<p class="profile-compare"><a href="/apps/ai-chat/">See how {a.name} answered in our faith chat comparison</a>, beside other chat apps asked the same questions.</p>}
  <AppAssessment app={a} part="findings"/>

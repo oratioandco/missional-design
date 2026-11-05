@@ -1,6 +1,7 @@
 """Import an explicitly reviewed public export; never read the private corpus or outreach files."""
 import argparse,hashlib,json,re,shutil,unicodedata
 from pathlib import Path
+from PIL import Image
 ROOT=Path(__file__).resolve().parents[1]
 def slug(text):return re.sub(r'[^a-z0-9]+','-',unicodedata.normalize('NFKD',text).encode('ascii','ignore').decode().lower()).strip('-')
 def main(source):
@@ -23,6 +24,8 @@ def main(source):
  for s in screens:
   assert re.fullmatch(r'shot-[0-9a-f]{20}',s['id'])
   image=(source/s['image']).resolve();assert image.is_relative_to((source/'screens').resolve()) and image.is_file()
+  with Image.open(image) as picture:size=picture.size
+  if size!=(1320,2868):s['width'],s['height']=size
   s['image']='/assets/app-library/'+s['image'];s['url']='/screens/'+s['id']+'/'
  flows=[]
  names={'blue-letter-bible-mark-a-passage':('Marking a passage','Selected captures show verse actions, the range picker and a later annotated reader. Several intermediate actions are not pictured.'),'hallow-prayer-and-blessing':('Prayer and blessing boundaries','Two captured responses show how the integrated assistant distinguishes prayer wording and a request for a blessing.')}
