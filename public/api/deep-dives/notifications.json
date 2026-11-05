@@ -961,6 +961,16 @@
     "why": "What people send one another in a group is covered there.",
     "href": "/patterns/sharing-with-a-group/"
    }
-  ]
+  ],
+  "seen": {
+   "GOOD:own": [
+    {
+     "app": "Lectio 365",
+     "date": "27 October 2026",
+     "text": "Three separate switches, “Set morning prayer”, “Set midday prayer” and “Set night prayer”, each off on the screen we captured.",
+     "shot": "shot-174a44f6fc4e4c9afc44"
+    }
+   ]
+  }
  }
 }

@@ -874,6 +874,16 @@
     "why": "Which passage or item to select is a planned article on personalisation.",
     "href": null
    }
-  ]
+  ],
+  "seen": {
+   "GOOD:stated": [
+    {
+     "app": "bible.ai",
+     "date": "28 October 2026",
+     "text": "The screen read “add or remove your current interests at anytime to personalize your bible.ai”, with “add or remove interests” and “edit your profile” buttons.",
+     "shot": "shot-33ff9df431c9a97ace38"
+    }
+   ]
+  }
  }
 }

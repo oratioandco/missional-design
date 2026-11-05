@@ -13,4 +13,13 @@
 :root:root body.ed main .e-bounds .e-h3{margin:36px 0 10px}
 :root:root body.ed main .e-excluded{list-style:none;margin:0;padding:0}
 :root:root body.ed main .e-excluded li{margin:0;padding:10px 0;border-top:1px solid var(--e-rule);font-size:15px;line-height:1.55}
+:root:root body.ed main .e-bounds .pair-seen{grid-column:1/-1;margin:10px 0 0;padding:0 18px 4px 0;font-size:14px;line-height:1.5;color:var(--e-faint)}
+:root:root body.ed main .e-bounds .pair-seen ul,:root:root body.ed main .e-good{list-style:none;margin:0;padding:0}
+:root:root body.ed main .e-bounds .pair-seen li{margin:4px 0 0;padding:0;display:block;border:0}
+:root:root body.ed main .e-good>li{margin:0;padding:10px 0;border-top:1px solid var(--e-rule);font-size:15px;line-height:1.55}
+:root:root body.ed main .seen-shot{margin:2px 0 6px}
+:root:root body.ed main .seen-shot summary{display:inline-flex;align-items:center;min-height:32px;cursor:pointer;font-size:13px;font-weight:600;color:var(--e-ink);text-decoration:underline;text-underline-offset:3px}
+:root:root body.ed main .seen-shot figure{margin:8px 0 12px;max-width:300px}
+:root:root body.ed main .seen-shot img{display:block;width:100%;height:auto;border:1px solid var(--e-rule);border-radius:10px}
+:root:root body.ed main .seen-shot figcaption{margin-top:6px;font-size:13px;line-height:1.45;color:var(--e-faint)}
 @media (max-width:700px){:root:root body.ed main .e-bounds .pairs li{grid-template-columns:1fr}:root:root body.ed main .e-bounds .pairs li>.pair-do{border-top:0!important;padding-top:0}}
