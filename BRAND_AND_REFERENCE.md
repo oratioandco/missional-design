@@ -1,3 +1,5 @@
+> **Brand description out of date (5 November 2026).** For how things should look now, use [DESIGN_SYSTEM.md](../bible-faith-patterns/DESIGN_SYSTEM.md). The reference import, validation and canvas workbook notes here remain valid.
+
 # Shared brand and unified reference
 
 **Continuation:** read [HANDOFF.md](HANDOFF.md) and its canonical cross-project vision/task/runbook before older notes. Latest work is local, not deployed.

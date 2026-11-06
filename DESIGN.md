@@ -70,6 +70,8 @@ components:
     textColor: "{colors.navy-ink}"
 ---
 
+> **Not the current visual system (5 November 2026).** Colours, type and imagery here describe Reflected Light; use [DESIGN_SYSTEM.md](../bible-faith-patterns/DESIGN_SYSTEM.md) instead. The component and workflow behaviour notes have not been reviewed and may still apply; check before relying on them or removing them.
+
 # Design System: Missional by Design — Reflected Light
 
 ## Overview
