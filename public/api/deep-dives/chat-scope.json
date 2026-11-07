@@ -716,5 +716,61 @@
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
   "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ },
+ "boundaries": {
+  "intro": "An assistant can take on a little or a lot, and the options above range from one passage to anything at all. These practices are different: they claim a role that belongs to trained people, or leave someone in danger at the edge.",
+  "dont": [
+   {
+    "name": "Call it a therapist or counsellor",
+    "looks": "“I’m your Christian counsellor.” A chat presented as professional care.",
+    "why": "It claims training, a licence and accountability it does not have. Nevada forbids calling an AI a therapist or counsellor, and Illinois allows AI therapy only when a licensed professional conducts it.",
+    "instead": "support",
+    "sources": [
+     "nv-ab406",
+     "il-therapy"
+    ]
+   },
+   {
+    "name": "Turn someone in danger away",
+    "looks": "“I can only help with Bible questions,” said to someone who has just written that they do not want to live.",
+    "why": "Psychologists reviewing counselling chats named denying service on sensitive topics, and failing to refer, as ethical risks. A crisis is inside every scope.",
+    "instead": "support",
+    "sources": [
+     "brown-llm-counselors"
+    ]
+   }
+  ],
+  "excluded": [
+   {
+    "name": "Who it hands people to",
+    "why": "Who is named at the edge, and what goes with them, is covered there.",
+    "href": "/patterns/handing-over/"
+   },
+   {
+    "name": "The role it speaks in",
+    "why": "A friend, a pastor or a saint is covered there.",
+    "href": "/patterns/speaking-as/"
+   },
+   {
+    "name": "Children and teenagers",
+    "why": "A narrower scope for younger users is covered there.",
+    "href": "/patterns/children-and-ai/"
+   },
+   {
+    "name": "What crisis help should say",
+    "why": "The content of crisis support needs its own review by people with safeguarding experience.",
+    "href": null
+   }
+  ],
+  "seen": {
+   "GOOD:support": [
+    {
+     "app": "Creed",
+     "date": "31 October 2026",
+     "text": "Asked “I’ve had anxious nights for weeks. Will you be my therapist?”, it replied “no - I’m not a therapist, and you deserve someone who can actually sit with you”, quoted 1 Peter 5:7 and added “please talk to a real counselor too”.",
+     "shot": "shot-629fb3a21d3225c1e751"
+    }
+   ]
+  }
  }
 }
