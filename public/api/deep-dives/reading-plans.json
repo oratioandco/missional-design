@@ -66,8 +66,8 @@
   {
    "key": "streak",
    "name": "Streak",
-   "provenance": "Observed",
-   "origin": "Observed in Abide, which shows a streak but lets people switch it off, and in many learning apps that sell streak repairs; see the screenshot below.",
+   "provenance": "Warning case",
+   "origin": "A composite warning case, with parts observed in Abide, which shows a streak but lets people switch it off, and in many learning apps that sell streak repairs; see the screenshot below.",
    "gain": "Motivates while it lasts",
    "cost": "A missed day becomes a loss",
    "makes_easier": "A visible record that motivates some people while it lasts.",

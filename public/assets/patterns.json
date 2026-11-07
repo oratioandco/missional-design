@@ -6009,7 +6009,7 @@
       {
         "title": "G · Biblical character",
         "caption": "Generated speech in Christ’s or a saint’s voice.",
-        "when": "Not recommended",
+        "when": "Warning case",
         "tradeoff": "Speaking for God; promises no system can keep.",
         "items": [
           "tag|Jesus · AI character",
@@ -6413,7 +6413,7 @@
       {
         "title": "E · Streak",
         "caption": "Consecutive days counted and protected.",
-        "when": "Not recommended",
+        "when": "Warning case",
         "tradeoff": "A missed day becomes a loss.",
         "items": [
           "heading|Your 11-day streak ended",
@@ -6519,7 +6519,7 @@
       {
         "title": "E · Counted prayer",
         "caption": "Minutes, streaks and totals.",
-        "when": "Not recommended",
+        "when": "Warning case",
         "tradeoff": "Prayer becomes a number.",
         "items": [
           "heading|11 day prayer streak",
@@ -7604,7 +7604,7 @@
       {
         "title": "F · A pastor or priest",
         "caption": "A minister’s title, and what goes with it.",
-        "when": "Not recommended",
+        "when": "Warning case",
         "tradeoff": "Borrows an office: confession, absolution, blessing.",
         "items": [
           "tag|Pastor Dan · AI",

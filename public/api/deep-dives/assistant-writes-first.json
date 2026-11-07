@@ -587,5 +587,54 @@
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
   "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ },
+ "boundaries": {
+  "intro": "A follow-up someone asked for can be care, and the options above include several kinds of message. These practices are different: they claim feelings, press after silence, or speak about someone to others.",
+  "dont": [
+   {
+    "name": "Say it misses them",
+    "looks": "“I’ve been thinking about you all day.” “I miss you.”",
+    "why": "It claims feelings software does not have, to bring someone back. A consumer group advises switching such messages off to avoid emotional dependence, and New York requires companions to say they cannot feel human emotions.",
+    "instead": "asked",
+    "sources": [
+     "altroconsumo-replika",
+     "mofo-companion-laws"
+    ]
+   },
+   {
+    "name": "Write more the longer they are silent",
+    "looks": "A second and a third follow-up when the first goes unanswered.",
+    "why": "Silence may be an answer. Even one large company’s test of chatbots that write first stopped after a single unanswered follow-up.",
+    "instead": "waits",
+    "sources": [
+     "meta-proactive"
+    ]
+   },
+   {
+    "name": "Tell someone else about them",
+    "looks": "A friend told that someone “might need a call”, guessed from a conversation and sent in words the person never saw.",
+    "why": "It exposes a guess about someone’s state to others without asking them.",
+    "instead": "waits",
+    "sources": []
+   }
+  ],
+  "excluded": [
+   {
+    "name": "The app’s own reminders",
+    "why": "Reminders about a practice are covered there.",
+    "href": "/patterns/notifications/"
+   },
+   {
+    "name": "What the assistant remembers",
+    "why": "Which confidences are kept at all is covered there.",
+    "href": "/patterns/ai-memory/"
+   },
+   {
+    "name": "Follow-up by people",
+    "why": "When a person, not the assistant, should follow up is covered there.",
+    "href": "/patterns/handing-over/"
+   }
+  ],
+  "seen": {}
  }
 }

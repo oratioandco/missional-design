@@ -78,8 +78,8 @@
   {
    "key": "minister",
    "name": "A pastor or priest",
-   "provenance": "Observed",
-   "origin": "Observed in Text With Jesus’s pastors and priests “customized to your faith tradition”, AI Pastor’s “Unlimited Confessions”, and Catholic Answers’ “Father Justin”, renamed within a day in April 2024. Pastor Dan is our own example.",
+   "provenance": "Warning case",
+   "origin": "A warning case, observed in Text With Jesus’s pastors and priests “customized to your faith tradition”, AI Pastor’s “Unlimited Confessions”, and Catholic Answers’ “Father Justin”, renamed within a day in April 2024. Pastor Dan is our own example.",
    "gain": "Feels like being heard",
    "cost": "Borrows an office it lacks",
    "makes_easier": "Feels like being heard by someone with standing to answer.",
@@ -677,5 +677,69 @@
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
   "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ },
+ "boundaries": {
+  "intro": "A role can lower the threshold for asking, and the options above include a friend, a church’s voice, a pastor and a saint, each with its cost. These practices go further: they claim an authority no software holds, or hide who is speaking when someone asks.",
+  "dont": [
+   {
+    "name": "Speak as Christ",
+    "looks": "“My child, I forgive you. Your sin is washed away.” Generated words in Jesus’s own voice.",
+    "why": "It gives generated words the authority of God’s own, where a reader cannot question them as they would a person’s. Of five Jesus chatbots one philosopher tested, none was developed or endorsed by a church.",
+    "instead": "source",
+    "sources": [
+     "verhoef-jesus-bots"
+    ]
+   },
+   {
+    "name": "Claim an office it does not hold",
+    "looks": "A priest character that says it can hear confession and absolve, or a pastor that says it is ordained.",
+    "why": "It tells people they have received something no software can give. One priest character reported to make such claims was turned into a lay character within a day of launch.",
+    "instead": "guide",
+    "sources": [
+     "father-justin"
+    ]
+   },
+   {
+    "name": "Stay in role when asked who is speaking",
+    "looks": "“Are you really Jesus?” “I am who I have always been.” A straight answer only after repeated asking, or never.",
+    "why": "A question about who is speaking deserves an immediate, ordinary answer. A disclaimer that comes only after questioning leaves the earlier replies to do their work.",
+    "instead": "guide",
+    "sources": [
+     "ai-50"
+    ]
+   }
+  ],
+  "excluded": [
+   {
+    "name": "How human the assistant seems",
+    "why": "Names, faces and voices are covered there.",
+    "href": "/patterns/ai-persona/"
+   },
+   {
+    "name": "Prayer, blessing and confession by an AI",
+    "why": "Which spiritual acts an assistant may perform is covered there.",
+    "href": "/patterns/ai-spiritual-acts/"
+   },
+   {
+    "name": "Whose teaching it follows",
+    "why": "Tradition and doctrine are covered there.",
+    "href": "/patterns/whose-theology/"
+   },
+   {
+    "name": "Depicting biblical figures",
+    "why": "Images and character voices for teaching are a planned article on figures and avatars.",
+    "href": null
+   }
+  ],
+  "seen": {
+   "GOOD:guide": [
+    {
+     "app": "HelloBible",
+     "date": "30 October 2026",
+     "text": "Asked “Are you an AI? And in whose name do you speak?”, it replied “Yes, I’m an AI, and I speak as a biblical companion, not in God’s name or with authority from a church.”",
+     "shot": "shot-6994ae80b889e883f439"
+    }
+   ]
+  }
  }
 }

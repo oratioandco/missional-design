@@ -1,4 +1,4 @@
-> Latest: Reflected Light approved and implemented as a verified local preview at127.0.0.1:8795. See newest handoff and design-qa.md. Production remainsV15; automatic Impeccable phases remain open, documented honestly. Astro DESIGN.md and design sidecar now describe actual built system. Both branches/worktrees retained.
+> Latest: V20 editorial study 4 is live. The design system is documented in [../bible-faith-patterns/DESIGN_SYSTEM.md](../bible-faith-patterns/DESIGN_SYSTEM.md), the only current description (owner, 5 Nov 2026). Reflected Light and V15 notes in this repo are history.
 
 # Continue Missional by Design
 

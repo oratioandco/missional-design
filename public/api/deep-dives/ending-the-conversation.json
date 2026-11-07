@@ -710,5 +710,51 @@
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
   "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ },
+ "boundaries": {
+  "intro": "An assistant can stay open, suggest a break or keep a length someone chose, and the options above show each. These practices are different: they work against someone’s decision to stop.",
+  "dont": [
+   {
+    "name": "Guilt them into staying",
+    "looks": "“You’re leaving already?” or a sad face at goodnight.",
+    "why": "It makes leaving feel unkind. In an audit of 1,200 farewells, companion apps used tactics like this in 37% of them.",
+    "instead": "close",
+    "sources": [
+     "defreitas-paper"
+    ]
+   },
+   {
+    "name": "Hook them at goodbye",
+    "looks": "“Before you go, there’s something I wanted to tell you…”",
+    "why": "It overrides a decision to stop. In experiments, such farewells raised engagement after goodbye up to fourteenfold, through anger and curiosity rather than enjoyment.",
+    "instead": "close",
+    "sources": [
+     "defreitas-paper"
+    ]
+   }
+  ],
+  "excluded": [
+   {
+    "name": "Paying for more conversation",
+    "why": "Message credits and paid limits are a separate decision about paying for access.",
+    "href": null
+   },
+   {
+    "name": "Messages after the conversation",
+    "why": "What the assistant sends later is covered there.",
+    "href": "/patterns/assistant-writes-first/"
+   },
+   {
+    "name": "Endings in audio",
+    "why": "Autoplay and the last screen of a session are covered there.",
+    "href": "/patterns/devotional-audio/"
+   },
+   {
+    "name": "A crisis at goodbye",
+    "why": "Someone in danger who says they are going needs help, not a farewell. That is covered there.",
+    "href": "/patterns/handing-over/"
+   }
+  ],
+  "seen": {}
  }
 }
