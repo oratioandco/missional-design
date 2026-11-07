@@ -1,6 +1,7 @@
 [
   {
     "id": "word-distinct",
+    "label": "Faithful Teaching",
     "heading": "word",
     "name": "Keep the Word distinct, and teach it truly",
     "line": "Every screen teaches. Let readers always tell Scripture from our words, and our words from a machine’s.",
@@ -117,6 +118,7 @@
   },
   {
     "id": "speak-for-god",
+    "label": "A Humble Voice",
     "heading": "word",
     "name": "Never speak for God",
     "line": "An app may quote, explain, pray the church’s prayers and point. It must never pronounce, promise or plead in God’s name, nor let a persona or a machine take the place of a person or of God.",
@@ -207,6 +209,7 @@
   },
   {
     "id": "most-vulnerable",
+    "label": "Care for the Vulnerable",
     "heading": "person",
     "name": "Design for the most vulnerable first",
     "line": "Design first for the person most likely to be hurt: in crisis, grieving, abused, scrupulous, new to faith, hurt by a church, or, where an app serves them, a child. Help comes before features, verses or answers.",
@@ -291,6 +294,7 @@
   },
   {
     "id": "welcome",
+    "label": "Digital Hospitality",
     "heading": "person",
     "name": "Welcome before you ask, and guard what is told in confidence",
     "line": "Let people reach what they came for before asking anything; ask only for what serves them, when it does; and treat what they tell you as holy ground.",
@@ -377,6 +381,7 @@
   },
   {
     "id": "feed-the-flock",
+    "label": "Stewardship",
     "heading": "practice",
     "name": "Feed the flock, not on it",
     "line": "Attention, time, devotion and money are entrusted, not harvested. Ask for them honestly, never through guilt, fear, urgency or a promise.",
@@ -444,6 +449,7 @@
   },
   {
     "id": "enough",
+    "label": "Rest and Enough",
     "heading": "practice",
     "name": "Make room for rest, and say when it is enough",
     "line": "A faithful product sometimes asks for less: it ends a session, keeps the night quiet, stops asking when the need is met, and lets itself end when its work is done.",
@@ -510,6 +516,7 @@
   },
   {
     "id": "send",
+    "label": "Direction",
     "heading": "people",
     "name": "Send people to God and to one another",
     "line": "The app is a means, never the destination. Judge it by where people go when they close it.",
@@ -585,6 +592,7 @@
   },
   {
     "id": "growth",
+    "label": "Honest Measures",
     "heading": "people",
     "name": "Plant and water; leave the growth to God",
     "line": "Measure what serves the person and the task. Never score a soul, and never claim the fruit as yours.",
@@ -649,6 +657,7 @@
   },
   {
     "id": "offering",
+    "label": "Craft as Offering",
     "heading": "makers",
     "name": "Make it well, as an offering",
     "line": "Craft is worship. Excellence, accessibility, beauty and care are how we love God and the person on the other side of the screen.",
@@ -750,6 +759,7 @@
   },
   {
     "id": "trembling",
+    "label": "Joyful Reverence",
     "heading": "makers",
     "name": "Hold it with joy and trembling, before God and others",
     "line": "Rejoice in the work and take its weight: pray for the people who use it, invite those who can say no, confess mistakes plainly, and tend what you release.",
