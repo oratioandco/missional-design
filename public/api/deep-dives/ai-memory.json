@@ -558,5 +558,59 @@
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
   "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ },
+ "boundaries": {
+  "intro": "Remembering can help someone pick up where they left off, and the options above range from nothing kept to a profile. These practices are different: they keep or use what someone confided in ways the person cannot see or would not expect.",
+  "dont": [
+   {
+    "name": "Turn confidences into a profile",
+    "looks": "“Life events: job loss” or “Faith stage: doubting”, inferred from late-night chats and used for offers or shared with partners.",
+    "why": "A worry told for help flows into a context it was never shared for. In Europe, inferences about faith and health are special-category data.",
+    "instead": "memory",
+    "sources": [
+     "contextual-integrity",
+     "ico-special-inferences"
+    ]
+   },
+   {
+    "name": "Keep things without saying so",
+    "looks": "Memory on by default, with nothing in the chat to show what was saved.",
+    "why": "People already misjudge what a chatbot keeps, and say more when it feels human.",
+    "instead": "memory",
+    "sources": [
+     "fair-game"
+    ]
+   },
+   {
+    "name": "Make forgetting hard",
+    "looks": "Deletion only by email, or a delete button that leaves the derived profile in place.",
+    "why": "The person has decided to be forgotten, and friction or a partial deletion overrides that.",
+    "instead": "memory",
+    "sources": []
+   }
+  ],
+  "excluded": [
+   {
+    "name": "How answers adapt to someone",
+    "why": "Using what someone says within a conversation is covered there.",
+    "href": "/patterns/meeting-the-person/"
+   },
+   {
+    "name": "Messages built from memory",
+    "why": "Follow-ups that draw on what someone confided are covered there.",
+    "href": "/patterns/assistant-writes-first/"
+   },
+   {
+    "name": "What goes to a church",
+    "why": "Sharing with people outside the app is covered there.",
+    "href": "/patterns/handing-over/"
+   },
+   {
+    "name": "Hidden instructions in attachments",
+    "why": "Text inside files that tries to redirect the model is a question for a security review.",
+    "href": null
+   }
+  ],
+  "seen": {}
  }
 }
