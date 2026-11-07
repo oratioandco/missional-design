@@ -20,6 +20,9 @@ if not (args.source / 'field-guide/index.html').exists():
 manifest = ROOT / 'reference-import-manifest.json'
 old = set(json.loads(manifest.read_text())['files']) if manifest.exists() else set()
 new = set()
+# Retired 6 November 2026 (owner-approved): these routes are redirect stubs in public/. The reference generator may
+# still emit full pages for them; never overwrite or delete the stubs. Guarded by tests/test_retired_routes.py.
+RETIRED = {'reference/index.html', 'principles/index.html', 'field-guide/index.html'}
 text_ext = {'.html', '.css', '.js', '.json', '.md', '.txt', '.svg'}
 for source in sorted(args.source.rglob('*')):
     if not source.is_file():
@@ -31,6 +34,8 @@ for source in sorted(args.source.rglob('*')):
         rel = Path('reference/index.html')
     elif rel.parts[0] == 'about':
         rel = Path('reference') / rel
+    if rel.as_posix() in RETIRED:
+        continue
     target = ROOT / 'public' / rel
     target.parent.mkdir(parents=True, exist_ok=True)
     if source.suffix in text_ext:
@@ -56,7 +61,7 @@ for source in sorted(args.source.rglob('*')):
     else:
         shutil.copy2(source, target)
     new.add(rel.as_posix())
-for rel in old - new:
+for rel in old - new - RETIRED:
     target = ROOT / 'public' / rel
     if target.is_file():
         target.unlink()

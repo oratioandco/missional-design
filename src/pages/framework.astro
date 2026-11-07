@@ -2,7 +2,7 @@
 // Missional by Design: principles for spiritual apps (replaces the eight principles, 11 October 2026; draft for review).
 // Five places, two commitments in each, derived from the calling (patterns.missional.design/calling/) and read through
 // Praxis's Redemptive Frame. The full derivations, sources and test questions live on
-// patterns.missional.design/principles/; this page is the short form.
+// the ten /principles/<id>/ pages; this page is the short form (the /principles/ index redirects here since 6 November 2026).
 import EditorialLayout from '../layouts/EditorialLayout.astro';
 import EditorialFramework from '../components/EditorialFramework.astro';
 
@@ -127,6 +127,21 @@ const tensions = [
   },
 ];
 
+const decisions = [
+  { decision: 'A reading plan with a daily reminder', principles: 'Feed the flock; Make room for rest.', resolution: 'A rhythm the person chose, easy rescheduling, and after silence one question, then quiet.' },
+  { decision: 'An AI that prays with someone at night', principles: 'Never speak for God; Design for the most vulnerable first.', resolution: 'Offer the church’s prayers as the church’s, a way to a person first, and no persona that says it will pray.' },
+  { decision: 'A community invitation after an abuse disclosure', principles: 'Send people to one another; Design for the most vulnerable first.', resolution: 'Keep the choice with the person, check the destination is safe, and ask a safeguarding lead.' },
+  { decision: 'A subscription that pays for licensed notes', principles: 'Feed the flock; Make it well.', resolution: 'A price after a first use that says what it pays for, and a cancellation as easy as the purchase.' },
+];
+
+const steps = [
+  { title: 'Start with a person.', body: 'Name who is holding the phone, and the most vulnerable person likely to.' },
+  { title: 'Choose two or three principles.', body: 'Take the ones that bear on the decision, and ask their questions.' },
+  { title: 'Write the three ways.', body: 'One sentence each: what would an exploitative, an ethical and a redemptive product do here?' },
+  { title: 'Name the cost.', body: 'What will we give up, and who outside the team agrees?' },
+  { title: 'Decide, and revisit.', body: 'Record the tension, the owner and what would change the decision.' },
+];
+
 const questions = [
   'Does this serve growth in faith, or only the usage numbers?',
   'Freedom or anxiety?',
@@ -137,5 +152,5 @@ const questions = [
 ];
 ---
 <EditorialLayout lang="en" title="Principles for Christian product design" description="Ten principles connecting Christian calling with practical decisions about Scripture, people, practice, community and the work of building." credits={["Photograph: Peter Beke (Unsplash)."]}>
-  <EditorialFramework lang="en" places={places} ways={ways} tensions={tensions} questions={questions} />
+  <EditorialFramework lang="en" places={places} ways={ways} tensions={tensions} decisions={decisions} steps={steps} questions={questions} />
 </EditorialLayout>

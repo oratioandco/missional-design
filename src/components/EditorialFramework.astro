@@ -6,11 +6,13 @@ interface Commitment { id: string; title: string; body: string }
 interface Place { num: string; name: string; ask: string; commitments: Commitment[] }
 interface Way { label: string; praxis: string; body: string }
 interface Tension { title: string; body: string }
-interface Props { lang: 'en' | 'de'; places: Place[]; ways: Way[]; tensions: Tension[]; questions: string[] }
-const { lang, places, ways, tensions, questions } = Astro.props;
+interface Decision { decision: string; principles: string; resolution: string }
+interface Step { title: string; body: string }
+interface Props { lang: 'en' | 'de'; places: Place[]; ways: Way[]; tensions: Tension[]; decisions: Decision[]; steps: Step[]; questions: string[] }
+const { lang, places, ways, tensions, decisions, steps, questions } = Astro.props;
 const de = lang === 'de';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const full = `${base}/principles/`;
+const full = `${base}/principles/`; // per-principle pages; the /principles/ index redirects here
 const ed = `${base}/assets/editorial`;
 // "The app takes the place. It borrows…" → the first clause is set in bold, as in the study.
 const lead = (s: string) => { const m = s.match(/^[^.:]+[.:]/); return m ? [m[0], s.slice(m[0].length)] : ['', s]; };
@@ -49,7 +51,7 @@ const lead = (s: string) => { const m = s.match(/^[^.:]+[.:]/); return m ? [m[0]
           <div class="area-top rv"><span class="n metal" aria-hidden="true">{p.num}</span><h3 id={`area-${p.num}-t`}>{p.name}</h3></div>
           <p class="q rv">{p.ask}</p>
           {p.commitments.map(c => <div class="principle rv" id={c.id}><h4><a href={`${full}${c.id}/`}>{c.title}</a></h4><p>{c.body}</p></div>)}
-          {i === places.length - 1 && <p class="more small muted rv">{de ? 'Jedes Prinzip mit seiner Schrift, seiner Tradition, dem, was es ein- und ausschließt, und Fragen zur Prüfung (auf Englisch): ' : 'Each principle, with its Scripture, tradition, what it rules in and out, and questions to test a design: '}<a href={full}>patterns.missional.design/principles</a>.</p>}
+          {i === places.length - 1 && <p class="more small muted rv">{de ? 'Jeder Titel oben öffnet das Prinzip mit seiner Schrift, seiner Tradition, dem, was es ein- und ausschließt, und Fragen zur Prüfung (auf Englisch).' : 'Each title above opens the principle with its Scripture, tradition, what it rules in and out, and questions to test a design.'}</p>}
         </article>
       ))}
     </div>
@@ -97,10 +99,27 @@ const lead = (s: string) => { const m = s.match(/^[^.:]+[.:]/); return m ? [m[0]
   </div>
 </section>
 
+<!-- Moved from the retired /principles/ index (owner, 7 November 2026): worked decisions, in the same layout as above -->
+<section class="hold wrap" id="tensions" aria-labelledby="tensions-title">
+  <div class="g">
+    <h2 id="tensions-title" class="h2 rv">{de ? 'Wenn Prinzipien auseinanderziehen.' : 'When principles pull apart.'}</h2>
+    <p class="lede rv d1">{de ? 'Nehmt die zwei oder drei Prinzipien, die eine Entscheidung betreffen, und haltet die Spannung fest, statt sie zu verrechnen. Unmittelbare Sicherheit, das Recht und eine wahrheitsgemäße Darstellung begrenzen jede Option; kein Anspruch hebt sie auf.' : 'Use the two or three principles that bear on a decision, and record the tension instead of scoring it. Immediate safety, the law and truthful representation constrain every option; no aspiration cancels them.'}</p>
+    <dl>{decisions.map(d => <><dt class="rv">{d.decision}</dt><dd class="rv"><span class="small">{de ? 'In Spannung: ' : 'In tension: '}{d.principles}</span><br />{de ? 'Eine Lösung zum Prüfen: ' : 'A resolution to test: '}{d.resolution}</dd></>)}</dl>
+  </div>
+</section>
+
 <section class="questions wrap" aria-labelledby="q-title">
   <div class="g">
     <div class="head"><h2 id="q-title" class="h2 rv">{de ? 'Prüffragen.' : 'Diagnostic questions.'}</h2><p class="rv d1">{de ? 'Nutze sie, um jede Funktion, Kampagne oder Gestaltungsentscheidung zu prüfen, bevor sie veröffentlicht wird.' : 'Use these to evaluate any feature, campaign, or design decision before it ships.'}</p>{!de && <p class="rv d1">From the research paper <a href={`${base}/research/digital-spiritual-formation/`}><em>Digital Spiritual Formation in Post-Christian Europe</em></a>.</p>}</div>
     <ol>{questions.map((q, i) => <li><div class="sheen" aria-hidden="true"></div><b>{String(i + 1).padStart(2, '0')}</b><span class="rv">{q}</span></li>)}</ol>
+  </div>
+</section>
+
+<section class="hold wrap" id="review" aria-labelledby="review-title">
+  <div class="g">
+    <h2 id="review-title" class="h2 rv">{de ? 'In einer Prüfung anwenden.' : 'Use them in a review.'}</h2>
+    <p class="lede rv d1">{de ? <>Fünf Schritte für eine Produktentscheidung im Team. Dazu: <a href={`${base}/guides/decision-review/`}>das Arbeitsblatt (Englisch)</a>, <a href={`${base}/guides/discernment/`}>Fragen zur Unterscheidung (Englisch)</a> und <a href={`${base}/scenarios/`}>Szenarien (Englisch)</a>.</> : <>Five steps for a product decision with your team. Alongside them: <a href={`${base}/guides/decision-review/`}>the decision worksheet</a>, <a href={`${base}/guides/discernment/`}>questions for discernment</a> and <a href={`${base}/scenarios/`}>scenarios</a>.</>}</p>
+    <dl>{steps.map((st, i) => <><dt class="rv">{i + 1}. {st.title}</dt><dd class="rv">{st.body}</dd></>)}</dl>
   </div>
 </section>
 
@@ -109,7 +128,7 @@ const lead = (s: string) => { const m = s.match(/^[^.:]+[.:]/); return m ? [m[0]
     <h2 id="next-title" class="h2 rv">{de ? 'Das Rahmenwerk anwenden?' : 'Want to apply the framework?'}</h2>
     <div class="lede rv d1">
       <p>{de ? 'Prüft mit den Prinzipien eine konkrete Produktentscheidung im Team und vergleicht anschließend die Gestaltungsoptionen in der Musterbibliothek. Die theologische und seelsorgliche Prüfung dieses Entwurfs steht noch aus; Beiträge von Fachleuten sind willkommen.' : 'Use the principles to examine a product decision with your team, then explore the practical options in the pattern library. Theological and pastoral review of this draft is pending; contributions from reviewers are welcome.'}</p>
-      <p class="next-links"><a class="go" href="/building-tools/worksheet/">{de ? 'Prinzipien im Team durcharbeiten (EN)' : 'Use the principle worksheet'}</a> <a class="go" href={full}>{de ? 'Die zehn ausführlich (Englisch)' : 'Read the principles with sources'}</a> <EmailLink label={de ? 'Kontakt aufnehmen' : 'Get in touch'} class="go" /> <a class="go" href={`${base}${de ? '/de' : ''}/about/`}>{de ? 'Über den Autor' : 'About the author'}</a></p>
+      <p class="next-links"><a class="go" href="/building-tools/worksheet/">{de ? 'Prinzipien im Team durcharbeiten (EN)' : 'Use the principle worksheet'}</a> <a class="go" href={`${full}word-distinct/`}>{de ? 'Das erste Prinzip ausführlich (Englisch)' : 'Read the first principle with sources'}</a> <EmailLink label={de ? 'Kontakt aufnehmen' : 'Get in touch'} class="go" /> <a class="go" href={`${base}${de ? '/de' : ''}/about/`}>{de ? 'Über den Autor' : 'About the author'}</a></p>
     </div>
     <div class="pair">
       <a href={`${base}/missional-canvas/`} class="rv"><b>{de ? 'Mit eurem Kontext beginnen?' : 'Need to understand your context?'}</b><span>{de ? 'Der Canvas hilft euch, gemeinsam zuzuhören, eure missionale Identität zu klären und einen nächsten Schritt zu gestalten.' : 'Use the canvas with your team to listen, clarify your missional identity and shape a next step.'}</span><em>{de ? 'Canvas öffnen (Englisch)' : 'Open the canvas'}</em></a>

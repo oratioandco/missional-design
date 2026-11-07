@@ -2,7 +2,7 @@
 // Missional by Design: Zehn Prinzipien für Produktteams (ersetzt die acht Prinzipien, Oktober 2026; Entwurf zur Prüfung). Deutsche Fassung.
 // Five places, two commitments in each, derived from the calling (patterns.missional.design/calling/) and read through
 // Praxis's Redemptive Frame. The full derivations, sources and test questions live on
-// patterns.missional.design/principles/; this page is the short form.
+// the ten /principles/<id>/ pages; this page is the short form (the /principles/ index redirects to /framework/).
 import EditorialLayout from '../../layouts/EditorialLayout.astro';
 import EditorialFramework from '../../components/EditorialFramework.astro';
 
@@ -127,6 +127,21 @@ const tensions = [
   },
 ];
 
+const decisions = [
+  { decision: 'Ein Leseplan mit täglicher Erinnerung', principles: 'Weide die Herde; Schaffe Raum für Ruhe.', resolution: 'Ein Rhythmus, den die Person gewählt hat, leichtes Verschieben, und nach einer Stille eine Frage, dann Ruhe.' },
+  { decision: 'Eine KI, die nachts mit jemandem betet', principles: 'Sprich nie an Gottes Stelle; Gestalte zuerst für die Verletzlichsten.', resolution: 'Die Gebete der Kirche als Gebete der Kirche anbieten, zuerst einen Weg zu einem Menschen, und keine Persona, die sagt, sie werde beten.' },
+  { decision: 'Eine Einladung in die Gemeinschaft nach der Offenlegung von Missbrauch', principles: 'Schicke Menschen zueinander; Gestalte zuerst für die Verletzlichsten.', resolution: 'Die Wahl bei der Person lassen, prüfen, ob das Ziel sicher ist, und eine Ansprechperson für Schutzkonzepte fragen.' },
+  { decision: 'Ein Abo, das lizenzierte Anmerkungen bezahlt', principles: 'Weide die Herde; Mach es gut.', resolution: 'Ein Preis nach einer ersten Nutzung, der sagt, wofür er bezahlt, und eine Kündigung, so einfach wie der Kauf.' },
+];
+
+const steps = [
+  { title: 'Beginnt mit einem Menschen.', body: 'Benennt, wer das Telefon in der Hand hält, und die verletzlichste Person, die es wahrscheinlich tun wird.' },
+  { title: 'Wählt zwei oder drei Prinzipien.', body: 'Nehmt die, die die Entscheidung betreffen, und stellt ihre Fragen.' },
+  { title: 'Schreibt die drei Arten auf.', body: 'Je ein Satz: Was würde ein ausbeuterisches, ein ethisches und ein erlösendes Produkt hier tun?' },
+  { title: 'Benennt den Preis.', body: 'Worauf verzichten wir, und wer außerhalb des Teams stimmt zu?' },
+  { title: 'Entscheidet, und schaut wieder hin.', body: 'Haltet die Spannung fest, wer verantwortlich ist und was die Entscheidung ändern würde.' },
+];
+
 const questions = [
   'Dient das dem Wachstum im Glauben, oder nur den Nutzungszahlen?',
   'Freiheit oder Angst?',
@@ -137,5 +152,5 @@ const questions = [
 ];
 ---
 <EditorialLayout lang="de" title="Prinzipien für christliche Produktgestaltung" description="Zehn Prinzipien verbinden christliche Berufung mit konkreten Entscheidungen über Bibel, Menschen, Glaubenspraxis, Gemeinschaft und die Arbeit der Gestaltenden." credits={["Foto: Peter Beke (Unsplash)."]}>
-  <EditorialFramework lang="de" places={places} ways={ways} tensions={tensions} questions={questions} />
+  <EditorialFramework lang="de" places={places} ways={ways} tensions={tensions} decisions={decisions} steps={steps} questions={questions} />
 </EditorialLayout>
