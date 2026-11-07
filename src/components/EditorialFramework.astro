@@ -78,7 +78,7 @@ const lead = (s: string) => { const m = s.match(/^[^.:]+[.:]/); return m ? [m[0]
       <div class="g">
         <h2 id="three-title" class="h2 rv">{de ? 'Ausbeuterisch, ethisch, erlösend.' : 'Exploitative, ethical, redemptive.'}</h2>
         <p class="src rv d1">{de
-          ? <>Die drei Arten stammen von <a href="https://www.praxis.co/redemptive-entrepreneurship">Praxis</a>, deren Redemptive Frame den erlösenden Weg „creative restoration through sacrifice“ nennt, schöpferische Wiederherstellung durch Opfer. Wir lesen ihn für Apps, deren Gegenstand Gott ist und bei denen die erste Versuchung nicht nur ist, Menschen zu benutzen, sondern Gottes Namen. <a href="https://www.faithtech.com/digital-playbook/a-way-of-building-redemptively">Das Playbook von FaithTech</a> vollzieht dieselbe Wendung mit rücksichtsloser, verantwortlicher und erlösender Technologie. Dieser Leitfaden wendet beide Ansätze auf die theologischen und seelsorglichen Aufgaben geistlicher Apps an.</>
+          ? <>Die drei Wege stammen von <a href="https://www.praxis.co/redemptive-entrepreneurship">Praxis</a>, deren Redemptive Frame den erlösenden Weg „creative restoration through sacrifice“ nennt, schöpferische Wiederherstellung durch Opfer. Wir lesen ihn für Apps, deren Gegenstand Gott ist und bei denen die erste Versuchung nicht nur ist, Menschen zu benutzen, sondern Gottes Namen. <a href="https://www.faithtech.com/digital-playbook/a-way-of-building-redemptively">Das Playbook von FaithTech</a> vollzieht dieselbe Wendung mit rücksichtsloser, verantwortlicher und erlösender Technologie. Dieser Leitfaden wendet beide Ansätze auf die theologischen und seelsorglichen Aufgaben geistlicher Apps an.</>
           : <>The three ways are the work of <a href="https://www.praxis.co/redemptive-entrepreneurship">Praxis</a>, whose Redemptive Frame calls the redemptive way “creative restoration through sacrifice”. We read it for apps whose subject is God, where the first temptation is not only to use people but to use God’s name. <a href="https://www.faithtech.com/digital-playbook/a-way-of-building-redemptively">FaithTech’s Playbook</a> makes the same turn with reckless, responsible and redemptive technology. This guide applies both frameworks to the theological and pastoral responsibilities of spiritual apps.</>}</p>
       </div>
       <div class="g three-cols">
@@ -93,8 +93,8 @@ const lead = (s: string) => { const m = s.match(/^[^.:]+[.:]/); return m ? [m[0]
 
 <section class="hold wrap" aria-labelledby="hold-title">
   <div class="g">
-    <h2 id="hold-title" class="h2 rv">{de ? 'Drei Dinge, die man aushalten muss.' : 'Three things worth holding.'}</h2>
-    <p class="lede rv d1">{de ? 'Die zehn überschneiden sich und ziehen manchmal auseinander. Manche Spannungen muss man aushalten, nicht lösen.' : 'The ten overlap and sometimes pull apart. Some tensions must be held, not solved.'}</p>
+    <h2 id="hold-title" class="h2 rv">{de ? 'Drei Spannungen, die wir aushalten müssen.' : 'Three things worth holding.'}</h2>
+    <p class="lede rv d1">{de ? 'Die zehn Prinzipien überschneiden sich, und manchmal widersprechen sie einander. Manche Spannungen lassen sich nicht auflösen; man muss sie aushalten.' : 'The ten overlap and sometimes pull apart. Some tensions must be held, not solved.'}</p>
     <dl>{tensions.map(t => <><dt class="rv">{t.title}</dt><dd class="rv">{t.body}</dd></>)}</dl>
   </div>
 </section>
@@ -102,9 +102,9 @@ const lead = (s: string) => { const m = s.match(/^[^.:]+[.:]/); return m ? [m[0]
 <!-- Moved from the retired /principles/ index (owner, 7 November 2026): worked decisions, in the same layout as above -->
 <section class="hold wrap" id="tensions" aria-labelledby="tensions-title">
   <div class="g">
-    <h2 id="tensions-title" class="h2 rv">{de ? 'Wenn Prinzipien auseinanderziehen.' : 'When principles pull apart.'}</h2>
-    <p class="lede rv d1">{de ? 'Nehmt die zwei oder drei Prinzipien, die eine Entscheidung betreffen, und haltet die Spannung fest, statt sie zu verrechnen. Unmittelbare Sicherheit, das Recht und eine wahrheitsgemäße Darstellung begrenzen jede Option; kein Anspruch hebt sie auf.' : 'Use the two or three principles that bear on a decision, and record the tension instead of scoring it. Immediate safety, the law and truthful representation constrain every option; no aspiration cancels them.'}</p>
-    <dl>{decisions.map(d => <><dt class="rv">{d.decision}</dt><dd class="rv"><span class="small">{de ? 'In Spannung: ' : 'In tension: '}{d.principles}</span><br />{de ? 'Eine Lösung zum Prüfen: ' : 'A resolution to test: '}{d.resolution}</dd></>)}</dl>
+    <h2 id="tensions-title" class="h2 rv">{de ? 'Wenn Prinzipien in Spannung geraten.' : 'When principles pull apart.'}</h2>
+    <p class="lede rv d1">{de ? 'Prüft eine Entscheidung an den zwei oder drei Prinzipien, die sie berühren. Haltet die Spannung schriftlich fest, statt die Prinzipien gegeneinander aufzurechnen. Akute Gefahr, geltendes Recht und ehrliche Angaben setzen jeder Option Grenzen; kein noch so gutes Ziel hebt sie auf.' : 'Use the two or three principles that bear on a decision, and record the tension instead of scoring it. Immediate safety, the law and truthful representation constrain every option; no aspiration cancels them.'}</p>
+    <dl>{decisions.map(d => <><dt class="rv">{d.decision}</dt><dd class="rv"><span class="small">{de ? 'Im Spannungsfeld: ' : 'In tension: '}{d.principles}</span><br />{de ? 'Ein möglicher Weg: ' : 'A resolution to test: '}{d.resolution}</dd></>)}</dl>
   </div>
 </section>
 
@@ -117,8 +117,8 @@ const lead = (s: string) => { const m = s.match(/^[^.:]+[.:]/); return m ? [m[0]
 
 <section class="hold wrap" id="review" aria-labelledby="review-title">
   <div class="g">
-    <h2 id="review-title" class="h2 rv">{de ? 'In einer Prüfung anwenden.' : 'Use them in a review.'}</h2>
-    <p class="lede rv d1">{de ? <>Fünf Schritte für eine Produktentscheidung im Team. Dazu: <a href={`${base}/guides/decision-review/`}>das Arbeitsblatt (Englisch)</a>, <a href={`${base}/guides/discernment/`}>Fragen zur Unterscheidung (Englisch)</a> und <a href={`${base}/scenarios/`}>Szenarien (Englisch)</a>.</> : <>Five steps for a product decision with your team. Alongside them: <a href={`${base}/guides/decision-review/`}>the decision worksheet</a>, <a href={`${base}/guides/discernment/`}>questions for discernment</a> and <a href={`${base}/scenarios/`}>scenarios</a>.</>}</p>
+    <h2 id="review-title" class="h2 rv">{de ? 'Im Team anwenden.' : 'Use them in a review.'}</h2>
+    <p class="lede rv d1">{de ? <>Fünf Schritte, um im Team eine Produktentscheidung zu treffen. Dazu passen <a href={`${base}/guides/decision-review/`}>das Arbeitsblatt</a>, <a href={`${base}/guides/discernment/`}>Fragen zur geistlichen Unterscheidung</a> und <a href={`${base}/scenarios/`}>Szenarien</a>, alle auf Englisch.</> : <>Five steps for a product decision with your team. Alongside them: <a href={`${base}/guides/decision-review/`}>the decision worksheet</a>, <a href={`${base}/guides/discernment/`}>questions for discernment</a> and <a href={`${base}/scenarios/`}>scenarios</a>.</>}</p>
     <dl>{steps.map((st, i) => <><dt class="rv">{i + 1}. {st.title}</dt><dd class="rv">{st.body}</dd></>)}</dl>
   </div>
 </section>
