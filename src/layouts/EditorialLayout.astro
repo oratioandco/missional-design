@@ -60,7 +60,7 @@ const englishNote = bare === `${base}/research/digital-spiritual-formation` ? 'p
 {description && <meta property="twitter:description" content={description} />}
 <meta property="twitter:image" content={`${siteUrl}${ogImage}`} />
 <link rel="canonical" href={`${siteUrl}${pathname}`} />
-{!englishOnly && <link rel="alternate" hreflang={de ? 'en' : 'de'} href={`${siteUrl}${otherHref}`} />}
+{!englishOnly && !bilingual && <link rel="alternate" hreflang={de ? 'en' : 'de'} href={`${siteUrl}${otherHref}`} />}
 <meta name="theme-color" content="#f6f8fa" media="(prefers-color-scheme: light)" />
 <meta name="theme-color" content="#0a141e" media="(prefers-color-scheme: dark)" />
 <link rel="preload" href={`${brand}/instrument-serif.woff2`} as="font" type="font/woff2" crossorigin />
