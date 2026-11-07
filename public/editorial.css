@@ -206,8 +206,14 @@ body.ed main .e-blk{padding:0 0 var(--e-s-7);margin:0;scroll-margin-top:96px;bor
 :root:root body.ed .e-stop h3 a:hover{text-decoration:underline;text-decoration-thickness:1px}
 .e-stop .e-st{display:block;font-size:12.5px;line-height:1.3;color:var(--e-faint);margin-top:8px}
 .e-stop.k-omit h3{text-decoration:line-through;text-decoration-thickness:1px;text-decoration-color:var(--e-metal-3)}
-.e-stop.k-warning .e-st{color:var(--e-warn)}
+/* Warning case: ink and weight, never a status colour (owner decision S4, 7 Nov 2026); the outlined diamond and the dashed "apart" rule are the shape cues. */
+.e-stop.k-warning .e-st{color:var(--e-ink);font-weight:600}
 .e-stop.k-warning .e-st::before{content:"";display:inline-block;width:6px;height:6px;margin-right:6px;transform:rotate(45deg) translateY(-1px);border:1px solid currentColor}
+/* Provenance pills in the studio, legend and deep-dive lists: palette only, the word carries the meaning.
+   Familiar convention, Observed, Borrowed: recessed paper, muted text. Exploratory: open outline. Warning case: ink text, ink outline. */
+:root:root body.ed .panel-prov .prov,:root:root body.ed .deep-prov .prov,:root:root body.ed .prov-legend .prov{background:var(--e-paper-lo);color:var(--e-muted);box-shadow:inset 0 0 0 1px var(--e-rule)}
+:root:root body.ed .panel-prov .prov-exploratory,:root:root body.ed .deep-prov .prov-exploratory,:root:root body.ed .prov-legend .prov-exploratory{background:transparent;box-shadow:inset 0 0 0 1px var(--e-rule-strong)}
+:root:root body.ed .panel-prov .prov-warning,:root:root body.ed .deep-prov .prov-warning,:root:root body.ed .prov-legend .prov-warning{background:transparent;color:var(--e-ink);box-shadow:inset 0 0 0 1.5px var(--e-ink)}
 :root:root body.ed .e-stop ul{list-style:none;margin:12px 0 0;padding:0;font-size:13.5px;line-height:1.45;color:var(--e-muted)}
 .e-stop li+li{margin-top:6px}
 :root:root body.ed .e-stop .e-shot{display:block;margin-top:16px;border-radius:14px;padding:4px;max-width:150px;

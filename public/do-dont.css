@@ -19,7 +19,13 @@
 :root:root body.ed main .e-bounds .pair-seen li{margin:4px 0 0;padding:0;display:block;border:0}
 :root:root body.ed main .e-good>li{margin:0;padding:10px 0;border-top:1px solid var(--e-rule);font-size:15px;line-height:1.55}
 :root:root body.ed main .seen-shot{margin:2px 0 6px}
-:root:root body.ed main .seen-shot summary{display:inline-flex;align-items:center;min-height:32px;cursor:pointer;font-size:13px;font-weight:600;color:var(--e-ink);text-decoration:underline;text-underline-offset:3px}
+/* View screen(s): an outlined pill with a chevron, not an underlined link (owner, 7 Nov 2026; same as the prayer draft). */
+:root:root body.ed main .seen-shot summary{list-style:none;display:inline-flex;align-items:center;gap:9px;min-height:32px;box-sizing:border-box;padding:3px 14px 3px 12px;border:1px solid var(--e-muted);border-radius:999px;cursor:pointer;font-size:.8rem;font-weight:500;color:var(--e-ink);text-decoration:none;background:transparent}
+:root:root body.ed main .seen-shot summary::-webkit-details-marker{display:none}
+:root:root body.ed main .seen-shot summary::before{content:"";width:6px;height:6px;margin-top:-3px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg);transition:transform .2s}
+:root:root body.ed main .seen-shot[open] summary::before{transform:rotate(-135deg);margin-top:3px}
+:root:root body.ed main .seen-shot summary:hover{border-color:var(--e-ink)}
+:root:root body.ed main .seen-shot summary:focus-visible{outline:2px solid var(--e-ink);outline-offset:2px}
 :root:root body.ed main .seen-row{display:flex;gap:14px;overflow-x:auto;padding:8px 2px 12px;scroll-snap-type:x proximity;max-width:100%}
 :root:root body.ed main .seen-row figure{flex:0 0 min(220px,70vw);margin:0;scroll-snap-align:start}
 :root:root body.ed main .seen-row img{display:block;width:100%;height:auto;border:1px solid var(--e-rule);border-radius:10px}
