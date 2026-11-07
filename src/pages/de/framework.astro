@@ -2,7 +2,7 @@
 // Missional by Design: Zehn Prinzipien für Produktteams (ersetzt die acht Prinzipien, Oktober 2026; Entwurf zur Prüfung). Deutsche Fassung.
 // Five places, two commitments in each, derived from the calling (patterns.missional.design/calling/) and read through
 // Praxis's Redemptive Frame. The full derivations, sources and test questions live on
-// patterns.missional.design/principles/; this page is the short form.
+// the ten /principles/<id>/ pages; this page is the short form (the /principles/ index redirects to /framework/).
 import EditorialLayout from '../../layouts/EditorialLayout.astro';
 import EditorialFramework from '../../components/EditorialFramework.astro';
 
@@ -85,8 +85,8 @@ const places = [
   },
   {
     num: '05',
-    name: 'Die Machenden',
-    ask: 'Wer werden wir, während wir bauen?',
+    name: 'Das Team',
+    ask: 'Was macht unsere Arbeit aus uns?',
     commitments: [
       {
         id: 'offering',
@@ -107,17 +107,17 @@ const places = [
 const ways = [
   {
     label: 'Ausbeuterisch',
-    praxis: '„I win, you lose“ (ich gewinne, du verlierst)',
+    praxis: '„I win, you lose“ (ich gewinne auf deine Kosten)',
     body: 'Die App nimmt den Platz ein. Sie leiht sich Gottes Stimme, um Menschen zurückzuholen, verkauft Zugang zum Gebet oder ein Segensversprechen, hält Anvertrautes als Daten fest und zählt Glauben als Nutzung. Benenne es. Verweigere dich.',
   },
   {
     label: 'Ethisch',
-    praxis: '„I win, you win“ (ich gewinne, du gewinnst)',
+    praxis: '„I win, you win“ (beide gewinnen)',
     body: 'Die App bleibt an ihrem Platz: sicher, ehrlich, barrierefrei, rechtmäßig, sorgsam mit Daten und Zeit. Das ist die Untergrenze und ein Geschenk allgemeiner Gnade, aber nicht das Ziel.',
   },
   {
     label: 'Erlösend',
-    praxis: '„I sacrifice, we win“ (ich opfere, wir gewinnen)',
+    praxis: '„I sacrifice, we win“ (ich verzichte, damit alle gewinnen)',
     body: 'Die App weist über sich hinaus. Sie verzichtet auf Ansprüche, die sie an Aufmerksamkeit, Daten, Geld und Vertrauen stellen könnte, sagt die Wahrheit über sich und freut sich, wenn Menschen sie schließen, um zu Gott und zueinander zu gehen.',
   },
 ];
@@ -125,16 +125,31 @@ const ways = [
 const tensions = [
   {
     title: 'Rhythmus und Druck',
-    body: 'Diene und verdiene, in dieser Reihenfolge, und schaffe Raum für Ruhe. Ein geistliches Leben braucht Rhythmus, aber sobald ein Rhythmus zur erzwungenen Erwartung wird, wird er zu Druck. Lade in einen Rhythmus ein, und frage nach einer Stille einmal, dann hör auf.',
+    body: 'Diene und verdiene, in dieser Reihenfolge, und schaffe Raum für Ruhe. Geistliches Leben braucht einen Rhythmus. Wird daraus eine Pflicht, entsteht Druck. Lade zu einem Rhythmus ein. Bleibt jemand weg, frag einmal nach, dann nicht wieder.',
   },
   {
-    title: 'Gemeinschaft und allein beginnen',
-    body: 'Führe Menschen zueinander, und gestalte zuerst für die Verletzlichsten. Viele beginnen allein, und manche wurden in einer Kirche verletzt. Baue Brücken, die zur Gemeinschaft einladen, statt sie zum Eintrittspreis zu machen.',
+    title: 'Gemeinschaft, wenn jemand allein anfängt',
+    body: 'Führe Menschen zu Gott und zueinander, und gestalte zuerst für die Verletzlichsten. Viele fangen allein an, und manche sind in einer Gemeinde verletzt worden. Lade zur Gemeinschaft ein, aber mach sie nicht zur Bedingung.',
   },
   {
-    title: 'Andacht und eine Stimme, die nicht Gottes ist',
-    body: 'Sprich nie an Gottes Stelle, und nimm Menschen auf, bevor du etwas von ihnen verlangst. Biete die Gebete der Kirche als Gebete der Kirche an, halte zuerst einen Weg zu einem Menschen offen, und lass keine Persona sagen, sie werde beten.',
+    title: 'Andacht, ohne für Gott zu sprechen',
+    body: 'Sprich nie an Gottes Stelle, und nimm Menschen auf, bevor du etwas von ihnen verlangst. Kennzeichne Gebete der Kirche als solche. Zeig zuerst den Weg zu einem Menschen, und lass keine Persona versprechen, dass sie betet.',
   },
+];
+
+const decisions = [
+  { decision: 'Ein Leseplan mit täglicher Erinnerung', principles: 'Dienen und Verdienen; Ruhe und Maß.', resolution: 'Die Person wählt den Rhythmus selbst und kann ihn leicht verschieben. Bleibt sie weg, fragt die App einmal nach und lässt sie dann in Ruhe.' },
+  { decision: 'Eine KI, die nachts mit jemandem betet', principles: 'Demut der Stimme; Schutz der Verletzlichen.', resolution: 'Gebete der Kirche als solche kennzeichnen, zuerst den Weg zu einem Menschen zeigen und keine Persona versprechen lassen, dass sie betet.' },
+  { decision: 'Eine Einladung in die Gemeinde, nachdem jemand von Missbrauch erzählt hat', principles: 'Orientierung; Schutz der Verletzlichen.', resolution: 'Die Entscheidung bleibt bei der Person. Vorher prüfen, ob die Gemeinde ein sicherer Ort ist, und die Ansprechperson für Prävention fragen.' },
+  { decision: 'Ein Abo, das lizenzierte Studienanmerkungen finanziert', principles: 'Dienen und Verdienen; Handwerk als Gabe.', resolution: 'Der Preis kommt erst, wenn jemand die App ausprobiert hat, und er sagt, wofür das Geld verwendet wird. Kündigen ist so einfach wie Abschließen.' },
+];
+
+const steps = [
+  { title: 'Fangt bei einem Menschen an.', body: 'Wer hält das Handy in der Hand? Und wer ist der verletzlichste Mensch, der es wahrscheinlich tun wird?' },
+  { title: 'Wählt zwei oder drei Prinzipien.', body: 'Nehmt die, die die Entscheidung berühren, und geht ihre Prüffragen durch.' },
+  { title: 'Schreibt die drei Wege auf.', body: 'Je ein Satz: Was würde ein ausbeuterisches, ein ethisches und ein erlösendes Produkt hier tun?' },
+  { title: 'Sagt, was es kostet.', body: 'Worauf verzichten wir, und wer außerhalb des Teams trägt das mit?' },
+  { title: 'Entscheidet, und prüft später nach.', body: 'Haltet fest, worin die Spannung liegt, wer verantwortlich ist und was euch umstimmen würde.' },
 ];
 
 const questions = [
@@ -147,5 +162,5 @@ const questions = [
 ];
 ---
 <EditorialLayout lang="de" title="Prinzipien für christliche Produktgestaltung" description="Zehn Prinzipien verbinden christliche Berufung mit konkreten Entscheidungen über Bibel, Menschen, Glaubenspraxis, Gemeinschaft und die Arbeit der Gestaltenden." credits={["Foto: Peter Beke (Unsplash)."]}>
-  <EditorialFramework lang="de" places={places} ways={ways} tensions={tensions} questions={questions} />
+  <EditorialFramework lang="de" places={places} ways={ways} tensions={tensions} decisions={decisions} steps={steps} questions={questions} />
 </EditorialLayout>

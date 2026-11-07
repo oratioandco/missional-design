@@ -8,6 +8,8 @@ import pattern_nav
 ROOT = Path(__file__).resolve().parent.parent
 DIST = ROOT / 'dist'
 urls = []
+OG_VERSION = '2'  # owner, 7 November 2026: cards regenerated in the editorial style
+OG_IMAGE = re.compile(r'(<meta (?:property|name)="(?:og|twitter):image" content="[^"?]*/assets/og/[^"?]+\.(?:jpg|png))(?=")')
 pattern_nav.check()
 library = json.loads((ROOT / 'src/data/app-library.json').read_text())
 app_by_id = {a['id']: a for a in library['apps']}
@@ -110,6 +112,9 @@ for path in sorted(DIST.rglob('index.html')):
             text = text.replace('<a href="#deep-dives">In the deep dives</a></nav>', '<a href="#deep-dives">In the deep dives</a><a href="#in-real-apps">Seen in real apps</a></nav>', 1)
             if '/assets/app-library/library.css' not in text:
                 text = text.replace('</head>', '<link rel="stylesheet" href="/assets/app-library/library.css"></head>')
+    # Social cards keep their file names; a version query makes LinkedIn, Slack and others fetch the current image.
+    # Raise OG_VERSION whenever cards in public/assets/og are regenerated. Covers Astro and imported pages alike.
+    text = OG_IMAGE.sub(lambda m: m.group(1) + '?v=' + OG_VERSION, text)
     # Add the same native disclosure menu to imported reference mastheads.
     about = '<a href="https://missional.design/about/" data-site-about>'
     if about in text:

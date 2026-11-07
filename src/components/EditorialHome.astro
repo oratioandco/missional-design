@@ -1,6 +1,6 @@
 ---
 // Home page in the editorial system (study 4, 23 October 2026). Copy is the live site's, from the earlier
-// ReflectedHome, HomeDecisions and StartRoutes, and /calling/rocks/; German follows the existing German copy.
+// ReflectedHome and HomeDecisions (both removed 7 November 2026), StartRoutes, and /calling/rocks/; German follows the existing German copy.
 interface Props { lang: 'en' | 'de' }
 const { lang } = Astro.props;
 const de = lang === 'de';
@@ -8,7 +8,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const prefix = de ? `${base}/de` : base;
 const ed = `${base}/assets/editorial`;
 const still = (name: string) => ({ light: `${ed}/stills/${name}.jpg`, dark: `${ed}/stills/${name}-dark.jpg` });
-const areas = de ? ['Das Wort', 'Der Mensch', 'Die Praxis', 'Die Gemeinschaft', 'Die Machenden'] : ['The Word', 'The person', 'The practice', 'The people', 'The makers'];
+const areas = de ? ['Das Wort', 'Der Mensch', 'Die Praxis', 'Die Gemeinschaft', 'Das Team'] : ['The Word', 'The person', 'The practice', 'The people', 'The makers'];
 ---
 <!-- 1 · Opening: the central question over the window-lit room (light on the right) -->
 <section class="open wrap" aria-labelledby="title">

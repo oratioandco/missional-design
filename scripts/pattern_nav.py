@@ -76,7 +76,7 @@ def overview(text):
     text = text.replace('Each deep dive connects practical decisions', 'Each pattern connects practical decisions', 1)
     lede_end = text.find('</p>', text.find('<p class="lede">')) + len('</p>')
     if lede_end > len('</p>'):
-        text = text[:lede_end] + '<p class="pattern-intro-link">New to the patterns? <a href="/reference/">Read the introduction</a>, or start from a <a href="/screens/">screen in a real app</a>.</p>' + text[lede_end:]
+        text = text[:lede_end] + '<p class="pattern-intro-link">New to the patterns? <a href="/reference/about/">Read how they work</a>, or start from a <a href="/screens/">screen in a real app</a>.</p>' + text[lede_end:]
     return text
 
 

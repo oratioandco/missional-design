@@ -1,0 +1,36 @@
+/* Kept old-section pages (calling, principles, guides, reference about) in the current editorial system.
+   DESIGN_SYSTEM.md is the source: navy ink on pale cool paper, one link blue, Instrument Serif headings, Mona Sans
+   reading text, sentence-case kickers in faint ink, no black folio boxes, no text set on photographs.
+   Scoped to body.e-aligned; loads after brand.css and editorial.css, whose --e- tokens switch for dark. */
+:root body.paper.e-aligned{
+  --mbd-paper:var(--e-paper);--mbd-card:var(--e-paper-hi);--mbd-ink:var(--e-ink);--mbd-muted:var(--e-muted);--mbd-rule:var(--e-rule);--mbd-accent:var(--e-link);
+  --p-bg:var(--e-paper);--p-raised:var(--e-paper-hi);--p-surface:var(--e-paper-lo);--p-fill:var(--e-paper-lo);--p-container:var(--e-paper-lo);--p-on-container:var(--e-ink);
+  --p-ink:var(--e-ink);--p-muted:var(--e-muted);--p-rule:var(--e-rule);--p-link:var(--e-link);--p-accent:var(--e-link);
+  --ink:var(--e-ink);--muted:var(--e-muted);--blue:var(--e-link);--paper:var(--e-paper);--soft:var(--e-paper-lo);--line:var(--e-rule);
+  background:var(--e-paper);color:var(--e-ink);caret-color:var(--e-link);scrollbar-color:var(--e-rule-strong) var(--e-paper)}
+body.e-aligned main a{color:var(--e-link)}
+body.e-aligned main :is(.prose,.block,article)>h2,body.e-aligned main section>h2,body.e-aligned main .gs-head h2{font-family:var(--e-serif);font-weight:400;letter-spacing:-.01em;line-height:1.1;color:var(--e-ink)}
+/* Kickers: small Mona Sans 500, faint ink, sentence case. */
+body.e-aligned main :is(.kicker,.eyebrow,.mini-label),:root body.paper.e-aligned main .identity-opener :is(.kicker,.eyebrow){font:500 12.5px/1.5 var(--e-sans);letter-spacing:.02em;text-transform:none;color:var(--e-faint);opacity:1}
+body.e-aligned .breadcrumbs{color:var(--e-faint)}
+
+/* Openers: copy on paper, the photograph beneath it, never text over a scene. */
+:root body.paper.e-aligned :is(.identity-opener,.identity-opener-dark,.identity-photographic,.identity-topic-opener,.identity-seeking){
+  display:block;position:static;min-height:0;padding:0;margin:0 0 48px;background:transparent;color:var(--e-ink);border:0;overflow:visible;
+  --p-link:var(--e-link);--p-muted:var(--e-muted)}
+body.e-aligned :is(.identity-opener,.identity-photographic,.identity-topic-opener):before{display:none!important;content:none}
+body.e-aligned .identity-opener .identity-copy{position:static;max-width:none;padding:0;display:block}
+:root body.paper.e-aligned .identity-opener h1{color:var(--e-ink);font-family:var(--e-serif);font-weight:400;max-width:20ch;font-size:clamp(40px,5vw,72px)!important;line-height:1.02;margin:0 0 24px}
+:root body.paper.e-aligned .identity-opener :is(.lede,.lead){color:var(--e-muted);max-width:34rem;font-size:19px;line-height:1.6;margin:0 0 20px}
+body.e-aligned .identity-opener .facts{display:flex;flex-wrap:wrap;gap:8px 20px;padding:0;margin:0;list-style:none}
+body.e-aligned main .identity-opener .facts li,:root body.paper.e-aligned main .identity-opener .facts li{background:none;border:0;border-top:1px solid var(--e-rule);border-radius:0;padding:6px 0 0;color:var(--e-muted);font:400 14px/1.4 var(--e-sans)}
+body.e-aligned .identity-opener .facts li strong{color:var(--e-ink)}
+body.e-aligned .identity-opener .identity-hero-art{position:static;inset:auto;z-index:auto;width:100%;max-width:none;margin:36px 0 0}
+body.e-aligned .identity-opener :is(.identity-context,.identity-art){background:none;height:auto;margin:0}
+body.e-aligned .identity-opener .identity-context img{position:static;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;display:block}
+body.e-aligned .identity-opener-dark .identity-art{background:none}
+@media (max-width:760px){
+  :root body.paper.e-aligned .identity-opener h1{font-size:clamp(34px,9vw,46px)!important}
+  :root body.paper.e-aligned .identity-opener :is(.lede,.lead){font-size:17px}
+  body.e-aligned .identity-opener .identity-hero-art{margin:24px 0 0;width:100%}
+}
