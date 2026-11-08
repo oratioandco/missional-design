@@ -3,8 +3,8 @@
 /* minmax(0,…) tracks and min-width:0 keep a wide row of Seen screens scrolling inside its row instead of widening the page on phones. */
 :root:root body.ed main .e-bounds .pairs li{margin:0;padding:0;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:0}
 :root:root body.ed main .e-bounds .pairs li>div{border-radius:0;background:none;border:0;border-top:1px solid var(--e-rule-strong)!important;padding:14px 18px 8px 0}
-:root:root body.ed main .e-bounds .pair-dont .mini-label{color:var(--e-warn)}
-:root:root body.ed main .e-bounds .pairs li>.pair-dont{border-top-color:var(--e-warn)!important}
+:root:root body.ed main .e-bounds .pair-dont .mini-label{color:var(--e-ink);font-weight:600}
+:root:root body.ed main .e-bounds .pairs li>.pair-dont{border-top:1.5px solid var(--e-ink)!important}
 :root:root body.ed main .e-bounds .pairs h3{font:600 16px/1.35 var(--e-sans);margin:0 0 4px}
 :root:root body.ed main .e-bounds .pairs p{margin:0;font-size:15px;line-height:1.55}
 :root:root body.ed main .e-bounds .pair-why{grid-column:1/-1;margin:0;padding-right:18px;color:var(--e-faint)}
