@@ -94,3 +94,57 @@
     if (reduce.addEventListener) reduce.addEventListener('change', function (e) { if (e.matches) root.classList.remove('motion', 'sda'); });
   });
 })();
+
+// Spectrum layout of 8 Nov 2026: scroll cue and edge fade while stops overflow, and the
+// position of the phone stills row. Local preview; at rollout this joins dist/editorial.js.
+(function () {
+  'use strict';
+  var smooth = function () { return document.documentElement.classList.contains('motion') ? 'smooth' : 'auto'; };
+
+  function axis(el) {
+    var list = el.querySelector('.e-stops'), cue = el.querySelector('.e-cue');
+    if (!list || !cue) return;
+    var buttons = cue.querySelectorAll('.e-cue-b');
+    function update() {
+      var over = getComputedStyle(list).overflowX !== 'visible' && list.scrollWidth > list.clientWidth + 2;
+      var start = list.scrollLeft <= 2, end = list.scrollLeft + list.clientWidth >= list.scrollWidth - 2;
+      cue.hidden = !over;
+      el.toggleAttribute('data-overflow', over);
+      el.toggleAttribute('data-start', start);
+      el.toggleAttribute('data-end', end);
+      buttons[0].setAttribute('aria-disabled', String(start));
+      buttons[1].setAttribute('aria-disabled', String(end));
+    }
+    cue.addEventListener('click', function (e) {
+      var b = e.target.closest('.e-cue-b');
+      if (!b || b.getAttribute('aria-disabled') === 'true') return;
+      list.scrollBy({ left: Number(b.dataset.dir) * list.clientWidth * 0.8, behavior: smooth() });
+    });
+    list.addEventListener('scroll', update, { passive: true });
+    if ('ResizeObserver' in window) { var ro = new ResizeObserver(update); ro.observe(list); [].forEach.call(list.children, function (c) { ro.observe(c); }); }
+    else window.addEventListener('resize', update);
+    window.addEventListener('load', update);
+    if (document.fonts) document.fonts.ready.then(update);
+    update();
+  }
+
+  function stills(el) {
+    var row = el.querySelector('.e-stills-row'), pos = el.querySelector('[data-pos]');
+    if (!row || !pos) return;
+    function update() {
+      var item = row.querySelector('li'); if (!item) return;
+      var step = item.getBoundingClientRect().width + parseFloat(getComputedStyle(item.parentNode).columnGap || 0);
+      var count = row.querySelectorAll('li').length;
+      var i = row.scrollLeft + row.clientWidth >= row.scrollWidth - 2 ? count : Math.round(row.scrollLeft / step) + 1;
+      pos.textContent = String(Math.min(count, Math.max(1, i)));
+    }
+    row.addEventListener('scroll', update, { passive: true });
+    update();
+  }
+
+  function ready() {
+    [].forEach.call(document.querySelectorAll('.e-axis[data-spectrum]'), axis);
+    [].forEach.call(document.querySelectorAll('.e-spectrum .e-stills'), stills);
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', ready); else ready();
+})();
