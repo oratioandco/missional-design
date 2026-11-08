@@ -1093,6 +1093,12 @@
      "date": "25 October 2026",
      "text": "The entry screen read “Start exploring our catalog of videos for free or subscribe to instantly start watching.” with “Explore content” beside “Start free trial”.",
      "shot": "shot-abb15f181498fb322269"
+    },
+    {
+     "app": "Creed",
+     "date": "8 November 2026",
+     "text": "The day after Creed Unlimited access ended, the app opened without a lock or paywall, on a “Don’t lose your progress” sheet listing “Keep your conversations”, “Sync across devices” and “Protect your streaks and rewards”, with “Sign In” and “Not Now”. After “Not Now” the chat still answered, and the subscription offer appeared only as a banner on the profile page.",
+     "shot": "shot-2c3332350ccc85fa73cf"
     }
    ]
   }
