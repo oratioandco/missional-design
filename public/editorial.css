@@ -222,14 +222,293 @@ body.ed main .e-blk{padding:0 0 var(--e-s-7);margin:0;scroll-margin-top:96px;bor
 :root[data-theme="dark"] .ed .e-stop .e-shot{background:linear-gradient(135deg,#2b4359,#8fb0cb 45%,#43607a 70%,#2b4359)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .ed .e-stop .e-shot{background:linear-gradient(135deg,#2b4359,#8fb0cb 45%,#43607a 70%,#2b4359)}}
 :root:root body.ed .e-glance-note{margin-top:20px}
-/* many stops, or a narrower column: the row scrolls sideways */
-.e-axis.many .e-scroller,.e-axis.many .e-ends{min-width:0}
-:root:root body.ed .e-axis.many .e-stops{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:28px;padding-bottom:12px}
-.e-axis.many .e-stop{flex:0 0 170px;scroll-snap-align:start}
-@media (max-width:1260px){
-  :root:root body.ed .e-stops{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:28px;padding-bottom:12px;margin-right:calc(-1 * var(--e-gutter));padding-right:var(--e-gutter)}
-  .e-stop{flex:0 0 min(62vw,210px);scroll-snap-align:start}
-  .e-line{margin-right:calc(-1 * var(--e-gutter))}
+/* Spectrum layout (owner, 8 Nov 2026): research/editorial/spectrum-layout-2026-11-08/ (spectrum-base.css, make_css.py) */
+/* ----- the spectrum spans the article grid; the index starts beside the working example */
+@media (min-width:901px){
+  .e-g.e-g-wide>.e-spectrum{grid-column:1/-1;grid-row:1}
+  .e-g.e-g-wide>.e-toc,.e-g.e-g-wide>.e-body{grid-row:2}
+}
+
+/* ----- axis: ends and cue above the line, stops below */
+:root:root body.ed .e-axis[data-spectrum]{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);grid-template-areas:"a cue b" "s s s";align-items:end;column-gap:16px}
+:root:root body.ed .e-axis[data-spectrum].no-axis{grid-template-areas:". . cue" "s s s"}
+.e-axis[data-spectrum] .e-end{margin:0;font:500 var(--e-t-micro)/1.2 var(--e-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--e-faint)}
+.e-axis[data-spectrum] .e-end-a{grid-area:a}
+.e-axis[data-spectrum] .e-end-a::before{content:"← "}
+.e-axis[data-spectrum] .e-end-b{grid-area:b;text-align:right}
+.e-axis[data-spectrum] .e-end-b::after{content:" →"}
+.e-axis[data-spectrum] .e-scroller{grid-area:s;min-width:0}
+
+/* the dot sits inside the stop and the line meets its centre. Its 1px ring reaches 1px past the
+   stop's box, and the row clips on both axes once it scrolls, so the row carries 2px of padding
+   (offset by a negative margin) to keep every ring whole, the first dot's left edge included */
+:root:root body.ed .e-axis[data-spectrum] .e-line{top:3px;margin:16px 0 0}
+:root:root body.ed .e-axis[data-spectrum] .e-stop{padding-top:26px}
+:root:root body.ed .e-axis[data-spectrum] .e-stop::before{top:0}
+:root:root body.ed .e-axis[data-spectrum].no-axis .e-stops{border-top:0;background:linear-gradient(var(--e-rule-strong),var(--e-rule-strong)) 2px 5px/calc(100% - 4px) 1px no-repeat}
+
+/* stops share the full width; below their minimum the row scrolls inside itself */
+:root:root body.ed .e-axis[data-spectrum] .e-stops{display:grid;grid-template-columns:repeat(var(--n),minmax(124px,1fr));gap:16px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x proximity;scroll-padding-left:2px;scrollbar-width:thin;margin:-2px -2px 0;padding:2px 2px 12px}
+:root:root body.ed .e-axis[data-spectrum] .e-stop{scroll-snap-align:start}
+
+/* ----- scroll cue: shown by spectrum-layout.js only while stops overflow */
+.e-axis[data-spectrum] .e-cue{grid-area:cue;display:flex;align-items:center;gap:8px;font:500 var(--e-t-micro)/1 var(--e-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--e-muted)}
+.e-axis[data-spectrum] .e-cue[hidden]{display:none}
+:root:root body.ed .e-axis[data-spectrum] .e-cue-b{display:inline-grid;place-items:center;width:36px;height:36px;min-height:0;padding:0;border:1px solid var(--e-rule-strong);border-radius:999px;background:var(--e-paper);color:var(--e-ink);font:400 16px/1 var(--e-sans);cursor:pointer}
+:root:root body.ed .e-axis[data-spectrum] .e-cue-b:hover{border-color:var(--e-ink)}
+:root:root body.ed .e-axis[data-spectrum] .e-cue-b[aria-disabled="true"]{color:var(--e-faint);border-color:var(--e-rule);cursor:default}
+/* edge fade on the side that has more to show */
+.e-axis[data-overflow]:not([data-end]) .e-stops{-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 72px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 72px),transparent)}
+.e-axis[data-overflow]:not([data-start]) .e-stops{-webkit-mask-image:linear-gradient(90deg,transparent,#000 72px);mask-image:linear-gradient(90deg,transparent,#000 72px)}
+.e-axis[data-overflow]:not([data-start]):not([data-end]) .e-stops{-webkit-mask-image:linear-gradient(90deg,transparent,#000 72px,#000 calc(100% - 72px),transparent);mask-image:linear-gradient(90deg,transparent,#000 72px,#000 calc(100% - 72px),transparent)}
+
+/* ----- set apart: an option that belongs beside every stop, not at one point on the line */
+.e-spectrum .e-beside{margin-top:var(--e-s-5);padding-top:18px;border-top:1px dashed var(--e-rule-strong)}
+:root:root body.ed .e-spectrum .e-beside-k{margin:0 0 4px;font:500 var(--e-t-micro)/1.2 var(--e-sans);letter-spacing:.06em;text-transform:uppercase;color:var(--e-faint)}
+:root:root body.ed .e-spectrum .e-beside-list{list-style:none;margin:0;padding:0}
+:root:root body.ed .e-spectrum .e-stop.beside{display:grid;grid-template-columns:minmax(0,34rem) 150px;grid-template-rows:auto auto auto 1fr;column-gap:clamp(24px,4vw,64px);padding:12px 0 0;border:0}
+:root:root body.ed .e-spectrum .e-stop.beside::before{display:none}
+:root:root body.ed .e-spectrum .e-stop.beside>*{grid-column:1}
+:root:root body.ed .e-spectrum .e-stop.beside h3{min-height:0}
+:root:root body.ed .e-spectrum .e-stop.beside .e-shot{grid-column:2;grid-row:1/-1;margin-top:0!important;align-self:start}
+
+/* ----- the phone stills row is only for the vertical layout */
+.e-spectrum .e-stills{display:none}
+
+/* ----- wide screens: only the spectrum breaks out of the 1440 container, to the viewport
+   minus the normal gutters, at most 1800px */
+@media (min-width:1441px){
+  :root:root body.ed .e-spectrum .e-axis[data-spectrum]{--e-spw:min(calc(100vw - 2 * var(--e-gutter)),1800px);width:var(--e-spw);margin-left:calc((100% - var(--e-spw)) / 2)}
+}
+
+/* ----- stills row (shown only in the vertical layout) */
+:root:root body.ed .e-spectrum .e-stills-pos{margin:0 0 10px;font:500 var(--e-t-micro)/1 var(--e-sans);letter-spacing:.06em;color:var(--e-muted);font-variant-numeric:tabular-nums}
+:root:root body.ed .e-spectrum .e-stills-row{overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;margin-right:calc(-1 * var(--e-gutter));scrollbar-width:none}
+:root:root body.ed .e-spectrum .e-stills-row ul{list-style:none;display:flex;gap:16px;margin:0;padding:0 var(--e-gutter) 8px 0}
+:root:root body.ed .e-spectrum .e-stills-row li{flex:0 0 150px;scroll-snap-align:start;margin:0}
+:root:root body.ed .e-spectrum .e-stills-row a{display:block;border-radius:14px;padding:4px;background:linear-gradient(135deg,var(--e-metal-2),var(--e-metal-0) 45%,var(--e-metal-3) 70%,var(--e-metal-2));box-shadow:0 14px 30px -20px rgba(15,37,55,.45)}
+:root:root body.ed .e-spectrum .e-still{display:block;width:100%;height:auto;border-radius:10px}
+:root:root body.ed .e-spectrum .e-still-c{display:block;margin-top:8px;font-size:13px;line-height:1.35;color:var(--e-muted)}
+:root:root body.ed .e-spectrum .e-still-c b{font-weight:400;color:var(--e-faint);margin-right:4px;font-variant-numeric:tabular-nums}
+:root[data-theme="dark"] body.ed .e-spectrum .e-stills-row a{background:linear-gradient(135deg,#2b4359,#8fb0cb 45%,#43607a 70%,#2b4359)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) body.ed .e-spectrum .e-stills-row a{background:linear-gradient(135deg,#2b4359,#8fb0cb 45%,#43607a 70%,#2b4359)}}
+
+/* ----- generated by make_css.py: the vertical axis */
+/* phones and portrait tablets: always vertical */
+@media (max-width:1024px){
+  :root:root body.ed .e-spectrum .e-axis[data-spectrum]{grid-template-columns:minmax(0,1fr);grid-template-areas:"a" "s" "b";row-gap:12px;width:auto;margin-left:0}
+  :root:root body.ed .e-spectrum .e-axis[data-spectrum].no-axis{grid-template-areas:"s"}
+  :root:root body.ed .e-spectrum .e-axis[data-spectrum] .e-end-a::before,:root:root body.ed .e-spectrum .e-axis[data-spectrum] .e-end-b::after{content:none}
+  :root:root body.ed .e-spectrum .e-axis[data-spectrum] .e-end-b{text-align:left}
+  :root:root body.ed .e-spectrum .e-axis[data-spectrum] .e-cue{display:none}
+  :root:root body.ed .e-spectrum .e-axis[data-spectrum] .e-scroller{position:relative;padding-left:30px}
+  :root:root body.ed .e-spectrum .e-axis[data-spectrum] .e-line{position:absolute;top:0;bottom:0;left:3px;width:1px;height:auto;margin:0;background:linear-gradient(180deg,var(--e-metal-2),var(--e-metal-4))}
+  :root:root body.ed .e-spectrum .e-axis[data-spectrum] .e-line .e-bead{left:50%;top:calc(var(--e-ap,0) * 100%)}
+  html:not(.motion):root body.ed .e-spectrum .e-axis[data-spectrum].e-axis .e-line .e-bead{top:100%}
+  :root:root body.ed .e-spectrum .e-axis[data-spectrum] .e-stops{display:block;overflow:visible;margin:0;padding:4px 0 0;-webkit-mask-image:none;mask-image:none}
+  :root:root body.ed .e-spectrum .e-axis[data-spectrum].no-axis .e-stops{background:none}
+  :root:root body.ed .e-spectrum .e-axis[data-spectrum] .e-stop{padding:0 0 26px}
+  :root:root body.ed .e-spectrum .e-axis[data-spectrum] .e-stop>*{max-width:var(--e-measure)}
+  :root:root body.ed .e-spectrum .e-axis[data-spectrum] .e-stop::before{left:-30px;top:3px}
+  :root:root body.ed .e-spectrum .e-axis[data-spectrum] .e-stop.apart{padding:14px 0 26px;border-left:0;border-top:1px dashed var(--e-rule-strong)}
+  :root:root body.ed .e-spectrum .e-axis[data-spectrum] .e-stop.apart::before{left:-30px;top:17px}
+  :root:root body.ed .e-spectrum .e-axis[data-spectrum] .e-stop h3{min-height:0;margin-top:8px}
+  :root:root body.ed .e-spectrum .e-axis[data-spectrum] .e-stop ul{margin-bottom:0!important}
+  :root:root body.ed .e-spectrum .e-stop .e-shot{display:none}
+  :root:root body.ed .e-spectrum .e-stop.beside{display:block}
+  :root:root body.ed .e-spectrum .e-stills{display:block;margin-top:var(--e-s-5)}
+}
+/* touch tablets with 7 stops: vertical until they fit (from 1086px) */
+@media (min-width:1025px) and (max-width:1085px) and (pointer:coarse){
+  :root:root body.ed .e-spectrum[data-n="7"] .e-axis[data-spectrum]{grid-template-columns:minmax(0,1fr);grid-template-areas:"a" "s" "b";row-gap:12px;width:auto;margin-left:0}
+  :root:root body.ed .e-spectrum[data-n="7"] .e-axis[data-spectrum].no-axis{grid-template-areas:"s"}
+  :root:root body.ed .e-spectrum[data-n="7"] .e-axis[data-spectrum] .e-end-a::before,:root:root body.ed .e-spectrum[data-n="7"] .e-axis[data-spectrum] .e-end-b::after{content:none}
+  :root:root body.ed .e-spectrum[data-n="7"] .e-axis[data-spectrum] .e-end-b{text-align:left}
+  :root:root body.ed .e-spectrum[data-n="7"] .e-axis[data-spectrum] .e-cue{display:none}
+  :root:root body.ed .e-spectrum[data-n="7"] .e-axis[data-spectrum] .e-scroller{position:relative;padding-left:30px}
+  :root:root body.ed .e-spectrum[data-n="7"] .e-axis[data-spectrum] .e-line{position:absolute;top:0;bottom:0;left:3px;width:1px;height:auto;margin:0;background:linear-gradient(180deg,var(--e-metal-2),var(--e-metal-4))}
+  :root:root body.ed .e-spectrum[data-n="7"] .e-axis[data-spectrum] .e-line .e-bead{left:50%;top:calc(var(--e-ap,0) * 100%)}
+  html:not(.motion):root body.ed .e-spectrum[data-n="7"] .e-axis[data-spectrum].e-axis .e-line .e-bead{top:100%}
+  :root:root body.ed .e-spectrum[data-n="7"] .e-axis[data-spectrum] .e-stops{display:block;overflow:visible;margin:0;padding:4px 0 0;-webkit-mask-image:none;mask-image:none}
+  :root:root body.ed .e-spectrum[data-n="7"] .e-axis[data-spectrum].no-axis .e-stops{background:none}
+  :root:root body.ed .e-spectrum[data-n="7"] .e-axis[data-spectrum] .e-stop{padding:0 0 26px}
+  :root:root body.ed .e-spectrum[data-n="7"] .e-axis[data-spectrum] .e-stop>*{max-width:var(--e-measure)}
+  :root:root body.ed .e-spectrum[data-n="7"] .e-axis[data-spectrum] .e-stop::before{left:-30px;top:3px}
+  :root:root body.ed .e-spectrum[data-n="7"] .e-axis[data-spectrum] .e-stop.apart{padding:14px 0 26px;border-left:0;border-top:1px dashed var(--e-rule-strong)}
+  :root:root body.ed .e-spectrum[data-n="7"] .e-axis[data-spectrum] .e-stop.apart::before{left:-30px;top:17px}
+  :root:root body.ed .e-spectrum[data-n="7"] .e-axis[data-spectrum] .e-stop h3{min-height:0;margin-top:8px}
+  :root:root body.ed .e-spectrum[data-n="7"] .e-axis[data-spectrum] .e-stop ul{margin-bottom:0!important}
+  :root:root body.ed .e-spectrum[data-n="7"] .e-stop .e-shot{display:none}
+  :root:root body.ed .e-spectrum[data-n="7"] .e-stop.beside{display:block}
+  :root:root body.ed .e-spectrum[data-n="7"] .e-stills{display:block;margin-top:var(--e-s-5)}
+}
+/* touch tablets with 8 stops: vertical until they fit (from 1244px) */
+@media (min-width:1025px) and (max-width:1243px) and (pointer:coarse){
+  :root:root body.ed .e-spectrum[data-n="8"] .e-axis[data-spectrum]{grid-template-columns:minmax(0,1fr);grid-template-areas:"a" "s" "b";row-gap:12px;width:auto;margin-left:0}
+  :root:root body.ed .e-spectrum[data-n="8"] .e-axis[data-spectrum].no-axis{grid-template-areas:"s"}
+  :root:root body.ed .e-spectrum[data-n="8"] .e-axis[data-spectrum] .e-end-a::before,:root:root body.ed .e-spectrum[data-n="8"] .e-axis[data-spectrum] .e-end-b::after{content:none}
+  :root:root body.ed .e-spectrum[data-n="8"] .e-axis[data-spectrum] .e-end-b{text-align:left}
+  :root:root body.ed .e-spectrum[data-n="8"] .e-axis[data-spectrum] .e-cue{display:none}
+  :root:root body.ed .e-spectrum[data-n="8"] .e-axis[data-spectrum] .e-scroller{position:relative;padding-left:30px}
+  :root:root body.ed .e-spectrum[data-n="8"] .e-axis[data-spectrum] .e-line{position:absolute;top:0;bottom:0;left:3px;width:1px;height:auto;margin:0;background:linear-gradient(180deg,var(--e-metal-2),var(--e-metal-4))}
+  :root:root body.ed .e-spectrum[data-n="8"] .e-axis[data-spectrum] .e-line .e-bead{left:50%;top:calc(var(--e-ap,0) * 100%)}
+  html:not(.motion):root body.ed .e-spectrum[data-n="8"] .e-axis[data-spectrum].e-axis .e-line .e-bead{top:100%}
+  :root:root body.ed .e-spectrum[data-n="8"] .e-axis[data-spectrum] .e-stops{display:block;overflow:visible;margin:0;padding:4px 0 0;-webkit-mask-image:none;mask-image:none}
+  :root:root body.ed .e-spectrum[data-n="8"] .e-axis[data-spectrum].no-axis .e-stops{background:none}
+  :root:root body.ed .e-spectrum[data-n="8"] .e-axis[data-spectrum] .e-stop{padding:0 0 26px}
+  :root:root body.ed .e-spectrum[data-n="8"] .e-axis[data-spectrum] .e-stop>*{max-width:var(--e-measure)}
+  :root:root body.ed .e-spectrum[data-n="8"] .e-axis[data-spectrum] .e-stop::before{left:-30px;top:3px}
+  :root:root body.ed .e-spectrum[data-n="8"] .e-axis[data-spectrum] .e-stop.apart{padding:14px 0 26px;border-left:0;border-top:1px dashed var(--e-rule-strong)}
+  :root:root body.ed .e-spectrum[data-n="8"] .e-axis[data-spectrum] .e-stop.apart::before{left:-30px;top:17px}
+  :root:root body.ed .e-spectrum[data-n="8"] .e-axis[data-spectrum] .e-stop h3{min-height:0;margin-top:8px}
+  :root:root body.ed .e-spectrum[data-n="8"] .e-axis[data-spectrum] .e-stop ul{margin-bottom:0!important}
+  :root:root body.ed .e-spectrum[data-n="8"] .e-stop .e-shot{display:none}
+  :root:root body.ed .e-spectrum[data-n="8"] .e-stop.beside{display:block}
+  :root:root body.ed .e-spectrum[data-n="8"] .e-stills{display:block;margin-top:var(--e-s-5)}
+}
+/* touch tablets with 9 stops: vertical until they fit (from 1401px) */
+@media (min-width:1025px) and (max-width:1400px) and (pointer:coarse){
+  :root:root body.ed .e-spectrum[data-n="9"] .e-axis[data-spectrum]{grid-template-columns:minmax(0,1fr);grid-template-areas:"a" "s" "b";row-gap:12px;width:auto;margin-left:0}
+  :root:root body.ed .e-spectrum[data-n="9"] .e-axis[data-spectrum].no-axis{grid-template-areas:"s"}
+  :root:root body.ed .e-spectrum[data-n="9"] .e-axis[data-spectrum] .e-end-a::before,:root:root body.ed .e-spectrum[data-n="9"] .e-axis[data-spectrum] .e-end-b::after{content:none}
+  :root:root body.ed .e-spectrum[data-n="9"] .e-axis[data-spectrum] .e-end-b{text-align:left}
+  :root:root body.ed .e-spectrum[data-n="9"] .e-axis[data-spectrum] .e-cue{display:none}
+  :root:root body.ed .e-spectrum[data-n="9"] .e-axis[data-spectrum] .e-scroller{position:relative;padding-left:30px}
+  :root:root body.ed .e-spectrum[data-n="9"] .e-axis[data-spectrum] .e-line{position:absolute;top:0;bottom:0;left:3px;width:1px;height:auto;margin:0;background:linear-gradient(180deg,var(--e-metal-2),var(--e-metal-4))}
+  :root:root body.ed .e-spectrum[data-n="9"] .e-axis[data-spectrum] .e-line .e-bead{left:50%;top:calc(var(--e-ap,0) * 100%)}
+  html:not(.motion):root body.ed .e-spectrum[data-n="9"] .e-axis[data-spectrum].e-axis .e-line .e-bead{top:100%}
+  :root:root body.ed .e-spectrum[data-n="9"] .e-axis[data-spectrum] .e-stops{display:block;overflow:visible;margin:0;padding:4px 0 0;-webkit-mask-image:none;mask-image:none}
+  :root:root body.ed .e-spectrum[data-n="9"] .e-axis[data-spectrum].no-axis .e-stops{background:none}
+  :root:root body.ed .e-spectrum[data-n="9"] .e-axis[data-spectrum] .e-stop{padding:0 0 26px}
+  :root:root body.ed .e-spectrum[data-n="9"] .e-axis[data-spectrum] .e-stop>*{max-width:var(--e-measure)}
+  :root:root body.ed .e-spectrum[data-n="9"] .e-axis[data-spectrum] .e-stop::before{left:-30px;top:3px}
+  :root:root body.ed .e-spectrum[data-n="9"] .e-axis[data-spectrum] .e-stop.apart{padding:14px 0 26px;border-left:0;border-top:1px dashed var(--e-rule-strong)}
+  :root:root body.ed .e-spectrum[data-n="9"] .e-axis[data-spectrum] .e-stop.apart::before{left:-30px;top:17px}
+  :root:root body.ed .e-spectrum[data-n="9"] .e-axis[data-spectrum] .e-stop h3{min-height:0;margin-top:8px}
+  :root:root body.ed .e-spectrum[data-n="9"] .e-axis[data-spectrum] .e-stop ul{margin-bottom:0!important}
+  :root:root body.ed .e-spectrum[data-n="9"] .e-stop .e-shot{display:none}
+  :root:root body.ed .e-spectrum[data-n="9"] .e-stop.beside{display:block}
+  :root:root body.ed .e-spectrum[data-n="9"] .e-stills{display:block;margin-top:var(--e-s-5)}
+}
+/* touch tablets with 10 stops: vertical until they fit (from 1559px) */
+@media (min-width:1025px) and (max-width:1558px) and (pointer:coarse){
+  :root:root body.ed .e-spectrum[data-n="10"] .e-axis[data-spectrum]{grid-template-columns:minmax(0,1fr);grid-template-areas:"a" "s" "b";row-gap:12px;width:auto;margin-left:0}
+  :root:root body.ed .e-spectrum[data-n="10"] .e-axis[data-spectrum].no-axis{grid-template-areas:"s"}
+  :root:root body.ed .e-spectrum[data-n="10"] .e-axis[data-spectrum] .e-end-a::before,:root:root body.ed .e-spectrum[data-n="10"] .e-axis[data-spectrum] .e-end-b::after{content:none}
+  :root:root body.ed .e-spectrum[data-n="10"] .e-axis[data-spectrum] .e-end-b{text-align:left}
+  :root:root body.ed .e-spectrum[data-n="10"] .e-axis[data-spectrum] .e-cue{display:none}
+  :root:root body.ed .e-spectrum[data-n="10"] .e-axis[data-spectrum] .e-scroller{position:relative;padding-left:30px}
+  :root:root body.ed .e-spectrum[data-n="10"] .e-axis[data-spectrum] .e-line{position:absolute;top:0;bottom:0;left:3px;width:1px;height:auto;margin:0;background:linear-gradient(180deg,var(--e-metal-2),var(--e-metal-4))}
+  :root:root body.ed .e-spectrum[data-n="10"] .e-axis[data-spectrum] .e-line .e-bead{left:50%;top:calc(var(--e-ap,0) * 100%)}
+  html:not(.motion):root body.ed .e-spectrum[data-n="10"] .e-axis[data-spectrum].e-axis .e-line .e-bead{top:100%}
+  :root:root body.ed .e-spectrum[data-n="10"] .e-axis[data-spectrum] .e-stops{display:block;overflow:visible;margin:0;padding:4px 0 0;-webkit-mask-image:none;mask-image:none}
+  :root:root body.ed .e-spectrum[data-n="10"] .e-axis[data-spectrum].no-axis .e-stops{background:none}
+  :root:root body.ed .e-spectrum[data-n="10"] .e-axis[data-spectrum] .e-stop{padding:0 0 26px}
+  :root:root body.ed .e-spectrum[data-n="10"] .e-axis[data-spectrum] .e-stop>*{max-width:var(--e-measure)}
+  :root:root body.ed .e-spectrum[data-n="10"] .e-axis[data-spectrum] .e-stop::before{left:-30px;top:3px}
+  :root:root body.ed .e-spectrum[data-n="10"] .e-axis[data-spectrum] .e-stop.apart{padding:14px 0 26px;border-left:0;border-top:1px dashed var(--e-rule-strong)}
+  :root:root body.ed .e-spectrum[data-n="10"] .e-axis[data-spectrum] .e-stop.apart::before{left:-30px;top:17px}
+  :root:root body.ed .e-spectrum[data-n="10"] .e-axis[data-spectrum] .e-stop h3{min-height:0;margin-top:8px}
+  :root:root body.ed .e-spectrum[data-n="10"] .e-axis[data-spectrum] .e-stop ul{margin-bottom:0!important}
+  :root:root body.ed .e-spectrum[data-n="10"] .e-stop .e-shot{display:none}
+  :root:root body.ed .e-spectrum[data-n="10"] .e-stop.beside{display:block}
+  :root:root body.ed .e-spectrum[data-n="10"] .e-stills{display:block;margin-top:var(--e-s-5)}
+}
+/* touch tablets with 11 stops: vertical until they fit (from 1716px) */
+@media (min-width:1025px) and (max-width:1715px) and (pointer:coarse){
+  :root:root body.ed .e-spectrum[data-n="11"] .e-axis[data-spectrum]{grid-template-columns:minmax(0,1fr);grid-template-areas:"a" "s" "b";row-gap:12px;width:auto;margin-left:0}
+  :root:root body.ed .e-spectrum[data-n="11"] .e-axis[data-spectrum].no-axis{grid-template-areas:"s"}
+  :root:root body.ed .e-spectrum[data-n="11"] .e-axis[data-spectrum] .e-end-a::before,:root:root body.ed .e-spectrum[data-n="11"] .e-axis[data-spectrum] .e-end-b::after{content:none}
+  :root:root body.ed .e-spectrum[data-n="11"] .e-axis[data-spectrum] .e-end-b{text-align:left}
+  :root:root body.ed .e-spectrum[data-n="11"] .e-axis[data-spectrum] .e-cue{display:none}
+  :root:root body.ed .e-spectrum[data-n="11"] .e-axis[data-spectrum] .e-scroller{position:relative;padding-left:30px}
+  :root:root body.ed .e-spectrum[data-n="11"] .e-axis[data-spectrum] .e-line{position:absolute;top:0;bottom:0;left:3px;width:1px;height:auto;margin:0;background:linear-gradient(180deg,var(--e-metal-2),var(--e-metal-4))}
+  :root:root body.ed .e-spectrum[data-n="11"] .e-axis[data-spectrum] .e-line .e-bead{left:50%;top:calc(var(--e-ap,0) * 100%)}
+  html:not(.motion):root body.ed .e-spectrum[data-n="11"] .e-axis[data-spectrum].e-axis .e-line .e-bead{top:100%}
+  :root:root body.ed .e-spectrum[data-n="11"] .e-axis[data-spectrum] .e-stops{display:block;overflow:visible;margin:0;padding:4px 0 0;-webkit-mask-image:none;mask-image:none}
+  :root:root body.ed .e-spectrum[data-n="11"] .e-axis[data-spectrum].no-axis .e-stops{background:none}
+  :root:root body.ed .e-spectrum[data-n="11"] .e-axis[data-spectrum] .e-stop{padding:0 0 26px}
+  :root:root body.ed .e-spectrum[data-n="11"] .e-axis[data-spectrum] .e-stop>*{max-width:var(--e-measure)}
+  :root:root body.ed .e-spectrum[data-n="11"] .e-axis[data-spectrum] .e-stop::before{left:-30px;top:3px}
+  :root:root body.ed .e-spectrum[data-n="11"] .e-axis[data-spectrum] .e-stop.apart{padding:14px 0 26px;border-left:0;border-top:1px dashed var(--e-rule-strong)}
+  :root:root body.ed .e-spectrum[data-n="11"] .e-axis[data-spectrum] .e-stop.apart::before{left:-30px;top:17px}
+  :root:root body.ed .e-spectrum[data-n="11"] .e-axis[data-spectrum] .e-stop h3{min-height:0;margin-top:8px}
+  :root:root body.ed .e-spectrum[data-n="11"] .e-axis[data-spectrum] .e-stop ul{margin-bottom:0!important}
+  :root:root body.ed .e-spectrum[data-n="11"] .e-stop .e-shot{display:none}
+  :root:root body.ed .e-spectrum[data-n="11"] .e-stop.beside{display:block}
+  :root:root body.ed .e-spectrum[data-n="11"] .e-stills{display:block;margin-top:var(--e-s-5)}
+}
+/* touch tablets with 12 stops: vertical until they fit (from 1856px) */
+@media (min-width:1025px) and (max-width:1855px) and (pointer:coarse){
+  :root:root body.ed .e-spectrum[data-n="12"] .e-axis[data-spectrum]{grid-template-columns:minmax(0,1fr);grid-template-areas:"a" "s" "b";row-gap:12px;width:auto;margin-left:0}
+  :root:root body.ed .e-spectrum[data-n="12"] .e-axis[data-spectrum].no-axis{grid-template-areas:"s"}
+  :root:root body.ed .e-spectrum[data-n="12"] .e-axis[data-spectrum] .e-end-a::before,:root:root body.ed .e-spectrum[data-n="12"] .e-axis[data-spectrum] .e-end-b::after{content:none}
+  :root:root body.ed .e-spectrum[data-n="12"] .e-axis[data-spectrum] .e-end-b{text-align:left}
+  :root:root body.ed .e-spectrum[data-n="12"] .e-axis[data-spectrum] .e-cue{display:none}
+  :root:root body.ed .e-spectrum[data-n="12"] .e-axis[data-spectrum] .e-scroller{position:relative;padding-left:30px}
+  :root:root body.ed .e-spectrum[data-n="12"] .e-axis[data-spectrum] .e-line{position:absolute;top:0;bottom:0;left:3px;width:1px;height:auto;margin:0;background:linear-gradient(180deg,var(--e-metal-2),var(--e-metal-4))}
+  :root:root body.ed .e-spectrum[data-n="12"] .e-axis[data-spectrum] .e-line .e-bead{left:50%;top:calc(var(--e-ap,0) * 100%)}
+  html:not(.motion):root body.ed .e-spectrum[data-n="12"] .e-axis[data-spectrum].e-axis .e-line .e-bead{top:100%}
+  :root:root body.ed .e-spectrum[data-n="12"] .e-axis[data-spectrum] .e-stops{display:block;overflow:visible;margin:0;padding:4px 0 0;-webkit-mask-image:none;mask-image:none}
+  :root:root body.ed .e-spectrum[data-n="12"] .e-axis[data-spectrum].no-axis .e-stops{background:none}
+  :root:root body.ed .e-spectrum[data-n="12"] .e-axis[data-spectrum] .e-stop{padding:0 0 26px}
+  :root:root body.ed .e-spectrum[data-n="12"] .e-axis[data-spectrum] .e-stop>*{max-width:var(--e-measure)}
+  :root:root body.ed .e-spectrum[data-n="12"] .e-axis[data-spectrum] .e-stop::before{left:-30px;top:3px}
+  :root:root body.ed .e-spectrum[data-n="12"] .e-axis[data-spectrum] .e-stop.apart{padding:14px 0 26px;border-left:0;border-top:1px dashed var(--e-rule-strong)}
+  :root:root body.ed .e-spectrum[data-n="12"] .e-axis[data-spectrum] .e-stop.apart::before{left:-30px;top:17px}
+  :root:root body.ed .e-spectrum[data-n="12"] .e-axis[data-spectrum] .e-stop h3{min-height:0;margin-top:8px}
+  :root:root body.ed .e-spectrum[data-n="12"] .e-axis[data-spectrum] .e-stop ul{margin-bottom:0!important}
+  :root:root body.ed .e-spectrum[data-n="12"] .e-stop .e-shot{display:none}
+  :root:root body.ed .e-spectrum[data-n="12"] .e-stop.beside{display:block}
+  :root:root body.ed .e-spectrum[data-n="12"] .e-stills{display:block;margin-top:var(--e-s-5)}
+}
+/* touch tablets with 13 stops: never fit, always vertical */
+@media (min-width:1025px) and (pointer:coarse){
+  :root:root body.ed .e-spectrum[data-n="13"] .e-axis[data-spectrum]{grid-template-columns:minmax(0,1fr);grid-template-areas:"a" "s" "b";row-gap:12px;width:auto;margin-left:0}
+  :root:root body.ed .e-spectrum[data-n="13"] .e-axis[data-spectrum].no-axis{grid-template-areas:"s"}
+  :root:root body.ed .e-spectrum[data-n="13"] .e-axis[data-spectrum] .e-end-a::before,:root:root body.ed .e-spectrum[data-n="13"] .e-axis[data-spectrum] .e-end-b::after{content:none}
+  :root:root body.ed .e-spectrum[data-n="13"] .e-axis[data-spectrum] .e-end-b{text-align:left}
+  :root:root body.ed .e-spectrum[data-n="13"] .e-axis[data-spectrum] .e-cue{display:none}
+  :root:root body.ed .e-spectrum[data-n="13"] .e-axis[data-spectrum] .e-scroller{position:relative;padding-left:30px}
+  :root:root body.ed .e-spectrum[data-n="13"] .e-axis[data-spectrum] .e-line{position:absolute;top:0;bottom:0;left:3px;width:1px;height:auto;margin:0;background:linear-gradient(180deg,var(--e-metal-2),var(--e-metal-4))}
+  :root:root body.ed .e-spectrum[data-n="13"] .e-axis[data-spectrum] .e-line .e-bead{left:50%;top:calc(var(--e-ap,0) * 100%)}
+  html:not(.motion):root body.ed .e-spectrum[data-n="13"] .e-axis[data-spectrum].e-axis .e-line .e-bead{top:100%}
+  :root:root body.ed .e-spectrum[data-n="13"] .e-axis[data-spectrum] .e-stops{display:block;overflow:visible;margin:0;padding:4px 0 0;-webkit-mask-image:none;mask-image:none}
+  :root:root body.ed .e-spectrum[data-n="13"] .e-axis[data-spectrum].no-axis .e-stops{background:none}
+  :root:root body.ed .e-spectrum[data-n="13"] .e-axis[data-spectrum] .e-stop{padding:0 0 26px}
+  :root:root body.ed .e-spectrum[data-n="13"] .e-axis[data-spectrum] .e-stop>*{max-width:var(--e-measure)}
+  :root:root body.ed .e-spectrum[data-n="13"] .e-axis[data-spectrum] .e-stop::before{left:-30px;top:3px}
+  :root:root body.ed .e-spectrum[data-n="13"] .e-axis[data-spectrum] .e-stop.apart{padding:14px 0 26px;border-left:0;border-top:1px dashed var(--e-rule-strong)}
+  :root:root body.ed .e-spectrum[data-n="13"] .e-axis[data-spectrum] .e-stop.apart::before{left:-30px;top:17px}
+  :root:root body.ed .e-spectrum[data-n="13"] .e-axis[data-spectrum] .e-stop h3{min-height:0;margin-top:8px}
+  :root:root body.ed .e-spectrum[data-n="13"] .e-axis[data-spectrum] .e-stop ul{margin-bottom:0!important}
+  :root:root body.ed .e-spectrum[data-n="13"] .e-stop .e-shot{display:none}
+  :root:root body.ed .e-spectrum[data-n="13"] .e-stop.beside{display:block}
+  :root:root body.ed .e-spectrum[data-n="13"] .e-stills{display:block;margin-top:var(--e-s-5)}
+}
+/* touch tablets with 14 stops: never fit, always vertical */
+@media (min-width:1025px) and (pointer:coarse){
+  :root:root body.ed .e-spectrum[data-n="14"] .e-axis[data-spectrum]{grid-template-columns:minmax(0,1fr);grid-template-areas:"a" "s" "b";row-gap:12px;width:auto;margin-left:0}
+  :root:root body.ed .e-spectrum[data-n="14"] .e-axis[data-spectrum].no-axis{grid-template-areas:"s"}
+  :root:root body.ed .e-spectrum[data-n="14"] .e-axis[data-spectrum] .e-end-a::before,:root:root body.ed .e-spectrum[data-n="14"] .e-axis[data-spectrum] .e-end-b::after{content:none}
+  :root:root body.ed .e-spectrum[data-n="14"] .e-axis[data-spectrum] .e-end-b{text-align:left}
+  :root:root body.ed .e-spectrum[data-n="14"] .e-axis[data-spectrum] .e-cue{display:none}
+  :root:root body.ed .e-spectrum[data-n="14"] .e-axis[data-spectrum] .e-scroller{position:relative;padding-left:30px}
+  :root:root body.ed .e-spectrum[data-n="14"] .e-axis[data-spectrum] .e-line{position:absolute;top:0;bottom:0;left:3px;width:1px;height:auto;margin:0;background:linear-gradient(180deg,var(--e-metal-2),var(--e-metal-4))}
+  :root:root body.ed .e-spectrum[data-n="14"] .e-axis[data-spectrum] .e-line .e-bead{left:50%;top:calc(var(--e-ap,0) * 100%)}
+  html:not(.motion):root body.ed .e-spectrum[data-n="14"] .e-axis[data-spectrum].e-axis .e-line .e-bead{top:100%}
+  :root:root body.ed .e-spectrum[data-n="14"] .e-axis[data-spectrum] .e-stops{display:block;overflow:visible;margin:0;padding:4px 0 0;-webkit-mask-image:none;mask-image:none}
+  :root:root body.ed .e-spectrum[data-n="14"] .e-axis[data-spectrum].no-axis .e-stops{background:none}
+  :root:root body.ed .e-spectrum[data-n="14"] .e-axis[data-spectrum] .e-stop{padding:0 0 26px}
+  :root:root body.ed .e-spectrum[data-n="14"] .e-axis[data-spectrum] .e-stop>*{max-width:var(--e-measure)}
+  :root:root body.ed .e-spectrum[data-n="14"] .e-axis[data-spectrum] .e-stop::before{left:-30px;top:3px}
+  :root:root body.ed .e-spectrum[data-n="14"] .e-axis[data-spectrum] .e-stop.apart{padding:14px 0 26px;border-left:0;border-top:1px dashed var(--e-rule-strong)}
+  :root:root body.ed .e-spectrum[data-n="14"] .e-axis[data-spectrum] .e-stop.apart::before{left:-30px;top:17px}
+  :root:root body.ed .e-spectrum[data-n="14"] .e-axis[data-spectrum] .e-stop h3{min-height:0;margin-top:8px}
+  :root:root body.ed .e-spectrum[data-n="14"] .e-axis[data-spectrum] .e-stop ul{margin-bottom:0!important}
+  :root:root body.ed .e-spectrum[data-n="14"] .e-stop .e-shot{display:none}
+  :root:root body.ed .e-spectrum[data-n="14"] .e-stop.beside{display:block}
+  :root:root body.ed .e-spectrum[data-n="14"] .e-stills{display:block;margin-top:var(--e-s-5)}
 }
 
 /* ----- Try it: the working example keeps its own interface; only its frame changes */
