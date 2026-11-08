@@ -839,6 +839,14 @@
      "text": "After a gap the plan card read “PLAN ENDED”, “There's no wrong time to begin.” and “These days slipped by, and that's alright. Grace meets you wherever you start.”, with “Continue this Plan”.",
      "shot": "shot-c70b64804115df033ce2"
     }
+   ],
+   "Count an open as reading": [
+    {
+     "app": "Creed",
+     "date": "8 November 2026",
+     "text": "After a missed day had reset the streak, the app was only opened on 7 November, with nothing read, prayed or asked, and the profile showed “1 Day streak”. On 8 November, on opening and before any activity, a full-screen “2 Day Streak!” celebration appeared with a week row and “Share Milestone”. The screen does not say what the streak counts; the two days are from our dated session logs.",
+     "shot": "shot-3ea345611070af6883f9"
+    }
    ]
   }
  }
