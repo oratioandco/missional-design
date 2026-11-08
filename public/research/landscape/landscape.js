@@ -1,4 +1,4 @@
-/* /research/landscape/: poster fit/zoom/pan, product chooser, practices table filter, record search.
+/* /research/landscape/ and its subpages: poster fit/zoom/pan, product chooser, practices table filter, record search.
    Adapted from the landscape viewer (map-template.html) and views.html. Without JavaScript the poster shows at
    full size in its scroll box and every record, table and text list stays readable. */
 (function(){
@@ -6,7 +6,7 @@
  var $=function(s){return document.querySelector(s)};
  // ---------------------------------------------------------------- records
  function openRecord(id,focus){
-  var d=document.getElementById('p-'+id);if(!d||d.tagName!=='DETAILS')return;
+  var d=document.getElementById('p-'+id);if(!d||d.tagName!=='DETAILS'){location.href='/research/landscape/records/#p-'+encodeURIComponent(id);return}
   d.hidden=false;d.open=true;d.classList.add('flash');setTimeout(function(){d.classList.remove('flash')},1600);
   var q=$('#rec-q');if(q&&q.value){q.value='';filterRecords()}
   d.scrollIntoView({block:'start'});if(focus!==false)d.querySelector('summary').focus({preventScroll:true});
@@ -42,7 +42,7 @@
   viewer.addEventListener('pointermove',function(e){if(!drag||e.pointerId!==drag.id)return;var dx=e.clientX-drag.x,dy=e.clientY-drag.y;
    if(Math.abs(dx)+Math.abs(dy)>5){moved=true;viewer.setPointerCapture(e.pointerId);x=drag.ox+dx;y=drag.oy+dy;draw()}});
   var end=function(){drag=null;viewer.classList.remove('dragging')};viewer.addEventListener('pointerup',end);viewer.addEventListener('pointercancel',end);
-  viewer.addEventListener('click',function(e){var a=e.target.closest('a[data-app]');if(moved){e.preventDefault();moved=false;return}if(a){e.preventDefault();openRecord(a.dataset.app)}});
+  viewer.addEventListener('click',function(e){if(moved){e.preventDefault();moved=false}});
   // Keyboard: a focused logo inside the enlarged poster is brought into view.
   viewer.addEventListener('focusin',function(e){var a=e.target.closest&&e.target.closest('a[data-app]');if(!a||zoom===1)return;var r=a.getBoundingClientRect(),v=viewer.getBoundingClientRect();
    if(r.left<v.left||r.right>v.right||r.top<v.top||r.bottom>v.bottom){x+=v.left+v.width/2-(r.left+r.width/2);y+=v.top+v.height/2-(r.top+r.height/2);draw()}});
