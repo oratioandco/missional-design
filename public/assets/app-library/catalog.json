@@ -127436,6 +127436,57 @@
       "url": "/screens/shot-2c3332350ccc85fa73cf/"
     },
     {
+      "id": "shot-3ea345611070af6883f9",
+      "app_id": "com.damirakyan.creed",
+      "organisation_id": "C058",
+      "image": "/assets/app-library/screens/shot-3ea345611070af6883f9.webp",
+      "captured": "2026-11-08",
+      "version": null,
+      "screen_name": "Streak celebration on opening, after app opens only",
+      "caption": "On opening, before any activity that day, a full-screen celebration shows \"2 Day Streak!\", a week row with Sunday ticked, \"7 Days this Year\" and Share Milestone. On the day before, the app had only been opened.",
+      "screen_type": "Progress",
+      "tags": [
+        "Progress",
+        "Sharing",
+        "AI persona"
+      ],
+      "components": [
+        "Unspecified component",
+        "Button"
+      ],
+      "component_details": [
+        "Celebration screen",
+        "Week row",
+        "Primary button"
+      ],
+      "tasks": [
+        "Keep a routine"
+      ],
+      "states": [],
+      "flow_id": null,
+      "flow_order": null,
+      "article_slugs": [
+        "progress-and-streaks"
+      ],
+      "context": "iOS capture, 8 November 2026, the day after Creed Unlimited access ended. Existing guest state; not installation defaults. Status bar cropped. On 7 November the app was only opened (home and profile). Profile under the research name \"Research\"; counts reflect only the research sessions.",
+      "text": "",
+      "checked": "2026-11-08",
+      "screen_type_detail": "Progress",
+      "task_details": [
+        "Review progress"
+      ],
+      "state_details": [
+        "Default"
+      ],
+      "tag_details": [
+        "Streak",
+        "Sharing",
+        "Companion"
+      ],
+      "classification_version": 1,
+      "url": "/screens/shot-3ea345611070af6883f9/"
+    },
+    {
       "id": "shot-79239755aae6861094d4",
       "app_id": "com.bible.holy.bible.for.women",
       "organisation_id": "C068",
