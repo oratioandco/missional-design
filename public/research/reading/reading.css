@@ -32,6 +32,7 @@
 .rd .rd-rules strong{color:var(--ink);font-weight:600}
 
 /* tiles */
+.rd .rd-tiles>li{min-width:0}
 .rd .rd-tiles{list-style:none;margin:8px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:36px 28px}
 .rd .rd-tiles-one{grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr))}
 #main .rd .rd-tile{display:flex;flex-direction:column;gap:6px;text-decoration:none;color:var(--ink);height:100%}
@@ -126,3 +127,12 @@
  .rd .rd-n{font-size:40px}
  .rd .rd-table td:last-child{white-space:normal}
 }
+
+/* Publisher covers (books): on the review page beside the bibliography, and in the overview tile on a quiet panel */
+.rd .rd-meta{display:flex;gap:24px;align-items:flex-start;max-width:46rem}
+.rd .rd-cover{flex:0 0 auto;width:120px;margin:0}
+.rd .rd-cover img{display:block;width:100%;height:auto;border:1px solid var(--rule2);box-shadow:0 1px 2px rgba(0,0,0,.06)}
+.rd .rd-cover figcaption{font-size:12px;line-height:1.35;color:var(--faint);margin-top:6px}
+.rd .rd-coverbox{display:flex;align-items:center;justify-content:center;aspect-ratio:1200/630;border:1px solid var(--rule2);border-radius:4px;background:var(--lo);margin-bottom:8px;overflow:hidden;position:relative;width:100%}
+.rd .rd-tile .rd-coverbox img{position:absolute;top:8%;left:50%;transform:translateX(-50%);max-width:none;width:auto;height:84%;aspect-ratio:auto;border:1px solid var(--rule2);border-radius:0;margin:0;box-shadow:0 2px 8px rgba(0,0,0,.12)}
+@media (max-width:520px){.rd .rd-meta{gap:16px}.rd .rd-cover{width:88px}}
