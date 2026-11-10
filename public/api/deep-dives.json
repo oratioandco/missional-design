@@ -29,12 +29,13 @@
    "question": "How human should the assistant seem?",
    "options": [
     "Plain tool (Familiar convention)",
+    "Help without a speaker (Exploratory)",
     "Labelled assistant (Familiar convention)",
     "Named assistant (Exploratory)",
     "An answer receipt (Borrowed)",
     "Persona (Observed)",
     "Companion (Observed)",
-    "Biblical character (Observed)"
+    "Biblical character (Warning case)"
    ],
    "decide": "Would a reasonable person believe someone who knows, loves or prays for them is here, and can they leave freely?",
    "review": null,
@@ -56,8 +57,9 @@
     "A published answer with a named owner (Borrowed)",
     "A friend (Observed)",
     "A church’s teaching (Observed)",
-    "A pastor or priest (Observed)",
+    "A pastor or priest (Warning case)",
     "A saint or biblical figure (Observed)",
+    "A loved one who has died (Warning case)",
     "Christ or God (Warning case)"
    ],
    "decide": "Would your church accept these words if a person said them in that name, and what does the assistant say when asked who it is?",
@@ -151,7 +153,9 @@
     "Sequence (Observed)",
     "Weekly rhythm (Familiar convention)",
     "Daily readings (Familiar convention)",
-    "Streak (Observed)"
+    "Streak (Warning case)",
+    "Whole passage (Borrowed)",
+    "Stay with a passage (Exploratory)"
    ],
    "decide": "After nine days away, does the plan offer a good place to start, or a bill?",
    "review": null,
@@ -171,7 +175,9 @@
     "Guided steps (Observed)",
     "People I pray for (Observed)",
     "Quiet prayer (Familiar convention)",
-    "Counted prayer (Observed)"
+    "Counted prayer (Warning case)",
+    "Same prayer, then silence (Borrowed)",
+    "Carry one intention (Exploratory)"
    ],
    "decide": "Could someone pray here meaningfully and leave nothing for your dashboard to count?",
    "review": null,
@@ -489,6 +495,7 @@
     "An open cost ledger (Borrowed)",
     "An ask that waits to be invited (Exploratory)",
     "Gifts that give access to others (Exploratory)",
+    "A badge for giving (Observed)",
     "A gift tied to a benefit (Observed)",
     "Pressure and promises (Warning case)"
    ],
@@ -521,7 +528,7 @@
     "A bell for a season (Exploratory)",
     "A quiet day each week (Exploratory)",
     "One summary instead of many (Borrowed)",
-    "Engagement-driven (Observed)",
+    "Engagement-driven (Warning case)",
     "Messages about the person (Warning case)"
    ],
    "decide": "Who chose this interruption, how urgent does it claim to be, and what does it say to someone who has stopped coming?",

@@ -74,9 +74,45 @@
    "costs": "Prayer becomes minutes, streaks and totals, shown to others.",
    "ask_your_team": "What does this count teach people about prayer?",
    "still": "https://missional.design/assets/stills/try-prayer-counted.jpg"
+  },
+  {
+   "key": "repeat",
+   "name": "Same prayer, then silence",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from repeated set prayer. The excerpt is from Compline in the 1979 Book of Common Prayer; the untimed sequence is our proposal. Hallow also documents session repeat, without establishing this interface.",
+   "gain": "Received words, then silence",
+   "cost": "An excerpt from one tradition",
+   "makes_easier": "A stable prayer to receive, with silence that does not automatically advance.",
+   "costs": "An excerpt from one tradition, not the complete office or a recording.",
+   "ask_your_team": "Can someone repeat or stop without the app treating it as a tally?",
+   "still": "https://missional.design/assets/stills/try-prayer-repeat.jpg"
+  },
+  {
+   "key": "carry",
+   "name": "Carry one intention",
+   "provenance": "Exploratory",
+   "origin": "Our proposal: one chosen intercession, an optional outward action and an explicit forget route. Not observed app behavior or evidence that action followed.",
+   "gain": "A possible bridge into action",
+   "cost": "An invitation may become a duty",
+   "makes_easier": "An invitation toward life beyond the screen, with no shared prayer record.",
+   "costs": "Even an optional action can feel like a duty; forgetting must remove the recovery copy too.",
+   "ask_your_team": "Is leaving without an action a complete outcome, and who can see what remains?",
+   "still": "https://missional.design/assets/stills/try-prayer-carry.jpg"
   }
  ],
  "takeaways": [
+  {
+   "heading": "Completion rewards are a mechanism, not a prayer count",
+   "text": "Creed’s public screen of 31 October 2026 puts a Claim button beside +10 coins for Daily Prayer. That shows a completion reward, not whether someone prayed, why they returned or what effect it had."
+  },
+  {
+   "heading": "Credit a prayer that turns outward",
+   "text": "Lectio 365’s captured closing prayer points toward life beyond the app, followed by AMEN and SHARE. The post-Amen ending remains unverified. Hallow’s current help also documents repeating a session; these are good practices to credit within their actual scope."
+  },
+  {
+   "heading": "Two alternatives to a tally",
+   "text": "The proposed repeat state keeps received words and untimed silence available. Carry one intention makes outward action optional and lets the person forget the words, including the undo copy. Neither reports prayer or action to a group or a dashboard."
+  },
   {
    "heading": "Name whose words and whose calendar",
    "text": "A daily office belongs to a tradition. Hallow names the day (“Friday of the Twenty-fourth Week in Ordinary Time · Lectionary: 447”); a generic “today’s prayer” hides it. Name the book, church and calendar, and let people look ahead without changing today."
@@ -107,7 +143,9 @@
     "Guided steps": "poor fit",
     "People I pray for": "poor fit",
     "Quiet prayer": "poor fit",
-    "Counted prayer": "poor fit"
+    "Counted prayer": "poor fit",
+    "Same prayer, then silence": "possible",
+    "Carry one intention": "poor fit"
    }
   },
   {
@@ -118,7 +156,9 @@
     "Guided steps": "good fit",
     "People I pray for": "possible",
     "Quiet prayer": "possible",
-    "Counted prayer": "poor fit"
+    "Counted prayer": "poor fit",
+    "Same prayer, then silence": "good fit",
+    "Carry one intention": "possible"
    }
   },
   {
@@ -129,7 +169,9 @@
     "Guided steps": "possible",
     "People I pray for": "good fit",
     "Quiet prayer": "possible",
-    "Counted prayer": "poor fit"
+    "Counted prayer": "poor fit",
+    "Same prayer, then silence": "possible",
+    "Carry one intention": "good fit"
    }
   },
   {
@@ -140,7 +182,9 @@
     "Guided steps": "possible",
     "People I pray for": "poor fit",
     "Quiet prayer": "good fit",
-    "Counted prayer": "poor fit"
+    "Counted prayer": "poor fit",
+    "Same prayer, then silence": "good fit",
+    "Carry one intention": "possible"
    }
   },
   {
@@ -151,7 +195,9 @@
     "Guided steps": "good fit",
     "People I pray for": "possible",
     "Quiet prayer": "good fit",
-    "Counted prayer": "poor fit"
+    "Counted prayer": "poor fit",
+    "Same prayer, then silence": "good fit",
+    "Carry one intention": "possible"
    }
   },
   {
@@ -162,11 +208,47 @@
     "Guided steps": "poor fit",
     "People I pray for": "poor fit",
     "Quiet prayer": "poor fit",
-    "Counted prayer": "poor fit"
+    "Counted prayer": "poor fit",
+    "Same prayer, then silence": "poor fit",
+    "Carry one intention": "poor fit"
    }
   }
  ],
  "research": [
+  {
+   "group": "Current practice, with limits",
+   "subtitle": "Controls observed or documented in October–November 2026",
+   "findings": [
+    {
+     "heading": "A coin reward beside prayer",
+     "text": "The visible claim mechanism does not establish prayer, motives or outcomes.",
+     "sources": [
+      "prayer-reward-screen-2026"
+     ]
+    },
+    {
+     "heading": "A prayer looking outward",
+     "text": "The AMEN/SHARE screen is captured; what happens after Amen is not.",
+     "sources": [
+      "lectio-ending-screen-2026"
+     ]
+    },
+    {
+     "heading": "Repeat is already documented",
+     "text": "Hallow explains looping a current session. The local repeat-and-silence interface remains our proposal.",
+     "sources": [
+      "hallow-repeat-help-2026"
+     ]
+    },
+    {
+     "heading": "Named hosts and pace choice",
+     "text": "Lectio describes named human hosts, optional music and reading at one’s own pace.",
+     "sources": [
+      "lectio-app-help-2026"
+     ]
+    }
+   ]
+  },
   {
    "group": "Scripture and tradition",
    "subtitle": "Words given, words of one’s own, and silence",
@@ -267,6 +349,14 @@
   }
  ],
  "which_fits": [
+  {
+   "if": "People want received words to return to",
+   "start_with": "Borrow a short, named prayer followed by silence, without counting repeats"
+  },
+  {
+   "if": "A person chooses to carry an intercession outward",
+   "start_with": "Explore one optional action, then forget; leaving without action is complete"
+  },
   {
    "if": "People pray with a church’s words",
    "start_with": "An order of prayer, with its book and calendar named"
@@ -428,6 +518,46 @@
   }
  ],
  "sources": [
+  {
+   "key": "prayer-reward-screen-2026",
+   "title": "Creed: Daily Prayer completion reward",
+   "url": "https://missional.design/screens/shot-c926e7188811f1abfa64/",
+   "author": "Creed · com.damirakyan.creed · iOS capture, 31 October 2026; version not recorded",
+   "kind": "Practice",
+   "shows": "Daily Prayer has a Claim button beside +10 coins; Today shows one of three activities.",
+   "application": "Name the completion reward and virtual-currency mechanism; do not infer whether the person prayed, their motivation or a spiritual effect.",
+   "limits": "One research-account screen, not an outcome study or proof of all reward rules."
+  },
+  {
+   "key": "lectio-ending-screen-2026",
+   "title": "Lectio 365: closing prayer, AMEN and SHARE",
+   "url": "https://missional.design/screens/shot-78e72481705fa6948f0e/",
+   "author": "Lectio 365 · com.prayer247.lectio365 · iOS capture, 31 October 2026; version not recorded",
+   "kind": "Practice",
+   "shows": "The Yield section presents an outward-facing closing prayer followed by AMEN and SHARE controls.",
+   "application": "Credit a visible prayer that points toward life beyond the app; the screen does not establish what happens after Amen.",
+   "limits": "No complete post-Amen sequence was inspected; no claim about the absence of later rewards or prompts."
+  },
+  {
+   "key": "hallow-repeat-help-2026",
+   "title": "How do I create my own playlist?",
+   "url": "https://help.hallow.com/en/articles/6587350-how-do-i-create-my-own-playlist",
+   "author": "Hallow Help & Support · page dated 20 January 2026; reviewed 1 November 2026",
+   "kind": "Practice",
+   "shows": "Hallow documents looping a queue or repeating only the current prayer session, as well as deleting queued sessions.",
+   "application": "Credit a reader-controlled return to the same session. The local repeat-and-silence interface is our proposal, not a reconstruction of Hallow.",
+   "limits": "Documentation of playback controls; not observed use, untimed silence or a formation outcome."
+  },
+  {
+   "key": "lectio-app-help-2026",
+   "title": "Lectio 365: The App",
+   "url": "https://lectio365.com/the-app/",
+   "author": "24-7 Prayer · reviewed 1 November 2026",
+   "kind": "Practice",
+   "shows": "Lectio documents reading at one’s own pace, optional music, named hosts and an archive covering the previous thirty days.",
+   "application": "Credit named human authors and pace choice, while distinguishing the archive from indefinite return to one saved prayer.",
+   "limits": "Provider claims, not a fresh app walkthrough or proof of every ending."
+  },
   {
    "key": "rb-20",
    "title": "The Rule of Benedict, chapter 20: reverence at prayer",

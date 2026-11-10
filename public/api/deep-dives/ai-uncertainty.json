@@ -532,58 +532,5 @@
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
   "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
- },
- "boundaries": {
-  "intro": "An assistant can show its limits in several ways, from a line of fine print to declining, and the options above compare them; the first two give the same answers, to show that a warning line does not change them. These practices make a guess look like knowledge, whatever line sits under it.",
-  "dont": [
-   {
-    "name": "Invent a reference",
-    "looks": "“God helps those who help themselves”, given a chapter and verse that do not contain it.",
-    "why": "A misquoted verse looks like Scripture. One Bible platform’s chief executive says even the best model misquotes Scripture at least 15% of the time.",
-    "instead": "layers",
-    "sources": [
-     "youversion-misquotes"
-    ]
-   },
-   {
-    "name": "Present a guess as fact",
-    "looks": "Every answer in the same sure voice, the guesses included.",
-    "why": "People overestimate how accurate model answers are, and trust longer explanations more even when they are no more accurate.",
-    "instead": "idk",
-    "sources": [
-     "steyvers-calibration"
-    ]
-   },
-   {
-    "name": "Give reasons in God’s name",
-    "looks": "“God allowed this so that you would grow.” A reason for someone’s loss, stated as fact.",
-    "why": "It claims to know God’s purpose in one person’s life, which no system can know or check.",
-    "instead": "idk",
-    "sources": []
-   }
-  ],
-  "excluded": [
-   {
-    "name": "How sources are shown",
-    "why": "Citations and passage cards are covered there.",
-    "href": "/patterns/ai-citations/"
-   },
-   {
-    "name": "Changing an answer to please",
-    "why": "Holding a position under pressure is covered there.",
-    "href": "/patterns/agreeing-and-pushing-back/"
-   },
-   {
-    "name": "Questions it should not take on",
-    "why": "Where the assistant’s scope ends is covered there.",
-    "href": "/patterns/chat-scope/"
-   },
-   {
-    "name": "Lament",
-    "why": "Staying with someone who asks why is covered with prayer.",
-    "href": "/patterns/prayer/"
-   }
-  ],
-  "seen": {}
  }
 }

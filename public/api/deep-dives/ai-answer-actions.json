@@ -245,6 +245,12 @@
    "note": "saw Scripture as received in community; sharing a passage with a friend is closer to that than sharing generated text."
   }
  ],
+ "three_ways": {
+  "exploitative": "Generated text shared as if it were Scripture; prompts to keep chatting.",
+  "ethical": "Label generated text and keep Scripture distinct from it.",
+  "redemptive": "Offer actions that lead away from the app: read the passage, pray, talk to someone.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
  "decide": {
   "question": "Which actions does this product need, and what does each one carry with it?",
   "exercise": "Ask three people to name every icon before tapping it. Then copy and share an answer and look at what arrives on the other end, and ask each person who they think reads their thumbs down.",
@@ -379,35 +385,5 @@
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
   "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
- },
- "boundaries": {
-  "intro": "Each set of actions above can be chosen in good faith, and none of them is a dark pattern. One common mistake is worth naming.",
-  "dont": [
-   {
-    "name": "Share an answer as if it were Scripture",
-    "looks": "A share card with the generated answer in verse styling, and no AI label or reference.",
-    "why": "Whoever receives it cannot tell generated interpretation from Scripture.",
-    "instead": "passage",
-    "sources": []
-   }
-  ],
-  "excluded": [
-   {
-    "name": "How sources are shown",
-    "why": "Citations inside the answer are covered there.",
-    "href": "/patterns/ai-citations/"
-   },
-   {
-    "name": "Asking again until it agrees",
-    "why": "Answers that change to please are covered there.",
-    "href": "/patterns/agreeing-and-pushing-back/"
-   },
-   {
-    "name": "What happens to ratings",
-    "why": "Whether feedback trains a model is a team’s own decision; the page above asks only that people are told.",
-    "href": null
-   }
-  ],
-  "seen": {}
  }
 }

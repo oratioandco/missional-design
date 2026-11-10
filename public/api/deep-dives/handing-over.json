@@ -617,58 +617,5 @@
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
   "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
- },
- "boundaries": {
-  "intro": "Pointing someone to people can be done in many ways, from a general suggestion to a person who joins the chat. These practices are different: they take the choice away from the person, or send their words further than they know.",
-  "dont": [
-   {
-    "name": "Pass someone on without asking",
-    "looks": "A pastor who calls a minute after someone searches about living or dying, or a church that receives a request the person never sent.",
-    "why": "It takes the choice away, and can send someone to people they did not choose. In health care a warm hand-off happens in front of the patient, so they hear what is passed on.",
-    "instead": "draft",
-    "sources": [
-     "ahrq-warm-handoff"
-    ]
-   },
-   {
-    "name": "Send the conversation with the request",
-    "looks": "The whole chat attached by default to a request to a church.",
-    "why": "Details travel further than people expect, and consent given once in a form does not cover every later use.",
-    "instead": "church",
-    "sources": [
-     "roys-he-gets-us"
-    ]
-   },
-   {
-    "name": "Send someone back to who hurt them",
-    "looks": "A route to their own church after they have named a leader there as the reason they are struggling.",
-    "why": "Some people have been harmed by the church an app would send them to.",
-    "instead": "draft",
-    "sources": []
-   }
-  ],
-  "excluded": [
-   {
-    "name": "Where the assistant’s scope ends",
-    "why": "What it takes on before handing over is covered there.",
-    "href": "/patterns/chat-scope/"
-   },
-   {
-    "name": "What is remembered",
-    "why": "What the assistant keeps from the conversation is covered there.",
-    "href": "/patterns/ai-memory/"
-   },
-   {
-    "name": "Groups and listeners",
-    "why": "What people share in a group is covered there.",
-    "href": "/patterns/sharing-with-a-group/"
-   },
-   {
-    "name": "Which crisis lines to show",
-    "why": "Lines for each country need their own safeguarding review.",
-    "href": null
-   }
-  ],
-  "seen": {}
  }
 }

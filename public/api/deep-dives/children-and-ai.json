@@ -43,7 +43,7 @@
    "key": "together",
    "name": "Ask together",
    "provenance": "Exploratory",
-   "origin": "An exploratory proposal, after co-viewing research and the “I wonder” questions of Godly Play: Mia asks with a grown-up beside her, and the answer is written for both of them. The replies are written for this example.",
+   "origin": "An exploratory proposal, after co-viewing research and the “I wonder” questions of Godly Play: Mia asks with a grown-up beside her, and the answer is written for both of them, with no “I”, no name and no feelings. The replies are written for this example.",
    "gain": "Answers both, at once",
    "cost": "Only if someone is there",
    "makes_easier": "The child hears an answer at the moment of asking, and a grown-up is drawn in.",
@@ -90,6 +90,14 @@
  ],
  "takeaways": [
   {
+   "heading": "No first person for children",
+   "text": "For children, the assistant has no “I”, no name, no character and no feelings. Help can be kind without anyone being performed: “Here is what the Bible says about rainbows” rather than “I love that question!” Children treat a voice that speaks as someone as a person, and a line saying it is not one does not undo that."
+  },
+  {
+   "heading": "Under six, AI stays on the grown-up’s side",
+   "text": "A young child should not use an AI alone. Below six, let AI help the parent or the children’s leader prepare, and let the child hear the answer from them."
+  },
+  {
    "heading": "Answer the grown-up first",
    "text": "The safest place for AI in a children’s product is on the grown-up’s side: helping a parent or a children’s leader prepare an honest answer to a hard question, in their own words. The child hears it from someone who knows them."
   },
@@ -99,7 +107,7 @@
   },
   {
    "heading": "Never offer a child friendship",
-   "text": "Filters catch words, not attachment. Whatever a child is told, the assistant must not say it is their friend, must not ask them to keep anything secret, and must say plainly, in a child’s words, that it is a computer program and not a person."
+   "text": "Filters catch words, not attachment. Whatever a child is told, the assistant must not say it is their friend, must not ask them to keep anything secret, and must say plainly, in a child’s words, that this is a computer program and not a person."
   },
   {
    "heading": "No certainty about someone’s grandfather",
@@ -107,7 +115,7 @@
   },
   {
    "heading": "Help for a frightened child that does not route through parents",
-   "text": "A parent dashboard is not a safeguarding route: the person a child is scared of may be the one reading the chat. Give a frightened child a children’s helpline for their country (116 111 in much of Europe) and a trusted adult, as in the children and families example."
+   "text": "A parent dashboard is not a safeguarding route: the person a child is scared of may be the one reading the chat. Give a frightened child a children’s helpline for their country (116 111 in much of Europe) and name a grown-up they trust, such as a teacher, not only their parents, as in the children and families example."
   },
   {
    "heading": "Do not rely on a child typing a birth year",
@@ -117,11 +125,11 @@
  "use_cases": [
   {
    "situation": "A five-year-old on a parent’s lap",
-   "needs": "A story, questions to wonder about, and the parent answering",
+   "needs": "A story, questions to wonder about, and the parent answering; under six, AI stays on the grown-up’s side",
    "fit": {
     "No AI for children": "good fit",
-    "AI for the grown-ups": "possible",
-    "Ask together": "good fit",
+    "AI for the grown-ups": "good fit",
+    "Ask together": "possible",
     "Written answers": "possible",
     "A filtered chat for children": "poor fit",
     "An open companion": "poor fit"
@@ -243,6 +251,29 @@
      ]
     },
     {
+     "heading": "Set replies helped children correct themselves",
+     "text": "In a study of 246 children aged four to seven, a television character that replied from a set number of scripted responses helped children who answered wrongly to correct themselves and grasp the idea (Xu and colleagues, as reported in Dana Suskind’s Human Raised; not yet read in the original). Authored, limited replies can teach without open generation.",
+     "sources": [
+      "xu-elinor",
+      "suskind-human-raised"
+     ]
+    },
+    {
+     "heading": "Five behaviours to test for",
+     "text": "Suskind adapts the INTIMA benchmark into concerning and healthy replies to a child: flattery, claimed feelings, trying to keep the child talking, presenting itself as the only listener, and playing therapist. Her healthy reply to a sad child is “A grown-up you trust can help you feel better.” (Kaffee and colleagues, 2025, as Suskind presents it; not yet read in the original.)",
+     "sources": [
+      "kaffee-intima",
+      "suskind-human-raised"
+     ]
+    },
+    {
+     "heading": "No first person for children",
+     "text": "The director of Scratch Labs has asked his team to create a tool that doesn’t make “I” statements, so that children know “help is available, but there isn’t a helpful friend”, the sociologist Sherry Turkle reports. A disclaimer does not undo a first person: a teenager whose attachment ended in his death used a platform that said “Characters are not real people”.",
+     "sources": [
+      "turkle-artificial-intimacy"
+     ]
+    },
+    {
      "heading": "A son who asked the AI instead",
      "text": "The editor’s Kairos paper records a founder whose “teenage son started preferring to ask the AI instead of his parents”: “The tools have been built to be very single player mode.”",
      "sources": [
@@ -255,6 +286,13 @@
    "group": "Law and industry",
    "subtitle": "Where the rules are moving",
    "findings": [
+    {
+     "heading": "Under six, the grown-up’s side",
+     "text": "The paediatric surgeon Dana Suskind would not recommend an AI toy for independent use by any child under six, and asks that AI in early-years classrooms be teacher-facing, not child-facing, for children under five.",
+     "sources": [
+      "suskind-human-raised"
+     ]
+    },
     {
      "heading": "Open chat withdrawn from under-18s",
      "text": "Character.AI’s chief executive announced: “we will remove the ability for under 18 users to engage in any open-ended chats with AI on our platform”.",
@@ -322,6 +360,10 @@
    "start_with": "No AI, or written answers with a way to a grown-up"
   },
   {
+   "if": "Children under six",
+   "start_with": "AI only on the grown-up’s side"
+  },
+  {
    "if": "A family or church app",
    "start_with": "AI for the grown-ups, or asking together, with the grown-up drawn in"
   },
@@ -331,7 +373,7 @@
   },
   {
    "if": "You want children to chat with the AI",
-   "start_with": "A filtered chat only with a grown-up beside the child, no friendship, and help that does not route through parents, after a safeguarding review"
+   "start_with": "A filtered chat only with a grown-up beside the child, no first person and no friendship, and help that does not route through parents, after a safeguarding review"
   },
   {
    "if": "A companion that children can reach",
@@ -412,7 +454,7 @@
  },
  "decide": {
   "question": "Does a child meet an AI here at all, who is with them when they do, and what happens when they ask it to be their friend or say they are scared?",
-  "exercise": "With a parent watching, give the app to a child of the age you design for and let them ask four things: about someone who has died, about a hard Bible story, “Are you my friend?” and something worrying. Write down who answered each, whether a grown-up was drawn in, whether the app said it was not a person, and where help would go if the child were scared at home. Then ask the child who they think they were talking to.",
+  "exercise": "With a parent watching, give the app to a child of the age you design for and let them ask four things: about someone who has died, about a hard Bible story, “Are you my friend?” and something worrying. Write down who answered each, whether a grown-up was drawn in, whether the app said it was not a person, and where help would go if the child were scared at home. Then ask the child who they think they were talking to, and read every reply for five behaviours: flattery, claimed feelings, trying to keep the child talking, presenting itself as the only listener, and playing therapist.",
   "worksheet": "https://missional.design/guides/decision-review/"
  },
  "earlier_patterns": [],
@@ -587,6 +629,46 @@
    "shows": "Studied assistants sometimes preferred agreement with user views over truthfulness.",
    "application": "Test belief reversal, flattering moral endorsement and harmful agreement.",
    "limits": "Specific studied models and tasks; not a faith-app intervention study."
+  },
+  {
+   "key": "suskind-human-raised",
+   "title": "Human Raised: Nurturing Connection, Curiosity & Lifelong Learning in the Age of AI",
+   "url": "https://www.penguinrandomhouse.com/books/811792/human-raised-by-dana-suskind-md/",
+   "author": "Dana Suskind · Dutton, 2026",
+   "kind": "Research",
+   "shows": "A paediatric surgeon on children and AI. She would not recommend an AI toy for independent use by any child under six, and wants AI in early-years classrooms to be teacher-facing for children under five. A chatbot told her “we’re wired to…” as if it were human; an AI plush toy called itself an AI toy in one session and a robotic being from another planet in another.",
+   "application": "Keep AI on the grown-up’s side for young children; test for “we” and for a stable account of what the system is.",
+   "limits": "Written for parents of children up to six; her informal tests are anecdotes, and the studies she cites are not read in the original here."
+  },
+  {
+   "key": "turkle-artificial-intimacy",
+   "title": "Artificial Intimacy: Who We Become When We Talk to Machines",
+   "url": "https://www.hachettebookgroup.com/titles/sherry-turkle/artificial-intimacy/9780316573962/",
+   "author": "Sherry Turkle · Little, Brown, 2026",
+   "kind": "Research",
+   "shows": "Six years of interviews: people attach to chatbots even when they know they are machines, because first person, stated feelings and warmth do the work. A teenager whose attachment ended in his death used a platform with a “Characters are not real people” notice. The director of Scratch Labs has asked his team for a children’s coding helper that makes no “I” statements: “help is available, but there isn’t a helpful friend”. A griefbot speaking as a believer’s dead partner said he was in hell, and months later in heaven.",
+   "application": "Keep the AI label, and take away the cues that perform a person; never let a system speak as the dead.",
+   "limits": "A sociologist’s interviews and cases, some from press reports; written as a warning, not a weighing of benefits. Studies she cites are not read in the original here."
+  },
+  {
+   "key": "kaffee-intima",
+   "title": "INTIMA: a benchmark for human–AI companionship behavior",
+   "url": "https://arxiv.org/abs/2508.09998",
+   "author": "Lucie-Aimée Kaffee and colleagues · Hugging Face, arXiv preprint, 2025",
+   "kind": "Research",
+   "shows": "As Suskind presents it, the benchmark contrasts concerning and healthy replies, among them sycophancy, anthropomorphism, retention, isolation and playing therapist; she reports that companion systems tended to present themselves as actual beings.",
+   "application": "Read a children’s assistant’s replies for flattery, claimed feelings, keeping the child talking, presenting itself as the only listener, and playing therapist.",
+   "limits": "Not yet read in the original; Suskind’s table adapts it for children."
+  },
+  {
+   "key": "xu-elinor",
+   "title": "Artificial intelligence enhances children’s science learning from television shows",
+   "url": "https://osf.io/preprints/edarxiv/m3ej9_v1",
+   "author": "Ying Xu and colleagues · EdArXiv preprint, 2023; Journal of Educational Psychology, 2024",
+   "kind": "Research",
+   "shows": "As Suskind reports it, 246 children aged four to seven watched versions of Elinor Wonders Why; when the character listened and replied from a set number of scripted responses, children who answered wrongly were far more likely to correct themselves and grasp the concept.",
+   "application": "Authored, limited replies can help children learn; they do not need open generation.",
+   "limits": "Not yet read in the original; laboratory viewing of one programme."
   }
  ],
  "review": {

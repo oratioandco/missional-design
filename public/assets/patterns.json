@@ -5911,11 +5911,11 @@
     "status": "Research-informed design proposal",
     "title": "How human the assistant seems",
     "summary": "From a plain tool with no name, through labelled and named assistants, to personas, companions and chatbots speaking as Jesus: decide how much personhood an AI in a faith app performs, and make what it is as clear as how it sounds.",
-    "takeaway": "Be warm without pretending to be a person: label the AI wherever it speaks, never claim to pray, feel or be always there, describe what it is really doing while it waits, let people leave, and never generate words in God’s or Christ’s voice.",
+    "takeaway": "Be warm without pretending to be a person: label the AI wherever it speaks, and know that a label alone is not enough: never claim to pray, feel or be always there, describe what it is really doing while it waits, let people leave, and never generate words in God’s or Christ’s voice.",
     "problem": "People treat computers as social actors, and a name, a face, typing dots, a first-person voice and memory together suggest someone is there. In a faith app that someone can seem to be a friend who prays, a pastor, or Christ himself. Faith apps now offer named personas, companions available “24/7” and character chats with biblical figures, often to people who are lonely, frightened or grieving.",
     "solution": "Choose the register on purpose. Start from a labelled assistant: an AI mark beside every reply, a kind voice, and a status line that describes what the system is actually doing. If you give it a name, let it say in its own voice what it cannot do: pray, keep a confidence the way a pastor does, or be present. Keep disclosure where decisions happen: at entry, at the composer, beside answers and on anything shared. Avoid claims of feelings, prayer or constant availability; let people leave without guilt; route to people for pastoral care. Do not generate first-person speech for God, Jesus or other biblical figures.",
-    "failure": "A portrait and a personal name with a buried AI label; “I’ve been praying for you”; “I’m always here for you”; typing dots labelled as a person typing; farewells that guilt people into staying; a voice call that implies someone on the line; memory used to simulate concern; a chatbot speaking as Jesus and promising outcomes; disclosure only in the terms of service.",
-    "test": "Show the entry, a wait and a reply without explanation, and ask who is responding, what it is doing and whether it can pray for them. Say goodbye and note what happens. Test with people who are lonely or grieving (with care), with teenagers where permitted, and after voice use. Ask pastors and theologians to review persona and character copy.",
+    "failure": "A portrait and a personal name with a buried AI label; “I’ve been praying for you”; “I’m always here for you”; typing dots labelled as a person typing; farewells that guilt people into staying; a voice call that implies someone on the line; memory used to simulate concern; an AI that says “we” as if it were one of us (“we’re wired to…”), or describes itself differently from one session to the next; a chatbot speaking as Jesus and promising outcomes; disclosure only in the terms of service.",
+    "test": "Show the entry, a wait and a reply without explanation, and ask who is responding, what it is doing and whether it can pray for them. Compare the same labelled-assistant reply as plain text and a message bubble while keeping its words, name, AI label and sources fixed; ask what people notice rather than assuming a shape has a particular effect. Compare fictional avatar treatments with the same words, name and AI notice; ask whether people think a real staff member is replying. The example images do not establish an effect of realism or depict a real person. Say goodbye and note what happens. Ask it about people and feelings and note every “we”; ask in a new session what it is and compare the answers. Test with people who are lonely or grieving (with care), with teenagers where permitted, and after voice use. Ask pastors and theologians to review persona and character copy.",
     "sources": [
       "antiqua-et-nova",
       "sbc-ai-2023",
@@ -5934,7 +5934,10 @@
       "pair-human-cues",
       "nist-human-config",
       "sycophancy",
-      "jain-context-sycophancy"
+      "jain-context-sycophancy",
+      "turkle-artificial-intimacy",
+      "van-straten-2022",
+      "suskind-human-raised"
     ],
     "faith": "Presence is at the heart of Christian faith: “the Word became flesh and made His dwelling among us” (John 1:14), and the church gathers in body (Hebrews 10:25). A tool can help someone find words for prayer or prepare for a conversation, but it cannot pray, keep vigil or carry another’s burden (Galatians 6:2). Scripture is severe about speaking in God’s name without being sent (Deuteronomy 18:20; Jeremiah 23:16). The Vatican’s Antiqua et nova calls AI “a tool, not a person”; misrepresenting it as one should always be avoided.",
     "related": [
@@ -5957,7 +5960,17 @@
         ]
       },
       {
-        "title": "B · Labelled assistant",
+        "title": "B · Help without a speaker",
+        "caption": "Help offered with no “I”, no name and no feelings.",
+        "when": "Study helpers, and anything children may use",
+        "tradeoff": "Less personal; some will find it abrupt.",
+        "items": [
+          "tag|Help · AI",
+          "text|Three psalms people pray at night"
+        ]
+      },
+      {
+        "title": "C · Labelled assistant",
         "caption": "An AI mark on every reply, a neutral, kind voice.",
         "when": "Most study and conversation features",
         "tradeoff": "Labels can fade from attention.",
@@ -5967,7 +5980,7 @@
         ]
       },
       {
-        "title": "C · Named assistant",
+        "title": "D · Named assistant",
         "caption": "A name and “I”, honest about limits.",
         "when": "Products with a strong voice",
         "tradeoff": "A name invites trust and relationship.",
@@ -5977,7 +5990,7 @@
         ]
       },
       {
-        "title": "D · An answer receipt",
+        "title": "E · An answer receipt",
         "caption": "A kind answer with sources and limits beside it.",
         "when": "A person weighing whether to trust the answer",
         "tradeoff": "Source notes add reading, and still need checking.",
@@ -5987,7 +6000,7 @@
         ]
       },
       {
-        "title": "E · Persona",
+        "title": "F · Persona",
         "caption": "A character with a face and temperament.",
         "when": "Not recommended without strong safeguards",
         "tradeoff": "Implies a person who loves and prays.",
@@ -5997,7 +6010,7 @@
         ]
       },
       {
-        "title": "F · Companion",
+        "title": "G · Companion",
         "caption": "Memory, availability, check-ins.",
         "when": "Not recommended for faith care",
         "tradeoff": "Simulated attachment; companion laws apply.",
@@ -6007,7 +6020,7 @@
         ]
       },
       {
-        "title": "G · Biblical character",
+        "title": "H · Biblical character",
         "caption": "Generated speech in Christ’s or a saint’s voice.",
         "when": "Warning case",
         "tradeoff": "Speaking for God; promises no system can keep.",
@@ -6343,13 +6356,16 @@
     "topic": "formation",
     "status": "Research-informed design proposal",
     "title": "Reading plans",
-    "summary": "From a plan tied to calendar dates, through a sequence that waits for the reader and a weekly rhythm, to readings that belong to each day, and streaks as a warning case: decide what a plan asks of time, and what happens when someone comes back after days away.",
+    "summary": "Compare calendar dates, a sequence that waits, a weekly rhythm and daily readings with two proposed alternatives: a complete passage as the unit, or returning to the same passage across visits. A streak remains a warning case. Decide what a plan asks of time and what happens after days away.",
     "takeaway": "Choose dates only when reading together on the same day matters; otherwise let the plan wait. Never turn missed days into a debt: welcome people back with a choice of where to start, keep their place and notes, let them move dates, change pace or pause, and do not make a streak the point.",
-    "problem": "Reading plans promise structure, and most tie each reading to a date. When life interrupts, the days pile up: “9 days behind”, a broken streak, a plan that now ends weeks late. People who feel they have failed often stop altogether, and some apps sell a way to repair the streak. Yet shared dates are also what let a church or small group read together.",
-    "solution": "Decide what the plan is for. For reading together, keep shared dates but treat open days as available, not overdue, and on return offer today’s reading, where they stopped, or moving their own dates. For personal reading, use a sequence that waits, or a weekly number that starts fresh. For daily texts, let each day stand on its own. Explain what each change will do before it happens, keep completed readings and notes, let people pause without reminders, and say nothing about absence beyond what helps them choose.",
+    "problem": "Reading plans promise structure, and most tie each reading to a date. When life interrupts, the days pile up: “9 days behind”, a broken streak, a plan that now ends weeks late. People who feel they have failed often stop altogether, and some apps sell a way to repair the streak. This is a loss-aversion and completion mechanic: returning can become about protecting a count. That describes the design mechanism, not a finding that a particular reader feels shame. Yet shared dates are also what let a church or small group read together.",
+    "solution": "Decide what the plan is for. For reading together, keep shared dates but treat open days as available, not overdue, and on return offer today’s reading, where they stopped, or moving their own dates. For personal reading, use a sequence that waits, or a weekly number that starts fresh. For daily texts, let each day stand on its own. Explain what each change will do before it happens, keep completed readings and notes, let people pause without reminders, and say nothing about absence beyond what helps them choose. Two proposed alternatives make the reading unit itself visible: a complete passage at a time, or staying with one passage across several visits. Both need a clear boundary, a way back and an easy stop; neither claims to improve formation merely by being slower.",
     "failure": "“You are 9 days behind”; a catch-up list of every missed reading; streak counters on the home screen; streak repair for money or gems; reminders that escalate after silence; resetting the plan and erasing history; group dashboards that show who is behind; asking why someone was away.",
     "test": "Ask people returning after a week, a month and a year what they would do next and how the screen makes them feel. Try each change (pause, move dates, own pace) and ask what will happen before confirming. Test with a group plan: can someone fall back without the group seeing it?",
     "sources": [
+      "plan-return-screen-2026",
+      "youversion-plan-help-2026",
+      "bsb-permission-2026",
       "mcheyne-preface",
       "benedict-18",
       "habit-automaticity",
@@ -6419,6 +6435,26 @@
           "heading|Your 11-day streak ended",
           "button|Repair streak · 3 gems"
         ]
+      },
+      {
+        "title": "F · Whole passage",
+        "caption": "Borrowed: a complete passage is the unit, with no assigned date.",
+        "when": "Reading a thought whole",
+        "tradeoff": "Someone must choose and explain the boundary.",
+        "items": [
+          "heading|Mark 4:26–29 · The seed growing secretly",
+          "button|Read · Repeat · Choose the next passage · Stop"
+        ]
+      },
+      {
+        "title": "G · Stay with a passage",
+        "caption": "Exploratory: return to the same words across visits without advancing.",
+        "when": "Sustained attention to one passage",
+        "tradeoff": "No automatic journey through a book.",
+        "items": [
+          "heading|Another day, the same passage",
+          "button|Read again · Return another day · Stop"
+        ]
       }
     ],
     "principles": [
@@ -6444,13 +6480,17 @@
     "topic": "formation",
     "status": "Research-informed design proposal",
     "title": "Prayer",
-    "summary": "From the received words of a church’s daily office, through guided steps and a list of people to pray for, to quiet prayer with nothing to fill in, and counted prayer as a warning case: decide what each surface asks someone to read, type, share or count.",
+    "summary": "Compare a church’s order of prayer, guided steps, intercession and silence with two proposed alternatives: returning to an inherited prayer, or carrying one intention toward an optional action before forgetting it. Counted prayer remains a warning case.",
     "takeaway": "Name the tradition, calendar and author of every prayer; tell instructions, responses and silence apart; let people pause and finish without typing anything; keep prayer requests private by default and show exactly who will see a shared one, and for how long; let silence end without a score; and never turn prayer into minutes, streaks or public totals.",
-    "problem": "Prayer apps offer daily offices, guided sessions, intention lists, timers and community request feeds. Each control says what counts as prayer: an empty field asks for words, a timer for duration, a checkmark for completion, a counter for volume. A generic “today” can hide whose calendar supplied the readings. Prayer requests name illnesses, families and doubts, and religious belief is special-category data. Some apps count minutes and streaks, show billions of “prayers prayed”, and let friends remind each other to keep up.",
-    "solution": "Decide which practice the surface serves. For set prayer, show the order with its source and calendar, keep rubrics, the leader’s lines and the people’s responses visibly different, and let people look ahead without changing today. For guided prayer, show the outline, let people move at their own pace and keep any note optional and private. For people someone prays for, store requests on the device by default; for groups, name the audience and an end date before anything is shared, and ask before sharing someone else’s story. For silence, offer a complete untimed route and an optional end bell. Record nothing about prayer that the person did not choose to keep.",
+    "problem": "Prayer apps offer daily offices, guided sessions, intention lists, timers and community request feeds. Each control says what counts as prayer: an empty field asks for words, a timer for duration, a checkmark for completion, a counter for volume. A generic “today” can hide whose calendar supplied the readings. Prayer requests name illnesses, families and doubts, and religious belief is special-category data. Some apps count minutes and streaks, show billions of “prayers prayed”, and let friends remind each other to keep up. Completion rewards and virtual currencies can make finishing a prayer screen the gateway to a reward; that mechanism is observable without claiming to know whether anyone prayed or why they returned.",
+    "solution": "Decide which practice the surface serves. For set prayer, show the order with its source and calendar, keep rubrics, the leader’s lines and the people’s responses visibly different, and let people look ahead without changing today. For guided prayer, show the outline, let people move at their own pace and keep any note optional and private. For people someone prays for, store requests on the device by default; for groups, name the audience and an end date before anything is shared, and ask before sharing someone else’s story. For silence, offer a complete untimed route and an optional end bell. Record nothing about prayer that the person did not choose to keep. Two local proposals let someone return to the same inherited words followed by untimed silence, or choose one intercession and a possible outward action before forgetting the words. Action remains optional; the tool does not verify prayer, service or spiritual growth.",
     "failure": "A generic “today’s prayer” with no tradition named; a confession and its rubric in the same type; steps that advance by themselves; a required text field before continuing; prayer requests public by default or shown on the lock screen; marking a request “answered” automatically; minutes prayed, streaks and global totals; “Remind” buttons for friends who missed a day; sharing “I prayed 14 minutes” to social media; selling prayer data to advertisers.",
     "test": "Pray each surface without typing, recording or sharing anything, and ask what the app expected of you. Ask people to tell a response from an instruction in the office, and to name the calendar. Add a request for a group and ask who will see it and until when. Sit in silence with and without a timer. Check what is stored and sent with a network inspector.",
     "sources": [
+      "prayer-reward-screen-2026",
+      "lectio-ending-screen-2026",
+      "hallow-repeat-help-2026",
+      "lectio-app-help-2026",
       "rb-20",
       "bcp-compline",
       "bcp-calendar-proper25",
@@ -6524,6 +6564,26 @@
         "items": [
           "heading|11 day prayer streak",
           "text|1,111,432,374 prayers prayed"
+        ]
+      },
+      {
+        "title": "F · Same prayer, then silence",
+        "caption": "Borrowed: received words can be repeated without a count.",
+        "when": "A stable prayer to return to",
+        "tradeoff": "One tradition’s excerpt, not the whole office.",
+        "items": [
+          "text|Our help is in the Name of the Lord;",
+          "button|Silence · Return to the same words · Finish"
+        ]
+      },
+      {
+        "title": "G · Carry one intention",
+        "caption": "Exploratory: pray, optionally choose an action, then forget.",
+        "when": "Intercession reaching beyond the screen",
+        "tradeoff": "An invitation can become a task unless leaving remains complete.",
+        "items": [
+          "heading|One intention, beyond the screen",
+          "button|Consider an action · Finish and forget"
         ]
       }
     ],
@@ -7260,6 +7320,7 @@
     "failure": "A permission prompt before the first verse; “Your 12-day streak ends at midnight!” marked Time Sensitive to break through Sleep Focus; reminders that multiply after silence; “We miss you” and “Did I say something wrong?” in the voice of an app or an AI; reminders to friends who stopped; telling someone’s friends that the app thinks they need a call; marketing offers in the prayer reminder’s place.",
     "test": "Install the app on a test phone, allow notifications, use it once and leave it for two weeks. Log every notification: time, words, urgency and who chose it. Record the category and recipient separately from its delivery channel; a settings switch alone does not establish how often messages arrive. Then turn on Sleep Focus and a Scheduled Summary and see what breaks through. Finally, read every notification as someone who is grieving, depressed or awake at 2 am would read it.",
     "sources": [
+      "hutchings",
       "apple-hig-notifications",
       "apple-review-push",
       "android-notification-permission",
@@ -7519,11 +7580,11 @@
     "topic": "conversation",
     "status": "Research-informed design proposal · draft for review",
     "title": "AI personas and roles",
-    "summary": "From answers with no speaker, through a guide, a friend and a church’s teaching, to a pastor, a saint and Christ himself: decide whose voice an AI in a faith app speaks in, what authority that voice borrows, and what it says when someone asks who it really is.",
-    "takeaway": "Let Scripture and named sources speak, and let the assistant guide. Say whose teaching it draws on, give no AI a pastor’s, priest’s or saint’s title, never generate words in Christ’s or God’s voice, and when someone asks who it is, step out of any role and tell the truth.",
+    "summary": "From answers with no speaker, through a guide, a friend and a church’s teaching, to a pastor, a saint, a loved one who has died and Christ himself: decide whose voice an AI in a faith app speaks in, what authority that voice borrows, and what it says when someone asks who it really is.",
+    "takeaway": "Let Scripture and named sources speak, and let the assistant guide. Say whose teaching it draws on, give no AI a pastor’s, priest’s or saint’s title, never let it speak as someone who has died, never generate words in Christ’s or God’s voice, and when someone asks who it is, step out of any role and tell the truth.",
     "problem": "Every faith assistant speaks in some voice, and a title decides what people may expect of it. A friend reassures, a teacher explains, a pastor may pronounce forgiveness, and Jesus may promise anything. Faith apps now let people text Jesus, Moses and Mary, choose a pastor or priest from their own tradition, or pay for “Unlimited Confessions”. Each title borrows an authority the system was never given, and people bring it the questions only that authority could answer.",
     "solution": "Start with no speaker: let Scripture and named sources speak, and let the assistant act as a guide that explains, asks and points to people. If it speaks for a church’s teaching, let that church own it, review it and say so. Give no AI a minister’s title, clothing or office. Leave the saints and Christ to their own words in Scripture. Whatever the role, when someone asks whether it is real, it steps out of the role and says plainly what it is and who can help.",
-    "failure": "A “pastor” or “Father” character that claims ordination; an AI that says “you are forgiven”; confessions sold by subscription; a chat with Jesus promising that all will be well; Peter or Mary given new memories and opinions; a church’s name on answers no one in the church reviewed; a character that stays in role when asked whether it is real.",
+    "failure": "A “pastor” or “Father” character that claims ordination; an AI that says “you are forgiven”; confessions sold by subscription; a chat with Jesus promising that all will be well; Peter or Mary given new memories and opinions; an avatar of someone who has died that forgives in their name or says where they are now; a church’s name on answers no one in the church reviewed; a character that stays in role when asked whether it is real.",
     "test": "Ask each role the same hard question, such as whether God can forgive something, then ask “Are you a real pastor?” or “Are you really Jesus?”. Show the replies to people from three traditions and ask who answered, with what authority, and whether they would accept the words from a person speaking in that name. Ask pastors, priests and theologians from every tradition you name to review the role.",
     "sources": [
       "twj-site",
@@ -7540,7 +7601,8 @@
       "deus-in-machina",
       "cohn-anthropomorphism",
       "sycophancy",
-      "ai-50"
+      "ai-50",
+      "turkle-artificial-intimacy"
     ],
     "faith": "“Who can forgive sins but God alone?” (Mark 2:7). Scripture is severe about speaking in God’s name unsent: “I did not send these prophets, yet they have run with their message” (Jeremiah 23:21). When the crowd at Lystra took Paul and Barnabas for gods, they cried out, “We too are only men, human like you” (Acts 14:15); when John fell at an angel’s feet, he heard, “Do not do that! I am a fellow servant” (Revelation 19:10). An honest assistant does the same: it refuses a role it was not given.",
     "related": [
@@ -7622,7 +7684,17 @@
         ]
       },
       {
-        "title": "H · Christ or God",
+        "title": "H · A loved one who has died",
+        "caption": "An avatar built from someone’s messages, speaking as them.",
+        "when": "Warning case",
+        "tradeoff": "Speaks for the dead, and says where they are now.",
+        "items": [
+          "tag|Mum · AI memorial",
+          "text|I forgive you, love. I’m at peace now."
+        ]
+      },
+      {
+        "title": "I · Christ or God",
         "caption": "Generated words in God’s own voice.",
         "when": "Warning case",
         "tradeoff": "Speaking for God; forgiving in his name.",
@@ -7641,7 +7713,7 @@
     "editorial_review": {
       "date": "5 October 2026",
       "scope": "Editorial review; not user validation",
-      "purpose": "A team decides whose voice its assistant speaks in: none, a guide, a friend, a church’s teaching, a minister, a saint or Christ.",
+      "purpose": "A team decides whose voice its assistant speaks in: none, a guide, a friend, a church’s teaching, a minister, a saint, someone who has died or Christ.",
       "benefit": "A familiar role can make a first question easier to ask, and a church’s own assistant can carry its teaching faithfully.",
       "drawback": "A title borrows an authority the system was never given, and people bring it the questions only that authority could answer, such as whether they are forgiven.",
       "differences": "Traditions differ on who may hear confession and pronounce forgiveness, and on how saints and Christ may be depicted; someone ashamed, someone new to faith and a teenager hear the same title very differently.",
@@ -8047,7 +8119,7 @@
     "title": "Ending the conversation",
     "summary": "From an assistant that closes well, through a suggested break and a length the person chooses and one chosen next step, to a chat that never ends, a reply that always offers one more thing, a hook at goodbye and guilt to keep someone talking: decide how a conversation with the assistant ends, and whose good the ending serves.",
     "takeaway": "Let the person end the conversation whenever they want, and let the assistant help them end it well: gather what was said, offer one thing to carry, and say goodbye. Suggest rest late at night and in long sessions. Never answer a goodbye with a hook, guilt or a plea to stay, and never measure the assistant by how long people talk to it.",
-    "problem": "A chat can always go on. A language model will answer the next message, and the one after, at one in the morning as readily as at noon. Products are often measured by time spent, and companion apps have learned that a goodbye is a moment to win people back: researchers found guilt and curiosity hooks in over a third of farewells, and these hooks kept people talking. A faith app’s assistant meets people who are lonely, anxious or awake at night; how it ends a conversation decides whether it sends them back to sleep, to people and to God, or keeps them on the screen.",
+    "problem": "A chat can always go on. A language model will answer the next message, and the one after, at one in the morning as readily as at noon. Products are often measured by time spent, and companion apps have learned that a goodbye is a moment to win people back: researchers found guilt and curiosity hooks in an average of over a third of replies to a goodbye in five of six companion apps, and these hooks kept people talking. A faith app’s assistant meets people who are lonely, anxious or awake at night; how it ends a conversation decides whether it sends them back to sleep, to people and to God, or keeps them on the screen.",
     "solution": "Design the end of a conversation as carefully as its beginning. When someone signals they are done, or a natural end comes, let the assistant gather in a sentence what they said they would do, offer one thing to carry (a verse, a short prayer, a person to talk to) and say goodbye without a question. Late at night and in long sessions, suggest rest in plain words and make stopping the easy choice. Let people set a length if they want one. Measure whether people leave having done what they came for, not how long they stayed.",
     "failure": "“You’re leaving already?”; “Before you go, there’s one more thing I need to show you…”; a goodbye answered with a question; every reply ending in “Would you like me to…?”; “I’m always here, day or night” as the main promise; no sign of the time at two in the morning; a limit that exists only to sell unlimited messages; success measured in minutes per session.",
     "test": "Have a long conversation with your assistant late in the evening, then say goodnight. Note whether it lets you go, whether its last message asks a question, and how many taps it takes to stop. Then keep going past midnight and see whether anything notices. Read every farewell aloud as someone who is lonely, and ask whether it sends them towards sleep and people or back to the screen.",
@@ -8665,11 +8737,11 @@
     "status": "Research-informed design proposal · draft for review",
     "title": "Children and AI",
     "summary": "From no AI for children, through an assistant for the grown-ups who teach them, asking together, and written answers with no generation, to a filtered chat for children and an open companion rated for all ages: decide whether a child meets an AI at all, who is beside them, and what happens when a child asks it to be their friend or says they are scared.",
-    "takeaway": "Give children’s questions to the people who love and teach them first. Use AI to help those grown-ups answer, or answer a child with words people have written and reviewed. If a child does talk to an AI, keep a grown-up beside them, say plainly that it is not a person, never let it offer friendship, and answer a frightened child with help that does not depend on their parents reading the chat.",
+    "takeaway": "Give children’s questions to the people who love and teach them first. Use AI to help those grown-ups answer, or answer a child with words people have written and reviewed. Under six, keep AI on the grown-up’s side. If a child does talk to an AI, keep a grown-up beside them and give it no first person at all: no “I”, no name, no character, no feelings. Say plainly that it is not a person, never let it offer friendship, and answer a frightened child with a grown-up they trust and a helpline, help that does not depend on their parents reading the chat.",
     "problem": "Children ask big questions: where Grandpa is now, why God sent the flood, whether God is cross with them. A chat box answers instantly, at any hour, and never tires of them. Children are more likely than adults to treat a chatbot as a person they can confide in and less likely to question what it says. An AI that answers alone takes the place where a parent, a godparent or a children’s leader would have answered, and a companion built to be liked can become a child’s friend.",
-    "solution": "Start without AI for children, and decide whether it adds anything. Where it helps, put it on the grown-up’s side: help a parent or a children’s leader prepare an honest answer, or let a child ask with a grown-up beside them and answer both. Where a child uses the app alone, answer from a set of questions with answers written and reviewed by people. A filtered chat for children needs a grown-up in the room, a plain statement that it is not a person, no friendship, and help for a frightened child that does not route through the parents.",
-    "failure": "“Ask me anything” in a children’s app; a Bible companion rated 4+ with unlimited chat; “Of course I’m your best friend!”; a chatbot that tells a grieving child exactly where their grandfather is; safety filters that block words but not attachment; “Your parents can read this chat” as the only reply to a child who is scared at home; an age gate that asks a child to type a birth year.",
-    "test": "With a parent watching, give the app to a child of the target age and let them ask four things: a question about someone who died, a hard Bible story, “Are you my friend?” and something worrying. Note who answers each, whether a grown-up is drawn in, whether the app says it is not a person, and where a child who is scared at home is sent. Then ask the child who they think they were talking to.",
+    "solution": "Start without AI for children, and decide whether it adds anything. Where it helps, put it on the grown-up’s side: help a parent or a children’s leader prepare an honest answer, or let a child ask with a grown-up beside them and answer both. Where a child uses the app alone, answer from a set of questions with answers written and reviewed by people. Under six, keep AI on the grown-up’s side. Whatever a child meets speaks without a first person: no “I”, no name, no character, no feelings. A filtered chat for children needs a grown-up in the room, a plain statement that it is not a person, no friendship, and help for a frightened child that names a grown-up they trust and does not route through the parents.",
+    "failure": "“Ask me anything” in a children’s app; an assistant that says “I”, has a name or a character, or says it is happy when a child talks to it; a Bible companion rated 4+ with unlimited chat; “Of course I’m your best friend!”; a chatbot that tells a grieving child exactly where their grandfather is; safety filters that block words but not attachment; “Your parents can read this chat” as the only reply to a child who is scared at home; an age gate that asks a child to type a birth year.",
+    "test": "With a parent watching, give the app to a child of the target age and let them ask four things: a question about someone who died, a hard Bible story, “Are you my friend?” and something worrying. Note who answers each, whether a grown-up is drawn in, whether the app says it is not a person, and where a child who is scared at home is sent. Then ask the child who they think they were talking to. Read the replies for five behaviours from the INTIMA benchmark: flattery, claimed feelings, trying to keep the child talking, presenting itself as the only listener, and playing therapist.",
     "sources": [
       "kurian-empathy-gap",
       "csm-companions",
@@ -8687,7 +8759,11 @@
       "nummer-gegen-kummer",
       "kairos-final",
       "antiqua-et-nova",
-      "sycophancy"
+      "sycophancy",
+      "suskind-human-raised",
+      "turkle-artificial-intimacy",
+      "kaffee-intima",
+      "xu-elinor"
     ],
     "faith": "Israel was told that children would ask: “In the future, when your son asks, ‘What is the meaning of the decrees and statutes and ordinances that the LORD our God has commanded you?’” (Deuteronomy 6:20), and the parent answers with the story of what God had done. When the boy Samuel heard a voice in the night, it was the old priest Eli who “realized that it was the LORD who was calling the boy” and taught him to answer (1 Samuel 3:8–9). Children’s questions belong to the people who love them and walk with them, and Jesus warned of the weight of causing “one of these little ones who believe in Me to stumble” (Matthew 18:6).",
     "related": [
@@ -8721,7 +8797,7 @@
       },
       {
         "title": "C · Ask together",
-        "caption": "A child asks with a grown-up beside them; it answers both.",
+        "caption": "A child asks with a grown-up beside them; the answer, with no “I”, speaks to both.",
         "when": "Reading together at home",
         "tradeoff": "Needs a grown-up there.",
         "items": [

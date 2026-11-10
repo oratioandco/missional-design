@@ -12,7 +12,7 @@
  },
  "working_example": {
   "url": "https://missional.design/demos/rhythm/",
-  "situation": "A plan through Exodus in 40 days, a chapter at a time. It is Tuesday 20 October, day 20. Each option holds time differently, from a dated plan to readings that belong to each day. Read today’s chapter, then switch the situation to “Back after nine days” and see what each plan says."
+  "situation": "A plan through Exodus in 40 days, a chapter at a time. It is Tuesday 20 October, day 20. Each option holds time differently, from a dated plan to readings that belong to each day. The whole-passage and stay-with-a-passage proposals use Mark 4:26–34 instead of the Exodus calendar. Read today’s chapter, then switch the situation to “Back after nine days” and see what each plan says."
  },
  "options": [
   {
@@ -74,9 +74,41 @@
    "costs": "A missed day becomes a loss; people who feel they have failed often stop.",
    "ask_your_team": "What does this count teach people about reading Scripture?",
    "still": "https://missional.design/assets/stills/try-rhythm-streak.jpg"
+  },
+  {
+   "key": "passage",
+   "name": "Whole passage",
+   "provenance": "Borrowed",
+   "origin": "Borrowed from passage-based study and lectionary reading. These particular Mark 4 boundaries and controls are our proposal, not an observed app interface.",
+   "gain": "One complete thought",
+   "cost": "Editorial boundaries need naming",
+   "makes_easier": "A thought remains whole; dates do not decide its extent.",
+   "costs": "Someone must choose and explain the passage boundary, and a group may be elsewhere.",
+   "ask_your_team": "Who chose this boundary, and can the reader return without advancing?",
+   "still": "https://missional.design/assets/stills/try-rhythm-passage.jpg"
+  },
+  {
+   "key": "return",
+   "name": "Stay with a passage",
+   "provenance": "Exploratory",
+   "origin": "Our proposal: the same complete passage stays available across visits. Inspired by repeated prayerful reading; not a claim that a captured app does this.",
+   "gain": "Room to remain with the words",
+   "cost": "No automatic journey onward",
+   "makes_easier": "Room to remain with the same words without a completion target.",
+   "costs": "No automatic journey through a book; repetition may not suit the reader’s purpose.",
+   "ask_your_team": "Does staying here serve the reader’s chosen practice, or obstruct a journey they wanted?",
+   "still": "https://missional.design/assets/stills/try-rhythm-return.jpg"
   }
  ],
  "takeaways": [
+  {
+   "heading": "A welcome is visible; scheduling is not",
+   "text": "Bible Chat’s public screen of 31 October 2026 offers continuation or a fresh start after a plan ended. Credit the welcoming wording. That still does not establish automatic pausing or the catch-up rule; YouVersion separately documents its Android rescheduling behavior."
+  },
+  {
+   "heading": "Choose what a reading is",
+   "text": "The two proposed alternatives use a complete Mark 4 passage, with the boundary named. One moves on only when asked; the other stays with the same words across visits. Neither is an observed app feature or a finding about spiritual growth."
+  },
   {
    "heading": "The plan’s author wanted readers free",
    "text": "Robert Murray M’Cheyne warned that his own calendar could become “a yoke too heavy to bear”, and told readers to “throw aside the fetter”. Benedict told anyone who found his weekly psalter unsatisfactory to arrange it better. Build that freedom in: pause, own pace and moving dates."
@@ -107,7 +139,9 @@
     "Sequence": "poor fit",
     "Weekly rhythm": "possible",
     "Daily readings": "good fit",
-    "Streak": "poor fit"
+    "Streak": "poor fit",
+    "Whole passage": "possible",
+    "Stay with a passage": "possible"
    }
   },
   {
@@ -118,7 +152,9 @@
     "Sequence": "good fit",
     "Weekly rhythm": "possible",
     "Daily readings": "possible",
-    "Streak": "poor fit"
+    "Streak": "poor fit",
+    "Whole passage": "good fit",
+    "Stay with a passage": "good fit"
    }
   },
   {
@@ -129,7 +165,9 @@
     "Sequence": "good fit",
     "Weekly rhythm": "good fit",
     "Daily readings": "possible",
-    "Streak": "poor fit"
+    "Streak": "poor fit",
+    "Whole passage": "good fit",
+    "Stay with a passage": "good fit"
    }
   },
   {
@@ -140,7 +178,9 @@
     "Sequence": "good fit",
     "Weekly rhythm": "good fit",
     "Daily readings": "good fit",
-    "Streak": "poor fit"
+    "Streak": "poor fit",
+    "Whole passage": "good fit",
+    "Stay with a passage": "good fit"
    }
   },
   {
@@ -151,7 +191,9 @@
     "Sequence": "good fit",
     "Weekly rhythm": "good fit",
     "Daily readings": "poor fit",
-    "Streak": "possible"
+    "Streak": "possible",
+    "Whole passage": "good fit",
+    "Stay with a passage": "poor fit"
    }
   },
   {
@@ -162,7 +204,9 @@
     "Sequence": "poor fit",
     "Weekly rhythm": "poor fit",
     "Daily readings": "good fit",
-    "Streak": "poor fit"
+    "Streak": "poor fit",
+    "Whole passage": "possible",
+    "Stay with a passage": "possible"
    }
   }
  ],
@@ -242,6 +286,20 @@
    "subtitle": "How Bible apps handle it",
    "findings": [
     {
+     "heading": "Return wording, without inferring the rule",
+     "text": "Bible Chat’s dated public screen offers continuation or a fresh start. A full return sequence is still needed for scheduling claims.",
+     "sources": [
+      "plan-return-screen-2026"
+     ]
+    },
+    {
+     "heading": "Current Android rescheduling",
+     "text": "YouVersion documents shifting today without marking unread sections complete; group plans are excluded.",
+     "sources": [
+      "youversion-plan-help-2026"
+     ]
+    },
+    {
      "heading": "Catch up without pretending",
      "text": "YouVersion’s “Catch Me Up” reschedules without marking readings complete, and is not available for plans with friends.",
      "sources": [
@@ -252,6 +310,14 @@
   }
  ],
  "which_fits": [
+  {
+   "if": "The thought should remain whole",
+   "start_with": "Borrow a passage as the unit, with its editorial boundary visible"
+  },
+  {
+   "if": "Someone chooses to remain with the same words",
+   "start_with": "Explore return without automatic advancement, with repeat and stop"
+  },
   {
    "if": "A church or group reads together",
    "start_with": "A dated plan with open days unmarked and a choice on return"
@@ -428,6 +494,36 @@
   }
  ],
  "sources": [
+  {
+   "key": "plan-return-screen-2026",
+   "title": "Bible Chat: ended plan, welcoming return",
+   "url": "https://missional.design/screens/shot-c70b64804115df033ce2/",
+   "author": "Bible Chat · com.basmo.BibleChat · iOS capture, 31 October 2026; version not recorded",
+   "kind": "Practice",
+   "shows": "An ended plan offers a fresh start or continuation, with welcoming language after days slipped by.",
+   "application": "Credit the return wording and the visible choice; a before/after sequence is still needed to establish scheduling or automatic pause behavior.",
+   "limits": "One existing-account screen, not installation defaults or an outcome study."
+  },
+  {
+   "key": "youversion-plan-help-2026",
+   "title": "Android: Catch Me Up",
+   "url": "https://help.youversion.com/l/en/article/7de8qv7xuc-catch-me-up-on-android",
+   "author": "YouVersion Support · reviewed 1 November 2026",
+   "kind": "Practice",
+   "shows": "The documented action moves today to the next unread day after the highest completed day without marking sections complete; it is unavailable for Plans with Friends.",
+   "application": "A good precedent for explaining rescheduling before confirming, while keeping the group exception visible.",
+   "limits": "Android documentation, not a fresh observation of iOS or an independent outcome test."
+  },
+  {
+   "key": "bsb-permission-2026",
+   "title": "Berean Bible: Free Licensing",
+   "url": "https://berean.bible/licensing.htm",
+   "author": "Berean Bible · reviewed 1 November 2026",
+   "kind": "Practice",
+   "shows": "The publisher places its Bible texts in the public domain from 30 April 2023 and says licensing is not required.",
+   "application": "The new local passage states reuse Mark 4 from the existing BSB fixture, with translation credit and editorial boundaries named.",
+   "limits": "Covers these texts, not other translations, recordings or editorial resources."
+  },
   {
    "key": "mcheyne-preface",
    "title": "Daily Bread: M’Cheyne’s calendar for daily readings, with his preface",

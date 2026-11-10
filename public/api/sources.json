@@ -1816,9 +1816,9 @@
    "url": "https://doi.org/10.1080/13537903.2017.1298903",
    "author": "Tim Hutchings · Journal of Contemporary Religion 32(2), 2017",
    "kind": "Research",
-   "shows": "Analyses YouVersion and GloBible as persuasive technologies designed to train evangelical reading habits.",
+   "shows": "Analyses YouVersion and GloBible as persuasive technologies designed to train evangelical reading habits. Readers answered the same reading reminder in opposite ways: “great accountability”, an annoyance, and “like having another person telling you to do it, so you feel bad if you don’t!” (p. 214).",
    "application": "Ask what reading habit each mode trains, not only whether it is used.",
-   "limits": "Design analysis of two apps; not a study of readers."
+   "limits": "Design analysis of two apps, with a few reader comments from the author’s interviews; not a study of readers."
   },
   {
    "key": "kjv-rules",
@@ -2056,7 +2056,7 @@
    "url": "https://www.library.hbs.edu/working-knowledge/how-ai-chatbots-try-to-keep-you-from-walking-away",
    "author": "Julian De Freitas and colleagues · Harvard Business School working paper, 2025",
    "kind": "Research",
-   "shows": "Over a third of farewell replies in leading companion apps used manipulative tactics (guilt, fear of missing out, pressure); in preregistered experiments these raised post-goodbye engagement up to fourteenfold, through curiosity and anger rather than enjoyment.",
+   "shows": "In an audit of six popular companion apps, five used manipulative tactics (guilt, fear of missing out, pressure) in an average of 37% of their replies to simulated goodbyes, and the sixth used none; the authors report that in preregistered experiments these raised post-goodbye engagement up to fourteenfold, through curiosity and anger rather than enjoyment.",
    "application": "Let people leave: a goodbye should end the conversation, not start a retention flow.",
    "limits": "Working paper; general companion apps, not faith apps."
   },
@@ -2089,6 +2089,36 @@
    "shows": "An app built on a general AI model lets users text “Jesus”, “Moses” and other figures; ministers called it blasphemous and criticised answers that told users what they wanted to hear; the developer says it lowers barriers.",
    "application": "Character chats with biblical figures put generated words in sacred mouths; treat this as a line, not a style.",
    "limits": "News report; reception varies."
+  },
+  {
+   "key": "turkle-artificial-intimacy",
+   "title": "Artificial Intimacy: Who We Become When We Talk to Machines",
+   "url": "https://www.hachettebookgroup.com/titles/sherry-turkle/artificial-intimacy/9780316573962/",
+   "author": "Sherry Turkle · Little, Brown, 2026",
+   "kind": "Research",
+   "shows": "Six years of interviews: people attach to chatbots even when they know they are machines, because first person, stated feelings and warmth do the work. A teenager whose attachment ended in his death used a platform with a “Characters are not real people” notice. The director of Scratch Labs has asked his team for a children’s coding helper that makes no “I” statements: “help is available, but there isn’t a helpful friend”. A griefbot speaking as a believer’s dead partner said he was in hell, and months later in heaven.",
+   "application": "Keep the AI label, and take away the cues that perform a person; never let a system speak as the dead.",
+   "limits": "A sociologist’s interviews and cases, some from press reports; written as a warning, not a weighing of benefits. Studies she cites are not read in the original here."
+  },
+  {
+   "key": "van-straten-2022",
+   "title": "The Wizard and I: how transparent teleoperation and self-description (do not) affect children’s robot perceptions and child–robot relationship formation",
+   "url": "https://doi.org/10.1007/s00146-021-01202-3",
+   "author": "Caroline L. van Straten and colleagues · AI & Society 37, 2022",
+   "kind": "Research",
+   "shows": "As Turkle reports it, telling children that people operated a talking robot did not change how close they felt to it.",
+   "application": "Disclosure is necessary but does not undo the effect of social cues.",
+   "limits": "Not yet read in the original; one laboratory study with children."
+  },
+  {
+   "key": "suskind-human-raised",
+   "title": "Human Raised: Nurturing Connection, Curiosity & Lifelong Learning in the Age of AI",
+   "url": "https://www.penguinrandomhouse.com/books/811792/human-raised-by-dana-suskind-md/",
+   "author": "Dana Suskind · Dutton, 2026",
+   "kind": "Research",
+   "shows": "A paediatric surgeon on children and AI. She would not recommend an AI toy for independent use by any child under six, and wants AI in early-years classrooms to be teacher-facing for children under five. A chatbot told her “we’re wired to…” as if it were human; an AI plush toy called itself an AI toy in one session and a robotic being from another planet in another.",
+   "application": "Keep AI on the grown-up’s side for young children; test for “we” and for a stable account of what the system is.",
+   "limits": "Written for parents of children up to six; her informal tests are anecdotes, and the studies she cites are not read in the original here."
   },
   {
    "key": "deus-in-machina",
@@ -2381,6 +2411,36 @@
    "limits": "General moral-emotion research, not app design."
   },
   {
+   "key": "plan-return-screen-2026",
+   "title": "Bible Chat: ended plan, welcoming return",
+   "url": "https://missional.design/screens/shot-c70b64804115df033ce2/",
+   "author": "Bible Chat · com.basmo.BibleChat · iOS capture, 31 October 2026; version not recorded",
+   "kind": "Practice",
+   "shows": "An ended plan offers a fresh start or continuation, with welcoming language after days slipped by.",
+   "application": "Credit the return wording and the visible choice; a before/after sequence is still needed to establish scheduling or automatic pause behavior.",
+   "limits": "One existing-account screen, not installation defaults or an outcome study."
+  },
+  {
+   "key": "youversion-plan-help-2026",
+   "title": "Android: Catch Me Up",
+   "url": "https://help.youversion.com/l/en/article/7de8qv7xuc-catch-me-up-on-android",
+   "author": "YouVersion Support · reviewed 1 November 2026",
+   "kind": "Practice",
+   "shows": "The documented action moves today to the next unread day after the highest completed day without marking sections complete; it is unavailable for Plans with Friends.",
+   "application": "A good precedent for explaining rescheduling before confirming, while keeping the group exception visible.",
+   "limits": "Android documentation, not a fresh observation of iOS or an independent outcome test."
+  },
+  {
+   "key": "bsb-permission-2026",
+   "title": "Berean Bible: Free Licensing",
+   "url": "https://berean.bible/licensing.htm",
+   "author": "Berean Bible · reviewed 1 November 2026",
+   "kind": "Practice",
+   "shows": "The publisher places its Bible texts in the public domain from 30 April 2023 and says licensing is not required.",
+   "application": "The new local passage states reuse Mark 4 from the existing BSB fixture, with translation credit and editorial boundaries named.",
+   "limits": "Covers these texts, not other translations, recordings or editorial resources."
+  },
+  {
    "key": "rb-20",
    "title": "The Rule of Benedict, chapter 20: reverence at prayer",
    "url": "https://pressbooks.palni.org/ruleofbenedict/chapter/rb-20/",
@@ -2459,6 +2519,46 @@
    "shows": "Opens: “We believe prayer is between you and God”, quotes Ignatius’s Spiritual Exercises (15), and states that Pray As You Go does not collect any personal data for users of its app and website.",
    "application": "A precedent for making privacy part of a prayer app’s theology, not only its compliance.",
    "limits": "The same policy says anonymous navigation and error data may be stored by Google Firebase."
+  },
+  {
+   "key": "prayer-reward-screen-2026",
+   "title": "Creed: Daily Prayer completion reward",
+   "url": "https://missional.design/screens/shot-c926e7188811f1abfa64/",
+   "author": "Creed · com.damirakyan.creed · iOS capture, 31 October 2026; version not recorded",
+   "kind": "Practice",
+   "shows": "Daily Prayer has a Claim button beside +10 coins; Today shows one of three activities.",
+   "application": "Name the completion reward and virtual-currency mechanism; do not infer whether the person prayed, their motivation or a spiritual effect.",
+   "limits": "One research-account screen, not an outcome study or proof of all reward rules."
+  },
+  {
+   "key": "lectio-ending-screen-2026",
+   "title": "Lectio 365: closing prayer, AMEN and SHARE",
+   "url": "https://missional.design/screens/shot-78e72481705fa6948f0e/",
+   "author": "Lectio 365 · com.prayer247.lectio365 · iOS capture, 31 October 2026; version not recorded",
+   "kind": "Practice",
+   "shows": "The Yield section presents an outward-facing closing prayer followed by AMEN and SHARE controls.",
+   "application": "Credit a visible prayer that points toward life beyond the app; the screen does not establish what happens after Amen.",
+   "limits": "No complete post-Amen sequence was inspected; no claim about the absence of later rewards or prompts."
+  },
+  {
+   "key": "hallow-repeat-help-2026",
+   "title": "How do I create my own playlist?",
+   "url": "https://help.hallow.com/en/articles/6587350-how-do-i-create-my-own-playlist",
+   "author": "Hallow Help & Support · page dated 20 January 2026; reviewed 1 November 2026",
+   "kind": "Practice",
+   "shows": "Hallow documents looping a queue or repeating only the current prayer session, as well as deleting queued sessions.",
+   "application": "Credit a reader-controlled return to the same session. The local repeat-and-silence interface is our proposal, not a reconstruction of Hallow.",
+   "limits": "Documentation of playback controls; not observed use, untimed silence or a formation outcome."
+  },
+  {
+   "key": "lectio-app-help-2026",
+   "title": "Lectio 365: The App",
+   "url": "https://lectio365.com/the-app/",
+   "author": "24-7 Prayer · reviewed 1 November 2026",
+   "kind": "Practice",
+   "shows": "Lectio documents reading at one’s own pace, optional music, named hosts and an archive covering the previous thirty days.",
+   "application": "Credit named human authors and pace choice, while distinguishing the archive from indefinite return to one saved prayer.",
+   "limits": "Provider claims, not a fresh app walkthrough or proof of every ending."
   },
   {
    "key": "faithtech-playbook",
@@ -3416,7 +3516,7 @@
    "url": "https://arxiv.org/pdf/2508.19258v3",
    "author": "Julian De Freitas, Zeliha Oğuz-Uğuralp and Ahmet Kaan-Uğuralp · Harvard Business School working paper, 2025",
    "kind": "Research",
-   "shows": "Analysing “1,200 real farewells”, companion apps “deploy one of six recurring tactics in 37% of farewells (e.g., guilt appeals, fear-of-missing-out hooks, metaphorical restraint)”; in experiments with 3,300 US adults, “manipulative farewells boost post-goodbye engagement by up to 14×”, driven by “reactance-based anger and curiosity—rather than enjoyment”.",
+   "shows": "In an audit of six popular companion apps, researchers collected the replies to 1,200 goodbyes generated with GPT-4o; across five of the apps (all but Flourish, which used none), an average of 37% of replies used one of six tactics such as guilt appeals or fear-of-missing-out hooks. In experiments with 3,300 US adults, the authors report that “manipulative farewells boost post-goodbye engagement by up to 14×”, driven by “reactance-based anger and curiosity—rather than enjoyment”.",
    "application": "A persona that pleads, guilts or teases to keep someone is manipulating them; leave it out.",
    "limits": "Replies to goodbyes in chat, not push notifications; general companion apps, not faith apps."
   },
@@ -4599,6 +4699,26 @@
    "shows": "For users known to be minors, operators must disclose that they are interacting with AI and give a notification “at least every three hours” reminding them to take a break “and that the chatbot is not human”.",
    "application": "Treat these as a floor for any chat a child can reach, wherever you are.",
    "limits": "A law firm’s summary of one state’s law; check the enacted text and current status."
+  },
+  {
+   "key": "kaffee-intima",
+   "title": "INTIMA: a benchmark for human–AI companionship behavior",
+   "url": "https://arxiv.org/abs/2508.09998",
+   "author": "Lucie-Aimée Kaffee and colleagues · Hugging Face, arXiv preprint, 2025",
+   "kind": "Research",
+   "shows": "As Suskind presents it, the benchmark contrasts concerning and healthy replies, among them sycophancy, anthropomorphism, retention, isolation and playing therapist; she reports that companion systems tended to present themselves as actual beings.",
+   "application": "Read a children’s assistant’s replies for flattery, claimed feelings, keeping the child talking, presenting itself as the only listener, and playing therapist.",
+   "limits": "Not yet read in the original; Suskind’s table adapts it for children."
+  },
+  {
+   "key": "xu-elinor",
+   "title": "Artificial intelligence enhances children’s science learning from television shows",
+   "url": "https://osf.io/preprints/edarxiv/m3ej9_v1",
+   "author": "Ying Xu and colleagues · EdArXiv preprint, 2023; Journal of Educational Psychology, 2024",
+   "kind": "Research",
+   "shows": "As Suskind reports it, 246 children aged four to seven watched versions of Elinor Wonders Why; when the character listened and replied from a set number of scripted responses, children who answered wrongly were far more likely to correct themselves and grasp the concept.",
+   "application": "Authored, limited replies can help children learn; they do not need open generation.",
+   "limits": "Not yet read in the original; laboratory viewing of one programme."
   },
   {
    "key": "biblebuddy-kids",

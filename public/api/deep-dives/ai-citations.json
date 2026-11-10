@@ -309,6 +309,12 @@
    "note": "warns against technology that offers effortless power; an answer with no sources asks for exactly that kind of trust."
   }
  ],
+ "three_ways": {
+  "exploitative": "Confident answers without sources, presented as authority.",
+  "ethical": "Cite sources and show the limits of each answer.",
+  "redemptive": "Show where Christians disagree and say “I don’t know” when it is true, even if the product seems less impressive.",
+  "frame": "https://missional.design/reference/about/three-ways/"
+ },
  "decide": {
   "question": "When someone may be in danger, what will they see first, and who reviewed it?",
   "exercise": "Write the assistant’s response to four questions: one it can answer, one Christians disagree on, one it should not decide, and one from someone in danger. Check every quotation against the edition, count the sources on each side of the disagreement, test that help lines are correct for each country you serve, and have someone with safeguarding and crisis-support experience review the last two before launch.",
@@ -511,7 +517,7 @@
    "url": "https://www.library.hbs.edu/working-knowledge/how-ai-chatbots-try-to-keep-you-from-walking-away",
    "author": "Julian De Freitas and colleagues · Harvard Business School working paper, 2025",
    "kind": "Research",
-   "shows": "Over a third of farewell replies in leading companion apps used manipulative tactics (guilt, fear of missing out, pressure); in preregistered experiments these raised post-goodbye engagement up to fourteenfold, through curiosity and anger rather than enjoyment.",
+   "shows": "In an audit of six popular companion apps, five used manipulative tactics (guilt, fear of missing out, pressure) in an average of 37% of their replies to simulated goodbyes, and the sixth used none; the authors report that in preregistered experiments these raised post-goodbye engagement up to fourteenfold, through curiosity and anger rather than enjoyment.",
    "application": "Let people leave: a goodbye should end the conversation, not start a retention flow.",
    "limits": "Working paper; general companion apps, not faith apps."
   },
@@ -543,43 +549,5 @@
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
   "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
- },
- "boundaries": {
-  "intro": "Each way of showing sources above can be chosen in good faith, and none of them is a dark pattern. One common mistake makes any of them misleading.",
-  "dont": [
-   {
-    "name": "Cite a passage that does not say it",
-    "looks": "A numbered marker under a sentence the verse does not support.",
-    "why": "Citations raise trust even when they are random. In an audit of generative search engines, about a quarter of citations did not support their sentence.",
-    "instead": "cards",
-    "sources": [
-     "ding-citation-trust",
-     "liu-verifiability"
-    ]
-   }
-  ],
-  "excluded": [
-   {
-    "name": "Saying “I don’t know”",
-    "why": "How an answer shows its limits is covered there.",
-    "href": "/patterns/ai-uncertainty/"
-   },
-   {
-    "name": "Whose teaching an answer follows",
-    "why": "Tradition and doctrine are covered there.",
-    "href": "/patterns/whose-theology/"
-   },
-   {
-    "name": "Actions under an answer",
-    "why": "Copy, share and report are covered there.",
-    "href": "/patterns/ai-answer-actions/"
-   },
-   {
-    "name": "What someone in danger sees first",
-    "why": "Crisis responses need their own review by people with safeguarding experience.",
-    "href": null
-   }
-  ],
-  "seen": {}
  }
 }
