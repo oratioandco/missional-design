@@ -89,3 +89,7 @@
 :root:root body.ed .pattern-pager-links a span,:root:root body.ed .pattern-pager-links a strong{text-decoration:none}
 :root:root body.ed .pattern-pager-links a strong{color:var(--e-ink)}
 :root:root .e-mast .e-nav .pmenu-foot a,:root:root .mast .nav .pmenu-foot a{padding-left:0;padding-right:0}
+
+/* Imported pages load style.css, whose global details{border-bottom;padding} and summary{font-weight:650} made the header menus bold and underlined. */
+:root:root .e-nav .research-menu{border-bottom:0;padding:0}
+:root:root .e-nav .research-menu>summary{font-weight:inherit}

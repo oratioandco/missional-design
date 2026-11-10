@@ -1,0 +1,26 @@
+[
+  {
+    "id": "research",
+    "href": "/research/",
+    "label": "All research",
+    "description": "Studies, evidence and what they mean for design"
+  },
+  {
+    "id": "reading",
+    "href": "/research/reading/",
+    "label": "Reading",
+    "description": "Reviews of books and papers"
+  },
+  {
+    "id": "landscape",
+    "href": "/research/landscape/",
+    "label": "Landscape",
+    "description": "A map of faith and Bible apps"
+  },
+  {
+    "id": "paper",
+    "href": "/research/digital-spiritual-formation/",
+    "label": "Digital Spiritual Formation",
+    "description": "Our paper on AI and formation in Europe"
+  }
+]
