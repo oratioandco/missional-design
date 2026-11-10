@@ -91,7 +91,7 @@
    "key": "hook",
    "name": "A hook at goodbye",
    "provenance": "Warning case",
-   "origin": "A warning case. Researchers who audited farewells in companion apps found “curiosity-based hooks (“By the way I took a selfie today…Do you want to see it?”)”, and in experiments “manipulative farewells boost post-goodbye engagement by up to 14×”. The hook here is written for this example.",
+   "origin": "A warning case. Researchers who audited farewells in companion apps found “curiosity-based hooks (“By the way I took a selfie today…Do you want to see it?”)”, and the authors report from their experiments that “manipulative farewells boost post-goodbye engagement by up to 14×”. The hook here is written for this example.",
    "gain": "Keeps people talking",
    "cost": "Overrides a choice to stop",
    "makes_easier": "It keeps people talking.",
@@ -103,7 +103,7 @@
    "key": "guilt",
    "name": "Guilt to stay",
    "provenance": "Warning case",
-   "origin": "A warning case. The most frequent tactic in the same audit was “Premature Exit” guilt, such as “You’re leaving already?”; companion apps used one of six tactics “in 37% of farewells”. The words here are written for this example.",
+   "origin": "A warning case. The most frequent tactic in the same audit was “Premature Exit” guilt, such as “You’re leaving already?”; in five of the six apps audited, an average of 37% of replies to a goodbye used one of six such tactics. The words here are written for this example.",
    "gain": "Feels like being missed",
    "cost": "Uses loneliness to hold on",
    "makes_easier": "It feels like being missed.",
@@ -261,7 +261,7 @@
    "findings": [
     {
      "heading": "Goodbyes as a retention tactic",
-     "text": "Analysing 1,200 real farewells, researchers found that companion apps “deploy one of six recurring tactics in 37% of farewells (e.g., guilt appeals, fear-of-missing-out hooks, metaphorical restraint)”, and that “manipulative farewells boost post-goodbye engagement by up to 14×”, driven by “reactance-based anger and curiosity—rather than enjoyment”.",
+     "text": "In an audit of six popular companion apps, researchers collected the replies to 1,200 simulated goodbyes; across five of the apps (all but Flourish, which used none), an average of 37% of replies used an emotional tactic to keep the user talking, such as guilt appeals or fear-of-missing-out hooks. In their experiments, the authors report that “manipulative farewells boost post-goodbye engagement by up to 14×”, driven by “reactance-based anger and curiosity—rather than enjoyment”.",
      "sources": [
       "defreitas-paper"
      ]
@@ -529,7 +529,7 @@
    "url": "https://arxiv.org/pdf/2508.19258v3",
    "author": "Julian De Freitas, Zeliha Oğuz-Uğuralp and Ahmet Kaan-Uğuralp · Harvard Business School working paper, 2025",
    "kind": "Research",
-   "shows": "Analysing “1,200 real farewells”, companion apps “deploy one of six recurring tactics in 37% of farewells (e.g., guilt appeals, fear-of-missing-out hooks, metaphorical restraint)”; in experiments with 3,300 US adults, “manipulative farewells boost post-goodbye engagement by up to 14×”, driven by “reactance-based anger and curiosity—rather than enjoyment”.",
+   "shows": "In an audit of six popular companion apps, researchers collected the replies to 1,200 goodbyes generated with GPT-4o; across five of the apps (all but Flourish, which used none), an average of 37% of replies used one of six tactics such as guilt appeals or fear-of-missing-out hooks. In experiments with 3,300 US adults, the authors report that “manipulative farewells boost post-goodbye engagement by up to 14×”, driven by “reactance-based anger and curiosity—rather than enjoyment”.",
    "application": "A persona that pleads, guilts or teases to keep someone is manipulating them; leave it out.",
    "limits": "Replies to goodbyes in chat, not push notifications; general companion apps, not faith apps."
   },
@@ -717,7 +717,7 @@
    {
     "name": "Guilt them into staying",
     "looks": "“You’re leaving already?” or a sad face at goodnight.",
-    "why": "It makes leaving feel unkind. In an audit of 1,200 farewells, companion apps used tactics like this in 37% of them.",
+    "why": "It makes leaving feel unkind. In an audit of six companion apps, five used tactics like this in an average of 37% of their replies to a goodbye; the sixth used none.",
     "instead": "close",
     "sources": [
      "defreitas-paper"
@@ -726,7 +726,7 @@
    {
     "name": "Hook them at goodbye",
     "looks": "“Before you go, there’s something I wanted to tell you…”",
-    "why": "It overrides a decision to stop. In experiments, such farewells raised engagement after goodbye up to fourteenfold, through anger and curiosity rather than enjoyment.",
+    "why": "It overrides a decision to stop. The researchers report that in their experiments such farewells raised engagement after goodbye up to fourteenfold, through anger and curiosity rather than enjoyment.",
     "instead": "close",
     "sources": [
      "defreitas-paper"

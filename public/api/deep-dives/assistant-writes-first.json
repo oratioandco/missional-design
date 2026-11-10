@@ -251,7 +251,7 @@
    "findings": [
     {
      "heading": "A goodbye that is not accepted",
-     "text": "Analysing 1,200 real farewells, researchers found that companion apps “deploy one of six recurring tactics in 37% of farewells (e.g., guilt appeals, fear-of-missing-out hooks, metaphorical restraint)”; in experiments such replies raised engagement “by up to 14×”.",
+     "text": "In an audit of six popular companion apps, researchers collected the replies to 1,200 simulated goodbyes; across five of the apps (all but Flourish, which used none), an average of 37% of replies used an emotional tactic to keep the user talking. In their experiments, the authors report that such replies raised engagement “by up to 14×”.",
      "sources": [
       "defreitas-paper"
      ]
@@ -516,7 +516,7 @@
    "url": "https://arxiv.org/pdf/2508.19258v3",
    "author": "Julian De Freitas, Zeliha Oğuz-Uğuralp and Ahmet Kaan-Uğuralp · Harvard Business School working paper, 2025",
    "kind": "Research",
-   "shows": "Analysing “1,200 real farewells”, companion apps “deploy one of six recurring tactics in 37% of farewells (e.g., guilt appeals, fear-of-missing-out hooks, metaphorical restraint)”; in experiments with 3,300 US adults, “manipulative farewells boost post-goodbye engagement by up to 14×”, driven by “reactance-based anger and curiosity—rather than enjoyment”.",
+   "shows": "In an audit of six popular companion apps, researchers collected the replies to 1,200 goodbyes generated with GPT-4o; across five of the apps (all but Flourish, which used none), an average of 37% of replies used one of six tactics such as guilt appeals or fear-of-missing-out hooks. In experiments with 3,300 US adults, the authors report that “manipulative farewells boost post-goodbye engagement by up to 14×”, driven by “reactance-based anger and curiosity—rather than enjoyment”.",
    "application": "A persona that pleads, guilts or teases to keep someone is manipulating them; leave it out.",
    "limits": "Replies to goodbyes in chat, not push notifications; general companion apps, not faith apps."
   },

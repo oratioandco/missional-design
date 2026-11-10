@@ -1,0 +1,128 @@
+/* /research/reading/: reviews, the reading list and articles. Tokens come from editorial.css (--e-*); everything is
+   scoped under .rd (plus the shared .rd-toc) so it cannot reach other pages. Follows landscape.css. */
+.rd,.rd-toc{--paper:var(--e-paper);--hi:var(--e-paper-hi);--lo:var(--e-paper-lo);--ink:var(--e-ink);--muted:var(--e-muted);--faint:var(--e-faint);
+ --link:var(--e-link);--rule:var(--e-rule);--rule2:var(--e-rule-strong);--focus:var(--e-focus);--m2:var(--e-metal-2);--m3:var(--e-metal-3);--m4:var(--e-metal-4);
+ --serif:var(--e-serif);--sans:var(--e-sans);color:var(--ink);font-family:var(--sans);font-stretch:97%}
+.rd *,.rd *::before,.rd *::after{box-sizing:border-box}
+.rd a,.rd-toc a{color:var(--link);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;text-decoration-color:color-mix(in srgb,var(--link) 55%,transparent)}
+.rd a:hover{text-decoration-color:var(--link)}
+.rd :focus-visible,.rd-toc :focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:2px}
+.rd section.block{max-width:none}
+#main .rd h2{font-family:var(--serif);font-weight:400;line-height:1.08;text-wrap:balance}
+#main .rd h3{font-family:var(--serif);font-weight:400;line-height:1.15;margin:0;letter-spacing:0;text-transform:none;font-size:26px}
+.rd .kicker{font:500 14px/1.3 var(--sans);color:var(--faint);margin:0 0 10px}
+.rd p,.rd li,.rd dd{font-size:17.5px;line-height:1.62}
+.rd .block>p,.rd .rd-sec>p{max-width:40rem}
+.rd .rd-note{color:var(--muted);font-size:15.5px;line-height:1.55;max-width:44rem}
+.rd .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.rd cite,.pilot-head h1 cite{font-style:normal}
+.pilot-head .rd-sub{font-family:var(--e-serif);font-style:italic;font-size:clamp(22px,2.2vw,30px);line-height:1.25;color:var(--e-muted);margin:-6px 0 18px;max-width:34em}
+.rd-dev{font-size:.85em;color:var(--faint)}
+
+/* status */
+.rd .rd-draft{border-left:3px solid var(--m3);background:var(--lo);padding:12px 18px;margin:0 0 8px;max-width:52rem;font-size:15.5px;line-height:1.5;color:var(--muted)}
+.rd .rd-draft strong{color:var(--ink);font-weight:600}
+.rd .rd-verify{font:600 .78em/1.2 var(--sans);letter-spacing:.01em;color:var(--ink);background:var(--hi);box-shadow:inset 0 0 0 1px var(--rule2);border-radius:3px;padding:1px 5px;white-space:nowrap}
+
+/* intro and rules */
+.rd-intro>p{max-width:42rem;font-size:clamp(17px,1.25vw,19px)}
+.rd .rd-rules{margin-top:26px;border-top:1px solid var(--rule2);padding-top:16px;max-width:56rem}
+.rd .rd-rules ul{list-style:none;margin:10px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr));gap:2px 36px}
+.rd .rd-rules li{font-size:15.5px;line-height:1.5;color:var(--muted);padding:10px 0;border-bottom:1px solid var(--rule)}
+.rd .rd-rules strong{color:var(--ink);font-weight:600}
+
+/* tiles */
+.rd .rd-tiles{list-style:none;margin:8px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:36px 28px}
+.rd .rd-tiles-one{grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr))}
+#main .rd .rd-tile{display:flex;flex-direction:column;gap:6px;text-decoration:none;color:var(--ink);height:100%}
+.rd .rd-tile img{display:block;width:100%;height:auto;aspect-ratio:1200/630;border:1px solid var(--rule2);border-radius:4px;background:#fff;margin-bottom:8px}
+.rd .rd-tk{font-size:13px;font-weight:500;color:var(--faint)}
+.rd .rd-tt{font-family:var(--serif);font-size:28px;line-height:1.1}
+.rd .rd-ts{font-size:15px;color:var(--muted)}
+.rd .rd-tf{font-size:15.5px;line-height:1.5;color:var(--muted)}
+#main .rd .rd-tile:hover .rd-tt,#main .rd .rd-tile:focus-visible .rd-tt{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
+
+/* reviews by pattern */
+.rd .rd-bypat{list-style:none;margin:14px 0 0;padding:0;border-top:1px solid var(--rule2);columns:2 22rem;column-gap:40px}
+.rd .rd-bypat li{display:flex;flex-wrap:wrap;justify-content:space-between;gap:2px 16px;padding:9px 0;border-bottom:1px solid var(--rule);break-inside:avoid;font-size:16px}
+.rd .rd-bs{color:var(--muted);font-size:15px}
+
+/* on our list */
+.rd .rd-onlist{list-style:none;margin:14px 0 0;padding:0;border-top:1px solid var(--rule2);display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,26rem),1fr));gap:0 40px}
+.rd .rd-onlist li{padding:16px 0;border-bottom:1px solid var(--rule)}
+.rd .rd-onlist p{margin:0}
+.rd .rd-cit{font-size:16.5px;line-height:1.45;margin-top:6px!important}
+.rd .rd-why{font-size:15px;line-height:1.5;color:var(--muted);margin-top:6px!important}
+.rd .rd-st{display:inline-block;font-size:12.5px;font-weight:500;color:var(--muted);box-shadow:inset 0 0 0 1px var(--rule2);border-radius:999px;padding:2px 10px}
+.rd .rd-st-read{color:var(--ink);background:var(--lo)}
+.rd .rd-oa{font-size:13px;color:var(--faint);white-space:nowrap}
+
+/* review page */
+.rd .rd-bib{font-size:15.5px;line-height:1.55;color:var(--muted);max-width:46rem;margin:0}
+.rd .rd-read{font-size:14.5px;color:var(--faint);max-width:46rem;margin:6px 0 0}
+.rd .rd-para{font-size:clamp(18px,1.35vw,20.5px)!important;line-height:1.6;max-width:40rem}
+.rd .rd-take{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:0;max-width:52rem;border-top:1px solid var(--rule2)}
+.rd .rd-take li{display:grid;grid-template-columns:3.2rem minmax(0,1fr);gap:4px 18px;padding:20px 0;border-bottom:1px solid var(--rule)}
+.rd .rd-n{font-family:var(--serif);font-size:52px;line-height:.9;color:var(--m4)}
+.rd .rd-take p{margin:8px 0 0;color:var(--ink)}
+.rd .rd-quote{margin:34px 0 0;max-width:40rem;border-left:2px solid var(--m3);padding:2px 0 2px 24px}
+.rd .rd-quote blockquote{margin:0}
+.rd .rd-quote blockquote p{font-family:var(--serif);font-size:clamp(23px,2vw,29px);line-height:1.28;margin:0}
+.rd .rd-quote figcaption{font-size:14.5px;color:var(--muted);margin-top:10px}
+.rd .rd-design{margin:16px 0 0;max-width:56rem;border-top:1px solid var(--rule2)}
+.rd .rd-design>div{display:grid;grid-template-columns:minmax(0,16rem) minmax(0,1fr);gap:6px 28px;padding:16px 0;border-bottom:1px solid var(--rule)}
+.rd .rd-design dt{font-weight:600;font-size:16.5px;line-height:1.4}
+.rd .rd-design dd{margin:0}
+.rd .rd-list{padding-left:1.2em;max-width:42rem}
+.rd .rd-list li{margin:6px 0}
+.rd .rd-get{font-size:16px!important}
+.rd .rd-limits{list-style:none;margin:10px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr));gap:0 36px;max-width:60rem;border-top:1px solid var(--rule2)}
+.rd .rd-limits li{font-size:15.5px;line-height:1.5;color:var(--muted);padding:12px 0;border-bottom:1px solid var(--rule)}
+.rd .rd-limits strong{display:block;color:var(--ink);font-weight:600}
+
+/* tables */
+.rd .rd-tw{overflow-x:auto;max-width:100%;margin-top:14px;position:relative}
+.rd .rd-fig{min-width:0;max-width:100%}
+.rd .rd-table{border-collapse:collapse;width:100%;max-width:64rem;font-size:15px;line-height:1.45}
+.rd .rd-table th,.rd .rd-table td{border-bottom:1px solid var(--rule);padding:10px 14px 10px 0;text-align:left;vertical-align:top}
+.rd .rd-table thead th{font-weight:500;color:var(--faint);font-size:13.5px;border-bottom:1px solid var(--rule2)}
+.rd .rd-table tbody th{font-weight:600}
+.rd .rd-table td:last-child{color:var(--muted);white-space:nowrap}
+.rd .rd-actions td:last-child{white-space:normal}
+
+/* article grid */
+.rd .rd-fig{margin:10px 0 0}
+.rd .rd-grid{border-collapse:collapse;width:100%;min-width:760px;table-layout:fixed;font-size:14.5px;line-height:1.4}
+.rd .rd-grid th,.rd .rd-grid td{border:1px solid var(--rule);padding:12px;text-align:left;vertical-align:top}
+.rd .rd-grid thead th{background:var(--lo);font-weight:600;font-size:14px}
+.rd .rd-grid thead th:first-child{width:12rem}
+.rd .rd-grid tbody th{font-family:var(--serif);font-weight:400;font-size:20px;line-height:1.15;background:var(--lo)}
+.rd .rd-dot{display:block;width:14px;height:14px;border-radius:50%;margin-bottom:8px}
+.rd .rd-d2 .rd-dot,.rd .rd-k2{background:var(--ink)}
+.rd .rd-d1 .rd-dot,.rd .rd-k1{background:transparent;box-shadow:inset 0 0 0 2px var(--ink)}
+.rd .rd-d0 .rd-dot,.rd .rd-k0{background:transparent;box-shadow:inset 0 0 0 1px var(--rule2)}
+.rd .rd-d0{color:var(--faint)}
+.rd .rd-fig figcaption{font-size:14.5px;line-height:1.5;color:var(--muted);margin-top:14px;max-width:52rem;display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center}
+.rd .rd-key{display:inline-flex;align-items:center;gap:8px;color:var(--ink)}
+.rd .rd-key .rd-dot{display:inline-block;margin:0}
+.rd .rd-sources{padding-left:1.2em;max-width:52rem}
+.rd .rd-sources li{font-size:16px;margin:8px 0}
+
+/* article contents */
+.rd-toc{margin:0 0 8px}
+.rd-toc p{font:500 14px/1.3 var(--sans);color:var(--faint);margin:0 0 6px}
+.rd-toc ol{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:4px 22px}
+.rd-toc a{display:inline-flex;align-items:center;min-height:44px;font-size:15.5px}
+
+/* previous / next */
+.rd .rd-pager{display:grid;grid-template-columns:1fr auto 1fr;gap:16px 24px;align-items:end;border-top:1px solid var(--rule2);padding-top:20px;margin-top:20px}
+#main .rd .rd-pager a{min-height:44px;display:flex;flex-direction:column;justify-content:center;font-size:17px}
+.rd .rd-pager span{font-size:13px;color:var(--faint)}
+.rd .rd-next{text-align:right;align-items:flex-end}
+@media (max-width:760px){
+ .rd .rd-pager{grid-template-columns:1fr 1fr}.rd .rd-up{grid-column:1 / -1;grid-row:2}
+ .rd .rd-design>div{grid-template-columns:1fr}
+ .rd .rd-take li{grid-template-columns:2.4rem minmax(0,1fr)}
+ .rd .rd-n{font-size:40px}
+ .rd .rd-table td:last-child{white-space:normal}
+}

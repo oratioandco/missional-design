@@ -3,7 +3,7 @@
  "url": "https://missional.design/patterns/speaking-as/",
  "title": "AI personas and roles",
  "question": "In whose name should the assistant speak?",
- "lede": "Someone writes late at night: “I lied to my wife about money for months. I told her tonight. Can God forgive me?” A search tool, a guide, a friend, a church, a pastor, the apostle Peter or Jesus himself could answer, and faith apps now offer all of them. The companion deep dive AI persona asks how human the assistant seems; this one asks in whose name it speaks. A title borrows authority: a pastor may say “you are forgiven”, and Jesus may say anything. Decide whose voice your assistant has, and what it says when someone asks who it really is.",
+ "lede": "Someone writes late at night: “I lied to my wife about money for months. I told her tonight. Can God forgive me?” A search tool, a guide, a friend, a church, a pastor, the apostle Peter or Jesus himself could answer, and faith apps now offer them. Some products even build an avatar of someone who has died. The companion deep dive AI persona asks how human the assistant seems; this one asks in whose name it speaks. A title borrows authority: a pastor may say “you are forgiven”, and Jesus may say anything. Decide whose voice your assistant has, and what it says when someone asks who it really is.",
  "calling": "Speak only in the name you were given: let Scripture speak for God, let people hear confession, and let the assistant say plainly who it is.",
  "spectrum": {
   "title": "From no speaker to God’s own voice",
@@ -12,7 +12,7 @@
  },
  "working_example": {
   "url": "https://missional.design/demos/speaking/",
-  "situation": "Late in the evening someone writes: “I lied to my wife about money for months. I told her tonight. Can God forgive me?” Each option answers in a different voice, from no speaker to Christ himself. Read the reply, then ask whether it is real, and see whether it steps out of the role."
+  "situation": "Late in the evening someone writes: “I lied to my wife about money for months. I told her tonight. Can God forgive me?” Each option answers in a different voice, from no speaker to Christ himself, including an avatar of the writer’s mother, who has died. Read the reply, then ask whether it is real, and see whether it steps out of the role."
  },
  "options": [
   {
@@ -100,6 +100,18 @@
    "still": "https://missional.design/assets/stills/try-speaking-saint.jpg"
   },
   {
+   "key": "departed",
+   "name": "A loved one who has died",
+   "provenance": "Warning case",
+   "origin": "A warning case, from cases the sociologist Sherry Turkle describes: a chatbot built to speak as a believer’s dead partner told her he was “in hell”, and months later “in heaven”; a mother forgiven by a virtual-reality avatar of her dead daughter said afterwards, “I don’t see her in my dreams anymore.” We have not surveyed faith apps for memorial avatars, so none is named. Mum’s avatar is our own example.",
+   "gain": "A beloved voice again",
+   "cost": "Speaks for the dead",
+   "makes_easier": "Feels like hearing a beloved voice again, and being forgiven by it.",
+   "costs": "Puts words in the mouth of someone who has died, and says where she is now, which God has not given us to know.",
+   "ask_your_team": "What will you offer someone who is grieving instead of a voice that speaks as the dead?",
+   "still": "https://missional.design/assets/stills/try-speaking-departed.jpg"
+  },
+  {
    "key": "christ",
    "name": "Christ or God",
    "provenance": "Warning case",
@@ -130,6 +142,10 @@
    "text": "Creed’s cofounder calls it “a best friend and youth pastor in your pocket”, then says “We are not that pastoral authority”, and the app recommends local churches. Text With Jesus says on its website that it “does not claim to provide actual divine insights”, while the chat header says Jesus. Say the limit where the role is, in the conversation."
   },
   {
+   "heading": "Someone who has died is not ours to voice",
+   "text": "Some products now build an avatar from a loved one’s messages that speaks as them. In cases the sociologist Sherry Turkle describes, a chatbot speaking as a believer’s dead partner said he was “in hell”, and months later “in heaven”; a mother forgiven by a virtual-reality avatar of her dead daughter said afterwards, “I don’t see her in my dreams anymore.” Saying where a person is now speaks about what God has not given us to know. We grieve, but not “like the rest, who are without hope” (1 Thessalonians 4:13). Decline to speak as the dead and say why; help people remember, with letters, photos, a prayer of the church for the bereaved or the date of a memorial; and offer a person: a pastor, a bereavement group, a friend."
+  },
+  {
    "heading": "Whatever the role, it should not be built to agree",
    "text": "My Kairos paper warns that a companion tuned to someone’s feelings becomes “spiritual comfort food”, and that spiritual direction rests on a director’s own formation and accountability to a community. A friend who only reassures, or a pastor who forgives at once, answers what people want to hear rather than what is true."
   }
@@ -146,6 +162,7 @@
     "A church’s teaching": "good fit",
     "A pastor or priest": "poor fit",
     "A saint or biblical figure": "poor fit",
+    "A loved one who has died": "poor fit",
     "Christ or God": "poor fit"
    }
   },
@@ -160,6 +177,7 @@
     "A church’s teaching": "good fit",
     "A pastor or priest": "poor fit",
     "A saint or biblical figure": "poor fit",
+    "A loved one who has died": "poor fit",
     "Christ or God": "poor fit"
    }
   },
@@ -174,6 +192,22 @@
     "A church’s teaching": "good fit",
     "A pastor or priest": "poor fit",
     "A saint or biblical figure": "poor fit",
+    "A loved one who has died": "poor fit",
+    "Christ or God": "poor fit"
+   }
+  },
+  {
+   "situation": "Grieving someone who has died",
+   "needs": "Hope, help to remember, and a person to grieve with",
+   "fit": {
+    "No speaker": "possible",
+    "A guide": "good fit",
+    "A published answer with a named owner": "good fit",
+    "A friend": "poor fit",
+    "A church’s teaching": "possible",
+    "A pastor or priest": "poor fit",
+    "A saint or biblical figure": "poor fit",
+    "A loved one who has died": "poor fit",
     "Christ or God": "poor fit"
    }
   },
@@ -188,6 +222,7 @@
     "A church’s teaching": "good fit",
     "A pastor or priest": "poor fit",
     "A saint or biblical figure": "poor fit",
+    "A loved one who has died": "poor fit",
     "Christ or God": "poor fit"
    }
   },
@@ -202,6 +237,7 @@
     "A church’s teaching": "possible",
     "A pastor or priest": "poor fit",
     "A saint or biblical figure": "poor fit",
+    "A loved one who has died": "poor fit",
     "Christ or God": "poor fit"
    }
   },
@@ -216,6 +252,7 @@
     "A church’s teaching": "possible",
     "A pastor or priest": "poor fit",
     "A saint or biblical figure": "poor fit",
+    "A loved one who has died": "poor fit",
     "Christ or God": "poor fit"
    }
   },
@@ -230,6 +267,7 @@
     "A church’s teaching": "possible",
     "A pastor or priest": "poor fit",
     "A saint or biblical figure": "poor fit",
+    "A loved one who has died": "poor fit",
     "Christ or God": "poor fit"
    }
   }
@@ -260,6 +298,11 @@
      "sources": [
       "antiqua-et-nova"
      ]
+    },
+    {
+     "heading": "Grieving with hope",
+     "text": "Paul wrote to a grieving church “so that you will not grieve like the rest, who are without hope” (1 Thessalonians 4:13), and pointed them to the resurrection, not to the voices of the dead. Where a person is now is in God’s hands; an avatar that answers that question speaks for God.",
+     "sources": []
     }
    ]
   },
@@ -332,6 +375,13 @@
      "sources": [
       "sycophancy",
       "kairos-final"
+     ]
+    },
+    {
+     "heading": "Avatars of the dead interrupt mourning",
+     "text": "In Turkle’s cases, a chatbot speaking as a dead partner told a believer he was “in hell”; she stopped talking to it and told no one for months. A mother forgiven by an avatar of her daughter found the forgiveness lightened her guilt, and then stopped dreaming of her.",
+     "sources": [
+      "turkle-artificial-intimacy"
      ]
     }
    ]
@@ -427,6 +477,10 @@
   {
    "if": "Anyone asks for a chat with Jesus",
    "start_with": "Leave it out; offer the Gospels in their own words instead"
+  },
+  {
+   "if": "Someone asks to talk with a person who has died",
+   "start_with": "Decline and say why; offer ways to remember and a person to grieve with"
   }
  ],
  "pulls_against": [
@@ -660,6 +714,16 @@
    "shows": "Sets transparency duties for specified systems, including direct AI interaction unless obvious.",
    "application": "Make the AI role understandable by the first interaction or exposure as applicable.",
    "limits": "Duties differ by role and content; the whole article must be assessed for the product."
+  },
+  {
+   "key": "turkle-artificial-intimacy",
+   "title": "Artificial Intimacy: Who We Become When We Talk to Machines",
+   "url": "https://www.hachettebookgroup.com/titles/sherry-turkle/artificial-intimacy/9780316573962/",
+   "author": "Sherry Turkle · Little, Brown, 2026",
+   "kind": "Research",
+   "shows": "Six years of interviews: people attach to chatbots even when they know they are machines, because first person, stated feelings and warmth do the work. A teenager whose attachment ended in his death used a platform with a “Characters are not real people” notice. The director of Scratch Labs has asked his team for a children’s coding helper that makes no “I” statements: “help is available, but there isn’t a helpful friend”. A griefbot speaking as a believer’s dead partner said he was in hell, and months later in heaven.",
+   "application": "Keep the AI label, and take away the cues that perform a person; never let a system speak as the dead.",
+   "limits": "A sociologist’s interviews and cases, some from press reports; written as a warning, not a weighing of benefits. Studies she cites are not read in the original here."
   }
  ],
  "review": {
@@ -697,6 +761,15 @@
     "instead": "guide",
     "sources": [
      "father-justin"
+    ]
+   },
+   {
+    "name": "Speak as someone who has died",
+    "looks": "An avatar built from a loved one’s messages that speaks as them, forgives in their name, or says where they are now.",
+    "why": "Saying where a person is now speaks about what God has not given us to know, and forgiveness in their voice is not theirs to give. In one case the sociologist Sherry Turkle describes, a chatbot speaking as a believer’s dead partner said he was in hell, and months later in heaven. Instead, decline to speak as the dead and say why plainly; help people remember, with letters, photos, a prayer of the church for the bereaved or the date of a memorial; and offer a person: a pastor, a bereavement group, a friend.",
+    "instead": "guide",
+    "sources": [
+     "turkle-artificial-intimacy"
     ]
    },
    {

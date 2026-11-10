@@ -511,7 +511,7 @@
    "url": "https://www.library.hbs.edu/working-knowledge/how-ai-chatbots-try-to-keep-you-from-walking-away",
    "author": "Julian De Freitas and colleagues · Harvard Business School working paper, 2025",
    "kind": "Research",
-   "shows": "Over a third of farewell replies in leading companion apps used manipulative tactics (guilt, fear of missing out, pressure); in preregistered experiments these raised post-goodbye engagement up to fourteenfold, through curiosity and anger rather than enjoyment.",
+   "shows": "In an audit of six popular companion apps, five used manipulative tactics (guilt, fear of missing out, pressure) in an average of 37% of their replies to simulated goodbyes, and the sixth used none; the authors report that in preregistered experiments these raised post-goodbye engagement up to fourteenfold, through curiosity and anger rather than enjoyment.",
    "application": "Let people leave: a goodbye should end the conversation, not start a retention flow.",
    "limits": "Working paper; general companion apps, not faith apps."
   },
@@ -581,5 +581,11 @@
    }
   ],
   "seen": {}
+ },
+ "three_ways": {
+  "exploitative": "Confident answers without sources, presented as authority.",
+  "ethical": "Cite sources and show the limits of each answer.",
+  "redemptive": "Show where Christians disagree and say “I don’t know” when it is true, even if the product seems less impressive.",
+  "frame": "https://missional.design/reference/about/three-ways/"
  }
 }

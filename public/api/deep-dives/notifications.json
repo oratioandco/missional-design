@@ -127,7 +127,7 @@
    "key": "ai",
    "name": "Messages about the person",
    "provenance": "Warning case",
-   "origin": "A warning case. Soultime with Friends “discreetly nudges your friends automatically when we think you might need a call”; see the screenshot below. Companion apps answer goodbyes with guilt and fear-of-missing-out hooks in 37% of farewells, researchers found. The AI messages here are written for this example; they were not observed in a faith app.",
+   "origin": "A warning case. Soultime with Friends “discreetly nudges your friends automatically when we think you might need a call”; see the screenshot below. In an audit of companion apps, an average of 37% of replies to a goodbye in five of six apps used guilt, fear-of-missing-out hooks or similar tactics; the sixth used none. The AI messages here are written for this example; they were not observed in a faith app.",
    "gain": "Feels personal",
    "cost": "A persona pleads and guesses",
    "makes_easier": "It feels personal, and it brings people back.",
@@ -317,6 +317,13 @@
      ]
     },
     {
+     "heading": "One reminder, opposite responses",
+     "text": "Readers respond to the same reminder in opposite ways: in one study a reader called it “great accountability”, others an annoyance, and a third said it was “like having another person telling you to do it, so you feel bad if you don’t!”",
+     "sources": [
+      "hutchings"
+     ]
+    },
+    {
      "heading": "Tuned for return",
      "text": "Duolingo used an algorithm to “optimize millions of daily reminders”, which led “to a 0.5 % increase in total daily active users (DAUs) and a 2 % increase in new user retention”. The measure is use.",
      "sources": [
@@ -325,7 +332,7 @@
     },
     {
      "heading": "A persona that will not let go",
-     "text": "Companion apps answered goodbyes with guilt, fear-of-missing-out hooks and similar tactics in 37% of 1,200 real farewells; in experiments, such replies raised engagement “by up to 14×”, driven by “reactance-based anger and curiosity—rather than enjoyment”. The EU asks platforms to switch off push notifications for minors by default.",
+     "text": "In an audit of six popular companion apps, researchers collected the replies to 1,200 simulated goodbyes; across five of the apps (all but Flourish, which used none), an average of 37% of replies used an emotional tactic to keep the user talking, such as guilt or fear-of-missing-out hooks. In their experiments, the authors report that such replies raised engagement “by up to 14×”, driven by “reactance-based anger and curiosity—rather than enjoyment”. The EU asks platforms to switch off push notifications for minors by default.",
      "sources": [
       "defreitas-paper",
       "eu-minors-guidelines"
@@ -650,6 +657,16 @@
  ],
  "sources": [
   {
+   "key": "hutchings",
+   "title": "Design and the digital Bible: persuasive technology and religious reading",
+   "url": "https://doi.org/10.1080/13537903.2017.1298903",
+   "author": "Tim Hutchings · Journal of Contemporary Religion 32(2), 2017",
+   "kind": "Research",
+   "shows": "Analyses YouVersion and GloBible as persuasive technologies designed to train evangelical reading habits. Readers answered the same reading reminder in opposite ways: “great accountability”, an annoyance, and “like having another person telling you to do it, so you feel bad if you don’t!” (p. 214).",
+   "application": "Ask what reading habit each mode trains, not only whether it is used.",
+   "limits": "Design analysis of two apps, with a few reader comments from the author’s interviews; not a study of readers."
+  },
+  {
    "key": "apple-hig-notifications",
    "title": "Human Interface Guidelines: Managing notifications",
    "url": "https://developer.apple.com/design/human-interface-guidelines/managing-notifications",
@@ -705,7 +722,7 @@
    "url": "https://arxiv.org/pdf/2508.19258v3",
    "author": "Julian De Freitas, Zeliha Oğuz-Uğuralp and Ahmet Kaan-Uğuralp · Harvard Business School working paper, 2025",
    "kind": "Research",
-   "shows": "Analysing “1,200 real farewells”, companion apps “deploy one of six recurring tactics in 37% of farewells (e.g., guilt appeals, fear-of-missing-out hooks, metaphorical restraint)”; in experiments with 3,300 US adults, “manipulative farewells boost post-goodbye engagement by up to 14×”, driven by “reactance-based anger and curiosity—rather than enjoyment”.",
+   "shows": "In an audit of six popular companion apps, researchers collected the replies to 1,200 goodbyes generated with GPT-4o; across five of the apps (all but Flourish, which used none), an average of 37% of replies used one of six tactics such as guilt appeals or fear-of-missing-out hooks. In experiments with 3,300 US adults, the authors report that “manipulative farewells boost post-goodbye engagement by up to 14×”, driven by “reactance-based anger and curiosity—rather than enjoyment”.",
    "application": "A persona that pleads, guilts or teases to keep someone is manipulating them; leave it out.",
    "limits": "Replies to goodbyes in chat, not push notifications; general companion apps, not faith apps."
   },
