@@ -93,3 +93,34 @@
 /* Imported pages load style.css, whose global details{border-bottom;padding} and summary{font-weight:650} made the header menus bold and underlined. */
 :root:root .e-nav .research-menu{border-bottom:0;padding:0}
 :root:root .e-nav .research-menu>summary{font-weight:inherit}
+
+/* Divider between the product-design items and the Canvas (churches and mission). */
+.nav-sep{flex:none;width:1px;height:20px;background:var(--rule);margin:0 4px;align-self:center}
+@media(max-width:900px){.nav-sep{width:100%;height:1px;margin:10px 0}}
+/* Canvas sits near the right edge: open its panel leftwards. German labels drop "(EN)" where the menu would wrap. */
+[data-canvas-menu] .research-menu-links{left:auto;right:-22px}
+.nav>a,.nav>details>summary,.e-nav>a,.e-nav>details>summary,.pmenu-link{white-space:nowrap}
+.mast-in>a:first-child,.e-mast-in>a:first-child{flex:none}
+@media(min-width:901px) and (max-width:1279px){.en-tag{display:none}}
+@media(max-width:900px){[data-canvas-menu] .research-menu-links{right:auto}}
+@media(min-width:901px) and (max-width:1099px){.nav.nav,:root:root .e-nav.e-nav{gap:13px}:root:root .e-nav .e-meta{padding-left:12px}}
+@media(min-width:901px) and (max-width:1279px){.nav .lang-note small{display:none}}
+/* German labels are longer: the header switches to the menu button below 1200px (German pages use the native header only). */
+@media(min-width:901px) and (max-width:1199px){
+  html[lang="de"] .mast-in{height:64px}
+  html[lang="de"] .menu-btn{display:block}
+  html[lang="de"] .nav{display:none}
+  html[lang="de"] .mast.menu-open .nav{display:flex;position:absolute;left:0;right:0;top:64px;flex-direction:column;align-items:flex-start;gap:2px;background:var(--paper);padding:12px var(--gutter) 28px;border-bottom:1px solid var(--rule);font-size:20px}
+  html[lang="de"] .mast.menu-open .nav .meta{border:0;padding:16px 0 0;font-size:16px}
+  html[lang="de"] .research-menu{width:100%}
+  html[lang="de"] .research-menu-links,html[lang="de"] [data-canvas-menu] .research-menu-links{position:static;box-shadow:none;width:100%;margin:6px 0 12px;border:0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:8px 0;background:transparent}
+  html[lang="de"] .nav-sep{width:100%;height:1px;margin:10px 0}
+  html[lang="de"] .pmenu{width:100%;flex-wrap:wrap;justify-content:space-between}
+  html[lang="de"] .pmenu-panel{position:static;transform:none;width:100%;max-height:none;overflow:visible;box-shadow:none;border:0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);border-radius:0;background:transparent;padding:6px 0 10px;margin:4px 0 10px}
+  html[lang="de"] .pmenu-grid{grid-template-columns:minmax(0,1fr);gap:0}
+  html[lang="de"] .en-tag{display:inline}
+}
+@media(min-width:901px) and (max-width:979px){.nav.nav,:root:root .e-nav.e-nav{gap:10px}}
+@media(min-width:1200px) and (max-width:1439px){html[lang="de"] .en-tag{display:none}html[lang="de"] .nav.nav{gap:14px}}
+@media(min-width:901px) and (max-width:939px){.nav.nav,:root:root .e-nav.e-nav{gap:8px}}
+.research-menu>summary .en-tag{margin-left:0}

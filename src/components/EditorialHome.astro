@@ -129,7 +129,7 @@ const areas = de ? ['Das Wort', 'Der Mensch', 'Die Praxis', 'Die Gemeinschaft', 
   <div class="ways-seq">
     <div class="ways-pin">
       <div class="wrap g ways-head">
-        <p class="kicker rv"><span class="n">{de ? 'Ein gemeinsamer Ansatz' : 'One approach'}</span> · {de ? 'Drei Einstiege' : 'Three starting points'}</p>
+        <p class="kicker rv"><span class="n">{de ? 'Ein gemeinsamer Ansatz' : 'One approach'}</span> · {de ? 'Zwei Arbeitsfelder' : 'Two kinds of work'}</p>
         <h2 id="ways-title" class="h2 rv">{de ? 'Woran arbeitet ihr gerade?' : 'What are you working on?'}</h2>
       </div>
       <div class="track-wrap wrap">
@@ -143,16 +143,7 @@ const areas = de ? ['Das Wort', 'Der Mensch', 'Die Praxis', 'Die Gemeinschaft', 
           </li>
           <li class="way">
             <span class="num" aria-hidden="true"><span class="metal">02</span></span>
-            <h3 class="h3">{de ? 'Mit dem Canvas arbeiten' : 'Work with the canvas'}</h3>
-            <p class="muted">{de ? 'Mit eurem Team zuhören, die missionale Identität klären und einen nächsten Schritt gestalten. Für Gemeinden, mit Entwürfen für Nonprofits und Unternehmen.' : 'Listen with your team, clarify your missional identity and shape a next step. Start with the church canvas, or explore the nonprofit and business drafts.'}</p>
-            <ol class="detail steps">
-              {(de ? ['Mit eurem Team zuhören', 'Die missionale Identität klären', 'Einen nächsten Schritt gestalten'] : ['Listen with your team', 'Clarify your missional identity', 'Shape a next step']).map((s, i) => <li><b>{i + 1}</b>{s}</li>)}
-            </ol>
-            <p><a class="go" href={`${base}/missional-canvas/`}>{de ? 'Canvas öffnen (Englisch)' : 'Open the canvas'}</a></p>
-          </li>
-          <li class="way">
-            <span class="num" aria-hidden="true"><span class="metal">03</span></span>
-            <h3 class="h3">{de ? 'Produktentscheidungen durchdenken' : 'Explore product decisions'}</h3>
+            <h3 class="h3">{de ? 'Ihr gestaltet ein digitales Produkt?' : 'Building a digital product?'}</h3>
             <p class="muted">{de ? 'Optionen für Bibellesen, Gebet, Gemeinschaft und KI vergleichen. Beispiele ausprobieren und ihre Folgen anhand von Theologie, Forschung und Nutzungspraxis abwägen.' : 'Compare approaches to Bible reading, prayer, community and AI. Try examples and weigh their implications through theology, research and everyday use.'}</p>
             <div class="detail">
               <p class="small muted" style="margin-bottom:14px">{de ? 'Ein Tag verpasst. Ein offener Empfang. Wie könnte eine Bibel-App helfen, wieder anzufangen?' : 'A missed day. A welcoming return. How might a reading app help someone begin again?'}</p>
@@ -163,6 +154,15 @@ const areas = de ? ['Das Wort', 'Der Mensch', 'Die Praxis', 'Die Gemeinschaft', 
               <p class="option-note">{de ? 'Illustrative Gestaltungsoptionen · Beispiele auf Englisch' : 'Illustrative design options'}</p>
             </div>
             <p><a class="go" href={`${base}/patterns/`}>{de ? 'Patterns erkunden (Englisch)' : 'Explore the patterns'}</a></p>
+          </li>
+          <li class="way">
+            <span class="num" aria-hidden="true"><span class="metal">03</span></span>
+            <h3 class="h3">{de ? 'Ihr leitet eine Gemeinde oder ein Werk?' : 'Leading a church or mission?'}</h3>
+            <p class="muted">{de ? 'Mit eurem Team zuhören, die missionale Identität klären und einen nächsten Schritt gestalten. Für Gemeinden, mit Entwürfen für Nonprofits und Unternehmen.' : 'Listen with your team, clarify your missional identity and shape a next step. Start with the church canvas, or explore the nonprofit and business drafts.'}</p>
+            <ol class="detail steps">
+              {(de ? ['Mit eurem Team zuhören', 'Die missionale Identität klären', 'Einen nächsten Schritt gestalten'] : ['Listen with your team', 'Clarify your missional identity', 'Shape a next step']).map((s, i) => <li><b>{i + 1}</b>{s}</li>)}
+            </ol>
+            <p><a class="go" href={`${base}/missional-canvas/`}>{de ? 'Canvas öffnen (Englisch)' : 'Open the canvas'}</a></p>
           </li>
           <li class="way-end" aria-hidden="true"></li>
         </ol>

@@ -1,0 +1,31 @@
+[
+  {
+    "href": "/missional-canvas/#church",
+    "label": "Church canvas",
+    "label_de": "Canvas für Gemeinden",
+    "description": "Listen, clarify your missional identity, shape a next step",
+    "description_de": "Zuhören, die missionale Identität klären, einen nächsten Schritt gestalten"
+  },
+  {
+    "href": "/missional-canvas/#nonprofit",
+    "label": "Christian nonprofit",
+    "label_de": "Christliche Nonprofits",
+    "description": "Draft adaptation for review",
+    "description_de": "Entwurf zur Prüfung"
+  },
+  {
+    "href": "/missional-canvas/#business",
+    "label": "Christian business",
+    "label_de": "Christliche Unternehmen",
+    "description": "Draft adaptation for review",
+    "description_de": "Entwurf zur Prüfung"
+  },
+  {
+    "href": "/canvas-guide/",
+    "href_de": "/de/canvas-guide/",
+    "label": "Workshop guide",
+    "label_de": "Workshop-Leitfaden",
+    "description": "Run the canvas with your team",
+    "description_de": "Den Canvas im Team durchführen"
+  }
+]
