@@ -123,4 +123,4 @@
 @media(min-width:901px) and (max-width:979px){.nav.nav,:root:root .e-nav.e-nav{gap:10px}}
 @media(min-width:1200px) and (max-width:1439px){html[lang="de"] .en-tag{display:none}html[lang="de"] .nav.nav{gap:14px}}
 @media(min-width:901px) and (max-width:939px){.nav.nav,:root:root .e-nav.e-nav{gap:8px}}
-.research-menu>summary .en-tag{text-decoration:none;margin-left:.25em}
+.research-menu>summary .en-tag{margin-left:0}
