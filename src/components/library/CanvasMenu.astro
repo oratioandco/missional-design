@@ -1,0 +1,9 @@
+---
+import links from '../../../public/assets/editorial/canvas-menu.json';
+const {de=false}=Astro.props;
+const active=/^(\/de)?\/(missional-canvas|canvas-guide)(\/|$)/.test(Astro.url.pathname);
+---
+<details class="research-menu" data-canvas-menu>
+ <summary class:list={{'is-current':active}}>{de?<>Canvas<span class="en-tag"> (EN)</span></>:'Canvas'}<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="m3 4.5 3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></summary>
+ <div class="research-menu-links" role="group" aria-label={de?'Canvas für Gemeinden und Mission':'Canvas for churches and mission'}>{links.map(l=><a href={de&&l.href_de?l.href_de:l.href}><strong>{de?l.label_de:l.label}</strong><span>{de?l.description_de:l.description}</span></a>)}</div>
+</details>

@@ -125,6 +125,15 @@ for path in sorted(DIST.rglob('index.html')):
         if 'class="research-menu"' not in text:
             tools = '<a href="https://missional.design/building-tools/">'
             text = text.replace(tools, menu + tools, 1) if tools in text else text.replace(about, menu + about, 1)
+    # Canvas (churches and mission) moves out of the product-design group: after Tools, behind a divider.
+    canvas_link = '<a href="https://missional.design/missional-canvas/">Canvas</a>'
+    about_link = '<a href="https://missional.design/about/" data-site-about>'
+    if canvas_link in text and about_link in text and 'data-canvas-menu' not in text:
+        items = json.loads((ROOT / 'public/assets/editorial/canvas-menu.json').read_text())
+        clinks = ''.join('<a href="'+i['href']+'"><strong>'+html_escape(i['label'])+'</strong><span>'+html_escape(i['description'])+'</span></a>' for i in items)
+        cmenu = ('<span class="nav-sep" aria-hidden="true"></span><details class="research-menu" data-canvas-menu><summary>Canvas<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="m3 4.5 3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></summary>'
+                 '<div class="research-menu-links" role="group" aria-label="Canvas for churches and mission">'+clinks+'</div></details>')
+        text = text.replace(canvas_link, '', 1).replace(about_link, cmenu + about_link, 1)
     # Research menu after the App library menu, on native and imported mastheads alike.
     if 'class="research-menu"' in text and 'data-research-sections' not in text:
         sections = json.loads((ROOT / 'public/assets/editorial/research-sections.json').read_text())
