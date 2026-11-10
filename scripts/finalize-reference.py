@@ -125,6 +125,18 @@ for path in sorted(DIST.rglob('index.html')):
         if 'class="research-menu"' not in text:
             tools = '<a href="https://missional.design/building-tools/">'
             text = text.replace(tools, menu + tools, 1) if tools in text else text.replace(about, menu + about, 1)
+    # Research menu after the App library menu, on native and imported mastheads alike.
+    if 'class="research-menu"' in text and 'data-research-sections' not in text:
+        sections = json.loads((ROOT / 'public/assets/editorial/research-sections.json').read_text())
+        here = '/' + rel + '/'
+        in_research = rel == 'research' or rel.startswith('research/')
+        rlinks = ''.join('<a href="'+i['href']+'"'+(' aria-current="page"' if i['href'] == here else '')+'><strong>'+html_escape(i['label'])+'</strong><span>'+html_escape(i['description'])+'</span></a>' for i in sections)
+        rmenu = ('<details class="research-menu" data-research-sections><summary'+(' class="is-current"' if in_research else '')+'>Research<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="m3 4.5 3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></summary>'
+                 '<div class="research-menu-links" role="group" aria-label="Research">'+rlinks+'</div></details>')
+        end = text.find('</details>', text.find('class="research-menu"')) + len('</details>')
+        text = text[:end] + rmenu + text[end:]
+        if in_research:  # imported research pages marked Patterns as the current section
+            text = text.replace('<a class="pmenu-link" href="/patterns/" aria-current="location">', '<a class="pmenu-link" href="/patterns/">', 1)
         if '/assets/editorial/research-nav.css' not in text:
             text = text.replace('</head>', '<link rel="stylesheet" href="/assets/editorial/research-nav.css"><script defer src="/assets/editorial/research-nav.js"></script></head>')
         if 'src="/editorial.js' not in text:

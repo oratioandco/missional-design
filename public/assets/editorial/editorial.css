@@ -738,8 +738,12 @@ main{overflow-x:clip}
 .hero-ground .on-dark{display:none}
 :root[data-theme="dark"] .hero-ground .on-light{display:none}:root[data-theme="dark"] .hero-ground .on-dark{display:block}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .hero-ground .on-light{display:none}:root:not([data-theme="light"]) .hero-ground .on-dark{display:block}}
+/* tagline and note share one column that grows with its text (long German lines overlapped at 900–1430 px) */
+.open .hero-text{grid-column:1/5;grid-row:3;display:flex;flex-direction:column;justify-content:space-between;gap:32px}
+.open .hero-text>.deck,.open .hero-text>.hero-note{grid-row:auto;grid-column:auto;align-self:auto}
 @media (max-width:900px){
   .open .g{grid-template-rows:none}
+  .open .hero-text{grid-row:auto;gap:0}
   .open .deck,.open .hero-note{grid-row:auto}
   .hero-ground img{object-position:85% 45%}
   .hero-ground::before{background:linear-gradient(180deg,color-mix(in srgb,var(--paper) 50%,transparent),transparent 70%)}
