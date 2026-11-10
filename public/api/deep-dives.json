@@ -56,8 +56,9 @@
     "A published answer with a named owner (Borrowed)",
     "A friend (Observed)",
     "A church’s teaching (Observed)",
-    "A pastor or priest (Observed)",
+    "A pastor or priest (Warning case)",
     "A saint or biblical figure (Observed)",
+    "A loved one who has died (Warning case)",
     "Christ or God (Warning case)"
    ],
    "decide": "Would your church accept these words if a person said them in that name, and what does the assistant say when asked who it is?",
@@ -521,7 +522,7 @@
     "A bell for a season (Exploratory)",
     "A quiet day each week (Exploratory)",
     "One summary instead of many (Borrowed)",
-    "Engagement-driven (Observed)",
+    "Engagement-driven (Warning case)",
     "Messages about the person (Warning case)"
    ],
    "decide": "Who chose this interruption, how urgent does it claim to be, and what does it say to someone who has stopped coming?",

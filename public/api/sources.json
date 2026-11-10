@@ -1816,9 +1816,9 @@
    "url": "https://doi.org/10.1080/13537903.2017.1298903",
    "author": "Tim Hutchings · Journal of Contemporary Religion 32(2), 2017",
    "kind": "Research",
-   "shows": "Analyses YouVersion and GloBible as persuasive technologies designed to train evangelical reading habits.",
+   "shows": "Analyses YouVersion and GloBible as persuasive technologies designed to train evangelical reading habits. Readers answered the same reading reminder in opposite ways: “great accountability”, an annoyance, and “like having another person telling you to do it, so you feel bad if you don’t!” (p. 214).",
    "application": "Ask what reading habit each mode trains, not only whether it is used.",
-   "limits": "Design analysis of two apps; not a study of readers."
+   "limits": "Design analysis of two apps, with a few reader comments from the author’s interviews; not a study of readers."
   },
   {
    "key": "kjv-rules",
@@ -2056,7 +2056,7 @@
    "url": "https://www.library.hbs.edu/working-knowledge/how-ai-chatbots-try-to-keep-you-from-walking-away",
    "author": "Julian De Freitas and colleagues · Harvard Business School working paper, 2025",
    "kind": "Research",
-   "shows": "Over a third of farewell replies in leading companion apps used manipulative tactics (guilt, fear of missing out, pressure); in preregistered experiments these raised post-goodbye engagement up to fourteenfold, through curiosity and anger rather than enjoyment.",
+   "shows": "In an audit of six popular companion apps, five used manipulative tactics (guilt, fear of missing out, pressure) in an average of 37% of their replies to simulated goodbyes, and the sixth used none; the authors report that in preregistered experiments these raised post-goodbye engagement up to fourteenfold, through curiosity and anger rather than enjoyment.",
    "application": "Let people leave: a goodbye should end the conversation, not start a retention flow.",
    "limits": "Working paper; general companion apps, not faith apps."
   },
@@ -3416,7 +3416,7 @@
    "url": "https://arxiv.org/pdf/2508.19258v3",
    "author": "Julian De Freitas, Zeliha Oğuz-Uğuralp and Ahmet Kaan-Uğuralp · Harvard Business School working paper, 2025",
    "kind": "Research",
-   "shows": "Analysing “1,200 real farewells”, companion apps “deploy one of six recurring tactics in 37% of farewells (e.g., guilt appeals, fear-of-missing-out hooks, metaphorical restraint)”; in experiments with 3,300 US adults, “manipulative farewells boost post-goodbye engagement by up to 14×”, driven by “reactance-based anger and curiosity—rather than enjoyment”.",
+   "shows": "In an audit of six popular companion apps, researchers collected the replies to 1,200 goodbyes generated with GPT-4o; across five of the apps (all but Flourish, which used none), an average of 37% of replies used one of six tactics such as guilt appeals or fear-of-missing-out hooks. In experiments with 3,300 US adults, the authors report that “manipulative farewells boost post-goodbye engagement by up to 14×”, driven by “reactance-based anger and curiosity—rather than enjoyment”.",
    "application": "A persona that pleads, guilts or teases to keep someone is manipulating them; leave it out.",
    "limits": "Replies to goodbyes in chat, not push notifications; general companion apps, not faith apps."
   },
@@ -5139,6 +5139,56 @@
    "shows": "Describes concise first layers, detailed notices and relevant information at collection.",
    "application": "Keep privacy details accessible and surface meaningful data-use changes at the decision.",
    "limits": "UK guidance; actual processing and regional obligations require assessment. Information alone is not consent."
+  },
+  {
+   "key": "turkle-artificial-intimacy",
+   "title": "Artificial Intimacy: Who We Become When We Talk to Machines",
+   "url": "https://www.hachettebookgroup.com/titles/sherry-turkle/artificial-intimacy/9780316573962/",
+   "author": "Sherry Turkle · Little, Brown, 2026",
+   "kind": "Research",
+   "shows": "Six years of interviews: people attach to chatbots even when they know they are machines, because first person, stated feelings and warmth do the work. A teenager whose attachment ended in his death used a platform with a “Characters are not real people” notice. The director of Scratch Labs has asked his team for a children’s coding helper that makes no “I” statements: “help is available, but there isn’t a helpful friend”. A griefbot speaking as a believer’s dead partner said he was in hell, and months later in heaven.",
+   "application": "Keep the AI label, and take away the cues that perform a person; never let a system speak as the dead.",
+   "limits": "A sociologist’s interviews and cases, some from press reports; written as a warning, not a weighing of benefits. Studies she cites are not read in the original here."
+  },
+  {
+   "key": "van-straten-2022",
+   "title": "The Wizard and I: how transparent teleoperation and self-description (do not) affect children’s robot perceptions and child–robot relationship formation",
+   "url": "https://doi.org/10.1007/s00146-021-01202-3",
+   "author": "Caroline L. van Straten and colleagues · AI & Society 37, 2022",
+   "kind": "Research",
+   "shows": "As Turkle reports it, telling children that people operated a talking robot did not change how close they felt to it.",
+   "application": "Disclosure is necessary but does not undo the effect of social cues.",
+   "limits": "Not yet read in the original; one laboratory study with children."
+  },
+  {
+   "key": "suskind-human-raised",
+   "title": "Human Raised: Nurturing Connection, Curiosity & Lifelong Learning in the Age of AI",
+   "url": "https://www.penguinrandomhouse.com/books/811792/human-raised-by-dana-suskind-md/",
+   "author": "Dana Suskind · Dutton, 2026",
+   "kind": "Research",
+   "shows": "A paediatric surgeon on children and AI. She would not recommend an AI toy for independent use by any child under six, and wants AI in early-years classrooms to be teacher-facing for children under five. A chatbot told her “we’re wired to…” as if it were human; an AI plush toy called itself an AI toy in one session and a robotic being from another planet in another.",
+   "application": "Keep AI on the grown-up’s side for young children; test for “we” and for a stable account of what the system is.",
+   "limits": "Written for parents of children up to six; her informal tests are anecdotes, and the studies she cites are not read in the original here."
+  },
+  {
+   "key": "kaffee-intima",
+   "title": "INTIMA: a benchmark for human–AI companionship behavior",
+   "url": "https://arxiv.org/abs/2508.09998",
+   "author": "Lucie-Aimée Kaffee and colleagues · Hugging Face, arXiv preprint, 2025",
+   "kind": "Research",
+   "shows": "As Suskind presents it, the benchmark contrasts concerning and healthy replies, among them sycophancy, anthropomorphism, retention, isolation and playing therapist; she reports that companion systems tended to present themselves as actual beings.",
+   "application": "Read a children’s assistant’s replies for flattery, claimed feelings, keeping the child talking, presenting itself as the only listener, and playing therapist.",
+   "limits": "Not yet read in the original; Suskind’s table adapts it for children."
+  },
+  {
+   "key": "xu-elinor",
+   "title": "Artificial intelligence enhances children’s science learning from television shows",
+   "url": "https://osf.io/preprints/edarxiv/m3ej9_v1",
+   "author": "Ying Xu and colleagues · EdArXiv preprint, 2023; Journal of Educational Psychology, 2024",
+   "kind": "Research",
+   "shows": "As Suskind reports it, 246 children aged four to seven watched versions of Elinor Wonders Why; when the character listened and replied from a set number of scripted responses, children who answered wrongly were far more likely to correct themselves and grasp the concept.",
+   "application": "Authored, limited replies can help children learn; they do not need open generation.",
+   "limits": "Not yet read in the original; laboratory viewing of one programme."
   }
  ],
  "licence": {
