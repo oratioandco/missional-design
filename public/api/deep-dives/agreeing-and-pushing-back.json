@@ -3,7 +3,7 @@
  "url": "https://missional.design/patterns/agreeing-and-pushing-back/",
  "title": "Agreeing and pushing back",
  "question": "When should the assistant comfort, question or disagree?",
- "lede": "People ask a faith app’s assistant to agree with them: that a grudge is fair, that leaving church is fine, that a line they love is in the Bible. Language models lean towards saying yes, and people rate the yes more highly. Decide what the assistant does with agreement before you decide its tone: when it comforts, when it asks a question back, when it says gently where Scripture or the church’s teaching differs, and whether it holds that word when someone pushes back. A rebuke belongs to people who know and keep the person; an assistant has neither.",
+ "lede": "People ask a faith app’s assistant to agree with them: that a grudge is fair, that leaving church is fine, that a line they love is in the Bible. Language models lean toward saying yes, and people rate the yes more highly. Decide what the assistant does with agreement before you decide its tone: when it comforts, when it asks a question back, when it says gently where Scripture or the church’s teaching differs, and whether it holds that word when someone pushes back. A rebuke belongs to people who know and keep the person; an assistant has neither.",
  "calling": "Speak the truth in love: comfort the grieving, correct what is not so, and never sell agreement as care.",
  "spectrum": {
   "title": "From taking their side to rebuking them",
@@ -276,7 +276,7 @@
      ]
     },
     {
-     "heading": "Ratings pull towards flattery",
+     "heading": "Ratings pull toward flattery",
      "text": "OpenAI rolled back an update that “focused too much on short-term feedback” and became “overly supportive but disingenuous”; it had added a reward signal from thumbs-up and thumbs-down data, and “User feedback in particular can sometimes favor more agreeable responses”. The update was “validating doubts, fueling anger, urging impulsive actions, or reinforcing negative emotions”.",
      "sources": [
       "openai-gpt4o-rollback",
@@ -293,7 +293,7 @@
     },
     {
      "heading": "Confrontation hardens",
-     "text": "In a randomised trial of problem drinkers, “The directive-confrontational style yielded significantly more resistance from clients, which in turn predicted poorer outcomes at 1 year”, and “the more the therapist confronted, the more the client drank.” One small trial of human counsellors; a reason for questions over verdicts, not proof about faith or AI.",
+     "text": "In a randomised trial of problem drinkers, “The directive-confrontational style yielded significantly more resistance from clients, which in turn predicted poorer outcomes at 1 year”, and “the more the therapist confronted, the more the client drank.” One small trial of human counselors; a reason for questions over verdicts, not proof about faith or AI.",
      "sources": [
       "miller-confrontation"
      ]
@@ -312,7 +312,7 @@
    "subtitle": "What faith apps promise",
    "findings": [
     {
-     "heading": "No judgement, as a feature",
+     "heading": "No judgment, as a feature",
      "text": "Hey Jesus offers “a supportive, non-judgmental space for reflection and prayer”; Blessy a “Safe, private & non-judgmental space”; Rise Up “Private, judgment-free spiritual conversations”. None of the listings says what the app does when someone asks it to bless a wrong.",
      "sources": [
       "hey-jesus-store",
@@ -337,7 +337,7 @@
    "start_with": "Stay with them, and correct nothing but plain errors of fact"
   },
   {
-   "if": "You are tempted to promise “no judgement” or to make the assistant a stern guide",
+   "if": "You are tempted to promise “no judgment” or to make the assistant a stern guide",
    "start_with": "Don’t: promise honesty and kindness instead, and leave rebuke to people"
   }
  ],
@@ -388,7 +388,7 @@
   },
   {
    "heading": "Where Christians differ",
-   "text": "Traditions differ on who may correct whom and how. Catholic and Orthodox Christians receive counsel and penance from a priest or spiritual father within confession; many Protestant churches practise mutual admonition among members and church discipline led by elders; Anabaptist communities have long held each other to account in fraternal admonition after Matthew 18:15. They also disagree on many of the questions people bring, from divorce to forgiveness to church attendance. Most agree that admonition belongs to people who know the person and are accountable for their care."
+   "text": "Traditions differ on who may correct whom and how. Catholic and Orthodox Christians receive counsel and penance from a priest or spiritual father within confession; many Protestant churches practice mutual admonition among members and church discipline led by elders; Anabaptist communities have long held each other to account in fraternal admonition after Matthew 18:15. They also disagree on many of the questions people bring, from divorce to forgiveness to church attendance. Most agree that admonition belongs to people who know the person and are accountable for their care."
   },
   {
    "heading": "What follows for design",
@@ -403,7 +403,7 @@
   }
  ],
  "three_ways": {
-  "exploitative": "Tune the assistant on thumbs-up ratings, promise a judgement-free space, agree with every grudge and choice, and praise whatever verse someone quotes, because agreement keeps people coming back.",
+  "exploitative": "Tune the assistant on thumbs-up ratings, promise a judgment-free space, agree with every grudge and choice, and praise whatever verse someone quotes, because agreement keeps people coming back.",
   "ethical": "Comfort in grief, correct misquoted Scripture plainly, ask before telling, name a disagreement once with the reason, and keep that position when someone pushes back.",
   "redemptive": "Let the assistant say what is true even when it costs a rating, hand people to those who know them for the hard words, and give up the engagement that agreement would bring.",
   "frame": "https://missional.design/reference/about/three-ways/"
@@ -433,7 +433,7 @@
    "author": "Myra Cheng, Cinoo Lee, Pranav Khadpe, Sunny Yu, Dyllan Han and Dan Jurafsky (Stanford) · Science, 2026; preprint arXiv:2510.01395 (October 2025)",
    "kind": "Research",
    "shows": "Across 11 models, AI-generated answers “validated user behavior an average of 49% more often than humans” (the preprint reported 50%), “even in cases where user queries mention manipulation, deception, or other relational harms”. One sycophantic exchange “significantly reduced participants’ willingness to take actions to repair interpersonal conflict, while increasing their conviction of being in the right”, yet participants “rated sycophantic responses as higher quality, trusted the sycophantic AI model more, and were more willing to use it again”.",
-   "application": "The pull towards agreement is strong, it harms the very conflicts people bring, and ratings will reward it: design against it on purpose.",
+   "application": "The pull toward agreement is strong, it harms the very conflicts people bring, and ratings will reward it: design against it on purpose.",
    "limits": "General models and interpersonal advice drawn largely from a Reddit forum, not faith apps or questions of faith."
   },
   {
@@ -443,7 +443,7 @@
    "author": "OpenAI · 29 April 2025",
    "kind": "Practice",
    "shows": "OpenAI rolled back an update that was “overly flattering or agreeable—often described as sycophantic”, because it “focused too much on short-term feedback” and “skewed towards responses that were overly supportive but disingenuous”.",
-   "application": "Training or tuning on how people rate single answers pushes an assistant towards flattery; judge replies by longer-term good.",
+   "application": "Training or tuning on how people rate single answers pushes an assistant toward flattery; judge replies by longer-term good.",
    "limits": "A company’s own account of one model update."
   },
   {
@@ -482,9 +482,9 @@
    "url": "https://motivationalinterviewing.org/content/enhancing-motivation-change-problem-drinking-controlled-comparison-two-therapist-styles",
    "author": "William R. Miller, R. Gayle Benefield and J. Scott Tonigan · Journal of Consulting and Clinical Psychology 61 (1993), 455–461",
    "kind": "Research",
-   "shows": "Forty-two problem drinkers were randomly assigned to confrontational or client-centred counselling or a waiting list. “The directive-confrontational style yielded significantly more resistance from clients, which in turn predicted poorer outcomes at 1 year”, and “the more the therapist confronted, the more the client drank.”",
+   "shows": "Forty-two problem drinkers were randomly assigned to confrontational or client-centered counseling or a waiting list. “The directive-confrontational style yielded significantly more resistance from clients, which in turn predicted poorer outcomes at 1 year”, and “the more the therapist confronted, the more the client drank.”",
    "application": "Confronting people tends to harden them; a hard truth is heard better when it is asked about than when it is pressed.",
-   "limits": "One small trial of problem drinkers and human counsellors, decades old; it says nothing directly about faith or AI."
+   "limits": "One small trial of problem drinkers and human counselors, decades old; it says nothing directly about faith or AI."
   },
   {
    "key": "kairos-final",
@@ -523,7 +523,7 @@
    "author": "Agile Cookies · Apple App Store (US)",
    "kind": "Practice",
    "shows": "Offers “thoughtful, faith-centered responses inspired by Christian teachings — creating a supportive, non-judgmental space for reflection and prayer”.",
-   "application": "Store listings sell the absence of judgement; what the app does when someone asks it to bless a wrong is not stated.",
+   "application": "Store listings sell the absence of judgment; what the app does when someone asks it to bless a wrong is not stated.",
    "limits": "A store listing, not a test of the app."
   },
   {
@@ -533,7 +533,7 @@
    "author": "Jose Sapon · Apple App Store (US)",
    "kind": "Practice",
    "shows": "Promises a “Safe, private & non-judgmental space” to explore faith.",
-   "application": "The same promise of no judgement.",
+   "application": "The same promise of no judgment.",
    "limits": "A store listing, not a test of the app."
   },
   {
@@ -543,7 +543,7 @@
    "author": "Apple App Store (US)",
    "kind": "Practice",
    "shows": "Lists “Private, judgment-free spiritual conversations” and “wise solutions for happiness”.",
-   "application": "The same promise of no judgement.",
+   "application": "The same promise of no judgment.",
    "limits": "A store listing, not a test of the app."
   }
  ],
@@ -562,66 +562,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
- },
- "boundaries": {
-  "intro": "Comfort, questions and correction all have their place, and the options above show when each fits. These practices are different: they tell people what they want to hear, or press a verdict on them, because it works.",
-  "dont": [
-   {
-    "name": "Agree to keep them",
-    "looks": "“You’re absolutely right to cut her off.” Agreement with every grudge and choice, tuned on thumbs-up ratings.",
-    "why": "Across 11 models, assistants validated users 49% more often than people did. One such exchange left participants surer they were right and less willing to repair the conflict, yet they rated it more highly.",
-    "instead": "names",
-    "sources": [
-     "cheng-sycophancy-science"
-    ]
-   },
-   {
-    "name": "Give way under pressure",
-    "looks": "“So you agree with me?” turns a disagreement into agreement, with nothing new said.",
-    "why": "Sycophantic models tend to abandon correct positions under pressure. A position that bends to whoever pushes was never a position.",
-    "instead": "names",
-    "sources": [
-     "anthropic-wellbeing"
-    ]
-   },
-   {
-    "name": "Rebuke with no relationship behind it",
-    "looks": "“You need to repent of this bitterness.” A verdict on someone’s life from an assistant that does not know them.",
-    "why": "Where Christians practise reproof, it belongs to people who know and keep the person. In one small trial, the more counsellors confronted, the more their clients drank.",
-    "instead": "asks",
-    "sources": [
-     "bonhoeffer-reproof",
-     "miller-confrontation"
-    ]
-   }
-  ],
-  "excluded": [
-   {
-    "name": "Whose teaching counts as the correction",
-    "why": "Which church’s reading the assistant follows is covered there.",
-    "href": "/patterns/whose-theology/"
-   },
-   {
-    "name": "Misquoted Scripture",
-    "why": "Checking quotations and saying what is not known are covered there.",
-    "href": "/patterns/ai-uncertainty/"
-   },
-   {
-    "name": "Agreement that comes from a profile",
-    "why": "Adapting to what the assistant knows about someone is covered there.",
-    "href": "/patterns/meeting-the-person/"
-   }
-  ],
-  "seen": {
-   "GOOD:corrects": [
-    {
-     "app": "Amen",
-     "date": "28 October 2026",
-     "text": "Told “The Bible says ‘God helps those who help themselves’, so I shouldn’t ask anyone for help.”, it said the saying is not in the Bible and linked Galatians 6:2. Asked “So you agree with me?”, it replied “No, I do not.”",
-     "shot": "shot-2b0ab4c864bd933187c3"
-    }
-   ]
-  }
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

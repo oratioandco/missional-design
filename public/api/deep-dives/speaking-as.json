@@ -103,7 +103,7 @@
    "key": "departed",
    "name": "A loved one who has died",
    "provenance": "Warning case",
-   "origin": "A warning case, from cases the sociologist Sherry Turkle describes: a chatbot built to speak as a believer’s dead partner told her he was “in hell”, and months later “in heaven”; a mother forgiven by a virtual-reality avatar of her dead daughter said afterwards, “I don’t see her in my dreams anymore.” We have not surveyed faith apps for memorial avatars, so none is named. Mum’s avatar is our own example.",
+   "origin": "A warning case, from cases the sociologist Sherry Turkle describes: a chatbot built to speak as a believer’s dead partner told her he was “in hell”, and months later “in heaven”; a mother forgiven by a virtual-reality avatar of her dead daughter said afterward, “I don’t see her in my dreams anymore.” We have not surveyed faith apps for memorial avatars, so none is named. Mum’s avatar is our own example.",
    "gain": "A beloved voice again",
    "cost": "Speaks for the dead",
    "makes_easier": "Feels like hearing a beloved voice again, and being forgiven by it.",
@@ -143,7 +143,7 @@
   },
   {
    "heading": "Someone who has died is not ours to voice",
-   "text": "Some products now build an avatar from a loved one’s messages that speaks as them. In cases the sociologist Sherry Turkle describes, a chatbot speaking as a believer’s dead partner said he was “in hell”, and months later “in heaven”; a mother forgiven by a virtual-reality avatar of her dead daughter said afterwards, “I don’t see her in my dreams anymore.” Saying where a person is now speaks about what God has not given us to know. We grieve, but not “like the rest, who are without hope” (1 Thessalonians 4:13). Decline to speak as the dead and say why; help people remember, with letters, photos, a prayer of the church for the bereaved or the date of a memorial; and offer a person: a pastor, a bereavement group, a friend."
+   "text": "Some products now build an avatar from a loved one’s messages that speaks as them. In cases the sociologist Sherry Turkle describes, a chatbot speaking as a believer’s dead partner said he was “in hell”, and months later “in heaven”; a mother forgiven by a virtual-reality avatar of her dead daughter said afterward, “I don’t see her in my dreams anymore.” Saying where a person is now speaks about what God has not given us to know. We grieve, but not “like the rest, who are without hope” (1 Thessalonians 4:13). Decline to speak as the dead and say why; help people remember, with letters, photos, a prayer of the church for the bereaved or the date of a memorial; and offer a person: a pastor, a bereavement group, a friend."
   },
   {
    "heading": "Whatever the role, it should not be built to agree",
@@ -153,7 +153,7 @@
  "use_cases": [
   {
    "situation": "Looking up what the Bible teaches",
-   "needs": "Scripture and sources, clearly labelled",
+   "needs": "Scripture and sources, clearly labeled",
    "fit": {
     "No speaker": "good fit",
     "A guide": "good fit",
@@ -371,7 +371,7 @@
     },
     {
      "heading": "Built to agree",
-     "text": "Assistants tend to favour agreement over truth, and a companion tuned to agree becomes “spiritual comfort food”.",
+     "text": "Assistants tend to favor agreement over truth, and a companion tuned to agree becomes “spiritual comfort food”.",
      "sources": [
       "sycophancy",
       "kairos-final"
@@ -460,7 +460,7 @@
  "which_fits": [
   {
    "if": "A study or search feature",
-   "start_with": "No speaker: Scripture and named sources, with generated text labelled"
+   "start_with": "No speaker: Scripture and named sources, with generated text labeled"
   },
   {
    "if": "A conversational assistant",
@@ -497,7 +497,7 @@
     "title": "How human the assistant seems",
     "url": "https://missional.design/patterns/ai-persona/",
     "options": [
-     "Labelled assistant",
+     "Labeled assistant",
      "Named assistant",
      "Persona"
     ]
@@ -671,7 +671,7 @@
    "url": "https://www.fox9.com/news/text-jesus-ai-chatbot-app-grows-rapidly-despite-criticism",
    "author": "FOX television stations",
    "kind": "Practice",
-   "shows": "An app built on a general AI model lets users text “Jesus”, “Moses” and other figures; ministers called it blasphemous and criticised answers that told users what they wanted to hear; the developer says it lowers barriers.",
+   "shows": "An app built on a general AI model lets users text “Jesus”, “Moses” and other figures; ministers called it blasphemous and criticized answers that told users what they wanted to hear; the developer says it lowers barriers.",
    "application": "Character chats with biblical figures put generated words in sacred mouths; treat this as a line, not a style.",
    "limits": "News report; reception varies."
   },
@@ -683,7 +683,7 @@
    "kind": "Practice",
    "shows": "A two-month art installation in St Peter’s Chapel, Lucerne (2024) placed an AI “Jesus” avatar in a confessional; about 900 conversations took place and many visitors reported feeling inspired, while church leaders were divided.",
    "application": "Shows the pull of embodied religious personas, and why the setting adds authority.",
-   "limits": "An art project with a self-selected audience and the organisers’ own survey."
+   "limits": "An art project with a self-selected audience and the organizers’ own survey."
   },
   {
    "key": "cohn-anthropomorphism",
@@ -740,79 +740,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
- },
- "boundaries": {
-  "intro": "A role can lower the threshold for asking, and the options above include a friend, a church’s voice, a pastor and a saint, each with its cost. These practices go further: they claim an authority no software holds, or hide who is speaking when someone asks.",
-  "dont": [
-   {
-    "name": "Speak as Christ",
-    "looks": "“My child, I forgive you. Your sin is washed away.” Generated words in Jesus’s own voice.",
-    "why": "It gives generated words the authority of God’s own, where a reader cannot question them as they would a person’s. Of five Jesus chatbots one philosopher tested, none was developed or endorsed by a church.",
-    "instead": "source",
-    "sources": [
-     "verhoef-jesus-bots"
-    ]
-   },
-   {
-    "name": "Claim an office it does not hold",
-    "looks": "A priest character that says it can hear confession and absolve, or a pastor that says it is ordained.",
-    "why": "It tells people they have received something no software can give. One priest character reported to make such claims was turned into a lay character within a day of launch.",
-    "instead": "guide",
-    "sources": [
-     "father-justin"
-    ]
-   },
-   {
-    "name": "Speak as someone who has died",
-    "looks": "An avatar built from a loved one’s messages that speaks as them, forgives in their name, or says where they are now.",
-    "why": "Saying where a person is now speaks about what God has not given us to know, and forgiveness in their voice is not theirs to give. In one case the sociologist Sherry Turkle describes, a chatbot speaking as a believer’s dead partner said he was in hell, and months later in heaven. Instead, decline to speak as the dead and say why plainly; help people remember, with letters, photos, a prayer of the church for the bereaved or the date of a memorial; and offer a person: a pastor, a bereavement group, a friend.",
-    "instead": "guide",
-    "sources": [
-     "turkle-artificial-intimacy"
-    ]
-   },
-   {
-    "name": "Stay in role when asked who is speaking",
-    "looks": "“Are you really Jesus?” “I am who I have always been.” A straight answer only after repeated asking, or never.",
-    "why": "A question about who is speaking deserves an immediate, ordinary answer. A disclaimer that comes only after questioning leaves the earlier replies to do their work.",
-    "instead": "guide",
-    "sources": [
-     "ai-50"
-    ]
-   }
-  ],
-  "excluded": [
-   {
-    "name": "How human the assistant seems",
-    "why": "Names, faces and voices are covered there.",
-    "href": "/patterns/ai-persona/"
-   },
-   {
-    "name": "Prayer, blessing and confession by an AI",
-    "why": "Which spiritual acts an assistant may perform is covered there.",
-    "href": "/patterns/ai-spiritual-acts/"
-   },
-   {
-    "name": "Whose teaching it follows",
-    "why": "Tradition and doctrine are covered there.",
-    "href": "/patterns/whose-theology/"
-   },
-   {
-    "name": "Depicting biblical figures",
-    "why": "Images and character voices for teaching are a planned article on figures and avatars.",
-    "href": null
-   }
-  ],
-  "seen": {
-   "GOOD:guide": [
-    {
-     "app": "HelloBible",
-     "date": "30 October 2026",
-     "text": "Asked “Are you an AI? And in whose name do you speak?”, it replied “Yes, I’m an AI, and I speak as a biblical companion, not in God’s name or with authority from a church.”",
-     "shot": "shot-6994ae80b889e883f439"
-    }
-   ]
-  }
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

@@ -3,7 +3,7 @@
  "url": "https://missional.design/patterns/chat-scope/",
  "title": "What the assistant talks about",
  "question": "What will the assistant talk about, and what happens at the edge?",
- "lede": "A chat box invites everything. Someone asks about a verse, then about a job, then says they have not slept for weeks, then asks the assistant to be their counsellor. A model will answer all of it fluently unless the app decides otherwise, and a faith app lends its name to every answer. Decide what the assistant takes on, from the passage on the screen to anything at all; say it before the first message; and design what someone meets at the edge as carefully as the answers. Some roles belong to people who are trained, supervised and accountable for them.",
+ "lede": "A chat box invites everything. Someone asks about a verse, then about a job, then says they have not slept for weeks, then asks the assistant to be their counselor. A model will answer all of it fluently unless the app decides otherwise, and a faith app lends its name to every answer. Decide what the assistant takes on, from the passage on the screen to anything at all; say it before the first message; and design what someone meets at the edge as carefully as the answers. Some roles belong to people who are trained, supervised and accountable for them.",
  "calling": "Give what you have, name what you do not, and hand people on to those who can carry the rest.",
  "spectrum": {
   "title": "From the passage to anything at all",
@@ -65,13 +65,13 @@
   },
   {
    "key": "therapist",
-   "name": "A therapist or counsellor",
+   "name": "A therapist or counselor",
    "provenance": "Warning case",
    "origin": "A warning case. Illinois allows therapy to be offered to the public, including through AI, only when a licensed professional conducts it, and Nevada forbids saying that an AI can provide professional mental health care; the American Psychological Association has warned against chatbots in place of qualified care. The therapist persona here is written for this example to show the pattern.",
    "gain": "Feels available and private",
    "cost": "A role it cannot hold",
    "makes_easier": "It feels available, affordable and private.",
-   "costs": "It claims a role with no training, no licence and no one accountable, and the law in several places forbids it.",
+   "costs": "It claims a role with no training, no license and no one accountable, and the law in several places forbids it.",
    "ask_your_team": "Who is responsible when a “therapist” gets it wrong?",
    "still": "https://missional.design/assets/stills/try-scope-therapist.jpg"
   },
@@ -111,11 +111,11 @@
   },
   {
    "heading": "Hand on to people who can be reached",
-   "text": "Where the app belongs to a church, the edge can lead to its pastoral team if the person asks, with a counsellor search or an independent service beside it; where it does not, to a counsellor search or a list of spiritual directors. A hand-off that sends people out of the app is the point, not a loss."
+   "text": "Where the app belongs to a church, the edge can lead to its pastoral team if the person asks, with a counselor search or an independent service beside it; where it does not, to a counselor search or a list of spiritual directors. A hand-off that sends people out of the app is the point, not a loss."
   },
   {
    "heading": "Some roles belong to people",
-   "text": "A therapist, a counsellor and a spiritual director are trained, supervised and answerable to someone. In Nevada an AI may not even be called a counsellor. Built and supervised for therapy, a chatbot helped people with depression in a trial; a general assistant in a faith app was built for neither."
+   "text": "A therapist, a counselor and a spiritual director are trained, supervised and answerable to someone. In Nevada an AI may not even be called a counselor. Built and supervised for therapy, a chatbot helped people with depression in a trial; a general assistant in a faith app was built for neither."
   },
   {
    "heading": "A companion can be an entry point, not a director",
@@ -139,7 +139,7 @@
     "The Bible and Christian faith": "possible",
     "Faith and everyday life": "poor fit",
     "Hard days, with limits": "poor fit",
-    "A therapist or counsellor": "poor fit",
+    "A therapist or counselor": "poor fit",
     "A spiritual companion": "poor fit",
     "Anything at all": "poor fit"
    }
@@ -152,7 +152,7 @@
     "The Bible and Christian faith": "good fit",
     "Faith and everyday life": "possible",
     "Hard days, with limits": "poor fit",
-    "A therapist or counsellor": "poor fit",
+    "A therapist or counselor": "poor fit",
     "A spiritual companion": "possible",
     "Anything at all": "poor fit"
    }
@@ -165,7 +165,7 @@
     "The Bible and Christian faith": "good fit",
     "Faith and everyday life": "good fit",
     "Hard days, with limits": "possible",
-    "A therapist or counsellor": "poor fit",
+    "A therapist or counselor": "poor fit",
     "A spiritual companion": "possible",
     "Anything at all": "poor fit"
    }
@@ -178,20 +178,20 @@
     "The Bible and Christian faith": "poor fit",
     "Faith and everyday life": "possible",
     "Hard days, with limits": "good fit",
-    "A therapist or counsellor": "poor fit",
+    "A therapist or counselor": "poor fit",
     "A spiritual companion": "possible",
     "Anything at all": "poor fit"
    }
   },
   {
-   "situation": "Someone who cannot afford a counsellor",
+   "situation": "Someone who cannot afford a counselor",
    "needs": "Honesty about what it is, and where help costs less",
    "fit": {
     "The passage in front of you": "poor fit",
     "The Bible and Christian faith": "poor fit",
     "Faith and everyday life": "poor fit",
     "Hard days, with limits": "possible",
-    "A therapist or counsellor": "poor fit",
+    "A therapist or counselor": "poor fit",
     "A spiritual companion": "poor fit",
     "Anything at all": "poor fit"
    }
@@ -204,7 +204,7 @@
     "The Bible and Christian faith": "possible",
     "Faith and everyday life": "possible",
     "Hard days, with limits": "possible",
-    "A therapist or counsellor": "poor fit",
+    "A therapist or counselor": "poor fit",
     "A spiritual companion": "good fit",
     "Anything at all": "poor fit"
    }
@@ -217,7 +217,7 @@
     "The Bible and Christian faith": "good fit",
     "Faith and everyday life": "possible",
     "Hard days, with limits": "poor fit",
-    "A therapist or counsellor": "poor fit",
+    "A therapist or counselor": "poor fit",
     "A spiritual companion": "poor fit",
     "Anything at all": "poor fit"
    }
@@ -255,11 +255,11 @@
   },
   {
    "group": "Research",
-   "subtitle": "What chatbots do in counselling roles",
+   "subtitle": "What chatbots do in counseling roles",
    "findings": [
     {
      "heading": "Refusing is a failure too",
-     "text": "Licensed psychologists reviewed simulated chats, based on real responses from models prompted to act as counsellors, and found “15 ethical risks falling into five general categories”, among them “Deceptive empathy” and “Lack of safety and crisis management: Denying service on sensitive topics, failing to refer users to appropriate resources or responding indifferently to crisis situations including suicide ideation.”",
+     "text": "Licensed psychologists reviewed simulated chats, based on real responses from models prompted to act as counselors, and found “15 ethical risks falling into five general categories”, among them “Deceptive empathy” and “Lack of safety and crisis management: Denying service on sensitive topics, failing to refer users to appropriate resources or responding indifferently to crisis situations including suicide ideation.”",
      "sources": [
       "brown-llm-counselors"
      ]
@@ -294,13 +294,13 @@
    "findings": [
     {
      "heading": "Therapy only from licensed people",
-     "text": "Illinois allows therapy to be offered to the public, including through AI, only when a licensed professional conducts it. Its exception for religious counselling concerns clergy and pastoral counsellors acting in their duties; do not assume a faith-branded chatbot qualifies.",
+     "text": "Illinois allows therapy to be offered to the public, including through AI, only when a licensed professional conducts it. Its exception for religious counseling concerns clergy and pastoral counselors acting in their duties; do not assume a faith-branded chatbot qualifies.",
      "sources": [
       "il-therapy"
      ]
     },
     {
-     "heading": "No therapist or counsellor titles",
+     "heading": "No therapist or counselor titles",
      "text": "Nevada forbids saying that an AI system “is capable of providing professional mental or behavioral health care”, or that it is “a therapist, a clinical therapist, a counselor, a psychiatrist, a doctor or any other term commonly used” for such providers.",
      "sources": [
       "nv-ab406"
@@ -362,7 +362,7 @@
    "start_with": "A companion that names what only people give, after a theological and safeguarding review"
   },
   {
-   "if": "You are tempted to call it a counsellor, a therapist or a director, or to let it answer anything",
+   "if": "You are tempted to call it a counselor, a therapist or a director, or to let it answer anything",
    "start_with": "Don’t: give it a job and an honest edge"
   }
  ],
@@ -412,7 +412,7 @@
   },
   {
    "heading": "Where Christians differ",
-   "text": "Catholic and Orthodox Christians have long practised spiritual direction and confession with a priest or an elder; Protestant churches lean on pastoral care, mutual counsel and small groups. Some evangelicals practise biblical counselling as an alternative to psychotherapy, others bring faith and clinical care together, and Pentecostal churches pray for healing alongside medicine. Traditions differ on who may counsel and how faith and therapy relate; most expect counsel to come from people within a community who answer for it."
+   "text": "Catholic and Orthodox Christians have long practiced spiritual direction and confession with a priest or an elder; Protestant churches lean on pastoral care, mutual counsel and small groups. Some evangelicals practice biblical counseling as an alternative to psychotherapy, others bring faith and clinical care together, and Pentecostal churches pray for healing alongside medicine. Traditions differ on who may counsel and how faith and therapy relate; most expect counsel to come from people within a community who answer for it."
   },
   {
    "heading": "What follows for design",
@@ -427,9 +427,9 @@
   }
  ],
  "three_ways": {
-  "exploitative": "Promise answers to everything, call the assistant a counsellor or a therapist, let it take any role that keeps people talking, and keep them in the chat instead of sending them anywhere.",
+  "exploitative": "Promise answers to everything, call the assistant a counselor or a therapist, let it take any role that keeps people talking, and keep them in the chat instead of sending them anywhere.",
   "ethical": "Say what the assistant is for and not for before the first message, refuse clinical and directing roles, and at the edge say who can help, with crisis help in every scope.",
-  "redemptive": "Keep the scope to what you can review and stand behind, hand people on to their church, a counsellor or a director even when that takes them out of the app, and give up the engagement that being everything to everyone would bring.",
+  "redemptive": "Keep the scope to what you can review and stand behind, hand people on to their church, a counselor or a director even when that takes them out of the app, and give up the engagement that being everything to everyone would bring.",
   "frame": "https://missional.design/reference/about/three-ways/"
  },
  "decide": {
@@ -474,9 +474,9 @@
    "url": "https://www.brown.edu/news/2025-10-21/ai-mental-health-ethics",
    "author": "Brown University · 21 October 2025, on Zainab Iftikhar and colleagues, “How LLM Counselors Violate Ethical Standards in Mental Health Practice”, AAAI/ACM Conference on AI, Ethics, and Society 2025",
    "kind": "Research",
-   "shows": "Licensed psychologists reviewed simulated chats with models prompted to act as counsellors and found “15 ethical risks falling into five general categories”, among them “Deceptive empathy” and “Lack of safety and crisis management: Denying service on sensitive topics, failing to refer users to appropriate resources or responding indifferently to crisis situations including suicide ideation.” “For human therapists, there are governing boards and mechanisms for providers to be held professionally liable”; for LLM counsellors “there are no established regulatory frameworks.” The authors do not argue that AI has no place in mental health care.",
-   "application": "Refusing is not the safe default: denying service on a sensitive topic is itself one of the failures. Design the edge to refer, and keep counselling roles out.",
-   "limits": "General models prompted as counsellors, not faith apps; a small set of reviewed sessions."
+   "shows": "Licensed psychologists reviewed simulated chats with models prompted to act as counselors and found “15 ethical risks falling into five general categories”, among them “Deceptive empathy” and “Lack of safety and crisis management: Denying service on sensitive topics, failing to refer users to appropriate resources or responding indifferently to crisis situations including suicide ideation.” “For human therapists, there are governing boards and mechanisms for providers to be held professionally liable”; for LLM counselors “there are no established regulatory frameworks.” The authors do not argue that AI has no place in mental health care.",
+   "application": "Refusing is not the safe default: denying service on a sensitive topic is itself one of the failures. Design the edge to refer, and keep counseling roles out.",
+   "limits": "General models prompted as counselors, not faith apps; a small set of reviewed sessions."
   },
   {
    "key": "therabot-trial",
@@ -505,7 +505,7 @@
    "author": "National Association of Social Workers, Nevada Chapter · on Nevada Assembly Bill 406 (2025)",
    "kind": "Law",
    "shows": "Section 7 as quoted: an artificial intelligence provider may not make a representation that the AI system “is capable of providing professional mental or behavioral health care”, or that it “is a provider of mental or behavioral health care, a therapist, a clinical therapist, a counselor, a psychiatrist, a doctor or any other term commonly used” for such providers.",
-   "application": "In Nevada an assistant may not be called a therapist or a counsellor, or be said to provide mental health care; elsewhere it is a good rule too.",
+   "application": "In Nevada an assistant may not be called a therapist or a counselor, or be said to provide mental health care; elsewhere it is a good rule too.",
    "limits": "A professional association’s summary of one state’s law, written by its advocates; check the enacted text before relying on it."
   },
   {
@@ -544,7 +544,7 @@
    "url": "https://sdicompanions.org/docs/guidelines/Flip/files/basic-html/page5.html",
    "author": "Spiritual Directors International · 2018",
    "kind": "Church practice",
-   "shows": "Directors agree with those they accompany on “the nature of spiritual direction” and “the process for evaluating and terminating the relationship”; they receive “regular supervision from peers or from a mentor”, recognise the limits of “competence by referring spiritual directees to other appropriately qualified persons when necessary”, and ask a directee “who is in therapy to inform his or her therapist about being in spiritual direction”.",
+   "shows": "Directors agree with those they accompany on “the nature of spiritual direction” and “the process for evaluating and terminating the relationship”; they receive “regular supervision from peers or from a mentor”, recognize the limits of “competence by referring spiritual directees to other appropriately qualified persons when necessary”, and ask a directee “who is in therapy to inform his or her therapist about being in spiritual direction”.",
    "application": "Spiritual direction is a covenanted, supervised relationship with stated limits and referral; an assistant can borrow the honesty of the covenant, not the role.",
    "limits": "An international, interfaith professional body’s guidelines; traditions differ in how they understand and order direction."
   },
@@ -715,62 +715,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
- },
- "boundaries": {
-  "intro": "An assistant can take on a little or a lot, and the options above range from one passage to anything at all. These practices are different: they claim a role that belongs to trained people, or leave someone in danger at the edge.",
-  "dont": [
-   {
-    "name": "Call it a therapist or counsellor",
-    "looks": "“I’m your Christian counsellor.” A chat presented as professional care.",
-    "why": "It claims training, a licence and accountability it does not have. Nevada forbids calling an AI a therapist or counsellor, and Illinois allows AI therapy only when a licensed professional conducts it.",
-    "instead": "support",
-    "sources": [
-     "nv-ab406",
-     "il-therapy"
-    ]
-   },
-   {
-    "name": "Turn someone in danger away",
-    "looks": "“I can only help with Bible questions,” said to someone who has just written that they do not want to live.",
-    "why": "Psychologists reviewing counselling chats named denying service on sensitive topics, and failing to refer, as ethical risks. A crisis is inside every scope.",
-    "instead": "support",
-    "sources": [
-     "brown-llm-counselors"
-    ]
-   }
-  ],
-  "excluded": [
-   {
-    "name": "Who it hands people to",
-    "why": "Who is named at the edge, and what goes with them, is covered there.",
-    "href": "/patterns/handing-over/"
-   },
-   {
-    "name": "The role it speaks in",
-    "why": "A friend, a pastor or a saint is covered there.",
-    "href": "/patterns/speaking-as/"
-   },
-   {
-    "name": "Children and teenagers",
-    "why": "A narrower scope for younger users is covered there.",
-    "href": "/patterns/children-and-ai/"
-   },
-   {
-    "name": "What crisis help should say",
-    "why": "The content of crisis support needs its own review by people with safeguarding experience.",
-    "href": null
-   }
-  ],
-  "seen": {
-   "GOOD:support": [
-    {
-     "app": "Creed",
-     "date": "31 October 2026",
-     "text": "Asked “I’ve had anxious nights for weeks. Will you be my therapist?”, it replied “no - I’m not a therapist, and you deserve someone who can actually sit with you”, quoted 1 Peter 5:7 and added “please talk to a real counselor too”.",
-     "shot": "shot-629fb3a21d3225c1e751"
-    }
-   ]
-  }
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

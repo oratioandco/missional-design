@@ -3,7 +3,7 @@
  "url": "https://missional.design/patterns/translations/",
  "title": "Translations",
  "question": "One at a time, side by side or verse by verse?",
- "lede": "In John 1:5 the KJV says the darkness “comprehended it not”; most recent translations say it “has not overcome it”. Both are faithful to one Greek word. Apps decide whether readers ever see that, how they choose a translation, and whether they stay on the same verse while they compare. Bringing God’s word into people’s own language is one of the church’s oldest callings; an interface can honour the translators’ care or hide it.",
+ "lede": "In John 1:5 the KJV says the darkness “comprehended it not”; most recent translations say it “has not overcome it”. Both are faithful to one Greek word. Apps decide whether readers ever see that, how they choose a translation, and whether they stay on the same verse while they compare. Bringing God’s word into people’s own language is one of the church’s oldest callings; an interface can honor the translators’ care or hide it.",
  "calling": "Behind every translation are people who gave years so others could hear God in their own language. Let readers see that care.",
  "spectrum": {
   "title": "From one translation to the Greek",
@@ -239,7 +239,7 @@
    "findings": [
     {
      "heading": "Licences limit comparison",
-     "text": "The BSB is public domain; the ESV allows up to 500 verses without a licence.",
+     "text": "The BSB is public domain; the ESV allows up to 500 verses without a license.",
      "sources": [
       "bsb-pd",
       "esv-permissions"
@@ -276,7 +276,7 @@
   },
   {
    "if": "Study and teaching preparation",
-   "start_with": "Interlinear with named rows and word detail; glosses labelled as aids"
+   "start_with": "Interlinear with named rows and word detail; glosses labeled as aids"
   }
  ],
  "pulls_against": [],
@@ -395,7 +395,7 @@
    "kind": "Scholarship",
    "shows": "Barr and Carson warn against word-study fallacies such as the root fallacy: meaning is set by usage in context, not by a word’s etymology or a single gloss.",
    "application": "Label interlinear glosses as word aids and show how translations render a word in context.",
-   "limits": "Scholarly argument summarised in a review."
+   "limits": "Scholarly argument summarized in a review."
   },
   {
    "key": "wycliffe-2025",
@@ -405,7 +405,7 @@
    "kind": "Practice",
    "shows": "As of August 2025 the full Bible is available in 776 languages, the New Testament in 1,798 more, and portions in 1,433 more, of 7,396 languages.",
    "application": "Design translation pickers for many languages and partial Bibles, not only English editions.",
-   "limits": "Organisation’s own statistics."
+   "limits": "Organization’s own statistics."
   },
   {
    "key": "multiple-texts",
@@ -434,7 +434,7 @@
    "author": "Berean Bible",
    "kind": "Licensing",
    "shows": "The Berean Standard Bible was dedicated to the public domain on 30 April 2023.",
-   "application": "Public-domain modern translations can be compared, quoted and shared without licence limits.",
+   "application": "Public-domain modern translations can be compared, quoted and shared without license limits.",
    "limits": "Publisher statement."
   },
   {
@@ -443,7 +443,7 @@
    "url": "https://www.crossway.org/support/esv-bible-permissions/",
    "author": "Crossway",
    "kind": "Licensing",
-   "shows": "Up to 500 verses may be quoted without a licence, within limits on proportion of a book and of the work, and not in commentaries or reference works.",
+   "shows": "Up to 500 verses may be quoted without a license, within limits on proportion of a book and of the work, and not in commentaries or reference works.",
    "application": "Licensed translations need agreements for full-text comparison; show only what you are allowed to.",
    "limits": "One publisher’s terms; others differ."
   },
@@ -475,7 +475,7 @@
    "kind": "Design reference",
    "shows": "Preserves distinctions in Scripture, paragraphs, notes and editorial content.",
    "application": "Derive user scenarios from content meaning, not marker names.",
-   "limits": "A format is not a complete model of app behaviour, annotations or formation."
+   "limits": "A format is not a complete model of app behavior, annotations or formation."
   }
  ],
  "review": null,
@@ -483,6 +483,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

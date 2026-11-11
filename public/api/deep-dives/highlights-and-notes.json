@@ -41,14 +41,14 @@
   },
   {
    "key": "labelled",
-   "name": "Labelled marks",
+   "name": "Labeled marks",
    "provenance": "Familiar convention",
-   "origin": "A familiar convention in study tools, which offer named highlighter styles. Here each label has its own shape, not only a colour.",
-   "gain": "Readable without colour",
+   "origin": "A familiar convention in study tools, which offer named highlighter styles. Here each label has its own shape, not only a color.",
+   "gain": "Readable without color",
    "cost": "A scheme to maintain",
-   "makes_easier": "A personal shorthand that is readable without colour and easy to find later.",
+   "makes_easier": "A personal shorthand that is readable without color and easy to find later.",
    "costs": "Asks for a decision before saving; labels can drift into a scheme to maintain.",
-   "ask_your_team": "Are labels optional, readable without colour, and owned by the reader?",
+   "ask_your_team": "Are labels optional, readable without color, and owned by the reader?",
    "still": "https://missional.design/assets/stills/try-marking-labelled.jpg"
   },
   {
@@ -86,8 +86,8 @@
    "text": "A review of study techniques rated highlighting low for learning, and decades of studies show people remember what they put in their own words. That does not make highlights pointless: they say “come back here”. Offer a note one tap away, never as a requirement."
   },
   {
-   "heading": "Colour cannot carry the meaning alone",
-   "text": "Marks, selection, search and read-along highlighting often share the same tint. Give each label a shape (underline, outline, wavy line) and show playback with a different cue, so the reader can tell a saved mark from a moving one without relying on colour."
+   "heading": "Color cannot carry the meaning alone",
+   "text": "Marks, selection, search and read-along highlighting often share the same tint. Give each label a shape (underline, outline, wavy line) and show playback with a different cue, so the reader can tell a saved mark from a moving one without relying on color."
   },
   {
    "heading": "A mark belongs to a translation, a note to the verse",
@@ -105,7 +105,7 @@
    "fit": {
     "Bookmark": "good fit",
     "Highlight": "possible",
-    "Labelled marks": "possible",
+    "Labeled marks": "possible",
     "Private note": "poor fit",
     "Shared note": "poor fit"
    }
@@ -116,7 +116,7 @@
    "fit": {
     "Bookmark": "poor fit",
     "Highlight": "good fit",
-    "Labelled marks": "good fit",
+    "Labeled marks": "good fit",
     "Private note": "possible",
     "Shared note": "poor fit"
    }
@@ -127,7 +127,7 @@
    "fit": {
     "Bookmark": "poor fit",
     "Highlight": "possible",
-    "Labelled marks": "good fit",
+    "Labeled marks": "good fit",
     "Private note": "good fit",
     "Shared note": "possible"
    }
@@ -138,7 +138,7 @@
    "fit": {
     "Bookmark": "possible",
     "Highlight": "possible",
-    "Labelled marks": "possible",
+    "Labeled marks": "possible",
     "Private note": "good fit",
     "Shared note": "poor fit"
    }
@@ -149,18 +149,18 @@
    "fit": {
     "Bookmark": "poor fit",
     "Highlight": "poor fit",
-    "Labelled marks": "poor fit",
+    "Labeled marks": "poor fit",
     "Private note": "possible",
     "Shared note": "good fit"
    }
   },
   {
    "situation": "Reading in greyscale or with a screen reader",
-   "needs": "Marks that are not only colour",
+   "needs": "Marks that are not only color",
    "fit": {
     "Bookmark": "good fit",
     "Highlight": "poor fit",
-    "Labelled marks": "good fit",
+    "Labeled marks": "good fit",
     "Private note": "good fit",
     "Shared note": "possible"
    }
@@ -212,7 +212,7 @@
    "findings": [
     {
      "heading": "Religious belief is special-category data",
-     "text": "Processing needs an Article 9 condition; inferences about belief from behaviour count too.",
+     "text": "Processing needs an Article 9 condition; inferences about belief from behavior count too.",
      "sources": [
       "gdpr",
       "ico-special-inferences"
@@ -227,8 +227,8 @@
      ]
     },
     {
-     "heading": "Not colour alone",
-     "text": "Colour must not be the only way to tell marks apart.",
+     "heading": "Not color alone",
+     "text": "Color must not be the only way to tell marks apart.",
      "sources": [
       "wcag-use-of-color"
      ]
@@ -247,7 +247,7 @@
   },
   {
    "if": "People study and want to find marks again",
-   "start_with": "A few labelled marks, each with its own shape"
+   "start_with": "A few labeled marks, each with its own shape"
   },
   {
    "if": "People pray and reflect",
@@ -287,12 +287,12 @@
  ],
  "three_ways": {
   "exploitative": "Notes are public by default to grow a feed, and locked into the app.",
-  "ethical": "Keep notes private by default, allow undo, and make every mark readable without colour.",
+  "ethical": "Keep notes private by default, allow undo, and make every mark readable without color.",
   "redemptive": "Let people export all their notes in an open format and take them elsewhere, giving up lock-in.",
   "frame": "https://missional.design/reference/about/three-ways/"
  },
  "decide": {
-  "question": "Can someone mark in one tap and undo, tell every mark apart without colour, and say exactly who can see each note?",
+  "question": "Can someone mark in one tap and undo, tell every mark apart without color, and say exactly who can see each note?",
   "exercise": "Ask three readers to mark Mark 4:39 as they would at home, then switch translation and explain where their mark went. Turn the screen to greyscale and repeat. Finally, ask who can see the note they wrote, and check.",
   "worksheet": "https://missional.design/guides/decision-review/"
  },
@@ -312,7 +312,7 @@
   {
    "slug": "highlight-actions",
    "title": "Mark a passage without interrupting the thought",
-   "summary": "Quick highlighting and deeper organisation can happen at different moments.",
+   "summary": "Quick highlighting and deeper organization can happen at different moments.",
    "url": "https://missional.design/patterns/highlights-and-notes/#family-highlight-actions"
   },
   {
@@ -412,7 +412,7 @@
    "kind": "Product documentation",
    "shows": "Distinguishes private activity, friends-only activity and Plan with Friends participation.",
    "application": "Make audience and activity visibility explicit.",
-   "limits": "Documented Android behaviour, not a captured or tested flow. Help text may change."
+   "limits": "Documented Android behavior, not a captured or tested flow. Help text may change."
   },
   {
    "key": "wcag-use-of-color",
@@ -420,8 +420,8 @@
    "url": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html",
    "author": "W3C WAI · WCAG 2.2 success criterion 1.4.1",
    "kind": "Accessibility",
-   "shows": "Colour must not be the only visual means of conveying information or distinguishing an element.",
-   "application": "Give each kind of mark a shape or label, and distinguish saved marks from selection and playback without colour.",
+   "shows": "Color must not be the only visual means of conveying information or distinguishing an element.",
+   "application": "Give each kind of mark a shape or label, and distinguish saved marks from selection and playback without color.",
    "limits": "Accessibility guidance."
   }
  ],
@@ -430,6 +430,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

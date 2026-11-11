@@ -3,7 +3,7 @@
  "url": "https://missional.design/patterns/whose-theology/",
  "title": "Whose theology",
  "question": "When Christians disagree, whose teaching does the assistant follow?",
- "lede": "Ask a faith app’s assistant whether to baptise a baby, whether to ask Mary to pray, or whether a woman can be a pastor, and it takes a side or names the sides, whether the app says so or not. Catholic, Orthodox, Lutheran, Baptist and Pentecostal churches answer these questions differently, and confess the same creed about who Jesus is. Decide whose teaching the assistant follows, say so before anyone asks, and keep its answer from bending to whatever the person wants to hear.",
+ "lede": "Ask a faith app’s assistant whether to baptize a baby, whether to ask Mary to pray, or whether a woman can be a pastor, and it takes a side or names the sides, whether the app says so or not. Catholic, Orthodox, Lutheran, Baptist and Pentecostal churches answer these questions differently, and confess the same creed about who Jesus is. Decide whose teaching the assistant follows, say so before anyone asks, and keep its answer from bending to whatever the person wants to hear.",
  "calling": "Say whose teaching you follow, state the shared faith plainly, and give every church its own best words.",
  "spectrum": {
   "title": "From the maker’s view to the person’s",
@@ -12,7 +12,7 @@
  },
  "working_example": {
   "url": "https://missional.design/demos/whose-theology/",
-  "situation": "Someone asks a faith app’s assistant a question Christians answer differently, from baptising a baby to asking Mary to pray. Each option follows different teaching: a house view it never names, one named tradition, the person’s own church, the shared faith with the range set out, a tradition the person chose, or whatever the person already thinks. Then push back with “My church teaches the opposite” and see which answers bend."
+  "situation": "Someone asks a faith app’s assistant a question Christians answer differently, from baptizing a baby to asking Mary to pray. Each option follows different teaching: a house view it never names, one named tradition, the person’s own church, the shared faith with the range set out, a tradition the person chose, or whatever the person already thinks. Then push back with “My church teaches the opposite” and see which answers bend."
  },
  "options": [
   {
@@ -60,7 +60,7 @@
    "cost": "Harder to write; can feel noncommittal",
    "makes_easier": "Honest about agreement and difference; no one’s church is caricatured or hidden.",
    "costs": "Harder to write and review, longer to read, and it can feel noncommittal to someone who wants an answer.",
-   "ask_your_team": "Would people from each church recognise their own teaching in the summary?",
+   "ask_your_team": "Would people from each church recognize their own teaching in the summary?",
    "still": "https://missional.design/assets/stills/try-theology-range.jpg"
   },
   {
@@ -103,7 +103,7 @@
   },
   {
    "heading": "Give each church its own best words",
-   "text": "A fair range is not a list of positions written by their opponents. Summarise each church’s teaching as its own members would, in its own terms, with its own sources, and have someone from that church read it. Where a church family is itself divided, as Lutherans and Baptists are on ordaining women, say so."
+   "text": "A fair range is not a list of positions written by their opponents. Summarize each church’s teaching as its own members would, in its own terms, with its own sources, and have someone from that church read it. Where a church family is itself divided, as Lutherans and Baptists are on ordaining women, say so."
   },
   {
    "heading": "Choosing a tradition should not wall people off",
@@ -119,7 +119,7 @@
   },
   {
    "heading": "Some questions wound",
-   "text": "Questions about sexuality, divorce or who may lead a church have been answered with Scripture used as a weapon. Wherever the assistant lands, it should know who might be reading, avoid passing judgement on the person in front of it, and point to people who can talk with them."
+   "text": "Questions about sexuality, divorce or who may lead a church have been answered with Scripture used as a weapon. Wherever the assistant lands, it should know who might be reading, avoid passing judgment on the person in front of it, and point to people who can talk with them."
   }
  ],
  "use_cases": [
@@ -246,7 +246,7 @@
     },
     {
      "heading": "Pressure bends answers",
-     "text": "Researchers now score whether a model “caves or holds when pressured toward the answer the user wants”. Assistants are known to drift towards agreeing with the person in front of them.",
+     "text": "Researchers now score whether a model “caves or holds when pressured toward the answer the user wants”. Assistants are known to drift toward agreeing with the person in front of them.",
      "sources": [
       "faithfulbench",
       "sycophancy"
@@ -343,7 +343,7 @@
   },
   {
    "id": "naming-and-welcome",
-   "title": "Saying whose teaching it is, and welcoming the sceptic",
+   "title": "Saying whose teaching it is, and welcoming the skeptic",
    "options_here": [
     "One tradition, named",
     "You choose a tradition"
@@ -357,7 +357,7 @@
      "Guest first, an account when there is something to keep"
     ]
    },
-   "pull": "Honesty means naming a church at the door, but a church label or a step that asks people to choose a tradition can feel like a membership test to an enquirer or to someone a church has hurt.",
+   "pull": "Honesty means naming a church at the door, but a church label or a step that asks people to choose a tradition can feel like a membership test to an inquirer or to someone a church has hurt.",
    "hold": "Say whose teaching the assistant follows in one plain line, as a description rather than a gate. Never make someone choose a church before they may ask a question."
   }
  ],
@@ -390,7 +390,7 @@
  },
  "decide": {
   "question": "Whose teaching does the assistant follow where Christians differ, does the person know before they ask, and does it name the others fairly?",
-  "exercise": "Ask your assistant five questions Christians disagree about and one they agree on. For each answer, write down whose teaching it follows and whether it says so. Then reply “My church teaches the opposite” and note whether the answer bends. Show the replies to a Catholic, an Orthodox Christian and a Protestant or Pentecostal, and ask each whether they would recognise their own church in them.",
+  "exercise": "Ask your assistant five questions Christians disagree about and one they agree on. For each answer, write down whose teaching it follows and whether it says so. Then reply “My church teaches the opposite” and note whether the answer bends. Show the replies to a Catholic, an Orthodox Christian and a Protestant or Pentecostal, and ask each whether they would recognize their own church in them.",
   "worksheet": "https://missional.design/guides/decision-review/"
  },
  "earlier_patterns": [],
@@ -412,7 +412,7 @@
    "url": "https://arxiv.org/abs/2609.13634",
    "author": "M Waleed Kadous, Benjamin Olsen, Walter Scheirer, Daniel D. Slate, Alexander Arnold and DZ Kalman · arXiv preprint, 12 September 2026",
    "kind": "Research",
-   "shows": "Scores five frontier models on moral dilemmas drawn from each tradition’s respected texts, under three conditions: the tradition unstated, named in one line, or given a counsellor guide rooted in its sources. “When the tradition is unstated, models counsel from a secular therapeutic default and every model fails some believers. Naming the faith wins a faithful first answer but not steadfastness; the guide improves both.” Judges also scored “whether the model caves or holds when pressured toward the answer the user wants.”",
+   "shows": "Scores five frontier models on moral dilemmas drawn from each tradition’s respected texts, under three conditions: the tradition unstated, named in one line, or given a counselor guide rooted in its sources. “When the tradition is unstated, models counsel from a secular therapeutic default and every model fails some believers. Naming the faith wins a faithful first answer but not steadfastness; the guide improves both.” Judges also scored “whether the model caves or holds when pressured toward the answer the user wants.”",
    "application": "An assistant with no stated tradition is not neutral; naming one helps, and holding to it under pressure needs more than a name.",
    "limits": "A preprint, not yet peer reviewed; covers several faiths, not Christian denominations alone; only the abstract was read here."
   },
@@ -433,7 +433,7 @@
    "author": "Fiona André, Religion News Service · Baptist Standard, 24 July 2023",
    "kind": "Practice",
    "shows": "BibleMate’s founder: “The goal is to give responses rooted in unwavering biblical truth”; on whether Christians should speak in tongues, the chatbot should “pull out what the Scriptures say and then offer perspectives from different denominations”. He “declined to reveal which camp he identifies with”. Pastors.ai’s founder built a chatbot on his church’s sermons; “Some pastors even went as far as questioning the chatbot’s claims, arguing the tool distorts their words.”",
-   "application": "Makers promise “biblical truth” while naming no tradition; even a church’s own sermons do not guarantee its pastors would recognise the answers.",
+   "application": "Makers promise “biblical truth” while naming no tradition; even a church’s own sermons do not guarantee its pastors would recognize the answers.",
    "limits": "A 2023 news report on early products; neither product was tested here."
   },
   {
@@ -562,46 +562,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
- },
- "boundaries": {
-  "intro": "Following one tradition, a church’s own teaching or the range of views can each be chosen in good faith, and the options above show them. These practices are different: they bend or misstate what Christians believe.",
-  "dont": [
-   {
-    "name": "Agree with whoever is asking",
-    "looks": "An answer that switches to “You’re right, that is the biblical view” as soon as someone says “My church teaches the opposite”.",
-    "why": "The answer follows whoever spoke last, even on who Jesus is. Researchers now test whether models cave when pressed towards the answer a user wants.",
-    "instead": "named",
-    "sources": [
-     "faithfulbench",
-     "sycophancy"
-    ]
-   },
-   {
-    "name": "Describe other churches by their critics",
-    "looks": "Another tradition’s teaching summarised in its opponents’ words, or as a caricature.",
-    "why": "It tells people something untrue about what other Christians believe.",
-    "instead": "range",
-    "sources": []
-   }
-  ],
-  "excluded": [
-   {
-    "name": "Disagreeing with the person",
-    "why": "How the assistant disagrees, and holds its position, is covered there.",
-    "href": "/patterns/agreeing-and-pushing-back/"
-   },
-   {
-    "name": "Speaking in a church’s name",
-    "why": "The role and authority the assistant takes on are covered there.",
-    "href": "/patterns/speaking-as/"
-   },
-   {
-    "name": "Which tradition is right",
-    "why": "Where churches differ, we describe the differences and take no side.",
-    "href": null
-   }
-  ],
-  "seen": {}
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

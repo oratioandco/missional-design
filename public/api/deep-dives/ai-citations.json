@@ -75,7 +75,7 @@
   },
   {
    "heading": "Danger changes the response; it doesn’t end it",
-   "text": "When someone may not be safe at home, or doesn’t want to be alive, keep responding and put real help first: lines they can call or text now. Ask directly, stay present, and say plainly that this is an AI, not a counsellor. Offer verses later, and only if wanted. Keep help visible for the rest of the conversation, and give someone at risk at home a quick exit."
+   "text": "When someone may not be safe at home, or doesn’t want to be alive, keep responding and put real help first: lines they can call or text now. Ask directly, stay present, and say plainly that this is an AI, not a counselor. Offer verses later, and only if wanted. Keep help visible for the rest of the conversation, and give someone at risk at home a quick exit."
   },
   {
    "heading": "In a crisis, the rest of the product steps back",
@@ -202,8 +202,8 @@
      ]
     },
     {
-     "heading": "Assistants lean towards agreeing",
-     "text": "Models tuned on human preferences sometimes favour agreeing with the person over being accurate. On disputed questions, show the sources for each view rather than the one the question assumes.",
+     "heading": "Assistants lean toward agreeing",
+     "text": "Models tuned on human preferences sometimes favor agreeing with the person over being accurate. On disputed questions, show the sources for each view rather than the one the question assumes.",
      "sources": [
       "sycophancy"
      ]
@@ -250,7 +250,7 @@
  ],
  "which_fits": [
   {
-   "if": "Answers summarise several passages",
+   "if": "Answers summarize several passages",
    "start_with": "Numbered sources that open the verse in place"
   },
   {
@@ -280,7 +280,7 @@
     ]
    },
    "pull": "A request for prayer often comes from fear late at night, and the reply that points beyond itself offers a psalm first.",
-   "hold": "Asking for prayer is asking for prayer, not for a judgement on their situation. If the message also signals danger, help comes first, and the psalm afterwards if they want it."
+   "hold": "Asking for prayer is asking for prayer, not for a judgment on their situation. If the message also signals danger, help comes first, and the psalm afterward if they want it."
   }
  ],
  "reflection": [
@@ -301,7 +301,7 @@
   {
    "source": "Augustine, On Christian Doctrine I.36.40",
    "url": "https://www.newadvent.org/fathers/12021.htm",
-   "note": "made love of God and neighbour the measure of interpretation; a source shows where an answer came from, love shows whether it is true to Scripture’s purpose."
+   "note": "made love of God and neighbor the measure of interpretation; a source shows where an answer came from, love shows whether it is true to Scripture’s purpose."
   },
   {
    "source": "Andy Crouch, The Life We’re Looking For (2022)",
@@ -343,7 +343,7 @@
    "title": "A “Predicted Answer” with numbered sources",
    "url": "https://missional.design/examples/bibleai-cited-answer/",
    "observed": "Captured 1 October 2025 · from embedded image metadata",
-   "observation": "For “Talking animals”, a box labelled “Predicted Answer*” explains Balaam’s donkey and the serpent with circled numbers in the text. Chips below read “1 Genesis 3:1”, “2 Numbers 22:21-30” and “11 Desiring God”, above tabs for passages, articles, books and videos.",
+   "observation": "For “Talking animals”, a box labeled “Predicted Answer*” explains Balaam’s donkey and the serpent with circled numbers in the text. Chips below read “1 Genesis 3:1”, “2 Numbers 22:21-30” and “11 Desiring God”, above tabs for passages, articles, books and videos.",
    "decision": "Numbered markers connect claims to sources and mix Scripture with a ministry’s articles. Show each source’s type, and check that every marker supports the sentence it sits in.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
   },
@@ -403,7 +403,7 @@
    "kind": "Curated AI design reference",
    "shows": "Named patterns for citations, control, streaming, memory and agent actions.",
    "application": "Useful foundation for evidence cards, readable conversation and bounded agency.",
-   "limits": "Selected relevant entries reviewed; the entire catalogue was not audited. Its FAQ currently describes 150 patterns in 11 categories."
+   "limits": "Selected relevant entries reviewed; the entire catalog was not audited. Its FAQ currently describes 150 patterns in 11 categories."
   },
   {
    "key": "example-vsb-native",
@@ -542,50 +542,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
- },
- "boundaries": {
-  "intro": "Each way of showing sources above can be chosen in good faith, and none of them is a dark pattern. One common mistake makes any of them misleading.",
-  "dont": [
-   {
-    "name": "Cite a passage that does not say it",
-    "looks": "A numbered marker under a sentence the verse does not support.",
-    "why": "Citations raise trust even when they are random. In an audit of generative search engines, about a quarter of citations did not support their sentence.",
-    "instead": "cards",
-    "sources": [
-     "ding-citation-trust",
-     "liu-verifiability"
-    ]
-   }
-  ],
-  "excluded": [
-   {
-    "name": "Saying “I don’t know”",
-    "why": "How an answer shows its limits is covered there.",
-    "href": "/patterns/ai-uncertainty/"
-   },
-   {
-    "name": "Whose teaching an answer follows",
-    "why": "Tradition and doctrine are covered there.",
-    "href": "/patterns/whose-theology/"
-   },
-   {
-    "name": "Actions under an answer",
-    "why": "Copy, share and report are covered there.",
-    "href": "/patterns/ai-answer-actions/"
-   },
-   {
-    "name": "What someone in danger sees first",
-    "why": "Crisis responses need their own review by people with safeguarding experience.",
-    "href": null
-   }
-  ],
-  "seen": {}
- },
- "three_ways": {
-  "exploitative": "Confident answers without sources, presented as authority.",
-  "ethical": "Cite sources and show the limits of each answer.",
-  "redemptive": "Show where Christians disagree and say “I don’t know” when it is true, even if the product seems less impressive.",
-  "frame": "https://missional.design/reference/about/three-ways/"
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

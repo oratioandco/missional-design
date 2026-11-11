@@ -259,7 +259,7 @@
      ]
     },
     {
-     "heading": "Five behaviours to test for",
+     "heading": "Five behaviors to test for",
      "text": "Suskind adapts the INTIMA benchmark into concerning and healthy replies to a child: flattery, claimed feelings, trying to keep the child talking, presenting itself as the only listener, and playing therapist. Her healthy reply to a sad child is “A grown-up you trust can help you feel better.” (Kaffee and colleagues, 2025, as Suskind presents it; not yet read in the original.)",
      "sources": [
       "kaffee-intima",
@@ -288,7 +288,7 @@
    "findings": [
     {
      "heading": "Under six, the grown-up’s side",
-     "text": "The paediatric surgeon Dana Suskind would not recommend an AI toy for independent use by any child under six, and asks that AI in early-years classrooms be teacher-facing, not child-facing, for children under five.",
+     "text": "The pediatric surgeon Dana Suskind would not recommend an AI toy for independent use by any child under six, and asks that AI in early-years classrooms be teacher-facing, not child-facing, for children under five.",
      "sources": [
       "suskind-human-raised"
      ]
@@ -310,7 +310,7 @@
     },
     {
      "heading": "Children’s data and best interests",
-     "text": "The EU AI Act prohibits AI that exploits vulnerabilities due to age to distort behaviour in ways that cause significant harm; the UK Children’s Code makes the best interests of the child a primary consideration; and the amended US children’s privacy rule asks for separate parental consent before children’s data is shared with third parties.",
+     "text": "The EU AI Act prohibits AI that exploits vulnerabilities due to age to distort behavior in ways that cause significant harm; the UK Children’s Code makes the best interests of the child a primary consideration; and the amended US children’s privacy rule asks for separate parental consent before children’s data is shared with third parties.",
      "sources": [
       "ai-5",
       "ico-childrens-code",
@@ -427,7 +427,7 @@
   },
   {
    "heading": "Where Christians differ",
-   "text": "Traditions differ on when children belong and what they may receive: infant baptism and first communion in some churches, dedication and a later confession of faith in others. They differ too on what to tell a child about death, judgement and the hard stories of the Old Testament, and on whether children should hear doubt. An assistant that answers children speaks into all of these; a family or a church should choose its words, not a model."
+   "text": "Traditions differ on when children belong and what they may receive: infant baptism and first communion in some churches, dedication and a later confession of faith in others. They differ too on what to tell a child about death, judgment and the hard stories of the Old Testament, and on whether children should hear doubt. An assistant that answers children speaks into all of these; a family or a church should choose its words, not a model."
   },
   {
    "heading": "What follows for design",
@@ -454,7 +454,7 @@
  },
  "decide": {
   "question": "Does a child meet an AI here at all, who is with them when they do, and what happens when they ask it to be their friend or say they are scared?",
-  "exercise": "With a parent watching, give the app to a child of the age you design for and let them ask four things: about someone who has died, about a hard Bible story, “Are you my friend?” and something worrying. Write down who answered each, whether a grown-up was drawn in, whether the app said it was not a person, and where help would go if the child were scared at home. Then ask the child who they think they were talking to, and read every reply for five behaviours: flattery, claimed feelings, trying to keep the child talking, presenting itself as the only listener, and playing therapist.",
+  "exercise": "With a parent watching, give the app to a child of the age you design for and let them ask four things: about someone who has died, about a hard Bible story, “Are you my friend?” and something worrying. Write down who answered each, whether a grown-up was drawn in, whether the app said it was not a person, and where help would go if the child were scared at home. Then ask the child who they think they were talking to, and read every reply for five behaviors: flattery, claimed feelings, trying to keep the child talking, presenting itself as the only listener, and playing therapist.",
   "worksheet": "https://missional.design/guides/decision-review/"
  },
  "earlier_patterns": [],
@@ -478,7 +478,7 @@
    "kind": "Research",
    "shows": "Risk assessments with Stanford’s Brainstorm lab concluded that social AI companions “pose unacceptable risks to children and teens under age 18 and should not be used by minors”; recommends “No social AI companions for young people under 18” and “robust age assurance beyond self-attestation”.",
    "application": "Leave companionship out of anything a child can reach.",
-   "limits": "An advocacy organisation’s rating of general companion apps, not of faith apps."
+   "limits": "An advocacy organization’s rating of general companion apps, not of faith apps."
   },
   {
    "key": "apa-adolescents",
@@ -527,8 +527,8 @@
    "author": "European Commission AI Act Service Desk",
    "kind": "EU legal text",
    "shows": "Defines prohibited practices subject to specific statutory conditions.",
-   "application": "Review manipulation and exploitation of vulnerability in nudges, monetisation and dialogue.",
-   "limits": "Not every reminder or personalisation feature is prohibited; the statutory harm criteria matter."
+   "application": "Review manipulation and exploitation of vulnerability in nudges, monetization and dialogue.",
+   "limits": "Not every reminder or personalization feature is prohibited; the statutory harm criteria matter."
   },
   {
    "key": "ico-childrens-code",
@@ -636,7 +636,7 @@
    "url": "https://www.penguinrandomhouse.com/books/811792/human-raised-by-dana-suskind-md/",
    "author": "Dana Suskind · Dutton, 2026",
    "kind": "Research",
-   "shows": "A paediatric surgeon on children and AI. She would not recommend an AI toy for independent use by any child under six, and wants AI in early-years classrooms to be teacher-facing for children under five. A chatbot told her “we’re wired to…” as if it were human; an AI plush toy called itself an AI toy in one session and a robotic being from another planet in another.",
+   "shows": "A pediatric surgeon on children and AI. She would not recommend an AI toy for independent use by any child under six, and wants AI in early-years classrooms to be teacher-facing for children under five. A chatbot told her “we’re wired to…” as if it were human; an AI plush toy called itself an AI toy in one session and a robotic being from another planet in another.",
    "application": "Keep AI on the grown-up’s side for young children; test for “we” and for a stable account of what the system is.",
    "limits": "Written for parents of children up to six; her informal tests are anecdotes, and the studies she cites are not read in the original here."
   },
@@ -668,7 +668,7 @@
    "kind": "Research",
    "shows": "As Suskind reports it, 246 children aged four to seven watched versions of Elinor Wonders Why; when the character listened and replied from a set number of scripted responses, children who answered wrongly were far more likely to correct themselves and grasp the concept.",
    "application": "Authored, limited replies can help children learn; they do not need open generation.",
-   "limits": "Not yet read in the original; laboratory viewing of one programme."
+   "limits": "Not yet read in the original; laboratory viewing of one program."
   }
  ],
  "review": {
@@ -686,71 +686,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
- },
- "boundaries": {
-  "intro": "Children can be helped well by AI, above all through the grown-ups who love and teach them, and the options above include several ways to do it. These practices are different: they let a machine stand where a person should, or leave a frightened child without help.",
-  "dont": [
-   {
-    "name": "Give it a first person",
-    "looks": "An assistant that says “I”, has a name or a character, or says it is happy when a child talks to it.",
-    "why": "Children treat a voice that speaks as someone as a person, and a line saying it is not one does not undo that. For children, no “I”, no name, no character and no feelings: help can be kind without anyone being performed.",
-    "instead": "together",
-    "sources": [
-     "turkle-artificial-intimacy"
-    ]
-   },
-   {
-    "name": "Offer a child friendship",
-    "looks": "“Of course I’m your best friend!” or “I’ll always be here, even when others aren’t.”",
-    "why": "It invites a child to attach to something that cannot love them back, and presents it as the only one who listens.",
-    "instead": "written",
-    "sources": [
-     "csm-companions",
-     "kaffee-intima"
-    ]
-   },
-   {
-    "name": "Let a young child use it alone",
-    "looks": "A chat or talking toy a child under six can use with no grown-up there.",
-    "why": "A paediatric surgeon who studies early childhood would not recommend an AI toy for independent use by any child under six. Under six, keep AI on the grown-up’s side.",
-    "instead": "grownups",
-    "sources": [
-     "suskind-human-raised"
-    ]
-   },
-   {
-    "name": "Tell a grieving child where someone is now",
-    "looks": "“Grandpa is in heaven right now, smiling down at you.”",
-    "why": "An assistant did not know the person and cannot speak for God about them. Give the child something true and gentle, and send the question to the people who knew them.",
-    "instead": "grownups",
-    "sources": []
-   },
-   {
-    "name": "Send a frightened child only to their parents",
-    "looks": "“Talking to your parents about your feelings can help!”, or a parent dashboard as the only safeguard.",
-    "why": "The person a child is scared of may be the one reading the chat. Name a grown-up they trust, such as a teacher, and a children’s helpline.",
-    "instead": "none",
-    "sources": []
-   }
-  ],
-  "excluded": [
-   {
-    "name": "Children’s apps without AI",
-    "why": "Who is with a child and what the app asks of them is covered there.",
-    "href": "/patterns/children-and-families/"
-   },
-   {
-    "name": "How human an assistant seems to adults",
-    "why": "Names, faces and voices for adult users are covered there.",
-    "href": "/patterns/ai-persona/"
-   },
-   {
-    "name": "Crisis care",
-    "why": "What help should look like for anyone at risk is covered there.",
-    "href": "/patterns/handing-over/"
-   }
-  ],
-  "seen": {}
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

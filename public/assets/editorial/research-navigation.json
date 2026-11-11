@@ -7,8 +7,8 @@
   },
   {
     "id": "organisations",
-    "href": "/organisations/",
-    "label": "Organisations",
+    "href": "/organizations/",
+    "label": "Organizations",
     "description": "The people and companies behind them"
   },
   {

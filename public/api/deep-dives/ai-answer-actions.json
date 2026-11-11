@@ -34,7 +34,7 @@
    "origin": "Common in chat and content apps: the main actions visible, the rest in a menu with labels.",
    "gain": "The common three, clearly",
    "cost": "Rating is one tap further",
-   "makes_easier": "Copy, share and sources are easy to find, and the rest are labelled in words.",
+   "makes_easier": "Copy, share and sources are easy to find, and the rest are labeled in words.",
    "costs": "Rating, branching and reporting take one more tap, so they are used less.",
    "ask_your_team": "What do you lose if fewer people rate or report answers?",
    "still": "https://missional.design/assets/stills/try-actions-more.jpg"
@@ -67,7 +67,7 @@
  "takeaways": [
   {
    "heading": "Two or three actions, the rest behind More",
-   "text": "Ten unlabelled icons are a puzzle on a phone. Most people need two or three actions; the rest are easier to understand as labelled rows behind “More”."
+   "text": "Ten unlabelled icons are a puzzle on a phone. Most people need two or three actions; the rest are easier to understand as labeled rows behind “More”."
   },
   {
    "heading": "What travels matters most",
@@ -135,7 +135,7 @@
   },
   {
    "situation": "Screen readers or large text",
-   "needs": "Few, labelled actions",
+   "needs": "Few, labeled actions",
    "fit": {
     "Every action in a row": "poor fit",
     "Three, then More": "good fit",
@@ -162,7 +162,7 @@
    "findings": [
     {
      "heading": "Icons need words",
-     "text": "Few icons are recognised by everyone, and labels revealed on hover do not work on touch screens. Label the actions people need, and put the rest in a labelled menu.",
+     "text": "Few icons are recognized by everyone, and labels revealed on hover do not work on touch screens. Label the actions people need, and put the rest in a labeled menu.",
      "sources": [
       "nng-icons"
      ]
@@ -177,7 +177,7 @@
     },
     {
      "heading": "Regenerating can become shopping",
-     "text": "Assistants sometimes favour agreeing over accuracy; trying again until the answer agrees compounds it. Keep the original first and every version visible.",
+     "text": "Assistants sometimes favor agreeing over accuracy; trying again until the answer agrees compounds it. Keep the original first and every version visible.",
      "sources": [
       "sycophancy",
       "chatgpt-branch"
@@ -214,7 +214,7 @@
    "start_with": "Put bookmark and share on the passages instead of the answer"
   },
   {
-   "if": "Reflective use, with little to do afterwards",
+   "if": "Reflective use, with little to do afterward",
    "start_with": "No bar, but keep a way to report problems"
   }
  ],
@@ -267,7 +267,7 @@
    "url": "https://missional.design/examples/sparkbible-ai-feedback/",
    "observed": "Captured 27 September 2025 · from embedded image metadata",
    "observation": "A numbered list of results for “Talking animals” (Revelation 5:13, Psalm 104:25-26, Matthew 7:6…) ends with “These results are generated with the assistance of a specially-tuned AI model. Your feedback helps us improve these results:” and thumbs-up and thumbs-down buttons. A “Plus” upsell banner sits above.",
-   "decision": "Labelling AI help where the results end is honest; say what happens to the feedback, and keep upsells apart from the label so one is not read as the other.",
+   "decision": "Labeling AI help where the results end is honest; say what happens to the feedback, and keep upsells apart from the label so one is not read as the other.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
   }
  ],
@@ -338,8 +338,8 @@
    "url": "https://www.nngroup.com/articles/icon-usability/",
    "author": "Aurora Harley · Nielsen Norman Group · 2014",
    "kind": "Design reference",
-   "shows": "Few icons are universally recognised; “Icon labels should be visible at all times”, and hover-only labels fail on touch screens.",
-   "application": "A row of unlabelled icons under an answer asks people to guess; label them, or keep two or three and put the rest in a labelled menu.",
+   "shows": "Few icons are universally recognized; “Icon labels should be visible at all times”, and hover-only labels fail on touch screens.",
+   "application": "A row of unlabelled icons under an answer asks people to guess; label them, or keep two or three and put the rest in a labeled menu.",
    "limits": "Practitioner guidance from usability testing, not a controlled study."
   },
   {
@@ -378,36 +378,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
- },
- "boundaries": {
-  "intro": "Each set of actions above can be chosen in good faith, and none of them is a dark pattern. One common mistake is worth naming.",
-  "dont": [
-   {
-    "name": "Share an answer as if it were Scripture",
-    "looks": "A share card with the generated answer in verse styling, and no AI label or reference.",
-    "why": "Whoever receives it cannot tell generated interpretation from Scripture.",
-    "instead": "passage",
-    "sources": []
-   }
-  ],
-  "excluded": [
-   {
-    "name": "How sources are shown",
-    "why": "Citations inside the answer are covered there.",
-    "href": "/patterns/ai-citations/"
-   },
-   {
-    "name": "Asking again until it agrees",
-    "why": "Answers that change to please are covered there.",
-    "href": "/patterns/agreeing-and-pushing-back/"
-   },
-   {
-    "name": "What happens to ratings",
-    "why": "Whether feedback trains a model is a team’s own decision; the page above asks only that people are told.",
-    "href": null
-   }
-  ],
-  "seen": {}
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

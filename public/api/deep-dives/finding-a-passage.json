@@ -22,7 +22,7 @@
    "origin": "A widely used structure, generalized here. Not a copy of a particular app.",
    "gain": "One question per screen",
    "cost": "Many taps for a known reference",
-   "makes_easier": "Each screen asks one question, with large targets. Readers who recognise a book name but do not remember a reference can always get there.",
+   "makes_easier": "Each screen asks one question, with large targets. Readers who recognize a book name but do not remember a reference can always get there.",
    "costs": "Several screens for a destination the person already knows. Sixty-six books make a long list; a grid is shorter but relies on abbreviations.",
    "ask_your_team": "Do most of your readers know where they are going, or are they finding out?",
    "still": "https://missional.design/assets/stills/try-picker-steps.jpg"
@@ -202,7 +202,7 @@
    "findings": [
     {
      "heading": "People reach Scripture in several ways",
-     "text": "Lifeway’s 2024 survey finds looking up passages, reading ones suggested by others, rereading favourites and reading systematically overlap in the same people. One route will not serve all of them.",
+     "text": "Lifeway’s 2024 survey finds looking up passages, reading ones suggested by others, rereading favorites and reading systematically overlap in the same people. One route will not serve all of them.",
      "sources": [
       "lifeway-reading-2024"
      ]
@@ -229,7 +229,7 @@
    "findings": [
     {
      "heading": "Recognition is easier than recall",
-     "text": "Interfaces that show the options ask less of memory than fields that need someone to remember and type. Browsing books and chapters asks people to recognise; a reference field asks them to recall. Offer both.",
+     "text": "Interfaces that show the options ask less of memory than fields that need someone to remember and type. Browsing books and chapters asks people to recognize; a reference field asks them to recall. Offer both.",
      "sources": [
       "nng-recall"
      ]
@@ -275,7 +275,7 @@
  "reflection": [
   {
    "heading": "What finding the place is for",
-   "text": "In Nazareth, Jesus unrolled the scroll and “found the place where it was written” (Luke 4:17). Knowing where a passage sits, in which book and among which neighbours, is part of understanding it. Finding the place is a small act of attention before reading."
+   "text": "In Nazareth, Jesus unrolled the scroll and “found the place where it was written” (Luke 4:17). Knowing where a passage sits, in which book and among which neighbors, is part of understanding it. Finding the place is a small act of attention before reading."
   },
   {
    "heading": "Where Christians differ",
@@ -331,7 +331,7 @@
   {
    "slug": "smart-passage-search",
    "title": "One field for browsing, references and AI discovery",
-   "summary": "Let one input filter books, recognise a reference and suggest passages, while making each result’s origin clear.",
+   "summary": "Let one input filter books, recognize a reference and suggest passages, while making each result’s origin clear.",
    "url": "https://missional.design/patterns/finding-a-passage/#family-smart-passage-search"
   }
  ],
@@ -350,7 +350,7 @@
    "title": "Book list with an inline chapter grid",
    "url": "https://missional.design/examples/mere-expandable-picker/",
    "observed": "Supplied 6 October 2026 · capture date not provided",
-   "observation": "Deuteronomy is expanded within the Books list. Its 34 chapters appear as a grid, chapter 25 is coloured, and neighbouring book rows remain in the same list.",
+   "observation": "Deuteronomy is expanded within the Books list. Its 34 chapters appear as a grid, chapter 25 is colored, and neighbouring book rows remain in the same list.",
    "decision": "An accordion preserves book-list context while revealing chapters. Plan for long grids, keeping the selected chapter visible, and restoring position when a book collapses.",
    "limits": "Still images show interface states. Reveal gestures, drag timing, touch targets, screen-reader support and preference persistence were not independently tested. App build is not recorded."
   },
@@ -418,7 +418,7 @@
    "kind": "Design reference",
    "shows": "Preserves distinctions in Scripture, paragraphs, notes and editorial content.",
    "application": "Derive user scenarios from content meaning, not marker names.",
-   "limits": "A format is not a complete model of app behaviour, annotations or formation."
+   "limits": "A format is not a complete model of app behavior, annotations or formation."
   },
   {
    "key": "wcag-reflow",
@@ -438,7 +438,7 @@
    "kind": "Contributed app screenshots",
    "shows": "Shows an in-context chapter rail, expandable book list with inline chapter grid, reading-settings drawer and translation sheet.",
    "application": "Compare these observed arrangements with original pattern proposals.",
-   "limits": "Still images establish visible states, not gesture timing, accessibility, persistence or exact interaction behaviour."
+   "limits": "Still images establish visible states, not gesture timing, accessibility, persistence or exact interaction behavior."
   },
   {
    "key": "mere-current",
@@ -497,7 +497,7 @@
    "author": "Raluca Budiu · Nielsen Norman Group · 2024",
    "kind": "Design reference",
    "shows": "“Recognition is easier than recall because it involves more cues”: interfaces that show options ask less of memory than ones that require people to remember and type.",
-   "application": "Browsing books and chapters asks people to recognise; a reference field asks them to recall. Offer both.",
+   "application": "Browsing books and chapters asks people to recognize; a reference field asks them to recall. Offer both.",
    "limits": "Practitioner guidance drawing on memory research."
   },
   {
@@ -526,6 +526,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

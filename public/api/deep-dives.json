@@ -29,12 +29,13 @@
    "question": "How human should the assistant seem?",
    "options": [
     "Plain tool (Familiar convention)",
-    "Labelled assistant (Familiar convention)",
+    "Help without a speaker (Exploratory)",
+    "Labeled assistant (Familiar convention)",
     "Named assistant (Exploratory)",
     "An answer receipt (Borrowed)",
     "Persona (Observed)",
     "Companion (Observed)",
-    "Biblical character (Observed)"
+    "Biblical character (Warning case)"
    ],
    "decide": "Would a reasonable person believe someone who knows, loves or prays for them is here, and can they leave freely?",
    "review": null,
@@ -107,11 +108,11 @@
    "options": [
     "Bookmark (Familiar convention)",
     "Highlight (Observed)",
-    "Labelled marks (Familiar convention)",
+    "Labeled marks (Familiar convention)",
     "Private note (Familiar convention)",
     "Shared note (Observed)"
    ],
-   "decide": "Can someone mark in one tap and undo, tell every mark apart without colour, and say exactly who can see each note?",
+   "decide": "Can someone mark in one tap and undo, tell every mark apart without color, and say exactly who can see each note?",
    "review": null,
    "earlier_patterns": [
     "annotation-anchors",
@@ -152,7 +153,9 @@
     "Sequence (Observed)",
     "Weekly rhythm (Familiar convention)",
     "Daily readings (Familiar convention)",
-    "Streak (Observed)"
+    "Streak (Warning case)",
+    "Whole passage (Borrowed)",
+    "Stay with a passage (Exploratory)"
    ],
    "decide": "After nine days away, does the plan offer a good place to start, or a bill?",
    "review": null,
@@ -172,7 +175,9 @@
     "Guided steps (Observed)",
     "People I pray for (Observed)",
     "Quiet prayer (Familiar convention)",
-    "Counted prayer (Observed)"
+    "Counted prayer (Warning case)",
+    "Same prayer, then silence (Borrowed)",
+    "Carry one intention (Exploratory)"
    ],
    "decide": "Could someone pray here meaningfully and leave nothing for your dashboard to count?",
    "review": null,
@@ -490,6 +495,7 @@
     "An open cost ledger (Borrowed)",
     "An ask that waits to be invited (Exploratory)",
     "Gifts that give access to others (Exploratory)",
+    "A badge for giving (Observed)",
     "A gift tied to a benefit (Observed)",
     "Pressure and promises (Warning case)"
    ],
@@ -560,7 +566,7 @@
     "what": "The five people’s questions and the replies written for them, the short summaries of historical scholarship and of Reformed and Catholic teaching on the resurrection, the reply to someone hurt by a church, the treatment of stage models (Engel, Fowler), and the reading of GDPR Article 9 and inferred special-category data",
     "needs": [
      "pastoral care",
-     "evangelism and apologetics with sceptics and enquirers",
+     "evangelism and apologetics with skeptics and inquirers",
      "data protection",
      "theology from Catholic, Orthodox, Lutheran, Baptist and Pentecostal traditions, each read by its own members"
     ],
@@ -638,7 +644,7 @@
     "The Bible and Christian faith (Observed)",
     "Faith and everyday life (Observed)",
     "Hard days, with limits (Borrowed)",
-    "A therapist or counsellor (Warning case)",
+    "A therapist or counselor (Warning case)",
     "A spiritual companion (Observed)",
     "Anything at all (Observed)"
    ],
@@ -881,6 +887,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

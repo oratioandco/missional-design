@@ -3,7 +3,7 @@
  "url": "https://missional.design/patterns/meeting-the-person/",
  "title": "Meeting the person where they are",
  "question": "How should the assistant meet each person where they are?",
- "lede": "The same question means different things from different people. “Did the resurrection really happen?” may come from a sceptic who wants evidence, someone new who feels everyone else is sure, someone a church has hurt, or a believer preparing to teach. A reply written for an insider tells the sceptic they were not heard. Keep three things apart: the way in a person asks for, where they stand in faith, and how well the assistant reads the one message in front of it. Most replies go wrong at the last, and fixing it needs no profile. What an assistant infers about someone’s faith is sensitive data, and a profile of what someone wants makes an assistant agree with them more.",
+ "lede": "The same question means different things from different people. “Did the resurrection really happen?” may come from a skeptic who wants evidence, someone new who feels everyone else is sure, someone a church has hurt, or a believer preparing to teach. A reply written for an insider tells the skeptic they were not heard. Keep three things apart: the way in a person asks for, where they stand in faith, and how well the assistant reads the one message in front of it. Most replies go wrong at the last, and fixing it needs no profile. What an assistant infers about someone’s faith is sensitive data, and a profile of what someone wants makes an assistant agree with them more.",
  "calling": "Hear the person before you answer them, and change your manner, never the message, to meet them.",
  "spectrum": {
   "title": "From one answer for all to a profile it keeps",
@@ -12,7 +12,7 @@
  },
  "working_example": {
   "url": "https://missional.design/demos/meeting/",
-  "situation": "Five people ask a faith app’s assistant the same question, “Did the resurrection really happen?”, and each says a little about why: a sceptic who wants no sermon, someone a few weeks into church, someone a church has hurt, a Reformed believer preparing a home group, and a Catholic who wants to keep Easter better. Choose the person and, where the design lets them, their way in: history, theology or living it. Marked phrases assume the person already believes."
+  "situation": "Five people ask a faith app’s assistant the same question, “Did the resurrection really happen?”, and each says a little about why: a skeptic who wants no sermon, someone a few weeks into church, someone a church has hurt, a Reformed believer preparing a home group, and a Catholic who wants to keep Easter better. Choose the person and, where the design lets them, their way in: history, theology or living it. Marked phrases assume the person already believes."
  },
  "options": [
   {
@@ -23,7 +23,7 @@
    "gain": "One checked answer",
    "cost": "Assumes agreement",
    "makes_easier": "Simple, consistent and easy to review: everyone gets the same checked answer.",
-   "costs": "Written for an insider, it assumes agreement; a sceptic who asked for no sermon gets one.",
+   "costs": "Written for an insider, it assumes agreement; a skeptic who asked for no sermon gets one.",
    "ask_your_team": "Who is your default reply written for, and who does it leave out?",
    "still": "https://missional.design/assets/stills/try-meeting-same.jpg"
   },
@@ -67,7 +67,7 @@
    "key": "session",
    "name": "Assumed, and shown",
    "provenance": "Exploratory",
-   "origin": "An exploratory proposal after research on personalisation, which suggests developers “give users the ability to moderate personalization in long conversations”: the assistant shows what it has assumed in this conversation, with Correct and Forget, and keeps nothing afterwards. The replies here are written for this example.",
+   "origin": "An exploratory proposal after research on personalization, which suggests developers “give users the ability to moderate personalization in long conversations”: the assistant shows what it has assumed in this conversation, with Correct and Forget, and keeps nothing afterward. The replies here are written for this example.",
    "gain": "Shown, correctable, forgotten",
    "cost": "Can feel exposing",
    "makes_easier": "The adaptation is visible, and the person can correct it before it shapes another reply.",
@@ -103,7 +103,7 @@
  "takeaways": [
   {
    "heading": "Read the message first",
-   "text": "Most replies that fail a sceptic fail because they assume agreement, not because the assistant lacked a profile. People usually say why they ask: “Be honest”, “everyone talks as if”, “I used to believe”. Answer that reason, and check replies for “our faith”, “let’s thank Him” and other insider phrases."
+   "text": "Most replies that fail a skeptic fail because they assume agreement, not because the assistant lacked a profile. People usually say why they ask: “Be honest”, “everyone talks as if”, “I used to believe”. Answer that reason, and check replies for “our faith”, “let’s thank Him” and other insider phrases."
   },
   {
    "heading": "Keep the way in apart from where someone stands",
@@ -123,12 +123,12 @@
   },
   {
    "heading": "Meeting is not agreeing",
-   "text": "Changing the manner is not changing the message. A sceptic deserves the honest case, a believer the honest difficulty, and someone hurt a reply that does not pretend nothing happened. Test replies with and without what the assistant knows about the person."
+   "text": "Changing the manner is not changing the message. A skeptic deserves the honest case, a believer the honest difficulty, and someone hurt a reply that does not pretend nothing happened. Test replies with and without what the assistant knows about the person."
   }
  ],
  "use_cases": [
   {
-   "situation": "A sceptic who asks for evidence, not a sermon",
+   "situation": "A skeptic who asks for evidence, not a sermon",
    "needs": "An honest answer to the question they asked",
    "fit": {
     "The same for everyone": "poor fit",
@@ -251,7 +251,7 @@
    "findings": [
     {
      "heading": "Stage models are contested",
-     "text": "The Engel scale numbers “the journey from no knowledge of God, through to spiritual maturity as a Christian believer” in stages, and “has been criticized for its fixed linear approach”. James Fowler’s stages of faith are criticised for the rigidity of their framework and for describing faith in one Western culture. Useful for a team’s thinking; not a label for a person.",
+     "text": "The Engel scale numbers “the journey from no knowledge of God, through to spiritual maturity as a Christian believer” in stages, and “has been criticized for its fixed linear approach”. James Fowler’s stages of faith are criticized for the rigidity of their framework and for describing faith in one Western culture. Useful for a team’s thinking; not a label for a person.",
      "sources": [
       "engel-scale",
       "fowler-critique"
@@ -345,30 +345,30 @@
   },
   {
    "group": "The techniques",
-   "subtitle": "Personalisation without turning a person into a profile",
+   "subtitle": "Personalization without turning a person into a profile",
    "findings": [
     {
-     "heading": "Personalisation and onboarding commitment",
-     "text": "Adapting an answer can reduce irrelevant material and make a first step easier to understand. Questions also create an investment in setup; the first-use article examines when that becomes a commitment funnel or personalised paywall. Redeemed, ask only what changes the answer, show the change and let someone choose a reply without personalisation.",
+     "heading": "Personalization and onboarding commitment",
+     "text": "Adapting an answer can reduce irrelevant material and make a first step easier to understand. Questions also create an investment in setup; the first-use article examines when that becomes a commitment funnel or personalized paywall. Redeemed, ask only what changes the answer, show the change and let someone choose a reply without personalization.",
      "sources": [
       "cialdini-consistency"
      ]
     },
     {
      "heading": "Sycophancy",
-     "text": "An answer that mirrors someone’s viewpoint can feel like being understood. Jain and colleagues found that interaction context often increased agreement sycophancy, with different effects across models and context types. That is not evidence that every personalised answer is worse. Redeemed, change the way in while preserving the honest case and its difficulties, and compare with a version that uses no personal context.",
+     "text": "An answer that mirrors someone’s viewpoint can feel like being understood. Jain and colleagues found that interaction context often increased agreement sycophancy, with different effects across models and context types. That is not evidence that every personalized answer is worse. Redeemed, change the way in while preserving the honest case and its difficulties, and compare with a version that uses no personal context.",
      "sources": [
       "jain-context-sycophancy"
      ]
     },
     {
      "heading": "The deciding questions",
-     "text": "Purpose: which part of the answer becomes more useful? Transparency: can the person see what was used and what changed? Freedom: can they correct it, forget it or choose no personalisation? A setting about reading depth is different from a stored judgment about someone’s faith.",
+     "text": "Purpose: which part of the answer becomes more useful? Transparency: can the person see what was used and what changed? Freedom: can they correct it, forget it or choose no personalization? A setting about reading depth is different from a stored judgment about someone’s faith.",
      "sources": []
     },
     {
      "heading": "Where this page stops",
-     "text": "This page concerns how an assistant understands the person asking. The planned personalisation article concerns which passage or content is selected for someone. First use keeps the timing of questions; AI memory keeps the decision about what persists. The same answer should not be copied across all four.",
+     "text": "This page concerns how an assistant understands the person asking. The planned personalization article concerns which passage or content is selected for someone. First use keeps the timing of questions; AI memory keeps the decision about what persists. The same answer should not be copied across all four.",
      "sources": []
     }
    ]
@@ -410,7 +410,7 @@
    "start_with": "A way in they set and can change, with no question about faith required"
   },
   {
-   "if": "An outreach or enquirers’ app",
+   "if": "An outreach or inquirers’ app",
    "start_with": "Read the message and ask about the need; keep nothing about faith"
   },
   {
@@ -474,7 +474,7 @@
      "Daily readings"
     ]
    },
-   "pull": "Shared readings form a community, but a reply written for everyone can assume agreement and lose the sceptic.",
+   "pull": "Shared readings form a community, but a reply written for everyone can assume agreement and lose the skeptic.",
    "hold": "Keep the passage everyone reads, and adapt only the way in: the length, the language and the question it starts from. Change the manner, never the message."
   }
  ],
@@ -485,7 +485,7 @@
   },
   {
    "heading": "Where Christians differ",
-   "text": "Traditions describe the journey differently. Many evangelicals speak of conversion as a decision with stages before and after it; mission thinkers drew this as the Engel scale and later redrew it in two dimensions, because people do not move along one line. Catholic and Orthodox Christians speak of initiation through the sacraments and of lifelong conversion within the church, and the Catholic catechumenate walks with enquirers through stages over months. Many churches welcome sceptics in courses such as Alpha, where hosts are trained to listen rather than win arguments. All agree that God knows a person better than any scale: “the LORD sees the heart” (1 Samuel 16:7)."
+   "text": "Traditions describe the journey differently. Many evangelicals speak of conversion as a decision with stages before and after it; mission thinkers drew this as the Engel scale and later redrew it in two dimensions, because people do not move along one line. Catholic and Orthodox Christians speak of initiation through the sacraments and of lifelong conversion within the church, and the Catholic catechumenate walks with inquirers through stages over months. Many churches welcome skeptics in courses such as Alpha, where hosts are trained to listen rather than win arguments. All agree that God knows a person better than any scale: “the LORD sees the heart” (1 Samuel 16:7)."
   },
   {
    "heading": "What follows for design",
@@ -502,12 +502,12 @@
  "three_ways": {
   "exploitative": "Ask everyone their faith stage at onboarding, infer the rest from their chats, keep a profile and tune every answer to it, because a reply that agrees feels personal.",
   "ethical": "Read the reason each person gives, offer a way in they choose and can change, show anything assumed with Correct and Forget, and keep nothing about faith beyond the conversation.",
-  "redemptive": "Let the assistant give a sceptic the honest case and a believer the honest difficulty, leave knowing hearts to God and to people, and give up the engagement that a flattering profile would bring.",
+  "redemptive": "Let the assistant give a skeptic the honest case and a believer the honest difficulty, leave knowing hearts to God and to people, and give up the engagement that a flattering profile would bring.",
   "frame": "https://missional.design/reference/about/three-ways/"
  },
  "decide": {
   "question": "What does this assistant assume about the person in front of it, where does that come from, and can they see it, correct it and make it forget?",
-  "exercise": "Write the same question five times in the words of five people with different reasons for asking: a sceptic, someone new to church, someone a church has hurt, and two believers from different traditions. Send each to your assistant and mark every phrase that assumes the person already believes. Ask the assistant what it has assumed about you, correct it, and see whether the next reply changes. Then look in storage for anything kept about faith, and read the replies with an evangelist, a pastor, someone who has left a church and a data protection adviser.",
+  "exercise": "Write the same question five times in the words of five people with different reasons for asking: a skeptic, someone new to church, someone a church has hurt, and two believers from different traditions. Send each to your assistant and mark every phrase that assumes the person already believes. Ask the assistant what it has assumed about you, correct it, and see whether the next reply changes. Then look in storage for anything kept about faith, and read the replies with an evangelist, a pastor, someone who has left a church and a data protection adviser.",
   "worksheet": "https://missional.design/guides/decision-review/"
  },
  "earlier_patterns": [],
@@ -519,7 +519,7 @@
    "observed": "5 October 2026",
    "observation": "An optional onboarding step offers curiosity or skepticism, beginning or returning, growth, and deeper study. A Skip control is visible; using it opened the home screen without choosing a faith category.",
    "decision": "Offer a low-pressure way to state current intent. Experience, belief and task depth are separate facets; do not turn one onboarding answer into a permanent spiritual ranking.",
-   "limits": "Necessary-only service choices were used. Subsequent personalised output, preference persistence, accessibility and mobile behaviour were not evaluated. The labels are the provider’s categories, not validated user segments."
+   "limits": "Necessary-only service choices were used. Subsequent personalized output, preference persistence, accessibility and mobile behavior were not evaluated. The labels are the provider’s categories, not validated user segments."
   },
   {
    "app": "Abide",
@@ -586,7 +586,7 @@
    "author": "Adam Zewe · MIT News, 18 February 2026, on Jain et al.",
    "kind": "Research",
    "shows": "Reports that “the presence of a condensed user profile in the model’s memory had the greatest impact”; “Perspective sycophancy occurs when a model mirrors the user’s values and political views”. Suggests models could “detect mirroring behaviors and flag responses with excessive agreement” and that developers could “give users the ability to moderate personalization in long conversations”.",
-   "application": "Let people see and limit personalisation, and check replies for mirroring.",
+   "application": "Let people see and limit personalization, and check replies for mirroring.",
    "limits": "A university news report on its own researchers’ paper."
   },
   {
@@ -596,7 +596,7 @@
    "author": "Myra Cheng, Cinoo Lee, Pranav Khadpe, Sunny Yu, Dyllan Han and Dan Jurafsky (Stanford) · Science, 2026; preprint arXiv:2510.01395 (October 2025)",
    "kind": "Research",
    "shows": "Across 11 models, AI-generated answers “validated user behavior an average of 49% more often than humans” (the preprint reported 50%), “even in cases where user queries mention manipulation, deception, or other relational harms”. One sycophantic exchange “significantly reduced participants’ willingness to take actions to repair interpersonal conflict, while increasing their conviction of being in the right”, yet participants “rated sycophantic responses as higher quality, trusted the sycophantic AI model more, and were more willing to use it again”.",
-   "application": "The pull towards agreement is strong, it harms the very conflicts people bring, and ratings will reward it: design against it on purpose.",
+   "application": "The pull toward agreement is strong, it harms the very conflicts people bring, and ratings will reward it: design against it on purpose.",
    "limits": "General models and interpersonal advice drawn largely from a Reddit forum, not faith apps or questions of faith."
   },
   {
@@ -636,7 +636,7 @@
    "author": "Alpha Canada · team training guide for hosts and helpers",
    "kind": "Practice",
    "shows": "“Alpha is a chance for the guests to ask anything and say what they think. The role of the hosts and helpers is to listen; not to have all the answers or to win an argument.” “The model for the Alpha small group is not teacher-pupil, but host-guest.”",
-   "application": "A long-practised way of meeting sceptics and newcomers starts by listening and lets them say what they think; an assistant can at least not assume the answer.",
+   "application": "A long-practiced way of meeting skeptics and newcomers starts by listening and lets them say what they think; an assistant can at least not assume the answer.",
    "limits": "Guidance for human hosts in small groups, not for software."
   },
   {
@@ -655,7 +655,7 @@
    "url": "https://jamesbishopblog.com/2017/11/02/a-critical-examination-of-fowlers-stage-theory-model-of-faith-development/",
    "author": "James Bishop · blog, 2017, citing Coyle (2011), “Critical responses to faith development theory”, Archive for the Psychology of Religion 33(3)",
    "kind": "Research",
-   "shows": "Summarises criticism of James Fowler’s six stages of faith for “the rigidity of its framework” and for its “cultural specificity”, since it describes faith in late twentieth-century Western culture.",
+   "shows": "Summarizes criticism of James Fowler’s six stages of faith for “the rigidity of its framework” and for its “cultural specificity”, since it describes faith in late twentieth-century Western culture.",
    "application": "Even a respected developmental model is contested; an app should not assign people a stage.",
    "limits": "A blog summary; read Fowler (1981) and Coyle (2011) directly."
   },
@@ -716,7 +716,7 @@
    "author": "Learn of Christ · resource review, undated",
    "kind": "Third-party analysis",
    "shows": "Reports that the app “asks five questions during onboarding - your season of life, your goals, your reading experience, how much time you have, what you are wrestling with”, and adapts the next reading from them and from ratings.",
-   "application": "Questions about someone’s season of life and struggles can personalise a plan; they are also sensitive data, kept and reused.",
+   "application": "Questions about someone’s season of life and struggles can personalize a plan; they are also sensitive data, kept and reused.",
    "limits": "A favourable third-party review; the app was not observed."
   },
   {
@@ -747,7 +747,7 @@
    "kind": "Practice",
    "shows": "Introduced memory that people can ask to remember or forget, view and switch off, and Temporary Chat without memory; said it would “steer ChatGPT away from proactively remembering sensitive information, like your health details—unless you explicitly ask it to.” Later updates let people switch off reference to saved memories and to chat history separately.",
    "application": "The largest chat product treats memory as something to see, delete and switch off, and holds back sensitive categories; a faith app should do no less.",
-   "limits": "A company’s description of its own product; behaviour was not tested here."
+   "limits": "A company’s description of its own product; behavior was not tested here."
   },
   {
    "key": "anthropic-memory",
@@ -757,7 +757,7 @@
    "kind": "Practice",
    "shows": "Says “Memory is fully optional”; “Claude uses a memory summary to capture all its memories in one place for you to view and edit”, and Incognito chat “gives you a clean slate for conversations that you don’t want to preserve in memory”.",
    "application": "A general assistant shows what it remembers in one place and offers a conversation that keeps nothing; a faith app should do no less.",
-   "limits": "A company’s description of its own product; behaviour was not tested here."
+   "limits": "A company’s description of its own product; behavior was not tested here."
   },
   {
    "key": "sycophancy",
@@ -795,7 +795,7 @@
   "what": "The five people’s questions and the replies written for them, the short summaries of historical scholarship and of Reformed and Catholic teaching on the resurrection, the reply to someone hurt by a church, the treatment of stage models (Engel, Fowler), and the reading of GDPR Article 9 and inferred special-category data",
   "needs": [
    "pastoral care",
-   "evangelism and apologetics with sceptics and enquirers",
+   "evangelism and apologetics with skeptics and inquirers",
    "data protection",
    "theology from Catholic, Orthodox, Lutheran, Baptist and Pentecostal traditions, each read by its own members"
   ],
@@ -806,84 +806,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
- },
- "boundaries": {
-  "intro": "Adapting to someone can be a real kindness, and the options above show several ways to do it. These practices are different: they judge or flatter the person in ways they cannot see.",
-  "dont": [
-   {
-    "name": "Keep a hidden verdict",
-    "looks": "A hidden profile that calls someone “seeker, stage −4”.",
-    "why": "It makes a judgment about someone’s life with God, and acts on it unseen.",
-    "instead": "stated",
-    "sources": [
-     "ico-special-inferences"
-    ]
-   },
-   {
-    "name": "Agree because of the profile",
-    "looks": "“Whatever you believe is valid”, because the profile says the person dislikes church.",
-    "why": "Context often increases agreement. It feels like being understood, and it can leave someone without an honest answer.",
-    "instead": "reads",
-    "sources": [
-     "jain-context-sycophancy"
-    ]
-   },
-   {
-    "name": "Flatter",
-    "looks": "A quiz answer echoed with praise, or “As you know so well…” to someone the profile calls mature.",
-    "why": "People rate flattering answers more highly and return to them, which is why it needs resisting.",
-    "instead": "reads",
-    "sources": [
-     "cheng-sycophancy-science"
-    ]
-   },
-   {
-    "name": "Hide why you are asking",
-    "looks": "“To interact with you better” as the only reason for a question.",
-    "why": "A person cannot weigh a question without knowing what the answer will change.",
-    "instead": "stated",
-    "sources": [
-     "gdpr-art9"
-    ]
-   }
-  ],
-  "excluded": [
-   {
-    "name": "Questions at setup",
-    "why": "The timing of setup questions is covered with first use.",
-    "href": "/patterns/first-use/"
-   },
-   {
-    "name": "What the assistant remembers",
-    "why": "What persists between conversations, including old labels and stored details, is covered there.",
-    "href": "/patterns/ai-memory/"
-   },
-   {
-    "name": "Whose theology it speaks from",
-    "why": "Tradition and doctrine are covered there.",
-    "href": "/patterns/whose-theology/"
-   },
-   {
-    "name": "Pushing back",
-    "why": "When to disagree with someone is covered there.",
-    "href": "/patterns/agreeing-and-pushing-back/"
-   },
-   {
-    "name": "Choosing content for someone",
-    "why": "Which passage or item to select is a planned article on personalisation.",
-    "href": null
-   }
-  ],
-  "seen": {
-   "GOOD:stated": [
-    {
-     "app": "bible.ai",
-     "date": "28 October 2026",
-     "text": "The screen read “add or remove your current interests at anytime to personalize your bible.ai”, with “add or remove interests” and “edit your profile” buttons.",
-     "shot": "shot-33ff9df431c9a97ace38"
-    }
-   ]
-  }
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

@@ -99,7 +99,7 @@
   },
   {
    "heading": "Say what kind of claim each part is",
-   "text": "What Scripture says, what a tradition teaches, what the assistant is summarising and what no one knows are different kinds of claim. Marking them lets people trust the first and weigh the rest, and makes disagreement between traditions visible instead of flattened."
+   "text": "What Scripture says, what a tradition teaches, what the assistant is summarizing and what no one knows are different kinds of claim. Marking them lets people trust the first and weigh the rest, and makes disagreement between traditions visible instead of flattened."
   },
   {
    "heading": "“I don’t know” in the assistant’s own voice",
@@ -107,7 +107,7 @@
   },
   {
    "heading": "An answer should hold when someone asks “Are you sure?”",
-   "text": "Assistants tend to agree with the person in front of them. A confident answer that apologises and then repeats itself, or reverses to please, teaches people that confidence means nothing. Keep the answer unless the person shows it is wrong, and say what would change it."
+   "text": "Assistants tend to agree with the person in front of them. A confident answer that apologizes and then repeats itself, or reverses to please, teaches people that confidence means nothing. Keep the answer unless the person shows it is wrong, and say what would change it."
   },
   {
    "heading": "Some questions are not for answering",
@@ -258,8 +258,8 @@
      ]
     },
     {
-     "heading": "Assistants lean towards agreeing",
-     "text": "Models tuned on human preferences sometimes favour agreeing with the person over being accurate, so an answer can change under pushback without becoming truer.",
+     "heading": "Assistants lean toward agreeing",
+     "text": "Models tuned on human preferences sometimes favor agreeing with the person over being accurate, so an answer can change under pushback without becoming truer.",
      "sources": [
       "sycophancy"
      ]
@@ -374,7 +374,7 @@
  },
  "decide": {
   "question": "When the assistant does not know, does the person find out, and what do they get instead?",
-  "exercise": "Ask your assistant four questions: where the Bible says “God helps those who help themselves”, who wrote Hebrews, whether a pet will be in heaven, and why God let something painful happen. Check every quotation against the edition. Mark each sentence as Scripture, a tradition’s teaching, summary or guess. Then reply “Are you sure?” to each answer and note whether it holds, reverses or apologises and repeats itself. Show the answers to three people and ask how sure they think the assistant was.",
+  "exercise": "Ask your assistant four questions: where the Bible says “God helps those who help themselves”, who wrote Hebrews, whether a pet will be in heaven, and why God let something painful happen. Check every quotation against the edition. Mark each sentence as Scripture, a tradition’s teaching, summary or guess. Then reply “Are you sure?” to each answer and note whether it holds, reverses or apologizes and repeats itself. Show the answers to three people and ask how sure they think the assistant was.",
   "worksheet": "https://missional.design/guides/decision-review/"
  },
  "earlier_patterns": [],
@@ -384,7 +384,7 @@
    "title": "A “Predicted Answer” with numbered sources",
    "url": "https://missional.design/examples/bibleai-cited-answer/",
    "observed": "Captured 1 October 2025 · from embedded image metadata",
-   "observation": "For “Talking animals”, a box labelled “Predicted Answer*” explains Balaam’s donkey and the serpent with circled numbers in the text. Chips below read “1 Genesis 3:1”, “2 Numbers 22:21-30” and “11 Desiring God”, above tabs for passages, articles, books and videos.",
+   "observation": "For “Talking animals”, a box labeled “Predicted Answer*” explains Balaam’s donkey and the serpent with circled numbers in the text. Chips below read “1 Genesis 3:1”, “2 Numbers 22:21-30” and “11 Desiring God”, above tabs for passages, articles, books and videos.",
    "decision": "Numbered markers connect claims to sources and mix Scripture with a ministry’s articles. Show each source’s type, and check that every marker supports the sentence it sits in.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
   },
@@ -412,7 +412,7 @@
    "url": "https://missional.design/examples/sparkbible-ai-feedback/",
    "observed": "Captured 27 September 2025 · from embedded image metadata",
    "observation": "A numbered list of results for “Talking animals” (Revelation 5:13, Psalm 104:25-26, Matthew 7:6…) ends with “These results are generated with the assistance of a specially-tuned AI model. Your feedback helps us improve these results:” and thumbs-up and thumbs-down buttons. A “Plus” upsell banner sits above.",
-   "decision": "Labelling AI help where the results end is honest; say what happens to the feedback, and keep upsells apart from the label so one is not read as the other.",
+   "decision": "Labeling AI help where the results end is honest; say what happens to the feedback, and keep upsells apart from the label so one is not read as the other.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
   },
   {
@@ -531,59 +531,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
- },
- "boundaries": {
-  "intro": "An assistant can show its limits in several ways, from a line of fine print to declining, and the options above compare them; the first two give the same answers, to show that a warning line does not change them. These practices make a guess look like knowledge, whatever line sits under it.",
-  "dont": [
-   {
-    "name": "Invent a reference",
-    "looks": "“God helps those who help themselves”, given a chapter and verse that do not contain it.",
-    "why": "A misquoted verse looks like Scripture. One Bible platform’s chief executive says even the best model misquotes Scripture at least 15% of the time.",
-    "instead": "layers",
-    "sources": [
-     "youversion-misquotes"
-    ]
-   },
-   {
-    "name": "Present a guess as fact",
-    "looks": "Every answer in the same sure voice, the guesses included.",
-    "why": "People overestimate how accurate model answers are, and trust longer explanations more even when they are no more accurate.",
-    "instead": "idk",
-    "sources": [
-     "steyvers-calibration"
-    ]
-   },
-   {
-    "name": "Give reasons in God’s name",
-    "looks": "“God allowed this so that you would grow.” A reason for someone’s loss, stated as fact.",
-    "why": "It claims to know God’s purpose in one person’s life, which no system can know or check.",
-    "instead": "idk",
-    "sources": []
-   }
-  ],
-  "excluded": [
-   {
-    "name": "How sources are shown",
-    "why": "Citations and passage cards are covered there.",
-    "href": "/patterns/ai-citations/"
-   },
-   {
-    "name": "Changing an answer to please",
-    "why": "Holding a position under pressure is covered there.",
-    "href": "/patterns/agreeing-and-pushing-back/"
-   },
-   {
-    "name": "Questions it should not take on",
-    "why": "Where the assistant’s scope ends is covered there.",
-    "href": "/patterns/chat-scope/"
-   },
-   {
-    "name": "Lament",
-    "why": "Staying with someone who asks why is covered with prayer.",
-    "href": "/patterns/prayer/"
-   }
-  ],
-  "seen": {}
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

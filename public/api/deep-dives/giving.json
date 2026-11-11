@@ -12,7 +12,7 @@
  },
  "working_example": {
   "url": "https://missional.design/demos/give/",
-  "situation": "The same faith app, made by a small ministry and used by members of St Luke’s church, handles giving in eleven ways. Choose who is giving: someone who gives every month, someone who installed the app this week, someone short of money this month, or someone who has just shared a prayer request. Then look at where the ask appears, the screen where they give, and what happens afterwards. Nothing is paid."
+  "situation": "The same faith app, made by a small ministry and used by members of St Luke’s church, handles giving in eleven ways. Choose who is giving: someone who gives every month, someone who installed the app this week, someone short of money this month, or someone who has just shared a prayer request. Then look at where the ask appears, the screen where they give, and what happens afterward. Nothing is paid."
  },
  "options": [
   {
@@ -103,7 +103,7 @@
    "key": "access",
    "name": "Gifts that give access to others",
    "provenance": "Exploratory",
-   "origin": "A proposal related to Creed’s Prayer Pool entry, captured 31 October 2026 and linked under “Further options to try”. That screen offers sponsorship; this pooled, application-free access model is our proposal, not an observed fulfilment flow.",
+   "origin": "A proposal related to Creed’s Prayer Pool entry, captured 31 October 2026 and linked under “Further options to try”. That screen offers sponsorship; this pooled, application-free access model is our proposal, not an observed fulfillment flow.",
    "gain": "Access without explaining need",
    "cost": "The ministry carries funding risk",
    "makes_easier": "Gifts make access available without requiring recipients to explain their need.",
@@ -155,7 +155,7 @@
   },
   {
    "heading": "Name who receives the gift, and what it pays for",
-   "text": "YouVersion asks whether a gift goes to the app or to Bible translation; Bible.is asks people to “Donate online” for recordings in oral cultures. Say which organisation receives the money, what it pays for, and whether a receipt follows."
+   "text": "YouVersion asks whether a gift goes to the app or to Bible translation; Bible.is asks people to “Donate online” for recordings in oral cultures. Say which organization receives the money, what it pays for, and whether a receipt follows."
   },
   {
    "heading": "Keep the ask out of prayer, grief and crisis",
@@ -239,7 +239,8 @@
     "An open cost ledger": "good fit",
     "An ask that waits to be invited": "good fit",
     "Gifts that give access to others": "good fit",
-    "A gift tied to a benefit": "possible",
+    "A badge for giving": "poor fit",
+    "A gift tied to a benefit": "poor fit",
     "Pressure and promises": "poor fit"
    }
   },
@@ -325,7 +326,7 @@
     },
     {
      "heading": "Receipts belong to the gift",
-     "text": "In the US, organisations give a written acknowledgment for “contributions of $250 or more”, which may say that “the organization only provided intangible religious benefits”. A UK Gift Aid declaration must explain that “the donor is responsible to pay any difference”.",
+     "text": "In the US, organizations give a written acknowledgment for “contributions of $250 or more”, which may say that “the organization only provided intangible religious benefits”. A UK Gift Aid declaration must explain that “the donor is responsible to pay any difference”.",
      "sources": [
       "irs-1771",
       "hmrc-gift-aid"
@@ -667,8 +668,8 @@
    "author": "Google Play Console Help",
    "kind": "Platform",
    "shows": "Google Play’s billing is not required where “payments include peer-to-peer payments, online auctions, and tax exempt donations”.",
-   "application": "On Android, donations to tax-exempt organisations can use the organisation’s own payment provider.",
-   "limits": "A summary page of a longer policy; the exemption depends on the organisation’s status."
+   "application": "On Android, donations to tax-exempt organizations can use the organization’s own payment provider.",
+   "limits": "A summary page of a longer policy; the exemption depends on the organization’s status."
   },
   {
    "key": "goswami-defaults",
@@ -746,7 +747,7 @@
    "url": "https://www.irs.gov/pub/irs-pdf/p1771.pdf",
    "author": "Internal Revenue Service (US)",
    "kind": "Platform",
-   "shows": "Organisations that receive “contributions of $250 or more” give a written acknowledgment, which can state that “the organization only provided intangible religious benefits”.",
+   "shows": "Organizations that receive “contributions of $250 or more” give a written acknowledgment, which can state that “the organization only provided intangible religious benefits”.",
    "application": "A receipt is part of giving; a gift that buys something, such as an ad-free app, is acknowledged differently.",
    "limits": "US tax rules; other countries differ."
   },
@@ -826,9 +827,9 @@
    "url": "https://www.deceptive.design/types",
    "author": "Harry Brignull · deceptive.design",
    "kind": "Design reference",
-   "shows": "A catalogue of deceptive design patterns such as preselection, confirmshaming, forced action, nagging and hard-to-cancel subscriptions, with examples and the laws that apply.",
+   "shows": "A catalog of deceptive design patterns such as preselection, confirmshaming, forced action, nagging and hard-to-cancel subscriptions, with examples and the laws that apply.",
    "application": "Gives teams shared names for techniques that cross the line from persuasion to deception.",
-   "limits": "A curated catalogue; inclusion is the author’s judgment."
+   "limits": "A curated catalog; inclusion is the author’s judgment."
   },
   {
    "key": "dsa-art25",
@@ -836,7 +837,7 @@
    "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
    "author": "European Union",
    "kind": "Law",
-   "shows": "Online platforms may not design, organise or operate their interfaces in a way that deceives or manipulates users or otherwise materially distorts or impairs their ability to make free and informed decisions.",
+   "shows": "Online platforms may not design, organize or operate their interfaces in a way that deceives or manipulates users or otherwise materially distorts or impairs their ability to make free and informed decisions.",
    "application": "Sets a legal baseline in the EU for interface design that steers people.",
    "limits": "Applies to online platforms under the DSA; not every app is in scope."
   },
@@ -866,123 +867,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
- },
- "boundaries": {
-  "intro": "Apart from the warning case, every option above is one a team could choose in good faith, including those people disagree about. These practices are different: they work by misleading or pressing the person, whatever your view of giving.",
-  "dont": [
-   {
-    "name": "Promise a return on a gift",
-    "looks": "“Sow a seed of faith today and expect a harvest.” Health or wealth offered in exchange for giving.",
-    "why": "It offers an outcome no app can promise or verify, in exchange for money.",
-    "instead": "impact",
-    "sources": [
-     "lausanne-prosperity"
-    ]
-   },
-   {
-    "name": "Choose for the giver",
-    "looks": "A “Most popular” tier ticked in advance, a monthly switch already on, or a tip added unless someone slides it to zero.",
-    "why": "The choice suits the app, and the giver has to notice it and undo it.",
-    "instead": "quiet",
-    "sources": [
-     "goswami-defaults",
-     "gofundme-tip-letter",
-     "brignull-deceptive"
-    ]
-   },
-   {
-    "name": "Ask at the tender moment",
-    "looks": "A gift box on the screen after someone shares a prayer request, or during grief.",
-    "why": "The person came for something else, and is at their most open.",
-    "instead": "invited",
-    "sources": []
-   },
-   {
-    "name": "Manufacture urgency",
-    "looks": "A countdown with no real deadline, or repeated asks after someone has said no.",
-    "why": "The UK fundraising code names undue pressure and persistence, and a person can end up giving out of compulsion.",
-    "instead": "quiet",
-    "sources": [
-     "fundraising-code"
-    ]
-   },
-   {
-    "name": "Rank givers publicly",
-    "looks": "Givers listed by amount for others to see.",
-    "why": "It turns giving into a contest, and the people who can give least come last.",
-    "instead": "quiet",
-    "sources": []
-   },
-   {
-    "name": "Present old figures as current",
-    "looks": "A figure from five years ago shown as what a gift does today.",
-    "why": "An aged figure tells the giver something no longer true.",
-    "instead": "ledger",
-    "sources": [
-     "ecfa-standards"
-    ]
-   },
-   {
-    "name": "Make stopping harder than starting",
-    "looks": "A recurring gift that can only be stopped by email.",
-    "why": "It keeps money flowing through friction, long after the person has decided to stop.",
-    "instead": "regular",
-    "sources": [
-     "brignull-deceptive"
-    ]
-   }
-  ],
-  "excluded": [
-   {
-    "name": "Paying for access",
-    "why": "Subscriptions and paywalls are a separate decision. A gift tied to a benefit is on this spectrum only where the two meet.",
-    "href": null
-   },
-   {
-    "name": "Advertising",
-    "why": "How an app earns from ads is its own question.",
-    "href": null
-   },
-   {
-    "name": "Asking during first use",
-    "why": "When to ask anything of a new person is covered with onboarding.",
-    "href": "/patterns/first-use/"
-   },
-   {
-    "name": "What people ought to give",
-    "why": "Tithing and proportion are matters for churches. We note the differences and take no side.",
-    "href": null
-   },
-   {
-    "name": "Legal and tax advice",
-    "why": "We point to rules that shape the design, and a team still needs its own advice.",
-    "href": null
-   }
-  ],
-  "seen": {
-   "Choose for the giver": [
-    {
-     "app": "BibleProject",
-     "date": "30 October 2026",
-     "text": "The “Support the Project” sheet opened with “Monthly” and “$50” already selected, beside One-Time, Yearly, $25, $100 and Other.",
-     "shot": "shot-4d45121815693314d006"
-    },
-    {
-     "app": "PRAY.COM",
-     "date": "27 October 2026",
-     "text": "A paid ad-free subscription presented as support for a ministry. The “Support & Go Ad Free” screen opened on “Yearly” with the “Most Popular” tier, “Super supporter $99.99/yr”, outlined above “Choose your amount” and “Continue”.",
-     "shot": "shot-29a0e4193b076730fbea"
-    }
-   ],
-   "GOOD:quiet": [
-    {
-     "app": "YouVersion",
-     "date": "11 October 2026",
-     "text": "The gift form opened at “$0” with “Become a Sower, Make this a recurring gift” switched off and “Enter Gift Amount” on the button.",
-     "shot": "shot-601a4d67e3adf71dc95b"
-    }
-   ]
-  }
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

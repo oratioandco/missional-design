@@ -46,7 +46,7 @@
    "origin": "Observed in YouVersion and Bible.is, where translation editors’ titles and verse ranges head each section (see the screenshots below). Titles here are our own.",
    "gain": "Orientation at a glance",
    "cost": "Titles interpret",
-   "makes_easier": "Orientation at a glance, and better memory for how a chapter is organised.",
+   "makes_easier": "Orientation at a glance, and better memory for how a chapter is organized.",
    "costs": "Titles interpret. “The storm on the sea” or “Jesus calms the storm” steer attention differently, and can be mistaken for Scripture.",
    "ask_your_team": "Who writes the titles, and does the styling make clear they are added?",
    "still": "https://missional.design/assets/stills/try-around-headings.jpg"
@@ -111,7 +111,7 @@
   },
   {
    "heading": "Headings help structure, and steer meaning",
-   "text": "Headings improve memory for how a text is organised, and titles bias comprehension towards what they name. “The storm on the sea” and “Jesus calms the storm” point a reader at different things. Style titles so they cannot be mistaken for Scripture, and say who wrote them."
+   "text": "Headings improve memory for how a text is organized, and titles bias comprehension toward what they name. “The storm on the sea” and “Jesus calms the storm” point a reader at different things. Style titles so they cannot be mistaken for Scripture, and say who wrote them."
   },
   {
    "heading": "Every marker is a decision",
@@ -276,7 +276,7 @@
    "findings": [
     {
      "heading": "Headings help memory for structure",
-     "text": "Signals such as headings improve memory for a text’s organisation, and titles bias comprehension towards their topic.",
+     "text": "Signals such as headings improve memory for a text’s organization, and titles bias comprehension toward their topic.",
      "sources": [
       "lorch-signals"
      ]
@@ -303,7 +303,7 @@
    "findings": [
     {
      "heading": "Size, spacing and emphasis",
-     "text": "Aim for 16–19 px text, 1.5 line spacing and left alignment, and mark additions with weight or colour rather than italics.",
+     "text": "Aim for 16–19 px text, 1.5 line spacing and left alignment, and mark additions with weight or color rather than italics.",
      "sources": [
       "bda-style",
       "wcag-148"
@@ -363,7 +363,7 @@
   {
    "source": "Augustine, On Christian Doctrine I.36.40",
    "url": "https://www.newadvent.org/fathers/12021.htm",
-   "note": "gives the test for any note: does it build up love of God and neighbour?"
+   "note": "gives the test for any note: does it build up love of God and neighbor?"
   }
  ],
  "three_ways": {
@@ -434,7 +434,7 @@
    "key": "seductive-details",
    "title": "Seductive details: what the research says",
    "url": "https://theelearningcoach.com/learning/seductive-details/",
-   "author": "The eLearning Coach, summarising Rey (2012) and Mayer’s coherence principle",
+   "author": "The eLearning Coach, summarizing Rey (2012) and Mayer’s coherence principle",
    "kind": "Research",
    "shows": "Rey’s meta-analysis found that interesting but irrelevant details reduce retention and transfer, especially when they are visual.",
    "application": "Inline media should serve the passage, be switchable, and stay out of the main reading by default.",
@@ -488,7 +488,7 @@
    "kind": "Practice",
    "shows": "Biblica’s The Books of the Bible removes chapter and verse numbers, notes and cross-references; churches read large portions together in eight weeks.",
    "application": "A tested reader’s-edition format used in congregations.",
-   "limits": "Programme description; outcome claims are the ministry’s own."
+   "limits": "Program description; outcome claims are the ministry’s own."
   },
   {
    "key": "esv-readers",
@@ -516,7 +516,7 @@
    "url": "https://scholars.uky.edu/en/publications/signaling-topic-structure-via-headings-or-preview-sentences/",
    "author": "Lorch and colleagues · University of Kentucky",
    "kind": "Research",
-   "shows": "Headings and other signals improve memory for a text’s organisation, and titles can bias comprehension towards the topic they name.",
+   "shows": "Headings and other signals improve memory for a text’s organization, and titles can bias comprehension toward the topic they name.",
    "application": "Headings help structure; their wording steers interpretation.",
    "limits": "Expository texts in lab settings."
   },
@@ -537,7 +537,7 @@
    "author": "British Dyslexia Association, 2023",
    "kind": "Accessibility",
    "shows": "Recommends 16–19 px text, 1.5 line spacing, left alignment, and bold rather than italics or underlining for emphasis.",
-   "application": "Mark additions with weight and colour, not italics; keep text size adjustable.",
+   "application": "Mark additions with weight and color, not italics; keep text size adjustable.",
    "limits": "Guidance for general documents."
   },
   {
@@ -566,6 +566,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

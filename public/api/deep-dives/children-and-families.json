@@ -31,7 +31,7 @@
    "key": "family",
    "name": "Family time in a general app",
    "provenance": "Observed",
-   "origin": "Observed in Pray as You Go’s Kids Prayer and “A Family Examen”, Glorify’s Kids rail, YouVersion’s plans for parents and kids and its Kids Bible Experience card, and Faith’s KIDS-labelled series; see the screenshots below. The app and its content here are written for this example.",
+   "origin": "Observed in Pray as You Go’s Kids Prayer and “A Family Examen”, Glorify’s Kids rail, YouVersion’s plans for parents and kids and its Kids Bible Experience card, and Faith’s KIDS-labeled series; see the screenshots below. The app and its content here are written for this example.",
    "gain": "Families use what they have",
    "cost": "The adult app is a tap away",
    "makes_easier": "Families use what they already have, together.",
@@ -340,7 +340,7 @@
   },
   {
    "heading": "Where Christians differ",
-   "text": "Churches that baptise infants receive children into the church before they can speak; others dedicate them and wait for their own confession of faith. Catechism, Sunday school, children’s church, Godly Play and confirmation classes teach in different ways. All take seriously that adults answer to God for how they treat children: “if anyone causes one of these little ones who believe in Me to stumble” (Matthew 18:6), a warning the church has had to hear about its own failures."
+   "text": "Churches that baptize infants receive children into the church before they can speak; others dedicate them and wait for their own confession of faith. Catechism, Sunday school, children’s church, Godly Play and confirmation classes teach in different ways. All take seriously that adults answer to God for how they treat children: “if anyone causes one of these little ones who believe in Me to stumble” (Matthew 18:6), a warning the church has had to hear about its own failures."
   },
   {
    "heading": "What follows for design",
@@ -436,7 +436,7 @@
    "url": "https://missional.design/examples/wow-kids-profile/",
    "observed": "Captured 18 September 2025 · from embedded image metadata",
    "observation": "“Wer schaut?” (who’s watching?) shows a large profile picture marked “Kids” and named “Kinderprofil” (children’s profile), with an edit button and another profile partly visible.",
-   "decision": "A labelled children’s profile makes the difference visible to the child and the parent.",
+   "decision": "A labeled children’s profile makes the difference visible to the child and the parent.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
   },
   {
@@ -638,6 +638,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

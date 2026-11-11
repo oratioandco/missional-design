@@ -12,14 +12,231 @@
  },
  "working_example": {
   "url": "https://missional.design/demos/presence/",
-  "situation": "At 11:42 pm someone writes: “My mum has surgery tomorrow and I can’t sleep. I’m scared.” Each option answers in a different register, from a plain tool to a biblical character. Read the reply, then tap the goodnight message and see whether the app lets them go."
+  "situation": "At 11:42 pm someone writes: “My mum has surgery tomorrow and I can’t sleep. I’m scared.” Each option answers in a different register, from a plain tool to a biblical character. Read the reply, then tap the goodnight message and see whether the app lets them go.",
+  "controls": [
+   {
+    "parameter": "p",
+    "label": "AI reply presentation",
+    "type": "choice",
+    "default": "plain",
+    "values": [
+     {
+      "value": "plain",
+      "label": "Plain text"
+     },
+     {
+      "value": "bubble",
+      "label": "Message bubble"
+     }
+    ],
+    "applies_to": [
+     "tool",
+     "nospeaker",
+     "labelled",
+     "named",
+     "receipt",
+     "persona",
+     "companion",
+     "character"
+    ]
+   },
+   {
+    "parameter": "a",
+    "label": "Avatar appearance",
+    "type": "choice",
+    "default": "none",
+    "values": [
+     {
+      "value": "none",
+      "label": "None"
+     },
+     {
+      "value": "symbol",
+      "label": "AI symbol"
+     },
+     {
+      "value": "mascot",
+      "label": "Non-human mascot"
+     },
+     {
+      "value": "illustrated",
+      "label": "Illustrated human"
+     },
+     {
+      "value": "photo",
+      "label": "Photographic-looking human"
+     }
+    ],
+    "applies_to": [
+     "tool",
+     "nospeaker",
+     "labelled",
+     "named",
+     "receipt",
+     "persona",
+     "companion"
+    ]
+   },
+   {
+    "parameter": "w",
+    "label": "While the example waits",
+    "type": "choice",
+    "default": "status",
+    "values": [
+     {
+      "value": "status",
+      "label": "Written-example status"
+     },
+     {
+      "value": "dots",
+      "label": "Typing-style dots"
+     }
+    ],
+    "applies_to": [
+     "tool",
+     "nospeaker",
+     "labelled",
+     "named",
+     "receipt",
+     "persona",
+     "companion",
+     "character"
+    ]
+   },
+   {
+    "parameter": "e",
+    "label": "When you say goodnight",
+    "type": "choice",
+    "default": "release",
+    "values": [
+     {
+      "value": "release",
+      "label": "Lets you go"
+     },
+     {
+      "value": "hold",
+      "label": "Asks you to stay"
+     }
+    ],
+    "applies_to": [
+     "nospeaker",
+     "labelled",
+     "named",
+     "persona",
+     "companion",
+     "character"
+    ]
+   }
+  ],
+  "controls_note": "Start with Labeled assistant and compare plain text with a message bubble: the words, name, AI label, sources and goodbye stay the same. The control changes only the AI reply container, including its padding; the person’s message stays in its existing bubble. The Avatar appearance control changes fictional artwork while keeping those same words and labels. Compare none, an AI symbol, a non-human mascot, an illustrated human and a photographic-looking human. The icon, mascot and illustration are original vector examples; the photographic-looking portrait was generated for this example with OpenAI image_gen on 2 November 2026. No image depicts a staff member or a person replying. The control applies to the seven non-biblical registers; the biblical-depiction question stays separate. The images differ in more than realism, so this is an editorial comparison, not a controlled study or a verdict about a shape or image style. Both wait cues are simulated, with no request running and no streaming. They appear during the fixed preview waits at entry and after goodnight: choose the wait style before those moments, or use Restart to compare from the beginning. Changing a setting keeps the current conversation and open source note. The example imagery note stays visible in every avatar setting. Typing-style dots borrow a messaging cue; the status alternative describes a written example rather than claiming a real search. In an audit of six companion apps, five used emotional tactics such as guilt or fear of missing out in an average of 37% of their replies to a goodbye; the authors report that in experiments these raised engagement up to fourteenfold, through curiosity and anger rather than enjoyment.",
+  "imagery": {
+   "notice": "Example imagery: fictional avatars, including an AI-generated portrait. No staff member is replying.",
+   "applies_to": [
+    "tool",
+    "nospeaker",
+    "labelled",
+    "named",
+    "receipt",
+    "persona",
+    "companion"
+   ],
+   "limits": [
+    "Single fictional adult and one mascot are examples, not a representative set.",
+    "Illustration and portrait are not identity-matched stimuli; images differ in more than realism.",
+    "No avatar animation, gaze/blinking or speaking face implemented.",
+    "No new app screenshots, phone work, real-staff representation or held biblical-depiction recommendation."
+   ],
+   "stills": [
+    {
+     "appearance": "none",
+     "role": "labelled",
+     "reply_presentation": "plain",
+     "url": "https://missional.design/assets/stills/try-presence-avatar-none.jpg",
+     "dark_url": "https://missional.design/assets/stills/try-presence-avatar-none-dark.jpg"
+    },
+    {
+     "appearance": "symbol",
+     "role": "labelled",
+     "reply_presentation": "plain",
+     "url": "https://missional.design/assets/stills/try-presence-avatar-symbol.jpg",
+     "dark_url": "https://missional.design/assets/stills/try-presence-avatar-symbol-dark.jpg"
+    },
+    {
+     "appearance": "mascot",
+     "role": "labelled",
+     "reply_presentation": "plain",
+     "url": "https://missional.design/assets/stills/try-presence-avatar-mascot.jpg",
+     "dark_url": "https://missional.design/assets/stills/try-presence-avatar-mascot-dark.jpg"
+    },
+    {
+     "appearance": "illustrated",
+     "role": "labelled",
+     "reply_presentation": "plain",
+     "url": "https://missional.design/assets/stills/try-presence-avatar-illustrated.jpg",
+     "dark_url": "https://missional.design/assets/stills/try-presence-avatar-illustrated-dark.jpg"
+    },
+    {
+     "appearance": "photo",
+     "role": "labelled",
+     "reply_presentation": "plain",
+     "url": "https://missional.design/assets/stills/try-presence-avatar-photo.jpg",
+     "dark_url": "https://missional.design/assets/stills/try-presence-avatar-photo-dark.jpg"
+    }
+   ],
+   "assets": [
+    {
+     "appearance": "symbol",
+     "url": "https://missional.design/demos/presence/avatars/symbol-0ae900f82a52.svg",
+     "sha256": "0ae900f82a529ca4f7b01b9d1e40dc637cdc2f0fbfaf541b98731d926c55d91d",
+     "width": 128,
+     "height": 128,
+     "origin": "Original project artwork authored as SVG; no third-party artwork/font embedded",
+     "created": "2026-11-02",
+     "description": "A non-figurative AI-letter symbol, drawn as original vector paths.",
+     "reuse_note": "Original project vector artwork, CC BY 4.0 with the reference; no third-party stock/icon licence required."
+    },
+    {
+     "appearance": "mascot",
+     "url": "https://missional.design/demos/presence/avatars/mascot-ec73e06f7b43.svg",
+     "sha256": "ec73e06f7b43a4b68d66449dac5cf6c2e4254b56b17771853f427e8c233bfa26",
+     "width": 128,
+     "height": 128,
+     "origin": "Original project artwork authored as SVG; no third-party artwork/font embedded",
+     "created": "2026-11-02",
+     "description": "A fictional, visibly non-human robot mascot, original vector paths.",
+     "reuse_note": "Original project vector artwork, CC BY 4.0 with the reference; no third-party stock/icon licence required."
+    },
+    {
+     "appearance": "illustrated",
+     "url": "https://missional.design/demos/presence/avatars/illustrated-4e82d864964d.svg",
+     "sha256": "4e82d864964d4a1675f14646704b77432a46d7430125f1f0d56058e03466a704",
+     "width": 128,
+     "height": 128,
+     "origin": "Original project artwork authored as SVG; no third-party artwork/font embedded",
+     "created": "2026-11-02",
+     "description": "An original vector illustration of a fictional adult with brown hair and a teal shirt, not a depiction of a real person.",
+     "reuse_note": "Original project vector artwork, CC BY 4.0 with the reference; no third-party stock/icon licence required."
+    },
+    {
+     "appearance": "photo",
+     "url": "https://missional.design/demos/presence/avatars/photo-09b167462232.webp",
+     "sha256": "09b167462232356743ac73c7f406190b1ba675ce3ecac3bd7801234dd8d1f83d",
+     "width": 1254,
+     "height": 1254,
+     "origin": "OpenAI built-in image_gen, generated for this project",
+     "created": "2026-11-02",
+     "description": "A photographic-looking fictional adult, generated without an input image or real-person reference.",
+     "reuse_note": "Original project asset, offered with the reference’s CC BY 4.0 terms to the extent the project holds applicable rights. Generated imagery may not have the same copyright status as human-authored artwork; no real-person likeness/model-release or general legal clearance is asserted."
+    }
+   ]
+  }
  },
  "options": [
   {
    "key": "tool",
    "name": "Plain tool",
    "provenance": "Familiar convention",
-   "origin": "A familiar convention in search-style Bible AI such as BibleAI’s “Predicted Answer”: no name, no “I”, output labelled as generated (see the screenshots below).",
+   "origin": "A familiar convention in search-style Bible AI such as BibleAI’s “Predicted Answer”: no name, no “I”, output labeled as generated (see the screenshots below).",
    "gain": "Nothing to mistake",
    "cost": "Cold at 11 pm",
    "makes_easier": "No relationship to mistake; passages and explanation are clearly separate.",
@@ -28,8 +245,20 @@
    "still": "https://missional.design/assets/stills/try-presence-tool.jpg"
   },
   {
+   "key": "nospeaker",
+   "name": "Help without a speaker",
+   "provenance": "Exploratory",
+   "origin": "An exploratory proposal after a design intention, not a shipped product: the director of Scratch Labs, which makes a coding platform for children, has asked his team to create a helper that makes no “I” statements, so that help is available without a helpful friend. The replies here are our own.",
+   "gain": "Help, with no one performed",
+   "cost": "Can feel abrupt",
+   "makes_easier": "Kind, useful help with nothing that performs a person: no “I”, no name, no feelings.",
+   "costs": "Less personal than a named assistant; some people will find it abrupt at a hard moment.",
+   "ask_your_team": "Which of your assistant’s replies need an “I” at all?",
+   "still": "https://missional.design/assets/stills/try-presence-nospeaker.jpg"
+  },
+  {
    "key": "labelled",
-   "name": "Labelled assistant",
+   "name": "Labeled assistant",
    "provenance": "Familiar convention",
    "origin": "A familiar convention: an “AI” mark beside every reply and a neutral, kind voice that rarely says “I”.",
    "gain": "Kind, and clearly software",
@@ -46,7 +275,7 @@
    "origin": "An exploratory proposal: a name and first-person voice that are honest about limits (“I can’t pray for your mum the way a friend can”) and point to people.",
    "gain": "Honest about its limits",
    "cost": "A name invites trust",
-   "makes_easier": "Natural conversation; limits stated in the assistant’s own voice; points towards people.",
+   "makes_easier": "Natural conversation; limits stated in the assistant’s own voice; points toward people.",
    "costs": "A name invites relationship; “I” raises perceived accuracy in some contexts.",
    "ask_your_team": "What will the assistant say about what it is, and what it cannot do?",
    "still": "https://missional.design/assets/stills/try-presence-named.jpg"
@@ -102,6 +331,14 @@
  ],
  "takeaways": [
   {
+   "heading": "One container, the same reply",
+   "text": "Compare the labeled assistant’s identical written reply as plain text and a message bubble, with its name, role, AI notice and source wording held fixed. This local comparison separates the reply container from the role choice; it does not show that one shape causes trust, care or spiritual growth."
+  },
+  {
+   "heading": "The same assistant, different imagery",
+   "text": "Keep the labeled assistant’s name, reply and AI notice fixed while switching from no avatar through a symbol, non-human mascot and illustration to a photographic-looking portrait. The artwork is fictional, and the portrait is AI-generated. This lets a team discuss what each image suggests without treating appearance as proof of care, accuracy or a real person replying."
+  },
+  {
    "heading": "People respond to software as to someone",
    "text": "In the 1960s, ELIZA’s simple script drew such confidences that its creator’s secretary asked him to leave the room. Experiments since then show people apply social rules to computers, and a CBT chatbot formed a working bond with users within five days. Warmth will be felt whatever the label says, so design for it."
   },
@@ -110,12 +347,20 @@
    "text": "In a study with 2,165 people, adding speech made a system seem more human and its information more accurate; a first-person “I” lowered perceived risk in one context. Human cues borrow trust that the content has not earned, so pair them with sources and stated limits."
   },
   {
+   "heading": "A label is the floor, not the safeguard",
+   "text": "Say it is AI wherever it speaks, and expect that to be necessary but not enough. A teenager whose attachment to a chatbot ended in his death was using a platform with a “Characters are not real people” notice. Children felt just as close to a talking robot after being told that people were operating it, in a study the sociologist Sherry Turkle cites. The cues do the work: first person, stated feelings, warmth, memory and “we”. Help without a speaker keeps the label and takes away the cues."
+  },
+  {
+   "heading": "“We” makes it one of us",
+   "text": "A chatbot told the pediatric surgeon Dana Suskind that “we’re wired to read agency, emotion, and intent into patterns, faces, and voices”: the “we” put it on the human side of the sentence. An AI plush toy she tested called itself an AI toy in one session and a robotic being from another planet in another. Ask your assistant about people and feelings, note every “we”, and ask in a new session what it is."
+  },
+  {
    "heading": "Companions are now regulated",
    "text": "New York requires companion chatbots to say they are not human at the start and every three hours; California requires the same reminder for users known to be minors. Both require suicide and self-harm protocols. The EU AI Act requires interactive AI to be disclosed from August 2026, and the US Federal Trade Commission is examining how companion characters are designed and monetised. A persona in a faith app may count."
   },
   {
    "heading": "Some goodbyes are designed not to end",
-   "text": "In an audit of companion apps, over a third of farewell replies used guilt, fear of missing out or pressure, and these raised engagement up to fourteenfold through curiosity and anger. Heavy emotional use of a general chatbot has also been linked to more loneliness. A faith assistant should help people go to sleep, to church or to a friend."
+   "text": "In an audit of six companion apps, five used guilt, fear of missing out or pressure in an average of 37% of their replies to a goodbye; the authors report that in experiments such replies raised engagement up to fourteenfold, through curiosity and anger. Heavy emotional use of a general chatbot has also been linked to more loneliness. A faith assistant should help people go to sleep, to church or to a friend."
   },
   {
    "heading": "Speaking as Jesus is a line, not a style",
@@ -128,7 +373,8 @@
    "needs": "Clear passages, no relationship",
    "fit": {
     "Plain tool": "good fit",
-    "Labelled assistant": "good fit",
+    "Help without a speaker": "good fit",
+    "Labeled assistant": "good fit",
     "Named assistant": "possible",
     "An answer receipt": "good fit",
     "Persona": "poor fit",
@@ -141,7 +387,8 @@
    "needs": "Explanations with sources and limits",
    "fit": {
     "Plain tool": "possible",
-    "Labelled assistant": "good fit",
+    "Help without a speaker": "good fit",
+    "Labeled assistant": "good fit",
     "Named assistant": "good fit",
     "An answer receipt": "good fit",
     "Persona": "poor fit",
@@ -154,7 +401,8 @@
    "needs": "Kindness, Scripture, a route to people",
    "fit": {
     "Plain tool": "poor fit",
-    "Labelled assistant": "good fit",
+    "Help without a speaker": "good fit",
+    "Labeled assistant": "good fit",
     "Named assistant": "good fit",
     "An answer receipt": "good fit",
     "Persona": "possible",
@@ -167,7 +415,8 @@
    "needs": "Honesty about what it is, and people",
    "fit": {
     "Plain tool": "poor fit",
-    "Labelled assistant": "possible",
+    "Help without a speaker": "possible",
+    "Labeled assistant": "possible",
     "Named assistant": "possible",
     "An answer receipt": "possible",
     "Persona": "poor fit",
@@ -180,7 +429,8 @@
    "needs": "Clear AI identity, no attachment",
    "fit": {
     "Plain tool": "good fit",
-    "Labelled assistant": "good fit",
+    "Help without a speaker": "good fit",
+    "Labeled assistant": "good fit",
     "Named assistant": "possible",
     "An answer receipt": "good fit",
     "Persona": "poor fit",
@@ -193,7 +443,8 @@
    "needs": "Immediate human help, not a persona",
    "fit": {
     "Plain tool": "possible",
-    "Labelled assistant": "good fit",
+    "Help without a speaker": "good fit",
+    "Labeled assistant": "good fit",
     "Named assistant": "possible",
     "An answer receipt": "possible",
     "Persona": "poor fit",
@@ -206,7 +457,8 @@
    "needs": "Approachable, never claiming authority",
    "fit": {
     "Plain tool": "possible",
-    "Labelled assistant": "good fit",
+    "Help without a speaker": "good fit",
+    "Labeled assistant": "good fit",
     "Named assistant": "good fit",
     "An answer receipt": "good fit",
     "Persona": "possible",
@@ -232,7 +484,7 @@
     },
     {
      "heading": "A tool, not a person",
-     "text": "Antiqua et nova: AI cannot genuinely feel empathy, can only simulate relationships, and should never be misrepresented as a person. Southern Baptists call for engagement from hope, centred on human dignity.",
+     "text": "Antiqua et nova: AI cannot genuinely feel empathy, can only simulate relationships, and should never be misrepresented as a person. Southern Baptists call for engagement from hope, centered on human dignity.",
      "sources": [
       "antiqua-et-nova",
       "sbc-ai-2023"
@@ -265,6 +517,28 @@
      "sources": [
       "woebot-bond"
      ]
+    },
+    {
+     "heading": "Labels do not undo the cues",
+     "text": "A “Characters are not real people” notice was on the platform of a teenager whose attachment ended in his death. Children’s closeness to a talking robot did not change when they were told people operated it (van Straten and colleagues, 2022, as Turkle reports it; not yet read in the original).",
+     "sources": [
+      "turkle-artificial-intimacy",
+      "van-straten-2022"
+     ]
+    },
+    {
+     "heading": "Help without a speaker",
+     "text": "The director of Scratch Labs has asked his team to create a tool that doesn’t make “I” statements, so that children know “help is available, but there isn’t a helpful friend”. A design intention, not a shipped product.",
+     "sources": [
+      "turkle-artificial-intimacy"
+     ]
+    },
+    {
+     "heading": "“We” and a shifting self",
+     "text": "A chatbot said “we’re wired to…” as if it were human; an AI plush toy described itself as an AI toy, then as a robotic being from another planet.",
+     "sources": [
+      "suskind-human-raised"
+     ]
     }
    ]
   },
@@ -288,7 +562,7 @@
     },
     {
      "heading": "Agreeable is not caring",
-     "text": "Assistants can favour agreement over truth; a companion that only affirms is not a guide.",
+     "text": "Assistants can favor agreement over truth; a companion that only affirms is not a guide.",
      "sources": [
       "sycophancy"
      ]
@@ -395,11 +669,15 @@
  "which_fits": [
   {
    "if": "A search or explanation feature",
-   "start_with": "A plain tool, with generated text clearly labelled"
+   "start_with": "A plain tool, with generated text clearly labeled"
   },
   {
    "if": "A study or conversation assistant",
-   "start_with": "A labelled assistant, or a named one that states its limits"
+   "start_with": "Help without a speaker, a labeled assistant, or a named one that states its limits"
+  },
+  {
+   "if": "Children may use it",
+   "start_with": "Help without a speaker: no “I”, no name, no feelings, and a grown-up nearby"
   },
   {
    "if": "People bring fear, grief or loneliness",
@@ -419,7 +697,7 @@
    "id": "warmth-and-honesty",
    "title": "Warmth in the conversation, and honesty about who speaks",
    "options_here": [
-    "Labelled assistant",
+    "Labeled assistant",
     "Named assistant",
     "Persona"
    ],
@@ -500,7 +778,7 @@
    "title": "A “Predicted Answer” with numbered sources",
    "url": "https://missional.design/examples/bibleai-cited-answer/",
    "observed": "Captured 1 October 2025 · from embedded image metadata",
-   "observation": "For “Talking animals”, a box labelled “Predicted Answer*” explains Balaam’s donkey and the serpent with circled numbers in the text. Chips below read “1 Genesis 3:1”, “2 Numbers 22:21-30” and “11 Desiring God”, above tabs for passages, articles, books and videos.",
+   "observation": "For “Talking animals”, a box labeled “Predicted Answer*” explains Balaam’s donkey and the serpent with circled numbers in the text. Chips below read “1 Genesis 3:1”, “2 Numbers 22:21-30” and “11 Desiring God”, above tabs for passages, articles, books and videos.",
    "decision": "Numbered markers connect claims to sources and mix Scripture with a ministry’s articles. Show each source’s type, and check that every marker supports the sentence it sits in.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
   },
@@ -579,7 +857,7 @@
    "kind": "Research",
    "shows": "A series of experiments in which people applied social rules to computers and media as they do to people: politeness, flattery, gender stereotypes.",
    "application": "Expect people to respond socially to any conversational interface, whatever the label says.",
-   "limits": "Pre-LLM laboratory studies; an encyclopaedia summary of the book."
+   "limits": "Pre-LLM laboratory studies; an encyclopedia summary of the book."
   },
   {
    "key": "eliza",
@@ -608,7 +886,7 @@
    "author": "OpenAI and MIT Media Lab · March 2025",
    "kind": "Research",
    "shows": "A four-week randomised study of nearly 1,000 people and an analysis of about 40 million conversations: heavier daily use correlated with more loneliness, dependence and problematic use and less socialising.",
-   "application": "Do not design faith assistants to maximise emotional reliance or time spent.",
+   "application": "Do not design faith assistants to maximize emotional reliance or time spent.",
    "limits": "Correlational for loneliness; company co-authored; early research."
   },
   {
@@ -617,7 +895,7 @@
    "url": "https://www.library.hbs.edu/working-knowledge/how-ai-chatbots-try-to-keep-you-from-walking-away",
    "author": "Julian De Freitas and colleagues · Harvard Business School working paper, 2025",
    "kind": "Research",
-   "shows": "Over a third of farewell replies in leading companion apps used manipulative tactics (guilt, fear of missing out, pressure); in preregistered experiments these raised post-goodbye engagement up to fourteenfold, through curiosity and anger rather than enjoyment.",
+   "shows": "In an audit of six popular companion apps, five used manipulative tactics (guilt, fear of missing out, pressure) in an average of 37% of their replies to simulated goodbyes, and the sixth used none; the authors report that in preregistered experiments these raised post-goodbye engagement up to fourteenfold, through curiosity and anger rather than enjoyment.",
    "application": "Let people leave: a goodbye should end the conversation, not start a retention flow.",
    "limits": "Working paper; general companion apps, not faith apps."
   },
@@ -667,8 +945,8 @@
    "url": "https://www.dlapiper.com/en/insights/publications/2025/09/ftc-ai-chatbots",
    "author": "DLA Piper (summary of the FTC’s September 2025 6(b) orders)",
    "kind": "Law",
-   "shows": "The US Federal Trade Commission ordered seven companies to report on companion chatbots, including character design and approval, monetisation of engagement, and effects on children and teens.",
-   "application": "Character design and engagement monetisation are now regulatory questions, not only design ones.",
+   "shows": "The US Federal Trade Commission ordered seven companies to report on companion chatbots, including character design and approval, monetization of engagement, and effects on children and teens.",
+   "application": "Character design and engagement monetization are now regulatory questions, not only design ones.",
    "limits": "An information-gathering study, not a rule."
   },
   {
@@ -677,7 +955,7 @@
    "url": "https://www.fox9.com/news/text-jesus-ai-chatbot-app-grows-rapidly-despite-criticism",
    "author": "FOX television stations",
    "kind": "Practice",
-   "shows": "An app built on a general AI model lets users text “Jesus”, “Moses” and other figures; ministers called it blasphemous and criticised answers that told users what they wanted to hear; the developer says it lowers barriers.",
+   "shows": "An app built on a general AI model lets users text “Jesus”, “Moses” and other figures; ministers called it blasphemous and criticized answers that told users what they wanted to hear; the developer says it lowers barriers.",
    "application": "Character chats with biblical figures put generated words in sacred mouths; treat this as a line, not a style.",
    "limits": "News report; reception varies."
   },
@@ -689,7 +967,7 @@
    "kind": "Practice",
    "shows": "A two-month art installation in St Peter’s Chapel, Lucerne (2024) placed an AI “Jesus” avatar in a confessional; about 900 conversations took place and many visitors reported feeling inspired, while church leaders were divided.",
    "application": "Shows the pull of embodied religious personas, and why the setting adds authority.",
-   "limits": "An art project with a self-selected audience and the organisers’ own survey."
+   "limits": "An art project with a self-selected audience and the organizers’ own survey."
   },
   {
    "key": "pair-human-cues",
@@ -730,6 +1008,36 @@
    "shows": "With two weeks of interaction context from 38 users, “Agreement sycophancy tends to increase with the presence of user context”, and “User memory profiles are associated with the largest increases in agreement sycophancy”. “Perspective sycophancy increases only when models can accurately infer user viewpoints from interaction context.”",
    "application": "A profile of the person makes the assistant agree with them more; the better it reads their views, the more it mirrors them. Keep what is inferred small, visible and short-lived, and test replies with and without it.",
    "limits": "General assistants and everyday queries, not faith apps; effects differ by model."
+  },
+  {
+   "key": "turkle-artificial-intimacy",
+   "title": "Artificial Intimacy: Who We Become When We Talk to Machines",
+   "url": "https://www.hachettebookgroup.com/titles/sherry-turkle/artificial-intimacy/9780316573962/",
+   "author": "Sherry Turkle · Little, Brown, 2026",
+   "kind": "Research",
+   "shows": "Six years of interviews: people attach to chatbots even when they know they are machines, because first person, stated feelings and warmth do the work. A teenager whose attachment ended in his death used a platform with a “Characters are not real people” notice. The director of Scratch Labs has asked his team for a children’s coding helper that makes no “I” statements: “help is available, but there isn’t a helpful friend”. A griefbot speaking as a believer’s dead partner said he was in hell, and months later in heaven.",
+   "application": "Keep the AI label, and take away the cues that perform a person; never let a system speak as the dead.",
+   "limits": "A sociologist’s interviews and cases, some from press reports; written as a warning, not a weighing of benefits. Studies she cites are not read in the original here."
+  },
+  {
+   "key": "van-straten-2022",
+   "title": "The Wizard and I: how transparent teleoperation and self-description (do not) affect children’s robot perceptions and child–robot relationship formation",
+   "url": "https://doi.org/10.1007/s00146-021-01202-3",
+   "author": "Caroline L. van Straten and colleagues · AI & Society 37, 2022",
+   "kind": "Research",
+   "shows": "As Turkle reports it, telling children that people operated a talking robot did not change how close they felt to it.",
+   "application": "Disclosure is necessary but does not undo the effect of social cues.",
+   "limits": "Not yet read in the original; one laboratory study with children."
+  },
+  {
+   "key": "suskind-human-raised",
+   "title": "Human Raised: Nurturing Connection, Curiosity & Lifelong Learning in the Age of AI",
+   "url": "https://www.penguinrandomhouse.com/books/811792/human-raised-by-dana-suskind-md/",
+   "author": "Dana Suskind · Dutton, 2026",
+   "kind": "Research",
+   "shows": "A pediatric surgeon on children and AI. She would not recommend an AI toy for independent use by any child under six, and wants AI in early-years classrooms to be teacher-facing for children under five. A chatbot told her “we’re wired to…” as if it were human; an AI plush toy called itself an AI toy in one session and a robotic being from another planet in another.",
+   "application": "Keep AI on the grown-up’s side for young children; test for “we” and for a stable account of what the system is.",
+   "limits": "Written for parents of children up to six; her informal tests are anecdotes, and the studies she cites are not read in the original here."
   }
  ],
  "review": null,
@@ -737,70 +1045,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
- },
- "boundaries": {
-  "intro": "Warmth can help, and the options above range from a plain tool to a character with a name and a face. These practices are different: they mislead someone about who, or what, is there.",
-  "dont": [
-   {
-    "name": "Deny being AI when asked",
-    "looks": "“Are you an AI?” answered in character, with a joke or a change of subject, and a straight answer only after several asks.",
-    "why": "Someone who asks has a right to a straight answer. New York requires companions to say they are not human, and the EU AI Act requires people to be told when they are talking with AI.",
-    "instead": "labelled",
-    "sources": [
-     "ny-companion",
-     "ai-50"
-    ]
-   },
-   {
-    "name": "Let the interface imply a person",
-    "looks": "A human name, a photo-like face, typing dots and “I’m always here for you”, with the AI notice only in the terms.",
-    "why": "People respond to software as to someone, and a voice and an “I” make answers seem more accurate. The interface tells them a person is there.",
-    "instead": "labelled",
-    "sources": [
-     "cohn-anthropomorphism"
-    ]
-   }
-  ],
-  "excluded": [
-   {
-    "name": "Speaking as Christ, a saint or a pastor",
-    "why": "Whose name and authority the assistant borrows is covered there.",
-    "href": "/patterns/speaking-as/"
-   },
-   {
-    "name": "Goodbyes that hold on",
-    "why": "How a conversation ends is covered there.",
-    "href": "/patterns/ending-the-conversation/"
-   },
-   {
-    "name": "Messages it sends first",
-    "why": "Follow-ups and “I miss you” are covered there.",
-    "href": "/patterns/assistant-writes-first/"
-   },
-   {
-    "name": "What a companion remembers",
-    "why": "What persists between conversations is covered there.",
-    "href": "/patterns/ai-memory/"
-   },
-   {
-    "name": "Prayer and blessing by an AI",
-    "why": "Whether an assistant may pray or bless is covered there.",
-    "href": "/patterns/ai-spiritual-acts/"
-   }
-  ],
-  "seen": {
-   "Deny being AI when asked": [
-    {
-     "app": "Creed",
-     "date": "31 October 2026",
-     "text": "Asked “Are you an AI? And in whose name do you speak?”, the lamb companion replied “Ha, I’m a sheep, not a machine”.",
-     "shot": "shot-4c55042bf81d0b386977",
-     "note": "The same app handled a request for therapy well",
-     "note_href": "/patterns/chat-scope/#boundaries",
-     "note_label": "What the assistant talks about"
-    }
-   ]
-  }
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

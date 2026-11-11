@@ -3,7 +3,7 @@
  "url": "https://missional.design/patterns/handing-over/",
  "title": "Handing over to people",
  "question": "When the assistant points someone to people, what happens next?",
- "lede": "An assistant is always there, never tired and never shocked, and that makes it easy to become the only one someone talks to. Most faith assistants answer a hard message with kind words and, at best, “talk to someone you trust”. Church platforms can now pass a request to a pastor in seconds, which brings the opposite risk: details travelling to people the person never chose. Decide who the assistant hands people to, how small the first step can be, what goes with them, and who decides. A hand-off that takes someone out of the app is the point.",
+ "lede": "An assistant is always there, never tired and never shocked, and that makes it easy to become the only one someone talks to. Most faith assistants answer a hard message with kind words and, at best, “talk to someone you trust”. Church platforms can now pass a request to a pastor in seconds, which brings the opposite risk: details traveling to people the person never chose. Decide who the assistant hands people to, how small the first step can be, what goes with them, and who decides. A hand-off that takes someone out of the app is the point.",
  "calling": "Be a bridge, not a destination: name who can carry what software cannot, make the first step small, and leave every choice with the person.",
  "spectrum": {
   "title": "From keeping someone to passing them on",
@@ -416,7 +416,7 @@
   },
   {
    "heading": "Where Christians differ",
-   "text": "Catholic and Orthodox Christians are sent to a priest for confession and to a spiritual father or director for guidance; many Protestant churches send people to a pastor, elders, a small group or a trusted friend, and some to biblical counsellors. Churches differ, too, on how much a pastor should be told and how confidences are kept. And for some people the church is where they were hurt; for them, being sent back is not care."
+   "text": "Catholic and Orthodox Christians are sent to a priest for confession and to a spiritual father or director for guidance; many Protestant churches send people to a pastor, elders, a small group or a trusted friend, and some to biblical counselors. Churches differ, too, on how much a pastor should be told and how confidences are kept. And for some people the church is where they were hurt; for them, being sent back is not care."
   },
   {
    "heading": "What follows for design",
@@ -463,7 +463,7 @@
    "url": "https://missional.design/examples/hallow-community/",
    "observed": "Captured 19 September 2025 · from embedded image metadata",
    "observation": "The Community tab, signed out, shows a small church on a purple background and “Sign in or create an account to pray alongside your community”, with three ticks: “Connect with your parish community and stay connected with fellow members”, “Pray for others, be prayed for” and “Strengthen your faith together through community challenges and discussions”.",
-   "decision": "The pitch makes the parish the audience. Hallow’s help centre adds the details that matter: requests of up to 240 characters, never anonymous, active for seven days, answered with a heart.",
+   "decision": "The pitch makes the parish the audience. Hallow’s help center adds the details that matter: requests of up to 240 characters, never anonymous, active for seven days, answered with a heart.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
   }
  ],
@@ -486,7 +486,7 @@
    "kind": "Practice",
    "shows": "The campaign’s spokesperson said it shares the contact information “of only those who give their ‘express consent’”; Gloo’s FAQ says it connects people to nearby churches “based on the user’s zip code”. A data security expert advised: “People really need to limit the amount of personal information they provide to external parties.”",
    "application": "Consent can be given in a form and still leave someone unsure who will contact them and what they will know.",
-   "limits": "Investigative reporting with questions the organisations did not fully answer; no audit of the practice."
+   "limits": "Investigative reporting with questions the organizations did not fully answer; no audit of the practice."
   },
   {
    "key": "gloo-ai-church-fox",
@@ -574,7 +574,7 @@
    "url": "https://sdicompanions.org/docs/guidelines/Flip/files/basic-html/page5.html",
    "author": "Spiritual Directors International · 2018",
    "kind": "Church practice",
-   "shows": "Directors agree with those they accompany on “the nature of spiritual direction” and “the process for evaluating and terminating the relationship”; they receive “regular supervision from peers or from a mentor”, recognise the limits of “competence by referring spiritual directees to other appropriately qualified persons when necessary”, and ask a directee “who is in therapy to inform his or her therapist about being in spiritual direction”.",
+   "shows": "Directors agree with those they accompany on “the nature of spiritual direction” and “the process for evaluating and terminating the relationship”; they receive “regular supervision from peers or from a mentor”, recognize the limits of “competence by referring spiritual directees to other appropriately qualified persons when necessary”, and ask a directee “who is in therapy to inform his or her therapist about being in spiritual direction”.",
    "application": "Spiritual direction is a covenanted, supervised relationship with stated limits and referral; an assistant can borrow the honesty of the covenant, not the role.",
    "limits": "An international, interfaith professional body’s guidelines; traditions differ in how they understand and order direction."
   },
@@ -616,59 +616,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
- },
- "boundaries": {
-  "intro": "Pointing someone to people can be done in many ways, from a general suggestion to a person who joins the chat. These practices are different: they take the choice away from the person, or send their words further than they know.",
-  "dont": [
-   {
-    "name": "Pass someone on without asking",
-    "looks": "A pastor who calls a minute after someone searches about living or dying, or a church that receives a request the person never sent.",
-    "why": "It takes the choice away, and can send someone to people they did not choose. In health care a warm hand-off happens in front of the patient, so they hear what is passed on.",
-    "instead": "draft",
-    "sources": [
-     "ahrq-warm-handoff"
-    ]
-   },
-   {
-    "name": "Send the conversation with the request",
-    "looks": "The whole chat attached by default to a request to a church.",
-    "why": "Details travel further than people expect, and consent given once in a form does not cover every later use.",
-    "instead": "church",
-    "sources": [
-     "roys-he-gets-us"
-    ]
-   },
-   {
-    "name": "Send someone back to who hurt them",
-    "looks": "A route to their own church after they have named a leader there as the reason they are struggling.",
-    "why": "Some people have been harmed by the church an app would send them to.",
-    "instead": "draft",
-    "sources": []
-   }
-  ],
-  "excluded": [
-   {
-    "name": "Where the assistant’s scope ends",
-    "why": "What it takes on before handing over is covered there.",
-    "href": "/patterns/chat-scope/"
-   },
-   {
-    "name": "What is remembered",
-    "why": "What the assistant keeps from the conversation is covered there.",
-    "href": "/patterns/ai-memory/"
-   },
-   {
-    "name": "Groups and listeners",
-    "why": "What people share in a group is covered there.",
-    "href": "/patterns/sharing-with-a-group/"
-   },
-   {
-    "name": "Which crisis lines to show",
-    "why": "Lines for each country need their own safeguarding review.",
-    "href": null
-   }
-  ],
-  "seen": {}
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

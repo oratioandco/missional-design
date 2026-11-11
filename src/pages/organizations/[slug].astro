@@ -12,14 +12,14 @@ const previews=children.flatMap(a=>(media[a.id]?.screenshots||[]).slice(0,childr
 const relatedApps=integrations.flatMap(c=>apps.filter(a=>a.organisation_id===c.id));
 const orgArticles=[...new Set(children.flatMap(a=>screensFor(a.id).flatMap(s=>s.article_slugs)))];
 ---
-<Layout title={o.name} description={o.description} active="organisations" indexable>
+<Layout title={o.name} description={o.description} active="organizations" indexable>
  <span hidden data-pagefind-meta="record_id">{'organisation:'+o.id}</span><span hidden data-pagefind-filter="kind">organisation</span>
  <header class="lib-org-hero">
   <div class="lib-intro">
-   <a class="lib-back" href="/organisations/">All organisations</a>
+   <a class="lib-back" href="/organizations/">All organizations</a>
    <h1 data-pagefind-meta="title">{o.name}</h1>
    <p data-pagefind-meta="description">{o.description}</p>
-   <div class="lib-links">{o.website&&<a href={o.website} rel="noreferrer" target="_blank">Official website</a>}<a href="#about">About the organisation</a></div>
+   <div class="lib-links">{o.website&&<a href={o.website} rel="noreferrer" target="_blank">Official website</a>}<a href="#about">About the organization</a></div>
    {o.app_store_seller&&<p class="lib-note">App Store seller: {o.app_store_seller}</p>}
   </div>
   {previews.length>0?<figure class="lib-org-preview">
@@ -33,7 +33,7 @@ const orgArticles=[...new Set(children.flatMap(a=>screensFor(a.id).flatMap(s=>s.
  <div class="lib-org-content">
   <div class="lib-org-main"><Facts organisation={o}/></div>
   <aside class="lib-org-rail">
-   <nav class="lib-page-index" aria-label="On this organisation page"><h2>On this page</h2><a href="#about">About</a><a href="#funding">Funding and business model</a><a href="#figures">Facts and figures</a>{o.leaders.length>0&&<a href="#people">People</a>}<a href="#organisation-apps">{children.length?'Apps':'Integrations'}</a><a href="#sources">Sources</a></nav>
+   <nav class="lib-page-index" aria-label="On this organization page"><h2>On this page</h2><a href="#about">About</a><a href="#funding">Funding and business model</a><a href="#figures">Facts and figures</a>{o.leaders.length>0&&<a href="#people">People</a>}<a href="#organisation-apps">{children.length?'Apps':'Integrations'}</a><a href="#sources">Sources</a></nav>
    <section id="organisation-apps"><h2>{children.length?'Apps':'Used in'}</h2>
     {(children.length?children:relatedApps).map(a=><article class="lib-org-app"><a class="lib-org-app-name" href={a.url}><AppIcon app={a} size={44}/><strong>{a.name}</strong></a>{!children.length&&<p class="lib-note">Technology integration; a separate app publisher.</p>}<a href={a.url+'#app-store'}>{media[a.id]?.screenshots.length||0} App Store images</a><a href={a.url+'#research-captures'}>{screensFor(a.id).length} research capture{screensFor(a.id).length===1?'':'s'}</a></article>)}
    </section>

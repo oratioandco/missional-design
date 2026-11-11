@@ -177,7 +177,7 @@
      "sources": []
     },
     {
-     "heading": "Text in the centre, help around it",
+     "heading": "Text in the center, help around it",
      "text": "Glossed Bibles separated Scripture and commentary by place and script; the King James translators allowed no interpretive notes in the margin.",
      "sources": [
       "glossa-ordinaria",
@@ -400,7 +400,7 @@
    "kind": "Practice",
    "shows": "A/B tests on several Wikipedias found that hover previews let readers check a link without leaving the article: full page views fell, while deliberate interactions with linked pages rose.",
    "application": "A short preview anchored to the text lets readers glance at help without losing their place.",
-   "limits": "Desktop hover previews on an encyclopaedia; touch behaviour differs."
+   "limits": "Desktop hover previews on an encyclopedia; touch behavior differs."
   },
   {
    "key": "interrupted-work",
@@ -430,7 +430,7 @@
    "kind": "Product documentation",
    "shows": "Documents a split study surface, resources following a passage and linked-window states.",
    "application": "Make following, independent exploration and rejoining explicit.",
-   "limits": "Documented Android behaviour; not a live capture or an endorsement of every default."
+   "limits": "Documented Android behavior; not a live capture or an endorsement of every default."
   },
   {
    "key": "gospelpartner-study",
@@ -498,7 +498,7 @@
    "url": "https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html",
    "author": "W3C WAI · WCAG 2.2 success criterion 1.2.2",
    "kind": "Accessibility",
-   "shows": "Prerecorded audio in synchronised media needs captions.",
+   "shows": "Prerecorded audio in synchronized media needs captions.",
    "application": "Caption every sermon clip and video, and correct automatic transcripts before quoting them.",
    "limits": "Accessibility guidance."
   },
@@ -518,6 +518,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

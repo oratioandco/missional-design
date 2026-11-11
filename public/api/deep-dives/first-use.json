@@ -79,10 +79,10 @@
    "key": "answers",
    "name": "Answers you can see and delete",
    "provenance": "Exploratory",
-   "origin": "An exploratory proposal: show the answer and its effect on the starting screen, with a way to forget it before continuing. No profile or personalised offer is built.",
-   "gain": "Personalisation visible and reversible",
+   "origin": "An exploratory proposal: show the answer and its effect on the starting screen, with a way to forget it before continuing. No profile or personalized offer is built.",
+   "gain": "Personalization visible and reversible",
    "cost": "Another step before content",
-   "makes_easier": "People can inspect and undo the personalisation.",
+   "makes_easier": "People can inspect and undo the personalization.",
    "costs": "An extra review step can delay reaching the content.",
    "ask_your_team": "Does every answer change something useful, visible and reversible?",
    "still": "https://missional.design/assets/stills/try-first-answers.jpg"
@@ -166,7 +166,7 @@
     "The price before the questions": "possible",
     "Answers you can see and delete": "possible",
     "A short tour first": "possible",
-    "Questions first": "possible",
+    "Questions first": "poor fit",
     "Asking for payment": "poor fit"
    }
   },
@@ -181,7 +181,7 @@
     "The price before the questions": "poor fit",
     "Answers you can see and delete": "possible",
     "A short tour first": "poor fit",
-    "Questions first": "possible",
+    "Questions first": "poor fit",
     "Asking for payment": "poor fit"
    }
   },
@@ -291,7 +291,7 @@
     },
     {
      "heading": "Support, and suspicion of those who ask",
-     "text": "The Didache, an early church manual, says a true teacher “is himself worthy, as the workman, of his support”, and that a travelling apostle who asks for money “is a false prophet”. Peter told Simon, who offered money for the Spirit, “you thought you could buy the gift of God with money!” (Acts 8:20), and Paul refused to “peddle the word of God for profit” (2 Corinthians 2:17).",
+     "text": "The Didache, an early church manual, says a true teacher “is himself worthy, as the workman, of his support”, and that a traveling apostle who asks for money “is a false prophet”. Peter told Simon, who offered money for the Spirit, “you thought you could buy the gift of God with money!” (Acts 8:20), and Paul refused to “peddle the word of God for profit” (2 Corinthians 2:17).",
      "sources": [
       "didache-support"
      ]
@@ -357,7 +357,7 @@
     },
     {
      "heading": "A wall before the welcome",
-     "text": "Account walls, tracking prompts and rating requests at launch raise sign-ups and data, which is why growth teams place them early. They cross a line when someone has to give before they receive. A deceptive-design catalogue calls this forced action, EU law bars online platforms from interfaces that deceive or manipulate users, and the US Federal Trade Commission has reported on manipulative data choices. Redeemed as guest first: use the app, then be asked for an account when there is something to keep.",
+     "text": "Account walls, tracking prompts and rating requests at launch raise sign-ups and data, which is why growth teams place them early. They cross a line when someone has to give before they receive. A deceptive-design catalog calls this forced action, EU law bars online platforms from interfaces that deceive or manipulate users, and the US Federal Trade Commission has reported on manipulative data choices. Redeemed as guest first: use the app, then be asked for an account when there is something to keep.",
      "sources": [
       "brignull-deceptive",
       "dsa-art25",
@@ -376,7 +376,7 @@
    "subtitle": "What faith apps asked first in our captures",
    "findings": [
     {
-     "heading": "A profile, then a personalised trial",
+     "heading": "A profile, then a personalized trial",
      "text": "Duomo’s setup questions produce a Faith Growth Profile with a Scripture Confidence gauge, then a trial screen built from the answers that reads “Due today $0.00, 3 days free, $9.99 due Oct 28, 2026”.",
      "sources": []
     },
@@ -499,7 +499,7 @@
   },
   {
    "id": "naming-and-welcome",
-   "title": "Saying whose teaching it is, and welcoming the sceptic",
+   "title": "Saying whose teaching it is, and welcoming the skeptic",
    "options_here": [
     "Open on what they came for",
     "Guest first, an account when there is something to keep"
@@ -513,7 +513,7 @@
      "You choose a tradition"
     ]
    },
-   "pull": "Honesty means naming a church at the door, but a church label or a step that asks people to choose a tradition can feel like a membership test to an enquirer or to someone a church has hurt.",
+   "pull": "Honesty means naming a church at the door, but a church label or a step that asks people to choose a tradition can feel like a membership test to an inquirer or to someone a church has hurt.",
    "hold": "Say whose teaching the assistant follows in one plain line, as a description rather than a gate. Never make someone choose a church before they may ask a question."
   },
   {
@@ -593,7 +593,7 @@
    "url": "https://missional.design/examples/hallow-community/",
    "observed": "Captured 19 September 2025 · from embedded image metadata",
    "observation": "The Community tab, signed out, shows a small church on a purple background and “Sign in or create an account to pray alongside your community”, with three ticks: “Connect with your parish community and stay connected with fellow members”, “Pray for others, be prayed for” and “Strengthen your faith together through community challenges and discussions”.",
-   "decision": "The pitch makes the parish the audience. Hallow’s help centre adds the details that matter: requests of up to 240 characters, never anonymous, active for seven days, answered with a heart.",
+   "decision": "The pitch makes the parish the audience. Hallow’s help center adds the details that matter: requests of up to 240 characters, never anonymous, active for seven days, answered with a heart.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
   },
   {
@@ -876,7 +876,7 @@
    "url": "https://www.newadvent.org/fathers/0714.htm",
    "author": "Early Christian text, late first or early second century · New Advent edition",
    "kind": "Church practice",
-   "shows": "A travelling apostle should “take nothing but bread … but if he ask money, he is a false prophet”; yet “every true prophet that wills to abide among you is worthy of his support. So also a true teacher is himself worthy, as the workman, of his support.”",
+   "shows": "A traveling apostle should “take nothing but bread … but if he ask money, he is a false prophet”; yet “every true prophet that wills to abide among you is worthy of his support. So also a true teacher is himself worthy, as the workman, of his support.”",
    "application": "The early church supported its teachers and distrusted those who asked for money: both at once.",
    "limits": "An early church manual; its dating and setting are debated."
   },
@@ -907,7 +907,7 @@
    "author": "Berean Bible",
    "kind": "Licensing",
    "shows": "The Berean Standard Bible was dedicated to the public domain on 30 April 2023.",
-   "application": "Public-domain modern translations can be compared, quoted and shared without licence limits.",
+   "application": "Public-domain modern translations can be compared, quoted and shared without license limits.",
    "limits": "Publisher statement."
   },
   {
@@ -946,7 +946,7 @@
    "url": "https://behaviormodel.org/",
    "author": "BJ Fogg · Behavior Design Lab, Stanford",
    "kind": "Design reference",
-   "shows": "Behaviour happens when motivation, ability and a prompt come together at the same time (B=MAP); when it does not happen, one of the three is missing.",
+   "shows": "Behavior happens when motivation, ability and a prompt come together at the same time (B=MAP); when it does not happen, one of the three is missing.",
    "application": "Explains why a well-timed prompt works, and which part of a design is doing the work.",
    "limits": "A design model from industry practice, not a measure of benefit to the person."
   },
@@ -956,9 +956,9 @@
    "url": "https://www.deceptive.design/types",
    "author": "Harry Brignull · deceptive.design",
    "kind": "Design reference",
-   "shows": "A catalogue of deceptive design patterns such as preselection, confirmshaming, forced action, nagging and hard-to-cancel subscriptions, with examples and the laws that apply.",
+   "shows": "A catalog of deceptive design patterns such as preselection, confirmshaming, forced action, nagging and hard-to-cancel subscriptions, with examples and the laws that apply.",
    "application": "Gives teams shared names for techniques that cross the line from persuasion to deception.",
-   "limits": "A curated catalogue; inclusion is the author’s judgment."
+   "limits": "A curated catalog; inclusion is the author’s judgment."
   },
   {
    "key": "dsa-art25",
@@ -966,7 +966,7 @@
    "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
    "author": "European Union",
    "kind": "Law",
-   "shows": "Online platforms may not design, organise or operate their interfaces in a way that deceives or manipulates users or otherwise materially distorts or impairs their ability to make free and informed decisions.",
+   "shows": "Online platforms may not design, organize or operate their interfaces in a way that deceives or manipulates users or otherwise materially distorts or impairs their ability to make free and informed decisions.",
    "application": "Sets a legal baseline in the EU for interface design that steers people.",
    "limits": "Applies to online platforms under the DSA; not every app is in scope."
   },
@@ -997,110 +997,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
- },
- "boundaries": {
-  "intro": "Asking for something early can be reasonable, and the options above include several ways to do it. These practices go further: they get what they want from someone who has not yet been able to judge the app.",
-  "dont": [
-   {
-    "name": "Wall off what they came for",
-    "looks": "An account, a phone number or a quiz that cannot be skipped before the first verse, when the feature does not need it.",
-    "why": "Deceptive-design catalogues call this forced action: the person pays before they have received anything.",
-    "instead": "guest",
-    "sources": [
-     "brignull-deceptive"
-    ]
-   },
-   {
-    "name": "Build a profile, then a paywall",
-    "looks": "Questions whose answers mainly feed a personalised offer that follows.",
-    "why": "Having answered, people feel committed, and that consistency is used to sell.",
-    "instead": "price",
-    "sources": [
-     "cialdini-consistency"
-    ]
-   },
-   {
-    "name": "Switch on a trial for them",
-    "looks": "A free trial already enabled, or a weekly subscription as the default.",
-    "why": "The choice that suits the app is made for the person, who has to notice and undo it.",
-    "instead": "price",
-    "sources": [
-     "brignull-deceptive"
-    ]
-   },
-   {
-    "name": "Use faithfulness to sell",
-    "looks": "Payment framed as the only way to be faithful.",
-    "why": "It puts spiritual weight on a commercial decision.",
-    "instead": "price",
-    "sources": []
-   },
-   {
-    "name": "Put help behind a gate",
-    "looks": "Crisis help behind a sign-up or a quota.",
-    "why": "Someone in danger should never have to create an account first.",
-    "instead": "start",
-    "sources": []
-   }
-  ],
-  "excluded": [
-   {
-    "name": "Reminders after first use",
-    "why": "What a notification may ask is covered there.",
-    "href": "/patterns/notifications/"
-   },
-   {
-    "name": "What an assistant does with what it learns",
-    "why": "How answers adapt to a person is covered there.",
-    "href": "/patterns/meeting-the-person/"
-   },
-   {
-    "name": "Paying for access",
-    "why": "Whether to charge at all is a separate decision. This page concerns when and how a price appears.",
-    "href": null
-   },
-   {
-    "name": "Crisis care",
-    "why": "What help should look like is covered there.",
-    "href": "/patterns/handing-over/"
-   }
-  ],
-  "seen": {
-   "Switch on a trial for them": [
-    {
-     "app": "Bible Note",
-     "date": "27 October 2026",
-     "text": "The “Free, 3 days” plan was ticked, with “3 days free, then $6.99/wk” in the list, “1 year $69.99” unticked and “Remind me before the trial ends” off.",
-     "shot": "shot-de288f8ea890232561e2"
-    },
-    {
-     "app": "Faithe",
-     "date": "24 October 2026",
-     "text": "“3-Day Free Trial, then $5.99 per week” was selected and labelled “MOST POPULAR”, with “Yearly Access $34.99 per year” unselected above “Try It Free”.",
-     "shot": "shot-9eba4f9e80697ffa8751"
-    }
-   ],
-   "GOOD:guest": [
-    {
-     "app": "Pause",
-     "date": "25 October 2026",
-     "text": "“Skip for now” appeared below the empty “Create your account” form.",
-     "shot": "shot-c64e8fd862c62c43f42d"
-    },
-    {
-     "app": "Formed",
-     "date": "25 October 2026",
-     "text": "The entry screen read “Start exploring our catalog of videos for free or subscribe to instantly start watching.” with “Explore content” beside “Start free trial”.",
-     "shot": "shot-abb15f181498fb322269"
-    },
-    {
-     "app": "Creed",
-     "date": "8 November 2026",
-     "text": "The day after Creed Unlimited access ended, the app opened without a lock or paywall, on a “Don’t lose your progress” sheet listing “Keep your conversations”, “Sync across devices” and “Protect your streaks and rewards”, with “Sign In” and “Not Now”. After “Not Now” the chat still answered, and the subscription offer appeared only as a banner on the profile page.",
-     "shot": "shot-2c3332350ccc85fa73cf"
-    }
-   ]
-  }
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

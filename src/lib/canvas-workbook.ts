@@ -63,12 +63,12 @@ function init(root:HTMLElement){
  $('#import-canvas').addEventListener('click',()=>$<HTMLInputElement>('#canvas-file').click());
  $('#canvas-file').addEventListener('change',async()=>{const input=$<HTMLInputElement>('#canvas-file'),file=input.files?.[0];if(!file)return;
   try{if(file.size>2_000_000)throw Error('This file is too large. Choose an editable canvas copy under 2 MB.');const parsed=JSON.parse(await file.text());const incoming=validateDraft(parsed,data.variants.find(v=>v.id===parsed?.variant)?.blocks||[]);
-   if(hasContent(drafts[incoming.variant])&&!confirm(`Replace the existing ${data.variants.find(v=>v.id===incoming.variant)!.title} draft? Download a backup first if you want to keep it.`)){message('Import cancelled. Your existing draft is unchanged.');return;}
+   if(hasContent(drafts[incoming.variant])&&!confirm(`Replace the existing ${data.variants.find(v=>v.id===incoming.variant)!.title} draft? Download a backup first if you want to keep it.`)){message('Import canceled. Your existing draft is unchanged.');return;}
    selected=incoming.variant;drafts[selected]=incoming;location.hash=selected;fill();showStep(0);mode(true);save();
   }catch(error){message(error instanceof SyntaxError?'This file is not valid JSON. Your draft is unchanged.':(error as Error).message,true);}finally{input.value='';}
  });
  $('#clear-canvas').addEventListener('click',()=>{if(!confirm('Clear this version’s draft? Download an editable copy first if you want to keep it.'))return;drafts[selected]=blankDraft(selected);fill();showStep(0,true);save();});
- $('#replace-local').addEventListener('click',()=>{if(!confirm('Replace the unreadable local drafts? They cannot be recovered from this browser afterwards.'))return;storageSafe=true;$('#replace-local').hidden=true;save();});
+ $('#replace-local').addEventListener('click',()=>{if(!confirm('Replace the unreadable local drafts? They cannot be recovered from this browser afterward.'))return;storageSafe=true;$('#replace-local').hidden=true;save();});
  $('#download-canvas-pdf').addEventListener('click',async()=>{const button=$<HTMLButtonElement>('#download-canvas-pdf');button.disabled=true;button.textContent='Preparing PDF…';
   $('#fit-actions').replaceChildren();
   try{const snapshot=JSON.parse(JSON.stringify(drafts[selected])) as Draft;const selectedVariant=data.variants.find(v=>v.id===snapshot.variant)!;const {createCanvasPdf}=await import('./canvas-pdf');const base=import.meta.env.BASE_URL.replace(/\/$/,'');const doc=await createCanvasPdf(snapshot,selectedVariant,base);download(doc.output('blob'),fileStem(snapshot)+'.pdf');message('PDF downloaded. Keep an editable copy too, so you can return to this work.');}

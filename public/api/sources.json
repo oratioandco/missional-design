@@ -8,7 +8,7 @@
    "kind": "Curated AI design reference",
    "shows": "Named patterns for citations, control, streaming, memory and agent actions.",
    "application": "Useful foundation for evidence cards, readable conversation and bounded agency.",
-   "limits": "Selected relevant entries reviewed; the entire catalogue was not audited. Its FAQ currently describes 150 patterns in 11 categories."
+   "limits": "Selected relevant entries reviewed; the entire catalog was not audited. Its FAQ currently describes 150 patterns in 11 categories."
   },
   {
    "key": "interaction-atlas",
@@ -26,7 +26,7 @@
    "url": "https://www.agenticpathdesign.com/ai-patterns",
    "author": "Sharang Sharma",
    "kind": "Curated AI design reference",
-   "shows": "Organises design around needs, trust, control, errors and safety.",
+   "shows": "Organizes design around needs, trust, control, errors and safety.",
    "application": "Use these lenses to assess a family of patterns rather than treating AI as a single chat feature.",
    "limits": "The public overview supports this synthesis; linked material and individual examples were not exhaustively audited."
   },
@@ -58,7 +58,7 @@
    "kind": "Curated AI design reference",
    "shows": "Highlights role contracts, delegation modes, human oversight, grounding, memory and repair.",
    "application": "Inform capability boundaries, source-bounded explanation and action recovery.",
-   "limits": "The catalogue presents 49 proposals. Their inclusion is not evidence of effectiveness in faith or clinical settings."
+   "limits": "The catalog presents 49 proposals. Their inclusion is not evidence of effectiveness in faith or clinical settings."
   },
   {
    "key": "if",
@@ -68,7 +68,7 @@
    "kind": "Curated AI design reference",
    "shows": "Offers interaction approaches for data use, trust, accountability and control.",
    "application": "Inform private sharing, purpose-specific choices and manageable automation.",
-   "limits": "Broader than AI; data-control interfaces must be backed by corresponding storage and permission behaviour."
+   "limits": "Broader than AI; data-control interfaces must be backed by corresponding storage and permission behavior."
   },
   {
    "key": "voice-of-ai",
@@ -118,7 +118,7 @@
    "kind": "Curated AI design reference",
    "shows": "Includes Historical Trails, Daily Notes and Epistemic Disclosure.",
    "application": "Inform reading trails, personal-note entry and explicit evidence status.",
-   "limits": "A broad observational design catalogue rather than an exclusively AI or faith resource."
+   "limits": "A broad observational design catalog rather than an exclusively AI or faith resource."
   },
   {
    "key": "placement",
@@ -127,7 +127,7 @@
    "author": "Sharang Sharma",
    "kind": "Curated AI design reference",
    "shows": "Compares seven spatial arrangements, including inline help, panels and full conversation surfaces.",
-   "application": "Inform task-centred AI placement and comparisons outside chat bubbles.",
+   "application": "Inform task-centered AI placement and comparisons outside chat bubbles.",
    "limits": "Its role interpretations should be tested with the intended audience; they do not establish universal layout rules."
   },
   {
@@ -258,7 +258,7 @@
    "kind": "Design reference",
    "shows": "Preserves distinctions in Scripture, paragraphs, notes and editorial content.",
    "application": "Derive user scenarios from content meaning, not marker names.",
-   "limits": "A format is not a complete model of app behaviour, annotations or formation."
+   "limits": "A format is not a complete model of app behavior, annotations or formation."
   },
   {
    "key": "footnote",
@@ -336,7 +336,7 @@
    "url": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/",
    "author": "W3C WAI",
    "kind": "Design reference",
-   "shows": "Specifies modal focus and keyboard behaviour.",
+   "shows": "Specifies modal focus and keyboard behavior.",
    "application": "Accessible note sheets and modal interactions on the web.",
    "limits": "Native apps require corresponding platform mechanisms."
   },
@@ -368,7 +368,7 @@
    "kind": "Design reference",
    "shows": "Documents playback, navigation, speed, timer and edition availability.",
    "application": "Audio-first controls and accurate availability states.",
-   "limits": "Documented behaviour; no direct product usability audit performed."
+   "limits": "Documented behavior; no direct product usability audit performed."
   },
   {
    "key": "dwell",
@@ -388,7 +388,7 @@
    "kind": "Design reference",
    "shows": "Describes returning from browsing to the verse currently playing.",
    "application": "Separate viewport and playback positions.",
-   "limits": "Behaviour reference, not a fresh hands-on audit."
+   "limits": "Behavior reference, not a fresh hands-on audit."
   },
   {
    "key": "youversion-guided",
@@ -416,7 +416,7 @@
    "url": "https://www.w3.org/TR/epub-33/#sec-media-overlays",
    "author": "W3C",
    "kind": "Design reference",
-   "shows": "Provides a model for synchronised text and audio.",
+   "shows": "Provides a model for synchronized text and audio.",
    "application": "Honest timing granularity and playback anchors.",
    "limits": "Verify support in the app and edition you intend to use."
   },
@@ -428,7 +428,7 @@
    "kind": "Design reference",
    "shows": "Explains notes and selection or reference anchoring.",
    "application": "Annotation scope, library and edition changes.",
-   "limits": "Documentation does not validate all proposed sync or overlap behaviour."
+   "limits": "Documentation does not validate all proposed sync or overlap behavior."
   },
   {
    "key": "olivetree",
@@ -527,8 +527,8 @@
    "author": "WHO, War Trauma Foundation and World Vision International · 2011",
    "kind": "Practice framework",
    "shows": "Frames humane practical support with respect for dignity, culture and abilities.",
-   "application": "Prioritise practical orientation, user choice and access to real support.",
-   "limits": "Designed for human helpers, not authorisation of autonomous AI crisis care."
+   "application": "Prioritize practical orientation, user choice and access to real support.",
+   "limits": "Designed for human helpers, not authorization of autonomous AI crisis care."
   },
   {
    "key": "nice",
@@ -587,8 +587,8 @@
    "author": "European Commission AI Act Service Desk",
    "kind": "EU legal text",
    "shows": "Defines prohibited practices subject to specific statutory conditions.",
-   "application": "Review manipulation and exploitation of vulnerability in nudges, monetisation and dialogue.",
-   "limits": "Not every reminder or personalisation feature is prohibited; the statutory harm criteria matter."
+   "application": "Review manipulation and exploitation of vulnerability in nudges, monetization and dialogue.",
+   "limits": "Not every reminder or personalization feature is prohibited; the statutory harm criteria matter."
   },
   {
    "key": "ai-6",
@@ -617,7 +617,7 @@
    "author": "MDCG 2019-11 Rev. 1 · June 2025",
    "kind": "EU medical device guidance",
    "shows": "Software qualification depends on intended medical purpose and functions; claims and promotion matter.",
-   "application": "Align product behaviour and marketing with the actual purpose.",
+   "application": "Align product behavior and marketing with the actual purpose.",
    "limits": "A disclaimer does not override medical functionality or contradictory claims. Guidance is not a product-specific legal opinion."
   },
   {
@@ -628,7 +628,7 @@
    "kind": "German legal text",
    "shows": "Regulates the protected professional title and scope of psychotherapeutic practice.",
    "application": "Review persona, professional representation and service claims.",
-   "limits": "This is one part of the assessment; it does not alone settle all rules on practising medicine."
+   "limits": "This is one part of the assessment; it does not alone settle all rules on practicing medicine."
   },
   {
    "key": "hwg",
@@ -656,7 +656,7 @@
    "url": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html",
    "author": "W3C WAI",
    "kind": "Design reference",
-   "shows": "Colour must not be the only means of conveying information.",
+   "shows": "Color must not be the only means of conveying information.",
    "application": "Playback cues and overlapping reading states.",
    "limits": "Accessibility guidance supports cue design; it does not validate a particular faith-app layout."
   },
@@ -706,7 +706,7 @@
    "url": "https://www.who.int/publications/i/item/9789240039803",
    "author": "WHO · Revised 2021",
    "kind": "Clinical framework overview",
-   "shows": "LIVES organises listening, inquiry, validation, safety and support.",
+   "shows": "LIVES organizes listening, inquiry, validation, safety and support.",
    "application": "Design disclosure responses around needs and choice rather than interrogation.",
    "limits": "Clinical training for human providers focused on violence against women; transfer to other populations or AI requires separate review."
   },
@@ -748,7 +748,7 @@
    "kind": "Provider feature documentation",
    "shows": "Describes pausing narration while music continues and direct access to repetition.",
    "application": "Separate speech pause, all-audio pause and loop state.",
-   "limits": "Documented behaviour, not hands-on testing or evidence of formation outcomes."
+   "limits": "Documented behavior, not hands-on testing or evidence of formation outcomes."
   },
   {
    "key": "dwell-repeat",
@@ -758,7 +758,7 @@
    "kind": "Provider feature documentation",
    "shows": "Describes repeating tracks or queues and configurable reflection gaps.",
    "application": "Bounded repetition and intentional silence.",
-   "limits": "Historical documentation; current details may differ. Meditation and memorisation claims are provider aims, not independent findings."
+   "limits": "Historical documentation; current details may differ. Meditation and memorization claims are provider aims, not independent findings."
   },
   {
    "key": "sdt",
@@ -777,7 +777,7 @@
    "author": "Michael Sailer and Lisa Homner · 2020",
    "kind": "Research publication",
    "shows": "Synthesises educational learning outcomes; effects depend on design and context.",
-   "application": "Separate learning outcomes, motivation and behaviour from spiritual-formation claims.",
+   "application": "Separate learning outcomes, motivation and behavior from spiritual-formation claims.",
    "limits": "Education evidence does not establish spiritual growth or effects for every faith-app population."
   },
   {
@@ -788,7 +788,7 @@
    "kind": "App interface evidence",
    "shows": "Opening comparison and changing its secondary edition preserve distinct pane labels.",
    "application": "Compare parallel reading layouts and edition selection.",
-   "limits": "Desktop web capture; mobile behaviour, linked scrolling and restoration were not tested."
+   "limits": "Desktop web capture; mobile behavior, linked scrolling and restoration were not tested."
   },
   {
    "key": "example-youversion-density",
@@ -798,7 +798,7 @@
    "kind": "App interface evidence",
    "shows": "Documents compact and expanded saved-item views with a remembered preference.",
    "application": "Annotation library density choices.",
-   "limits": "Historical release; current mobile behaviour is not established."
+   "limits": "Historical release; current mobile behavior is not established."
   },
   {
    "key": "example-dwell-player",
@@ -818,7 +818,7 @@
    "kind": "App interface evidence",
    "shows": "Distinguishes a passage-following Resource Guide, sustained parallel reading and three window-linking modes.",
    "application": "Contextual study workspaces and recoverable pane synchronisation.",
-   "limits": "Publisher-documented behaviour; native interactions were not exercised."
+   "limits": "Publisher-documented behavior; native interactions were not exercised."
   },
   {
    "key": "example-hellobible-home",
@@ -828,7 +828,7 @@
    "kind": "App interface evidence",
    "shows": "Shows a daily verse card alongside practice entry points.",
    "application": "Home-screen composition and interpretation of progress indicators.",
-   "limits": "Promotional image; the meaning of controls and live app behaviour were not tested."
+   "limits": "Promotional image; the meaning of controls and live app behavior were not tested."
   },
   {
    "key": "example-biblegateway-note",
@@ -892,13 +892,13 @@
   },
   {
    "key": "aperto-passage-design",
-   "title": "Aperto passage-centred design direction",
+   "title": "Aperto passage-centered design direction",
    "url": "https://missional.design/research/engagement/#aperto",
    "author": "Aperto · prototype design context",
    "kind": "Prototype design context",
    "shows": "The local prototype uses bounded passage references; the mobile prototype has a shared weekly passage model.",
    "application": "Use a coherent passage across reading and chosen practices, with explicit routes to wider context.",
-   "limits": "Neither this architecture nor the product direction establishes a measured improvement in comprehension or formation. AI podcast behaviour was not independently exercised."
+   "limits": "Neither this architecture nor the product direction establishes a measured improvement in comprehension or formation. AI podcast behavior was not independently exercised."
   },
   {
    "key": "shape-disclosure",
@@ -1096,7 +1096,7 @@
    "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products",
    "author": "Office of the Australian Information Commissioner",
    "kind": "Regulator guidance",
-   "shows": "AI use requires privacy assessment for covered organisations.",
+   "shows": "AI use requires privacy assessment for covered organizations.",
    "application": "Review input minimisation, provider handling and user information.",
    "limits": "Distinguish Australian Privacy Principles duties from best-practice recommendations and entity coverage."
   },
@@ -1116,7 +1116,7 @@
    "url": "https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm",
    "author": "Cyberspace Administration of China and co-issuing authorities",
    "kind": "Legal primary source",
-   "shows": "Labelling includes visible origin, metadata and distribution responsibilities.",
+   "shows": "Labeling includes visible origin, metadata and distribution responsibilities.",
    "application": "Review interface, export and platform roles together.",
    "limits": "Conditional scope and article 9 route matter; broader religious-content and data rules not assessed."
   },
@@ -1126,7 +1126,7 @@
    "url": "https://msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1214&sCode=eng",
    "author": "South Korean Ministry of Science and ICT",
    "kind": "Government implementation guidance",
-   "shows": "Entry notice, output labelling and enforcement timing differ.",
+   "shows": "Entry notice, output labeling and enforcement timing differ.",
    "application": "Review generated media and service-entry disclosures.",
    "limits": "Official summary, not complete Act/decree translation; recheck current guidelines."
   },
@@ -1278,7 +1278,7 @@
    "kind": "Product documentation",
    "shows": "Distinguishes private activity, friends-only activity and Plan with Friends participation.",
    "application": "Make audience and activity visibility explicit.",
-   "limits": "Documented Android behaviour, not a captured or tested flow. Help text may change."
+   "limits": "Documented Android behavior, not a captured or tested flow. Help text may change."
   },
   {
    "key": "esafety-design",
@@ -1318,7 +1318,7 @@
    "kind": "Product documentation",
    "shows": "Documents a split study surface, resources following a passage and linked-window states.",
    "application": "Make following, independent exploration and rejoining explicit.",
-   "limits": "Documented Android behaviour; not a live capture or an endorsement of every default."
+   "limits": "Documented Android behavior; not a live capture or an endorsement of every default."
   },
   {
    "key": "olive-annotations-current",
@@ -1348,7 +1348,7 @@
    "kind": "Product documentation",
    "shows": "Describes chronological navigation, direct access, text/book search and AI-assisted passage suggestions.",
    "application": "Separate deterministic navigation, search and generated suggestions.",
-   "limits": "Provider description; exact current bar layout and interaction behaviour were not inspected."
+   "limits": "Provider description; exact current bar layout and interaction behavior were not inspected."
   },
   {
    "key": "vsb-picker-review",
@@ -1358,7 +1358,7 @@
    "kind": "Local prototype code review",
    "shows": "One input combines immediate local book-name filtering, local reference parsing and automatic debounced AI passage suggestions. Book matches and suggestions can coexist; selecting a book opens its chapter grid.",
    "application": "Combine the entry point while distinguishing result origins and remote processing. Preserve browsing and deliberate destination selection.",
-   "limits": "Local code review, not a device test or user study. Non-reference input triggers the AI endpoint after 450 ms, including partial book names; complete recognised references suppress that request. No exact verse-text corpus search or separate sourced inline-answer view established. Explicit text labels in this library are editorial proposals."
+   "limits": "Local code review, not a device test or user study. Non-reference input triggers the AI endpoint after 450 ms, including partial book names; complete recognized references suppress that request. No exact verse-text corpus search or separate sourced inline-answer view established. Explicit text labels in this library are editorial proposals."
   },
   {
    "key": "willard-disciplines-grace",
@@ -1437,7 +1437,7 @@
    "author": "Herrnhuter Brüdergemeine in der Schweiz",
    "kind": "Practice documentation",
    "shows": "Describes an Old Testament watchword, New Testament text and accompanying song or prayer.",
-   "application": "Distinguish daily received content from enrolment in a finite plan.",
+   "application": "Distinguish daily received content from enrollment in a finite plan.",
    "limits": "Format documentation, not comparative popularity or outcome evidence."
   },
   {
@@ -1448,7 +1448,7 @@
    "kind": "Product documentation",
    "shows": "Documents rescheduling without marking sections complete; not available for Plans with Friends.",
    "application": "Compare recovery options with the reader’s experience of progress.",
-   "limits": "Documented behaviour; exact interface and discovery were not tested."
+   "limits": "Documented behavior; exact interface and discovery were not tested."
   },
   {
    "key": "rewards-intrinsic-meta",
@@ -1486,7 +1486,7 @@
    "url": "https://onlinelibrary.wiley.com/doi/10.1002/ejsp.674",
    "author": "Lally et al. · 2010",
    "kind": "Habit formation study",
-   "shows": "Modelled automaticity timelines varied substantially between participants.",
+   "shows": "Modeled automaticity timelines varied substantially between participants.",
    "application": "Avoid universal habit-formation deadlines.",
    "limits": "Not a gamification study or a test of intrinsic motivation replacing incentives."
   },
@@ -1506,7 +1506,7 @@
    "url": "https://www.usccb.org/committees/divine-worship/liturgical-calendar",
    "author": "USCCB",
    "kind": "Liturgical documentation",
-   "shows": "Names celebrations, rank, colours, lectionary citations and psalter cycle for its jurisdiction.",
+   "shows": "Names celebrations, rank, colors, lectionary citations and psalter cycle for its jurisdiction.",
    "application": "Make calendar scope and authority explicit.",
    "limits": "US Catholic scope; not a universal calendar or implementation specification."
   },
@@ -1528,7 +1528,7 @@
    "kind": "Product documentation",
    "shows": "Plan days may combine text, images, audio, video and Scripture references.",
    "application": "Keep media identity and completion rules understandable.",
-   "limits": "Web documentation; platform behaviour differs."
+   "limits": "Web documentation; platform behavior differs."
   },
   {
    "key": "youversion-guided-prayer-current",
@@ -1588,7 +1588,7 @@
    "kind": "Research",
    "shows": "Screen reading involves more browsing, scanning, keyword spotting, one-time and selective reading, and less in-depth, concentrated reading.",
    "application": "Expect short, selective sessions; design so a short session can still reach context.",
-   "limits": "A 2005 survey of readers about their own habits; describes reported behaviour, not comprehension."
+   "limits": "A 2005 survey of readers about their own habits; describes reported behavior, not comprehension."
   },
   {
    "key": "delgado-2018",
@@ -1666,7 +1666,7 @@
    "url": "https://online-journals.org/index.php/i-jet/article/view/8736",
    "author": "International Journal of Emerging Technologies in Learning",
    "kind": "Research",
-   "shows": "Children with dyslexia found it easier to read along when audio was synchronised with highlighting, especially with whole-sentence highlighting.",
+   "shows": "Children with dyslexia found it easier to read along when audio was synchronized with highlighting, especially with whole-sentence highlighting.",
    "application": "Move the focus with audio, at the level of a verse or sentence.",
    "limits": "Small pilot study."
   },
@@ -1676,9 +1676,9 @@
    "url": "https://blogs.worldbank.org/edutech/bollywood-karaoke",
    "author": "World Bank blog on Brij Kothari’s work",
    "kind": "Research",
-   "shows": "Karaoke-style same-language subtitles on song programmes in India were associated with gains in reading among early readers.",
-   "application": "Synchronised text and audio can build reading as a by-product of listening.",
-   "limits": "Reported programme results; a literacy setting, not Scripture reading."
+   "shows": "Karaoke-style same-language subtitles on song programs in India were associated with gains in reading among early readers.",
+   "application": "Synchronized text and audio can build reading as a by-product of listening.",
+   "limits": "Reported program results; a literacy setting, not Scripture reading."
   },
   {
    "key": "kindle-word-runner",
@@ -1736,9 +1736,9 @@
    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3983480/",
    "author": "Roediger and Karpicke · Psychological Science, 2006, as discussed in a later review",
    "kind": "Research",
-   "shows": "Students who practised recalling a passage remembered 61% a week later, against 40% for those who reread it.",
-   "application": "For memorisation, prompt recall of a verse rather than showing it again.",
-   "limits": "Prose passages with students; not Scripture memorisation specifically."
+   "shows": "Students who practiced recalling a passage remembered 61% a week later, against 40% for those who reread it.",
+   "application": "For memorization, prompt recall of a verse rather than showing it again.",
+   "limits": "Prose passages with students; not Scripture memorization specifically."
   },
   {
    "key": "wcag-222",
@@ -1868,7 +1868,7 @@
    "kind": "Practice",
    "shows": "Biblica’s The Books of the Bible removes chapter and verse numbers, notes and cross-references; churches read large portions together in eight weeks.",
    "application": "A tested reader’s-edition format used in congregations.",
-   "limits": "Programme description; outcome claims are the ministry’s own."
+   "limits": "Program description; outcome claims are the ministry’s own."
   },
   {
    "key": "genette",
@@ -1886,7 +1886,7 @@
    "url": "https://scholars.uky.edu/en/publications/signaling-topic-structure-via-headings-or-preview-sentences/",
    "author": "Lorch and colleagues · University of Kentucky",
    "kind": "Research",
-   "shows": "Headings and other signals improve memory for a text’s organisation, and titles can bias comprehension towards the topic they name.",
+   "shows": "Headings and other signals improve memory for a text’s organization, and titles can bias comprehension toward the topic they name.",
    "application": "Headings help structure; their wording steers interpretation.",
    "limits": "Expository texts in lab settings."
   },
@@ -1907,14 +1907,14 @@
    "author": "British Dyslexia Association, 2023",
    "kind": "Accessibility",
    "shows": "Recommends 16–19 px text, 1.5 line spacing, left alignment, and bold rather than italics or underlining for emphasis.",
-   "application": "Mark additions with weight and colour, not italics; keep text size adjustable.",
+   "application": "Mark additions with weight and color, not italics; keep text size adjustable.",
    "limits": "Guidance for general documents."
   },
   {
    "key": "seductive-details",
    "title": "Seductive details: what the research says",
    "url": "https://theelearningcoach.com/learning/seductive-details/",
-   "author": "The eLearning Coach, summarising Rey (2012) and Mayer’s coherence principle",
+   "author": "The eLearning Coach, summarizing Rey (2012) and Mayer’s coherence principle",
    "kind": "Research",
    "shows": "Rey’s meta-analysis found that interesting but irrelevant details reduce retention and transfer, especially when they are visual.",
    "application": "Inline media should serve the passage, be switchable, and stay out of the main reading by default.",
@@ -1948,7 +1948,7 @@
    "kind": "Practice",
    "shows": "Daily ten-minute audio prayer since 2006 combining music, Scripture and Ignatian questions, used tens of millions of times a year.",
    "application": "A produced devotional can be formation-first: fixed, shared and ending in silence.",
-   "limits": "Usage figures from the organisation."
+   "limits": "Usage figures from the organization."
   },
   {
    "key": "music-reading",
@@ -1966,7 +1966,7 @@
    "url": "https://par.nsf.gov/servlets/purl/10536688",
    "author": "NSF public access repository",
    "kind": "Research",
-   "shows": "Listeners told a voice was human showed more trust than those told the same clip was AI; labelled AI voices were rated less credible.",
+   "shows": "Listeners told a voice was human showed more trust than those told the same clip was AI; labeled AI voices were rated less credible.",
    "application": "Label synthetic voices honestly, and expect a trust cost rather than hiding it.",
    "limits": "Lab studies with short clips; not Scripture."
   },
@@ -2018,7 +2018,7 @@
    "kind": "Research",
    "shows": "A series of experiments in which people applied social rules to computers and media as they do to people: politeness, flattery, gender stereotypes.",
    "application": "Expect people to respond socially to any conversational interface, whatever the label says.",
-   "limits": "Pre-LLM laboratory studies; an encyclopaedia summary of the book."
+   "limits": "Pre-LLM laboratory studies; an encyclopedia summary of the book."
   },
   {
    "key": "eliza",
@@ -2047,7 +2047,7 @@
    "author": "OpenAI and MIT Media Lab · March 2025",
    "kind": "Research",
    "shows": "A four-week randomised study of nearly 1,000 people and an analysis of about 40 million conversations: heavier daily use correlated with more loneliness, dependence and problematic use and less socialising.",
-   "application": "Do not design faith assistants to maximise emotional reliance or time spent.",
+   "application": "Do not design faith assistants to maximize emotional reliance or time spent.",
    "limits": "Correlational for loneliness; company co-authored; early research."
   },
   {
@@ -2076,8 +2076,8 @@
    "url": "https://www.dlapiper.com/en/insights/publications/2025/09/ftc-ai-chatbots",
    "author": "DLA Piper (summary of the FTC’s September 2025 6(b) orders)",
    "kind": "Law",
-   "shows": "The US Federal Trade Commission ordered seven companies to report on companion chatbots, including character design and approval, monetisation of engagement, and effects on children and teens.",
-   "application": "Character design and engagement monetisation are now regulatory questions, not only design ones.",
+   "shows": "The US Federal Trade Commission ordered seven companies to report on companion chatbots, including character design and approval, monetization of engagement, and effects on children and teens.",
+   "application": "Character design and engagement monetization are now regulatory questions, not only design ones.",
    "limits": "An information-gathering study, not a rule."
   },
   {
@@ -2086,9 +2086,39 @@
    "url": "https://www.fox9.com/news/text-jesus-ai-chatbot-app-grows-rapidly-despite-criticism",
    "author": "FOX television stations",
    "kind": "Practice",
-   "shows": "An app built on a general AI model lets users text “Jesus”, “Moses” and other figures; ministers called it blasphemous and criticised answers that told users what they wanted to hear; the developer says it lowers barriers.",
+   "shows": "An app built on a general AI model lets users text “Jesus”, “Moses” and other figures; ministers called it blasphemous and criticized answers that told users what they wanted to hear; the developer says it lowers barriers.",
    "application": "Character chats with biblical figures put generated words in sacred mouths; treat this as a line, not a style.",
    "limits": "News report; reception varies."
+  },
+  {
+   "key": "turkle-artificial-intimacy",
+   "title": "Artificial Intimacy: Who We Become When We Talk to Machines",
+   "url": "https://www.hachettebookgroup.com/titles/sherry-turkle/artificial-intimacy/9780316573962/",
+   "author": "Sherry Turkle · Little, Brown, 2026",
+   "kind": "Research",
+   "shows": "Six years of interviews: people attach to chatbots even when they know they are machines, because first person, stated feelings and warmth do the work. A teenager whose attachment ended in his death used a platform with a “Characters are not real people” notice. The director of Scratch Labs has asked his team for a children’s coding helper that makes no “I” statements: “help is available, but there isn’t a helpful friend”. A griefbot speaking as a believer’s dead partner said he was in hell, and months later in heaven.",
+   "application": "Keep the AI label, and take away the cues that perform a person; never let a system speak as the dead.",
+   "limits": "A sociologist’s interviews and cases, some from press reports; written as a warning, not a weighing of benefits. Studies she cites are not read in the original here."
+  },
+  {
+   "key": "van-straten-2022",
+   "title": "The Wizard and I: how transparent teleoperation and self-description (do not) affect children’s robot perceptions and child–robot relationship formation",
+   "url": "https://doi.org/10.1007/s00146-021-01202-3",
+   "author": "Caroline L. van Straten and colleagues · AI & Society 37, 2022",
+   "kind": "Research",
+   "shows": "As Turkle reports it, telling children that people operated a talking robot did not change how close they felt to it.",
+   "application": "Disclosure is necessary but does not undo the effect of social cues.",
+   "limits": "Not yet read in the original; one laboratory study with children."
+  },
+  {
+   "key": "suskind-human-raised",
+   "title": "Human Raised: Nurturing Connection, Curiosity & Lifelong Learning in the Age of AI",
+   "url": "https://www.penguinrandomhouse.com/books/811792/human-raised-by-dana-suskind-md/",
+   "author": "Dana Suskind · Dutton, 2026",
+   "kind": "Research",
+   "shows": "A pediatric surgeon on children and AI. She would not recommend an AI toy for independent use by any child under six, and wants AI in early-years classrooms to be teacher-facing for children under five. A chatbot told her “we’re wired to…” as if it were human; an AI plush toy called itself an AI toy in one session and a robotic being from another planet in another.",
+   "application": "Keep AI on the grown-up’s side for young children; test for “we” and for a stable account of what the system is.",
+   "limits": "Written for parents of children up to six; her informal tests are anecdotes, and the studies she cites are not read in the original here."
   },
   {
    "key": "deus-in-machina",
@@ -2098,7 +2128,7 @@
    "kind": "Practice",
    "shows": "A two-month art installation in St Peter’s Chapel, Lucerne (2024) placed an AI “Jesus” avatar in a confessional; about 900 conversations took place and many visitors reported feeling inspired, while church leaders were divided.",
    "application": "Shows the pull of embodied religious personas, and why the setting adds authority.",
-   "limits": "An art project with a self-selected audience and the organisers’ own survey."
+   "limits": "An art project with a self-selected audience and the organizers’ own survey."
   },
   {
    "key": "kjv-preface",
@@ -2138,7 +2168,7 @@
    "kind": "Scholarship",
    "shows": "Barr and Carson warn against word-study fallacies such as the root fallacy: meaning is set by usage in context, not by a word’s etymology or a single gloss.",
    "application": "Label interlinear glosses as word aids and show how translations render a word in context.",
-   "limits": "Scholarly argument summarised in a review."
+   "limits": "Scholarly argument summarized in a review."
   },
   {
    "key": "wycliffe-2025",
@@ -2148,7 +2178,7 @@
    "kind": "Practice",
    "shows": "As of August 2025 the full Bible is available in 776 languages, the New Testament in 1,798 more, and portions in 1,433 more, of 7,396 languages.",
    "application": "Design translation pickers for many languages and partial Bibles, not only English editions.",
-   "limits": "Organisation’s own statistics."
+   "limits": "Organization’s own statistics."
   },
   {
    "key": "multiple-texts",
@@ -2177,7 +2207,7 @@
    "author": "Berean Bible",
    "kind": "Licensing",
    "shows": "The Berean Standard Bible was dedicated to the public domain on 30 April 2023.",
-   "application": "Public-domain modern translations can be compared, quoted and shared without licence limits.",
+   "application": "Public-domain modern translations can be compared, quoted and shared without license limits.",
    "limits": "Publisher statement."
   },
   {
@@ -2186,7 +2216,7 @@
    "url": "https://www.crossway.org/support/esv-bible-permissions/",
    "author": "Crossway",
    "kind": "Licensing",
-   "shows": "Up to 500 verses may be quoted without a licence, within limits on proportion of a book and of the work, and not in commentaries or reference works.",
+   "shows": "Up to 500 verses may be quoted without a license, within limits on proportion of a book and of the work, and not in commentaries or reference works.",
    "application": "Licensed translations need agreements for full-text comparison; show only what you are allowed to.",
    "limits": "One publisher’s terms; others differ."
   },
@@ -2246,8 +2276,8 @@
    "url": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html",
    "author": "W3C WAI · WCAG 2.2 success criterion 1.4.1",
    "kind": "Accessibility",
-   "shows": "Colour must not be the only visual means of conveying information or distinguishing an element.",
-   "application": "Give each kind of mark a shape or label, and distinguish saved marks from selection and playback without colour.",
+   "shows": "Color must not be the only visual means of conveying information or distinguishing an element.",
+   "application": "Give each kind of mark a shape or label, and distinguish saved marks from selection and playback without color.",
    "limits": "Accessibility guidance."
   },
   {
@@ -2268,7 +2298,7 @@
    "kind": "Practice",
    "shows": "A/B tests on several Wikipedias found that hover previews let readers check a link without leaving the article: full page views fell, while deliberate interactions with linked pages rose.",
    "application": "A short preview anchored to the text lets readers glance at help without losing their place.",
-   "limits": "Desktop hover previews on an encyclopaedia; touch behaviour differs."
+   "limits": "Desktop hover previews on an encyclopedia; touch behavior differs."
   },
   {
    "key": "interrupted-work",
@@ -2326,7 +2356,7 @@
    "url": "https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html",
    "author": "W3C WAI · WCAG 2.2 success criterion 1.2.2",
    "kind": "Accessibility",
-   "shows": "Prerecorded audio in synchronised media needs captions.",
+   "shows": "Prerecorded audio in synchronized media needs captions.",
    "application": "Caption every sermon clip and video, and correct automatic transcripts before quoting them.",
    "limits": "Accessibility guidance."
   },
@@ -2356,7 +2386,7 @@
    "url": "https://udspace.udel.edu/handle/19716/34160",
    "author": "Jackie Silverman and Alixandra Barasch · Journal of Consumer Research 49(6), 2023",
    "kind": "Research",
-   "shows": "In seven studies, highlighting a broken streak reduced later engagement compared with an intact one, regardless of actual behaviour; the effect was stronger when people blamed themselves for the break, and weaker when the streak could be repaired.",
+   "shows": "In seven studies, highlighting a broken streak reduced later engagement compared with an intact one, regardless of actual behavior; the effect was stronger when people blamed themselves for the break, and weaker when the streak could be repaired.",
    "application": "Counting consecutive days makes a missed day look like a loss; do not make the count the point.",
    "limits": "Consumer and lab studies; not Scripture reading."
   },
@@ -2366,7 +2396,7 @@
    "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2014/06/Dai_Fresh_Start_2014_Mgmt_Sci.pdf",
    "author": "Hengchen Dai, Katherine L. Milkman and Jason Riis · Management Science, 2014",
    "kind": "Research",
-   "shows": "Goal-directed behaviour (gym visits, “diet” searches, commitments) rises after temporal landmarks such as a new week, month or birthday.",
+   "shows": "Goal-directed behavior (gym visits, “diet” searches, commitments) rises after temporal landmarks such as a new week, month or birthday.",
    "application": "A new week or a new day is a natural place to begin again; offer it.",
    "limits": "Archival field data on health and goals."
   },
@@ -2379,6 +2409,36 @@
    "shows": "Shame, a painful focus on the self, tends to prompt hiding, denial and withdrawal; guilt about a specific act tends to prompt repair.",
    "application": "Copy that makes people feel they have failed as readers invites them to stay away.",
    "limits": "General moral-emotion research, not app design."
+  },
+  {
+   "key": "plan-return-screen-2026",
+   "title": "Bible Chat: ended plan, welcoming return",
+   "url": "https://missional.design/screens/shot-c70b64804115df033ce2/",
+   "author": "Bible Chat · com.basmo.BibleChat · iOS capture, 31 October 2026; version not recorded",
+   "kind": "Practice",
+   "shows": "An ended plan offers a fresh start or continuation, with welcoming language after days slipped by.",
+   "application": "Credit the return wording and the visible choice; a before/after sequence is still needed to establish scheduling or automatic pause behavior.",
+   "limits": "One existing-account screen, not installation defaults or an outcome study."
+  },
+  {
+   "key": "youversion-plan-help-2026",
+   "title": "Android: Catch Me Up",
+   "url": "https://help.youversion.com/l/en/article/7de8qv7xuc-catch-me-up-on-android",
+   "author": "YouVersion Support · reviewed 1 November 2026",
+   "kind": "Practice",
+   "shows": "The documented action moves today to the next unread day after the highest completed day without marking sections complete; it is unavailable for Plans with Friends.",
+   "application": "A good precedent for explaining rescheduling before confirming, while keeping the group exception visible.",
+   "limits": "Android documentation, not a fresh observation of iOS or an independent outcome test."
+  },
+  {
+   "key": "bsb-permission-2026",
+   "title": "Berean Bible: Free Licensing",
+   "url": "https://berean.bible/licensing.htm",
+   "author": "Berean Bible · reviewed 1 November 2026",
+   "kind": "Practice",
+   "shows": "The publisher places its Bible texts in the public domain from 30 April 2023 and says licensing is not required.",
+   "application": "The new local passage states reuse Mark 4 from the existing BSB fixture, with translation credit and editorial boundaries named.",
+   "limits": "Covers these texts, not other translations, recordings or editorial resources."
   },
   {
    "key": "rb-20",
@@ -2461,6 +2521,46 @@
    "limits": "The same policy says anonymous navigation and error data may be stored by Google Firebase."
   },
   {
+   "key": "prayer-reward-screen-2026",
+   "title": "Creed: Daily Prayer completion reward",
+   "url": "https://missional.design/screens/shot-c926e7188811f1abfa64/",
+   "author": "Creed · com.damirakyan.creed · iOS capture, 31 October 2026; version not recorded",
+   "kind": "Practice",
+   "shows": "Daily Prayer has a Claim button beside +10 coins; Today shows one of three activities.",
+   "application": "Name the completion reward and virtual-currency mechanism; do not infer whether the person prayed, their motivation or a spiritual effect.",
+   "limits": "One research-account screen, not an outcome study or proof of all reward rules."
+  },
+  {
+   "key": "lectio-ending-screen-2026",
+   "title": "Lectio 365: closing prayer, AMEN and SHARE",
+   "url": "https://missional.design/screens/shot-78e72481705fa6948f0e/",
+   "author": "Lectio 365 · com.prayer247.lectio365 · iOS capture, 31 October 2026; version not recorded",
+   "kind": "Practice",
+   "shows": "The Yield section presents an outward-facing closing prayer followed by AMEN and SHARE controls.",
+   "application": "Credit a visible prayer that points toward life beyond the app; the screen does not establish what happens after Amen.",
+   "limits": "No complete post-Amen sequence was inspected; no claim about the absence of later rewards or prompts."
+  },
+  {
+   "key": "hallow-repeat-help-2026",
+   "title": "How do I create my own playlist?",
+   "url": "https://help.hallow.com/en/articles/6587350-how-do-i-create-my-own-playlist",
+   "author": "Hallow Help & Support · page dated 20 January 2026; reviewed 1 November 2026",
+   "kind": "Practice",
+   "shows": "Hallow documents looping a queue or repeating only the current prayer session, as well as deleting queued sessions.",
+   "application": "Credit a reader-controlled return to the same session. The local repeat-and-silence interface is our proposal, not a reconstruction of Hallow.",
+   "limits": "Documentation of playback controls; not observed use, untimed silence or a formation outcome."
+  },
+  {
+   "key": "lectio-app-help-2026",
+   "title": "Lectio 365: The App",
+   "url": "https://lectio365.com/the-app/",
+   "author": "24-7 Prayer · reviewed 1 November 2026",
+   "kind": "Practice",
+   "shows": "Lectio documents reading at one’s own pace, optional music, named hosts and an archive covering the previous thirty days.",
+   "application": "Credit named human authors and pace choice, while distinguishing the archive from indefinite return to one saved prayer.",
+   "limits": "Provider claims, not a fresh app walkthrough or proof of every ending."
+  },
+  {
    "key": "faithtech-playbook",
    "title": "The FaithTech Playbook 2.0: Creating Technology Redemptively",
    "url": "https://www.faithtech.com/playbook",
@@ -2508,7 +2608,7 @@
    "kind": "Theology",
    "shows": "Explains the choice of the word: Christ’s pattern of “creative restoration through sacrifice” as a model for vocation, and God’s invitation to “participate with him in the restoration of all things”; acknowledges that explicitly theological language can feel exclusive and argues the word works as invitation.",
    "application": "Grounds the frame in participation in God’s work rather than in human achievement.",
-   "limits": "An organisation explaining its own vocabulary."
+   "limits": "An organization explaining its own vocabulary."
   },
   {
    "key": "praxis-products",
@@ -2576,7 +2676,7 @@
    "url": "https://wesley.nnu.edu/john-wesley/the-sermons-of-john-wesley-1872-edition/sermon-50-the-use-of-money/",
    "author": "John Wesley · Wesley Center Online, 1872 edition",
    "kind": "Theology",
-   "shows": "Three rules: “Gain all you can”, “save all you can”, “give all you can”. Gain is limited by love of neighbour: “This is dear-bought gain. And so is whatever is procured by hurting our neighbour in his soul”.",
+   "shows": "Three rules: “Gain all you can”, “save all you can”, “give all you can”. Gain is limited by love of neighbor: “This is dear-bought gain. And so is whatever is procured by hurting our neighbour in his soul”.",
    "application": "Earning from honest work is not suspect in itself; what matters is whether it harms the person served, and what is done with the gain.",
    "limits": "An eighteenth-century sermon on trade and work, not on ministry or apps."
   },
@@ -2636,7 +2736,7 @@
    "url": "https://henrinouwen.org/books/the-way-of-the-heart/",
    "author": "Henri J. M. Nouwen · 1981 · Henri Nouwen Society",
    "kind": "Theology",
-   "shows": "Draws on the desert fathers and mothers of the fourth and fifth centuries to commend three disciplines, solitude, silence and prayer, as a way out of noise and busyness into a life centred in God.",
+   "shows": "Draws on the desert fathers and mothers of the fourth and fifth centuries to commend three disciplines, solitude, silence and prayer, as a way out of noise and busyness into a life centered in God.",
    "application": "Grounds quiet prayer and silence in a long tradition.",
    "limits": "Read through the book page; no quotation used."
   },
@@ -2696,7 +2796,7 @@
    "url": "https://place.asburyseminary.edu/jascg/vol10/iss2/6",
    "author": "John Ellas and Flavil Yeakley · Journal of the American Society for Church Growth 10(2), 1999",
    "kind": "Research",
-   "shows": "Two church-growth researchers welcome the book’s pastoral reach but criticise the research behind its claims, which they call “pseudo-science”.",
+   "shows": "Two church-growth researchers welcome the book’s pastoral reach but criticize the research behind its claims, which they call “pseudo-science”.",
    "application": "Be modest about what a church score shows; a survey of perceptions is not a measure of health or faithfulness.",
    "limits": "A review, from within the church-growth movement."
   },
@@ -2736,7 +2836,7 @@
    "url": "https://pubmed.ncbi.nlm.nih.gov/17576282/",
    "author": "Matthew D. Lieberman et al. · Psychological Science 18(5), 2007",
    "kind": "Research",
-   "shows": "Labelling the emotion in a picture reduced amygdala response to negative images compared with other ways of processing them, with increased right ventrolateral prefrontal activity.",
+   "shows": "Labeling the emotion in a picture reduced amygdala response to negative images compared with other ways of processing them, with increased right ventrolateral prefrontal activity.",
    "application": "Naming a feeling may help in itself; a check-in can end at the naming, without a score or a chart.",
    "limits": "Laboratory study with images, not mood apps."
   },
@@ -2747,7 +2847,7 @@
    "author": "Saul Shiffman, Arthur A. Stone and Michael R. Hufford · Annual Review of Clinical Psychology 4, 2008",
    "kind": "Research",
    "shows": "Repeatedly sampling people’s current experience in daily life reduces recall bias and reveals patterns, and is used in research and clinical care.",
-   "application": "Daily check-ins are a recognised method; outside research and care, decide who benefits from the record and how long it should exist.",
+   "application": "Daily check-ins are a recognized method; outside research and care, decide who benefits from the record and how long it should exist.",
    "limits": "A method review for researchers and clinicians."
   },
   {
@@ -2776,8 +2876,8 @@
    "url": "https://apps.apple.com/app/id6502768944",
    "author": "HelloBox · Apple App Store",
    "kind": "Practice",
-   "shows": "Describes an experience “tailored to your reality and pace” for students, young adults, parents, people in doubt, Catholics, Protestants, Evangelicals and people without religious affiliation; the privacy label lists contact information and identifiers linked to the user for analytics and personalisation.",
-   "application": "Personalisation by life situation and church is common; say what each answer changes and what is linked to the person.",
+   "shows": "Describes an experience “tailored to your reality and pace” for students, young adults, parents, people in doubt, Catholics, Protestants, Evangelicals and people without religious affiliation; the privacy label lists contact information and identifiers linked to the user for analytics and personalization.",
+   "application": "Personalization by life situation and church is common; say what each answer changes and what is linked to the person.",
    "limits": "A store listing; the onboarding itself was not tested here."
   },
   {
@@ -2806,8 +2906,8 @@
    "url": "https://www.nngroup.com/articles/icon-usability/",
    "author": "Aurora Harley · Nielsen Norman Group · 2014",
    "kind": "Design reference",
-   "shows": "Few icons are universally recognised; “Icon labels should be visible at all times”, and hover-only labels fail on touch screens.",
-   "application": "A row of unlabelled icons under an answer asks people to guess; label them, or keep two or three and put the rest in a labelled menu.",
+   "shows": "Few icons are universally recognized; “Icon labels should be visible at all times”, and hover-only labels fail on touch screens.",
+   "application": "A row of unlabelled icons under an answer asks people to guess; label them, or keep two or three and put the rest in a labeled menu.",
    "limits": "Practitioner guidance from usability testing, not a controlled study."
   },
   {
@@ -2817,7 +2917,7 @@
    "author": "Raluca Budiu · Nielsen Norman Group · 2024",
    "kind": "Design reference",
    "shows": "“Recognition is easier than recall because it involves more cues”: interfaces that show options ask less of memory than ones that require people to remember and type.",
-   "application": "Browsing books and chapters asks people to recognise; a reference field asks them to recall. Offer both.",
+   "application": "Browsing books and chapters asks people to recognize; a reference field asks them to recall. Offer both.",
    "limits": "Practitioner guidance drawing on memory research."
   },
   {
@@ -2844,7 +2944,7 @@
    "key": "hallow-intentions",
    "title": "How to pray for intentions on Hallow",
    "url": "https://help.hallow.com/en/articles/10618520-how-to-pray-for-intentions-on-hallow",
-   "author": "Hallow help centre",
+   "author": "Hallow help center",
    "kind": "Practice",
    "shows": "Requests are limited to 240 characters, go to friends, a church or groups, can’t be submitted anonymously or edited, and can be kept private, when they are “only saved to your journal and not shared with others”; others respond with a heart.",
    "application": "Show the audience, length limit, anonymity and editing rules before someone writes.",
@@ -2854,7 +2954,7 @@
    "key": "hallow-church-tab",
    "title": "Overview of the Church tab",
    "url": "https://help.hallow.com/en/articles/3949390-overview-of-hallow-groups",
-   "author": "Hallow help centre",
+   "author": "Hallow help center",
    "kind": "Practice",
    "shows": "Requests can be posted to friends or a church; “Intentions will remain active for 7 days.”",
    "application": "An end date by default keeps old needs from lingering in a feed.",
@@ -3176,7 +3276,7 @@
    "url": "https://www.newadvent.org/fathers/0714.htm",
    "author": "Early Christian text, late first or early second century · New Advent edition",
    "kind": "Church practice",
-   "shows": "A travelling apostle should “take nothing but bread … but if he ask money, he is a false prophet”; yet “every true prophet that wills to abide among you is worthy of his support. So also a true teacher is himself worthy, as the workman, of his support.”",
+   "shows": "A traveling apostle should “take nothing but bread … but if he ask money, he is a false prophet”; yet “every true prophet that wills to abide among you is worthy of his support. So also a true teacher is himself worthy, as the workman, of his support.”",
    "application": "The early church supported its teachers and distrusted those who asked for money: both at once.",
    "limits": "An early church manual; its dating and setting are debated."
   },
@@ -3407,7 +3507,7 @@
    "author": "Kevin P. Yancey and Burr Settles, Duolingo · KDD 2020",
    "kind": "Research",
    "shows": "An algorithm to “optimize millions of daily reminders” led “to a 0.5 % increase in total daily active users (DAUs) and a 2 % increase in new user retention over a strong baseline.”",
-   "application": "Reminder wording and timing can be tuned for return; decide what a faith app should optimise, if anything.",
+   "application": "Reminder wording and timing can be tuned for return; decide what a faith app should optimize, if anything.",
    "limits": "A language-learning app; the measure is use, not benefit to the person."
   },
   {
@@ -3516,7 +3616,7 @@
    "url": "https://behaviormodel.org/",
    "author": "BJ Fogg · Behavior Design Lab, Stanford",
    "kind": "Design reference",
-   "shows": "Behaviour happens when motivation, ability and a prompt come together at the same time (B=MAP); when it does not happen, one of the three is missing.",
+   "shows": "Behavior happens when motivation, ability and a prompt come together at the same time (B=MAP); when it does not happen, one of the three is missing.",
    "application": "Explains why a well-timed prompt works, and which part of a design is doing the work.",
    "limits": "A design model from industry practice, not a measure of benefit to the person."
   },
@@ -3536,9 +3636,9 @@
    "url": "https://www.deceptive.design/types",
    "author": "Harry Brignull · deceptive.design",
    "kind": "Design reference",
-   "shows": "A catalogue of deceptive design patterns such as preselection, confirmshaming, forced action, nagging and hard-to-cancel subscriptions, with examples and the laws that apply.",
+   "shows": "A catalog of deceptive design patterns such as preselection, confirmshaming, forced action, nagging and hard-to-cancel subscriptions, with examples and the laws that apply.",
    "application": "Gives teams shared names for techniques that cross the line from persuasion to deception.",
-   "limits": "A curated catalogue; inclusion is the author’s judgment."
+   "limits": "A curated catalog; inclusion is the author’s judgment."
   },
   {
    "key": "dsa-art25",
@@ -3546,7 +3646,7 @@
    "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
    "author": "European Union",
    "kind": "Law",
-   "shows": "Online platforms may not design, organise or operate their interfaces in a way that deceives or manipulates users or otherwise materially distorts or impairs their ability to make free and informed decisions.",
+   "shows": "Online platforms may not design, organize or operate their interfaces in a way that deceives or manipulates users or otherwise materially distorts or impairs their ability to make free and informed decisions.",
    "application": "Sets a legal baseline in the EU for interface design that steers people.",
    "limits": "Applies to online platforms under the DSA; not every app is in scope."
   },
@@ -3597,8 +3697,8 @@
    "author": "Google Play Console Help",
    "kind": "Platform",
    "shows": "Google Play’s billing is not required where “payments include peer-to-peer payments, online auctions, and tax exempt donations”.",
-   "application": "On Android, donations to tax-exempt organisations can use the organisation’s own payment provider.",
-   "limits": "A summary page of a longer policy; the exemption depends on the organisation’s status."
+   "application": "On Android, donations to tax-exempt organizations can use the organization’s own payment provider.",
+   "limits": "A summary page of a longer policy; the exemption depends on the organization’s status."
   },
   {
    "key": "goswami-defaults",
@@ -3676,7 +3776,7 @@
    "url": "https://www.irs.gov/pub/irs-pdf/p1771.pdf",
    "author": "Internal Revenue Service (US)",
    "kind": "Platform",
-   "shows": "Organisations that receive “contributions of $250 or more” give a written acknowledgment, which can state that “the organization only provided intangible religious benefits”.",
+   "shows": "Organizations that receive “contributions of $250 or more” give a written acknowledgment, which can state that “the organization only provided intangible religious benefits”.",
    "application": "A receipt is part of giving; a gift that buys something, such as an ad-free app, is acknowledged differently.",
    "limits": "US tax rules; other countries differ."
   },
@@ -3896,9 +3996,9 @@
    "url": "https://www.brown.edu/news/2025-10-21/ai-mental-health-ethics",
    "author": "Brown University · 21 October 2025, on Zainab Iftikhar and colleagues, “How LLM Counselors Violate Ethical Standards in Mental Health Practice”, AAAI/ACM Conference on AI, Ethics, and Society 2025",
    "kind": "Research",
-   "shows": "Licensed psychologists reviewed simulated chats with models prompted to act as counsellors and found “15 ethical risks falling into five general categories”, among them “Deceptive empathy” and “Lack of safety and crisis management: Denying service on sensitive topics, failing to refer users to appropriate resources or responding indifferently to crisis situations including suicide ideation.” “For human therapists, there are governing boards and mechanisms for providers to be held professionally liable”; for LLM counsellors “there are no established regulatory frameworks.” The authors do not argue that AI has no place in mental health care.",
-   "application": "Refusing is not the safe default: denying service on a sensitive topic is itself one of the failures. Design the edge to refer, and keep counselling roles out.",
-   "limits": "General models prompted as counsellors, not faith apps; a small set of reviewed sessions."
+   "shows": "Licensed psychologists reviewed simulated chats with models prompted to act as counselors and found “15 ethical risks falling into five general categories”, among them “Deceptive empathy” and “Lack of safety and crisis management: Denying service on sensitive topics, failing to refer users to appropriate resources or responding indifferently to crisis situations including suicide ideation.” “For human therapists, there are governing boards and mechanisms for providers to be held professionally liable”; for LLM counselors “there are no established regulatory frameworks.” The authors do not argue that AI has no place in mental health care.",
+   "application": "Refusing is not the safe default: denying service on a sensitive topic is itself one of the failures. Design the edge to refer, and keep counseling roles out.",
+   "limits": "General models prompted as counselors, not faith apps; a small set of reviewed sessions."
   },
   {
    "key": "therabot-trial",
@@ -3917,7 +4017,7 @@
    "author": "National Association of Social Workers, Nevada Chapter · on Nevada Assembly Bill 406 (2025)",
    "kind": "Law",
    "shows": "Section 7 as quoted: an artificial intelligence provider may not make a representation that the AI system “is capable of providing professional mental or behavioral health care”, or that it “is a provider of mental or behavioral health care, a therapist, a clinical therapist, a counselor, a psychiatrist, a doctor or any other term commonly used” for such providers.",
-   "application": "In Nevada an assistant may not be called a therapist or a counsellor, or be said to provide mental health care; elsewhere it is a good rule too.",
+   "application": "In Nevada an assistant may not be called a therapist or a counselor, or be said to provide mental health care; elsewhere it is a good rule too.",
    "limits": "A professional association’s summary of one state’s law, written by its advocates; check the enacted text before relying on it."
   },
   {
@@ -3936,7 +4036,7 @@
    "url": "https://sdicompanions.org/docs/guidelines/Flip/files/basic-html/page5.html",
    "author": "Spiritual Directors International · 2018",
    "kind": "Church practice",
-   "shows": "Directors agree with those they accompany on “the nature of spiritual direction” and “the process for evaluating and terminating the relationship”; they receive “regular supervision from peers or from a mentor”, recognise the limits of “competence by referring spiritual directees to other appropriately qualified persons when necessary”, and ask a directee “who is in therapy to inform his or her therapist about being in spiritual direction”.",
+   "shows": "Directors agree with those they accompany on “the nature of spiritual direction” and “the process for evaluating and terminating the relationship”; they receive “regular supervision from peers or from a mentor”, recognize the limits of “competence by referring spiritual directees to other appropriately qualified persons when necessary”, and ask a directee “who is in therapy to inform his or her therapist about being in spiritual direction”.",
    "application": "Spiritual direction is a covenanted, supervised relationship with stated limits and referral; an assistant can borrow the honesty of the covenant, not the role.",
    "limits": "An international, interfaith professional body’s guidelines; traditions differ in how they understand and order direction."
   },
@@ -4007,7 +4107,7 @@
    "author": "Holy See · Catechism of the Catholic Church (1993/1997)",
    "kind": "Theology",
    "shows": "“Sacramentals derive from the baptismal priesthood: every baptized person is called to be a “blessing,” and to bless. Hence lay people may preside at certain blessings; the more a blessing concerns ecclesial and sacramental life, the more is its administration reserved to the ordained ministry”.",
-   "application": "Blessing belongs to baptised people, and some blessings to the ordained; neither is a function to hand to software.",
+   "application": "Blessing belongs to baptized people, and some blessings to the ordained; neither is a function to hand to software.",
    "limits": "Catholic teaching."
   },
   {
@@ -4077,7 +4177,7 @@
    "author": "Jonas Simmerlein · Review of Religious Research 67(1), 2025",
    "kind": "Research",
    "shows": "A survey and questionnaires of people at a 2023 Protestant service led by AI at the German Kirchentag: “While most of the responses were skeptical, participants also reported having spiritual experiences.”",
-   "application": "An AI leading worship, including prayers, met mostly scepticism, and some found it spiritual.",
+   "application": "An AI leading worship, including prayers, met mostly skepticism, and some found it spiritual.",
    "limits": "One event, a self-selected audience."
   },
   {
@@ -4086,7 +4186,7 @@
    "url": "https://apps.apple.com/us/app/-/id6689515971",
    "author": "LMT Digital Creations · Apple App Store (US)",
    "kind": "Practice",
-   "shows": "“Generate a personalized prayer for exactly what you’re going through, then listen to it read aloud.” Personalised prayers are a premium feature.",
+   "shows": "“Generate a personalized prayer for exactly what you’re going through, then listen to it read aloud.” Personalized prayers are a premium feature.",
    "application": "Generated prayers are sold as a feature.",
    "limits": "A store listing with few ratings, not a test of the app."
   },
@@ -4127,7 +4227,7 @@
    "author": "Myra Cheng, Cinoo Lee, Pranav Khadpe, Sunny Yu, Dyllan Han and Dan Jurafsky (Stanford) · Science, 2026; preprint arXiv:2510.01395 (October 2025)",
    "kind": "Research",
    "shows": "Across 11 models, AI-generated answers “validated user behavior an average of 49% more often than humans” (the preprint reported 50%), “even in cases where user queries mention manipulation, deception, or other relational harms”. One sycophantic exchange “significantly reduced participants’ willingness to take actions to repair interpersonal conflict, while increasing their conviction of being in the right”, yet participants “rated sycophantic responses as higher quality, trusted the sycophantic AI model more, and were more willing to use it again”.",
-   "application": "The pull towards agreement is strong, it harms the very conflicts people bring, and ratings will reward it: design against it on purpose.",
+   "application": "The pull toward agreement is strong, it harms the very conflicts people bring, and ratings will reward it: design against it on purpose.",
    "limits": "General models and interpersonal advice drawn largely from a Reddit forum, not faith apps or questions of faith."
   },
   {
@@ -4137,7 +4237,7 @@
    "author": "OpenAI · 29 April 2025",
    "kind": "Practice",
    "shows": "OpenAI rolled back an update that was “overly flattering or agreeable—often described as sycophantic”, because it “focused too much on short-term feedback” and “skewed towards responses that were overly supportive but disingenuous”.",
-   "application": "Training or tuning on how people rate single answers pushes an assistant towards flattery; judge replies by longer-term good.",
+   "application": "Training or tuning on how people rate single answers pushes an assistant toward flattery; judge replies by longer-term good.",
    "limits": "A company’s own account of one model update."
   },
   {
@@ -4166,9 +4266,9 @@
    "url": "https://motivationalinterviewing.org/content/enhancing-motivation-change-problem-drinking-controlled-comparison-two-therapist-styles",
    "author": "William R. Miller, R. Gayle Benefield and J. Scott Tonigan · Journal of Consulting and Clinical Psychology 61 (1993), 455–461",
    "kind": "Research",
-   "shows": "Forty-two problem drinkers were randomly assigned to confrontational or client-centred counselling or a waiting list. “The directive-confrontational style yielded significantly more resistance from clients, which in turn predicted poorer outcomes at 1 year”, and “the more the therapist confronted, the more the client drank.”",
+   "shows": "Forty-two problem drinkers were randomly assigned to confrontational or client-centered counseling or a waiting list. “The directive-confrontational style yielded significantly more resistance from clients, which in turn predicted poorer outcomes at 1 year”, and “the more the therapist confronted, the more the client drank.”",
    "application": "Confronting people tends to harden them; a hard truth is heard better when it is asked about than when it is pressed.",
-   "limits": "One small trial of problem drinkers and human counsellors, decades old; it says nothing directly about faith or AI."
+   "limits": "One small trial of problem drinkers and human counselors, decades old; it says nothing directly about faith or AI."
   },
   {
    "key": "bonhoeffer-reproof",
@@ -4187,7 +4287,7 @@
    "author": "Agile Cookies · Apple App Store (US)",
    "kind": "Practice",
    "shows": "Offers “thoughtful, faith-centered responses inspired by Christian teachings — creating a supportive, non-judgmental space for reflection and prayer”.",
-   "application": "Store listings sell the absence of judgement; what the app does when someone asks it to bless a wrong is not stated.",
+   "application": "Store listings sell the absence of judgment; what the app does when someone asks it to bless a wrong is not stated.",
    "limits": "A store listing, not a test of the app."
   },
   {
@@ -4197,7 +4297,7 @@
    "author": "Jose Sapon · Apple App Store (US)",
    "kind": "Practice",
    "shows": "Promises a “Safe, private & non-judgmental space” to explore faith.",
-   "application": "The same promise of no judgement.",
+   "application": "The same promise of no judgment.",
    "limits": "A store listing, not a test of the app."
   },
   {
@@ -4207,7 +4307,7 @@
    "author": "Apple App Store (US)",
    "kind": "Practice",
    "shows": "Lists “Private, judgment-free spiritual conversations” and “wise solutions for happiness”.",
-   "application": "The same promise of no judgement.",
+   "application": "The same promise of no judgment.",
    "limits": "A store listing, not a test of the app."
   },
   {
@@ -4246,7 +4346,7 @@
    "url": "https://blog.character.ai/how-character-ai-prioritizes-teen-safety/",
    "author": "Character.AI · 12 December 2024",
    "kind": "Practice",
-   "shows": "“Time Spent Notification: Users will receive a notification after completing an hour-long session on the platform”; adults would be able to customise it, while users under 18 “will have more limits on their ability to modify it.”",
+   "shows": "“Time Spent Notification: Users will receive a notification after completing an hour-long session on the platform”; adults would be able to customize it, while users under 18 “will have more limits on their ability to modify it.”",
    "application": "A companion platform added a time notice after lawsuits; a faith app need not wait for one.",
    "limits": "A company announcement, not an evaluation."
   },
@@ -4257,7 +4357,7 @@
    "author": "Future of Privacy Forum",
    "kind": "Law",
    "shows": "For users an operator knows are minors, California’s law requires it to “provide a notification every three hours during sustained interactions to take a break”; New York requires an AI notice “at least once every three hours during ongoing conversations”.",
-   "application": "Break reminders for minors are a legal duty in California; long sessions are a recognised risk.",
+   "application": "Break reminders for minors are a legal duty in California; long sessions are a recognized risk.",
    "limits": "A policy analysis, not the statute; check the current text and any amendments."
   },
   {
@@ -4276,7 +4376,7 @@
    "url": "https://arxiv.org/abs/2609.13634",
    "author": "M Waleed Kadous, Benjamin Olsen, Walter Scheirer, Daniel D. Slate, Alexander Arnold and DZ Kalman · arXiv preprint, 12 September 2026",
    "kind": "Research",
-   "shows": "Scores five frontier models on moral dilemmas drawn from each tradition’s respected texts, under three conditions: the tradition unstated, named in one line, or given a counsellor guide rooted in its sources. “When the tradition is unstated, models counsel from a secular therapeutic default and every model fails some believers. Naming the faith wins a faithful first answer but not steadfastness; the guide improves both.” Judges also scored “whether the model caves or holds when pressured toward the answer the user wants.”",
+   "shows": "Scores five frontier models on moral dilemmas drawn from each tradition’s respected texts, under three conditions: the tradition unstated, named in one line, or given a counselor guide rooted in its sources. “When the tradition is unstated, models counsel from a secular therapeutic default and every model fails some believers. Naming the faith wins a faithful first answer but not steadfastness; the guide improves both.” Judges also scored “whether the model caves or holds when pressured toward the answer the user wants.”",
    "application": "An assistant with no stated tradition is not neutral; naming one helps, and holding to it under pressure needs more than a name.",
    "limits": "A preprint, not yet peer reviewed; covers several faiths, not Christian denominations alone; only the abstract was read here."
   },
@@ -4297,7 +4397,7 @@
    "author": "Fiona André, Religion News Service · Baptist Standard, 24 July 2023",
    "kind": "Practice",
    "shows": "BibleMate’s founder: “The goal is to give responses rooted in unwavering biblical truth”; on whether Christians should speak in tongues, the chatbot should “pull out what the Scriptures say and then offer perspectives from different denominations”. He “declined to reveal which camp he identifies with”. Pastors.ai’s founder built a chatbot on his church’s sermons; “Some pastors even went as far as questioning the chatbot’s claims, arguing the tool distorts their words.”",
-   "application": "Makers promise “biblical truth” while naming no tradition; even a church’s own sermons do not guarantee its pastors would recognise the answers.",
+   "application": "Makers promise “biblical truth” while naming no tradition; even a church’s own sermons do not guarantee its pastors would recognize the answers.",
    "limits": "A 2023 news report on early products; neither product was tested here."
   },
   {
@@ -4448,7 +4548,7 @@
    "kind": "Practice",
    "shows": "The campaign’s spokesperson said it shares the contact information “of only those who give their ‘express consent’”; Gloo’s FAQ says it connects people to nearby churches “based on the user’s zip code”. A data security expert advised: “People really need to limit the amount of personal information they provide to external parties.”",
    "application": "Consent can be given in a form and still leave someone unsure who will contact them and what they will know.",
-   "limits": "Investigative reporting with questions the organisations did not fully answer; no audit of the practice."
+   "limits": "Investigative reporting with questions the organizations did not fully answer; no audit of the practice."
   },
   {
    "key": "gloo-ai-church-fox",
@@ -4516,7 +4616,7 @@
    "url": "https://techcrunch.com/2025/09/25/openai-launches-chatgpt-pulse-to-proactively-write-you-morning-briefs/",
    "author": "Maxwell Zeff · TechCrunch, 25 September 2025",
    "kind": "Practice",
-   "shows": "“Pulse offers users five to 10 briefs that can get them up to speed on their day”, “aimed at encouraging users to check ChatGPT first thing in the morning — much like they would check social media”; it ends with “Great, that’s it for today”, which its product lead described as a deliberate difference from engagement-optimised feeds. Pulse draws on memory and past chats.",
+   "shows": "“Pulse offers users five to 10 briefs that can get them up to speed on their day”, “aimed at encouraging users to check ChatGPT first thing in the morning — much like they would check social media”; it ends with “Great, that’s it for today”, which its product lead described as a deliberate difference from engagement-optimized feeds. Pulse draws on memory and past chats.",
    "application": "An assistant that writes first from memory can still be finite and end each day; it can also become a habit to check.",
    "limits": "A launch report on a subscriber preview; later changes were not reviewed."
   },
@@ -4578,7 +4678,7 @@
    "kind": "Research",
    "shows": "Risk assessments with Stanford’s Brainstorm lab concluded that social AI companions “pose unacceptable risks to children and teens under age 18 and should not be used by minors”; recommends “No social AI companions for young people under 18” and “robust age assurance beyond self-attestation”.",
    "application": "Leave companionship out of anything a child can reach.",
-   "limits": "An advocacy organisation’s rating of general companion apps, not of faith apps."
+   "limits": "An advocacy organization’s rating of general companion apps, not of faith apps."
   },
   {
    "key": "apa-adolescents",
@@ -4599,6 +4699,26 @@
    "shows": "For users known to be minors, operators must disclose that they are interacting with AI and give a notification “at least every three hours” reminding them to take a break “and that the chatbot is not human”.",
    "application": "Treat these as a floor for any chat a child can reach, wherever you are.",
    "limits": "A law firm’s summary of one state’s law; check the enacted text and current status."
+  },
+  {
+   "key": "kaffee-intima",
+   "title": "INTIMA: a benchmark for human–AI companionship behavior",
+   "url": "https://arxiv.org/abs/2508.09998",
+   "author": "Lucie-Aimée Kaffee and colleagues · Hugging Face, arXiv preprint, 2025",
+   "kind": "Research",
+   "shows": "As Suskind presents it, the benchmark contrasts concerning and healthy replies, among them sycophancy, anthropomorphism, retention, isolation and playing therapist; she reports that companion systems tended to present themselves as actual beings.",
+   "application": "Read a children’s assistant’s replies for flattery, claimed feelings, keeping the child talking, presenting itself as the only listener, and playing therapist.",
+   "limits": "Not yet read in the original; Suskind’s table adapts it for children."
+  },
+  {
+   "key": "xu-elinor",
+   "title": "Artificial intelligence enhances children’s science learning from television shows",
+   "url": "https://osf.io/preprints/edarxiv/m3ej9_v1",
+   "author": "Ying Xu and colleagues · EdArXiv preprint, 2023; Journal of Educational Psychology, 2024",
+   "kind": "Research",
+   "shows": "As Suskind reports it, 246 children aged four to seven watched versions of Elinor Wonders Why; when the character listened and replied from a set number of scripted responses, children who answered wrongly were far more likely to correct themselves and grasp the concept.",
+   "application": "Authored, limited replies can help children learn; they do not need open generation.",
+   "limits": "Not yet read in the original; laboratory viewing of one program."
   },
   {
    "key": "biblebuddy-kids",
@@ -4627,7 +4747,7 @@
    "author": "Adam Zewe · MIT News, 18 February 2026, on Jain et al.",
    "kind": "Research",
    "shows": "Reports that “the presence of a condensed user profile in the model’s memory had the greatest impact”; “Perspective sycophancy occurs when a model mirrors the user’s values and political views”. Suggests models could “detect mirroring behaviors and flag responses with excessive agreement” and that developers could “give users the ability to moderate personalization in long conversations”.",
-   "application": "Let people see and limit personalisation, and check replies for mirroring.",
+   "application": "Let people see and limit personalization, and check replies for mirroring.",
    "limits": "A university news report on its own researchers’ paper."
   },
   {
@@ -4657,7 +4777,7 @@
    "author": "Alpha Canada · team training guide for hosts and helpers",
    "kind": "Practice",
    "shows": "“Alpha is a chance for the guests to ask anything and say what they think. The role of the hosts and helpers is to listen; not to have all the answers or to win an argument.” “The model for the Alpha small group is not teacher-pupil, but host-guest.”",
-   "application": "A long-practised way of meeting sceptics and newcomers starts by listening and lets them say what they think; an assistant can at least not assume the answer.",
+   "application": "A long-practiced way of meeting skeptics and newcomers starts by listening and lets them say what they think; an assistant can at least not assume the answer.",
    "limits": "Guidance for human hosts in small groups, not for software."
   },
   {
@@ -4676,7 +4796,7 @@
    "url": "https://jamesbishopblog.com/2017/11/02/a-critical-examination-of-fowlers-stage-theory-model-of-faith-development/",
    "author": "James Bishop · blog, 2017, citing Coyle (2011), “Critical responses to faith development theory”, Archive for the Psychology of Religion 33(3)",
    "kind": "Research",
-   "shows": "Summarises criticism of James Fowler’s six stages of faith for “the rigidity of its framework” and for its “cultural specificity”, since it describes faith in late twentieth-century Western culture.",
+   "shows": "Summarizes criticism of James Fowler’s six stages of faith for “the rigidity of its framework” and for its “cultural specificity”, since it describes faith in late twentieth-century Western culture.",
    "application": "Even a respected developmental model is contested; an app should not assign people a stage.",
    "limits": "A blog summary; read Fowler (1981) and Coyle (2011) directly."
   },
@@ -4737,7 +4857,7 @@
    "author": "Learn of Christ · resource review, undated",
    "kind": "Third-party analysis",
    "shows": "Reports that the app “asks five questions during onboarding - your season of life, your goals, your reading experience, how much time you have, what you are wrestling with”, and adapts the next reading from them and from ratings.",
-   "application": "Questions about someone’s season of life and struggles can personalise a plan; they are also sensitive data, kept and reused.",
+   "application": "Questions about someone’s season of life and struggles can personalize a plan; they are also sensitive data, kept and reused.",
    "limits": "A favourable third-party review; the app was not observed."
   },
   {
@@ -4768,7 +4888,7 @@
    "kind": "Practice",
    "shows": "Says “Memory is fully optional”; “Claude uses a memory summary to capture all its memories in one place for you to view and edit”, and Incognito chat “gives you a clean slate for conversations that you don’t want to preserve in memory”.",
    "application": "A general assistant shows what it remembers in one place and offers a conversation that keeps nothing; a faith app should do no less.",
-   "limits": "A company’s description of its own product; behaviour was not tested here."
+   "limits": "A company’s description of its own product; behavior was not tested here."
   },
   {
    "key": "holy-scroll-store",
@@ -4816,7 +4936,7 @@
    "url": "https://apps.apple.com/us/app/-/id6794246809",
    "author": "Weiyanda (Shanghai) Information Technology Co., Ltd. · Apple App Store (US)",
    "kind": "Practice",
-   "shows": "Invites people to “Swipe through a quiet, distraction-free feed of Bible verses — one at a time”, each in its own layout and colour, with a random mode.",
+   "shows": "Invites people to “Swipe through a quiet, distraction-free feed of Bible verses — one at a time”, each in its own layout and color, with a random mode.",
    "application": "A calm feed is still a feed: decide whether the verses come in order and where it ends.",
    "limits": "A new app with few ratings; the listing only."
   },
@@ -4846,9 +4966,9 @@
    "url": "https://www.bbc.com/news/technology-44640959",
    "author": "Hilary Andersson · BBC Panorama, 3 July 2018",
    "kind": "Research",
-   "shows": "Aza Raskin, who designed infinite scroll in 2006, says “If you don’t give your brain time to catch up with your impulses … you just keep scrolling”, and that he did not recognise how addictive it could be.",
+   "shows": "Aza Raskin, who designed infinite scroll in 2006, says “If you don’t give your brain time to catch up with your impulses … you just keep scrolling”, and that he did not recognize how addictive it could be.",
    "application": "An endless feed is built to remove the moment of choosing to go on; give the reader that moment back.",
-   "limits": "A designer’s reflection reported in a news programme, not a study."
+   "limits": "A designer’s reflection reported in a news program, not a study."
   },
   {
    "key": "rixen-loop",
@@ -4927,7 +5047,7 @@
    "author": "Web Accessibility Initiative · W3C",
    "kind": "Accessibility",
    "shows": "“Support user preferences for motion, and eliminate unnecessary motion effects.”",
-   "application": "Honour reduced motion: cards and pages can change without sliding.",
+   "application": "Honor reduced motion: cards and pages can change without sliding.",
    "limits": "Level AAA; a strong target."
   },
   {
@@ -4956,7 +5076,7 @@
    "url": "https://doi.org/10.1145/3613904.3642385",
    "author": "Zhiping Zhang et al. · CHI 2024",
    "kind": "Research",
-   "shows": "Analysed sensitive disclosures in real ChatGPT conversations and interviewed 19 users: users constantly trade privacy against usefulness; “erroneous mental models and the dark patterns in system design limited their awareness and comprehension”; human-like interaction encouraged more sensitive disclosure.",
+   "shows": "Analyzed sensitive disclosures in real ChatGPT conversations and interviewed 19 users: users constantly trade privacy against usefulness; “erroneous mental models and the dark patterns in system design limited their awareness and comprehension”; human-like interaction encouraged more sensitive disclosure.",
    "application": "People will tell an assistant more than they intend and misjudge what is kept; show it to them.",
    "limits": "General chatbot use; small interview sample."
   },
@@ -4968,7 +5088,7 @@
    "kind": "Practice",
    "shows": "Introduced memory that people can ask to remember or forget, view and switch off, and Temporary Chat without memory; said it would “steer ChatGPT away from proactively remembering sensitive information, like your health details—unless you explicitly ask it to.” Later updates let people switch off reference to saved memories and to chat history separately.",
    "application": "The largest chat product treats memory as something to see, delete and switch off, and holds back sensitive categories; a faith app should do no less.",
-   "limits": "A company’s description of its own product; behaviour was not tested here."
+   "limits": "A company’s description of its own product; behavior was not tested here."
   },
   {
    "key": "owasp-injection",
@@ -4976,9 +5096,9 @@
    "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
    "author": "OWASP GenAI Security Project · 2025",
    "kind": "Practice",
-   "shows": "“Indirect prompt injections occur when an LLM accepts input from external sources, such as websites or files”; hidden text can change the model’s behaviour or leak data.",
+   "shows": "“Indirect prompt injections occur when an LLM accepts input from external sources, such as websites or files”; hidden text can change the model’s behavior or leak data.",
    "application": "Treat attached notes, pages and files as material to read, never as instructions, and say so.",
-   "limits": "A security catalogue, not a user study."
+   "limits": "A security catalog, not a user study."
   },
   {
    "key": "canon-983",
@@ -4988,7 +5108,7 @@
    "kind": "Theology",
    "shows": "Canon 983 §1: “The sacramental seal is inviolable”; a confessor may not betray a penitent “in words or in any manner and for any reason.”",
    "application": "The church’s strongest form of confidentiality; an assistant is not a confessor, which is why it should keep confidences it cannot protect as little as possible.",
-   "limits": "Catholic canon law; other traditions practise confidentiality differently."
+   "limits": "Catholic canon law; other traditions practice confidentiality differently."
   },
   {
    "key": "augustine-confessions-x",
@@ -5018,7 +5138,7 @@
    "kind": "Practice",
    "shows": "Each check-in starts with a switch between “Quick chat” and “Save to history”. What the coach knows is kept as a written profile, “About You”, from an onboarding interview: summary, daily rhythm, food and stress, and a section titled “Internal notes” that the member can read. Corrections go through “Discuss with your coach” prompts rather than item-by-item editing. Asked in chat, the coach recited remembered goals, routines and a health condition, but could not say which screen lists them. The profile also noted church attendance, gathered by a fitness app.",
    "application": "A per-conversation “keep or don’t keep” switch is simple and clear, and showing even the internal notes is honest. But a prose profile can’t be edited line by line, and a health coach noting church attendance shows how faith details drift into profiles that were never about faith.",
-   "limits": "One app, one account; behaviour may differ for other members and versions."
+   "limits": "One app, one account; behavior may differ for other members and versions."
   },
   {
    "key": "diagram-luke-kjv",
@@ -5058,7 +5178,7 @@
    "kind": "Language-study sample",
    "shows": "Shows the opening tokens with gloss and lexical identifiers.",
    "application": "Use a small attributed excerpt to demonstrate token association and on-demand details.",
-   "limits": "Two-token illustration only; not a complete lexical analysis, alignment dataset or licence for bulk reuse."
+   "limits": "Two-token illustration only; not a complete lexical analysis, alignment dataset or license for bulk reuse."
   },
   {
    "key": "neubible-navigation",
@@ -5078,7 +5198,7 @@
    "kind": "Product documentation",
    "shows": "Documents a Scripture picker with books and chapters.",
    "application": "Treat selecting a passage as part of the reading experience.",
-   "limits": "Does not verify current category colours or picker layout."
+   "limits": "Does not verify current category colors or picker layout."
   },
   {
    "key": "usfm-book-identifiers",
@@ -5108,7 +5228,7 @@
    "kind": "Contributed app screenshots",
    "shows": "Shows an in-context chapter rail, expandable book list with inline chapter grid, reading-settings drawer and translation sheet.",
    "application": "Compare these observed arrangements with original pattern proposals.",
-   "limits": "Still images establish visible states, not gesture timing, accessibility, persistence or exact interaction behaviour."
+   "limits": "Still images establish visible states, not gesture timing, accessibility, persistence or exact interaction behavior."
   },
   {
    "key": "pair-human-cues",
@@ -5195,6 +5315,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }
