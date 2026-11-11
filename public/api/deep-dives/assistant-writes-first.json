@@ -139,7 +139,7 @@
     "A check-in they set": "good fit",
     "The app’s reminder": "poor fit",
     "A daily page from memory": "poor fit",
-    "Follows up on what was shared": "possible",
+    "Follows up on what was shared": "poor fit",
     "Says it misses them": "poor fit",
     "Tells someone else": "poor fit"
    }
@@ -189,8 +189,8 @@
    "fit": {
     "Waits to be asked": "good fit",
     "A check-in they set": "possible",
-    "The app’s reminder": "possible",
-    "A daily page from memory": "possible",
+    "The app’s reminder": "poor fit",
+    "A daily page from memory": "poor fit",
     "Follows up on what was shared": "possible",
     "Says it misses them": "poor fit",
     "Tells someone else": "poor fit"

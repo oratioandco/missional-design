@@ -12,8 +12,9 @@
     var picker = root.querySelector('select[data-option]');
     if (picker) picker.addEventListener('change', function () { tabs.forEach(function (t) { if (t.getAttribute('data-variant') === picker.value) select(t); }); });
     var live = false;
-    // Hide the settings area when no setting applies to the chosen option.
-    function settingsVisibility() { var box = root.querySelector('.rail-settings'); if (box) box.classList.toggle('is-empty', !box.querySelector('fieldset:not([disabled])')); }
+    // Settings sit in a bar above the phone. A group that does not apply to the chosen option is hidden (out of view and
+    // out of the tab order); the bar itself hides when no group applies.
+    function settingsVisibility() { var box = root.querySelector('.stage-settings'); if (box) box.classList.toggle('is-empty', !box.querySelector('fieldset:not([disabled])')); }
     settingsVisibility();
     window.addEventListener('message', function (e) {
       if (e.origin === location.origin && e.source === frame.contentWindow && e.data && e.data.type === 'bf-live') {
@@ -24,7 +25,7 @@
     function query() {
       var q = 'v=' + current;
       [].forEach.call(root.querySelectorAll('fieldset[data-param]'), function (f) {
-        var r = f.querySelector('input:checked'); if (r && r.value) q += '&' + f.getAttribute('data-param') + '=' + r.value;
+        var r = f.querySelector('input:checked, select'); if (r && r.value) q += '&' + f.getAttribute('data-param') + '=' + r.value;
       });
       return q;
     }
@@ -38,10 +39,18 @@
       current = tab.getAttribute('data-variant');
       tabs.forEach(function (t) { var on = t === tab; t.setAttribute('aria-selected', on); t.tabIndex = on ? 0 : -1; });
       panels.forEach(function (p) { p.hidden = p.getAttribute('data-panel') !== current; });
-      [].forEach.call(root.querySelectorAll('fieldset[data-applies]'), function (f) { f.disabled = f.getAttribute('data-applies').split(' ').indexOf(current) < 0; });
+      [].forEach.call(root.querySelectorAll('fieldset[data-applies]'), function (f) { var off = f.getAttribute('data-applies').split(' ').indexOf(current) < 0; f.disabled = off; f.hidden = off; });
       settingsVisibility();
       if (focus) tab.focus();
       if (picker) picker.value = current;
+      // Keep the phone selector's visible face in step (number, name, provenance).
+      var face = root.querySelector('.opt-face');
+      if (face) {
+        face.querySelector('.opt-num').textContent = tab.querySelector('.tab-num').textContent;
+        face.querySelector('.opt-name').textContent = tab.querySelector('.tab-name').textContent;
+        var fp = face.querySelector('.prov'), tp = tab.querySelector('.prov');
+        if (fp && tp) { fp.className = tp.className; fp.textContent = tp.textContent; }
+      }
       if (tab.scrollIntoView && tab.parentNode.scrollWidth > tab.parentNode.clientWidth) tab.scrollIntoView({ block: 'nearest', inline: 'nearest' });
       load();
     }
@@ -53,7 +62,7 @@
         e.preventDefault(); select(tabs[(n + tabs.length) % tabs.length], true);
       });
     });
-    [].forEach.call(root.querySelectorAll('fieldset[data-param] input'), function (r) { r.addEventListener('change', update); });
+    [].forEach.call(root.querySelectorAll('fieldset[data-param] input, fieldset[data-param] select'), function (r) { r.addEventListener('change', update); });
     var restart = root.querySelector('[data-restart]'); if (restart) restart.addEventListener('click', load);
     root.__select = function (key) { tabs.forEach(function (t) { if (t.getAttribute('data-variant') === key) select(t); }); };
   }

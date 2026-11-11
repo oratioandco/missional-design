@@ -71,7 +71,8 @@ for path in sorted(DIST.rglob('index.html')):
     if rel.startswith('patterns/') and rel.count('/') == 1 and 'id="app-captures-title"' not in text:
         slug = rel.split('/')[1]
         gallery, count = capture_gallery(slug)
-        start = text.find('<section class="block e-blk" id="app-examples">')
+        m = re.search(r'<section class="block e-blk[^"]*" id="app-examples">', text)  # the compact page adds e-ex-compact
+        start = m.start() if m else -1
         if count and start >= 0:
             end = text.find('</section>', start)
             body = text[start:end]

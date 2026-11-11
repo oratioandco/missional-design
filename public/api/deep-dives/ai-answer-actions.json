@@ -109,7 +109,7 @@
    "fit": {
     "Every action in a row": "possible",
     "Three, then More": "good fit",
-    "Actions on the passages": "good fit",
+    "Actions on the passages": "possible",
     "No action bar": "poor fit"
    }
   },
@@ -379,5 +379,11 @@
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
   "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+ },
+ "three_ways": {
+  "exploitative": "Generated text shared as if it were Scripture; prompts to keep chatting.",
+  "ethical": "Label generated text and keep Scripture distinct from it.",
+  "redemptive": "Offer actions that lead away from the app: read the passage, pray, talk to someone.",
+  "frame": "https://missional.design/reference/about/three-ways/"
  }
 }

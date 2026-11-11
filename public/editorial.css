@@ -727,10 +727,191 @@ html:not(.motion) .e-line .e-bead{left:100%}
 :root:root body.ed .e-fm-basis{margin:14px 0 0;font-size:var(--e-t-small);color:var(--e-faint)}
 :root:root body.ed .e-fitmap.many ol{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));row-gap:32px}
 @media (max-width:900px){
-:root:root body.ed .e-fitmap ol{grid-template-columns:1fr;gap:0}
+/* .many included: it is more specific than plain .e-fitmap ol, and without it maps with more than six options kept their desktop columns and clipped on phones. */
+:root:root body.ed .e-fitmap ol,:root:root body.ed .e-fitmap.many ol{grid-template-columns:1fr;gap:0}
 :root:root body.ed .e-fm-col{display:grid;grid-template-columns:76px 1fr;grid-template-rows:auto 1fr;column-gap:16px;row-gap:6px;padding:14px 0}
 :root:root body.ed .e-fm-shot{grid-row:1/3}
 :root:root body.ed .e-fm-shot img{border-radius:8px}
 }
 :root:root body.ed .e-sum-qs{margin:0;padding:0 0 0 1.3em;font-size:var(--e-t-small);line-height:1.5;color:var(--e-ink)}
 :root:root body.ed .e-sum-qs li+li{margin-top:8px}
+
+/* ===== Compact pattern page (owner-approved 11 Nov 2026; pilot.COMPACT). Research density from the 8 Nov variant,
+   then the compact rules. Existing tokens only. ===== */
+/* research: question and first sentence of each view visible; evidence behind "Show sources" */
+:root:root body.ed .e-dense .e-answers .e-ritem{padding-block:16px}
+:root:root body.ed .e-dense .e-sources{margin:4px 0 0;border-top:1px solid var(--e-rule)}
+:root:root body.ed .e-dense .e-sources summary{display:inline-flex;align-items:center;gap:8px;padding:14px 0;cursor:pointer;list-style:none;font:500 var(--e-t-small)/1.2 var(--e-sans);color:var(--e-link)}
+:root:root body.ed .e-dense .e-sources summary::-webkit-details-marker{display:none}
+:root:root body.ed .e-dense .e-sources summary::before{content:"+";font:300 18px/1 var(--e-sans);color:var(--e-faint)}
+:root:root body.ed .e-dense .e-sources[open] summary::before{content:"−"}
+:root:root body.ed .e-dense .e-evidence{list-style:none;margin:0;padding:0 0 20px;max-width:var(--e-measure)}
+:root:root body.ed .e-dense .e-evidence li{margin:0;padding:12px 0 0}
+:root:root body.ed .e-dense .e-evidence h4{font:500 15px/1.35 var(--e-sans);margin:0;color:var(--e-ink)}
+:root:root body.ed .e-dense .e-evidence p{margin:6px 0 0;color:var(--e-muted);font-size:15px;line-height:1.6}
+:root:root body.ed .e-dense .e-evidence .cites{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px}
+:root:root body.ed .e-dense .e-evidence .cite{color:var(--e-faint);display:inline-flex;gap:8px;align-items:baseline;font-size:13px}
+:root:root body.ed .e-dense .e-evidence .cite-kind{display:inline-block;min-width:1.4em;font:500 10.5px/1 var(--e-sans);letter-spacing:.06em;color:var(--e-faint);border:1px solid var(--e-rule-strong);border-radius:999px;padding:3px 5px;text-align:center}
+
+/* go further: a one-line summary under each disclosure label */
+:root:root body.ed .depth .e-sum summary{display:block}
+:root:root body.ed .depth .e-sum summary .e-sum-t{display:block}
+:root:root body.ed .depth .e-sum summary .e-sum-l{display:block;margin-top:6px;max-width:44rem;font:400 15px/1.5 var(--e-sans);color:var(--e-muted)}
+
+/* print: every disclosure prints open */
+@media print{
+  details::details-content{content-visibility:visible;display:block}
+  :root:root body.ed .e-dense .e-sources summary::before,:root:root body.ed .depth summary::after{content:none}
+}
+
+/* takeaways: the heading is the takeaway; the reasoning and evidence open beneath it */
+:root:root body.ed .e-tk-compact{margin-top:var(--e-s-4)}
+:root:root body.ed .e-tk-compact .e-tk{display:block;padding:0;border-top:1px solid var(--e-rule)}
+:root:root body.ed .e-tk-compact .e-tk:last-child{border-bottom:1px solid var(--e-rule)}
+:root:root body.ed .e-tk-compact summary{display:grid;grid-template-columns:2.4rem minmax(0,1fr) 1.5rem;align-items:baseline;gap:12px;padding:18px 0;cursor:pointer;list-style:none}
+:root:root body.ed .e-tk-compact summary::-webkit-details-marker{display:none}
+:root:root body.ed .e-tk-compact summary::after{content:"+";font:300 22px/1 var(--e-sans);color:var(--e-faint);justify-self:end}
+:root:root body.ed .e-tk-compact details[open] summary::after{content:"−"}
+:root:root body.ed .e-tk-compact .e-n{font:400 26px/1 var(--e-serif);color:var(--e-metal-3)}
+:root:root body.ed .e-tk-compact .e-tk-h{font:400 clamp(21px,1.7vw,25px)/1.2 var(--e-serif);color:var(--e-ink)}
+:root:root body.ed .e-tk-compact summary:hover .e-tk-h{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
+:root:root body.ed .e-tk-compact .e-tk-b{padding:0 0 20px calc(2.4rem + 12px);max-width:calc(var(--e-measure) + 3rem)}
+:root:root body.ed .e-tk-compact .e-tk-b p{margin:0 0 8px;color:var(--e-muted)}
+
+/* research: the folded groups */
+:root:root body.ed .e-more-research{margin-top:var(--e-s-4);border-top:1px solid var(--e-rule);border-bottom:1px solid var(--e-rule)}
+:root:root body.ed .e-more-research>summary{display:block;padding:18px 0;cursor:pointer;list-style:none}
+:root:root body.ed .e-more-research>summary::-webkit-details-marker{display:none}
+:root:root body.ed .e-more-research .e-sum-t{display:block;font:500 var(--e-t-body)/1.3 var(--e-sans);color:var(--e-link)}
+:root:root body.ed .e-more-research .e-sum-t::before{content:"+ ";color:var(--e-faint)}
+:root:root body.ed .e-more-research[open] .e-sum-t::before{content:"− "}
+:root:root body.ed .e-more-research .e-sum-l{display:block;margin-top:4px;font:400 15px/1.5 var(--e-sans);color:var(--e-muted)}
+
+/* which fits: one line per product, if and start with side by side */
+:root:root body.ed .e-fits-compact li{padding:14px 0;gap:clamp(16px,3vw,40px)}
+:root:root body.ed .e-fits-compact .mini-label{margin-bottom:2px}
+
+/* examples: a thumbnail list; the full screenshot is one tap away on the example page */
+:root:root body.ed .e-ex-compact .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 clamp(20px,3vw,40px);margin-top:var(--e-s-4)}
+:root:root body.ed .e-ex-compact .example-card{display:grid;grid-template-columns:56px minmax(0,1fr);grid-template-rows:auto auto 1fr;column-gap:16px;padding:14px 0;border-top:1px solid var(--e-rule)}
+:root:root body.ed .e-ex-compact .example-card img{grid-row:1/4;width:56px;height:100px;object-fit:cover;object-position:top;margin:0;border:1px solid var(--e-rule);border-radius:6px}
+:root:root body.ed .e-ex-compact .example-card h3{font:400 18px/1.2 var(--e-serif);margin:4px 0 0}
+:root:root body.ed .e-ex-compact .example-card p{font-size:12.5px;margin:4px 0 0}
+@media (max-width:700px){:root:root body.ed .e-ex-compact .grid{grid-template-columns:1fr}}
+
+/* the closing line: set once, not pinned across two screens */
+:root:root body.ed .e-lit.e-lit-static{height:auto}
+:root:root body.ed .e-lit.e-lit-static .e-lit-stage{position:static;height:auto;min-height:0;padding-block:clamp(56px,8vw,112px);animation:none}
+:root:root body.ed .e-lit.e-lit-static .w{color:var(--e-ink)}
+
+/* go further: the use-case table opened from the summary map */
+:root:root body.ed .depth #uses .matrix-wrap{margin-top:12px}
+:root:root body.ed .depth #uses>summary~*{padding-inline:0}
+
+/* summary map: the top of each still is enough to recognize the option */
+:root:root body.ed .e-compact .e-fm-shot img{height:150px;object-fit:cover;object-position:top}
+@media (max-width:700px){:root:root body.ed .e-compact .e-fm-shot img{height:120px}}
+
+/* spectrum: the summary map above already shows every still */
+:root:root body.ed .e-mapped .e-spectrum .e-shot,:root:root body.ed .e-mapped .e-spectrum .e-stills{display:none}
+:root:root body.ed .e-mapped .e-spectrum .e-glance-note{display:none}
+
+/* do and don't: the scope list folded */
+:root:root body.ed .e-excl .e-excluded{margin:0 0 16px}
+
+/* phones: map stills cropped; examples smaller (the one-column map itself is in the studio chrome block) */
+@media (max-width:700px){
+:root:root body.ed .e-compact .e-fm-shot img{height:112px}
+:root:root body.ed .e-ex-compact .example-card{grid-template-columns:44px minmax(0,1fr);padding:12px 0}
+:root:root body.ed .e-ex-compact .example-card img{width:44px;height:80px}
+:root:root body.ed .e-ex-compact .example-card h3{font-size:17px}
+}
+
+/* rhythm: one step less space between sections (--e-s-6 instead of --e-s-7) */
+:root:root body.ed main .e-compact .e-blk{padding-bottom:var(--e-s-6)}
+:root:root body.ed .e-compact .studio{margin-bottom:var(--e-s-6)}
+
+/* ===== Studio chrome (11 Nov 2026): the single source for the prototype controls rail and phone frame. =====
+   Earlier generations of these rules remain in style.css (studio v1, three re-layouts at 1120/820 px, the controls box)
+   and brand.css (paper cards); every property that decides how a control looks is set here, last, on editorial tokens,
+   so those older rules no longer decide anything visible. Check with: python3 tools/studio_chrome_check.py */
+:root:root body.ed .studio .controls{container-type:inline-size;--sc-r:12px;--sc-h:40px;background:var(--e-paper-hi);border:1px solid var(--e-rule);border-radius:16px;padding:14px 14px 16px;box-shadow:none;font-family:var(--e-sans)}
+:root:root body.ed .studio .controls-head{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:var(--sc-h);padding:0 0 12px;margin:0 0 14px;border-bottom:1px solid var(--e-rule)}
+:root:root body.ed .studio .controls-head>span{font:600 13px/1.2 var(--e-sans);color:var(--e-ink);letter-spacing:0}
+/* Restart: an SVG icon and a word, centered on one axis. */
+:root:root body.ed .studio .studio-restart{display:inline-flex;align-items:center;justify-content:center;gap:6px;flex:none;margin:0;height:36px;min-height:36px;padding:0 14px 0 12px;font:500 13px/1 var(--e-sans);color:var(--e-ink);background:transparent;border:1px solid var(--e-rule-strong);border-radius:999px;cursor:pointer;box-shadow:none}
+:root:root body.ed .studio .studio-restart .ic{display:block;flex:none;width:14px;height:14px}
+:root:root body.ed .studio .controls-head>span{white-space:nowrap;min-width:0}
+/* In a narrow rail (220-240 px at some widths) Restart keeps its icon and a hidden name. */
+@container (max-width:250px){
+  :root:root body.ed .studio .studio-restart{width:36px;padding:0}
+  :root:root body.ed .studio .studio-restart span{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+}
+:root:root body.ed .studio .studio-restart:hover{background:var(--e-paper-lo);border-color:var(--e-ink)}
+:root:root body.ed .studio .studio-restart:focus-visible{outline:2px solid var(--e-focus);outline-offset:2px}
+/* Small caps labels: Option, and each setting's legend. */
+:root:root body.ed .studio .controls .ctl-label{display:block;font:600 11px/1.3 var(--e-sans);letter-spacing:.08em;text-transform:uppercase;color:var(--e-muted);margin:0 0 8px;padding:0}
+:root:root body.ed .studio .controls .seg legend.ctl-label{display:flex;float:none;width:auto;align-items:center;gap:8px;margin:0 0 8px;font-size:11px}
+/* Option list (wider screens). */
+:root:root body.ed .studio .rail-tabs [role=tab]{grid-template-columns:24px minmax(0,1fr);align-items:baseline;border-radius:var(--sc-r);padding:10px 12px;min-height:44px}
+:root:root body.ed .studio .rail-tabs .tab-name{overflow-wrap:anywhere}
+:root:root body.ed .studio .rail-tabs [role=tab]:focus-visible{outline:2px solid var(--e-focus);outline-offset:2px}
+/* Option selector (phones): native select over a face that wraps. */
+:root:root body.ed .studio .opt-field{position:relative;display:block}
+:root:root body.ed .studio .opt-face{display:grid;grid-template-columns:auto minmax(0,1fr) 12px;column-gap:10px;row-gap:3px;align-items:center;min-height:56px;box-sizing:border-box;padding:10px 16px 10px 14px;background:var(--e-paper);border:1px solid var(--e-rule-strong);border-radius:var(--sc-r);color:var(--e-ink)}
+:root:root body.ed .studio .opt-face .opt-num{grid-row:1;font:500 14px/1.3 var(--e-sans);font-variant-numeric:tabular-nums;color:var(--e-muted);align-self:baseline}
+:root:root body.ed .studio .opt-face .opt-name{grid-row:1;grid-column:2;font:600 15px/1.3 var(--e-sans);overflow-wrap:anywhere;align-self:baseline}
+:root:root body.ed .studio .opt-face .prov{grid-row:2;grid-column:2;justify-self:start;margin:0}
+:root:root body.ed .studio .opt-face .opt-chev{grid-row:1/span 2;grid-column:3;align-self:center;display:block;width:12px;height:8px;color:var(--e-ink)}
+:root:root body.ed .studio .opt-field select{position:absolute;inset:0;width:100%;height:100%;margin:0;padding:0;opacity:0;appearance:none;-webkit-appearance:none;border:0;background:none;font-size:16px;cursor:pointer}
+:root:root body.ed .studio .opt-field:has(select:focus-visible) .opt-face{outline:2px solid var(--e-focus);outline-offset:2px}
+:root:root body.ed .studio .opt-field:hover .opt-face{border-color:var(--e-ink)}
+/* Settings bar: directly above the phone, the width of the stage; one small-caps label and a row of chips per group.
+   A group that does not apply to the chosen option is hidden (compare.js sets hidden and disabled). */
+:root:root body.ed .studio .stage-settings{display:flex;flex-wrap:wrap;gap:10px 20px;box-sizing:border-box;width:100%;margin:0 0 18px;padding:10px 14px 12px;background:var(--e-paper-hi);border:1px solid var(--e-rule);border-radius:14px;font-family:var(--e-sans)}
+:root:root body.ed .studio .stage-settings.is-empty,:root:root body.ed .studio .stage-settings .seg[hidden],:root:root body.ed .studio .stage-settings .seg:disabled{display:none}
+:root:root body.ed .studio .stage-settings .seg{display:block;flex:1 1 auto;min-width:0;margin:0;padding:0;border:0}
+:root:root body.ed .studio .stage-settings .seg legend.ctl-label{display:block;float:none;width:auto;margin:0 0 6px;padding:0;font:600 11px/1.3 var(--e-sans);letter-spacing:.08em;text-transform:uppercase;color:var(--e-muted)}
+:root:root body.ed .studio .stage-settings .seg-opts{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;background:none;border-radius:0}
+:root:root body.ed .studio .stage-settings .seg label{display:flex;flex:0 1 auto;min-width:0;position:relative}
+:root:root body.ed .studio .stage-settings .seg label span{display:flex;align-items:center;min-height:32px;box-sizing:border-box;padding:5px 12px;border:1px solid var(--e-rule-strong);border-radius:999px;background:transparent;box-shadow:none;font:500 13px/1.25 var(--e-sans);color:var(--e-ink);text-align:left;overflow-wrap:anywhere}
+:root:root body.ed .studio .stage-settings .seg label:hover span{border-color:var(--e-ink)}
+:root:root body.ed .studio .stage-settings .seg input:checked+span{background:var(--e-select);border-color:var(--e-ink);color:var(--e-ink);font-weight:600}
+:root:root body.ed .studio .stage-settings .seg input:focus-visible+span{outline:2px solid var(--e-focus);outline-offset:2px}
+/* A group with many choices is a compact menu in the bar. */
+:root:root body.ed .studio .stage-settings .seg-menu{display:block;max-width:100%}
+:root:root body.ed .studio .stage-settings .seg-menu select{display:block;width:100%;max-width:100%;height:36px;box-sizing:border-box;margin:0;padding:0 34px 0 12px;appearance:none;-webkit-appearance:none;border:1px solid var(--e-rule-strong);border-radius:999px;background:var(--e-paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%230f2537' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat right 14px center/12px 8px;font:500 13px/1.2 var(--e-sans);color:var(--e-ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer}
+:root:root body.ed .studio .stage-settings .seg-menu select:hover{border-color:var(--e-ink)}
+:root:root body.ed .studio .stage-settings .seg-menu select:focus-visible{outline:2px solid var(--e-focus);outline-offset:2px}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]) body.ed .studio .stage-settings .seg-menu select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%23e6eef5' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}}
+:root[data-theme=dark] body.ed .studio .stage-settings .seg-menu select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%23e6eef5' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
+/* "Why these settings?": one disclosure marker, drawn, turning when open. */
+:root:root body.ed .studio .rail-why{padding:12px 0 0;margin:16px 0 0;border:0;border-top:1px solid var(--e-rule)}
+:root:root body.ed .studio .rail-why summary{display:inline-flex;align-items:center;gap:8px;min-height:32px;list-style:none;font:500 14px/1.3 var(--e-sans);color:var(--e-link);cursor:pointer}
+:root:root body.ed .studio .rail-why summary::-webkit-details-marker{display:none}
+:root:root body.ed .studio .rail-why summary::marker{content:none;font-size:0}
+:root:root body.ed .studio .rail-why summary::before{content:"";flex:none;width:6px;height:6px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:translateY(-1px) rotate(-45deg);transition:transform .15s}
+:root:root body.ed .studio .rail-why[open] summary::before{transform:translateY(-2px) rotate(45deg)}
+:root:root body.ed .studio .rail-why summary:focus-visible{outline:2px solid var(--e-focus);outline-offset:2px;border-radius:4px}
+:root:root body.ed .studio .rail-why p{font:400 14px/1.55 var(--e-sans);color:var(--e-muted);margin:6px 0 0}
+@media (prefers-reduced-motion:reduce){:root:root body.ed .studio .rail-why summary::before{transition:none}}
+/* Phone frame: the 8 px ring sits inside the column, so the frame keeps the page gutter. */
+@media (max-width:820px){
+  :root:root body.ed .studio .controls .opt-list-label{display:none}
+  :root:root body.ed .studio .studio-rail{align-self:stretch;width:auto}
+  :root:root body.ed .studio .studio-device{box-sizing:border-box;width:100%;max-width:406px;padding:8px;justify-self:center;align-self:center}
+  :root:root body.ed .studio .picker-viewport{width:100%;max-width:390px;margin:0 auto}
+  :root:root body.ed .studio .stage-settings{width:calc(100% + 16px);margin:0 -8px 18px}
+}
+/* Studio heading: html already reserves the sticky header (scroll-padding-top), so the studio adds no scroll margin of
+   its own. On wide screens the heading and its scenario sit side by side, so the settings bar and the top of the phone
+   are in view together once the studio is scrolled to (checked at 1280x800 and 1440x900). */
+:root:root body.ed .studio{scroll-margin-top:0}
+@media (min-width:1101px){
+  :root:root body.ed .studio-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:var(--e-col-gap);align-items:end;margin:0 0 24px}
+  :root:root body.ed .studio-head>.kicker{grid-column:1/-1}
+  :root:root body.ed .studio-head>h2{grid-column:1}
+  :root:root body.ed .studio-head>:not(.kicker):not(h2){grid-column:2;margin-top:0}
+  :root:root body.ed .studio-head>:not(.kicker):not(h2)+:not(.kicker):not(h2){margin-top:12px}
+  :root:root body.ed .studio-body{padding-top:24px}
+}

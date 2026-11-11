@@ -148,3 +148,15 @@
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', ready); else ready();
 })();
+
+// Compact pattern page (11 Nov 2026): a link to a folded section (Go further, More research) opens it.
+(function () {
+  function open() {
+    var t = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (!t) return;
+    var d = t.tagName === 'DETAILS' ? t : t.closest('details');
+    if (d && !d.open) { d.open = true; t.scrollIntoView(); }
+  }
+  addEventListener('hashchange', open);
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', open); else open();
+})();

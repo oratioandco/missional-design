@@ -12,7 +12,7 @@
  },
  "working_example": {
   "url": "https://missional.design/demos/give/",
-  "situation": "The same faith app, made by a small ministry and used by members of St Luke’s church, handles giving in eleven ways. Choose who is giving: someone who gives every month, someone who installed the app this week, someone short of money this month, or someone who has just shared a prayer request. Then look at where the ask appears, the screen where they give, and what happens afterward. Nothing is paid."
+  "situation": "The same faith app, made by a small ministry and used by members of St Luke’s church, handles giving in eleven ways. Choose who is giving. Someone who gives every month starts on the giving tab; someone who installed the app this week and someone short of money this month start on Today; someone who has just shared a prayer request starts on the screen that follows it. Look for where an ask appears, then give, or stop a gift, and see what happens afterward. Nothing is paid."
  },
  "options": [
   {
@@ -188,11 +188,12 @@
     "The church’s offering": "good fit",
     "A regular gift": "good fit",
     "What a gift does": "possible",
-    "An open cost ledger": "good fit",
+    "An open cost ledger": "possible",
     "An ask that waits to be invited": "good fit",
     "Gifts that give access to others": "possible",
     "A gift tied to a benefit": "poor fit",
-    "Pressure and promises": "poor fit"
+    "Pressure and promises": "poor fit",
+    "A badge for giving": "poor fit"
    }
   },
   {
@@ -271,9 +272,10 @@
     "What a gift does": "possible",
     "An open cost ledger": "possible",
     "An ask that waits to be invited": "good fit",
-    "Gifts that give access to others": "good fit",
+    "Gifts that give access to others": "possible",
     "A gift tied to a benefit": "poor fit",
-    "Pressure and promises": "poor fit"
+    "Pressure and promises": "poor fit",
+    "A badge for giving": "poor fit"
    }
   }
  ],

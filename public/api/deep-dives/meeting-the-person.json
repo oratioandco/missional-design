@@ -136,7 +136,7 @@
     "Asks before assuming": "possible",
     "Preferences you set": "possible",
     "Assumed, and shown": "possible",
-    "Compare before choosing": "good fit",
+    "Compare before choosing": "possible",
     "A profile it keeps": "poor fit"
    }
   },
@@ -147,7 +147,7 @@
     "The same for everyone": "poor fit",
     "Reads the message": "good fit",
     "Asks before assuming": "possible",
-    "Preferences you set": "good fit",
+    "Preferences you set": "possible",
     "Assumed, and shown": "possible",
     "Compare before choosing": "good fit",
     "A profile it keeps": "poor fit"
@@ -201,7 +201,7 @@
     "Asks before assuming": "good fit",
     "Preferences you set": "poor fit",
     "Assumed, and shown": "poor fit",
-    "Compare before choosing": "good fit",
+    "Compare before choosing": "possible",
     "A profile it keeps": "poor fit"
    }
   }

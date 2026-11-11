@@ -139,7 +139,7 @@
     "“Talk to someone”": "poor fit",
     "Names the right person": "good fit",
     "A message to send": "good fit",
-    "Their own church, if they ask": "possible",
+    "Their own church, if they ask": "poor fit",
     "A person joins": "possible",
     "Passed on without asking": "poor fit"
    }
@@ -218,7 +218,7 @@
     "Names the right person": "good fit",
     "A message to send": "possible",
     "Their own church, if they ask": "possible",
-    "A person joins": "poor fit",
+    "A person joins": "possible",
     "Passed on without asking": "poor fit"
    }
   }
