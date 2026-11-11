@@ -768,3 +768,7 @@ main{overflow-x:clip}
 .specimen .wf{--x:calc(var(--lp) * 150% - 25%);
   -webkit-mask-image:linear-gradient(118deg,rgba(0,0,0,.16) calc(var(--x) - 30%),#000 calc(var(--x) - 10%),transparent calc(var(--x) + 2%));
   mask-image:linear-gradient(118deg,rgba(0,0,0,.16) calc(var(--x) - 30%),#000 calc(var(--x) - 10%),transparent calc(var(--x) + 2%))}
+
+/* Tagline (owner, 11 Nov 2026): caption under the rock, line on the product starting point */
+.specimen-cap{position:relative;z-index:2;margin:10px 0 0;text-align:center;font:italic 400 var(--t-micro,14px)/1.4 var(--serif);letter-spacing:.01em;color:var(--muted)}
+.way .way-tag{margin:-6px 0 0;font:italic 400 1.05rem/1.4 var(--serif);color:var(--ink)}
