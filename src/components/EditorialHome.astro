@@ -8,6 +8,11 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const prefix = de ? `${base}/de` : base;
 const ed = `${base}/assets/editorial`;
 const still = (name: string) => ({ light: `${ed}/stills/${name}.jpg`, dark: `${ed}/stills/${name}-dark.jpg` });
+// Tagline and product line (owner, 11 Nov 2026). One constant per line, so wording changes in one place.
+const TAGLINE_EN = 'Silicon reflecting Christ';
+const TAGLINE_DE = 'Silizium, in dem sich Christus spiegelt';
+const PRODUCT_LINE_EN = 'Apps that point to God';
+const PRODUCT_LINE_DE = 'Apps, die auf Gott hinweisen';
 const areas = de ? ['Das Wort', 'Der Mensch', 'Die Praxis', 'Die Gemeinschaft', 'Das Team'] : ['The Word', 'The person', 'The practice', 'The people', 'The makers'];
 ---
 <!-- 1 · Opening: the central question over the window-lit room (light on the right) -->
@@ -61,6 +66,7 @@ const areas = de ? ['Das Wort', 'Der Mensch', 'Die Praxis', 'Die Gemeinschaft', 
           <img class="caus" src={`${ed}/img/caustics.png`} width="1200" height="520" alt="" />
           <span class="flare" aria-hidden="true"><svg><use href="#flare"/></svg></span>
         </figure>
+        <p class="specimen-cap">{de ? TAGLINE_DE : TAGLINE_EN}</p>
         <img class="spill" src={`${ed}/img/caustics.png`} width="1200" height="520" alt="" aria-hidden="true" />
       </div>
     </div>
@@ -144,6 +150,7 @@ const areas = de ? ['Das Wort', 'Der Mensch', 'Die Praxis', 'Die Gemeinschaft', 
           <li class="way">
             <span class="num" aria-hidden="true"><span class="metal">02</span></span>
             <h3 class="h3">{de ? 'Ihr gestaltet ein digitales Produkt?' : 'Building a digital product?'}</h3>
+            <p class="way-tag">{de ? PRODUCT_LINE_DE : PRODUCT_LINE_EN}</p>
             <p class="muted">{de ? 'Optionen für Bibellesen, Gebet, Gemeinschaft und KI vergleichen. Beispiele ausprobieren und ihre Folgen anhand von Theologie, Forschung und Nutzungspraxis abwägen.' : 'Compare approaches to Bible reading, prayer, community and AI. Try examples and weigh their implications through theology, research and everyday use.'}</p>
             <div class="detail">
               <p class="small muted" style="margin-bottom:14px">{de ? 'Ein Tag verpasst. Ein offener Empfang. Wie könnte eine Bibel-App helfen, wieder anzufangen?' : 'A missed day. A welcoming return. How might a reading app help someone begin again?'}</p>
