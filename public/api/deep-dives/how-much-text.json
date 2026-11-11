@@ -87,7 +87,7 @@
   },
   {
    "heading": "A smaller unit has a long devotional history",
-   "text": "Lectio divina reads a few verses slowly and repeatedly. A verse at a time, or a verse in focus, can support that kind of attention and memorisation, as long as the passage is one tap away. Verse numbers date from 1551; a verse was never meant to stand alone. How a reader moves from one card to the next, in order or in a feed that never ends, is a separate decision."
+   "text": "Lectio divina reads a few verses slowly and repeatedly. A verse at a time, or a verse in focus, can support that kind of attention and memorization, as long as the passage is one tap away. Verse numbers date from 1551; a verse was never meant to stand alone. How a reader moves from one card to the next, in order or in a feed that never ends, is a separate decision."
   },
   {
    "heading": "Focus with context is the middle path",
@@ -148,7 +148,7 @@
    }
   },
   {
-   "situation": "Memorising a verse",
+   "situation": "Memorizing a verse",
    "needs": "Recall, not rereading",
    "fit": {
     "One word at a time": "possible",
@@ -211,7 +211,7 @@
     },
     {
      "heading": "Small units for prayer and memory",
-     "text": "“I have hidden Your word in my heart” (Psalm 119:11). Lectio divina dwells on a few verses read slowly and repeatedly; memorisation works verse by verse. Small units are not a modern shortcut; they have their own devotional history.",
+     "text": "“I have hidden Your word in my heart” (Psalm 119:11). Lectio divina dwells on a few verses read slowly and repeatedly; memorization works verse by verse. Small units are not a modern shortcut; they have their own devotional history.",
      "sources": [
       "lectio"
      ]
@@ -283,7 +283,7 @@
     },
     {
      "heading": "Memory grows by recall",
-     "text": "Students who practised recalling a passage remembered 61% a week later; those who reread it remembered 40%. A verse-at-a-time mode for memorisation should ask, not just show.",
+     "text": "Students who practiced recalling a passage remembered 61% a week later; those who reread it remembered 40%. A verse-at-a-time mode for memorization should ask, not just show.",
      "sources": [
       "roediger-2006"
      ]
@@ -327,7 +327,7 @@
  ],
  "which_fits": [
   {
-   "if": "Meditation, prayer or memorising a short passage",
+   "if": "Meditation, prayer or memorizing a short passage",
    "start_with": "One verse at a time, or a verse in focus, with the passage one tap away"
   },
   {
@@ -336,7 +336,7 @@
   },
   {
    "if": "A daily reading, devotional or group study",
-   "start_with": "One passage with its reference, neighbours and a way into the chapter"
+   "start_with": "One passage with its reference, neighbors and a way into the chapter"
   },
   {
    "if": "Reading a book through, narrative or argument",
@@ -374,7 +374,7 @@
   },
   {
    "heading": "Where Christians differ",
-   "text": "Devotional traditions favour short passages for meditation and memory. Biblical scholars and many teachers urge reading whole books, warning that verse numbers invite reading sentences apart from their context. Silent private reading, which Augustine found remarkable in Ambrose, is itself a later development beside public reading aloud."
+   "text": "Devotional traditions favor short passages for meditation and memory. Biblical scholars and many teachers urge reading whole books, warning that verse numbers invite reading sentences apart from their context. Silent private reading, which Augustine found remarkable in Ambrose, is itself a later development beside public reading aloud."
   },
   {
    "heading": "What follows for design",
@@ -468,7 +468,7 @@
    "kind": "Research",
    "shows": "Screen reading involves more browsing, scanning, keyword spotting, one-time and selective reading, and less in-depth, concentrated reading.",
    "application": "Expect short, selective sessions; design so a short session can still reach context.",
-   "limits": "A 2005 survey of readers about their own habits; describes reported behaviour, not comprehension."
+   "limits": "A 2005 survey of readers about their own habits; describes reported behavior, not comprehension."
   },
   {
    "key": "delgado-2018",
@@ -536,9 +536,9 @@
    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3983480/",
    "author": "Roediger and Karpicke · Psychological Science, 2006, as discussed in a later review",
    "kind": "Research",
-   "shows": "Students who practised recalling a passage remembered 61% a week later, against 40% for those who reread it.",
-   "application": "For memorisation, prompt recall of a verse rather than showing it again.",
-   "limits": "Prose passages with students; not Scripture memorisation specifically."
+   "shows": "Students who practiced recalling a passage remembered 61% a week later, against 40% for those who reread it.",
+   "application": "For memorization, prompt recall of a verse rather than showing it again.",
+   "limits": "Prose passages with students; not Scripture memorization specifically."
   },
   {
    "key": "sotb-digital",
@@ -646,7 +646,7 @@
    "url": "https://online-journals.org/index.php/i-jet/article/view/8736",
    "author": "International Journal of Emerging Technologies in Learning",
    "kind": "Research",
-   "shows": "Children with dyslexia found it easier to read along when audio was synchronised with highlighting, especially with whole-sentence highlighting.",
+   "shows": "Children with dyslexia found it easier to read along when audio was synchronized with highlighting, especially with whole-sentence highlighting.",
    "application": "Move the focus with audio, at the level of a verse or sentence.",
    "limits": "Small pilot study."
   },
@@ -656,9 +656,9 @@
    "url": "https://blogs.worldbank.org/edutech/bollywood-karaoke",
    "author": "World Bank blog on Brij Kothari’s work",
    "kind": "Research",
-   "shows": "Karaoke-style same-language subtitles on song programmes in India were associated with gains in reading among early readers.",
-   "application": "Synchronised text and audio can build reading as a by-product of listening.",
-   "limits": "Reported programme results; a literacy setting, not Scripture reading."
+   "shows": "Karaoke-style same-language subtitles on song programs in India were associated with gains in reading among early readers.",
+   "application": "Synchronized text and audio can build reading as a by-product of listening.",
+   "limits": "Reported program results; a literacy setting, not Scripture reading."
   },
   {
    "key": "kindle-word-runner",
@@ -706,6 +706,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

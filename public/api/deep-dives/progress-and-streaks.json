@@ -167,7 +167,7 @@
     "Book map": "poor fit",
     "No progress view": "poor fit",
     "Today’s step": "possible",
-    "Month calendar with a streak": "possible",
+    "Month calendar with a streak": "good fit",
     "Time with Scripture": "possible",
     "Where you keep returning": "poor fit",
     "Reflection notes": "poor fit"
@@ -337,7 +337,7 @@
     },
     {
      "heading": "New beginnings help",
-     "text": "Goal-directed behaviour rises after temporal landmarks such as a new week or month: a natural moment to invite someone back.",
+     "text": "Goal-directed behavior rises after temporal landmarks such as a new week or month: a natural moment to invite someone back.",
      "sources": [
       "fresh-start"
      ]
@@ -508,7 +508,7 @@
    "observed": "Undated · reviewed 5 October 2026",
    "observation": "The mockup combines a daily verse with reference and actions, service cards, a prominent central action, and a numerical flame indicator.",
    "decision": "A home screen can connect a short Scripture encounter with further practices. Explain progress indicators without implying that a number measures faith or wellbeing.",
-   "limits": "This is a promotional mockup, not a live app capture. The flame’s precise meaning, central action, chat output, storage behaviour and safeguarding responses were not tested."
+   "limits": "This is a promotional mockup, not a live app capture. The flame’s precise meaning, central action, chat output, storage behavior and safeguarding responses were not tested."
   },
   {
    "app": "Olive Tree Bible",
@@ -570,7 +570,7 @@
    "url": "https://missional.design/examples/hellobible-profile-stats/",
    "observed": "Captured 8 October 2026 · from embedded image metadata",
    "observation": "The profile shows a week strip under “Series” with days 5 to 8 marked, then six tiles: Current series 1 day, Daily verses 0, Record series 1 day, Time in the app 5 min, Conversations 32, Time Today 0 min. Settings follow; none of them lists or edits the answers given during onboarding.",
-   "decision": "Counting time in the app and conversations measures the product’s engagement, not the person’s life with God. If onboarding answers personalise the app, let people see and change them here.",
+   "decision": "Counting time in the app and conversations measures the product’s engagement, not the person’s life with God. If onboarding answers personalize the app, let people see and change them here.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
   },
   {
@@ -592,7 +592,7 @@
    "kind": "Product documentation",
    "shows": "Documents rescheduling without marking sections complete; not available for Plans with Friends.",
    "application": "Compare recovery options with the reader’s experience of progress.",
-   "limits": "Documented behaviour; exact interface and discovery were not tested."
+   "limits": "Documented behavior; exact interface and discovery were not tested."
   },
   {
    "key": "rewards-intrinsic-meta",
@@ -640,7 +640,7 @@
    "url": "https://udspace.udel.edu/handle/19716/34160",
    "author": "Jackie Silverman and Alixandra Barasch · Journal of Consumer Research 49(6), 2023",
    "kind": "Research",
-   "shows": "In seven studies, highlighting a broken streak reduced later engagement compared with an intact one, regardless of actual behaviour; the effect was stronger when people blamed themselves for the break, and weaker when the streak could be repaired.",
+   "shows": "In seven studies, highlighting a broken streak reduced later engagement compared with an intact one, regardless of actual behavior; the effect was stronger when people blamed themselves for the break, and weaker when the streak could be repaired.",
    "application": "Counting consecutive days makes a missed day look like a loss; do not make the count the point.",
    "limits": "Consumer and lab studies; not Scripture reading."
   },
@@ -660,7 +660,7 @@
    "url": "https://behaviormodel.org/",
    "author": "BJ Fogg · Behavior Design Lab, Stanford",
    "kind": "Design reference",
-   "shows": "Behaviour happens when motivation, ability and a prompt come together at the same time (B=MAP); when it does not happen, one of the three is missing.",
+   "shows": "Behavior happens when motivation, ability and a prompt come together at the same time (B=MAP); when it does not happen, one of the three is missing.",
    "application": "Explains why a well-timed prompt works, and which part of a design is doing the work.",
    "limits": "A design model from industry practice, not a measure of benefit to the person."
   },
@@ -701,7 +701,7 @@
    "author": "Michael Sailer and Lisa Homner · 2020",
    "kind": "Research publication",
    "shows": "Synthesises educational learning outcomes; effects depend on design and context.",
-   "application": "Separate learning outcomes, motivation and behaviour from spiritual-formation claims.",
+   "application": "Separate learning outcomes, motivation and behavior from spiritual-formation claims.",
    "limits": "Education evidence does not establish spiritual growth or effects for every faith-app population."
   },
   {
@@ -720,7 +720,7 @@
    "url": "https://onlinelibrary.wiley.com/doi/10.1002/ejsp.674",
    "author": "Lally et al. · 2010",
    "kind": "Habit formation study",
-   "shows": "Modelled automaticity timelines varied substantially between participants.",
+   "shows": "Modeled automaticity timelines varied substantially between participants.",
    "application": "Avoid universal habit-formation deadlines.",
    "limits": "Not a gamification study or a test of intrinsic motivation replacing incentives."
   },
@@ -730,7 +730,7 @@
    "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2014/06/Dai_Fresh_Start_2014_Mgmt_Sci.pdf",
    "author": "Hengchen Dai, Katherine L. Milkman and Jason Riis · Management Science, 2014",
    "kind": "Research",
-   "shows": "Goal-directed behaviour (gym visits, “diet” searches, commitments) rises after temporal landmarks such as a new week, month or birthday.",
+   "shows": "Goal-directed behavior (gym visits, “diet” searches, commitments) rises after temporal landmarks such as a new week, month or birthday.",
    "application": "A new week or a new day is a natural place to begin again; offer it.",
    "limits": "Archival field data on health and goals."
   },
@@ -750,104 +750,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
- },
- "boundaries": {
-  "intro": "People disagree about counting, and the options above include streaks, levels and no count at all. These practices are different: they misstate what happened, or use the count against the person.",
-  "dont": [
-   {
-    "name": "Count an open as reading",
-    "looks": "A streak that grows when the app is only opened, shown as if the person read.",
-    "why": "It tells people something untrue about their own practice.",
-    "instead": "coverage",
-    "sources": []
-   },
-   {
-    "name": "Treat a gap as failure",
-    "looks": "A crying face at zero, or a calendar delay presented as spiritual failure.",
-    "why": "People come back from hard months. A broken streak can drive them away just when coming back matters most.",
-    "instead": "today",
-    "sources": [
-     "broken-streaks"
-    ]
-   },
-   {
-    "name": "Sell back what was lost",
-    "looks": "A broken streak that can be repaired by paying.",
-    "why": "It charges for relief from a loss the design created.",
-    "instead": "today",
-    "sources": [
-     "loss-aversion"
-    ]
-   },
-   {
-    "name": "Make private practice a ranking",
-    "looks": "A private activity record turned into a list against others.",
-    "why": "It exposes what someone did not choose to share.",
-    "instead": "journal",
-    "sources": []
-   }
-  ],
-  "excluded": [
-   {
-    "name": "Reading plans",
-    "why": "What to read and when is covered there.",
-    "href": "/patterns/reading-plans/"
-   },
-   {
-    "name": "Reminders",
-    "why": "How a streak is pressed through notifications is covered there.",
-    "href": "/patterns/notifications/"
-   },
-   {
-    "name": "Reading in a group",
-    "why": "What people share with one another is covered there.",
-    "href": "/patterns/sharing-with-a-group/"
-   },
-   {
-    "name": "How to detect reading reliably",
-    "why": "How an app could tell is a separate technical question.",
-    "href": null
-   },
-   {
-    "name": "What a faith app should measure",
-    "why": "A team’s own analytics is a separate question.",
-    "href": null
-   }
-  ],
-  "seen": {
-   "Treat a gap as failure": [
-    {
-     "app": "Holy Scroll",
-     "date": "30 October 2026",
-     "text": "The home screen showed a “Rhythm 0” badge with a crying-face emoji above “Peaceful evening to you”.",
-     "shot": "shot-2c8357a6c1b4fc85a041"
-    }
-   ],
-   "Sell back what was lost": [
-    {
-     "app": "PRAY.COM",
-     "date": "27 October 2026",
-     "text": "After a missed day the screen read “Missed a day? Repair your 2 day streak! With PRAY Premium, you'll get 2 streak repairs every month. Start your free trial today.”, with “Continue” and “Repair your streak” buttons.",
-     "shot": "shot-e0d775d757b25f4c45af"
-    }
-   ],
-   "GOOD:today": [
-    {
-     "app": "Bible Chat",
-     "date": "31 October 2026",
-     "text": "After a gap the plan card read “PLAN ENDED”, “There's no wrong time to begin.” and “These days slipped by, and that's alright. Grace meets you wherever you start.”, with “Continue this Plan”.",
-     "shot": "shot-c70b64804115df033ce2"
-    }
-   ],
-   "Count an open as reading": [
-    {
-     "app": "Creed",
-     "date": "8 November 2026",
-     "text": "After a missed day had reset the streak, the app was only opened on 7 November, with nothing read, prayed or asked, and the profile showed “1 Day streak”. On 8 November, on opening and before any activity, a full-screen “2 Day Streak!” celebration appeared with a week row and “Share Milestone”. The screen does not say what the streak counts; the two days are from our dated session logs.",
-     "shot": "shot-3ea345611070af6883f9"
-    }
-   ]
-  }
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

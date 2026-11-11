@@ -32,7 +32,7 @@ const previewShots=[];const previewTypes=new Set();for(const shot of shots){if(!
  <AppAssessment app={a} part="ingredients"/>
  {sequences.length>0&&<section class="lib-section"><h2>Captured sequences</h2><ul class="lib-link-list">{sequences.map(f=><li><a href={f.url}>{f.title}</a><p>{f.context}</p></li>)}</ul></section>}
  <AppCommercialFacts app={a}/>
- <p class="lib-note profile-facts-note" id="app-facts">Store facts checked {dateLabel(a.checked)} (version {a.version}). Ratings are not downloads or active users. App-specific revenue and active users have not been verified; <a href={org.url+'#figures'}>see the organisation profile</a> for separately scoped figures.</p>
+ <p class="lib-note profile-facts-note" id="app-facts">Store facts checked {dateLabel(a.checked)} (version {a.version}). Ratings are not downloads or active users. App-specific revenue and active users have not been verified; <a href={org.url+'#figures'}>see the organization profile</a> for separately scoped figures.</p>
  <AppContext app={a}/>
  <AppAssessment app={a} part="reviews"/>
  <AppStoreGallery app={a} collapsible/>

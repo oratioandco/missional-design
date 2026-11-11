@@ -11,7 +11,7 @@
      "title": "How human the assistant seems",
      "url": "https://missional.design/patterns/ai-persona/",
      "options": [
-      "Labelled assistant",
+      "Labeled assistant",
       "Named assistant",
       "Persona"
      ]
@@ -57,7 +57,7 @@
     }
    ],
    "pull": "A visible response can help someone feel less alone, while public totals and rankings turn private prayer into something people are asked to display.",
-   "hold": "Keep requests and responses with the people chosen to receive them. Let someone send a private acknowledgement to the requester if they choose; describe it honestly as an acknowledgement, not a measurement of prayer. Leave quiet prayer unrecorded and give it no lower standing.",
+   "hold": "Keep requests and responses with the people chosen to receive them. Let someone send a private acknowledgment to the requester if they choose; describe it honestly as an acknowledgment, not a measurement of prayer. Leave quiet prayer unrecorded and give it no lower standing.",
    "url": "https://missional.design/patterns/tensions/#presence-and-secret"
   },
   {
@@ -359,7 +359,7 @@
   },
   {
    "id": "naming-and-welcome",
-   "title": "Saying whose teaching it is, and welcoming the sceptic",
+   "title": "Saying whose teaching it is, and welcoming the skeptic",
    "pages": [
     {
      "slug": "whose-theology",
@@ -380,7 +380,7 @@
      ]
     }
    ],
-   "pull": "Honesty means naming a church at the door, but a church label or a step that asks people to choose a tradition can feel like a membership test to an enquirer or to someone a church has hurt.",
+   "pull": "Honesty means naming a church at the door, but a church label or a step that asks people to choose a tradition can feel like a membership test to an inquirer or to someone a church has hurt.",
    "hold": "Say whose teaching the assistant follows in one plain line, as a description rather than a gate. Never make someone choose a church before they may ask a question.",
    "url": "https://missional.design/patterns/tensions/#naming-and-welcome"
   },
@@ -483,7 +483,7 @@
     }
    ],
    "pull": "A request for prayer often comes from fear late at night, and the reply that points beyond itself offers a psalm first.",
-   "hold": "Asking for prayer is asking for prayer, not for a judgement on their situation. If the message also signals danger, help comes first, and the psalm afterwards if they want it.",
+   "hold": "Asking for prayer is asking for prayer, not for a judgment on their situation. If the message also signals danger, help comes first, and the psalm afterward if they want it.",
    "url": "https://missional.design/patterns/tensions/#psalm-and-crisis"
   },
   {
@@ -508,7 +508,7 @@
      ]
     }
    ],
-   "pull": "Shared readings form a community, but a reply written for everyone can assume agreement and lose the sceptic.",
+   "pull": "Shared readings form a community, but a reply written for everyone can assume agreement and lose the skeptic.",
    "hold": "Keep the passage everyone reads, and adapt only the way in: the length, the language and the question it starts from. Change the manner, never the message.",
    "url": "https://missional.design/patterns/tensions/#common-word-and-personal"
   },
@@ -622,6 +622,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

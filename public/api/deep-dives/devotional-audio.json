@@ -48,7 +48,7 @@
    "cost": "The story can take over",
    "makes_easier": "A short word for the day, in a voice people come to trust.",
    "costs": "The host’s story can take over the passage.",
-   "ask_your_team": "Is the passage at the centre, and is the host named as a person with a view?",
+   "ask_your_team": "Is the passage at the center, and is the host named as a person with a view?",
    "still": "https://missional.design/assets/stills/try-devotion-talk.jpg"
   },
   {
@@ -334,7 +334,7 @@
   },
   {
    "if": "People listen on the way to work",
-   "start_with": "A short talk with the passage at its centre"
+   "start_with": "A short talk with the passage at its center"
   },
   {
    "if": "People listen to fall asleep",
@@ -414,7 +414,7 @@
    "url": "https://missional.design/examples/payg-music-info/",
    "observed": "Captured 28 August 2025 · from embedded image metadata",
    "observation": "Over the player, a Music Info sheet lists “Ecce Quam Bonum · By The Monks of Pluscarden Abbey · A liturgy for St Columba The Monks of Pluscarden Abbey” and “Devotion · By Dear Gravity · The Pilgrimage Series: Wayfaring Dear Gravity”, each with Spotify, Artist Website and Apple Music links.",
-   "decision": "Crediting music inside the prayer session honours the people whose work carries it, and lets listeners find more. Credit authors and readers the same way.",
+   "decision": "Crediting music inside the prayer session honors the people whose work carries it, and lets listeners find more. Credit authors and readers the same way.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
   },
   {
@@ -463,7 +463,7 @@
    "kind": "Practice",
    "shows": "Daily ten-minute audio prayer since 2006 combining music, Scripture and Ignatian questions, used tens of millions of times a year.",
    "application": "A produced devotional can be formation-first: fixed, shared and ending in silence.",
-   "limits": "Usage figures from the organisation."
+   "limits": "Usage figures from the organization."
   },
   {
    "key": "lectio",
@@ -521,7 +521,7 @@
    "url": "https://par.nsf.gov/servlets/purl/10536688",
    "author": "NSF public access repository",
    "kind": "Research",
-   "shows": "Listeners told a voice was human showed more trust than those told the same clip was AI; labelled AI voices were rated less credible.",
+   "shows": "Listeners told a voice was human showed more trust than those told the same clip was AI; labeled AI voices were rated less credible.",
    "application": "Label synthetic voices honestly, and expect a trust cost rather than hiding it.",
    "limits": "Lab studies with short clips; not Scripture."
   },
@@ -551,6 +551,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

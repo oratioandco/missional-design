@@ -19,7 +19,7 @@
    "key": "private",
    "name": "Between you and God",
    "provenance": "Leave it out",
-   "origin": "Leaving sharing out, a sound default: the prayer deep dive recommends keeping requests on the device unless someone chooses to share. Hallow’s help centre describes the private setting: an intention “will only be saved to your journal and not shared with others”. Here the whole app works that way and points people to those they know and to their own church.",
+   "origin": "Leaving sharing out, a sound default: the prayer deep dive recommends keeping requests on the device unless someone chooses to share. Hallow’s help center describes the private setting: an intention “will only be saved to your journal and not shared with others”. Here the whole app works that way and points people to those they know and to their own church.",
    "gain": "Nothing to leak or misread",
    "cost": "No one prays with them",
    "makes_easier": "Nothing to leak, misread or answer badly.",
@@ -103,7 +103,7 @@
  "takeaways": [
   {
    "heading": "Say who will hear it, before it is written",
-   "text": "Hallow’s requests go to friends, a church or a group, can’t be anonymous or edited, and stay active for 7 days; its help centre suggests writing “For a special intention” to keep details private. Show the audience, how long a request stays and whether it can be changed before someone starts typing, and ask before naming anyone else."
+   "text": "Hallow’s requests go to friends, a church or a group, can’t be anonymous or edited, and stay active for 7 days; its help center suggests writing “For a special intention” to keep details private. Show the audience, how long a request stays and whether it can be changed before someone starts typing, and ask before naming anyone else."
   },
   {
    "heading": "Some listeners have to pass things on",
@@ -365,7 +365,7 @@
     ]
    },
    "pull": "A visible response can help someone feel less alone, while public totals and rankings turn private prayer into something people are asked to display.",
-   "hold": "Keep requests and responses with the people chosen to receive them. Let someone send a private acknowledgement to the requester if they choose; describe it honestly as an acknowledgement, not a measurement of prayer. Leave quiet prayer unrecorded and give it no lower standing."
+   "hold": "Keep requests and responses with the people chosen to receive them. Let someone send a private acknowledgment to the requester if they choose; describe it honestly as an acknowledgment, not a measurement of prayer. Leave quiet prayer unrecorded and give it no lower standing."
   },
   {
    "id": "consent-and-protection",
@@ -454,7 +454,7 @@
    "url": "https://missional.design/examples/hallow-community/",
    "observed": "Captured 19 September 2025 · from embedded image metadata",
    "observation": "The Community tab, signed out, shows a small church on a purple background and “Sign in or create an account to pray alongside your community”, with three ticks: “Connect with your parish community and stay connected with fellow members”, “Pray for others, be prayed for” and “Strengthen your faith together through community challenges and discussions”.",
-   "decision": "The pitch makes the parish the audience. Hallow’s help centre adds the details that matter: requests of up to 240 characters, never anonymous, active for seven days, answered with a heart.",
+   "decision": "The pitch makes the parish the audience. Hallow’s help center adds the details that matter: requests of up to 240 characters, never anonymous, active for seven days, answered with a heart.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
   },
   {
@@ -508,7 +508,7 @@
    "key": "hallow-intentions",
    "title": "How to pray for intentions on Hallow",
    "url": "https://help.hallow.com/en/articles/10618520-how-to-pray-for-intentions-on-hallow",
-   "author": "Hallow help centre",
+   "author": "Hallow help center",
    "kind": "Practice",
    "shows": "Requests are limited to 240 characters, go to friends, a church or groups, can’t be submitted anonymously or edited, and can be kept private, when they are “only saved to your journal and not shared with others”; others respond with a heart.",
    "application": "Show the audience, length limit, anonymity and editing rules before someone writes.",
@@ -518,7 +518,7 @@
    "key": "hallow-church-tab",
    "title": "Overview of the Church tab",
    "url": "https://help.hallow.com/en/articles/3949390-overview-of-hallow-groups",
-   "author": "Hallow help centre",
+   "author": "Hallow help center",
    "kind": "Practice",
    "shows": "Requests can be posted to friends or a church; “Intentions will remain active for 7 days.”",
    "application": "An end date by default keeps old needs from lingering in a feed.",
@@ -681,6 +681,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

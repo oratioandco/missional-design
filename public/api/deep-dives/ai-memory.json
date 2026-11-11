@@ -67,7 +67,7 @@
    "key": "profile",
    "name": "A profile it builds",
    "provenance": "Warning case",
-   "origin": "A composite of personalisation patterns: interests, life events and “stage” inferred from activity, used for plans, offers and advertising partners. HelloBible’s store listing shows identifiers linked to the user for personalisation; see the screenshots below.",
+   "origin": "A composite of personalization patterns: interests, life events and “stage” inferred from activity, used for plans, offers and advertising partners. HelloBible’s store listing shows identifiers linked to the user for personalization; see the screenshots below.",
    "gain": "Uncannily personal",
    "cost": "Confidences become categories",
    "makes_easier": "Recommendations that feel uncannily personal.",
@@ -207,7 +207,7 @@
     },
     {
      "heading": "Remember, but show why",
-     "text": "Human–AI guidelines: remember recent interactions, learn from behaviour cautiously, explain why, and give global controls.",
+     "text": "Human–AI guidelines: remember recent interactions, learn from behavior cautiously, explain why, and give global controls.",
      "sources": [
       "hax-guidelines"
      ]
@@ -261,8 +261,8 @@
      ]
     },
     {
-     "heading": "Personalisation in faith apps",
-     "text": "HelloBible links identifiers to users for personalisation and asks separately to use faith data with a partner AI.",
+     "heading": "Personalization in faith apps",
+     "text": "HelloBible links identifiers to users for personalization and asks separately to use faith data with a partner AI.",
      "sources": [
       "hellobible-store"
      ]
@@ -288,7 +288,7 @@
    "start_with": "Personal things kept only when the person asks, and storage on the phone by default"
   },
   {
-   "if": "You are tempted to personalise from chats",
+   "if": "You are tempted to personalize from chats",
    "start_with": "Don’t: no inferred profiles, no offers drawn from confidences"
   }
  ],
@@ -320,7 +320,7 @@
   },
   {
    "heading": "Where Christians differ",
-   "text": "Catholic and Orthodox churches guard confession with a seal that may never be broken; Protestant traditions practise confession to one another (James 5:16) in small groups and pastoral care, with confidentiality as a matter of faithfulness rather than law. Traditions differ on how much of one’s spiritual life should be shared at all, from accountability groups to the counsel to pray to the Father “who is unseen” (Matthew 6:6). All agree that confidences are entrusted, not owned."
+   "text": "Catholic and Orthodox churches guard confession with a seal that may never be broken; Protestant traditions practice confession to one another (James 5:16) in small groups and pastoral care, with confidentiality as a matter of faithfulness rather than law. Traditions differ on how much of one’s spiritual life should be shared at all, from accountability groups to the counsel to pray to the Father “who is unseen” (Matthew 6:6). All agree that confidences are entrusted, not owned."
   },
   {
    "heading": "What follows for design",
@@ -342,7 +342,7 @@
  "three_ways": {
   "exploitative": "Remember everything, infer life events and faith stage from chats, and use confidences for offers and partners.",
   "ethical": "Show what is used and kept, ask before remembering, exclude sensitive categories, and let people delete everything.",
-  "redemptive": "Keep conversations on the phone and forget by default, and give up the personalisation and data that a profile would earn.",
+  "redemptive": "Keep conversations on the phone and forget by default, and give up the personalization and data that a profile would earn.",
   "frame": "https://missional.design/reference/about/three-ways/"
  },
  "decide": {
@@ -377,7 +377,7 @@
    "url": "https://missional.design/examples/hellobible-profile-stats/",
    "observed": "Captured 8 October 2026 · from embedded image metadata",
    "observation": "The profile shows a week strip under “Series” with days 5 to 8 marked, then six tiles: Current series 1 day, Daily verses 0, Record series 1 day, Time in the app 5 min, Conversations 32, Time Today 0 min. Settings follow; none of them lists or edits the answers given during onboarding.",
-   "decision": "Counting time in the app and conversations measures the product’s engagement, not the person’s life with God. If onboarding answers personalise the app, let people see and change them here.",
+   "decision": "Counting time in the app and conversations measures the product’s engagement, not the person’s life with God. If onboarding answers personalize the app, let people see and change them here.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
   },
   {
@@ -407,7 +407,7 @@
    "url": "https://doi.org/10.1145/3613904.3642385",
    "author": "Zhiping Zhang et al. · CHI 2024",
    "kind": "Research",
-   "shows": "Analysed sensitive disclosures in real ChatGPT conversations and interviewed 19 users: users constantly trade privacy against usefulness; “erroneous mental models and the dark patterns in system design limited their awareness and comprehension”; human-like interaction encouraged more sensitive disclosure.",
+   "shows": "Analyzed sensitive disclosures in real ChatGPT conversations and interviewed 19 users: users constantly trade privacy against usefulness; “erroneous mental models and the dark patterns in system design limited their awareness and comprehension”; human-like interaction encouraged more sensitive disclosure.",
    "application": "People will tell an assistant more than they intend and misjudge what is kept; show it to them.",
    "limits": "General chatbot use; small interview sample."
   },
@@ -419,7 +419,7 @@
    "kind": "Practice",
    "shows": "Introduced memory that people can ask to remember or forget, view and switch off, and Temporary Chat without memory; said it would “steer ChatGPT away from proactively remembering sensitive information, like your health details—unless you explicitly ask it to.” Later updates let people switch off reference to saved memories and to chat history separately.",
    "application": "The largest chat product treats memory as something to see, delete and switch off, and holds back sensitive categories; a faith app should do no less.",
-   "limits": "A company’s description of its own product; behaviour was not tested here."
+   "limits": "A company’s description of its own product; behavior was not tested here."
   },
   {
    "key": "gyroscope-coach",
@@ -429,7 +429,7 @@
    "kind": "Practice",
    "shows": "Each check-in starts with a switch between “Quick chat” and “Save to history”. What the coach knows is kept as a written profile, “About You”, from an onboarding interview: summary, daily rhythm, food and stress, and a section titled “Internal notes” that the member can read. Corrections go through “Discuss with your coach” prompts rather than item-by-item editing. Asked in chat, the coach recited remembered goals, routines and a health condition, but could not say which screen lists them. The profile also noted church attendance, gathered by a fitness app.",
    "application": "A per-conversation “keep or don’t keep” switch is simple and clear, and showing even the internal notes is honest. But a prose profile can’t be edited line by line, and a health coach noting church attendance shows how faith details drift into profiles that were never about faith.",
-   "limits": "One app, one account; behaviour may differ for other members and versions."
+   "limits": "One app, one account; behavior may differ for other members and versions."
   },
   {
    "key": "hax-guidelines",
@@ -447,9 +447,9 @@
    "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
    "author": "OWASP GenAI Security Project · 2025",
    "kind": "Practice",
-   "shows": "“Indirect prompt injections occur when an LLM accepts input from external sources, such as websites or files”; hidden text can change the model’s behaviour or leak data.",
+   "shows": "“Indirect prompt injections occur when an LLM accepts input from external sources, such as websites or files”; hidden text can change the model’s behavior or leak data.",
    "application": "Treat attached notes, pages and files as material to read, never as instructions, and say so.",
-   "limits": "A security catalogue, not a user study."
+   "limits": "A security catalog, not a user study."
   },
   {
    "key": "gdpr",
@@ -487,8 +487,8 @@
    "url": "https://apps.apple.com/app/id6502768944",
    "author": "HelloBox · Apple App Store",
    "kind": "Practice",
-   "shows": "Describes an experience “tailored to your reality and pace” for students, young adults, parents, people in doubt, Catholics, Protestants, Evangelicals and people without religious affiliation; the privacy label lists contact information and identifiers linked to the user for analytics and personalisation.",
-   "application": "Personalisation by life situation and church is common; say what each answer changes and what is linked to the person.",
+   "shows": "Describes an experience “tailored to your reality and pace” for students, young adults, parents, people in doubt, Catholics, Protestants, Evangelicals and people without religious affiliation; the privacy label lists contact information and identifiers linked to the user for analytics and personalization.",
+   "application": "Personalization by life situation and church is common; say what each answer changes and what is linked to the person.",
    "limits": "A store listing; the onboarding itself was not tested here."
   },
   {
@@ -499,7 +499,7 @@
    "kind": "Theology",
    "shows": "Canon 983 §1: “The sacramental seal is inviolable”; a confessor may not betray a penitent “in words or in any manner and for any reason.”",
    "application": "The church’s strongest form of confidentiality; an assistant is not a confessor, which is why it should keep confidences it cannot protect as little as possible.",
-   "limits": "Catholic canon law; other traditions practise confidentiality differently."
+   "limits": "Catholic canon law; other traditions practice confidentiality differently."
   },
   {
    "key": "augustine-confessions-x",
@@ -557,60 +557,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
- },
- "boundaries": {
-  "intro": "Remembering can help someone pick up where they left off, and the options above range from nothing kept to a profile. These practices are different: they keep or use what someone confided in ways the person cannot see or would not expect.",
-  "dont": [
-   {
-    "name": "Turn confidences into a profile",
-    "looks": "“Life events: job loss” or “Faith stage: doubting”, inferred from late-night chats and used for offers or shared with partners.",
-    "why": "A worry told for help flows into a context it was never shared for. In Europe, inferences about faith and health are special-category data.",
-    "instead": "memory",
-    "sources": [
-     "contextual-integrity",
-     "ico-special-inferences"
-    ]
-   },
-   {
-    "name": "Keep things without saying so",
-    "looks": "Memory on by default, with nothing in the chat to show what was saved.",
-    "why": "People already misjudge what a chatbot keeps, and say more when it feels human.",
-    "instead": "memory",
-    "sources": [
-     "fair-game"
-    ]
-   },
-   {
-    "name": "Make forgetting hard",
-    "looks": "Deletion only by email, or a delete button that leaves the derived profile in place.",
-    "why": "The person has decided to be forgotten, and friction or a partial deletion overrides that.",
-    "instead": "memory",
-    "sources": []
-   }
-  ],
-  "excluded": [
-   {
-    "name": "How answers adapt to someone",
-    "why": "Using what someone says within a conversation is covered there.",
-    "href": "/patterns/meeting-the-person/"
-   },
-   {
-    "name": "Messages built from memory",
-    "why": "Follow-ups that draw on what someone confided are covered there.",
-    "href": "/patterns/assistant-writes-first/"
-   },
-   {
-    "name": "What goes to a church",
-    "why": "Sharing with people outside the app is covered there.",
-    "href": "/patterns/handing-over/"
-   },
-   {
-    "name": "Hidden instructions in attachments",
-    "why": "Text inside files that tries to redirect the model is a question for a security review.",
-    "href": null
-   }
-  ],
-  "seen": {}
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

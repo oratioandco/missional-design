@@ -3,7 +3,7 @@
  "url": "https://missional.design/patterns/reading-together/",
  "title": "Reading together",
  "question": "When people read Scripture together through an app, what do the others see, and who looks after the conversation?",
- "lede": "Reading Scripture with others is one of the oldest ways of reading it. Two disciples on the road to Emmaus asked each other afterwards, “Were not our hearts burning within us as He spoke with us on the road and opened the Scriptures to us?” (Luke 24:32). Apps now offer the same passage on the same day, guides for a group, plans with friends, comments on every verse and feeds of what friends have read. Each decides what the others see of your reading, and who looks after the conversation. Most days, reading together is a gift. Some days someone falls behind, or a verse is turned against the person who has just shared. Design for both.",
+ "lede": "Reading Scripture with others is one of the oldest ways of reading it. Two disciples on the road to Emmaus asked each other afterward, “Were not our hearts burning within us as He spoke with us on the road and opened the Scriptures to us?” (Luke 24:32). Apps now offer the same passage on the same day, guides for a group, plans with friends, comments on every verse and feeds of what friends have read. Each decides what the others see of your reading, and who looks after the conversation. Most days, reading together is a gift. Some days someone falls behind, or a verse is turned against the person who has just shared. Design for both.",
  "calling": "Share the passage and the conversation, not the record, and make sure someone looks after what is said.",
  "spectrum": {
   "title": "From the same passage to everything shown",
@@ -55,7 +55,7 @@
    "key": "plan",
    "name": "A plan with friends",
    "provenance": "Observed",
-   "origin": "Observed in YouVersion’s Plans with Friends: participants “see each other’s progress as you finish days” and talk in a “private discussion area”; only the host can invite people, and anyone who leaves cannot rejoin. See the screenshots below and YouVersion’s help centre. Names and comments are written for this example.",
+   "origin": "Observed in YouVersion’s Plans with Friends: participants “see each other’s progress as you finish days” and talk in a “private discussion area”; only the host can invite people, and anyone who leaves cannot rejoin. See the screenshots below and YouVersion’s help center. Names and comments are written for this example.",
    "gain": "Friends reading the same day",
    "cost": "Everyone sees who is behind",
    "makes_easier": "Friends far apart reading the same day, with somewhere to talk.",
@@ -199,7 +199,7 @@
    "findings": [
     {
      "heading": "Hearts burning on the road",
-     "text": "As two disciples “talked and deliberated, Jesus Himself came up and walked along with them” (Luke 24:15); afterwards they asked, “Were not our hearts burning within us as He spoke with us on the road and opened the Scriptures to us?” (Luke 24:32). The conversation was part of the reading.",
+     "text": "As two disciples “talked and deliberated, Jesus Himself came up and walked along with them” (Luke 24:15); afterward they asked, “Were not our hearts burning within us as He spoke with us on the road and opened the Scriptures to us?” (Luke 24:32). The conversation was part of the reading.",
      "sources": []
     },
     {
@@ -296,7 +296,7 @@
   },
   {
    "if": "Comments on verses",
-   "start_with": "Others’ words labelled, a step away from the text, with someone moderating"
+   "start_with": "Others’ words labeled, a step away from the text, with someone moderating"
   },
   {
    "if": "You are tempted to show everyone’s progress",
@@ -442,7 +442,7 @@
    "kind": "Product documentation",
    "shows": "Documents rescheduling without marking sections complete; not available for Plans with Friends.",
    "application": "Compare recovery options with the reader’s experience of progress.",
-   "limits": "Documented behaviour; exact interface and discovery were not tested."
+   "limits": "Documented behavior; exact interface and discovery were not tested."
   },
   {
    "key": "moravian-texts-history",
@@ -551,6 +551,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

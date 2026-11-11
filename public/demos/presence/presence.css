@@ -1,0 +1,57 @@
+/* Presence-only cue comparison. Sender identity stays outside the reply container.
+   Source/disclosure nodes and their state remain in the same body when presentation changes. */
+.presence-example .presence-reply{
+  box-sizing:border-box;
+  max-width:100%;
+  min-width:0;
+  overflow-wrap:anywhere;
+}
+.presence-example[data-reply-presentation="bubble"] .presence-reply{
+  padding:12px 14px;
+  border-radius:18px 18px 18px 4px;
+  background:var(--color-fill);
+}
+.presence-example .presence-wait{
+  display:block;
+}
+.presence-example .presence-wait-label{
+  margin:0 0 6px;
+  font:400 12.5px/1.4 var(--font-ui);
+  color:var(--color-ink-2);
+}
+.presence-example .presence-wait-cue{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  min-width:0;
+}
+.presence-example .pr-wait-text{
+  min-width:0;
+  overflow-wrap:anywhere;
+}
+
+/* Each non-human/illustrated/photo treatment uses actual authored or generated artwork.
+   Images are decorative; the unchanged adjacent name, AI labels and fixed imagery note carry identity. */
+.presence-example .presence-avatar{
+  display:inline-flex;
+  width:28px;
+  height:28px;
+  flex:0 0 28px;
+}
+.presence-example .pr-title .presence-avatar{
+  width:26px;
+  height:26px;
+  flex-basis:26px;
+}
+.presence-example .presence-avatar img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  border-radius:6px;
+}
+.presence-example .presence-image-note{
+  margin:0 0 8px;
+  color:var(--color-ink-2);
+  font:400 12px/1.4 var(--font-ui);
+}

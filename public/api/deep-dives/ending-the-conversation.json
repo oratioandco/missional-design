@@ -498,7 +498,7 @@
  },
  "decide": {
   "question": "Who ends this conversation, and does the ending serve the person or the product?",
-  "exercise": "Talk with your assistant for an hour one evening, then say goodnight. Write down its last message and whether it asks anything. Keep going past midnight and note whether anything notices. Count the taps it takes to stop. Then read each farewell aloud as someone lonely, and ask whether it sends them towards sleep, people and God, or back to the screen.",
+  "exercise": "Talk with your assistant for an hour one evening, then say goodnight. Write down its last message and whether it asks anything. Keep going past midnight and note whether anything notices. Count the taps it takes to stop. Then read each farewell aloud as someone lonely, and ask whether it sends them toward sleep, people and God, or back to the screen.",
   "worksheet": "https://missional.design/guides/decision-review/"
  },
  "earlier_patterns": [],
@@ -559,7 +559,7 @@
    "url": "https://blog.character.ai/how-character-ai-prioritizes-teen-safety/",
    "author": "Character.AI · 12 December 2024",
    "kind": "Practice",
-   "shows": "“Time Spent Notification: Users will receive a notification after completing an hour-long session on the platform”; adults would be able to customise it, while users under 18 “will have more limits on their ability to modify it.”",
+   "shows": "“Time Spent Notification: Users will receive a notification after completing an hour-long session on the platform”; adults would be able to customize it, while users under 18 “will have more limits on their ability to modify it.”",
    "application": "A companion platform added a time notice after lawsuits; a faith app need not wait for one.",
    "limits": "A company announcement, not an evaluation."
   },
@@ -570,7 +570,7 @@
    "author": "Future of Privacy Forum",
    "kind": "Law",
    "shows": "For users an operator knows are minors, California’s law requires it to “provide a notification every three hours during sustained interactions to take a break”; New York requires an AI notice “at least once every three hours during ongoing conversations”.",
-   "application": "Break reminders for minors are a legal duty in California; long sessions are a recognised risk.",
+   "application": "Break reminders for minors are a legal duty in California; long sessions are a recognized risk.",
    "limits": "A policy analysis, not the statute; check the current text and any amendments."
   },
   {
@@ -629,7 +629,7 @@
    "url": "https://apps.apple.com/us/app/-/id6689515971",
    "author": "LMT Digital Creations · Apple App Store (US)",
    "kind": "Practice",
-   "shows": "“Generate a personalized prayer for exactly what you’re going through, then listen to it read aloud.” Personalised prayers are a premium feature.",
+   "shows": "“Generate a personalized prayer for exactly what you’re going through, then listen to it read aloud.” Personalized prayers are a premium feature.",
    "application": "Generated prayers are sold as a feature.",
    "limits": "A store listing with few ratings, not a test of the app."
   },
@@ -661,7 +661,7 @@
    "kind": "Practice",
    "shows": "Daily ten-minute audio prayer since 2006 combining music, Scripture and Ignatian questions, used tens of millions of times a year.",
    "application": "A produced devotional can be formation-first: fixed, shared and ending in silence.",
-   "limits": "Usage figures from the organisation."
+   "limits": "Usage figures from the organization."
   },
   {
    "key": "kairos-final",
@@ -709,52 +709,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
- },
- "boundaries": {
-  "intro": "An assistant can stay open, suggest a break or keep a length someone chose, and the options above show each. These practices are different: they work against someone’s decision to stop.",
-  "dont": [
-   {
-    "name": "Guilt them into staying",
-    "looks": "“You’re leaving already?” or a sad face at goodnight.",
-    "why": "It makes leaving feel unkind. In an audit of six companion apps, five used tactics like this in an average of 37% of their replies to a goodbye; the sixth used none.",
-    "instead": "close",
-    "sources": [
-     "defreitas-paper"
-    ]
-   },
-   {
-    "name": "Hook them at goodbye",
-    "looks": "“Before you go, there’s something I wanted to tell you…”",
-    "why": "It overrides a decision to stop. The researchers report that in their experiments such farewells raised engagement after goodbye up to fourteenfold, through anger and curiosity rather than enjoyment.",
-    "instead": "close",
-    "sources": [
-     "defreitas-paper"
-    ]
-   }
-  ],
-  "excluded": [
-   {
-    "name": "Paying for more conversation",
-    "why": "Message credits and paid limits are a separate decision about paying for access.",
-    "href": null
-   },
-   {
-    "name": "Messages after the conversation",
-    "why": "What the assistant sends later is covered there.",
-    "href": "/patterns/assistant-writes-first/"
-   },
-   {
-    "name": "Endings in audio",
-    "why": "Autoplay and the last screen of a session are covered there.",
-    "href": "/patterns/devotional-audio/"
-   },
-   {
-    "name": "A crisis at goodbye",
-    "why": "Someone in danger who says they are going needs help, not a farewell. That is covered there.",
-    "href": "/patterns/handing-over/"
-   }
-  ],
-  "seen": {}
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

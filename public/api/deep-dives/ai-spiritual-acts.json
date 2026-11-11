@@ -314,7 +314,7 @@
      ]
     },
     {
-     "heading": "Sceptical, and sometimes moved",
+     "heading": "Skeptical, and sometimes moved",
      "text": "Of a 2023 Protestant service led by AI: “While most of the responses were skeptical, participants also reported having spiritual experiences.”",
      "sources": [
       "simmerlein-ai-service"
@@ -322,7 +322,7 @@
     },
     {
      "heading": "Agreeable is not caring",
-     "text": "Assistants tend to favour agreement. Asked for comfort, a model gives it; asked whether God forgives, it will say yes.",
+     "text": "Assistants tend to favor agreement. Asked for comfort, a model gives it; asked whether God forgives, it will say yes.",
      "sources": [
       "sycophancy"
      ]
@@ -397,7 +397,7 @@
     "options": []
    },
    "pull": "A request for prayer often comes from fear late at night, and the reply that points beyond itself offers a psalm first.",
-   "hold": "Asking for prayer is asking for prayer, not for a judgement on their situation. If the message also signals danger, help comes first, and the psalm afterwards if they want it."
+   "hold": "Asking for prayer is asking for prayer, not for a judgment on their situation. If the message also signals danger, help comes first, and the psalm afterward if they want it."
   }
  ],
  "reflection": [
@@ -422,7 +422,7 @@
   }
  ],
  "three_ways": {
-  "exploitative": "Let the assistant pray as “we”, promise to keep praying and send word that it prayed, bless people and tell them they are forgiven, and sell personalised prayers as a premium feature.",
+  "exploitative": "Let the assistant pray as “we”, promise to keep praying and send word that it prayed, bless people and tell them they are forgiven, and sell personalized prayers as a premium feature.",
   "ethical": "Say plainly that it is an AI and cannot pray, label any prayer it drafts, offer the church’s words with their source, and never bless, absolve or claim a word from God.",
   "redemptive": "Help people pray in their own words and hand them to people who will pray with them, a friend, a prayer team, a pastor or a priest; and give up the attachment and the sessions that an assistant which prays would bring.",
   "frame": "https://missional.design/reference/about/three-ways/"
@@ -449,7 +449,7 @@
    "url": "https://missional.design/examples/hallow-community/",
    "observed": "Captured 19 September 2025 · from embedded image metadata",
    "observation": "The Community tab, signed out, shows a small church on a purple background and “Sign in or create an account to pray alongside your community”, with three ticks: “Connect with your parish community and stay connected with fellow members”, “Pray for others, be prayed for” and “Strengthen your faith together through community challenges and discussions”.",
-   "decision": "The pitch makes the parish the audience. Hallow’s help centre adds the details that matter: requests of up to 240 characters, never anonymous, active for seven days, answered with a heart.",
+   "decision": "The pitch makes the parish the audience. Hallow’s help center adds the details that matter: requests of up to 240 characters, never anonymous, active for seven days, answered with a heart.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
   }
  ],
@@ -481,7 +481,7 @@
    "author": "Holy See · Catechism of the Catholic Church (1993/1997)",
    "kind": "Theology",
    "shows": "“Sacramentals derive from the baptismal priesthood: every baptized person is called to be a “blessing,” and to bless. Hence lay people may preside at certain blessings; the more a blessing concerns ecclesial and sacramental life, the more is its administration reserved to the ordained ministry”.",
-   "application": "Blessing belongs to baptised people, and some blessings to the ordained; neither is a function to hand to software.",
+   "application": "Blessing belongs to baptized people, and some blessings to the ordained; neither is a function to hand to software.",
    "limits": "Catholic teaching."
   },
   {
@@ -571,7 +571,7 @@
    "author": "Jonas Simmerlein · Review of Religious Research 67(1), 2025",
    "kind": "Research",
    "shows": "A survey and questionnaires of people at a 2023 Protestant service led by AI at the German Kirchentag: “While most of the responses were skeptical, participants also reported having spiritual experiences.”",
-   "application": "An AI leading worship, including prayers, met mostly scepticism, and some found it spiritual.",
+   "application": "An AI leading worship, including prayers, met mostly skepticism, and some found it spiritual.",
    "limits": "One event, a self-selected audience."
   },
   {
@@ -580,7 +580,7 @@
    "url": "https://apps.apple.com/us/app/-/id6689515971",
    "author": "LMT Digital Creations · Apple App Store (US)",
    "kind": "Practice",
-   "shows": "“Generate a personalized prayer for exactly what you’re going through, then listen to it read aloud.” Personalised prayers are a premium feature.",
+   "shows": "“Generate a personalized prayer for exactly what you’re going through, then listen to it read aloud.” Personalized prayers are a premium feature.",
    "application": "Generated prayers are sold as a feature.",
    "limits": "A store listing with few ratings, not a test of the app."
   },
@@ -632,7 +632,7 @@
    "kind": "Practice",
    "shows": "A two-month art installation in St Peter’s Chapel, Lucerne (2024) placed an AI “Jesus” avatar in a confessional; about 900 conversations took place and many visitors reported feeling inspired, while church leaders were divided.",
    "application": "Shows the pull of embodied religious personas, and why the setting adds authority.",
-   "limits": "An art project with a self-selected audience and the organisers’ own survey."
+   "limits": "An art project with a self-selected audience and the organizers’ own survey."
   },
   {
    "key": "sycophancy",
@@ -660,6 +660,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

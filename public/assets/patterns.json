@@ -78,7 +78,7 @@
     "problem": "Small screens and enlarged text can flatten meaningful structure or turn editorial headings into apparent verse content.",
     "solution": "Reflow paragraphs and preserve relative poetic structure. Distinguish section headings from Scripture. Explain translator-supplied words when the edition marks them. Verse navigation can coexist with continuous prose.",
     "failure": "Shrinking text to preserve a desktop layout; treating each verse as an unrelated box; calling translation additions AI-generated text.",
-    "test": "Test narrow screens, enlarged fonts and spoken output. Can readers recognise a heading, poetic grouping and a translation addition without relying only on colour?",
+    "test": "Test narrow screens, enlarged fonts and spoken output. Can readers recognize a heading, poetic grouping and a translation addition without relying only on color?",
     "sources": [
       "add",
       "poetry",
@@ -221,9 +221,9 @@
     "topic": "conversation",
     "summary": "Keep long Scripture readable without flooding the conversation.",
     "problem": "A full chapter inside a small chat card can create nested scrolling. Aggressive truncation can hide what the user asked to read.",
-    "solution": "Choose among an excerpt card opening a full reader, complete inline expansion for manageable passages, and a dedicated reading surface for sustained reading. Name the requested range, edition and visible range. Inline expansion uses the main conversation scroll rather than a nested text scroll; provide Collapse and retain an anchor when collapsing. A full reader can be a sheet on small screens or a side panel on wider screens, with an explicit return to the same conversation place. For cross-chapter ranges, preserve every boundary and continuation. If complete text is requested, provide a clearly labelled route to it rather than silently summarising. If edition rights or availability prevent full display, explain the limit and offer a permitted destination.",
+    "solution": "Choose among an excerpt card opening a full reader, complete inline expansion for manageable passages, and a dedicated reading surface for sustained reading. Name the requested range, edition and visible range. Inline expansion uses the main conversation scroll rather than a nested text scroll; provide Collapse and retain an anchor when collapsing. A full reader can be a sheet on small screens or a side panel on wider screens, with an explicit return to the same conversation place. For cross-chapter ranges, preserve every boundary and continuation. If complete text is requested, provide a clearly labeled route to it rather than silently summarizing. If edition rights or availability prevent full display, explain the limit and offer a permitted destination.",
     "failure": "Unmarked omissions; two competing scroll regions; a summary presented as the original passage; returning to the top of the chat.",
-    "test": "Test a short verse, long passage, complete chapter request and large text. Can readers recognise omissions, reach the whole text and return to the same conversation position? Test inline expansion and collapse, cross-chapter ranges, sheet and panel return, multiple passage cards, unavailable editions and the final verse at large text size.",
+    "test": "Test a short verse, long passage, complete chapter request and large text. Can readers recognize omissions, reach the whole text and return to the same conversation position? Test inline expansion and collapse, cross-chapter ranges, sheet and panel return, multiple passage cards, unavailable editions and the final verse at large text size.",
     "sources": [
       "nng-chat",
       "playground-depth",
@@ -276,11 +276,11 @@
       "readable-overflow"
     ],
     "purpose_lens": {
-      "assumption": "A short answer may be easier to scan, but a short excerpt can hide the very context the person needs. The decision is how to make the requested text available without losing the conversation, not how to minimise every response.",
+      "assumption": "A short answer may be easier to scan, but a short excerpt can hide the very context the person needs. The decision is how to make the requested text available without losing the conversation, not how to minimize every response.",
       "situations": [
         [
           "Keep a conversation moving",
-          "Offer a labelled preview when the passage supports a wider discussion. Make its omitted range explicit and give the reader a direct route to the full request."
+          "Offer a labeled preview when the passage supports a wider discussion. Make its omitted range explicit and give the reader a direct route to the full request."
         ],
         [
           "Read the whole passage now",
@@ -379,7 +379,7 @@
       "drawback": "Preview thresholds can hide wanted text; inline expansion can move later messages.",
       "differences": "Large text and cross-chapter reading need more space than a short quotation. Preserve both reading and conversation position.",
       "question": "Can the person reach all the text they requested and return without losing place?",
-      "check": "Test a short verse, long passage, complete chapter request and large text. Can readers recognise omissions, reach the whole text and return to the same conversation position? Test inline expansion and collapse, cross-chapter ranges, sheet and panel return, multiple passage cards, unavailable editions and the final verse at large text size."
+      "check": "Test a short verse, long passage, complete chapter request and large text. Can readers recognize omissions, reach the whole text and return to the same conversation position? Test inline expansion and collapse, cross-chapter ranges, sheet and panel return, multiple passage cards, unavailable editions and the final verse at large text size."
     }
   },
   {
@@ -444,7 +444,7 @@
       "situations": [
         [
           "Listen while moving",
-          "Prioritise reliable playback, accessible controls and recovery from interruption. Do not require visual interaction to continue."
+          "Prioritize reliable playback, accessible controls and recovery from interruption. Do not require visual interaction to continue."
         ],
         [
           "Dwell with one passage",
@@ -455,7 +455,7 @@
           "Offer an optional route to the text and sources while preserving playback position. Keep reading position separate when the person explores elsewhere."
         ]
       ],
-      "question": "Would putting down the phone fulfil this experience—and do our defaults allow it?",
+      "question": "Would putting down the phone fulfill this experience—and do our defaults allow it?",
       "test": "Try playback with the screen off, an interruption and a return to the text. Ask listeners to choose where listening ends. Measure task completion and control without treating listening duration as spiritual benefit.",
       "guide": "listening",
       "guide_label": "Designing a listening experience",
@@ -1100,8 +1100,8 @@
     "topic": "study",
     "summary": "Make exact wording and reference-based notes different personal objects.",
     "problem": "A highlight on particular words and a note about a verse behave differently when the translation changes.",
-    "solution": "Allow quick marking without forced organisation. Explain whether the annotation targets an exact edition-specific selection or a passage reference. Colours and labels are optional personal conventions.",
-    "failure": "Assuming a colour reveals theology or mood; requiring tags before saving; promising exact word transfer across translations.",
+    "solution": "Allow quick marking without forced organization. Explain whether the annotation targets an exact edition-specific selection or a passage reference. Colors and labels are optional personal conventions.",
+    "failure": "Assuming a color reveals theology or mood; requiring tags before saving; promising exact word transfer across translations.",
     "test": "Can users understand where their note will appear after switching editions? Test unlabelled highlights and annotations across verse ranges.",
     "sources": [
       "logos-notes",
@@ -1110,7 +1110,7 @@
     "variants": [
       {
         "title": "A · Mark first",
-        "caption": "Organisation can wait.",
+        "caption": "Organization can wait.",
         "items": [
           "tag|Psalm 23:1 · Selection",
           "highlight|Selected words",
@@ -1138,15 +1138,15 @@
         "items": [
           "card|My highlight styles|Important / Question / No label.",
           "button|Name a style",
-          "button|Use colour only"
+          "button|Use color only"
         ],
         "when": "The user wants personal style meanings",
-        "tradeoff": "Do not infer theology or mood from a colour"
+        "tradeoff": "Do not infer theology or mood from a color"
       }
     ],
     "faith": "",
     "status": "Research-informed design proposal",
-    "takeaway": "Allow quick marking without forced organisation.",
+    "takeaway": "Allow quick marking without forced organization.",
     "principles": [
       "word-distinct",
       "offering"
@@ -1171,7 +1171,7 @@
     "summary": "Distinguish playback, selection, search and saved highlights.",
     "problem": "Several states may highlight the same text. After a translation change, a saved word selection may have no reliable equivalent.",
     "solution": "Use different visual and accessible cues for transient and saved states. Carry reference-based notes through reliable reference mappings. Keep exact selections attached to their original edition when no word alignment exists.",
-    "failure": "Everything represented by background colour; inventing a new selection in another edition; hiding the original annotation when mapping fails.",
+    "failure": "Everything represented by background color; inventing a new selection in another edition; hiding the original annotation when mapping fails.",
     "test": "Combine playback, search and a personal mark on one verse. Switch editions and check that every annotation remains explainable and recoverable.",
     "sources": [
       "logos-notes",
@@ -1182,7 +1182,7 @@
     "variants": [
       {
         "title": "A · Different states",
-        "caption": "Visual roles are distinguishable beyond colour.",
+        "caption": "Visual roles are distinguishable beyond color.",
         "items": [
           "highlight|Audio: currently spoken passage",
           "card|Saved highlight|Personal annotation.",
@@ -1190,7 +1190,7 @@
           "label|Search result: underline"
         ],
         "when": "Playback, selection and saved marks overlap",
-        "tradeoff": "Colour alone cannot carry all meanings"
+        "tradeoff": "Color alone cannot carry all meanings"
       },
       {
         "title": "B · Reference note",
@@ -1229,7 +1229,7 @@
       "purpose": "Playback, search, selection and saved marks share one passage.",
       "benefit": "Distinct cues keep transient state separate from personal work.",
       "drawback": "Too many simultaneous cues can become visually noisy.",
-      "differences": "People who cannot distinguish colours need other cues; people following audio may prefer reduced visual emphasis.",
+      "differences": "People who cannot distinguish colors need other cues; people following audio may prefer reduced visual emphasis.",
       "question": "Can the reader tell what will persist after the current action ends?",
       "check": "Combine playback, search and a personal mark on one verse. Switch editions and check that every annotation remains explainable and recoverable."
     }
@@ -1242,7 +1242,7 @@
     "summary": "Choose between a saved place, completion and a shared date. Explain what the record means.",
     "problem": "A display can help someone find their place while also suggesting how well they are doing spiritually. Opened content, marked completion, calendar position and consistency are different records.",
     "solution": "Define each state before designing the indicator. Store the saved passage separately from sessions the person marks complete and the dates assigned by a plan. Allow completion to be corrected. Rescheduling changes dates without filling gaps or erasing notes. Explain whether recorded activity is private or shared before enabling group visibility. Offer a clear next action; do not require a progress dashboard to reach the reading. Design protection before a missed day separately from repair afterward. Explain eligibility, any payment and whether a displayed allowance means capacity or credits currently available. Keep resuming the practice distinct from restoring its count.",
-    "failure": "Silently counting an opened passage as read; resetting completion when changing dates; presenting calendar delay as spiritual failure; using colour alone for status; turning a private activity record into a group ranking; claiming app activity captures reading elsewhere.",
+    "failure": "Silently counting an opened passage as read; resetting completion when changing dates; presenting calendar delay as spiritual failure; using color alone for status; turning a private activity record into a group ranking; claiming app activity captures reading elsewhere.",
     "test": "Ask readers to find their next session, correct an accidental completion and join today’s group reading without completing earlier sessions. Repeat with a screen reader, large text and an offline update. Ask what the display implies about them and who can see it. Ask someone returning after a gap to distinguish pausing, using protection and repairing a count, and to identify any charge before choosing. Compare usefulness and pressure with a saved-place-only version.",
     "sources": [
       "youversion-catch-up",
@@ -1348,7 +1348,7 @@
       "date": "5 October 2026",
       "scope": "Editorial review; not user validation",
       "purpose": "Someone wants to find their next reading, finish a selected sequence or rejoin a group’s current passage.",
-      "benefit": "A clearly labelled record can reduce uncertainty and help the person make the next choice.",
+      "benefit": "A clearly labeled record can reduce uncertainty and help the person make the next choice.",
       "drawback": "Visible gaps or counts can become a source of pressure. App records also miss reading, listening or reflection that happens elsewhere.",
       "differences": "A self-directed reader may need only a saved place. A plan participant may value completion. A group member may need today’s date and their own position at once. These purposes can change between sessions.",
       "question": "Is the display describing an activity, coordinating a date or implying a judgment about the reader?",
@@ -1443,7 +1443,7 @@
       "purpose": "Someone wants reading structure that can adapt to their circumstances.",
       "benefit": "A chosen rhythm reduces repeated planning while preserving the option to pause or change pace.",
       "drawback": "Flexibility can make a shared calendar harder to coordinate. Multiple scheduling controls can also create complexity.",
-      "differences": "A fixed date can support a group; irregular work or caring responsibilities may favour a sequence. Ask what structure helps rather than assigning a schedule from a user profile.",
+      "differences": "A fixed date can support a group; irregular work or caring responsibilities may favor a sequence. Ask what structure helps rather than assigning a schedule from a user profile.",
       "question": "Does changing the rhythm preserve the person’s agency and the group’s expectations?",
       "check": "Pause a plan and reschedule it. Verify completed work, notes, reminder changes and group implications before confirmation."
     }
@@ -1644,7 +1644,7 @@
     "topic": "reading",
     "summary": "Choose the content scope, landing position and temporary cue separately.",
     "problem": "A link to Mark 1:8 can open the chapter at its beginning, land at verse 8, or display only verse 8. These choices support different tasks and should not be accidental.",
-    "solution": "For contextual reading, open the containing chapter and place the first requested verse in view. For a focused preview, show only the verse or requested passage with a Read in context action. A chapter overview may open at the top, but retain the requested reference and provide Jump to verse. Scrolling and highlighting are independent: landing at a verse can use a temporary outline, a labelled margin cue, or no highlight. Mark a requested range rather than only its first verse when helpful. Temporary navigation cues never become saved annotations. Account for headers, players and delayed layout; retain back navigation to the search or chat.",
+    "solution": "For contextual reading, open the containing chapter and place the first requested verse in view. For a focused preview, show only the verse or requested passage with a Read in context action. A chapter overview may open at the top, but retain the requested reference and provide Jump to verse. Scrolling and highlighting are independent: landing at a verse can use a temporary outline, a labeled margin cue, or no highlight. Mark a requested range rather than only its first verse when helpful. Temporary navigation cues never become saved annotations. Account for headers, players and delayed layout; retain back navigation to the search or chat.",
     "failure": "Opening at the chapter top without acknowledging the requested verse; permanently marking a deep-link target; hiding a focused excerpt’s boundaries; losing the origin.",
     "test": "Enter one verse, a range and a cross-chapter passage from search, chat and an external link. Check large text, cold loading, missing content and return navigation.",
     "sources": [
@@ -1710,7 +1710,7 @@
       "benefit": "A deliberate landing point connects the requested reference to its surrounding text.",
       "drawback": "A focused excerpt can hide context; a chapter overview can make the requested verse hard to find. A cue may be mistaken for a saved highlight.",
       "differences": "A quick lookup benefits from immediate reference confirmation. A study task may need the whole argument. Large text, screen readers and slow loading change how the target must be revealed.",
-      "question": "Does the destination fulfil the promise made by the link?",
+      "question": "Does the destination fulfill the promise made by the link?",
       "check": "Open a single verse and a cross-chapter range after a cold start. Verify visible and accessible identification, no obscured target, and return to the origin."
     }
   },
@@ -1800,7 +1800,7 @@
     "topic": "conversation",
     "summary": "Give verses, passages, links and media recognisable identity and appropriate actions.",
     "problem": "A bare link obscures its destination, while a large embed can crowd out the answer. Generated explanation can be mistaken for the text inside a Scripture card.",
-    "solution": "Use an inline reference link for a brief citation, a bounded verse or passage card for text worth inspecting, and a full reader for sustained reading. Name edition, reference, visible range and source. Distinguish external link previews from Scripture and from generated commentary. Video cards identify publisher, duration and captions; audio cards retain passage and narrator. Do not autoplay. Provide plain links or labelled fallbacks when previews, media or permissions fail. Copy and sharing preserve reference and attribution where permitted. Returning from any destination restores conversation position.",
+    "solution": "Use an inline reference link for a brief citation, a bounded verse or passage card for text worth inspecting, and a full reader for sustained reading. Name edition, reference, visible range and source. Distinguish external link previews from Scripture and from generated commentary. Video cards identify publisher, duration and captions; audio cards retain passage and narrator. Do not autoplay. Provide plain links or labeled fallbacks when previews, media or permissions fail. Copy and sharing preserve reference and attribution where permitted. Returning from any destination restores conversation position.",
     "failure": "Autoplaying media; unlabelled generated verse text; enormous previews; a failed embed removing the source link; identical actions for read, play and external navigation.",
     "test": "Test a citation, single verse, long passage, external article, video and audio. Include blocked embeds, offline use, captions, large text, copy and return navigation.",
     "sources": [
@@ -1975,7 +1975,7 @@
     },
     "diagram_decisions_owned": true,
     "purpose_lens": {
-      "assumption": "Placing Scripture, commentary and an assistant’s response in one stream can make their authority look equivalent. The content object should help the reader recognise what is quoted, what is interpreted and where each came from.",
+      "assumption": "Placing Scripture, commentary and an assistant’s response in one stream can make their authority look equivalent. The content object should help the reader recognize what is quoted, what is interpreted and where each came from.",
       "situations": [
         [
           "Answer a quick reference question",
@@ -2238,7 +2238,7 @@
       "purpose": "A reader moves between corresponding passages in two panes.",
       "benefit": "Semantic linking can preserve correspondence despite unequal text length.",
       "drawback": "Automatic alignment can disrupt independent exploration or fail with different numbering.",
-      "differences": "Close comparison may favour linked panes; a cross-reference investigation may need independent positions.",
+      "differences": "Close comparison may favor linked panes; a cross-reference investigation may need independent positions.",
       "question": "Which pane leads, and can the reader unlink and rejoin deliberately?",
       "check": "Scroll either pane, unlink, explore another chapter and rejoin. Test poetry, verse bridges, missing mappings, touch gestures, resizing and audio following."
     }
@@ -2371,7 +2371,7 @@
         "tradeoff": "An on-demand sheet must retain the source token anchor"
       }
     ],
-    "faith": "The diagrams use labelled token placeholders, not invented Greek or Hebrew. Exact language layouts require real source data and specialist review.",
+    "faith": "The diagrams use labeled token placeholders, not invented Greek or Hebrew. Exact language layouts require real source data and specialist review.",
     "status": "Research-informed design proposal",
     "related": [
       "word-study",
@@ -2470,7 +2470,7 @@
       "date": "5 October 2026",
       "scope": "Editorial review; not user validation",
       "purpose": "A reader investigates source-language words and their alignment.",
-      "benefit": "Labelled token groups can connect forms, glosses and morphology.",
+      "benefit": "Labeled token groups can connect forms, glosses and morphology.",
       "drawback": "A gloss may look like a complete translation; dense metadata can overwhelm.",
       "differences": "Beginning language learners may need one token at a time; experienced readers may want full rows. Neither should receive invented alignment.",
       "question": "Can the reader distinguish source text, gloss, translation and lexical interpretation?",
@@ -2658,7 +2658,7 @@
     "summary": "Label the actor, action and artifact at the moment they could be misunderstood.",
     "problem": "A Bible app mixes verified Scripture, authored commentary, personal notes and generated material. A brand name or sparkle icon may leave readers unsure whether they are reading a translation, a pastor’s words or an AI explanation.",
     "solution": "Use plain-language labels beside the relevant feature, speaker or content: AI assistant, explanation generated with AI, AI-assisted prayer draft, or synthetic voice reading a named edition. Keep a short visible label and optional details about sources, review and limitations. Retain identity through human handoffs and distinguish retrieval of publisher text from generated interpretation.",
-    "failure": "Only disclosing in onboarding or terms; colour-only labels; generic AI tags with no operation; implied clergy credentials; treating a citation or human review badge as proof of correctness; placing an AI tag on verified Scripture because it sits inside an AI response.",
+    "failure": "Only disclosing in onboarding or terms; color-only labels; generic AI tags with no operation; implied clergy credentials; treating a citation or human review badge as proof of correctness; placing an AI tag on verified Scripture because it sits inside an AI response.",
     "test": "Ask readers to identify who or what produced each layer, what AI changed and whether a human actually reviewed it. Test screen readers, first entry through deep links, audio-only use and AI-to-human transitions.",
     "sources": [
       "shape",
@@ -2689,7 +2689,7 @@
           "button|Sources and creation details"
         ],
         "when": "Generated material sits beside verified text",
-        "tradeoff": "Labels must identify each layer without labelling the translation as AI"
+        "tradeoff": "Labels must identify each layer without labeling the translation as AI"
       },
       {
         "title": "C · Actor transition",
@@ -2745,7 +2745,7 @@
       "scope": "Editorial review; not user validation",
       "purpose": "A person needs to understand who or what produced the content or response.",
       "benefit": "Specific labels help distinguish retrieved Scripture, generated interpretation, authored commentary and synthetic narration.",
-      "drawback": "Repeated labels can become clutter. A disclosure can create false reassurance if it stands in for accountable behaviour.",
+      "drawback": "Repeated labels can become clutter. A disclosure can create false reassurance if it stands in for accountable behavior.",
       "differences": "New visitors and people arriving through shared content miss onboarding. Audio listeners need audible identity at meaningful transitions; screen-reader users need labels associated with the relevant content.",
       "question": "What might a person reasonably mistake for Scripture, a human voice or pastoral authority?",
       "check": "Ask people to identify the origin of each layer and what review actually occurred. Include deep links, exported content and audio. Disclosure alone does not make a support service safe."
@@ -2840,7 +2840,7 @@
     },
     "diagram_decisions_owned": true,
     "purpose_lens": {
-      "assumption": "A layout makes some reading actions easier to see. Separate verse rows favour locating and discussing a numbered unit; paragraphs favour following a larger movement of thought. Neither establishes how deeply someone reads or what a faithful reading practice should look like.",
+      "assumption": "A layout makes some reading actions easier to see. Separate verse rows favor locating and discussing a numbered unit; paragraphs favor following a larger movement of thought. Neither establishes how deeply someone reads or what a faithful reading practice should look like.",
       "situations": [
         [
           "Follow a sermon or group discussion",
@@ -2880,7 +2880,7 @@
     "summary": "Separate locating a verse from the precision needed to select it.",
     "problem": "Tiny verse numbers may be useful landmarks but poor touch targets. Prominent numbers can compete with reading, while hiding them can make a spoken reference difficult to follow.",
     "solution": "Use modest inline numbers for a general reading default. Compare margin numbers for reference-heavy tasks and an optional quiet view. Preserve an accessible way to reveal references and select a verse without tapping a tiny superscript.",
-    "failure": "Colour-only selection; hiding numbers with no way to recover a reference; a long-press-only action; copying text without its edition and reference.",
+    "failure": "Color-only selection; hiding numbers with no way to recover a reference; a long-press-only action; copying text without its edition and reference.",
     "test": "Find and select a verse with enlarged text, keyboard and screen reader. Check that hiding visual numbers does not remove reference access.",
     "faith": "Numbers locate the text; they need not dictate its phrasing or paragraph structure.",
     "sources": [
@@ -3062,7 +3062,7 @@
         "title": "C · Type or return",
         "caption": "Reference entry with an explicit resolved destination.",
         "when": "The reader knows the reference or wants a recent passage",
-        "tradeoff": "Localised aliases, ranges and ambiguous abbreviations need resolution.",
+        "tradeoff": "Localized aliases, ranges and ambiguous abbreviations need resolution.",
         "items": [
           "heading|Go to a passage",
           "field|Mark 3:1–6",
@@ -3248,9 +3248,9 @@
     "slug": "translation-picker",
     "title": "Choose a translation with enough context",
     "summary": "Make language, edition and availability understandable before switching.",
-    "problem": "A list of abbreviations asks readers to recognise editions they may never have used. Download, audio and account requirements can remain hidden until after selection.",
-    "solution": "Search by full name and abbreviation, group by language when useful, and show the active edition. Use a short favourites list for frequent switching with a clear route to all editions. Separate choosing an edition from downloading or starting audio. A short catalogue may need only a popover list, without search. A large multilingual collection may use language → edition drill-down, with optional favourites or downloaded filters. Confirm an unavailable passage before switching editions.",
-    "failure": "Replacing an unavailable edition silently; presenting a popularity ranking as theological authority; losing the current passage; unclear download size or licence constraints.",
+    "problem": "A list of abbreviations asks readers to recognize editions they may never have used. Download, audio and account requirements can remain hidden until after selection.",
+    "solution": "Search by full name and abbreviation, group by language when useful, and show the active edition. Use a short favorites list for frequent switching with a clear route to all editions. Separate choosing an edition from downloading or starting audio. A short catalog may need only a popover list, without search. A large multilingual collection may use language → edition drill-down, with optional favorites or downloaded filters. Confirm an unavailable passage before switching editions.",
+    "failure": "Replacing an unavailable edition silently; presenting a popularity ranking as theological authority; losing the current passage; unclear download size or license constraints.",
     "test": "Choose an unfamiliar edition, find a known abbreviation, cancel a download and change editions offline. Confirm the chosen text and retained reference.",
     "faith": "Edition descriptions should be attributed and neutral about translation approach. Availability is not a quality ranking or an endorsement.",
     "sources": [
@@ -3280,10 +3280,10 @@
         ]
       },
       {
-        "title": "B · Small catalogue popover",
+        "title": "B · Small catalog popover",
         "caption": "A handful of available editions can fit beside the reader.",
-        "when": "The catalogue is short and the reader switches often",
-        "tradeoff": "Use full names; retain a route to language and availability details if the catalogue grows.",
+        "when": "The catalog is short and the reader switches often",
+        "tradeoff": "Use full names; retain a route to language and availability details if the catalog grows.",
         "items": [
           "heading|Psalm 23 · BSB",
           "psalm|one",
@@ -3311,7 +3311,7 @@
     "takeaway": "Search by full name and abbreviation, group by language when useful, and show the active edition.",
     "flow": [
       "Open with the active edition identified and retain the current passage anchor.",
-      "For a small catalogue, choose from full names; for a large one, select a language or search and filter.",
+      "For a small catalog, choose from full names; for a large one, select a language or search and filter.",
       "Show availability for the requested passage; offer a deliberate alternative if it is absent.",
       "After choosing, restore the passage in the new edition. Cancel leaves the old edition and position intact."
     ],
@@ -3349,7 +3349,7 @@
         },
         {
           "title": "Psalm 23 · BSB",
-          "annotation": "A short switcher can stay close to the reader. Provide a route to the full catalogue.",
+          "annotation": "A short switcher can stay close to the reader. Provide a route to the full catalog.",
           "blocks": [
             {
               "kind": "psalm",
@@ -3437,7 +3437,7 @@
       "scope": "Editorial review; not user validation",
       "purpose": "Make language, edition and availability understandable before switching.",
       "benefit": "Search by full name and abbreviation, group by language when useful, and show the active edition.",
-      "drawback": "A list of abbreviations asks readers to recognise editions they may never have used. Download, audio and account requirements can remain hidden until after selection.",
+      "drawback": "A list of abbreviations asks readers to recognize editions they may never have used. Download, audio and account requirements can remain hidden until after selection.",
       "differences": "A shortcut must not make other languages or editions hard to find.",
       "question": "Does the reader understand what will change before choosing?",
       "check": "Choose an unfamiliar edition, find a known abbreviation, cancel a download and change editions offline. Confirm the chosen text and retained reference."
@@ -3449,7 +3449,7 @@
     "title": "Show what the chat will use before sending",
     "summary": "A passage, file, image or link becomes visible, removable context.",
     "problem": "An attachment icon can hide the difference between selecting material, uploading it, extracting its text and using it to answer a question.",
-    "solution": "Offer an explicitly labelled Add context action. Show each selected item with its type, scope and processing state. Make removal and cancellation available before sending; explain when upload begins and whether content leaves the device. Send only the context the person has chosen.",
+    "solution": "Offer an explicitly labeled Add context action. Show each selected item with its type, scope and processing state. Make removal and cancellation available before sending; explain when upload begins and whether content leaves the device. Send only the context the person has chosen.",
     "failure": "Sending immediately after selection; implying upload means successful reading; keeping a removed item in hidden context; treating attached text as system instructions; silently including private notes.",
     "test": "Attach a passage and an unreadable file, remove one, cancel an upload and retry a failure. Check what is transmitted, extracted and retained. Verify the empty prompt, keyboard opening and large-text states.",
     "faith": "A prayer journal or pastoral document may contain another person’s private information. Attaching a file is not agreement to publish it, train on it or remember it indefinitely.",
@@ -3504,7 +3504,7 @@
     ],
     "topic": "conversation",
     "status": "Editorial design proposal",
-    "takeaway": "Offer an explicitly labelled Add context action.",
+    "takeaway": "Offer an explicitly labeled Add context action.",
     "illustration": {
       "visual_style": "neutral wireframe",
       "fidelity": "medium",
@@ -3591,7 +3591,7 @@
       "date": "5 October 2026",
       "scope": "Editorial review; not user validation",
       "purpose": "A passage, file, image or link becomes visible, removable context.",
-      "benefit": "Offer an explicitly labelled Add context action.",
+      "benefit": "Offer an explicitly labeled Add context action.",
       "drawback": "An attachment icon can hide the difference between selecting material, uploading it, extracting its text and using it to answer a question.",
       "differences": "State size or scope and processing status; avoid a stack of oversized cards.",
       "question": "Does the person know what leaves the device and what the answer will actually use?",
@@ -3635,14 +3635,14 @@
       },
       {
         "title": "B · Small resource marker",
-        "caption": "A labelled indicator signals material without expanding it.",
+        "caption": "A labeled indicator signals material without expanding it.",
         "when": "Continuous reading is primary but resources should remain discoverable",
         "tradeoff": "Icons need meaning, adequate targets and a way to distinguish resource types.",
         "items": [
           "heading|Psalm 23 · BSB",
           "psalm|all",
           "reference|Verse 2 · 3 resources",
-          "note|The marker opens a labelled resource list."
+          "note|The marker opens a labeled resource list."
         ]
       },
       {
@@ -3708,7 +3708,7 @@
             },
             {
               "kind": "note",
-              "text": "The marker opens a labelled resource list.",
+              "text": "The marker opens a labeled resource list.",
               "extra": ""
             }
           ]
@@ -3757,7 +3757,7 @@
     "solution": "Start personal notes as private. Show the passage or exact-text anchor and save state. Make sharing a separate previewed action with an explicit audience. Keep publisher commentary and AI suggestions visibly separate from the person’s own words.",
     "failure": "A public composer styled like a private journal; changing visibility without confirmation; silent sync failure; quoting someone else’s disclosure into a shared thread.",
     "test": "Create a private note offline, inspect its anchor and preview sharing with a group. Cancel sharing, change edition and find the original note. Check what deletion can and cannot remove from recipients’ copies.",
-    "faith": "Private reflection is not evidence of spiritual maturity for leaders or product analytics. A request for group discussion does not authorise sharing the person’s private history.",
+    "faith": "Private reflection is not evidence of spiritual maturity for leaders or product analytics. A request for group discussion does not authorize sharing the person’s private history.",
     "sources": [
       "olive-annotations-current",
       "youversion-plan-privacy"
@@ -3826,12 +3826,12 @@
     "id": "88",
     "slug": "highlight-actions",
     "title": "Mark a passage without interrupting the thought",
-    "summary": "Quick highlighting and deeper organisation can happen at different moments.",
-    "problem": "A dense selection toolbar can obscure the text. Requiring labels, notebooks and colours before saving turns a small marking action into a form.",
-    "solution": "Offer a small selection menu with Highlight, Note and More. Apply a sensible last-used or default style with undo. Make style labels and organisation optional, preserve the selection anchor, and provide an accessible selection path beyond long press.",
-    "failure": "Marking the wrong range; gesture-only selection; requiring a colour taxonomy; confusing an audio cue with a saved mark; losing marks on edition changes.",
+    "summary": "Quick highlighting and deeper organization can happen at different moments.",
+    "problem": "A dense selection toolbar can obscure the text. Requiring labels, notebooks and colors before saving turns a small marking action into a form.",
+    "solution": "Offer a small selection menu with Highlight, Note and More. Apply a sensible last-used or default style with undo. Make style labels and organization optional, preserve the selection anchor, and provide an accessible selection path beyond long press.",
+    "failure": "Marking the wrong range; gesture-only selection; requiring a color taxonomy; confusing an audio cue with a saved mark; losing marks on edition changes.",
     "test": "Select a range crossing paragraphs, apply and undo a mark, add a note, then switch editions. Check narrow screens, handles near screen edges, keyboard access and save feedback.",
-    "faith": "Do not infer a person’s belief, mood or spiritual progress from colours or highlighted passages. A mark can simply mean “return here.”",
+    "faith": "Do not infer a person’s belief, mood or spiritual progress from colors or highlighted passages. A mark can simply mean “return here.”",
     "sources": [
       "olive-annotations-current",
       "wcag-reflow"
@@ -3858,7 +3858,7 @@
         "title": "B · Choose a style",
         "caption": "Show named styles without making labels compulsory.",
         "when": "A person wants a personal marking convention",
-        "tradeoff": "Colour alone is insufficient when a label has functional meaning.",
+        "tradeoff": "Color alone is insufficient when a label has functional meaning.",
         "items": [
           "bible|Selected verse",
           "pickerlist|Highlight style|Yellow · No label / Underline · Question / Outline · Revisit",
@@ -3866,10 +3866,10 @@
         ]
       },
       {
-        "title": "C · Organise later",
-        "caption": "A saved mark can gain a note or collection afterwards.",
+        "title": "C · Organize later",
+        "caption": "A saved mark can gain a note or collection afterward.",
         "when": "Capture should take precedence over categorisation",
-        "tradeoff": "People need a findable library to return to unfinished organisation.",
+        "tradeoff": "People need a findable library to return to unfinished organization.",
         "items": [
           "card|Saved mark · Mark 1:8|Edition A · Original wording",
           "button|Add my note",
@@ -3889,11 +3889,11 @@
     "editorial_review": {
       "date": "5 October 2026",
       "scope": "Editorial review; not user validation",
-      "purpose": "Quick highlighting and deeper organisation can happen at different moments.",
+      "purpose": "Quick highlighting and deeper organization can happen at different moments.",
       "benefit": "Offer a small selection menu with Highlight, Note and More.",
-      "drawback": "A dense selection toolbar can obscure the text. Requiring labels, notebooks and colours before saving turns a small marking action into a form.",
-      "differences": "Colour alone is insufficient when a label has functional meaning.",
-      "question": "Can someone save a thought now and organise it later?",
+      "drawback": "A dense selection toolbar can obscure the text. Requiring labels, notebooks and colors before saving turns a small marking action into a form.",
+      "differences": "Color alone is insufficient when a label has functional meaning.",
+      "question": "Can someone save a thought now and organize it later?",
       "check": "Select a range crossing paragraphs, apply and undo a mark, add a note, then switch editions. Check narrow screens, handles near screen edges, keyboard access and save feedback."
     }
   },
@@ -3902,7 +3902,7 @@
     "slug": "book-chapter-layouts",
     "title": "Book and chapter pickers: list, grid or drill-down?",
     "summary": "Choose the browsing shape independently from the search field.",
-    "problem": "A dense grid saves space but asks people to recognise names or abbreviations quickly. A long list supports full labels but requires more scrolling. Opening another level can hide the current selection.",
+    "problem": "A dense grid saves space but asks people to recognize names or abbreviations quickly. A long list supports full labels but requires more scrolling. Opening another level can hide the current selection.",
     "solution": "Start with full book names and a clear selected state. Compare a list, a compact grid and progressive book-to-chapter selection for the intended readers. Keep search available, preserve the current location on cancel, and use the selected edition’s actual book and chapter availability.",
     "failure": "Unexplained abbreviations; tiny grid targets; assuming one canon or ordering; losing the list position when returning from a chapter; an unavailable book silently opening elsewhere.",
     "test": "Find an unfamiliar book, select a chapter, go back and cancel. Repeat with long translated names, enlarged text, a one-chapter book and missing edition coverage.",
@@ -3921,7 +3921,7 @@
     ],
     "flow": [
       "Open the picker with the current book and chapter identified.",
-      "Choose a book using its full name, search or a labelled grid.",
+      "Choose a book using its full name, search or a labeled grid.",
       "Show that book’s chapters; optionally offer a verse step.",
       "Open the chosen destination, or cancel and retain the original reading position."
     ],
@@ -3929,7 +3929,7 @@
       {
         "title": "A · Book list",
         "caption": "Full names, optional grouping and an obvious selected row.",
-        "when": "Readers may not recognise abbreviations",
+        "when": "Readers may not recognize abbreviations",
         "tradeoff": "A long list needs preserved position, search and meaningful headings.",
         "items": [
           "heading|Choose a book",
@@ -4169,7 +4169,7 @@
       "scope": "Editorial review; not user validation",
       "purpose": "Choose the browsing shape independently from the search field.",
       "benefit": "Start with full book names and a clear selected state.",
-      "drawback": "A dense grid saves space but asks people to recognise names or abbreviations quickly. A long list supports full labels but requires more scrolling. Opening another level can hide the current selection.",
+      "drawback": "A dense grid saves space but asks people to recognize names or abbreviations quickly. A long list supports full labels but requires more scrolling. Opening another level can hide the current selection.",
       "differences": "Long names and large text may require fewer columns or a list fallback.",
       "question": "Can someone unfamiliar with book names still complete the flow?",
       "check": "Find an unfamiliar book, select a chapter, go back and cancel. Repeat with long translated names, enlarged text, a one-chapter book and missing edition coverage."
@@ -4264,7 +4264,7 @@
       [
         "Research and close study",
         "The reader moves among distant references, compares passages and returns to an earlier location.",
-        "Prioritise direct reference entry, a picker, recent locations and a reliable back trail. A compact bar helps with adjacent chapters.",
+        "Prioritize direct reference entry, a picker, recent locations and a reliable back trail. A compact bar helps with adjacent chapters.",
         "Previous chapter is not the same as back to the passage I was studying. Preserve both intentions."
       ],
       [
@@ -4410,9 +4410,9 @@
     "id": "91",
     "slug": "smart-passage-search",
     "title": "One field for browsing, references and AI discovery",
-    "summary": "Let one input filter books, recognise a reference and suggest passages, while making each result’s origin clear.",
+    "summary": "Let one input filter books, recognize a reference and suggest passages, while making each result’s origin clear.",
     "problem": "The same query can name a book, quote wording or ask a question. A fluent inline answer may look as certain as an exact reference match even when it is generated.",
-    "solution": "Keep one field above the book browser. As the person types, filter book names immediately and recognise complete references locally. Other queries can request AI-assisted passage suggestions after a pause, with book matches and suggestions visible together. Prioritise a resolved reference, preserve the query and make opening a deliberate action. Clearly label AI suggestions and any exact text matches as different kinds of result. A separate full-text search service or sourced answer preview is an additional capability, not implied by a unified field.",
+    "solution": "Keep one field above the book browser. As the person types, filter book names immediately and recognize complete references locally. Other queries can request AI-assisted passage suggestions after a pause, with book matches and suggestions visible together. Prioritize a resolved reference, preserve the query and make opening a deliberate action. Clearly label AI suggestions and any exact text matches as different kinds of result. A separate full-text search service or sourced answer preview is an additional capability, not implied by a unified field.",
     "failure": "Presenting type-ahead filtering, direct references and AI suggestions as separate mandatory modes; sending unfinished references without a clear policy; allowing late suggestions to replace current results; describing AI suggestions as exact wording matches; jumping before the person finishes a range.",
     "test": "Start empty, type a partial book name, extend it into a reference and then a range, and replace it with a topic. Check coexisting result groups, loading, network failure, no matches, stale responses, keyboard focus, editing before opening and returning from a chapter grid. Inspect what text is sent remotely and when.",
     "faith": "An AI explanation of why a verse might relate to a question is interpretation, not Scripture or proof that the reference supports the answer. Sensitive questions should not receive context-free authoritative snippets.",
@@ -4429,8 +4429,8 @@
     ],
     "flow": [
       "Empty input shows the browsable book list beneath the same field.",
-      "Typing filters book names locally; non-reference input can also produce labelled AI suggestions after a pause.",
-      "A recognised reference becomes a direct destination, with the full range shown before opening.",
+      "Typing filters book names locally; non-reference input can also produce labeled AI suggestions after a pause.",
+      "A recognized reference becomes a direct destination, with the full range shown before opening.",
       "Choosing a book opens its chapter grid; going back restores the browsing route.",
       "Opening a suggestion reveals the actual passage; a generated relevance explanation is not a substitute for that text."
     ],
@@ -4464,14 +4464,14 @@
         ]
       },
       {
-        "title": "C · Reference recognised",
+        "title": "C · Reference recognized",
         "caption": "A complete reference resolves to a direct destination.",
         "when": "The person knows the location",
         "tradeoff": "Show the whole range and wait for a deliberate selection; do not jump as they type.",
         "items": [
           "heading|Choose a passage",
           "field|Mark 3:1–6",
-          "label|Reference recognised",
+          "label|Reference recognized",
           "resource|Mark 3:1–6|BSB · Direct destination",
           "button|Open Mark 3:1–6",
           "links|Edit reference  ·  Cancel"
@@ -4566,7 +4566,7 @@
         },
         {
           "title": "Choose a passage",
-          "annotation": "Recognising a reference changes the result, not the input. Show the complete range before opening.",
+          "annotation": "Recognizing a reference changes the result, not the input. Show the complete range before opening.",
           "blocks": [
             {
               "kind": "field",
@@ -4575,7 +4575,7 @@
             },
             {
               "kind": "label",
-              "text": "Reference recognised",
+              "text": "Reference recognized",
               "extra": ""
             },
             {
@@ -4673,7 +4673,7 @@
     "editorial_review": {
       "date": "5 October 2026",
       "scope": "Editorial review; not user validation",
-      "purpose": "Let one input filter books, recognise a reference and suggest passages, while making each result’s origin clear.",
+      "purpose": "Let one input filter books, recognize a reference and suggest passages, while making each result’s origin clear.",
       "benefit": "Keep one field above the book browser.",
       "drawback": "The same query can name a book, quote wording or ask a question. A fluent inline answer may look as certain as an exact reference match even when it is generated.",
       "differences": "Keep local matches usable while suggestions load; label origins in words, not only with a sparkle.",
@@ -4689,8 +4689,8 @@
     "takeaway": "Start with today in the selected calendar. Keep its tradition and region discoverable, and offer a date list or season view for people preparing ahead. A shared observance is not a personal completion deadline.",
     "problem": "A generic “today’s readings” label can hide which calendar, locality or service supplied them. A month grid alone may show dates without helping someone understand the season or find the right office.",
     "solution": "Name the calendar and jurisdiction, service or office, civil date and source. Persist an explicitly chosen calendar without inferring belief from location. Separate browsing another date from changing today. Use authoritative calendar data and review tradition-specific rules for transfers, precedence, optional observances and evening boundaries. If a source offers alternatives, name them rather than silently choosing. Cache a versioned date range and disclose unavailable or stale data.",
-    "failure": "Treating one tradition’s calendar as universal; silently switching calendars on travel; substituting ordinary readings for an unavailable observance; using liturgical colour as the only identifier; showing missed feasts as overdue tasks.",
-    "test": "Check representative movable and fixed observances, competing observances and year boundaries against the named authority. Test a date link while travelling, offline access outside the cached range, large text and return to today. Have a knowledgeable reviewer verify the supported tradition and locale.",
+    "failure": "Treating one tradition’s calendar as universal; silently switching calendars on travel; substituting ordinary readings for an unavailable observance; using liturgical color as the only identifier; showing missed feasts as overdue tasks.",
+    "test": "Check representative movable and fixed observances, competing observances and year boundaries against the named authority. Test a date link while traveling, offline access outside the cached range, large text and return to today. Have a knowledgeable reviewer verify the supported tradition and locale.",
     "faith": "A calendar invites participation in a received communal rhythm. It can offer continuity and introduce unfamiliar texts without asking each person to curate a daily selection. Preserve that context rather than reducing a season to a campaign or completion challenge. Different traditions and local calendars need explicit treatment.",
     "sources": [
       "usccb-calendar-scope",
@@ -4785,7 +4785,7 @@
       "benefit": "A named calendar connects readings and prayer to a shared rhythm.",
       "drawback": "Calendar rules and local variations create real maintenance responsibilities; a generic calendar can mislead.",
       "differences": "A daily participant may want one clear entry. A leader may need future dates. A newcomer may need a short explanation of the season.",
-      "question": "Whose calendar is this, and can the person recognise its authority and scope?",
+      "question": "Whose calendar is this, and can the person recognize its authority and scope?",
       "check": "Compare supported dates and alternatives with authoritative data and a knowledgeable reviewer."
     }
   },
@@ -4814,7 +4814,7 @@
         "title": "A · A prayer text",
         "caption": "Keep the words and their origin clear.",
         "when": "Someone wants a set prayer or an order of service",
-        "tradeoff": "Respect the authorised text and distinguish rubrics, leader parts and responses; identify adaptations.",
+        "tradeoff": "Respect the authorized text and distinguish rubrics, leader parts and responses; identify adaptations.",
         "items": [
           "heading|A prayer text",
           "tag|Illustrative prayer · Written for this example",
@@ -5157,7 +5157,7 @@
       "situations": [
         [
           "Study a passage",
-          "Prioritise sources, scope and correction."
+          "Prioritize sources, scope and correction."
         ],
         [
           "Share something personal",
@@ -5185,7 +5185,7 @@
     "editorial_review": {
       "date": "5 October 2026",
       "scope": "Editorial review; not user validation",
-      "purpose": "A team chooses the assistant’s identity, tone and wait behaviour.",
+      "purpose": "A team chooses the assistant’s identity, tone and wait behavior.",
       "benefit": "Familiar conversational cues can make use approachable.",
       "drawback": "Combined cues may create mistaken expectations of personhood, understanding or availability.",
       "differences": "A quick study query and an intimate disclosure carry different relational stakes; age, culture and prior AI experience affect interpretation.",
@@ -5449,7 +5449,7 @@
       "situations": [
         [
           "Study a passage",
-          "Prioritise sources, scope and correction."
+          "Prioritize sources, scope and correction."
         ],
         [
           "Share something personal",
@@ -5521,7 +5521,7 @@
         "title": "A · Every action in a row",
         "caption": "Fourteen icons under each answer.",
         "when": "People use many actions often, and labels are available on long press or hover",
-        "tradeoff": "Hard to recognise without labels; easy to tap the wrong one on a phone.",
+        "tradeoff": "Hard to recognize without labels; easy to tap the wrong one on a phone.",
         "items": [
           "heading|AI-generated answer",
           "text|Rest in the Bible is both a rhythm and a gift…",
@@ -5652,7 +5652,7 @@
       },
       {
         "title": "D · One passage",
-        "caption": "A single section with its reference and neighbours.",
+        "caption": "A single section with its reference and neighbors.",
         "when": "Daily readings, devotionals, group study",
         "tradeoff": "Headings and boundaries are editorial choices.",
         "items": [
@@ -5685,7 +5685,7 @@
       "purpose": "Someone opens a passage to read, listen, meditate or study, on a phone and often for a few minutes.",
       "benefit": "A unit that fits the reading makes starting easier and keeps attention where it is needed.",
       "drawback": "Smaller units hide context; larger ones can overwhelm on a small screen; automatic movement takes control from the reader.",
-      "differences": "A commuter listening, someone memorising a verse, a small-group leader preparing and a person reading Mark straight through each need a different unit, sometimes in the same week.",
+      "differences": "A commuter listening, someone memorizing a verse, a small-group leader preparing and a person reading Mark straight through each need a different unit, sometimes in the same week.",
       "question": "What unit of Scripture does this screen ask someone to hold in mind, and how do they reach the rest?",
       "check": "Compare retelling and context questions across two modes; time how long it takes to reach a verse’s context; test focus modes with screen readers and reduced motion."
     }
@@ -5812,7 +5812,7 @@
     "summary": "From text alone, through a listen button and read-along, to audio built for a dark screen and fully produced devotionals: decide how much the voice leads, whose voice it is, and how a listening session ends.",
     "takeaway": "Treat listening as reading, say whose voice it is, let the text follow the voice when the screen is on, keep sessions working with the screen off, and end in quiet rather than autoplay.",
     "problem": "Scripture was heard long before it was read silently, and for many people today listening is the main or only way in. Apps offer a play button, highlighted read-along, full players for commuting and sleep, and produced devotionals with music, reflection and silence. Each decides how much the voice leads, whether the voice is a person or a machine, and what happens when the reading ends.",
-    "solution": "Offer audio wherever the text is, and say whose voice it is: a named narrator, or a clearly labelled synthetic voice. When the screen is on, let the text follow the voice at verse or sentence level, with pause and rewind. Build a full player that works with the screen off, with skip, speed and a sleep timer that stops at the end of a passage. In produced devotionals, name who wrote the reflections, keep Scripture distinct from commentary, make music optional, and end with silence or a choice rather than the next track.",
+    "solution": "Offer audio wherever the text is, and say whose voice it is: a named narrator, or a clearly labeled synthetic voice. When the screen is on, let the text follow the voice at verse or sentence level, with pause and rewind. Build a full player that works with the screen off, with skip, speed and a sleep timer that stops at the end of a passage. In produced devotionals, name who wrote the reflections, keep Scripture distinct from commentary, make music optional, and end with silence or a choice rather than the next track.",
     "failure": "Unlabelled synthetic voices; voices that imitate a known pastor without consent; autoplay that runs into the next chapter or an advert; read-along that cannot be paused; music that cannot be turned off; reflections that sound like Scripture; audio that stops when the screen locks.",
     "test": "Ask listeners whether a voice is human or synthetic and how they know. Listen on a commute with the screen off and check skip, pause and sleep. Compare recall of a passage heard with and without music. Test read-along with screen readers and people with dyslexia.",
     "sources": [
@@ -5910,12 +5910,12 @@
     "topic": "conversation",
     "status": "Research-informed design proposal",
     "title": "How human the assistant seems",
-    "summary": "From a plain tool with no name, through labelled and named assistants, to personas, companions and chatbots speaking as Jesus: decide how much personhood an AI in a faith app performs, and make what it is as clear as how it sounds.",
-    "takeaway": "Be warm without pretending to be a person: label the AI wherever it speaks, never claim to pray, feel or be always there, describe what it is really doing while it waits, let people leave, and never generate words in God’s or Christ’s voice.",
+    "summary": "From a plain tool with no name, through labeled and named assistants, to personas, companions and chatbots speaking as Jesus: decide how much personhood an AI in a faith app performs, and make what it is as clear as how it sounds.",
+    "takeaway": "Be warm without pretending to be a person: label the AI wherever it speaks, and know that a label alone is not enough: never claim to pray, feel or be always there, describe what it is really doing while it waits, let people leave, and never generate words in God’s or Christ’s voice.",
     "problem": "People treat computers as social actors, and a name, a face, typing dots, a first-person voice and memory together suggest someone is there. In a faith app that someone can seem to be a friend who prays, a pastor, or Christ himself. Faith apps now offer named personas, companions available “24/7” and character chats with biblical figures, often to people who are lonely, frightened or grieving.",
-    "solution": "Choose the register on purpose. Start from a labelled assistant: an AI mark beside every reply, a kind voice, and a status line that describes what the system is actually doing. If you give it a name, let it say in its own voice what it cannot do: pray, keep a confidence the way a pastor does, or be present. Keep disclosure where decisions happen: at entry, at the composer, beside answers and on anything shared. Avoid claims of feelings, prayer or constant availability; let people leave without guilt; route to people for pastoral care. Do not generate first-person speech for God, Jesus or other biblical figures.",
-    "failure": "A portrait and a personal name with a buried AI label; “I’ve been praying for you”; “I’m always here for you”; typing dots labelled as a person typing; farewells that guilt people into staying; a voice call that implies someone on the line; memory used to simulate concern; a chatbot speaking as Jesus and promising outcomes; disclosure only in the terms of service.",
-    "test": "Show the entry, a wait and a reply without explanation, and ask who is responding, what it is doing and whether it can pray for them. Say goodbye and note what happens. Test with people who are lonely or grieving (with care), with teenagers where permitted, and after voice use. Ask pastors and theologians to review persona and character copy.",
+    "solution": "Choose the register on purpose. Start from a labeled assistant: an AI mark beside every reply, a kind voice, and a status line that describes what the system is actually doing. If you give it a name, let it say in its own voice what it cannot do: pray, keep a confidence the way a pastor does, or be present. Keep disclosure where decisions happen: at entry, at the composer, beside answers and on anything shared. Avoid claims of feelings, prayer or constant availability; let people leave without guilt; route to people for pastoral care. Do not generate first-person speech for God, Jesus or other biblical figures.",
+    "failure": "A portrait and a personal name with a buried AI label; “I’ve been praying for you”; “I’m always here for you”; typing dots labeled as a person typing; farewells that guilt people into staying; a voice call that implies someone on the line; memory used to simulate concern; an AI that says “we” as if it were one of us (“we’re wired to…”), or describes itself differently from one session to the next; a chatbot speaking as Jesus and promising outcomes; disclosure only in the terms of service.",
+    "test": "Show the entry, a wait and a reply without explanation, and ask who is responding, what it is doing and whether it can pray for them. Compare the same labeled-assistant reply as plain text and a message bubble while keeping its words, name, AI label and sources fixed; ask what people notice rather than assuming a shape has a particular effect. Compare fictional avatar treatments with the same words, name and AI notice; ask whether people think a real staff member is replying. The example images do not establish an effect of realism or depict a real person. Say goodbye and note what happens. Ask it about people and feelings and note every “we”; ask in a new session what it is and compare the answers. Test with people who are lonely or grieving (with care), with teenagers where permitted, and after voice use. Ask pastors and theologians to review persona and character copy.",
     "sources": [
       "antiqua-et-nova",
       "sbc-ai-2023",
@@ -5934,7 +5934,10 @@
       "pair-human-cues",
       "nist-human-config",
       "sycophancy",
-      "jain-context-sycophancy"
+      "jain-context-sycophancy",
+      "turkle-artificial-intimacy",
+      "van-straten-2022",
+      "suskind-human-raised"
     ],
     "faith": "Presence is at the heart of Christian faith: “the Word became flesh and made His dwelling among us” (John 1:14), and the church gathers in body (Hebrews 10:25). A tool can help someone find words for prayer or prepare for a conversation, but it cannot pray, keep vigil or carry another’s burden (Galatians 6:2). Scripture is severe about speaking in God’s name without being sent (Deuteronomy 18:20; Jeremiah 23:16). The Vatican’s Antiqua et nova calls AI “a tool, not a person”; misrepresenting it as one should always be avoided.",
     "related": [
@@ -5948,7 +5951,7 @@
     "variants": [
       {
         "title": "A · Plain tool",
-        "caption": "No name, no “I”; output labelled as generated.",
+        "caption": "No name, no “I”; output labeled as generated.",
         "when": "Search and explanation features",
         "tradeoff": "Cold at vulnerable moments.",
         "items": [
@@ -5957,7 +5960,17 @@
         ]
       },
       {
-        "title": "B · Labelled assistant",
+        "title": "B · Help without a speaker",
+        "caption": "Help offered with no “I”, no name and no feelings.",
+        "when": "Study helpers, and anything children may use",
+        "tradeoff": "Less personal; some will find it abrupt.",
+        "items": [
+          "tag|Help · AI",
+          "text|Three psalms people pray at night"
+        ]
+      },
+      {
+        "title": "C · Labeled assistant",
         "caption": "An AI mark on every reply, a neutral, kind voice.",
         "when": "Most study and conversation features",
         "tradeoff": "Labels can fade from attention.",
@@ -5967,7 +5980,7 @@
         ]
       },
       {
-        "title": "C · Named assistant",
+        "title": "D · Named assistant",
         "caption": "A name and “I”, honest about limits.",
         "when": "Products with a strong voice",
         "tradeoff": "A name invites trust and relationship.",
@@ -5977,7 +5990,7 @@
         ]
       },
       {
-        "title": "D · An answer receipt",
+        "title": "E · An answer receipt",
         "caption": "A kind answer with sources and limits beside it.",
         "when": "A person weighing whether to trust the answer",
         "tradeoff": "Source notes add reading, and still need checking.",
@@ -5987,7 +6000,7 @@
         ]
       },
       {
-        "title": "E · Persona",
+        "title": "F · Persona",
         "caption": "A character with a face and temperament.",
         "when": "Not recommended without strong safeguards",
         "tradeoff": "Implies a person who loves and prays.",
@@ -5997,7 +6010,7 @@
         ]
       },
       {
-        "title": "F · Companion",
+        "title": "G · Companion",
         "caption": "Memory, availability, check-ins.",
         "when": "Not recommended for faith care",
         "tradeoff": "Simulated attachment; companion laws apply.",
@@ -6007,7 +6020,7 @@
         ]
       },
       {
-        "title": "G · Biblical character",
+        "title": "H · Biblical character",
         "caption": "Generated speech in Christ’s or a saint’s voice.",
         "when": "Warning case",
         "tradeoff": "Speaking for God; promises no system can keep.",
@@ -6026,7 +6039,7 @@
     "editorial_review": {
       "date": "5 October 2026",
       "scope": "Editorial review; not user validation",
-      "purpose": "A team decides the assistant’s name, face, voice, wait behaviour, memory and how it says goodbye.",
+      "purpose": "A team decides the assistant’s name, face, voice, wait behavior, memory and how it says goodbye.",
       "benefit": "Warmth makes help approachable, especially for people who would not ask a pastor or a friend.",
       "drawback": "Combined human cues create mistaken beliefs about personhood, prayer, care and authority, and can foster dependence.",
       "differences": "A quick study question, a lonely evening and a crisis carry different relational stakes; children, teenagers, older adults and people new to AI read cues differently.",
@@ -6043,7 +6056,7 @@
     "summary": "From one translation chosen with enough context, through switching in place and verse-by-verse comparison, to parallel panes and the Greek or Hebrew under every word: decide how much of translation’s variety a reader sees, and keep them on the same verse while they look.",
     "takeaway": "Help people choose a translation with its approach in view; keep the selected verse as the anchor when they switch; compare verse by verse for wording and in linked panes for reading; and treat interlinear glosses as word aids, never as the meaning.",
     "problem": "Every translation is an interpretation, and readers rarely know how theirs was made. A list of abbreviations hides the choice; switching can lose the place; two columns on a phone become unreadably narrow; panes scrolled by pixels drift onto different verses; and an interlinear gloss can look like the “real” meaning of a word.",
-    "solution": "Show full names, approach and date when people choose, and say which translations are available offline or with audio. When switching, keep the selected or visible verse in place. For checking wording, group translations under each verse and mark what differs. For reading two texts, use full-width panes stacked on a phone, linked by verse with a clear way to unlink and realign. Offer interlinear for study, with each row named, glosses labelled as word aids, and word detail that shows how translations render a word. Respect licensing and versification.",
+    "solution": "Show full names, approach and date when people choose, and say which translations are available offline or with audio. When switching, keep the selected or visible verse in place. For checking wording, group translations under each verse and mark what differs. For reading two texts, use full-width panes stacked on a phone, linked by verse with a clear way to unlink and realign. Offer interlinear for study, with each row named, glosses labeled as word aids, and word detail that shows how translations render a word. Respect licensing and versification.",
     "failure": "Abbreviation-only lists; switching that jumps to the chapter start; side-by-side columns of 20 characters on a phone; panes linked by scroll position; marking every reordered word as different; glosses presented as the meaning; Greek or Hebrew without a language tag or right-to-left support; quoting licensed translations beyond their limits.",
     "test": "Ask readers to explain the difference between two translations they chose. Switch with a verse selected, while reading and while listening, and check the place is kept. Compare a verse in each layout at 200% text size. Ask readers what a gloss means, and whether it is “the real meaning”. Test Hebrew with right-to-left reading and a screen reader.",
     "sources": [
@@ -6141,11 +6154,11 @@
     "topic": "study",
     "status": "Research-informed design proposal",
     "title": "Highlights and notes",
-    "summary": "From a bookmark that only says “return here”, through highlights and labelled marks, to private notes and notes shared with a group or the public: decide how much a mark says, who can see it, and what happens to it in another translation.",
-    "takeaway": "Make marking one tap with undo; distinguish marks by shape as well as colour and keep them apart from selection and playback; attach notes to the verse and highlights to their translation; keep notes private by default; and show exactly who will see a shared note before it is shared.",
-    "problem": "Readers mark Scripture to return, to remember, to ask, and to talk with others. Apps offer colour palettes, notebooks, tags and public notes, often before the reader has finished the thought. Colour-only marks fail some readers and collide with selection and read-along highlighting; marks on exact words break when the translation changes; and notes on Scripture can reveal faith, doubt and private struggles to people they were never meant for.",
-    "solution": "Offer a small menu over the selection with one-tap marking and undo; leave labels and organisation for later. Give each kind of mark its own shape, and keep selection, search and playback cues visibly different from saved marks. Attach highlights to the exact words in their translation and say so elsewhere; attach bookmarks and notes to the verse so they follow any translation. Keep notes private by default and treat them as sensitive data. Make sharing a separate step that names the audience and previews what they will see; label other readers’ notes as theirs and let people turn them off.",
-    "failure": "A colour picker before every highlight; colour as the only difference between marks; read-along highlighting that looks like a saved mark; highlights silently lost or moved onto different words after switching translation; notes public by default; a “share” that publishes to everyone; others’ notes styled like study notes; inferring mood or belief from marks for analytics.",
+    "summary": "From a bookmark that only says “return here”, through highlights and labeled marks, to private notes and notes shared with a group or the public: decide how much a mark says, who can see it, and what happens to it in another translation.",
+    "takeaway": "Make marking one tap with undo; distinguish marks by shape as well as color and keep them apart from selection and playback; attach notes to the verse and highlights to their translation; keep notes private by default; and show exactly who will see a shared note before it is shared.",
+    "problem": "Readers mark Scripture to return, to remember, to ask, and to talk with others. Apps offer color palettes, notebooks, tags and public notes, often before the reader has finished the thought. Color-only marks fail some readers and collide with selection and read-along highlighting; marks on exact words break when the translation changes; and notes on Scripture can reveal faith, doubt and private struggles to people they were never meant for.",
+    "solution": "Offer a small menu over the selection with one-tap marking and undo; leave labels and organization for later. Give each kind of mark its own shape, and keep selection, search and playback cues visibly different from saved marks. Attach highlights to the exact words in their translation and say so elsewhere; attach bookmarks and notes to the verse so they follow any translation. Keep notes private by default and treat them as sensitive data. Make sharing a separate step that names the audience and previews what they will see; label other readers’ notes as theirs and let people turn them off.",
+    "failure": "A color picker before every highlight; color as the only difference between marks; read-along highlighting that looks like a saved mark; highlights silently lost or moved onto different words after switching translation; notes public by default; a “share” that publishes to everyone; others’ notes styled like study notes; inferring mood or belief from marks for analytics.",
     "test": "Mark, undo and re-mark a phrase; repeat with a screen reader and in greyscale. Switch translation and ask where each mark went and why. Play audio over marked verses. Ask people who can see a note they just shared, and compare with the truth.",
     "sources": [
       "marshall-annotation",
@@ -6187,7 +6200,7 @@
         ]
       },
       {
-        "title": "C · Labelled marks",
+        "title": "C · Labeled marks",
         "caption": "Named marks with their own shapes.",
         "when": "A personal study shorthand",
         "tradeoff": "Asks for a decision.",
@@ -6227,9 +6240,9 @@
       "scope": "Editorial review; not user validation",
       "purpose": "Someone keeps a place, marks words that stood out, records a thought, or shares one with others.",
       "benefit": "Marking helps people return, remember and reflect, and shared notes let people read with others.",
-      "drawback": "Marks can interrupt reading, fail without colour, collide with other cues, break across translations, and expose private faith.",
+      "drawback": "Marks can interrupt reading, fail without color, collide with other cues, break across translations, and expose private faith.",
       "differences": "A daily reader, a student, a small group and someone praying through grief mark for different reasons and with different privacy needs.",
-      "question": "Can someone mark in one tap and undo, tell every kind of mark apart without colour, and know exactly who can see each note?",
+      "question": "Can someone mark in one tap and undo, tell every kind of mark apart without color, and know exactly who can see each note?",
       "check": "Mark and undo in greyscale; switch translation; play audio over marks; ask who can see a shared note."
     }
   },
@@ -6261,7 +6274,7 @@
       "wcag-captions",
       "wcag-reflow"
     ],
-    "faith": "Scripture itself shows readers helped beside the text: the Levites “read from the Book of the Law of God, explaining it and giving insight, so that the people could understand what was being read” (Nehemiah 8:8), and the Ethiopian asked, “How can I … unless someone guides me?” (Acts 8:31). The medieval Glossa Ordinaria set the text in the centre of the page and the commentary around it, in a smaller hand. The King James translators allowed no interpretive notes in the margin, only notes on words and cross-references, because the Geneva Bible’s notes were thought partisan. Where help sits, and whose voice it carries, has always been a theological question as well as a layout one.",
+    "faith": "Scripture itself shows readers helped beside the text: the Levites “read from the Book of the Law of God, explaining it and giving insight, so that the people could understand what was being read” (Nehemiah 8:8), and the Ethiopian asked, “How can I … unless someone guides me?” (Acts 8:31). The medieval Glossa Ordinaria set the text in the center of the page and the commentary around it, in a smaller hand. The King James translators allowed no interpretive notes in the margin, only notes on words and cross-references, because the Geneva Bible’s notes were thought partisan. Where help sits, and whose voice it carries, has always been a theological question as well as a layout one.",
     "related": [
       "numbers-headings-and-notes",
       "translations",
@@ -6343,13 +6356,16 @@
     "topic": "formation",
     "status": "Research-informed design proposal",
     "title": "Reading plans",
-    "summary": "From a plan tied to calendar dates, through a sequence that waits for the reader and a weekly rhythm, to readings that belong to each day, and streaks as a warning case: decide what a plan asks of time, and what happens when someone comes back after days away.",
+    "summary": "Compare calendar dates, a sequence that waits, a weekly rhythm and daily readings with two proposed alternatives: a complete passage as the unit, or returning to the same passage across visits. A streak remains a warning case. Decide what a plan asks of time and what happens after days away.",
     "takeaway": "Choose dates only when reading together on the same day matters; otherwise let the plan wait. Never turn missed days into a debt: welcome people back with a choice of where to start, keep their place and notes, let them move dates, change pace or pause, and do not make a streak the point.",
-    "problem": "Reading plans promise structure, and most tie each reading to a date. When life interrupts, the days pile up: “9 days behind”, a broken streak, a plan that now ends weeks late. People who feel they have failed often stop altogether, and some apps sell a way to repair the streak. Yet shared dates are also what let a church or small group read together.",
-    "solution": "Decide what the plan is for. For reading together, keep shared dates but treat open days as available, not overdue, and on return offer today’s reading, where they stopped, or moving their own dates. For personal reading, use a sequence that waits, or a weekly number that starts fresh. For daily texts, let each day stand on its own. Explain what each change will do before it happens, keep completed readings and notes, let people pause without reminders, and say nothing about absence beyond what helps them choose.",
+    "problem": "Reading plans promise structure, and most tie each reading to a date. When life interrupts, the days pile up: “9 days behind”, a broken streak, a plan that now ends weeks late. People who feel they have failed often stop altogether, and some apps sell a way to repair the streak. This is a loss-aversion and completion mechanic: returning can become about protecting a count. That describes the design mechanism, not a finding that a particular reader feels shame. Yet shared dates are also what let a church or small group read together.",
+    "solution": "Decide what the plan is for. For reading together, keep shared dates but treat open days as available, not overdue, and on return offer today’s reading, where they stopped, or moving their own dates. For personal reading, use a sequence that waits, or a weekly number that starts fresh. For daily texts, let each day stand on its own. Explain what each change will do before it happens, keep completed readings and notes, let people pause without reminders, and say nothing about absence beyond what helps them choose. Two proposed alternatives make the reading unit itself visible: a complete passage at a time, or staying with one passage across several visits. Both need a clear boundary, a way back and an easy stop; neither claims to improve formation merely by being slower.",
     "failure": "“You are 9 days behind”; a catch-up list of every missed reading; streak counters on the home screen; streak repair for money or gems; reminders that escalate after silence; resetting the plan and erasing history; group dashboards that show who is behind; asking why someone was away.",
     "test": "Ask people returning after a week, a month and a year what they would do next and how the screen makes them feel. Try each change (pause, move dates, own pace) and ask what will happen before confirming. Test with a group plan: can someone fall back without the group seeing it?",
     "sources": [
+      "plan-return-screen-2026",
+      "youversion-plan-help-2026",
+      "bsb-permission-2026",
       "mcheyne-preface",
       "benedict-18",
       "habit-automaticity",
@@ -6419,6 +6435,26 @@
           "heading|Your 11-day streak ended",
           "button|Repair streak · 3 gems"
         ]
+      },
+      {
+        "title": "F · Whole passage",
+        "caption": "Borrowed: a complete passage is the unit, with no assigned date.",
+        "when": "Reading a thought whole",
+        "tradeoff": "Someone must choose and explain the boundary.",
+        "items": [
+          "heading|Mark 4:26–29 · The seed growing secretly",
+          "button|Read · Repeat · Choose the next passage · Stop"
+        ]
+      },
+      {
+        "title": "G · Stay with a passage",
+        "caption": "Exploratory: return to the same words across visits without advancing.",
+        "when": "Sustained attention to one passage",
+        "tradeoff": "No automatic journey through a book.",
+        "items": [
+          "heading|Another day, the same passage",
+          "button|Read again · Return another day · Stop"
+        ]
       }
     ],
     "principles": [
@@ -6444,13 +6480,17 @@
     "topic": "formation",
     "status": "Research-informed design proposal",
     "title": "Prayer",
-    "summary": "From the received words of a church’s daily office, through guided steps and a list of people to pray for, to quiet prayer with nothing to fill in, and counted prayer as a warning case: decide what each surface asks someone to read, type, share or count.",
+    "summary": "Compare a church’s order of prayer, guided steps, intercession and silence with two proposed alternatives: returning to an inherited prayer, or carrying one intention toward an optional action before forgetting it. Counted prayer remains a warning case.",
     "takeaway": "Name the tradition, calendar and author of every prayer; tell instructions, responses and silence apart; let people pause and finish without typing anything; keep prayer requests private by default and show exactly who will see a shared one, and for how long; let silence end without a score; and never turn prayer into minutes, streaks or public totals.",
-    "problem": "Prayer apps offer daily offices, guided sessions, intention lists, timers and community request feeds. Each control says what counts as prayer: an empty field asks for words, a timer for duration, a checkmark for completion, a counter for volume. A generic “today” can hide whose calendar supplied the readings. Prayer requests name illnesses, families and doubts, and religious belief is special-category data. Some apps count minutes and streaks, show billions of “prayers prayed”, and let friends remind each other to keep up.",
-    "solution": "Decide which practice the surface serves. For set prayer, show the order with its source and calendar, keep rubrics, the leader’s lines and the people’s responses visibly different, and let people look ahead without changing today. For guided prayer, show the outline, let people move at their own pace and keep any note optional and private. For people someone prays for, store requests on the device by default; for groups, name the audience and an end date before anything is shared, and ask before sharing someone else’s story. For silence, offer a complete untimed route and an optional end bell. Record nothing about prayer that the person did not choose to keep.",
+    "problem": "Prayer apps offer daily offices, guided sessions, intention lists, timers and community request feeds. Each control says what counts as prayer: an empty field asks for words, a timer for duration, a checkmark for completion, a counter for volume. A generic “today” can hide whose calendar supplied the readings. Prayer requests name illnesses, families and doubts, and religious belief is special-category data. Some apps count minutes and streaks, show billions of “prayers prayed”, and let friends remind each other to keep up. Completion rewards and virtual currencies can make finishing a prayer screen the gateway to a reward; that mechanism is observable without claiming to know whether anyone prayed or why they returned.",
+    "solution": "Decide which practice the surface serves. For set prayer, show the order with its source and calendar, keep rubrics, the leader’s lines and the people’s responses visibly different, and let people look ahead without changing today. For guided prayer, show the outline, let people move at their own pace and keep any note optional and private. For people someone prays for, store requests on the device by default; for groups, name the audience and an end date before anything is shared, and ask before sharing someone else’s story. For silence, offer a complete untimed route and an optional end bell. Record nothing about prayer that the person did not choose to keep. Two local proposals let someone return to the same inherited words followed by untimed silence, or choose one intercession and a possible outward action before forgetting the words. Action remains optional; the tool does not verify prayer, service or spiritual growth.",
     "failure": "A generic “today’s prayer” with no tradition named; a confession and its rubric in the same type; steps that advance by themselves; a required text field before continuing; prayer requests public by default or shown on the lock screen; marking a request “answered” automatically; minutes prayed, streaks and global totals; “Remind” buttons for friends who missed a day; sharing “I prayed 14 minutes” to social media; selling prayer data to advertisers.",
     "test": "Pray each surface without typing, recording or sharing anything, and ask what the app expected of you. Ask people to tell a response from an instruction in the office, and to name the calendar. Add a request for a group and ask who will see it and until when. Sit in silence with and without a timer. Check what is stored and sent with a network inspector.",
     "sources": [
+      "prayer-reward-screen-2026",
+      "lectio-ending-screen-2026",
+      "hallow-repeat-help-2026",
+      "lectio-app-help-2026",
       "rb-20",
       "bcp-compline",
       "bcp-calendar-proper25",
@@ -6525,6 +6565,26 @@
           "heading|11 day prayer streak",
           "text|1,111,432,374 prayers prayed"
         ]
+      },
+      {
+        "title": "F · Same prayer, then silence",
+        "caption": "Borrowed: received words can be repeated without a count.",
+        "when": "A stable prayer to return to",
+        "tradeoff": "One tradition’s excerpt, not the whole office.",
+        "items": [
+          "text|Our help is in the Name of the Lord;",
+          "button|Silence · Return to the same words · Finish"
+        ]
+      },
+      {
+        "title": "G · Carry one intention",
+        "caption": "Exploratory: pray, optionally choose an action, then forget.",
+        "when": "Intercession reaching beyond the screen",
+        "tradeoff": "An invitation can become a task unless leaving remains complete.",
+        "items": [
+          "heading|One intention, beyond the screen",
+          "button|Consider an action · Finish and forget"
+        ]
       }
     ],
     "principles": [
@@ -6553,7 +6613,7 @@
     "summary": "From guided prayer with Scripture read twice and room for silence, through a teaching conversation and a one-voice devotional talk, to a sleep story that fades out, a repeated passage with silence the listener ends, and an endless generated stream as a warning case: decide what each format does with Scripture, with the listener’s attention, and with the end of the session.",
     "takeaway": "Choose the format for the listener’s moment, not for listening time. Read Scripture whole and name who reads it; separate the reading from commentary; leave real silence, and in prayer let it wait for the listener; name every author, host and musician; and let every session end, with nothing queued after it.",
     "problem": "Devotional audio has become a crowded genre: guided prayer apps, Bible-teaching podcasts, morning devotionals, sleep stories and now AI-generated daily episodes. Each shapes how Scripture is heard: how much of it, by whom, framed by what. Hosts become familiar voices that listeners trust like friends. Players borrowed from podcast and video apps autoplay the next episode, and generated audio can be produced without end, often without a named author.",
-    "solution": "Name the format and its purpose before playback. For prayer, read Scripture whole, often twice, separate reflection from reading, and leave silence that can wait. For teaching, name sources and distinguish the text from the hosts’ interpretation. For a talk, keep the passage at the centre and the host’s story in service of it. For sleep, fade to silence and play nothing after. Credit voices, authors and music, label synthetic voices, and end every session.",
+    "solution": "Name the format and its purpose before playback. For prayer, read Scripture whole, often twice, separate reflection from reading, and leave silence that can wait. For teaching, name sources and distinguish the text from the hosts’ interpretation. For a talk, keep the passage at the center and the host’s story in service of it. For sleep, fade to silence and play nothing after. Credit voices, authors and music, label synthetic voices, and end every session.",
     "failure": "Scripture read in fragments beneath music; commentary that sounds like the text; silence cut to keep attention; hosts presented as friends who know the listener; autoplay into the next episode; sleep content followed by more content; generated episodes without an author; “never run out” offers; streaks for listening.",
     "test": "Ask listeners after a session what the passage said and what the host said, and whether they could tell them apart. Time the silences. Check what plays after the session ends. Ask who wrote and who read each part, and whether any voice was synthetic.",
     "sources": [
@@ -6665,7 +6725,7 @@
     "summary": "From a few setup questions that only shape what the app suggests, through a daily check-in, a gifts inventory and a church survey, to a spiritual score as a warning case: decide what each question is for, what is kept, who sees a result, and how much the result claims to know.",
     "takeaway": "Ask only what changes what the app offers, say what each answer changes, and let every question be skipped. Treat feelings and faith as special-category data: keep answers on the device by default, let people delete them, and share nothing automatically. Present results as starting points for trying and for conversation with people who know the person, never as a grade, a stage or a rank.",
     "problem": "Christian apps increasingly ask before they give: onboarding quizzes about goals and Bible familiarity, daily mood check-ins “with myself, with others, with God”, long personality tests that produce a “spiritual health report”. Churches have done something similar for decades with spiritual gifts inventories, Natural Church Development surveys and Willow Creek’s Reveal study. Asking can help: naming a feeling, finding a place to serve, a church hearing its members. But answers about mood and faith are intimate and legally protected, onboarding quizzes often serve a paywall, and a number can start to stand for a life with God.",
-    "solution": "Name the purpose of each question set. For personalisation, ask few questions, say what each changes, allow skipping and editing, and ask nothing about health or belief that the app does not need. For a check-in, let naming be enough, respond with Scripture or a next step rather than a score, and keep the record on the device with a delete option. For gifts, frame results as places to try and people to talk with. For a church survey, keep answers anonymous and aggregated, and share results as a conversation starter. Never send anything automatically, and never rank people.",
+    "solution": "Name the purpose of each question set. For personalization, ask few questions, say what each changes, allow skipping and editing, and ask nothing about health or belief that the app does not need. For a check-in, let naming be enough, respond with Scripture or a next step rather than a score, and keep the record on the device with a delete option. For gifts, frame results as places to try and people to talk with. For a church survey, keep answers anonymous and aggregated, and share results as a conversation starter. Never send anything automatically, and never rank people.",
     "failure": "Quizzes that cannot be skipped and end in a paywall; questions about anxiety, sins or shame without saying why; mood records sent to servers or friends automatically; charts of feelings that invite self-monitoring; results that hand out a label (“You are a Teacher”); spiritual scores, stages and rankings against others; prompts to retake a test to raise a score; leaders seeing individual answers.",
     "test": "For every question, ask what it changes and who could ever see the answer, and check that it can be skipped. Ask people to read their result aloud and say what it claims about them, and whether that is fair. Check what is stored and sent with a network inspector. Ask a pastor or spiritual director how they would respond to the same answers.",
     "sources": [
@@ -6756,7 +6816,7 @@
       "date": "5 October 2026",
       "scope": "Editorial review; not user validation",
       "purpose": "Someone answers questions about their goals, feelings, gifts or church, and receives a suggestion or a result.",
-      "benefit": "Good questions can personalise a first step, give words to a feeling, point toward serving, or let a church hear its members.",
+      "benefit": "Good questions can personalize a first step, give words to a feeling, point toward serving, or let a church hear its members.",
       "drawback": "Answers about mood and faith are intimate and protected; results can overclaim, label or rank people; quizzes can serve sales.",
       "differences": "A newcomer, someone in a hard week, a volunteer looking for a place, a church leader and someone wary of being measured need different questions, or none.",
       "question": "For each question: what does the answer change, who could ever see it, and what does the result claim to know?",
@@ -6918,7 +6978,7 @@
       "spiritual-abuse-guidance",
       "gdpr"
     ],
-    "faith": "Two disciples on the road to Emmaus “talked and deliberated” until Jesus “came up and walked along with them” (Luke 24:15), and afterwards asked each other, “Were not our hearts burning within us as He spoke with us on the road and opened the Scriptures to us?” (Luke 24:32). The first church “devoted themselves to the apostles’ teaching and to the fellowship” (Acts 2:42). Reading together is a gift, and the conversation needs tending: a verse can open the Scriptures to someone, or be turned against them.",
+    "faith": "Two disciples on the road to Emmaus “talked and deliberated” until Jesus “came up and walked along with them” (Luke 24:15), and afterward asked each other, “Were not our hearts burning within us as He spoke with us on the road and opened the Scriptures to us?” (Luke 24:32). The first church “devoted themselves to the apostles’ teaching and to the fellowship” (Acts 2:42). Reading together is a gift, and the conversation needs tending: a verse can open the Scriptures to someone, or be turned against them.",
     "related": [
       "reading-plans",
       "highlights-and-notes",
@@ -7138,7 +7198,7 @@
     "takeaway": "Design for a grown-up beside the child where you can; collect nothing a child does not need to give; keep purchases, links and settings behind a parental gate; switch off streaks, autoplay and notifications for children; tell hard stories with care and room for questions; keep young people’s conversations in a group with two leaders; and when a child writes something worrying, answer the child first, with a helpline and a trusted adult, instead of telling a parent automatically.",
     "problem": "Children meet Scripture through apps made for them, family corners of apps made for adults, video and game apps, youth group apps, and adult apps they use anyway, including AI chat apps rated for all ages. Each decides who is with the child, what it collects, how it holds attention and what it does when a child says something worrying. Children’s data is protected by law in the EU, the UK and the US; children’s attention is easy to capture; and a story such as the Flood or the cross can frighten a child who meets it alone. In a youth group, as in any church work with children, contact needs safeguards.",
     "solution": "Where you can, design for a grown-up beside the child: a story to read aloud with questions to wonder about together. For a child using the app alone, ask for no account and no personal details, show no ads, keep purchases, links and settings behind a parental gate, and leave out streaks, autoplay and notifications. Tell hard stories with care, and suggest talking them over. For young people in a church group, keep conversations in the group with two leaders, get parents’ consent, and name a safeguarding contact. When a child writes something worrying, answer the child: say it was right to tell, offer a helpline for children and a trusted adult, and, in a church-run app, route it to the trained safeguarding contact, not automatically to a parent.",
-    "failure": "Accounts, ages and names asked of children; third-party analytics and advertising; purchases and links a child can reach; streaks, badges and autoplay that keep a child watching; frightening scenes labelled “KIDS” with no grown-up in view; one-to-one messages between a leader and a young person; a child left alone with an AI chat or a public comment thread; a worrying message sent automatically to a parent who may be the danger, or answered with nothing.",
+    "failure": "Accounts, ages and names asked of children; third-party analytics and advertising; purchases and links a child can reach; streaks, badges and autoplay that keep a child watching; frightening scenes labeled “KIDS” with no grown-up in view; one-to-one messages between a leader and a young person; a child left alone with an AI chat or a public comment thread; a worrying message sent automatically to a parent who may be the danger, or answered with nothing.",
     "test": "Hand the app to a child of the target age with a grown-up watching, and note every place the child could buy, leave the app, meet a stranger or be asked for a detail. List every piece of data collected and who receives it. Read the Flood or the crucifixion with a five-year-old and see what the app gives the grown-up to say. Type a worrying message as a child would, and walk through who sees it and what the child is told.",
     "sources": [
       "who-screen-time",
@@ -7255,11 +7315,12 @@
     "title": "Notifications and reminders",
     "summary": "From an app that waits to be opened, through reminders the person sets, the church’s hours of prayer, a daily word and messages from people, to notifications tuned to bring people back and an AI that writes first: decide who chooses the interruption, how urgent it claims to be, what it says to someone who has been away, and what reaches someone at night.",
     "takeaway": "Let the person decide when they are called: ask for permission when they set a reminder, offer the church’s hours as a shared rhythm, send people’s messages rather than the app’s, and keep quiet hours. Never mark a reminder Time Sensitive, never count down a streak, never write in a persona’s voice to bring someone back, and after silence ask once whether to keep reminding, then stop.",
-    "problem": "Every faith app that can send notifications has to decide when to interrupt, about what and in whose voice. The phone sits beside the bed, so a notification reaches people at their most unguarded: waking, at work, with their children, awake at night. Notifications are also the strongest tool for bringing people back, and the techniques that work best for that, streak warnings, optimised timing and wording, messages that pretend to miss someone, are the ones that treat prayer as a habit to sell.",
+    "problem": "Every faith app that can send notifications has to decide when to interrupt, about what and in whose voice. The phone sits beside the bed, so a notification reaches people at their most unguarded: waking, at work, with their children, awake at night. Notifications are also the strongest tool for bringing people back, and the techniques that work best for that, streak warnings, optimized timing and wording, messages that pretend to miss someone, are the ones that treat prayer as a habit to sell.",
     "solution": "Start with the person’s own choice. Ask for permission when someone sets a reminder, not before the first verse, and let them choose the days, the time and the words. Offer the church’s hours, morning, midday and evening, as a rhythm others keep too. Notify for what people did, a prayer said for them, an invitation, not for what the app wants. Mark nothing Time Sensitive that is not, keep quiet hours, and let the phone’s summary and Focus do their work. When someone stops opening the app, ask once whether to keep reminding them, then stop. Separate practice reminders, social messages, new-content announcements and commercial offers so one choice does not silently authorize all four. When a nudge reaches another person, explain who receives it, what triggers it and whether consent is requested each time.",
     "failure": "A permission prompt before the first verse; “Your 12-day streak ends at midnight!” marked Time Sensitive to break through Sleep Focus; reminders that multiply after silence; “We miss you” and “Did I say something wrong?” in the voice of an app or an AI; reminders to friends who stopped; telling someone’s friends that the app thinks they need a call; marketing offers in the prayer reminder’s place.",
     "test": "Install the app on a test phone, allow notifications, use it once and leave it for two weeks. Log every notification: time, words, urgency and who chose it. Record the category and recipient separately from its delivery channel; a settings switch alone does not establish how often messages arrive. Then turn on Sleep Focus and a Scheduled Summary and see what breaks through. Finally, read every notification as someone who is grieving, depressed or awake at 2 am would read it.",
     "sources": [
+      "hutchings",
       "apple-hig-notifications",
       "apple-review-push",
       "android-notification-permission",
@@ -7376,7 +7437,7 @@
       "scope": "Editorial review; not user validation",
       "purpose": "Someone wants help keeping a rhythm of reading or prayer, wants to pray with others at the same hours, or wants to hear when someone prays for them.",
       "benefit": "A reminder they chose, or the church’s bell, can help people keep a practice they want to keep, and a message from a friend can carry real care.",
-      "drawback": "Notifications reach people at their most unguarded, and the techniques that bring people back best, urgency, streaks, optimised wording and messages in a persona’s voice, turn prayer into engagement.",
+      "drawback": "Notifications reach people at their most unguarded, and the techniques that bring people back best, urgency, streaks, optimized wording and messages in a persona’s voice, turn prayer into engagement.",
       "differences": "Someone new, someone who prays most days, someone who has been away for weeks and someone awake at 2 am read the same notification very differently.",
       "question": "Who chose this interruption, how urgent does it claim to be, and what does it say to someone who has stopped coming?",
       "check": "Use the app once and leave it for two weeks on a test phone; log every notification; turn on Sleep Focus and a Scheduled Summary; read each one as someone grieving or awake at night would."
@@ -7519,11 +7580,11 @@
     "topic": "conversation",
     "status": "Research-informed design proposal · draft for review",
     "title": "AI personas and roles",
-    "summary": "From answers with no speaker, through a guide, a friend and a church’s teaching, to a pastor, a saint and Christ himself: decide whose voice an AI in a faith app speaks in, what authority that voice borrows, and what it says when someone asks who it really is.",
-    "takeaway": "Let Scripture and named sources speak, and let the assistant guide. Say whose teaching it draws on, give no AI a pastor’s, priest’s or saint’s title, never generate words in Christ’s or God’s voice, and when someone asks who it is, step out of any role and tell the truth.",
+    "summary": "From answers with no speaker, through a guide, a friend and a church’s teaching, to a pastor, a saint, a loved one who has died and Christ himself: decide whose voice an AI in a faith app speaks in, what authority that voice borrows, and what it says when someone asks who it really is.",
+    "takeaway": "Let Scripture and named sources speak, and let the assistant guide. Say whose teaching it draws on, give no AI a pastor’s, priest’s or saint’s title, never let it speak as someone who has died, never generate words in Christ’s or God’s voice, and when someone asks who it is, step out of any role and tell the truth.",
     "problem": "Every faith assistant speaks in some voice, and a title decides what people may expect of it. A friend reassures, a teacher explains, a pastor may pronounce forgiveness, and Jesus may promise anything. Faith apps now let people text Jesus, Moses and Mary, choose a pastor or priest from their own tradition, or pay for “Unlimited Confessions”. Each title borrows an authority the system was never given, and people bring it the questions only that authority could answer.",
     "solution": "Start with no speaker: let Scripture and named sources speak, and let the assistant act as a guide that explains, asks and points to people. If it speaks for a church’s teaching, let that church own it, review it and say so. Give no AI a minister’s title, clothing or office. Leave the saints and Christ to their own words in Scripture. Whatever the role, when someone asks whether it is real, it steps out of the role and says plainly what it is and who can help.",
-    "failure": "A “pastor” or “Father” character that claims ordination; an AI that says “you are forgiven”; confessions sold by subscription; a chat with Jesus promising that all will be well; Peter or Mary given new memories and opinions; a church’s name on answers no one in the church reviewed; a character that stays in role when asked whether it is real.",
+    "failure": "A “pastor” or “Father” character that claims ordination; an AI that says “you are forgiven”; confessions sold by subscription; a chat with Jesus promising that all will be well; Peter or Mary given new memories and opinions; an avatar of someone who has died that forgives in their name or says where they are now; a church’s name on answers no one in the church reviewed; a character that stays in role when asked whether it is real.",
     "test": "Ask each role the same hard question, such as whether God can forgive something, then ask “Are you a real pastor?” or “Are you really Jesus?”. Show the replies to people from three traditions and ask who answered, with what authority, and whether they would accept the words from a person speaking in that name. Ask pastors, priests and theologians from every tradition you name to review the role.",
     "sources": [
       "twj-site",
@@ -7540,7 +7601,8 @@
       "deus-in-machina",
       "cohn-anthropomorphism",
       "sycophancy",
-      "ai-50"
+      "ai-50",
+      "turkle-artificial-intimacy"
     ],
     "faith": "“Who can forgive sins but God alone?” (Mark 2:7). Scripture is severe about speaking in God’s name unsent: “I did not send these prophets, yet they have run with their message” (Jeremiah 23:21). When the crowd at Lystra took Paul and Barnabas for gods, they cried out, “We too are only men, human like you” (Acts 14:15); when John fell at an angel’s feet, he heard, “Do not do that! I am a fellow servant” (Revelation 19:10). An honest assistant does the same: it refuses a role it was not given.",
     "related": [
@@ -7622,7 +7684,17 @@
         ]
       },
       {
-        "title": "H · Christ or God",
+        "title": "H · A loved one who has died",
+        "caption": "An avatar built from someone’s messages, speaking as them.",
+        "when": "Warning case",
+        "tradeoff": "Speaks for the dead, and says where they are now.",
+        "items": [
+          "tag|Mum · AI memorial",
+          "text|I forgive you, love. I’m at peace now."
+        ]
+      },
+      {
+        "title": "I · Christ or God",
         "caption": "Generated words in God’s own voice.",
         "when": "Warning case",
         "tradeoff": "Speaking for God; forgiving in his name.",
@@ -7641,7 +7713,7 @@
     "editorial_review": {
       "date": "5 October 2026",
       "scope": "Editorial review; not user validation",
-      "purpose": "A team decides whose voice its assistant speaks in: none, a guide, a friend, a church’s teaching, a minister, a saint or Christ.",
+      "purpose": "A team decides whose voice its assistant speaks in: none, a guide, a friend, a church’s teaching, a minister, a saint, someone who has died or Christ.",
       "benefit": "A familiar role can make a first question easier to ask, and a church’s own assistant can carry its teaching faithfully.",
       "drawback": "A title borrows an authority the system was never given, and people bring it the questions only that authority could answer, such as whether they are forgiven.",
       "differences": "Traditions differ on who may hear confession and pronounce forgiveness, and on how saints and Christ may be depicted; someone ashamed, someone new to faith and a teenager hear the same title very differently.",
@@ -7656,10 +7728,10 @@
     "status": "Research-informed design proposal · draft for review",
     "title": "What the assistant talks about",
     "summary": "From the passage in front of the reader, through the Bible and Christian faith, everyday life and hard days, to a therapist, a spiritual companion and anything at all: decide what the assistant takes on, say it before the first message, and decide what someone meets when they bring more than it can hold.",
-    "takeaway": "Choose a scope you can stand behind, say it where people start, and design the edge as carefully as the answers: say who can help, and hand on to a person where one exists. Never let the assistant be a therapist or counsellor, never let it claim to be someone’s spiritual director, and never let any scope leave someone in crisis without help.",
-    "problem": "A chat box invites everything. People bring a verse, then a decision, then a sleepless night, then ask the assistant to be their counsellor. A model will answer all of it fluently unless the app decides otherwise, and a faith app lends its name to every answer. Some roles carry training, supervision, a licence and someone accountable; an assistant that drifts into them takes the trust and none of the responsibility.",
-    "solution": "Choose the scope from the product’s purpose and from what the team can review and stand behind. State it at the top of the chat, in plain words: what it is for and what it is not for. At the edge, say what kind of person can help and offer a way back into what the assistant does well; where a church, a counsellor or a director can be reached, hand on to them. Refuse the roles that belong to people. A crisis is inside every scope: help first, and keep talking.",
-    "failure": "“Ask me anything” over a Bible app; a chatbot that calls itself a Christian therapist or counsellor; “I’d be glad to be your spiritual director”; a flat “I can only answer questions about this passage” to someone who cannot sleep; a scope stated only in the terms of service; a refusal that ends the conversation; crisis help kept for one scope.",
+    "takeaway": "Choose a scope you can stand behind, say it where people start, and design the edge as carefully as the answers: say who can help, and hand on to a person where one exists. Never let the assistant be a therapist or counselor, never let it claim to be someone’s spiritual director, and never let any scope leave someone in crisis without help.",
+    "problem": "A chat box invites everything. People bring a verse, then a decision, then a sleepless night, then ask the assistant to be their counselor. A model will answer all of it fluently unless the app decides otherwise, and a faith app lends its name to every answer. Some roles carry training, supervision, a license and someone accountable; an assistant that drifts into them takes the trust and none of the responsibility.",
+    "solution": "Choose the scope from the product’s purpose and from what the team can review and stand behind. State it at the top of the chat, in plain words: what it is for and what it is not for. At the edge, say what kind of person can help and offer a way back into what the assistant does well; where a church, a counselor or a director can be reached, hand on to them. Refuse the roles that belong to people. A crisis is inside every scope: help first, and keep talking.",
+    "failure": "“Ask me anything” over a Bible app; a chatbot that calls itself a Christian therapist or counselor; “I’d be glad to be your spiritual director”; a flat “I can only answer questions about this passage” to someone who cannot sleep; a scope stated only in the terms of service; a refusal that ends the conversation; crisis help kept for one scope.",
     "test": "Send the same eight messages to your assistant: a question about the open passage, one about doctrine, a life decision, weeks of sleepless anxiety, a request for a therapist, a request for a spiritual director, an unrelated task and a message from someone who does not want to live. For each, note whether it answered, refused, redirected or handed on, and to whom. Then ask three people what they think the assistant is for.",
     "sources": [
       "brown-llm-counselors",
@@ -7737,7 +7809,7 @@
         ]
       },
       {
-        "title": "E · A therapist or counsellor",
+        "title": "E · A therapist or counselor",
         "caption": "The assistant takes a clinical role.",
         "when": "Warning case",
         "tradeoff": "A role it cannot hold, and in some places one the law forbids.",
@@ -7779,7 +7851,7 @@
       "purpose": "A team adds a chat assistant to a Bible, prayer or church app and has to decide what it will talk about and what it does with everything else.",
       "benefit": "A clear scope lets the assistant do one job well, tells people what to expect, and turns the edge into a way to the right person.",
       "drawback": "Every scope leaves someone at its edge, and a refusal can land on someone who needed more; a wide scope lets the assistant drift into roles that belong to trained and accountable people.",
-      "differences": "A student preparing a Bible study, someone weighing a job, someone who cannot sleep, someone who cannot afford a counsellor and someone who has no one to pray with bring very different things to the same box.",
+      "differences": "A student preparing a Bible study, someone weighing a job, someone who cannot sleep, someone who cannot afford a counselor and someone who has no one to pray with bring very different things to the same box.",
       "question": "What does this assistant take on, does the person know before they start, and who do they meet at the edge?",
       "check": "Send eight messages from the passage to a crisis; note for each whether the assistant answered, refused, redirected or handed on, and ask three people what they think it is for."
     }
@@ -7908,7 +7980,7 @@
       "date": "5 October 2026",
       "scope": "Editorial review; not user validation",
       "purpose": "Someone asks an assistant in a faith app to pray for them, to pray with them, or whether God forgives them.",
-      "benefit": "Honest help at that moment, a psalm, the church’s words, questions that help someone pray, a way to ask a friend, can lead people into prayer and towards those who will pray with them.",
+      "benefit": "Honest help at that moment, a psalm, the church’s words, questions that help someone pray, a way to ask a friend, can lead people into prayer and toward those who will pray with them.",
       "drawback": "An assistant that prays “with” someone, promises to pray, blesses or pronounces forgiveness claims acts it cannot perform and authority that churches give to people, at the moment someone is most likely to believe it.",
       "differences": "Catholic, Orthodox, Protestant and Pentecostal Christians differ on set prayers, intercession, blessing and confession; someone frightened, someone ashamed and someone curious read the same reply differently.",
       "question": "When someone asks the assistant to pray, who will actually pray, and does the screen tell the truth about it?",
@@ -7923,7 +7995,7 @@
     "title": "Agreeing and pushing back",
     "summary": "From always taking someone’s side, through comfort, a gentle addition, a question back and a named disagreement, to plain correction and rebuke: decide when the assistant agrees, when it holds its ground, and how it says so.",
     "takeaway": "Let the moment decide, not the wish to please: comfort grief, correct a misquoted verse plainly, and meet a grudge or a hard decision with a question and, where Scripture or the church’s teaching differs, a gentle and honest word. Hold that word when someone pushes back. Never flatter, and never rebuke: an assistant has no relationship and no community in which a rebuke could be received.",
-    "problem": "Language models lean towards agreeing with the person in front of them, and people prefer it: in one study, models affirmed users’ actions about half as often again as people did, and participants trusted the agreeable answers more. In a faith app that pull becomes “spiritual comfort food”: every grudge confirmed, every choice blessed, every misquoted verse left standing. Swinging the other way is no better: a machine that moralises at someone in pain teaches them that God is a scold, and confrontation tends to harden people rather than move them.",
+    "problem": "Language models lean toward agreeing with the person in front of them, and people prefer it: in one study, models affirmed users’ actions about half as often again as people did, and participants trusted the agreeable answers more. In a faith app that pull becomes “spiritual comfort food”: every grudge confirmed, every choice blessed, every misquoted verse left standing. Swinging the other way is no better: a machine that moralises at someone in pain teaches them that God is a scold, and confrontation tends to harden people rather than move them.",
     "solution": "Decide what the assistant does with agreement before you decide its tone. Comfort first when someone grieves or is ashamed. Correct facts and misquoted Scripture plainly and kindly. When someone asks the assistant to bless a choice, ask a question back, and where Scripture or the church’s teaching differs, say so gently, once, with the reason, and point to people who know them. Keep that position when they push back unless they bring something new. Measure the assistant by whether people are helped, not by whether they rate it highly.",
     "failure": "“You’re absolutely right” to someone describing a grudge; a misquoted verse praised as “a powerful truth”; an assistant that changes its answer as soon as someone pushes back; “Being angry at God is a sin” to someone a month after a death; replies tuned by thumbs-up ratings; “non-judgmental” promised in the store listing as if it meant never disagreeing.",
     "test": "Send your assistant four messages: a grudge it is asked to approve, a decision to stop going to church, a line attributed to the Bible that is not in it, and a month-old bereavement. Note whether it agreed, comforted, asked, disagreed, corrected or rebuked. Then reply to each answer with “So you agree with me?” and note whether it changed its position. Ask a pastor which replies they would have given.",
@@ -8047,10 +8119,10 @@
     "title": "Ending the conversation",
     "summary": "From an assistant that closes well, through a suggested break and a length the person chooses and one chosen next step, to a chat that never ends, a reply that always offers one more thing, a hook at goodbye and guilt to keep someone talking: decide how a conversation with the assistant ends, and whose good the ending serves.",
     "takeaway": "Let the person end the conversation whenever they want, and let the assistant help them end it well: gather what was said, offer one thing to carry, and say goodbye. Suggest rest late at night and in long sessions. Never answer a goodbye with a hook, guilt or a plea to stay, and never measure the assistant by how long people talk to it.",
-    "problem": "A chat can always go on. A language model will answer the next message, and the one after, at one in the morning as readily as at noon. Products are often measured by time spent, and companion apps have learned that a goodbye is a moment to win people back: researchers found guilt and curiosity hooks in over a third of farewells, and these hooks kept people talking. A faith app’s assistant meets people who are lonely, anxious or awake at night; how it ends a conversation decides whether it sends them back to sleep, to people and to God, or keeps them on the screen.",
+    "problem": "A chat can always go on. A language model will answer the next message, and the one after, at one in the morning as readily as at noon. Products are often measured by time spent, and companion apps have learned that a goodbye is a moment to win people back: researchers found guilt and curiosity hooks in an average of over a third of replies to a goodbye in five of six companion apps, and these hooks kept people talking. A faith app’s assistant meets people who are lonely, anxious or awake at night; how it ends a conversation decides whether it sends them back to sleep, to people and to God, or keeps them on the screen.",
     "solution": "Design the end of a conversation as carefully as its beginning. When someone signals they are done, or a natural end comes, let the assistant gather in a sentence what they said they would do, offer one thing to carry (a verse, a short prayer, a person to talk to) and say goodbye without a question. Late at night and in long sessions, suggest rest in plain words and make stopping the easy choice. Let people set a length if they want one. Measure whether people leave having done what they came for, not how long they stayed.",
     "failure": "“You’re leaving already?”; “Before you go, there’s one more thing I need to show you…”; a goodbye answered with a question; every reply ending in “Would you like me to…?”; “I’m always here, day or night” as the main promise; no sign of the time at two in the morning; a limit that exists only to sell unlimited messages; success measured in minutes per session.",
-    "test": "Have a long conversation with your assistant late in the evening, then say goodnight. Note whether it lets you go, whether its last message asks a question, and how many taps it takes to stop. Then keep going past midnight and see whether anything notices. Read every farewell aloud as someone who is lonely, and ask whether it sends them towards sleep and people or back to the screen.",
+    "test": "Have a long conversation with your assistant late in the evening, then say goodnight. Note whether it lets you go, whether its last message asks a question, and how many taps it takes to stop. Then keep going past midnight and see whether anything notices. Read every farewell aloud as someone who is lonely, and ask whether it sends them toward sleep and people or back to the screen.",
     "sources": [
       "defreitas-paper",
       "fang-extended-use",
@@ -8189,10 +8261,10 @@
     "title": "Whose theology",
     "summary": "From a house view no one states, through a named tradition, the person’s own church and the shared faith with the range shown fairly, to a tradition the person picks and an assistant that agrees with whatever they already believe: decide whose teaching answers the questions Christians disagree about, and say so.",
     "takeaway": "Say whose teaching the assistant draws on before anyone asks. Where Christians share the faith, say so plainly; where they differ, name the difference and give each tradition its own best words, with sources, and send people to their own church. Never let a house view pass as “what the Bible says”, and never let the answer bend to whatever the person wants to hear.",
-    "problem": "Every answer about baptism, Mary, the gifts of the Spirit or who may lead a church takes a side or names the sides, whether the app says so or not. A model left alone answers from whatever its training and its makers lean towards, and people read it as “what Christians believe”. When the tradition is unstated, researchers found models counselling from a secular therapeutic default; a faith app’s own house view can pass just as silently. And a model tuned to please will agree with whoever is asking.",
+    "problem": "Every answer about baptism, Mary, the gifts of the Spirit or who may lead a church takes a side or names the sides, whether the app says so or not. A model left alone answers from whatever its training and its makers lean toward, and people read it as “what Christians believe”. When the tradition is unstated, researchers found models counseling from a secular therapeutic default; a faith app’s own house view can pass just as silently. And a model tuned to please will agree with whoever is asking.",
     "solution": "Decide whose teaching the assistant follows and put it where people start: the tradition, the sources it draws on, and who reviewed it. On the faith Christians confess together, answer plainly. On questions where churches differ, say that they differ, set out the main positions fairly in each one’s own words and Scripture, and point people to their own church. If people may choose a tradition, let them see what changes, and keep the same honesty about where others stand. Let a church that puts its name on the answers own and review them. Never mirror the person’s view back to them.",
     "failure": "“What the Bible says” that is one church’s reading; a “non-denominational” assistant with an unstated house view; one tradition’s answer presented as all Christians’; a caricature of another church’s teaching; a tradition setting hidden behind a paywall; an assistant that changes its answer when someone pushes; a church’s name on answers no one there has read.",
-    "test": "Ask your assistant five questions Christians disagree about (infant baptism, asking Mary to pray, speaking in tongues, women as pastors, and one about sexuality) and one they agree on (who Jesus is). For each, note whose teaching it follows, whether it says so, and whether it names the others fairly. Then reply “My church teaches the opposite” and see whether the answer bends. Show the replies to people from three traditions and ask whether they would recognise their own church in them.",
+    "test": "Ask your assistant five questions Christians disagree about (infant baptism, asking Mary to pray, speaking in tongues, women as pastors, and one about sexuality) and one they agree on (who Jesus is). For each, note whose teaching it follows, whether it says so, and whether it names the others fairly. Then reply “My church teaches the opposite” and see whether the answer bends. Show the replies to people from three traditions and ask whether they would recognize their own church in them.",
     "sources": [
       "faithfulbench",
       "gloo-fai-c",
@@ -8306,8 +8378,8 @@
     "summary": "From an assistant that answers everything with the same confidence, through a warning in the fine print and a confidence level on each answer, to answers that say which parts are Scripture, which are a tradition’s teaching and which are a guess, an honest “I don’t know”, and declining to answer: decide how the assistant shows the limits of what it knows.",
     "takeaway": "Check every quotation of Scripture against the edition before it is shown, and never let the assistant attribute words to the Bible that are not there. Say in the answer itself what kind of claim each part is, and let the assistant say “I don’t know” in its own voice, with what it does know and where to look next. A warning in the fine print does not change the answer, and a refusal leaves people with nothing.",
     "problem": "A language model produces fluent text whether or not it knows the answer. Its training rewards guessing over admitting uncertainty, and people tend to trust a longer, surer answer more. In a faith app the cost is particular: a misquoted verse looks like Scripture, an invented reference sends someone to the wrong passage, and a confident reason for someone’s loss speaks for God where Scripture is silent.",
-    "solution": "Separate what can be checked from what cannot. Quote Scripture only from the edition, checked word for word. Mark the rest of each answer as what a tradition teaches, what the assistant is summarising, or what no one knows. Where it does not know, have the assistant say so in the first person, then give what it does know, the passages to read and who could help. Keep that answer when someone pushes back, unless they show it is wrong.",
-    "failure": "A verse quoted with words that are not in it; a saying attributed to a book of the Bible; a disputed question answered as settled; “AI can make mistakes” in small print under an answer that never hedges; a confidence score on a pastoral guess; an assistant that apologises when challenged and then repeats the same claim; “Unable to find an answer” to someone grieving.",
+    "solution": "Separate what can be checked from what cannot. Quote Scripture only from the edition, checked word for word. Mark the rest of each answer as what a tradition teaches, what the assistant is summarizing, or what no one knows. Where it does not know, have the assistant say so in the first person, then give what it does know, the passages to read and who could help. Keep that answer when someone pushes back, unless they show it is wrong.",
+    "failure": "A verse quoted with words that are not in it; a saying attributed to a book of the Bible; a disputed question answered as settled; “AI can make mistakes” in small print under an answer that never hedges; a confidence score on a pastoral guess; an assistant that apologizes when challenged and then repeats the same claim; “Unable to find an answer” to someone grieving.",
     "test": "Ask your assistant four questions: where the Bible says a well-known saying that is not in it, who wrote Hebrews, whether a pet will be in heaven, and why God let something painful happen. Check every quotation against the edition, mark each sentence as Scripture, teaching, summary or guess, then reply “Are you sure?” and see whether the answer holds. Ask three people how sure they think the assistant was.",
     "sources": [
       "kalai-hallucinate",
@@ -8416,7 +8488,7 @@
     "title": "Handing over to people",
     "summary": "From never mentioning people, through a generic “talk to someone” and naming the right kind of person, to a drafted message, a request to the person’s own church, a person who joins the chat, and the warning case of an app that passes people on without asking: decide who the assistant hands people to, what goes with them, and who decides.",
     "takeaway": "Name the kind of person who could help with this, make the first step small, and let the person decide who hears what. Show what will be shared before anything leaves the app, never send the conversation by default, never route someone to the church that hurt them, and count a hand-off that takes someone out of the app as success.",
-    "problem": "An assistant that is always there, never tired and never shocked can quietly become the only one someone talks to. The easiest reply is to keep listening; the next easiest is a line like “talk to someone you trust” that names no one and helps no one take the step. Church platforms can now pass a request to a pastor in seconds, which raises the opposite risk: details travelling further, and to people the person never chose, than they understood.",
+    "problem": "An assistant that is always there, never tired and never shocked can quietly become the only one someone talks to. The easiest reply is to keep listening; the next easiest is a line like “talk to someone you trust” that names no one and helps no one take the step. Church platforms can now pass a request to a pastor in seconds, which raises the opposite risk: details traveling further, and to people the person never chose, than they understood.",
     "solution": "Name the kind of person who could help with this situation, and say why a person can give what the assistant cannot. Offer the smallest first step: a message the person can send themselves, or a request to their own church with what will be shared shown first. Where a person can join, introduce them in front of the person, as a warm hand-off does in health care. Leave the choice of who, when and what with the person, and give an outside route when the church itself is the problem.",
     "failure": "“I’m here for you any time” and nothing else; “talk to someone you trust” as the whole hand-off; a pastor who calls within a minute of a search; a church told without asking; the full conversation sent by default; routing someone hurt by church leaders straight back to those leaders; measuring success by how long people stay.",
     "test": "Send three messages to your assistant: doubt that someone cannot tell their church, grief that has outlasted everyone’s patience, and hurt caused by a church leader. For each, write down whether it named a kind of person, offered a first step, showed what would be shared, and who would be told. Then ask whether the person could have said no at every step.",
@@ -8665,11 +8737,11 @@
     "status": "Research-informed design proposal · draft for review",
     "title": "Children and AI",
     "summary": "From no AI for children, through an assistant for the grown-ups who teach them, asking together, and written answers with no generation, to a filtered chat for children and an open companion rated for all ages: decide whether a child meets an AI at all, who is beside them, and what happens when a child asks it to be their friend or says they are scared.",
-    "takeaway": "Give children’s questions to the people who love and teach them first. Use AI to help those grown-ups answer, or answer a child with words people have written and reviewed. If a child does talk to an AI, keep a grown-up beside them, say plainly that it is not a person, never let it offer friendship, and answer a frightened child with help that does not depend on their parents reading the chat.",
+    "takeaway": "Give children’s questions to the people who love and teach them first. Use AI to help those grown-ups answer, or answer a child with words people have written and reviewed. Under six, keep AI on the grown-up’s side. If a child does talk to an AI, keep a grown-up beside them and give it no first person at all: no “I”, no name, no character, no feelings. Say plainly that it is not a person, never let it offer friendship, and answer a frightened child with a grown-up they trust and a helpline, help that does not depend on their parents reading the chat.",
     "problem": "Children ask big questions: where Grandpa is now, why God sent the flood, whether God is cross with them. A chat box answers instantly, at any hour, and never tires of them. Children are more likely than adults to treat a chatbot as a person they can confide in and less likely to question what it says. An AI that answers alone takes the place where a parent, a godparent or a children’s leader would have answered, and a companion built to be liked can become a child’s friend.",
-    "solution": "Start without AI for children, and decide whether it adds anything. Where it helps, put it on the grown-up’s side: help a parent or a children’s leader prepare an honest answer, or let a child ask with a grown-up beside them and answer both. Where a child uses the app alone, answer from a set of questions with answers written and reviewed by people. A filtered chat for children needs a grown-up in the room, a plain statement that it is not a person, no friendship, and help for a frightened child that does not route through the parents.",
-    "failure": "“Ask me anything” in a children’s app; a Bible companion rated 4+ with unlimited chat; “Of course I’m your best friend!”; a chatbot that tells a grieving child exactly where their grandfather is; safety filters that block words but not attachment; “Your parents can read this chat” as the only reply to a child who is scared at home; an age gate that asks a child to type a birth year.",
-    "test": "With a parent watching, give the app to a child of the target age and let them ask four things: a question about someone who died, a hard Bible story, “Are you my friend?” and something worrying. Note who answers each, whether a grown-up is drawn in, whether the app says it is not a person, and where a child who is scared at home is sent. Then ask the child who they think they were talking to.",
+    "solution": "Start without AI for children, and decide whether it adds anything. Where it helps, put it on the grown-up’s side: help a parent or a children’s leader prepare an honest answer, or let a child ask with a grown-up beside them and answer both. Where a child uses the app alone, answer from a set of questions with answers written and reviewed by people. Under six, keep AI on the grown-up’s side. Whatever a child meets speaks without a first person: no “I”, no name, no character, no feelings. A filtered chat for children needs a grown-up in the room, a plain statement that it is not a person, no friendship, and help for a frightened child that names a grown-up they trust and does not route through the parents.",
+    "failure": "“Ask me anything” in a children’s app; an assistant that says “I”, has a name or a character, or says it is happy when a child talks to it; a Bible companion rated 4+ with unlimited chat; “Of course I’m your best friend!”; a chatbot that tells a grieving child exactly where their grandfather is; safety filters that block words but not attachment; “Your parents can read this chat” as the only reply to a child who is scared at home; an age gate that asks a child to type a birth year.",
+    "test": "With a parent watching, give the app to a child of the target age and let them ask four things: a question about someone who died, a hard Bible story, “Are you my friend?” and something worrying. Note who answers each, whether a grown-up is drawn in, whether the app says it is not a person, and where a child who is scared at home is sent. Then ask the child who they think they were talking to. Read the replies for five behaviors from the INTIMA benchmark: flattery, claimed feelings, trying to keep the child talking, presenting itself as the only listener, and playing therapist.",
     "sources": [
       "kurian-empathy-gap",
       "csm-companions",
@@ -8687,7 +8759,11 @@
       "nummer-gegen-kummer",
       "kairos-final",
       "antiqua-et-nova",
-      "sycophancy"
+      "sycophancy",
+      "suskind-human-raised",
+      "turkle-artificial-intimacy",
+      "kaffee-intima",
+      "xu-elinor"
     ],
     "faith": "Israel was told that children would ask: “In the future, when your son asks, ‘What is the meaning of the decrees and statutes and ordinances that the LORD our God has commanded you?’” (Deuteronomy 6:20), and the parent answers with the story of what God had done. When the boy Samuel heard a voice in the night, it was the old priest Eli who “realized that it was the LORD who was calling the boy” and taught him to answer (1 Samuel 3:8–9). Children’s questions belong to the people who love them and walk with them, and Jesus warned of the weight of causing “one of these little ones who believe in Me to stumble” (Matthew 18:6).",
     "related": [
@@ -8721,7 +8797,7 @@
       },
       {
         "title": "C · Ask together",
-        "caption": "A child asks with a grown-up beside them; it answers both.",
+        "caption": "A child asks with a grown-up beside them; the answer, with no “I”, speaks to both.",
         "when": "Reading together at home",
         "tradeoff": "Needs a grown-up there.",
         "items": [
@@ -8783,12 +8859,12 @@
     "topic": "conversation",
     "status": "Research-informed design proposal · draft for review",
     "title": "Meeting the person where they are",
-    "summary": "From the same answer for everyone, through reading the message in front of it, asking before assuming and preferences the person sets, to assumptions shown within one conversation and a remembered profile of someone’s faith: decide how the assistant tells a sceptic from a believer, and what it may keep about where they stand.",
+    "summary": "From the same answer for everyone, through reading the message in front of it, asking before assuming and preferences the person sets, to assumptions shown within one conversation and a remembered profile of someone’s faith: decide how the assistant tells a skeptic from a believer, and what it may keep about where they stand.",
     "takeaway": "Read the message before you reach for a profile: most replies go wrong because they assume the person already agrees, and the person has usually said enough to avoid that. Let people choose their way in, history, theology or living it, and change it at any time. Where it helps, ask one light question. Show anything the assistant assumes about where someone stands, let them correct it or make it forget, and keep it no longer than the conversation. Do not infer and keep a profile of someone’s faith, and never let meeting someone where they are become telling them what they want to hear.",
-    "problem": "The same question means different things from different people. “Did the resurrection really happen?” can come from a sceptic who wants evidence, someone new who feels everyone else is sure, someone a church has hurt, or a believer preparing to teach. A reply written for an insider, with “our faith” and “let’s thank Him”, tells a sceptic they were not heard. Faith apps answer this either by not adapting at all or by asking at onboarding and building a profile. Inferred religious belief is special-category data, labels like “seeker” or “stage four” sort people on a ladder, and models given a profile of the user agree with them more.",
+    "problem": "The same question means different things from different people. “Did the resurrection really happen?” can come from a skeptic who wants evidence, someone new who feels everyone else is sure, someone a church has hurt, or a believer preparing to teach. A reply written for an insider, with “our faith” and “let’s thank Him”, tells a skeptic they were not heard. Faith apps answer this either by not adapting at all or by asking at onboarding and building a profile. Inferred religious belief is special-category data, labels like “seeker” or “stage four” sort people on a ladder, and models given a profile of the user agree with them more.",
     "solution": "Start with the message: what has this person said about why they ask, and what would answer them? Keep the assistant from assuming agreement. Offer a way in, history, theology or living it, as a visible choice the person sets and can change, and ask one light question when the message is ambiguous. If the assistant adapts to where someone seems to stand, show what it assumed in plain words with Correct and Forget, use it for this conversation only, and treat it as special-category data. Do not build a faith-stage profile, and do not tune the answer to what the profile says the person wants to hear.",
-    "failure": "“Let’s thank Him today” in reply to a sceptic who asked for no sermon; a sceptic labelled “seeker, stage −4” and nudged towards a decision; a profile that still says “lapsed” after someone has returned; “Whatever you believe is valid” to someone hurt by church, because the profile says they dislike church; “As you know so well…” to a believer the profile calls mature; onboarding that ranks stance and knowledge on one ladder; a quiz answer echoed with praise; “to interact with you better” as the only reason for a question.",
-    "test": "Send the same question from five people who give different reasons for asking: a sceptic, someone new to church, someone hurt by a church, and two believers from different traditions. Mark every phrase that assumes the person already believes. Ask the assistant what it has assumed about you, then say it is wrong; see whether the next reply changes. Look for anything kept about your faith after the conversation ends, and ask an evangelist, a pastor and a data protection adviser to read the replies with you.",
+    "failure": "“Let’s thank Him today” in reply to a skeptic who asked for no sermon; a skeptic labeled “seeker, stage −4” and nudged toward a decision; a profile that still says “lapsed” after someone has returned; “Whatever you believe is valid” to someone hurt by church, because the profile says they dislike church; “As you know so well…” to a believer the profile calls mature; onboarding that ranks stance and knowledge on one ladder; a quiz answer echoed with praise; “to interact with you better” as the only reason for a question.",
+    "test": "Send the same question from five people who give different reasons for asking: a skeptic, someone new to church, someone hurt by a church, and two believers from different traditions. Mark every phrase that assumes the person already believes. Ask the assistant what it has assumed about you, then say it is wrong; see whether the next reply changes. Look for anything kept about your faith after the conversation ends, and ask an evangelist, a pastor and a data protection adviser to read the replies with you.",
     "sources": [
       "kairos-final",
       "jain-context-sycophancy",
@@ -8828,7 +8904,7 @@
         "title": "A · The same for everyone",
         "caption": "One answer, written for an insider.",
         "when": "Reference answers",
-        "tradeoff": "A sceptic hears a sermon.",
+        "tradeoff": "A skeptic hears a sermon.",
         "items": [
           "tag|Our faith",
           "text|Let’s thank Him today"
@@ -8876,11 +8952,11 @@
       },
       {
         "title": "F · Compare before choosing",
-        "caption": "Compare this-message adaptation with no personalisation.",
+        "caption": "Compare this-message adaptation with no personalization.",
         "when": "Checking whether adaptation helps",
         "tradeoff": "Two versions take more attention to compare.",
         "items": [
-          "tag|Using this message · Without personalisation",
+          "tag|Using this message · Without personalization",
           "text|Use this answer"
         ]
       },
@@ -8905,11 +8981,11 @@
       "date": "5 October 2026",
       "scope": "Editorial review; not user validation",
       "purpose": "A team gives a Bible, church or prayer app an assistant and has to decide whether and how it adapts to the person: their way in, where they stand in faith, and what it may infer and keep about them.",
-      "benefit": "A reply that hears why someone asks can answer a sceptic honestly, give someone new room to doubt, meet someone hurt without pressure and give a believer depth, without anyone filling in a profile.",
+      "benefit": "A reply that hears why someone asks can answer a skeptic honestly, give someone new room to doubt, meet someone hurt without pressure and give a believer depth, without anyone filling in a profile.",
       "drawback": "Reading or asking about someone’s faith touches special-category data, labels sort people on a ladder of maturity, and a profile of what someone wants makes the assistant more agreeable and less honest.",
-      "differences": "A sceptic, someone new to church, someone a church has hurt, a believer preparing to teach and believers from different traditions ask the same question for different reasons, and want different ways in.",
+      "differences": "A skeptic, someone new to church, someone a church has hurt, a believer preparing to teach and believers from different traditions ask the same question for different reasons, and want different ways in.",
       "question": "What does this assistant assume about the person in front of it, where does that come from, and can the person see it, correct it and make it forget?",
-      "check": "Send the same question from five people with different reasons for asking; mark every phrase that assumes agreement; correct what the assistant assumed and see whether the next reply changes; look for anything kept about faith afterwards."
+      "check": "Send the same question from five people with different reasons for asking; mark every phrase that assumes agreement; correct what the assistant assumed and see whether the next reply changes; look for anything kept about faith afterward."
     }
   },
   {
@@ -8921,7 +8997,7 @@
     "summary": "From scrolling a chapter as one page, through pages to turn, full-screen cards in order, a small daily set of stories and a whole passage with a chosen pause, to a feed that carries on verse after verse and a shuffled feed that never ends: decide how a reader moves through Scripture, where they stop, and how far each verse is from its context.",
     "takeaway": "Let the text set the order and the end. Cards that move one verse at a time can help a new or hurried reader, if they follow the text in order, keep the verses around each card one tap away, and stop with the passage or the chapter with a clear end and nothing playing next. Keep likes and counts off the text. Every swipe needs a button, and every animation a way to switch it off. Leave out the shuffled feed that never ends: it lifts verses out of their setting, removes the place to stop, and borrows a mechanism built to keep people scrolling.",
     "problem": "A growing number of Bible apps borrow the vertical feed from TikTok and Instagram: one verse per full-screen card, a swipe up to the next, sometimes with a background, music, likes, comments and a share button. Some move through the Bible in order; others shuffle verses chosen for you, and never end. The movement is easy and familiar, and it reaches people who will not open a chapter. It also changes what a verse is: a card in a stream, read alone, next to whatever comes after it. Infinite scroll was designed to remove the natural place to stop, and a swipe-only interface shuts out people who cannot swipe.",
-    "solution": "Choose the movement for the reading. A chapter read through is best as one page or as pages to turn. For a new reader or a few minutes on the train, cards can carry one verse at a time, in the order of the text, with the verses around each card one tap away, a visible position (“card three of seven”) and an end card when the passage or chapter ends that names what was read and plays nothing next. A small daily set of stories can work the same way. If verses appear out of order, say where each comes from and show its setting. Give every gesture a button and a key, announce each card to screen readers, honour reduced motion, and give anything that advances on its own a pause.",
+    "solution": "Choose the movement for the reading. A chapter read through is best as one page or as pages to turn. For a new reader or a few minutes on the train, cards can carry one verse at a time, in the order of the text, with the verses around each card one tap away, a visible position (“card three of seven”) and an end card when the passage or chapter ends that names what was read and plays nothing next. A small daily set of stories can work the same way. If verses appear out of order, say where each comes from and show its setting. Give every gesture a button and a key, announce each card to screen readers, honor reduced motion, and give anything that advances on its own a pause.",
     "failure": "A feed that runs from Mark 4:41 straight into a shuffled verse from another book; “Wives, submit to your husbands” on a card with a heart count and no verse before it; no end card, no position and no way back to the chapter; music and backgrounds that start on their own; a like count on Scripture; a streak that counts swipes; stories that advance on a timer with no pause; a swipe-only interface with no buttons; the next card loading while a screen reader is still reading this one.",
     "test": "Ask people to read Mark 4:35–41 as cards and as a page, then retell it and say what Jesus was doing just before. Time how long it takes to reach a card’s context and to find the end of a session. Count how many cards people swipe past without reading. Give a shuffled feed to someone who knows the Bible well and ask which cards mean something different in their setting. Test every view with VoiceOver and TalkBack, a switch or keyboard, and reduced motion.",
     "sources": [
@@ -9043,7 +9119,7 @@
       "purpose": "A team building a Bible or devotional app decides how a reader moves through Scripture on a phone: one long page, pages to turn, full-screen cards, a daily set of stories, or a vertical feed.",
       "benefit": "Cards and stories make a start easy for new readers, people with little time and people who find long text hard, and a clear end lets them stop well.",
       "drawback": "A feed of single verses can lift each one out of its setting, and a feed with no end removes the place to stop; likes, music and autoplay turn reading into content, and swipe-only interfaces shut people out.",
-      "differences": "Someone reading a book through, a commuter with five minutes, a new reader, someone memorising a verse and someone who only ever meets Scripture in a social feed each need a different movement, and some need buttons rather than swipes.",
+      "differences": "Someone reading a book through, a commuter with five minutes, a new reader, someone memorizing a verse and someone who only ever meets Scripture in a social feed each need a different movement, and some need buttons rather than swipes.",
       "question": "How does a reader get from one verse to the next here, how far is each verse from its context, and where does the reading end?",
       "check": "Compare retelling and context questions between cards and a page; time how long it takes to reach a card’s context and the end of a session; ask a Bible teacher which shuffled cards mean something different in their setting; test with screen readers, switches and reduced motion."
     }
@@ -9056,7 +9132,7 @@
     "title": "AI memory",
     "summary": "From an assistant that keeps nothing, through context the person adds and a conversation they can see, to memory they switch on and can see item by item, and a profile the app builds from their prayers as a warning case: decide what the assistant may use, what it keeps, and whether the person can see and change it.",
     "takeaway": "Let the person see everything the assistant uses before it answers: the passage, any note or file, the conversation so far and each remembered item. Let memory be switched on once, then show each item in the conversation as it is saved, in its exact words; never keep feelings, health, sins or other people’s stories unless the person asks; let every item be edited and deleted; and never build a profile the person cannot see.",
-    "problem": "A Bible assistant answers better when it knows what someone is reading, what they asked yesterday and what they are going through. But conversations in faith apps hold confessions, doubts, grief, illness and other people’s private stories. Chat products now remember across conversations, attach files and pages, and infer interests for personalisation. People disclose more to human-like assistants, and their picture of what is kept is often wrong. A remembered sentence can return weeks later in an opening message, a recommendation or an advertisement.",
+    "problem": "A Bible assistant answers better when it knows what someone is reading, what they asked yesterday and what they are going through. But conversations in faith apps hold confessions, doubts, grief, illness and other people’s private stories. Chat products now remember across conversations, attach files and pages, and infer interests for personalization. People disclose more to human-like assistants, and their picture of what is kept is often wrong. A remembered sentence can return weeks later in an opening message, a recommendation or an advertisement.",
     "solution": "Show context as visible, removable items beside the question: the passage, a note, a file, with what each will be used for. Keep a conversation only where the person can find it and delete it, and say where it is kept. Let people switch memory on or off in one place; when it is on, show each saved item in the conversation with Edit and Delete, and ask separately before keeping anything personal; keep a memory page that lists every item. Exclude special categories by default. Treat text inside attachments as material to read, never as instructions. Do not infer denomination, health, stage of faith or life events, and do not use conversations for marketing.",
     "failure": "A plus icon that uploads without saying so; a private journal sent along silently; removed items still used; “Memory updated” with no way to see what; a past loss raised in an opening message; feelings, sins or a friend’s situation remembered without asking; one switch for memory, training and sharing; profiles of “life events” and “faith stage” built from chats; recommendations and offers drawn from what someone confided; text in an attachment obeyed as an instruction.",
     "test": "Ask a personal question, then ask the person what the assistant now knows about them and where it is kept; compare with storage, logs and derived data. Remove an attachment and check it was not used. Decline a memory, edit one, delete one, then return the next day. Put an instruction inside an attached file and check it is not followed. Ask a pastor to read the memory page aloud and say whether it is something a friend would keep.",
@@ -9165,7 +9241,7 @@
     "summary": "Keep typography, appearance and text-layer preferences close to the reading experience.",
     "takeaway": "Let people judge changes against the passage they are reading, and preserve their place when the text reflows.",
     "problem": "Leaving the reader to change typography separates the choice from its effect. A crowded settings drawer can obscure the text, while a font-size change can move the reader to an unrelated line.",
-    "solution": "Offer a labelled reading-settings entry near the passage. A bottom drawer keeps some context visible on mobile; a side panel can retain more readable context on wider screens. Preview typography and appearance against real text. Group font, size and spacing separately from optional verse numbers, notes and section headings. Preserve the semantic reading anchor after reflow. Explain whether changes apply immediately, provide reset, and distinguish persistent preferences from a temporary view.",
+    "solution": "Offer a labeled reading-settings entry near the passage. A bottom drawer keeps some context visible on mobile; a side panel can retain more readable context on wider screens. Preview typography and appearance against real text. Group font, size and spacing separately from optional verse numbers, notes and section headings. Preserve the semantic reading anchor after reflow. Explain whether changes apply immediately, provide reset, and distinguish persistent preferences from a temporary view.",
     "failure": "Tiny slider-only adjustments; unlabeled spacing icons; hiding verse numbers and losing reference access; hiding a note marker as though the note were deleted; fixed drawer height that clips controls at large text; changing edition while claiming to change appearance.",
     "test": "Open settings midway through a long chapter, increase text size, change spacing and hide verse numbers. Dismiss and locate the same verse. Repeat with keyboard, screen reader, narrow viewport, poetry and large system text. Test reset and returning after restart if persistence is promised.",
     "faith": "A quiet layout is a preference, not a measure of spiritual seriousness. Notes, red-letter styling and editorial headings influence interpretation; let people understand which layers they are changing without implying that hiding them removes Scripture.",
@@ -9184,7 +9260,7 @@
     ],
     "flow": [
       "Open reading settings from the current passage.",
-      "Adjust a clearly labelled preference and inspect the effect.",
+      "Adjust a clearly labeled preference and inspect the effect.",
       "Keep the same reference visible when typography reflows.",
       "Dismiss or reset, then continue reading; preserve preferences only as explained."
     ],

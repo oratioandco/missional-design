@@ -119,7 +119,7 @@
   },
   {
    "heading": "Every swipe needs a button",
-   "text": "Give Previous and Next buttons and keys for every gesture, announce each card with its position, honour reduced motion, and pause anything that advances on its own. A feed that only moves by swiping shuts out people who cannot swipe."
+   "text": "Give Previous and Next buttons and keys for every gesture, announce each card with its position, honor reduced motion, and pause anything that advances on its own. A feed that only moves by swiping shuts out people who cannot swipe."
   },
   {
    "heading": "Cards can be a welcome",
@@ -180,7 +180,7 @@
    }
   },
   {
-   "situation": "Meditation, or memorising a verse",
+   "situation": "Meditation, or memorizing a verse",
    "needs": "Slowness, and the passage close by",
    "fit": {
     "The page": "possible",
@@ -394,7 +394,7 @@
     },
     {
      "heading": "A verse held behind a reveal",
-     "text": "Bible Chat’s 30 October home card shows the opening of 2 Corinthians 5:17 sharply while the rest is blurred until Read or Listen is chosen. A reveal can invite a first action; the capture alone does not show why people tap or how they read afterwards.",
+     "text": "Bible Chat’s 30 October home card shows the opening of 2 Corinthians 5:17 sharply while the rest is blurred until Read or Listen is chosen. A reveal can invite a first action; the capture alone does not show why people tap or how they read afterward.",
      "sources": []
     },
     {
@@ -503,7 +503,7 @@
   },
   {
    "heading": "Where Christians differ",
-   "text": "Churches have always read Scripture in more than one measure: whole books read aloud in worship, appointed passages in a lectionary, single verses memorised, sung and prayed. Some traditions treasure a verse for the day; others warn that verse numbers, added in the sixteenth century, teach people to read sentences apart from their argument. Many would agree that a verse is safest in the company of the passage it belongs to, and of people who read it together."
+   "text": "Churches have always read Scripture in more than one measure: whole books read aloud in worship, appointed passages in a lectionary, single verses memorized, sung and prayed. Some traditions treasure a verse for the day; others warn that verse numbers, added in the sixteenth century, teach people to read sentences apart from their argument. Many would agree that a verse is safest in the company of the passage it belongs to, and of people who read it together."
   },
   {
    "heading": "What follows for design",
@@ -542,7 +542,7 @@
    "observed": "Undated · reviewed 5 October 2026",
    "observation": "The mockup combines a daily verse with reference and actions, service cards, a prominent central action, and a numerical flame indicator.",
    "decision": "A home screen can connect a short Scripture encounter with further practices. Explain progress indicators without implying that a number measures faith or wellbeing.",
-   "limits": "This is a promotional mockup, not a live app capture. The flame’s precise meaning, central action, chat output, storage behaviour and safeguarding responses were not tested."
+   "limits": "This is a promotional mockup, not a live app capture. The flame’s precise meaning, central action, chat output, storage behavior and safeguarding responses were not tested."
   },
   {
    "app": "Glorify",
@@ -611,7 +611,7 @@
    "url": "https://apps.apple.com/us/app/-/id6794246809",
    "author": "Weiyanda (Shanghai) Information Technology Co., Ltd. · Apple App Store (US)",
    "kind": "Practice",
-   "shows": "Invites people to “Swipe through a quiet, distraction-free feed of Bible verses — one at a time”, each in its own layout and colour, with a random mode.",
+   "shows": "Invites people to “Swipe through a quiet, distraction-free feed of Bible verses — one at a time”, each in its own layout and color, with a random mode.",
    "application": "A calm feed is still a feed: decide whether the verses come in order and where it ends.",
    "limits": "A new app with few ratings; the listing only."
   },
@@ -651,9 +651,9 @@
    "url": "https://www.bbc.com/news/technology-44640959",
    "author": "Hilary Andersson · BBC Panorama, 3 July 2018",
    "kind": "Research",
-   "shows": "Aza Raskin, who designed infinite scroll in 2006, says “If you don’t give your brain time to catch up with your impulses … you just keep scrolling”, and that he did not recognise how addictive it could be.",
+   "shows": "Aza Raskin, who designed infinite scroll in 2006, says “If you don’t give your brain time to catch up with your impulses … you just keep scrolling”, and that he did not recognize how addictive it could be.",
    "application": "An endless feed is built to remove the moment of choosing to go on; give the reader that moment back.",
-   "limits": "A designer’s reflection reported in a news programme, not a study."
+   "limits": "A designer’s reflection reported in a news program, not a study."
   },
   {
    "key": "rixen-loop",
@@ -752,7 +752,7 @@
    "author": "Web Accessibility Initiative · W3C",
    "kind": "Accessibility",
    "shows": "“Support user preferences for motion, and eliminate unnecessary motion effects.”",
-   "application": "Honour reduced motion: cards and pages can change without sliding.",
+   "application": "Honor reduced motion: cards and pages can change without sliding.",
    "limits": "Level AAA; a strong target."
   },
   {
@@ -802,6 +802,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

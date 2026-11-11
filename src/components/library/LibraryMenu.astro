@@ -1,7 +1,7 @@
 ---
 import links from '../../../public/assets/editorial/research-navigation.json';
 const {de=false}=Astro.props;
-const active=/^\/(apps|organisations|screens|flows)(\/|$)/.test(Astro.url.pathname);
+const active=/^\/(apps|organizations|screens|flows)(\/|$)/.test(Astro.url.pathname);
 const current=(href:string)=>Astro.url.pathname===href?'page':Astro.url.pathname.startsWith(href)?'location':undefined;
 ---
 <details class="research-menu">

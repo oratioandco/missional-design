@@ -3,7 +3,7 @@
  "url": "https://missional.design/patterns/check-ins-and-assessments/",
  "title": "Check-ins and assessments",
  "question": "What may an app ask about someone, and what may it conclude?",
- "lede": "Christians have asked themselves questions for centuries, in the evening Examen, in Wesley’s band meetings and in church gift inventories. Apps now ask too: setup quizzes, daily mood check-ins, long personality tests. Asking can serve personalisation, self-knowledge or a church listening to its members. Decide what each question is for, what is kept, who sees the result, and how much the result claims to know. Being asked about one’s soul is an act of trust, and the answers deserve the care of a pastor, not the appetite of a funnel.",
+ "lede": "Christians have asked themselves questions for centuries, in the evening Examen, in Wesley’s band meetings and in church gift inventories. Apps now ask too: setup quizzes, daily mood check-ins, long personality tests. Asking can serve personalization, self-knowledge or a church listening to its members. Decide what each question is for, what is kept, who sees the result, and how much the result claims to know. Being asked about one’s soul is an act of trust, and the answers deserve the care of a pastor, not the appetite of a funnel.",
  "calling": "Every answer is entrusted to you. Ask only what you are ready to carry with care.",
  "spectrum": {
   "title": "From a hint for the app to a verdict on a person",
@@ -22,7 +22,7 @@
    "origin": "Observed in onboarding quizzes: Abide’s “What brings you here today?” photo grid and Bible BFF’s “How much of the Bible have you read?”; HelloBible asks “What is your gender?” with “I prefer not to answer”, then asks for a name, before a separate consent for using faith data with a partner AI. See the screenshots below.",
    "gain": "A sensible first suggestion",
    "cost": "Can turn into a sales funnel",
-   "makes_easier": "A sensible first suggestion without browsing a catalogue.",
+   "makes_easier": "A sensible first suggestion without browsing a catalog.",
    "costs": "Easily becomes a sales funnel, or asks more than it needs.",
    "ask_your_team": "Does each question say what it changes, and can it be skipped?",
    "still": "https://missional.design/assets/stills/try-assess-setup.jpg"
@@ -83,7 +83,7 @@
   },
   {
    "heading": "Naming a feeling is enough",
-   "text": "Soultime’s check-in asks how you are “With Myself”, “With Others” and “With God”, an echo of the Examen’s attention to feelings. Labelling an emotion can itself ease it. Respond with a passage or a next step, not a chart to keep improving."
+   "text": "Soultime’s check-in asks how you are “With Myself”, “With Others” and “With God”, an echo of the Examen’s attention to feelings. Labeling an emotion can itself ease it. Respond with a passage or a next step, not a chart to keep improving."
   },
   {
    "heading": "Moods and faith are protected data",
@@ -227,7 +227,7 @@
    "findings": [
     {
      "heading": "Naming eases",
-     "text": "Labelling an emotion reduced the brain’s response to negative images.",
+     "text": "Labeling an emotion reduced the brain’s response to negative images.",
      "sources": [
       "affect-labeling"
      ]
@@ -289,7 +289,7 @@
      ]
     },
     {
-     "heading": "Personalised by life situation",
+     "heading": "Personalized by life situation",
      "text": "HelloBible’s listing and privacy label.",
      "sources": [
       "hellobible-store"
@@ -429,7 +429,7 @@
    "url": "https://missional.design/examples/hellobible-profile-stats/",
    "observed": "Captured 8 October 2026 · from embedded image metadata",
    "observation": "The profile shows a week strip under “Series” with days 5 to 8 marked, then six tiles: Current series 1 day, Daily verses 0, Record series 1 day, Time in the app 5 min, Conversations 32, Time Today 0 min. Settings follow; none of them lists or edits the answers given during onboarding.",
-   "decision": "Counting time in the app and conversations measures the product’s engagement, not the person’s life with God. If onboarding answers personalise the app, let people see and change them here.",
+   "decision": "Counting time in the app and conversations measures the product’s engagement, not the person’s life with God. If onboarding answers personalize the app, let people see and change them here.",
    "limits": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded."
   },
   {
@@ -497,7 +497,7 @@
    "url": "https://place.asburyseminary.edu/jascg/vol10/iss2/6",
    "author": "John Ellas and Flavil Yeakley · Journal of the American Society for Church Growth 10(2), 1999",
    "kind": "Research",
-   "shows": "Two church-growth researchers welcome the book’s pastoral reach but criticise the research behind its claims, which they call “pseudo-science”.",
+   "shows": "Two church-growth researchers welcome the book’s pastoral reach but criticize the research behind its claims, which they call “pseudo-science”.",
    "application": "Be modest about what a church score shows; a survey of perceptions is not a measure of health or faithfulness.",
    "limits": "A review, from within the church-growth movement."
   },
@@ -537,7 +537,7 @@
    "url": "https://pubmed.ncbi.nlm.nih.gov/17576282/",
    "author": "Matthew D. Lieberman et al. · Psychological Science 18(5), 2007",
    "kind": "Research",
-   "shows": "Labelling the emotion in a picture reduced amygdala response to negative images compared with other ways of processing them, with increased right ventrolateral prefrontal activity.",
+   "shows": "Labeling the emotion in a picture reduced amygdala response to negative images compared with other ways of processing them, with increased right ventrolateral prefrontal activity.",
    "application": "Naming a feeling may help in itself; a check-in can end at the naming, without a score or a chart.",
    "limits": "Laboratory study with images, not mood apps."
   },
@@ -548,7 +548,7 @@
    "author": "Saul Shiffman, Arthur A. Stone and Michael R. Hufford · Annual Review of Clinical Psychology 4, 2008",
    "kind": "Research",
    "shows": "Repeatedly sampling people’s current experience in daily life reduces recall bias and reveals patterns, and is used in research and clinical care.",
-   "application": "Daily check-ins are a recognised method; outside research and care, decide who benefits from the record and how long it should exist.",
+   "application": "Daily check-ins are a recognized method; outside research and care, decide who benefits from the record and how long it should exist.",
    "limits": "A method review for researchers and clinicians."
   },
   {
@@ -617,8 +617,8 @@
    "url": "https://apps.apple.com/app/id6502768944",
    "author": "HelloBox · Apple App Store",
    "kind": "Practice",
-   "shows": "Describes an experience “tailored to your reality and pace” for students, young adults, parents, people in doubt, Catholics, Protestants, Evangelicals and people without religious affiliation; the privacy label lists contact information and identifiers linked to the user for analytics and personalisation.",
-   "application": "Personalisation by life situation and church is common; say what each answer changes and what is linked to the person.",
+   "shows": "Describes an experience “tailored to your reality and pace” for students, young adults, parents, people in doubt, Catholics, Protestants, Evangelicals and people without religious affiliation; the privacy label lists contact information and identifiers linked to the user for analytics and personalization.",
+   "application": "Personalization by life situation and church is common; say what each answer changes and what is linked to the person.",
    "limits": "A store listing; the onboarding itself was not tested here."
   }
  ],
@@ -627,6 +627,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

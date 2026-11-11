@@ -12,7 +12,7 @@
  },
  "working_example": {
   "url": "https://missional.design/demos/writes-first/",
-  "situation": "On Tuesday night someone tells the assistant in a faith app: “My sister and I haven’t spoken since Mum’s funeral. I’m going to call her on Friday.” See what reaches them afterwards under seven designs, from an assistant that waits to be asked to one that tells a friend. Look at the lock screen on Saturday, then at Tuesday’s conversation, what was sent since and the settings, and switch to someone who has not opened the app for ten days."
+  "situation": "On Tuesday night someone tells the assistant in a faith app: “My sister and I haven’t spoken since Mum’s funeral. I’m going to call her on Friday.” See what reaches them afterward under seven designs, from an assistant that waits to be asked to one that tells a friend. Look at the lock screen on Saturday, then at Tuesday’s conversation, what was sent since and the settings, and switch to someone who has not opened the app for ten days."
  },
  "options": [
   {
@@ -466,7 +466,7 @@
    "url": "https://techcrunch.com/2025/09/25/openai-launches-chatgpt-pulse-to-proactively-write-you-morning-briefs/",
    "author": "Maxwell Zeff · TechCrunch, 25 September 2025",
    "kind": "Practice",
-   "shows": "“Pulse offers users five to 10 briefs that can get them up to speed on their day”, “aimed at encouraging users to check ChatGPT first thing in the morning — much like they would check social media”; it ends with “Great, that’s it for today”, which its product lead described as a deliberate difference from engagement-optimised feeds. Pulse draws on memory and past chats.",
+   "shows": "“Pulse offers users five to 10 briefs that can get them up to speed on their day”, “aimed at encouraging users to check ChatGPT first thing in the morning — much like they would check social media”; it ends with “Great, that’s it for today”, which its product lead described as a deliberate difference from engagement-optimized feeds. Pulse draws on memory and past chats.",
    "application": "An assistant that writes first from memory can still be finite and end each day; it can also become a habit to check.",
    "limits": "A launch report on a subscriber preview; later changes were not reviewed."
   },
@@ -528,7 +528,7 @@
    "kind": "Practice",
    "shows": "Introduced memory that people can ask to remember or forget, view and switch off, and Temporary Chat without memory; said it would “steer ChatGPT away from proactively remembering sensitive information, like your health details—unless you explicitly ask it to.” Later updates let people switch off reference to saved memories and to chat history separately.",
    "application": "The largest chat product treats memory as something to see, delete and switch off, and holds back sensitive categories; a faith app should do no less.",
-   "limits": "A company’s description of its own product; behaviour was not tested here."
+   "limits": "A company’s description of its own product; behavior was not tested here."
   },
   {
    "key": "kairos-final",
@@ -586,55 +586,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
- },
- "boundaries": {
-  "intro": "A follow-up someone asked for can be care, and the options above include several kinds of message. These practices are different: they claim feelings, press after silence, or speak about someone to others.",
-  "dont": [
-   {
-    "name": "Say it misses them",
-    "looks": "“I’ve been thinking about you all day.” “I miss you.”",
-    "why": "It claims feelings software does not have, to bring someone back. A consumer group advises switching such messages off to avoid emotional dependence, and New York requires companions to say they cannot feel human emotions.",
-    "instead": "asked",
-    "sources": [
-     "altroconsumo-replika",
-     "mofo-companion-laws"
-    ]
-   },
-   {
-    "name": "Write more the longer they are silent",
-    "looks": "A second and a third follow-up when the first goes unanswered.",
-    "why": "Silence may be an answer. Even one large company’s test of chatbots that write first stopped after a single unanswered follow-up.",
-    "instead": "waits",
-    "sources": [
-     "meta-proactive"
-    ]
-   },
-   {
-    "name": "Tell someone else about them",
-    "looks": "A friend told that someone “might need a call”, guessed from a conversation and sent in words the person never saw.",
-    "why": "It exposes a guess about someone’s state to others without asking them.",
-    "instead": "waits",
-    "sources": []
-   }
-  ],
-  "excluded": [
-   {
-    "name": "The app’s own reminders",
-    "why": "Reminders about a practice are covered there.",
-    "href": "/patterns/notifications/"
-   },
-   {
-    "name": "What the assistant remembers",
-    "why": "Which confidences are kept at all is covered there.",
-    "href": "/patterns/ai-memory/"
-   },
-   {
-    "name": "Follow-up by people",
-    "why": "When a person, not the assistant, should follow up is covered there.",
-    "href": "/patterns/handing-over/"
-   }
-  ],
-  "seen": {}
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

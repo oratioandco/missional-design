@@ -16,14 +16,14 @@
       ]
     ],
     "scripture": "“Not many of you should become teachers, my brothers, because you know that we who teach will be judged more strictly” (James 3:1). “Make every effort to present yourself approved to God, an unashamed workman who accurately handles the word of truth” (2 Timothy 2:15).",
-    "tradition": "The Second Vatican Council asked for editions of Scripture with suitable notes, and Augustine tested every interpretation by whether it builds up love of God and neighbour. faith.tools asks of every app it lists whether it aligns “with the teachings in the Bible”, because “A lot of apps for Christians are seen as an authority figure by the users”.",
+    "tradition": "The Second Vatican Council asked for editions of Scripture with suitable notes, and Augustine tested every interpretation by whether it builds up love of God and neighbor. faith.tools asks of every app it lists whether it aligns “with the teachings in the Bible”, because “A lot of apps for Christians are seen as an authority figure by the users”.",
     "tradition_sources": [
       "dei-verbum",
       "augustine-doctrina",
       "faithtools-criteria"
     ],
     "rules_in": [
-      "Headings, notes, media and AI answers labelled and styled so they cannot be taken for Scripture",
+      "Headings, notes, media and AI answers labeled and styled so they cannot be taken for Scripture",
       "Sources at the claim, not at the end",
       "The traditions named, each with its strongest passages, where Christians differ",
       "A verse shown with its passage, and a translation with its character"
@@ -667,7 +667,7 @@
         "/calling/#calling"
       ],
       [
-        "Craft turns the facets towards the light",
+        "Craft turns the facets toward the light",
         "/calling/#light"
       ]
     ],
@@ -678,7 +678,7 @@
       "faithtools-criteria"
     ],
     "rules_in": [
-      "A reader that is a joy to read in, and typography that honours the text",
+      "A reader that is a joy to read in, and typography that honors the text",
       "Accessibility as standard: screen readers, contrast, dyslexia, other languages",
       "Stillness, beauty and reliability",
       "Translations cited and licensed"

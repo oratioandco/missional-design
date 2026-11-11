@@ -33,7 +33,7 @@
     "source": "https://www.bible.com/en-GB/bible/1/JHN.1.KJV?parallel=206",
     "observation": "Opening Parallel adds a second pane. Its edition selector was changed from KJV to WEBUS while the first pane stayed KJV. Each pane has an edition label and a close action.",
     "decision": "Give each edition a visible identity and a clear way to leave comparison. A passage URL can encode the secondary edition as well as the primary reference.",
-    "limit": "Opening comparison and changing the secondary edition were observed. Synchronised scrolling, position restoration and mobile layouts were not tested.",
+    "limit": "Opening comparison and changing the secondary edition were observed. Synchronized scrolling, position restoration and mobile layouts were not tested.",
     "patterns": [
       "parallel-reading-layout",
       "translation-comparison",
@@ -76,7 +76,7 @@
     "source": "https://dwellapp.io/articles/1Z9y48yVLHahIxYQo65piU",
     "observation": "The comparison consolidates voice and edition into one pill and music into another. The article places repeat and sleep timer within an Options screen.",
     "decision": "Keep frequent playback decisions close to the player. Move secondary controls into a discoverable area that still communicates active settings.",
-    "limit": "This 2023 redesign is a historical example. It does not verify today’s player, Selah behaviour, exact highlighting granularity or verse-level repeat support.",
+    "limit": "This 2023 redesign is a historical example. It does not verify today’s player, Selah behavior, exact highlighting granularity or verse-level repeat support.",
     "patterns": [
       "audio-first",
       "audio-mix",
@@ -99,7 +99,7 @@
     "source": "https://help.olivetree.com/hc/en-us/articles/29762580603021-Mac-Study-Center",
     "observation": "The screenshot shows a Bible reader, Quick Details area and a Study Center with Parallel selected. The secondary area currently lists resources to open rather than displaying a second Bible.",
     "decision": "Keep the passage visible while choosing a commentary or comparison resource. Distinguish resource selection from the eventual parallel reading state.",
-    "limit": "The help article documents parallel reading and saved places across tabs. The screenshot alone does not demonstrate those behaviours; the native app was not tested.",
+    "limit": "The help article documents parallel reading and saved places across tabs. The screenshot alone does not demonstrate those behaviors; the native app was not tested.",
     "patterns": [
       "contextual-study-panel",
       "parallel-reading-layout",
@@ -121,7 +121,7 @@
     "source": "https://help.olivetree.com/hc/en-us/articles/29762580603021-Mac-Study-Center",
     "observation": "The help image exposes window-linking choices. The accompanying guide distinguishes no linking, linking that breaks when the secondary pane is scrolled, and a locked link.",
     "decision": "Distinguish temporary exploration from permanently independent reading. Make the current link state visible and give the reader an explicit way to restore synchronisation.",
-    "limit": "Behaviour is documented by the publisher, not independently exercised. Anchor mapping across different editions and accessibility of the control require further evaluation.",
+    "limit": "Behavior is documented by the publisher, not independently exercised. Anchor mapping across different editions and accessibility of the control require further evaluation.",
     "patterns": [
       "parallel-scroll",
       "parallel-reading-layout",
@@ -142,7 +142,7 @@
     "source": "https://www.hellobible.ai/en",
     "observation": "The mockup combines a daily verse with reference and actions, service cards, a prominent central action, and a numerical flame indicator.",
     "decision": "A home screen can connect a short Scripture encounter with further practices. Explain progress indicators without implying that a number measures faith or wellbeing.",
-    "limit": "This is a promotional mockup, not a live app capture. The flame’s precise meaning, central action, chat output, storage behaviour and safeguarding responses were not tested.",
+    "limit": "This is a promotional mockup, not a live app capture. The flame’s precise meaning, central action, chat output, storage behavior and safeguarding responses were not tested.",
     "patterns": [
       "reading-artifacts",
       "choose-help",
@@ -186,8 +186,8 @@
     "reviewed": "5 October 2026",
     "source": null,
     "observation": "The step presents feeling choices, four companion styles and a visible skip action. The Continue action is disabled before a feeling is selected.",
-    "decision": "Separate optional personalisation from the ability to begin. A feeling chosen by a person should not silently become a diagnosis or a durable psychological profile.",
-    "limit": "The skip control is visible; its resulting generation was not exercised. The UI does not establish whether selections are stored or how style changes model behaviour.",
+    "decision": "Separate optional personalization from the ability to begin. A feeling chosen by a person should not silently become a diagnosis or a durable psychological profile.",
+    "limit": "The skip control is visible; its resulting generation was not exercised. The UI does not establish whether selections are stored or how style changes model behavior.",
     "patterns": [
       "interactive-reflection",
       "choose-help",
@@ -209,7 +209,7 @@
     "source": "https://www.biblegateway.com/passage/?search=JOHN+1&version=NIV",
     "observation": "Activating the lettered note beside John 1:5 exposes an alternative reading in a small popover while the passage remains visible. A separate study area is also present.",
     "decision": "Use a brief anchored preview for short edition notes. Longer notes may need a sheet or panel; keep edition notes distinct from commentary.",
-    "limit": "The short note was opened while signed out. Keyboard focus, dismissal, narrow screens and longer note behaviour were not tested. Scripture shown: NIV, copyright Biblica, Inc.; commentary and interface retain their respective rights.",
+    "limit": "The short note was opened while signed out. Keyboard focus, dismissal, narrow screens and longer note behavior were not tested. Scripture shown: NIV, copyright Biblica, Inc.; commentary and interface retain their respective rights.",
     "patterns": [
       "footnotes",
       "contextual-study-panel",
@@ -278,7 +278,7 @@
     "source": "https://lumen.bible/",
     "observation": "An optional onboarding step offers curiosity or skepticism, beginning or returning, growth, and deeper study. A Skip control is visible; using it opened the home screen without choosing a faith category.",
     "decision": "Offer a low-pressure way to state current intent. Experience, belief and task depth are separate facets; do not turn one onboarding answer into a permanent spiritual ranking.",
-    "limit": "Necessary-only service choices were used. Subsequent personalised output, preference persistence, accessibility and mobile behaviour were not evaluated. The labels are the provider’s categories, not validated user segments.",
+    "limit": "Necessary-only service choices were used. Subsequent personalized output, preference persistence, accessibility and mobile behavior were not evaluated. The labels are the provider’s categories, not validated user segments.",
     "patterns": [
       "intent-controls",
       "choose-help",
@@ -322,7 +322,7 @@
     "source": "https://lumen.bible/#317e03834065a236-01/2TI/1",
     "observation": "Activating Compare changes the chapter reader into two verse-aligned columns. Both columns initially show BSB; the capture shows differing line wraps inside matching verse rows.",
     "decision": "Align reference units rather than raw pixel positions. Preserve edition labels and make it clear when the same edition is displayed twice.",
-    "limit": "The same-edition initial state was observed. Changing an edition, linked scrolling, mismatched versification and mobile behaviour were not exercised. This screenshot does not establish comparison of different translations.",
+    "limit": "The same-edition initial state was observed. Changing an edition, linked scrolling, mismatched versification and mobile behavior were not exercised. This screenshot does not establish comparison of different translations.",
     "patterns": [
       "verse-by-verse-comparison",
       "parallel-reading-layout",
@@ -405,7 +405,7 @@
       {
         "title": "Candidate and current chapter differ",
         "image": "/assets/examples/mere-bible-6.jpg",
-        "caption": "The large indicator shows 25 while the visible reading location is chapter 17. Exact preview and commit behaviour needs interaction testing."
+        "caption": "The large indicator shows 25 while the visible reading location is chapter 17. Exact preview and commit behavior needs interaction testing."
       }
     ]
   },
@@ -419,7 +419,7 @@
     "source_date": "Supplied 6 October 2026 · capture date not provided",
     "reviewed": "6 October 2026",
     "source": null,
-    "observation": "Deuteronomy is expanded within the Books list. Its 34 chapters appear as a grid, chapter 25 is coloured, and neighbouring book rows remain in the same list.",
+    "observation": "Deuteronomy is expanded within the Books list. Its 34 chapters appear as a grid, chapter 25 is colored, and neighbouring book rows remain in the same list.",
     "decision": "An accordion preserves book-list context while revealing chapters. Plan for long grids, keeping the selected chapter visible, and restoring position when a book collapses.",
     "limit": "Still images show interface states. Reveal gestures, drag timing, touch targets, screen-reader support and preference persistence were not independently tested. App build is not recorded.",
     "patterns": [
@@ -644,7 +644,7 @@
     "source_date": "Captured 1 October 2025 · from embedded image metadata",
     "reviewed": "6 October 2026",
     "source": null,
-    "observation": "For “Talking animals”, a box labelled “Predicted Answer*” explains Balaam’s donkey and the serpent with circled numbers in the text. Chips below read “1 Genesis 3:1”, “2 Numbers 22:21-30” and “11 Desiring God”, above tabs for passages, articles, books and videos.",
+    "observation": "For “Talking animals”, a box labeled “Predicted Answer*” explains Balaam’s donkey and the serpent with circled numbers in the text. Chips below read “1 Genesis 3:1”, “2 Numbers 22:21-30” and “11 Desiring God”, above tabs for passages, articles, books and videos.",
     "decision": "Numbered markers connect claims to sources and mix Scripture with a ministry’s articles. Show each source’s type, and check that every marker supports the sentence it sits in.",
     "limit": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
     "patterns": [
@@ -735,7 +735,7 @@
     "reviewed": "6 October 2026",
     "source": null,
     "observation": "A numbered list of results for “Talking animals” (Revelation 5:13, Psalm 104:25-26, Matthew 7:6…) ends with “These results are generated with the assistance of a specially-tuned AI model. Your feedback helps us improve these results:” and thumbs-up and thumbs-down buttons. A “Plus” upsell banner sits above.",
-    "decision": "Labelling AI help where the results end is honest; say what happens to the feedback, and keep upsells apart from the label so one is not read as the other.",
+    "decision": "Labeling AI help where the results end is honest; say what happens to the feedback, and keep upsells apart from the label so one is not read as the other.",
     "limit": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
     "patterns": [
       "ai-answer-actions",
@@ -1113,7 +1113,7 @@
     "reviewed": "6 October 2026",
     "source": null,
     "observation": "In Genesis 1 (NKJV), verses 25 and 26 carry overlapping pink and yellow highlights. A toast at the bottom reads “Highlight added” with an “Add Note” action.",
-    "decision": "Confirming the mark and offering a note in the same moment keeps capture quick and deeper reflection optional. Add undo, and make overlapping marks distinguishable without colour.",
+    "decision": "Confirming the mark and offering a note in the same moment keeps capture quick and deeper reflection optional. Add undo, and make overlapping marks distinguishable without color.",
     "limit": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
     "patterns": [
       "highlight-actions",
@@ -1498,7 +1498,7 @@
     "reviewed": "6 October 2026",
     "source": null,
     "observation": "The Community tab, signed out, shows a small church on a purple background and “Sign in or create an account to pray alongside your community”, with three ticks: “Connect with your parish community and stay connected with fellow members”, “Pray for others, be prayed for” and “Strengthen your faith together through community challenges and discussions”.",
-    "decision": "The pitch makes the parish the audience. Hallow’s help centre adds the details that matter: requests of up to 240 characters, never anonymous, active for seven days, answered with a heart.",
+    "decision": "The pitch makes the parish the audience. Hallow’s help center adds the details that matter: requests of up to 240 characters, never anonymous, active for seven days, answered with a heart.",
     "limit": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
     "patterns": [
       "sharing-with-a-group",
@@ -1851,7 +1851,7 @@
     "reviewed": "6 October 2026",
     "source": null,
     "observation": "“Wer schaut?” (who’s watching?) shows a large profile picture marked “Kids” and named “Kinderprofil” (children’s profile), with an edit button and another profile partly visible.",
-    "decision": "A labelled children’s profile makes the difference visible to the child and the parent.",
+    "decision": "A labeled children’s profile makes the difference visible to the child and the parent.",
     "limit": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
     "patterns": [
       "children-and-families"
@@ -2260,7 +2260,7 @@
     "reviewed": "6 October 2026",
     "source": null,
     "observation": "The profile shows a week strip under “Series” with days 5 to 8 marked, then six tiles: Current series 1 day, Daily verses 0, Record series 1 day, Time in the app 5 min, Conversations 32, Time Today 0 min. Settings follow; none of them lists or edits the answers given during onboarding.",
-    "decision": "Counting time in the app and conversations measures the product’s engagement, not the person’s life with God. If onboarding answers personalise the app, let people see and change them here.",
+    "decision": "Counting time in the app and conversations measures the product’s engagement, not the person’s life with God. If onboarding answers personalize the app, let people see and change them here.",
     "limit": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
     "patterns": [
       "check-ins-and-assessments",
@@ -2350,7 +2350,7 @@
     "reviewed": "6 October 2026",
     "source": null,
     "observation": "Over the player, a Music Info sheet lists “Ecce Quam Bonum · By The Monks of Pluscarden Abbey · A liturgy for St Columba The Monks of Pluscarden Abbey” and “Devotion · By Dear Gravity · The Pilgrimage Series: Wayfaring Dear Gravity”, each with Spotify, Artist Website and Apple Music links.",
-    "decision": "Crediting music inside the prayer session honours the people whose work carries it, and lets listeners find more. Credit authors and readers the same way.",
+    "decision": "Crediting music inside the prayer session honors the people whose work carries it, and lets listeners find more. Credit authors and readers the same way.",
     "limit": "A still image shows one interface state. Gestures, timing, accessibility, persistence and what happens next were not tested. App version not recorded.",
     "patterns": [
       "devotional-audio"

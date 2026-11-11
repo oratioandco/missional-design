@@ -32,7 +32,7 @@ NOTES = {
     'iap': 'Store-listed labels and prices; billing cadence and checkout availability are not verified. Missing products do not establish absence of payments.',
     'access': 'Publisher statements about the named scope; no independent app or checkout testing. Unknown means not established.',
     'pricing': 'Published web offers, not verified checkout. Dollar currency is unspecified unless marked USD; region, tax and eligibility may vary.',
-    'funding': 'App offers do not establish organisation revenue. Capital and processed donations are not revenue. No ethical assessment is implied.',
+    'funding': 'App offers do not establish organization revenue. Capital and processed donations are not revenue. No ethical assessment is implied.',
 }
 
 def pick(record, fields):
@@ -70,7 +70,7 @@ def scope_claim(s):
         elif status in {'paid_upgrade_available', 'premium_unlocks_scope'}:
             text = 'A paid upgrade expands access within this scope.'
         elif status == 'free_samples_full_content_subscription':
-            text = 'Free samples are available; a subscription unlocks the full catalogue. A separate lifetime purchase is also advertised.'
+            text = 'Free samples are available; a subscription unlocks the full catalog. A separate lifetime purchase is also advertised.'
         else:
             text = 'Free access is available alongside optional paid content or features.'
     out = pick(s, ('scope', 'status', 'evidence_type', 'source_url', 'checked', 'independently_tested'))
@@ -140,7 +140,7 @@ def project(payment, funding, library):
             if o['id'] == 'C033':
                 fact['summary'] = 'The creator reports personally covering app costs and providing the app free without subscriptions, upgrades or advertising.'
         organisations.append(dict(organisation_id=o['id'], status=o['status'] if o['id'] != 'C016' else 'funding_not_established',
-            facts=facts, unknowns=o['unknowns'] if o['id'] != 'C016' else ['Organisation funding is not established by the approved public evidence.']))
+            facts=facts, unknowns=o['unknowns'] if o['id'] != 'C016' else ['Organization funding is not established by the approved public evidence.']))
     if {a['app_id'] for a in apps} != app_ids or len(apps) != len(app_ids):
         raise ValueError('Missing or duplicate app identities')
     if {o['organisation_id'] for o in organisations} != org_ids or len(organisations) != len(org_ids):

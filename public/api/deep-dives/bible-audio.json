@@ -229,7 +229,7 @@
     },
     {
      "heading": "Text that follows the voice",
-     "text": "Synchronised highlighting helped children with dyslexia read along; same-language subtitles have supported literacy.",
+     "text": "Synchronized highlighting helped children with dyslexia read along; same-language subtitles have supported literacy.",
      "sources": [
       "read-along-dyslexia",
       "sls"
@@ -292,7 +292,7 @@
   },
   {
    "heading": "Where Christians differ",
-   "text": "Liturgical churches treat the reading of Scripture as worship in its own right: the Gospel is often read by a deacon or priest, with the people standing. Many Protestant churches centre the sermon, with the reading as its text. Traditions also differ on who may read publicly. All agree that a reader interprets by tone and pace; that is why churches choose and train readers."
+   "text": "Liturgical churches treat the reading of Scripture as worship in its own right: the Gospel is often read by a deacon or priest, with the people standing. Many Protestant churches center the sermon, with the reading as its text. Traditions also differ on who may read publicly. All agree that a reader interprets by tone and pace; that is why churches choose and train readers."
   },
   {
    "heading": "What follows for design",
@@ -406,7 +406,7 @@
    "url": "https://online-journals.org/index.php/i-jet/article/view/8736",
    "author": "International Journal of Emerging Technologies in Learning",
    "kind": "Research",
-   "shows": "Children with dyslexia found it easier to read along when audio was synchronised with highlighting, especially with whole-sentence highlighting.",
+   "shows": "Children with dyslexia found it easier to read along when audio was synchronized with highlighting, especially with whole-sentence highlighting.",
    "application": "Move the focus with audio, at the level of a verse or sentence.",
    "limits": "Small pilot study."
   },
@@ -416,9 +416,9 @@
    "url": "https://blogs.worldbank.org/edutech/bollywood-karaoke",
    "author": "World Bank blog on Brij Kothari’s work",
    "kind": "Research",
-   "shows": "Karaoke-style same-language subtitles on song programmes in India were associated with gains in reading among early readers.",
-   "application": "Synchronised text and audio can build reading as a by-product of listening.",
-   "limits": "Reported programme results; a literacy setting, not Scripture reading."
+   "shows": "Karaoke-style same-language subtitles on song programs in India were associated with gains in reading among early readers.",
+   "application": "Synchronized text and audio can build reading as a by-product of listening.",
+   "limits": "Reported program results; a literacy setting, not Scripture reading."
   },
   {
    "key": "fcbh",
@@ -448,7 +448,7 @@
    "kind": "Practice",
    "shows": "Daily ten-minute audio prayer since 2006 combining music, Scripture and Ignatian questions, used tens of millions of times a year.",
    "application": "A produced devotional can be formation-first: fixed, shared and ending in silence.",
-   "limits": "Usage figures from the organisation."
+   "limits": "Usage figures from the organization."
   },
   {
    "key": "music-reading",
@@ -466,7 +466,7 @@
    "url": "https://par.nsf.gov/servlets/purl/10536688",
    "author": "NSF public access repository",
    "kind": "Research",
-   "shows": "Listeners told a voice was human showed more trust than those told the same clip was AI; labelled AI voices were rated less credible.",
+   "shows": "Listeners told a voice was human showed more trust than those told the same clip was AI; labeled AI voices were rated less credible.",
    "application": "Label synthetic voices honestly, and expect a trust cost rather than hiding it.",
    "limits": "Lab studies with short clips; not Scripture."
   },
@@ -506,6 +506,6 @@
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "Bible & Faith Patterns, Tobias Treppmann, Missional by Design (patterns.missional.design)",
-  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this licence. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
+  "exceptions": "Documentary photographs credited to Startup Life are used with permission and are not covered by this license. Screenshots of real apps belong to their publishers; quotations remain their authors’. Berean Standard Bible text is public domain. Luke 19:40 from The Voice™ © 2008 Ecclesia Bible Society, used by permission, is not covered."
  }
 }

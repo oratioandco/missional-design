@@ -6,7 +6,7 @@
     "iap": "Store-listed labels and prices; billing cadence and checkout availability are not verified. Missing products do not establish absence of payments.",
     "access": "Publisher statements about the named scope; no independent app or checkout testing. Unknown means not established.",
     "pricing": "Published web offers, not verified checkout. Dollar currency is unspecified unless marked USD; region, tax and eligibility may vary.",
-    "funding": "App offers do not establish organisation revenue. Capital and processed donations are not revenue. No ethical assessment is implied."
+    "funding": "App offers do not establish organization revenue. Capital and processed donations are not revenue. No ethical assessment is implied."
   },
   "apps": [
     {
@@ -371,7 +371,7 @@
         {
           "scope": "all_content",
           "status": "publisher_claims_all_content_free",
-          "summary": "The Augustine Institute Amen help centre states all content is available at no cost. This applies only to org.amenapp.amen and not APP.AMEN / Amen Bible Chat.",
+          "summary": "The Augustine Institute Amen help center states all content is available at no cost. This applies only to org.amenapp.amen and not APP.AMEN / Amen Bible Chat.",
           "checked": "2026-10-25",
           "source_url": "https://help.amenapp.org/hc/en-us/articles/4408944937491-Is-Amen-FREE",
           "channel": "publisher_web"
@@ -7505,7 +7505,7 @@
       "status": "primary_statement_verified",
       "facts": [
         {
-          "summary": "24-7 Prayer states that it is funded entirely by donations from individuals and organisations.",
+          "summary": "24-7 Prayer states that it is funded entirely by donations from individuals and organizations.",
           "scope": "organisation",
           "source_url": "https://www.24-7prayer.com/give/",
           "source_kind": "primary_publisher_statement",
@@ -7515,7 +7515,7 @@
         }
       ],
       "unknowns": [
-        "Organisation revenue and complete current funding mix are not established by these sources."
+        "Organization revenue and complete current funding mix are not established by these sources."
       ]
     },
     {
@@ -7523,7 +7523,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -7531,7 +7531,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -7540,7 +7540,7 @@
       "facts": [
         {
           "summary": "Publisher App Store listing advertises paid in-app products; this establishes app-level offers only.",
-          "scope": "Linked app / US App Store product catalogue",
+          "scope": "Linked app / US App Store product catalog",
           "source_url": "https://apps.apple.com/us/app/ai-jesus-bible-chat/id6739205160?uo=4",
           "source_kind": "publisher_app_store_listing",
           "checked": "2026-10-25",
@@ -7549,7 +7549,7 @@
         }
       ],
       "unknowns": [
-        "Organisation-wide revenue and funding remain unknown; only app-level paid products documented."
+        "Organization-wide revenue and funding remain unknown; only app-level paid products documented."
       ]
     },
     {
@@ -7557,7 +7557,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -7575,7 +7575,7 @@
         }
       ],
       "unknowns": [
-        "Organisation revenue and complete current funding mix are not established by these sources."
+        "Organization revenue and complete current funding mix are not established by these sources."
       ]
     },
     {
@@ -7583,7 +7583,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -7592,7 +7592,7 @@
       "facts": [
         {
           "summary": "Publisher App Store listing advertises paid in-app products; this establishes app-level offers only.",
-          "scope": "Linked app / US App Store product catalogue",
+          "scope": "Linked app / US App Store product catalog",
           "source_url": "https://apps.apple.com/us/app/bible-study-manna/id6742866659?uo=4",
           "source_kind": "publisher_app_store_listing",
           "checked": "2026-10-25",
@@ -7601,7 +7601,7 @@
         }
       ],
       "unknowns": [
-        "Organisation-wide revenue and funding remain unknown; only app-level paid products documented."
+        "Organization-wide revenue and funding remain unknown; only app-level paid products documented."
       ]
     },
     {
@@ -7619,7 +7619,7 @@
         }
       ],
       "unknowns": [
-        "Organisation revenue and complete current funding mix are not established by these sources."
+        "Organization revenue and complete current funding mix are not established by these sources."
       ]
     },
     {
@@ -7627,7 +7627,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -7635,7 +7635,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -7653,7 +7653,7 @@
         }
       ],
       "unknowns": [
-        "Organisation revenue and complete current funding mix are not established by these sources."
+        "Organization revenue and complete current funding mix are not established by these sources."
       ]
     },
     {
@@ -7679,7 +7679,7 @@
         }
       ],
       "unknowns": [
-        "Organisation revenue and complete current funding mix are not established by these sources."
+        "Organization revenue and complete current funding mix are not established by these sources."
       ]
     },
     {
@@ -7687,7 +7687,7 @@
       "status": "funding_not_established",
       "facts": [],
       "unknowns": [
-        "Organisation funding is not established by the approved public evidence."
+        "Organization funding is not established by the approved public evidence."
       ]
     },
     {
@@ -7695,7 +7695,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -7703,7 +7703,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -7711,7 +7711,7 @@
       "status": "primary_statement_verified",
       "facts": [
         {
-          "summary": "Givelify charges organisations a per-donation transaction fee; donor use is free and no monthly fee is listed. Fees cover processing, security and product development; total giving volume is not revenue.",
+          "summary": "Givelify charges organizations a per-donation transaction fee; donor use is free and no monthly fee is listed. Fees cover processing, security and product development; total giving volume is not revenue.",
           "scope": "giving platform offer",
           "source_url": "https://www.givelify.com/organizations/pricing/",
           "source_kind": "primary_publisher_statement",
@@ -7721,7 +7721,7 @@
         }
       ],
       "unknowns": [
-        "Organisation revenue and complete current funding mix are not established by these sources."
+        "Organization revenue and complete current funding mix are not established by these sources."
       ]
     },
     {
@@ -7756,7 +7756,7 @@
       "facts": [
         {
           "summary": "Publisher App Store listing advertises paid in-app products; this establishes app-level offers only.",
-          "scope": "Linked app / US App Store product catalogue",
+          "scope": "Linked app / US App Store product catalog",
           "source_url": "https://apps.apple.com/us/app/selah-devos/id1383328814?uo=4",
           "source_kind": "publisher_app_store_listing",
           "checked": "2026-10-25",
@@ -7765,7 +7765,7 @@
         }
       ],
       "unknowns": [
-        "Organisation-wide revenue and funding remain unknown; only app-level paid products documented."
+        "Organization-wide revenue and funding remain unknown; only app-level paid products documented."
       ]
     },
     {
@@ -7773,7 +7773,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -7781,7 +7781,7 @@
       "status": "primary_statement_verified",
       "facts": [
         {
-          "summary": "STEPS says many people give each month, allowing much of its content to be offered free. This documents donation support, not an exclusively donation-funded organisation.",
+          "summary": "STEPS says many people give each month, allowing much of its content to be offered free. This documents donation support, not an exclusively donation-funded organization.",
           "scope": "STEPS project",
           "source_url": "https://www.365steps.de/about",
           "source_kind": "primary_publisher_statement",
@@ -7791,7 +7791,7 @@
         }
       ],
       "unknowns": [
-        "Complete organisation-wide revenue and current funding mix remain unestablished."
+        "Complete organization-wide revenue and current funding mix remain unestablished."
       ]
     },
     {
@@ -7817,7 +7817,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -7825,7 +7825,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -7859,7 +7859,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -7867,7 +7867,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -7885,7 +7885,7 @@
         }
       ],
       "unknowns": [
-        "Complete organisation-wide revenue and current funding mix remain unestablished."
+        "Complete organization-wide revenue and current funding mix remain unestablished."
       ]
     },
     {
@@ -7903,7 +7903,7 @@
         }
       ],
       "unknowns": [
-        "Complete organisation-wide revenue and current funding mix remain unestablished."
+        "Complete organization-wide revenue and current funding mix remain unestablished."
       ]
     },
     {
@@ -7921,7 +7921,7 @@
         }
       ],
       "unknowns": [
-        "Organisation revenue and complete current funding mix are not established by these sources."
+        "Organization revenue and complete current funding mix are not established by these sources."
       ]
     },
     {
@@ -7948,7 +7948,7 @@
       "facts": [
         {
           "summary": "ERF says it finances itself almost entirely through donations from users and supporters.",
-          "scope": "ERF organisation",
+          "scope": "ERF organization",
           "source_url": "https://www.erf.de/ueber-uns/50006",
           "source_kind": "primary_publisher_statement",
           "checked": "2026-10-25",
@@ -7957,7 +7957,7 @@
         }
       ],
       "unknowns": [
-        "Organisation revenue and complete current funding mix are not established by these sources."
+        "Organization revenue and complete current funding mix are not established by these sources."
       ]
     },
     {
@@ -7965,7 +7965,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -7973,7 +7973,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -7982,7 +7982,7 @@
       "facts": [
         {
           "summary": "Publisher App Store listing advertises paid in-app products; this establishes app-level offers only.",
-          "scope": "Linked app / US App Store product catalogue",
+          "scope": "Linked app / US App Store product catalog",
           "source_url": "https://apps.apple.com/us/app/orthodoxy-prayers-bible/id6476573435?uo=4",
           "source_kind": "publisher_app_store_listing",
           "checked": "2026-10-25",
@@ -7991,7 +7991,7 @@
         }
       ],
       "unknowns": [
-        "Organisation-wide revenue and funding remain unknown; only app-level paid products documented."
+        "Organization-wide revenue and funding remain unknown; only app-level paid products documented."
       ]
     },
     {
@@ -8008,7 +8008,7 @@
       "facts": [
         {
           "summary": "Publisher App Store listing advertises paid in-app products; this establishes app-level offers only.",
-          "scope": "Linked app / US App Store product catalogue",
+          "scope": "Linked app / US App Store product catalog",
           "source_url": "https://apps.apple.com/us/app/amen-bible-chat/id6744241928?uo=4",
           "source_kind": "publisher_app_store_listing",
           "checked": "2026-10-25",
@@ -8017,7 +8017,7 @@
         }
       ],
       "unknowns": [
-        "Organisation-wide revenue and funding remain unknown; only app-level paid products documented."
+        "Organization-wide revenue and funding remain unknown; only app-level paid products documented."
       ]
     },
     {
@@ -8025,7 +8025,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8051,7 +8051,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8059,7 +8059,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8085,7 +8085,7 @@
       "status": "primary_statement_verified",
       "facts": [
         {
-          "summary": "Abide offers monthly and annual Premium subscriptions after a trial alongside free daily content. This does not describe the whole Guideposts organisation budget.",
+          "summary": "Abide offers monthly and annual Premium subscriptions after a trial alongside free daily content. This does not describe the whole Guideposts organization budget.",
           "scope": "Abide app",
           "source_url": "https://abide.com/sub-selection/",
           "source_kind": "primary_publisher_statement",
@@ -8104,7 +8104,7 @@
       "facts": [
         {
           "summary": "Publisher App Store listing advertises paid in-app products; this establishes app-level offers only.",
-          "scope": "Linked app / US App Store product catalogue",
+          "scope": "Linked app / US App Store product catalog",
           "source_url": "https://apps.apple.com/us/app/ai-prayer-bible-study-pray-ai/id6451060870?uo=4",
           "source_kind": "publisher_app_store_listing",
           "checked": "2026-10-25",
@@ -8113,7 +8113,7 @@
         }
       ],
       "unknowns": [
-        "Organisation-wide revenue and funding remain unknown; only app-level paid products documented."
+        "Organization-wide revenue and funding remain unknown; only app-level paid products documented."
       ]
     },
     {
@@ -8140,7 +8140,7 @@
         }
       ],
       "unknowns": [
-        "Organisation revenue and complete current funding mix are not established by these sources."
+        "Organization revenue and complete current funding mix are not established by these sources."
       ]
     },
     {
@@ -8158,7 +8158,7 @@
         }
       ],
       "unknowns": [
-        "Organisation revenue and complete current funding mix are not established by these sources."
+        "Organization revenue and complete current funding mix are not established by these sources."
       ]
     },
     {
@@ -8192,7 +8192,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8201,7 +8201,7 @@
       "facts": [
         {
           "summary": "Publisher App Store listing advertises paid in-app products; this establishes app-level offers only.",
-          "scope": "Linked app / US App Store product catalogue",
+          "scope": "Linked app / US App Store product catalog",
           "source_url": "https://apps.apple.com/us/app/scroll-the-bible/id6756558351?uo=4",
           "source_kind": "publisher_app_store_listing",
           "checked": "2026-10-25",
@@ -8210,7 +8210,7 @@
         }
       ],
       "unknowns": [
-        "Organisation-wide revenue and funding remain unknown; only app-level paid products documented."
+        "Organization-wide revenue and funding remain unknown; only app-level paid products documented."
       ]
     },
     {
@@ -8228,7 +8228,7 @@
         }
       ],
       "unknowns": [
-        "Organisation revenue and complete current funding mix are not established by these sources."
+        "Organization revenue and complete current funding mix are not established by these sources."
       ]
     },
     {
@@ -8236,7 +8236,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8252,7 +8252,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8270,7 +8270,7 @@
         }
       ],
       "unknowns": [
-        "Organisation revenue and complete current funding mix are not established by these sources."
+        "Organization revenue and complete current funding mix are not established by these sources."
       ]
     },
     {
@@ -8278,7 +8278,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8286,7 +8286,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8331,7 +8331,7 @@
         }
       ],
       "unknowns": [
-        "Organisation revenue and complete current funding mix are not established by these sources."
+        "Organization revenue and complete current funding mix are not established by these sources."
       ]
     },
     {
@@ -8339,7 +8339,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8348,7 +8348,7 @@
       "facts": [
         {
           "summary": "Publisher App Store listing advertises paid in-app products; this establishes app-level offers only.",
-          "scope": "Linked app / US App Store product catalogue",
+          "scope": "Linked app / US App Store product catalog",
           "source_url": "https://apps.apple.com/us/app/bible-widgets-verses-prayer/id6745089450?uo=4",
           "source_kind": "publisher_app_store_listing",
           "checked": "2026-10-25",
@@ -8357,7 +8357,7 @@
         }
       ],
       "unknowns": [
-        "Organisation-wide revenue and funding remain unknown; only app-level paid products documented."
+        "Organization-wide revenue and funding remain unknown; only app-level paid products documented."
       ]
     },
     {
@@ -8366,7 +8366,7 @@
       "facts": [
         {
           "summary": "Publisher App Store listing advertises paid in-app products; this establishes app-level offers only.",
-          "scope": "Linked app / US App Store product catalogue",
+          "scope": "Linked app / US App Store product catalog",
           "source_url": "https://apps.apple.com/us/app/bible-note-sermon-notes/id6743159952?uo=4",
           "source_kind": "publisher_app_store_listing",
           "checked": "2026-10-25",
@@ -8375,7 +8375,7 @@
         }
       ],
       "unknowns": [
-        "Organisation-wide revenue and funding remain unknown; only app-level paid products documented."
+        "Organization-wide revenue and funding remain unknown; only app-level paid products documented."
       ]
     },
     {
@@ -8383,7 +8383,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8391,7 +8391,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8399,7 +8399,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8435,7 +8435,7 @@
         }
       ],
       "unknowns": [
-        "Organisation revenue and complete current funding mix are not established by these sources."
+        "Organization revenue and complete current funding mix are not established by these sources."
       ]
     },
     {
@@ -8444,7 +8444,7 @@
       "facts": [
         {
           "summary": "Publisher App Store listing advertises paid in-app products; this establishes app-level offers only.",
-          "scope": "Linked app / US App Store product catalogue",
+          "scope": "Linked app / US App Store product catalog",
           "source_url": "https://apps.apple.com/us/app/beblessedme/id6480235250?uo=4",
           "source_kind": "publisher_app_store_listing",
           "checked": "2026-10-25",
@@ -8453,7 +8453,7 @@
         }
       ],
       "unknowns": [
-        "Organisation-wide revenue and funding remain unknown; only app-level paid products documented."
+        "Organization-wide revenue and funding remain unknown; only app-level paid products documented."
       ]
     },
     {
@@ -8462,7 +8462,7 @@
       "facts": [
         {
           "summary": "Publisher App Store listing advertises paid in-app products; this establishes app-level offers only.",
-          "scope": "Linked app / US App Store product catalogue",
+          "scope": "Linked app / US App Store product catalog",
           "source_url": "https://apps.apple.com/us/app/faith-mentor-ai-bible-chat/id6739945256?uo=4",
           "source_kind": "publisher_app_store_listing",
           "checked": "2026-10-25",
@@ -8471,7 +8471,7 @@
         }
       ],
       "unknowns": [
-        "Organisation-wide revenue and funding remain unknown; only app-level paid products documented."
+        "Organization-wide revenue and funding remain unknown; only app-level paid products documented."
       ]
     },
     {
@@ -8479,8 +8479,8 @@
       "status": "primary_statement_verified",
       "facts": [
         {
-          "summary": "Pause app page calls Wild at Heart a crowdfunded organisation and invites support. This is a parent-ministry statement, not app-specific financial accounts.",
-          "scope": "Wild at Heart organisation / Pause app site",
+          "summary": "Pause app page calls Wild at Heart a crowdfunded organization and invites support. This is a parent-ministry statement, not app-specific financial accounts.",
+          "scope": "Wild at Heart organization / Pause app site",
           "source_url": "https://www.pauseapp.com",
           "source_kind": "primary_publisher_statement",
           "checked": "2026-10-25",
@@ -8497,7 +8497,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8523,7 +8523,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8531,7 +8531,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8540,7 +8540,7 @@
       "facts": [
         {
           "summary": "Publisher App Store listing advertises paid in-app products; this establishes app-level offers only.",
-          "scope": "Linked app / US App Store product catalogue",
+          "scope": "Linked app / US App Store product catalog",
           "source_url": "https://apps.apple.com/us/app/biblescroll-christian-focus/id6755406222?uo=4",
           "source_kind": "publisher_app_store_listing",
           "checked": "2026-10-25",
@@ -8549,7 +8549,7 @@
         }
       ],
       "unknowns": [
-        "Organisation-wide revenue and funding remain unknown; only app-level paid products documented."
+        "Organization-wide revenue and funding remain unknown; only app-level paid products documented."
       ]
     },
     {
@@ -8557,7 +8557,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8573,7 +8573,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8591,7 +8591,7 @@
         }
       ],
       "unknowns": [
-        "Organisation revenue and complete current funding mix are not established by these sources."
+        "Organization revenue and complete current funding mix are not established by these sources."
       ]
     },
     {
@@ -8600,7 +8600,7 @@
       "facts": [
         {
           "summary": "Publisher App Store listing advertises paid in-app products; this establishes app-level offers only.",
-          "scope": "Linked app / US App Store product catalogue",
+          "scope": "Linked app / US App Store product catalog",
           "source_url": "https://apps.apple.com/us/app/bible-strong-learn-and-study/id1454738221?uo=4",
           "source_kind": "publisher_app_store_listing",
           "checked": "2026-10-25",
@@ -8609,7 +8609,7 @@
         }
       ],
       "unknowns": [
-        "Organisation-wide revenue and funding remain unknown; only app-level paid products documented."
+        "Organization-wide revenue and funding remain unknown; only app-level paid products documented."
       ]
     },
     {
@@ -8617,7 +8617,7 @@
       "status": "primary_statement_verified",
       "facts": [
         {
-          "summary": "Streetlights says donor support enables it to give its resources free and invites recurring and one-time gifts. This is the Bible ministry, distinct from the unrelated streetlights.org film-training organisation.",
+          "summary": "Streetlights says donor support enables it to give its resources free and invites recurring and one-time gifts. This is the Bible ministry, distinct from the unrelated streetlights.org film-training organization.",
           "scope": "Streetlights ministry",
           "source_url": "https://www.streetlightsbible.com/give",
           "source_kind": "primary_publisher_statement",
@@ -8627,7 +8627,7 @@
         }
       ],
       "unknowns": [
-        "Complete organisation-wide revenue and current funding mix remain unestablished."
+        "Complete organization-wide revenue and current funding mix remain unestablished."
       ]
     },
     {
@@ -8661,7 +8661,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8669,7 +8669,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8686,7 +8686,7 @@
       "facts": [
         {
           "summary": "Official site invites cash/monthly gifts, bequests, securities and other giving methods. These establish donation solicitation, not exclusive donor funding or app-specific revenue.",
-          "scope": "Gideons organisation",
+          "scope": "Gideons organization",
           "source_url": "https://gideons.org",
           "source_kind": "primary_publisher_statement",
           "checked": "2026-10-25",
@@ -8703,7 +8703,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8711,7 +8711,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding.",
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding.",
         "Recorded website points to Subsplash, whereas seller is The Video Bible LLC. Identity/scope mismatch: do not transfer Subsplash pricing or revenue to this seller."
       ]
     },
@@ -8720,7 +8720,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8728,7 +8728,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8736,7 +8736,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8745,7 +8745,7 @@
       "facts": [
         {
           "summary": "Publisher App Store listing advertises paid in-app products; this establishes app-level offers only.",
-          "scope": "Linked app / US App Store product catalogue",
+          "scope": "Linked app / US App Store product catalog",
           "source_url": "https://apps.apple.com/us/app/bible-talk-deepen-your-faith/id6502113201?uo=4",
           "source_kind": "publisher_app_store_listing",
           "checked": "2026-10-25",
@@ -8754,7 +8754,7 @@
         }
       ],
       "unknowns": [
-        "Organisation-wide revenue and funding remain unknown; only app-level paid products documented."
+        "Organization-wide revenue and funding remain unknown; only app-level paid products documented."
       ]
     },
     {
@@ -8788,7 +8788,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8796,7 +8796,7 @@
       "status": "primary_statement_verified",
       "facts": [
         {
-          "summary": "Publisher says all podcasts and accompanying booklets are free and users may donate. This establishes donation support, not the entire organisation funding mix.",
+          "summary": "Publisher says all podcasts and accompanying booklets are free and users may donate. This establishes donation support, not the entire organization funding mix.",
           "scope": "bibletunes podcasts and booklets",
           "source_url": "https://bibletunes.de/faq",
           "source_kind": "primary_publisher_statement",
@@ -8806,7 +8806,7 @@
         }
       ],
       "unknowns": [
-        "Organisation revenue and complete current funding mix are not established by these sources."
+        "Organization revenue and complete current funding mix are not established by these sources."
       ]
     },
     {
@@ -8822,7 +8822,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     },
     {
@@ -8830,7 +8830,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding.",
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding.",
         "Privacy page refers to subscriptions and purchases but does not by itself establish an actual current paid offer or funding mix."
       ]
     },
@@ -8839,7 +8839,7 @@
       "status": "primary_lead_inspected_funding_not_established",
       "facts": [],
       "unknowns": [
-        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organisation does not disclose funding."
+        "Primary website lead fetched and screened. No sufficiently contextual funding statement established from that page in this pass; deeper pricing/donation/accounts research remains open. This is not proof that the organization does not disclose funding."
       ]
     }
   ]
