@@ -106,7 +106,7 @@
     "Nothing kept": "good fit",
     "Context you add": "good fit",
     "This conversation": "possible",
-    "Memory you can see": "possible",
+    "Memory you can see": "poor fit",
     "A profile it builds": "poor fit"
    }
   },
@@ -138,7 +138,7 @@
    "fit": {
     "Nothing kept": "good fit",
     "Context you add": "possible",
-    "This conversation": "possible",
+    "This conversation": "poor fit",
     "Memory you can see": "poor fit",
     "A profile it builds": "poor fit"
    }

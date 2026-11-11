@@ -124,7 +124,7 @@
    "needs": "The passages, quoted from the edition",
    "fit": {
     "Always answers, confidently": "poor fit",
-    "A warning in the fine print": "possible",
+    "A warning in the fine print": "poor fit",
     "A confidence level on each answer": "possible",
     "Says what kind of claim each part is": "good fit",
     "Says “I don’t know”, and where to look": "possible",
@@ -137,7 +137,7 @@
    "fit": {
     "Always answers, confidently": "poor fit",
     "A warning in the fine print": "poor fit",
-    "A confidence level on each answer": "possible",
+    "A confidence level on each answer": "poor fit",
     "Says what kind of claim each part is": "good fit",
     "Says “I don’t know”, and where to look": "good fit",
     "Declines to answer": "poor fit"

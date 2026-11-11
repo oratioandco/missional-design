@@ -152,7 +152,7 @@
     "Stays with you": "poor fit",
     "Agrees, then adds": "possible",
     "Asks a question back": "possible",
-    "Names a disagreement": "good fit",
+    "Names a disagreement": "possible",
     "Corrects plainly": "good fit",
     "Rebukes and moralises": "poor fit"
    }
@@ -162,7 +162,7 @@
    "needs": "A question back, and an honest word",
    "fit": {
     "Always on your side": "poor fit",
-    "Stays with you": "possible",
+    "Stays with you": "poor fit",
     "Agrees, then adds": "possible",
     "Asks a question back": "good fit",
     "Names a disagreement": "good fit",

@@ -216,7 +216,7 @@
    "needs": "Its teaching, owned and reviewed by it",
    "fit": {
     "No speaker": "good fit",
-    "A guide": "good fit",
+    "A guide": "possible",
     "A published answer with a named owner": "good fit",
     "A friend": "poor fit",
     "A church’s teaching": "good fit",
@@ -263,7 +263,7 @@
     "No speaker": "good fit",
     "A guide": "good fit",
     "A published answer with a named owner": "good fit",
-    "A friend": "possible",
+    "A friend": "poor fit",
     "A church’s teaching": "possible",
     "A pastor or priest": "poor fit",
     "A saint or biblical figure": "poor fit",

@@ -178,9 +178,9 @@
     "Closes well": "good fit",
     "Suggests a break": "possible",
     "A length they choose": "poor fit",
-    "One chosen step, then goodbye": "good fit",
+    "One chosen step, then goodbye": "possible",
     "Always open": "possible",
-    "One more question": "possible",
+    "One more question": "poor fit",
     "A hook at goodbye": "poor fit",
     "Guilt to stay": "poor fit"
    }
@@ -220,7 +220,7 @@
     "Closes well": "possible",
     "Suggests a break": "possible",
     "A length they choose": "good fit",
-    "One chosen step, then goodbye": "good fit",
+    "One chosen step, then goodbye": "possible",
     "Always open": "poor fit",
     "One more question": "poor fit",
     "A hook at goodbye": "poor fit",
