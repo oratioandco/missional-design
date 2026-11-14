@@ -1,0 +1,725 @@
+{
+  "schemaVersion": 3,
+  "stage": "components",
+  "id": "components",
+  "title": "Plan and asset review · src/pages/index.astro",
+  "comp": {
+    "path": ".impeccable/mocks/04-reflected-light-refined.png",
+    "width": 971,
+    "height": 1619
+  },
+  "specSha256": "6c6f4de6c689652b06f64eb117691f4b92ef30b7fa8fe133a69653f8d1d6fdeb",
+  "components": [
+    {
+      "id": "hero-ground",
+      "name": "Hero ground",
+      "kind": "image",
+      "role": "asset",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 0.2662
+      },
+      "note": "Bright pale ice-blue studio setting with approved rugged fractured reflective silicon specimen floating at right, no lettering; static full-bleed hero photograph",
+      "medium": "raster",
+      "preview": {
+        "kind": "image",
+        "path": "assets/plates/hero-ground.png"
+      },
+      "dependencies": []
+    },
+    {
+      "id": "workshop",
+      "name": "Workshop",
+      "kind": "image",
+      "role": "asset",
+      "box": {
+        "x": 0,
+        "y": 0.2662,
+        "w": 0.6982,
+        "h": 0.2236
+      },
+      "note": "Warm fictional startup team reviewing paper prototypes with metal linked prop",
+      "medium": "raster",
+      "preview": {
+        "kind": "image",
+        "path": "assets/plates/workshop.png"
+      },
+      "dependencies": []
+    },
+    {
+      "id": "phone-landscape",
+      "name": "Phone landscape",
+      "kind": "image",
+      "role": "asset",
+      "box": {
+        "x": 0.5458,
+        "y": 0.5127,
+        "w": 0.1421,
+        "h": 0.0537
+      },
+      "note": "Small sunlit mountain landscape in illustrative reading screen",
+      "medium": "raster",
+      "preview": {
+        "kind": "image",
+        "path": "assets/plates/phone-landscape.png"
+      },
+      "dependencies": []
+    },
+    {
+      "id": "neighborhood",
+      "name": "Neighborhood",
+      "kind": "image",
+      "role": "asset",
+      "box": {
+        "x": 0.3048,
+        "y": 0.8338,
+        "w": 0.6952,
+        "h": 0.1309
+      },
+      "note": "Approved Berlin neighborhood scene with floating silicon specimen",
+      "medium": "raster",
+      "preview": {
+        "kind": "image",
+        "path": "assets/plates/neighborhood.png"
+      },
+      "dependencies": []
+    },
+    {
+      "id": "return-icon",
+      "name": "Return icon",
+      "kind": "chrome",
+      "role": "plan",
+      "box": {
+        "x": 0.7786,
+        "y": 0.5287,
+        "w": 0.0515,
+        "h": 0.0272
+      },
+      "note": "Small plant pictogram in illustrative return screen",
+      "medium": "code",
+      "preview": {
+        "kind": "comp-crop"
+      },
+      "codeDrawn": false,
+      "dependencies": []
+    },
+    {
+      "id": "principles-icon",
+      "name": "Principles icon",
+      "kind": "chrome",
+      "role": "plan",
+      "box": {
+        "x": 0.0968,
+        "y": 0.7258,
+        "w": 0.0556,
+        "h": 0.0272
+      },
+      "note": "Simple established icon for Principles",
+      "medium": "code",
+      "preview": {
+        "kind": "comp-crop"
+      },
+      "codeDrawn": false,
+      "dependencies": []
+    },
+    {
+      "id": "patterns-icon",
+      "name": "Patterns icon",
+      "kind": "chrome",
+      "role": "plan",
+      "box": {
+        "x": 0.6643,
+        "y": 0.7258,
+        "w": 0.0556,
+        "h": 0.0272
+      },
+      "note": "Simple established icon for Patterns",
+      "medium": "code",
+      "preview": {
+        "kind": "comp-crop"
+      },
+      "codeDrawn": false,
+      "dependencies": []
+    }
+  ],
+  "codeRegions": [
+    {
+      "id": "wordmark",
+      "name": "Wordmark",
+      "kind": "text",
+      "box": {
+        "x": 0.0968,
+        "y": 0.0111,
+        "w": 0.1246,
+        "h": 0.0451
+      },
+      "note": "Stacked serif missional by design wordmark"
+    },
+    {
+      "id": "navigation",
+      "name": "Navigation",
+      "kind": "control",
+      "box": {
+        "x": 0.517,
+        "y": 0.0136,
+        "w": 0.3944,
+        "h": 0.0154
+      },
+      "note": "Principles Canvas Patterns Writing About EN DE links"
+    },
+    {
+      "id": "hero-title",
+      "name": "Hero title",
+      "kind": "text",
+      "box": {
+        "x": 0.0927,
+        "y": 0.0778,
+        "w": 0.3944,
+        "h": 0.0784
+      },
+      "note": "What really is good news here? two-line serif heading"
+    },
+    {
+      "id": "hero-deck",
+      "name": "Hero deck",
+      "kind": "text",
+      "box": {
+        "x": 0.0947,
+        "y": 0.1649,
+        "w": 0.3635,
+        "h": 0.0315
+      },
+      "note": "Christian reflection and practical tools for a changing context."
+    },
+    {
+      "id": "hero-audience",
+      "name": "Hero audience",
+      "kind": "text",
+      "box": {
+        "x": 0.0947,
+        "y": 0.2001,
+        "w": 0.345,
+        "h": 0.0241
+      },
+      "note": "An open resource for Christian technologists and ministry leaders."
+    },
+    {
+      "id": "hero-action",
+      "name": "Hero action",
+      "kind": "control",
+      "box": {
+        "x": 0.0947,
+        "y": 0.2285,
+        "w": 0.2245,
+        "h": 0.029
+      },
+      "note": "Find your starting point navy button"
+    },
+    {
+      "id": "listening-title",
+      "name": "Listening title",
+      "kind": "text",
+      "box": {
+        "x": 0.7291,
+        "y": 0.2965,
+        "w": 0.2389,
+        "h": 0.0821
+      },
+      "note": "Faithful design starts with listening. serif heading"
+    },
+    {
+      "id": "listening-copy",
+      "name": "Listening copy",
+      "kind": "text",
+      "box": {
+        "x": 0.7291,
+        "y": 0.3879,
+        "w": 0.2472,
+        "h": 0.0463
+      },
+      "note": "To people. To our changing context. To the good news of Jesus."
+    },
+    {
+      "id": "workshop-caption",
+      "name": "Workshop caption",
+      "kind": "text",
+      "box": {
+        "x": 0.7312,
+        "y": 0.4571,
+        "w": 0.1689,
+        "h": 0.0124
+      },
+      "note": "Generated editorial image caption"
+    },
+    {
+      "id": "example-label",
+      "name": "Example label",
+      "kind": "text",
+      "box": {
+        "x": 0.0927,
+        "y": 0.5139,
+        "w": 0.171,
+        "h": 0.0124
+      },
+      "note": "A design question label"
+    },
+    {
+      "id": "example-title",
+      "name": "Example title",
+      "kind": "text",
+      "box": {
+        "x": 0.0927,
+        "y": 0.5312,
+        "w": 0.4016,
+        "h": 0.0686
+      },
+      "note": "A missed day. A welcoming return. serif heading"
+    },
+    {
+      "id": "example-deck",
+      "name": "Example deck",
+      "kind": "text",
+      "box": {
+        "x": 0.0927,
+        "y": 0.6047,
+        "w": 0.3872,
+        "h": 0.029
+      },
+      "note": "How might a reading app help someone begin again?"
+    },
+    {
+      "id": "example-action",
+      "name": "Example action",
+      "kind": "control",
+      "box": {
+        "x": 0.0927,
+        "y": 0.6504,
+        "w": 0.172,
+        "h": 0.0161
+      },
+      "note": "Compare the options text link"
+    },
+    {
+      "id": "phone-left",
+      "name": "Phone left",
+      "kind": "chrome",
+      "box": {
+        "x": 0.5376,
+        "y": 0.5022,
+        "w": 0.1586,
+        "h": 0.1717
+      },
+      "note": "Illustrative first reading-app screen frame"
+    },
+    {
+      "id": "welcome-title",
+      "name": "Welcome title",
+      "kind": "text",
+      "box": {
+        "x": 0.552,
+        "y": 0.5738,
+        "w": 0.1287,
+        "h": 0.0161
+      },
+      "note": "Welcome back. serif screen title"
+    },
+    {
+      "id": "welcome-copy",
+      "name": "Welcome copy",
+      "kind": "text",
+      "box": {
+        "x": 0.552,
+        "y": 0.5899,
+        "w": 0.1308,
+        "h": 0.0111
+      },
+      "note": "It is good to see you again."
+    },
+    {
+      "id": "welcome-action",
+      "name": "Welcome action",
+      "kind": "control",
+      "box": {
+        "x": 0.5469,
+        "y": 0.6022,
+        "w": 0.1411,
+        "h": 0.0229
+      },
+      "note": "Continue where you left off navy screen button"
+    },
+    {
+      "id": "welcome-fresh",
+      "name": "Welcome fresh",
+      "kind": "control",
+      "box": {
+        "x": 0.5922,
+        "y": 0.6245,
+        "w": 0.0556,
+        "h": 0.0117
+      },
+      "note": "Start fresh secondary action"
+    },
+    {
+      "id": "welcome-tabs",
+      "name": "Welcome tabs",
+      "kind": "control",
+      "box": {
+        "x": 0.5479,
+        "y": 0.6467,
+        "w": 0.1432,
+        "h": 0.0204
+      },
+      "note": "Home Read Explore More bottom navigation"
+    },
+    {
+      "id": "phone-right",
+      "name": "Phone right",
+      "kind": "chrome",
+      "box": {
+        "x": 0.725,
+        "y": 0.5022,
+        "w": 0.1596,
+        "h": 0.1717
+      },
+      "note": "Illustrative second reading-app screen frame"
+    },
+    {
+      "id": "return-title",
+      "name": "Return title",
+      "kind": "text",
+      "box": {
+        "x": 0.7456,
+        "y": 0.5608,
+        "w": 0.1226,
+        "h": 0.0173
+      },
+      "note": "Pick up again? serif screen title"
+    },
+    {
+      "id": "return-copy",
+      "name": "Return copy",
+      "kind": "text",
+      "box": {
+        "x": 0.7415,
+        "y": 0.58,
+        "w": 0.1277,
+        "h": 0.0284
+      },
+      "note": "You left off a few days ago. Whenever you are ready, we are here."
+    },
+    {
+      "id": "return-action",
+      "name": "Return action",
+      "kind": "control",
+      "box": {
+        "x": 0.7333,
+        "y": 0.6096,
+        "w": 0.1452,
+        "h": 0.0229
+      },
+      "note": "Resume reading-app button"
+    },
+    {
+      "id": "return-plan",
+      "name": "Return plan",
+      "kind": "control",
+      "box": {
+        "x": 0.758,
+        "y": 0.635,
+        "w": 0.0978,
+        "h": 0.0124
+      },
+      "note": "Choose a new plan secondary action"
+    },
+    {
+      "id": "example-caption",
+      "name": "Example caption",
+      "kind": "text",
+      "box": {
+        "x": 0.6406,
+        "y": 0.6794,
+        "w": 0.1802,
+        "h": 0.0124
+      },
+      "note": "Illustrative design options caption"
+    },
+    {
+      "id": "resources-label",
+      "name": "Resources label",
+      "kind": "text",
+      "box": {
+        "x": 0.0927,
+        "y": 0.7066,
+        "w": 0.2204,
+        "h": 0.0124
+      },
+      "note": "Explore our resources label"
+    },
+    {
+      "id": "context-title",
+      "name": "Context title",
+      "kind": "text",
+      "box": {
+        "x": 0.0463,
+        "y": 0.8462,
+        "w": 0.2492,
+        "h": 0.0525
+      },
+      "note": "Our context keeps changing. serif heading"
+    },
+    {
+      "id": "context-copy",
+      "name": "Context copy",
+      "kind": "text",
+      "box": {
+        "x": 0.0463,
+        "y": 0.9018,
+        "w": 0.2441,
+        "h": 0.0259
+      },
+      "note": "Faithful responses begin with renewed attention."
+    },
+    {
+      "id": "context-action",
+      "name": "Context action",
+      "kind": "control",
+      "box": {
+        "x": 0.0463,
+        "y": 0.9327,
+        "w": 0.174,
+        "h": 0.0173
+      },
+      "note": "Explore the perspective text link"
+    },
+    {
+      "id": "context-caption",
+      "name": "Context caption",
+      "kind": "text",
+      "box": {
+        "x": 0.3018,
+        "y": 0.9654,
+        "w": 0.2379,
+        "h": 0.0117
+      },
+      "note": "Generated neighborhood vignette caption"
+    },
+    {
+      "id": "footer-wordmark",
+      "name": "Footer wordmark",
+      "kind": "text",
+      "box": {
+        "x": 0.0463,
+        "y": 0.9716,
+        "w": 0.0721,
+        "h": 0.0266
+      },
+      "note": "Small stacked missional by design wordmark"
+    },
+    {
+      "id": "footer-credit",
+      "name": "Footer credit",
+      "kind": "text",
+      "box": {
+        "x": 0.7477,
+        "y": 0.9839,
+        "w": 0.206,
+        "h": 0.0124
+      },
+      "note": "An open resource by Tobias Treppmann."
+    },
+    {
+      "id": "principles-title",
+      "name": "Principles title",
+      "kind": "text",
+      "box": {
+        "x": 0.0927,
+        "y": 0.7566,
+        "w": 0.1627,
+        "h": 0.0191
+      },
+      "note": "Principles resource heading"
+    },
+    {
+      "id": "principles-copy",
+      "name": "Principles copy",
+      "kind": "text",
+      "box": {
+        "x": 0.0927,
+        "y": 0.7764,
+        "w": 0.2152,
+        "h": 0.0253
+      },
+      "note": "Connect Christian purpose with everyday design decisions."
+    },
+    {
+      "id": "principles-action",
+      "name": "Principles action",
+      "kind": "control",
+      "box": {
+        "x": 0.0927,
+        "y": 0.8054,
+        "w": 0.173,
+        "h": 0.0167
+      },
+      "note": "Open Principles underlined link"
+    },
+    {
+      "id": "canvas-icon",
+      "name": "Canvas icon",
+      "kind": "chrome",
+      "box": {
+        "x": 0.3893,
+        "y": 0.7258,
+        "w": 0.0556,
+        "h": 0.0272
+      },
+      "note": "Simple established icon for Canvas"
+    },
+    {
+      "id": "canvas-title",
+      "name": "Canvas title",
+      "kind": "text",
+      "box": {
+        "x": 0.3852,
+        "y": 0.7566,
+        "w": 0.1627,
+        "h": 0.0191
+      },
+      "note": "Canvas resource heading"
+    },
+    {
+      "id": "canvas-copy",
+      "name": "Canvas copy",
+      "kind": "text",
+      "box": {
+        "x": 0.3852,
+        "y": 0.7764,
+        "w": 0.2152,
+        "h": 0.0253
+      },
+      "note": "Explore what good news means in your context."
+    },
+    {
+      "id": "canvas-action",
+      "name": "Canvas action",
+      "kind": "control",
+      "box": {
+        "x": 0.3852,
+        "y": 0.8054,
+        "w": 0.173,
+        "h": 0.0167
+      },
+      "note": "Open Canvas underlined link"
+    },
+    {
+      "id": "patterns-title",
+      "name": "Patterns title",
+      "kind": "text",
+      "box": {
+        "x": 0.6601,
+        "y": 0.7566,
+        "w": 0.1627,
+        "h": 0.0191
+      },
+      "note": "Patterns resource heading"
+    },
+    {
+      "id": "patterns-copy",
+      "name": "Patterns copy",
+      "kind": "text",
+      "box": {
+        "x": 0.6601,
+        "y": 0.7764,
+        "w": 0.2152,
+        "h": 0.0253
+      },
+      "note": "Compare design options for Bible and faith products."
+    },
+    {
+      "id": "patterns-action",
+      "name": "Patterns action",
+      "kind": "control",
+      "box": {
+        "x": 0.6601,
+        "y": 0.8054,
+        "w": 0.173,
+        "h": 0.0167
+      },
+      "note": "Open Patterns underlined link"
+    },
+    {
+      "id": "resource-divider-one",
+      "name": "Resource divider one",
+      "kind": "chrome",
+      "box": {
+        "x": 0.3605,
+        "y": 0.7276,
+        "w": 0.0021,
+        "h": 0.092
+      },
+      "note": "Thin vertical divider between resource columns"
+    },
+    {
+      "id": "resource-divider-two",
+      "name": "Resource divider two",
+      "kind": "chrome",
+      "box": {
+        "x": 0.6344,
+        "y": 0.7276,
+        "w": 0.0021,
+        "h": 0.092
+      },
+      "note": "Thin vertical divider between resource columns"
+    },
+    {
+      "id": "listening-section",
+      "name": "Listening section",
+      "kind": "chrome",
+      "box": {
+        "x": 0,
+        "y": 0.2662,
+        "w": 1,
+        "h": 0.2236
+      },
+      "note": "Two-column listening section layout"
+    },
+    {
+      "id": "example-section",
+      "name": "Example section",
+      "kind": "chrome",
+      "box": {
+        "x": 0,
+        "y": 0.4898,
+        "w": 1,
+        "h": 0.2051
+      },
+      "note": "Two-column worked reading example layout"
+    },
+    {
+      "id": "resource-section",
+      "name": "Resource section",
+      "kind": "chrome",
+      "box": {
+        "x": 0,
+        "y": 0.6949,
+        "w": 1,
+        "h": 0.139
+      },
+      "note": "Three resource columns layout"
+    },
+    {
+      "id": "context-section",
+      "name": "Context section",
+      "kind": "chrome",
+      "box": {
+        "x": 0,
+        "y": 0.8338,
+        "w": 1,
+        "h": 0.1408
+      },
+      "note": "Two-column context section layout"
+    }
+  ]
+}
