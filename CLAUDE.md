@@ -2,6 +2,10 @@
 
 # Continue Missional by Design
 
+## Workspace: three repos side by side (read first)
+
+This site is one of three checkouts that must sit next to each other in one parent folder: `bible-faith-patterns` (reference source and handoff, private), `bible-faith-patterns-research` (research corpus, private) and this one. If `../bible-faith-patterns` is missing, clone it (`gh repo clone oratioandco/bible-faith-patterns`; access through the owner) and run `bash ../bible-faith-patterns/tools/setup_workspace.sh`. Then start from `../bible-faith-patterns/CLAUDE.md`. Nothing private belongs in this public repo.
+
 Read [HANDOFF.md](HANDOFF.md), its linked canonical cross-project handoff/task ledger, parent AGENTS.md and [first-time visitor writing standard](../bible-faith-patterns/research/editorial/visitor-voice-2026-10-16/EDITORIAL_VOICE.md).
 
 Current work: V15 first-visit readiness pass. EN/DE home, principles, canvas routes, About/Writing and share previews are aligned. Source, screenshot review, checks and FaithTech/Praxis introduction drafts: ../bible-faith-patterns/research/editorial/readiness-2026-10-16/. Nothing sent. Use the latest handoff notice for exact release status; older deployment/video notes are history.
